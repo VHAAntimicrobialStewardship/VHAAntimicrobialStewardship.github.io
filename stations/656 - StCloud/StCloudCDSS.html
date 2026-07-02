@@ -10,19 +10,19 @@
   gtag('config', 'G-RZT6D0E0DS');
   </script>
   <script>
-  var CDSSlocation = 'Omaha'; /*Only important to CDSS program functions, can be left as it for other systems*/
-  var Title = 'Omaha Antimicrobial CDSS'; /*Name of the tab on the website*/
-  var MainMenuButton = 'Omaha Home'; /*Main menu button name*/
-  const MainMenu = 'ORZID2 NE GMENU ABX INPT MAIN'; /*the menu the website starts at*/
-  const outptMenu = 'ORZID3 NE GMENU ABX OUTPT MAIN'; /*the menu the website starts at*/
-  const erucMenu = 'ORZID NE GMENU ER/UC EMERGENCY DEPARTMENT MAIN MENU'; /*the menu the website starts at*/	  
+  var CDSSlocation = 'St. Cloud'; /*Only important to CDSS program functions, can be left as it for other systems*/
+  var Title = 'St. Cloud Antimicrobial CDSS'; /*Name of the tab on the website*/
+  var MainMenuButton = 'St. Cloud Home'; /*Main menu button name*/
+  const MainMenu = 'ORZID2 GMENU ABX INPT MAIN'; /*the menu the website starts at*/
+  const outptMenu = 'ORZID3 GMENU ABX OUTPT MAIN'; /*the menu the website starts at*/
+  const erucMenu = 'ORZID GMENU ER/UC EMERGENCY DEPARTMENT MAIN MENU'; /*the menu the website starts at*/	  
   var IndexButton = 'Index'; /*Only important to CDSS program functions, can be left as it for other systems*/
   var homeButtonUrl = 'https://vhaasp.github.io/'; /*Only important to CDSS program functions, home URL*/
-  const Index = 'ORZID2 NE GMENU ABX INDEX INPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
-  const outptIndex = 'ORZID3 NE GMENU ABX INDEX OUTPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
-  const OMjson = 'OmahaOMJSON.json'; /*Name of OMJSON file*/
-  const ODjson = 'OmahaODJSON.json'; /*Name of ODJSOM file*/
-  const txmlFile = 'Omaha.txml'; /*Name of txml file*/
+  const Index = 'ORZID2 GMENU ABX INDEX INPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
+  const outptIndex = 'ORZID3 GMENU ABX INDEX OUTPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
+  const OMjson = 'stations/656 - StCloud/StCloudOMJSON.json'; /*Name of OMJSON file*/
+  const ODjson = 'stations/656 - StCloud/StCloudODJSON.json'; /*Name of ODJSOM file*/
+  const txmlFile = 'stations/656 - StCloud/StCloud.txml'; /*Name of txml file*/
   const AbxLinkjson = 'AbxLinks.json'; /*Name of AbxLinks file*/
   const SearchMenuPrefix = 'ORZID2'; /*Order menu prefix to be used in search bar*/
   const MenuPrefix = 'ORZID'; /*Order menu prefix*/
@@ -176,7 +176,7 @@
   flex-direction: column;
   /* Set a width to limit the header */
   min-width: 900px;
-  width: 100%;
+  width: 100%
   box-sizing: border-box; /* Include padding and borders in the width calculation */
 }
 
@@ -1588,25 +1588,25 @@ function openDropdown() {
 
 // JavaScript code to handle button clicks
 document.getElementById('desMoinesButton').addEventListener('click', function () {
-openPageInNewWindow("DesMoinesCDSS.html", { " CI ": " ", " NE ": " ", "GMENU": "CI GMENU" });
+openPageInNewWindow("stations/636A6 - DesMoines/DesMoinesCDSS.html", { " CI ": " ", " NE ": " ", "GMENU": "CI GMENU" });
 });
 document.getElementById('minneapolisButton').addEventListener('click', function () {
-  openPageInNewWindow("BlackHillsCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
+  openPageInNewWindow("stations/568 - BlackHills/BlackHillsCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
 });
 document.getElementById('fargoButton').addEventListener('click', function () {
-  openPageInNewWindow("FargoCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
+  openPageInNewWindow("stations/437 - Fargo/FargoCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
 });
 document.getElementById('minneapolisButton').addEventListener('click', function () {
-  openPageInNewWindow("MinneapolisCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
+  openPageInNewWindow("stations/618 - Minneapolis/MinneapolisCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
 });
 document.getElementById('omahaButton').addEventListener('click', function () {
-  openPageInNewWindow('OmahaCDSS.html', { " CI ": " ", " NE ": " ", "GMENU": "NE GMENU" }); // Pass the replacement value
+  openPageInNewWindow('stations/636 - Omaha/OmahaCDSS.html', { " CI ": " ", " NE ": " ", "GMENU": "NE GMENU" }); // Pass the replacement value
 });
 document.getElementById('stCloudButton').addEventListener('click', function () {
-  openPageInNewWindow('StCloudCDSS.html', { " CI ": " ", " NE ": " " }); // Pass the replacement value
+  openPageInNewWindow('stations/656 - StCloud/StCloudCDSS.html', { " CI ": " ", " NE ": " " }); // Pass the replacement value
 });
 document.getElementById('siouxFallsButton').addEventListener('click', function () {
-  openPageInNewWindow('SiouxFallsCDSS.html', { " CI ": " ", " NE ": " " }); // Pass the replacement value
+  openPageInNewWindow('stations/438 - SiouxFalls/SiouxFallsCDSS.html', { " CI ": " ", " NE ": " " }); // Pass the replacement value
 });
 
 // Attach event listeners
@@ -1821,4 +1821,15 @@ window.onload = function() {
 </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
 

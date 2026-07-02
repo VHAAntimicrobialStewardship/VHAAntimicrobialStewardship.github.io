@@ -10,9 +10,9 @@
   gtag('config', 'G-RZT6D0E0DS');
   </script>
   <script>
-  var CDSSlocation = 'Black Hills'; /*Only important to CDSS program functions, can be left as it for other systems*/
-  var Title = 'Black Hills Antimicrobial CDSS'; /*Name of the tab on the website*/
-  var MainMenuButton = 'Black Hills Home'; /*Main menu button name*/
+  var CDSSlocation = 'Minneapolis'; /*Only important to CDSS program functions, can be left as it for other systems*/
+  var Title = 'Minneapolis Antimicrobial CDSS'; /*Name of the tab on the website*/
+  var MainMenuButton = 'Minneapolis Home'; /*Main menu button name*/
   const MainMenu = 'ORZID2 GMENU ABX INPT MAIN'; /*the menu the website starts at*/
   const outptMenu = 'ORZID3 GMENU ABX OUTPT MAIN'; /*the menu the website starts at*/
   const erucMenu = 'ORZID GMENU ER/UC EMERGENCY DEPARTMENT MAIN MENU'; /*the menu the website starts at*/	  
@@ -20,9 +20,9 @@
   var homeButtonUrl = 'https://vhaasp.github.io/'; /*Only important to CDSS program functions, home URL*/
   const Index = 'ORZID2 GMENU ABX INDEX INPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
   const outptIndex = 'ORZID3 GMENU ABX INDEX OUTPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
-  const OMjson = 'BlackHillsOMJSON.json'; /*Name of OMJSON file*/
-  const ODjson = 'BlackHillsODJSON.json'; /*Name of ODJSOM file*/
-  const txmlFile = 'BlackHills.txml'; /*Name of txml file*/
+  const OMjson = 'stations/618 - Minneapolis/MinneapolisOMJSON.json'; /*Name of OMJSON file*/
+  const ODjson = 'stations/618 - Minneapolis/MinneapolisODJSON.json'; /*Name of ODJSOM file*/
+  const txmlFile = 'stations/618 - Minneapolis/Minneapolis.txml'; /*Name of txml file*/
   const AbxLinkjson = 'AbxLinks.json'; /*Name of AbxLinks file*/
   const SearchMenuPrefix = 'ORZID2'; /*Order menu prefix to be used in search bar*/
   const MenuPrefix = 'ORZID'; /*Order menu prefix*/
@@ -1588,25 +1588,25 @@ function openDropdown() {
 
 // JavaScript code to handle button clicks
 document.getElementById('desMoinesButton').addEventListener('click', function () {
-openPageInNewWindow("DesMoinesCDSS.html", { " CI ": " ", " NE ": " ", "GMENU": "CI GMENU" });
+openPageInNewWindow("stations/636A6 - DesMoines/DesMoinesCDSS.html", { " CI ": " ", " NE ": " ", "GMENU": "CI GMENU" });
 });
 document.getElementById('minneapolisButton').addEventListener('click', function () {
-  openPageInNewWindow("BlackHillsCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
+  openPageInNewWindow("stations/568 - BlackHills/BlackHillsCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
 });
 document.getElementById('fargoButton').addEventListener('click', function () {
-  openPageInNewWindow("FargoCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
+  openPageInNewWindow("stations/437 - Fargo/FargoCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
 });
 document.getElementById('minneapolisButton').addEventListener('click', function () {
-  openPageInNewWindow("MinneapolisCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
+  openPageInNewWindow("stations/618 - Minneapolis/MinneapolisCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
 });
 document.getElementById('omahaButton').addEventListener('click', function () {
-  openPageInNewWindow('OmahaCDSS.html', { " CI ": " ", " NE ": " ", "GMENU": "NE GMENU" }); // Pass the replacement value
+  openPageInNewWindow('stations/636 - Omaha/OmahaCDSS.html', { " CI ": " ", " NE ": " ", "GMENU": "NE GMENU" }); // Pass the replacement value
 });
 document.getElementById('stCloudButton').addEventListener('click', function () {
-  openPageInNewWindow('StCloudCDSS.html', { " CI ": " ", " NE ": " " }); // Pass the replacement value
+  openPageInNewWindow('stations/656 - StCloud/StCloudCDSS.html', { " CI ": " ", " NE ": " " }); // Pass the replacement value
 });
 document.getElementById('siouxFallsButton').addEventListener('click', function () {
-  openPageInNewWindow('SiouxFallsCDSS.html', { " CI ": " ", " NE ": " " }); // Pass the replacement value
+  openPageInNewWindow('stations/438 - SiouxFalls/SiouxFallsCDSS.html', { " CI ": " ", " NE ": " " }); // Pass the replacement value
 });
 
 // Attach event listeners
@@ -1821,5 +1821,15 @@ window.onload = function() {
 </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
 
 
