@@ -382,7 +382,7 @@
       <ITEMS>
         <p>Please select "Allow" from the pop-up box and then </p>
         <p>*WAIT* for Outlook Email to open in browser.</p>
-        <p>Email: VISN23AntimicrobialCDSS@va.gov</p>
+        <p>Email: andrew.holbrook@va.gov</p>
         <p></p>
         <p>CDSS Staff (call or Skype for immediate assistance):</p>
         <p>    Erik Stensgard, PharmD, Phone: 612-467-1781 or</p>
@@ -409,7 +409,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://outlook.office.com/owa/?path=/mail/action/compose&amp;to=[VISN23AntimicrobialCDSS@va.gov]?subject=Antimicrobial CDSS</URL>
+      <URL>mailto:andrew.holbrook@va.gov</URL>
     </FIELD>
     <FIELD NAME="ABX CDSS FAQ">
       <TYPE>H</TYPE>

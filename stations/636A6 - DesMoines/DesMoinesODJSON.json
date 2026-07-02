@@ -53281,7 +53281,7 @@
 "Name" : "ORZ GTX NE CDSS EMAIL",
 "DisplayGroup" : "GENERIC ORDERS",
 "WordProcessing1" : "Email the Antimicrobial CDSS Program Team",
-"WordProcessing2" : "Outlook Email address: VISN23AntimicrobialCDSS@va.gov",
+"WordProcessing2" : "Outlook Email address: andrew.holbrook@va.gov",
 "WordProcessing3" : "This is NOT an order.",
 "WordProcessing4" : "{FLD:ABX GENERIC CLICK LINK BELOW}",
 "WordProcessing5" : "{FLD:ABX CDSS EMAIL PROGRAM TEAM}", 

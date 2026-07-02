@@ -158,7 +158,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://outlook.office.com/owa/?path=/mail/action/compose&amp;to=[VISN23AntimicrobialCDSS@va.gov]?subject=Antimicrobial CDSS</URL>
+      <URL>mailto:andrew.holbrook@va.gov</URL>
     </FIELD>
     <FIELD NAME="ABX CDSS STAFF EMAIL VERBAGE">
       <TYPE>T</TYPE>
@@ -175,7 +175,7 @@
       <INCREMENT>0</INCREMENT>
       <ITEMS>
         <p>*WAIT* for Outlook Email to open in browser.</p>
-        <p>Email: VISN23AntimicrobialCDSS@va.gov</p>
+        <p>Email: andrew.holbrook@va.gov</p>
       </ITEMS>
     </FIELD>
     <FIELD NAME="ABX MINNEAPOLIS ON-CALL SCHEDULE">
@@ -620,7 +620,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>mailto:VISN23AntimicrobialCDSS@va.gov</URL>
+      <URL>mailto:andrew.holbrook@va.gov</URL>
     </FIELD>
     <FIELD NAME="ABX ANTIMICROBIAL FORMULARY">
       <TYPE>H</TYPE>

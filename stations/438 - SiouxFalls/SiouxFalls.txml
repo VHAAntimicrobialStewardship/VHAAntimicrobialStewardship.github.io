@@ -221,7 +221,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FAntimicrobialCDSS%2Fvhaasp.github.io%2F6515efa3956ad48313eb7b2e013ca6259a754fb4%2FResources%2FAmoxicillin%2520Challenge%2520SF.docx&amp;wdOri</URL>
+      <URL>https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FVHAASP%2FVHAASP.github.io%2F6515efa3956ad48313eb7b2e013ca6259a754fb4%2FResources%2FAmoxicillin%2520Challenge%2520SF.docx&amp;wdOri</URL>
     </FIELD>
     <FIELD NAME="ABX MDH ANTIBIOGRAM">
       <TYPE>H</TYPE>
@@ -410,7 +410,7 @@
       <ITEMS>
         <p>Please select "Allow" from the pop-up box and then </p>
         <p>*WAIT* for Outlook Email to open in browser.</p>
-        <p>Email: VISN23AntimicrobialCDSS@va.gov</p>
+        <p>Email: andrew.holbrook@va.gov</p>
         <p></p>
         <p>CDSS Staff (call or Skype for immediate assistance):</p>
         <p>    Erik Stensgard, PharmD, Phone: 612-467-1781 or</p>
@@ -431,7 +431,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://outlook.office.com/owa/?path=/mail/action/compose&amp;to=[VISN23AntimicrobialCDSS@va.gov]?subject=Antimicrobial CDSS</URL>
+      <URL>mailto:andrew.holbrook@va.gov</URL>
     </FIELD>
     <FIELD NAME="ABX CDSS FAQ">
       <TYPE>H</TYPE>
