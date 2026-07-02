@@ -1,38 +1,72 @@
-import glob
-import os
-import re
+from pathlib import Path
 
-root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-updated = []
+root = Path(__file__).resolve().parent.parent
+stations = root / 'stations'
+rename_map = {
+    '437 - Fargo': '437-Fargo',
+    '438 - SiouxFalls': '438-SiouxFalls',
+    '442 - Cheyenne': '442-Cheyenne',
+    '568 - BlackHills': '568-BlackHills',
+    '618 - Minneapolis': '618-Minneapolis',
+    '636 - Omaha': '636-Omaha',
+    '636A6 - DesMoines': '636A6-DesMoines',
+    '656 - StCloud': '656-StCloud',
+}
 
-for path in glob.glob(os.path.join(root, 'stations', '*', '*CDSS.html')):
-    station = os.path.basename(path).replace('CDSS.html', '')
-    with open(path, 'r', encoding='utf-8') as fh:
-        content = fh.read()
-    original = content
+replace_pairs = []
+for old, new in rename_map.items():
+    old_encoded = old.replace(' ', '%20')
+    replace_pairs.append((f'stations/{old}/', f'stations/{new}/'))
+    replace_pairs.append((f'stations/{old_encoded}/', f'stations/{new}/'))
+    replace_pairs.append((f'/stations/{old}/', f'/stations/{new}/'))
+    replace_pairs.append((f'/stations/{old_encoded}/', f'/stations/{new}/'))
+    replace_pairs.append((f'stations/{old}', f'stations/{new}'))
+    replace_pairs.append((f'stations/{old_encoded}', f'stations/{new}'))
+    replace_pairs.append((f'/stations/{old}', f'/stations/{new}'))
+    replace_pairs.append((f'/stations/{old_encoded}', f'/stations/{new}'))
 
-    # file data references should be relative to station folder
-    content = re.sub(r"const OMjson = 'stations/[^']+/[^']+';", f"const OMjson = '{station}OMJSON.json';", content)
-    content = re.sub(r"const ODjson = 'stations/[^']+/[^']+';", f"const ODjson = '{station}ODJSON.json';", content)
-    content = re.sub(r"const txmlFile = 'stations/[^']+/[^']+';", f"const txmlFile = '{station}.txml';", content)
+replace_pairs.extend([
+    ('href="../manifest.webmanifest"', 'href="/manifest.webmanifest"'),
+    ("href='../manifest.webmanifest'", "href='/manifest.webmanifest'"),
+    ('href="../CDSSLogoApp.png"', 'href="/CDSSLogoApp.png"'),
+    ("href='../CDSSLogoApp.png'", "href='/CDSSLogoApp.png'"),
+    ("url('../Fonts/", "url('/Fonts/"),
+    ('url("../Fonts/', 'url("/Fonts/'),
+    ('url(../Fonts/', 'url(/Fonts/'),
+])
 
-    # root assets referenced from station page
-    content = content.replace("const AbxLinkjson = 'AbxLinks.json';", "const AbxLinkjson = '../AbxLinks.json';")
-    content = content.replace('<link rel="manifest" href="manifest.webmanifest">', '<link rel="manifest" href="../manifest.webmanifest">')
-    content = content.replace('<link rel="icon" href="CDSSLogoApp.png" type="image/x-icon">', '<link rel="icon" href="../CDSSLogoApp.png" type="image/x-icon">')
-    content = content.replace("url('Fonts/", "url('../Fonts/")
-    content = content.replace("href='manifest.webmanifest'", "href='../manifest.webmanifest'")
-    content = content.replace('href="manifest.webmanifest"', 'href="../manifest.webmanifest"')
-    content = content.replace('href="CDSSLogoApp.png"', 'href="../CDSSLogoApp.png"')
+# Fix ItemLinkjson for Fargo only
+replace_pairs.append(("const ItemLinkjson = 'stations/437 - Fargo/FargoItemLinks.json';", "const ItemLinkjson = 'stations/437-Fargo/FargoItemLinks.json';"))
 
-    # fix common relative plugin paths if needed
-    content = content.replace('href="../CDSSLogoApp.png" type="image/x-icon"', 'href="../CDSSLogoApp.png" type="image/x-icon"')
+# Rename station directories
+print('Renaming station directories...')
+for old, new in rename_map.items():
+    old_dir = stations / old
+    new_dir = stations / new
+    if old_dir.exists() and not new_dir.exists():
+        print(f'  {old_dir.name} -> {new_dir.name}')
+        old_dir.rename(new_dir)
+    elif old_dir.exists() and new_dir.exists():
+        print(f'  Warning: target exists, skipping {new_dir.name}')
+    else:
+        print(f'  No directory to rename: {old_dir.name}')
 
-    if content != original:
-        with open(path, 'w', encoding='utf-8') as fh:
-            fh.write(content)
-        updated.append(path)
+# Update text files
+updated_files = []
+for path in root.rglob('*'):
+    if not path.is_file():
+        continue
+    if path.suffix.lower() not in {'.html', '.js', '.md'}:
+        continue
+    text = path.read_text(encoding='utf-8')
+    new_text = text
+    for old, new in replace_pairs:
+        new_text = new_text.replace(old, new)
+    if new_text != text:
+        path.write_text(new_text, encoding='utf-8')
+        updated_files.append(path.relative_to(root))
 
-for p in updated:
-    print('Updated', os.path.relpath(p, root))
-print('Done: updated', len(updated), 'station HTML files.')
+print('Updated files:')
+for f in updated_files:
+    print('  ', f)
+print('Done: updated', len(updated_files), 'files.')

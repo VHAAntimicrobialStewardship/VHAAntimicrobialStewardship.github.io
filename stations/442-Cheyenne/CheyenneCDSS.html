@@ -10,19 +10,19 @@
   gtag('config', 'G-RZT6D0E0DS');
   </script>
   <script>
-  var CDSSlocation = 'Des Moines'; /*Only important to CDSS program functions, can be left as it for other systems*/
-  var Title = 'Des Moines Antimicrobial CDSS'; /*Name of the tab on the website*/
-  var MainMenuButton = 'Des Moines Home'; /*Main menu button name*/
-  const MainMenu = 'ORZID2 CI GMENU ABX INPT MAIN'; /*the menu the website starts at*/
-  const outptMenu = 'ORZID3 CI GMENU ABX OUTPT MAIN'; /*the menu the website starts at*/
-  const erucMenu = 'ORZID CI GMENU ER/UC EMERGENCY DEPARTMENT MAIN MENU'; /*the menu the website starts at*/	  
+  var CDSSlocation = 'Cheyenne'; /*Only important to CDSS program functions, can be left as it for other systems*/
+  var Title = 'Cheyenne Antimicrobial CDSS'; /*Name of the tab on the website*/
+  var MainMenuButton = 'Cheyenne Home'; /*Main menu button name*/
+  const MainMenu = 'ORZID2 GMENU ABX INPT MAIN'; /*the menu the website starts at*/
+  const outptMenu = 'ORZID3 GMENU ABX OUTPT MAIN'; /*the menu the website starts at*/
+  const erucMenu = 'ORZID GMENU ER/UC EMERGENCY DEPARTMENT MAIN MENU'; /*the menu the website starts at*/	  
   var IndexButton = 'Index'; /*Only important to CDSS program functions, can be left as it for other systems*/
   var homeButtonUrl = 'https://vhaasp.github.io/'; /*Only important to CDSS program functions, home URL*/
-  const Index = 'ORZID2 CI GMENU ABX INDEX INPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
-  const outptIndex = 'ORZID3 CI GMENU ABX INDEX OUTPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
-  const OMjson = '/stations/636A6%20-%20DesMoines/DesMoinesOMJSON.json'; /*Name of OMJSON file*/
-  const ODjson = '/stations/636A6%20-%20DesMoines/DesMoinesODJSON.json'; /*Name of ODJSOM file*/
-  const txmlFile = '/stations/636A6%20-%20DesMoines/DesMoines.txml'; /*Name of txml file*/
+  const Index = 'ORZID2 GMENU ABX INDEX INPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
+  const outptIndex = 'ORZID3 GMENU ABX INDEX OUTPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
+  const OMjson = '/stations/442-Cheyenne/CheyenneOMJSON.json'; /*Name of OMJSON file*/
+  const ODjson = '/stations/442-Cheyenne/CheyenneODJSON.json'; /*Name of ODJSOM file*/
+  const txmlFile = '/stations/442-Cheyenne/Cheyenne.txml'; /*Name of txml file*/
   const AbxLinkjson = '/AbxLinks.json'; /*Name of AbxLinks file*/
   const SearchMenuPrefix = 'ORZID2'; /*Order menu prefix to be used in search bar*/
   const MenuPrefix = 'ORZID'; /*Order menu prefix*/
@@ -36,39 +36,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title id="pageTitle"></title>
-  <link rel="manifest" href="../manifest.webmanifest">
-  <link rel="icon" href="../CDSSLogoApp.png" type="image/x-icon">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/CDSSLogoApp.png" type="image/x-icon">
   <style>
   /* Common styles */
   @font-face {
   font-family: 'PT Serif Bold';
-  src: url('../Fonts/PTSerif-Bold.eot');
-  src: url('../Fonts/PTSerif-Bold.eot?#iefix') format('embedded-opentype'),
-       url('../Fonts/PTSerif-Bold.woff2') format('woff2'),
-       url('../Fonts/PTSerif-Bold.woff') format('woff'),
-       url('../Fonts/PTSerif-Bold.ttf') format('truetype'),
-       url('../Fonts/PTSerif-Bold.svg#PTSerifbold') format('svg');
+  src: url('/Fonts/PTSerif-Bold.eot');
+  src: url('/Fonts/PTSerif-Bold.eot?#iefix') format('embedded-opentype'),
+       url('/Fonts/PTSerif-Bold.woff2') format('woff2'),
+       url('/Fonts/PTSerif-Bold.woff') format('woff'),
+       url('/Fonts/PTSerif-Bold.ttf') format('truetype'),
+       url('/Fonts/PTSerif-Bold.svg#PTSerifbold') format('svg');
   font-weight: bold;
 }
 @font-face {
   font-family: 'PT Serif Italic';
-  src: url('../Fonts/PTSerif-Italic.eot');
-  src: url('../Fonts/PTSerif-Italic.eot?#iefix') format('embedded-opentype'),
-       url('../Fonts/PTSerif-Italic.woff2') format('woff2'),
-       url('../Fonts/PTSerif-Italic.woff') format('woff'),
-       url('../Fonts/PTSerif-Italic.ttf') format('truetype'),
-       url('../Fonts/PTSerif-Italic.svg#PTSerifitalic') format('svg');
+  src: url('/Fonts/PTSerif-Italic.eot');
+  src: url('/Fonts/PTSerif-Italic.eot?#iefix') format('embedded-opentype'),
+       url('/Fonts/PTSerif-Italic.woff2') format('woff2'),
+       url('/Fonts/PTSerif-Italic.woff') format('woff'),
+       url('/Fonts/PTSerif-Italic.ttf') format('truetype'),
+       url('/Fonts/PTSerif-Italic.svg#PTSerifitalic') format('svg');
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: 'PT Serif Regular';
-  src: url('../Fonts/PTSerif-Regular.eot');
-  src: url('../Fonts/PTSerif-Regular.eot?#iefix') format('embedded-opentype'),
-       url('../Fonts/PTSerif-Regular.woff2') format('woff2'),
-       url('../Fonts/PTSerif-Regular.woff') format('woff'),
-       url('../Fonts/PTSerif-Regular.ttf') format('truetype'),
-       url('../Fonts/PTSerif-Regular.svg#PTSerifregular') format('svg');
+  src: url('/Fonts/PTSerif-Regular.eot');
+  src: url('/Fonts/PTSerif-Regular.eot?#iefix') format('embedded-opentype'),
+       url('/Fonts/PTSerif-Regular.woff2') format('woff2'),
+       url('/Fonts/PTSerif-Regular.woff') format('woff'),
+       url('/Fonts/PTSerif-Regular.ttf') format('truetype'),
+       url('/Fonts/PTSerif-Regular.svg#PTSerifregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -1588,25 +1588,25 @@ function openDropdown() {
 
 // JavaScript code to handle button clicks
 document.getElementById('desMoinesButton').addEventListener('click', function () {
-openPageInNewWindow("stations/636A6 - DesMoines/DesMoinesCDSS.html", { " CI ": " ", " NE ": " ", "GMENU": "CI GMENU" });
+openPageInNewWindow("stations/636A6-DesMoines/DesMoinesCDSS.html", { " CI ": " ", " NE ": " ", "GMENU": "CI GMENU" });
 });
 document.getElementById('minneapolisButton').addEventListener('click', function () {
-  openPageInNewWindow("stations/568 - BlackHills/BlackHillsCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
+  openPageInNewWindow("stations/568-BlackHills/BlackHillsCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
 });
 document.getElementById('fargoButton').addEventListener('click', function () {
-  openPageInNewWindow("stations/437 - Fargo/FargoCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
+  openPageInNewWindow("stations/437-Fargo/FargoCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
 });
 document.getElementById('minneapolisButton').addEventListener('click', function () {
-  openPageInNewWindow("stations/618 - Minneapolis/MinneapolisCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
+  openPageInNewWindow("stations/618-Minneapolis/MinneapolisCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
 });
 document.getElementById('omahaButton').addEventListener('click', function () {
-  openPageInNewWindow('stations/636 - Omaha/OmahaCDSS.html', { " CI ": " ", " NE ": " ", "GMENU": "NE GMENU" }); // Pass the replacement value
+  openPageInNewWindow('stations/636-Omaha/OmahaCDSS.html', { " CI ": " ", " NE ": " ", "GMENU": "NE GMENU" }); // Pass the replacement value
 });
 document.getElementById('stCloudButton').addEventListener('click', function () {
-  openPageInNewWindow('stations/656 - StCloud/StCloudCDSS.html', { " CI ": " ", " NE ": " " }); // Pass the replacement value
+  openPageInNewWindow('stations/656-StCloud/StCloudCDSS.html', { " CI ": " ", " NE ": " " }); // Pass the replacement value
 });
 document.getElementById('siouxFallsButton').addEventListener('click', function () {
-  openPageInNewWindow('stations/438 - SiouxFalls/SiouxFallsCDSS.html', { " CI ": " ", " NE ": " " }); // Pass the replacement value
+  openPageInNewWindow('stations/438-SiouxFalls/SiouxFallsCDSS.html', { " CI ": " ", " NE ": " " }); // Pass the replacement value
 });
 
 // Attach event listeners

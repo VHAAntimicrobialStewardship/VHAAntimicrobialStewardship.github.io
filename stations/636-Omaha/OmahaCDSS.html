@@ -10,19 +10,20 @@
   gtag('config', 'G-RZT6D0E0DS');
   </script>
   <script>
-  var CDSSlocation = 'Minneapolis'; /*Only important to CDSS program functions, can be left as it for other systems*/
-  var Title = 'Minneapolis Antimicrobial CDSS'; /*Name of the tab on the website*/
-  var MainMenuButton = 'Minneapolis Home'; /*Main menu button name*/
-  const MainMenu = 'ORZID2 GMENU ABX INPT MAIN'; /*the menu the website starts at*/
-  const outptMenu = 'ORZID3 GMENU ABX OUTPT MAIN'; /*the menu the website starts at*/
-  const erucMenu = 'ORZID GMENU ER/UC EMERGENCY DEPARTMENT MAIN MENU'; /*the menu the website starts at*/	  
+  var CDSSlocation = 'Omaha'; /*Only important to CDSS program functions, can be left as it for other systems*/
+  var Title = 'Omaha Antimicrobial CDSS'; /*Name of the tab on the website*/
+  var MainMenuButton = 'Omaha Home'; /*Main menu button name*/
+  const MainMenu = 'ORZID2 NE GMENU ABX INPT MAIN'; /*the menu the website starts at*/
+  const outptMenu = 'ORZID3 NE GMENU ABX OUTPT MAIN'; /*the menu the website starts at*/
+  const erucMenu = 'ORZID NE GMENU ER/UC EMERGENCY DEPARTMENT MAIN MENU'; /*the menu the website starts at*/	  
   var IndexButton = 'Index'; /*Only important to CDSS program functions, can be left as it for other systems*/
   var homeButtonUrl = 'https://vhaasp.github.io/'; /*Only important to CDSS program functions, home URL*/
-  const Index = 'ORZID2 GMENU ABX INDEX INPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
-  const outptIndex = 'ORZID3 GMENU ABX INDEX OUTPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
-  const OMjson = 'stations/618-Minneapolis/MinneapolisOMJSON.json'; /*Name of OMJSON file*/
-  const ODjson = 'stations/618-Minneapolis/MinneapolisODJSON.json'; /*Name of ODJSOM file*/
-  const txmlFile = 'stations/618-Minneapolis/Minneapolis.txml'; /*Name of txml file*/
+  const Index = 'ORZID2 NE GMENU ABX INDEX INPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
+  const outptIndex = 'ORZID3 NE GMENU ABX INDEX OUTPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
+  const OMjson = '/stations/636-Omaha/OmahaOMJSON.json'; /*Name of OMJSON file*/
+  const ODjson = '/stations/636-Omaha/OmahaODJSON.json'; /*Name of ODJSOM file*/
+  const txmlFile = '/stations/636-Omaha/Omaha.txml'; /*Name of txml file*/
+  const AbxLinkjson = '/AbxLinks.json'; /*Name of AbxLinks file*/
   const SearchMenuPrefix = 'ORZID2'; /*Order menu prefix to be used in search bar*/
   const MenuPrefix = 'ORZID'; /*Order menu prefix*/
   const LinkPrefix = 'ORZ GTX'; /*Generic Order prefix for links*/
@@ -35,39 +36,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title id="pageTitle"></title>
-  <link rel="manifest" href="manifest.webmanifest">
-  <link rel="icon" href="CDSSLogoApp.png" type="image/x-icon">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/CDSSLogoApp.png" type="image/x-icon">
   <style>
   /* Common styles */
   @font-face {
   font-family: 'PT Serif Bold';
-  src: url('Fonts/PTSerif-Bold.eot');
-  src: url('Fonts/PTSerif-Bold.eot?#iefix') format('embedded-opentype'),
-       url('Fonts/PTSerif-Bold.woff2') format('woff2'),
-       url('Fonts/PTSerif-Bold.woff') format('woff'),
-       url('Fonts/PTSerif-Bold.ttf') format('truetype'),
-       url('Fonts/PTSerif-Bold.svg#PTSerifbold') format('svg');
+  src: url('/Fonts/PTSerif-Bold.eot');
+  src: url('/Fonts/PTSerif-Bold.eot?#iefix') format('embedded-opentype'),
+       url('/Fonts/PTSerif-Bold.woff2') format('woff2'),
+       url('/Fonts/PTSerif-Bold.woff') format('woff'),
+       url('/Fonts/PTSerif-Bold.ttf') format('truetype'),
+       url('/Fonts/PTSerif-Bold.svg#PTSerifbold') format('svg');
   font-weight: bold;
 }
 @font-face {
   font-family: 'PT Serif Italic';
-  src: url('Fonts/PTSerif-Italic.eot');
-  src: url('Fonts/PTSerif-Italic.eot?#iefix') format('embedded-opentype'),
-       url('Fonts/PTSerif-Italic.woff2') format('woff2'),
-       url('Fonts/PTSerif-Italic.woff') format('woff'),
-       url('Fonts/PTSerif-Italic.ttf') format('truetype'),
-       url('Fonts/PTSerif-Italic.svg#PTSerifitalic') format('svg');
+  src: url('/Fonts/PTSerif-Italic.eot');
+  src: url('/Fonts/PTSerif-Italic.eot?#iefix') format('embedded-opentype'),
+       url('/Fonts/PTSerif-Italic.woff2') format('woff2'),
+       url('/Fonts/PTSerif-Italic.woff') format('woff'),
+       url('/Fonts/PTSerif-Italic.ttf') format('truetype'),
+       url('/Fonts/PTSerif-Italic.svg#PTSerifitalic') format('svg');
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: 'PT Serif Regular';
-  src: url('Fonts/PTSerif-Regular.eot');
-  src: url('Fonts/PTSerif-Regular.eot?#iefix') format('embedded-opentype'),
-       url('Fonts/PTSerif-Regular.woff2') format('woff2'),
-       url('Fonts/PTSerif-Regular.woff') format('woff'),
-       url('Fonts/PTSerif-Regular.ttf') format('truetype'),
-       url('Fonts/PTSerif-Regular.svg#PTSerifregular') format('svg');
+  src: url('/Fonts/PTSerif-Regular.eot');
+  src: url('/Fonts/PTSerif-Regular.eot?#iefix') format('embedded-opentype'),
+       url('/Fonts/PTSerif-Regular.woff2') format('woff2'),
+       url('/Fonts/PTSerif-Regular.woff') format('woff'),
+       url('/Fonts/PTSerif-Regular.ttf') format('truetype'),
+       url('/Fonts/PTSerif-Regular.svg#PTSerifregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -441,6 +442,15 @@ async function fetchODData() {
   return data;
   }
 
+  // Fetch AbxLink Data
+async function fetchAbxLink() {
+  const response = await fetch(AbxLinkjson);
+  const data = await response.json();
+  return data;
+  }
+  
+
+
 // Global variables
 let omData = []; // OMJSON data
 let odData = []; // ODJSON data
@@ -449,6 +459,7 @@ let currentVersion = null;
 let history = []; // History of selected items
 let forwardHistory = []; // History of forward selections
 let historyIndex = -1; // Index of the current selection in the history
+let abxLinkData = []; // AbxLink data
 let matchedOutptName = null;
 let matchedErucName = null;
 	
@@ -801,6 +812,19 @@ function createOMTable(selectedData) {
               RowClickElement.textContent = cellContent;
               cellContentElement.appendChild(RowClickElement);
           } 
+          
+          if (!Item || !(Item.startsWith(MenuPrefix) || Item.startsWith(LinkPrefix))) {
+            if (abxLinkData.length > 0) {
+              const linkContainer = document.createElement('a');
+              const matchingURLs = abxLinkData.filter(item =>
+                contentText.toLowerCase().includes(item.Name.toLowerCase())
+              );
+              const sortedMatchingURLs = matchingURLs.sort((a, b) => {
+                const aIndex = contentText.toLowerCase().indexOf(a.Name.toLowerCase());
+                const bIndex = contentText.toLowerCase().indexOf(b.Name.toLowerCase());
+                return aIndex - bIndex;
+              });
+
               currentIndex = 0;
               sortedMatchingURLs.forEach(matchingURL => {
                 const { Name, URL } = matchingURL;
@@ -1642,11 +1666,11 @@ function openPageInNewWindow(pageURL, replacements) {
   }
   
 // Fetch data and initialize the dropdown
-Promise.all([fetchOMData(), fetchODData()]) // Add fetchIndex()
-  .then(([omjsonData, odjsonData) => { 
+Promise.all([fetchOMData(), fetchODData(), fetchAbxLink()]) // Add fetchIndex()
+  .then(([omjsonData, odjsonData, abxlinkjsonData]) => { 
     omData = omjsonData;
     odData = odjsonData;
-
+    abxLinkData = abxlinkjsonData;
     populateDropdown(omData); 
       const urlParams = new URLSearchParams(window.location.search);
   const dropdown = document.getElementById('filterDropdown');
@@ -1654,12 +1678,15 @@ Promise.all([fetchOMData(), fetchODData()]) // Add fetchIndex()
   if (dropdownValue) {
     dropdown.value = decodeURIComponent(dropdownValue);
   } else {
-    // If no dropdown value is provided in the URL, set a default value
-    dropdown.value = MainMenu;
+    // If no dropdown value is provided in the URL, choose a valid default option
+    const mainMenuOption = dropdown.querySelector(`option[value="${MainMenu}"]`);
+    const firstVisibleOption = Array.from(dropdown.options).find(opt => opt.style.display !== 'none' && !opt.disabled);
+    const fallbackOption = mainMenuOption || firstVisibleOption || dropdown.options[0];
+    if (fallbackOption) dropdown.value = fallbackOption.value;
   }
     pushHistory(dropdown.value);
     filterData({ target: dropdown });
-    scrollToTop()    
+    scrollToTop();
     adjustFontSize();
   })
   .catch(error => {
@@ -1797,7 +1824,6 @@ window.onload = function() {
 </script>
 </body>
 </html>
-
 
 
 
