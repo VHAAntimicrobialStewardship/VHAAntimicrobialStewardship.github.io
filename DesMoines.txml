@@ -107,7 +107,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/ALBC.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/ALBC.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX GENERIC CLICK LINK BELOW">
       <TYPE>T</TYPE>
@@ -157,7 +157,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/Antimicrobial Formulary.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/Antimicrobial Formulary.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX BETA-LACTAM ALLERGIES PDF">
       <TYPE>H</TYPE>
@@ -173,7 +173,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/Beta-lactam Allergies CDSS.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/Beta-lactam Allergies CDSS.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX CBOC INFO WI">
       <TYPE>H</TYPE>
@@ -331,7 +331,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/Antimicrobial CDSS Frequently Asked Questions.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/Antimicrobial CDSS Frequently Asked Questions.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX CI MPLS VAMC ABX SENSITIVITIES">
       <TYPE>H</TYPE>
@@ -347,7 +347,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/AntibiogramDesMoines.xlsx</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/AntibiogramDesMoines.xlsx</URL>
     </FIELD>
     <FIELD NAME="ABX ENDOCARDITIS COMPLETE INFO">
       <TYPE>T</TYPE>
@@ -528,7 +528,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/nPEP.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/nPEP.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX POST EXPOSURE PROPHYLAXIS">
       <TYPE>H</TYPE>
@@ -543,7 +543,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/PEP.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/PEP.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX SURGICAL PROPHYLAXIS INDICATION HEADER">
       <TYPE>T</TYPE>
@@ -807,7 +807,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/</URL>
     </FIELD>
     <FIELD NAME="ABX UROLOGIC SURGERY PROPHYLAXIS GUIDELINES">
       <TYPE>H</TYPE>
@@ -903,7 +903,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/SplenectomyVaccines.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/SplenectomyVaccines.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX VACCINE RTC">
       <TYPE>T</TYPE>
@@ -1209,3 +1209,4 @@
     </FIELD>
   </TEMPLATE_FIELDS>
 </CPRS_TEMPLATE>
+

@@ -126,7 +126,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/ALBC.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/ALBC.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX BETA-LACTAM ALLERGIES PDF">
       <TYPE>H</TYPE>
@@ -142,7 +142,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/Beta-lactam Allergies CDSS.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/Beta-lactam Allergies CDSS.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX EMAIL VISN23 ANTIMICROBIAL CDSS">
       <TYPE>H</TYPE>
@@ -232,7 +232,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/COVID19 Antiviral and Monoclonal Antibody Treatment SOP.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/COVID19 Antiviral and Monoclonal Antibody Treatment SOP.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX ENDOCARDITIS COMPLETE INFO">
       <TYPE>T</TYPE>
@@ -509,7 +509,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/</URL>
     </FIELD>
     <FIELD NAME="ABX UROLOGIC SURGERY PROPHYLAXIS GUIDELINES">
       <TYPE>H</TYPE>
@@ -636,7 +636,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/Antimicrobial Formulary.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/Antimicrobial Formulary.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX CDSS OMAHA FAQ">
       <TYPE>H</TYPE>
@@ -736,7 +736,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/AntibiogramOmaha.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/AntibiogramOmaha.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX OMAHA ON-CALL SCHEDULE">
       <TYPE>H</TYPE>
@@ -1014,3 +1014,4 @@
     </FIELD>
   </TEMPLATE_FIELDS>
 </CPRS_TEMPLATE>
+

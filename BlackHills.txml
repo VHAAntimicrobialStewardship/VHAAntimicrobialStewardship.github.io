@@ -146,7 +146,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/Beta-lactam Allergies CDSS.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/Beta-lactam Allergies CDSS.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX CAP CALCULATOR">
       <TYPE>H</TYPE>
@@ -289,7 +289,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/BlackHillsTeleID.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/BlackHillsTeleID.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX CDSS STAFF EMAIL ADDITIONAL VERBAGE">
       <TYPE>T</TYPE>
@@ -325,7 +325,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/Antimicrobial CDSS Frequently Asked Questions.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/Antimicrobial CDSS Frequently Asked Questions.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX IDP FLUOROQUINOLONE ADVERSE REACTIONS">
       <TYPE>H</TYPE>
@@ -456,7 +456,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/AntibiogramBlackHills.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/AntibiogramBlackHills.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX SURGICAL PROPHYLAXIS INDICATION HEADER">
       <TYPE>T</TYPE>
@@ -769,7 +769,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/SplenectomyVaccines.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/SplenectomyVaccines.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX COVID-19 INTERACTION CHECK">
       <TYPE>H</TYPE>
@@ -1089,3 +1089,4 @@
     </FIELD>
   </TEMPLATE_FIELDS>
 </CPRS_TEMPLATE>
+

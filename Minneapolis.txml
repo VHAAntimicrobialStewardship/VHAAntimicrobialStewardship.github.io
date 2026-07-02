@@ -122,7 +122,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/ALBC.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/ALBC.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX CLICK CANCEL">
       <TYPE>T</TYPE>
@@ -185,7 +185,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/</URL>
     </FIELD>
     <FIELD NAME="ABX ANTIMICROBIAL FORMULARY">
       <TYPE>H</TYPE>
@@ -201,7 +201,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/Antimicrobial Formulary.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/Antimicrobial Formulary.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX UROLOGIC SURGERY PROPHYLAXIS GUIDELINES">
       <TYPE>H</TYPE>
@@ -233,7 +233,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/Beta-lactam Allergies CDSS.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/Beta-lactam Allergies CDSS.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX CAP CALCULATOR">
       <TYPE>H</TYPE>
@@ -425,7 +425,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/Antimicrobial CDSS Frequently Asked Questions.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/Antimicrobial CDSS Frequently Asked Questions.pdf</URL>
     </FIELD>
     <FIELD NAME="EB 25/240*">
       <TYPE>E</TYPE>
@@ -503,7 +503,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/COVID19 Antiviral and Monoclonal Antibody Treatment SOP.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/COVID19 Antiviral and Monoclonal Antibody Treatment SOP.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX COVID-19 INPT TREATMENT">
       <TYPE>H</TYPE>
@@ -519,7 +519,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/COVID-19 inpatient treatment.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/COVID-19 inpatient treatment.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX HEPATITIS B ONCOLOGY SHAREPOINT URL">
       <TYPE>H</TYPE>
@@ -731,7 +731,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/AntibiogramMinneapolis.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/AntibiogramMinneapolis.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX MVAMC INFECT CTRL INTRANET">
       <TYPE>H</TYPE>
@@ -763,7 +763,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/Pharmacy coverage by team.xlsx</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/Pharmacy coverage by team.xlsx</URL>
     </FIELD>
     <FIELD NAME="ABX POST EXPOSURE PROPHYLAXIS NPEP">
       <TYPE>H</TYPE>
@@ -779,7 +779,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/nPEP.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/nPEP.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX POST EXPOSURE PROPHYLAXIS">
       <TYPE>H</TYPE>
@@ -795,7 +795,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/PEP.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/PEP.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX SURGICAL PROPHYLAXIS INDICATION EDIT">
       <TYPE>E</TYPE>
@@ -1026,7 +1026,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/SplenectomyVaccines.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/SplenectomyVaccines.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX CDC ANTIBIOTICS AREN'T ALWAYS THE ANSWER">
       <TYPE>H</TYPE>
@@ -1074,7 +1074,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/Dental SOP.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/Dental SOP.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX IDP DAPTOMYCIN SANFORD">
       <TYPE>H</TYPE>
@@ -1234,7 +1234,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/Outpatient Flu Vaccine Guidelines.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/Outpatient Flu Vaccine Guidelines.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX CDC SYMPTOMATIC RX ACUTE RESPIRATORY INFECTIONS">
       <TYPE>H</TYPE>
@@ -1266,7 +1266,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://antimicrobialcdss.github.io/Resources/Post Transplant Vaccination Nashville.pdf</URL>
+      <URL>https://vhaantimicrobialstewardship.github.io/Resources/Post Transplant Vaccination Nashville.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX VACCINE RTC">
       <TYPE>T</TYPE>
@@ -1844,3 +1844,4 @@
     </FIELD>
   </TEMPLATE_FIELDS>
 </CPRS_TEMPLATE>
+
