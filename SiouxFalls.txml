@@ -171,7 +171,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://vhaantimicrobialstewardship.github.io/Resources/ALBC.pdf</URL>
+      <URL>https://vhaasp.github.io/Resources/ALBC.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX GENERIC CLICK LINK BELOW">
       <TYPE>T</TYPE>
@@ -221,7 +221,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FAntimicrobialCDSS%2Fvhaantimicrobialstewardship.github.io%2F6515efa3956ad48313eb7b2e013ca6259a754fb4%2FResources%2FAmoxicillin%2520Challenge%2520SF.docx&amp;wdOri</URL>
+      <URL>https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FAntimicrobialCDSS%2Fvhaasp.github.io%2F6515efa3956ad48313eb7b2e013ca6259a754fb4%2FResources%2FAmoxicillin%2520Challenge%2520SF.docx&amp;wdOri</URL>
     </FIELD>
     <FIELD NAME="ABX MDH ANTIBIOGRAM">
       <TYPE>H</TYPE>
@@ -272,7 +272,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://vhaantimicrobialstewardship.github.io/</URL>
+      <URL>https://vhaasp.github.io/</URL>
     </FIELD>
     <FIELD NAME="ABX BETA-LACTAM ALLERGIES PDF">
       <TYPE>H</TYPE>
@@ -288,7 +288,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://vhaantimicrobialstewardship.github.io/Resources/Beta-lactam Allergies CDSS.pdf</URL>
+      <URL>https://vhaasp.github.io/Resources/Beta-lactam Allergies CDSS.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX CAP CALCULATOR">
       <TYPE>H</TYPE>
@@ -447,7 +447,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://vhaantimicrobialstewardship.github.io/Resources/Antimicrobial CDSS Frequently Asked Questions.pdf</URL>
+      <URL>https://vhaasp.github.io/Resources/Antimicrobial CDSS Frequently Asked Questions.pdf</URL>
     </FIELD>
     <FIELD NAME="EB 25/240*">
       <TYPE>E</TYPE>
@@ -693,7 +693,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://vhaantimicrobialstewardship.github.io/Resources/AntibiogramSiouxFalls.pdf</URL>
+      <URL>https://vhaasp.github.io/Resources/AntibiogramSiouxFalls.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX CLICK LINK BELOW INFECT CTRL">
       <TYPE>T</TYPE>
@@ -791,7 +791,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://vhaantimicrobialstewardship.github.io/Resources/PEP.pdf</URL>
+      <URL>https://vhaasp.github.io/Resources/PEP.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX SURGICAL PROPHYLAXIS INDICATION HEADER">
       <TYPE>T</TYPE>
@@ -1289,5 +1289,6 @@
     </FIELD>
   </TEMPLATE_FIELDS>
 </CPRS_TEMPLATE>
+
 
 

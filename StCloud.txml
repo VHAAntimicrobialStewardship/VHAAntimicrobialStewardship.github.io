@@ -81,7 +81,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://vhaantimicrobialstewardship.github.io/</URL>
+      <URL>https://vhaasp.github.io/</URL>
     </FIELD>
     <FIELD NAME="ABX GENERIC CLICK LINK BELOW">
       <TYPE>T</TYPE>
@@ -130,7 +130,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://vhaantimicrobialstewardship.github.io/Resources/Antimicrobial Formulary.pdf</URL>
+      <URL>https://vhaasp.github.io/Resources/Antimicrobial Formulary.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX BETA-LACTAM ALLERGIES PDF">
       <TYPE>H</TYPE>
@@ -146,7 +146,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://vhaantimicrobialstewardship.github.io/Resources/Beta-lactam Allergies CDSS.pdf</URL>
+      <URL>https://vhaasp.github.io/Resources/Beta-lactam Allergies CDSS.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX CAP CALCULATOR">
       <TYPE>H</TYPE>
@@ -474,7 +474,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://vhaantimicrobialstewardship.github.io/Resources/nPEP.pdf</URL>
+      <URL>https://vhaasp.github.io/Resources/nPEP.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX PORT FINISHED CLICK OK BELOW">
       <TYPE>T</TYPE>
@@ -507,7 +507,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://vhaantimicrobialstewardship.github.io/Resources/PEP.pdf</URL>
+      <URL>https://vhaasp.github.io/Resources/PEP.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX SURGICAL PROPHYLAXIS INDICATION HEADER">
       <TYPE>T</TYPE>
@@ -830,7 +830,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://vhaantimicrobialstewardship.github.io/Resources/AntibiogramMinneapolis.pdf</URL>
+      <URL>https://vhaasp.github.io/Resources/AntibiogramMinneapolis.pdf</URL>
       <DESCRIPTION>
         <p>Jessica Trumpeter requested link to Antibiogram </p>
         <p>due to shared patients.</p>
@@ -850,7 +850,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://vhaantimicrobialstewardship.github.io/Resources/AntibiogramStCloud.docx</URL>
+      <URL>https://vhaasp.github.io/Resources/AntibiogramStCloud.docx</URL>
       <DESCRIPTION>
         <p>ST Cloud Antibiogram document provided </p>
         <p>by st cloud</p>
@@ -1105,4 +1105,5 @@
     </FIELD>
   </TEMPLATE_FIELDS>
 </CPRS_TEMPLATE>
+
 
