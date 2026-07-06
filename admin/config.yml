@@ -21,6 +21,50 @@ editor:
   preview: false
 
 collections:
+  - label: "CDSS Data"
+    name: "cdss_data"
+    files:
+      - label: "Antibiotic Links"
+        name: "abx_links"
+        file: "cms-data/abx-links.cms.json"
+        format: "json"
+        extension: "json"
+        fields:
+          - label: "Entries"
+            name: "entries"
+            widget: list
+            summary: "{{fields.Name}}"
+            fields:
+              - { label: "Name", name: "Name", widget: "string" }
+              - { label: "URL", name: "URL", widget: "string" }
+              - { label: "Route Filter", name: "RouteFilter", widget: "string", required: false }
+      - label: "Test Station Menus"
+        name: "test_station_menus"
+        file: "cms-data/teststation-om.cms.json"
+        format: "json"
+        extension: "json"
+        fields:
+          - label: "Menus"
+            name: "menus"
+            widget: list
+            summary: "{{fields.Name}}"
+            fields:
+              - { label: "Name", name: "Name", widget: "string" }
+              - { label: "Display Text", name: "DisplayText", widget: "string", required: false }
+              - { label: "Version", name: "Version", widget: "string", required: false }
+              - label: "Contents"
+                name: "Contents"
+                widget: list
+                required: false
+                summary: "R{{fields.Row}} C{{fields.Column}}"
+                fields:
+                  - { label: "Row", name: "Row", widget: "number", value_type: "int", required: false }
+                  - { label: "Column", name: "Column", widget: "number", value_type: "int", required: false }
+                  - { label: "Text", name: "Text", widget: "string", required: false }
+                  - { label: "Item", name: "Item", widget: "string", required: false }
+                  - { label: "Display Text", name: "DisplayText", widget: "string", required: false }
+                  - { label: "Mnemonic", name: "Mnemonic", widget: "string", required: false }
+                  - { label: "Header", name: "Header", widget: "number", value_type: "int", required: false }
   - label: "Site Settings"
     name: "site_settings"
     files:
