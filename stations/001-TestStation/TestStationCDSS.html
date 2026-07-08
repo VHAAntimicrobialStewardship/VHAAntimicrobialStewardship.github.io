@@ -769,9 +769,133 @@ function scrollToTop() {
   function escapeRegExp(string) {
     return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
+
+function resolveEmbeddedLinkTarget(selectedData, target) {
+  const normalizedTarget = (target || '').trim();
+  if (!normalizedTarget) {
+    return null;
+  }
+
+  if (normalizedTarget.toLowerCase().startsWith('cdss:')) {
+    return normalizedTarget.substring(5).trim();
+  }
+
+  const linkTargets = Array.isArray(selectedData.LinkTargets) ? selectedData.LinkTargets : [];
+  const byKey = linkTargets.find(link =>
+    (link.Key || '').trim().toLowerCase() === normalizedTarget.toLowerCase()
+  );
+  if (byKey && byKey.Item) {
+    return byKey.Item;
+  }
+
+  const byItem = linkTargets.find(link =>
+    (link.Item || '').trim().toLowerCase() === normalizedTarget.toLowerCase()
+  );
+  if (byItem && byItem.Item) {
+    return byItem.Item;
+  }
+
+  return null;
+}
+
+function appendRichTextLineContent(container, lineText, selectedData) {
+  const markdownLinkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let currentIndex = 0;
+  let match;
+
+  while ((match = markdownLinkRegex.exec(lineText)) !== null) {
+    const [fullMatch, label, rawTarget] = match;
+    const plainText = lineText.substring(currentIndex, match.index);
+    if (plainText) {
+      container.appendChild(document.createTextNode(plainText));
+    }
+
+    const target = decodeURIComponent((rawTarget || '').trim());
+    if (isValidURL(target)) {
+      const externalLink = document.createElement('a');
+      externalLink.href = target;
+      externalLink.target = '_blank';
+      externalLink.classList.add('AbxLink');
+      externalLink.textContent = label;
+      container.appendChild(externalLink);
+    } else {
+      const resolvedItem = resolveEmbeddedLinkTarget(selectedData, target);
+      if (resolvedItem) {
+        const rowClickElement = document.createElement('a');
+        rowClickElement.classList.add('clickable');
+        rowClickElement.textContent = label;
+        rowClickElement.addEventListener('click', () => {
+          handleRowClick({ Item: resolvedItem, Text: label }, false);
+        });
+        container.appendChild(rowClickElement);
+      } else {
+        container.appendChild(document.createTextNode(fullMatch));
+      }
+    }
+
+    currentIndex = match.index + fullMatch.length;
+  }
+
+  if (currentIndex < lineText.length) {
+    container.appendChild(document.createTextNode(lineText.substring(currentIndex)));
+  }
+}
+
+function createRichTextTable(selectedData) {
+  const table = document.createElement('table');
+  table.classList.add('table');
+  const tbody = document.createElement('tbody');
+  const content = typeof selectedData.Text === 'string' ? selectedData.Text : '';
+  const lines = content.split(/\r?\n/);
+
+  lines.forEach((line) => {
+    const bodyRow = document.createElement('tr');
+    const displayCell = document.createElement('td');
+    const lineElement = document.createElement('div');
+
+    const headingMatch = line.match(/^\s{0,3}#{1,6}\s+(.*)$/);
+    const lineText = headingMatch ? headingMatch[1] : line;
+    if (headingMatch) {
+      lineElement.classList.add('bold');
+      displayCell.classList.add('bold');
+    }
+
+    if (lineText.trim() !== '') {
+      appendRichTextLineContent(lineElement, lineText, selectedData);
+    }
+
+    displayCell.appendChild(lineElement);
+    bodyRow.appendChild(displayCell);
+    tbody.appendChild(bodyRow);
+  });
+
+  const itemRow = document.createElement('tr');
+  const itemCell = document.createElement('td');
+  itemCell.textContent = "VistA Menu Name: " + selectedData.Name;
+  itemRow.appendChild(itemCell);
+  tbody.appendChild(itemRow);
+
+  table.appendChild(tbody);
+  const resultContainer = document.getElementById('resultContainer');
+  resultContainer.innerHTML = '';
+  if (selectedData) {
+    resultContainer.appendChild(table);
+  }
+  checkMatchesAndSetButtonAppearance();
+  forwardBackButtonActivate();
+}
   
 // Function to create table from OMJson Data  
 function createOMTable(selectedData) {
+  if (!selectedData) {
+    return;
+  }
+
+  if ((!Array.isArray(selectedData.Contents) || selectedData.Contents.length === 0) && typeof selectedData.Text === 'string') {
+    createRichTextTable(selectedData);
+    return;
+  }
+
   const table = document.createElement('table');
   table.classList.add('table');
   const tbody = document.createElement('tbody');
@@ -1672,7 +1796,7 @@ function openPageInNewWindow(pageURL, replacements) {
 // Fetch data and initialize the dropdown
 Promise.all([fetchOMData(), fetchODData(), fetchAbxLink()]) // Add fetchIndex()
   .then(([omjsonData, odjsonData, abxlinkjsonData]) => { 
-    omData = omjsonData;
+    omData = omjsonData.menus || omjsonData;
     odData = odjsonData;
     abxLinkData = abxlinkjsonData;
     populateDropdown(omData); 

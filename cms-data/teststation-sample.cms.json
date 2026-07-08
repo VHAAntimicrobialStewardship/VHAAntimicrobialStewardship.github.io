@@ -1,0 +1,29 @@
+{
+  "menus": [
+    {
+      "Name": "ORZID2 GMENU ACUTE SINUSITIS",
+      "Term1": "Acute sinusitis",
+      "Term2": "Sinusitis, acute",
+      "DisplayText": "Acute Sinusitis--Mild to Moderate Disease ",
+      "Version": "Minneapolis",
+      "LinkTargets": [
+        {
+          "Key": "general-info",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+        },
+        {
+          "Key": "mild-to-mod",
+          "Text": "[CLICK HERE] for treatment of mild to moderate bacterial sinusitis",
+          "Item": "ORZID2 GMENU MILD TO MOD SINUSITIS"
+        },
+        {
+          "Key": "severe",
+          "Text": "[CLICK HERE] for treatment of severe bacterial sinusitis",
+          "Item": "ORZID2 GMENU SEVERE SINUSITIS"
+        }
+      ],
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)](general-info)\n\n# ACUTE SINUSITIS\n\nTEST TEST TEST\n\n# TEST Heading 1\n\nMost cases of acute sinusitis are viral and resolve within 10 days. Symptoms\n(nasal congestion, purulent nasal discharge, and tooth or facial pain) can be\ntreated with decongestants, analgesics, and nasal saline. Diagnosis of acute\nsinusitis is based on the presence of at least 2 major or 1 major and at least 2\nminor symptoms.\n\n# Major Symptoms\n\n1. Purulent anterior nasal discharge\n2. Purulent or discolored posterior nasal discharge\n3. Nasal congestion or fullness\n4. Facial pain or pressure\n5. Hyposmia or anosmia\n6. Fever\n\n# Minor Symptoms\n\n1. Headache\n2. Ear pain, pressure or fullness\n3. Halitosis\n4. Dental pain\n5. Cough\n6. Fatigue\n\nIf patient meets criteria above for acute sinusitis, treat with antimicrobials\naccording to the following criteria for mild to moderate or severe bacterial\nsinusitis.\n\n# Mild to moderate bacterial sinusitis\n\n1. Symptoms persisting beyond 10 days\n   < OR >\n2. Double-sickening - Symptoms typical of viral upper respiratory infection\n   initially improving for 5-6 days then worsening with new development of fever,\n   headache or increased nasal discharge.\n   [CLICK HERE for treatment of mild to moderate bacterial sinusitis](mild-to-mod)\n\n# Severe bacterial sinusitis\n\nSevere signs or symptoms of high fever (>/= 102 degrees Fahrenheit, >/= 39\ndegrees Celsius) and purulent nasal discharge for 3-4 consecutive days or facial\npain lasting for at least 3-4 consecutive days at the beginning of illness.\n[CLICK HERE for treatment of severe bacterial sinusitis](severe)\n\n- - -\n\nReferences:\nChow et al, Clinical Infectious Diseases. 2012, 54(8) e72-e112\nMandell chapter: Sinusitis\nMeltzer et al, J Allergy Clin Immunol. 2004, 114(6) S155-S212.\nRosenfeld et al, Otolaryngology - Head and Neck Surgery. 2015, 152(4) 598-609\nSanford keyword: Sinusitis, Acute, Empiric Therapy\nUp-To-Date article: Acute sinusitis and rhinosinusitis in adults: Clinical\nmanifestations and diagnosis"
+    }
+  ]
+}
