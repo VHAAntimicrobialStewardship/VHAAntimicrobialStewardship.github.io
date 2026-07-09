@@ -39,11 +39,11 @@ collections:
         file: "stations/001-TestStation/SinusitisTestOMJSON.json"
         format: "json"
         extension: "json"
-        identifier_field: menus
         fields:
           - label: "Menus"
             name: "menus"
             widget: list
+            identifier_field: Name
             fields:
               - { label: "Name", name: "Name", widget: "string" }
               - { label: "Term 1", name: "Term1", widget: "string", required: false }
