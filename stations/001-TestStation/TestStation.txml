@@ -122,7 +122,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://vhaasp.github.io/Resources/ALBC.pdf</URL>
+      <URL>https://VHAAntimicrobialStewardship.github.io/Resources/ALBC.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX CLICK CANCEL">
       <TYPE>T</TYPE>
@@ -185,7 +185,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://vhaasp.github.io/</URL>
+      <URL>https://VHAAntimicrobialStewardship.github.io/</URL>
     </FIELD>
     <FIELD NAME="ABX ANTIMICROBIAL FORMULARY">
       <TYPE>H</TYPE>
@@ -201,7 +201,7 @@
       <MIN_VALUE>0</MIN_VALUE>
       <MAX_VALUE>0</MAX_VALUE>
       <INCREMENT>0</INCREMENT>
-      <URL>https://vhaasp.github.io/Resources/Antimicrobial Formulary.pdf</URL>
+      <URL>https://VHAAntimicrobialStewardship.github.io/Resources/Antimicrobial Formulary.pdf</URL>
     </FIELD>
     <FIELD NAME="ABX UROLOGIC SURGERY PROPHYLAXIS GUIDELINES">
       <TYPE>H</TYPE>

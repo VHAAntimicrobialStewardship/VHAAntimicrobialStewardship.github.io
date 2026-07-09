@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: VHAASP/VHAASP.github.io
+  repo: VHAAntimicrobialStewardship/VHAAntimicrobialStewardship.github.io
   branch: main
   # When the OAuth service is ready, point Decap at it here.
   # auth_endpoint: https://YOUR-OAUTH-SERVICE/auth
@@ -13,8 +13,8 @@ local_backend:
     - 127.0.0.1
 
 publish_mode: simple
-site_url: https://vhaasp.github.io/
-display_url: https://vhaasp.github.io/
+site_url: https://VHAAntimicrobialStewardship.github.io/
+display_url: https://VHAAntimicrobialStewardship.github.io/
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 editor:
