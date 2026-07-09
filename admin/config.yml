@@ -6,7 +6,7 @@ backend:
   client_id: Ov23li1V4m6vxpldbI3O
   client_secret: 23bb86389d5917142b5c28ca7e361f1d3dcf5c6e
 
-publish_mode: editorial_workflow
+publish_mode: simple
 site_url: https://VHAAntimicrobialStewardship.github.io/
 display_url: https://VHAAntimicrobialStewardship.github.io/
 media_folder: "assets/uploads"
