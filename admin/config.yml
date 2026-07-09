@@ -2,8 +2,9 @@ backend:
   name: github
   repo: VHAAntimicrobialStewardship/VHAAntimicrobialStewardship.github.io
   branch: main
-  client_id: YOUR_GITHUB_OAUTH_CLIENT_ID
-  client_secret: YOUR_GITHUB_OAUTH_CLIENT_SECRET
+  base_url: https://sveltia-cms-auth.androo-holbrook.workers.dev
+  client_id: Ov23li1V4m6vxpldbI3O
+  client_secret: 23bb86389d5917142b5c28ca7e361f1d3dcf5c6e
 
 publish_mode: editorial_workflow
 site_url: https://VHAAntimicrobialStewardship.github.io/
