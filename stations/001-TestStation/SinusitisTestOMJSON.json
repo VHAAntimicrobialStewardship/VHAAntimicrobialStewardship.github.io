@@ -705,8 +705,24 @@
       "Name": "ORZID2 GMENU ACUTE SINUSITIS",
       "Term1": "Acute sinusitis",
       "Term2": "Sinusitis, acute",
-      "Text": "",
-      "LinkTargets": []
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# ACUTE SINUSITIS\n\nMost cases of acute sinusitis are viral and resolve within 10 days. Symptoms\n\n(nasal congestion, purulent nasal discharge, and tooth or facial pain) can be\n\ntreated with decongestants, analgesics, and nasal saline. Diagnosis of acute\n\nsinusitis is based on the presence of at least 2 major or 1 major and at least 2\n\nminor symptoms.\n\n# Major Symptoms\n\n1. Purulent anterior nasal discharge\n\n2. Purulent or discolored posterior nasal discharge\n\n3. Nasal congestion or fullness\n\n4. Facial pain or pressure\n\n5. Hyposmia or anosmia\n\n6. Fever\n\n# Minor Symptoms\n\n1. Headache\n\n2. Ear pain, pressure or fullness\n\n3. Halitosis\n\n4. Dental pain\n\n5. Cough\n\n6. Fatigue\n\nIf patient meets criteria above for acute sinusitis, treat with antimicrobials\n\naccording to the following criteria for mild to moderate or severe bacterial\n\nsinusitis.\n\n# Mild to moderate bacterial sinusitis\n\n1. Symptoms persisting beyond 10 days\n\n< OR >\n\n2. Double-sickening - Symptoms typical of viral upper respiratory infection\n\ninitially improving for 5-6 days then worsening with new development of fever,\n\nheadache or increased nasal discharge.\n\n[\\[CLICK HERE\\] for treatment of mild to moderate bacterial sinusitis](orzid2-gmenu-mild-to-mod-sinusitis)\n\n# Severe bacterial sinusitis\n\nSevere signs or symptoms of high fever (>/= 102 degrees Fahrenheit, >/= 39\n\ndegrees Celsius) and purulent nasal discharge for 3-4 consecutive days or facial\n\npain lasting for at least 3-4 consecutive days at the beginning of illness.\n\n[\\[CLICK HERE\\] for treatment of severe bacterial sinusitis](orzid2-gmenu-severe-sinusitis)\n\n# _______________________________________________________________________________\n\nReferences:\n\nChow et al, Clinical Infectious Diseases. 2012, 54(8) e72-e112\n\nMandell chapter: Sinusitis\n\nMeltzer et al, J Allergy Clin Immunol. 2004, 114(6) S155-S212.\n\nRosenfeld et al, Otolaryngology - Head and Neck Surgery. 2015, 152(4) 598-609\n\nSanford keyword: Sinusitis, Acute, Empiric Therapy\n\nUp-To-Date article: Acute sinusitis and rhinosinusitis in adults: Clinical\n\nmanifestations and diagnosis",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+        },
+        {
+          "Key": "orzid2-gmenu-mild-to-mod-sinusitis",
+          "Text": "[CLICK HERE] for treatment of mild to moderate bacterial sinusitis",
+          "Item": "ORZID2 GMENU MILD TO MOD SINUSITIS"
+        },
+        {
+          "Key": "orzid2-gmenu-severe-sinusitis",
+          "Text": "[CLICK HERE] for treatment of severe bacterial sinusitis",
+          "Item": "ORZID2 GMENU SEVERE SINUSITIS"
+        }
+      ]
     },
     {
       "Name": "ORZID2 GMENU CONTACT CDSS STAFF",
