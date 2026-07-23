@@ -1,5 +1,5 @@
 const APP_PREFIX = 'CDSS_';
-const VERSION = '1.259'; // Update the version when you make changes
+const VERSION = '1.260'; // Update the version when you make changes
 const CACHE_NAME = APP_PREFIX + VERSION;
 
 const URLS = [
@@ -18,6 +18,10 @@ const URLS = [
   '/index.html',
   '/manifest.webmanifest',
   '/service-worker.js',
+
+  '/adapters/ehr-adapter.js',
+  '/adapters/vista.js',
+  '/adapters/oracle.js',
   
   '/stations/618-Minneapolis/Minneapolis.txml',
   '/stations/618-Minneapolis/MinneapolisCDSS.html',
