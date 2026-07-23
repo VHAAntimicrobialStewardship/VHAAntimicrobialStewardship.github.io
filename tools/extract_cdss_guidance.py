@@ -93,7 +93,7 @@ DOSING_PATTERN = re.compile(
 # substrings of the title. Kept deliberately narrow so real medical topics
 # (vaccines, prevention, treatment guidelines) stay classified as clinical.
 INFO_TITLE_KEYWORDS = (
-    "about the cdss", "acknowledg", "disclaimer", "restriction policy",
+    "about the cdss", "acknowledge", "disclaimer", "restriction policy",
     "antimicrobial restriction", "how to use", "welcome", "instructions",
     "feedback", "contact us", "legend", "glossary", "cdss app",
     "antimicrobial shortages", "additional assistance",
@@ -219,14 +219,25 @@ def clean_title(text: str) -> str:
     return re.sub(r"\s+", " ", text or "").strip()
 
 
+def is_inpatient_menu(menu: dict) -> bool:
+    """True for inpatient anchors; skip ORZID3 (outpatient) and ER/UC pages."""
+    name = menu.get("Name") or ""
+    if "ER/UC" in name:
+        return False
+    if name.startswith("ORZID3") or "(OPT)" in name:
+        return False
+    return True
+
+
 def extract_rows(menus: list[dict]) -> list[dict]:
     """Build one guidance row per clinical condition."""
     by_name = {m.get("Name"): m for m in menus if m.get("Name")}
 
     rows = []
     for menu in menus:
-        # A clinical condition anchor is an inpatient menu that references an
-        # outpatient/ER counterpart or is indexed with a search Term.
+        # Anchor on inpatient menus only; pair via Outpt / ERUC when present.
+        if not is_inpatient_menu(menu):
+            continue
         if not (menu.get("Outpt") or menu.get("ERUC") or menu.get("Term1")):
             continue
 
@@ -268,16 +279,10 @@ def extract_rows(menus: list[dict]) -> list[dict]:
     return rows
 
 
-def text_similarity(a: str, b: str) -> float:
-    """Return similarity ratio (0.0–1.0) between two text bodies.
-
-    If both are empty, returns 1.0 (trivially identical).
-    If only one is empty, returns 0.0.
-    """
-    if not a and not b:
-        return 1.0
+def text_similarity(a: str, b: str) -> float | None:
+    """Return similarity ratio (0.0–1.0), or None if either side is missing."""
     if not a or not b:
-        return 0.0
+        return None
     return round(SequenceMatcher(None, a, b).ratio(), 4)
 
 
@@ -311,8 +316,11 @@ def write_csv(rows: list[dict], out_path: Path) -> None:
             friendly = {}
             for key, label in column_labels.items():
                 value = row.get(key, "")
-                if key in percent_keys and isinstance(value, (int, float)):
-                    value = f"{value:.0%}"
+                if key in percent_keys:
+                    if isinstance(value, (int, float)):
+                        value = f"{value:.0%}"
+                    else:
+                        value = ""
                 friendly[label] = value
             writer.writerow(friendly)
 
@@ -369,15 +377,18 @@ def _print_similarity_summary(rows: list[dict]) -> None:
             print(f"  {ptype:<14} {type_counts[ptype]}{extra}")
 
     pairs = [
-        ("Inpatient ↔ Outpatient", "Sim_Inpt_Outpt"),
-        ("Inpatient ↔ ER",        "Sim_Inpt_ER"),
-        ("Outpatient ↔ ER",       "Sim_Outpt_ER"),
+        ("Inpatient ↔ Outpatient", "Sim_Inpt_Outpt", "Inpatient", "Outpatient"),
+        ("Inpatient ↔ ER",        "Sim_Inpt_ER", "Inpatient", "ER"),
+        ("Outpatient ↔ ER",       "Sim_Outpt_ER", "Outpatient", "ER"),
     ]
     print("\n── Similarity summary ──")
-    for label, key in pairs:
-        vals = [r[key] for r in rows if r[key] is not None]
-        # Skip pair if no rows have both sides populated.
-        real = [v for v in vals if v > 0 or (v == 0 and _both_present(rows, key))]
+    for label, key, left, right in pairs:
+        # Only score rows where both sides have text.
+        real = [
+            r[key]
+            for r in rows
+            if r.get(left) and r.get(right) and isinstance(r.get(key), (int, float))
+        ]
         if not real:
             continue
         avg = sum(real) / len(real)
@@ -393,7 +404,7 @@ def _print_similarity_summary(rows: list[dict]) -> None:
         for r in rows
         if r.get("PageType") == "clinical"
         and any(
-            0 < r[k] < 0.5
+            isinstance(r.get(k), (int, float)) and r[k] < 0.5
             for k in ("Sim_Inpt_Outpt", "Sim_Inpt_ER", "Sim_Outpt_ER")
         )
     ]
@@ -402,16 +413,6 @@ def _print_similarity_summary(rows: list[dict]) -> None:
         for title in divergent:
             print(f"    • {title}")
 
-
-def _both_present(rows: list[dict], key: str) -> bool:
-    """Check if a similarity key corresponds to both sides being present."""
-    col_map = {
-        "Sim_Inpt_Outpt": ("Inpatient", "Outpatient"),
-        "Sim_Inpt_ER": ("Inpatient", "ER"),
-        "Sim_Outpt_ER": ("Outpatient", "ER"),
-    }
-    a, b = col_map.get(key, ("", ""))
-    return any(r.get(a) and r.get(b) for r in rows)
 
 
 if __name__ == "__main__":
