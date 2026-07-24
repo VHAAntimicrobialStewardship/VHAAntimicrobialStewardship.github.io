@@ -7,6 +7,14 @@
     <link href="config.yml?v=4" type="text/yaml" rel="cms-config-url" />
     <link rel="icon" href="data:," />
     <script type="module" src="sveltia-cms.js"></script>
+    <script type="module">
+      // The vendored Sveltia CMS bundle exposes a global but does not auto-initialize,
+      // which left #nc-root empty (blank admin page). Initialize it explicitly once
+      // the module above has executed.
+      if (window.CMS && typeof window.CMS.init === 'function') {
+        window.CMS.init();
+      }
+    </script>
   </head>
   <body>
     <div id="nc-root"></div>
