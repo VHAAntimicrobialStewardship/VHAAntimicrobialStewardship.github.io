@@ -1,5 +1,5 @@
 const APP_PREFIX = 'CDSS_';
-const VERSION = '1.267'; // Update the version when you make changes
+const VERSION = '1.268'; // Update the version when you make changes
 const CACHE_NAME = APP_PREFIX + VERSION;
 
 const URLS = [
@@ -19,50 +19,24 @@ const URLS = [
   '/manifest.webmanifest',
   '/service-worker.js',
   
-  '/stations/001-TestStation/TestStation.txml',
   '/stations/001-TestStation/TestStationCDSS.html',
-  '/stations/001-TestStation/SinusitisTestOMJSON.json',
-  '/stations/001-TestStation/TestStationODJSON.json',
 
   '/stations/437-Fargo/FargoCDSS.html',
   '/stations/437-Fargo/FargoItemLinks.json',
-  '/stations/437-Fargo/FargoOMJSON.json',
-  '/stations/437-Fargo/FargoODJSON.json',
 
-  '/stations/438-SiouxFalls/SiouxFalls.txml',
   '/stations/438-SiouxFalls/SiouxFallsCDSS.html',
-  '/stations/438-SiouxFalls/SiouxFallsOMJSON.json',
-  '/stations/438-SiouxFalls/SiouxFallsODJSON.json',
 
-  '/stations/442-Cheyenne/Cheyenne.txml',
   '/stations/442-Cheyenne/CheyenneCDSS.html',
-  '/stations/442-Cheyenne/CheyenneOMJSON.json',
-  '/stations/442-Cheyenne/CheyenneODJSON.json',
 
-  '/stations/568-BlackHills/BlackHills.txml',
   '/stations/568-BlackHills/BlackHillsCDSS.html',
-  '/stations/568-BlackHills/BlackHillsOMJSON.json',
-  '/stations/568-BlackHills/BlackHillsODJSON.json',
 
-  '/stations/618-Minneapolis/Minneapolis.txml',
   '/stations/618-Minneapolis/MinneapolisCDSS.html',
-  '/stations/618-Minneapolis/MinneapolisOMJSON.json',
-  '/stations/618-Minneapolis/MinneapolisODJSON.json',
 
-  '/stations/636-Omaha/Omaha.txml',
   '/stations/636-Omaha/OmahaCDSS.html',
-  '/stations/636-Omaha/OmahaOMJSON.json',
-  '/stations/636-Omaha/OmahaODJSON.json',
 
-  '/stations/636A6-DesMoines/DesMoines.txml',
   '/stations/636A6-DesMoines/DesMoinesCDSS.html',
-  '/stations/636A6-DesMoines/DesMoinesOMJSON.json',
-  '/stations/636A6-DesMoines/DesMoinesODJSON.json',
 
-  '/stations/656-StCloud/StCloud.txml',
   '/stations/656-StCloud/StCloudCDSS.html',
-  '/stations/656-StCloud/StCloudOMJSON.json',
-  '/stations/656-StCloud/StCloudODJSON.json',
 
   '/Fonts/PTSerif-Bold.eot',
   '/Fonts/PTSerif-Bold.svg',
@@ -136,8 +110,11 @@ self.addEventListener('fetch', function (e) {
 
   // CMS-managed content should prefer the network so saved edits appear quickly.
   if (isCmsContentRequest) {
+    // Force revalidation/bypass of HTTP disk cache for CMS content.
+    const networkRequest = new Request(e.request, { cache: 'no-store' });
+
     e.respondWith(
-      fetch(e.request).then(function (networkResponse) {
+      fetch(networkRequest).then(function (networkResponse) {
         if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
           const responseToCache = networkResponse.clone();
           caches.open(CACHE_NAME).then(function (cache) {
