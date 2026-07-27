@@ -11,6 +11,7 @@
   </script>
   <script>
   var CDSSlocation = 'Minneapolis'; /*Only important to CDSS program functions, can be left as it for other systems*/
+  const EHR = 'VistA'; /*Source EHR for this station: 'VistA' or 'Oracle'. Selects the adapter in /adapters/*/
   var Title = 'Minneapolis Antimicrobial CDSS'; /*Name of the tab on the website*/
   var MainMenuButton = 'Minneapolis Home'; /*Main menu button name*/
   const MainMenu = 'ORZID2 GMENU ABX INPT MAIN'; /*the menu the website starts at*/
@@ -33,6 +34,10 @@
   var hideButtonsHome = 'False';/*mark as true for non-CDSS systems*/
   var Version = 'V1.2'; /*Text at the bottom of the menu, change to whatever you want*/
   </script> 
+  <!-- EHR-agnostic adapter layer: contract/registry + per-EHR implementations -->
+  <script src="/adapters/ehr-adapter.js"></script>
+  <script src="/adapters/vista.js"></script>
+  <script src="/adapters/oracle.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title id="pageTitle"></title>
@@ -372,6 +377,16 @@
     </div>  
     <span id="versionTag"></span>
 <script>
+// Instantiate the EHR adapter for this station (see /adapters/ehr-adapter.js).
+// All EHR-specific behavior (item classification, order launching, source
+// footer label) is delegated to this adapter so the renderer stays neutral.
+const ehr = window.selectEHRAdapter({
+  EHR: (typeof EHR !== 'undefined') ? EHR : 'vista',
+  MenuPrefix: (typeof MenuPrefix !== 'undefined') ? MenuPrefix : '',
+  LinkPrefix: (typeof LinkPrefix !== 'undefined') ? LinkPrefix : '',
+  txmlFile: (typeof txmlFile !== 'undefined') ? txmlFile : null
+});
+
 function adjustFontSize() {
   const table = document.querySelector('.table');
   const tableRows = table.querySelectorAll('tr');
@@ -803,7 +818,7 @@ function createOMTable(selectedData) {
           const contentText = cellContent;
           let currentIndex = 0;
 
-          if (Item && (Item.startsWith(MenuPrefix) || Item.startsWith(LinkPrefix))) {
+          if (Item && ehr.isNavigable(matchingItem)) {
               const RowClickElement = document.createElement('a');
               RowClickElement.classList.add('clickable');
               RowClickElement.addEventListener('click', () => {
@@ -813,7 +828,7 @@ function createOMTable(selectedData) {
               cellContentElement.appendChild(RowClickElement);
           } 
           
-          if (!Item || !(Item.startsWith(MenuPrefix) || Item.startsWith(LinkPrefix))) {
+          if (!Item || !ehr.isNavigable(matchingItem)) {
             if (abxLinkData.length > 0) {
               const linkContainer = document.createElement('a');
               const matchingURLs = abxLinkData.filter(item =>
@@ -868,8 +883,8 @@ function createOMTable(selectedData) {
             }
           }
           
-          if (Item && !Item.startsWith(MenuPrefix)) {
-          /*if (Item && !(Item.startsWith(MenuPrefix) || Item.startsWith(LinkPrefix))) {*/
+          if (Item && !ehr.isMenu(matchingItem)) {
+          /* Show the info (ⓘ) affordance for orderable items, not sub-menus */
               const clickableSymbol = document.createElement('a');
               clickableSymbol.textContent = " \u24d8";
               clickableSymbol.classList.add('clickable');
@@ -904,10 +919,10 @@ function createOMTable(selectedData) {
     tbody.appendChild(bodyRow)	  
   }
 
-  // Add a new row for the VistA Menu Name at the bottom of the table
+  // Add a new row for the source EHR menu name at the bottom of the table
   const itemRow = document.createElement('tr');
   const itemCell = document.createElement('td');
-  itemCell.textContent = "VistA Menu Name: " + selectedData.Name;
+  itemCell.textContent = ehr.sourceMenuLabel + selectedData.Name;
   itemRow.appendChild(itemCell);
   tbody.appendChild(itemRow);
 
@@ -961,22 +976,13 @@ async function handleRowClick(item, ClickSymbol) {
                 selectedData = matchingODItem;
                 createODTable(selectedData);
                 pushHistory(selectedData.Name);
-            } else if (matchingODItem.Name.startsWith(LinkPrefix) && !ClickSymbol) {
-                // If ClickSymbol is false and matchingODItem's name starts with LinkPrefix, call findMatches
-                const matches = await findMatches(matchingODItem);
-
-                if (matches.length > 0) {
-                    // Handle each match individually
-                    matches.forEach(match => {
-                        const { txmlName, txmlURL, odItem } = match;
-                        // Handle each match here
-                        //console.log("Matching .txml Name:", txmlName);
-                        //console.log("Matching .txml URL:", txmlURL);
-                        //console.log("Matching ODJSON Item:", odItem);
-                    });
-                } else {
-                    //console.log('No matching item found in OMJSON.json, ODJSON.json, or txml');
-                }
+            } else if (ehr.isOrderLink(matchingODItem) && !ClickSymbol) {
+                // Order link: let the EHR adapter resolve/launch it.
+                await ehr.launchOrder(matchingODItem, {
+                    fetchODData: fetchODData,
+                    createODTable: createODTable,
+                    pushHistory: pushHistory
+                });
             } else {
                 // Handle other cases
                 //console.log('Matching item does not meet any specific condition');
@@ -990,139 +996,9 @@ async function handleRowClick(item, ClickSymbol) {
 }
 
 
-// Function to find matches between txml names and ODJSON text fields
-// Declare the variable globally to ensure it's only declared once
-let currentPopupWindow = null;
-async function findMatches(matchingItem) {
-    try {
-        const txmlData = await fetchAndParseXML(txmlFile);
-        const odData = await fetchODData();
-
-        // Initialize an array to store matches
-        const matches = [];
-
-        // Filter ODJSON data to include only items with matching names
-        const filteredODData = odData.filter(odItem =>
-            odItem.Name.trim().toLowerCase() === matchingItem.Name.trim().toLowerCase()
-        );
-
-        // Loop through each filtered item in the ODJSON data
-        for (const item of filteredODData) {
-            // Initialize arrays to store matches and URLs for the current ODJSON item
-            const itemMatches = [];
-            const urls = [];
-
-            // Loop through each field to search for matches
-            for (let i = 1; i <= 20; i++) { // Updated to check up to WordProcessing20
-                const wordProcessingField = item[`WordProcessing${i}`];
-                // Check if the field exists and contains text
-                if (wordProcessingField && wordProcessingField.trim() !== '') {
-                   // console.log(`Checking WordProcessing${i}: ${wordProcessingField}`);
-                    // Check for matches with txml names using wildcards
-                    const matchesInTxml = txmlData.fields.filter(field => new RegExp(field.name.replace(/\*/g, '.*'), 'i').test(wordProcessingField));
-                    if (matchesInTxml.length > 0) {
-                        // If matches are found, add them to the itemMatches array
-                        matchesInTxml.forEach(match => {
-                            //console.log(`Match found: ${match.name} with URL: ${match.url}`);
-                            itemMatches.push({
-                                txmlName: match.name,
-                                txmlURL: match.url,
-                                txmlDefaultText: match.defaultText,
-                                odItem: item
-                            });
-                            // If the match has a URL, add it to the URLs array
-                            if (match.url) {
-                                urls.push(match.url);
-                            }
-                        });
-                    } else {
-                      //matchingItem = selectedItem
-                      //createODTable(item)
-                      //console.log(`No matches found for WordProcessing${i}`);
-                    }
-                } 
-            }
-
-            // Add all matches for the current ODJSON item to the main matches array
-            matches.push(...itemMatches);
-
-            // Debugging: Log the itemMatches array
-            //console.log("Item matches:", itemMatches);
-
-            // If URLs are found, handle them based on the number of URLs
-            if (urls.length > 0) {
-                if (urls.length === 1) {
-                    // If only one URL is found, open it directly in a new tab
-                    window.open(urls[0], '_blank');
-                } else {
-                    // If multiple URLs are found, create a new tab with the links
-                    const popupContent = itemMatches
-                        .filter(match => match.txmlURL) // Ensure only matches with URLs are included
-                        .map(match => `<a href="${match.txmlURL}" target="_self">${match.txmlDefaultText || match.txmlName}</a>`)
-                        .join('<br>');
-
-                    // Debugging: Log the popup content
-                    //console.log("Popup content:", popupContent);
-
-                    // Open a new tab and write the content
-                    const newTab = window.open("", "_blank");
-                    newTab.document.write(`<html><head><title>Select CDSS Link</title></head><body>Multiple links in CDSS order dialog. Select one below to open.<br>${popupContent}</body></html>`);
-                }
-            }
-                else {
-                  createODTable(item)
-                  pushHistory(item.Name)
-                }
-        }
-
-        return matches;
-    } catch (error) {
-        console.error("Error finding matches:", error);
-        return []; // Return an empty array if an error occurs
-    }
-}
-  
-async function fetchAndParseXML(txmlFile) {
-    try {
-        const response = await fetch(txmlFile);
-        if (!response.ok) {
-            throw new Error('Network response was not ok ' + response.statusText);
-        }
-        const xmlText = await response.text();
-        const parser = new DOMParser();
-        const xmlDoc = parser.parseFromString(xmlText, "text/xml");
-
-        // Extract boilerplate text from the XML document
-        const boilerplateTexts = Array.from(xmlDoc.querySelectorAll("BOILERPLATE_TEXT p"), p => p.textContent);
-
-        // Extract field names and their attributes from the XML document
-        const fields = Array.from(xmlDoc.querySelectorAll("TEMPLATE_FIELDS FIELD")).map(field => {
-            const name = field.getAttribute("NAME");
-            const type = field.querySelector("TYPE") ? field.querySelector("TYPE").textContent : null;
-            const inactive = field.querySelector("INACTIVE") ? field.querySelector("INACTIVE").textContent : null;
-            const length = field.querySelector("LENGTH") ? field.querySelector("LENGTH").textContent : null;
-            const defaultText = field.querySelector("DEFAULT_TEXT") ? field.querySelector("DEFAULT_TEXT").textContent : null;
-            const defaultIndex = field.querySelector("DEFAULT_INDEX") ? field.querySelector("DEFAULT_INDEX").textContent : null;
-            const required = field.querySelector("REQUIRED") ? field.querySelector("REQUIRED").textContent : null;
-            const separateLines = field.querySelector("SEPARATE_LINES") ? field.querySelector("SEPARATE_LINES").textContent : null;
-            const maxLength = field.querySelector("MAX_LENGTH") ? field.querySelector("MAX_LENGTH").textContent : null;
-            const indent = field.querySelector("INDENT") ? field.querySelector("INDENT").textContent : null;
-            const pad = field.querySelector("PAD") ? field.querySelector("PAD").textContent : null;
-            const minValue = field.querySelector("MIN_VALUE") ? field.querySelector("MIN_VALUE").textContent : null;
-            const maxValue = field.querySelector("MAX_VALUE") ? field.querySelector("MAX_VALUE").textContent : null;
-            const increment = field.querySelector("INCREMENT") ? field.querySelector("INCREMENT").textContent : null;
-            const url = field.querySelector("URL") ? field.querySelector("URL").textContent : null;
-            const items = field.querySelector("ITEMS") ? field.querySelector("ITEMS").textContent : null;
-
-            return { name, type, inactive, length, defaultText, defaultIndex, required, separateLines, maxLength, indent, pad, minValue, maxValue, increment, url, items };
-        });
-
-        return { boilerplateTexts, fields };
-    } catch (error) {
-        console.error("Error fetching or parsing the XML file:", error);
-        return { boilerplateTexts: [], fields: [] }; // Return empty arrays if error occurs
-    }
-}
+// Order-link resolution and .txml parsing now live in the VistA adapter
+// (/adapters/vista.js). The renderer reaches them via ehr.launchOrder() and
+// ehr.getTemplateFields(), keeping this page EHR-agnostic.
 
 async function createODTable(selectedItem) {
     // Check if selectedItem is already an object or a string
@@ -1216,10 +1092,7 @@ async function createODTable(selectedItem) {
         const cell = document.createElement('td');
 
         if (/^WordProcessing\d+$/.test(key)) {
-            const txmlData = await fetchAndParseXML(txmlFile);
-            const matchingTexts = txmlData.fields.filter(field =>
-                new RegExp(field.name.replace(/\*/g, '.*'), 'i').test(value)
-            );
+            const matchingTexts = await ehr.getTemplateFields(value);
 
             if (matchingTexts.length > 0) {
                 const clickableSymbol = document.createElement('a');
