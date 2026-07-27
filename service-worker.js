@@ -1,5 +1,5 @@
 const APP_PREFIX = 'CDSS_';
-const VERSION = '1.264'; // Update the version when you make changes
+const VERSION = '1.265'; // Update the version when you make changes
 const CACHE_NAME = APP_PREFIX + VERSION;
 
 const URLS = [
@@ -19,9 +19,14 @@ const URLS = [
   '/manifest.webmanifest',
   '/service-worker.js',
   
+  '/stations/001-TestStation/TestStation.txml',
+  '/stations/001-TestStation/TestStationCDSS.html',
+  '/stations/001-TestStation/SinusitisTestOMJSON.json',
+  '/stations/001-TestStation/TestStationODJSON.json',
+
   '/stations/618-Minneapolis/Minneapolis.txml',
   '/stations/618-Minneapolis/MinneapolisCDSS.html',
-  '/MinneapolisItemLinks.json',
+  '/stations/618-Minneapolis/MinneapolisItemLinks.json',
   '/stations/618-Minneapolis/MinneapolisOMJSON.json',
   '/stations/618-Minneapolis/MinneapolisODJSON.json',
 
@@ -30,8 +35,9 @@ const URLS = [
   '/stations/568-BlackHills/BlackHillsOMJSON.json',
   '/stations/568-BlackHills/BlackHillsODJSON.json',
     
+  '/stations/636A6-DesMoines/DesMoines.txml',
   '/stations/636A6-DesMoines/DesMoinesCDSS.html',
-  '/DesMoinesItemLinks.json',
+  '/stations/636A6-DesMoines/DesMoinesItemLinks.json',
   '/stations/636A6-DesMoines/DesMoinesOMJSON.json',
   '/stations/636A6-DesMoines/DesMoinesODJSON.json',
       
@@ -40,19 +46,21 @@ const URLS = [
   '/stations/437-Fargo/FargoOMJSON.json',
   '/stations/437-Fargo/FargoODJSON.json',
   
+  '/stations/636-Omaha/Omaha.txml',
   '/stations/636-Omaha/OmahaCDSS.html',
-  '/OmahaItemLinks.json',
+  '/stations/636-Omaha/OmahaItemLinks.json',
   '/stations/636-Omaha/OmahaOMJSON.json',
   '/stations/636-Omaha/OmahaODJSON.json',
   
+  '/stations/438-SiouxFalls/SiouxFalls.txml',
   '/stations/438-SiouxFalls/SiouxFallsCDSS.html',
-  '/SiouxFallsItemLinks.json',
+  '/stations/438-SiouxFalls/SiouxFallsItemLinks.json',
   '/stations/438-SiouxFalls/SiouxFallsOMJSON.json',
   '/stations/438-SiouxFalls/SiouxFallsODJSON.json',
 
   '/stations/656-StCloud/StCloud.txml',
   '/stations/656-StCloud/StCloudCDSS.html',
-  '/StCloudItemLinks.json',
+  '/stations/656-StCloud/StCloudItemLinks.json',
   '/stations/656-StCloud/StCloudOMJSON.json',
   '/stations/656-StCloud/StCloudODJSON.json',
 
