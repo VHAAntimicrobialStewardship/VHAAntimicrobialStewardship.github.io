@@ -1,5 +1,5 @@
 const APP_PREFIX = 'CDSS_';
-const VERSION = '1.263'; // Update the version when you make changes
+const VERSION = '1.264'; // Update the version when you make changes
 const CACHE_NAME = APP_PREFIX + VERSION;
 
 const URLS = [
@@ -88,6 +88,9 @@ self.addEventListener('install', function (e) {
     caches.open(CACHE_NAME).then(function (cache) {
       console.log('Caching files: ' + URLS.join(', '));
       return cache.addAll(URLS);
+    }).then(function () {
+      // Activate updated service worker without waiting for all tabs to close.
+      return self.skipWaiting();
     })
   );
 });
@@ -115,6 +118,29 @@ self.addEventListener('fetch', function (e) {
 
   if (!e.request.url.startsWith(self.location.origin)) {
     console.log('Skipping caching for third-party resource: ' + e.request.url);
+    return;
+  }
+
+  const requestUrl = new URL(e.request.url);
+  const isCmsContentRequest =
+    e.request.method === 'GET' &&
+    (requestUrl.pathname.endsWith('.json') || requestUrl.pathname.endsWith('.txml'));
+
+  // CMS-managed content should prefer the network so saved edits appear quickly.
+  if (isCmsContentRequest) {
+    e.respondWith(
+      fetch(e.request).then(function (networkResponse) {
+        if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
+          const responseToCache = networkResponse.clone();
+          caches.open(CACHE_NAME).then(function (cache) {
+            cache.put(e.request, responseToCache);
+          });
+        }
+        return networkResponse;
+      }).catch(function () {
+        return caches.match(e.request);
+      })
+    );
     return;
   }
 
