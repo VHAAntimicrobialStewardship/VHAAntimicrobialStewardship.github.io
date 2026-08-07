@@ -7,7 +7,7 @@ This is the site fed by our repo: [vhaantimicrobialstewardship.github.io](https:
 Current state:
 
 * We've installed the Sveltia CMS in /admin.
-* Changed the file/folder structure to put each station in its own folder
+* Changed the file/folder structure to put each station in its own folder for scalability
 * Created a test station from Minneapolis's folder
 * Created a Sveltia collection for just sinusitis and related pages to implement and test CMS features
 * Edited the order menu json file to clear out extraneous information and combine the text so it can be edited in the rich text/markdown CMS editor
