@@ -15,12 +15,13 @@
   var MainMenuButton = '001-TestStation Home'; /*Main menu button name*/
   const MainMenu = 'ORZID2 GMENU ABX INPT MAIN'; /*the menu the website starts at*/
   const outptMenu = 'ORZID3 GMENU ABX OUTPT MAIN'; /*the menu the website starts at*/
-  const erucMenu = 'ORZID GMENU ER/UC EMERGENCY DEPARTMENT MAIN MENU'; /*the menu the website starts at*/	  
+  const erucMenu = 'ORZID GMENU ER/UC EMERGENCY DEPARTMENT MAIN MENU'; /*the menu the website starts at*/
+  const combinedMenu = 'ORZC GMENU ABX INPT MAIN'; /*Combined guidance main menu*/	  
   var IndexButton = 'Index'; /*Only important to CDSS program functions, can be left as it for other systems*/
   var homeButtonUrl = 'https://VHAAntimicrobialStewardship.github.io/'; /*Only important to CDSS program functions, home URL*/
   const Index = 'ORZID2 GMENU ABX INDEX INPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
   const outptIndex = 'ORZID3 GMENU ABX INDEX OUTPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
-  const OMjson = '/stations/001-TestStation/SinusitisTestOMJSON.json'; /*Name of OMJSON file*/
+  const OMjson = '/stations/001-TestStation/TestStationOMJSON.json'; /*Name of OMJSON file*/
   const ODjson = '/stations/001-TestStation/TestStationODJSON.json'; /*Name of ODJSOM file*/
   const txmlFile = '/stations/001-TestStation/TestStation.txml'; /*Name of txml file*/
   const AbxLinkjson = '/AbxLinks.json'; /*Name of AbxLinks file*/
@@ -253,6 +254,7 @@
   float: Left; /* Float the image to the right */
 }
 
+#combinedButton,
 #inptButton,
 #outptButton,
 #erucButton   {
@@ -462,6 +464,7 @@ let historyIndex = -1; // Index of the current selection in the history
 let abxLinkData = []; // AbxLink data
 let matchedOutptName = null;
 let matchedErucName = null;
+let matchedCombinedName = null;
 	
 // Function to hide location buttons
 if (CDSSlocation === 'Des Moines') {
@@ -1548,6 +1551,8 @@ if (currentVersion === 'inpt') {
     dropdown.value = outptMenu;
   } else if (currentVersion === 'eruc') {
     dropdown.value = erucMenu;
+  } else if (currentVersion === 'combined') {
+    dropdown.value = matchedCombinedName || combinedMenu;
   }
   if (!dropdown.querySelector(`option[value="${dropdown.value}"]`)) {
     const firstVisibleOption = Array.from(dropdown.options).find(opt => opt.style.display !== 'none' && !opt.disabled);
@@ -1613,6 +1618,20 @@ function handleIndex() {
  adjustFontSize();
  checkMatchesAndSetButtonAppearance()
   }
+
+function handleCombined() {
+  const dropdown = document.getElementById('filterDropdown');
+  const searchInput = document.getElementById('searchInput');
+  searchInput.value = null;
+  searchInput.placeholder = "\u{1F50D}";
+  populateDropdown(omData);
+  currentVersion = 'combined';
+  dropdown.value = matchedCombinedName || combinedMenu;
+  filterData({ target: dropdown });
+  scrollToTop();
+  adjustFontSize();
+  checkMatchesAndSetButtonAppearance();
+}
 
 function handleEruc() {
   const dropdown = document.getElementById('filterDropdown');
@@ -1746,6 +1765,7 @@ document.getElementById('indexButton').addEventListener('click', handleIndex);
 document.getElementById('outptButton').addEventListener('click', handleOutpt);
 document.getElementById('inptButton').addEventListener('click', handleInpt);
 document.getElementById('erucButton').addEventListener('click', handleEruc);
+document.getElementById('combinedButton').addEventListener('click', handleCombined);
 document.getElementById('filterDropdown').addEventListener('change', filterData);
 window.addEventListener('resize', adjustFontSize);
 window.addEventListener('DOMContentLoaded', adjustFontSize);
@@ -1864,9 +1884,11 @@ function checkMatchesAndSetButtonAppearance() {
   const outptButton = document.getElementById('outptButton');
   const erucButton = document.getElementById('erucButton');
   const inptButton = document.getElementById('inptButton');
+  const combinedButton = document.getElementById('combinedButton');
   const indexButton = document.getElementById('indexButton');
   matchedOutptName = null;
   matchedErucName = null;
+  matchedCombinedName = null;
 	
   if (!selectedData || !selectedData.Name) {
     selectedData = { Name: MainMenu }; // Set selectedData.Name to MainMenu if not defined
@@ -1894,6 +1916,16 @@ function checkMatchesAndSetButtonAppearance() {
       }
     }
   }
+  if (selectedData.Combined) {
+    matchedCombinedName = selectedData.Combined;
+  } else {
+    for (const item of omData) {
+      if (item.Combined === selectedDataName) {
+        matchedCombinedName = item.Combined;
+        break;
+      }
+    }
+  }
 	
   if (matchedOutptName) {
     setButtonAppearance(outptButton, true); // Set button to active appearance
@@ -1907,20 +1939,35 @@ if (matchedErucName) {
     setButtonAppearance(erucButton, false); // Set button to grey text
   }
 
+if (matchedCombinedName) {
+    setButtonAppearance(combinedButton, true);
+  } else {
+    setButtonAppearance(combinedButton, false);
+  }
+
 if (currentVersion === 'inpt'){
 	setButtonBackground(inptButton, true);
 	setButtonBackground(outptButton, false);
 	setButtonBackground(erucButton, false);
+	setButtonBackground(combinedButton, false);
 	setButtonAppearance(indexButton, true);
 } else if (currentVersion === 'outpt') {
   	setButtonBackground(inptButton, false);
 	setButtonBackground(outptButton, true);
 	setButtonBackground(erucButton, false);
+	setButtonBackground(combinedButton, false);
 	setButtonAppearance(indexButton, true);
 } else if (currentVersion === 'eruc') {
   	setButtonBackground(inptButton, false);
 	setButtonBackground(outptButton, false);
 	setButtonBackground(erucButton, true);
+	setButtonBackground(combinedButton, false);
+	setButtonAppearance(indexButton, false);
+} else if (currentVersion === 'combined') {
+	setButtonBackground(inptButton, false);
+	setButtonBackground(outptButton, false);
+	setButtonBackground(erucButton, false);
+	setButtonBackground(combinedButton, true);
 	setButtonAppearance(indexButton, false);
 	}
 }

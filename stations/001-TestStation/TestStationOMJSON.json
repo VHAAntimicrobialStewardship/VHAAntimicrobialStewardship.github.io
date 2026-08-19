@@ -4116,7 +4116,8 @@
           "Text": "Pyomyositis",
           "Item": "ORZID2 GMENU PYOMYOSITIS"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABSCESSES"
     },
     {
       "Name": "ORZID2 GMENU ABX ABOUT THE CDSS",
@@ -4196,7 +4197,8 @@
           "Text": "Recalcitrant acne",
           "Item": "ORZID2 GMENU ABX RECALCITRANT ACNE AND ROSACEA"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX ACNE"
     },
     {
       "Name": "ORZID2 GMENU ABX ACUTE BACT PROSTATITIS",
@@ -4239,7 +4241,8 @@
           "Text": "Trimethoprim/sulfamethoxazole 1 DS tablet q12h ($) [R,DI] for 14 days",
           "Item": "PSJZID TRIMETH/SULFA 1 DS TAB BID"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX ACUTE BACT PROSTATITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX ADDITIONAL ASSISTANCE",
@@ -4269,7 +4272,8 @@
       "Term1": "Adjust existing antimicrobial therapy",
       "Term2": "Antimicrobial therapy adjustment",
       "Text": "# ADJUSTING EXISTING ANTIMICROBIAL THERAPY\n\n# To change the DOSE of a CURRENTLY ACTIVE antimicrobial in CPRS\n\nRight click on the active order and change the dose as needed.\n\n# To change from the CURRENT ANTIMICROBIAL MEDICATION\n\nWe encourage clinicians to consult the CDSS when considering alternative\n\nantimicrobial therapy due to an adverse drug reaction, a culture result, or a\n\nneed to switch from intravenous to oral therapy. Many of the CDSS advice menus\n\ncontain more than one antimicrobial recommendation. If a suitable alternative\n\nis not listed on the advice menu, clinicians have the additional resource of an\n\nexpanded menu of alternative medications that can be accessed by selecting the\n\nNeed an alternative antimicrobial? link at the top of each advice menu. To\n\norder an alternative medication using this link prescribers will need to\n\nindicate the rationale behind the choice.\n\nNote: Restricted antimicrobials ordered outside of the CDSS system will still\n\nrequire Infectious Diseases approval.",
-      "LinkTargets": []
+      "LinkTargets": [],
+      "Combined": "ORZC GMENU ABX ADJ EXIST ABX THERAPY"
     },
     {
       "Name": "ORZID2 GMENU ABX AEROMONAS",
@@ -4299,7 +4303,8 @@
           "Text": "[Click here] Amoxicillin 500mg PO once + Epinephrine 0.5MG/0.5ML IM once prn",
           "Item": "ORZ SET ABX AMOXICILLIN CHALLENGE ALLERGY CLINIC"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX AMOXICILLIN CHALLENGE ALLERGY"
     },
     {
       "Name": "ORZID2 GMENU ABX ANTIMICROBIAL SHORTAGES",
@@ -4324,7 +4329,8 @@
           "Text": "Oseltamivir 75 mg po bid [R] for 5 days",
           "Item": "PSJZID OSELTAMIVIR 75 MG PO BID 5DAYS"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX ANTIVIRAL TREATMENT"
     },
     {
       "Name": "ORZID2 GMENU ABX APPRO TO BACTEREMIA",
@@ -4569,7 +4575,8 @@
           "Text": "Levofloxacin 750 mg PO q24h [R,DI] for 5 days",
           "Item": "PSJZID PNA LEVOFLOXACIN 750MG PO Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX ASPIRATION PNEUMONIA"
     },
     {
       "Name": "ORZID2 GMENU ABX ASSOC COLITIS",
@@ -4640,7 +4647,8 @@
           "Text": "Antimicrobial prophylaxis for urological procedures",
           "Item": "ORZID2 GMENU SURG UROLOGY PREOP"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX ASYMP BACTERIURIA"
     },
     {
       "Name": "ORZID2 GMENU ABX AZITHROMYCIN PREVENTION OF EXACERBATIONS COPD",
@@ -4668,7 +4676,8 @@
           "Text": "Azithromycin 250 mg po daily long-term for COPD [DI]",
           "Item": "PSJZID AZITHROMYCIN LONGTERM COPD PULM"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX AZITHROMYCIN PREVENTION OF EXACERBATIONS COPD"
     },
     {
       "Name": "ORZID2 GMENU ABX BACTEREMIA",
@@ -4731,7 +4740,8 @@
           "Text": "Candida spp.",
           "Item": "ORZID2 GMENU BACTEREMIA CANDIDA SPP."
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX BACTEREMIA"
     },
     {
       "Name": "ORZID2 GMENU ABX BALANITIS",
@@ -4774,7 +4784,8 @@
           "Text": "Metronidazole 500 mg PO q12h ($) [DI] for 7 days",
           "Item": "PSJZID METRONIDAZOLE 500MG PO Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX BALANITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX BARICITINIB EUA COVID-19",
@@ -4860,7 +4871,8 @@
           "Text": "Prednisone 60 mg q24h PO for 7 days <AND> acyclovir 400 mg PO 5X/day ($) [R]",
           "Item": "ORZ SET ABX PREDNISONE 60MG Q24H 7D ACYCLOVIR 400MG PO 5X/DAY"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX BELL'S PALSY"
     },
     {
       "Name": "ORZID2 GMENU ABX BETA-LACTAM ALLERGY ASSESMENT",
@@ -4976,7 +4988,8 @@
           "Text": "COPD exacerbation",
           "Item": "ORZID2 GMENU ABX COPD EXACERBATION"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX BRONCHITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX BRONCHITIS NOT BENEFIT",
@@ -5104,7 +5117,8 @@
           "Text": "Ciprofloxacin 500 mg PO q12h for 5 days [R,DI]",
           "Item": "PSJZID CIPROFLOXACIN 500MG PO Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX CAMPYLOBACTER"
     },
     {
       "Name": "ORZID2 GMENU ABX CANDIDA UTI",
@@ -5142,7 +5156,8 @@
           "Text": "Fluconazole 200 mg (3 mg/kg) IV q24h ($) [R,DI] for 14 days",
           "Item": "PSJIZID FLUCONAZOLE 200-400MG IV Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX CANDIDA UTI"
     },
     {
       "Name": "ORZID2 GMENU ABX CANDIDA VULVO-VAGINITIS",
@@ -5180,7 +5195,8 @@
           "Text": "Fluconazole 150 mg PO every 7 days ($) [R,DI] for 6 months",
           "Item": "PSJZID FLUCONAZOLE 150MG PO QWEEK"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX CANDIDA VULVO-VAGINITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX CARDIOVASCULAR",
@@ -5253,7 +5269,8 @@
           "Text": "Suppurative Thrombophlebitis",
           "Item": "ORZID2 GMENU ABX SUPPURATIVE THROMBO EMP THERAPY"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX CARDIOVASCULAR"
     },
     {
       "Name": "ORZID2 GMENU ABX CDSS VERSION",
@@ -5318,7 +5335,8 @@
           "Text": "Ciprofloxacin 400 mg IV q12h [R,DI] <AND> vancomycin 15 mg/kg IV q12h [R] <AND>",
           "Item": "ORZ SET ABX VANCO 15MG/KG CIPRO 400MG METRO 500MG IV Q8H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX CELLULITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX CERVICITIS ASSOC STD",
@@ -5351,7 +5369,8 @@
           "Text": "Treatment for gonorrhea cervicitis",
           "Item": "ORZID2 GMENU ABX GONOCOCCAL"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX CERVICITIS ASSOC STD"
     },
     {
       "Name": "ORZID2 GMENU ABX CHLAMYDIA URETHRITIS CERVICITIS OR PROCTITIS",
@@ -5374,7 +5393,8 @@
           "Text": "Azithromycin 1 gm PO ONCE ($) [M]",
           "Item": "PSJZID AZITHROMYCIN 1GM PO ONCE"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX CHLAMYDIA URETHRITIS CERVICITIS OR PROCTITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX CHOLANGITIS",
@@ -5422,7 +5442,8 @@
           "Text": "Ciprofloxacin 400 mg IV q12h [R,DI] <AND> metronidazole 500 mg IV q8h [DI]",
           "Item": "ORZ SET ABX CIPROF 400MG IV Q12 METRON 500MG IV Q8H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX CHOLANGITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX CHOLECYSTITIS",
@@ -5485,7 +5506,8 @@
           "Text": "Meropenem 1 gm IV q8h [R,O]",
           "Item": "PSJIZID MEROPENEM 1GM IV Q8H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX CHOLECYSTITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX CHOLERA",
@@ -5513,7 +5535,8 @@
           "Text": "Azithromycin 1000 mg PO one-time dose [M]",
           "Item": "PSJZID AZITHROMYCIN 1GM PO ONCE"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX CHOLERA"
     },
     {
       "Name": "ORZID2 GMENU ABX CHRON PROS/PELVIC PAIN SYN",
@@ -5531,7 +5554,8 @@
           "Text": "Ibuprofen 400 mg PO q8h for 2 to 3 weeks",
           "Item": "PSJZID IBUPROFEN 400MG PO Q8H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX CHRON PROS/PELVIC PAIN SYN"
     },
     {
       "Name": "ORZID2 GMENU ABX CHRONIC BACT PROSTATITIS",
@@ -5564,7 +5588,8 @@
           "Text": "Trimethoprim/sulfamethoxazole 1 DS tablet PO q12h ($) [R,DI] for 4 weeks",
           "Item": "PSJZID TRIMETH/SULFA 1 DS TAB BID"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX CHRONIC BACT PROSTATITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX CHRONIC MENINGITIS",
@@ -5605,7 +5630,8 @@
           "Text": "Foscarnet 90 mg/kg IV q12h [R,O]",
           "Item": "PSJIZID FOSCARNET 0.09 GM/KG IV Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX CMV COLITIS OR ESOPHAGITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX CMV ENCEPHALITIS",
@@ -5628,7 +5654,8 @@
           "Text": "Valganciclovir 900 mg PO q12h ($$$) [R,O]",
           "Item": "PSJZID VALGANCICLOVIR 900MG PO Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX CMV ENCEPHALITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX CMV MAIN PAGE",
@@ -5689,7 +5716,8 @@
           "Text": "Valganciclovir 900 mg PO Q24h ($$$) [R,O]",
           "Item": "PSJZID VALGANCICLOVIR 900 MG PO Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX CMV PNEUMONIA"
     },
     {
       "Name": "ORZID2 GMENU ABX CMV POLYRADICULOPATHY",
@@ -5717,7 +5745,8 @@
           "Text": "Foscarnet 90 mg/kg IV q12h ($$$$) [R,O]",
           "Item": "PSJIZID FOSCARNET 0.09 GM/KG IV Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX CMV POLYRADICULOPATHY"
     },
     {
       "Name": "ORZID2 GMENU ABX CMV RETINITIS",
@@ -5765,7 +5794,8 @@
           "Text": "Valganciclovir 900 mg PO q24h ($$$) [R,O]",
           "Item": "PSJZID VALGANCICLOVIR 900 MG PO Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX CMV RETINITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX CNS",
@@ -5908,7 +5938,8 @@
           "Text": "Suppurative intracranial thrombophilia",
           "Item": "ORZID2 GMENU SUPP INTRACRANIAL THROMBOPH"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX CNS"
     },
     {
       "Name": "ORZID2 GMENU ABX COLONIZED RESPIRATORY TRACT VENTILATOR",
@@ -5921,7 +5952,8 @@
           "Text": "Nosocomial Pneumonia",
           "Item": "ORZID2 GMENU ABX NOSO PNEUMONIA NEW"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX COLONIZED RESPIRATORY TRACT VENTILATOR"
     },
     {
       "Name": "ORZID2 GMENU ABX COLONIZED WOUNDS",
@@ -5972,7 +6004,8 @@
           "Text": "Stepdown empiric treatment for CAP with oral antibiotics",
           "Item": "ORZID2 GMENU CAP OUTPATIENT TREATED SETTING"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX COM-ACQ PNEUMONIA"
     },
     {
       "Name": "ORZID2 GMENU ABX COMPLICATED UTI CATHETER ASSOCIATED",
@@ -6249,7 +6282,8 @@
           "Text": "Piperacillin-tazobactam 4.5 gm IV q6h [R] for 5 days",
           "Item": "PSJIZID PIP/TAZ 4.5GM IV Q6H(NE-EXTINF,CI-CEFEP/METRO)"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX COPD EXACERBATION"
     },
     {
       "Name": "ORZID2 GMENU ABX COST INFORMATION",
@@ -6372,7 +6406,8 @@
           "Text": "Lab orders for monitoring remdesivir treatment (CMP, CBC with diff, INR)",
           "Item": "LRTZ SET REMDESIVIR X3 DAYS"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX COVID-19 MPLS ANTIMICROBIAL GUIDELINE"
     },
     {
       "Name": "ORZID2 GMENU ABX COVID-19 VACCINE CLC",
@@ -6742,7 +6777,8 @@
           "Text": "Infections in bone or joint prostheses",
           "Item": "ORZID2 GMENU PROS JOINT BONE INFECT"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX DEVICE-RELATED INFECTIONS"
     },
     {
       "Name": "ORZID2 GMENU ABX DIAGNOSIS OF ENDOCARDITIS",
@@ -6813,7 +6849,8 @@
           "Text": "Ciprofloxacin 400 mg IV q8h [R,DI] <AND> metronidazole 500 mg IV q8h [DI]",
           "Item": "ORZ SET ABX CIPROFLOXACIN 400MG IV Q8H METRO 500MG IV Q8H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX DIVERTICULITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX DRUG ALLERGIES",
@@ -6935,7 +6972,8 @@
           "Text": "Shigella/Enteroinvasive E. coli treatment recommendations",
           "Item": "ORZID2 GMENU ABX SHIGELLA SPECIES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX E COLI INFECT"
     },
     {
       "Name": "ORZID2 GMENU ABX ELEMENTS OF CDSS ADVICE PAGE",
@@ -7005,7 +7043,8 @@
           "Text": "Levofloxacin 750 mg PO q24h [R,DI] <AND> metronidazole 500 mg PO q12h [DI]",
           "Item": "ORZ SET ABX LEVOFLOXACIN 750MG PO Q24H METRONIDZOLE500MGPOQ12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX EMPYEMA"
     },
     {
       "Name": "ORZID2 GMENU ABX ENTAMOEBA HISTOLYTICA",
@@ -7030,7 +7069,8 @@
           "Text": "Ceftriaxone 2 gm IV q24h [M]",
           "Item": "PSJIZID CEFTRIAXONE 2GM IV Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX ENTERIC FEVER"
     },
     {
       "Name": "ORZID2 GMENU ABX EPIDIDYMITIS",
@@ -7098,7 +7138,8 @@
           "Text": "Levofloxacin 500 mg IV q24h ($) for 10 days",
           "Item": "PSJIZID LEVOFLOXACIN 500MG IV Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX EPIDIDYMITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX EPIGLOTTITIS",
@@ -7126,7 +7167,8 @@
           "Text": "Levofloxacin 500 mg IV q24h ($) [R,DI] <AND> vancomycin 15 mg/kg IV q12h ($) [R]",
           "Item": "ORZ SET ABX LEVOFLOX 500MG QD VANCO 15MG/KG Q12"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX EPIGLOTTITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX ESBL KPC ETC",
@@ -7161,7 +7203,8 @@
           "Text": "Herpes Simplex Esophagitis",
           "Item": "ORZID2 GMENU ABX HERPES SIMPLEX ESOPHAGITIS"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX ESOPHAGITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX EXCLUSIONS",
@@ -7207,7 +7250,8 @@
           "Text": "Fidaxomicin Extended-Pulse Regimen [M]",
           "Item": "PSJZID FIDAXOMICIN EXTENDED-PULSE REGIMEN"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX FIRST RECURRENCE ABX ASSOC"
     },
     {
       "Name": "ORZID2 GMENU ABX FOOT ULCER MAIN MARCH 2025",
@@ -7686,7 +7730,8 @@
           "Text": "Valacyclovir 1000 mg PO Q24h ($) [R]",
           "Item": "PSJZID VALACYCLOVIR 1000 MG PO Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX GENITAL HERPES"
     },
     {
       "Name": "ORZID2 GMENU ABX GENITOURINARY",
@@ -7784,7 +7829,8 @@
           "Text": "Candida vulvovaginitis",
           "Item": "ORZID2 GMENU ABX CANDIDA VULVO-VAGINITIS"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX GENITOURINARY"
     },
     {
       "Name": "ORZID2 GMENU ABX GI EUS-FNA ENDO PROCED",
@@ -7825,7 +7871,8 @@
           "Text": "Metronidazole 250 mg PO q8h for 5 to 7 days [DI]",
           "Item": "PSJZID METRONIDAZOLE 250 MG PO Q8H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX GIARDIA"
     },
     {
       "Name": "ORZID2 GMENU ABX GONOCOCCAL",
@@ -7873,7 +7920,8 @@
           "Text": "Gentamicin 240 MG IM Once ($) [R] <AND> Azithromycin 2000 mg PO Once ($) [DI]",
           "Item": "ORZ SET ABX GENTAMICIN 240MG IM X1+AZITH 2000MG X1 GONOCOCCAL"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX GONOCOCCAL"
     },
     {
       "Name": "ORZID2 GMENU ABX H PYLORI INFECTION",
@@ -8220,7 +8268,8 @@
           "Text": "Hepatitis A Vaccine Information Page (outpatient orders only)",
           "Item": "ORZID3 GMENU ABX HEPA VACCINE INFORMATION PAGE"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX HEPATITIS A"
     },
     {
       "Name": "ORZID2 GMENU ABX HEPATITIS B",
@@ -8238,14 +8287,16 @@
           "Text": "Hepatitis B Evaluation",
           "Item": "ORZID3 GMENU HEPATITIS B EVALUATION ANTI-CD20 ANTIBODY"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX HEPATITIS B"
     },
     {
       "Name": "ORZID2 GMENU ABX HEPATITIS C",
       "Term1": "Hepatitis C",
       "Term2": "HepC",
       "Text": "# HEPATITIS C\n\n# Treatment of acute disease\n\nMost acute disease is asymptomatic or mild. Patients with acute hepatitis C\n\nshould be referred to the Hepatitis C clinic. Treatment may be indicated for\n\ndisease that persists beyond 2 months.\n\n# Chronic disease treatment\n\nAntiviral therapy for chronic hepatitis C is a complicated, highly specialized\n\ntask.\n\nConsult Gastroenterology and Infectious Diseases\n\n# _______________________________________________________________________________\n\nReferences:\n\nMandell chapter: Acute viral hepatitis\n\nMandell chapter: Chronic viral hepatitis\n\nUp-to-date article: Overview of the management of chronic hepatitis C virus\n\ninfection",
-      "LinkTargets": []
+      "LinkTargets": [],
+      "Combined": "ORZC GMENU ABX HEPATITIS C"
     },
     {
       "Name": "ORZID2 GMENU ABX HERPES KERATITIS",
@@ -8288,7 +8339,8 @@
           "Text": "Valacyclovir 500 mg PO Q24h for 12 months ($) [R]",
           "Item": "PSJZID VALACYCLOVIR 500MG PO Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX HERPES KERATITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX HERPES SIMPLEX ESOPHAGITIS",
@@ -8316,7 +8368,8 @@
           "Text": "Acyclovir 5 mg/kg IV q8h [R]",
           "Item": "PSJIZID ACYCLOVIR 5 MG/KG IV Q8H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX HERPES SIMPLEX ESOPHAGITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX HERPES WHITLOW",
@@ -8339,7 +8392,8 @@
           "Text": "Valacyclovir 1 gm PO q12h for 10 days ($) [R]",
           "Item": "PSJZID VALACYCLOVIR 1GM PO Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX HERPES WHITLOW"
     },
     {
       "Name": "ORZID2 GMENU ABX HIV-AIDS",
@@ -8357,7 +8411,8 @@
           "Text": "<<ORDER>> HIV CLINIC Outpt Consult",
           "Item": "GMRCTZ MRTC - OUTPT"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX HIV-AIDS"
     },
     {
       "Name": "ORZID2 GMENU ABX HOME IV AT MPLS",
@@ -8423,7 +8478,8 @@
           "Text": "Acyclovir 10 mg/kg IV q8h ($$) [R,DI] for 14 to 21 days",
           "Item": "PSJIZID ACYCLOVIR 10 MG/KG IV Q8H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX HSV ENCEPHALITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX IDP CIPROFLOXACIN PO",
@@ -8548,7 +8604,8 @@
           "Text": "Pneumocystis",
           "Item": "ORZID2 GMENU PNEUMOCYSTIS JIROVECII"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX IMMUNOCOMPROMISED PATIENT"
     },
     {
       "Name": "ORZID2 GMENU ABX IMPETIGO",
@@ -8586,7 +8643,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX IMPETIGO"
     },
     {
       "Name": "ORZID2 GMENU ABX IMPORTANT BETA-LACTAM ALLERGY FACTS",
@@ -13472,7 +13530,8 @@
           "Text": "Vancomycin 125mg PO q6h for 10 days [M]",
           "Item": "PSJZID VANCOMYCIN 125MG PO Q6H X10DAYS CDIFF"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX INI EPI ABX ASSOC COLITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX INIT PERI ASSOC W PERI DIAL",
@@ -13838,7 +13897,8 @@
           "Text": "TEST PCN ALLERGY",
           "Item": "TEST ORZID2 GMENU SURG NEUROSURGERY"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX INPT MAIN"
     },
     {
       "Name": "ORZID2 GMENU ABX ISOSPORA",
@@ -13971,7 +14031,8 @@
       "Term1": "Amebic liver abscess",
       "Term2": "",
       "Text": "# RECOMMENDATIONS NOT AVAILABLE\n\nRecommendations for this condition are not available within CDSS. Please refer\n\nto facility guidelines or other clinical resources for recommendations.",
-      "LinkTargets": []
+      "LinkTargets": [],
+      "Combined": "ORZC GMENU ABX LIVER AMEBIC ABSCESS"
     },
     {
       "Name": "ORZID2 GMENU ABX LIVER PYOGENIC ABSCESS",
@@ -14014,7 +14075,8 @@
           "Text": "Ciprofloxacin 400 mg IV q12h [R,DI] <AND> metronidazole 500 mg IV q8h [DI]",
           "Item": "ORZ SET ABX CIPROF 400MG IV Q12 METRON 500MG IV Q8H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX LIVER PYOGENIC ABSCESS"
     },
     {
       "Name": "ORZID2 GMENU ABX LUNG AND MEDIASTINUM",
@@ -14082,7 +14144,8 @@
           "Text": "Azithromycin for prevention of COPD exacerbations",
           "Item": "ORZID2 GMENU ABX AZITHROMYCIN PREVENTION OF EXACERBATIONS COPD"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX LUNG AND MEDIASTINUM"
     },
     {
       "Name": "ORZID2 GMENU ABX LYME DISEASE",
@@ -14140,7 +14203,8 @@
           "Text": "Cardiac disease",
           "Item": "ORZID2 GMENU LYME CARDIAC DISEASE"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX LYME DISEASE"
     },
     {
       "Name": "ORZID2 GMENU ABX MALARIA TREATMENT",
@@ -14421,7 +14485,8 @@
           "Text": "Staphylococcus aureus",
           "Item": "ORZID2 GMENU ABX NOSOCOMIAL STAPHYLOCOCCUS PNEUMONIA"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX NOSO PNEUMONIA NEW"
     },
     {
       "Name": "ORZID2 GMENU ABX NOSOCOMIAL A. BAUMANNII",
@@ -14741,7 +14806,8 @@
           "Text": "Valacyclovir 500 mg PO Q24h ($) [R]",
           "Item": "PSJZID VALACYCLOVIR 500MG PO Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX OROLABIAL HERPES"
     },
     {
       "Name": "ORZID2 GMENU ABX PANCREATITIS",
@@ -14779,7 +14845,8 @@
           "Text": "Levofloxacin 500 mg IV q24h [R,DI] < AND > metronidazole 500 mg IV q8h [DI]",
           "Item": "ORZ SET ABX LEVOFL 500MG IV Q24H METRONIDAZOLE 500 MG IV Q8H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX PANCREATITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX PARAINFLUENZA",
@@ -14845,7 +14912,8 @@
           "Text": "Piperacillin-tazobactam 3.375 gm IV q6h ($$) [R]",
           "Item": "ORZ SET ABX PIP/TAZ3.375GM(NE-EXTINF,CI-CEFEP/METRO)VANC15MG/KG"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX PAROTITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX PAROTITIS MORE INFORMATION",
@@ -14933,7 +15001,8 @@
           "Text": "Fluconazole 100 mg PO q24h ($) [R,DI]",
           "Item": "PSJZID FLUCONAZOLE 100MG PO Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX PERI ASSOC W PERI DIAL"
     },
     {
       "Name": "ORZID2 GMENU ABX PERIANAL/ANORECTAL ABSCESS",
@@ -14986,7 +15055,8 @@
           "Text": "Cefepime 2 gm IV q8h [R] <AND> metronidazole 500 mg IV q8h [DI]",
           "Item": "ORZ SET ABX CEFEPIME 2 GM IV Q8H METRONIDAZOLE 500 MG IV Q8H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX PERIANAL/ANORECTAL ABSCESS"
     },
     {
       "Name": "ORZID2 GMENU ABX PERICARDITIS",
@@ -15047,7 +15117,8 @@
           "Text": "Trimethoprim/sulfamethoxazole 1 DS tablet PO q12h for 7 days [R,DI]",
           "Item": "PSJZID TRIMETH/SULFA 1 DS TAB BID"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX PERTUSSIS"
     },
     {
       "Name": "ORZID2 GMENU ABX PHARYNGITIS",
@@ -15105,7 +15176,8 @@
           "Text": "Azithromycin 500mg po day 1, then 250mg q24h for days 2-5 ($)[O]",
           "Item": "ORZ SET ABX AZITHROMYCIN PO 500/250 ONCE/Q24H X4DAYS"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX PHARYNGITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX PHOTODYNAMIC THERAPY HSV-1",
@@ -15151,7 +15223,8 @@
           "Text": "Ceftriaxone 1 gm IV q24h [M] < AND > doxycycline 100 mg IV q12h [DI]",
           "Item": "ORZ SET ABX CEFTR1GMIVQ24H DOXY 100MG IV Q12H METRO500MGIV12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX PID"
     },
     {
       "Name": "ORZID2 GMENU ABX PNEUMOCYSTIS JIROVECII PROPHYLAXIS",
@@ -15189,7 +15262,8 @@
           "Text": "Atovaquone 1500mg q day for PCP prophylaxis ($$) [DI]",
           "Item": "PSJZID ATOVAQUONE 1500MG QDAY PCP PROPHYLAXIS"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX PNEUMOCYSTIS JIROVECII PROPHYLAXIS"
     },
     {
       "Name": "ORZID2 GMENU ABX PNEUMONIA",
@@ -15217,7 +15291,8 @@
           "Text": "Nosocomial pneumonia (including HAP AND VAP)",
           "Item": "ORZID2 GMENU ABX NOSO PNEUMONIA NEW"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX PNEUMONIA"
     },
     {
       "Name": "ORZID2 GMENU ABX PNEUMONIA HAP NEW",
@@ -15265,7 +15340,8 @@
           "Text": "<ADD> Tobramycin 5 mg/kg IV once [R,O] to an antimicrobial regimen above",
           "Item": "PSJIZID TOBRAMYCIN 5 MG/KG IV ONCE"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX PNEUMONIA HAP NEW"
     },
     {
       "Name": "ORZID2 GMENU ABX PNEUMONIA VAP",
@@ -15331,7 +15407,8 @@
           "Text": "Treatment of CNS Infected Intravascular Catheters",
           "Item": "ORZID2 GMENU INTRAVAS CATH COAG-NEG STAPH"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX POSITIVE BLOOD CULTURE COAG NEG STAPH"
     },
     {
       "Name": "ORZID2 GMENU ABX PREVENTION OF INFECTION",
@@ -15389,7 +15466,8 @@
           "Text": "Click Here",
           "Item": "ORZID2 GMENU ABX STAPHYLOCOCCUS AUREUS DECOLONIZATION"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX PREVENTION OF INFECTION"
     },
     {
       "Name": "ORZID2 GMENU ABX PRIM INFECT CHICKENPOX",
@@ -15417,7 +15495,8 @@
           "Text": "Acyclovir 10 mg/kg IV q8h for 7 days ($$) [R]",
           "Item": "PSJIZID ACYCLOVIR 10 MG/KG IV Q8H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX PRIM INFECT CHICKENPOX"
     },
     {
       "Name": "ORZID2 GMENU ABX PROCED FOR INFECTED SKIN, SKIN STRUCTURES",
@@ -15455,7 +15534,8 @@
           "Text": "Vancomycin 15mg/kg Weight Based Dosing Preop [R]",
           "Item": "ORZID2 GMENU SURG VANCOMYCIN WEIGHT BASED DOSING"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX PROCED FOR INFECTED SKIN, SKIN STRUCTURES"
     },
     {
       "Name": "ORZID2 GMENU ABX RE-EVALUATE 72HRS N. PNEUMO",
@@ -15587,7 +15667,8 @@
           "Text": "Respiratory syncytial virus (RSVPreF)",
           "Item": "ORZID2 GMENU ABX RSV VACCINE INFORMATION PAGE"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX RECOMMENDED IMMUNIZATIONS"
     },
     {
       "Name": "ORZID2 GMENU ABX REF JOURN (A-C)",
@@ -15801,7 +15882,8 @@
           "Text": "Ceftriaxone 2 gm IV q24h for 7 days [M]",
           "Item": "PSJIZID CEFTRIAXONE 2GM IV Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX SALMONELLA SPECIES"
     },
     {
       "Name": "ORZID2 GMENU ABX SECOND PERITONITIS",
@@ -15973,7 +16055,8 @@
           "Text": "Ceftriaxone 2 gm IV q24h for 5 days [M]",
           "Item": "PSJIZID CEFTRIAXONE 2GM IV Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX SHIGELLA SPECIES"
     },
     {
       "Name": "ORZID2 GMENU ABX SKIN SOFT TISSUE INFECTIONS",
@@ -16145,7 +16228,8 @@
           "Text": "Azithromycin 250MG PO qday for daily prophylaxis for asplenic patients ($) [DI]",
           "Item": "PSJZID AZITHROMYCIN 250MG PO QDAY DAILY PROPHY ASPLENIA"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX SPLENECTOMY DAILY ANTIBIOTICS"
     },
     {
       "Name": "ORZID2 GMENU ABX SPLENECTOMY VACCINES ABX PROPHY",
@@ -16183,7 +16267,8 @@
           "Text": "Self-medicate Empiric Antibiotics",
           "Item": "ORZID3 GMENU SPLENECTOMY EMPIRIC ABX"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX SPLENECTOMY VACCINES ABX PROPHY"
     },
     {
       "Name": "ORZID2 GMENU ABX SPON BACT PERITONITIS",
@@ -16226,7 +16311,8 @@
           "Text": "Ciprofloxacin 500 mg PO q24h [R,DI]",
           "Item": "PSJZID CIPROFLOXACIN 500MG PO QDAY PROPHYLAXIS"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX SPON BACT PERITONITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX STAPHYLOCOCCUS AUREUS DECOLONIZATION",
@@ -16707,7 +16793,8 @@
           "Text": "Metronidazole 500 mg IV q8h [DI] <AND> vancomycin 500 mg NG q6h [M]",
           "Item": "ORZ SET ABX METRO 500MG IV Q8H VANCO 500MG NG Q6H W/O ENEMA"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX TOXIC MEGACOLON"
     },
     {
       "Name": "ORZID2 GMENU ABX TPOXX MONKEYPOX TREATMENT",
@@ -16829,7 +16916,8 @@
           "Text": "Ciprofloxacin 400 mg IV q12h [R,DI] <AND> metronidazole 500 mg IV q8h [DI]",
           "Item": "ORZ SET ABX CIPROF 400MG IV Q12 METRON 500MG IV Q8H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX TYPHLITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX UNCOMP UTI",
@@ -17090,7 +17178,8 @@
           "Text": "Clindamycin 300 mg PO q12h ($) [H,O] for 7 days",
           "Item": "PSJZID CLINDAMYCIN 300MG PO Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ABX VAGINITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX VANCO + MRSA NARES INFORMATION",
@@ -17218,7 +17307,8 @@
           "Text": "[CLICK HERE] for treatment of severe bacterial sinusitis",
           "Item": "ORZID2 GMENU SEVERE SINUSITIS"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ACUTE SINUSITIS"
     },
     {
       "Name": "ORZID2 GMENU ANAPLASMA PHATOCYTOPHILUM",
@@ -17241,7 +17331,8 @@
           "Text": "Doxycycline 100 mg IV q12h for 10 days ($$) [DI]",
           "Item": "PSJIZID DOXYCYCLINE 100MG IV Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ANAPLASMA PHATOCYTOPHILUM"
     },
     {
       "Name": "ORZID2 GMENU ANTIVIRAL IMMUNOSUPPRESSIVE MALIGNANCY",
@@ -17292,7 +17383,8 @@
           "Text": "Hepatitis B Evaluation Anti-CD20 Antibody",
           "Item": "ORZID3 GMENU HEPATITIS B EVALUATION ANTI-CD20 ANTIBODY"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ANTIVIRAL INFECTION MALIGNANCY"
     },
     {
       "Name": "ORZID2 GMENU ANTIVIRAL PROPHYLAXIS MALIGNANCY",
@@ -17371,7 +17463,8 @@
           "Text": "Hepatitis B Evaluation Anti-CD20 Antibody",
           "Item": "ORZID3 GMENU HEPATITIS B EVALUATION ANTI-CD20 ANTIBODY"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ANTIVIRAL TYPE OF MALIGNANCY"
     },
     {
       "Name": "ORZID2 GMENU APPENDICITIS W/O PERFORATION",
@@ -17424,7 +17517,8 @@
           "Text": "Ciprofloxacin 400 mg IV q12h [R,DI] <AND> metronidazole 500 mg IV q8h [DI]",
           "Item": "ORZ SET ABX CIPROF 400MG IV Q12 METRON 500MG IV Q8H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU APPENDICITIS W/O PERFORATION"
     },
     {
       "Name": "ORZID2 GMENU APPENDICITIS WITH PERFORATION",
@@ -17472,7 +17566,8 @@
           "Text": "<ADD> vancomycin 15 mg/kg IV q12h [R] on one of the regimens above",
           "Item": "ORZ SET ABX VANCO NEW START 15MG/KG Q12H + MRSA NARES SCREENING"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU APPENDICITIS WITH PERFORATION"
     },
     {
       "Name": "ORZID2 GMENU APPRO FOOT ULCER W/ INFECT",
@@ -18274,7 +18369,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU BED BUGS (HEMIPTERA)"
     },
     {
       "Name": "ORZID2 GMENU BISPECIFIC DISEASE SPECIFIC MANAGEMENT",
@@ -18541,7 +18637,8 @@
           "Text": "Doxycycline 100MG PO Q12H",
           "Item": "PSJZID DOXYCYCLINE 100MG PO Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU BITE WNDS EIKENELLA CORRODENS"
     },
     {
       "Name": "ORZID2 GMENU BITE WNDS P. MULTOCIDA",
@@ -18574,7 +18671,8 @@
           "Text": "Doxycycline 100mg IV q12h ($$) [DI]",
           "Item": "PSJIZID DOXYCYCLINE 100MG IV Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU BITE WNDS P. MULTOCIDA"
     },
     {
       "Name": "ORZID2 GMENU BITE WNDS S. AUREUS",
@@ -18617,7 +18715,8 @@
           "Text": "Minocycline 100 mg PO q12h ($) [DI]  < OR >",
           "Item": "PSJZID MINOCYCLINE 100MG PO Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU BITE WNDS S. AUREUS"
     },
     {
       "Name": "ORZID2 GMENU BITE WNDS STREPTOCOCCI",
@@ -18650,7 +18749,8 @@
           "Text": "Clindamycin 300 mg PO q6h ($) [H,O]",
           "Item": "PSJZID CLINDAMYCIN 300MG PO Q6H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU BITE WNDS STREPTOCOCCI"
     },
     {
       "Name": "ORZID2 GMENU BITE WOUNDS",
@@ -18688,7 +18788,8 @@
           "Text": "Moxifloxacin 400 MG PO qday for 10 days [R,DI]",
           "Item": "PSJZID MOXIFLOXACIN 400 MG PO Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU BITE WOUNDS"
     },
     {
       "Name": "ORZID2 GMENU BODY LICE (PEDICULOSIS CORPORIS)",
@@ -18711,7 +18812,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU BODY LICE (PEDICULOSIS CORPORIS)"
     },
     {
       "Name": "ORZID2 GMENU BONE JOINT MUSCLE INFECTIONS",
@@ -18997,7 +19099,8 @@
           "Text": "Levofloxacin 750 mg PO Q24H [R,DI]",
           "Item": "PSJZID2 PNA LEVOFLOXACIN 750 MG PO Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU CAP INPATIENT TREATED SETTING NON-SEVERE CAP"
     },
     {
       "Name": "ORZID2 GMENU CAP INPATIENT TREATED SETTING SEVERE CAP",
@@ -19060,7 +19163,8 @@
           "Text": "Cefepime 2 gm IV q8h ($$) [R] <AND> Azithromycin 500 mg IV x1 on day 1,",
           "Item": "ORZ SET ABX PNA CEFEPIME AND AZITHROMYCIN IV"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU CAP INPATIENT TREATED SETTING SEVERE CAP"
     },
     {
       "Name": "ORZID2 GMENU CAP OUTPATIENT TREATED SETTING",
@@ -19182,7 +19286,8 @@
           "Text": "Azithromycin 500 mg PO q24h for 3 days [M]",
           "Item": "PSJZID AZITHROMYCIN 500MG PO Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU COMM ACQ DIARRHEA"
     },
     {
       "Name": "ORZID2 GMENU COMM VIRAL GASTROENTERITIS",
@@ -19218,7 +19323,8 @@
           "Text": "Ofloxacin 0.3% ophthalmic solution 2 drops in affected eye q2h while awake for 2",
           "Item": "PSJZID OFLOXACIN OPTH 2 DRPS Q2H X2D THEN QID X5D"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU CONJUNCTIVITIS"
     },
     {
       "Name": "ORZID2 GMENU CONTACT CDSS STAFF",
@@ -19322,7 +19428,8 @@
           "Text": "Perianal/Anorectal Abscess",
           "Item": "ORZID2 GMENU ABX PERIANAL/ANORECTAL ABSCESS"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU CUTANEOUS ABSCESS"
     },
     {
       "Name": "ORZID2 GMENU CUTANEOUS CANDIDIASIS",
@@ -19350,7 +19457,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU CUTANEOUS CANDIDIASIS"
     },
     {
       "Name": "ORZID2 GMENU DECUBITUS ULCERS",
@@ -19393,7 +19501,8 @@
           "Text": "Perianal/Anorectal Abscess",
           "Item": "ORZID2 GMENU ABX PERIANAL/ANORECTAL ABSCESS"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU DECUBITUS ULCERS"
     },
     {
       "Name": "ORZID2 GMENU DEEP OROPHAR INFECT",
@@ -19441,7 +19550,8 @@
           "Text": "Amoxicillin/clavulanate 875-125 mg PO q12h for 7 days ($) [R]",
           "Item": "PSJZID AMOX/CLAV 875-125MG PO Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU DEEP OROPHAR INFECT"
     },
     {
       "Name": "ORZID2 GMENU DELAYED PCN ALLERGIC CV SURG",
@@ -19515,7 +19625,8 @@
           "Text": "Azithromycin 250 mg PO q24h ($) M <AND> ethambutol 15 mg/kg PO q24h [R]",
           "Item": "ORZ SET ABX AZITH 250, ETHAMBUTOL, RIFABUTIN 300"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU DISSEMINATED M. AVIUM"
     },
     {
       "Name": "ORZID2 GMENU DRUG PT UNDERGO DENTAL PROC",
@@ -19558,7 +19669,8 @@
           "Text": "Azithromycin 500mg PO 1 hour before procedure ($) [M]",
           "Item": "PSJZID AZITHROMYCIN 500 MG PO ONCE 'C'"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU DRUG PT UNDERGO DENTAL PROC"
     },
     {
       "Name": "ORZID2 GMENU EC CX NEG",
@@ -20020,7 +20132,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ECTHYMA GANGRENOSUM"
     },
     {
       "Name": "ORZID2 GMENU EHRLICHIA CHAFFEENSIS",
@@ -20043,7 +20156,8 @@
           "Text": "Doxycycline 100 mg IV q12h ($$) [DI]",
           "Item": "PSJIZID DOXYCYCLINE 100MG IV Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU EHRLICHIA CHAFFEENSIS"
     },
     {
       "Name": "ORZID2 GMENU EMP INTRAV W/ VANCO",
@@ -20086,7 +20200,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU EMP INTRAV W/ VANCO"
     },
     {
       "Name": "ORZID2 GMENU EMP INTRAV W/O VANCO",
@@ -20129,7 +20244,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU EMP INTRAV W/O VANCO"
     },
     {
       "Name": "ORZID2 GMENU ENDOOPTHALMITIS",
@@ -20162,7 +20278,8 @@
           "Text": "Voriconazole 100 mcg/0.1mL intravitreal injection STAT ($$$$) [R,H,DI]",
           "Item": "PSJZID VORICONAZOLE 100MCG INTRAVITREOUS INJECTION ONCE"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ENDOOPTHALMITIS"
     },
     {
       "Name": "ORZID2 GMENU ERYSIPELAS",
@@ -20210,7 +20327,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ERYSIPELAS"
     },
     {
       "Name": "ORZID2 GMENU ERYSIPELOID",
@@ -20253,7 +20371,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ERYSIPELOID"
     },
     {
       "Name": "ORZID2 GMENU ERYTHRASMA",
@@ -20271,7 +20390,8 @@
           "Text": "Clindamycin 1% topical solution apply twice daily [M] for 14 days",
           "Item": "PSJZID CLINDAMYCIN 1% TOPICAL SOLN Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU ERYTHRASMA"
     },
     {
       "Name": "ORZID2 GMENU FEVER OF UNK ORIGIN",
@@ -20317,7 +20437,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU FOLLICULITIS"
     },
     {
       "Name": "ORZID2 GMENU FOOT ULCER W/ INFECT NEW MARCH 25",
@@ -20375,7 +20496,8 @@
           "Text": "Levofloxacin 750 mg IV q24h ($) [R,DI] <AND> metronidazole 500 mg IV q8h",
           "Item": "ORZ SET ABX LEVOFLOXACIN 750MG IV AND METRO 500MG IV"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU FOOT ULCER W/ INFECT NEW MARCH 25"
     },
     {
       "Name": "ORZID2 GMENU FOOT ULCER W/ INFECT SURR TISSUES",
@@ -20458,7 +20580,8 @@
           "Text": "Ciprofloxacin 400 mg IV q8h [R] <AND> metronidazole 500 mg IV q8h [DI] <AND>",
           "Item": "ORZ SET ABX CIPROFL 400MG IV Q8H, METRONI, VANCO"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU FOOT ULCER W/ INFECT SURR TISSUES"
     },
     {
       "Name": "ORZID2 GMENU FOOT ULCER W/O INFECT SURR TISSUES",
@@ -20562,7 +20685,8 @@
           "Text": "Fluconazole 800 mg PO q24h ($) [R,DI]",
           "Item": "PSJZID FLUCONAZOLE 800MG PO Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU FUNGI BLASTOMYCES DERMATIDIS"
     },
     {
       "Name": "ORZID2 GMENU FUNGI CANDIDA ALBICANS",
@@ -20620,7 +20744,8 @@
           "Text": "Liposomal amphotericin (Ambisome) 3-5 mg/kg IV q24h [R,O]",
           "Item": "ORZ SET ABX AMPHOTERICIN LIPOSOMAL+FLUID+FLUSH ORDERS"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU FUNGI CANDIDA ALBICANS"
     },
     {
       "Name": "ORZID2 GMENU FUNGI CANDIDA GLABRATA",
@@ -20653,7 +20778,8 @@
           "Text": "Voriconazole 400 mg PO q12h for 2 doses, then 200 mg PO q12h ($$) [R,H,DI]",
           "Item": "PSJZID VORICONAZOLE 400MG PO Q12H THEN 200MG Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU FUNGI CANDIDA GLABRATA"
     },
     {
       "Name": "ORZID2 GMENU FUNGI CANDIDA KRUSEI",
@@ -20686,7 +20812,8 @@
           "Text": "Voriconazole 400 mg PO q12h for 2 doses, then 200 mg PO q12h ($$) [R,H,DI]",
           "Item": "PSJZID VORICONAZOLE 400MG PO Q12H THEN 200MG Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU FUNGI CANDIDA KRUSEI"
     },
     {
       "Name": "ORZID2 GMENU FUNGI COCCIDIOIDOMYCES",
@@ -20719,7 +20846,8 @@
           "Text": "Fluconazole 400-800 mg IV q24h ($) [R,DI]",
           "Item": "PSJIZID FLUCONAZOLE 400MG IV Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU FUNGI COCCIDIOIDOMYCES"
     },
     {
       "Name": "ORZID2 GMENU FUNGI CRYPTOCOCCUS NEOFORMANS",
@@ -20747,7 +20875,8 @@
           "Text": "Amphotericin B Liposomal 3-5MG/KG IV q24h ($$$$)[R,O]+ NS Hydratio",
           "Item": "ORZ SET ABX AMPHOTERICIN LIPOSOMAL+FLUID+FLUSH ORDERS"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU FUNGI CRYPTOCOCCUS NEOFORMANS"
     },
     {
       "Name": "ORZID2 GMENU FUNGI HISTOPLASMA CAPSULATUM",
@@ -20775,7 +20904,8 @@
           "Text": "Fluconazole 400-800 mg PO q24h ($) [R,DI]",
           "Item": "PSJZID FLUCONAZOLE 400MG PO Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU FUNGI HISTOPLASMA CAPSULATUM"
     },
     {
       "Name": "ORZID2 GMENU FURUNCLES AND CARBUNCLES",
@@ -20818,7 +20948,8 @@
           "Text": "Vancomycin 15 mg/kg IV q12h ($) [R]",
           "Item": "ORZ SET ABX VANCO NEW START 15MG/KG Q12H + MRSA NARES SCREENING"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU FURUNCLES AND CARBUNCLES"
     },
     {
       "Name": "ORZID2 GMENU GI ENDOSCOPIC PROCEDURES",
@@ -21096,7 +21227,8 @@
           "Text": "Doxycycline 100 mg PO q12h [DI]",
           "Item": "PSJZID DOXYCYCLINE 100MG PO Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU GRAM-POS FI ACTINOMYCES SPP."
     },
     {
       "Name": "ORZID2 GMENU GRAM-POS FI ANAEROBIC COCCI",
@@ -21310,7 +21442,8 @@
           "Text": "Permethrin 1% lotion Apply to affected area for 10 minutes then comb out nits",
           "Item": "PSJZID PERMETHRIN 1% LOTION TO AFFECT AREA 10MIN"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU HEAD LICE (PEDICULOSIS CAPITIS)"
     },
     {
       "Name": "ORZID2 GMENU HEPATITIS SUBMENU",
@@ -21386,7 +21519,8 @@
           "Text": "Moxifloxacin 400 mg PO q24h ($)[R,DI] for 12 weeks <AND> metronidazole 500",
           "Item": "ORZ SET ABX MOXI400MGPOQ24H METRO500MGPOQ8H RIFAMP300MGPOQ12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU HIDRADENITIS SUPPURATIVA"
     },
     {
       "Name": "ORZID2 GMENU ICE ASSESSMENT FOR ICANS",
@@ -21416,7 +21550,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU IG HIS DEFICIENCY"
     },
     {
       "Name": "ORZID2 GMENU IMMUNOCOM ALTERED MICRO FLORA",
@@ -21434,7 +21569,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU IMMUNOCOM ALTERED MICRO FLORA"
     },
     {
       "Name": "ORZID2 GMENU IMMUNOCOM BASIC CONCEPTS",
@@ -21475,7 +21611,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU IMMUNOCOM COMP DEFICIENCY"
     },
     {
       "Name": "ORZID2 GMENU IMMUNOCOM DIABETES MELLITUS",
@@ -21544,7 +21681,8 @@
           "Text": "Prevention of viral infection in a patient with malignancy",
           "Item": "ORZID2 GMENU ANTIVIRAL PROPHYLAXIS MALIGNANCY"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU IMMUNOCOM MALIGNANCY"
     },
     {
       "Name": "ORZID2 GMENU IMMUNOCOM MALNUTRITION",
@@ -21585,7 +21723,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU IMMUNOCOM NEUROL DYSFUNCTION"
     },
     {
       "Name": "ORZID2 GMENU IMMUNOCOM NEUT FEVER",
@@ -21623,7 +21762,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU IMMUNOCOM NEUT FEVER"
     },
     {
       "Name": "ORZID2 GMENU IMMUNOCOM NEUTROPENIA",
@@ -22131,7 +22271,8 @@
           "Text": "Candidemia",
           "Item": "ORZID2 GMENU BACTEREMIA CANDIDA SPP."
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU INTRAVAS CATH CANDIDA SPP"
     },
     {
       "Name": "ORZID2 GMENU INTRAVAS CATH COAG-NEG STAPH",
@@ -22159,7 +22300,8 @@
           "Text": "Vancomycin 15 mg/kg IV q12h ($) [R] <AND> vancomycin antibiotic lock therapy",
           "Item": "ORZ SET ABX VANCO 15MG/KG Q12H VANCO ABX LOCK THERAPY"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU INTRAVAS CATH COAG-NEG STAPH"
     },
     {
       "Name": "ORZID2 GMENU INTRAVAS CATH ENTEROCOCCUS",
@@ -22192,7 +22334,8 @@
           "Text": "Vancomycin 15 mg/kg IV q12h ($) [R] <AND> vancomycin antibiotic lock therapy",
           "Item": "ORZ SET ABX VANCO 15MG/KG Q12H VANCO ABX LOCK THERAPY"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU INTRAVAS CATH ENTEROCOCCUS"
     },
     {
       "Name": "ORZID2 GMENU INTRAVAS CATH GNB",
@@ -22225,7 +22368,8 @@
           "Text": "<ADD> gentamicin antibiotic lock therapy",
           "Item": "PSJIZID GENT 1MG ANTIBOTIC LOCK SOLN"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU INTRAVAS CATH GNB"
     },
     {
       "Name": "ORZID2 GMENU INTRAVAS CATH S. AUREUS",
@@ -22248,7 +22392,8 @@
           "Text": "Staphylococcus aureus bacteremia",
           "Item": "ORZID2 GMENU BACTEREMIA S. AUREUS"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU INTRAVAS CATH S. AUREUS"
     },
     {
       "Name": "ORZID2 GMENU INTRAVASC CATH-ASSOC INFECT",
@@ -22341,7 +22486,8 @@
           "Text": "Cefazolin 50 mg/ml ophthalmic drops: 1-2 drops q1h <AND> gentamicin 15 mg/ml",
           "Item": "ORZ SET ABX CEFZ 50MG/ML OPH GENT 15MG/ML OPH Q1H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU KERATITIS"
     },
     {
       "Name": "ORZID2 GMENU LEISHMANIASIS",
@@ -22395,7 +22541,8 @@
           "Text": "Ceftriaxone 2 gm IV q24h ($) [M]",
           "Item": "PSJIZID CEFTRIAXONE 2GM IV Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU LYME ACUTE NEURO DISEASE"
     },
     {
       "Name": "ORZID2 GMENU LYME ARTHRITIS",
@@ -22418,7 +22565,8 @@
           "Text": "Amoxicillin 500 mg PO q8h ($) [R] for 28 days",
           "Item": "PSJZID AMOXICILLIN 500MG PO Q8H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU LYME ARTHRITIS"
     },
     {
       "Name": "ORZID2 GMENU LYME CARDIAC DISEASE",
@@ -22446,7 +22594,8 @@
           "Text": "Ceftriaxone 2 gm IV q24h ($) [M]",
           "Item": "PSJIZID CEFTRIAXONE 2GM IV Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU LYME CARDIAC DISEASE"
     },
     {
       "Name": "ORZID2 GMENU LYME DISEASE PROPHYLAXIS",
@@ -22474,7 +22623,8 @@
           "Text": "Doxycycline PO 200mg once ($) [DI]",
           "Item": "PSJZID DOXYCYCLINE 200MG PO ONCE"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU LYME DISEASE PROPHYLAXIS"
     },
     {
       "Name": "ORZID2 GMENU LYME ERYTHEMA MIGRANS",
@@ -22502,7 +22652,8 @@
           "Text": "Amoxicillin 500 mg PO q8h ($) [R] for 14 days",
           "Item": "PSJZID AMOXICILLIN 500MG PO Q8H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU LYME ERYTHEMA MIGRANS"
     },
     {
       "Name": "ORZID2 GMENU M. AVIUM INTRACELLULARE",
@@ -22553,7 +22704,8 @@
           "Text": "Azithromycin 250 mg PO q24h ($) M <AND> ethambutol 15 mg/kg PO q24h [R]",
           "Item": "ORZ SET ABX AZITH 250, ETHAMBUTOL, RIFABUTIN 300"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU M. AVIUM PNEUMONIA"
     },
     {
       "Name": "ORZID2 GMENU M. PNEUMONIAE",
@@ -22581,7 +22733,8 @@
           "Text": "Levofloxacin 500 mg PO q24h for 5 days ($) [R,DI]",
           "Item": "PSJZID LEVOFLOX 500MG PO Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU M. PNEUMONIAE"
     },
     {
       "Name": "ORZID2 GMENU M. TUBERCULOSIS",
@@ -22627,7 +22780,8 @@
           "Text": "Ciprofloxacin 750 mg PO q12h for 6 weeks ($) [R,DI]",
           "Item": "PSJZID CIPROFLOXACIN 750MG PO Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU MALIGNANT OTITIS EXTERNA"
     },
     {
       "Name": "ORZID2 GMENU MASTOIDITIS",
@@ -22901,7 +23055,8 @@
           "Text": "Levofloxacin 750 mg PO q24h ($) [R,DI] for 7 days",
           "Item": "PSJZID LEVOFLOXACIN 750MG PO Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU MILD TO MOD SINUSITIS"
     },
     {
       "Name": "ORZID2 GMENU MORE ABOUT CELLULITIS",
@@ -22942,7 +23097,8 @@
           "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
           "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU MORE ABOUT PHARYNGITIS"
     },
     {
       "Name": "ORZID2 GMENU NECROT INFECT DIRECT THERAPY",
@@ -23000,7 +23156,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU NECROT INFECT DIRECT THERAPY"
     },
     {
       "Name": "ORZID2 GMENU NECROT INFECT EMP THERAPY",
@@ -23043,7 +23200,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU NECROT INFECT EMP THERAPY"
     },
     {
       "Name": "ORZID2 GMENU NECROTIZING INFECTIONS",
@@ -23071,7 +23229,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU NECROTIZING INFECTIONS"
     },
     {
       "Name": "ORZID2 GMENU NEUT FEVER CAND NOT ORAL THERA",
@@ -23099,7 +23258,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU NEUT FEVER CAND NOT ORAL THERA"
     },
     {
       "Name": "ORZID2 GMENU NEUT FEVER CAND ORAL THERA",
@@ -23127,7 +23287,8 @@
           "Text": "Ciprofloxacin 500mg PO q12h ($) [R,DI] <AND> Clindamycin 300mg po q6h ($) [H,O]",
           "Item": "ORZ SET ABX CIPROFLOX 500MG PO BID CLINDAMYCIN 300MG PO Q6H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU NEUT FEVER CAND ORAL THERA"
     },
     {
       "Name": "ORZID2 GMENU NEUT FEVER MOD THERAPY",
@@ -23252,7 +23413,8 @@
           "Text": "< ADD > Vancomycin 15 mg/kg IV q12h ($) [R]",
           "Item": "ORZ SET ABX VANCO NEW START 15MG/KG Q12H + MRSA NARES SCREENING"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU NOSOCOMIAL SINUSITIS"
     },
     {
       "Name": "ORZID2 GMENU OSTEOM EMPIRICAL THERAPY",
@@ -23323,7 +23485,8 @@
           "Text": "Amoxicillin-clavulanate 875/125 mg PO q12h ($) [R]  < OR >",
           "Item": "PSJZID AMOXICILLIN-CLAVULANATE 875-125 MG PO Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU OSTEOM WITH GNB"
     },
     {
       "Name": "ORZID2 GMENU OSTEOM WITH P. AERUGINOSA",
@@ -23351,7 +23514,8 @@
           "Text": "Ciprofloxacin 750 mg PO q12h ($) [R,DI]",
           "Item": "PSJZID CIPROFLOXACIN 750MG PO Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU OSTEOM WITH P. AERUGINOSA"
     },
     {
       "Name": "ORZID2 GMENU OSTEOM WITH STREPTOCOCCI",
@@ -23384,7 +23548,8 @@
           "Text": "Cefadroxil 1000 mg PO q12h ($) [R]",
           "Item": "PSJZID CEFADROXIL 1000MG PO Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU OSTEOM WITH STREPTOCOCCI"
     },
     {
       "Name": "ORZID2 GMENU OSTEOMYELITIS",
@@ -23508,7 +23673,8 @@
           "Text": "< ADD > ciprofloxacin 500 mg PO q12h for 7 days ($) [R,DI]",
           "Item": "PSJZID CIPROFL 500MG PO Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU OTITIS EXTERNA"
     },
     {
       "Name": "ORZID2 GMENU OTITIS MEDIA",
@@ -23546,7 +23712,8 @@
           "Text": "Cefpodoxime 200 mg PO BID for 10 days ($$) [R]",
           "Item": "PSJZID CEFPODOXIME 100MG PO Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU OTITIS MEDIA"
     },
     {
       "Name": "ORZID2 GMENU PARASITES",
@@ -23627,7 +23794,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU PARONYCHIA"
     },
     {
       "Name": "ORZID2 GMENU PD CEFAZOLIN 15MG/KG Q24H",
@@ -23699,7 +23867,8 @@
           "Text": "[Click Here] to order WITHOUT heparin",
           "Item": "ORZ SET ABX PD CEFEPIME AND VANCO LOW MAG 2.5%"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU PD CEFEPIME 1GM Q24H VANCO 15-30MG/KG Q5-7D"
     },
     {
       "Name": "ORZID2 GMENU PD CEFTAZIDIME 1GM Q24H",
@@ -23820,7 +23989,8 @@
           "Text": "Chlorhexidine 0.12% oral rinse swish for 30 seconds, then spit 15 ml twice",
           "Item": "PSJZID CHLORHEXIDINE 0.12% ORAL SWISH BID"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU PERIODENTAL DISEASE"
     },
     {
       "Name": "ORZID2 GMENU PERITONITIS SUBMENU",
@@ -23906,7 +24076,8 @@
           "Text": "Prednisone 40mg PO twice daily for 5 days, then 40mg PO daily for 6 days,",
           "Item": "PSJZID PREDNISONE 40MG PO BID THEN 40 6DAYS THEN 20 10 DAYS"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU PNEUMOCYSTIS JIROVECII"
     },
     {
       "Name": "ORZID2 GMENU POST-OP ANTIMICROBIAL PROPHYLAXIS",
@@ -23977,7 +24148,8 @@
           "Text": "Cefdinir 300 mg PO q12h ($) [R] < AND > trimethoprim-sulfamethoxazole 2 DS PO",
           "Item": "ORZ SET ABX CEFDINIR 300MG PO Q12H TMP/SMX 2DS PO Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU POSTSEPTAL CELLULITIS"
     },
     {
       "Name": "ORZID2 GMENU PRESEPTAL CELLULITIS",
@@ -24015,7 +24187,8 @@
           "Text": "Cefdinir 300 mg PO q12h ($) [R] <AND> trimethoprim-sulfamethoxazole 2 DS PO",
           "Item": "ORZ SET ABX CEFDINIR 300MG PO Q12H TMP/SMX 2DS PO Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU PRESEPTAL CELLULITIS"
     },
     {
       "Name": "ORZID2 GMENU PREV INFECT BACT PROPHYL",
@@ -24053,7 +24226,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU PREV INFECT BACT PROPHYL"
     },
     {
       "Name": "ORZID2 GMENU PREV INFECT FUNGAL PROPHYL",
@@ -24071,7 +24245,8 @@
           "Text": "Fluconazole 400 mg po q24h ($) [R,DI]",
           "Item": "PSJZID FLUCONAZOLE 400MG PO Q24H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU PREV INFECT FUNGAL PROPHYL"
     },
     {
       "Name": "ORZID2 GMENU PREV OF BACT ENDOCARDITIS",
@@ -24104,7 +24279,8 @@
           "Text": "Patients undergoing procedures for infected skin, skin structures, or infected",
           "Item": "ORZID2 GMENU ABX PROCED FOR INFECTED SKIN, SKIN STRUCTURES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU PREV OF BACT ENDOCARDITIS"
     },
     {
       "Name": "ORZID2 GMENU PREV OF PERTUSSIS",
@@ -24127,7 +24303,8 @@
           "Text": "Trimethoprim/sulfamethoxazole 1 DS tablet PO q12h [R,DI] for 7 days",
           "Item": "PSJZID TRIMETH/SULFA 1 DS TAB BID"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU PREV OF PERTUSSIS"
     },
     {
       "Name": "ORZID2 GMENU PREV PROS JOINT DENTAL",
@@ -24157,7 +24334,8 @@
           "Text": "Clarithromycin 500 mg PO BID ($) [R,DI]",
           "Item": "PSJZID CLARITHROMYCIN 500MG PO Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU PROPHYLAXIS M. AVIUM"
     },
     {
       "Name": "ORZID2 GMENU PROPHYLAXIS OPTH SURG",
@@ -24223,7 +24401,8 @@
           "Text": "Cefepime 2g IV q12h [R] <AND> vancomycin 15 mg/kg q12h [R]",
           "Item": "ORZ SET ABX CEFEPIME 2 GM IV Q12H VANCO 15MG/KG Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU PROS JOINT BONE INFECT"
     },
     {
       "Name": "ORZID2 GMENU PUBIC LICE (PEDICULOSIS PUBIS)",
@@ -24246,7 +24425,8 @@
           "Text": "References",
           "Item": "ORZID2 GMENU ABX REFERENCES"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU PUBIC LICE (PEDICULOSIS PUBIS)"
     },
     {
       "Name": "ORZID2 GMENU PYOMYOSITIS",
@@ -25317,7 +25497,8 @@
           "Text": "Linezolid 600 mg PO BID for 5 days [DI,O]",
           "Item": "PSJZID LINEZOLID 600MG PO Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU SSTI PURULENT INFECTIONS"
     },
     {
       "Name": "ORZID2 GMENU SSTI VECTOR-BORNE DISEASE SKIN",
@@ -26038,7 +26219,8 @@
           "Text": "Gentamicin 600 mg IV ONCE",
           "Item": "PSJIZID GENTAMICIN 600 MG IVPB GREATER 125KG PREOP"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU SURG GENTAMICIN WEIGHT BASED DOSING"
     },
     {
       "Name": "ORZID2 GMENU SURG GYNECOL SURG",
@@ -26376,7 +26558,8 @@
           "Text": "Vancomycin 15mg/kg IV beginning 120 minutes before incision ($) [R]",
           "Item": "ORZID2 GMENU SURG VANCOMYCIN WEIGHT BASED DOSING"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU SURG PLASTIC SURGERY"
     },
     {
       "Name": "ORZID2 GMENU SURG PODIATRY",
@@ -27377,7 +27560,8 @@
           "Text": "Vancomycin 15 mg/kg IV q12h [R] <AND> ciprofloxacin 400 mg IV q12h [R,DI]",
           "Item": "ORZ SET ABX VAN 15 mg/kg IV Q12H CIPRO 400 MG IV Q12H"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU VERTEBRAL (DISKITIS) OSTEOM"
     },
     {
       "Name": "ORZID2 GMENU YERSINIA ENTEROCOLITICA",
@@ -27400,7 +27584,8 @@
           "Text": "Trimethoprim-sulfamethoxazole 1 DS tablet q12h for 5 days [R,DI]",
           "Item": "PSJZID TRIMETH/SULFA 1 DS TAB BID"
         }
-      ]
+      ],
+      "Combined": "ORZC GMENU YERSINIA ENTEROCOLITICA"
     },
     {
       "Name": "ORZID2 GO DIAGNOSIS UTI 3",
@@ -46927,6 +47112,1301 @@
           "Item": "ORZ GTX ABX LEXICOMP INTERACTIONS"
         }
       ]
+    },
+    {
+      "Name": "ORZC GMENU ABSCESSES",
+      "Term1": "",
+      "Term2": "",
+      "Text": "ABSCESSES: CUTANEOUS ABSCESS, FURUNCLE, CARBUNCLE, AND PYOMYOSITIS\nThis section describes management of skin and soft tissue infections. For\ninformation on abscesses in other areas, please return to the main CDSS menu and\nchoose the appropriate organ system.\nCutaneous abscess\nPerianal/Anorectal Abscess\nFuruncles and carbuncles\nPyomyositis                                                                                                                                                                                                                  ## Inpatient Guidance\nReferences:\nSanford keyword: Skin infections",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX ACNE",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## ACNE\nAcne is an inflammatory skin condition caused by excess sebum production, gland\nobstruction and infection with Cutibacterum acnes. Early disease manifests with\nblack heads and white heads and little inflammation. Small papules and pustules\nare present in mild disease. Severe disease occurs when comedones, papules,\npustules and less often cysts are present.\nThe goal of treatment is prevention and reeducation of new comedones and\ncreating an environment that is inhibitory for C. acnes. General skin care\ntreatment measures include utilizing gentle skin cleansers, avoiding aggressive\nscrubbing, using non-comedogenic skin products, and avoiding picking of lesions.\nDiet's role in therapy remains uncertain.\nNon-Antimicrobial therapy includes benzoyl peroxide topical/wash, salicylic acid\ntopical, and tretinoin topical. These agents can be used as monotherapy in early\ndisease and in addition to antimicrobial treatment in mild to severe disease.\n## Early Disease:\nClindamycin 1% lotion topically q12h ($) [M]\n< OR >\nErythromycin 2% gel topically q12h ($) [DI]\n## Mild Disease:\nErythromycin 2% gel topically q12h ($) [DI]\n< OR >\nDoxycycline 50 mg PO q12h ($) [DI] for 12 weeks\n< OR >\nMinocycline 50 mg PO q12h ($) [DI] for 12 weeks\n## Severe Disease:\nDoxycycline 100 mg PO q12h ($) [DI] for 12 weeks <AND> erythromycin 2% gel\ntopically q12h\n< OR >\nMinocycline 100 mg PO q12h ($) [DI] for 12 weeks <AND> erythromycin 2% gel\ntopically q12h\n________________________________________________________________________________\n## **FOR DERMATOLOGY USE ONLY, REQUIRES DERMATOLOGY CONSULT PRIOR TO TREATMENT**\nRecalcitrant acne\n________________________________________________________________________________\nReferences:\nSanford keyword: Acne Vulgaris\nUp-to-Date Article: Pathogenesis, clinical manifestations, and diagnosis of acne\nUp-to-Date Article: Acne vulgaris: Overview of management\nZaenglein et al., N Engl J Med, 2018, 379(14)1343-1352\nZaenglein et al., J Am Acad Dermatol, 2016, 74(5)945-73.e33",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU GRAM-POS FI ACTINOMYCES SPP.",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## ACTINOMYCES SPP.\nOptimal therapy depends on both the disease or syndrome and the pathogen. See\ndiagnosis/syndrome section for more information.\n## Preferred treatment\nPenicillin G 4 million units IV q4h [R]\n< OR >\nAmpicillin 2 gm IV q4h [R]\n< OR >\nAmoxicillin 500 mg PO q8h [R]\n## Alternative for severe beta-lactam allergy\nAssessment of Beta-lactam Reaction\nDoxycycline 100 mg IV q12h [DI]\n< OR >\nDoxycycline 100 mg PO q12h [DI]\n## _______________________________________________________________________________\n## References:\nSanford Guide article: Actinomycosis\nUp-To-Date article: Treatment of actinomycosis",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX ACUTE BACT PROSTATITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## ACUTE BACTERIAL PROSTATITIS\nAcute bacterial prostatitis typically presents with fever, dysuria, chills,\nmalaise, myalgia, pelvic or perianal pain. On exam, the prostate gland is tense,\nboggy, and extremely tender. The urinalysis reveals pyuria, and the urine\nculture is positive. Men with dysuria and fever but without pyuria and/or\nbacteriuria should be seen by a urologist. If there is any suspicion of abscess,\nespecially in men older than 40 years, the patient should be seen by a urologist\nand transurethral prostate resection for drainage should be considered.\nMost cases in men aged 35 and older, those with recent urinary tract\ninstrumentation or surgery (e.g., prostate biopsy, vasectomy) are associated\nwith enteric Gram-negative rods. Most cases in men under age 35 and those who\nare at high risk of sexually transmitted infections are associated with N.\ngonorrhoeae and C. trachomatis. Resistant organisms are more likely if the\npatient has been in the hospital for more than 48 hours or received a course of\nantibiotics. There is increasing resistance in urinary pathogens to\nciprofloxacin.\nA urine Gram stain and culture should be performed in all patients to guide\nantimicrobial therapy:\nLab menu\n## Duration\nThere is limited data on duration of antimicrobial treatment for prostatitis. 14\ndays minimum is required. 4 to 6 weeks may be necessary to completely eradicate\nbacteria in the prostate to ensure patient does not progress to chronic\nbacterial prostatitis.\n## _____________________________________________________________________________\n## Empirical treatment\nHydration, bed rest and analgesics are recommended along with antimicrobials\ntreatment.\n## Age < 35 years and those at high risk of sexually transmitted infections\nPatient weighing less than 300 lbs:\nCeftriaxone 500 mg IM once ($) [M] <AND> doxycycline 100 mg PO q12h ($) [DI] for\n14 days\nPatients weighing 300 lbs or greater:\nCeftriaxone 1 gm IM once ($) [M] <AND> doxycycline 100 mg PO q12h ($) [DI] for\n14 days\n## Age >/= 35 years                                                                                                                                                                ## Inpatient \nPreferred:\nLevofloxacin 750 mg PO q24h ($) [R, DI] for 14 days\n< OR >\nLevofloxacin 750 mg IV q24h ($) [R, DI] for 14 days                                                                             ##Outpatient                                                                                                                                                                                                     Non-VA order for above\n## _______________________________________________________________________________\nReferences:\nLipsky et al., Clinical Infectious Diseases, 2010, 50(12)1641-1652\nMandell chapter: Prostatitis, Epididymitis and Orchitis\nSanford keyword: Prostatitis\nUp-To-Date article: Acute Bacterial Prostatitis",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU LYME ACUTE NEURO DISEASE",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## ACUTE NEUROLOGICAL DISEASE ASSOCIATED WITH LYME DISEASE\nNeurological disease is a common manifestation of Lyme Disease that typically\noccurs within weeks to months after the tick bite. Unilateral or bilateral\nfacial nerve palsy (Bell's palsy) can be treated with oral antimicrobials. Other\nneurological manifestations, including meningitis, require treatment with\nintravenous antimicrobials.\n## Consult Infectious Diseases in all cases\n## Duration of therapy\nTreat for at least 14 days. Longer durations, up to 21 days for facial nerve\npalsy and 28 days for other neurologic disease, may be required in severe cases.\n## Treatment of isolated facial nerve palsy (Bell's palsy)\nPreferred:                                                                                                                                                                                               ##Inpatient                                                                                                                                                                   Doxycycline 100 mg PO q12h ($) [DI]\nFor pregnant patients or those with contraindications to doxycycline:              Amoxicillin 500 mg PO q8h ($) [R]\n## Treatment of neurological disease other than facial nerve palsy (Bell's palsy)\nCeftriaxone 2 gm IV q24h ($) [M]                                                                                                                                                               ## ER                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Ceftriaxone 2 gm  IV once STAT ($) [M]                                                                                                                                             ## Outpatient                                                                                                                                                                                  Doxycycline 100 mg PO q12h ($) [DI] for 14 days\nFor pregnant patients or those with contraindications to doxycycline:                                                   Non-VA order for above\nFor pregnant patients or those with contraindications to doxycycline:\nAmoxicillin 500 mg PO q8h ($) [R] for 14 days\nNon-VA order for above\n## Treatment of neurological disease other than facial nerve palsy (Bell's palsy)\nRefer to Inpatient Antimicrobial CDSS                                                                                                                                                                            \n## _______________________________________________________________________________\nReferences:\nHalperin et. al., Neurology (2007) 69.91-102\nLantos et al., Clinical Infectious Diseases, 2021, 72(1):e1-e48\nMandell Chapter: Lyme Disease (Lyme Borreliosis) Due to Borrelia burgdorferi\nSanchez et al., JAMA (2016) 315.16\nSanford keyword: Lyme Disease, Facial Nerve Paralysis\nSanford keyword: Lyme Disease, Meningitis, Encephalitis\nUp-to-date article: Nervous system Lyme disease",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ACUTE SINUSITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## ACUTE SINUSITIS\nMost cases of acute sinusitis are viral and resolve within 10 days. Symptoms\n(nasal congestion, purulent nasal discharge, and tooth or facial pain) can be\ntreated with decongestants, analgesics, and nasal saline. Diagnosis of acute\nsinusitis is based on the presence of at least 2 major or 1 major and at least 2\nminor symptoms.\n## Major Symptoms\n1. Purulent anterior nasal discharge\n2. Purulent or discolored posterior nasal discharge\n3. Nasal congestion or fullness\n4. Facial pain or pressure\n5. Hyposmia or anosmia\n6. Fever\n## Minor Symptoms\n1. Headache\n2. Ear pain, pressure or fullness\n3. Halitosis\n4. Dental pain\n5. Cough\n6. Fatigue\nIf patient meets criteria above for acute sinusitis, treat with antimicrobials\naccording to the following criteria for mild to moderate or severe bacterial\nsinusitis.\n## Mild to moderate bacterial sinusitis\n1. Symptoms persisting beyond 10 days\n< OR >\n2. Double-sickening - Symptoms typical of viral upper respiratory infection\ninitially improving for 5-6 days then worsening with new development of fever,\nheadache or increased nasal discharge.\n[CLICK HERE] for treatment of mild to moderate bacterial sinusitis\n## Severe bacterial sinusitis\nSevere signs or symptoms of high fever (>/= 102 degrees Fahrenheit, >/= 39\ndegrees Celsius) and purulent nasal discharge for 3-4 consecutive days or facial\npain lasting for at least 3-4 consecutive days at the beginning of illness.\n[CLICK HERE] for treatment of severe bacterial sinusitis\n## _______________________________________________________________________________\nReferences:\nChow et al, Clinical Infectious Diseases. 2012, 54(8) e72-e112\nMandell chapter: Sinusitis\nMeltzer et al, J Allergy Clin Immunol. 2004, 114(6) S155-S212.\nRosenfeld et al, Otolaryngology - Head and Neck Surgery. 2015, 152(4) 598-609\nSanford keyword: Sinusitis, Acute, Empiric Therapy\nUp-To-Date article: Acute sinusitis and rhinosinusitis in adults: Clinical\nmanifestations and diagnosis",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX SPON BACT PERITONITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## SPONTANEOUS BACTERIAL PERITONITIS (SBP)\nOral step-down treatment\nSBP is infection of the peritoneal cavity in the absence of apparent trauma or\nother obvious cause. SBP occurs primarily in people with end-stage liver disease\nand ascites. The diagnosis is made when a peritoneal fluid sample has >/= 250\npolymorphonuclear leukocyte cells per microliter, or when bacterial pathogens\nare isolated.\nLong-term SBP prophylaxis is indicated for patients who experience a first\nepisode of SBP.\n## SBP\nPreferred:\n##Inpatient                                                                                                                                                                                                Ceftriaxone 2 gm IV q24h for 5 days [M]\nAlternative:\nAssessment of Beta-lactam Reaction\nLevofloxacin 750 mg IV q24h for 5 days [R,DI]\n## _______________________________________________________________________________\n## Prophylaxis in a patient with a previous SBP episode\nTrimethoprim-sulfamethoxazole 1 DS tablet PO q24h [R,DI]\n< OR >\nCiprofloxacin 500 mg PO q24h [R,DI]\n## _______________________________________________________________________________\n## Prophylaxis in a patient with cirrhosis and variceal hemorrhage\nTreat initially with an intravenous antimicrobial then step down to an oral\nantimicrobial when the patient can tolerate oral treatment.\nDuration of therapy: Treat for a total of 7 days (intravenous and oral)\nPreferred:\nCeftriaxone 2 gm IV q24h [M]\nAlternative:\nAssessment of Beta-lactam Reaction\nLevofloxacin 750 mg IV q24h [R,DI]\n## _______________________________________________________________________________\n## Prophylaxis for hospitalized patients with refractory low-protein ascites\n## (less than 1 gm/dL peritoneal fluid)\nTrimethoprim-sulfamethoxazole 1 DS tablet PO q24h until discharge from\nhospital [R,DI]\n< OR >\nCiprofloxacin 500 mg PO q24h until discharge from hospital [R,DI]\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ##  Outpatient                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ## SBP\nRefer to the Inpatient Antimicrobial CDSS\n## _______________________________________________________________________________\n## Prophylaxis in a patient with a previous SBP episode\nTrimethoprim-sulfamethoxazole 1 DS tablet PO q24h [R,DI]\nNon-VA order for above\n< OR >\nCiprofloxacin 500 mg PO q24h [R,DI]\nNon-VA order for above\n## _______________________________________________________________________________\n## Prophylaxis in a patient with cirrhosis and variceal hemorrhage\nRefer to the Inpatient Antimicrobial CDSS\n## _______________________________________________________________________________\n## Prophylaxis for hospitalized patients with refractory low-protein ascites\n## (less than 1 gm/dL peritoneal fluid)\nRefer to the Inpatient Antimicrobial CDSS\nER##                                                                                                                                                                                                                               Treat initially with an intravenous antimicrobial then step down to an oral\nantimicrobial when the patient can tolerate oral treatment.\nDuration of therapy: Treat for a total of 7 days (intravenous and oral)\nPreferred:\nCeftriaxone 2 gm IV once STAT [M]\nAlternative:\nAssessment of Beta-lactam Reaction\nLevofloxacin 750 mg IV once STAT [R,DI]\n## _______________________________________________________________________________\n## Prophylaxis for hospitalized patients with refractory low-protein ascites\n## (less than 1 gm/dL peritoneal fluid)\nRefer to Inpatient Antimicrobial CDSS ##_______________________________________________________________________________\nReferences:\nMandell chapter: Peritonitis and Intraperitoneal Abscesses\nSanford Guide article: Peritonitis, Primary: Spontaneous, Bacterial\nSolomkin et al, Clin Infect Dis, 2010, 50:133-64\nUp-to-Date article: Spontaneous bacterial peritonitis in adults: Treatment and\nprophylaxis",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX ADJ EXIST ABX THERAPY",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## ADJUSTING EXISTING ANTIMICROBIAL THERAPY\n## To change the DOSE of a CURRENTLY ACTIVE antimicrobial in CPRS\nRight click on the active order and change the dose as needed.\n## To change from the CURRENT ANTIMICROBIAL MEDICATION\nWe encourage clinicians to consult the CDSS when considering alternative\nantimicrobial therapy due to an adverse drug reaction, a culture result, or a\nneed to switch from intravenous to oral therapy. Many of the CDSS advice menus\ncontain more than one antimicrobial recommendation. If a suitable alternative\nis not listed on the advice menu, clinicians have the additional resource of an\nexpanded menu of alternative medications that can be accessed by selecting the\nNeed an alternative antimicrobial? link at the top of each advice menu. To\norder an alternative medication using this link prescribers will need to\nindicate the rationale behind the choice.\nNote: Restricted antimicrobials ordered outside of the CDSS system will still\nrequire Infectious Diseases approval.",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU IMMUNOCOM ALTERED MICRO FLORA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "ALTERED MICROBIAL FLORA\nA rich, diverse microbial flora lives on or in skin, mucosal surfaces, and\nrespiratory and gastrointestinal tracts of healthy people. This flora prevents\ndisease by inhibiting the growth of potential pathogens. Disruption of the\nnormal flora, usually by antimicrobial therapy, reduces this barrier and\nincreases the risk of infectious disease. Patients exposed to broad-spectrum\nantimicrobials are at greater risk for colonization with resistant bacteria,\nfungal infections, and Clostridium difficile colitis. During hospitalization,\nmany patients become colonized with more resistant organisms like methicillin-\nresistant Staphylococcus aureus and resistant Gram-negative bacilli.\nReferences\nRich RR, et al, eds. Clinical Immunology\nRoitt I, et al, eds. Immunology",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX LIVER AMEBIC ABSCESS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## RECOMMENDATIONS NOT AVAILABLE\nRecommendations for this condition are not available within CDSS. Please refer\nto facility guidelines or other clinical resources for recommendations.",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX AMOXICILLIN CHALLENGE ALLERGY",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## Amoxicillin Oral Challenge for Low Risk Patients\n## Amoxicillin challenge protocol:\nTo be given ONLY after patient has been evaluated with thorough beta lactam\nhistory and found to be low risk, AND has given consent for amoxicillin\nchallenge.\n## Place order for medications:\nInpatient orders:\nClinic orders:\nReferences:\nKhan DA, et al. J Allergy Clin Immunol.,2022,150(6):1333-1393\nDrug allergy: A 2022 practice parameter update",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ANAPLASMA PHATOCYTOPHILUM",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## ANAPLASMA PHAGOCYTOPHILUM (HUMAN GRANULOCYTOTROPIC ANAPLASMOSIS)\n## Treatment\nDoxycycline 100 mg PO q12h for 10 days ($) [DI]\n< OR >\nDoxycycline 100 mg IV q12h for 10 days ($$) [DI]\nReferences:\nMandell chapter: Rickettsioses, Ehrlichioses, and Anaplasmosis\nMMWR RR. 2016, 65 (2) 1-44\nSanford keyword: Ehrlichia sp., Anaplasma sp.\nUp-to-Date article: Human ehrlichiosis and anaplasmosis",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX ANTIVIRAL TREATMENT",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## INFLUENZA ANTIVIRAL THERAPY RECOMMENDATIONS\n## Who to Treat:\nThe decision to treat should be based on clinical symptoms and/or presence of a\nhigh-risk condition and should NOT be delayed until laboratory test results are\navailable.\nIt is important to use antiviral drugs early to treat influenza in people who\nare very sick with influenza (for example hospitalized people) and people who\nare sick with influenza and have a greater chance of getting severe\ncomplications. If a patient is not in a high-risk group or is not hospitalized,\nhealthcare providers should use clinical judgment to guide treatment decisions.\n## People who have a greater chance of serious influenza complications include:\n*Adults aged 65 years or older\n*Persons who have chronic pulmonary (including\nasthma) or cardiovascular (except isolated hypertension), renal, hepatic,\nhematologic, metabolic disorders (including diabetes mellitus), neurologic and\nneuro-developmental disorders\n*Persons who are immunocompromised due to any\ncause (including immunosuppression caused by medications or by HIV infection)\n*Pregnant women and women up to 2 weeks after the end of pregnancy\n*Persons younger than 19 years of age who are receiving long-term aspirin- or\nsalicylate-containing medications and who might be at risk for experiencing Reye\nsyndrome after influenza virus infection *Residents of nursing homes and other\nlong-term care facilities\n*Non-Hispanic Black persons, Hispanic or Latino persons, and American Indian or\nAlaska Native persons\n*Persons who are extremely obese (BMI greater than or equal to 40)\n## Antiviral Treatment:\nIf indicated, antivirals should be started as soon as possible. Maximal benefit\noccurs when treatment is started within 48 hours of symptom onset. However,\nantivirals should not be withheld if symptoms begin more than 48 hours prior and\nthe patient meets criteria for treatment and remains severely ill.\n## Treatment Dosing:\nZanamivir is not recommended for patients with chronic respiratory diseases such\nas asthma or chronic obstructive pulmonary disease. These patients may have\nbronchospasm with zanamivir. If zanamivir must be used, and patients are using\nan inhaled bronchodilator, zanamivir should be taken just after the\nbronchodilator.\nExtending the duration of treatment for oseltamivir or peramivir may be needed\nfor those patients with prolonged illness or who are immunosuppressed.\n## Preferred:\nOseltamivir 75 mg po bid [R] for 5 days\n## _______________________________________________________________________________\n## **Below is for information only, quick orders are not available\n## Alternative:\n Requires Infectious Disease Approval                                                                                         ##Inpatient/Outpatient      \nZanamivir 2 inhalations (2 x 5 mg) BID [O] for 5 days\n< OR >\nBaloxavir 80 mg PO x1 dose patients wt 80 kg or greater, 40 mg PO x 1 dose for\npatients wt < 80 kg [DI]\n## Alternative for patients unable to tolerate or absorb oral oseltamivir:\nPeramivir may not be available. Contact ID for more information.\nRequires Infectious Disease Approval\nHospitalized, high risk:\nPeramivir 600 mg IV q24h [R] for 5 days\nAcute, uncomplicated:\nPeramivir 600mg IV Once [R]\n## _______________________________________________________________________________\n## References:\nCenters for Disease Control (CDC) (Accessed 9/20/23)\nhttps://www.cdc.gov/flu/professionals/antivirals/summary-clinician\nUpToDate Seasonal influenza in adults: Treatment",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU APPENDICITIS WITH PERFORATION",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## APPENDICITIS WITH PERFORATION\nOral step-down treatment\n## Duration of therapy\nAdequate source control: 4 days after source control\nIncomplete source control & no abscess: 5-7 days tailored to improvement.\nRe-evaluate need for source control if ongoing signs/symptoms of infection\nbeyond 7 days\nAbscess: 2-6 weeks depending on resolution on repeat imaging. ID Consult\nrecommended.\n## Treatment\nPreferred:\n## Inpatient  /Outpatient                                                                                                                                         Ceftriaxone 2 gm IV q24h [M] <AND> metronidazole 500 mg IV q8h [DI]\nAlternative:\nAssessment of Beta-lactam Reaction\nCiprofloxacin 400 mg IV q12h [R,DI] <AND> metronidazole 500 mg IV q8h [DI]\n## Healthcare-associated infection, critical illness, or immunosuppression\nPiperacillin-tazobactam 4.5 gm IV q6h [R]\nAlternative:\nCefepime 2 gm IV q8h [R] <AND> metronidazole 500 mg IV q8h [DI]\nAlternative:\nAssessment of Beta-lactam Reaction\nCiprofloxacin 400 mg IV q8h [R,DI] <AND> metronidazole 500 mg IV q8h [DI]\nConsider vancomycin for enterococcal coverage in critically ill or\nimmunosuppressed patients:\n<ADD> vancomycin 15 mg/kg IV q12h [R] on one of the regimens above\n##ER                                                                                                                                                                                                           Ceftriaxone 2 gm IV once STAT [M] <AND> metronidazole 500 mg IV once STAT [DI]\nAlternative:\nAssessment of Beta-lactam Reaction\nCiprofloxacin 400 mg IV once STAT [R,DI] <AND> metronidazole 500 mg IV once STAT\n[DI]\n## Healthcare-associated infection, critical illness, or immunosuppression\nPiperacillin-tazobactam 4.5 gm IV once STAT [R]\nAlternative:\nCefepime 2 gm IV once STAT [R] <AND> metronidazole 500 mg IV once STAT [DI]\nAlternative:\nAssessment of Beta-lactam Reaction\nCiprofloxacin 400 mg IV once STAT [R,DI] <AND> metronidazole 500 mg IV once STAT\n[DI]\nConsider vancomycin for enterococcal coverage in critically ill or\nimmunosuppressed patients:\n<ADD> vancomycin 15 mg/kg IV once STAT [R] on one of the regimens above        ##______________________________________________________________________________\nReferences:\nMandell chapter: Appendicitis\nSanford Guide article: Appendicitis\nSolomkin et al, Clin Infect Dis, 2010, 50:133-64\nUp-to-Date article: Management of acute appendicitis in adults",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU APPENDICITIS W/O PERFORATION",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## APPENDICITIS WITHOUT PERFORATION\nOral step-down treatment\nPatients with an acutely inflamed appendix and no gangrene or perforation are\nconsidered to have uncomplicated appendicitis. Patients with gangrene,\nperforation, peritonitis, or abscess have complicated appendicitis. Treatment\nwith antibiotics is an option for patients who are unfit for surgery or refuse\nsurgery. Treatment with antibiotics should not be used routinely as an\nalternative to surgery.\n## Select for treatment of complicated appendicitis\nLink to appendicitis with perforation menu\n## Treatment of uncomplicated appendicitis\nSurgical management: Administer prophylaxis regimen below prior to surgery\nonly. Stop antibiotics after the surgery.\nSurgical prophylaxis:\nCefazolin weight-based dosing preop < AND > metronidazole 500 mg IV once\nPost-surgical: antibiotics not recommended after appendectomy\n## Interval appendectomy or no appendectomy\nDuration of therapy: Treat with antibiotics for 7 days total\nPreferred:\n##Inpatient                                                                                                                                                                                      Ceftriaxone 2 gm IV q24h [M] <AND> metronidazole 500 mg IV q8h [DI]\nHealthcare-associated infection, critical illness, or immunosuppression:\nPiperacillin-tazobactam 4.5 gm IV q6h [R]\nAlternative:\nCefepime 2 gm IV q8h [R] <AND> metronidazole 500 mg IV q8h [DI]\nAlternative for severe Beta-lactam reaction:\nAssessment of Beta-lactam Reaction\nCiprofloxacin 400 mg IV q12h [R,DI] <AND> metronidazole 500 mg IV q8h [DI]                                 ## Outpatient                                                                                                                                                                                                                   Refer to the Inpatient Antimicrobial CDDS                                                                                                                                   ##ER                                                                                                                                                                                                                                                        \nCeftriaxone 2 gm IV once STAT [M] <AND> metronidazole 500 mg IV once STAT [DI]\nHealthcare-associated infection, critical illness, or immunosuppression:\nPiperacillin-tazobactam 4.5 gm IV once STAT [R]\nAlternative:\nCefepime 2 gm IV once STAT [R] <AND> metronidazole 500 mg IV once STAT [DI]\nAlternative for severe Beta-lactam reaction:\nAssessment of Beta-lactam Reaction\nCiprofloxacin 400 mg IV once STAT [R,DI] <AND> metronidazole 500 mg IV once STAT\n[DI]                                                                                                                                                                                                                                   ## _______________________________________________________________________________\nReferences:\nZagales et al, Am Surg 2023, 89:2644\nHuston et al, Surg Infect, 2024 doi: 10.1089/sur.2024.137 [ahead of print]\nMandell chapter: Appendicitis\nSanford Guide article: Appendicitis\nSolomkin et al, Clin Infect Dis, 2010, 50:133-64\nUp-to-Date article: Management of acute appendicitis in adults",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU LYME ARTHRITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## ARTHRITIS ASSOCIATED WITH LYME DISEASE\nArthritis is a common manifestation of late-stage Lyme Disease. Consult\nInfectious Diseases or Rheumatology if symptoms persist or recur after\ncompleting antimicrobial treatment.\n## Treatment\nPreferred:\n##Inpatient/##Outpatient                                                                                                                                                                                  Doxycycline 100 mg PO q12h ($) [DI] for 28 days\nFor pregnant patients or those with contraindications to doxycycline:\nAmoxicillin 500 mg PO q8h ($) [R] for 28 days\n                                                                                                                                                                                                                                               ## _______________________________________________________________________________\nReferences:\nLantos et al., Clinical Infectious Diseases, 2021, 72(1):e1-e48\nMandell Chapter: Lyme Disease (Lyme Borreliosis) Due to Borrelia burgdorferi\nSanchez et al., JAMA (2016) 315.16\nSanford keyword: Lyme Disease, Arthritis\nUp-to-date article: Musculoskeletal manifestations of Lyme disease",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX ASPIRATION PNEUMONIA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX SPLENECTOMY VACCINES ABX PROPHY",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX SPLENECTOMY DAILY ANTIBIOTICS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX ASYMP BACTERIURIA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX AZITHROMYCIN PREVENTION OF EXACERBATIONS COPD",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX BACTEREMIA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX VAGINITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX BALANITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU BED BUGS (HEMIPTERA)",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX BELL'S PALSY",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU BITE WOUNDS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU BITE WNDS EIKENELLA CORRODENS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU BITE WNDS P. MULTOCIDA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU BITE WNDS S. AUREUS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU BITE WNDS STREPTOCOCCI",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU FUNGI BLASTOMYCES DERMATIDIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX POSITIVE BLOOD CULTURE COAG NEG STAPH",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU BODY LICE (PEDICULOSIS CORPORIS)",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX BRONCHITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU FUNGI CANDIDA ALBICANS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU FUNGI CANDIDA GLABRATA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU FUNGI CANDIDA KRUSEI",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX CANDIDA UTI",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX CANDIDA VULVO-VAGINITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU CAP INPATIENT TREATED SETTING NON-SEVERE CAP",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU CAP INPATIENT TREATED SETTING SEVERE CAP",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU LYME CARDIAC DISEASE",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX CARDIOVASCULAR",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX RECOMMENDED IMMUNIZATIONS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU PD CEFEPIME 1GM Q24H VANCO 15-30MG/KG Q5-7D",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX CELLULITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX CNS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX CERVICITIS ASSOC STD",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX CHOLANGITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX CHOLECYSTITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX CHRONIC BACT PROSTATITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX CHRON PROS/PELVIC PAIN SYN",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX CMV COLITIS OR ESOPHAGITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX CMV ENCEPHALITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX CMV PNEUMONIA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX CMV POLYRADICULOPATHY",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX CMV RETINITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU FUNGI COCCIDIOIDOMYCES",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX COLONIZED RESPIRATORY TRACT VENTILATOR",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU COMM ACQ DIARRHEA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX COM-ACQ PNEUMONIA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU IMMUNOCOM COMP DEFICIENCY",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU CONJUNCTIVITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU FUNGI CRYPTOCOCCUS NEOFORMANS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU CUTANEOUS ABSCESS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU CUTANEOUS CANDIDIASIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU DECUBITUS ULCERS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU DEEP OROPHAR INFECT",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX DEVICE-RELATED INFECTIONS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX CAMPYLOBACTER",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX CHOLERA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX E COLI INFECT",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX GIARDIA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX SALMONELLA SPECIES",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX SHIGELLA SPECIES",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU YERSINIA ENTEROCOLITICA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU VERTEBRAL (DISKITIS) OSTEOM",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU DISSEMINATED M. AVIUM",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX DIVERTICULITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU DRUG PT UNDERGO DENTAL PROC",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX PROCED FOR INFECTED SKIN, SKIN STRUCTURES",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ECTHYMA GANGRENOSUM",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU EHRLICHIA CHAFFEENSIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU EMP INTRAV W/ VANCO",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU EMP INTRAV W/O VANCO",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU NECROT INFECT EMP THERAPY",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX EMPYEMA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ENDOOPTHALMITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX ENTERIC FEVER",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX EPIDIDYMITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX EPIGLOTTITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ERYSIPELAS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ERYSIPELOID",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU LYME ERYTHEMA MIGRANS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ERYTHRASMA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX ESOPHAGITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX COPD EXACERBATION",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX FIRST RECURRENCE ABX ASSOC",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU FOLLICULITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU FOOT ULCER W/ INFECT NEW MARCH 25",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU FOOT ULCER W/ INFECT SURR TISSUES",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX TOXIC MEGACOLON",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU FURUNCLES AND CARBUNCLES",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX GENITAL HERPES",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX GENITOURINARY",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU SURG GENTAMICIN WEIGHT BASED DOSING",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU HEAD LICE (PEDICULOSIS CAPITIS)",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX HEPATITIS A",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX HEPATITIS B",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX HEPATITIS C",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX HERPES SIMPLEX ESOPHAGITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX HERPES KERATITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX HERPES WHITLOW",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU HIDRADENITIS SUPPURATIVA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU FUNGI HISTOPLASMA CAPSULATUM",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX HIV-AIDS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX PNEUMONIA HAP NEW",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX HSV ENCEPHALITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU IG HIS DEFICIENCY",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX IMPETIGO",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU PROS JOINT BONE INFECT",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX IMMUNOCOMPROMISED PATIENT",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX INI EPI ABX ASSOC COLITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX INPT MAIN",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU INTRAVAS CATH CANDIDA SPP",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU INTRAVAS CATH COAG-NEG STAPH",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU INTRAVAS CATH ENTEROCOCCUS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU INTRAVAS CATH GNB",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU INTRAVAS CATH S. AUREUS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU KERATITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX LIVER PYOGENIC ABSCESS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX LUNG AND MEDIASTINUM",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX LYME DISEASE",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU LYME DISEASE PROPHYLAXIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU IMMUNOCOM MALIGNANCY",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU MALIGNANT OTITIS EXTERNA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU MILD TO MOD SINUSITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX COVID-19 MPLS ANTIMICROBIAL GUIDELINE",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU MORE ABOUT PHARYNGITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU M. AVIUM PNEUMONIA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU M. PNEUMONIAE",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU NECROTIZING INFECTIONS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX GONOCOCCAL",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU IMMUNOCOM NEUROL DYSFUNCTION",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX TYPHLITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU IMMUNOCOM NEUT FEVER",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU NEUT FEVER CAND ORAL THERA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU NEUT FEVER CAND NOT ORAL THERA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX CHLAMYDIA URETHRITIS CERVICITIS OR PROCTITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX NOSO PNEUMONIA NEW",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU NOSOCOMIAL SINUSITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "Mimi",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX OROLABIAL HERPES",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## OROLABIAL HERPES\n## _______________________________________________________________________________\n## Immunocompetent patients\n## _______________________________________________________________________________\nAntiviral therapy is not beneficial after formation of vesicles. However, when\nstarted as soon as prodromal symptoms of burning or tingling occur, antivirals\nreduce duration of pain and lesions.\nAcyclovir 400 mg PO q8h for 5 days ($) [R]\nAlternative\nValacyclovir 2 gm q12h for 1 day ($) [R]\n## _______________________________________________________________________________\n## Immunocompromised patients\n## _______________________________________________________________________________\nImmunocompromised patients in whom herpes simplex infections can be more severe\ninclude: patients with HIV infection, organ transplant recipients, patients\nundergoing chemotherapy, malnourished patients, and those with compromised skin\nintegrity.\n## Treatment for mild to moderate disease\nAcyclovir 400 mg PO q8h for 7-14 days($) [R]\n< OR >\nValacyclovir 1 gm q12h for 7-14 days ($) [R]\n## Treatment for severe disease\nAcyclovir 5 mg/kg IV q8h for 7-14 days ($$) [R]\n## _______________________________________________________________________________\n## Chronic suppressive therapy\n## _______________________________________________________________________________\nIndicated for patients with greater than 6 recurrences or severe recurrences,\nimmunocompromised patients or as adjunct to prevent transmission. Suppressive\ntherapy is optional, and some patients may find episodic treatment more\nconvenient. Patients should be reassessed every few years to evaluate if chronic\nsuppressive therapy is still necessary.\nAcyclovir 400 mg PO q12h ($) [R]\n< OR >\nValacyclovir 500 mg PO Q24h ($) [R]\nReferences:\nMandell chapter: Herpes simplex virus\nSanford keyword: Herpes simplex\nUp-To-Date article: Treatment of herpes simplex virus type 1 infection in\nimmunocompetent patients\n\n## Outpatient Guidance\n## _______________________________________________________________________________\nAcyclovir 400 mg PO TID for 5 days ($) [R]\nValacyclovir 2 gm BID for 1 day ($) [R]\n## Treatment for mild to moderate disease\nAcyclovir 400 mg PO TID for 7-14 days($) [R]\nValacyclovir 1 gm BID for 7-14 days ($) [R]\n## _______________________________________________________________________________\nAcyclovir 400 mg PO BID ($) [R]\nValacyclovir 500 mg PO QDay ($) [R]",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU OSTEOM WITH GNB",
+      "Term1": "",
+      "Term2": "",
+      "Text": "OSTEOMYELITIS WITH GRAM NEGATIVE BACILLI (OTHER THAN PSEUDOMONAS)\n## Treatment\nCeftriaxone 2 gm IV q24h ($) [M] < OR >\nAmpicillin-sulbactam 3 gm IV q6h ($$) [R] < OR >\nAmoxicillin-clavulanate 875/125 mg PO q12h ($) [R] < OR >\nReferences:\nSanford keyword: Osteomyelitis\nMandell chapter: Osteomyelitis\nLew DP Lancet 2004, 364: 369\nCunha BA Clin Infect Dis 2002, 35: 287\n\n## Outpatient Guidance\n## Treatment\nAmoxicillin-clavulanate 875/125 mg PO BID ($) [R] < OR >\nLevofloxacin 500 mg PO qday ($) [R,DI]",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU OSTEOM WITH P. AERUGINOSA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "OSTEOMYELITIS WITH PSEUDOMONAS AERUGINOSA\n## Treatment\nPiperacilin-tazobactam 4.5 gm IV q6h ($$) [R] <OR>\nCiprofloxacin 400 mg IV q8h ($) [R,DI] <OR>\nCiprofloxacin 750 mg PO q12h ($) [R,DI]\nReferences:\nSanford keyword: Osteomyelitis\nMandell chapter: Osteomyelitis\nLew DP Lancet 2004, 364: 369\nCunha BA Clin Infect Dis 2002, 35: 287\n\n## Outpatient Guidance\n## Treatment\nCiprofloxacin 750 mg PO BID ($) [R,DI]",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU OSTEOM WITH STREPTOCOCCI",
+      "Term1": "",
+      "Term2": "",
+      "Text": "OSTEOMYELITIS WITH STREPTOCOCCI\n## Treatment\nPenicillin G 4 million units IV q4h ($) [R] < OR >\nOral treatment:\nTrimethoprim-sulfamethoxazole 1 DS tablet PO q12h ($) [R,DI] < OR >\nReferences:\nSanford keyword: Osteomyelitis\nMandell chapter: Osteomyelitis\nLew DP Lancet 2004, 364: 369\nCunha BA Clin Infect Dis 2002, 35: 287\n\n## Outpatient Guidance\nTreat for 4 weeks.\n## Treatment\nTrimethoprim-sulfamethoxazole 1 DS tablet PO BID ($) [R,DI] < OR >\n< OR >",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU OTITIS EXTERNA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## OTITIS EXTERNA\n## Acute Localized Disease\nOften due to furunculosis and usually associated with Staphylococcus aureus.\nTreat mild cases with moist local heat. For cases with cellulitis or deep\ninvasion, incision and drainage as well as systemic antibiotics may be needed.\nRefer to the Furuncles and Carbuncles page for antibiotic recommendations.\nFuruncles and Carbuncles\n## _______________________________________________________________________________\n## Acute diffuse and chronic otitis externa\nMost commonly associated with Pseudomonas aeruginosa, Staphylococcus aureus and\nStaphylococcus epidermidis. Irrigate to remove cerumen, desquamated skin and\npurulent material which can improve effectiveness of topical antibiotics. Avoid\nproducts that contain neomycin if the tympanic membrane is perforated.\n## Preferred treatment if tympanic membrane is intact\nNeomycin-polymyxin-hydrocortisone ear drops 4 drops in affected ear(s) QID\nfor 7 days ($) [M]\n## Alternative if tympanic membrane is perforated or allergy to preferred treatmen\nCiprofloxacin-Dexamethasone otic 4 drops in affected ear(s) BID for 7 days ($)\n[M]\n## _______________________________________________________________________________\n## Complicated Cases\nFor cases resistant to topical therapy alone, patients with poorly controlled\ndiabetes mellitus, immunocompromised patients, cases where infection has spread\nbeyond ear canal and in those where topical therapy cannot be delivered\neffectively. Culture secretions to guide therapy.\nIn addition to topical therapy above\n< ADD > ciprofloxacin 500 mg PO q12h for 7 days ($) [R,DI]\n## _______________________________________________________________________________\nReferences:\nMandell chapter: Otitis Externa, Otitis Media, and Mastoiditis\nRosenfeld et al., Otolaryngology-Head and Neck Surgery. 2014, 150(2)161-168\nSanford keyword: Otitis Externa\nUp-To-Date article: External otitis: Treatment\n\n## ER Guidance\n## Acute Localized Disease\nRefer to the Furuncules and Carbuncles page for antibiotic recommendations.\n## Acute diffuse and chronic otitis externa\nMost commonly associated with Pseudomonas aerogenosa and Staphylococcus\naureus/epidermidis. Irrigate to remove cerumen, desquamated skin and purulent\nmaterial which can improve effectiveness of topical antibiotics. Avoid products\nthat contain neomycin if the tympanic membrane is perforated.\nTreat for 7 to 10 days\n## Preferred treatment if tympanic membrane is intact\nNeomycin-polymixin-hydrocortisone ear drops 4 drops in affected ear(s) QID\n## Alternative if tympanic membrane is perforated or allergy to preferred treatmen\nCiprofloxacin-Dexamethasone otic 4 drops in affected ear(s) BID ($) [M]\n## Complicated Cases\nFor cases resistant to topical therapy alone, diabetic patients,\nimmunocompromised patients, cases where infection has spread beyond ear canal\nand in those where topical therapy cannot be delivered effectively. Culture\nsecretions to guide therapy.\n## Empirical Treatment\n## Empirical Treatment\nIn addition to topical therapy above <ADD>\nCiprofloxacin 500 mg PO BID ($) [R,DI]\nReferences:\nRosenfeld et al., Otolaryngology-Head and Neck Surgery (2014) 150.S1-S24",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU OTITIS MEDIA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## OTITIS MEDIA\nStreptococcus pneumoniae, Haemophilus influenza, and Moraxella catarrhalis are\nthe most common bacteria to cause otitis media.\n## Preferred treatment\nPatient has NOT received antibiotics in the prior month\nAmoxicillin 1000 mg PO q8h for 10 days ($) [R]\nPatient has received antibiotics in the prior month\nAmoxicillin/clavulanate 875-125 mg PO q12h for 10 days ($) [R]\n## Alternatives\nAssessment of Beta-lactam Reaction\nCefdinir 300 mg PO q12h for 10 days ($) [R]\n< OR >\nCefpodoxime 200 mg PO BID for 10 days ($$) [R]\n## _______________________________________________________________________________\nReferences:\nHarmes et al, American Family Physician. 2013, 88(7)435-440\nMandell chapter: Otitis Externa, Otitis Media, and Mastoiditis\nSanford keyword: Otitis media\nUp-to-Date Online: Acute otitis media in adults",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX PANCREATITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## PANCREATITIS\nOral step-down treatment\nAntimicrobials are not indicated for uncomplicated pancreatitis.\nIn cases of necrotizing pancreatitis without infection, antimicrobial\nprophylaxis does not improve patient outcomes. Antimicrobials increase the risk\nof fungal superinfection and should not be used.\nAntimicrobials are indicated for cases with pancreatic abscess, infected\npancreatic pseudocyst, or infected necrotic pancreas (phlegmon). The diagnosis\nof infection can be difficult and may require aspiration. Consultation with\nGastroenterology and/or Infectious Diseases is encouraged.\n## _______________________________________________________________________________\n## Uncomplicated pancreatitis\nNo antimicrobials are indicated.\n## _______________________________________________________________________________\n## Pancreatic abscess, infected pancreatic pseudocyst, or infected necrotic\n## pancreas (phlegmon)\n## Duration of antimicrobial therapy\nTotal duration of antimicrobial therapy is typically 2 to 4 weeks\n## Treatment\nPiperacillin-tazobactam 3.375 gm IV q6h [R]\n< OR >\nMeropenem 1 gm IV q8h [R,O]\nAlternative:\nAssessment of Beta-lactam Reaction\nLevofloxacin 500 mg IV q24h [R,DI] < AND > metronidazole 500 mg IV q8h [DI]\n## _______________________________________________________________________________\nReferences:\nMandell chapter: Pancreatic Infection\nSanford Guide article: Pancreatitis\nSolomkin et al, Clin Infect Dis, 2010, 50:133-64\nUp-to-Date article: Management of acute pancreatitis",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU PARONYCHIA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "PARONYCHIA\nCutaneous infection of the hand, cuticle or fingers usually occurring near OR\naround the nail.\nTreatment depends on etiology. Candida spp. are commonly involved when the\npatient has extensive exposure to water (e.g. dishwashers). Staphylococcus\naureus is more commonly after manicures or nail biting. Herpes simplex\n(whitlow) usually follows exposure to oral mucosa (e.g. wrestlers, dentists, or\nanesthetists).\n## ________________________________________________________\n## Treatment for paronychia associated with Candida\n## ________________________________________________________\nTreat for 14 days\nClotrimazole 1% apply to affected area once daily ($) [M]\n## Alternative\nNystatin Cream to affected area BID ($) [M]\n## ________________________________________________________\n## Treatment for paronychia associated with Staphylococcus\n## ________________________________________________________\nTreat for 10 days\nTrimethoprim/sulfamethoxazole 1 DS tablet PO BID ($) [R,DI]\n## Alternative\nDoxycycline 100 mg PO BID ($) [DI]\n## ________________________________________________________\n## Treatment for paronychia associated with Herpes whitlow\n## ________________________________________________________\nLink to Herpes whitlow\nReferences\nUp-to-date website\nSanford keyword: paronychia",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX PAROTITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## PAROTITIS\nInfection of salivary tissue is a relatively common disease. It is usually\ncaused by a stone in the parotid duct, dehydration, or a viral infection.\nSialolithiasis in elderly patients often leads to ductal obstruction and\nsecondary infection. Other predisposing factors for ductal occlusion include\ndehydration, anticholinergic medications such as tricyclics and diphenhydramine,\ngeneral disability and trauma. Once culture results are available adjust\nantimicrobial therapy based on specific etiologic organism.\nFor more information click on the link below\nMore information on Parotitis\n## Duration of Therapy\nTherapy duration varies based on clinical response to treatment and is typically\n10-14 days.\n## Suppurative Parotitis or Chronic Bacterial Parotitis Exacerbation Empiric\n## Treatment\n## Immunocompetent Patient\nPreferred:\nCeftriaxone 2 gm IV q24h ($) [M] <AND> metronidazole 500 mg IV q8h ($) [DI]\n< OR >\nCeftriaxone 2 gm IV q24h ($) [M] <AND> metronidazole 500 mg PO q8h ($) [DI]\n< OR >\nAmpicillin-sulbactam 3 gm IV q6h ($) [R]\nIf MRSA suspected or alternative to above:\nAssessment of Beta-lactam Reaction\nVancomycin 15 mg/kg IV q12h ($) [R] <AND> metronidazole 500 mg IV q8h ($) [DI]\n< OR >\nVancomycin 15 mg/kg IV q12h ($) [R] <AND> metronidazole 500 mg PO q8h ($) [DI]\n## Immunocompromised Patient\n<AND> vancomycin 15 mg/kg IV q12h ($) [R]\n## Viral Parotitis\nSuspect mumps parotitis if there is fever, malaise, earache and bilateral tender\nswelling of the parotid glands. For mumps parotitis treat with warm compresses\nand analgesics and maintain good hydration to prevent secondary bacterial\ninfection. Other viral causes of parotitis include influenza and enteroviruses.\n## _______________________________________________________________________________\nReferences:\nWilson et al., Am Fam Physician. 2014, 89(11)882-888\nMandell chapter:Principles and Practice of Infectious Diseases\nSanford keyword: Parotitis\nUp-To-Date article: Suppurative parotitis in adults",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU NECROT INFECT DIRECT THERAPY",
+      "Term1": "",
+      "Term2": "",
+      "Text": "NECROTIZING INFECTIONS--PATHOGEN-DIRECTED THERAPY\n## ________________________________________________\n## Clostridial infections\n## ________________________________________________\n## Preferred treatment\nPenicillin 4 million units IV q4h ($) [R] <AND> clindamycin 900 mg\nIV q8h ($$) [H,O]\n## Alternative for penicillin allergy\nClindamycin 900 mg IV q8h ($$) [H,O]\n## _______________________________________________\n## Group A Streptococcal infections (S. pyogenes)\n## _______________________________________________\n## Preferred treatment\nPenicillin 4 million units IV q4h ($) [R] <AND> clindamycin 900 mg\nIV q8h ($$) [H,O]\n## Alternative for penicillin allergy\nClindamycin 900 mg IV q8h ($$) [H,O]\n< OR >\nVancomycin 15 mg/kg IV q12h ($) [R]\n## ______________________________________________\n## Polymicrobial infections\n## ______________________________________________\nThese are more common in injection drug users, or in patients who have had\nrecent abdominal surgery or trauma, vulvo-vaginal infection, or genital or\nrectal abscess.\n## Preferred Treatment:\nPiperacillin-tazobactam 3.375 gm IV q6h ($$) [R] <AND> clindamycin 900 mg\nIV q8h ($$) [H,O] <AND> vancomycin 15 mg/kg IV q12h ($) [R]\n< OR >\nCeftriaxone 2 gm IV q24h ($) [M] <AND> clindamycin 900 mg IV q8h\n($$) [H,O] <AND> vancomycin 15 mg/kg IV q12h ($) [R] < OR >\nMeropenem 1 gm IV q8h ($$) [R] <AND> vancomycin 15 mg/kg IV q12h ($) [R]\n## Alternatives for penicillin allergy\nCiprofloxacin 400 mg IV q12h ($) [R,DI] <AND> clindamycin 900 mg IV\nq8h ($$) [H,O] <AND> vancomycin 15mg/kg IV q12h ($) [R] < OR >\nGentamicin 5 mg/kg IV q24h ($) [R,O] <AND> clindamycin 900 mg IV q8h\n($$) [H,O] <AND> vancomycin 15mg/kg IV q12h ($) [R]\nReferences\nSanford keyword: Gas gangrene\nUp-to-Date website\nMandell chapter: Cellulitis and subcutaneous tissue infections\nStevens DL Clin Infect Dis 2014, 59: 147\nMontravers P Curr Opin Infect Dis 2016, 29:131\n\n## ER Guidance\n## Preferred treatment\nPenicillin 4 million units IV STAT ($) [R] <AND> clindamycin 900 mg\nIV STAT ($$) [H,O]\n## Alternative for penicillin allergy\nClindamycin 900 mg IV STAT ($$) [H,O]\n## Preferred treatment\n## Alternative for penicillin allergy\nVancomycin 15 mg/kg IV STAT ($) [R]\n## Preferred Treatment:\nPiperacillin-tazobactam 3.375 gm IV STAT ($$) [R] <AND> clindamycin 900 mg\nIV STAT ($$) [H,O] <AND> vancomycin 15 mg/kg IV STAT ($) [R]\nCeftriaxone 2 gm IV STAT ($) [M] <AND> clindamycin 900 mg IV STAT\n($$) [H,O] <AND> vancomycin 15 mg/kg IV STAT ($) [R] < OR >\nMeropenem 1 gm IV STAT ($$) [R] <AND> vancomycin 15 mg/kg IV STAT ($) [R]\n## Alternatives for penicillin allergy\nCiprofloxacin 400 mg IV STAT ($) [R,DI] <AND> clindamycin 900 mg IV\nSTAT ($$) [H,O] <AND> vancomycin 15mg/kg IV STAT ($) [R]\nGentamicin 5 mg/kg IV STAT ($) [R,O] <AND> clindamycin 900 mg IV STAT\n($$) [H,O] <AND> vancomycin 15mg/kg IV STAT ($) [R]",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX PID",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## PELVIC INFLAMMATORY DISEASE (PID)\nPelvic inflammatory disease (PID) refers to bacterial infection of the upper\nfemale reproductive tract. Likely bacterial pathogens include Neisseria\ngonorrhoeae, Chlamydia trachomatis, anaerobes, enteric Gram-negative rods, and\nStreptococcus agalactiae. PID should be considered in sexually active women\nwith pelvic tenderness and signs of lower genital tract inflammation. Signs and\nsymptoms may be mild or non-specific, and providers should have a low threshold\nto initiate treatment. All women who are diagnosed with acute PID should be\ntested for N. gonorrohoeae, C. trachomatis, and HIV. Male sex partners of\npatients with PID should be examined and treated (see below) if they had sexual\ncontact within the 60 days before onset of the patient's symptoms.\nJudge severity of infection based on clinical signs and symptoms, including\nblood pressure, pulse, mental status, and degree of fever.\n## _______________________________________________________________________________\n## Treatment for mild to moderate disease\nTreat for 14 days.\nCeftriaxone 500 mg IM once ($) [M] < AND > doxycycline 100 mg q12h for 14\ndays ($) [DI] < OPTIONAL > metronidazole 500 mg PO q12h ($) [DI]\n## For patients who cannot regimen above, call ID\n## Treatment of sex partner who is a veteran\nTreat for both Chlamydia and Gonorrhea\nCeftriaxone 500 mg IM once ($) [M] < AND > doxycycline 100 mg PO q12h for 7\ndays ($) [DI]\n< OR >\nCeftriaxone 500 mg IM once ($) [M] < AND > azithromycin 1 gm PO once ($) [M]\n## _______________________________________________________________________________\n## Treatment for severe disease\nTreat for 14 days.\nCeftriaxone 1 gm IV q24h [M] < AND > doxycycline 100 mg IV q12h [DI]\n<AND> metronidazole 500 mg IV q12h [DI]\n## For patients who cannot regimen above, call ID\n## _______________________________________________________________________________\nReferences:\nCDC STD Treatment Guidelines: MMWR (2015) 64.3\nMandell chapter: Neisseria gonorrheoeae (Gonorrhea)\nSanford keyword: Pelvic inflammatory disease\nUp-To-Date article: Pelvic inflammatory disease: Treatment\nSanford keyword: Pelvic inflammatory disease\nUp-To-Date article: Pelvic inflammatory disease: Treatment\n\n## Outpatient Guidance\n## Treatment for mild to moderate disease\nCeftriaxone 500 mg IM x 1 dose ($) [M] < AND > doxycycline 100 mg BID for 14\ndays ($) [DI] < OPTIONAL > metronidazole 500 mg PO BID ($) [DI]\n## For patients who cannot take ceftriaxone and doxycycline, call ID\n## Treatment of sex partner who is a veteran\nCeftriaxone 500 mg IM x 1 dose ($) [M] < AND > doxycycline 100 mg PO BID for\n7 days ($) [DI]\nCeftriaxone 500 mg IM x 1 dose ($) [M] < AND > azithromycin 1 gm PO x 1 dose\n($) [M]",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX PERIANAL/ANORECTAL ABSCESS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## PERIANAL/ANORECTAL ABSCESS\nAntibiotics should typically be reserved for patients with an anorectal abscess\ncomplicated by cellulitis, systemic signs of infection, underlying\nimmunosuppression, or failure to improve with drainage alone.\nCultures of abscess fluid are not routinely recommended. Consider in patients\nwho will be treated with adjunctive antibiotic treatment for systemic signs of\ninfection, recurrent infection or nonhealing wounds, or underlying\nimmunosuppression.\n## Primary therapy: abscess drainage\n## _______________________________________________________________________________\n## Adjunctive antimicrobial treatment for patients with above complications.\n## Duration of treatment\n5 days of antibiotics after incision and drainage is recommended. In the absence\nof source control, recommended duration is 7-14 days based on severity of\ninfection, underlying immunosuppression, and clinical response.\n## Mild disease, outpatients, oral transition\nPreferred:\nAmoxicillin-clavulanate 875/125 mg PO q12h [R]\nAlternative:\nAssessment of Beta-lactam Reaction\nTrimethoprim-sulfamethoxazole 1 DS tablet PO q12h [R,DI] <AND> metronidazole 500\nmg PO q12h [DI]\n< OR >\nCiprofloxacin 500 mg PO q12h [R,DI] <AND> metronidazole 500 mg PO q12h [DI]\n## Inpatient treatment\nPreferred:\nCeftriaxone 2 gm IV q24h [M] <AND> metronidazole 500 mg IV q8h [DI]\nAlternative:\nAssessment of Beta-lactam Reaction\nCiprofloxacin 400 mg IV q12h [R,DI] <AND> metronidazole 500 mg IV q8h [DI]\n## Severe - critical illness\nPreferred:\nPiperacillin-tazobactam 4.5 gm IV q6h [R]\nAlternative:\nCefepime 2 gm IV q8h [R] <AND> metronidazole 500 mg IV q8h [DI]\nAlternative for severe beta-lactam reaction:\nAssessment of Beta-lactam Reaction\nCiprofloxacin 400 mg IV q12h [R,DI] <AND> metronidazole 500 mg IV q8h [DI]\n## _______________________________________________________________________________\nReferences:\nGaertner et al, Dis Colon Rectum 2022, 65:964\nStevens DL Clin Infect Dis 2014, 59:147\nMazuski et al, Surg Infect, 2017, 18: 1\nWilson et al, Circulation 116:1736, 2007\nUp-to-date article: Perianal and perirectal abscess\nUp-to-date article: Cellulitis and skin abscess in adults: Treatment",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU PERIODENTAL DISEASE",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## PERIODONTAL DISEASE\nPeriodontal disease, including gingivitis and periodontitis, may progress into\nmore severe disease or cause hematogenous spreading of bacteria if left\nuntreated. All patients with periodontal disease should be referred to the\ndental service for assessment and direction of treatment. In the presence of\ngingivitis, the most commonly isolated subgingival flora includes Prevotella\nintermedia, Capnocytophaga spp, Finegoldia magna and Peptostreptococcus. In the\npresence of periodontitis, flora increases in complexity to most commonly\ninclude Porphyromonas gingivalis, P. intermedia, Aggregatibacter\nactinomycetemcomitans, Tanneralla forsythensis and Treponema denticola.\n## Consult Dental Service\n## Non-severe periodontitis or acute simple gingivitis treatment\nChlorhexidine 0.12% oral rinse swish for 30 seconds, then spit 15 ml twice\ndaily for 7 days ($) [M]\n## Severe periodontitis or acute complicated gingivitis (ulceration, rapidly\n## advancing disease, severe pain, patients with immunocompromising conditions)\n## treatment\nConsult Dental Service\n## _______________________________________________________________________________\nReferences:\nHull et al, Current Infectious Disease Reports. 2005, 7(1)17-27\nMandel Chapter: Infections of the Oral Cavity, Neck and Head\nUp-To-Date article: Complications, diagnosis, and treatment of odontogenic\ninfections\nUp-To-Date article: Overview of gingivitis and periodontitis in adults\nSanford keyword: Vincent's Angina\nSlots et al., Periodontology. 2002, 28(1)106-176\nTonetti et al., Journal of Periodontology, 2018, 89 S159-S172.",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX PERI ASSOC W PERI DIAL",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## PERITONITIS ASSOCIATED WITH PERITONEAL DIALYSIS\nPeritonitis associated with peritoneal dialysis usually presents with abdominal\npain, fever, nausea or vomiting, and cloudy effluent. The leukocyte\nconcentration is greater than 100 cells/microliter of dialysate, with more than\n50% neutrophils.\nObtain Gram stain, culture, and cell count with differential of dialysate before\nantimicrobials are given. Nephrology consultation is essential. If cultures\nshow Gram-negative or mixed bacterial infection, a gastrointestinal tract\ninfectious source is more likely. Gram-positive organisms like staphylococci\nusually result from external contamination. Fungal peritonitis is rare and\nrequires immediate catheter removal.\n**Antimicrobial recommendations are for empirical therapy only. Regimens should\nbe tailored according to patient response and microbiology results in\nconsultation with Nephrology and/or Infectious Diseases for more information.\nTo prevent catheter occlusion by turbid dialysate, add 1,000 units of heparin\nper dialysis bag each day until one day after the dialysate is clear.\nIf vancomycin is used, trough serum concentrations should be kept above 15\nmcg/ml to ensure adequate intraperitoneal levels. Usually vancomycin must be\ngiven every 3 to 7 days. Contact Nephrology and/or Pharmacy for more\ninformation.\n## Consult Nephrology in all cases.\n## _______________________________________________________________________________\n## Antimicrobial therapy\n## Duration\nDuration of therapy depends on the pathogen identified. Treat staphylococcal and\nstreptococcal infections for 2 weeks and all other gram-positive infections for\n3 weeks. In patients who have Staphylococcus isolated and had a previous\nstaphylococcal infection, treat for 3 weeks\n## All antimicrobials below are administered via peritoneal dialysate bag over 6\n## hours with the option to include heparin 1000 units.\n## Empirical treatment while waiting for results of gram stain\nCefepime 1 gm PD q24h ($$) [R]\n<OR>\nCefazolin 15 mg/kg ($) [R] <AND> gentamicin 0.6 mg/kg ($) [R,O] PD q24h\nMRSA risk factors\nVancomycin 30 mg/kg PD LD then 15 mg/kg PD every 3 to 7 days ($) [R] <AND>\ncefepime 1 gm PD q24h ($) [R]\nAlternative for severe penicillin or cephalosporin allergy\nVancomycin 30 mg/kg PD LD then 15 mg/kg PD every 3 to 7 days ($) [R] <AND>\ngentamicin 0.6 mg/kg PD q24h ($) [R,O]\n## Gram positive organism\nCefazolin 15 mg/kg PD q24h ($) [R]\n< OR >\nVancomycin 30 mg/kg PD LD then 15 mg/kg PD every 3 to 7 days ($) [R]\n## Gram negative organism\nCefepime 1 gm PD q24h ($$) [R]\nAlternative for severe penicillin allergy\nGentamicin 0.6 mg/kg PD q24h ($) [R,O]\n## Alternative treatments for narrowing coverage based on isolate susceptibilities\nCefazolin 15 mg/kg PD q24h ($) [R]\n< OR >\nCeftazidime 1 gm PD q24h ($) [R]\n< OR >\nCeftriaxone 1 gm PD q24h ($) [M]\n< OR >\nGentamicin 0.6 mg/kg PD q24h ($) [R,O]\n< OR >\nVancomycin 30 mg/kg PD LD then 15 mg/kg PD every 3 to 7 days ($) [R]\n## _______________________________________________________________________________\n## Antifungal prophylaxis:\nAntifungal prophylaxis may be used for the duration of antimicrobial therapy to\npossibly reduce the risk of fungal peritonitis.\nFluconazole 200 mg PO every other day ($) [R,DI]\n<OR>\nFluconazole 100 mg PO q24h ($) [R,DI]\n## _______________________________________________________________________________\nReferences:\nDe Vin et al, Peritoneal Dialysis International, 2009, Vol. 39, pp. 5-15\nLi et al, Peritoneal Dialysis International, 2016, Vol. 36, pp. 481-508\nMandell chapter: Peritonitis and Intraperitoneal Abscesses\nSanford keyword: Peritonitis, Dialysis (CAPD) Associated\nUp-to-Date article: Microbiology and therapy of peritonitis in peritoneal\ndialysis",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX PERTUSSIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## PERTUSSIS\nPertussis also known as \"whooping cough\" is caused by Bordetella pertussis. CDC\nrecommends antibiotic therapy for those presenting within three weeks of\nsymptoms (cough). After three weeks, patients may not be infectious, and thus\nantibiotic administration is not routinely recommended.\nDiagnosis of pertussis\nPrevention of pertussis\n## Treatment\nAzithromycin 500mg po day 1, then 250mg q24h for days 2-5 [O]\n## Alternative for macrolide intolerant or allergic patients\nTrimethoprim/sulfamethoxazole 1 DS tablet PO q12h for 7 days [R,DI]\n## _______________________________________________________________________________\n## References:\nKline et al, Am Fam Physician (2013) 88.8, 507-514\nLangley et al, Pediatrics (2004), e96-e101\nSanford keyword: Pertussis\nMandell chapter: Bordetella species",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX PHARYNGITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## PHARYNGITIS AND TONSILLITIS\nMost cases are viral, primarily due to adenovirus. Aside from streptococcal and\ngonococcal pharyngitis, antimicrobials are not indicated. For gonococcal\npharyngitis, use link below for recommendations.\nTreatment of Gonorrheal Infections\nConsider HIV screening for patients with pharyngitis\nHIV Rapid Test\n## Streptococcal Pharyngitis and Tonsillitis\nDiagnosis of group A streptococcal (GAS) infection is made through detection by\nrapid PCR and should be reserved for patients who have a moderate to high risk\nof GAS infection according to the Modified Centor Score. Use link below for\nModified Centor score criteria and for more details.\nMore About Pharyngitis/Tonsillitis and Modified Centor score\nRapid Strep A throat PCR testing lab order\n## PCR Negative, Viral and Other Non-GAS Causes of Pharyngitis Treatment\nAntimicrobials are not indicated\n## GAS Pharyngitis and Tonsillitis Treatment\nPreferred\nPenicillin V 500 mg PO q12h for 10 days ($) [R]\n< OR >\nBenzathine penicillin 1.2 million units IM x 1 ($$$) [M]\nPrimary alternative:\nAssessment of Beta-lactam Reaction\nCefadroxil 1000 mg PO q12h for 10 days ($) [R]\nSecondary alternative, after assessment of beta-lactam reaction above:\n## _______________________________________________________________________________\nReferences:\nChoby, Am Fam Physician. 2009 79(5) 383-390\nMandell chapter: Pharyngitis\nSanford keyword: Streptococcal Pharyngitis\nStanford et al, Clinical Infectious Diseases. 2012, cis629\nUp-To-Date article: Evaluation of acute pharyngitis in adults\nUp-To-Date article: Treatment and prevention of streptococcal pharyngitis\n\n## Outpatient Guidance\n## PHARYNGITIS AND TONSILLITIS\nHIV AG/AB Lab\n## GAS Pharyngitis and Tonsillitis Treatment\nPenicillin V 500 mg PO BID for 10 days ($) [R]\nPrimary alternative:\n[Click here] Assess Beta-lactam allergy prior to ordering alternative\nSecondary alternative, after assessment of beta-lactam reaction above:\nAzithromycin 500 mg PO once on day one then 250mg PO qday for 4 days ($)\n[M]\n\n## ER Guidance\n## PHARYNGITIS AND TONSILLITIS\nTreatment of Gonorrheal Infections - Opt CDSS, change parental orders to STAT\n## Streptococcal Pharyngitis and Tonsillitis\nMore About Pharyngitis/Tonsillitis and Modified Centor score - Opt CDSS\n## GAS Pharyngitis and Tonsillitis Treatment\nBenzathine penicillin 1.2 million units IM once STAT ($$$) [M]",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU SURG PLASTIC SURGERY",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## PLASTIC SURGERY\nAntimicrobial prophylaxis is not recommended for most clean procedures in\npatients without additional postoperative infection risk factors.\nRisk factors that increase the risk of postoperative infectious complications\nfor plastic surgery procedures include implants, skin irradiation before the\nprocedure, and procedures below the waist.\nAntimicrobial prophylaxis is recommended for clean-contaminated procedures,\nbreast cancer procedures, and clean procedures with risk factors. A single\npreoperative dose is recommended.\n## If no antimicrobial prophylaxis recommended, select below:\n*No antimicrobial prophylaxis recommended\n## Clean with risk factors or clean-contaminated:\n## Preferred Prophylaxis:\nCefazolin 2 gm IV over 30 minutes beginning 60 minutes before incision\n($) [R]\n## Alternative for beta-lactam allergy:\nClindamycin 900 mg IV over 30 minutes beginning 60 minutes before incision\n($$) [H,O]\nVancomycin 15mg/kg IV beginning 120 minutes before incision ($) [R]\n## References\nBratzler DW, et al. Clinical practice guidelines for antimicrobial prophylaxis\nin surgery, Am J Health-Syst Pharm. 2013 Vol 70 page 195-283\nAntimicrobial Prophylaxis for Surgery, Treatment Guidelines from The Medical\nLetter 2012 Vol 10 pages 73-77",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU PNEUMOCYSTIS JIROVECII",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## PNEUMOCYSTIS JIROVECII DISEASE\nDiagnosis and treatment are complex, consult Infectious Diseases in all cases.\nPneumocystis jirovecii (formerly termed Pneumocystis carinii) in an ubiquitious\norganism that causes disease in people with compromised cell-mediated immunity.\nDisease is exceedingly rare in people with intact host defenses. Pneumonia is\nthe usual manifestation but P. jirovecii can infect extrapulmonary sites,\nespecially in patients who have been receiving prophylaxis with aerosolized\npentanmidine. P. jirovecii disease occurs most commonly in people with AIDS and\nfewer than 200 CD4 T lymphocytes/microliter.\nThe abbreviation PCP is often used for Pneumocystis pneumonia. It was derived\nfrom the old species name, Pneumocystis carinii.\nTrimethoprim-sulfamethoxazole (TMP-SMZ) is the treatment of choice for P.\njirovecii disease, including disease that occurs despite TMP-SMZ prophylaxis.\nCorticosteriods should be prescribed for patients with AIDS and P. jirovecii\npneumonia and an arterial oxygen tension <70 torr or an alveolar-arterial oxygen\ngradient of >35 torr.\nLINK to Prophylaxis for Pneumocystis Jirovecii\n## Preferred treatment for mild to moderate disease or step-down treatment once\n## disease has stabilized\nTrimethoprim-sulfamethoxazole 2 DS tablets PO q8h for 21 days ($)[R,DI]\n< OR >\nTrimethoprim-sulfamethoxazole 5mg/kg PO q8h ($)[R,DI] <AND> dapsone 100mg\nPO QDay ($)[DI] for 21 days\nAlternative\nClindamycin 450mg PO q6h ($)[H,O] <AND> Primaquine 26.3 mg PO QDay ($)[DI]\nfor 21 days\n< OR >\nAtovaquone 750mg PO BID for 21 days ($)[M]\n## Preferred treatment for severe disease\nTrimethoprim 5mg/kg - sulfamethoxazole 25MG/KG IV q8h for 21 days\n($$)[R,DI]\nAlternative\nClindamycin 600mg IV q6h ($$)[H,O] <AND> primaquine 26.3mg PO QD ($)[DI]\nfor 21 days\n< OR >\nRequires ID Approval: Pentamidine 4mg/kg IV q24h ($$$)[DI]\n## Prednisone for patient WITH AIDS\nPrednisone 40mg PO twice daily for 5 days, then 40mg PO daily for 6 days,\nthen 20 mg daily for 10 days.\nReferences:\nGuidelines for Prevention and Treatment of Opportunistic Infections in HIV\nInfected Adults and Adolescents. AIDSinfo (2015) 1-282\nMandell chapter: Mandell Chapter Management of Opportunistic Infections\nAssociated with Human Immunodeficiency Virus Infection\nSanford keyword: pneumocystis pneumonia, Adult\nUp-to-Date article: Treatment and prevention of Pneumocystis infection in HIV-\ninfected patients\n\n## disease has stabilized\nTrimethoprim-sulfamethoxazole 2 DS tablets PO TID for 21 days ($)[R,DI]\nTrimethoprim-sulfamethoxazole 5mg/kg PO TID ($)[R,DI] <AND> dapsone 100mg\nClindamycin 450mg PO QID ($)[H,O] <AND> Primaquine 26.3 mg PO QDay ($)[DI]",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX PNEUMOCYSTIS JIROVECII PROPHYLAXIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## PNEUMOCYSTIS JIROVECII PROPHYLAXIS (PCP Prophylaxis)\nIndications for primary prophylaxis of P. jirovecii include:\n1) HIV/AIDS patients with CD4 count <200 cells/microliter\n2) Hematopoietic or organ transplantation patients during immunosuppression\n3) Patients receiving Alemtuzumab, temozolomide or fludarabine\n4) Patients receiving >/= 20mg equivalent of prednisone per day for over 1 month\n5) Patients with acute lymphocytic leukemia, rheumatologic disease receiving\nimmunosuppressive therapy and certain primary immunodeficiencies (e.g. severe\ncombined immunodeficiency, idiopathic CD4 T-lymphocytopenia, hyper-IgM\nsyndrome)\nDose and duration of prophylaxis varies with the indication. Please contact\nInfectious Diseases or Hematology/Oncology for more information.\nProphylaxis should be discontinued when host defenses are restored. In persons\nwith AIDS on highly active antiretroviral therapy, Prophylaxis should be\ndiscontinued when the CD4 cell concentrations remain over 200 cells/microliter\nfor 3 to 6 months in patients, except that prophylaxis should be continued for\nlife in those who have had P. jirovecii disease.\n## Recommended FIRST-LINE prophylaxis:\nTrimethoprim-sulfamethoxazole 1 DS tablet q day ($) [R,DI]\n< OR >\nTrimethoprim-sulfamethoxazole 1 SS tablet q day ($) [R,DI]\n## Alternative when trimethoprim/sulfa is poorly tolerated or contraindicated:\n**Patient should be tested for glucose-6-phosphate dehydrogenase (G6-PD)\ndeficiency before starting dapsone. Individuals deficient in G6-PD\nshow about a 2-fold increase in sensitivity toward dapsone-induced hemolytic\nanemia.\nG6-PD lab test are resulted the same day or next day. May be add on lab.\nG6-PD lab result should be \"normal\" to start dapsone therapy.\n[Click here] G6-PD Screen Lab Order\nDapsone 100mg PO q day ($) [DI]\n## Alternative to the above preferred regimens:\n## Atovaquone is alternative for patient for clinical reason:\n(e.g. patients with SLE, hematologic concerns, G6PD deficiency)\nAtovaquone 1500mg q day for PCP prophylaxis ($$) [DI]\nReferences\nMaertens J, et al. J Antimicrob Chemother. 2016, 71(9): 2397-404\nMartin SI, et al. Am J Transplant. 2013, 13 Suppl 4:272-9\nGuidelines for Prevention and Treatment of Opportunistic Infections in HIV\nInfected Adults and Adolescents. AIDSinfo (2018)\nSanford keyword: Pneumocystis pneumonia, Adult\nUp-to-Date article: Treatment and prevention of Pneumocystis pneumonia in HIV-\nuninfected patients\n\n## Outpatient Guidance\n## PNEUMOCYSTIS JIROVECII PROPHYLAXIS\nIndications for primary prophylaxis of P. jirovecii include:\ncombined immunodeficiency, idiopathic CD4 T-lymphocytopenia, hyper-IgM syndrome)\n## Alternative when trimethoprim/sulfa is poorly tolerated or contraindicated:\nDapsone 100mg PO q day ($) [O]",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX PNEUMONIA",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## ++ PNEUMONIA - INPATIENT ++\nAspiration Pneumonia\nCommunity-acquired pneumonia (CAP)\nNote: Healthcare-associated pneumonia (HCAP) is no longer used. See CAP above.\nNosocomial pneumonia (including HAP AND VAP)",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU POSTSEPTAL CELLULITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## POSTSEPTAL CELLULITIS (ORBITAL CELLULITIS)\nPostseptal cellulitis (orbital cellulitis) is often preceded by sinusitis and\nrequires immediate consultation with otolaryngology and ophthalmology. Urgent\nsurgical drainage may be necessary. The most common pathogenic organisms in\nadults are streptococci, Haemophilus influenzae, anaerobes, and Staphylococcus\naureus. Broad-spectrum empirical antimicrobials should be used until a pathogen\ncan be identified from the drainage fluid.\n## Duration of treatment\nOrbital cellulitis should be treated until all signs of infection have resolved.\nUncomplicated orbital cellulitis should be treated for minimum of 2 weeks and\ncomplicated orbital cellulitis (severe ethmoid sinusitis and bony destruction of\nsinus) should be treated for at least 4 weeks.\n## Empiric treatment\nPreferred:\n<AND> vancomycin 15 mg/kg IV q12h ($) [R]\nAlternative:\nAssessment of Beta-lactam Reaction\nCeftriaxone 2 gm IV q24h ($) [M] <AND> metronidazole 500 mg IV q8h ($) [DI]\n<AND> vancomycin 15 mg/kg IV q12h ($) [R]\n## Step-down treatment after initial intravenous therapy. Base selection on cultur\n## results. Adjust duration based on criteria above.\nPreferred:\nAmoxicillin-clavulanate 875/125 mg PO BID ($) [R] < AND >\ntrimethoprim-sulfamethoxazole 2 DS PO BID ($) [R,DI] for 7 days\nAlternative:\nAssessment of Beta-lactam Reaction\nCefdinir 300 mg PO q12h ($) [R] < AND > trimethoprim-sulfamethoxazole 2 DS PO\nq12h ($) [R,DI] for 7 days\n## _______________________________________________________________________________\nReferences:\nCarlisle et al., American Family Physician. 2015, 92(2)106-112\nMandell chapter: Periocular infections\nUp-to-Date article: Orbital Cellulitis\nSanford keyword: Orbital cellulitis\n\n## Outpatient Guidance\n## POSTSEPTAL CELLULITIS (ORBITAL CELLULITIS)\naureus.\nContact otolaryngology or ophthalmology immediately for urgent surgical\ndrainage. Broad-spectrum empirical antimicrobials should be used until a\npathogen can be identified from the drainage fluid.",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU PRESEPTAL CELLULITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## PRESEPTAL CELLULITIS\nPreseptal cellulitis involves soft tissues in front of the orbital septum and\nthe eyelids and is often preceded by sinusitis. Infection does not involve the\norbital contents. The most common pathogenic organisms in adults are\nstreptococci, Haemophilus influenzae, anaerobes, and Staphylococcus aureus.\nTreat under the guidance of ophthalmology and/or otolaryngology. Intravenous\nantimicrobials are indicated initially for treatment of moderate to severe\ndisease. Switch to oral antimicrobials when the patient's symptoms improve and\nthe patient can tolerate oral medications.\n## Moderate to severe infection or failure of oral antibiotics\nTransition to oral antibiotics can be considered if significant improvement\nwithin 24-48 hours.\nPreferred:\n<AND> vancomycin 15 mg/kg IV q12h ($) [R]\nAlternative:\nAssessment of Beta-lactam Reaction\nCeftriaxone 2 gm IV q24h ($) [M] <AND> metronidazole 500 mg IV q8h ($) [DI]\n<AND> vancomycin 15 mg/kg IV q12h ($) [R] for 5 days\n## Treatment of mild disease or step-down treatment after initial intravenous\n## therapy. Treat for a total duration of 5 days.\nPreferred:\nAmoxicillin-clavulanate 875/125 mg PO BID ($) [R] < AND>\nTrimethoprim-sulfamethoxazole 2 DS PO BID ($) [R,DI] for 5 days\nAlternative:\nAssessment of Beta-lactam Reaction\nCefdinir 300 mg PO q12h ($) [R] <AND> trimethoprim-sulfamethoxazole 2 DS PO\nBID ($) [R,DI] for 5 days\n## _______________________________________________________________________________\nReferences:\nCarlisle et al., American Family Physician. 2015, 92(2)106-112\nMandell chapter: Periocular infections\nJohns Hopkins website\nUp-to-date article: Preseptal cellulitis\n\n## Outpatient Guidance\n## Treatment of mild to moderate disease\nPreferred:\nTrimethoprim-sulfamethoxazole 1 DS PO BID ($) [R,DI] for 5 days\nAlternative:\nCefdinir 300 mg PO q12h ($) [R] <AND> trimethoprim-sulfamethoxazole 1 DS PO\n## Treatment of severe disease\n## Treatment of severe disease\nRefer to the Inpatient Antimicrobial CDSS for parenteral therapy",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU PREV OF BACT ENDOCARDITIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## PREVENTION OF BACTERIAL ENDOCARDITIS\nBacteremia occurs several times a day during daily activities like eating and\nbrushing teeth and rarely results in endocarditis, even in people with abnormal\nvalves. While bacteremia might occur following dental or other procedures, most\ncases of endocarditis are from the millions more episodes of transient\nbacteremia a person experiences per year from ordinary daily activities. There\nis no evidence that antimicrobial prophylaxis prevents endocarditis after\nprocedures. The best available evidence suggests that prophylactic\nantimicrobials confer more risks than benefits in most situations. A decision\nabout whether to administer antimicrobial prophylaxis should be based on both\nthe risk of endocarditis conferred by the patient's cardiac defect and the risk\nof bacteremia from a planned dental or surgical procedure.\n## Minneapolis VAHCS SOP antimicrobial prophylaxis for dental surgery:\nSOP for dental surgery antimicrobial prophylaxis\n## Determine the need for prophylaxis through the 2-step process outlined\n## below.\n## Step 1. Assess the risk of endocarditis for your patient\nProphylaxis is recommended if a patient has any of the following conditions:\no Prosthetic cardiac valve or material including: Presence of cardiac\nprosthetic valve, transcatheter implantation of prosthetic valves (e.g. TAVR\ncardiac valve repair with devices (e.g. annuloplasty, rings, or clips), left\nventricular assist devices or implantable heart\no A history of infective endocarditis\no Certain specific congenital heart conditions - refer to the full SOP\n(link above) or consult Cardiology for more detailed recommendations\no Cardiac transplant that develops a problem in the heart valve\n## Step 2. Assess the risk of bacteremia from the planned procedure\nProphylaxis is indicated for these procedures:\no All dental procedures that involve manipulation of gingival tissue or the\nperiapical region of teeth or perforation of the oral mucosa.\no Procedures on the respiratory tract that involve incision or biopsy of the\nrespiratory mucosa, such as tonsillectomy and adenoidectomy. Prophylaxis is\nrecommended for bronchoscopy when procedure involves incision of the respir.\ntract mucosa.\no Procedures that involve incision through infected skin, skin structures, or\nmusculoskeletal tissue.\no Dermatologic procedures that breach the oral mucosa.\n## Prophylactic Antimicrobials select below:\nPatients undergoing dental or oral mucosa procedures\nPatients undergoing procedures on the respiratory tract that involve incision or\nbiopsy of the respiratory mucosa\nPatients undergoing procedures for infected skin, skin structures, or infected\nmusculoskeletal tissues\n## _______________________________________________________________________________\nReferences:\nUp-To-Date Article: Antimicrobial prophylaxis for the prevention of bacterial\nendocarditis\nWilson et al., Circulation, 2021, 143(20)e963-e978",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU PREV INFECT BACT PROPHYL",
+      "Term1": "",
+      "Term2": "",
+      "Text": "PREVENTION OF BACTERIAL INFECTIONS IN A PATIENT WITH MALIGNANCY\nAntimicrobial prophylaxis is often given to patients likely to have profound,\nprolonged neutropenia. Profound neutropenia is less than 100 neutrophils and\nbands per microliter, and such neutropenia is considered prolonged when it is\nexpected to last more than 7 days. Most patients who should receive prophylaxis\nhave received stem cell transplants or are undergoing induction chemotherapy for\nacute leukemia.\n## If antibacterial prophylaxis is indicated\nDuration of therapy: During period of expected neutropenia\nCiprofloxacin 500 mg PO q12h ($) [R,DI] < OR >\nLevofloxacin 500 mg PO q24h ($) [R]\n< OR >\nTrimethoprim-sulfamethoxazole 1 DS tablet PO q12h ($) [R,DI] < OR >\nCefpodoxime 100 mg PO q12h ($$) [R]\nReferences\nTaplitz RA Journal of Clinical Oncology, 2018, 36:3043\nMandell chapter: Prophylaxis and Empirical Therapy for Infection in Cancer\nPatients\nNCCN Clinical Practice Guidelines, Prevention and Treatment of Cancer-\nRelated Infections. Version 1.2019. nccn.org\n\n## Outpatient Guidance\n## If antibacterial prophylaxis is indicated\nCiprofloxacin 500 mg PO BID for 7 days ($) [R,DI]\nLevofloxacin 500 mg PO QDAY for 7days ($) [R,DI]\nTrimethoprim/sulfamethoxazole 1 DS tablet PO BID for 7 days ($) [R,DI]\nCefpodoxime 100 mg PO BID x7days ($$) [R]",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU PREV INFECT FUNGAL PROPHYL",
+      "Term1": "",
+      "Term2": "",
+      "Text": "PREVENTION OF FUNGAL INFECTIONS IN A PATIENT WITH MALIGNANCY\nAntifungal chemoprophylaxis is often given to patients undergoing induction\nchemotherapy for acute leukemia expected to have profound neutropenia (less than\n100 neutrophils and bands per milliliter) for more than 10 days and for patients\nreceiving allogeneic stem cell transplantation. For most other patients the\nexpected benefits do not outweigh the risks of adverse effects and selection of\nresistant fungi.\nAntifungal is usually given until the absolute neutrophil concentration\nincreases to more than 500 cells/microliter in patients undergoing induction\nchemotherapy for leukemia. Duration is 100 days for patients undergoing stem\ncell transplantation. Some physicians continue prevention after 100 days if\ncorticosteroids are part of the immunosuppressive regimen.\nRecommend posaconazole prophylaxis for patients with Acute Myeloid Leukemia.\nContact Hematology Oncology or Infectious Disease for more information.\nPatients who have had invasive fungal infection in the recent past and who are\nabout to become neutropenic may require chemoprophylaxis. Contact Hematology-\nOncology or Infectious Disease for more information.\n## If antifungal prophylaxis is indicated:\nDuration of therapy: during period of expected neutropenia\nFluconazole 400 mg po q24h ($) [R,DI]\n## For patients being treated for AML:\nRequires Infectious Disease approval:\nPosaconazole 300mg Tablets twice daily on day 1, then 300mg once daily on\nday 2 and thereafter. Continue for 7 days after the neutrophil count\nrises above 500/mm3. ($$$$) [DI]\nReferences:\nTaplitz RA Journal of Clinical Oncology, 2018, 36:3043\nMandell chapter: Prophylaxis and empirical therapy for infection in cancer\npatients\nNCCN Clinical Practice Guidelines, Prevention and Treatment of Cancer-\nRelated Infections. Version 1.2019. nccn.org\n\n## Outpatient Guidance\n## If antifungal prophylaxis is indicated\nFluconazole 400 mg po qday for 10 days ($) [R,DI]",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ANTIVIRAL INFECTION MALIGNANCY",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## PREVENTION OF VIRAL INFECTIONS IN A PATIENT WITH MALIGNANCY\n## Prophylaxis for Herpes Simplex Virus (HSV) or Varicella Zoster Virus (VZV)\nSelect for recommendations for antiviral prophylaxis\n## Prophylaxis for Influenza and Other Respiratory Viruses\nYearly influenza vaccination with inactivated vaccine is recommended for all\npatients receiving chemotherapy for malignancy and all family and household\ncontacts and health care providers.\nOptimal timing of vaccination for patients being treated for cancer is not\nestablished, but serologic responses may be best between chemotherapy cycles\n(greater than 7 days after the last treatment) or greater than 2 weeks\nbefore chemotherapy starts.\nPatients with active malignant disease are at higher risk for upper\nrespiratory infections due to influenza, parainfluenza or respiratory\nsyncytial virus (RSV). Although response to vaccination with the attenuated\ninfluenza vaccine in patients on chemotherapy is variable, ranging\nfrom 24-75%, immnunoprophylaxis with the influenza vaccine is recommended for\npatients with active malignant disease or chemotherapy, lymphoproliferative\ndisease, or multiple myeloma. In areas and seasons where influenza is\nendemic, chemoprophylaxis can be considered in addition to vaccination in\nexposed patients with a high risk of influenza complications.\n## Recommendations:\nSeasonal Influenza Recommendations\n## Prophylaxis for Cytomegalovirus (CMV)\nProphylaxis and monitoring for CMV reactivation is not recommended unless the\npatient has received an allogeneic HSCT. Usually the recommendations for\nsurveillance and prophylaxis of CMV infections from the institution\nperforming the HSCT will be followed.\n## Recommendations:\nConsult Infectious Disease\n## Prophylaxis for Chronic Hepatitis B\nReactivation of chronic hepatitis B in patients undergoing immunosuppressive\nor antineoplastic treatment is a severe complication. Patients with positive\nHBsAg, chronic hepatitis B infection, or a previous episode of HBV\nreactivation who will receive immunosuppressive therapy should receive\nprophylaxis.\nRecommend routine testing for Hepatitis B prior to initiating Rituximab\n(Anti-CD20 antibody) therapy in patients.\n## Recommendations:\nHepatitis B Evaluation Anti-CD20 Antibody\nConsult Infectious Disease\n## References:\nMandel Chapter: Prophylaxis and Empirical Therapy of Infection in\nCancer Patients\nTaplitz RA Journal of Clinical Oncology 2018, 36:3043\nUp-to-Date website\nSandherr M Annals of Oncology 2006, 17: 1051-1059, 2006",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX PREVENTION OF INFECTION",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## ++ PREVENTION OF INFECTION ++\n## Prevention of bacterial endocarditis\nPrevention of bacterial endocarditis\n## Prevention of prosthetic joint infection\nBefore dental procedures\nBefore procedures involving infected skin, skin structures or musculoskeletal\ntissue\n## Prevention of infection in patient with malignancy\nAntibacterial prophylaxis\nAntifungal prophylaxis\nAntiviral prophylaxis\n## Prevention of infection in patients with liver disease\nSpontaneous bacterial peritonitis\n## Prevention of Pneumocystis infection\nPneumocystis jirovecii prophylaxis\n## Prevention of recurrent Staphylococcus aureus skin infection\nClick Here\nSection reviewed January 2019",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU PREV OF PERTUSSIS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## PREVENTION OF PERTUSSIS\n## Immunization\nGive a single dose of tetanus-diphtheria acellular pertussis vaccine (Tdap) in\nadults regardless of interval between most recent Td vaccine. One dose of Tdap\nvaccine is given to pregnant women during each pregnancy.\n## Postexposure prophylaxis in adults\nHousehold contacts with symptomatic coughing should be treated as if they have\npertussis. Consult Infectious Diseases for all suspected cases of pertussis and\nexposure to pertussis.\nCDC recommends postexposure prophylaxis in household contacts within 21 days\nafter exposure to pertussis regardless of immunization history. Non-household\ncontacts who are at high risk of severe illness or who have close contact with\nhigh-risk individuals should receive post exposure prophylaxis within 21 days of\nexposure. Those at high risk of severe illness are infants less than one year of\nage, women in third trimester of pregnancy and those with preexisting health\nconditions that may be exacerbated by pertussis (e.g. immunosuppressed and\nasthmatic individuals).\nA single dose of Tdap should be administered in those who are not up to date.\nPreferred:\nAzithromycin 500mg po day 1, then 250mg q24h for days 2-5 [O]\nAlternative for macrolide intolerant or allergic patients:\nTrimethoprim/sulfamethoxazole 1 DS tablet PO q12h [R,DI] for 7 days\n## _______________________________________________________________________________\n## References:\nCDC: Pertussis https://www.cdc.gov/pertussis/outbreaks/pep.html\nKim et al, Annals of internal medicine (2016) 184-194\nSanford keyword: Pertussis\nMandell chapter: Bordetella species\n\n## Outpatient Guidance\nAlternative for macrolide intolerant or allergic patients:\nTrimethoprim/sulfamethoxazole 1 DS tablet PO BID for 7 days [R,DI]",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ANTIVIRAL TYPE OF MALIGNANCY",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## PREVENTION OF ANTIVIRAL INFECTIONS IN A PATIENT WITH MALIGNANCY\n## **Solid Tumors**\n## No Antiviral Prophylaxis Recommended\nSolid tumors do not significantly compromise the cellular immune system.\nTherefore, patients are at low risk for opportunistic viral infections.\nDocumented invasive viral infections are very rare. Coincidental\nmucocutaneous infections by herpes simplex are easily treated and do not\nresult in life-threatening invasive infections. Reactivation of\nCytomegalovirus (CMV) or Epstein-Barr virus (EBV) is rarely observed.\n## **Acute Leukemia**\n## Herpes simplex virus-seronegative patients\nNo Antiviral Prophylaxis Recommended\nIn patients with acute leukemia, treatment is highly aggressive and consists\nof a combination of various cytotoxic agents administered in sequential\ncycles as induction, consolidation and maintenance therapy. Persistent, i.e.\n>10 days and profound neutropenia (<500 neutrophils) regularly occurs and\ncorrelates with the risk of developing fever and infections. Almost all viral\ninfections during neutropenia constitute reactivations of herpes viruses.\nNone of the available studies demonstrated an effect of antiviral prophylaxis\non the initiation of antibiotic treatment, number of febrile days, duration\nof antibiotic treatment, and onset of opportunistic infections. Therefore, no\nrecommendation for antiviral prophylaxis in patients with acute leukemia can\nbe given.\n## Herpes simplex virus-seropostive patients\nPatients undergoing leukemia induction therapy should receive prophylaxis.\nAcyclovir 800 MG PO q12h ($) [R]\n## **Lymphoma**\n## No Antiviral Prophylaxis Recommended\nRituximab is a monoclonal anti-CD-20 antibody used for treatment of\nlymphomas. It leads to a profound depletion of circulating B-cells. B-cells\nrecover usually within 3-6 months after treatment. Prolonged administration\nof rituximab (e.g., maintenance treatment >12 months) may result in a\nsignificant decrease of levels of immunoglobulin M. Parvovirus B19 and JC-\npapovavirus infections have been reported with maintenance rituximab therapy,\nbut drugs that would prevent these infections are not available. There is no\nsubstantial increase in risk of reactivation of herpes viruses (including\nHSV, VZV, and CMV).\nRecommend routine testing for Hepatitis B virus prior to initiating Rituximab\ntherapy in patients.\nHepatitis B information page\nHepatitis B Evaluation Anti-CD20 Antibody\n## References:\nMandel Chapter: Prophylaxis and Empirical Therapy of Infection in\nCancer Patients\nUp-to-Date\nSandherr,M et al, Annals of Oncology 17: 1051-1059, 2006",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU ABX PRIM INFECT CHICKENPOX",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## PRIMARY INFECTION (CHICKENPOX)\n## ________________________________\n## Immunocompetent patients\n## ________________________________\n## Prevention\nVaccinate all adults without evidence of immunity except for pregnant women.\nTest antibody first in adults who have uncertain history of chickenpox or\nvaccination.\nGive Varicella vaccine x 2, 2nd dose 4-8 weeks after 1st dose\n## Treatment\nTherapy must be started within 24 hrs onset of rash.\nAcyclovir 800 mg PO 5x/d for 5-7 days ($) [R]\n## Alternative\nTherapy must be started within 24 hrs onset of rash.\nValacyclovir 1 gm PO q8h for 5 days ($) [R]\n## ________________________________\n## Immunocompromised patients\n## ________________________________\n## Prevention\nImmunocompromised patients without prior immunity to varicella who are at risk\nfor disease include: patients with malignancy, current immunosuppressive\ntherapy, or HIV infection. Vaccination is not recommended while patients are\nimmunocompromised.\nContact Infectious Diseases for more information.\n## Treatment for mild to moderate disease\nAcyclovir 800 mg PO 5x/day for 7 days ($) [R]\n< OR >\nValacyclovir 1000 mg PO q8h for 7 days ($) [R]\n## Treatment for severe disease, or if mild to moderate disease doesn't improve on\n## above therapy\nAcyclovir 10 mg/kg IV q8h for 7 days ($$) [R]\nReferences:\nKim et al. Annals Intern Med. 2018, 168(3):210-220\nSanford keyword: Varicella-Zoster Virus\nMandell chapter: Chickenpox and Herpes Zoster (Varicella-Zoster Virus)\n\n## Outpatient Guidance\n## Alternative\nValacyclovir 1 gm PO TID for 5 days ($) [R]\n## Treatment for mild to moderate disease\nValacyclovir 1000 mg PO TID for 7 days ($) [R]",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU PROPHYLAXIS M. AVIUM",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## PROPHYLAXIS AGAINST MYCOBACTERIUM AVIUM DISEASE IN PERSONS WITH HIV/AIDS\nInfectious Diseases should be involved in all cases. Patients with CD4 count <\n50 cells per microliter, after ruling out disseminated MC disease, should\nreceive prophylaxis until CD4 count is >100 for at least 3 months in response to\nantiretroviral therapy.\n## Preferred prophylaxis\nAzithromycin 1200 mg PO q week ($) [M]\n## Alternative\nClarithromycin 500 mg PO BID ($) [R,DI]\nReferences:\nGuidelines for Prevention and Treatment of Opportunistic Infections in HIV\nInfected Adults and Adolescents. AIDSinfo (2015) 1-282\nMandell chapter: Mycobacterium avium complex\nSanford keyword: Mycobacterium avium-intracellulare\nUp-to-Date article: Mycobacterium avium complex (MAC) infections in HIV-infected\npatients",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU PUBIC LICE (PEDICULOSIS PUBIS)",
+      "Term1": "",
+      "Term2": "",
+      "Text": "PUBIC LICE (PEDICULOSIS PUBIS)\nLice are parasitic insects. Human lice survive by feeding on human blood.\nTo make a diagnosis, use a nit comb, bright light, or lens to find a louse\nliving in pubic hair.\nThe presence of nits on a hair shaft, especially when they are located more\nthan 6 mm from the skin, does NOT indicate active infestation. Nits may remain\npresent for months after successful treatment.\nHousehold contacts and persons who may have come into contact with personal\nbelongings of an infested individual should be examined for evidence of lice\nand discarded or cleaned if contaminated.\n## Treatment\nA repeat application may be used if live lice are seen 7-10 days after\ntreatment.\nPermethrin 1% lotion. Apply to affected area for 10 minutes then comb out\nnits ($) [M]\nReferences\nSanford keyword: lice\nUp-to-date website",
+      "LinkTargets": []
+    },
+    {
+      "Name": "ORZC GMENU SSTI PURULENT INFECTIONS",
+      "Term1": "",
+      "Term2": "",
+      "Text": "## PURULENT SKIN/SOFT TISSUE INFECTIONS\nIncludes furuncles/boils, carbuncles and cutaneous abscesses with or without\nsurrounding inflammation. The predominant pathogen is Staphylococcus aureus\n(MSSA or MRSA).\nIncision and drainage are recommended whenever feasible. Adjunctive antibiotics\nare typically recommended. Incision and drainage alone are reasonable based on\npatient preferences when abscess is smaller, limited surrounding inflammation,\nno systemic signs of infections, and/or limited comorbidities.\n## For recurrent skin abscesses in addition to culture and antibiotic therapy\n## recommend considering a decolonization regimen.\n[Click Here] for Staphylococcus aureus Decolonization\n## Preferred oral therapy:\nTrimethoprim-sulfamethoxazole 1 DS tablet BID for 5 days [R,DI]\n< OR >\nDoxycycline 100 mg PO BID for 5 days [DI]\n## Preferred IV therapy:\nVancomycin 15mg/kg IV q 12 hours [R]\n## Alternative:\nReserve for contraindication, precaution, failure to preferred options, or for\npatient where parenteral antibiotics would be otherwise be selected.\nLinezolid 600 mg PO BID for 5 days [DI,O]\n## _______________________________________________________________________________\nReferences:\nUp-to-Date website\nSanford keyword: Furuncle, carbuncle\nStevens DL Clin Infect Dis 2014, 59: 147\nBMJ 2018:360:k243\n\n## ER Guidance\n## recommend considering a decolonization regimen.\n[Click Here] for Staphylococcus aureus Decolonization *Inpatient CDSS\n## Preferred IV therapy:\nVancomycin 15 mg/kg IV ONCE STAT [R]",
+      "LinkTargets": []
     }
   ]
 }
