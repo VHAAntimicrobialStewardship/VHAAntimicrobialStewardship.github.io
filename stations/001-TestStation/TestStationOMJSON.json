@@ -48131,8 +48131,34 @@
       "Name": "ORZC GMENU ABX COM-ACQ PNEUMONIA",
       "Term1": "",
       "Term2": "",
-      "Text": "## COMMUNITY-ACQUIRED PNEUMONIA (CAP)\nEmpirical regimens listed here cover the usual pathogens associated with CAP,\nincluding atypical pathogens. Specific therapy should be guided by culture\nresults.\n## Diagnosis\nUse the CAP Pneumonia Severity Index (PSI) to assist with level of care decision\nCAP Pneumonia Severity Index (PSI) Calculator\n## _______________________________________________________________________________\n## Empirical treatment\nIf a patient has taken an antimicrobial in the previous 3 months, it is prudent\nto avoid giving the same or a similar drug for the current episode of pneumonia.\n## CAP treated in an Inpatient setting:\nCAP NON-SEVERE treated in an Inpatient Ward setting\nCAP SEVERE treated in an ICU setting ## Inpatient\n\n## Stepdown empiric treatment for CAP (Intravenous to Oral conversion)\nStepdown empiric treatment for CAP with oral antibiotics\nNote: These regimens may also be used to convert patients to oral medications\nprior to discharge.\n## Outpatient\n\n## CAP treated in an Outpatient setting:\n**Link below will exit user from the ER/UC Antimicrobial CDSS\nTreatment of CAP in an outpatient setting (outpatient)## _______________________________________________________________________________\n## References:\nFine MJ, et al. N Engl J Med (1997) 336:243-250",
-      "LinkTargets": [],
+      "Text": "## COMMUNITY-ACQUIRED PNEUMONIA (CAP)\n\nEmpirical regimens listed here cover the usual pathogens associated with CAP, including atypical pathogens. Specific therapy should be guided by culture results.\n\n## Diagnosis\n\nUse the CAP Pneumonia Severity Index (PSI) to assist with level of care decision\n\n[CAP Pneumonia Severity Index (PSI) Calculator](orz-gtx-abx-cap-psi)\n\n## _______________________________________________________________________________\n\n## Empirical treatment\n\nIf a patient has taken an antimicrobial in the previous 3 months, it is prudent to avoid giving the same or a similar drug for the current episode of pneumonia.\n\n## CAP treated in an Inpatient setting:\n\n[CAP NON-SEVERE treated in an Inpatient Ward setting](orzc-gmenu-cap-inpatient-treated-setting-non-severe-cap)\n\n[CAP SEVERE treated in an ICU setting](orzc-gmenu-cap-inpatient-treated-setting-severe-cap)\n\n## Stepdown empiric treatment for CAP (Intravenous to Oral conversion)\n\n[Stepdown empiric treatment for CAP with oral antibiotics](orzid2-gmenu-cap-outpatient-treated-setting)\n\nNote: These regimens may also be used to convert patients to oral medications prior to discharge.\n\n## CAP treated in an Outpatient setting:\n\n[Treatment of CAP in an outpatient setting](orzid3-gmenu-cap-treated-in-outpt-setting)\n\n## _______________________________________________________________________________\n\n## References:\n\nFine MJ, et al. N Engl J Med (1997) 336:243-250",
+      "LinkTargets": [
+        {
+          "Key": "orz-gtx-abx-cap-psi",
+          "Text": "CAP Pneumonia Severity Index (PSI) Calculator",
+          "Item": "ORZ GTX ABX CAP PSI"
+        },
+        {
+          "Key": "orzc-gmenu-cap-inpatient-treated-setting-non-severe-cap",
+          "Text": "CAP NON-SEVERE treated in an Inpatient Ward setting",
+          "Item": "ORZC GMENU CAP INPATIENT TREATED SETTING NON-SEVERE CAP"
+        },
+        {
+          "Key": "orzc-gmenu-cap-inpatient-treated-setting-severe-cap",
+          "Text": "CAP SEVERE treated in an ICU setting",
+          "Item": "ORZC GMENU CAP INPATIENT TREATED SETTING SEVERE CAP"
+        },
+        {
+          "Key": "orzid2-gmenu-cap-outpatient-treated-setting",
+          "Text": "Stepdown empiric treatment for CAP with oral antibiotics",
+          "Item": "ORZID2 GMENU CAP OUTPATIENT TREATED SETTING"
+        },
+        {
+          "Key": "orzid3-gmenu-cap-treated-in-outpt-setting",
+          "Text": "Treatment of CAP in an outpatient setting",
+          "Item": "ORZID3 GMENU CAP TREATED IN OUTPT SETTING"
+        }
+      ],
       "Inpt": "ORZID2 GMENU ABX COM-ACQ PNEUMONIA",
       "Outpt": "ORZID3 GMENU COMM INFECT PNEUMO",
       "ERUC": "ORZID GMENU ER/UC COM-ACQ PNEUMONIA"
