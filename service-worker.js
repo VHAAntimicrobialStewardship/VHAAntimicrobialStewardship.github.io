@@ -1,5 +1,5 @@
 const APP_PREFIX = 'CDSS_';
-const VERSION = '1.268'; // Update the version when you make changes
+const VERSION = '1.269'; // Update the version when you make changes
 const CACHE_NAME = APP_PREFIX + VERSION;
 
 const URLS = [
@@ -108,6 +108,10 @@ self.addEventListener('fetch', function (e) {
     e.request.method === 'GET' &&
     (requestUrl.pathname.endsWith('.json') || requestUrl.pathname.endsWith('.txml'));
 
+  const isHtmlRequest =
+    e.request.method === 'GET' &&
+    (e.request.mode === 'navigate' || requestUrl.pathname.endsWith('.html'));
+
   // CMS-managed content should prefer the network so saved edits appear quickly.
   if (isCmsContentRequest) {
     // Force revalidation/bypass of HTTP disk cache for CMS content.
@@ -115,6 +119,24 @@ self.addEventListener('fetch', function (e) {
 
     e.respondWith(
       fetch(networkRequest).then(function (networkResponse) {
+        if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
+          const responseToCache = networkResponse.clone();
+          caches.open(CACHE_NAME).then(function (cache) {
+            cache.put(e.request, responseToCache);
+          });
+        }
+        return networkResponse;
+      }).catch(function () {
+        return caches.match(e.request);
+      })
+    );
+    return;
+  }
+
+  // Prefer network for HTML shell/navigation to avoid stale first-load pages.
+  if (isHtmlRequest) {
+    e.respondWith(
+      fetch(e.request).then(function (networkResponse) {
         if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
           const responseToCache = networkResponse.clone();
           caches.open(CACHE_NAME).then(function (cache) {
