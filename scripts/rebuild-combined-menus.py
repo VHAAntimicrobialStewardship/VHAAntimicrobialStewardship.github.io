@@ -70,9 +70,32 @@ def to_orzc(inpt_name):
 
 # ── Helper: format combined text ──────────────────────────────────────────────
 def format_combined(raw):
-    text = raw.replace('\r\n', '\n').replace('\r', '\n')
+    text = raw.replace('\r\n', '\n').replace('\r', '\n').replace('\xa0', ' ')
+
+    # Normalize malformed heading merges from spreadsheet content, e.g.
+    # "##Inpatient    ## For ..." -> "## Inpatient\n\n## For ..."
+    text = re.sub(r'##\s*(Inpatient|Outpatient)\s*##\s*', r'## \1\n\n## ', text, flags=re.IGNORECASE)
+
+    # Ensure heading markers have a space after ### prefix when missing.
+    text = re.sub(r'^(#{2,6})(\S)', r'\1 \2', text, flags=re.MULTILINE)
+
+    lines = []
+    for line in text.split('\n'):
+        # Collapse runs of interior spaces while preserving list markers and links.
+        cleaned = re.sub(r' {2,}', ' ', line.rstrip())
+        lines.append(cleaned)
+
+    text = '\n'.join(lines)
     blocks = re.split(r'\n{2,}', text)
-    return '\n\n'.join(b.strip() for b in blocks if b.strip())
+    blocks = [b.strip() for b in blocks if b.strip()]
+
+    # Promote an all-caps first line to a heading if it is not already one.
+    if blocks and not blocks[0].startswith('#'):
+        first_line = blocks[0].split('\n', 1)[0].strip()
+        if first_line and first_line == first_line.upper() and len(first_line) <= 120:
+            blocks[0] = blocks[0].replace(first_line, f'## {first_line}', 1)
+
+    return '\n\n'.join(blocks)
 
 # ── 3. Build new ORZC menus and add Combined cross-refs ───────────────────────
 new_menus = []
@@ -80,6 +103,7 @@ cross_refs = 0
 
 for inpt_name, combined_text in guidance.items():
     orzc_name = to_orzc(inpt_name)
+    inpt_menu = inpt_by_name.get(inpt_name)
     combined_menu = {
         'Name': orzc_name,
         'Term1': '',
@@ -87,9 +111,18 @@ for inpt_name, combined_text in guidance.items():
         'Text': format_combined(combined_text),
         'LinkTargets': []
     }
+
+    # Carry navigation mappings so Combined pages can jump to Inpt/Outpt/ERUC.
+    if inpt_menu:
+        combined_menu['Inpt'] = inpt_name
+        if inpt_menu.get('Outpt'):
+            combined_menu['Outpt'] = inpt_menu['Outpt']
+        if inpt_menu.get('ERUC'):
+            combined_menu['ERUC'] = inpt_menu['ERUC']
+
     new_menus.append(combined_menu)
-    if inpt_name in inpt_by_name:
-        inpt_by_name[inpt_name]['Combined'] = orzc_name
+    if inpt_menu:
+        inpt_menu['Combined'] = orzc_name
         cross_refs += 1
 
 print(f'ORZC menus created: {len(new_menus)}')

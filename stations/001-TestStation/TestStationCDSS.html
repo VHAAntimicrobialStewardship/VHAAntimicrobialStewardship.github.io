@@ -1686,12 +1686,18 @@ function handleInpt() {
 
   //console.log('Selected Data Name:', selectedDataName);
 
-  for (const item of omData) {
-    //console.log('Checking item:', item.Name);
-    if (item.Outpt === selectedDataName || item.ERUC === selectedDataName) {
-      matchedItemName = item.Name;
-      //console.log('Match found:', matchedItemName);
-      break;
+  if (selectedData.Inpt) {
+    matchedItemName = selectedData.Inpt;
+  }
+
+  if (!matchedItemName) {
+    for (const item of omData) {
+      //console.log('Checking item:', item.Name);
+      if (item.Outpt === selectedDataName || item.ERUC === selectedDataName) {
+        matchedItemName = item.Name;
+        //console.log('Match found:', matchedItemName);
+        break;
+      }
     }
   }
 
