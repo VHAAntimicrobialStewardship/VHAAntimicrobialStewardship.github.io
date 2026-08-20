@@ -4629,7 +4629,7 @@
           "Item": "ORZID2 GMENU ABX TOXIC MEGACOLON"
         }
       ],
-      "Outpt": "ORZID3 GMENU ABX CDIFFICILE COLITIS"
+      "Outpt": "ORZID3 GMENU CDIFFICILE COLITIS"
     },
     {
       "Name": "ORZID2 GMENU ABX ASYMP BACTERIURIA",
@@ -6056,7 +6056,7 @@
           "Item": "ORZID2 GMENU CAP OUTPATIENT TREATED SETTING"
         }
       ],
-      "Outpt": "ORZID3 GMENU COMM ACQ PNEUMONIA",
+      "Outpt": "ORZID3 GMENU COMM INFECT PNEUMO",
       "ERUC": "ORZID GMENU ER/UC COM-ACQ PNEUMONIA",
       "Combined": "ORZC GMENU ABX COM-ACQ PNEUMONIA"
     },
@@ -7604,7 +7604,7 @@
           "Item": "ORZID2 GMENU PNEUMOCYSTIS JIROVECII"
         }
       ],
-      "Outpt": "ORZID3 GMENU FUNGI"
+      "Outpt": "ORZID3 GMENU FUNGUS"
     },
     {
       "Name": "ORZID2 GMENU ABX GASTROINTESTINAL",
@@ -14366,7 +14366,7 @@
           "Item": "ORZ SET ABX MALARIA TREATMENT AND PRIOR AUTH"
         }
       ],
-      "Outpt": "ORZID3 GMENU ABX MALARIA TREATMENT EDUC: ORZID GMENU ED/UC MALARIA TREATMENT"
+      "Outpt": "ORZID3 GMENU ABX MALARIA TREATMENT"
     },
     {
       "Name": "ORZID2 GMENU ABX MANAGEMENT OF FEBRILE EPISODE ASPLENIA",
@@ -16697,7 +16697,7 @@
           "Item": "PSJZID2 BENZATHINE PENICILLIN 2.4MU IM QWEEK X3 SYPHILIS"
         }
       ],
-      "Outpt": "ORZID3 GMENU ABX SYPHILIS"
+      "Outpt": "ORZID3 GMENU SYPHILIS"
     },
     {
       "Name": "ORZID2 GMENU ABX SYSTEM INFECTIOUS DISEASES",
@@ -17607,7 +17607,7 @@
           "Item": "ORZID2 GMENU ANTIVIRAL INFECTION MALIGNANCY"
         }
       ],
-      "Outpt": "ORZID3 GMENU ANTIVIRAL PROPHYLAXIS MALIGNANCY"
+      "Outpt": "ORZID3 GMENU ANTIVIRAL PROPHYLAXIS MALIGNANCY "
     },
     {
       "Name": "ORZID2 GMENU ANTIVIRAL STEM CELL MALIGNANCY",
@@ -17850,7 +17850,7 @@
           "Item": "ORZ SET ABX AZITHRO 500MG IV Q24H ATOVA 750MG PO Q12H"
         }
       ],
-      "Outpt": "ORZID3 GMENU PARASITE BABESIA SPP. "
+      "Outpt": "ORZID3 GMENU PARASITE BABESIA SPP."
     },
     {
       "Name": "ORZID2 GMENU BAC MENING GRM POS BACILLI L. MONOCYTO",
@@ -20898,7 +20898,7 @@
           "Item": "PSJZID VORICONAZOLE 200MG PO BID"
         }
       ],
-      "Outpt": "ORZID3 GMENU FUNGI ASPERGILLUS SPP. "
+      "Outpt": "ORZID3 GMENU FUNGI ASPERGILLUS SPP."
     },
     {
       "Name": "ORZID2 GMENU FUNGI BLASTOMYCES DERMATIDIS",
@@ -27876,7 +27876,7 @@
           "Item": "ORZ SET ABX PYRIMETHAMINE SULFADIAZINE LEUCOVORIN PREGNANCY"
         }
       ],
-      "Outpt": "ORZID3 GMENU PARASITE TOXOPLASMA SPP. "
+      "Outpt": "ORZID3 GMENU PARASITE TOXOPLASMA SPP."
     },
     {
       "Name": "ORZID2 GMENU TRANSPLANTATION",
@@ -45024,7 +45024,7 @@
           "Item": "ORZ SET ABX OP AZTREONAM 1GM + CIPRO 500 ONCE PROPHYLAXIS TRUSP"
         }
       ],
-      "Outpt": "ORZID3 GMENU PROPHYLAXIS PROSTATE BIOPSY"
+      "Outpt": "ORZID3 GMENU PROSTATE BIOPSY PROPHYLAXIS"
     },
     {
       "Name": "ORZID3 GMENU PROSTHESIS BONE JOINT INFECT",
@@ -48134,7 +48134,7 @@
       "Text": "## COMMUNITY-ACQUIRED PNEUMONIA (CAP)\nEmpirical regimens listed here cover the usual pathogens associated with CAP,\nincluding atypical pathogens. Specific therapy should be guided by culture\nresults.\n## Diagnosis\nUse the CAP Pneumonia Severity Index (PSI) to assist with level of care decision\nCAP Pneumonia Severity Index (PSI) Calculator\n## _______________________________________________________________________________\n## Empirical treatment\nIf a patient has taken an antimicrobial in the previous 3 months, it is prudent\nto avoid giving the same or a similar drug for the current episode of pneumonia.\n## CAP treated in an Inpatient setting:\nCAP NON-SEVERE treated in an Inpatient Ward setting\nCAP SEVERE treated in an ICU setting ## Inpatient\n\n## Stepdown empiric treatment for CAP (Intravenous to Oral conversion)\nStepdown empiric treatment for CAP with oral antibiotics\nNote: These regimens may also be used to convert patients to oral medications\nprior to discharge.\n## Outpatient\n\n## CAP treated in an Outpatient setting:\n**Link below will exit user from the ER/UC Antimicrobial CDSS\nTreatment of CAP in an outpatient setting (outpatient)## _______________________________________________________________________________\n## References:\nFine MJ, et al. N Engl J Med (1997) 336:243-250",
       "LinkTargets": [],
       "Inpt": "ORZID2 GMENU ABX COM-ACQ PNEUMONIA",
-      "Outpt": "ORZID3 GMENU COMM ACQ PNEUMONIA",
+      "Outpt": "ORZID3 GMENU COMM INFECT PNEUMO",
       "ERUC": "ORZID GMENU ER/UC COM-ACQ PNEUMONIA"
     },
     {
