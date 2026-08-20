@@ -47983,10 +47983,336 @@
     },
     {
       "Name": "ORZC GMENU ABX INPT MAIN",
-      "Term1": "",
-      "Term2": "",
-      "Text": "Mimi",
-      "LinkTargets": []
+      "Term1": "Inpatient Main Menu",
+      "Term2": "Main Menu, Inpatient",
+      "Text": "[Contact CDSS & ASP Staff](orzid2-gmenu-abx-additional-assistance)\n\n# HELP\n\n# Call Ext 31-3144 to expedite URGENT Outpatient prescriptions\n\n[Contact CDSS & ASP Staff](orzid2-gmenu-abx-additional-assistance)\n\n[Help page...](orzid2-gmenu-abx-help-page)\n\n*******************************************************\n\n[Frequently Asked questions \\(FAQ\\)](orz-gtx-abx-cdss-faq)\n\n*ANTIMICROBIAL DECISION SUPPORT*\n\n[Comments or Suggestions about this CDSS](orzid2-gmenu-contact-cdss-staff)\n\n*>>>>>>>>INPATIENT<<<<<<<<<  *\n\n*******************************************************\n\n# Important Antimicrobial Information\n\nWelcome.  Please click on the\n\n[Antibiogram \\(Susceptibilities\\)](orzid2-gmenu-abx-susceptibilities-antibiogram)\n\ndiagnosis or syndrome you wish to treat.\n\n[Antimicrobial Formulary \\(Restricted\\)](orz-gtx-abx-antimicrobial-formulary)\n\n*  *  *  *  *  *  *  *  *  *  *  *  *  *\n\n[Restrictions on Antimicrobials](orzid2-gmenu-abx-abx-restriction-policy)\n\n[Adjust Existing Antimicrobial Therapy](orzid2-gmenu-abx-adj-exist-abx-therapy)\n\n# CDSS Web and Mobile App\n\n[How to Find Alternative Antimicrobials](orzid2-gmenu-abx-how-to-find-alt-abx)\n\n[\\[CLICK HERE\\]](orzid2-gmenu-abx-online-and-mobile-app-instructions)\n\n[Clinical On-Call Schedule \\(Infectious Disease\\)](orz-min-on-call-schedule)\n\n[Up-to-date Online \\(Clinical Resource\\)](orz-gtx-abx-up-to-date)\n\n# Index of Antimicrobial CDSS content\n\n[Infection Control/Prevention Information](orzid2-gmenu-abx-infection-ctrl)\n\n[\\[CLICK HERE\\]](orzid2-gmenu-abx-index-inpatient)\n\n# Beta-lactam Reaction Assessment\n\n# Syndromes and diseases, by body systems\n\n[\\[Click here\\] Beta-lactam reaction assessment](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n(List starts at top and goes down body systems)\n\n[Text Version](orzid2-gmenu-abx-beta-lactam-allergy-assesment)\n\n[Central Nervous System](orzid2-gmenu-abx-cns)\n\n[Head and Neck](orzid2-gmenu-abx-head-and-neck)\n\n# General\n\n[Lungs & Mediastinum](orzid2-gmenu-abx-lung-and-mediastinum)\n\n[Dermatological Guidelines](orzid2-gmenu-abx-dermatologic-surgery-guidelines)\n\n[\\[a\\] COVID-19](orzid2-gmenu-abx-covid-19-main-menu)\n\n[Device-related Infections](orzid2-gmenu-abx-device-related-infections)\n\n[\\[b\\] Influenza 2025-2026](orzid2-gmenu-abx-influenza-recommendations)\n\n[Prevention of Infection](orzid2-gmenu-abx-prevention-of-infection)\n\n[\\[c\\] Pneumonia](orzid2-gmenu-abx-pneumonia)\n\n[HIV-AIDS](orzid2-gmenu-abx-hiv-aids)\n\n[Cardiovascular](orzid2-gmenu-abx-cardiovascular)\n\n[Immunocompromised Patients](orzid2-gmenu-abx-immunocompromised-patient)\n\n[GI & Intraabdominal](orzid2-gmenu-abx-gastrointestinal)\n\n[\\[a\\] C. difficile Colitis Mild/Moderate](orzid2-gmenu-abx-assoc-colitis)\n\n# Immunization Information and Vaccine Orders\n\n[\\[b\\] C. difficile Fulminant \\(severe/complicated\\)](orzid2-gmenu-abx-toxic-megacolon)\n\n[Recommended Adult Immunizations](orzid2-gmenu-abx-recommended-immunizations)\n\n[Urogenital](orzid2-gmenu-abx-genitourinary)\n\n[\\[a\\] Sexually Transmitted Infections \\(STI\\)](orzid2-gmenu-abx-sexually-transmitted-infection)\n\n# Surgical: Antimicrobial Prophylaxis and Site Infections\n\n[\\[b\\] Urinary Tract Infections](orzid2-gmenu-abx-approach-to-uti)\n\n[Antimicrobial Prophylaxis Pre-op](orzid2-gmenu-meds-delayed-pre-op-antibiotics)\n\n[Bone, Muscle and Joint Infections](orzid2-gmenu-bone-joint-muscle-infections)\n\n[Antimicrobial Prophylaxis Post-op](orzid2-gmenu-post-op-antimicrobial-prophylaxis)\n\n[Skin and Soft Tissue Infections](orzid2-gmenu-ssti-main-menu)\n\n[Surgical Site Infections](orzid2-gmenu-surg-surgical-site-infect)\n\n[Systemic Infections](orzid2-gmenu-abx-system-infectious-diseases)\n\n[\\[a\\] Bacteremia](orzid2-gmenu-abx-bacteremia)\n\n# MPox\n\n[\\[b\\] Sepsis and Septic Shock](orzid2-gmenu-sepsis-and-shock)\n\n[MPox SharePoint Link](orz-gtx-abx-monkeypox-sharepoint-site)\n\n[\\[c\\] Neutropenic Fever](orzid2-gmenu-immunocom-neut-fever)\n\n[*ID Providers Only*MPox Treatment](orzid2-gmenu-abx-tpoxx-monkeypox-treatment)\n\n[\\[d\\] Lyme disease](orzid2-gmenu-abx-lyme-disease)\n\nMPox vaccine - see Outpatient CDSS\n\n# Specific organisms\n\n# Drug Information Links\n\n[Bacteria](orzid2-gmenu-bacteria-main-menu)\n\n[Important Drug \\(Abx\\) Properties](orzid2-gmenu-abx-drug-info-page)\n\n[Viruses](orzid2-gmenu-abx-viruses)\n\n[Lexicomp Online Drug Information](orz-gtx-abx-lexicomp-online)\n\n[Fungi](orzid2-gmenu-abx-fungus)\n\n[QT Prolongation Drug Resource](orz-gtx-abx-resource-qtc)\n\n[Parasites](orzid2-gmenu-parasites)\n\n[Other Pathogens](orzid2-gmenu-other-pathogens)\n\n# Miscellaneous/Emerging Topics\n\n[Conditions NOT benefitted by antibiotics](orzid2-gmenu-abx-not-required-main)\n\nMedicine is an inexact and rapidly\n\n[ESBLs, Amp-C beta-lactamases and Carbapenemases](orzid2-gmenu-abx-esbl-kpc-etc)\n\nchanging discipline.  The developers of\n\n[MRSA Nares Screening-Vanco New Start](orzid2-gmenu-abx-vanco-mrsa-nares-information)\n\nthis system have made every effort to\n\nprovide current, accurate information.\n\nHowever, in view of the possibility of\n\nhuman error or changes in medical\n\nservice, readers are encouraged to\n\nconfirm the information contained\n\nherein with other sources.  In\n\nparticular, readers are encouraged to\n\ncheck the product information for\n\nantimicrobials to be certain that\n\ninformation in this system is accurate\n\nand current, especially for new or\n\ninfrequently used drugs.\n\n# HemOnc Bispecific Test Orders\n\n[Bispecific Antibody \\(Oncology\\) Disease Specific Management](orzid2-gmenu-bispecific-disease-specific-management)\n\n[Bispecific CRS Monitoring Provider Orders](orzid2-gmenu-bispecific-new-crs-monitoring)\n\n[Bispecific Patient Admission Information](orzid2-gmenu-bispecific-lodging-admit-information)\n\n[Bispecific ICANS Monitoring Provider Orders](orzid2-gmenu-bispecific-new-icans-monitoring)\n\n[All Outpatient Consults](orz-gmenu-all-outpt-consults)\n\n[CDSS Testing Menu](orzid-gmenu-abx-cdss-testing-menu)\n\n[TEST PCN ALLERGY](test-orzid2-gmenu-surg-neurosurgery)",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-additional-assistance",
+          "Text": "Contact CDSS & ASP Staff",
+          "Item": "ORZID2 GMENU ABX ADDITIONAL ASSISTANCE"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-help-page",
+          "Text": "Help page...",
+          "Item": "ORZID2 GMENU ABX HELP PAGE"
+        },
+        {
+          "Key": "orz-gtx-abx-cdss-faq",
+          "Text": "Frequently Asked questions (FAQ)",
+          "Item": "ORZ GTX ABX CDSS FAQ"
+        },
+        {
+          "Key": "orzid2-gmenu-contact-cdss-staff",
+          "Text": "Comments or Suggestions about this CDSS",
+          "Item": "ORZID2 GMENU CONTACT CDSS STAFF"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-susceptibilities-antibiogram",
+          "Text": "Antibiogram (Susceptibilities)",
+          "Item": "ORZID2 GMENU ABX SUSCEPTIBILITIES (ANTIBIOGRAM)"
+        },
+        {
+          "Key": "orz-gtx-abx-antimicrobial-formulary",
+          "Text": "Antimicrobial Formulary (Restricted)",
+          "Item": "ORZ GTX ABX ANTIMICROBIAL FORMULARY"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-abx-restriction-policy",
+          "Text": "Restrictions on Antimicrobials",
+          "Item": "ORZID2 GMENU ABX ABX RESTRICTION POLICY"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-adj-exist-abx-therapy",
+          "Text": "Adjust Existing Antimicrobial Therapy",
+          "Item": "ORZC GMENU ABX ADJ EXIST ABX THERAPY"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-how-to-find-alt-abx",
+          "Text": "How to Find Alternative Antimicrobials",
+          "Item": "ORZID2 GMENU ABX HOW TO FIND ALT ABX"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-online-and-mobile-app-instructions",
+          "Text": "[CLICK HERE]",
+          "Item": "ORZID2 GMENU ABX ONLINE AND MOBILE APP INSTRUCTIONS"
+        },
+        {
+          "Key": "orz-min-on-call-schedule",
+          "Text": "Clinical On-Call Schedule (Infectious Disease)",
+          "Item": "ORZ MIN ON CALL SCHEDULE"
+        },
+        {
+          "Key": "orz-gtx-abx-up-to-date",
+          "Text": "Up-to-date Online (Clinical Resource)",
+          "Item": "ORZ GTX ABX UP TO DATE"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-infection-ctrl",
+          "Text": "Infection Control/Prevention Information",
+          "Item": "ORZID2 GMENU ABX INFECTION CTRL"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-index-inpatient",
+          "Text": "[CLICK HERE]",
+          "Item": "ORZID2 GMENU ABX INDEX INPATIENT"
+        },
+        {
+          "Key": "orz-gtx-abx-beta-lactam-reaction-pdf",
+          "Text": "[Click here] Beta-lactam reaction assessment",
+          "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-beta-lactam-allergy-assesment",
+          "Text": "Text Version",
+          "Item": "ORZID2 GMENU ABX BETA-LACTAM ALLERGY ASSESMENT"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-cns",
+          "Text": "Central Nervous System",
+          "Item": "ORZC GMENU ABX CNS"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-head-and-neck",
+          "Text": "Head and Neck",
+          "Item": "ORZID2 GMENU ABX HEAD AND NECK"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-lung-and-mediastinum",
+          "Text": "Lungs & Mediastinum",
+          "Item": "ORZC GMENU ABX LUNG AND MEDIASTINUM"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-dermatologic-surgery-guidelines",
+          "Text": "Dermatological Guidelines",
+          "Item": "ORZID2 GMENU ABX DERMATOLOGIC SURGERY GUIDELINES"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-covid-19-main-menu",
+          "Text": "[a] COVID-19",
+          "Item": "ORZID2 GMENU ABX COVID-19 MAIN MENU"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-device-related-infections",
+          "Text": "Device-related Infections",
+          "Item": "ORZC GMENU ABX DEVICE-RELATED INFECTIONS"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-influenza-recommendations",
+          "Text": "[b] Influenza 2025-2026",
+          "Item": "ORZID2 GMENU ABX INFLUENZA RECOMMENDATIONS"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-prevention-of-infection",
+          "Text": "Prevention of Infection",
+          "Item": "ORZC GMENU ABX PREVENTION OF INFECTION"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-pneumonia",
+          "Text": "[c] Pneumonia",
+          "Item": "ORZC GMENU ABX PNEUMONIA"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-hiv-aids",
+          "Text": "HIV-AIDS",
+          "Item": "ORZC GMENU ABX HIV-AIDS"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-cardiovascular",
+          "Text": "Cardiovascular",
+          "Item": "ORZC GMENU ABX CARDIOVASCULAR"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-immunocompromised-patient",
+          "Text": "Immunocompromised Patients",
+          "Item": "ORZC GMENU ABX IMMUNOCOMPROMISED PATIENT"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-gastrointestinal",
+          "Text": "GI & Intraabdominal",
+          "Item": "ORZID2 GMENU ABX GASTROINTESTINAL"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-assoc-colitis",
+          "Text": "[a] C. difficile Colitis Mild/Moderate",
+          "Item": "ORZID2 GMENU ABX ASSOC COLITIS"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-toxic-megacolon",
+          "Text": "[b] C. difficile Fulminant (severe/complicated)",
+          "Item": "ORZC GMENU ABX TOXIC MEGACOLON"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-recommended-immunizations",
+          "Text": "Recommended Adult Immunizations",
+          "Item": "ORZC GMENU ABX RECOMMENDED IMMUNIZATIONS"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-genitourinary",
+          "Text": "Urogenital",
+          "Item": "ORZC GMENU ABX GENITOURINARY"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-sexually-transmitted-infection",
+          "Text": "[a] Sexually Transmitted Infections (STI)",
+          "Item": "ORZID2 GMENU ABX SEXUALLY TRANSMITTED INFECTION"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-approach-to-uti",
+          "Text": "[b] Urinary Tract Infections",
+          "Item": "ORZID2 GMENU ABX APPROACH TO UTI"
+        },
+        {
+          "Key": "orzid2-gmenu-meds-delayed-pre-op-antibiotics",
+          "Text": "Antimicrobial Prophylaxis Pre-op",
+          "Item": "ORZID2 GMENU MEDS DELAYED PRE-OP ANTIBIOTICS"
+        },
+        {
+          "Key": "orzid2-gmenu-bone-joint-muscle-infections",
+          "Text": "Bone, Muscle and Joint Infections",
+          "Item": "ORZID2 GMENU BONE JOINT MUSCLE INFECTIONS"
+        },
+        {
+          "Key": "orzid2-gmenu-post-op-antimicrobial-prophylaxis",
+          "Text": "Antimicrobial Prophylaxis Post-op",
+          "Item": "ORZID2 GMENU POST-OP ANTIMICROBIAL PROPHYLAXIS"
+        },
+        {
+          "Key": "orzid2-gmenu-ssti-main-menu",
+          "Text": "Skin and Soft Tissue Infections",
+          "Item": "ORZID2 GMENU SSTI MAIN MENU"
+        },
+        {
+          "Key": "orzid2-gmenu-surg-surgical-site-infect",
+          "Text": "Surgical Site Infections",
+          "Item": "ORZID2 GMENU SURG SURGICAL SITE INFECT"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-system-infectious-diseases",
+          "Text": "Systemic Infections",
+          "Item": "ORZID2 GMENU ABX SYSTEM INFECTIOUS DISEASES"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-bacteremia",
+          "Text": "[a] Bacteremia",
+          "Item": "ORZC GMENU ABX BACTEREMIA"
+        },
+        {
+          "Key": "orzid2-gmenu-sepsis-and-shock",
+          "Text": "[b] Sepsis and Septic Shock",
+          "Item": "ORZID2 GMENU SEPSIS AND SHOCK"
+        },
+        {
+          "Key": "orz-gtx-abx-monkeypox-sharepoint-site",
+          "Text": "MPox SharePoint Link",
+          "Item": "ORZ GTX ABX MONKEYPOX SHAREPOINT SITE"
+        },
+        {
+          "Key": "orzid2-gmenu-immunocom-neut-fever",
+          "Text": "[c] Neutropenic Fever",
+          "Item": "ORZC GMENU IMMUNOCOM NEUT FEVER"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-tpoxx-monkeypox-treatment",
+          "Text": "*ID Providers Only*MPox Treatment",
+          "Item": "ORZID2 GMENU ABX TPOXX MONKEYPOX TREATMENT"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-lyme-disease",
+          "Text": "[d] Lyme disease",
+          "Item": "ORZC GMENU ABX LYME DISEASE"
+        },
+        {
+          "Key": "orzid2-gmenu-bacteria-main-menu",
+          "Text": "Bacteria",
+          "Item": "ORZID2 GMENU BACTERIA MAIN MENU"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-drug-info-page",
+          "Text": "Important Drug (Abx) Properties",
+          "Item": "ORZID2 GMENU ABX DRUG INFO PAGE"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-viruses",
+          "Text": "Viruses",
+          "Item": "ORZID2 GMENU ABX VIRUSES"
+        },
+        {
+          "Key": "orz-gtx-abx-lexicomp-online",
+          "Text": "Lexicomp Online Drug Information",
+          "Item": "ORZ GTX ABX LEXICOMP ONLINE"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-fungus",
+          "Text": "Fungi",
+          "Item": "ORZID2 GMENU ABX FUNGUS"
+        },
+        {
+          "Key": "orz-gtx-abx-resource-qtc",
+          "Text": "QT Prolongation Drug Resource",
+          "Item": "ORZ GTX ABX RESOURCE QTC"
+        },
+        {
+          "Key": "orzid2-gmenu-parasites",
+          "Text": "Parasites",
+          "Item": "ORZID2 GMENU PARASITES"
+        },
+        {
+          "Key": "orzid2-gmenu-other-pathogens",
+          "Text": "Other Pathogens",
+          "Item": "ORZID2 GMENU OTHER PATHOGENS"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-not-required-main",
+          "Text": "Conditions NOT benefitted by antibiotics",
+          "Item": "ORZID2 GMENU ABX NOT REQUIRED MAIN"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-esbl-kpc-etc",
+          "Text": "ESBLs, Amp-C beta-lactamases and Carbapenemases",
+          "Item": "ORZID2 GMENU ABX ESBL KPC ETC"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-vanco-mrsa-nares-information",
+          "Text": "MRSA Nares Screening-Vanco New Start",
+          "Item": "ORZID2 GMENU ABX VANCO + MRSA NARES INFORMATION"
+        },
+        {
+          "Key": "orzid2-gmenu-bispecific-disease-specific-management",
+          "Text": "Bispecific Antibody (Oncology) Disease Specific Management",
+          "Item": "ORZID2 GMENU BISPECIFIC DISEASE SPECIFIC MANAGEMENT"
+        },
+        {
+          "Key": "orzid2-gmenu-bispecific-new-crs-monitoring",
+          "Text": "Bispecific CRS Monitoring Provider Orders",
+          "Item": "ORZID2 GMENU BISPECIFIC NEW CRS MONITORING"
+        },
+        {
+          "Key": "orzid2-gmenu-bispecific-lodging-admit-information",
+          "Text": "Bispecific Patient Admission Information",
+          "Item": "ORZID2 GMENU BISPECIFIC LODGING ADMIT INFORMATION"
+        },
+        {
+          "Key": "orzid2-gmenu-bispecific-new-icans-monitoring",
+          "Text": "Bispecific ICANS Monitoring Provider Orders",
+          "Item": "ORZID2 GMENU BISPECIFIC NEW ICANS MONITORING"
+        },
+        {
+          "Key": "orz-gmenu-all-outpt-consults",
+          "Text": "All Outpatient Consults",
+          "Item": "ORZ GMENU ALL OUTPT CONSULTS"
+        },
+        {
+          "Key": "orzid-gmenu-abx-cdss-testing-menu",
+          "Text": "CDSS Testing Menu",
+          "Item": "ORZID GMENU ABX CDSS TESTING MENU"
+        },
+        {
+          "Key": "test-orzid2-gmenu-surg-neurosurgery",
+          "Text": "TEST PCN ALLERGY",
+          "Item": "TEST ORZID2 GMENU SURG NEUROSURGERY"
+        }
+      ]
     },
     {
       "Name": "ORZC GMENU INTRAVAS CATH CANDIDA SPP",
