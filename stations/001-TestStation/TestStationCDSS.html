@@ -1832,6 +1832,9 @@ Promise.all([fetchOMData(), fetchODData(), fetchAbxLink()]) // Add fetchIndex()
   const dropdownValue = urlParams.get('dropdown');
       if (dropdownValue) {
         dropdown.value = decodeURIComponent(dropdownValue);
+      } else {
+        // On direct entry from home, always start at the configured main menu.
+        dropdown.value = MainMenu;
       }
 
       // Always validate the selected value and fall back to a valid menu option.
