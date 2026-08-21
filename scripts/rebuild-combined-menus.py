@@ -27,7 +27,7 @@ TEST_PATH = ROOT / "stations" / "001-TestStation" / "TestStationOMJSON.json"
 
 PLACEHOLDERS = {"", "mehul", "mahul", "mimi"}
 INPT_MAIN_NAME = "ORZID2 GMENU ABX INPT MAIN"
-COMBINED_MAIN_ID = "inpt-main"
+COMBINED_MAIN_ID = "main-menu"
 
 
 def to_combined_name(inpt_name: str) -> str:

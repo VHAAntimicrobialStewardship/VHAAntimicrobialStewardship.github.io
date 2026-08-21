@@ -18,7 +18,7 @@ import re
 from pathlib import Path
 
 JSON_PATH = Path(r"stations/001-TestStation/TestStationOMJSON.json")
-COMBINED_MAIN = "INPT MAIN"
+COMBINED_MAIN = "main-menu"
 
 # Menus already manually tuned; skip automatic rewrite.
 SKIP_NAMES = {

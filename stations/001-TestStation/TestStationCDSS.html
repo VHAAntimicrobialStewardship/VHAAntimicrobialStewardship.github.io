@@ -16,7 +16,7 @@
   const MainMenu = 'ORZID2 GMENU ABX INPT MAIN'; /*the menu the website starts at*/
   const outptMenu = 'ORZID3 GMENU ABX OUTPT MAIN'; /*the menu the website starts at*/
   const erucMenu = 'ORZID GMENU ER/UC EMERGENCY DEPARTMENT MAIN MENU'; /*the menu the website starts at*/
-  const combinedMenu = 'inpt-main'; /*Combined guidance main menu*/	  
+  const combinedMenu = 'main-menu'; /*Combined guidance main menu*/	  
   var IndexButton = 'Index'; /*Only important to CDSS program functions, can be left as it for other systems*/
   var homeButtonUrl = 'https://VHAAntimicrobialStewardship.github.io/'; /*Only important to CDSS program functions, home URL*/
   const Index = 'ORZID2 GMENU ABX INDEX INPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
@@ -1845,21 +1845,22 @@ Promise.all([fetchOMData(), fetchODData(), fetchAbxLink()]) // Add fetchIndex()
       if (dropdownValue) {
         dropdown.value = decodeURIComponent(dropdownValue);
       } else {
-        // On direct entry from home, always start at the configured main menu.
-        dropdown.value = MainMenu;
+        // On direct entry from home, always start at the combined main menu.
+        dropdown.value = combinedMenu;
       }
 
       // Always validate the selected value and fall back to a valid menu option.
       if (!dropdown.querySelector(`option[value="${dropdown.value}"]`)) {
+        const combinedMenuOption = dropdown.querySelector(`option[value="${combinedMenu}"]`);
         const mainMenuOption = dropdown.querySelector(`option[value="${MainMenu}"]`);
         const firstVisibleOption = Array.from(dropdown.options).find(opt => opt.style.display !== 'none' && !opt.disabled);
-        const fallbackOption = mainMenuOption || firstVisibleOption || dropdown.options[0];
+        const fallbackOption = combinedMenuOption || mainMenuOption || firstVisibleOption || dropdown.options[0];
         if (fallbackOption) dropdown.value = fallbackOption.value;
       }
 
-      // Final guard: if value is still empty, prefer MainMenu directly.
+      // Final guard: if value is still empty, prefer combined menu directly.
       if (!dropdown.value) {
-        dropdown.value = MainMenu;
+        dropdown.value = combinedMenu;
       }
     pushHistory(dropdown.value);
     filterData({ target: dropdown });
@@ -2025,7 +2026,7 @@ function setButtonBackground(button, isActive) {
 	
 // Run the checkMatchesAndSetButtonAppearance function on page load
 window.onload = function() {
-  currentVersion = 'inpt'	
+  currentVersion = 'combined';
   checkMatchesAndSetButtonAppearance();
 };
 	

@@ -16,7 +16,7 @@ required_menus = [
     "ORZID2 GMENU ABX INPT MAIN",
     "ORZID3 GMENU ABX OUTPT MAIN",
     "ORZID GMENU ER/UC EMERGENCY DEPARTMENT MAIN MENU",
-    "inpt-main",
+    "main-menu",
 ]
 for required in required_menus:
     if required not in by:
