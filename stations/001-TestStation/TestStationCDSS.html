@@ -774,11 +774,18 @@ function scrollToTop() {
     return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
 
-function resolveEmbeddedLinkTarget(selectedData, target) {
+  function normalizeComparableId(value) {
+    return (value || '').toString().toLowerCase().replace(/[^a-z0-9]/g, '');
+  }
+
+  function resolveEmbeddedLinkTarget(selectedData, target, label = '') {
   const normalizedTarget = (target || '').trim();
   if (!normalizedTarget) {
     return null;
   }
+
+    const normalizedTargetId = normalizeComparableId(normalizedTarget);
+    const normalizedLabel = (label || '').trim().toLowerCase();
 
   if (normalizedTarget.toLowerCase().startsWith('cdss:')) {
     return resolveTargetForCurrentVersion(normalizedTarget.substring(5).trim());
@@ -807,6 +814,42 @@ function resolveEmbeddedLinkTarget(selectedData, target) {
   );
   if (byKey && byKey.Item) {
     return resolveTargetForCurrentVersion(byKey.Item);
+  }
+
+  // Fallback for rich text links: many pages store canonical Item by label text.
+  const byText = linkTargets.find(link =>
+    (link.Text || '').trim().toLowerCase() === normalizedLabel
+  );
+  if (byText && byText.Item) {
+    return resolveTargetForCurrentVersion(byText.Item);
+  }
+
+  // Global fallback: match target slug to OM/OD names by normalized identifier.
+  const omByNormalized = omData.find(menu =>
+    normalizeComparableId(menu.Name) === normalizedTargetId
+  );
+  if (omByNormalized) {
+    return resolveTargetForCurrentVersion(omByNormalized.Name);
+  }
+
+  const odByNormalized = odData.find(order =>
+    normalizeComparableId(order.Name) === normalizedTargetId
+  );
+  if (odByNormalized) {
+    return odByNormalized.Name;
+  }
+
+  // Last attempt: use label text to find a global OM LinkTarget entry.
+  if (normalizedLabel) {
+    for (const menu of omData) {
+      const menuTargets = Array.isArray(menu.LinkTargets) ? menu.LinkTargets : [];
+      const labelMatch = menuTargets.find(link =>
+        (link.Text || '').trim().toLowerCase() === normalizedLabel
+      );
+      if (labelMatch && labelMatch.Item) {
+        return resolveTargetForCurrentVersion(labelMatch.Item);
+      }
+    }
   }
 
   return null;
@@ -867,7 +910,7 @@ function appendRichTextLineContent(container, lineText, selectedData) {
       externalLink.textContent = label;
       container.appendChild(externalLink);
     } else {
-      const resolvedItem = resolveEmbeddedLinkTarget(selectedData, target);
+      const resolvedItem = resolveEmbeddedLinkTarget(selectedData, target, label);
       if (resolvedItem) {
         const rowClickElement = document.createElement('a');
         rowClickElement.classList.add('clickable');
