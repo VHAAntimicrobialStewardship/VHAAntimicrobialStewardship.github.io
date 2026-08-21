@@ -1,0 +1,43 @@
+name: Compile CMS edits to OMJSON
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "cms-data/**"
+
+jobs:
+  compile:
+    # Skip if this push was already made by the bot (prevents loops)
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Full history needed so the bot commit has proper authorship context
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile CMS pages into OMJSON
+        run: python scripts/compile-cms.py
+
+      - name: Commit updated OMJSON (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stations/001-TestStation/TestStationOMJSON.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: compile CMS edits into TestStationOMJSON [skip ci]"
+            git push
+          fi
