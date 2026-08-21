@@ -65,9 +65,9 @@ collections:
     extension: json
     editor:
       preview: false
-      identifier_field: PageID
-      summary: "{{fields.Term1}} [{{fields.PageID}}]"
-      fields:
+    identifier_field: PageID
+    summary: "{{fields.Term1}} [{{fields.PageID}}]"
+    fields:
         - label: "Page ID"
           name: PageID
           widget: string
@@ -113,9 +113,9 @@ collections:
     extension: json
     editor:
       preview: false
-      identifier_field: PageID
-      summary: "{{fields.Term1}} [{{fields.PageID}}]"
-      fields:
+    identifier_field: PageID
+    summary: "{{fields.Term1}} [{{fields.PageID}}]"
+    fields:
         - label: "Page ID"
           name: PageID
           widget: string
@@ -161,9 +161,9 @@ collections:
     extension: json
     editor:
       preview: false
-      identifier_field: PageID
-      summary: "{{fields.Term1}} [{{fields.PageID}}]"
-      fields:
+    identifier_field: PageID
+    summary: "{{fields.Term1}} [{{fields.PageID}}]"
+    fields:
         - label: "Page ID"
           name: PageID
           widget: string
@@ -209,9 +209,9 @@ collections:
     extension: json
     editor:
       preview: false
-      identifier_field: PageID
-      summary: "{{fields.Term1}} [{{fields.PageID}}]"
-      fields:
+    identifier_field: PageID
+    summary: "{{fields.Term1}} [{{fields.PageID}}]"
+    fields:
         - label: "Page ID"
           name: PageID
           widget: string
@@ -257,9 +257,9 @@ collections:
     extension: json
     editor:
       preview: false
-      identifier_field: PageID
-      summary: "{{fields.Term1}} [{{fields.PageID}}]"
-      fields:
+    identifier_field: PageID
+    summary: "{{fields.Term1}} [{{fields.PageID}}]"
+    fields:
         - label: "Page ID"
           name: PageID
           widget: string
@@ -305,9 +305,9 @@ collections:
     extension: json
     editor:
       preview: false
-      identifier_field: PageID
-      summary: "{{fields.Term1}} [{{fields.PageID}}]"
-      fields:
+    identifier_field: PageID
+    summary: "{{fields.Term1}} [{{fields.PageID}}]"
+    fields:
         - label: "Page ID"
           name: PageID
           widget: string
@@ -353,9 +353,9 @@ collections:
     extension: json
     editor:
       preview: false
-      identifier_field: PageID
-      summary: "{{fields.Term1}} [{{fields.PageID}}]"
-      fields:
+    identifier_field: PageID
+    summary: "{{fields.Term1}} [{{fields.PageID}}]"
+    fields:
         - label: "Page ID"
           name: PageID
           widget: string
@@ -401,9 +401,9 @@ collections:
     extension: json
     editor:
       preview: false
-      identifier_field: PageID
-      summary: "{{fields.Term1}} [{{fields.PageID}}]"
-      fields:
+    identifier_field: PageID
+    summary: "{{fields.Term1}} [{{fields.PageID}}]"
+    fields:
         - label: "Page ID"
           name: PageID
           widget: string
@@ -449,9 +449,9 @@ collections:
     extension: json
     editor:
       preview: false
-      identifier_field: PageID
-      summary: "{{fields.Term1}} [{{fields.PageID}}]"
-      fields:
+    identifier_field: PageID
+    summary: "{{fields.Term1}} [{{fields.PageID}}]"
+    fields:
         - label: "Page ID"
           name: PageID
           widget: string
@@ -497,9 +497,9 @@ collections:
     extension: json
     editor:
       preview: false
-      identifier_field: PageID
-      summary: "{{fields.Term1}} [{{fields.PageID}}]"
-      fields:
+    identifier_field: PageID
+    summary: "{{fields.Term1}} [{{fields.PageID}}]"
+    fields:
         - label: "Page ID"
           name: PageID
           widget: string
@@ -545,9 +545,9 @@ collections:
     extension: json
     editor:
       preview: false
-      identifier_field: PageID
-      summary: "{{fields.Term1}} [{{fields.PageID}}]"
-      fields:
+    identifier_field: PageID
+    summary: "{{fields.Term1}} [{{fields.PageID}}]"
+    fields:
         - label: "Page ID"
           name: PageID
           widget: string
@@ -593,9 +593,9 @@ collections:
     extension: json
     editor:
       preview: false
-      identifier_field: PageID
-      summary: "{{fields.Term1}} [{{fields.PageID}}]"
-      fields:
+    identifier_field: PageID
+    summary: "{{fields.Term1}} [{{fields.PageID}}]"
+    fields:
         - label: "Page ID"
           name: PageID
           widget: string
@@ -641,9 +641,9 @@ collections:
     extension: json
     editor:
       preview: false
-      identifier_field: PageID
-      summary: "{{fields.Term1}} [{{fields.PageID}}]"
-      fields:
+    identifier_field: PageID
+    summary: "{{fields.Term1}} [{{fields.PageID}}]"
+    fields:
         - label: "Page ID"
           name: PageID
           widget: string
@@ -689,9 +689,9 @@ collections:
     extension: json
     editor:
       preview: false
-      identifier_field: PageID
-      summary: "{{fields.Term1}} [{{fields.PageID}}]"
-      fields:
+    identifier_field: PageID
+    summary: "{{fields.Term1}} [{{fields.PageID}}]"
+    fields:
         - label: "Page ID"
           name: PageID
           widget: string
@@ -737,9 +737,9 @@ collections:
     extension: json
     editor:
       preview: false
-      identifier_field: PageID
-      summary: "{{fields.Term1}} [{{fields.PageID}}]"
-      fields:
+    identifier_field: PageID
+    summary: "{{fields.Term1}} [{{fields.PageID}}]"
+    fields:
         - label: "Page ID"
           name: PageID
           widget: string
@@ -785,9 +785,9 @@ collections:
     extension: json
     editor:
       preview: false
-      identifier_field: PageID
-      summary: "{{fields.Term1}} [{{fields.PageID}}]"
-      fields:
+    identifier_field: PageID
+    summary: "{{fields.Term1}} [{{fields.PageID}}]"
+    fields:
         - label: "Page ID"
           name: PageID
           widget: string
