@@ -1,0 +1,35 @@
+{
+  "PageID": "cutaneous-abscess",
+  "Term1": "CUTANEOUS ABSCESS",
+  "Term2": "",
+  "Text": "## CUTANEOUS ABSCESS\nIncise and drain then cover the site with a dry dressing. For small abscesses,\nsystemic antimicrobial therapy is rarely necessary.\nIf the patient is neutropenic, has multiple lesions, or has fever or\nleukocytosis, antimicrobial treatment may be necessary. Contact Infectious\nDiseases for assistance.\n## For the few CUTANEOUS ABSCESSES away from the rectal area that need a systemic\n## antimicrobial\n## Mild to Moderate Cases:\n## Moderate or high suspicion of MRSA\n[Trimethoprim/sulfamethoxazole 1 DS tablet q12h ($) [R,DI]](psjzid-trimeth-sulfa-1-ds-tab-bid)\n< OR >\n## Low suspicion of MRSA\n< OR >\n## For SEVERE cases empiric coverage with MRSA agent\n[Vancomycin 15 mg/kg IV q12h ($) [R]](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n## For Perirectal/Anorectal Abscess Select Below\n[Perianal/Anorectal Abscess](perianal-anorectal-abscess)\n## Outpatient Duration: Treat for 5 to 7 days\n## Mild to Moderate Cases:\n## Moderate or high suspicion of MRSA\n[Trimethoprim sulfamethoxazole 1 DS tablet PO bid ($) [R,DI]](psozid-trimeth-sulfa-1-ds-po-bid-7ds)\n[Non-VA order for above](pshzid-trimeth-sulfa-1-ds-po-bid-7ds)\n[Doxycycline 100 mg PO bid for 7 days ($) [DI]](psozid2-doxycycline-100mg-po-bid-7ds)\nNon-VA order for above\n## Low suspicion of MRSA\nNon-VA order for above\n## For SEVERE cases empiric coverage with MRSA agent\nSee Inpatient CDSS for intravenous therapy\n## For Perirectal/Anorectal Abscess Select Below\nPerianal/Anorectal Abscess #ER Duration: Treat for 5 to 7 days\n## Mild to Moderate Cases:\n## Moderate or high suspicion of MRSA\nTrimethoprim sulfamethoxazole 1 DS tablet PO bid ($) [R,DI] for 7 days\nNon-VA order for above\nDoxycycline 100 mg PO bid for 7 days ($) [DI]\nNon-VA order for above\n## Low suspicion of MRSA\nNon-VA order for above\n## For SEVERE cases empiric coverage with MRSA agent\nVancomycin 15 mg/kg IV STAT ($) [R]\n## For Perirectal/Anorectal Abscess\nRefer to the inpatient or outpatient Soft Tissue Section of the Antimicrobial\nCDSS\nReferences:\nSanford keyword: Skin infections\nStevens DL Clin Infect Dis 2014, 59:147",
+  "LinkTargets": [
+    {
+      "Text": "Trimethoprim/sulfamethoxazole 1 DS tablet q12h ($) [R,DI]",
+      "Item": "PSJZID TRIMETH/SULFA 1 DS TAB BID"
+    },
+    {
+      "Text": "Vancomycin 15 mg/kg IV q12h ($) [R]",
+      "Item": "ORZ SET ABX VANCO NEW START 15MG/KG Q12H + MRSA NARES SCREENING"
+    },
+    {
+      "Text": "Perianal/Anorectal Abscess",
+      "Item": "perianal-anorectal-abscess"
+    },
+    {
+      "Text": "Trimethoprim sulfamethoxazole 1 DS tablet PO bid ($) [R,DI]",
+      "Item": "PSOZID TRIMETH/SULFA 1 DS PO BID 7DS"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID TRIMETH/SULFA 1 DS PO BID 7DS"
+    },
+    {
+      "Text": "Doxycycline 100 mg PO bid for 7 days ($) [DI]",
+      "Item": "PSOZID2 DOXYCYCLINE 100MG PO BID 7DS"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU CUTANEOUS ABSCESS",
+  "Outpt": "ORZID3 GMENU CUTANEOUS ABSCESS",
+  "ERUC": "ORZID GMENU ER/UC CUTANEOUS ABSCESS"
+}

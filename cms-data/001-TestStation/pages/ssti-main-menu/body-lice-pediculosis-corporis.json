@@ -1,0 +1,18 @@
+{
+  "PageID": "body-lice-pediculosis-corporis",
+  "Term1": "BODY LICE (PEDICULOSIS CORPORIS)",
+  "Term2": "",
+  "Text": "## BODY LICE (PEDICULOSIS CORPORIS)\nLice are parasitic insects. Human lice survive by feeding on human blood.\nBody lice proliferate in places where crowding of persons with poor hygiene is\ncommon, especially homeless persons.\nInfested clothing and bed linen should be heat washed or discarded.\nItching is the most common symptom, but some patients present only with\nexcoriations and inflammation on the neck and trunk.\n## Inpatient\n\n## Treatment\nA repeat application may be used if live lice are seen 7-10 days after\ntreatment.\n[Permethrin 1% lotion Apply to affected area for 10 minutes then comb out](psjzid-permethrin-1-lotion-to-affect-area-10min)\nnits ($) [M]\n## Outpatient\n\n## Treatment\nA repeat application may be used if live lice are seen 7-10 days after\ntreatment.\nPermethrin 1% lotion Apply to affected area for 10 minutes then comb out\nnits ($) [M]\n[Non-VA order for above](pshzid2-permethrin-1-lot-10min-7days)\nReferences\nSanford keyword: lice\nUp-to-date website",
+  "LinkTargets": [
+    {
+      "Text": "Permethrin 1% lotion Apply to affected area for 10 minutes then comb out",
+      "Item": "PSJZID PERMETHRIN 1% LOTION TO AFFECT AREA 10MIN"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 PERMETHRIN 1% LOT 10MIN 7DAYS"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU BODY LICE (PEDICULOSIS CORPORIS)",
+  "Outpt": "ORZID3 GMENU BODY LICE (PEDICULOSIS CORPORIS)"
+}

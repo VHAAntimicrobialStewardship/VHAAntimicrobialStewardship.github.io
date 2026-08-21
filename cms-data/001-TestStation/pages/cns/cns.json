@@ -1,0 +1,98 @@
+{
+  "PageID": "cns",
+  "Term1": "CNS",
+  "Term2": "",
+  "Text": "## ++ CENTRAL NERVOUS SYSTEM ++\n## Acute Meningitis\n## Brain abscess\n[Approach to acute meningitis](orzid2-gmenu-abx-approach-to-acute-meningitis)\n[Approach to brain abscess](orzid2-gmenu-approach-to-brain-abscess)\n## Inpatient Empiric Treatment Prior to Gram Stain Results\nEmpiric Treatment\n[Community acquired](orzid2-gmenu-bact-mening-w-o-grm-stain-res)\n[Contiguous or hematogenous spread of infection](orzid2-gmenu-brn-absc-cont-hemato-sprd-infect)\n[Associated with trauma or nosocomial infection](orzid2-gmenu-bact-mening-assoc-trauma)\n[Post-surgical or post-traumatic](orzid2-gmenu-brn-absc-post-surg-post-traumatic)\nEmpiric Treatment Based on Gram Stain Results\nTreatment based on Isolated Pathogen\n[Gram-positive diplococci suggesting Streptococcus pneumoniae](orzid2-gmenu-bact-mening-grm-pos-diplo-s-pneumo)\nNocardia spp.\n[Gram-negative diplococci suggesting Neisseria meningitidis](orzid2-gmenu-bact-mening-grm-neg-dipl-n-mening)\n[Pseudomonas spp.](orzid2-gmenu-brn-absc-pseudomonas-spp)\n[Gram-positive bacilli/coccobacilli suggesting Listeria monocytogenes](orzid2-gmenu-bac-mening-grm-pos-bacilli-l-monocyto)\n[Toxoplasma gondii](orzid2-gmenu-brn-absc-toxoplasma-gondii)\n[Gram negative bacilli](orzid2-gmenu-bact-mening-gnb)\n## Other\nTreatment Based on Isolated Pathogen\nBell's Palsy\nS. pneumoniae\n[Chronic Meningitis](chronic-meningitis)\n[N. meningitidis](orzid2-gmenu-bact-mening-n-meningitidis)\n[Cranial epidural abscess](orzid2-gmenu-cranial-epidural-abscess)\n[L. monocytogenes](orzid2-gmenu-bact-mening-l-monocytogenes)\n[Neurosurgery prophylaxis](orzid2-gmenu-surg-neurosurgery)\n[E. Coli, Pseudomonas, or another organism](orzid2-gmenu-bact-mening-e-coli-pseudomonas)\n[Herpes simplex encephalitis](hsv-encephalitis)\nLyme disease\n[Spinal epidural abscess](orzid2-gmenu-spinal-epidural-abscess)\n[Subdural empyema](orzid2-gmenu-subdural-empyema)\n[Suppurative intracranial thrombophilia](orzid2-gmenu-supp-intracranial-thromboph) ## Outpatient\n\n## CENTRAL NERVOUS SYSTEM\nBell's Palsy\nLyme Disease\nNeurosurgery prophylaxis\n## Refer to Inpatient Antimicrobial CDSS for Other Central Nervous System Infectio\n(e.g. meningitis, brain abscess, HSV encephalitis, cranial/spinal epidural\nabscess, subdural empyema, and suppurative intracranial thrombophilia).",
+  "LinkTargets": [
+    {
+      "Text": "Approach to acute meningitis",
+      "Item": "ORZID2 GMENU ABX APPROACH TO ACUTE MENINGITIS"
+    },
+    {
+      "Text": "Approach to brain abscess",
+      "Item": "ORZID2 GMENU APPROACH TO BRAIN ABSCESS"
+    },
+    {
+      "Text": "Community acquired",
+      "Item": "ORZID2 GMENU BACT MENING W/O GRM STAIN RES"
+    },
+    {
+      "Text": "Contiguous or hematogenous spread of infection",
+      "Item": "ORZID2 GMENU BRN ABSC CONT HEMATO SPRD INFECT"
+    },
+    {
+      "Text": "Associated with trauma or nosocomial infection",
+      "Item": "ORZID2 GMENU BACT MENING ASSOC TRAUMA"
+    },
+    {
+      "Text": "Post-surgical or post-traumatic",
+      "Item": "ORZID2 GMENU BRN ABSC POST SURG POST TRAUMATIC"
+    },
+    {
+      "Text": "Gram-positive diplococci suggesting Streptococcus pneumoniae",
+      "Item": "ORZID2 GMENU BACT MENING GRM POS DIPLO S. PNEUMO"
+    },
+    {
+      "Text": "Gram-negative diplococci suggesting Neisseria meningitidis",
+      "Item": "ORZID2 GMENU BACT MENING GRM NEG DIPL N. MENING"
+    },
+    {
+      "Text": "Pseudomonas spp.",
+      "Item": "ORZID2 GMENU BRN ABSC PSEUDOMONAS SPP."
+    },
+    {
+      "Text": "Gram-positive bacilli/coccobacilli suggesting Listeria monocytogenes",
+      "Item": "ORZID2 GMENU BAC MENING GRM POS BACILLI L. MONOCYTO"
+    },
+    {
+      "Text": "Toxoplasma gondii",
+      "Item": "ORZID2 GMENU BRN ABSC TOXOPLASMA GONDII"
+    },
+    {
+      "Text": "Gram negative bacilli",
+      "Item": "ORZID2 GMENU BACT MENING GNB"
+    },
+    {
+      "Text": "Chronic Meningitis",
+      "Item": "chronic-meningitis"
+    },
+    {
+      "Text": "N. meningitidis",
+      "Item": "ORZID2 GMENU BACT MENING N. MENINGITIDIS"
+    },
+    {
+      "Text": "Cranial epidural abscess",
+      "Item": "ORZID2 GMENU CRANIAL EPIDURAL ABSCESS"
+    },
+    {
+      "Text": "L. monocytogenes",
+      "Item": "ORZID2 GMENU BACT MENING L. MONOCYTOGENES"
+    },
+    {
+      "Text": "Neurosurgery prophylaxis",
+      "Item": "ORZID2 GMENU SURG NEUROSURGERY"
+    },
+    {
+      "Text": "E. Coli, Pseudomonas, or another organism",
+      "Item": "ORZID2 GMENU BACT MENING E.COLI, PSEUDOMONAS"
+    },
+    {
+      "Text": "Herpes simplex encephalitis",
+      "Item": "hsv-encephalitis"
+    },
+    {
+      "Text": "Spinal epidural abscess",
+      "Item": "ORZID2 GMENU SPINAL EPIDURAL ABSCESS"
+    },
+    {
+      "Text": "Subdural empyema",
+      "Item": "ORZID2 GMENU SUBDURAL EMPYEMA"
+    },
+    {
+      "Text": "Suppurative intracranial thrombophilia",
+      "Item": "ORZID2 GMENU SUPP INTRACRANIAL THROMBOPH"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX CNS",
+  "Outpt": "ORZID3 GMENU CNS OUTPT"
+}

@@ -1,0 +1,30 @@
+{
+  "PageID": "fungi-cryptococcus-neoformans",
+  "Term1": "FUNGI CRYPTOCOCCUS NEOFORMANS",
+  "Term2": "",
+  "Text": "## CRYPTOCOCCUS NEOFORMANS\nConsult Infectious Diseases.\n## Duration of antimicrobial therapy\nDuration of therapy is dependent upon location and severity of infection,\nand response to therapy. Consult Infectious Diseases for more information.\n## Treatment of mild to moderate infection outside of the central nervous system\n## or step-down treatment once disease has stabilized\n[Fluconazole 400 mg PO q24h ($) [R,DI]](psjzid-fluconazole-400mg-po-q24h)\n< OR >\n[Itraconazole 200 mg PO q12h ($) [DI]](psjzid-itraconazole-200mg-po-q12h)\n< OR >\n## Treatment of central nervous system infection or severe infection outside\n## central nervous system\nConsult Infectious Diseases in all cases, recommended combination therapy\nwith flucytosine requires ID approval\nAmphotericin B Liposomal (Ambisome) 3-5 mg/kg IV q24h ($$$$) [R,O] <AND>\nflucytosine 25 mg/kg PO q6h ($$$$$) [R,O]\n(Reminder: for Ampho B add NS 500 ml hydration BEFORE & AFTER.)\n## Outpatient\n\n## or step-down treatment once disease has stabilized\n[Fluconazole 400 mg PO QDay ($) [R,DI]](psozid-fluconazole-400mg-po-qday)\n[Non-VA order for above](pshzid-fluconazole-400mg-po-qday)\n< OR >\n[Itraconazole 200 mg PO BID ($) [DI]](psozid-itraconazole-200mg-po-bid)\nNon-VA order for above\n< OR >\nRefer to Inpatient Antimicrobial CDSS for IV options\n## Treatment of central nervous system infection or severe infection outside\n## central nervous system\nRefer to Inpatient Antimicrobial CDSS.\nReferences:\nMandell chapter: Cryptococcosis (Cryptococcus neoformans and Cryptococcus\ngattii)\nPerfect et al. Clinical Infectious Diseases 2010, (50) 291-322\nSanford keyword: Cryptococcus",
+  "LinkTargets": [
+    {
+      "Text": "Fluconazole 400 mg PO q24h ($) [R,DI]",
+      "Item": "PSJZID FLUCONAZOLE 400MG PO Q24H"
+    },
+    {
+      "Text": "Itraconazole 200 mg PO q12h ($) [DI]",
+      "Item": "PSJZID ITRACONAZOLE 200MG PO Q12H"
+    },
+    {
+      "Text": "Fluconazole 400 mg PO QDay ($) [R,DI]",
+      "Item": "PSOZID FLUCONAZOLE 400MG PO QDAY"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID FLUCONAZOLE 400MG PO QDAY"
+    },
+    {
+      "Text": "Itraconazole 200 mg PO BID ($) [DI]",
+      "Item": "PSOZID ITRACONAZOLE 200MG PO BID"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU FUNGI CRYPTOCOCCUS NEOFORMANS",
+  "Outpt": "ORZID3 GMENU FUNGI CRYPTOCOCCUS NEOFORMANS"
+}

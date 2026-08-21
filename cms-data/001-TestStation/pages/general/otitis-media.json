@@ -1,0 +1,30 @@
+{
+  "PageID": "otitis-media",
+  "Term1": "OTITIS MEDIA",
+  "Term2": "",
+  "Text": "## OTITIS MEDIA\nStreptococcus pneumoniae, Haemophilus influenza, and Moraxella catarrhalis are\nthe most common bacteria to cause otitis media.\n## Preferred treatment\nPatient has NOT received antibiotics in the prior month\n[Amoxicillin 1000 mg PO q8h for 10 days ($) [R]](psjzid-amoxicillin-1000mg-po-q8h)\nPatient has received antibiotics in the prior month\n[Amoxicillin/clavulanate 875-125 mg PO q12h for 10 days ($) [R]](psjzid-amox-clav-875-125mg-po-q12h)\n## Alternatives\n[Assessment of Beta-lactam Reaction](orzid2-gmenu-abx-beta-lactam-allergy-assesment)\n[Cefdinir 300 mg PO q12h for 10 days ($) [R]](psjzid-cefdinir-300mg-po-q12h)\n< OR >\n[Cefpodoxime 200 mg PO BID for 10 days ($$) [R]](psjzid-cefpodoxime-100mg-po-q12h)\n## _______________________________________________________________________________\nReferences:\nHarmes et al, American Family Physician. 2013, 88(7)435-440\nMandell chapter: Otitis Externa, Otitis Media, and Mastoiditis\nSanford keyword: Otitis media\nUp-to-Date Online: Acute otitis media in adults",
+  "LinkTargets": [
+    {
+      "Text": "Amoxicillin 1000 mg PO q8h for 10 days ($) [R]",
+      "Item": "PSJZID AMOXICILLIN 1000MG PO Q8H"
+    },
+    {
+      "Text": "Amoxicillin/clavulanate 875-125 mg PO q12h for 10 days ($) [R]",
+      "Item": "PSJZID AMOX/CLAV 875-125MG PO Q12H"
+    },
+    {
+      "Text": "Assessment of Beta-lactam Reaction",
+      "Item": "ORZID2 GMENU ABX BETA-LACTAM ALLERGY ASSESMENT"
+    },
+    {
+      "Text": "Cefdinir 300 mg PO q12h for 10 days ($) [R]",
+      "Item": "PSJZID CEFDINIR 300MG PO Q12H"
+    },
+    {
+      "Text": "Cefpodoxime 200 mg PO BID for 10 days ($$) [R]",
+      "Item": "PSJZID CEFPODOXIME 100MG PO Q12H"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU OTITIS MEDIA",
+  "Outpt": "ORZID3 GMENU OTITIS MEDIA"
+}

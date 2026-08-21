@@ -1,0 +1,35 @@
+{
+  "PageID": "bite-wnds-eikenella-corrodens",
+  "Term1": "BITE WNDS EIKENELLA CORRODENS",
+  "Term2": "",
+  "Text": "## BITE WOUNDS WITH EIKENELLA CORRODENS\n## Treatment\n## Inpatient [Amoxicillin-clavulanate 875-125 mg PO q12h ($) [R] < OR >](psjzid-amox-clav-875-125mg-po-q12h)\n[Ampicillin-sulbactam 3 gm IV q6h ($$) [R]](psjizid-ampicillin-sulbactam-3gm-iv-q6h)\n## Alternative for penicillin allergy\n[Doxycycline 100MG PO Q12H](psjzid-doxycycline-100mg-po-q12h)\nReferences:\nStevens DL Clin Infect Dis 2014, 59:147\nSanford keyword: Bites\nMandell chapter: Cellulitis and subcutaneous tissue infections ## Outpatient\n\n## Treatment for infection without joint involvement\n## __________________________________________________\nTreat for 10 days.\n[Amoxicillin-clavulanate 875/125 mg PO BID ($) [R]](psozid2-amox-clav-875-125mg-10ds-po-bid)\n[Non-VA order for above](pshzid2-amox-clav-875-125mg-10ds-po-bid)\n## Alternative for penicillin allergy\n[Doxycycline 100 mg PO BID ($) [DI]](psozid2-doxycycline-10ds-100mg-po-bid)\nNon-VA order for above\n## __________________________________________________\n## Treatment for infection with joint involvement\n## __________________________________________________\nTreat for 14 to 21 days.\nAmoxicillin-clavulanate 875/125 mg PO BID ($) [R]\nNon-VA order for above\n## Alternative for penicillin allergy\nDoxycycline 100 mg PO BID ($) [DI]\nNon-VA order for above ##ER ## Treatment for infection without joint involvement\n## __________________________________________________\nTreat for 10 days.\nAmoxicillin-clavulanate 875/125 mg PO BID ($) [R]\nNon-VA order for above\n<OR>\nAmpicillin-sulbactam 3 gm IV once STAT ($$) [R]\n## Alternative for penicillin allergy\nDoxycycline 100mg PO BID ($) [DI]\nNon-VA order for above\n<OR>\nDoxycycline 100mg IV once STAT ($$) [DI]\n## __________________________________________________\n## Treatment for infection with joint involvement\n## __________________________________________________\nTreat for 14 to 21 days.\nAmoxicillin-clavulanate 875/125 mg PO BID ($) [R]\nNon-VA order for above\n<OR>\nAmpicillin-sulbactam 3 gm IV once STAT ($$) [R]\n## Alternative for penicillin allergy\nDoxycycline 100 mg PO BID ($) [DI]\nNon-VA order for above\n<OR>\nDoxycycline 100mg IV once STAT ($$) [DI]",
+  "LinkTargets": [
+    {
+      "Text": "Amoxicillin-clavulanate 875-125 mg PO q12h ($) [R] < OR >",
+      "Item": "PSJZID AMOX/CLAV 875-125MG PO Q12H"
+    },
+    {
+      "Text": "Ampicillin-sulbactam 3 gm IV q6h ($$) [R]",
+      "Item": "PSJIZID AMPICILLIN-SULBACTAM 3GM IV Q6H"
+    },
+    {
+      "Text": "Doxycycline 100MG PO Q12H",
+      "Item": "PSJZID DOXYCYCLINE 100MG PO Q12H"
+    },
+    {
+      "Text": "Amoxicillin-clavulanate 875/125 mg PO BID ($) [R]",
+      "Item": "PSOZID2 AMOX/CLAV 875/125MG 10DS PO BID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 AMOX/CLAV 875/125MG 10DS PO BID"
+    },
+    {
+      "Text": "Doxycycline 100 mg PO BID ($) [DI]",
+      "Item": "PSOZID2 DOXYCYCLINE 10DS 100MG PO BID"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU BITE WNDS EIKENELLA CORRODENS",
+  "Outpt": "ORZID3 GMENU BITE WNDS EIKENELLA CORRODENS",
+  "ERUC": "ORZID GMENU ER/UC BITE WNDS EIKENELLA CORRODENS"
+}

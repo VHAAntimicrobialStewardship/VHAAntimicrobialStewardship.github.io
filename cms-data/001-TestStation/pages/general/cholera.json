@@ -1,0 +1,27 @@
+{
+  "PageID": "cholera",
+  "Term1": "CHOLERA",
+  "Term2": "",
+  "Text": "## DIARRHEA WITH CHOLERA (VIBRIO CHOLERAE)\n## Primary Treatment\nAggressive hydration and electrolyte replacement are essential\n## Antimicrobial treatment\nPrimary:\n## Inpatient [Doxycycline 300 mg PO one-time dose [DI]](psjzid-doxycycline-300mg-po-once)\nAlternative:\n[Ciprofloxacin 1000 mg PO one-time dose [R,DI]](psjzid-ciproflox-1000mg-po-once)\n< OR >\n[Azithromycin 1000 mg PO one-time dose [M]](psjzid-azithromycin-1gm-po-once)\n## _______________________________________________________________________________\n## Outpatient Doxycycline 300 mg PO one-time dose [DI]\n[Non-VA order for above](pshzid2-doxycycline-300mg-po-once)\nAlternative:\nCiprofloxacin 1000 mg PO one-time dose [R,DI]\nNon-VA order for above\n< OR >\nAzithromycin 1000 mg PO one-time dose [M]\nNon-VA order for above\n## _______________________________________________________________________________\nReferences:\nSanford Guide article: Gastroenteritis, Vibrio cholerae\nDOI: 10.1093/cid/cix669-Shane et al, Clinical Infectious Diseases 2017,\n65(12):45-80\nUp-to-Date article: Cholera: Treatment and prevention",
+  "LinkTargets": [
+    {
+      "Text": "Doxycycline 300 mg PO one-time dose [DI]",
+      "Item": "PSJZID DOXYCYCLINE 300MG PO ONCE"
+    },
+    {
+      "Text": "Ciprofloxacin 1000 mg PO one-time dose [R,DI]",
+      "Item": "PSJZID CIPROFLOX 1000MG PO ONCE"
+    },
+    {
+      "Text": "Azithromycin 1000 mg PO one-time dose [M]",
+      "Item": "PSJZID AZITHROMYCIN 1GM PO ONCE"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 DOXYCYCLINE 300MG PO ONCE"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX CHOLERA",
+  "Outpt": "ORZID3 GMENU DIARRHEA VIBRIO CHOLERA",
+  "ERUC": "ORZID GMENU ER/UC CHOLECYSTITIS"
+}

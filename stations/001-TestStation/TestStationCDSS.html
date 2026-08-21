@@ -16,7 +16,7 @@
   const MainMenu = 'ORZID2 GMENU ABX INPT MAIN'; /*the menu the website starts at*/
   const outptMenu = 'ORZID3 GMENU ABX OUTPT MAIN'; /*the menu the website starts at*/
   const erucMenu = 'ORZID GMENU ER/UC EMERGENCY DEPARTMENT MAIN MENU'; /*the menu the website starts at*/
-  const combinedMenu = 'ORZC GMENU ABX INPT MAIN'; /*Combined guidance main menu*/	  
+  const combinedMenu = 'inpt-main'; /*Combined guidance main menu*/	  
   var IndexButton = 'Index'; /*Only important to CDSS program functions, can be left as it for other systems*/
   var homeButtonUrl = 'https://VHAAntimicrobialStewardship.github.io/'; /*Only important to CDSS program functions, home URL*/
   const Index = 'ORZID2 GMENU ABX INDEX INPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
@@ -784,19 +784,29 @@ function resolveEmbeddedLinkTarget(selectedData, target) {
     return normalizedTarget.substring(5).trim();
   }
 
-  const linkTargets = Array.isArray(selectedData.LinkTargets) ? selectedData.LinkTargets : [];
-  const byKey = linkTargets.find(link =>
-    (link.Key || '').trim().toLowerCase() === normalizedTarget.toLowerCase()
+  // Direct PageID lookup: fastest path for combined page-to-page links
+  const directPage = omData.find(m =>
+    m.Name.trim().toLowerCase() === normalizedTarget.toLowerCase()
   );
-  if (byKey && byKey.Item) {
-    return byKey.Item;
+  if (directPage) {
+    return directPage.Name;
   }
 
+  // Fallback: resolve via current page's LinkTargets
+  const linkTargets = Array.isArray(selectedData.LinkTargets) ? selectedData.LinkTargets : [];
   const byItem = linkTargets.find(link =>
     (link.Item || '').trim().toLowerCase() === normalizedTarget.toLowerCase()
   );
   if (byItem && byItem.Item) {
     return byItem.Item;
+  }
+
+  // Legacy Key fallback (VistA order links still use Keys)
+  const byKey = linkTargets.find(link =>
+    (link.Key || '').trim().toLowerCase() === normalizedTarget.toLowerCase()
+  );
+  if (byKey && byKey.Item) {
+    return byKey.Item;
   }
 
   return null;
@@ -875,7 +885,8 @@ function createRichTextTable(selectedData) {
 
   const itemRow = document.createElement('tr');
   const itemCell = document.createElement('td');
-  itemCell.textContent = "VistA Menu Name: " + selectedData.Name;
+  const isPageID = /^[a-z0-9][a-z0-9\-]*$/.test(selectedData.Name);
+  itemCell.textContent = (isPageID ? 'Page ID: ' : 'Page Target: ') + selectedData.Name;
   itemRow.appendChild(itemCell);
   tbody.appendChild(itemRow);
 
@@ -1035,7 +1046,8 @@ function createOMTable(selectedData) {
   // Add a new row for the VistA Menu Name at the bottom of the table
   const itemRow = document.createElement('tr');
   const itemCell = document.createElement('td');
-  itemCell.textContent = "VistA Menu Name: " + selectedData.Name;
+  const isPageID2 = /^[a-z0-9][a-z0-9\-]*$/.test(selectedData.Name);
+  itemCell.textContent = (isPageID2 ? 'Page ID: ' : 'Page Target: ') + selectedData.Name;
   itemRow.appendChild(itemCell);
   tbody.appendChild(itemRow);
 
@@ -1047,7 +1059,7 @@ function createOMTable(selectedData) {
   }
 checkMatchesAndSetButtonAppearance()
 forwardBackButtonActivate()
-}
+
 
 function forwardBackButtonActivate () {
 if (historyIndex < history.length - 1) {

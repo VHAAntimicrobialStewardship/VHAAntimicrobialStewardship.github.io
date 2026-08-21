@@ -30,32 +30,6 @@ collections:
               - { label: "Name", name: "Name", widget: "string", required: false }
               - { label: "URL", name: "URL", widget: "string", required: false }
               - { label: "Route Filter", name: "RouteFilter", widget: "string", required: false }
-  - label: "Sinusitis Test Tree"
-    name: "sinusitis_test_tree"
-    files:
-      - label: "Sinusitis Test Tree"
-        name: "sinusitis_test_tree"
-        file: "stations/001-TestStation/SinusitisTestOMJSON.json"
-        format: "json"
-        extension: "json"
-        fields:
-          - label: "Menus"
-            name: "menus"
-            widget: list
-            identifier_field: Name
-            fields:
-              - { label: "Name", name: "Name", widget: "string" }
-              - { label: "Term 1", name: "Term1", widget: "string", required: false }
-              - { label: "Term 2", name: "Term2", widget: "string", required: false }
-              - { label: "Text Body", name: "Text", widget: "markdown", required: false }
-              - label: "Link Targets"
-                name: "LinkTargets"
-                widget: list
-                required: false
-                fields:
-                  - { label: "Key", name: "Key", widget: "string" }
-                  - { label: "Link Text", name: "Text", widget: "string", required: false }
-                  - { label: "Target Item", name: "Item", widget: "string" }
   - label: "Site Settings"
     name: "site_settings"
     files:
@@ -83,3 +57,771 @@ collections:
               - {label: "Sizes", name: "sizes", widget: "string"}
               - {label: "Type", name: "type", widget: "string"}
               - {label: "Purpose", name: "purpose", widget: "string", required: false}
+  - label: "001-TestStation: Adjust Existing Therapy"
+    name: "001tes_adjexistabxtherapy"
+    folder: "cms-data/001-TestStation/pages/adj-exist-abx-therapy"
+    create: true
+    format: json
+    extension: json
+    editor:
+      preview: false
+      identifier_field: PageID
+      summary: "{{fields.Term1}} [{{fields.PageID}}]"
+      fields:
+        - label: "Page ID"
+          name: PageID
+          widget: string
+          hint: "Immutable identifier used in links. Set once when creating — never change."
+          pattern: ['^[a-z0-9][a-z0-9\-]*$', 'Lowercase letters, numbers, hyphens only']
+        - label: "Display Title (search label)"
+          name: Term1
+          widget: string
+          hint: "Human-readable title shown in the search dropdown."
+        - label: "Alternate Search Term"
+          name: Term2
+          widget: string
+          required: false
+        - label: "Content"
+          name: Text
+          widget: markdown
+          required: false
+          hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
+        - label: "Link Targets"
+          name: LinkTargets
+          widget: list
+          required: false
+          hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
+          fields:
+            - label: "Link Text"
+              name: Text
+              widget: string
+            - label: "Target Page ID or Order Name"
+              name: Item
+              widget: string
+              hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
+        - label: "Source Inpatient Menu (read-only)"
+          name: Inpt
+          widget: string
+          required: false
+          hint: "Legacy VistA inpatient source menu. Do not edit."
+
+  - label: "001-TestStation: Central Nervous System"
+    name: "001tes_cns"
+    folder: "cms-data/001-TestStation/pages/cns"
+    create: true
+    format: json
+    extension: json
+    editor:
+      preview: false
+      identifier_field: PageID
+      summary: "{{fields.Term1}} [{{fields.PageID}}]"
+      fields:
+        - label: "Page ID"
+          name: PageID
+          widget: string
+          hint: "Immutable identifier used in links. Set once when creating — never change."
+          pattern: ['^[a-z0-9][a-z0-9\-]*$', 'Lowercase letters, numbers, hyphens only']
+        - label: "Display Title (search label)"
+          name: Term1
+          widget: string
+          hint: "Human-readable title shown in the search dropdown."
+        - label: "Alternate Search Term"
+          name: Term2
+          widget: string
+          required: false
+        - label: "Content"
+          name: Text
+          widget: markdown
+          required: false
+          hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
+        - label: "Link Targets"
+          name: LinkTargets
+          widget: list
+          required: false
+          hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
+          fields:
+            - label: "Link Text"
+              name: Text
+              widget: string
+            - label: "Target Page ID or Order Name"
+              name: Item
+              widget: string
+              hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
+        - label: "Source Inpatient Menu (read-only)"
+          name: Inpt
+          widget: string
+          required: false
+          hint: "Legacy VistA inpatient source menu. Do not edit."
+
+  - label: "001-TestStation: Cardiovascular"
+    name: "001tes_cardiovascular"
+    folder: "cms-data/001-TestStation/pages/cardiovascular"
+    create: true
+    format: json
+    extension: json
+    editor:
+      preview: false
+      identifier_field: PageID
+      summary: "{{fields.Term1}} [{{fields.PageID}}]"
+      fields:
+        - label: "Page ID"
+          name: PageID
+          widget: string
+          hint: "Immutable identifier used in links. Set once when creating — never change."
+          pattern: ['^[a-z0-9][a-z0-9\-]*$', 'Lowercase letters, numbers, hyphens only']
+        - label: "Display Title (search label)"
+          name: Term1
+          widget: string
+          hint: "Human-readable title shown in the search dropdown."
+        - label: "Alternate Search Term"
+          name: Term2
+          widget: string
+          required: false
+        - label: "Content"
+          name: Text
+          widget: markdown
+          required: false
+          hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
+        - label: "Link Targets"
+          name: LinkTargets
+          widget: list
+          required: false
+          hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
+          fields:
+            - label: "Link Text"
+              name: Text
+              widget: string
+            - label: "Target Page ID or Order Name"
+              name: Item
+              widget: string
+              hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
+        - label: "Source Inpatient Menu (read-only)"
+          name: Inpt
+          widget: string
+          required: false
+          hint: "Legacy VistA inpatient source menu. Do not edit."
+
+  - label: "001-TestStation: Dermatology & Surgery"
+    name: "001tes_dermatologicsurgeryg"
+    folder: "cms-data/001-TestStation/pages/dermatologic-surgery-guidelines"
+    create: true
+    format: json
+    extension: json
+    editor:
+      preview: false
+      identifier_field: PageID
+      summary: "{{fields.Term1}} [{{fields.PageID}}]"
+      fields:
+        - label: "Page ID"
+          name: PageID
+          widget: string
+          hint: "Immutable identifier used in links. Set once when creating — never change."
+          pattern: ['^[a-z0-9][a-z0-9\-]*$', 'Lowercase letters, numbers, hyphens only']
+        - label: "Display Title (search label)"
+          name: Term1
+          widget: string
+          hint: "Human-readable title shown in the search dropdown."
+        - label: "Alternate Search Term"
+          name: Term2
+          widget: string
+          required: false
+        - label: "Content"
+          name: Text
+          widget: markdown
+          required: false
+          hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
+        - label: "Link Targets"
+          name: LinkTargets
+          widget: list
+          required: false
+          hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
+          fields:
+            - label: "Link Text"
+              name: Text
+              widget: string
+            - label: "Target Page ID or Order Name"
+              name: Item
+              widget: string
+              hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
+        - label: "Source Inpatient Menu (read-only)"
+          name: Inpt
+          widget: string
+          required: false
+          hint: "Legacy VistA inpatient source menu. Do not edit."
+
+  - label: "001-TestStation: Device-related Infections"
+    name: "001tes_devicerelatedinfecti"
+    folder: "cms-data/001-TestStation/pages/device-related-infections"
+    create: true
+    format: json
+    extension: json
+    editor:
+      preview: false
+      identifier_field: PageID
+      summary: "{{fields.Term1}} [{{fields.PageID}}]"
+      fields:
+        - label: "Page ID"
+          name: PageID
+          widget: string
+          hint: "Immutable identifier used in links. Set once when creating — never change."
+          pattern: ['^[a-z0-9][a-z0-9\-]*$', 'Lowercase letters, numbers, hyphens only']
+        - label: "Display Title (search label)"
+          name: Term1
+          widget: string
+          hint: "Human-readable title shown in the search dropdown."
+        - label: "Alternate Search Term"
+          name: Term2
+          widget: string
+          required: false
+        - label: "Content"
+          name: Text
+          widget: markdown
+          required: false
+          hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
+        - label: "Link Targets"
+          name: LinkTargets
+          widget: list
+          required: false
+          hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
+          fields:
+            - label: "Link Text"
+              name: Text
+              widget: string
+            - label: "Target Page ID or Order Name"
+              name: Item
+              widget: string
+              hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
+        - label: "Source Inpatient Menu (read-only)"
+          name: Inpt
+          widget: string
+          required: false
+          hint: "Legacy VistA inpatient source menu. Do not edit."
+
+  - label: "001-TestStation: GI & Intraabdominal"
+    name: "001tes_giintraabdominal"
+    folder: "cms-data/001-TestStation/pages/gi-intraabdominal"
+    create: true
+    format: json
+    extension: json
+    editor:
+      preview: false
+      identifier_field: PageID
+      summary: "{{fields.Term1}} [{{fields.PageID}}]"
+      fields:
+        - label: "Page ID"
+          name: PageID
+          widget: string
+          hint: "Immutable identifier used in links. Set once when creating — never change."
+          pattern: ['^[a-z0-9][a-z0-9\-]*$', 'Lowercase letters, numbers, hyphens only']
+        - label: "Display Title (search label)"
+          name: Term1
+          widget: string
+          hint: "Human-readable title shown in the search dropdown."
+        - label: "Alternate Search Term"
+          name: Term2
+          widget: string
+          required: false
+        - label: "Content"
+          name: Text
+          widget: markdown
+          required: false
+          hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
+        - label: "Link Targets"
+          name: LinkTargets
+          widget: list
+          required: false
+          hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
+          fields:
+            - label: "Link Text"
+              name: Text
+              widget: string
+            - label: "Target Page ID or Order Name"
+              name: Item
+              widget: string
+              hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
+        - label: "Source Inpatient Menu (read-only)"
+          name: Inpt
+          widget: string
+          required: false
+          hint: "Legacy VistA inpatient source menu. Do not edit."
+
+  - label: "001-TestStation: HIV / AIDS"
+    name: "001tes_hivaids"
+    folder: "cms-data/001-TestStation/pages/hiv-aids"
+    create: true
+    format: json
+    extension: json
+    editor:
+      preview: false
+      identifier_field: PageID
+      summary: "{{fields.Term1}} [{{fields.PageID}}]"
+      fields:
+        - label: "Page ID"
+          name: PageID
+          widget: string
+          hint: "Immutable identifier used in links. Set once when creating — never change."
+          pattern: ['^[a-z0-9][a-z0-9\-]*$', 'Lowercase letters, numbers, hyphens only']
+        - label: "Display Title (search label)"
+          name: Term1
+          widget: string
+          hint: "Human-readable title shown in the search dropdown."
+        - label: "Alternate Search Term"
+          name: Term2
+          widget: string
+          required: false
+        - label: "Content"
+          name: Text
+          widget: markdown
+          required: false
+          hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
+        - label: "Link Targets"
+          name: LinkTargets
+          widget: list
+          required: false
+          hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
+          fields:
+            - label: "Link Text"
+              name: Text
+              widget: string
+            - label: "Target Page ID or Order Name"
+              name: Item
+              widget: string
+              hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
+        - label: "Source Inpatient Menu (read-only)"
+          name: Inpt
+          widget: string
+          required: false
+          hint: "Legacy VistA inpatient source menu. Do not edit."
+
+  - label: "001-TestStation: Immunizations"
+    name: "001tes_recommendedimmunizat"
+    folder: "cms-data/001-TestStation/pages/recommended-immunizations"
+    create: true
+    format: json
+    extension: json
+    editor:
+      preview: false
+      identifier_field: PageID
+      summary: "{{fields.Term1}} [{{fields.PageID}}]"
+      fields:
+        - label: "Page ID"
+          name: PageID
+          widget: string
+          hint: "Immutable identifier used in links. Set once when creating — never change."
+          pattern: ['^[a-z0-9][a-z0-9\-]*$', 'Lowercase letters, numbers, hyphens only']
+        - label: "Display Title (search label)"
+          name: Term1
+          widget: string
+          hint: "Human-readable title shown in the search dropdown."
+        - label: "Alternate Search Term"
+          name: Term2
+          widget: string
+          required: false
+        - label: "Content"
+          name: Text
+          widget: markdown
+          required: false
+          hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
+        - label: "Link Targets"
+          name: LinkTargets
+          widget: list
+          required: false
+          hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
+          fields:
+            - label: "Link Text"
+              name: Text
+              widget: string
+            - label: "Target Page ID or Order Name"
+              name: Item
+              widget: string
+              hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
+        - label: "Source Inpatient Menu (read-only)"
+          name: Inpt
+          widget: string
+          required: false
+          hint: "Legacy VistA inpatient source menu. Do not edit."
+
+  - label: "001-TestStation: Immunocompromised"
+    name: "001tes_immunocompromisedpat"
+    folder: "cms-data/001-TestStation/pages/immunocompromised-patient"
+    create: true
+    format: json
+    extension: json
+    editor:
+      preview: false
+      identifier_field: PageID
+      summary: "{{fields.Term1}} [{{fields.PageID}}]"
+      fields:
+        - label: "Page ID"
+          name: PageID
+          widget: string
+          hint: "Immutable identifier used in links. Set once when creating — never change."
+          pattern: ['^[a-z0-9][a-z0-9\-]*$', 'Lowercase letters, numbers, hyphens only']
+        - label: "Display Title (search label)"
+          name: Term1
+          widget: string
+          hint: "Human-readable title shown in the search dropdown."
+        - label: "Alternate Search Term"
+          name: Term2
+          widget: string
+          required: false
+        - label: "Content"
+          name: Text
+          widget: markdown
+          required: false
+          hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
+        - label: "Link Targets"
+          name: LinkTargets
+          widget: list
+          required: false
+          hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
+          fields:
+            - label: "Link Text"
+              name: Text
+              widget: string
+            - label: "Target Page ID or Order Name"
+              name: Item
+              widget: string
+              hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
+        - label: "Source Inpatient Menu (read-only)"
+          name: Inpt
+          widget: string
+          required: false
+          hint: "Legacy VistA inpatient source menu. Do not edit."
+
+  - label: "001-TestStation: Lungs & Mediastinum"
+    name: "001tes_lungandmediastinum"
+    folder: "cms-data/001-TestStation/pages/lung-and-mediastinum"
+    create: true
+    format: json
+    extension: json
+    editor:
+      preview: false
+      identifier_field: PageID
+      summary: "{{fields.Term1}} [{{fields.PageID}}]"
+      fields:
+        - label: "Page ID"
+          name: PageID
+          widget: string
+          hint: "Immutable identifier used in links. Set once when creating — never change."
+          pattern: ['^[a-z0-9][a-z0-9\-]*$', 'Lowercase letters, numbers, hyphens only']
+        - label: "Display Title (search label)"
+          name: Term1
+          widget: string
+          hint: "Human-readable title shown in the search dropdown."
+        - label: "Alternate Search Term"
+          name: Term2
+          widget: string
+          required: false
+        - label: "Content"
+          name: Text
+          widget: markdown
+          required: false
+          hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
+        - label: "Link Targets"
+          name: LinkTargets
+          widget: list
+          required: false
+          hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
+          fields:
+            - label: "Link Text"
+              name: Text
+              widget: string
+            - label: "Target Page ID or Order Name"
+              name: Item
+              widget: string
+              hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
+        - label: "Source Inpatient Menu (read-only)"
+          name: Inpt
+          widget: string
+          required: false
+          hint: "Legacy VistA inpatient source menu. Do not edit."
+
+  - label: "001-TestStation: Pneumonia"
+    name: "001tes_pneumonia"
+    folder: "cms-data/001-TestStation/pages/pneumonia"
+    create: true
+    format: json
+    extension: json
+    editor:
+      preview: false
+      identifier_field: PageID
+      summary: "{{fields.Term1}} [{{fields.PageID}}]"
+      fields:
+        - label: "Page ID"
+          name: PageID
+          widget: string
+          hint: "Immutable identifier used in links. Set once when creating — never change."
+          pattern: ['^[a-z0-9][a-z0-9\-]*$', 'Lowercase letters, numbers, hyphens only']
+        - label: "Display Title (search label)"
+          name: Term1
+          widget: string
+          hint: "Human-readable title shown in the search dropdown."
+        - label: "Alternate Search Term"
+          name: Term2
+          widget: string
+          required: false
+        - label: "Content"
+          name: Text
+          widget: markdown
+          required: false
+          hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
+        - label: "Link Targets"
+          name: LinkTargets
+          widget: list
+          required: false
+          hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
+          fields:
+            - label: "Link Text"
+              name: Text
+              widget: string
+            - label: "Target Page ID or Order Name"
+              name: Item
+              widget: string
+              hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
+        - label: "Source Inpatient Menu (read-only)"
+          name: Inpt
+          widget: string
+          required: false
+          hint: "Legacy VistA inpatient source menu. Do not edit."
+
+  - label: "001-TestStation: Prevention of Infection"
+    name: "001tes_preventionofinfectio"
+    folder: "cms-data/001-TestStation/pages/prevention-of-infection"
+    create: true
+    format: json
+    extension: json
+    editor:
+      preview: false
+      identifier_field: PageID
+      summary: "{{fields.Term1}} [{{fields.PageID}}]"
+      fields:
+        - label: "Page ID"
+          name: PageID
+          widget: string
+          hint: "Immutable identifier used in links. Set once when creating — never change."
+          pattern: ['^[a-z0-9][a-z0-9\-]*$', 'Lowercase letters, numbers, hyphens only']
+        - label: "Display Title (search label)"
+          name: Term1
+          widget: string
+          hint: "Human-readable title shown in the search dropdown."
+        - label: "Alternate Search Term"
+          name: Term2
+          widget: string
+          required: false
+        - label: "Content"
+          name: Text
+          widget: markdown
+          required: false
+          hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
+        - label: "Link Targets"
+          name: LinkTargets
+          widget: list
+          required: false
+          hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
+          fields:
+            - label: "Link Text"
+              name: Text
+              widget: string
+            - label: "Target Page ID or Order Name"
+              name: Item
+              widget: string
+              hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
+        - label: "Source Inpatient Menu (read-only)"
+          name: Inpt
+          widget: string
+          required: false
+          hint: "Legacy VistA inpatient source menu. Do not edit."
+
+  - label: "001-TestStation: Urogenital"
+    name: "001tes_genitourinary"
+    folder: "cms-data/001-TestStation/pages/genitourinary"
+    create: true
+    format: json
+    extension: json
+    editor:
+      preview: false
+      identifier_field: PageID
+      summary: "{{fields.Term1}} [{{fields.PageID}}]"
+      fields:
+        - label: "Page ID"
+          name: PageID
+          widget: string
+          hint: "Immutable identifier used in links. Set once when creating — never change."
+          pattern: ['^[a-z0-9][a-z0-9\-]*$', 'Lowercase letters, numbers, hyphens only']
+        - label: "Display Title (search label)"
+          name: Term1
+          widget: string
+          hint: "Human-readable title shown in the search dropdown."
+        - label: "Alternate Search Term"
+          name: Term2
+          widget: string
+          required: false
+        - label: "Content"
+          name: Text
+          widget: markdown
+          required: false
+          hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
+        - label: "Link Targets"
+          name: LinkTargets
+          widget: list
+          required: false
+          hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
+          fields:
+            - label: "Link Text"
+              name: Text
+              widget: string
+            - label: "Target Page ID or Order Name"
+              name: Item
+              widget: string
+              hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
+        - label: "Source Inpatient Menu (read-only)"
+          name: Inpt
+          widget: string
+          required: false
+          hint: "Legacy VistA inpatient source menu. Do not edit."
+
+  - label: "001-TestStation: Skin & Soft Tissue"
+    name: "001tes_sstimainmenu"
+    folder: "cms-data/001-TestStation/pages/ssti-main-menu"
+    create: true
+    format: json
+    extension: json
+    editor:
+      preview: false
+      identifier_field: PageID
+      summary: "{{fields.Term1}} [{{fields.PageID}}]"
+      fields:
+        - label: "Page ID"
+          name: PageID
+          widget: string
+          hint: "Immutable identifier used in links. Set once when creating — never change."
+          pattern: ['^[a-z0-9][a-z0-9\-]*$', 'Lowercase letters, numbers, hyphens only']
+        - label: "Display Title (search label)"
+          name: Term1
+          widget: string
+          hint: "Human-readable title shown in the search dropdown."
+        - label: "Alternate Search Term"
+          name: Term2
+          widget: string
+          required: false
+        - label: "Content"
+          name: Text
+          widget: markdown
+          required: false
+          hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
+        - label: "Link Targets"
+          name: LinkTargets
+          widget: list
+          required: false
+          hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
+          fields:
+            - label: "Link Text"
+              name: Text
+              widget: string
+            - label: "Target Page ID or Order Name"
+              name: Item
+              widget: string
+              hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
+        - label: "Source Inpatient Menu (read-only)"
+          name: Inpt
+          widget: string
+          required: false
+          hint: "Legacy VistA inpatient source menu. Do not edit."
+
+  - label: "001-TestStation: Systemic Infections"
+    name: "001tes_systemicinfections"
+    folder: "cms-data/001-TestStation/pages/systemic-infections"
+    create: true
+    format: json
+    extension: json
+    editor:
+      preview: false
+      identifier_field: PageID
+      summary: "{{fields.Term1}} [{{fields.PageID}}]"
+      fields:
+        - label: "Page ID"
+          name: PageID
+          widget: string
+          hint: "Immutable identifier used in links. Set once when creating — never change."
+          pattern: ['^[a-z0-9][a-z0-9\-]*$', 'Lowercase letters, numbers, hyphens only']
+        - label: "Display Title (search label)"
+          name: Term1
+          widget: string
+          hint: "Human-readable title shown in the search dropdown."
+        - label: "Alternate Search Term"
+          name: Term2
+          widget: string
+          required: false
+        - label: "Content"
+          name: Text
+          widget: markdown
+          required: false
+          hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
+        - label: "Link Targets"
+          name: LinkTargets
+          widget: list
+          required: false
+          hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
+          fields:
+            - label: "Link Text"
+              name: Text
+              widget: string
+            - label: "Target Page ID or Order Name"
+              name: Item
+              widget: string
+              hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
+        - label: "Source Inpatient Menu (read-only)"
+          name: Inpt
+          widget: string
+          required: false
+          hint: "Legacy VistA inpatient source menu. Do not edit."
+
+  - label: "001-TestStation: General / Uncategorized"
+    name: "001tes_general"
+    folder: "cms-data/001-TestStation/pages/general"
+    create: true
+    format: json
+    extension: json
+    editor:
+      preview: false
+      identifier_field: PageID
+      summary: "{{fields.Term1}} [{{fields.PageID}}]"
+      fields:
+        - label: "Page ID"
+          name: PageID
+          widget: string
+          hint: "Immutable identifier used in links. Set once when creating — never change."
+          pattern: ['^[a-z0-9][a-z0-9\-]*$', 'Lowercase letters, numbers, hyphens only']
+        - label: "Display Title (search label)"
+          name: Term1
+          widget: string
+          hint: "Human-readable title shown in the search dropdown."
+        - label: "Alternate Search Term"
+          name: Term2
+          widget: string
+          required: false
+        - label: "Content"
+          name: Text
+          widget: markdown
+          required: false
+          hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
+        - label: "Link Targets"
+          name: LinkTargets
+          widget: list
+          required: false
+          hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
+          fields:
+            - label: "Link Text"
+              name: Text
+              widget: string
+            - label: "Target Page ID or Order Name"
+              name: Item
+              widget: string
+              hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
+        - label: "Source Inpatient Menu (read-only)"
+          name: Inpt
+          widget: string
+          required: false
+          hint: "Legacy VistA inpatient source menu. Do not edit."
+

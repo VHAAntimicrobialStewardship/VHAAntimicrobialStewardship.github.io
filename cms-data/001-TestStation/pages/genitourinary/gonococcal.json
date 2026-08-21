@@ -1,0 +1,22 @@
+{
+  "PageID": "gonococcal",
+  "Term1": "GONOCOCCAL",
+  "Term2": "",
+  "Text": "## Gonococcal Infections:\n When diagnosed with sexually transmitted disease, the patient's sexual\npartner(s) during the previous 60 days should be evaluated for sexually\ntransmitted infection.\n## Uncomplicated gonococcal infections of the pharynx, cervix, urethra, or rectum:\n-If chlamydial infection has not been excluded, recommend to treat for\nchlamydia.\n-A test-of-cure is unnecessary for uncomplicated urogenital or rectal\ngonorrhea for patients treated with the recommended or alternative regimen.\n-A test-of-cure is recommended for patients with pharyngeal gonorrhea.\nObtain nucleic acid amplification test (NAAT) 7 to 14 days after initial\ntreatment, regardless of regimen used for pharyngeal gonorrhea.\n## Lab test:\n[[Click here] Place order for gonorrhea/chlamydia lab NAAT test](lrtzid-chlamydia-gc-urine-naat)\n## ______________________________________________________________________________\n## Chlamydial infection and no co-infection:\n[[Click here] Chlamydial infection and no co-infection](orzc-gmenu-abx-chlamydia-urethritis-cervicitis-or-proctitis)\n## _____________________________________________________________________________\n## Preferred treatment for patients and no chlamydial co-infection:\n## Patients weighing less than 150 kg:\n## Patients weighing 150 kg or greater:\n## ______________________________________________________________________________\n## Preferred treatment with chlamydial co-infection or chlamydial infection has\n## not been excluded:\n## Patient weighing less than 150 kg:\n## Patients weighing 150 kg or greater:\n[Ceftriaxone 1 GM IM Once ($) [M] <AND> Doxycycline 100mg PO bid x7days($) [DI]](orz-set-abx-ceftriaxone-1gm-imx1-doxy-100mg-bid-x7d)\n## ______________________________________________________________________________\n## Alternative treatment for beta-lactam allergy for cervix, urethra, or rectum:\nFor persons with a history of a beta-lactam allergy, a thorough assessment\nof the reaction is recommended.\n## Alternative treatment for beta-lactam allergy for pharynx:\nNo reliable alternative treatments are available for pharyngeal gonorrhea.\nFor persons with a history of a beta-lactam allergy, a thorough assessment\nof the reaction is recommended. For persons with an anaphylactic or other\nsevere reaction to ceftriaxone, consult Infectious Disease for alternative\ntreatment recommendation.\nReferences:\nSt. Cyr S, et al. MMWR Morb Mortal Wkly Rep 2020, 69:1911-1916.",
+  "LinkTargets": [
+    {
+      "Text": "[Click here] Place order for gonorrhea/chlamydia lab NAAT test",
+      "Item": "LRTZID CHLAMYDIA/GC URINE NAAT"
+    },
+    {
+      "Text": "[Click here] Chlamydial infection and no co-infection",
+      "Item": "chlamydia-urethritis-cervicitis-or-proctitis"
+    },
+    {
+      "Text": "Ceftriaxone 1 GM IM Once ($) [M] <AND> Doxycycline 100mg PO bid x7days($) [DI]",
+      "Item": "ORZ SET ABX CEFTRIAXONE 1GM IMX1 +DOXY 100MG BID X7D"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX GONOCOCCAL",
+  "Outpt": "ORZID3 GMENU GONOCOCCAL"
+}

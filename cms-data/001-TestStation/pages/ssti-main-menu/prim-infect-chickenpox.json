@@ -1,0 +1,34 @@
+{
+  "PageID": "prim-infect-chickenpox",
+  "Term1": "PRIM INFECT CHICKENPOX",
+  "Term2": "",
+  "Text": "## PRIMARY INFECTION (CHICKENPOX)\n## ________________________________\n## Immunocompetent patients\n## ________________________________\n## Prevention\nVaccinate all adults without evidence of immunity except for pregnant women.\nTest antibody first in adults who have uncertain history of chickenpox or\nvaccination.\nGive Varicella vaccine x 2, 2nd dose 4-8 weeks after 1st dose\n## Treatment\nTherapy must be started within 24 hrs onset of rash.\n[Acyclovir 800 mg PO 5x/d for 5-7 days ($) [R]](psjzid-acyclovir-800mg-po-5x-d)\n## Alternative\nTherapy must be started within 24 hrs onset of rash.\n[Valacyclovir 1 gm PO q8h for 5 days ($) [R]](psjzid-valacyclovir-1gm-po-q8h)\n## ________________________________\n## Immunocompromised patients\n## ________________________________\n## Prevention\nImmunocompromised patients without prior immunity to varicella who are at risk\nfor disease include: patients with malignancy, current immunosuppressive\ntherapy, or HIV infection. Vaccination is not recommended while patients are\nimmunocompromised.\nContact Infectious Diseases for more information.\n## Treatment for mild to moderate disease\n[Acyclovir 800 mg PO 5x/day for 7 days ($) [R]](psozid2-acyclovir-800mg-po-5x-day-7ds)\n< OR >\nValacyclovir 1000 mg PO q8h for 7 days ($) [R]\n## Treatment for severe disease, or if mild to moderate disease doesn't improve on\n## above therapy\n[Acyclovir 10 mg/kg IV q8h for 7 days ($$) [R]](psjizid-acyclovir-10-mg-kg-iv-q8h)\nReferences:\nKim et al. Annals Intern Med. 2018, 168(3):210-220\nSanford keyword: Varicella-Zoster Virus\nMandell chapter: Chickenpox and Herpes Zoster (Varicella-Zoster Virus)\n\n## Outpatient Guidance\n## Alternative\n[Valacyclovir 1 gm PO TID for 5 days ($) [R]](psozid2-valacyclovir-5ds-1gm-po-tid)\n## Treatment for mild to moderate disease\n[Valacyclovir 1000 mg PO TID for 7 days ($) [R]](psozid2-valacyclovir-7ds-1000mg-po-tid)",
+  "LinkTargets": [
+    {
+      "Text": "Acyclovir 800 mg PO 5x/d for 5-7 days ($) [R]",
+      "Item": "PSJZID ACYCLOVIR 800MG PO 5X/D"
+    },
+    {
+      "Text": "Valacyclovir 1 gm PO q8h for 5 days ($) [R]",
+      "Item": "PSJZID VALACYCLOVIR 1GM PO Q8H"
+    },
+    {
+      "Text": "Acyclovir 800 mg PO 5x/day for 7 days ($) [R]",
+      "Item": "PSOZID2 ACYCLOVIR 800MG PO 5X/DAY 7DS"
+    },
+    {
+      "Text": "Acyclovir 10 mg/kg IV q8h for 7 days ($$) [R]",
+      "Item": "PSJIZID ACYCLOVIR 10 MG/KG IV Q8H"
+    },
+    {
+      "Text": "Valacyclovir 1 gm PO TID for 5 days ($) [R]",
+      "Item": "PSOZID2 VALACYCLOVIR 5DS 1GM PO TID"
+    },
+    {
+      "Text": "Valacyclovir 1000 mg PO TID for 7 days ($) [R]",
+      "Item": "PSOZID2 VALACYCLOVIR 7DS 1000MG PO TID"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX PRIM INFECT CHICKENPOX",
+  "Outpt": "ORZID3 GMENU PRIM INFECT CHICKENPOX"
+}

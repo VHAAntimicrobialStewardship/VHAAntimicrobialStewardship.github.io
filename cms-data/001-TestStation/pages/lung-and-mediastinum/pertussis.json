@@ -1,0 +1,26 @@
+{
+  "PageID": "pertussis",
+  "Term1": "PERTUSSIS",
+  "Term2": "",
+  "Text": "## PERTUSSIS\nPertussis also known as \"whooping cough\" is caused by Bordetella pertussis. CDC\nrecommends antibiotic therapy for those presenting within three weeks of\nsymptoms (cough). After three weeks, patients may not be infectious, and thus\nantibiotic administration is not routinely recommended.\n[Diagnosis of pertussis](diagnosis-pertussis)\n[Prevention of pertussis](prev-of-pertussis)\n## Treatment\n[Azithromycin 500mg po day 1, then 250mg q24h for days 2-5 [O]](orz-set-abx-azithromycin-po-500-250-once-q24h-x4days)\n## Alternative for macrolide intolerant or allergic patients\n[Trimethoprim/sulfamethoxazole 1 DS tablet PO q12h for 7 days [R,DI]](psjzid-trimeth-sulfa-1-ds-tab-bid)\n## _______________________________________________________________________________\n## References:\nKline et al, Am Fam Physician (2013) 88.8, 507-514\nLangley et al, Pediatrics (2004), e96-e101\nSanford keyword: Pertussis\nMandell chapter: Bordetella species",
+  "LinkTargets": [
+    {
+      "Text": "Diagnosis of pertussis",
+      "Item": "diagnosis-pertussis"
+    },
+    {
+      "Text": "Prevention of pertussis",
+      "Item": "prev-of-pertussis"
+    },
+    {
+      "Text": "Azithromycin 500mg po day 1, then 250mg q24h for days 2-5 [O]",
+      "Item": "ORZ SET ABX AZITHROMYCIN PO 500/250 ONCE/Q24H X4DAYS"
+    },
+    {
+      "Text": "Trimethoprim/sulfamethoxazole 1 DS tablet PO q12h for 7 days [R,DI]",
+      "Item": "PSJZID TRIMETH/SULFA 1 DS TAB BID"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX PERTUSSIS",
+  "Outpt": "ORZID3 GMENU PERTUSSIS"
+}

@@ -1,0 +1,22 @@
+{
+  "PageID": "bed-bugs-hemiptera",
+  "Term1": "BED BUGS (HEMIPTERA)",
+  "Term2": "",
+  "Text": "## BED BUGS (HEMIPTERA)\nAntimicrobial treatment is not indicated. Treat itching with topical\ncorticosteroids or systemic antihistamines.\n## Inpatient [Triamcinolone 0.1% cream apply to affected area BID PRN for itching ($)[M]](psjzid-triamcinolone-0-1-crm-top-bid-prn)\n[Hydroxyzine pamoate 25 mg PO TID until symptoms resolve, then take 25 mg PO](psjzid-hydroxyzine-pamoate-25mg-po-tid)\nTID PRN for itching ($) [H]\n## Outpatient Triamcinolone 0.1% cream apply to affected area BID PRN for itching ($)[M]\n[Non-VA order for above](pshzid2-triamcinolone-0-1-crm-top-bid-prn-10days)\nHydroxyzine pamoate 25 mg PO TID until symptoms resolve, then take 25 mg PO\nTID PRN for itching ($) [H]\nNon-VA order for above\nReferences\nUp-to-date website",
+  "LinkTargets": [
+    {
+      "Text": "Triamcinolone 0.1% cream apply to affected area BID PRN for itching ($)[M]",
+      "Item": "PSJZID TRIAMCINOLONE 0.1% CRM TOP BID PRN"
+    },
+    {
+      "Text": "Hydroxyzine pamoate 25 mg PO TID until symptoms resolve, then take 25 mg PO",
+      "Item": "PSJZID HYDROXYZINE PAMOATE 25MG PO TID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 TRIAMCINOLONE 0.1% CRM TOP BID PRN 10DAYS"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU BED BUGS (HEMIPTERA)",
+  "Outpt": "ORZID3 GMENU BED BUGS (HEMIPTERA)"
+}

@@ -1,0 +1,26 @@
+{
+  "PageID": "abscesses",
+  "Term1": "ABSCESSES",
+  "Term2": "",
+  "Text": "## ABSCESSES: CUTANEOUS ABSCESS, FURUNCLE, CARBUNCLE, AND PYOMYOSITIS\n\nThis section describes management of skin and soft tissue infections. For\ninformation on abscesses in other areas, please return to the main CDSS menu and\nchoose the appropriate organ system.\n\n[Cutaneous abscess](cutaneous-abscess)\n\n[Perianal/Anorectal Abscess](perianal-anorectal-abscess)\n\n[Furuncles and carbuncles](furuncles-and-carbuncles)\n\n[Pyomyositis](orzid2-gmenu-pyomyositis)\n\n## References:\n\nSanford keyword: Skin infections",
+  "LinkTargets": [
+    {
+      "Text": "Cutaneous abscess",
+      "Item": "cutaneous-abscess"
+    },
+    {
+      "Text": "Perianal/Anorectal Abscess",
+      "Item": "perianal-anorectal-abscess"
+    },
+    {
+      "Text": "Furuncles and carbuncles",
+      "Item": "furuncles-and-carbuncles"
+    },
+    {
+      "Text": "Pyomyositis",
+      "Item": "ORZID2 GMENU PYOMYOSITIS"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABSCESSES",
+  "Outpt": "ORZID3 GMENU ABSCESSES"
+}

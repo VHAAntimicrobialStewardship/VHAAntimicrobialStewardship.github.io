@@ -1,0 +1,42 @@
+{
+  "PageID": "impetigo",
+  "Term1": "IMPETIGO",
+  "Term2": "",
+  "Text": "Impetigo and Ecthyma\nImpetigo is a superficial skin infection that rarely causes systemic\nsymptoms. Ecthyma is a skin infection characterized by crusted sores\nbeneath which ulcers form. It is a deep form of impetigo, as the same\nbacteria causing the infection are involved. Ecthyma causes deeper\nerosions of the skin into the dermis.\nGram stain and culture of the pus or exudates from skin lesions of\nimpetigo and ecthyma are recommended to help identify whether\nStaphylococcus aureus and/or beta-hemolytic Streptococcus is the cause.\nBullous and non-bullous impetigo can be treated with oral or topical\nantimicrobials, but oral therapy is recommended for patients with\nnumerous lesions or in outbreaks affecting several people to help\ndecrease transmission of infection. Treatment for ecthyma should be an\noral antimicrobial.\n## Inpatient\n\n## Treatment for impetigo with few lesions\n[Mupirocin ointment to affected area q8h for 5 days ($) [M]](psjzid-mupirocin-2-oint-top-to-affect-area-q8h)\n## Treatment for ecthyma and for impetigo with numerous lesions or\n## whose symptoms have not responded to topical treatment\nTreat orally for 7 days\n## Alternative for penicillin allergy\n[Doxycycline 100MG PO q12h ($) [DI]](psjzid-doxycycline-100mg-po-q12h)\n## IF MRSA confirmed or suspected:\n[Trimethoprim sulfamethoxazole 1 DS tablet PO q12h ($) [R,DI]](psjzid-trimeth-sulfa-1-ds-tab-bid)\nDoxycycline 100MG PO q12h ($) [DI]\n## Outpatient\n\n## Treatment for impetigo with few lesions\n[Mupirocin ointment to affected area TID for 5 days ($) [M]](psozid-mupirocin-2-oint-tid-for-5-days)\n[Non-VA order for above](pshzid-mupirocin-2-oint-tid-for-5-days)\n## Treatment for ecthyma and for impetigo with numerous lesions or\n## whose symptoms have not responded to topical treatment\nTreat orally for 7 days\nNon-VA order for above\n## Alternative for penicillin allergy\n[[Click here] Assess Beta-lactam allergy prior to ordering alternative](orzid2-gmenu-abx-beta-lactam-allergy-assesment)\n[Doxycycline 100MG PO bid ($) [DI]](psozid2-doxycycline-100mg-po-bid-7ds)\nNon-VA order for above\n## IF MRSA confirmed or suspected:\n[Trimethoprim sulfamethoxazole 1 DS tablet PO bid ($) [R,DI]](psozid-trimeth-sulfa-1-ds-po-bid-7ds)\nNon-VA order for above\nDoxycycline 100MG PO bid ($) [DI]\nNon-VA order for above\nReferences\nMandell chapter: Cellulitis and subcutaneous tissue infections\nUp-to-Date website\nStevens DL Clin Infect Dis 2014 59: 147\nMontravers P Curr Opin Infect Dis 2016, 29:131",
+  "LinkTargets": [
+    {
+      "Text": "Mupirocin ointment to affected area q8h for 5 days ($) [M]",
+      "Item": "PSJZID MUPIROCIN 2% OINT TOP TO AFFECT AREA Q8H"
+    },
+    {
+      "Text": "Doxycycline 100MG PO q12h ($) [DI]",
+      "Item": "PSJZID DOXYCYCLINE 100MG PO Q12H"
+    },
+    {
+      "Text": "Trimethoprim sulfamethoxazole 1 DS tablet PO q12h ($) [R,DI]",
+      "Item": "PSJZID TRIMETH/SULFA 1 DS TAB BID"
+    },
+    {
+      "Text": "Mupirocin ointment to affected area TID for 5 days ($) [M]",
+      "Item": "PSOZID MUPIROCIN 2% OINT TID FOR 5 DAYS"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID MUPIROCIN 2% OINT TID FOR 5 DAYS"
+    },
+    {
+      "Text": "[Click here] Assess Beta-lactam allergy prior to ordering alternative",
+      "Item": "ORZID2 GMENU ABX BETA-LACTAM ALLERGY ASSESMENT"
+    },
+    {
+      "Text": "Doxycycline 100MG PO bid ($) [DI]",
+      "Item": "PSOZID2 DOXYCYCLINE 100MG PO BID 7DS"
+    },
+    {
+      "Text": "Trimethoprim sulfamethoxazole 1 DS tablet PO bid ($) [R,DI]",
+      "Item": "PSOZID TRIMETH/SULFA 1 DS PO BID 7DS"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX IMPETIGO",
+  "Outpt": "ORZID3 GMENU IMPETIGO"
+}

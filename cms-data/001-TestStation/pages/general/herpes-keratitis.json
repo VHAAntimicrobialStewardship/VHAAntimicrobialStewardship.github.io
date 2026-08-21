@@ -1,0 +1,58 @@
+{
+  "PageID": "herpes-keratitis",
+  "Term1": "HERPES KERATITIS",
+  "Term2": "",
+  "Text": "## HERPES KERATITIS\nOcular herpes infection can be caused by either HSV-1 or HSV-2. The majority of\ncases are caused by HSV-1. The recurrence rate of ocular herpes is 40% over a 5\nyear period, less than that of oral or genital herpes. Ocular herpes is a\nmajor cause of blindness and typically presents as infection of the epithelium\nof the cornea but can also rarely involve the stroma and endothelium.\nOphthalmology consultation is recommended.\nInvolvement of the stroma or endothelium requires treatment with topical\nsteroid and close monitoring. For these cases, start oral antiviral and consult\nophthalmology for management.\nAntiviral prophylaxis is recommended for patients with multiple recurrences,\nrecurrent episodes with ulceration, recurrent inflammation with\nscar/vascularization approaching visual axis, patients who have had keratoplasty\nfor HSV-related scarring/astigmatism, and patients who have had HSV keratitis\nwhile on immunosuppressive therapy. Post-surgical prophylaxis is not discussed\nhere. Please consult ophthalmology for more information.\n## Treatment of acute infection\nWithout epithelial ulceration\n## Inpatient [Acyclovir 400 mg PO q8h for 7-10 days ($) [R]](psjzid-acyclovir-400mg-po-q8h)\n<OR>\n[Valacyclovir 500 mg PO q12h for 7-10 days ($) [R]](psjzid-valacyclovir-500mg-po-bid)\nUlceration of epithelium (Geographic ulcer)\n[Acyclovir 800 mg PO 5x/day for 14-21 days ($) [R]](psjzid-acyclovir-800mg-po-5x-d)\n<OR>\n[Valacyclovir 1 gm PO q8h for 14-21 days ($) [R]](psjzid-valacyclovir-1gm-po-q8h)\n## Infection prophylaxis for prevention of recurrence\nReassess need for prophylaxis every 12 months\n[Acyclovir 400 mg PO Q12h for 12 months ($) [R]](psjzid-acyclovir-400mg-po-bid)\n<OR>\n[Valacyclovir 500 mg PO Q24h for 12 months ($) [R]](psjzid-valacyclovir-500mg-po-q24h)\n## Outpatient [Acyclovir 400 mg PO TID for 7-10 days ($) [R]](psozid2-acyclovir-7days-400mg-po-tid)\n[Non-VA order for above](pshzid2-acyclovir-7days-400mg-po-tid)\n<OR>\n[Valacyclovir 500 mg PO BID for 7-10 days ($) [R]](psozid2-valacyclovir-500mg-bid-7d)\nNon-VA order for above\nUlceration of epithelium (Geographic ulcer)\nAcyclovir 800 mg PO 5x/day for 14-21 days ($) [R]\nNon-VA order for above\n<OR>\n[Valacyclovir 1 gm PO TID for 14-21 days ($) [R]](psozid2-valacyclovir-1gm-tid-14d)\nNon-VA order for above\n## Infection prophylaxis for prevention of recurrence\nReassess need for prophylaxis every 12 months\n[Acyclovir 400 mg PO BID for 12 months ($) [R]](psozid2-acyclovir-400mg-bid-1yr)\nNon-VA order for above\n<OR>\n[Valacyclovir 500 mg PO QDay for 12 months ($) [R]](psozid2-valacyclovir-1yr-500mg-po-qday)\nNon-VA order for above\nReferences:\nBaratz, Arch Ophthalmology, (2012) 130.1: 108-110\nGuess et al, The Ocular Surface, (2007) 5.3:240-250\nWilhelmus, Cochrane Database of Systematic Reviews, (2015), 1:CD002898\nMiserocchi et al, Efficacy of Valacyclovir vs Acyclovir for the Prevention of\nRecurrent Herpes Simplex\nVirus Eye Disease: A Pilot Study, American Journal of Ophthalmology, 2007\n144:547-551\nWhite et al, Ocular Microbiology and Immunology Group and American Academy of\nOphthalmology, (2014)",
+  "LinkTargets": [
+    {
+      "Text": "Acyclovir 400 mg PO q8h for 7-10 days ($) [R]",
+      "Item": "PSJZID ACYCLOVIR 400MG PO Q8H"
+    },
+    {
+      "Text": "Valacyclovir 500 mg PO q12h for 7-10 days ($) [R]",
+      "Item": "PSJZID VALACYCLOVIR 500MG PO BID"
+    },
+    {
+      "Text": "Acyclovir 800 mg PO 5x/day for 14-21 days ($) [R]",
+      "Item": "PSJZID ACYCLOVIR 800MG PO 5X/D"
+    },
+    {
+      "Text": "Valacyclovir 1 gm PO q8h for 14-21 days ($) [R]",
+      "Item": "PSJZID VALACYCLOVIR 1GM PO Q8H"
+    },
+    {
+      "Text": "Acyclovir 400 mg PO Q12h for 12 months ($) [R]",
+      "Item": "PSJZID ACYCLOVIR 400MG PO BID"
+    },
+    {
+      "Text": "Valacyclovir 500 mg PO Q24h for 12 months ($) [R]",
+      "Item": "PSJZID VALACYCLOVIR 500MG PO Q24H"
+    },
+    {
+      "Text": "Acyclovir 400 mg PO TID for 7-10 days ($) [R]",
+      "Item": "PSOZID2 ACYCLOVIR 7DAYS 400MG PO TID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 ACYCLOVIR 7DAYS 400MG PO TID"
+    },
+    {
+      "Text": "Valacyclovir 500 mg PO BID for 7-10 days ($) [R]",
+      "Item": "PSOZID2 VALACYCLOVIR 500MG BID 7D"
+    },
+    {
+      "Text": "Valacyclovir 1 gm PO TID for 14-21 days ($) [R]",
+      "Item": "PSOZID2 VALACYCLOVIR 1GM TID 14D"
+    },
+    {
+      "Text": "Acyclovir 400 mg PO BID for 12 months ($) [R]",
+      "Item": "PSOZID2 ACYCLOVIR 400MG BID 1YR"
+    },
+    {
+      "Text": "Valacyclovir 500 mg PO QDay for 12 months ($) [R]",
+      "Item": "PSOZID2 VALACYCLOVIR 1YR 500MG PO QDAY"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX HERPES KERATITIS",
+  "Outpt": "ORZID3 GMENU ABX HERPES KERATITIS"
+}

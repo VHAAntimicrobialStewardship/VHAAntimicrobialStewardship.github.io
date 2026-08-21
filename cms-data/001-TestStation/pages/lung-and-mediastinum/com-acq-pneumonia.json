@@ -1,0 +1,31 @@
+{
+  "PageID": "com-acq-pneumonia",
+  "Term1": "COM-ACQ PNEUMONIA",
+  "Term2": "",
+  "Text": "## COMMUNITY-ACQUIRED PNEUMONIA (CAP)\n\nEmpirical regimens listed here cover the usual pathogens associated with CAP, including atypical pathogens. Specific therapy should be guided by culture results.\n\n## Diagnosis\n\nUse the CAP Pneumonia Severity Index (PSI) to assist with level of care decision\n\n[CAP Pneumonia Severity Index (PSI) Calculator](orz-gtx-abx-cap-psi)\n\n## _______________________________________________________________________________\n\n## Empirical treatment\n\nIf a patient has taken an antimicrobial in the previous 3 months, it is prudent to avoid giving the same or a similar drug for the current episode of pneumonia.\n\n## CAP treated in an Inpatient setting:\n\n[CAP NON-SEVERE treated in an Inpatient Ward setting](cap-inpatient-treated-setting-non-severe-cap)\n\n[CAP SEVERE treated in an ICU setting](cap-inpatient-treated-setting-severe-cap)\n\n## Stepdown empiric treatment for CAP (Intravenous to Oral conversion)\n\n[Stepdown empiric treatment for CAP with oral antibiotics](orzid2-gmenu-cap-outpatient-treated-setting)\n\nNote: These regimens may also be used to convert patients to oral medications prior to discharge.\n\n## CAP treated in an Outpatient setting:\n\n[Treatment of CAP in an outpatient setting](orzid3-gmenu-cap-treated-in-outpt-setting)\n\n## _______________________________________________________________________________\n\n## References:\n\nFine MJ, et al. N Engl J Med (1997) 336:243-250",
+  "LinkTargets": [
+    {
+      "Text": "CAP Pneumonia Severity Index (PSI) Calculator",
+      "Item": "ORZ GTX ABX CAP PSI"
+    },
+    {
+      "Text": "CAP NON-SEVERE treated in an Inpatient Ward setting",
+      "Item": "cap-inpatient-treated-setting-non-severe-cap"
+    },
+    {
+      "Text": "CAP SEVERE treated in an ICU setting",
+      "Item": "cap-inpatient-treated-setting-severe-cap"
+    },
+    {
+      "Text": "Stepdown empiric treatment for CAP with oral antibiotics",
+      "Item": "ORZID2 GMENU CAP OUTPATIENT TREATED SETTING"
+    },
+    {
+      "Text": "Treatment of CAP in an outpatient setting",
+      "Item": "ORZID3 GMENU CAP TREATED IN OUTPT SETTING"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX COM-ACQ PNEUMONIA",
+  "Outpt": "ORZID3 GMENU COMM INFECT PNEUMO",
+  "ERUC": "ORZID GMENU ER/UC COM-ACQ PNEUMONIA"
+}

@@ -1,0 +1,30 @@
+{
+  "PageID": "first-recurrence-abx-assoc",
+  "Term1": "FIRST RECURRENCE ABX ASSOC",
+  "Term2": "",
+  "Text": "## FIRST RECURRENCE OF CLOSTRIDIOIDES DIFFICILE INFECTION (CDI)\nDiscontinue implicated antibiotic(s). Narrow antibiotic spectrum if antibiotic\ntherapy is still needed. Avoid antiperistaltic agents (narcotics, loperamide,\netc.). Avoid antacid therapy without clear indication. If diarrhea has improved\nor resolved prior to starting C. difficile treatment, consider re-assessing the\ndiagnosis before initiating therapy. C. difficile infection usually responds to\nantimicrobial therapy. If symptoms do not respond to appropriate antimicrobial\ntherapy, re-consider the diagnosis.\n## First Recurrence CDI: *The REGIMEN should be different from initial treatment.*\n## Inpatient [Vancomycin 125 mg PO q6h for 10 days [M]](psjzid-vancomycin-125mg-po-q6h-x10days-cdiff)\n< OR >\n[Vancomycin Extended-Pulse Taper Regimen [M]](psjzid-vancomycin-taper-and-pulse-dosing)\n(Vancomycin 125 mg PO q6h for 10 days, then taper and pulse with 125 mg po q12h\nfor 7 days, then 125mg po qday for 7 days, then 125mg every other day for 6\nweeks)\n< OR >\n[Fidaxomicin 200 mg po q12h for 10 days [M]](psjzid-fidaxomicin-200mg-q12h-10d)\n< OR >\n[Fidaxomicin Extended-Pulse Regimen [M]](psjzid-fidaxomicin-extended-pulse-regimen)\n(Fidaxomicin 200mg po bid x5days, then 200mg every other day x 20days)\n## _______________________________________________________________________________\n## Outpatient\nVancomycin 125 mg PO q6h for 10 days [M]\n[Non-VA order for above](pshzid-vancomycin-125mg-cap-qid-10ds)\n< OR >\nVancomycin Extended-Pulse Taper Regimen [M]\n(Vancomycin 125 mg PO q6h for 10 days, then taper and pulse with 125 mg po q12h\nfor 7 days, then 125mg po qday for 7 days, then 125mg every other day for 6\nweeks)\nNon-VA order for above\n< OR >\nFidaxomicin 200 mg po q12h for 10 days [M]\nNon-VA order for above\n< OR >\nFidaxomicin Extended-Pulse Regimen [M]\n(Fidaxomicin 200mg po bid x5days, then 200mg every other day x 20days)\nNon-VA order for above\n## _______________________________________________________________________________\nReferences:\nJohnson et al, Clin Inf Dis, 2021, 73(5): e1029-e1044\nMcDonald et al, Clin Inf Dis 2018, 66 (7): e1-e48\nCriteria for Use: Fidaxomicin VA-PBM (11/21)\nMandell chapter: Clostridioides difficile infection\nSanford Guide article: Clostridioides difficile\nUp-to-Date article: Clostridioides difficile infection in adults: Treatment and\nprevention",
+  "LinkTargets": [
+    {
+      "Text": "Vancomycin 125 mg PO q6h for 10 days [M]",
+      "Item": "PSJZID VANCOMYCIN 125MG PO Q6H X10DAYS CDIFF"
+    },
+    {
+      "Text": "Vancomycin Extended-Pulse Taper Regimen [M]",
+      "Item": "PSJZID VANCOMYCIN TAPER AND PULSE DOSING"
+    },
+    {
+      "Text": "Fidaxomicin 200 mg po q12h for 10 days [M]",
+      "Item": "PSJZID FIDAXOMICIN 200MG Q12H 10D"
+    },
+    {
+      "Text": "Fidaxomicin Extended-Pulse Regimen [M]",
+      "Item": "PSJZID FIDAXOMICIN EXTENDED-PULSE REGIMEN"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID VANCOMYCIN 125MG CAP QID 10DS"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX FIRST RECURRENCE ABX ASSOC",
+  "Outpt": "ORZID3 GMENU FIRST RECURRENCE ABX ASSOCIATED COLITIS"
+}

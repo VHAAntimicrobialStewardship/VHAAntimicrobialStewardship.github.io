@@ -1,0 +1,42 @@
+{
+  "PageID": "cardiovascular",
+  "Term1": "CARDIOVASCULAR",
+  "Term2": "",
+  "Text": "## ++ CARDIOVASCULAR ++\n## Inpatient\n\n## Endocarditis\n[Approach to Endocarditis](orzid2-gmenu-abx-appro-to-endocarditis)\n[Diagnosis of Endocarditis](diagnosis-of-endocarditis)\nNative Valve Endocarditis\n[Empirical Therapy](orzid2-gmenu-ec-nv-emp-thera)\n[Selected Pathogens](orzid2-gmenu-ec-nv-sel-path)\nProsthetic Valve Endocarditis\nEmpirical Therapy\nSelected Pathogens\n## Other\n[Cardiac Lyme Disease](lyme-cardiac-disease)\n[Cardiovascular Device Infections (Excluding Valves)](orzid2-gmenu-abx-infect-involves-card-devices)\n[Catheter-Related Bloodstream Infections](orzid2-gmenu-intravasc-cath-assoc-infect)\nMyocarditis\nPericarditis\n[Suppurative Thrombophlebitis](orzid2-gmenu-abx-suppurative-thrombo-emp-therapy)\n## Section last reviewed 9/2020 ##Outpatient\nRefer to Inpatient Antimicrobial CDSS.",
+  "LinkTargets": [
+    {
+      "Text": "Approach to Endocarditis",
+      "Item": "ORZID2 GMENU ABX APPRO TO ENDOCARDITIS"
+    },
+    {
+      "Text": "Diagnosis of Endocarditis",
+      "Item": "diagnosis-of-endocarditis"
+    },
+    {
+      "Text": "Empirical Therapy",
+      "Item": "ORZID2 GMENU EC NV EMP THERA"
+    },
+    {
+      "Text": "Selected Pathogens",
+      "Item": "ORZID2 GMENU EC NV SEL PATH"
+    },
+    {
+      "Text": "Cardiac Lyme Disease",
+      "Item": "lyme-cardiac-disease"
+    },
+    {
+      "Text": "Cardiovascular Device Infections (Excluding Valves)",
+      "Item": "ORZID2 GMENU ABX INFECT INVOLVES CARD DEVICES"
+    },
+    {
+      "Text": "Catheter-Related Bloodstream Infections",
+      "Item": "ORZID2 GMENU INTRAVASC CATH-ASSOC INFECT"
+    },
+    {
+      "Text": "Suppurative Thrombophlebitis",
+      "Item": "ORZID2 GMENU ABX SUPPURATIVE THROMBO EMP THERAPY"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX CARDIOVASCULAR",
+  "Outpt": "ORZID3 GMENU CARDIOVASCULAR OUTPATIENT"
+}

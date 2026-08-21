@@ -1,0 +1,38 @@
+{
+  "PageID": "prev-infect-bact-prophyl",
+  "Term1": "PREV INFECT BACT PROPHYL",
+  "Term2": "",
+  "Text": "## PREVENTION OF BACTERIAL INFECTIONS IN A PATIENT WITH MALIGNANCY\nAntimicrobial prophylaxis is often given to patients likely to have profound,\nprolonged neutropenia. Profound neutropenia is less than 100 neutrophils and\nbands per microliter, and such neutropenia is considered prolonged when it is\nexpected to last more than 7 days. Most patients who should receive prophylaxis\nhave received stem cell transplants or are undergoing induction chemotherapy for\nacute leukemia.\n## If antibacterial prophylaxis is indicated\nDuration of therapy: During period of expected neutropenia\n[Ciprofloxacin 500 mg PO q12h ($) [R,DI] < OR >](psjzid-ciprofloxacin-500mg-po-q12h)\n[Levofloxacin 500 mg PO q24h ($) [R]](psjzid-levoflox-500mg-po-q24h)\n< OR >\nTrimethoprim-sulfamethoxazole 1 DS tablet PO q12h ($) [R,DI] < OR >\n[Cefpodoxime 100 mg PO q12h ($$) [R]](psjzid-cefpodoxime-100mg-po-q12h)\nReferences\nTaplitz RA Journal of Clinical Oncology, 2018, 36:3043\nMandell chapter: Prophylaxis and Empirical Therapy for Infection in Cancer\nPatients\nNCCN Clinical Practice Guidelines, Prevention and Treatment of Cancer-\nRelated Infections. Version 1.2019. nccn.org\n\n## Outpatient Guidance\n## If antibacterial prophylaxis is indicated\n[Ciprofloxacin 500 mg PO BID for 7 days ($) [R,DI]](psozid2-ciprofloxacin-7ds-500mg-po-bid)\n[Levofloxacin 500 mg PO QDAY for 7days ($) [R,DI]](psozid2-levofloxacin-7ds-500mg-po-qday)\n[Trimethoprim/sulfamethoxazole 1 DS tablet PO BID for 7 days ($) [R,DI]](psozid2-tmp-sulfa-7days-1ds-tab-bid)\n[Cefpodoxime 100 mg PO BID x7days ($$) [R]](psozid-cefpodoxime-100mg-po-bid-x7days)",
+  "LinkTargets": [
+    {
+      "Text": "Ciprofloxacin 500 mg PO q12h ($) [R,DI] < OR >",
+      "Item": "PSJZID CIPROFLOXACIN 500MG PO Q12H"
+    },
+    {
+      "Text": "Levofloxacin 500 mg PO q24h ($) [R]",
+      "Item": "PSJZID LEVOFLOX 500MG PO Q24H"
+    },
+    {
+      "Text": "Cefpodoxime 100 mg PO q12h ($$) [R]",
+      "Item": "PSJZID CEFPODOXIME 100MG PO Q12H"
+    },
+    {
+      "Text": "Ciprofloxacin 500 mg PO BID for 7 days ($) [R,DI]",
+      "Item": "PSOZID2 CIPROFLOXACIN 7DS 500MG PO BID"
+    },
+    {
+      "Text": "Levofloxacin 500 mg PO QDAY for 7days ($) [R,DI]",
+      "Item": "PSOZID2 LEVOFLOXACIN 7DS 500MG PO QDAY"
+    },
+    {
+      "Text": "Trimethoprim/sulfamethoxazole 1 DS tablet PO BID for 7 days ($) [R,DI]",
+      "Item": "PSOZID2 TMP/SULFA 7DAYS 1DS TAB BID"
+    },
+    {
+      "Text": "Cefpodoxime 100 mg PO BID x7days ($$) [R]",
+      "Item": "PSOZID CEFPODOXIME 100MG PO BID X7DAYS"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU PREV INFECT BACT PROPHYL",
+  "Outpt": "ORZID3 GMENU PREV INFECT ANTIBACT PROPHYL"
+}

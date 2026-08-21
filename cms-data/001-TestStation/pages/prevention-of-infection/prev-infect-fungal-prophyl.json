@@ -1,0 +1,18 @@
+{
+  "PageID": "prev-infect-fungal-prophyl",
+  "Term1": "PREV INFECT FUNGAL PROPHYL",
+  "Term2": "",
+  "Text": "## PREVENTION OF FUNGAL INFECTIONS IN A PATIENT WITH MALIGNANCY\nAntifungal chemoprophylaxis is often given to patients undergoing induction\nchemotherapy for acute leukemia expected to have profound neutropenia (less than\n100 neutrophils and bands per milliliter) for more than 10 days and for patients\nreceiving allogeneic stem cell transplantation. For most other patients the\nexpected benefits do not outweigh the risks of adverse effects and selection of\nresistant fungi.\nAntifungal is usually given until the absolute neutrophil concentration\nincreases to more than 500 cells/microliter in patients undergoing induction\nchemotherapy for leukemia. Duration is 100 days for patients undergoing stem\ncell transplantation. Some physicians continue prevention after 100 days if\ncorticosteroids are part of the immunosuppressive regimen.\nRecommend posaconazole prophylaxis for patients with Acute Myeloid Leukemia.\nContact Hematology Oncology or Infectious Disease for more information.\nPatients who have had invasive fungal infection in the recent past and who are\nabout to become neutropenic may require chemoprophylaxis. Contact Hematology-\nOncology or Infectious Disease for more information.\n## If antifungal prophylaxis is indicated:\nDuration of therapy: during period of expected neutropenia\n[Fluconazole 400 mg po q24h ($) [R,DI]](psjzid-fluconazole-400mg-po-q24h)\n## For patients being treated for AML:\nRequires Infectious Disease approval:\nPosaconazole 300mg Tablets twice daily on day 1, then 300mg once daily on\nday 2 and thereafter. Continue for 7 days after the neutrophil count\nrises above 500/mm3. ($$$$) [DI]\nReferences:\nTaplitz RA Journal of Clinical Oncology, 2018, 36:3043\nMandell chapter: Prophylaxis and empirical therapy for infection in cancer\npatients\nNCCN Clinical Practice Guidelines, Prevention and Treatment of Cancer-\nRelated Infections. Version 1.2019. nccn.org\n\n## Outpatient Guidance\n## If antifungal prophylaxis is indicated\n[Fluconazole 400 mg po qday for 10 days ($) [R,DI]](psozid-fluconazole-400mg-po-qday-x10days)",
+  "LinkTargets": [
+    {
+      "Text": "Fluconazole 400 mg po q24h ($) [R,DI]",
+      "Item": "PSJZID FLUCONAZOLE 400MG PO Q24H"
+    },
+    {
+      "Text": "Fluconazole 400 mg po qday for 10 days ($) [R,DI]",
+      "Item": "PSOZID FLUCONAZOLE 400MG PO QDAY X10DAYS"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU PREV INFECT FUNGAL PROPHYL",
+  "Outpt": "ORZID3 GMENU PREV INFECT FUNGAL PROPHYL"
+}

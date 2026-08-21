@@ -12,17 +12,16 @@ by = {m["Name"]: m for m in data}
 issues = []
 warns = []
 
-# 1) Core required menus
-for required in [
+required_menus = [
     "ORZID2 GMENU ABX INPT MAIN",
     "ORZID3 GMENU ABX OUTPT MAIN",
     "ORZID GMENU ER/UC EMERGENCY DEPARTMENT MAIN MENU",
-    "ORZC GMENU ABX INPT MAIN",
-]:
+    "inpt-main",
+]
+for required in required_menus:
     if required not in by:
         issues.append(f"Missing required menu: {required}")
 
-# 2) Cross-ref integrity
 for m in data:
     n = m["Name"]
     for field in ["Outpt", "ERUC", "Combined", "Inpt"]:
@@ -30,9 +29,17 @@ for m in data:
         if t and t not in by:
             issues.append(f"{n} has broken {field} reference -> {t}")
 
-# 3) ORZC integrity
-orzc = [m for m in data if m["Name"].startswith("ORZC ")]
-for m in orzc:
+combined_names = {
+    m.get("Combined")
+    for m in data
+    if isinstance(m.get("Combined"), str) and m.get("Combined").strip()
+}
+combined_menus = [
+    m for m in data
+    if m["Name"] in combined_names and isinstance(m.get("Inpt"), str) and m.get("Inpt").strip()
+]
+
+for m in combined_menus:
     n = m["Name"]
     txt = m.get("Text", "")
     if txt.strip().lower() in ("mimi", "mehul", "mahul", ""):
@@ -40,52 +47,64 @@ for m in orzc:
     if not m.get("Inpt"):
         warns.append(f"{n} missing Inpt pointer")
 
-# 4) Broken markdown links in rich text (non-URL targets without key mapping)
 link_re = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 for m in data:
     txt = m.get("Text", "")
     if not txt:
         continue
+
     links = link_re.findall(txt)
     if not links:
         continue
-    keyset = {(lt.get("Key") or "").strip().lower(): lt.get("Item") for lt in m.get("LinkTargets", [])}
+
+    keyset = {
+        (lt.get("Key") or "").strip().lower(): lt.get("Item")
+        for lt in m.get("LinkTargets", [])
+        if (lt.get("Key") or "").strip()
+    }
+    itemset = {
+        (lt.get("Item") or "").strip().lower()
+        for lt in m.get("LinkTargets", [])
+        if (lt.get("Item") or "").strip()
+    }
+
     for label, target in links:
         t = target.strip()
-        if t.lower().startswith("http://") or t.lower().startswith("https://"):
+        tl = t.lower()
+        if tl.startswith("http://") or tl.startswith("https://"):
             continue
-        if t.lower().startswith("cdss:"):
+        if tl.startswith("cdss:"):
             continue
-        if t.lower() not in keyset:
-            warns.append(f"{m['Name']} unresolved link target key: ({t}) label={label}")
+        if tl in keyset:
+            continue
+        if tl in itemset:
+            continue
+        warns.append(f"{m['Name']} unresolved link target ({t}) label={label}")
 
-# 5) lingering escaped square brackets
 escaped_count = sum(1 for m in data if r"\[" in m.get("Text", "") or r"\]" in m.get("Text", ""))
 if escaped_count:
     warns.append(f"{escaped_count} menus still contain escaped square brackets")
 
-# 6) Heading anomalies in ORZC text
-for m in orzc:
+for m in combined_menus:
     txt = m.get("Text", "")
     if re.search(r"^##[^\s#]", txt, flags=re.MULTILINE):
         warns.append(f"{m['Name']} has heading missing space after ##")
 
-# 7) HTML wiring sanity
 html = html_path.read_text(encoding="utf-8")
 html_checks = [
-    '<button id="combinedButton">Combined</button>',
+    "<button id=\"combinedButton\">Combined</button>",
     "document.getElementById('combinedButton').addEventListener('click', handleCombined);",
     "const combinedMenu =",
     "function handleCombined()",
 ]
-for c in html_checks:
-    if c not in html:
-        issues.append(f"HTML missing: {c}")
+for check in html_checks:
+    if check not in html:
+        issues.append(f"HTML missing: {check}")
 
 print("ISSUES:", len(issues))
-for i in issues[:80]:
-    print(" -", i)
+for item in issues[:80]:
+    print(" -", item)
 print()
 print("WARNINGS:", len(warns))
-for w in warns[:120]:
-    print(" -", w)
+for item in warns[:120]:
+    print(" -", item)

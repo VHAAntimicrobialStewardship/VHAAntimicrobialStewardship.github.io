@@ -1,0 +1,38 @@
+{
+  "PageID": "erysipelas",
+  "Term1": "ERYSIPELAS",
+  "Term2": "",
+  "Text": "## ERYSIPELAS\nIn contrast to cellulitis, erysipelas has sharply demarcated borders and a\ncharacteristic raised, orange-peel appearance. Most cases are associated with\nstreptococcus. In a minority of cases, especially those involving the face,\nStaphylococcus aureus is also a potential pathogen. In severe cases,\nmethicillin-resistant Staphylococcus aureus (MRSA) coverage must be provided\nuntil microbiology results are available.\nTreat for 5 to 10days, longer if patient is bacteremic.\n## _________________________________\n## Facial\n## _________________________________\nSudden onset of rapidly spreading red edematous tender plaque-like skin on the\nface in an otherwise healthy host.\n## Inpatient\n\n## If erysipelas-like on the face treat as if MRSA is present:\n[Vancomycin 15 mg/kg IV q12h ($) [R]](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n## _________________________________\n## Non-facial\n## _________________________________\n## MILD TO MODERATE disease\n[Penicillin VK 250 - 500 mg PO q6h ($) [R]](psjzid-penicillin-v-500mg-po-q6h)\n## Alternative for penicillin allergy\n[Erythromycin 500 mg po q6h ($) [DI]](psjzid-erythromycin-500mg-po-q6h)\n## SEVERE disease\n[Penicillin 3 million units IV q6h ($) [R]](psjizid-penicillin-3-million-units-iv-q6h)\n## Alternative for penicillin allergy or MRSA suspected\nVancomycin 15 mg/kg IV q12h ($) [R]\n< OR >\n[Clindamycin 600 mg IV q8h ($) [H,O]](psjizid-clindamycin-600mg-iv-q8h)\n## Outpatient\n\n## If erysipelas-like on the face treat as if MRSA is present:\nRefer to Inpatient Antimicrobial CDSS.\n## _________________________________\n## Non-facial\n## _________________________________\n## MILD TO MODERATE disease\nPenicillin VK 250 - 500 mg PO QID for 10 days ($) [R]\n[Non-VA order for above](pshzid2-penicillin-vk-10ds-250mg-po-qid)\n## Alternative for penicillin allergy\n[Erythromycin 250-500 mg PO QID ($) [DI]](psozid2-erythromycin-10ds-250mg-po-qid)\nNon-VA order for above\n## SEVERE disease\nRefer to Inpatient Antimicrobial CDSS.\nReferences\nStevens DL Clin Infect Dis 2014, 59: 147\nSanford keyword: Erysipelas\nMandell chapter: Cellulitis and subcutaneous tissue infections\nUp-to-Date website",
+  "LinkTargets": [
+    {
+      "Text": "Vancomycin 15 mg/kg IV q12h ($) [R]",
+      "Item": "ORZ SET ABX VANCO NEW START 15MG/KG Q12H + MRSA NARES SCREENING"
+    },
+    {
+      "Text": "Penicillin VK 250 - 500 mg PO q6h ($) [R]",
+      "Item": "PSJZID PENICILLIN V 500MG PO Q6H"
+    },
+    {
+      "Text": "Erythromycin 500 mg po q6h ($) [DI]",
+      "Item": "PSJZID ERYTHROMYCIN 500MG PO Q6H"
+    },
+    {
+      "Text": "Penicillin 3 million units IV q6h ($) [R]",
+      "Item": "PSJIZID PENICILLIN 3 MILLION UNITS IV Q6H"
+    },
+    {
+      "Text": "Clindamycin 600 mg IV q8h ($) [H,O]",
+      "Item": "PSJIZID CLINDAMYCIN 600MG IV Q8H"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 PENICILLIN VK 10DS 250MG PO QID"
+    },
+    {
+      "Text": "Erythromycin 250-500 mg PO QID ($) [DI]",
+      "Item": "PSOZID2 ERYTHROMYCIN 10DS 250MG PO QID"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ERYSIPELAS",
+  "Outpt": "ORZID3 GMENU ERYSIPELAS"
+}

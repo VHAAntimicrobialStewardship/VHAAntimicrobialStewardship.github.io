@@ -1,0 +1,30 @@
+{
+  "PageID": "herpes-whitlow",
+  "Term1": "HERPES WHITLOW",
+  "Term2": "",
+  "Text": "## HERPES WHITLOW (DIGIT OR HAND CELLULITIS)\n## Treatment\n## Inpatient [Acyclovir 400 mg PO q8h for 10 days ($) [R]](psjzid-acyclovir-400mg-po-q8h)\n## Outpatient Alternative for easier compliance schedule\n[Valacyclovir 1 gm PO q12h for 10 days ($) [R]](psjzid-valacyclovir-1gm-po-q12h)\n## [Acyclovir 400 mg PO TID for 10 days ($) [R]](psozid2-acyclovir-10ds-400mg-po-tid)\n[Non-VA order for above](pshzid2-acyclovir-10ds-400mg-po-tid)\n## Alternative for easier compliance schedule\n[Valacyclovir 1 gm PO BID for 10 days ($) [R]](psozid2-valacyclovir-10ds-1gm-po-bid)\nNon-VA order for above\nReferences:\nMandell chapter: Herpes simplex virus\nSanford keyword: Whitlow, herpetic",
+  "LinkTargets": [
+    {
+      "Text": "Acyclovir 400 mg PO q8h for 10 days ($) [R]",
+      "Item": "PSJZID ACYCLOVIR 400MG PO Q8H"
+    },
+    {
+      "Text": "Valacyclovir 1 gm PO q12h for 10 days ($) [R]",
+      "Item": "PSJZID VALACYCLOVIR 1GM PO Q12H"
+    },
+    {
+      "Text": "Acyclovir 400 mg PO TID for 10 days ($) [R]",
+      "Item": "PSOZID2 ACYCLOVIR 10DS 400MG PO TID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 ACYCLOVIR 10DS 400MG PO TID"
+    },
+    {
+      "Text": "Valacyclovir 1 gm PO BID for 10 days ($) [R]",
+      "Item": "PSOZID2 VALACYCLOVIR 10DS 1GM PO BID"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX HERPES WHITLOW",
+  "Outpt": "ORZID3 GMENU HERPES WHITLOW"
+}

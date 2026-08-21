@@ -1,0 +1,70 @@
+{
+  "PageID": "genitourinary",
+  "Term1": "GENITOURINARY",
+  "Term2": "",
+  "Text": "## ++ GENITOURINARY ++\n## Inpatient/Outpatient ## Urinary tract infections (UTI)\n## Sexually Transmitted Infections (STI)\n[Approach to UTI](orzid2-gmenu-abx-approach-to-uti)\nCervicitis\n[Asymptomatic bacteriuria](asymp-bacteriuria)\nChlamydia (See Cervicitis or Urethritis)\nCandida UTI\nEpididymitis\n[Complicated UTI catheter associated](orzid2-gmenu-abx-complicated-uti-catheter-associated)\nGenital Herpes\n[Complicated UTI without catheter (includes pyelonephritis, febrile,](orzid2-gmenu-abx-complicated-uti-no-catheter)\nGonorrhea infection with/without Chlamydia\nand bacteremic UTI)\nHuman Immunodeficiency Virus (HIV)\n[Sepsis or shock with suspected UTI](orzid2-gmenu-sepsis-suspected-uro-sepsis)\nPelvic Inflammatory Disease (PID)\n[Uncomplicated UTI (infection confined to bladder)](orzid2-gmenu-abx-uncomp-uti)\nSyphilis\nTrichomonas Vaginitis\n## Male specific infections\nUrethritis\n[Acute bacterial prostatitis](acute-bact-prostatitis)\n[Balanitis and Balanoposthitis](balanitis)\n## [Necrotizing Infection](necrotizing-infections) (including Fournier gangrene)\n[Chronic bacterial prostatitis](chronic-bact-prostatitis)\nNecrotizing infection\n[Chronic prostatitis/Chronic pelvic pain syndrome](chron-pros-pelvic-pain-syn)\n[Epididymitis and Epididymo-Orchitis](epididymitis)\n## [Surgical Site Infection](orzid2-gmenu-surg-surgical-site-infect)\nUrethritis\nSurgical site infection\n## Female specific Infections\n[Bacterial vaginosis](vaginitis)\n[Candida vulvovaginitis](candida-vulvo-vaginitis)\nCervicitis\nPelvic Inflammatory Disease (PID)\nTrichomonas vaginitis\n## Last updated July 2022",
+  "LinkTargets": [
+    {
+      "Text": "Approach to UTI",
+      "Item": "ORZID2 GMENU ABX APPROACH TO UTI"
+    },
+    {
+      "Text": "Asymptomatic bacteriuria",
+      "Item": "asymp-bacteriuria"
+    },
+    {
+      "Text": "Complicated UTI catheter associated",
+      "Item": "ORZID2 GMENU ABX COMPLICATED UTI CATHETER ASSOCIATED"
+    },
+    {
+      "Text": "Complicated UTI without catheter (includes pyelonephritis, febrile,",
+      "Item": "ORZID2 GMENU ABX COMPLICATED UTI NO CATHETER"
+    },
+    {
+      "Text": "Sepsis or shock with suspected UTI",
+      "Item": "ORZID2 GMENU SEPSIS SUSPECTED URO SEPSIS"
+    },
+    {
+      "Text": "Uncomplicated UTI (infection confined to bladder)",
+      "Item": "ORZID2 GMENU ABX UNCOMP UTI"
+    },
+    {
+      "Text": "Acute bacterial prostatitis",
+      "Item": "acute-bact-prostatitis"
+    },
+    {
+      "Text": "Balanitis and Balanoposthitis",
+      "Item": "balanitis"
+    },
+    {
+      "Text": "Necrotizing infection",
+      "Item": "necrotizing-infections"
+    },
+    {
+      "Text": "Chronic bacterial prostatitis",
+      "Item": "chronic-bact-prostatitis"
+    },
+    {
+      "Text": "Chronic prostatitis/Chronic pelvic pain syndrome",
+      "Item": "chron-pros-pelvic-pain-syn"
+    },
+    {
+      "Text": "Epididymitis and Epididymo-Orchitis",
+      "Item": "epididymitis"
+    },
+    {
+      "Text": "Surgical site infection",
+      "Item": "ORZID2 GMENU SURG SURGICAL SITE INFECT"
+    },
+    {
+      "Text": "Bacterial vaginosis",
+      "Item": "vaginitis"
+    },
+    {
+      "Text": "Candida vulvovaginitis",
+      "Item": "candida-vulvo-vaginitis"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX GENITOURINARY",
+  "Outpt": "ORZID3 GMENU GENITOURINARY"
+}

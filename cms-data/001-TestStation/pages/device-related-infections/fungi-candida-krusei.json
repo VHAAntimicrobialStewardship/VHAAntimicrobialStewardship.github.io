@@ -1,0 +1,30 @@
+{
+  "PageID": "fungi-candida-krusei",
+  "Term1": "FUNGI CANDIDA KRUSEI",
+  "Term2": "",
+  "Text": "## CANDIDA KRUSEI\nC. krusei is resistant to fluconazole, and often has some degree of resistance\nto amphotericin. Higher doses of amphotericin are recommended for treatment of\nC. krusei due to decreased susceptibility.\n## Duration of antimicrobial therapy\nDuration of therapy is dependent upon location and severity of infection,\nand response to therapy. Consult Infectious Diseases for more information.\n## Preferred treatment\n## Inpatient [Micafungin 100-150 mg IV q24h ($$$) [H,DI]](psjizid-micafungin-100mg-iv-q24h)\n*150mg q24h for esophageal candidiasis, 100mg q24h for other indications\n< OR >\n## Alternative\n[Voriconazole 6mg/kg IV q12h for 2 doses, then 4mg/kg IV q12h ($$$$) [R,H,DI]](psjizid-voriconazole-6mg-kg-q12h-then-4mg-kg-iv-q12h)\n< OR >\n[Voriconazole 400 mg PO q12h for 2 doses, then 200 mg PO q12h ($$) [R,H,DI]](psjzid-voriconazole-400mg-po-q12h-then-200mg-q12h)\n< OR >Refer to Inpatient Antimicrobial CDSS for IV options.\n## Alternative\nRefer to Inpatient Antimicrobial CDSS for IV options\n< OR >\n[Voriconazole 400 mg PO BID for 2 doses, then 200 mg PO BID ($$) [R,H,DI]](psozid-voriconazole-400mg-po-bid-1day-then-200mg-bid)\n[Non-VA order for above](pshzid-voriconazole-400mg-po-bid-1day-then-200mg-bid)\n## Outpatient Refer to Inpatient Antimicrobial CDSS for IV options.\n## Alternative\nRefer to Inpatient Antimicrobial CDSS for IV options\n< OR >\nVoriconazole 400 mg PO BID for 2 doses, then 200 mg PO BID ($$) [R,H,DI]\nNon-VA order for above\nReferences:\nMandell chapter: Candida Species\nPappas et al. Clinical Infectious Diseases. 2016, 62(4)e1-50\nSanford keyword: Candidiasis, Candidemia or Disseminated\nUp-to-Date article: Treatment of candidemia and invasive candidiasis in adults",
+  "LinkTargets": [
+    {
+      "Text": "Micafungin 100-150 mg IV q24h ($$$) [H,DI]",
+      "Item": "PSJIZID MICAFUNGIN 100MG IV Q24H"
+    },
+    {
+      "Text": "Voriconazole 6mg/kg IV q12h for 2 doses, then 4mg/kg IV q12h ($$$$) [R,H,DI]",
+      "Item": "PSJIZID VORICONAZOLE 6MG/KG Q12H THEN 4MG/KG IV Q12H"
+    },
+    {
+      "Text": "Voriconazole 400 mg PO q12h for 2 doses, then 200 mg PO q12h ($$) [R,H,DI]",
+      "Item": "PSJZID VORICONAZOLE 400MG PO Q12H THEN 200MG Q12H"
+    },
+    {
+      "Text": "Voriconazole 400 mg PO BID for 2 doses, then 200 mg PO BID ($$) [R,H,DI]",
+      "Item": "PSOZID VORICONAZOLE 400MG PO BID 1DAY THEN 200MG BID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID VORICONAZOLE 400MG PO BID 1DAY THEN 200MG BID"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU FUNGI CANDIDA KRUSEI",
+  "Outpt": "ORZID3 GMENU FUNGI C. KRUSEI"
+}

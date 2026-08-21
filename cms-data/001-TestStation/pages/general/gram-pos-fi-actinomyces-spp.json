@@ -1,0 +1,33 @@
+{
+  "PageID": "gram-pos-fi-actinomyces-spp",
+  "Term1": "GRAM-POS FI ACTINOMYCES SPP.",
+  "Term2": "",
+  "Text": "## ACTINOMYCES SPP.\nOptimal therapy depends on both the disease or syndrome and the pathogen. See\ndiagnosis/syndrome section for more information.\n## Preferred treatment\n[Penicillin G 4 million units IV q4h [R]](psjizid-penicillin-g-4-million-units-iv-q4h)\n< OR >\n[Ampicillin 2 gm IV q4h [R]](psjizid-ampicillin-2-gm-iv-q4h)\n< OR >\n[Amoxicillin 500 mg PO q8h [R]](psjzid-amoxicillin-500mg-po-q8h)\n## Alternative for severe beta-lactam allergy\n[Assessment of Beta-lactam Reaction](orz-gtx-abx-beta-lactam-reaction-pdf)\n[Doxycycline 100 mg IV q12h [DI]](psjizid-doxycycline-100mg-iv-q12h)\n< OR >\n[Doxycycline 100 mg PO q12h [DI]](psjzid-doxycycline-100mg-po-q12h)\n## _______________________________________________________________________________\n## References:\nSanford Guide article: Actinomycosis\nUp-To-Date article: Treatment of actinomycosis",
+  "LinkTargets": [
+    {
+      "Text": "Penicillin G 4 million units IV q4h [R]",
+      "Item": "PSJIZID PENICILLIN G 4 MILLION UNITS IV Q4H"
+    },
+    {
+      "Text": "Ampicillin 2 gm IV q4h [R]",
+      "Item": "PSJIZID AMPICILLIN 2 GM IV Q4H"
+    },
+    {
+      "Text": "Amoxicillin 500 mg PO q8h [R]",
+      "Item": "PSJZID AMOXICILLIN 500MG PO Q8H"
+    },
+    {
+      "Text": "Assessment of Beta-lactam Reaction",
+      "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
+    },
+    {
+      "Text": "Doxycycline 100 mg IV q12h [DI]",
+      "Item": "PSJIZID DOXYCYCLINE 100MG IV Q12H"
+    },
+    {
+      "Text": "Doxycycline 100 mg PO q12h [DI]",
+      "Item": "PSJZID DOXYCYCLINE 100MG PO Q12H"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU GRAM-POS FI ACTINOMYCES SPP."
+}

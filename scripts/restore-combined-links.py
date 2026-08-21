@@ -1,115 +1,106 @@
 """
 restore-combined-links.py
 
-For each ORZC combined menu that has plain text (no markdown links),
-reconstructs clickable links by matching LinkTarget text labels from the
-corresponding inpatient (and outpatient) source menus against the ORZC text.
+For each combined menu that has plain text (no markdown links), reconstructs
+clickable links by matching LinkTarget labels from source inpatient/outpatient
+menus against combined text.
 
 Strategy:
-  1. For each ORZC menu, collect candidate LinkTargets from:
-       - Its inpatient counterpart (Inpt field)
-       - Its outpatient counterpart (Outpt field)
-  2. For each candidate, prefer the ORZC equivalent if a Combined sub-page exists.
-  3. Try to match candidate label text against ORZC plain text:
-       a. Exact full-line match
-       b. Substring match (only when label is >=20 chars to avoid false positives)
-  4. When a match is found, wrap the text with [label](key) markdown.
-  5. Populate LinkTargets on the ORZC menu.
-
-Skips:
-  - The navigation "Help/legend..." header link (too generic, added separately)
-  - Labels under 15 chars (too ambiguous)
-  - The CAP menu (already manually corrected)
+  1. For each combined menu, collect candidate LinkTargets from source menus.
+  2. Prefer the mapped combined sub-page target when available.
+  3. Match labels to text lines (exact line match, then long-label substring).
+  4. Wrap matched labels as [label](key).
+  5. Populate LinkTargets on combined pages.
 """
+
 import json
 import re
 from pathlib import Path
 
 JSON_PATH = Path(r"stations/001-TestStation/TestStationOMJSON.json")
+COMBINED_MAIN = "INPT MAIN"
 
-# Menu names that were already manually corrected - skip them
+# Menus already manually tuned; skip automatic rewrite.
 SKIP_NAMES = {
-    "ORZC GMENU ABX COM-ACQ PNEUMONIA",  # already fixed
-    "ORZC GMENU ABX INPT MAIN",          # main menu handled separately
+    "COM-ACQ PNEUMONIA",
+    COMBINED_MAIN,
 }
 
 NAV_LINK_PREFIXES = (
     "help, legend",
     "help, legend, allergy",
 )
-
-MIN_LABEL_LEN = 15  # shorter labels are too risky for substring matching
+MIN_LABEL_LEN = 15
 
 with JSON_PATH.open(encoding="utf-8") as f:
     data = json.load(f)
 
 menus = data["menus"]
 by_name = {m["Name"]: m for m in menus}
+combined_name_set = {
+    m.get("Combined")
+    for m in menus
+    if isinstance(m.get("Combined"), str) and m.get("Combined").strip()
+}
 
 link_re = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 
 
-def slugify(name: str) -> str:
-    """Convert an ORZC menu Name to a link key (lowercase, spaces→hyphens, remove special chars)."""
-    return re.sub(r"[^a-z0-9\-]", "", name.lower().replace(" ", "-"))
-
-
 def make_key_from_item(item_name: str) -> str:
-    return item_name.lower().replace(" ", "-").replace("/", "-").replace(".", "").replace("(", "").replace(")", "").replace(",", "")
+    """Legacy helper kept for VistA-order key derivation only."""
+    return (
+        item_name.lower()
+        .replace(" ", "-")
+        .replace("/", "-")
+        .replace(".", "")
+        .replace("(", "")
+        .replace(")", "")
+        .replace(",", "")
+    )
 
 
-def build_candidate_link_targets(orzc_menu: dict) -> list:
-    """
-    Collect all potential link targets for this ORZC menu,
-    preferring ORZC equivalents of sub-pages.
-    Returns list of dicts with keys: Key, Text, Item
-    """
+def build_candidate_link_targets(combined_menu: dict) -> list:
+    """Collect potential link targets for one combined menu."""
     candidates = []
     seen_texts = set()
 
     source_names = []
-    if orzc_menu.get("Inpt"):
-        source_names.append(orzc_menu["Inpt"])
-    if orzc_menu.get("Outpt"):
-        source_names.append(orzc_menu["Outpt"])
+    if combined_menu.get("Inpt"):
+        source_names.append(combined_menu["Inpt"])
+    if combined_menu.get("Outpt"):
+        source_names.append(combined_menu["Outpt"])
 
     for src_name in source_names:
         src = by_name.get(src_name)
         if not src:
             continue
+
         for lt in src.get("LinkTargets", []):
             text = (lt.get("Text") or "").strip()
             item = (lt.get("Item") or "").strip()
-            key  = (lt.get("Key") or "").strip()
-            if not text or not item or not key:
+            key = (lt.get("Key") or "").strip()
+            if not text or not item:
                 continue
             if text.lower().startswith(NAV_LINK_PREFIXES):
                 continue
 
-            # Prefer ORZC equivalent if one exists
+            # Prefer mapped combined page when available.
             target_menu = by_name.get(item)
             if target_menu and target_menu.get("Combined") and target_menu["Combined"] in by_name:
-                combined_item = target_menu["Combined"]
-                # Derive key from combined name
-                combined_key = make_key_from_item(combined_item)
-                item = combined_item
-                key  = combined_key
-
-            # Deduplicate by text label
+                item = target_menu["Combined"]
+                # PageID slug IS the item; no Key needed
+            
+            # Deduplicate by text label; no Key emitted for combined->combined links
             norm_text = text.lower().strip()
             if norm_text not in seen_texts:
                 seen_texts.add(norm_text)
-                candidates.append({"Key": key, "Text": text, "Item": item})
+                candidates.append({"Text": text, "Item": item})
 
     return candidates
 
 
-def restore_links(orzc_menu: dict, candidates: list) -> tuple[str, list]:
-    """
-    Walk the ORZC menu text and wrap matching plain-text labels with markdown links.
-    Returns (new_text, new_link_targets).
-    """
-    text = orzc_menu.get("Text", "")
+def restore_links(combined_menu: dict, candidates: list) -> tuple[str, list]:
+    text = combined_menu.get("Text", "")
     lines = text.split("\n")
     new_lines = []
     matched_candidates = []
@@ -119,14 +110,13 @@ def restore_links(orzc_menu: dict, candidates: list) -> tuple[str, list]:
         stripped = line.strip()
         matched = False
 
+        # Exact full-line match first.
         for lt in candidates:
             label = lt["Text"].strip()
             if len(label) < MIN_LABEL_LEN:
                 continue
             if label.lower() in matched_texts:
                 continue
-
-            # a) Exact full-line match
             if stripped.lower() == label.lower():
                 new_lines.append(f"[{stripped}]({lt['Key']})")
                 matched_texts.add(label.lower())
@@ -136,24 +126,20 @@ def restore_links(orzc_menu: dict, candidates: list) -> tuple[str, list]:
                 break
 
         if not matched:
-            # b) Substring match only for longer labels (to reduce false positives)
             for lt in candidates:
                 label = lt["Text"].strip()
                 if len(label) < MIN_LABEL_LEN:
                     continue
                 if label.lower() in matched_texts:
                     continue
-                # Make sure it's not already a link in this line
                 if link_re.search(line):
                     continue
-                # Case-insensitive search for the label within the line
                 idx = stripped.lower().find(label.lower())
                 if idx != -1:
                     before = stripped[:idx]
-                    found  = stripped[idx:idx+len(label)]
-                    after  = stripped[idx+len(label):]
-                    new_line = f"{before}[{found}]({lt['Key']}){after}"
-                    new_lines.append(new_line)
+                    found = stripped[idx : idx + len(label)]
+                    after = stripped[idx + len(label) :]
+                    new_lines.append(f"{before}[{found}]({lt['Key']}){after}")
                     matched_texts.add(label.lower())
                     if lt not in matched_candidates:
                         matched_candidates.append(lt)
@@ -166,18 +152,20 @@ def restore_links(orzc_menu: dict, candidates: list) -> tuple[str, list]:
     return "\n".join(new_lines), matched_candidates
 
 
-# Process all ORZC menus with empty LinkTargets
 total_menus_fixed = 0
 total_links_added = 0
 zero_matches = []
 
 for m in menus:
     name = m["Name"]
-    if not name.startswith("ORZC "):
+    # Combined pages are the ones carrying an Inpt pointer.
+    if not isinstance(m.get("Inpt"), str) or not m.get("Inpt").strip():
+        continue
+    if name not in combined_name_set:
         continue
     if name in SKIP_NAMES:
         continue
-    if m.get("LinkTargets"):  # already has targets
+    if m.get("LinkTargets"):
         continue
 
     candidates = build_candidate_link_targets(m)
@@ -201,6 +189,6 @@ print(f"Menus with links restored : {total_menus_fixed}")
 print(f"Total link targets added  : {total_links_added}")
 print(f"Menus with no matches     : {len(zero_matches)}")
 if zero_matches:
-    print("\nNo matches (likely pure narrative text - no sub-links needed):")
+    print("\nNo matches (likely pure narrative text):")
     for n in zero_matches[:30]:
         print(" -", n)

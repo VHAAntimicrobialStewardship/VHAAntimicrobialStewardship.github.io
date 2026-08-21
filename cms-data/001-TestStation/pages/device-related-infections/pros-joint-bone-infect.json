@@ -1,0 +1,14 @@
+{
+  "PageID": "pros-joint-bone-infect",
+  "Term1": "PROS JOINT BONE INFECT",
+  "Term2": "",
+  "Text": "## INFECTIONS IN BONE OR JOINT PROSTHESES\n## Empirical therapy before a pathogen is identified is not recommended unless\n## patient is clinically unstable.\nSome infections may require one or two stage reimplantation. long-term\nsuppressive antimicrobial therapy or joint removal without replacement may be\noptions depending on patient's condition. Consult Infectious Diseases\n(inpatient) for more information.\n## Infectious Disease and Orthopedics consultations are essential.\nIf patient has sepsis or is otherwise unstable, empiric treatment before culture\nresults are obtained may be justified.\n## Inpatient [Cefepime 2g IV q12h [R] <AND> vancomycin 15 mg/kg q12h [R]](orz-set-abx-cefepime-2-gm-iv-q12h-vanco-15mg-kg-q12h)\n## _______________________________________________________________________________\n## Outpatient Refer to the Inpatient Antimicrobial CDSS\n## _______________________________________________________________________________\nReferences:\nMandell chapter: Orthopedic Implant-Associated Infections\nUp-to-Date Article: Prosthetic Joint Infections: Treatment\nOsmon et al, Clinical Infectious Diseases (2013) 56.1, e1-25\nSanford keyword: Prosthetic Joint Infection",
+  "LinkTargets": [
+    {
+      "Text": "Cefepime 2g IV q12h [R] <AND> vancomycin 15 mg/kg q12h [R]",
+      "Item": "ORZ SET ABX CEFEPIME 2 GM IV Q12H VANCO 15MG/KG Q12H"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU PROS JOINT BONE INFECT",
+  "Outpt": "ORZID3 GMENU PROSTHESIS BONE JOINT INFECT"
+}

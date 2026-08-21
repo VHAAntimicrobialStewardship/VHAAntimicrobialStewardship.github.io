@@ -1,0 +1,30 @@
+{
+  "PageID": "device-related-infections",
+  "Term1": "DEVICE-RELATED INFECTIONS",
+  "Term2": "",
+  "Text": "## ++ DEVICE-RELATED INFECTIONS ++\n## Inpatient/Outpatient If the desired syndrome is not listed below, return to the main menu and refer\nto the pertinent organ-system.\n[Intravascular catheter-related infection](orzid2-gmenu-intravasc-cath-assoc-infect)\n[Prosthetic-valve endocarditis - Empirical therapy](orzid2-gmenu-ec-pv-emp-therapy)\n[Prosthetic-valve endocarditis - Selected pathogens](orzid2-gmenu-ec-pv-sel-path)\n[Infections involving cardiovascular devices (except valves)](orzid2-gmenu-abx-infect-involves-card-devices)\n[Infections in bone or joint prostheses](pros-joint-bone-infect)",
+  "LinkTargets": [
+    {
+      "Text": "Intravascular catheter-related infection",
+      "Item": "ORZID2 GMENU INTRAVASC CATH-ASSOC INFECT"
+    },
+    {
+      "Text": "Prosthetic-valve endocarditis - Empirical therapy",
+      "Item": "ORZID2 GMENU EC PV EMP THERAPY"
+    },
+    {
+      "Text": "Prosthetic-valve endocarditis - Selected pathogens",
+      "Item": "ORZID2 GMENU EC PV SEL PATH"
+    },
+    {
+      "Text": "Infections involving cardiovascular devices (except valves)",
+      "Item": "ORZID2 GMENU ABX INFECT INVOLVES CARD DEVICES"
+    },
+    {
+      "Text": "Infections in bone or joint prostheses",
+      "Item": "pros-joint-bone-infect"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX DEVICE-RELATED INFECTIONS",
+  "Outpt": "ORZID3 GMENU DEVICE-RELATED INFECT"
+}

@@ -1,0 +1,42 @@
+{
+  "PageID": "hidradenitis-suppurativa",
+  "Term1": "HIDRADENITIS SUPPURATIVA",
+  "Term2": "",
+  "Text": "## HIDRADENITIS SUPPURATIVA\nA chronic inflammatory condition that typically involves occlusion, rupture,\nabscess formation and infection of hair follicles as well as secondary infection\nof apocrine glands/surrounding tissues. Lesions most often occur in the\nintertriginous areas (axillae, inguinal and anogenital) in is associated with\nsmoking and obesity. There is a 40% genetic predisposition for hidradenitis\nsuppurativa (HS) and is often accompanied by pain, malodor, and drainage.\nCultures are negative 50% of the time and often are polymicrobial with S.\nepidermidis and S. aureus most isolated. The Hurley Staging System is often used\nto determine severity of HS.\nTherapy generally consists of treatment of comorbidities that can exacerbate HS,\navoidance of triggers, pain management, wound care, and topical/oral\nantimicrobials. Hormonal agents, steroids, retinoids, and surgery can also be\nused to treat certain patients. Biologics may be considered in Stage II-III HS.\n## Consult Dermatology in all cases\n## Hurley Staging System:\nStage I: recurrent nodules and abscesses with minimal scarring\nStage II: limited number of sinuses and/or scarring within a body region\nStage III: multiple or extensive sinuses and/or scarring\n## Duration of Therapy:\nTreatment is typically for 12 weeks but may require longer durations in certain\ncases. Metronidazole should only be used for a maximum of 6 weeks to avoid\nneurologic toxicity.\n## Interventions for All Patients:\nSmoking cessation, weight loss, avoidance of triggers, and pain management\nshould be part of all treatment plans. Consult Dermatology for use of hormonal\nagents, steroids, retinoids, and surgery.\n## Inpatient\n\n## Optional Topical Treatment, May be Used in Addition to Oral Therapies Below:\n[Chlorhexidine gluconate 4% liquid topically wash affected area q24h ($) [M]](psjzid-chlorhexidine-gluconate-wash-qday)\n< OR >\n[Benzoyl peroxide 10% soap topically wash affected area q24h ($) [M]](psjzid-benzoyl-peroxide-10-wash-topically-q24h)\n< ADD ON THERAPY FOR FLARES - MUST USE IN ADDITION TO ONE OF THE AGENTS ABOVE>\n[Clindamycin 1% solution topically to affected areas q12h prn for flares ($) [M]](psjzid-clindamycin-1-topical-soln-q12h)\n## Stage I-II Initial Treatment:\n[Doxycycline 100 mg PO q12h ($) [DI] for 12 weeks](psjzid-doxycycline-100mg-po-q12h)\n< OR >\n[Minocycline 100 mg PO q12h ($) [DI] for 12 weeks](psjzid-minocycline-100mg-po-q12h)\n## Stage III Initial Treatment and Stage I-II Failure of Oral Doxycycline:\n[Clindamycin 300 mg PO q12h for 12 weeks ($) [H,O]](psjzid-clindamycin-300mg-po-q12h)\n## Stage II-III Failure of Oral Clindamycin:\n[Moxifloxacin 400 mg PO q24h ($)[R,DI] for 12 weeks <AND> metronidazole 500](orz-set-abx-moxi400mgpoq24h-metro500mgpoq8h-rifamp300mgpoq12h)\nmg q8h ($) [DI] for 6 weeks <AND> rifampin 300 mg PO q12h ($) [DI,O] for 12\nweeks\n## _______________________________________________________________________________\n## Outpatient\n\n## Optional Topical Treatment, May be Used in Addition to Oral Therapies Below:\nChlorhexidine gluconate 4% liquid topically wash affected area q24h ($) [M]\n[Non-VA order for above](pshzid-chlorhexidine-gluconate-wash-q24h)\n< OR >\nBenzoyl peroxide 10% soap topically wash affected area q24h ($) [M]\nNon-VA order for above\n< ADD ON THERAPY FOR FLARES - MUST USE IN ADDITION TO ONE OF THE AGENTS ABOVE>\nClindamycin 1% solution topically to affected areas q12h prn for flares ($) [M]\nNon-VA order for above\n## Stage I-II Initial Treatment:\nDoxycycline 100 mg PO q12h ($) [DI] for 12 weeks\nNon-VA order for above\n< OR >\nMinocycline 100 mg PO q12h ($) [DI] for 12 weeks\nNon-VA order for above\n## Stage III Initial Treatment and Stage I-II Failure of Oral Doxycycline:\nClindamycin 300 mg PO q12h for 12 weeks ($) [H,O]\nNon-VA order for above\n## Stage II-III Failure of Oral Clindamycin:\nMoxifloxacin 400 mg PO q24h ($)[R,DI] for 12 weeks <AND> metronidazole 500\nmg q8h ($) [DI] for 6 weeks <AND> rifampin 300 mg PO q12h ($) [DI,O] for 12\nweeks\nNon-VA order for above\n## _______________________________________________________________________________\nReferences:\nAlikhan, Ali, et al. Journal of the American Academy of Dermatology 81.1 (2019):\n76-90\nJohn Hopkins ABX Guide Keyword: Hidradenitis Suppurativa\nUp-To-Date article: Hidradenitis suppurativa: Management\nUp-To-Date article: Hidradenitis suppurativa: Pathogenesis, clinical features,\nand diagnosis",
+  "LinkTargets": [
+    {
+      "Text": "Chlorhexidine gluconate 4% liquid topically wash affected area q24h ($) [M]",
+      "Item": "PSJZID CHLORHEXIDINE GLUCONATE WASH QDAY"
+    },
+    {
+      "Text": "Benzoyl peroxide 10% soap topically wash affected area q24h ($) [M]",
+      "Item": "PSJZID BENZOYL PEROXIDE 10% WASH TOPICALLY Q24H"
+    },
+    {
+      "Text": "Clindamycin 1% solution topically to affected areas q12h prn for flares ($) [M]",
+      "Item": "PSJZID CLINDAMYCIN 1% TOPICAL SOLN Q12H"
+    },
+    {
+      "Text": "Doxycycline 100 mg PO q12h ($) [DI] for 12 weeks",
+      "Item": "PSJZID DOXYCYCLINE 100MG PO Q12H"
+    },
+    {
+      "Text": "Minocycline 100 mg PO q12h ($) [DI] for 12 weeks",
+      "Item": "PSJZID MINOCYCLINE 100MG PO Q12H"
+    },
+    {
+      "Text": "Clindamycin 300 mg PO q12h for 12 weeks ($) [H,O]",
+      "Item": "PSJZID CLINDAMYCIN 300MG PO Q12H"
+    },
+    {
+      "Text": "Moxifloxacin 400 mg PO q24h ($)[R,DI] for 12 weeks <AND> metronidazole 500",
+      "Item": "ORZ SET ABX MOXI400MGPOQ24H METRO500MGPOQ8H RIFAMP300MGPOQ12H"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID CHLORHEXIDINE GLUCONATE WASH Q24H"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU HIDRADENITIS SUPPURATIVA",
+  "Outpt": "ORZID3 GMENU HIDRADENITIS SUPPURATIVA"
+}
