@@ -1004,11 +1004,8 @@ function isStructuredRichTextNavigationPage(selectedData) {
   if (!selectedData || selectedData.Name === combinedMenu || typeof selectedData.Text !== 'string') {
     return false;
   }
-
-  const headingCount = (selectedData.Text.match(/^\s{0,3}##\s+/gm) || []).length;
-  const linkCount = (selectedData.Text.match(/\]\(/g) || []).length;
-  const targetCount = Array.isArray(selectedData.LinkTargets) ? selectedData.LinkTargets.length : 0;
-  return headingCount >= 4 && (linkCount >= 6 || targetCount >= 6);
+  // Primary signal: explicit two-column delimiter
+  return selectedData.Text.includes('<!-- RIGHT COLUMN -->');
 }
 
 function createStructuredRichTextNavigationTable(selectedData) {
@@ -1017,35 +1014,29 @@ function createStructuredRichTextNavigationTable(selectedData) {
   const tbody = document.createElement('tbody');
   const lines = (selectedData.Text || '').split(/\r?\n/);
 
+  // Extract top banner (first ## ++ ... ++ heading)
   let topBanner = '';
-  const entries = [];
-
-  lines.forEach((line) => {
+  const contentLines = [];
+  for (const line of lines) {
     const headingMatch = line.match(/^\s{0,3}##\s+(.*)$/);
-    if (headingMatch) {
-      const headingText = headingMatch[1].trim();
-      if (!topBanner && headingText.includes('++')) {
-        topBanner = headingText;
-        return;
-      }
-      entries.push({ text: headingText, isHeading: true });
-      return;
+    if (!topBanner && headingMatch && headingMatch[1].trim().includes('++')) {
+      topBanner = headingMatch[1].trim();
+    } else {
+      contentLines.push(line);
     }
+  }
 
-    if (!line.trim()) {
-      return;
-    }
-
-    entries.push({ text: line, isHeading: false });
-  });
-
+  // Find the column delimiter
+  const delimiterIdx = contentLines.findIndex(l => l.trim() === '<!-- RIGHT COLUMN -->');
   const screenWidth = window.innerWidth / (window.devicePixelRatio || 1);
-  const columns = screenWidth < 900 ? 1 : 2;
+  const useTwoColumns = delimiterIdx !== -1 && screenWidth >= 900;
+  const colCount = useTwoColumns ? 2 : 1;
 
+  // Banner row (full width)
   if (topBanner) {
     const bannerRow = document.createElement('tr');
     const bannerCell = document.createElement('td');
-    bannerCell.colSpan = columns;
+    bannerCell.colSpan = colCount;
     bannerCell.classList.add('bold');
     bannerCell.style.backgroundColor = 'lightblue';
     bannerCell.textContent = topBanner;
@@ -1053,27 +1044,52 @@ function createStructuredRichTextNavigationTable(selectedData) {
     tbody.appendChild(bannerRow);
   }
 
-  for (let i = 0; i < entries.length; i += columns) {
-    const row = document.createElement('tr');
-    for (let c = 0; c < columns; c++) {
-      const entry = entries[i + c];
-      const cell = document.createElement('td');
-      if (entry) {
-        const lineElement = document.createElement('div');
-        if (entry.isHeading) {
-          lineElement.classList.add('bold');
-        }
-        appendRichTextLineContent(lineElement, entry.text, selectedData);
-        cell.appendChild(lineElement);
-      }
-      row.appendChild(cell);
-    }
-    tbody.appendChild(row);
+  // Helper: render a list of lines into a <td>
+  function renderColumnLines(columnLines) {
+    const cell = document.createElement('td');
+    cell.style.verticalAlign = 'top';
+    if (useTwoColumns) cell.style.width = '50%';
+    columnLines.forEach(line => {
+      if (!line.trim() || line.trim() === '<!-- RIGHT COLUMN -->') return;
+      const headingMatch = line.match(/^\s{0,3}##\s+(.*)$/);
+      const lineText = headingMatch ? headingMatch[1].trim() : line;
+      const lineEl = document.createElement('div');
+      if (headingMatch) lineEl.classList.add('bold');
+      appendRichTextLineContent(lineEl, lineText, selectedData);
+      cell.appendChild(lineEl);
+    });
+    return cell;
   }
 
+  if (useTwoColumns) {
+    const leftLines = contentLines.slice(0, delimiterIdx);
+    const rightLines = contentLines.slice(delimiterIdx + 1);
+    const contentRow = document.createElement('tr');
+    contentRow.style.verticalAlign = 'top';
+    contentRow.appendChild(renderColumnLines(leftLines));
+    contentRow.appendChild(renderColumnLines(rightLines));
+    tbody.appendChild(contentRow);
+  } else {
+    // Single column: all lines in order, delimiter ignored
+    contentLines.forEach(line => {
+      if (!line.trim() || line.trim() === '<!-- RIGHT COLUMN -->') return;
+      const headingMatch = line.match(/^\s{0,3}##\s+(.*)$/);
+      const lineText = headingMatch ? headingMatch[1].trim() : line;
+      const row = document.createElement('tr');
+      const cell = document.createElement('td');
+      const lineEl = document.createElement('div');
+      if (headingMatch) lineEl.classList.add('bold');
+      appendRichTextLineContent(lineEl, lineText, selectedData);
+      cell.appendChild(lineEl);
+      row.appendChild(cell);
+      tbody.appendChild(row);
+    });
+  }
+
+  // Page ID footer row
   const itemRow = document.createElement('tr');
   const itemCell = document.createElement('td');
-  itemCell.colSpan = columns;
+  itemCell.colSpan = colCount;
   const isPageID = /^[a-z0-9][a-z0-9\-]*$/.test(selectedData.Name);
   itemCell.textContent = (isPageID ? 'Page ID: ' : 'Page Target: ') + selectedData.Name;
   itemRow.appendChild(itemCell);

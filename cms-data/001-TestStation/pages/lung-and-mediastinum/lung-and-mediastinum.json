@@ -2,7 +2,7 @@
   "PageID": "lung-and-mediastinum",
   "Term1": "LUNG AND MEDIASTINUM",
   "Term2": "",
-  "Text": "## ++ LUNGS AND MEDIASTINUM ++\n## Inpatient/Outpatient Bronchitis\n## Pneumonia\nEmpyema\n[Aspiration pneumonia](aspiration-pneumonia)\n[Exacerbation of chronic obstructive pulmonary disease (COPD)](orzid2-gmenu-abx-copd-exacerbation)\n[Community-acquired pneumonia (CAP)](com-acq-pneumonia)\n[Influenza Seasonal](orzid2-gmenu-abx-influenza-recommendations)\n[Nosocomial pneumonia (including HAP and VAP)](noso-pneumonia-new)\nLung abscess\nMediastinitis\nPertussis\nTuberculosis\n[Azithromycin for prevention of COPD exacerbations](azithromycin-prevention-of-exacerbations-copd)\nLast Reviewed: 2025",
+  "Text": "## ++ LUNGS AND MEDIASTINUM ++\n[Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)](general-information-inpatient)\n[Bronchitis](bronchitis)\n[Empyema](empyema)\n[Exacerbation of chronic obstructive pulmonary disease (COPD)](orzid2-gmenu-abx-copd-exacerbation)\n[Influenza Seasonal](orzid2-gmenu-abx-influenza-recommendations)\n[Lung abscess](empyema)\n[Mediastinitis](orzid2-gmenu-abx-mediastinitis)\n[Pertussis](pertussis)\n[Tuberculosis](orzid2-gmenu-abx-tuberculosis)\n[Azithromycin for prevention of COPD exacerbations](azithromycin-prevention-of-exacerbations-copd)\nLast Reviewed: 2025\n<!-- RIGHT COLUMN -->\n## Pneumonia\n[Aspiration pneumonia](aspiration-pneumonia)\n[Community-acquired pneumonia (CAP)](com-acq-pneumonia)\n[Nosocomial pneumonia (including HAP and VAP)](noso-pneumonia-new)",
   "LinkTargets": [
     {
       "Text": "Aspiration pneumonia",
