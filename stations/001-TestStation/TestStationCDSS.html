@@ -781,7 +781,7 @@ function resolveEmbeddedLinkTarget(selectedData, target) {
   }
 
   if (normalizedTarget.toLowerCase().startsWith('cdss:')) {
-    return normalizedTarget.substring(5).trim();
+    return resolveTargetForCurrentVersion(normalizedTarget.substring(5).trim());
   }
 
   // Direct PageID lookup: fastest path for combined page-to-page links
@@ -789,7 +789,7 @@ function resolveEmbeddedLinkTarget(selectedData, target) {
     m.Name.trim().toLowerCase() === normalizedTarget.toLowerCase()
   );
   if (directPage) {
-    return directPage.Name;
+    return resolveTargetForCurrentVersion(directPage.Name);
   }
 
   // Fallback: resolve via current page's LinkTargets
@@ -798,7 +798,7 @@ function resolveEmbeddedLinkTarget(selectedData, target) {
     (link.Item || '').trim().toLowerCase() === normalizedTarget.toLowerCase()
   );
   if (byItem && byItem.Item) {
-    return byItem.Item;
+    return resolveTargetForCurrentVersion(byItem.Item);
   }
 
   // Legacy Key fallback (VistA order links still use Keys)
@@ -806,10 +806,44 @@ function resolveEmbeddedLinkTarget(selectedData, target) {
     (link.Key || '').trim().toLowerCase() === normalizedTarget.toLowerCase()
   );
   if (byKey && byKey.Item) {
-    return byKey.Item;
+    return resolveTargetForCurrentVersion(byKey.Item);
   }
 
   return null;
+}
+
+function findMenuByNameInsensitive(name) {
+  const normalized = (name || '').trim().toLowerCase();
+  if (!normalized) {
+    return null;
+  }
+  return omData.find(item => (item.Name || '').trim().toLowerCase() === normalized) || null;
+}
+
+function resolveTargetForCurrentVersion(targetName) {
+  const normalizedTarget = (targetName || '').trim();
+  if (!normalizedTarget || currentVersion !== 'combined') {
+    return normalizedTarget;
+  }
+
+  const directTarget = findMenuByNameInsensitive(normalizedTarget);
+  if (directTarget && directTarget.Combined) {
+    const mappedCombined = findMenuByNameInsensitive(directTarget.Combined);
+    if (mappedCombined) {
+      return mappedCombined.Name;
+    }
+  }
+
+  const reverseMappedCombined = omData.find(item =>
+    (item.Inpt || '').trim().toLowerCase() === normalizedTarget.toLowerCase() ||
+    (item.Outpt || '').trim().toLowerCase() === normalizedTarget.toLowerCase() ||
+    (item.ERUC || '').trim().toLowerCase() === normalizedTarget.toLowerCase()
+  );
+  if (reverseMappedCombined) {
+    return reverseMappedCombined.Name;
+  }
+
+  return normalizedTarget;
 }
 
 function appendRichTextLineContent(container, lineText, selectedData) {
@@ -899,10 +933,91 @@ function createRichTextTable(selectedData) {
   checkMatchesAndSetButtonAppearance();
   forwardBackButtonActivate();
 }
+
+function createCombinedMainMenuTable(selectedData) {
+  const table = document.createElement('table');
+  table.classList.add('table');
+  const tbody = document.createElement('tbody');
+  const content = typeof selectedData.Text === 'string' ? selectedData.Text : '';
+  const lines = content.split(/\r?\n/);
+  const sections = [];
+  let currentSection = null;
+
+  lines.forEach((line) => {
+    const headingMatch = line.match(/^\s{0,3}#{1,6}\s+(.*)$/);
+    if (headingMatch) {
+      currentSection = { heading: headingMatch[1].trim(), lines: [] };
+      sections.push(currentSection);
+      return;
+    }
+
+    if (!line.trim()) {
+      return;
+    }
+
+    if (!currentSection) {
+      currentSection = { heading: '', lines: [] };
+      sections.push(currentSection);
+    }
+    currentSection.lines.push(line);
+  });
+
+  const screenWidth = window.innerWidth / (window.devicePixelRatio || 1);
+  const columns = screenWidth < 900 ? 1 : 2;
+
+  for (let i = 0; i < sections.length; i += columns) {
+    const bodyRow = document.createElement('tr');
+
+    for (let c = 0; c < columns; c++) {
+      const section = sections[i + c];
+      const displayCell = document.createElement('td');
+      if (!section) {
+        bodyRow.appendChild(displayCell);
+        continue;
+      }
+
+      if (section.heading) {
+        const headingElement = document.createElement('div');
+        headingElement.classList.add('bold');
+        headingElement.textContent = section.heading;
+        displayCell.appendChild(headingElement);
+      }
+
+      section.lines.forEach((sectionLine) => {
+        const lineElement = document.createElement('div');
+        appendRichTextLineContent(lineElement, sectionLine, selectedData);
+        displayCell.appendChild(lineElement);
+      });
+
+      bodyRow.appendChild(displayCell);
+    }
+
+    tbody.appendChild(bodyRow);
+  }
+
+  const itemRow = document.createElement('tr');
+  const itemCell = document.createElement('td');
+  itemCell.colSpan = columns;
+  itemCell.textContent = 'Page ID: ' + selectedData.Name;
+  itemRow.appendChild(itemCell);
+  tbody.appendChild(itemRow);
+
+  table.appendChild(tbody);
+  const resultContainer = document.getElementById('resultContainer');
+  resultContainer.innerHTML = '';
+  resultContainer.appendChild(table);
+  checkMatchesAndSetButtonAppearance();
+  forwardBackButtonActivate();
+}
   
 // Function to create table from OMJson Data  
 function createOMTable(selectedData) {
   if (!selectedData) {
+    return;
+  }
+
+  if (selectedData.Name === combinedMenu && typeof selectedData.Text === 'string') {
+    createCombinedMainMenuTable(selectedData);
     return;
   }
 
@@ -1079,8 +1194,10 @@ if (historyIndex > 0) {
     }
 }
 async function handleRowClick(item, ClickSymbol) {
+  const requestedTarget = item && item.Item ? item.Item : '';
+  const resolvedTarget = resolveTargetForCurrentVersion(requestedTarget);
     const matchingItem = omData.find(
-        omItem => omItem.Name.trim().toLowerCase() === item.Item.trim().toLowerCase()
+    omItem => omItem.Name.trim().toLowerCase() === resolvedTarget.trim().toLowerCase()
     );
     const dropdown = document.getElementById('filterDropdown');
 
