@@ -863,6 +863,74 @@ function findMenuByNameInsensitive(name) {
   return omData.find(item => (item.Name || '').trim().toLowerCase() === normalized) || null;
 }
 
+function extractMarkdownLinks(lineText) {
+  const links = [];
+  let index = 0;
+
+  while (index < lineText.length) {
+    const labelStart = lineText.indexOf('[', index);
+    if (labelStart === -1) {
+      break;
+    }
+
+    let cursor = labelStart + 1;
+    let labelDepth = 1;
+    while (cursor < lineText.length && labelDepth > 0) {
+      const ch = lineText[cursor];
+      if (ch === '\\') {
+        cursor += 2;
+        continue;
+      }
+      if (ch === '[') {
+        labelDepth += 1;
+      } else if (ch === ']') {
+        labelDepth -= 1;
+      }
+      cursor += 1;
+    }
+
+    if (labelDepth !== 0 || lineText[cursor] !== '(') {
+      index = labelStart + 1;
+      continue;
+    }
+
+    const labelEnd = cursor - 1;
+    const targetStart = cursor + 1;
+    cursor = targetStart;
+    let targetDepth = 1;
+    while (cursor < lineText.length && targetDepth > 0) {
+      const ch = lineText[cursor];
+      if (ch === '\\') {
+        cursor += 2;
+        continue;
+      }
+      if (ch === '(') {
+        targetDepth += 1;
+      } else if (ch === ')') {
+        targetDepth -= 1;
+      }
+      cursor += 1;
+    }
+
+    if (targetDepth !== 0) {
+      index = labelStart + 1;
+      continue;
+    }
+
+    const targetEnd = cursor - 1;
+    links.push({
+      index: labelStart,
+      end: cursor,
+      fullMatch: lineText.substring(labelStart, cursor),
+      label: lineText.substring(labelStart + 1, labelEnd),
+      target: lineText.substring(targetStart, targetEnd)
+    });
+    index = cursor;
+  }
+
+  return links;
+}
+
 function resolveTargetForCurrentVersion(targetName) {
   const normalizedTarget = (targetName || '').trim();
   if (!normalizedTarget || currentVersion !== 'combined') {
@@ -890,18 +958,18 @@ function resolveTargetForCurrentVersion(targetName) {
 }
 
 function appendRichTextLineContent(container, lineText, selectedData) {
-  const markdownLinkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const markdownLinks = extractMarkdownLinks(lineText);
   let currentIndex = 0;
-  let match;
 
-  while ((match = markdownLinkRegex.exec(lineText)) !== null) {
-    const [fullMatch, label, rawTarget] = match;
+  markdownLinks.forEach((match) => {
     const plainText = lineText.substring(currentIndex, match.index);
     if (plainText) {
       container.appendChild(document.createTextNode(plainText));
     }
 
-    const target = decodeURIComponent((rawTarget || '').trim());
+    const label = (match.label || '').trim();
+    const fullMatch = match.fullMatch;
+    const target = decodeURIComponent((match.target || '').trim());
     if (isValidURL(target)) {
       const externalLink = document.createElement('a');
       externalLink.href = target;
@@ -924,12 +992,111 @@ function appendRichTextLineContent(container, lineText, selectedData) {
       }
     }
 
-    currentIndex = match.index + fullMatch.length;
-  }
+    currentIndex = match.end;
+  });
 
   if (currentIndex < lineText.length) {
     container.appendChild(document.createTextNode(lineText.substring(currentIndex)));
   }
+}
+
+function isStructuredRichTextNavigationPage(selectedData) {
+  if (!selectedData || selectedData.Name === combinedMenu || typeof selectedData.Text !== 'string') {
+    return false;
+  }
+
+  const headingCount = (selectedData.Text.match(/^\s{0,3}##\s+/gm) || []).length;
+  const linkCount = (selectedData.Text.match(/\]\(/g) || []).length;
+  const targetCount = Array.isArray(selectedData.LinkTargets) ? selectedData.LinkTargets.length : 0;
+  return headingCount >= 4 && (linkCount >= 6 || targetCount >= 6);
+}
+
+function createStructuredRichTextNavigationTable(selectedData) {
+  const table = document.createElement('table');
+  table.classList.add('table');
+  const tbody = document.createElement('tbody');
+  const lines = (selectedData.Text || '').split(/\r?\n/);
+
+  let topBanner = '';
+  const sections = [];
+  let currentSection = null;
+
+  lines.forEach((line) => {
+    const headingMatch = line.match(/^\s{0,3}##\s+(.*)$/);
+    if (headingMatch) {
+      const headingText = headingMatch[1].trim();
+      if (!topBanner && headingText.includes('++')) {
+        topBanner = headingText;
+        currentSection = null;
+        return;
+      }
+      currentSection = { heading: headingText, lines: [] };
+      sections.push(currentSection);
+      return;
+    }
+
+    if (!line.trim()) {
+      return;
+    }
+
+    if (!currentSection) {
+      currentSection = { heading: '', lines: [] };
+      sections.push(currentSection);
+    }
+    currentSection.lines.push(line);
+  });
+
+  const screenWidth = window.innerWidth / (window.devicePixelRatio || 1);
+  const columns = screenWidth < 900 ? 1 : 2;
+
+  if (topBanner) {
+    const bannerRow = document.createElement('tr');
+    const bannerCell = document.createElement('td');
+    bannerCell.colSpan = columns;
+    bannerCell.classList.add('bold');
+    bannerCell.style.backgroundColor = 'lightblue';
+    bannerCell.textContent = topBanner;
+    bannerRow.appendChild(bannerCell);
+    tbody.appendChild(bannerRow);
+  }
+
+  for (let i = 0; i < sections.length; i += columns) {
+    const row = document.createElement('tr');
+    for (let c = 0; c < columns; c++) {
+      const section = sections[i + c];
+      const cell = document.createElement('td');
+      if (section) {
+        if (section.heading) {
+          const headingElement = document.createElement('div');
+          headingElement.classList.add('bold');
+          headingElement.textContent = section.heading;
+          cell.appendChild(headingElement);
+        }
+        section.lines.forEach((sectionLine) => {
+          const lineElement = document.createElement('div');
+          appendRichTextLineContent(lineElement, sectionLine, selectedData);
+          cell.appendChild(lineElement);
+        });
+      }
+      row.appendChild(cell);
+    }
+    tbody.appendChild(row);
+  }
+
+  const itemRow = document.createElement('tr');
+  const itemCell = document.createElement('td');
+  itemCell.colSpan = columns;
+  const isPageID = /^[a-z0-9][a-z0-9\-]*$/.test(selectedData.Name);
+  itemCell.textContent = (isPageID ? 'Page ID: ' : 'Page Target: ') + selectedData.Name;
+  itemRow.appendChild(itemCell);
+  tbody.appendChild(itemRow);
+
+  table.appendChild(tbody);
+  const resultContainer = document.getElementById('resultContainer');
+  resultContainer.innerHTML = '';
+  resultContainer.appendChild(table);
+  checkMatchesAndSetButtonAppearance();
+  forwardBackButtonActivate();
 }
 
 function createRichTextTable(selectedData) {
@@ -1061,6 +1228,11 @@ function createOMTable(selectedData) {
 
   if (selectedData.Name === combinedMenu && typeof selectedData.Text === 'string') {
     createCombinedMainMenuTable(selectedData);
+    return;
+  }
+
+  if (isStructuredRichTextNavigationPage(selectedData)) {
+    createStructuredRichTextNavigationTable(selectedData);
     return;
   }
 
