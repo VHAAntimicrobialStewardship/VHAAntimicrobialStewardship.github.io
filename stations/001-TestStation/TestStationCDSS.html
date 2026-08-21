@@ -1018,8 +1018,7 @@ function createStructuredRichTextNavigationTable(selectedData) {
   const lines = (selectedData.Text || '').split(/\r?\n/);
 
   let topBanner = '';
-  const sections = [];
-  let currentSection = null;
+  const entries = [];
 
   lines.forEach((line) => {
     const headingMatch = line.match(/^\s{0,3}##\s+(.*)$/);
@@ -1027,11 +1026,9 @@ function createStructuredRichTextNavigationTable(selectedData) {
       const headingText = headingMatch[1].trim();
       if (!topBanner && headingText.includes('++')) {
         topBanner = headingText;
-        currentSection = null;
         return;
       }
-      currentSection = { heading: headingText, lines: [] };
-      sections.push(currentSection);
+      entries.push({ text: headingText, isHeading: true });
       return;
     }
 
@@ -1039,11 +1036,7 @@ function createStructuredRichTextNavigationTable(selectedData) {
       return;
     }
 
-    if (!currentSection) {
-      currentSection = { heading: '', lines: [] };
-      sections.push(currentSection);
-    }
-    currentSection.lines.push(line);
+    entries.push({ text: line, isHeading: false });
   });
 
   const screenWidth = window.innerWidth / (window.devicePixelRatio || 1);
@@ -1060,23 +1053,18 @@ function createStructuredRichTextNavigationTable(selectedData) {
     tbody.appendChild(bannerRow);
   }
 
-  for (let i = 0; i < sections.length; i += columns) {
+  for (let i = 0; i < entries.length; i += columns) {
     const row = document.createElement('tr');
     for (let c = 0; c < columns; c++) {
-      const section = sections[i + c];
+      const entry = entries[i + c];
       const cell = document.createElement('td');
-      if (section) {
-        if (section.heading) {
-          const headingElement = document.createElement('div');
-          headingElement.classList.add('bold');
-          headingElement.textContent = section.heading;
-          cell.appendChild(headingElement);
+      if (entry) {
+        const lineElement = document.createElement('div');
+        if (entry.isHeading) {
+          lineElement.classList.add('bold');
         }
-        section.lines.forEach((sectionLine) => {
-          const lineElement = document.createElement('div');
-          appendRichTextLineContent(lineElement, sectionLine, selectedData);
-          cell.appendChild(lineElement);
-        });
+        appendRichTextLineContent(lineElement, entry.text, selectedData);
+        cell.appendChild(lineElement);
       }
       row.appendChild(cell);
     }
