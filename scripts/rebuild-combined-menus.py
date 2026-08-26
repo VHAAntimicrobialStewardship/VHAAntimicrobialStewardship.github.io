@@ -16,7 +16,10 @@ Steps:
 
 import copy
 import json
+import os
 import re
+import shutil
+import tempfile
 from pathlib import Path
 
 import openpyxl
@@ -25,33 +28,26 @@ ROOT = Path(__file__).parent.parent
 XLSX = ROOT / "AntimicrobialStewardshipGuidanceCombined.xlsx"
 TEST_PATH = ROOT / "stations" / "001-TestStation" / "TestStationOMJSON.json"
 
+# Copy xlsx to temp dir to avoid OneDrive lock issues
+_tmp = Path(tempfile.gettempdir()) / "GuidanceCombined_rebuild.xlsx"
+shutil.copy2(XLSX, _tmp)
+XLSX = _tmp
+
 PLACEHOLDERS = {"", "mehul", "mahul", "mimi"}
 INPT_MAIN_NAME = "ORZID2 GMENU ABX INPT MAIN"
-COMBINED_MAIN_ID = "main-menu"
+COMBINED_MAIN_NAME = "ORZC GMENU ABX INPT MAIN"
 
 
 def to_combined_name(inpt_name: str) -> str:
-    """Convert inpatient VistA menu names into PageID slugs for combined pages."""
-    name = inpt_name
-    name = re.sub(r"^ORZID2\s+GMENU\s+", "", name)
-    name = re.sub(r"^ORZID2\s+", "", name)
-    name = re.sub(r"^GMENU\s+", "", name)
-    name = re.sub(r"^ABX\s+", "", name)
-    name = re.sub(r"\s{2,}", " ", name).strip()
-    # Convert to PageID slug
-    slug = name.lower()
-    slug = re.sub(r"[\s/]", "-", slug)
-    slug = re.sub(r"[^a-z0-9\-]", "", slug)
-    slug = re.sub(r"-+", "-", slug).strip("-")
-    return slug or "page"
+    """Convert inpatient VistA menu name to ORZC equivalent."""
+    return re.sub(r"^ORZID2\s+", "ORZC ", inpt_name)
 
 
 def extract_tab(ws):
-    headers = {
-        str(ws.cell(1, c).value).strip(): c
-        for c in range(1, ws.max_column + 1)
-        if ws.cell(1, c).value
-    }
+    rows = list(ws.iter_rows(values_only=True))
+    if not rows:
+        return {}
+    headers = {str(v).strip(): i for i, v in enumerate(rows[0]) if v}
     if "Combined Guidance" not in headers:
         return {}
 
@@ -59,9 +55,9 @@ def extract_tab(ws):
     menu_col = headers["Source Menu Name (Inpatient)"]
     result = {}
 
-    for r in range(2, ws.max_row + 1):
-        menu = ws.cell(r, menu_col).value
-        comb = ws.cell(r, comb_col).value
+    for row in rows[1:]:
+        menu = row[menu_col] if len(row) > menu_col else None
+        comb = row[comb_col] if len(row) > comb_col else None
         if not menu or not comb:
             continue
 
@@ -121,14 +117,13 @@ existing_combined_names = {
     if isinstance(m.get("Combined"), str) and m.get("Combined").strip()
 }
 
-# Keep legacy pages, remove only previously generated combined pages.
+# Strip all existing combined pages (ORZC prefix and slug-style) and Combined fields.
 data["menus"] = [
     m
     for m in data["menus"]
-    if m["Name"] not in existing_combined_names
-    and not m["Name"].startswith("ORZC ")
+    if not m["Name"].startswith("ORZC ")
     and not m["Name"].startswith("COMBINED ")
-    and not re.match(r'^[a-z0-9][a-z0-9\-]*$', m["Name"])  # existing PageID pages
+    and not re.match(r'^[a-z0-9][a-z0-9\-]*$', m["Name"])  # slug-style pages
 ]
 for m in data["menus"]:
     m.pop("Combined", None)
@@ -170,7 +165,7 @@ data["menus"].extend(new_menus)
 by_name = {m["Name"]: m for m in data["menus"]}
 
 inpt_main = by_name.get(INPT_MAIN_NAME)
-combined_main = by_name.get(COMBINED_MAIN_ID)
+combined_main = by_name.get(COMBINED_MAIN_NAME)
 
 if inpt_main and combined_main:
     combined_main["Term1"] = inpt_main.get("Term1", "")
@@ -190,7 +185,7 @@ if inpt_main and combined_main:
         f"{remapped} remapped to Combined"
     )
 elif not combined_main:
-    print("WARNING: INPT MAIN not found while rebuilding combined main menu")
+    print("WARNING: Combined main menu not found")
 
 with open(TEST_PATH, "w", encoding="utf-8") as f:
     json.dump(data, f, indent=2, ensure_ascii=False)

@@ -88,13 +88,17 @@ def build_candidate_link_targets(combined_menu: dict) -> list:
             target_menu = by_name.get(item)
             if target_menu and target_menu.get("Combined") and target_menu["Combined"] in by_name:
                 item = target_menu["Combined"]
-                # PageID slug IS the item; no Key needed
-            
-            # Deduplicate by text label; no Key emitted for combined->combined links
+                key = make_key_from_item(item)
+
+            # Fall back to deriving key from item name if not set.
+            if not key:
+                key = make_key_from_item(item)
+
+            # Deduplicate by text label.
             norm_text = text.lower().strip()
             if norm_text not in seen_texts:
                 seen_texts.add(norm_text)
-                candidates.append({"Text": text, "Item": item})
+                candidates.append({"Key": key, "Text": text, "Item": item})
 
     return candidates
 
