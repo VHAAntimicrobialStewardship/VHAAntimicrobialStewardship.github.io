@@ -1,8 +1,8 @@
 {
   "PageID": "ssti-main-menu",
-  "Term1": "SSTI MAIN MENU",
-  "Term2": "",
-  "Text": "[Help Information](orzc-gmenu-abx-general-information-inpatient)\n## Inpatient/Outpatient\n\n## Mild, Non-purulent\n## Purulent SSTI\n## Complex SSTI\n[Cellulitis & erysipelas](orzc-gmenu-abx-cellulitis)\nINCLUDING:\n[Surgical site infections (SSI)](orzc-gmenu-surg-surgical-site-infect)\nCutaneous Abscess\nFuruncles\nCarbuncles\nOther SSTI with pus present\n[[Click here for above]](orzc-gmenu-ssti-purulent-infections)\n[Perianal/anorectal abscess](orzc-gmenu-abx-perianal-anorectal-abscess)\n## Diabetic Foot Infections\n## Necrotizing SSTI\n## [Decubitus Ulcers](orzc-gmenu-decubitus-ulcers)\n[Click here]\n[Click here]\n## Viral Skin Infections\n## Fungal Skin Infections\n## Miscellaneous\n[Click here]\n[Click here]\nAcne\nErythrasma\n## Bite Wounds\n## Dermatology Post-Op Infection\nFolliculitis\nAnimal Bite\n[Click here]\n[Hidradenitis Suppurativa](orzc-gmenu-hidradenitis-suppurativa)\nHuman Bite\nImpetigo\n[Click here for above]\nLyme\nRosacea\n## Bed Bugs, Lice, Scabies\nParonychia\n[Click here]",
+  "Term1": "Skin and Soft Tissue Infections",
+  "Term2": "SSTI",
+  "Text": "## Skin and Soft Tissue Infections\n\nInfection management options organized by infection type. Select your clinical scenario from the three-column menu below.\n\n### Column 1: Mild, Non-Purulent Infections\n- Cellulitis & erysipelas\n- Diabetic foot infections\n- Viral skin infections\n- Bite wounds\n- Bed bugs, lice, scabies\n\n### Column 2: Purulent Infections & Complications\n- Purulent SSTI (abscesses, furuncles, carbuncles)\n- Necrotizing SSTI (aggressive infections requiring surgery)\n- Fungal skin infections\n- Dermatology post-op infections\n\n### Column 3: Complex & Specialized\n- Surgical site infections\n- Decubitus ulcers (pressure ulcers)\n- Miscellaneous (acne, rosacea, erythrasma, folliculitis, impetigo, lyme disease, hidradenitis suppurativa, paronychia)",
   "LinkTargets": [
     {
       "Text": "Help Information",
@@ -25,12 +25,68 @@
       "Item": "perianal-anorectal-abscess"
     },
     {
+      "Text": "Foot ulcer in patient with diabetes mellitus",
+      "Item": "foot-ulcer-w-infect"
+    },
+    {
+      "Text": "Necrotizing infections",
+      "Item": "necrotizing-infections"
+    },
+    {
       "Text": "Decubitus ulcers",
       "Item": "decubitus-ulcers"
     },
     {
+      "Text": "Viral SSTI Submenu",
+      "Item": "viral-ssti"
+    },
+    {
+      "Text": "Fungal SSTI",
+      "Item": "ssti-fungal"
+    },
+    {
+      "Text": "Acne",
+      "Item": "acne"
+    },
+    {
+      "Text": "Erythrasma",
+      "Item": "erythrasma"
+    },
+    {
+      "Text": "Folliculitis",
+      "Item": "folliculitis"
+    },
+    {
+      "Text": "Bite wounds",
+      "Item": "bite-wounds"
+    },
+    {
+      "Text": "Dermatology Recommendations",
+      "Item": "dermatologic-surgery-guidelines"
+    },
+    {
+      "Text": "Impetigo",
+      "Item": "impetigo"
+    },
+    {
+      "Text": "Lyme Disease",
+      "Item": "lyme-disease"
+    },
+    {
       "Text": "Hidradenitis Suppurativa",
       "Item": "hidradenitis-suppurativa"
+    },
+    {
+      "Text": "Rosacea",
+      "Item": "rosacea"
+    },
+    {
+      "Text": "Paronychia",
+      "Item": "paronychia"
+    },
+    {
+      "Text": "Bed bugs, lice, scabies",
+      "Item": "ssti-bed-bugs-lice-scabies"
     }
   ],
   "Inpt": "ORZID2 GMENU SSTI MAIN MENU",

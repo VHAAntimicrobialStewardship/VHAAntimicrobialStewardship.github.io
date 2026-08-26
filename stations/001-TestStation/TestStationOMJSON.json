@@ -165,7 +165,7 @@
       "Name": "antiviral-immunosuppressive-malignancy",
       "Term1": "ORZID2 GMENU ANTIVIRAL IMMUNOSUPPRESSIVE MALIGNANCY",
       "Term2": "",
-      "Text": "## PREVENTION OF ANTIVIRAL INFECTIONS IN A PATIENT WITH MALIGNANCY\n## Severly Immunosuppressive Chemo-immunotherapy\n## Purine Analogues\nChemotherapy with purine analogues such as fludarabine, cladribine, or\npentostatin results in major cellular-immunodeficiency that may outlast the\nexposure by months and enhances the risk for viral infections.\nRecommend antiviral prophylaxis for patients treated with purine analogues,\nif at least one of the following risk factors is present:\na) Second-line chemotherapy\nb) Treatment with corticosteroids\nc) CD4 cell count <50/ul\nd) Age >65 years\ne) Prolonged Mild or Moderate Neutropenia: Mild<1000 Neutrophils /\n�L (Grade III neutropenia) OR Moderate: <500 Neutrophils/�L\n(Grade IV neutropenia)\n## Recommendations:\nDuration: Antiviral prophylaxis should be initiated in the first week of\ntherapy and continued until 2 months after completion of therapy.\n[Acyclovir 800 MG PO q12h ($) [R]](psjzid-acyclovir-800-mg-po-bid-prophylaxis)\n## Alemtuzumab Therapy:\nAlemtuzumab is a potent reactivator of latent intracellular pathogens,\nincluding CMV. Chemotherapy with alemtuzumab results in major cellular-\nimmunodeficiency that may outlast the exposure by months and enhances the\nrisk for viral infections. The risk of viral disease increases with the\nintensity and duration of functional T-cell suppression experienced with\nrecipients of alemtuzumab.\n## Recommendations:\nDuration: Initiate antiviral prophylaxis with alemtuzumab therapy and\ncontinue therapy for at least 2 months after last dose or until CD4 counts\nare greater than or equal to 200 cells/ul, whichever is later.\nAcyclovir 800 MG PO q12h ($) [R]\n## References:\nTaplitz RA Journal of Clinical Oncology 2018, 36:3043\nMandel Chapter: Prophylaxis and Empirical Therapy of Infection in\nCancer Patients\nUp-to-Date website\nSandherr M Annals of Oncology 2006, 17:1051\n\n## Outpatient\n\nGuidance\n## Recommendations:\n[Acyclovir 800 MG PO BID ($0.40/day) [R]](psozid-acyclovir-800-mg-po-bid)",
+      "Text": "## PREVENTION OF ANTIVIRAL INFECTIONS IN A PATIENT WITH MALIGNANCY\n## Severly Immunosuppressive Chemo-immunotherapy\n## Purine Analogues\nChemotherapy with purine analogues such as fludarabine, cladribine, or\npentostatin results in major cellular-immunodeficiency that may outlast the\nexposure by months and enhances the risk for viral infections.\nRecommend antiviral prophylaxis for patients treated with purine analogues,\nif at least one of the following risk factors is present:\na) Second-line chemotherapy\nb) Treatment with corticosteroids\nc) CD4 cell count <50/ul\nd) Age >65 years\ne) Prolonged Mild or Moderate Neutropenia: Mild<1000 Neutrophils /\n\ufffdL (Grade III neutropenia) OR Moderate: <500 Neutrophils/\ufffdL\n(Grade IV neutropenia)\n## Recommendations:\nDuration: Antiviral prophylaxis should be initiated in the first week of\ntherapy and continued until 2 months after completion of therapy.\n[Acyclovir 800 MG PO q12h ($) [R]](psjzid-acyclovir-800-mg-po-bid-prophylaxis)\n## Alemtuzumab Therapy:\nAlemtuzumab is a potent reactivator of latent intracellular pathogens,\nincluding CMV. Chemotherapy with alemtuzumab results in major cellular-\nimmunodeficiency that may outlast the exposure by months and enhances the\nrisk for viral infections. The risk of viral disease increases with the\nintensity and duration of functional T-cell suppression experienced with\nrecipients of alemtuzumab.\n## Recommendations:\nDuration: Initiate antiviral prophylaxis with alemtuzumab therapy and\ncontinue therapy for at least 2 months after last dose or until CD4 counts\nare greater than or equal to 200 cells/ul, whichever is later.\nAcyclovir 800 MG PO q12h ($) [R]\n## References:\nTaplitz RA Journal of Clinical Oncology 2018, 36:3043\nMandel Chapter: Prophylaxis and Empirical Therapy of Infection in\nCancer Patients\nUp-to-Date website\nSandherr M Annals of Oncology 2006, 17:1051\n\n## Outpatient\n\nGuidance\n## Recommendations:\n[Acyclovir 800 MG PO BID ($0.40/day) [R]](psozid-acyclovir-800-mg-po-bid)",
       "LinkTargets": [
         {
           "Key": "psjzid-acyclovir-800-mg-po-bid-prophylaxis",
@@ -12784,7 +12784,7 @@
       "Name": "ORZID2 GMENU ABX ESBL KPC ETC",
       "Term1": "Resistant gram-negative bacteria, information",
       "Term2": "Gram-negative bacteria, resistance information",
-      "Text": "# Gram-Negative Bacilli Drug Resistance\n\nIn some Gram-negative bacilli, potent bacterial enzymes have emerged that\n\ninactive many newer broad-spectrum beta lactam drugs. These include extended-\n\nspectrum beta-lactamases (ESBLs), serine carbapenemases, metallo-beta-\n\nlactamases, AmpC beta-lactamases and oxacillinases. These enzymes are most\n\ncommon in strains of Acinetobacter, Citrobacter, Enterobacter, Escherichia coli,\n\nKlebsiella, Proteus, Pseudomonas aeruginosa, Salmonella, and Serratia\n\nmarcescens. The enzymes can be latent under many circumstances. However, in\n\npatients receiving beta lactam antibiotics, the enzymes can be expressed and\n\ncontribute to treatment failure. Because of this, and since the enzymes continue\n\nto evolve, they are difficult to detect in clinical microbiology laboratories.\n\nBacteria carrying these enzymes are often also resistant to many other commonly\n\nused antimicrobials, including trimethoprim-sulfamethoxazole, quinolones, and\n\nothers, through different mechanisms. Enterobacteriaceae, Pseudomonas and\n\nAcinetobacter are increasingly resistant to all antimicrobials.\n\nClinicians must be aware that these enzymes may not be detected in all strains\n\nthat carry them. If a Gram-negative infection is not responding to therapy with\n\na beta lactam drug, consider adding or switching to a drug that is not a beta\n\nlactam and appears active in the susceptibility report.\n\nIf a patient is suspected of having a Gram-negative infection and is likely to\n\nbe colonized with bacteria carrying these enzymes, empirical therapy with\n\nalternative drugs that are not inactivated by them should be considered.\n\n# Risk factors for colonization or infection with resistant gram-negative bacilli\n\n1. Travel to Asia\n\n2. Central venous catheters and other indwelling tube and drains\n\n3. Recent surgical procedures\n\n4. Recent antibiotic therapy\n\n5. Long-term care facility residence\n\n6. Multiple, severe chronic illnesses\n\n7. Ventilator assistance\n\n8. Hemodialysis\n\n9. Long hospital or ICU stay.\n\n# AmpC beta-lactamases alternative antimicrobials\n\nInactivate many cephalosporins, most penicillins, and beta-lactam inhibitor\n\ncombinations. Alternatives include aminoglycosides, carbapenems, cefepime and\n\ncolistin.\n\n# ESBLs alternative antimicrobials\n\nInactivate most cephalosporins, monobactams, and penicillins. Alternatives\n\ninclude aminoglycosides, carbapenems and colistin.\n\n# Serine carbapenemases, metallo-beta-lactamases and oxacillinases alternative\n\n# antimicrobials\n\nConfer resistance to all beta-lactams. Most strains are also resistant to most\n\nother antibiotic classes. Alternatives include aminoglycosides and colistin.\n\nInfectious Diseases consultation is recommended.\n\n# Additional alternative antimicrobials\n\nTrimethoprim-sulfamethoxazole and quinolones are non-beta-lactam alternative\n\nantimicrobials, especially useful for IV to PO conversion. Gram negative bacilli\n\nco-resistance to these antimicrobials is common however. Tigecycline (restricted\n\nto ID) and ceftazidime-avibactam (non-formulary) are also potential options for\n\nsusceptible isolates. Infectious Diseases consultation is required for their\n\nuse.\n\nReferences\n\nMandell chapter: Molecular Mechanisms of Antibiotic Resistance in Bacteria\n\nUp-to-Date article: Extended-spectrum beta-lactamases\n\nUp-to-Date article: Overview of carbapenemase-producing gram-negative bacilli\n\nRodr�guez-Bano et al. Clinical microbiology reviews, 2018, 31(2): e00079-17\n\nSanford guide keyword: Gram Negative Bacilli, Drug Resistance, Overview",
+      "Text": "# Gram-Negative Bacilli Drug Resistance\n\nIn some Gram-negative bacilli, potent bacterial enzymes have emerged that\n\ninactive many newer broad-spectrum beta lactam drugs. These include extended-\n\nspectrum beta-lactamases (ESBLs), serine carbapenemases, metallo-beta-\n\nlactamases, AmpC beta-lactamases and oxacillinases. These enzymes are most\n\ncommon in strains of Acinetobacter, Citrobacter, Enterobacter, Escherichia coli,\n\nKlebsiella, Proteus, Pseudomonas aeruginosa, Salmonella, and Serratia\n\nmarcescens. The enzymes can be latent under many circumstances. However, in\n\npatients receiving beta lactam antibiotics, the enzymes can be expressed and\n\ncontribute to treatment failure. Because of this, and since the enzymes continue\n\nto evolve, they are difficult to detect in clinical microbiology laboratories.\n\nBacteria carrying these enzymes are often also resistant to many other commonly\n\nused antimicrobials, including trimethoprim-sulfamethoxazole, quinolones, and\n\nothers, through different mechanisms. Enterobacteriaceae, Pseudomonas and\n\nAcinetobacter are increasingly resistant to all antimicrobials.\n\nClinicians must be aware that these enzymes may not be detected in all strains\n\nthat carry them. If a Gram-negative infection is not responding to therapy with\n\na beta lactam drug, consider adding or switching to a drug that is not a beta\n\nlactam and appears active in the susceptibility report.\n\nIf a patient is suspected of having a Gram-negative infection and is likely to\n\nbe colonized with bacteria carrying these enzymes, empirical therapy with\n\nalternative drugs that are not inactivated by them should be considered.\n\n# Risk factors for colonization or infection with resistant gram-negative bacilli\n\n1. Travel to Asia\n\n2. Central venous catheters and other indwelling tube and drains\n\n3. Recent surgical procedures\n\n4. Recent antibiotic therapy\n\n5. Long-term care facility residence\n\n6. Multiple, severe chronic illnesses\n\n7. Ventilator assistance\n\n8. Hemodialysis\n\n9. Long hospital or ICU stay.\n\n# AmpC beta-lactamases alternative antimicrobials\n\nInactivate many cephalosporins, most penicillins, and beta-lactam inhibitor\n\ncombinations. Alternatives include aminoglycosides, carbapenems, cefepime and\n\ncolistin.\n\n# ESBLs alternative antimicrobials\n\nInactivate most cephalosporins, monobactams, and penicillins. Alternatives\n\ninclude aminoglycosides, carbapenems and colistin.\n\n# Serine carbapenemases, metallo-beta-lactamases and oxacillinases alternative\n\n# antimicrobials\n\nConfer resistance to all beta-lactams. Most strains are also resistant to most\n\nother antibiotic classes. Alternatives include aminoglycosides and colistin.\n\nInfectious Diseases consultation is recommended.\n\n# Additional alternative antimicrobials\n\nTrimethoprim-sulfamethoxazole and quinolones are non-beta-lactam alternative\n\nantimicrobials, especially useful for IV to PO conversion. Gram negative bacilli\n\nco-resistance to these antimicrobials is common however. Tigecycline (restricted\n\nto ID) and ceftazidime-avibactam (non-formulary) are also potential options for\n\nsusceptible isolates. Infectious Diseases consultation is required for their\n\nuse.\n\nReferences\n\nMandell chapter: Molecular Mechanisms of Antibiotic Resistance in Bacteria\n\nUp-to-Date article: Extended-spectrum beta-lactamases\n\nUp-to-Date article: Overview of carbapenemase-producing gram-negative bacilli\n\nRodr\ufffdguez-Bano et al. Clinical microbiology reviews, 2018, 31(2): e00079-17\n\nSanford guide keyword: Gram Negative Bacilli, Drug Resistance, Overview",
       "LinkTargets": [],
       "Outpt": "ORZID2 GMENU ABX ESBL KPC ETC"
     },
@@ -20332,7 +20332,7 @@
       "Name": "ORZID2 GMENU ABX NOT BENEFITED PHARYNGITIS",
       "Term1": "Non-streptococcal pharyngitis",
       "Term2": "Pharyngitis, non-streptococcal",
-      "Text": "# PHARYNGITIS\n\nAcute pharyngitis is common, accounting for 2 percent of all\n\nambulatory visits in the United States.  The major treatable pathogen, group\n\nA streptococcus (GAS), is the cause of pharyngitis in only approximately 10\n\npercent of adults who seek medical care.  The vast majority of patients\n\nreceive presumptive antibiotic therapy for pharyngitis which in most cases is\n\nunnecessary and results in adverse effects including death, increases costs,\n\nand adds to pressure on antimicrobial resistance.  Typical causes of\n\npharyngitis include viruses in about �, beta-hemolytic streptococci other\n\nthan group A in 18%, Mycoplasma pneumoniae in 10%, Chlamydophila pneumoniae\n\nin 8%, Group A streptococci in 5%, and no microbe identified in 1/3.\n\nRheumatic fever is rare in the United States, especially in adults, so\n\nthat some authorities recommend no treatment even if GAS is a potential cause\n\nof pharyngitis.Others feel it is important to detect GAS  since antibiotic\n\ntherapy can slightly shorten the acute illness, prevent acute rheumatic fever\n\nand possibly prevent suppurative sequelae.  Other potential causes of\n\npharyngitis that should be considered and diagnosed if likely include\n\nEpstein-Barr virus (EBV) mononucleosis, primary HIV infection, influenza,\n\ngonococcal pharyngitis, diphtheria, and suppurative pharyngeal infections.\n\nThe Centor criteria are used to predict whether GAS pharyngitis is present.\n\n*  Tonsillar exudates\n\n*  Tender anterior cervical adenopathy\n\n*  Fever by history\n\n*  Absence of cough\n\nIf three or four of these criteria are met, the positive predictive value is\n\n40 to 60 percent.  If fewer than three criteria are present, the likelihood\n\nGAS is causing pharyngitis is less than 20 percent.  If 3 or > Centor criteria\n\nare met, obtain a throat culture for group A streptococcus.  Treat\n\nempirically for GAS if the patient has severe symptoms or treat later for GAS\n\nif the throat culture is positive.\n\n[References:](orzid2-gmenu-abx-references)\n\nMandell chapter: Pharyngitis",
+      "Text": "# PHARYNGITIS\n\nAcute pharyngitis is common, accounting for 2 percent of all\n\nambulatory visits in the United States.  The major treatable pathogen, group\n\nA streptococcus (GAS), is the cause of pharyngitis in only approximately 10\n\npercent of adults who seek medical care.  The vast majority of patients\n\nreceive presumptive antibiotic therapy for pharyngitis which in most cases is\n\nunnecessary and results in adverse effects including death, increases costs,\n\nand adds to pressure on antimicrobial resistance.  Typical causes of\n\npharyngitis include viruses in about \ufffd, beta-hemolytic streptococci other\n\nthan group A in 18%, Mycoplasma pneumoniae in 10%, Chlamydophila pneumoniae\n\nin 8%, Group A streptococci in 5%, and no microbe identified in 1/3.\n\nRheumatic fever is rare in the United States, especially in adults, so\n\nthat some authorities recommend no treatment even if GAS is a potential cause\n\nof pharyngitis.Others feel it is important to detect GAS  since antibiotic\n\ntherapy can slightly shorten the acute illness, prevent acute rheumatic fever\n\nand possibly prevent suppurative sequelae.  Other potential causes of\n\npharyngitis that should be considered and diagnosed if likely include\n\nEpstein-Barr virus (EBV) mononucleosis, primary HIV infection, influenza,\n\ngonococcal pharyngitis, diphtheria, and suppurative pharyngeal infections.\n\nThe Centor criteria are used to predict whether GAS pharyngitis is present.\n\n*  Tonsillar exudates\n\n*  Tender anterior cervical adenopathy\n\n*  Fever by history\n\n*  Absence of cough\n\nIf three or four of these criteria are met, the positive predictive value is\n\n40 to 60 percent.  If fewer than three criteria are present, the likelihood\n\nGAS is causing pharyngitis is less than 20 percent.  If 3 or > Centor criteria\n\nare met, obtain a throat culture for group A streptococcus.  Treat\n\nempirically for GAS if the patient has severe symptoms or treat later for GAS\n\nif the throat culture is positive.\n\n[References:](orzid2-gmenu-abx-references)\n\nMandell chapter: Pharyngitis",
       "LinkTargets": [
         {
           "Key": "orzid2-gmenu-abx-references",
@@ -23064,7 +23064,7 @@
       "Name": "ORZID2 GMENU ANTIVIRAL IMMUNOSUPPRESSIVE MALIGNANCY",
       "Term1": "Viral prophylaxis in chemotherapy",
       "Term2": "Prophylactic antivirals in chemotherapy",
-      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# PREVENTION OF ANTIVIRAL INFECTIONS IN A PATIENT WITH MALIGNANCY\n\n# Severly Immunosuppressive Chemo-immunotherapy\n\n# Purine Analogues\n\nChemotherapy with purine analogues such as fludarabine, cladribine, or\n\npentostatin results in major cellular-immunodeficiency that may outlast the\n\nexposure by months and enhances the risk for viral infections.\n\nRecommend antiviral prophylaxis for patients treated with purine analogues,\n\nif at least one of the following risk factors is present:\n\na) Second-line chemotherapy\n\nb) Treatment with corticosteroids\n\nc) CD4 cell count <50/ul\n\nd) Age >65 years\n\ne) Prolonged Mild or Moderate Neutropenia: Mild<1000 Neutrophils /\n\n�L (Grade III neutropenia) OR Moderate: <500 Neutrophils/�L\n\n(Grade IV neutropenia)\n\n# Recommendations:\n\nDuration: Antiviral prophylaxis should be initiated in the first week of\n\ntherapy and continued until 2 months after completion of therapy.\n\n[Acyclovir 800 MG PO q12h \\($\\) R](psjzid-acyclovir-800-mg-po-bid-prophylaxis)\n\n# Alemtuzumab Therapy:\n\nAlemtuzumab is a potent reactivator of latent intracellular pathogens,\n\nincluding CMV. Chemotherapy with alemtuzumab results in major cellular-\n\nimmunodeficiency that may outlast the exposure by months and enhances the\n\nrisk for viral infections. The risk of viral disease increases with the\n\nintensity and duration of functional T-cell suppression experienced with\n\nrecipients of alemtuzumab.\n\n# Recommendations:\n\nDuration: Initiate antiviral prophylaxis with alemtuzumab therapy and\n\ncontinue therapy for at least 2 months after last dose or until CD4 counts\n\nare greater than or equal to 200 cells/ul, whichever is later.\n\n[Acyclovir 800 MG PO q12h \\($\\) R](psjzid-acyclovir-800-mg-po-bid-prophylaxis)\n\n# References:\n\nTaplitz RA Journal of Clinical Oncology 2018, 36:3043\n\nMandel Chapter: Prophylaxis and Empirical Therapy of Infection in\n\nCancer Patients\n\nUp-to-Date website\n\nSandherr M Annals of Oncology 2006, 17:1051",
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# PREVENTION OF ANTIVIRAL INFECTIONS IN A PATIENT WITH MALIGNANCY\n\n# Severly Immunosuppressive Chemo-immunotherapy\n\n# Purine Analogues\n\nChemotherapy with purine analogues such as fludarabine, cladribine, or\n\npentostatin results in major cellular-immunodeficiency that may outlast the\n\nexposure by months and enhances the risk for viral infections.\n\nRecommend antiviral prophylaxis for patients treated with purine analogues,\n\nif at least one of the following risk factors is present:\n\na) Second-line chemotherapy\n\nb) Treatment with corticosteroids\n\nc) CD4 cell count <50/ul\n\nd) Age >65 years\n\ne) Prolonged Mild or Moderate Neutropenia: Mild<1000 Neutrophils /\n\n\ufffdL (Grade III neutropenia) OR Moderate: <500 Neutrophils/\ufffdL\n\n(Grade IV neutropenia)\n\n# Recommendations:\n\nDuration: Antiviral prophylaxis should be initiated in the first week of\n\ntherapy and continued until 2 months after completion of therapy.\n\n[Acyclovir 800 MG PO q12h \\($\\) R](psjzid-acyclovir-800-mg-po-bid-prophylaxis)\n\n# Alemtuzumab Therapy:\n\nAlemtuzumab is a potent reactivator of latent intracellular pathogens,\n\nincluding CMV. Chemotherapy with alemtuzumab results in major cellular-\n\nimmunodeficiency that may outlast the exposure by months and enhances the\n\nrisk for viral infections. The risk of viral disease increases with the\n\nintensity and duration of functional T-cell suppression experienced with\n\nrecipients of alemtuzumab.\n\n# Recommendations:\n\nDuration: Initiate antiviral prophylaxis with alemtuzumab therapy and\n\ncontinue therapy for at least 2 months after last dose or until CD4 counts\n\nare greater than or equal to 200 cells/ul, whichever is later.\n\n[Acyclovir 800 MG PO q12h \\($\\) R](psjzid-acyclovir-800-mg-po-bid-prophylaxis)\n\n# References:\n\nTaplitz RA Journal of Clinical Oncology 2018, 36:3043\n\nMandel Chapter: Prophylaxis and Empirical Therapy of Infection in\n\nCancer Patients\n\nUp-to-Date website\n\nSandherr M Annals of Oncology 2006, 17:1051",
       "LinkTargets": [
         {
           "Key": "orzid2-gmenu-abx-general-information-inpatient",
@@ -40608,7 +40608,7 @@
       "Name": "ORZID3 GMENU ANTIVIRAL IMMUNOSUPPRESIVE MALIGNANCY",
       "Term1": "",
       "Term2": "",
-      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](orzid3-gmenu-abx-general-information-outpatient)\n\n# PREVENTION OF ANTIVIRAL INFECTIONS IN A PATIENT WITH MALIGNANCY\n\n# Severly Immunosuppressive Chemo-immunotherapy\n\n# Purine Analogues\n\nChemotherapy with purine analogues such as fludarabine, cladribine, or\n\npentostatin results in major cellular-immunodeficiency that may outlast the\n\nexposure by months and enhances the risk for viral infections.\n\nRecommend antiviral prophylaxis for patients treated with purine analogues\n\nif at least one of the following risk factors is present:\n\na) Second-line chemotherapy\n\nb) Treatment with corticosteroids\n\nc) CD4 cell count <50/ul\n\nd) Age >65 years\n\ne) Prolonged Mild or Moderate Neutropenia: Mild<1000 Neutrophils /\n\n�L (Grade III neutropenia) OR Moderate: <500 Neutrophils/�L\n\n(Grade IV neutropenia)\n\n# Recommendations:\n\nDuration: Antiviral prophylaxis should be initiated in the first week of\n\ntherapy and continued until 2 months after completion of therapy.\n\n[Acyclovir 800 MG PO BID \\($0.40/day\\) R](psozid-acyclovir-800-mg-po-bid)\n\n[Non-VA order for above](pshzid-acyclovir-800-mg-po-bid)\n\n# Alemtuzumab Therapy:\n\nAlemtuzumab is a potent reactivator of latent intracellular pathogens,\n\nincluding CMV. Chemotherapy with alemtuzumab results in major cellular-\n\nimmunodeficiency that may outlast the exposure by months and enhances the\n\nrisk for viral infections. The risk of viral disease increases with the\n\nintensity and duration of functional T-cell suppression experienced with\n\nrecipients of alemtuzumab.\n\nDuration: Initiate antiviral prophylaxis with alemtuzumab therapy and\n\ncontinue therapy for at least 2 months after last dose or until CD4 counts\n\nare greater than or equal to 200 cells/ul, whichever is later.\n\n[Acyclovir 800 MG PO BID \\($0.40/day\\) R](psozid-acyclovir-800-mg-po-bid)\n\n[Non-VA order for above](pshzid-acyclovir-800-mg-po-bid)\n\n# References:\n\nMandel Chapter: Prophylaxis and Empirical Therapy of Infection in\n\nCancer Patients\n\nUp-to-Date (accessed 6-10-12)\n\nSandherr,M et al, Annals of Oncology 17: 1051-1059, 2006",
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](orzid3-gmenu-abx-general-information-outpatient)\n\n# PREVENTION OF ANTIVIRAL INFECTIONS IN A PATIENT WITH MALIGNANCY\n\n# Severly Immunosuppressive Chemo-immunotherapy\n\n# Purine Analogues\n\nChemotherapy with purine analogues such as fludarabine, cladribine, or\n\npentostatin results in major cellular-immunodeficiency that may outlast the\n\nexposure by months and enhances the risk for viral infections.\n\nRecommend antiviral prophylaxis for patients treated with purine analogues\n\nif at least one of the following risk factors is present:\n\na) Second-line chemotherapy\n\nb) Treatment with corticosteroids\n\nc) CD4 cell count <50/ul\n\nd) Age >65 years\n\ne) Prolonged Mild or Moderate Neutropenia: Mild<1000 Neutrophils /\n\n\ufffdL (Grade III neutropenia) OR Moderate: <500 Neutrophils/\ufffdL\n\n(Grade IV neutropenia)\n\n# Recommendations:\n\nDuration: Antiviral prophylaxis should be initiated in the first week of\n\ntherapy and continued until 2 months after completion of therapy.\n\n[Acyclovir 800 MG PO BID \\($0.40/day\\) R](psozid-acyclovir-800-mg-po-bid)\n\n[Non-VA order for above](pshzid-acyclovir-800-mg-po-bid)\n\n# Alemtuzumab Therapy:\n\nAlemtuzumab is a potent reactivator of latent intracellular pathogens,\n\nincluding CMV. Chemotherapy with alemtuzumab results in major cellular-\n\nimmunodeficiency that may outlast the exposure by months and enhances the\n\nrisk for viral infections. The risk of viral disease increases with the\n\nintensity and duration of functional T-cell suppression experienced with\n\nrecipients of alemtuzumab.\n\nDuration: Initiate antiviral prophylaxis with alemtuzumab therapy and\n\ncontinue therapy for at least 2 months after last dose or until CD4 counts\n\nare greater than or equal to 200 cells/ul, whichever is later.\n\n[Acyclovir 800 MG PO BID \\($0.40/day\\) R](psozid-acyclovir-800-mg-po-bid)\n\n[Non-VA order for above](pshzid-acyclovir-800-mg-po-bid)\n\n# References:\n\nMandel Chapter: Prophylaxis and Empirical Therapy of Infection in\n\nCancer Patients\n\nUp-to-Date (accessed 6-10-12)\n\nSandherr,M et al, Annals of Oncology 17: 1051-1059, 2006",
       "LinkTargets": [
         {
           "Key": "orzid3-gmenu-abx-general-information-outpatient",
@@ -55320,44 +55320,328 @@
     },
     {
       "Name": "ssti-main-menu",
-      "Term1": "SSTI MAIN MENU",
-      "Term2": "",
-      "Text": "[Help Information](orzc-gmenu-abx-general-information-inpatient)\n## Inpatient/Outpatient\n\n## Mild, Non-purulent\n## Purulent SSTI\n## Complex SSTI\n[Cellulitis & erysipelas](orzc-gmenu-abx-cellulitis)\nINCLUDING:\n[Surgical site infections (SSI)](orzc-gmenu-surg-surgical-site-infect)\nCutaneous Abscess\nFuruncles\nCarbuncles\nOther SSTI with pus present\n[[Click here for above]](orzc-gmenu-ssti-purulent-infections)\n[Perianal/anorectal abscess](orzc-gmenu-abx-perianal-anorectal-abscess)\n## Diabetic Foot Infections\n## Necrotizing SSTI\n## [Decubitus Ulcers](orzc-gmenu-decubitus-ulcers)\n[Click here]\n[Click here]\n## Viral Skin Infections\n## Fungal Skin Infections\n## Miscellaneous\n[Click here]\n[Click here]\nAcne\nErythrasma\n## Bite Wounds\n## Dermatology Post-Op Infection\nFolliculitis\nAnimal Bite\n[Click here]\n[Hidradenitis Suppurativa](orzc-gmenu-hidradenitis-suppurativa)\nHuman Bite\nImpetigo\n[Click here for above]\nLyme\nRosacea\n## Bed Bugs, Lice, Scabies\nParonychia\n[Click here]",
+      "Term1": "Skin and Soft Tissue Infections",
+      "Term2": "SSTI",
+      "Text": "## Skin and Soft Tissue Infections\n\nInfection management options organized by infection type. Select your clinical scenario from the three-column menu below.\n\n### Column 1: Mild, Non-Purulent Infections\n- Cellulitis & erysipelas\n- Diabetic foot infections\n- Viral skin infections\n- Bite wounds\n- Bed bugs, lice, scabies\n\n### Column 2: Purulent Infections & Complications\n- Purulent SSTI (abscesses, furuncles, carbuncles)\n- Necrotizing SSTI (aggressive infections requiring surgery)\n- Fungal skin infections\n- Dermatology post-op infections\n\n### Column 3: Complex & Specialized\n- Surgical site infections\n- Decubitus ulcers (pressure ulcers)\n- Miscellaneous (acne, rosacea, erythrasma, folliculitis, impetigo, lyme disease, hidradenitis suppurativa, paronychia)",
+      "Contents": [
+        {
+          "Row": 3,
+          "Column": 1,
+          "Text": "Mild, Non-purulent",
+          "Header": 1
+        },
+        {
+          "Row": 3,
+          "Column": 2,
+          "Text": "Purulent SSTI",
+          "Header": 1
+        },
+        {
+          "Row": 3,
+          "Column": 3,
+          "Text": "Complex SSTI",
+          "Header": 1
+        },
+        {
+          "Row": 4,
+          "Column": 1,
+          "Item": "cellulitis",
+          "Text": "Cellulitis & erysipelas"
+        },
+        {
+          "Row": 4,
+          "Column": 2,
+          "Text": "INCLUDING:"
+        },
+        {
+          "Row": 4,
+          "Column": 3,
+          "Item": "surg-surgical-site-infect",
+          "Text": "Surgical site infections (SSI)"
+        },
+        {
+          "Row": 5,
+          "Column": 2,
+          "Text": "Cutaneous Abscess"
+        },
+        {
+          "Row": 6,
+          "Column": 2,
+          "Text": "Furuncles"
+        },
+        {
+          "Row": 7,
+          "Column": 2,
+          "Text": "Carbuncles"
+        },
+        {
+          "Row": 8,
+          "Column": 2,
+          "Text": "Other SSTI with pus present"
+        },
+        {
+          "Row": 9,
+          "Column": 2,
+          "Item": "ssti-purulent-infections",
+          "Text": "[Click here for above]"
+        },
+        {
+          "Row": 10,
+          "Column": 2,
+          "Item": "perianal-anorectal-abscess",
+          "Text": "Perianal/anorectal abscess"
+        },
+        {
+          "Row": 12,
+          "Column": 1,
+          "Text": "Diabetic Foot Infections",
+          "Header": 1
+        },
+        {
+          "Row": 12,
+          "Column": 2,
+          "Text": "Necrotizing SSTI",
+          "Header": 1
+        },
+        {
+          "Row": 12,
+          "Column": 3,
+          "Text": "Decubitus Ulcers",
+          "Header": 1
+        },
+        {
+          "Row": 13,
+          "Column": 1,
+          "Item": "foot-ulcer-w-infect",
+          "Text": "Foot ulcer in patient with diabetes mellitus"
+        },
+        {
+          "Row": 13,
+          "Column": 2,
+          "Item": "necrotizing-infections",
+          "Text": "[Click here]"
+        },
+        {
+          "Row": 13,
+          "Column": 3,
+          "Item": "decubitus-ulcers",
+          "Text": "[Click here]"
+        },
+        {
+          "Row": 15,
+          "Column": 1,
+          "Text": "Viral Skin Infections",
+          "Header": 1
+        },
+        {
+          "Row": 15,
+          "Column": 2,
+          "Text": "Fungal Skin Infections",
+          "Header": 1
+        },
+        {
+          "Row": 15,
+          "Column": 3,
+          "Text": "Miscellaneous",
+          "Header": 1
+        },
+        {
+          "Row": 16,
+          "Column": 1,
+          "Item": "viral-ssti",
+          "Text": "[Click here]"
+        },
+        {
+          "Row": 16,
+          "Column": 2,
+          "Item": "ssti-fungal",
+          "Text": "[Click here]"
+        },
+        {
+          "Row": 16,
+          "Column": 3,
+          "Item": "acne",
+          "Text": "Acne"
+        },
+        {
+          "Row": 17,
+          "Column": 3,
+          "Item": "erythrasma",
+          "Text": "Erythrasma"
+        },
+        {
+          "Row": 18,
+          "Column": 3,
+          "Item": "folliculitis",
+          "Text": "Folliculitis"
+        },
+        {
+          "Row": 18,
+          "Column": 1,
+          "Text": "Bite Wounds",
+          "Header": 1
+        },
+        {
+          "Row": 18,
+          "Column": 2,
+          "Text": "Dermatology Post-Op Infection",
+          "Header": 1
+        },
+        {
+          "Row": 19,
+          "Column": 1,
+          "Text": "Animal Bite"
+        },
+        {
+          "Row": 19,
+          "Column": 2,
+          "Item": "dermatologic-surgery-guidelines",
+          "Text": "[Click here]"
+        },
+        {
+          "Row": 19,
+          "Column": 3,
+          "Item": "impetigo",
+          "Text": "Impetigo"
+        },
+        {
+          "Row": 20,
+          "Column": 1,
+          "Text": "Human Bite"
+        },
+        {
+          "Row": 20,
+          "Column": 3,
+          "Item": "lyme-disease",
+          "Text": "Lyme Disease"
+        },
+        {
+          "Row": 21,
+          "Column": 1,
+          "Item": "bite-wounds",
+          "Text": "[Click here for above]"
+        },
+        {
+          "Row": 21,
+          "Column": 3,
+          "Item": "hidradenitis-suppurativa",
+          "Text": "Hidradenitis Suppurativa"
+        },
+        {
+          "Row": 22,
+          "Column": 3,
+          "Item": "rosacea",
+          "Text": "Rosacea"
+        },
+        {
+          "Row": 23,
+          "Column": 1,
+          "Text": "Bed Bugs, Lice, Scabies",
+          "Header": 1
+        },
+        {
+          "Row": 23,
+          "Column": 3,
+          "Item": "paronychia",
+          "Text": "Paronychia"
+        },
+        {
+          "Row": 24,
+          "Column": 1,
+          "Item": "ssti-bed-bugs-lice-scabies",
+          "Text": "[Click here]"
+        },
+        {
+          "Row": 1,
+          "Column": 1,
+          "Item": "general-information-inpatient",
+          "Text": "Help Information"
+        }
+      ],
       "LinkTargets": [
         {
-          "Key": "orzc-gmenu-abx-general-information-inpatient",
           "Text": "Help Information",
           "Item": "general-information-inpatient"
         },
         {
-          "Key": "orzc-gmenu-abx-cellulitis",
           "Text": "Cellulitis & erysipelas",
           "Item": "cellulitis"
         },
         {
-          "Key": "orzc-gmenu-surg-surgical-site-infect",
           "Text": "Surgical site infections (SSI)",
           "Item": "surg-surgical-site-infect"
         },
         {
-          "Key": "orzc-gmenu-ssti-purulent-infections",
           "Text": "[Click here for above]",
           "Item": "ssti-purulent-infections"
         },
         {
-          "Key": "orzc-gmenu-abx-perianal-anorectal-abscess",
           "Text": "Perianal/anorectal abscess",
           "Item": "perianal-anorectal-abscess"
         },
         {
-          "Key": "orzc-gmenu-decubitus-ulcers",
+          "Text": "Foot ulcer in patient with diabetes mellitus",
+          "Item": "foot-ulcer-w-infect"
+        },
+        {
+          "Text": "Necrotizing infections",
+          "Item": "necrotizing-infections"
+        },
+        {
           "Text": "Decubitus ulcers",
           "Item": "decubitus-ulcers"
         },
         {
-          "Key": "orzc-gmenu-hidradenitis-suppurativa",
+          "Text": "Viral SSTI Submenu",
+          "Item": "viral-ssti"
+        },
+        {
+          "Text": "Fungal SSTI",
+          "Item": "ssti-fungal"
+        },
+        {
+          "Text": "Acne",
+          "Item": "acne"
+        },
+        {
+          "Text": "Erythrasma",
+          "Item": "erythrasma"
+        },
+        {
+          "Text": "Folliculitis",
+          "Item": "folliculitis"
+        },
+        {
+          "Text": "Bite wounds",
+          "Item": "bite-wounds"
+        },
+        {
+          "Text": "Dermatology Recommendations",
+          "Item": "dermatologic-surgery-guidelines"
+        },
+        {
+          "Text": "Impetigo",
+          "Item": "impetigo"
+        },
+        {
+          "Text": "Lyme Disease",
+          "Item": "lyme-disease"
+        },
+        {
           "Text": "Hidradenitis Suppurativa",
           "Item": "hidradenitis-suppurativa"
+        },
+        {
+          "Text": "Rosacea",
+          "Item": "rosacea"
+        },
+        {
+          "Text": "Paronychia",
+          "Item": "paronychia"
+        },
+        {
+          "Text": "Bed bugs, lice, scabies",
+          "Item": "ssti-bed-bugs-lice-scabies"
         }
       ],
       "Inpt": "ORZID2 GMENU SSTI MAIN MENU",
