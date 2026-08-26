@@ -1,0 +1,14 @@
+{
+  "PageID": "scabies",
+  "Term1": "ORZID2 GMENU SCABIES",
+  "Term2": "",
+  "Text": "## SCABIES\nScabies is an infestation of the skin by the mite Sarcoptes scabiei.\nIt is transmitted by skin to skin contact. Outbreaks occur in nursing\nhomes, day care centers, and residential institutions. Scabies is highly\ncontagious and meticulous infection control is needed.\nTreatment is a single application of permethrin cream. Some experts recommend a\nsecond application 7-10 days after the first application if the patient is still\nsymptomatic or if live mites are found at that time. Contact Dermatology or\nInfectious Diseases for more information.\nTreat family members and other close contacts to prevent spread and recurrence.\n## Treatment\nRepeat application 7-10 days after the first application if patient is still\nexperiencing symptoms, or if lives mites are found.\n[Permethrin 5% cream apply from head to feet, leave on for 8-14 hours, then](psjzid-permethrin-5-cream-apply-from-head-to-feet)\nwash cream off with soap and water ($) [M]\nReferences\nSanford keyword: Scabies\nUp-to-date website",
+  "LinkTargets": [
+    {
+      "Text": "Permethrin 5% cream apply from head to feet, leave on for 8-14 hours, then",
+      "Item": "PSJZID PERMETHRIN 5% CREAM APPLY FROM HEAD TO FEET"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU SCABIES",
+  "Outpt": "ORZID3 GMENU SCABIES"
+}

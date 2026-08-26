@@ -1,0 +1,30 @@
+{
+  "PageID": "tinea-versicolor",
+  "Term1": "ORZID2 GMENU TINEA VERSICOLOR",
+  "Term2": "",
+  "Text": "## TINEA VERSICOLOR\nTopical antifungals can be used for limited disease. For disease that involves\nnails or does not respond to topical therapy, use oral antifungals.\nReturn of normal skin color often takes several weeks after the treatment course\nis finished.\n## Treatment limited disease:\n[Ketoconazole 2% shampoo apply to the affected area QDAY for 3 days. Apply to](psjzid-ketoconazole-2-shampoo-qday)\ndamp skin, lather, leave on 5 minutes, and rinse.\n< OR >\n[Ketoconazole 2% cream to affected area QDAY for 14 days [M]](psjzid-ketoconazole-2-cream-top-qday)\n< OR >\n[Terbinafine 1% cream apply to affected area QDAY for 7 days [M]](psjzid-terbinafine-1-crm-top-qday)\n< OR >\n[Selenium sulfide lotion 2.5% apply to affected area, leave on for 10 minutes,](psjzid-selenium-sulfide-lot-2-5-10min)\nthen rinse/shower thoroughly QDAY for 7 days [M]\n## Treatment extensive disease:\n[Fluconazole 300 MG PO weekly for 2 weeks [R]](psjzid-fluconazole-300mg-po-weekly-x2-weeks)\n## _______________________________________________________________________________\nReferences:\nUp-to-date\nSanford keyword: Tinea\nAK Gupta AK, J Cutan Med Surg. 2014, 18:79",
+  "LinkTargets": [
+    {
+      "Text": "Ketoconazole 2% shampoo apply to the affected area QDAY for 3 days. Apply to",
+      "Item": "PSJZID KETOCONAZOLE 2% SHAMPOO QDAY"
+    },
+    {
+      "Text": "Ketoconazole 2% cream to affected area QDAY for 14 days [M]",
+      "Item": "PSJZID KETOCONAZOLE 2% CREAM TOP QDAY"
+    },
+    {
+      "Text": "Terbinafine 1% cream apply to affected area QDAY for 7 days [M]",
+      "Item": "PSJZID TERBINAFINE 1% CRM TOP QDAY"
+    },
+    {
+      "Text": "Selenium sulfide lotion 2.5% apply to affected area, leave on for 10 minutes,",
+      "Item": "PSJZID SELENIUM SULFIDE LOT 2.5% 10MIN"
+    },
+    {
+      "Text": "Fluconazole 300 MG PO weekly for 2 weeks [R]",
+      "Item": "PSJZID FLUCONAZOLE 300MG PO WEEKLY X2 WEEKS"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU TINEA VERSICOLOR",
+  "Outpt": "ORZID3 GMENU TINEA VERSICOLOR"
+}

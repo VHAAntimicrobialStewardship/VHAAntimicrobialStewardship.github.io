@@ -1,0 +1,26 @@
+{
+  "PageID": "malignant-otitis-externa",
+  "Term1": "MALIGNANT OTITIS EXTERNA",
+  "Term2": "",
+  "Text": "## MALIGNANT OTITIS EXTERNA\nThose who are elderly, diabetic, immunocompromised and debilitated are at\nhighest risk. Most cases are associated with Pseudomonas aeruginosa, but other\npathogens can be involved. Obtain culture to identify etiologic agent and\nsusceptibilities. Obtain a CT scan to determine whether osteomyelitis is\npresent. ENT and Infectious Disease consultations are recommended.\n## Treatment\n## Inpatient\n\n[Cefepime 2 gm IV q12h for 6 weeks ($$) [R]](psjizid-cefepime-2-gm-iv-q12h)\n< OR >\nfor 6 weeks\n< OR >\n[Ciprofloxacin 400 mg IV q8h for 6 weeks ($) [R,DI]](psjizid-ciprofloxacin-400mg-iv-q12h)\n## Treatment of early infection or step-down treatment after initial intravenous\n## antimicrobial therapy. Adjust for a total duration of 6 weeks of antimicrobial\n## therapy.\n[Ciprofloxacin 750 mg PO q12h for 6 weeks ($) [R,DI]](psjzid-ciprofloxacin-750mg-po-q12h)\n## _______________________________________________________________________________\n## Outpatient\n\nCiprofloxacin 750 mg PO q12h for 6 weeks ($) [R,DI]\n[Non-VA order for above](pshzid2-ciprofloxacin-750mg-po-bid-28ds)\n## _______________________________________________________________________________\nReferences:\nEvans, Journal of Laryngology and Otology. 2011, 125(12)1212-1217Mandell\nchapter: Otitis Externa, Otitis Media, and Mastoiditis\nMahdyoun et al., Otol Neurotol. 2013, 34(4)620-629\nSanford keyword: Otitis Externa\nUp-to-Date article: Malignant (necrotizing) external otitis",
+  "LinkTargets": [
+    {
+      "Text": "Cefepime 2 gm IV q12h for 6 weeks ($$) [R]",
+      "Item": "PSJIZID CEFEPIME 2 GM IV Q12H"
+    },
+    {
+      "Text": "Ciprofloxacin 400 mg IV q8h for 6 weeks ($) [R,DI]",
+      "Item": "PSJIZID CIPROFLOXACIN 400MG IV Q12H"
+    },
+    {
+      "Text": "Ciprofloxacin 750 mg PO q12h for 6 weeks ($) [R,DI]",
+      "Item": "PSJZID CIPROFLOXACIN 750MG PO Q12H"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 CIPROFLOXACIN 750MG PO BID 28DS"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU MALIGNANT OTITIS EXTERNA",
+  "Outpt": "ORZID3 GMENU MALIGN OTITIS EXTERNA"
+}

@@ -1,0 +1,26 @@
+{
+  "PageID": "step-down-treatment",
+  "Term1": "STEP DOWN TREATMENT",
+  "Term2": "",
+  "Text": "## STEP DOWN TREATMENT\nStep down treatment for completion of antimicrobial course after initial\nintravenous treatment in patients who can tolerate oral therapy. Base selection\non culture results.\n## Gastrointestinal Infections\n[Amoxicillin-clavulanate 875/125 mg PO q12h [R]](psjzid-amoxicillin-clavulanate-875-125-mg-po-q12h)\n< OR >\n[Cefdinir 300 mg PO q12h [R] <AND> metronidazole 500 mg PO q12h [DI]](orz-set-abx-cefdinir-300mg-po-q12h-metronidazole-500mg-po-q12h)\n< OR >\n[Ciprofloxacin 500 mg PO q12h [R,DI] <AND> metronidazole 500 mg PO q12h [DI]](orz-set-abx-ciprof-500mg-po-q12h-metro-500mg-po-q12h)\n< OR >\n[Trimethoprim-Sulfamethoxazole 1 DS tab q12h [R] <AND> metronidazole 500 mg PO](orz-set-abx-trimeth-sulfa-ds-q12h-metro-500mg-po-q12h)\nq12h [DI]",
+  "LinkTargets": [
+    {
+      "Text": "Amoxicillin-clavulanate 875/125 mg PO q12h [R]",
+      "Item": "PSJZID AMOXICILLIN-CLAVULANATE 875-125 MG PO Q12H"
+    },
+    {
+      "Text": "Cefdinir 300 mg PO q12h [R] <AND> metronidazole 500 mg PO q12h [DI]",
+      "Item": "ORZ SET ABX CEFDINIR 300MG PO Q12H METRONIDAZOLE 500MG PO Q12H"
+    },
+    {
+      "Text": "Ciprofloxacin 500 mg PO q12h [R,DI] <AND> metronidazole 500 mg PO q12h [DI]",
+      "Item": "ORZ SET ABX CIPROF 500MG PO Q12H METRO 500MG PO Q12H"
+    },
+    {
+      "Text": "Trimethoprim-Sulfamethoxazole 1 DS tab q12h [R] <AND> metronidazole 500 mg PO",
+      "Item": "ORZ SET ABX TRIMETH/SULFA DS Q12H METRO 500MG PO Q12H"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX STEP DOWN TREATMENT",
+  "Outpt": "ORZID3 GMENU ABX STEP DOWN TREATMENT"
+}

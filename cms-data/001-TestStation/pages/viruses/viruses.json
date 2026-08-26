@@ -1,0 +1,30 @@
+{
+  "PageID": "viruses",
+  "Term1": "VIRUSES",
+  "Term2": "",
+  "Text": "## ++ VIRUSES ++\n## Cytomegalovirus (CMV)\n## Human Immunodeficiency Virus (HIV)\n[click here]\n[click here]\n## Diarrhea, viral\n## Influenza, Seasonal\n[click here]\n[click here]\n## Hepatitis\n## Parainfluenza\nHepatitis A\n[click here]\nHepatitis B\nHepatitis C\n## Respiratory Syncytial Virus (RSV)\n[click here]\n## Herpes Simplex\nBell's palsy\n## Varicella-zoster\nEncephalitis\nBell's palsy\nGenital herpes\n[Varicella/Chickenpox (primary infection)](orzc-gmenu-abx-prim-infect-chickenpox)\n[Herpes Whitlow (digit or hand](orzc-gmenu-abx-herpes-whitlow)\n[Zoster/Shingles (reactivation)](orzc-gmenu-abx-react-prim-infect-zoster)\ncellulitis)\nKeratitis\n[Oral lesions: Mouth,Lips (Cold sores)](orzc-gmenu-abx-orolabial-herpes)\n## Last reviewed 8/2018\n\n## Outpatient\n\nGuidance\n## Rabies\n## Rabies\n[Pre-Exposure Prophylaxis](orzid3-gmenu-abx-rabies-pre-exposure-prophylaxis)\n## Herpes Simplex\nPost-Exposure Prophylaxis\nis available in ED CDSS only",
+  "LinkTargets": [
+    {
+      "Text": "Varicella/Chickenpox (primary infection)",
+      "Item": "prim-infect-chickenpox"
+    },
+    {
+      "Text": "Herpes Whitlow (digit or hand",
+      "Item": "herpes-whitlow"
+    },
+    {
+      "Text": "Zoster/Shingles (reactivation)",
+      "Item": "react-prim-infect-zoster"
+    },
+    {
+      "Text": "Oral lesions: Mouth,Lips (Cold sores)",
+      "Item": "orolabial-herpes"
+    },
+    {
+      "Text": "Pre-Exposure Prophylaxis",
+      "Item": "ORZID3 GMENU ABX RABIES PRE-EXPOSURE PROPHYLAXIS"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX VIRUSES",
+  "Outpt": "ORZID3 GMENU VIRUSES OUTPT MAIN"
+}

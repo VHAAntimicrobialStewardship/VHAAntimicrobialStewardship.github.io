@@ -1,0 +1,62 @@
+{
+  "PageID": "system-infectious-diseases",
+  "Term1": "SYSTEM INFECTIOUS DISEASES",
+  "Term2": "",
+  "Text": "## ++ SYSTEMIC INFECTIOUS DISEASES ++\n## [Sepsis and Septic Shock](orzid3-gmenu-sepsis-and-septic-shock)\n## [Intravascular catheter-associated infection](orzid3-gmenu-intravasc-cath-assoc-infect)\n[CLICK HERE]\nRapid PCR blood culture results:\n[Staphylococcus aureus](orzc-gmenu-intravas-cath-s-aureus)\n## Blood stream infection\n[Staphylococcus lugdunensis](orzid2-gmenu-bacteremia-s-lugdunensis)\nRapid PCR blood culture results:\n[Other staphylococcus sp. (Coag-neg Staph)](orzc-gmenu-intravas-cath-coag-neg-staph)\nStaphylococcus aureus\nEnterococci\nStaphylococcus lugdunensis\n[Gram-Negative bacilli](orzc-gmenu-intravas-cath-gnb)\nOther staphylococcus sp. (Coag-neg Staph)\nCandida Spp.\nEnterococci\n*for organisms not listed above, consider\nStreptococci\nremoving catheter, treat as bacteremia and\n[Listeria monocytogenes](orzid2-gmenu-bacteremia-listeria)\nand consult ID for more information\n[Citrobacter freundii, Enterobacter cloacae,](orzid2-gmenu-bacteremia-citro-kleb-or-enterobacter)\nor Klebsiella aerogenes\n## Other systemic diseases\n[Pseudomonas sp.](orzid2-gmenu-bacteremia-pseudomonas)\n[Fever of unknown origin](orzid2-gmenu-fever-of-unk-origin)\n[Other Gram-negatives](orzid2-gmenu-bacteremia-gram-negative-rods-other)\nLeukocytosis\nCandida spp.\nLyme disease\n*For suspected intravascular catheter-associated\n[Neutropenic fever](orzc-gmenu-immunocom-neut-fever)\ninfection, refer to recommendations on the right\nTick-borne illness\n## Last reviewed April 2024\n\n## Outpatient\n\nGuidance\n## ++ SYSTEMIC INFECTIOUS DISEASES - OUTPATIENT ++\n## ++ SYSTEMIC INFECTIOUS DISEASES - OUTPATIENT ++\nBacteremia\nTick-borne illnesses\n[Toxic Shock Syndrome](orzid3-gmenu-toxic-shock-syndrome)",
+  "LinkTargets": [
+    {
+      "Text": "Sepsis and septic shock",
+      "Item": "ORZID3 GMENU SEPSIS AND SEPTIC SHOCK"
+    },
+    {
+      "Text": "Intravascular catheter-associated infection",
+      "Item": "ORZID3 GMENU INTRAVASC CATH-ASSOC INFECT"
+    },
+    {
+      "Text": "Staphylococcus aureus",
+      "Item": "intravas-cath-s-aureus"
+    },
+    {
+      "Text": "Staphylococcus lugdunensis",
+      "Item": "ORZID2 GMENU BACTEREMIA S. LUGDUNENSIS"
+    },
+    {
+      "Text": "Other staphylococcus sp. (Coag-neg Staph)",
+      "Item": "intravas-cath-coag-neg-staph"
+    },
+    {
+      "Text": "Gram-Negative bacilli",
+      "Item": "intravas-cath-gnb"
+    },
+    {
+      "Text": "Listeria monocytogenes",
+      "Item": "ORZID2 GMENU BACTEREMIA LISTERIA"
+    },
+    {
+      "Text": "Citrobacter freundii, Enterobacter cloacae,",
+      "Item": "ORZID2 GMENU BACTEREMIA CITRO KLEB OR ENTEROBACTER"
+    },
+    {
+      "Text": "Pseudomonas sp.",
+      "Item": "ORZID2 GMENU BACTEREMIA PSEUDOMONAS"
+    },
+    {
+      "Text": "Fever of unknown origin",
+      "Item": "ORZID2 GMENU FEVER OF UNK ORIGIN"
+    },
+    {
+      "Text": "Other Gram-negatives",
+      "Item": "ORZID2 GMENU BACTEREMIA GRAM-NEGATIVE RODS OTHER"
+    },
+    {
+      "Text": "Neutropenic fever",
+      "Item": "immunocom-neut-fever"
+    },
+    {
+      "Text": "Toxic Shock Syndrome",
+      "Item": "ORZID3 GMENU TOXIC SHOCK SYNDROME"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX SYSTEM INFECTIOUS DISEASES",
+  "Outpt": "ORZID3 GMENU SYSTEMIC INFECT DIS"
+}

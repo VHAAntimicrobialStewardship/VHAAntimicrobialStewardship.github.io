@@ -1,0 +1,27 @@
+{
+  "PageID": "otitis-externa",
+  "Term1": "OTITIS EXTERNA",
+  "Term2": "",
+  "Text": "## OTITIS EXTERNA\n## Acute Localized Disease\nOften due to furunculosis and usually associated with Staphylococcus aureus.\nTreat mild cases with moist local heat. For cases with cellulitis or deep\ninvasion, incision and drainage as well as systemic antibiotics may be needed.\nRefer to the [Furuncles and Carbuncles](orzc-gmenu-furuncles-and-carbuncles) page for antibiotic recommendations.\nFuruncles and Carbuncles\n## _______________________________________________________________________________\n## Acute diffuse and chronic otitis externa\nMost commonly associated with Pseudomonas aeruginosa, Staphylococcus aureus and\nStaphylococcus epidermidis. Irrigate to remove cerumen, desquamated skin and\npurulent material which can improve effectiveness of topical antibiotics. Avoid\nproducts that contain neomycin if the tympanic membrane is perforated.\n## Preferred treatment if tympanic membrane is intact\n[Neomycin-polymyxin-hydrocortisone ear drops 4 drops in affected ear(s) QID](psjzid-neomycin-polymixin-hc-otic-4-drps-qid)\nfor 7 days ($) [M]\n## Alternative if tympanic membrane is perforated or allergy to preferred treatmen\n[Ciprofloxacin-Dexamethasone otic 4 drops in affected ear(s) BID for 7 days ($)](psjzid-ciprofloxacin-dexamethasone-otic-4-drps-bid)\n[M]\n## _______________________________________________________________________________\n## Complicated Cases\nFor cases resistant to topical therapy alone, patients with poorly controlled\ndiabetes mellitus, immunocompromised patients, cases where infection has spread\nbeyond ear canal and in those where topical therapy cannot be delivered\neffectively. Culture secretions to guide therapy.\nIn addition to topical therapy above\n[< ADD > ciprofloxacin 500 mg PO q12h for 7 days ($) [R,DI]](psjzid-ciprofl-500mg-po-q12h)\n## _______________________________________________________________________________\nReferences:\nMandell chapter: Otitis Externa, Otitis Media, and Mastoiditis\nRosenfeld et al., Otolaryngology-Head and Neck Surgery. 2014, 150(2)161-168\nSanford keyword: Otitis Externa\nUp-To-Date article: External otitis: Treatment\n\n## ER\n\nGuidance\n## Acute Localized Disease\nRefer to the Furuncules and Carbuncles page for antibiotic recommendations.\n## Acute diffuse and chronic otitis externa\nMost commonly associated with Pseudomonas aerogenosa and Staphylococcus\naureus/epidermidis. Irrigate to remove cerumen, desquamated skin and purulent\nmaterial which can improve effectiveness of topical antibiotics. Avoid products\nthat contain neomycin if the tympanic membrane is perforated.\nTreat for 7 to 10 days\n## Preferred treatment if tympanic membrane is intact\nNeomycin-polymixin-hydrocortisone ear drops 4 drops in affected ear(s) QID\n## Alternative if tympanic membrane is perforated or allergy to preferred treatmen\nCiprofloxacin-Dexamethasone otic 4 drops in affected ear(s) BID ($) [M]\n## Complicated Cases\nFor cases resistant to topical therapy alone, diabetic patients,\nimmunocompromised patients, cases where infection has spread beyond ear canal\nand in those where topical therapy cannot be delivered effectively. Culture\nsecretions to guide therapy.\n## Empirical Treatment\n## Empirical Treatment\nIn addition to topical therapy above <ADD>\nCiprofloxacin 500 mg PO BID ($) [R,DI]\nReferences:\nRosenfeld et al., Otolaryngology-Head and Neck Surgery (2014) 150.S1-S24",
+  "LinkTargets": [
+    {
+      "Text": "Furuncles and Carbuncles",
+      "Item": "furuncles-and-carbuncles"
+    },
+    {
+      "Text": "Neomycin-polymyxin-hydrocortisone ear drops 4 drops in affected ear(s) QID",
+      "Item": "PSJZID NEOMYCIN/POLYMIXIN/HC OTIC 4 DRPS QID"
+    },
+    {
+      "Text": "Ciprofloxacin-Dexamethasone otic 4 drops in affected ear(s) BID for 7 days ($)",
+      "Item": "PSJZID CIPROFLOXACIN/DEXAMETHASONE OTIC 4 DRPS BID"
+    },
+    {
+      "Text": "< ADD > ciprofloxacin 500 mg PO q12h for 7 days ($) [R,DI]",
+      "Item": "PSJZID CIPROFL 500MG PO Q12H"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU OTITIS EXTERNA",
+  "Outpt": "ORZID3 GMENU OTITIS EXTERNA",
+  "ERUC": "ORZID GMENU ER/UC OTITIS EXTERNA"
+}

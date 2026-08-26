@@ -1,0 +1,18 @@
+{
+  "PageID": "cmv-encephalitis",
+  "Term1": "CMV ENCEPHALITIS",
+  "Term2": "",
+  "Text": "## CMV ENCEPHALITIS\nInfection in immunocompetent patients is rare and usually associated with\nminimal or no symptoms. Patients in whom the risk for CMV disease is increased\ninclude solid organ and bone marrow transplant recipients, persons receiving\nprolonged immunosuppressive chemotherapy, and persons with advanced HIV disease\nindicated by a CD4 count of less than 50 cells/microliter. Treatment is complex\nand requires Infectious Diseases consultation.\n## Duration of antimicrobial therapy\nDuration is likely to be prolonged and is individualized based on response.\nPatients may be converted to oral therapy after initial intravenous therapy and\nafter clinical improvement of severe disease.\n## Treatment\n## Inpatient\n\n[Ganciclovir 5 mg/kg IV q12h ($$$$) [R,O] <AND> foscarnet 90 mg/kg IV q12h](orz-set-abx-ganciclovir-5mg-kg-iv-q12h-foscar-90mg-kg-iv-q12h)\n($$$$) [R,O]\n## Oral treatment following clinical improvement\n[Valganciclovir 900 mg PO q12h ($$$) [R,O]](psjzid-valganciclovir-900mg-po-q12h)\n## Outpatient\n\nRefer to Inpatient Antimicrobial CDSS. ##References:\nGuidelines for Prevention and Treatment of Opportunistic Infections in HIV\nInfected Adults and Adolescents. AIDSinfo (2015) 1-282\nMandell chapter: Cytomegalovirus\nSanford keyword: Cytomegalovirus\nUp-to-Date article: Epidemiology, clinical manifestations, and treatment of\ncytomegalovirus infection in immunocompetent adults",
+  "LinkTargets": [
+    {
+      "Text": "Ganciclovir 5 mg/kg IV q12h ($$$$) [R,O] <AND> foscarnet 90 mg/kg IV q12h",
+      "Item": "ORZ SET ABX GANCICLOVIR 5MG/KG IV Q12H FOSCAR 90MG/KG IV Q12H"
+    },
+    {
+      "Text": "Valganciclovir 900 mg PO q12h ($$$) [R,O]",
+      "Item": "PSJZID VALGANCICLOVIR 900MG PO Q12H"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX CMV ENCEPHALITIS",
+  "Outpt": "ORZID3 GMENU CMV ENCEPHALITIS"
+}

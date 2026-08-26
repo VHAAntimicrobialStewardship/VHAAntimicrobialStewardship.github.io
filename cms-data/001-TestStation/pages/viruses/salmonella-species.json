@@ -1,0 +1,30 @@
+{
+  "PageID": "salmonella-species",
+  "Term1": "SALMONELLA SPECIES",
+  "Term2": "",
+  "Text": "## DIARRHEA WITH SALMONELLA (NONTYPHOIDAL SALMONELLA)\nFor systemic febrile illness or typhoidal Salmonella, refer to Enteric Fever\ntreatment recommendations.\n[Enteric Fever treatment recommendations](orzc-gmenu-abx-enteric-fever)\nTreatment is not recommended for mild or moderately severe disease\n## Primary treatment\nHydration and electrolyte replacement\n## Antimicrobial treatment for severe disease\n## Inpatient\n\n[Ciprofloxacin 500 mg PO q12h for 7 days [R,DI]](psjzid-ciprofloxacin-500mg-po-q12h)\nIf infection acquired after international travel or patient is intolerant to\nfluoroquinolones:\n[Azithromycin 500 mg PO q24h for 7 days [M]](psjzid-azithromycin-500mg-po-q24h)\nFor patients who are hospitalized or unable to take oral medications:\n[Ceftriaxone 2 gm IV q24h for 7 days [M]](psjizid-ceftriaxone-2gm-iv-q24h)\n## _______________________________________________________________________________\n## Outpatient\n\nCiprofloxacin 500 mg PO q12h for 7 days [R,DI]\n[Non-VA order for above](pshzid2-ciprofloxacin-7ds-500mg-po-bid)\nIf infection acquired after international travel or patient is intolerant to\nfluoroquinolones:\nAzithromycin 500 mg PO q24h for 7 days [M]\nNon-VA order for above\nFor patients who are hospitalized or unable to take oral medications:\nRefer to the Inpatient Antimicrobial CDSS\n## _______________________________________________________________________________\nReferences:\nSanford Guide article: Gastroenteritis, Salmonella: Non-typhi\nDOI: 10.1093/cid/cix669-Shane et al, Clinical Infectious Diseases 2017,\n65(12):45-80\nUp-to-Date article: Nontyphoidal Salmonella: Gastrointestinal infection and\nasymptomatic carriage",
+  "LinkTargets": [
+    {
+      "Text": "Enteric Fever treatment recommendations",
+      "Item": "enteric-fever"
+    },
+    {
+      "Text": "Ciprofloxacin 500 mg PO q12h for 7 days [R,DI]",
+      "Item": "PSJZID CIPROFLOXACIN 500MG PO Q12H"
+    },
+    {
+      "Text": "Azithromycin 500 mg PO q24h for 7 days [M]",
+      "Item": "PSJZID AZITHROMYCIN 500MG PO Q24H"
+    },
+    {
+      "Text": "Ceftriaxone 2 gm IV q24h for 7 days [M]",
+      "Item": "PSJIZID CEFTRIAXONE 2GM IV Q24H"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 CIPROFLOXACIN 7DS 500MG PO BID"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX SALMONELLA SPECIES",
+  "Outpt": "ORZID3 GMENU DIARRHEA SALMONELLA"
+}

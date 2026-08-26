@@ -1,0 +1,26 @@
+{
+  "PageID": "campylobacter",
+  "Term1": "CAMPYLOBACTER",
+  "Term2": "",
+  "Text": "## DIARRHEA WITH CAMPYLOBACTER\n## Primary treatment\nHydration and electrolyte replacement\n## Antimicrobial treatment for those with severe disease or risk of severe disease\nFluoroquinolone resistance is increasing worldwide. Macrolide resistance is\nrare.\n## Inpatient\n\nPrimary:\n[Azithromycin 1000 mg PO one-time dose [M]](psjzid-azithromycin-1gm-po-once)\n< OR >\n[Azithromycin 500 mg PO q24h for 3 days [M]](psjzid-azithromycin-500mg-po-q24h)\nAlternative:\n[Ciprofloxacin 500 mg PO q12h for 5 days [R,DI]](psjzid-ciprofloxacin-500mg-po-q12h)\n## _______________________________________________________________________________\n## Outpatient\nAzithromycin 1000 mg PO one-time dose [M]\n[Non-VA order for above](pshzid2-azithromycin-1gm-po-once)\n< OR >\nAzithromycin 500 mg PO q24h for 3 days [M]\nNon-VA order for above\nAlternative:\nCiprofloxacin 500 mg PO q12h for 5 days [R,DI]\nNon-VA order for above\n## _______________________________________________________________________________\nReferences:\nSanford Guide article: Campylobacter jejuni\nDOI: 10.1093/cid/cix669-Shane et al, Clinical Infectious Diseases 2017,\n65(12):45-80\nUp-to-Date article: Clinical manifestations, diagnosis, and treatment of\nCampylobacter infection",
+  "LinkTargets": [
+    {
+      "Text": "Azithromycin 1000 mg PO one-time dose [M]",
+      "Item": "PSJZID AZITHROMYCIN 1GM PO ONCE"
+    },
+    {
+      "Text": "Azithromycin 500 mg PO q24h for 3 days [M]",
+      "Item": "PSJZID AZITHROMYCIN 500MG PO Q24H"
+    },
+    {
+      "Text": "Ciprofloxacin 500 mg PO q12h for 5 days [R,DI]",
+      "Item": "PSJZID CIPROFLOXACIN 500MG PO Q12H"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 AZITHROMYCIN 1GM PO ONCE"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX CAMPYLOBACTER",
+  "Outpt": "ORZID3 GMENU DIARRHEA CAMPYLOBACTER"
+}

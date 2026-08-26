@@ -1,0 +1,18 @@
+{
+  "PageID": "cmv-pneumonia",
+  "Term1": "CMV PNEUMONIA",
+  "Term2": "",
+  "Text": "## CMV PNEUMONIA\nCMV pneumonia occurs almost exclusively in bone marrow transplant recipients,\nusually within the first 120 days after transplantation. In these patients, CMV\npneumonia is severe and requires aggressive treatment. Treatment is complex and\nrequires Infectious Diseases consultation.\n## Duration of antimicrobial therapy\nInduction therapy is indicated for 3 to 6 weeks, followed by maintenance\ntherapy. Duration of maintenance therapy is not well established.\n## Treatment\n## Inpatient\n\n[Ganciclovir 5 mg/kg IV q12h ($$$$) [R,O] <AND> intravenous immune globulin](orz-set-abx-ganciclovir-5-mg-kg-iv-q12h-immune-ig-0-5-gm-kg)\n0.5 grams/kg IV every other day\n## Maintenance therapy\n[Valganciclovir 900 mg PO Q24h ($$$) [R,O]](psjzid-valganciclovir-900-mg-po-q24h)\n## Outpatient\n\nRefer to Inpatient Antimicrobial CDSS. ##References:\nGuidelines for Prevention and Treatment of Opportunistic Infections in HIV\nInfected Adults and Adolescents. AIDSinfo (2015) 1-282\nMandell chapter: Cytomegalovirus\nSanford keyword: Cytomegalovirus\nUp-to-Date article: Epidemiology, clinical manifestations, and treatment of\ncytomegalovirus infection in immunocompetent adults",
+  "LinkTargets": [
+    {
+      "Text": "Ganciclovir 5 mg/kg IV q12h ($$$$) [R,O] <AND> intravenous immune globulin",
+      "Item": "ORZ SET ABX GANCICLOVIR 5 MG/KG IV Q12H IMMUNE IG 0.5 GM/KG"
+    },
+    {
+      "Text": "Valganciclovir 900 mg PO Q24h ($$$) [R,O]",
+      "Item": "PSJZID VALGANCICLOVIR 900 MG PO Q24H"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX CMV PNEUMONIA",
+  "Outpt": "ORZID3 GMENU CMV PNEUMONIA"
+}

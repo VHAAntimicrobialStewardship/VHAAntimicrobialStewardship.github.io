@@ -1,0 +1,18 @@
+{
+  "PageID": "recurrent-persist-urethritis",
+  "Term1": "ORZID2 GMENU RECURRENT/PERSIST URETHRITIS",
+  "Term2": "",
+  "Text": "## PERSISTENT OR RECURRENT URETHRITIS OR CERVICITIS\nRetreat with initial treatment regimen if patient was non-compliant with initial\ntreatment regimen or re-exposed to an untreated sex partner. If infection is not\ndue to non-compliance with treatment regimen or re-exposure to an untreated sex\npartner, infection is most commonly caused by M. genitalium and less commonly T.\nvaginalis.\n## Treatment for persistent or recurrent urethritis and failure of initial\n## doxycycline treatment\n[Metronidazole 2 gm PO ONCE ($) [DI] Azithromycin 1 gm PO ONCE ($) [M]](orz-set-abx-metronidazole-2gm-po-x1-azithromycin-1gm-po-once)\n## Failure of above treatment\nConsult Infectious Diseases (inpatient)\nReferences:\nCDC STD Treatment Guidelines: MMWR (2015) 64.3\nMandell chapter: Urethritis\nMandell chapter: Vulvovaginitis and Cervicitis\nSanford keyword: Urethritis, Recurrent/Persistent\nUp-To-Date article: Acute cervicitis\nUp-To-Date article: Urethritis in men\n\n## Outpatient\n\nGuidance\n## doxycycline treatment\n[Metronidazole 2 gm PO x 1 dose ($) [DI] Azithromycin 1 gm PO x 1 dose ($)](orz-set-abx-op-metro-2gm-po-x1-azithro-1gm-po-x1)\n[M]\n## Failure of above treatment\nConsult Infectious Diseases (outpatient)",
+  "LinkTargets": [
+    {
+      "Text": "Metronidazole 2 gm PO ONCE ($) [DI] Azithromycin 1 gm PO ONCE ($) [M]",
+      "Item": "ORZ SET ABX METRONIDAZOLE 2GM PO X1 AZITHROMYCIN 1GM PO ONCE"
+    },
+    {
+      "Text": "Metronidazole 2 gm PO x 1 dose ($) [DI] Azithromycin 1 gm PO x 1 dose ($)",
+      "Item": "ORZ SET ABX OP METRO 2GM PO X1 AZITHRO 1GM PO X1"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU RECURRENT/PERSIST URETHRITIS",
+  "Outpt": "ORZID3 GMENU RECURRENT/PERSISTENT URETHRITIS"
+}

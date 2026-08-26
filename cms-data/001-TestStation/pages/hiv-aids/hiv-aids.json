@@ -2,7 +2,7 @@
   "PageID": "hiv-aids",
   "Term1": "HIV-AIDS",
   "Term2": "",
-  "Text": "## HIV\n## Inpatient/Outpatient HIV infection and AIDS are associated with several host defense defects. Cell-\nmediated immune defects render a patient more susceptible to opportunistic\ninfections with pathogens like Pneumocystis jirovecii (formerly Pneumocystis\ncarinii), Toxoplasma gondii, cytomegalovirus, mycobacterium-avium intracellulare\ncomplex, and Candida spp.\nContact ID or HIV service for assistance.\n[<<ORDER>> HIV CLINIC Outpt Consult](gmrctz-mrtc-outpt)\nReferences:\nRich RR, et al, eds. Clinical Immunology\nRoitt l, et al, eds. Immunology",
+  "Text": "## HIV\n## Inpatient/Outpatient\n\nHIV infection and AIDS are associated with several host defense defects. Cell-\nmediated immune defects render a patient more susceptible to opportunistic\ninfections with pathogens like Pneumocystis jirovecii (formerly Pneumocystis\ncarinii), Toxoplasma gondii, cytomegalovirus, mycobacterium-avium intracellulare\ncomplex, and Candida spp.\nContact ID or HIV service for assistance.\n[<<ORDER>> HIV CLINIC Outpt Consult](gmrctz-mrtc-outpt)\nReferences:\nRich RR, et al, eds. Clinical Immunology\nRoitt l, et al, eds. Immunology",
   "LinkTargets": [
     {
       "Text": "<<ORDER>> HIV CLINIC Outpt Consult",

@@ -28,6 +28,12 @@ MERGED_GROUPS: dict[str, str] = {
     "toxic-megacolon": "gi-intraabdominal",
 }
 
+# Inpatient root menus that do not have a Combined page counterpart but should
+# still map descendants into a dedicated CMS group folder.
+MANUAL_INPT_ROOT_GROUPS: dict[str, str] = {
+  "ORZID2 GMENU ABX HEAD AND NECK": "head-and-neck",
+}
+
 # Display labels for each group folder
 GROUP_LABELS: dict[str, str] = {
     "adj-exist-abx-therapy": "Adjust Existing Therapy",
@@ -42,6 +48,7 @@ GROUP_LABELS: dict[str, str] = {
     "immunocompromised-patient": "Immunocompromised",
     "gi-intraabdominal": "GI & Intraabdominal",
     "recommended-immunizations": "Immunizations",
+    "head-and-neck": "Head and Neck",
     "genitourinary": "Urogenital",
     "ssti-main-menu": "Skin & Soft Tissue",
     "systemic-infections": "Systemic Infections",
@@ -58,7 +65,8 @@ by_name: dict[str, dict] = {m["Name"]: m for m in menus}
 
 # All combined pages: those with Inpt field
 combined_pages: dict[str, dict] = {m["Name"]: m for m in menus if m.get("Inpt")}
-combined_pages["inpt-main"] = by_name.get("inpt-main", {})
+combined_main_id = "main-menu" if "main-menu" in by_name else "inpt-main"
+combined_pages[combined_main_id] = by_name.get(combined_main_id, {})
 
 print(f"Combined pages to export: {len(combined_pages)}")
 
@@ -71,9 +79,9 @@ print(f"Combined pages to export: {len(combined_pages)}")
 page_group: dict[str, str] = {}  # page_id -> group_folder
 
 inpt_main_omjson = by_name.get("ORZID2 GMENU ABX INPT MAIN")
-combined_main = by_name.get("inpt-main")
+combined_main = by_name.get(combined_main_id)
 if not combined_main:
-    print("ERROR: inpt-main not found. Run migrate-pageids.py first.")
+    print("ERROR: combined main menu not found (expected main-menu or inpt-main).")
     raise SystemExit(1)
 
 # Build map: inpatient group root name -> combined group folder name
@@ -90,6 +98,11 @@ if inpt_main_omjson:
         if combined_id and combined_id in combined_pages:
             group_folder = MERGED_GROUPS.get(combined_id, combined_id)
             inpt_group_map[inpt_root] = group_folder
+            continue
+
+        manual_group = MANUAL_INPT_ROOT_GROUPS.get(inpt_root)
+        if manual_group:
+            inpt_group_map[inpt_root] = manual_group
 
 # BFS through INPATIENT pages, tracking group ancestry
 inpt_page_to_group: dict[str, str] = {}  # inpatient_page_name -> group_folder
@@ -112,11 +125,11 @@ for inpt_root, group_folder in inpt_group_map.items():
 
 # Assign combined pages via their Inpt pointer's group
 for pid, page in combined_pages.items():
-    if pid == "inpt-main":
-        continue
-    inpt_source = page.get("Inpt", "")
-    group_folder = inpt_page_to_group.get(inpt_source, "general")
-    page_group[pid] = group_folder
+  if pid == combined_main_id:
+    continue
+  inpt_source = page.get("Inpt", "")
+  group_folder = inpt_page_to_group.get(inpt_source, "general")
+  page_group[pid] = group_folder
 
 group_summary: dict[str, int] = {}
 for pid, grp in page_group.items():
@@ -132,8 +145,13 @@ CMS_ROOT.mkdir(parents=True, exist_ok=True)
 written = 0
 skipped = 0
 
+# Remove stale generated page files so recategorized pages do not remain in old
+# group folders after re-export.
+for old_page_file in CMS_ROOT.glob("*/*.json"):
+    old_page_file.unlink()
+
 for pid, page in combined_pages.items():
-    if pid == "inpt-main":
+    if pid == combined_main_id:
         continue  # auto-generated; not a user-editable CMS page
 
     group_folder = page_group.get(pid, "general")
@@ -179,6 +197,7 @@ ORDERED_GROUPS = [
     "adj-exist-abx-therapy",
     "cns",
     "cardiovascular",
+    "head-and-neck",
     "dermatologic-surgery-guidelines",
     "device-related-infections",
     "gi-intraabdominal",
@@ -200,45 +219,45 @@ ORDERED_GROUPS_FOLDERS = [
 ]
 
 FIELD_BLOCK = """\
-      identifier_field: PageID
-      summary: "{{fields.Term1}} [{{fields.PageID}}]"
-      fields:
-        - label: "Page ID"
-          name: PageID
-          widget: string
-          hint: "Immutable identifier used in links. Set once when creating — never change."
-          pattern: ['^[a-z0-9][a-z0-9\\-]*$', 'Lowercase letters, numbers, hyphens only']
-        - label: "Display Title (search label)"
-          name: Term1
-          widget: string
-          hint: "Human-readable title shown in the search dropdown."
-        - label: "Alternate Search Term"
-          name: Term2
-          widget: string
-          required: false
-        - label: "Content"
-          name: Text
-          widget: markdown
-          required: false
-          hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
-        - label: "Link Targets"
-          name: LinkTargets
-          widget: list
-          required: false
-          hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
-          fields:
-            - label: "Link Text"
-              name: Text
-              widget: string
-            - label: "Target Page ID or Order Name"
-              name: Item
-              widget: string
-              hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
-        - label: "Source Inpatient Menu (read-only)"
-          name: Inpt
-          widget: string
-          required: false
-          hint: "Legacy VistA inpatient source menu. Do not edit."
+    identifier_field: PageID
+    summary: "{{fields.Term1}} [{{fields.PageID}}]"
+    fields:
+      - label: "Page ID"
+        name: PageID
+        widget: string
+        hint: "Immutable identifier used in links. Set once when creating — never change."
+        pattern: ['^[a-z0-9][a-z0-9\\-]*$', 'Lowercase letters, numbers, hyphens only']
+      - label: "Display Title (search label)"
+        name: Term1
+        widget: string
+        hint: "Human-readable title shown in the search dropdown."
+      - label: "Alternate Search Term"
+        name: Term2
+        widget: string
+        required: false
+      - label: "Content"
+        name: Text
+        widget: markdown
+        required: false
+        hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
+      - label: "Link Targets"
+        name: LinkTargets
+        widget: list
+        required: false
+        hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
+        fields:
+          - label: "Link Text"
+            name: Text
+            widget: string
+          - label: "Target Page ID or Order Name"
+            name: Item
+            widget: string
+            hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
+      - label: "Source Inpatient Menu (read-only)"
+        name: Inpt
+        widget: string
+        required: false
+        hint: "Legacy VistA inpatient source menu. Do not edit."
 """
 
 collection_yaml_blocks: list[str] = []

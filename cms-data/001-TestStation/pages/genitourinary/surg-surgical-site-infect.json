@@ -1,0 +1,18 @@
+{
+  "PageID": "surg-surgical-site-infect",
+  "Term1": "ORZID2 GMENU SURG SURGICAL SITE INFECT",
+  "Term2": "",
+  "Text": "## ++ SURGICAL SITE INFECTION ++\n[Post-operative wound infection](orzid2-gmenu-surg-post-op-wnd-infect)\nMediastinitis\n## ++SURGICAL PROPHYLAXIS FOR DERMATOLGY/POST-OP SKIN INFECTION++\n[Dermatologic Infections](orzc-gmenu-abx-dermatologic-surgery-guidelines)",
+  "LinkTargets": [
+    {
+      "Text": "Post-operative wound infection",
+      "Item": "ORZID2 GMENU SURG POST-OP WND INFECT"
+    },
+    {
+      "Text": "Dermatologic Infections",
+      "Item": "dermatologic-surgery-guidelines"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU SURG SURGICAL SITE INFECT",
+  "Outpt": "ORZID3 GMENU SURG SITE INFECT"
+}
