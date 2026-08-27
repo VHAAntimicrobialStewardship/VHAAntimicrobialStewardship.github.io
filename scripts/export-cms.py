@@ -56,16 +56,6 @@ GROUP_LABELS: dict[str, str] = {
     "general": "General / Uncategorized",
 }
 
-# Groups to expose as shortcut filtered collections in the CMS sidebar.
-# Keep this list small to avoid returning to an unwieldy flat sidebar.
-SHORTCUT_GROUPS: list[str] = [
-    "cns",
-    "genitourinary",
-    "ssti-main-menu",
-    "head-and-neck",
-    "device-related-infections",
-]
-
 
 # ── Load data ─────────────────────────────────────────────────────────────────
 with open(JSON_PATH, encoding="utf-8") as f:
@@ -197,10 +187,15 @@ for pid, page in combined_pages.items():
     group_dir.mkdir(parents=True, exist_ok=True)
 
     # Build page record (only CMS-relevant fields)
+    # Navigation pages (their Inpt is directly an inpatient group root) are
+    # prefixed so they sort first alphabetically within their group in Sveltia.
+    is_nav_page = page.get("Inpt", "") in inpt_group_map
+    raw_term1 = page.get("Term1") or page.get("Name") or pid
+    display_term1 = f"1. {raw_term1} (Navigation)" if is_nav_page else raw_term1
     page_record: dict = {
         "PageID": pid,
-      "Group": group_folder,
-        "Term1": page.get("Term1") or page.get("Name") or pid,
+        "Group": group_folder,
+        "Term1": display_term1,
         "Term2": page.get("Term2", ""),
         "Text": page.get("Text", ""),
         "LinkTargets": [
@@ -322,7 +317,7 @@ collection_yaml_blocks: list[str] = []
 
 # Primary editable station collection
 primary_collection_block = f"""\
-  - label: "001-TestStation: All Pages"
+  - label: "001-TestStation"
     name: "001tes_all_pages"
     folder: "cms-data/{STATION_ID}/pages"
     path: "{{{{fields.Group}}}}/{{{{fields.PageID}}}}"
@@ -333,24 +328,6 @@ primary_collection_block = f"""\
       preview: false
 {FIELD_BLOCK_RESOLVED}"""
 collection_yaml_blocks.append(primary_collection_block)
-
-# Filtered shortcuts for common high-traffic groups
-for group_folder in SHORTCUT_GROUPS:
-    label = GROUP_LABELS.get(group_folder, group_folder)
-    col_name = make_collection_name(STATION_ID, f"shortcut_{group_folder}")
-    block = f"""\
-  - label: "001-TestStation: {label}"
-    name: "{col_name}"
-    folder: "cms-data/{STATION_ID}/pages"
-    path: "{{{{fields.Group}}}}/{{{{fields.PageID}}}}"
-    filter: {{ field: Group, value: "{group_folder}" }}
-    create: false
-    format: json
-    extension: json
-    editor:
-      preview: false
-{FIELD_BLOCK_RESOLVED}"""
-    collection_yaml_blocks.append(block)
 
 existing_yml = ADMIN_CONFIG.read_text(encoding="utf-8")
 
@@ -418,7 +395,6 @@ for block in collection_yaml_blocks:
 
 ADMIN_CONFIG.write_text(new_config, encoding="utf-8")
 print(
-  "admin/config.yml updated with "
-  f"1 primary station collection and {len(SHORTCUT_GROUPS)} filtered shortcuts"
+    "admin/config.yml updated with 1 station collection (001-TestStation)"
 )
 print("Export complete.")
