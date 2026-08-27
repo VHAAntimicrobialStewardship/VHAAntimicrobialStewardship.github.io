@@ -1,5 +1,6 @@
 {
   "PageID": "herpes-whitlow",
+  "Group": "ssti-main-menu",
   "Term1": "HERPES WHITLOW",
   "Term2": "",
   "Text": "## HERPES WHITLOW (DIGIT OR HAND CELLULITIS)\n## Treatment\n## Inpatient\n\n[Acyclovir 400 mg PO q8h for 10 days ($) [R]](psjzid-acyclovir-400mg-po-q8h)\n## Outpatient\n\nAlternative for easier compliance schedule\n[Valacyclovir 1 gm PO q12h for 10 days ($) [R]](psjzid-valacyclovir-1gm-po-q12h)\n## [Acyclovir 400 mg PO TID for 10 days ($) [R]](psozid2-acyclovir-10ds-400mg-po-tid)\n[Non-VA order for above](pshzid2-acyclovir-10ds-400mg-po-tid)\n## Alternative for easier compliance schedule\n[Valacyclovir 1 gm PO BID for 10 days ($) [R]](psozid2-valacyclovir-10ds-1gm-po-bid)\nNon-VA order for above\nReferences:\nMandell chapter: Herpes simplex virus\nSanford keyword: Whitlow, herpetic",

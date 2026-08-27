@@ -6,7 +6,8 @@ file structure and regenerates admin/config.yml.
 
 Output:
   cms-data/001-TestStation/pages/{group}/{page-id}.json  — one file per page
-  admin/config.yml updated with disease-group folder collections
+  admin/config.yml updated with one primary station collection and filtered
+  shortcut collections for common groups
 """
 
 import json
@@ -54,6 +55,16 @@ GROUP_LABELS: dict[str, str] = {
     "systemic-infections": "Systemic Infections",
     "general": "General / Uncategorized",
 }
+
+# Groups to expose as shortcut filtered collections in the CMS sidebar.
+# Keep this list small to avoid returning to an unwieldy flat sidebar.
+SHORTCUT_GROUPS: list[str] = [
+    "cns",
+    "genitourinary",
+    "ssti-main-menu",
+    "head-and-neck",
+    "device-related-infections",
+]
 
 
 # ── Load data ─────────────────────────────────────────────────────────────────
@@ -140,6 +151,33 @@ for grp in sorted(group_summary):
     label = GROUP_LABELS.get(grp, grp)
     print(f"  {grp} ({label}): {group_summary[grp]} pages")
 
+# Prefer known clinical order, then append discovered groups not listed above.
+all_group_folders: list[str] = [
+    g for g in [
+        "adj-exist-abx-therapy",
+        "cns",
+        "cardiovascular",
+        "head-and-neck",
+        "dermatologic-surgery-guidelines",
+        "device-related-infections",
+        "gi-intraabdominal",
+        "hiv-aids",
+        "recommended-immunizations",
+        "immunocompromised-patient",
+        "lung-and-mediastinum",
+        "pneumonia",
+        "prevention-of-infection",
+        "genitourinary",
+        "ssti-main-menu",
+        "systemic-infections",
+        "general",
+    ]
+    if g in group_summary
+]
+for grp in sorted(group_summary):
+    if grp not in all_group_folders:
+        all_group_folders.append(grp)
+
 # ── Write CMS page files ──────────────────────────────────────────────────────
 CMS_ROOT.mkdir(parents=True, exist_ok=True)
 written = 0
@@ -161,6 +199,7 @@ for pid, page in combined_pages.items():
     # Build page record (only CMS-relevant fields)
     page_record: dict = {
         "PageID": pid,
+      "Group": group_folder,
         "Term1": page.get("Term1") or page.get("Name") or pid,
         "Term2": page.get("Term2", ""),
         "Text": page.get("Text", ""),
@@ -192,6 +231,15 @@ def make_collection_name(station: str, group: str) -> str:
     return f"{short_station}_{short_group}"
 
 
+def make_group_options_yaml(order: list[str]) -> str:
+    """Build select options YAML for Group field from ordered folders."""
+    lines: list[str] = []
+    for group_folder in order:
+        label = GROUP_LABELS.get(group_folder, group_folder)
+        lines.append(f'          - {{ label: "{label}", value: "{group_folder}" }}')
+    return "\n".join(lines)
+
+
 # Ordered groups for config.yml (clinical order)
 ORDERED_GROUPS = [
     "adj-exist-abx-therapy",
@@ -220,13 +268,20 @@ ORDERED_GROUPS_FOLDERS = [
 
 FIELD_BLOCK = """\
     identifier_field: PageID
-    summary: "{{fields.Term1}} [{{fields.PageID}}]"
+    summary: "{{fields.Group}} | {{fields.Term1}} [{{fields.PageID}}]"
+    sortable_fields: ["PageID", "Term1", "Group"]
     fields:
       - label: "Page ID"
         name: PageID
         widget: string
         hint: "Immutable identifier used in links. Set once when creating — never change."
         pattern: ['^[a-z0-9][a-z0-9\\-]*$', 'Lowercase letters, numbers, hyphens only']
+      - label: "Group"
+        name: Group
+        widget: select
+        hint: "Clinical group used for organization and file path under pages/."
+        options:
+__GROUP_OPTIONS__
       - label: "Display Title (search label)"
         name: Term1
         widget: string
@@ -260,20 +315,41 @@ FIELD_BLOCK = """\
         hint: "Legacy VistA inpatient source menu. Do not edit."
 """
 
+GROUP_OPTIONS_YAML = make_group_options_yaml(all_group_folders)
+FIELD_BLOCK_RESOLVED = FIELD_BLOCK.replace("__GROUP_OPTIONS__", GROUP_OPTIONS_YAML)
+
 collection_yaml_blocks: list[str] = []
-for group_folder in ORDERED_GROUPS_FOLDERS:
-    label = GROUP_LABELS.get(group_folder, group_folder)
-    col_name = make_collection_name(STATION_ID, group_folder)
-    block = f"""\
-  - label: "001-TestStation: {label}"
-    name: "{col_name}"
-    folder: "cms-data/{STATION_ID}/pages/{group_folder}"
+
+# Primary editable station collection
+primary_collection_block = f"""\
+  - label: "001-TestStation: All Pages"
+    name: "001tes_all_pages"
+    folder: "cms-data/{STATION_ID}/pages"
+    path: "{{{{fields.Group}}}}/{{{{fields.PageID}}}}"
     create: true
     format: json
     extension: json
     editor:
       preview: false
-{FIELD_BLOCK}"""
+{FIELD_BLOCK_RESOLVED}"""
+collection_yaml_blocks.append(primary_collection_block)
+
+# Filtered shortcuts for common high-traffic groups
+for group_folder in SHORTCUT_GROUPS:
+    label = GROUP_LABELS.get(group_folder, group_folder)
+    col_name = make_collection_name(STATION_ID, f"shortcut_{group_folder}")
+    block = f"""\
+  - label: "001-TestStation: {label}"
+    name: "{col_name}"
+    folder: "cms-data/{STATION_ID}/pages"
+    path: "{{{{fields.Group}}}}/{{{{fields.PageID}}}}"
+    filter: {{ field: Group, value: "{group_folder}" }}
+    create: false
+    format: json
+    extension: json
+    editor:
+      preview: false
+{FIELD_BLOCK_RESOLVED}"""
     collection_yaml_blocks.append(block)
 
 existing_yml = ADMIN_CONFIG.read_text(encoding="utf-8")
@@ -341,5 +417,8 @@ for block in collection_yaml_blocks:
     new_config += block + "\n"
 
 ADMIN_CONFIG.write_text(new_config, encoding="utf-8")
-print(f"admin/config.yml updated with {len(collection_yaml_blocks)} group collections")
+print(
+  "admin/config.yml updated with "
+  f"1 primary station collection and {len(SHORTCUT_GROUPS)} filtered shortcuts"
+)
 print("Export complete.")

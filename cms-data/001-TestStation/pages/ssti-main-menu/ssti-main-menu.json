@@ -1,5 +1,6 @@
 {
   "PageID": "ssti-main-menu",
+  "Group": "ssti-main-menu",
   "Term1": "Skin and Soft Tissue Infections",
   "Term2": "SSTI",
   "Text": "[Help Information](general-information-inpatient)\n## Mild, Non-purulent\n[Cellulitis & erysipelas](cellulitis)\n## Diabetic Foot Infections\n[Click here](orzid3-gmenu-foot-ulcer-in-pt-w-dm)\n## Viral Skin Infections\n[Click here](orzid3-gmenu-ssti-viral)\n## Bite Wounds\nAnimal Bite\nHuman Bite\n[Click here for above](bite-wounds)\n## Bed Bugs, Lice, Scabies\n[Click here](orzid3-gmenu-ssti-bed-bugs-lice-scabies)\n<!-- RIGHT COLUMN -->\n## Purulent SSTI\nINCLUDING:\nCutaneous Abscess\nFuruncles\nCarbuncles\nOther SSTI with pus present\n[Click here for above](ssti-purulent-infections)\n[Perianal/anorectal abscess](perianal-anorectal-abscess)\n## Necrotizing SSTI\n*Manage as inpatient*\n## Fungal Skin Infections\n[Click here](orzid3-gmenu-ssti-fungal)\n## Dermatology Post-Op Infection\n[Click here](dermatologic-surgery-guidelines)\n<!-- COLUMN 3 -->\n## Complex SSTI\nSurgical site infections (SSI)\n*See inpatient CDSS for above*\n## Decubitus Ulcers\n## Miscellaneous\n[Acne](acne)\n[Erythrasma](erythrasma)\n[Folliculitis](folliculitis)\n[Hidradenitis Suppurativa](hidradenitis-suppurativa)\n[Impetigo](impetigo)\n[Lyme](lyme-disease)\n[Rosacea](orzid3-gmenu-abx-rosacea)\n[Paronychia](paronychia)",
