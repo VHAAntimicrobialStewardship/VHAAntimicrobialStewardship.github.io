@@ -1004,8 +1004,8 @@ function isStructuredRichTextNavigationPage(selectedData) {
   if (!selectedData || selectedData.Name === combinedMenu || typeof selectedData.Text !== 'string') {
     return false;
   }
-  // Primary signal: explicit two-column delimiter
-  return selectedData.Text.includes('<!-- RIGHT COLUMN -->');
+  // Primary signal: explicit structured column delimiter(s)
+  return /<!--\s*(RIGHT COLUMN|COLUMN\s+\d+)\s*-->/i.test(selectedData.Text);
 }
 
 function createStructuredRichTextNavigationTable(selectedData) {
@@ -1026,11 +1026,26 @@ function createStructuredRichTextNavigationTable(selectedData) {
     }
   }
 
-  // Find the column delimiter
-  const delimiterIdx = contentLines.findIndex(l => l.trim() === '<!-- RIGHT COLUMN -->');
+  // Split content into N sections based on delimiter markers.
+  // Supported markers: <!-- RIGHT COLUMN -->, <!-- COLUMN 2 -->, <!-- COLUMN 3 -->, etc.
+  const delimiterRegex = /^<!--\s*(RIGHT COLUMN|COLUMN\s+\d+)\s*-->$/i;
+  const sections = [[]];
+  contentLines.forEach((line) => {
+    if (delimiterRegex.test(line.trim())) {
+      sections.push([]);
+      return;
+    }
+    sections[sections.length - 1].push(line);
+  });
+
+  // Remove trailing empty sections caused by accidental extra delimiters
+  while (sections.length > 1 && sections[sections.length - 1].every(line => !line.trim())) {
+    sections.pop();
+  }
+
   const screenWidth = window.innerWidth / (window.devicePixelRatio || 1);
-  const useTwoColumns = delimiterIdx !== -1 && screenWidth >= 900;
-  const colCount = useTwoColumns ? 2 : 1;
+  const useMultiColumns = sections.length > 1 && screenWidth >= 900;
+  const colCount = useMultiColumns ? sections.length : 1;
 
   // Banner row (full width)
   if (topBanner) {
@@ -1044,13 +1059,15 @@ function createStructuredRichTextNavigationTable(selectedData) {
     tbody.appendChild(bannerRow);
   }
 
-  // Helper: render a list of lines into a <td>
-  function renderColumnLines(columnLines) {
+  // Helper: render one section into a <td>
+  function renderSectionLines(sectionLines) {
     const cell = document.createElement('td');
     cell.style.verticalAlign = 'top';
-    if (useTwoColumns) cell.style.width = '50%';
-    columnLines.forEach(line => {
-      if (!line.trim() || line.trim() === '<!-- RIGHT COLUMN -->') return;
+    if (useMultiColumns) {
+      cell.style.width = (100 / sections.length) + '%';
+    }
+    sectionLines.forEach(line => {
+      if (!line.trim()) return;
       const headingMatch = line.match(/^\s{0,3}##\s+(.*)$/);
       const lineText = headingMatch ? headingMatch[1].trim() : line;
       const lineEl = document.createElement('div');
@@ -1061,28 +1078,29 @@ function createStructuredRichTextNavigationTable(selectedData) {
     return cell;
   }
 
-  if (useTwoColumns) {
-    const leftLines = contentLines.slice(0, delimiterIdx);
-    const rightLines = contentLines.slice(delimiterIdx + 1);
+  if (useMultiColumns) {
     const contentRow = document.createElement('tr');
     contentRow.style.verticalAlign = 'top';
-    contentRow.appendChild(renderColumnLines(leftLines));
-    contentRow.appendChild(renderColumnLines(rightLines));
+    sections.forEach(sectionLines => {
+      contentRow.appendChild(renderSectionLines(sectionLines));
+    });
     tbody.appendChild(contentRow);
   } else {
-    // Single column: all lines in order, delimiter ignored
-    contentLines.forEach(line => {
-      if (!line.trim() || line.trim() === '<!-- RIGHT COLUMN -->') return;
-      const headingMatch = line.match(/^\s{0,3}##\s+(.*)$/);
-      const lineText = headingMatch ? headingMatch[1].trim() : line;
-      const row = document.createElement('tr');
-      const cell = document.createElement('td');
-      const lineEl = document.createElement('div');
-      if (headingMatch) lineEl.classList.add('bold');
-      appendRichTextLineContent(lineEl, lineText, selectedData);
-      cell.appendChild(lineEl);
-      row.appendChild(cell);
-      tbody.appendChild(row);
+    // Single column: render all section lines in source order
+    sections.forEach(sectionLines => {
+      sectionLines.forEach(line => {
+        if (!line.trim()) return;
+        const headingMatch = line.match(/^\s{0,3}##\s+(.*)$/);
+        const lineText = headingMatch ? headingMatch[1].trim() : line;
+        const row = document.createElement('tr');
+        const cell = document.createElement('td');
+        const lineEl = document.createElement('div');
+        if (headingMatch) lineEl.classList.add('bold');
+        appendRichTextLineContent(lineEl, lineText, selectedData);
+        cell.appendChild(lineEl);
+        row.appendChild(cell);
+        tbody.appendChild(row);
+      });
     });
   }
 
@@ -1343,19 +1361,13 @@ function createOMTable(selectedData) {
           
           if (Item && !Item.startsWith(MenuPrefix)) {
           /*if (Item && !(Item.startsWith(MenuPrefix) || Item.startsWith(LinkPrefix))) {*/
-              // Make the entire cell content clickable for order dialogs
-              const clickableContainer = document.createElement('a');
-              clickableContainer.classList.add('clickable');
-              clickableContainer.addEventListener('click', () => {
+              const clickableSymbol = document.createElement('a');
+              clickableSymbol.textContent = " \u24d8";
+              clickableSymbol.classList.add('clickable');
+              clickableSymbol.addEventListener('click', () => {
                   handleRowClick(matchingItem, true);
               });
-              
-              // Move all children from cellContentElement to the clickable container
-              while (cellContentElement.firstChild) {
-                  clickableContainer.appendChild(cellContentElement.firstChild);
-              }
-              
-              cellContentElement.appendChild(clickableContainer);
+              cellContentElement.appendChild(clickableSymbol);
           }
 
           
