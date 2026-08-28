@@ -3,7 +3,7 @@
   "Group": "cns",
   "Term1": "ANAPLASMA PHATOCYTOPHILUM",
   "Term2": "",
-  "Text": "## ANAPLASMA PHAGOCYTOPHILUM (HUMAN GRANULOCYTOTROPIC ANAPLASMOSIS)\n## Treatment\n[Doxycycline 100 mg PO q12h for 10 days ($) [DI]](psjzid-doxycycline-100mg-po-q12h)\n< OR >\n[Doxycycline 100 mg IV q12h for 10 days ($$) [DI]](psjizid-doxycycline-100mg-iv-q12h)\nReferences:\nMandell chapter: Rickettsioses, Ehrlichioses, and Anaplasmosis\nMMWR RR. 2016, 65 (2) 1-44\nSanford keyword: Ehrlichia sp., Anaplasma sp.\nUp-to-Date article: Human ehrlichiosis and anaplasmosis",
+  "Text": "## ANAPLASMA PHAGOCYTOPHILUM (HUMAN GRANULOCYTOTROPIC ANAPLASMOSIS)\n## Treatment\nDoxycycline 100 mg PO q12h for 10 days ($) [DI]\n< OR >\nDoxycycline 100 mg IV q12h for 10 days ($$) [DI]\nReferences:\nMandell chapter: Rickettsioses, Ehrlichioses, and Anaplasmosis\nMMWR RR. 2016, 65 (2) 1-44\nSanford keyword: Ehrlichia sp., Anaplasma sp.\nUp-to-Date article: Human ehrlichiosis and anaplasmosis",
   "Inpt": "ORZID2 GMENU ANAPLASMA PHATOCYTOPHILUM",
   "Outpt": "ORZID3 GMENU PATH A. PHAGOCYTOPHILUM"
 }

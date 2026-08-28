@@ -3,7 +3,7 @@
   "Group": "pneumonia",
   "Term1": "1. 1. PNEUMONIA (Navigation) (Navigation)",
   "Term2": "",
-  "Text": "## ++ PNEUMONIA - INPATIENT ++\n[Aspiration Pneumonia](orzc-gmenu-abx-aspiration-pneumonia)\n[Community-acquired pneumonia (CAP)](orzc-gmenu-abx-com-acq-pneumonia)\nNote: Healthcare-associated pneumonia (HCAP) is no longer used. See CAP above.\n[Nosocomial pneumonia (including HAP AND VAP)](orzc-gmenu-abx-noso-pneumonia-new)",
+  "Text": "## ++ PNEUMONIA - INPATIENT ++\nAspiration Pneumonia\nCommunity-acquired pneumonia (CAP)\nNote: Healthcare-associated pneumonia (HCAP) is no longer used. See CAP above.\nNosocomial pneumonia (including HAP AND VAP)",
   "Inpt": "ORZID2 GMENU ABX PNEUMONIA",
   "Outpt": "ORZID3 GMENU COMM INFECT PNEUMO"
 }

@@ -3,7 +3,7 @@
   "Group": "general",
   "Term1": "OSTEOM WITH STREPTOCOCCI",
   "Term2": "",
-  "Text": "## OSTEOMYELITIS WITH STREPTOCOCCI\n## Treatment\nPenicillin G 4 million units IV q4h ($) [R] < OR >\nOral treatment:\nTrimethoprim-sulfamethoxazole 1 DS tablet PO q12h ($) [R,DI] < OR >\nReferences:\nSanford keyword: Osteomyelitis\nMandell chapter: Osteomyelitis\nLew DP Lancet 2004, 364: 369\nCunha BA Clin Infect Dis 2002, 35: 287\n\n## Outpatient\n\nGuidance\nTreat for 4 weeks.\n## Treatment\n[Trimethoprim-sulfamethoxazole 1 DS tablet PO BID ($) [R,DI] < OR >](psozid2-tmp-sulfa-28days-1ds-tab-bid)\n< OR >",
+  "Text": "## OSTEOMYELITIS WITH STREPTOCOCCI\n## Treatment\nPenicillin G 4 million units IV q4h ($) [R] < OR >\nOral treatment:\nTrimethoprim-sulfamethoxazole 1 DS tablet PO q12h ($) [R,DI] < OR >\nReferences:\nSanford keyword: Osteomyelitis\nMandell chapter: Osteomyelitis\nLew DP Lancet 2004, 364: 369\nCunha BA Clin Infect Dis 2002, 35: 287\n\n## Outpatient\n\nGuidance\nTreat for 4 weeks.\n## Treatment\nTrimethoprim-sulfamethoxazole 1 DS tablet PO BID ($) [R,DI] < OR >\n< OR >",
   "Inpt": "ORZID2 GMENU OSTEOM WITH STREPTOCOCCI",
   "Outpt": "ORZID3 GMENU OSTEOM STREPTOCOCCI"
 }

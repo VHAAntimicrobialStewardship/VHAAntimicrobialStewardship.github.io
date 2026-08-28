@@ -3,7 +3,7 @@
   "Group": "general",
   "Term1": "ABSCESSES",
   "Term2": "",
-  "Text": "## ABSCESSES: [CUTANEOUS ABSCESS](orzc-gmenu-cutaneous-abscess), FURUNCLE, CARBUNCLE, AND PYOMYOSITIS\nThis section describes management of skin and soft tissue infections. For\ninformation on abscesses in other areas, please return to the main CDSS menu and\nchoose the appropriate organ system.\nCutaneous abscess\n[Perianal/Anorectal Abscess](orzc-gmenu-abx-perianal-anorectal-abscess)\n[Furuncles and carbuncles](orzc-gmenu-furuncles-and-carbuncles)\nPyomyositis ## Inpatient Guidance\nReferences:\nSanford keyword: Skin infections",
+  "Text": "## ABSCESSES: CUTANEOUS ABSCESS, FURUNCLE, CARBUNCLE, AND PYOMYOSITIS\nThis section describes management of skin and soft tissue infections. For\ninformation on abscesses in other areas, please return to the main CDSS menu and\nchoose the appropriate organ system.\nCutaneous abscess\nPerianal/Anorectal Abscess\nFuruncles and carbuncles\nPyomyositis ## Inpatient Guidance\nReferences:\nSanford keyword: Skin infections",
   "Inpt": "ORZID2 GMENU ABSCESSES",
   "Outpt": "ORZID3 GMENU ABSCESSES"
 }
