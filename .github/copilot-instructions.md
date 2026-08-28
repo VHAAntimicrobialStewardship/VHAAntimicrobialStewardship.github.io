@@ -20,11 +20,14 @@ Key JSON data files:
 * stations/001-TestStation/TestStationODJSON.json — order data (3,638 entries).
 * AntimicrobialStewardshipGuidanceCombined.xlsx — source spreadsheet for combined guidance.
 * stations/001-TestStation/TestStationOMJSON_VistA.json — backup of OMJSON before PageID migration.
+* AbxLinks.json — external drug links to Sanford Guide and other references. Runtime lookup file synced from cms-data/abx-links.cms.json via GitHub Action.
+* cms-data/abx-links.cms.json — CMS-managed drug link registry. SMEs edit in Sveltia admin; GitHub Action automatically syncs to AbxLinks.json on commit.
 
 Key scripts (in /scripts/):
 * rebuild-combined-menus.py — rebuilds all combined menus from the spreadsheet; generates slug PageID Names (run after SMEs update the xlsx).
 * restore-combined-links.py — restores markdown links in combined plain-text menus by label-matching against inpatient link targets (run after rebuild).
-* audit-teststation.py — integrity audit: checks cross-ref validity, placeholder content. Currently: ISSUES 0, WARNINGS 308 (legacy unresolved link targets — non-blocking).
+* strip-order-links.py — removes VistA order-style markdown links (PSJ, ORZ SET, LRTZ, etc.) from combined CMS pages while preserving navigation links (GMENU, combined PageIDs, external URLs). Run after importing new VistA combined data.
+* audit-teststation.py — integrity audit: checks cross-ref validity, placeholder content. Currently: ISSUES 0, WARNINGS 281 (legacy unresolved link targets — non-blocking; down from 391 after order-link removal).
 * migrate-pageids.py — one-time script used to migrate combined pages to immutable slug IDs.
 * export-cms.py — exports combined pages from OMJSON into station/group/page CMS file tree and regenerates admin/config.yml.
 * compile-cms.py — compiles CMS page files back into OMJSON.
@@ -32,9 +35,11 @@ Key scripts (in /scripts/):
 * fix-broken-outpt-refs.py — corrects legacy Outpt name mismatches.
 
 Runtime rendering (TestStationCDSS.html) — key design decisions:
+* **External drug links (AbxLinks)** — green hyperlinks to Sanford Guide and other references. Two rendering paths: (1) Old-style row-based (Minneapolis/Inpatient/Outpatient/ER-UC tabs): scans each row for drug names and wraps matching tokens. (2) Combined tab markdown rendering: `appendTextWithAbxLinks` scans plain text between/after markdown links and wraps drug names inline. Matches are case-insensitive word-boundary regex against AbxLinks entries. RouteFilter field is present but not yet enforced.
 * `resolveEmbeddedLinkTarget(selectedData, target, label)` — resolves markdown link targets using: (1) direct PageID lookup, (2) page LinkTargets by Item, (3) page LinkTargets by label text, (4) global normalized OM name match, (5) global normalized OD name match, (6) global label-text search across all LinkTargets.
 * `resolveTargetForCurrentVersion(targetName)` — when Combined tab is active, remaps any inpatient/outpatient/ERUC target to its combined equivalent using Inpt/Outpt/ERUC crosswalk fields.
 * `extractMarkdownLinks(lineText)` — balanced-bracket parser (handles nested `[R]` in link labels).
+* `appendTextWithAbxLinks(text)` — scans plain text for drug names matching AbxLinks entries and wraps them in green `<a class="AbxLink">` elements.
 * `createCombinedMainMenuTable(selectedData)` — two-column renderer for the combined main menu page only.
 * `createStructuredRichTextNavigationTable(selectedData)` — row-paired two-column renderer for navigation pages (≥4 `##` headings and ≥6 links/targets). Renders each entry (heading or link line) left/right paired, matching Minneapolis column structure. Used for pages like CNS.
 * `createRichTextTable(selectedData)` — single-column renderer for guidance content pages.
@@ -49,6 +54,15 @@ Recommended workflow when SMEs add new combined guidance to the spreadsheet:
 3. Run scripts/audit-teststation.py (should show 0 issues)
 4. git add / commit / push
 
+Recommended workflow for SMEs to add external drug links via Sveltia CMS:
+1. Go to https://vhaantimicrobialstewardship.github.io/admin/
+2. Click "Antibiotic Links" in sidebar
+3. Click + to add new entry
+4. Fill in: **Name** (drug name), **URL** (Sanford Guide or other reference), **Route Filter** (optional)
+5. Click Save → Publish
+6. GitHub Action automatically syncs cms-data/abx-links.cms.json → AbxLinks.json within ~30 seconds
+7. Site service worker picks up new file on next page load; drug names appear as green links where they occur
+
 Recommended workflow when updating the CMS config (e.g. adding new disease groups):
 1. Run scripts/export-cms.py (exports pages and regenerates admin/config.yml)
 2. Verify admin/config.yml — ensure each folder collection has identifier_field, summary, fields at top level (not nested under editor)
@@ -56,7 +70,8 @@ Recommended workflow when updating the CMS config (e.g. adding new disease group
 
 Next steps:
 
-* Continue reviewing and editing combined guidance pages via Sveltia CMS (admin/). CNS navigation structure is still being refined to match Minneapolis two-column layout.
+* Continue reviewing and editing combined guidance pages via Sveltia CMS (admin/). Drug names now render as green external links via AbxLinks; VistA order links have been stripped from all 198 combined pages.
 * Continue adding combined guidance content to AntimicrobialStewardshipGuidanceCombined.xlsx and re-running the rebuild/restore pipeline.
+* Use Sveltia "Antibiotic Links" collection to add missing drug links (e.g. Cefdinir) without requiring developer intervention.
 * Apply the Combined tab feature to other real stations once the test station review is complete.
-* Remaining 308 audit warnings are legacy unresolved link targets in combined page text — these point to VistA order IDs or OM menus not yet present in TestStation. Address by adding them to OMJSON or accepting as unresolvable.
+* Remaining 281 audit warnings are legacy unresolved link targets in combined page text — these point to VistA OM menus not yet present in TestStation. Address by adding them to OMJSON or accepting as unresolvable.
