@@ -164,6 +164,60 @@
       overflow: hidden;
       text-overflow: ellipsis;
     } /* Disable text wrapping within a cell */
+    .markdown-heading-1,
+    .markdown-heading-2,
+    .markdown-heading-3,
+    .markdown-heading-4,
+    .markdown-heading-5,
+    .markdown-heading-6 {
+      font-family: 'PT Serif Bold', Arial, sans-serif;
+      line-height: 1.2;
+    }
+    .markdown-heading-1 { font-size: 1.35em; }
+    .markdown-heading-2 { font-size: 1.25em; }
+    .markdown-heading-3 { font-size: 1.18em; }
+    .markdown-heading-4 { font-size: 1.1em; }
+    .markdown-heading-5 { font-size: 1.03em; }
+    .markdown-heading-6 { font-size: 1em; }
+    .markdown-blockquote {
+      border-left: 3px solid #00aedb;
+      margin-left: 0;
+      padding-left: 8px;
+      color: #333;
+      font-style: italic;
+    }
+    .markdown-list-item {
+      padding-left: 8px;
+      text-indent: -8px;
+    }
+    .markdown-rule {
+      border: 0;
+      border-top: 1px solid #b7b7b7;
+      margin: 6px 0;
+    }
+    .markdown-inline-code {
+      font-family: Consolas, 'Courier New', monospace;
+      background-color: #f1f1f1;
+      border-radius: 3px;
+      padding: 0 3px;
+      font-size: 0.95em;
+    }
+    .markdown-code-block {
+      font-family: Consolas, 'Courier New', monospace;
+      background-color: #f8f8f8;
+      border: 1px solid #d7d7d7;
+      border-radius: 4px;
+      padding: 8px;
+      margin: 6px 0;
+      overflow-x: auto;
+      white-space: pre;
+    }
+    .markdown-image {
+      max-width: 100%;
+      height: auto;
+      margin: 4px 0;
+      border-radius: 3px;
+    }
     
 /* Header styles */
 #header {
@@ -804,7 +858,7 @@ function scrollToTop() {
     return !isGuidanceTargetName(candidate);
   }
 
-  function appendTextWithAbxLinks(container, text) {
+  function appendPlainTextWithAbxLinks(container, text) {
     const contentText = (text || '').toString();
     if (!contentText) {
       return;
@@ -867,6 +921,114 @@ function scrollToTop() {
     if (cursor < contentText.length) {
       container.appendChild(document.createTextNode(contentText.substring(cursor)));
     }
+  }
+
+  function findUnescapedMarker(text, marker, startIndex) {
+    let index = text.indexOf(marker, startIndex);
+    while (index !== -1) {
+      let slashCount = 0;
+      for (let i = index - 1; i >= 0 && text[i] === '\\'; i -= 1) {
+        slashCount += 1;
+      }
+      if (slashCount % 2 === 0) {
+        return index;
+      }
+      index = text.indexOf(marker, index + marker.length);
+    }
+    return -1;
+  }
+
+  function appendPlainTextSegment(container, text, enableAbxLinks) {
+    const contentText = (text || '').toString();
+    if (!contentText) {
+      return;
+    }
+
+    if (enableAbxLinks) {
+      appendPlainTextWithAbxLinks(container, contentText);
+      return;
+    }
+
+    container.appendChild(document.createTextNode(contentText));
+  }
+
+  function appendInlineMarkdownText(container, text, enableAbxLinks = false, depth = 0) {
+    const contentText = (text || '').toString();
+    if (!contentText) {
+      return;
+    }
+
+    if (depth > 6) {
+      appendPlainTextSegment(container, contentText, enableAbxLinks);
+      return;
+    }
+
+    const markers = [
+      { token: '**', tag: 'strong' },
+      { token: '__', tag: 'strong' },
+      { token: '~~', tag: 's' },
+      { token: '`', tag: 'code' },
+      { token: '*', tag: 'em' },
+      { token: '_', tag: 'em' }
+    ];
+    let cursor = 0;
+    let renderedInline = false;
+
+    while (cursor < contentText.length) {
+      let openIndex = -1;
+      let selectedMarker = null;
+
+      markers.forEach((markerInfo) => {
+        const candidate = findUnescapedMarker(contentText, markerInfo.token, cursor);
+        if (candidate !== -1 && (openIndex === -1 || candidate < openIndex)) {
+          openIndex = candidate;
+          selectedMarker = markerInfo;
+        }
+      });
+
+      if (openIndex === -1 || !selectedMarker) {
+        break;
+      }
+
+      const closeIndex = findUnescapedMarker(
+        contentText,
+        selectedMarker.token,
+        openIndex + selectedMarker.token.length
+      );
+
+      if (closeIndex === -1) {
+        break;
+      }
+
+      if (openIndex > cursor) {
+        appendPlainTextSegment(container, contentText.substring(cursor, openIndex), enableAbxLinks);
+      }
+
+      const inlineText = contentText.substring(openIndex + selectedMarker.token.length, closeIndex);
+      if (inlineText) {
+        const inlineElement = document.createElement(selectedMarker.tag);
+        if (selectedMarker.tag === 'code') {
+          inlineElement.classList.add('markdown-inline-code');
+          inlineElement.textContent = inlineText;
+        } else {
+          appendInlineMarkdownText(inlineElement, inlineText, enableAbxLinks, depth + 1);
+        }
+        container.appendChild(inlineElement);
+        renderedInline = true;
+      }
+
+      cursor = closeIndex + selectedMarker.token.length;
+    }
+
+    if (cursor < contentText.length) {
+      appendPlainTextSegment(container, contentText.substring(cursor), enableAbxLinks);
+    } else if (!renderedInline) {
+      appendPlainTextSegment(container, contentText, enableAbxLinks);
+    }
+  }
+
+  function appendTextWithAbxLinks(container, text) {
+    appendInlineMarkdownText(container, text, true);
   }
 
   function resolveEmbeddedLinkTarget(selectedData, target, label = '') {
@@ -983,6 +1145,24 @@ function extractMarkdownLinks(lineText) {
   return links;
 }
 
+function extractMarkdownImages(lineText) {
+  const images = [];
+  const imageRegex = /!\[([^\]]*)\]\(([^)]+)\)/g;
+  let match;
+
+  while ((match = imageRegex.exec(lineText)) !== null) {
+    images.push({
+      index: match.index,
+      end: match.index + match[0].length,
+      fullMatch: match[0],
+      alt: match[1],
+      target: match[2]
+    });
+  }
+
+  return images;
+}
+
 function resolveTargetForCurrentVersion(targetName) {
   const normalizedTarget = (targetName || '').trim();
   if (!normalizedTarget || currentVersion !== 'combined') {
@@ -1009,18 +1189,156 @@ function resolveTargetForCurrentVersion(targetName) {
   return normalizedTarget;
 }
 
+function parseRichTextLineSyntax(lineText) {
+  const rawLine = (lineText || '').toString();
+  const parsed = {
+    text: rawLine,
+    classes: [],
+    prefix: ''
+  };
+
+  if (/^\s{0,3}(([-*_])\s*){3,}$/.test(rawLine)) {
+    parsed.text = '';
+    parsed.classes.push('markdown-rule');
+    return parsed;
+  }
+
+  const headingMatch = rawLine.match(/^\s{0,3}(#{1,6})\s+(.*)$/);
+  if (headingMatch) {
+    const level = headingMatch[1].length;
+    parsed.text = headingMatch[2];
+    parsed.classes.push('bold', `markdown-heading-${level}`);
+    return parsed;
+  }
+
+  const blockQuoteMatch = rawLine.match(/^\s{0,3}>\s?(.*)$/);
+  if (blockQuoteMatch) {
+    parsed.text = blockQuoteMatch[1];
+    parsed.classes.push('markdown-blockquote');
+    return parsed;
+  }
+
+  const unorderedListMatch = rawLine.match(/^\s{0,3}[-*+]\s+(.*)$/);
+  if (unorderedListMatch) {
+    parsed.text = unorderedListMatch[1];
+    parsed.prefix = '\u2022 ';
+    parsed.classes.push('markdown-list-item');
+    return parsed;
+  }
+
+  const orderedListMatch = rawLine.match(/^\s{0,3}(\d+)\.\s+(.*)$/);
+  if (orderedListMatch) {
+    parsed.text = orderedListMatch[2];
+    parsed.prefix = `${orderedListMatch[1]}. `;
+    parsed.classes.push('markdown-list-item');
+  }
+
+  return parsed;
+}
+
+function appendCodeBlockElement(container, codeLines) {
+  const pre = document.createElement('pre');
+  pre.classList.add('markdown-code-block');
+  const code = document.createElement('code');
+  code.textContent = codeLines.join('\n');
+  pre.appendChild(code);
+  container.appendChild(pre);
+}
+
+function appendRichTextLinesWithCodeFences(container, lines, selectedData, skipEmptyLines = true) {
+  let inCodeBlock = false;
+  let codeLines = [];
+
+  lines.forEach((line) => {
+    const fenceMatch = (line || '').match(/^\s*```/);
+    if (fenceMatch) {
+      if (!inCodeBlock) {
+        inCodeBlock = true;
+        codeLines = [];
+      } else {
+        appendCodeBlockElement(container, codeLines);
+        inCodeBlock = false;
+        codeLines = [];
+      }
+      return;
+    }
+
+    if (inCodeBlock) {
+      codeLines.push(line || '');
+      return;
+    }
+
+    if (!line || !line.trim()) {
+      if (!skipEmptyLines) {
+        container.appendChild(document.createElement('div'));
+      }
+      return;
+    }
+
+    const lineElement = document.createElement('div');
+    appendRichTextLineContent(lineElement, line, selectedData);
+    container.appendChild(lineElement);
+  });
+
+  if (inCodeBlock) {
+    appendCodeBlockElement(container, codeLines);
+  }
+}
+
 function appendRichTextLineContent(container, lineText, selectedData) {
-  const markdownLinks = extractMarkdownLinks(lineText);
+  const parsedLine = parseRichTextLineSyntax(lineText);
+  parsedLine.classes.forEach((className) => container.classList.add(className));
+
+  if (parsedLine.classes.includes('markdown-rule')) {
+    const hr = document.createElement('hr');
+    hr.classList.add('markdown-rule');
+    container.appendChild(hr);
+    return;
+  }
+
+  if (parsedLine.prefix) {
+    container.appendChild(document.createTextNode(parsedLine.prefix));
+  }
+
+  const contentText = parsedLine.text;
+  const markdownImages = extractMarkdownImages(contentText);
+  const markdownLinks = extractMarkdownLinks(contentText).filter((link) => {
+    return !(link.index > 0 && contentText[link.index - 1] === '!');
+  });
+  const markdownTokens = [];
+  markdownImages.forEach((image) => markdownTokens.push({ type: 'image', ...image }));
+  markdownLinks.forEach((link) => markdownTokens.push({ type: 'link', ...link }));
+  markdownTokens.sort((a, b) => {
+    if (a.index !== b.index) {
+      return a.index - b.index;
+    }
+    return b.end - a.end;
+  });
   let currentIndex = 0;
 
-  markdownLinks.forEach((match) => {
-    const plainText = lineText.substring(currentIndex, match.index);
+  markdownTokens.forEach((match) => {
+    if (match.index < currentIndex) {
+      return;
+    }
+
+    const plainText = contentText.substring(currentIndex, match.index);
     if (plainText) {
-      if (currentVersion === 'combined') {
-        appendTextWithAbxLinks(container, plainText);
+      appendInlineMarkdownText(container, plainText, currentVersion === 'combined');
+    }
+
+    if (match.type === 'image') {
+      const imageUrl = decodeURIComponent((match.target || '').trim());
+      if (imageUrl) {
+        const imageElement = document.createElement('img');
+        imageElement.src = imageUrl;
+        imageElement.alt = (match.alt || '').trim();
+        imageElement.classList.add('markdown-image');
+        container.appendChild(imageElement);
       } else {
-        container.appendChild(document.createTextNode(plainText));
+        appendInlineMarkdownText(container, match.fullMatch, currentVersion === 'combined');
       }
+      currentIndex = match.end;
+      return;
     }
 
     const label = (match.label || '').trim();
@@ -1030,37 +1348,29 @@ function appendRichTextLineContent(container, lineText, selectedData) {
       externalLink.href = target;
       externalLink.target = '_blank';
       externalLink.classList.add('AbxLink');
-      externalLink.textContent = label;
+      appendInlineMarkdownText(externalLink, label, false);
       container.appendChild(externalLink);
     } else {
       const resolvedItem = resolveEmbeddedLinkTarget(selectedData, target, label);
       if (resolvedItem && !shouldSuppressCombinedInternalLink(target, resolvedItem)) {
         const rowClickElement = document.createElement('a');
         rowClickElement.classList.add('clickable');
-        rowClickElement.textContent = label;
+        appendInlineMarkdownText(rowClickElement, label, false);
         rowClickElement.addEventListener('click', () => {
           handleRowClick({ Item: resolvedItem, Text: label }, false);
         });
         container.appendChild(rowClickElement);
       } else {
-        if (currentVersion === 'combined') {
-          appendTextWithAbxLinks(container, label);
-        } else {
-          container.appendChild(document.createTextNode(match.fullMatch));
-        }
+        appendInlineMarkdownText(container, currentVersion === 'combined' ? label : match.fullMatch, currentVersion === 'combined');
       }
     }
 
     currentIndex = match.end;
   });
 
-  if (currentIndex < lineText.length) {
-    const trailingText = lineText.substring(currentIndex);
-    if (currentVersion === 'combined') {
-      appendTextWithAbxLinks(container, trailingText);
-    } else {
-      container.appendChild(document.createTextNode(trailingText));
-    }
+  if (currentIndex < contentText.length) {
+    const trailingText = contentText.substring(currentIndex);
+    appendInlineMarkdownText(container, trailingText, currentVersion === 'combined');
   }
 }
 
@@ -1130,15 +1440,7 @@ function createStructuredRichTextNavigationTable(selectedData) {
     if (useMultiColumns) {
       cell.style.width = (100 / sections.length) + '%';
     }
-    sectionLines.forEach(line => {
-      if (!line.trim()) return;
-      const headingMatch = line.match(/^\s{0,3}##\s+(.*)$/);
-      const lineText = headingMatch ? headingMatch[1].trim() : line;
-      const lineEl = document.createElement('div');
-      if (headingMatch) lineEl.classList.add('bold');
-      appendRichTextLineContent(lineEl, lineText, selectedData);
-      cell.appendChild(lineEl);
-    });
+    appendRichTextLinesWithCodeFences(cell, sectionLines, selectedData, true);
     return cell;
   }
 
@@ -1152,19 +1454,11 @@ function createStructuredRichTextNavigationTable(selectedData) {
   } else {
     // Single column: render all section lines in source order
     sections.forEach(sectionLines => {
-      sectionLines.forEach(line => {
-        if (!line.trim()) return;
-        const headingMatch = line.match(/^\s{0,3}##\s+(.*)$/);
-        const lineText = headingMatch ? headingMatch[1].trim() : line;
-        const row = document.createElement('tr');
-        const cell = document.createElement('td');
-        const lineEl = document.createElement('div');
-        if (headingMatch) lineEl.classList.add('bold');
-        appendRichTextLineContent(lineEl, lineText, selectedData);
-        cell.appendChild(lineEl);
-        row.appendChild(cell);
-        tbody.appendChild(row);
-      });
+      const row = document.createElement('tr');
+      const cell = document.createElement('td');
+      appendRichTextLinesWithCodeFences(cell, sectionLines, selectedData, true);
+      row.appendChild(cell);
+      tbody.appendChild(row);
     });
   }
 
@@ -1192,26 +1486,52 @@ function createRichTextTable(selectedData) {
   const content = typeof selectedData.Text === 'string' ? selectedData.Text : '';
   const lines = content.split(/\r?\n/);
 
+  let inCodeBlock = false;
+  let codeLines = [];
+
   lines.forEach((line) => {
+    const fenceMatch = line.match(/^\s*```/);
+    if (fenceMatch) {
+      if (!inCodeBlock) {
+        inCodeBlock = true;
+        codeLines = [];
+      } else {
+        const codeRow = document.createElement('tr');
+        const codeCell = document.createElement('td');
+        appendCodeBlockElement(codeCell, codeLines);
+        codeRow.appendChild(codeCell);
+        tbody.appendChild(codeRow);
+        inCodeBlock = false;
+        codeLines = [];
+      }
+      return;
+    }
+
+    if (inCodeBlock) {
+      codeLines.push(line);
+      return;
+    }
+
     const bodyRow = document.createElement('tr');
     const displayCell = document.createElement('td');
     const lineElement = document.createElement('div');
 
-    const headingMatch = line.match(/^\s{0,3}#{1,6}\s+(.*)$/);
-    const lineText = headingMatch ? headingMatch[1] : line;
-    if (headingMatch) {
-      lineElement.classList.add('bold');
-      displayCell.classList.add('bold');
-    }
-
-    if (lineText.trim() !== '') {
-      appendRichTextLineContent(lineElement, lineText, selectedData);
+    if (line.trim() !== '') {
+      appendRichTextLineContent(lineElement, line, selectedData);
     }
 
     displayCell.appendChild(lineElement);
     bodyRow.appendChild(displayCell);
     tbody.appendChild(bodyRow);
   });
+
+  if (inCodeBlock) {
+    const codeRow = document.createElement('tr');
+    const codeCell = document.createElement('td');
+    appendCodeBlockElement(codeCell, codeLines);
+    codeRow.appendChild(codeCell);
+    tbody.appendChild(codeRow);
+  }
 
   const itemRow = document.createElement('tr');
   const itemCell = document.createElement('td');
@@ -1275,15 +1595,11 @@ function createCombinedMainMenuTable(selectedData) {
       if (section.heading) {
         const headingElement = document.createElement('div');
         headingElement.classList.add('bold');
-        headingElement.textContent = section.heading;
+        appendInlineMarkdownText(headingElement, section.heading, false);
         displayCell.appendChild(headingElement);
       }
 
-      section.lines.forEach((sectionLine) => {
-        const lineElement = document.createElement('div');
-        appendRichTextLineContent(lineElement, sectionLine, selectedData);
-        displayCell.appendChild(lineElement);
-      });
+      appendRichTextLinesWithCodeFences(displayCell, section.lines, selectedData, true);
 
       bodyRow.appendChild(displayCell);
     }
