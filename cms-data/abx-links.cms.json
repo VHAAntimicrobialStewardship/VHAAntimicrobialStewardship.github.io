@@ -3,62 +3,62 @@
     {
       "Name": "Zanamivir",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antiviral-agents/influenza/zanamavir",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Voriconazole",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antifungal-agents/azoles/voriconazole",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Vancomycin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/glyco-lipoglyco-peptides/vancomycin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Valganciclovir",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antiviral-agents/herpesvirus/valganciclovir",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Valacyclovir",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antiviral-agents/herpesvirus/valacyclovir",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Trimethoprim-sulfamethoxazole",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/trimethoprim-sulfonamides/trimethoprim-sulfamethoxazole",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Trimethoprim/sulfamethoxazole",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/trimethoprim-sulfonamides/trimethoprim-sulfamethoxazole",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Trimethoprim PO",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/trimethoprim-sulfonamides/trimethoprim",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Tobramycin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/amino-glycosides/tobramycin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Tetracycline",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/tetra-cyclines/tetracycline",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Terconazole",
       "URL": "http://www.uptodate.com/contents/search.do?unid=minmasoub&srcsys=UTD187508&eiv=2.1.0",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Sulfadiazine",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antiparasitic-agents/sulfadiazine",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Sulfacetamide",
@@ -68,47 +68,47 @@
     {
       "Name": "Streptomycin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/amino-glycosides/streptomycin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Rifaximin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/rifamycin/rifaximin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Rifampin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antimycobacterial-agents/rifampin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Rifabutin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antimycobacterial-agents/rifabutin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Raltegravir",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antiretroviral-agents/raltegravir",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Quinupristin-Dalfopristin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/streptogramins/quinupristin-dalfopristin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Pyrimethamine",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antiparasitic-agents/pyrimethamine",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Piperacillin-tazobactam",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/penicillins/anti-pseudomonal-penicillins/piperacillin-tazobactam",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Piperacillin/tazobactam",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/penicillins/anti-pseudomonal-penicillins/piperacillin-tazobactam",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Penicillin V",
@@ -123,42 +123,42 @@
     {
       "Name": "Paromomycin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antiparasitic-agents/paromomycin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Oseltamivir",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antiviral-agents/influenza/oseltamivir",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Nitrofurantoin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/agents-urinary-tract/nitrofurantoin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Nitazoxanide",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antiparasitic-agents/nitazoxanide",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Neomycin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/amino-glycosides/neomycin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Nafcillin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/penicillins/antistaphylo-coccal-penicillins/nafcillin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Moxifloxacin IV",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/fluoroquinolones/moxifloxacin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Moxifloxacin 400",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/fluoroquinolones/moxifloxacin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Moxifloxacin ophthalmic",
@@ -168,12 +168,12 @@
     {
       "Name": "Minocycline",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/tetra-cyclines/minocycline",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Micafungin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antifungal-agents/echinocandins/micafungin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Metronidazole topical",
@@ -183,87 +183,87 @@
     {
       "Name": "Metronidazole",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/nitroimidazoles/metronidazole#autotoc-item-autotoc-1",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Meropenem",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/carbapenems/meropenem",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Linezolid",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/oxazolidinones/linezolid-zyvox",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Levofloxacin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/fluoroquinolones/levofloxacin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Itraconazole",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antifungal-agents/azoles/itraconazole",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Iodoquinol",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antiparasitic-agents/iodoquinol",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Griseofulvin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antifungal-agents/griseofulvin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Gentamicin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/amino-glycosides/gentamicin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Ganciclovir",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antiviral-agents/herpesvirus/ganciclovir",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Fosfomycin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/agents-urinary-tract/fosfomycin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Foscarnet",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antiviral-agents/herpesvirus/foscarnet",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Flucytosine",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antifungal-agents/flucytosine",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Fluconazole",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antifungal-agents/azoles/fluconazole",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "FDA",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/fluoroquinolones/fluoroquinolones-overview",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Ethambutol",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antimycobacterial-agents/ethambutol",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Erythromycin PO",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/macrolides/erythromycin-base-esters#autotoc-item-autotoc-1",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Erythromycin IV",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/macrolides/erythromycin-base-esters#autotoc-item-autotoc-1",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Erythromycin ophthalmic",
@@ -273,62 +273,62 @@
     {
       "Name": "Ertapenem",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/carbapenems/ertapenem",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Emtricitabine",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antiretroviral-agents/truvada",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Doxycycline",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/tetra-cyclines/doxycycline",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Dolutegravir",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antiretroviral-agents/dolutegravir",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Dicloxacillin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/penicillins/antistaphylo-coccal-penicillins/dicloxacin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Daptomycin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/glyco-lipoglyco-peptides/daptomycin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Clotrimazole",
       "URL": "http://www.uptodate.com/contents/search.do?unid=minmasoub&srcsys=UTD187508&eiv=2.1.0",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Clindamycin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/clindamycin-1/clindamycin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Clarithromycin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/macrolides/clarithromycin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Ciprofloxacin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/fluoroquinolones/ciprofloxacin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Chloramphenicol",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/chloramphenicol",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Cephalexin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/cephalosporins/oral/1st-generation/cephalexin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Cefuroxime IV",
@@ -343,132 +343,137 @@
     {
       "Name": "Ceftriaxone",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/cephalosporins/parenteral/3rd-4th-generation/ceftriaxone",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Ceftazidime",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/cephalosporins/parenteral/3rd-4th-generation/ceftaz-1",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Cefpodoxime",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/cephalosporins/oral/3rd-generation/cefpodoxime-proxetil",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Cefoxitin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/cephalosporins/parenteral/2nd-generation/cefoxitin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Cefotetan",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/cephalosporins/parenteral/2nd-generation/cefotetan",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Cefixime",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/cephalosporins/oral/3rd-generation/cefixime",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Cefepime",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/cephalosporins/parenteral/3rd-4th-generation/cefepime",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Cefazolin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/cephalosporins/parenteral/1st-generation/cefazolin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Cefadroxil",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/cephalosporins/oral/1st-generation/cefadroxil",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Caspofungin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antifungal-agents/echinocandins/caspofungin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Benzathine",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/penicillins/penicillin-g",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Aztreonam",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/monobactam/aztreonam",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Azithromycin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/macrolides/azithromycin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Atovaquone",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antiparasitic-agents/atovaquone-proguanil",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Ampicillin-sulbactam",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/penicillins/amino-penicillins/ampicillin-sulbactam",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Ampicillin/sulbactam",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/penicillins/amino-penicillins/ampicillin-sulbactam",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Ampicillin 2",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/penicillins/amino-penicillins/ampicillin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Amphotericin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antifungal-agents/ampho-b-family-polyenes/amphotericin-b",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Amoxicillin/clavulanate",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/penicillins/amino-penicillins/amoxicillin-clavulanate",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Amoxicillin-clavulanate",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/penicillins/amino-penicillins/amoxicillin-clavulanate",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Amoxicillin 5",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/penicillins/amino-penicillins/amoxicillin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Amoxicillin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/penicillins/amino-penicillins/amoxicillin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Amikacin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/amino-glycosides/amikacin",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Amantadine",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antiviral-agents/influenza/amantadine",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Albendazole",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antiparasitic-agents/albendazole",
-      "RouteFilter": null
+      "RouteFilter": ""
     },
     {
       "Name": "Acyclovir",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antiviral-agents/herpesvirus/acyclovir",
-      "RouteFilter": null
+      "RouteFilter": ""
+    },
+    {
+      "Name": "Cefdinir",
+      "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/cephalosporins/oral/3rd-generation/cefdinir",
+      "RouteFilter": ""
     }
   ]
 }
