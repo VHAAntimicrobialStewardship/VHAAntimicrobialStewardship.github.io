@@ -4,24 +4,6 @@
   "Term1": "LYME ERYTHEMA MIGRANS",
   "Term2": "",
   "Text": "## ERYTHEMA MIGRANS ASSOCIATED WITH LYME DISEASE\nErythema migrans is the first manifestation of Lyme disease in 70-80% of cases.\nIt is typically an erythematous circular rash, 5cm or larger in diameter, with\ninduration and central clearing (although other patterns occur). It usually\ndevelops at the site of the bite and/or in one or more distant locations. The\nrash occurs 3 to 30 days after the bite. Rashes with onset less than 3 days\nafter a tick bite are not from Lyme disease.\nIf suspected erythema migrans is atypical, serology testing is recommended\nwith repeat in three weeks if negative.\n[Lyme Panel, Serum](lrtz-lyme-panel)\n## Treatment\nPreferred:\n## Inpatient\n\n[Doxycycline 100 mg PO q12h ($) [DI] for 10 days](psjzid-doxycycline-100mg-po-q12h)\nFor pregnant patients or those with contraindications to doxycycline:\n[Amoxicillin 500 mg PO q8h ($) [R] for 14 days](psjzid-amoxicillin-500mg-po-q8h)\n## _______________________________________________________________________________\n## Outpatient\n\nDoxycycline 100 mg PO q12h ($) [DI] for 10 days\n[Non-VA order for above](pshzid2-doxycycline-10ds-100mg-po-bid)\nFor pregnant patients or those with contraindications to doxycycline:\nAmoxicillin 500 mg PO q8h ($) [R] for 14 days\nNon-VA order for above\n## _______________________________________________________________________________\nReferences:\nLantos et al., Clinical Infectious Diseases, 2021, 72(1):e1-e48\nMandell Chapter: Lyme Disease (Lyme Borreliosis) Due to Borrelia burgdorferi\nSanchez et al., JAMA (2016) 315.16\nUp-to-date article: Treatment of Lyme disease\nSanford keyword: Erythema migrans, Lyme Disease, Early",
-  "LinkTargets": [
-    {
-      "Text": "Lyme Panel, Serum",
-      "Item": "LRTZ LYME PANEL"
-    },
-    {
-      "Text": "Doxycycline 100 mg PO q12h ($) [DI] for 10 days",
-      "Item": "PSJZID DOXYCYCLINE 100MG PO Q12H"
-    },
-    {
-      "Text": "Amoxicillin 500 mg PO q8h ($) [R] for 14 days",
-      "Item": "PSJZID AMOXICILLIN 500MG PO Q8H"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "PSHZID2 DOXYCYCLINE 10DS 100MG PO BID"
-    }
-  ],
   "Inpt": "ORZID2 GMENU LYME ERYTHEMA MIGRANS",
   "Outpt": "ORZID3 GMENU LYME ERYTHEMA MIGRANS"
 }

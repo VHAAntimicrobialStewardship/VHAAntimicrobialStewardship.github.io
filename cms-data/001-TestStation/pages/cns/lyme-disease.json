@@ -1,31 +1,9 @@
 {
   "PageID": "lyme-disease",
   "Group": "cns",
-  "Term1": "1. LYME DISEASE (Navigation)",
+  "Term1": "1. 1. LYME DISEASE (Navigation) (Navigation)",
   "Term2": "",
   "Text": "## LYME DISEASE AND OTHER TICK-BORNE ILLNESSES\n## Inpatient/Outpatient/ER Patients who display signs of illness or fever within 30 days of removing an\nattached tick should be evaluated for tick-borne illness. In the upper Midwest\nthese are Lyme, anaplasmosis, babesiosis, ehrlichiosis, and Powassan virus\ndisease. Patients who have been bitten by an Ixodes spp. tick (deer tick) but\nwho do not display signs or symptoms of infection should not be treated with\nantimicrobials. Refer to recommendations below for pathogen specific\nrecommendations.\nAnaplasmosis\nEhrlichioisis\nBabesiosis\nPowassan virus disease - contact Infectious Diseases for more Information.\n## Lyme Disease\nLyme disease results from the transmission of Borrelia burgdorferi from an\nIxodes spp. tick bite. Refer to CDC for map of endemic areas.\n[CDC Lyme Disease Case Map](orz-gtx-abx-cdc-lyme-disease-case-map)\nProphylactic antimicrobial treatment may be beneficial in certain patients who\nhave been bitten while in endemic areas.\n[Lyme Disease Prophylaxis](orzc-gmenu-lyme-disease-prophylaxis)\nExcept for [erythema migrans](orzc-gmenu-lyme-erythema-migrans), Lyme disease is a complicated, difficult disease to\ndiagnose and treat. Infectious Diseases consultation is strongly encouraged.\nRefer to recommendations below for\nErythema migrans\n[Acute neurological disease](orzc-gmenu-lyme-acute-neuro-disease)\nArthritis\n[Cardiac disease](orzc-gmenu-lyme-cardiac-disease)\n## _______________________________________________________________________________\nReferences:\nLantos et al., Clinical Infectious Diseases, 2021, 72(1):e1-e48\nMandell Chapter: Lyme Disease (Lyme Borreliosis) Due to Borrelia burgdorferi\nMinnesota Department of Health, Disease Control Newsletter (2006), 34.2:9-24\nUp-to-date article: Babesiosis: Clinical manifestations and diagnosis\nUp-to-date article: Diagnosis of Lyme disease\nUp-to-date article: Human ehrlichiosis and anaplasmosis\nUp-to-date article: Arthropod-borne encephalitides",
-  "LinkTargets": [
-    {
-      "Text": "CDC Lyme Disease Case Map",
-      "Item": "ORZ GTX ABX CDC LYME DISEASE CASE MAP"
-    },
-    {
-      "Text": "Lyme Disease Prophylaxis",
-      "Item": "lyme-disease-prophylaxis"
-    },
-    {
-      "Text": "Erythema migrans",
-      "Item": "lyme-erythema-migrans"
-    },
-    {
-      "Text": "Acute neurological disease",
-      "Item": "lyme-acute-neuro-disease"
-    },
-    {
-      "Text": "Cardiac disease",
-      "Item": "lyme-cardiac-disease"
-    }
-  ],
   "Inpt": "ORZID2 GMENU ABX LYME DISEASE",
   "Outpt": "ORZID3 GMENU LYME DISEASE",
   "ERUC": "ORZID GMENU ER/UC ABX LYME DISEASE"

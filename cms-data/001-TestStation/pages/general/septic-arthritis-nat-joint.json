@@ -4,24 +4,6 @@
   "Term1": "ORZID2 GMENU SEPTIC ARTHRITIS (NAT JOINT)",
   "Term2": "",
   "Text": "## SEPTIC ARTHRITIS (NATIVE JOINT)\n>> For arthritis associated with a PROSTHETIC JOINT see\n[Infections in bone or joint prostheses](orzc-gmenu-pros-joint-bone-infect)\n>> For arthritis associated with a BITE WOUND see\nBite wounds\n>> For arthritis associated with TICK EXPOSURE in an endemic area, consider\nLyme disease\n## Septic arthritis native joint:\nAspirate the joint for gram stain and culture. Use culture results to guide\ndefinitive therapy Rule out N. gonorrhea in sexually active patients\nDuration of therapy:\nDuration of therapy is based on pathogen and clinical response. Please consult\nID for further treatment recommendations\nEmpiric antibiotic recommendations:\n[Vancomycin 15mg/kg IV q 12 hours [R]](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\nHistory of Pseudomonas and/or severe immunosuppression:\n[Cefepime 2 gm IV q8h ([R] <AND> vancomycin 15 mg/kg IV q12h [R]](orz-set-abx-cefepime-2gm-iv-q8h-vanco-15mg-kg-iv-q12h)\nIf synovial fluid gram stain with Gram negative rods:\n[Ceftriaxone 2 gm IV q 24 h](psjizid-ceftriaxone-2gm-iv-q24h)\n## _______________________________________________________________________________\nReferences:\nMandell chapter: Infectious arthritis of native joints\nSanford keyword: Septic arthritis",
-  "LinkTargets": [
-    {
-      "Text": "Infections in bone or joint prostheses",
-      "Item": "pros-joint-bone-infect"
-    },
-    {
-      "Text": "Vancomycin 15mg/kg IV q 12 hours [R]",
-      "Item": "ORZ SET ABX VANCO NEW START 15MG/KG Q12H + MRSA NARES SCREENING"
-    },
-    {
-      "Text": "Cefepime 2 gm IV q8h ([R] <AND> vancomycin 15 mg/kg IV q12h [R]",
-      "Item": "ORZ SET ABX CEFEPIME 2GM IV Q8H VANCO 15MG/KG IV Q12H"
-    },
-    {
-      "Text": "Ceftriaxone 2 gm IV q 24 h",
-      "Item": "PSJIZID CEFTRIAXONE 2GM IV Q24H"
-    }
-  ],
   "Inpt": "ORZID2 GMENU SEPTIC ARTHRITIS (NAT JOINT)",
   "Outpt": "ORZID3 GMENU SEPTIC ARTHRITIS (NAT JOINT)"
 }

@@ -1,63 +1,9 @@
 {
   "PageID": "immunocompromised-patient",
   "Group": "immunocompromised-patient",
-  "Term1": "1. IMMUNOCOMPROMISED PATIENT (Navigation)",
+  "Term1": "1. 1. IMMUNOCOMPROMISED PATIENT (Navigation) (Navigation)",
   "Term2": "",
   "Text": "## ++ INFECTIONS IN IMMUNOCOMPROMISED PATIENTS - OUTPATIENT ++\n[Basic concepts](orzid2-gmenu-immunocom-basic-concepts)\n## Innate defects\n[Altered microbial flora](immunocom-altered-micro-flora)\n[Complement deficiency](immunocom-comp-deficiency)\n[Diabetes Mellitus](immunocom-diabetes-mellitus)\n[Hypochlorhydria](orzid2-gmenu-immunocom-hypochlorhydria)\n[Malignancy](immunocom-malignancy)\n[Malnutrition](orzid2-gmenu-immunocom-malnutrition)\n[Neurological dysfunction](immunocom-neurol-dysfunction)\n[Neutropenia](orzid2-gmenu-immunocom-neutropenia)\n[Neutropenic fever](immunocom-neut-fever)\n[Spleen absent or dysfunctional](splenectomy-vaccines-abx-prophy)\n[Stress](orzid2-gmenu-immunocom-stress)\n[Tobacco smoke](orzid2-gmenu-immunocom-tobacco-smoke)\n[Pneumocystis](pneumocystis-jirovecii)\n## Last reviewed February 2012\n<!-- RIGHT COLUMN -->\n## Immune defects\n[HIV](hiv-aids)\n[Cell-mediated immunity (CMI) defects](orzid2-gmenu-cmi-defects)\n[Immunoglobulin deficiency (humoral immune system)](ig-his-deficiency)\n[Transplantation](orzid2-gmenu-transplantation)",
-  "LinkTargets": [
-    {
-      "Text": "Complement deficiency",
-      "Item": "immunocom-comp-deficiency"
-    },
-    {
-      "Text": "Spleen absent or dysfunctional",
-      "Item": "splenectomy-vaccines-abx-prophy"
-    },
-    {
-      "Text": "Cell-mediated immunity (CMI) defects",
-      "Item": "ORZID2 GMENU CMI DEFECTS"
-    },
-    {
-      "Text": "Immunoglobulin (humoral immune system) deficiency",
-      "Item": "ig-his-deficiency"
-    },
-    {
-      "Text": "Diabetes Mellitus",
-      "Item": "immunocom-diabetes-mellitus"
-    },
-    {
-      "Text": "Transplantation",
-      "Item": "ORZID2 GMENU TRANSPLANTATION"
-    },
-    {
-      "Text": "Neurological dysfunction",
-      "Item": "immunocom-neurol-dysfunction"
-    },
-    {
-      "Text": "Hypochlorhydria",
-      "Item": "ORZID2 GMENU IMMUNOCOM HYPOCHLORHYDRIA"
-    },
-    {
-      "Text": "Altered microbial flora",
-      "Item": "immunocom-altered-micro-flora"
-    },
-    {
-      "Text": "Neutropenic fever",
-      "Item": "immunocom-neut-fever"
-    },
-    {
-      "Text": "Oral therapy for neutropenic fever",
-      "Item": "neut-fever-cand-oral-thera"
-    },
-    {
-      "Text": "Empirical intravenous therapy for neutropenic fever",
-      "Item": "neut-fever-cand-not-oral-thera"
-    },
-    {
-      "Text": "Modification to neutropenic fever therapy",
-      "Item": "ORZID2 GMENU NEUT FEVER MOD THERAPY"
-    }
-  ],
   "Inpt": "ORZID2 GMENU ABX IMMUNOCOMPROMISED PATIENT",
   "Outpt": "ORZID3 GMENU IMMUNOCOMPROMISED PT"
 }

@@ -4,40 +4,6 @@
   "Term1": "ORZID2 GMENU RETINITIS",
   "Term2": "",
   "Text": "## RETINITIS AND ACUTE RETINAL NECROSIS\nRetinitis is a subset of uveitis, is rare in immunocompetent people: in these\nindividuals it is usually caused by varicella-zoster virus (VZV) or herpes\nsimplex virus (HSV). Retinitis is more common in immunocompromised patients and\ncytomegalovirus being the most common pathogen in these patients. Other\nretinitis pathogens include Toxoplasma gondii, Bartonella henselae, Histoplasma\ncapsulatum, and Treponema pallidum. In most cases, patients have other\nneurological symptoms or signs. Patients with candidemia may present with 1-3\nmm white punctate retinal lesions called cotton-wool spots. These may only be\nvisible on fundus examination. Treatment of candidal retinitis is systemic\nantifungal therapy. Consult Ophthalmology, Infectious Diseases, or Neurology for\nhelp.\nVZV and HSV cause nearly all cases of acute retinal necrosis (ARN), with a small\nnumber being caused by cytomegalovirus. ARN is a rapidly progressing retinitis\nthat occurs primarily in immunocompetent people and can cause vision loss.\nTreatment with intravenous acyclovir or valacyclovir is essential to halt\nprogression of ARN.\nOphthalmology and Infectious Diseases consultation is essential\n## Treatment of Non-viral Retinitis or ARN\nRefer to specific pathogen treatment recommendations of the CDSS to treat\nunderlying infection\n## Treatment of Retinitis or ARN due to CMV:\n[Link to Treatment of CMV Retinitis and ARN](orzc-gmenu-abx-cmv-retinitis)\n## Treatment of VZV Retinitis\n[Acyclovir 800 mg PO 5x/d for 5-7 days ($) [R]](psjzid-acyclovir-800mg-po-5x-d)\n< OR >\n[Acyclovir 10 mg/kg IV q8h for 7 days ($$) [R]](psjizid-acyclovir-10-mg-kg-iv-q8h)\nAlternative\n[Valacyclovir 1 gm PO q8h for 5 days ($) [R]](psjzid-valacyclovir-1gm-po-q8h)\n## Treatment of HSV Retinitis\n[Acyclovir 400 mg PO q8h for 7-10 days ($) [R]](psjzid-acyclovir-400mg-q8h)\n< OR >\n[Acyclovir 5 mg/kg IV q8h ($$) [R]](psjizid-acyclovir-5-mg-kg-iv-q8h)\nAlternative\n[Valacyclovir 1 gm PO q12h for 7-10 days ($) [R]](psjzid-valacyclovir-1gm-po-q12h)\n## Treatment of VZV and HSV Acute Retinal Necrosis\nOphthalmologist involvement is essential for treatment including\ncorticosteroids, vitrectomy, or laser therapy. Intravitreal foscarnet in\naddition to a systemic antiviral may provide added therapeutic efficacy.\nDuration\nTreat with intravenous therapy for a minimum of 7 days until disease has\nstabilized then treat with or therapy for a minimum of 6 weeks\nTreatment\nAcyclovir 10 mg/kg IV q8h for 7 days ($) [R]\n[< Optional add-on therapy > Foscarnet 2.4mg/0.1 mL intravitreal injection STAT](psjzid-foscarnet-2-4mg-intravitreous-inject-once)\n($$$$) [R,O]\n< THEN >\nValacyclovir 1 gm PO q8h for 42 days ($) [R]\n## _______________________________________________________________________________\nReferences:\nLau et al, Ophthalmology. 2007, 114(4)756-762\nMandell chapter: Infectious causes of uveitis\nSchoenbergeret al., Ophthalmology. 2017, 124(3)382-392\nSanford keyword: Acute Retinal Necrosis\nSanford keyword: Herpes Simplex\nSanford keyword: Retinitis\nSanford keyword: Varicella-zoster Virus (Chickenpox)",
-  "LinkTargets": [
-    {
-      "Text": "Link to Treatment of CMV Retinitis and ARN",
-      "Item": "cmv-retinitis"
-    },
-    {
-      "Text": "Acyclovir 800 mg PO 5x/d for 5-7 days ($) [R]",
-      "Item": "PSJZID ACYCLOVIR 800MG PO 5X/D"
-    },
-    {
-      "Text": "Acyclovir 10 mg/kg IV q8h for 7 days ($$) [R]",
-      "Item": "PSJIZID ACYCLOVIR 10 MG/KG IV Q8H"
-    },
-    {
-      "Text": "Valacyclovir 1 gm PO q8h for 5 days ($) [R]",
-      "Item": "PSJZID VALACYCLOVIR 1GM PO Q8H"
-    },
-    {
-      "Text": "Acyclovir 400 mg PO q8h for 7-10 days ($) [R]",
-      "Item": "PSJZID ACYCLOVIR 400MG Q8H"
-    },
-    {
-      "Text": "Acyclovir 5 mg/kg IV q8h ($$) [R]",
-      "Item": "PSJIZID ACYCLOVIR 5 MG/KG IV Q8H"
-    },
-    {
-      "Text": "Valacyclovir 1 gm PO q12h for 7-10 days ($) [R]",
-      "Item": "PSJZID VALACYCLOVIR 1GM PO Q12H"
-    },
-    {
-      "Text": "< Optional add-on therapy > Foscarnet 2.4mg/0.1 mL intravitreal injection STAT",
-      "Item": "PSJZID FOSCARNET 2.4MG INTRAVITREOUS INJECT ONCE"
-    }
-  ],
   "Inpt": "ORZID2 GMENU RETINITIS",
   "Outpt": "ORZID3 GMENU RETINITIS"
 }

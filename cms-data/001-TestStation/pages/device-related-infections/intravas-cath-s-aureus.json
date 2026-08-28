@@ -4,16 +4,6 @@
   "Term1": "INTRAVAS CATH S. AUREUS",
   "Term2": "",
   "Text": "## INTRAVASCULAR CATHETER-ASSOCIATED STAPHYLOCOCCUS AUREUS INFECTION\nCatheter removal is required. Obtain follow up blood cultures to document that\nbacteremia clears on therapy.\nRefer to cardiovascular section for suspected infectious endocarditis.\n[Approach to Endocarditis](orzid2-gmenu-abx-appro-to-endocarditis)\n## Consult infectious Diseases in all cases.\n## Duration of therapy\n## Inpatient\n\nFor uncomplicated infection, treat for 14 days. Longer duration is required for\ncomplicated cases.\nRefer to [Staphylococcus aureus bacteremia](orzid2-gmenu-bacteremia-s-aureus) recommendations for antimicrobial\nselection\nStaphylococcus aureus bacteremia\n## Outpatient\n\nRefer to Inpatient Antimicrobial CDSS. ## _______________________________________________________________________________\nReferences:\nMandell chapter: Infections Caused by Percutaneous Intravascular Devices\nMermel et al., Clinical Infectious Diseases 49 (2009)\nUp-to-date article: Intravascular catheter-related infection: Epidemiology,\npathogenesis, and microbiology\nUp-to-date article: Intravascular non-hemodialysis catheter-related infection:\nTreatment",
-  "LinkTargets": [
-    {
-      "Text": "Approach to Endocarditis",
-      "Item": "ORZID2 GMENU ABX APPRO TO ENDOCARDITIS"
-    },
-    {
-      "Text": "Staphylococcus aureus bacteremia",
-      "Item": "ORZID2 GMENU BACTEREMIA S. AUREUS"
-    }
-  ],
   "Inpt": "ORZID2 GMENU INTRAVAS CATH S. AUREUS",
   "Outpt": "ORZID3 GMENU INTRAVASC CATH-ASSOC INFECT"
 }

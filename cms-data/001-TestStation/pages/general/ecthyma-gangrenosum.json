@@ -4,28 +4,6 @@
   "Term1": "ECTHYMA GANGRENOSUM",
   "Term2": "",
   "Text": "## ECTHYMA GANGRENOSUM\nEcthyma gangrenosum lesions commonly begin as painless red macules which\nrapidly evolve into areas of induration that develop into pustules and-or\nbullae. Ultimately, these become gangrenous ulcers. Ecthyma lesions\ntypically progress rapidly within 12 to 18 hours. They are often associated\nwith Pseudomonas aeruginosa bacteremia, especially in neutropenic patients.\nRecommend blood cultures and culture of skin exudates.\n#Inpatient Infectious disease consult is suggested.\nConsider combination therapy in patients with severe infections.\nTreat for 7 days.\n## Preferred treatment\n[Piperacillin-tazobactam 4.5 gm IV q6h ($$) [R]](psjizid-pip-taz-4-5gm-iv-q6h-ne-extinf-ci-cefep-metro)\n[Ciprofloxacin 400 mg IV q8h ($) [R,DI]](psjizid-ciproflox-400mg-iv-q8h)\n[Gentamicin 5 mg/kg IV q24h ($) [R,O]](psjizid-gentamicin-5-mg-kg-iv-q24h)\n## Alternative for severe infections\n[Piperacillin-tazobactam 4.5 gm IV q6h ($$) [R] < AND > gentamicin](orz-set-abx-pip-tazo-4-5-gm-iv-q6h-gent-5mg-iv-qd)\n5 mg/kg IV q24h ($) [R,O]\n[Ciprofloxacin 400 mg IV q8h ($) [R,DI] < AND > gentamicin 5 mg/kg](orz-set-abx-cip-400mg-iv-q8h-gent-5mg-iv-qd)\nIV q24h ($) [R,O]\n## Outpatient\n\n## Treatment\nRefer to Inpatient Antimicrobial CDSS.\nReferences\nUp-to-date website\nMandell chapter: Pseudomonas aeruginosa\nStevens DL Clin Infect Dis 2014, 59: 147\nMontravers P Curr Opin Infect Dis 2016, 29:131",
-  "LinkTargets": [
-    {
-      "Text": "Piperacillin-tazobactam 4.5 gm IV q6h ($$) [R]",
-      "Item": "PSJIZID PIP/TAZ 4.5GM IV Q6H(NE-EXTINF,CI-CEFEP/METRO)"
-    },
-    {
-      "Text": "Ciprofloxacin 400 mg IV q8h ($) [R,DI]",
-      "Item": "PSJIZID CIPROFLOX 400MG IV Q8H"
-    },
-    {
-      "Text": "Gentamicin 5 mg/kg IV q24h ($) [R,O]",
-      "Item": "PSJIZID GENTAMICIN 5 MG/KG IV Q24H"
-    },
-    {
-      "Text": "Piperacillin-tazobactam 4.5 gm IV q6h ($$) [R] < AND > gentamicin",
-      "Item": "ORZ SET ABX PIP/TAZO 4.5 GM IV Q6H GENT 5MG IV QD"
-    },
-    {
-      "Text": "Ciprofloxacin 400 mg IV q8h ($) [R,DI] < AND > gentamicin 5 mg/kg",
-      "Item": "ORZ SET ABX CIP 400MG IV Q8H GENT 5MG IV QD"
-    }
-  ],
   "Inpt": "ORZID2 GMENU ECTHYMA GANGRENOSUM",
   "Outpt": "ORZID3 GMENU ECTHYMA GANGRENOSUM"
 }

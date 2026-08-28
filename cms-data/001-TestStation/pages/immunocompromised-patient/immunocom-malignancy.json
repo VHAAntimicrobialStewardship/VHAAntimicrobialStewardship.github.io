@@ -4,24 +4,6 @@
   "Term1": "IMMUNOCOM MALIGNANCY",
   "Term2": "",
   "Text": "## MALIGNANCY\n## Inpatient/Outpatient/ER Malignancies affect host defenses in many ways. Hematogenous malignancies can\ndiminish the effectiveness of neutrophils and other cells involved in host\ndefense. Tumors often disrupt mucous membranes or blood vessels and allow\ncontaminating organisms into hollow cavities or the bloodstream. Chemotherapy\nused to treat these malignancies often impairs mucus membranes and suppresses\nneutrophil production and function.\nOrdinarily, empirical antimicrobials are not indicated for patients with\nmalignancy and fever unless they have neutropenia or a specific infectious\ndisease.\n[Neutropenic fever](orzc-gmenu-immunocom-neut-fever)\n[Prevention of bacterial infections in a patient with malignancy](orzc-gmenu-prev-infect-bact-prophyl)\n[Prevention of fungal infections in a patient with malignancy](orzc-gmenu-prev-infect-fungal-prophyl)\n[Prevention of viral infection in a patient with malignancy](orzid2-gmenu-antiviral-prophylaxis-malignancy)\nReferences:\nRich RR, et al, eds. Clinical Immunology\nRoitt I, et al, eds. Immunology",
-  "LinkTargets": [
-    {
-      "Text": "Neutropenic fever",
-      "Item": "immunocom-neut-fever"
-    },
-    {
-      "Text": "Prevention of bacterial infections in a patient with malignancy",
-      "Item": "prev-infect-bact-prophyl"
-    },
-    {
-      "Text": "Prevention of fungal infections in a patient with malignancy",
-      "Item": "prev-infect-fungal-prophyl"
-    },
-    {
-      "Text": "Prevention of viral infection in a patient with malignancy",
-      "Item": "ORZID2 GMENU ANTIVIRAL PROPHYLAXIS MALIGNANCY"
-    }
-  ],
   "Inpt": "ORZID2 GMENU IMMUNOCOM MALIGNANCY",
   "Outpt": "ORZID3 GMENU IMMUNOCOM MALIGNANCY"
 }

@@ -3,11 +3,24 @@ import re
 from pathlib import Path
 
 json_path = Path(r"stations/001-TestStation/TestStationOMJSON.json")
+od_path = Path(r"stations/001-TestStation/TestStationODJSON.json")
 html_path = Path(r"stations/001-TestStation/TestStationCDSS.html")
 
 with json_path.open(encoding="utf-8") as f:
     data = json.load(f)["menus"]
+
+with od_path.open(encoding="utf-8") as f:
+    od_data = json.load(f)
+
 by = {m["Name"]: m for m in data}
+
+
+def normalize_comparable_id(value: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", (value or "").strip().lower())
+
+
+normalized_om_names = {normalize_comparable_id(m["Name"]) for m in data}
+normalized_od_names = {normalize_comparable_id(m["Name"]) for m in od_data}
 
 issues = []
 warns = []
@@ -57,27 +70,17 @@ for m in data:
     if not links:
         continue
 
-    keyset = {
-        (lt.get("Key") or "").strip().lower(): lt.get("Item")
-        for lt in m.get("LinkTargets", [])
-        if (lt.get("Key") or "").strip()
-    }
-    itemset = {
-        (lt.get("Item") or "").strip().lower()
-        for lt in m.get("LinkTargets", [])
-        if (lt.get("Item") or "").strip()
-    }
-
     for label, target in links:
         t = target.strip()
         tl = t.lower()
+        normalized_t = normalize_comparable_id(t)
         if tl.startswith("http://") or tl.startswith("https://"):
             continue
         if tl.startswith("cdss:"):
             continue
-        if tl in keyset:
+        if normalized_t in normalized_om_names:
             continue
-        if tl in itemset:
+        if normalized_t in normalized_od_names:
             continue
         warns.append(f"{m['Name']} unresolved link target ({t}) label={label}")
 

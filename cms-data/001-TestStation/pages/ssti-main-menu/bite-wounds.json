@@ -4,36 +4,6 @@
   "Term1": "BITE WOUNDS",
   "Term2": "",
   "Text": "## BITE WOUNDS\nBite wounds are prone to infection because of the pathogenic oral flora carried\ninto tissues by teeth. Clean wounds with soap and water as soon as possible.\nConsult Orthopedic surgery for bite wounds involving the hand.\n## Antibiotic Prophylaxis Indications:\nSevere injury less than 8 hours, Crush injury, Bone or joint penetration, Wound\nof the face or hands or genitals, Immunocompromised host, Asplenia, Advanced\nliver disease\n*Routine use of prophylactic antibiotics for non-immunocompromised patients with\nsuperficial wounds with no puncture that do not involve the face/ genitals/hands\nis not recommended.\n## Antimicrobial Treatment:\nEmpiric treatment for suspected or established infection following bite wound In\nthese cases, therapy should be directed against pathogen identified by Gram\nstain and culture whenever possible.\n## Rabies Prophylaxis:\nConsider rabies post-exposure prophylaxis for all animal bite cases. Contact\nInfectious diseases for assistance.\n## Consider tetanus immunization status:\nIf immunization is up to date, nothing more needs to be done to prevent tetanus.\nIf immunization is lacking, and: wound IS NOT tetanus prone, bring immunization\nup to date with Td wound IS tetanus prone, bring immunization up to date with Td\n< AND > Human Tetanus Immune Globulin Inject 250 units deeply into muscle (deep\nIM)\n## Select below for Tetanus vaccination information page:\n[Tetanus, Diphtheria and Acellular Pertussis Vaccine Information Page](orzid3-gmenu-abx-tdap-vaccine-information-page)\n## Prophylaxis:\n## Inpatient\n\nDuration 3 to 5 days:\n[Amoxicillin-clavulanate 875/125 mg PO BID for 5 days [R]](psjzid-amox-clav-875-125mg-po-q12h)\nUnable to take oral antimicrobials:\n[Ampicillin-sulbactam 3 gm IV q6h [R]](psjizid-ampicillin-sulbactam-3gm-iv-q6h)\nAlternative for patients with penicillin allergy:\ndepends on the bite: call ID if further questions\n[Doxycycline 100 mg PO BID for 5 days < AND > metronidazole 500 mg PO](orz-set-abx-doxycycline-100mg-po-bid-metro-500mg-po-bid)\nBID for 5 days\n## Empiric treatment for suspected or established infection:\nDuration 7 to 14 days:\n[Amoxicillin-clavulanate 875/125 mg PO BID for 10 days [R]](psozid2-amox-clav-875-125mg-10ds-po-bid)\nUnable to take oral antimicrobials:\nAmpicillin-sulbactam 3 gm IV q6h [R]\nAlternative for patients with penicillin allergy:\ndepends on the bite, call ID if further questions\n[Moxifloxacin 400 MG PO qday for 10 days [R,DI]](psjzid-moxifloxacin-400-mg-po-q24h)\n\n# # Outpatient\n\n## Select below for Tetanus vaccination information page:\nTetanus, Diphtheria and Acellular Pertussis Vaccine Information Page\n## Prophylaxis:\nDuration 3 to 5 days:\nAmoxicillin-clavulanate 875/125 mg PO BID for 5 days [R]\n[Non-VA order for above](pshzid2-amox-clav-875-125mg-5ds-po-bid)\nAlternative for patients with penicillin allergy:\ndepends on the bite: call ID if further questions\nDoxycycline 100 mg PO BID for 5 days < AND > metronidazole 500 mg PO\nBID for 5 days\nNon-VA order for above\n## Empiric treatment for suspected or established infection:\nDuration 7 to 14 days:\nAmoxicillin-clavulanate 875/125 mg PO BID for 10 days [R]\nNon-VA order for above\nAlternative for patients with penicillin allergy:\ndepends on the bite, call ID if further questions\nMoxifloxacin 400 MG PO qday for 10 days [R,DI]\nNon-VA order for above## _______________________________________________________________________________\nReferences:\nSanford keyword: Bites\nMandell Chapter: Cellulitis and subcutaneous tissue infections\nStevens DL Clin Infect Dis 2014, 59:147\nAbrahamian FM New Engl Journ Med 1999, 340:85\nUp-To-Date Human & Animal Bite pages. Accessed December 2025",
-  "LinkTargets": [
-    {
-      "Text": "Tetanus, Diphtheria and Acellular Pertussis Vaccine Information Page",
-      "Item": "ORZID3 GMENU ABX TDAP VACCINE INFORMATION PAGE"
-    },
-    {
-      "Text": "Amoxicillin-clavulanate 875/125 mg PO BID for 5 days [R]",
-      "Item": "PSJZID AMOX/CLAV 875-125MG PO Q12H"
-    },
-    {
-      "Text": "Ampicillin-sulbactam 3 gm IV q6h [R]",
-      "Item": "PSJIZID AMPICILLIN-SULBACTAM 3GM IV Q6H"
-    },
-    {
-      "Text": "Doxycycline 100 mg PO BID for 5 days < AND > metronidazole 500 mg PO",
-      "Item": "ORZ SET ABX DOXYCYCLINE 100MG PO BID METRO 500MG PO BID"
-    },
-    {
-      "Text": "Amoxicillin-clavulanate 875/125 mg PO BID for 10 days [R]",
-      "Item": "PSOZID2 AMOX/CLAV 875/125MG 10DS PO BID"
-    },
-    {
-      "Text": "Moxifloxacin 400 MG PO qday for 10 days [R,DI]",
-      "Item": "PSJZID MOXIFLOXACIN 400 MG PO Q24H"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "PSHZID2 AMOX/CLAV 875/125MG 5DS PO BID"
-    }
-  ],
   "Inpt": "ORZID2 GMENU BITE WOUNDS",
   "Outpt": "ORZID3 GMENU BITE WOUNDS",
   "ERUC": "ORZID GMENU ER/UC BITE WOUNDS"

@@ -3,77 +3,8 @@
   "Group": "general",
   "Term1": "COVID-19 MPLS ANTIMICROBIAL GUIDELINE",
   "Term2": "",
-  "Text": "[Select here for help, legend, consults, alternative antimicrobials and more (Ip)](orzc-gmenu-abx-general-information-inpatient)\n[[Link] Minneapolis On-Call Schedule-Infectious Disease](orz-min-on-call-schedule)\n## INPATIENT\n\nCOVID-19 ANTIMICROBIAL TREATMENT GUIDELINES\nRefer to the [Minneapolis VAHCS COVID-19 SharePoint site](orz-gtx-abx-url-minneapolis-covid-sharepoint-site) for additional info.\nMinneapolis VAHCS COVID-19 SharePoint Site\n## ***COVID-19 therapy is a rapidly evolving field, including the widespread\n## dissemination of therapies with little or no evidence for benefit. Therapies and\n## dosages not specifically listed here or in the IDSA treatment guidelines\n## should be discussed with the infectious diseases service. ***\n[[Click here] IDSA Guidelines Treatment/Management Patients with COVID-19](orz-gtx-abx-url-idsa-covid-guidelines-2024)\n## _______________________________________________________________________________\n## HOSPITALIZED DUE TO COVID-19\nRefer to COVID-19 Pharmacological Inpatient Treatment Guidelines to determine\nwhether monotherapy or combination therapy with remdesivir and dexamethasone is\nappropriate. For patients on dexamethasone with rapidly increasing oxygen needs\nand systemic inflammation, add a second immunomodulatory drug (see\nImmunomodulatory Treatment below)\n[Minneapolis VAHCS COVID Pharmacologic Inpatient Treatment Guidelines](orz-gtx-abx-covid-19-pharmacologic-inpt-treatment-guidelines)\n## Remdesivir (IV):\n[Remdesivir 200mg IV once on day 1, then 100mg IV daily for 4 additional days](orz-set-abx-remdesivir-200mg-load-then-100mg-q24h-5days)\n< AND >\n[Lab orders for monitoring remdesivir treatment (CMP, CBC with diff, INR)](lrtz-set-remdesivir-x5-days)\n## Dexamethasone (PO/IV):\n[Dexamethasone 6 MG PO q24h for up to 10 days](psjzid-dexamethasone-6mg-po-qday-for-10days-covid)\n< OR >\n[Dexamethasone 6 MG IV q24h for up to 10 days](psjzid-dexamethasone-6mg-iv-push-q24h-for-10days-covid)\n## Immunomodulatory Treatment\nMVAHCS recommends baricitinib over tocilizumab in patients on high flow nasal\ncannula oxygen or non-invasive ventilated patients that can take PO or NG. For\npatients who cannot take PO or NG, or for those who are mechanically ventilated,\nwe recommend tocilizumab. These treatments are to be added on to dexamethasone,\nwith or without remdesivir. Consult Infectious Diseases for more details.\n[Baricitinib PO/NG/GT](orzid2-gmenu-abx-baricitinib-eua-covid-19)\n<OR>\nTocilizumab IV\n## _______________________________________________________________________________\n## HOSPITALIZED FOR REASONS OTHER THAN COVID-19\nTreatment is recommended for patients with confirmed mild to moderate COVID-19\nand are at high risk of progressing to severe COVID-19.\n[Interaction checker for COVID-19 medications website link](orz-gtx-abx-url-covid-19-med-interaction-checker)\n## Preferred treatment, within 5 days of symptom onset:\n## Inpatient\n\nPaxlovid order sets below contain both inpatient and outpatient orders.\nNORMAL RENAL FUNCTION (eGFR =/> 60 mL/min)\n[Paxlovid (Nirmatrelvir/ritonavir) 300mg/100mg PO BID for 5 days](orz-set-abx-paxlovid-inpt-and-opt-orders)\nMODERATE RENAL IMPAIRMENT (eGFR 30 to < 60 mL/min)\n[Paxlovid (Nirmatrelvir/ritonavir) 150mg/100mg PO BID for 5 days](orz-set-abx-paxlovid-renal-dosing-pharmacy-info)\nSEVERE RENAL IMPAIRMENT including hemodialysis (eGFR < 30 mL/min)\n[Paxlovid (Nirmatrelvir/ritonavir) 300mg/100mg once on day 1 then](orz-set-abx-paxlovid-severe-renal-dosing-pharmacy-info)\n150mg/100mg daily for 4 days\n## Alternative, within 7 days of symptom onset:\n[Remdesivir 200mg IV once on day 1, then 100mg IV daily for 2 additional days](orz-set-abx-remdesivir-200mg-iv-load-then-100mg-q24hh-3days)\n< AND >\nLab orders for monitoring remdesivir treatment (CMP, CBC with diff, INR) ##Outpatient Paxlovid (Nirmatrelvir/ritonavir) 300mg/100mg PO BID for 5 days\n[Non-VA order for above](pshzid2-nirmatrelver-300mg-ritonavir-100mg-po-bid-5ds)\nMODERATE RENAL IMPAIRMENT (eGFR 30 to < 60 mL/min)\nPaxlovid (Nirmatrelvir/ritonavir) 150mg/100mg PO BID for 5 days\nNon-VA order for above\nSEVERE RENAL IMPAIRMENT including hemodialysis (eGFR <30 mL/min)\nPaxlovid (Nirmatrelvir/ritonavir) 300mg/100mg once on day 1 then\n150mg/100mg daily for 4 days\nNon-VA order for above\n## Alternative:\n[INV-Molnupiravir 800 mg PO BID for 5 days](orz-set-abx-molnupiravir-pharmacy-info)\nNon-VA order for above\n## __________________________________________________________________________",
-  "LinkTargets": [
-    {
-      "Text": "Select here for help, legend, consults, alternative antimicrobials and more (Ip)",
-      "Item": "general-information-inpatient"
-    },
-    {
-      "Text": "[Link] Minneapolis On-Call Schedule-Infectious Disease",
-      "Item": "ORZ MIN ON CALL SCHEDULE"
-    },
-    {
-      "Text": "Minneapolis VAHCS COVID-19 SharePoint Site",
-      "Item": "ORZ GTX ABX URL MINNEAPOLIS COVID SHAREPOINT SITE"
-    },
-    {
-      "Text": "[Click here] IDSA Guidelines Treatment/Management Patients with COVID-19",
-      "Item": "ORZ GTX ABX URL IDSA COVID GUIDELINES 2024"
-    },
-    {
-      "Text": "Minneapolis VAHCS COVID Pharmacologic Inpatient Treatment Guidelines",
-      "Item": "ORZ GTX ABX COVID-19 PHARMACOLOGIC INPT TREATMENT GUIDELINES"
-    },
-    {
-      "Text": "Remdesivir 200mg IV once on day 1, then 100mg IV daily for 4 additional days",
-      "Item": "ORZ SET ABX REMDESIVIR 200MG LOAD THEN 100MG Q24H 5DAYS"
-    },
-    {
-      "Text": "Lab orders for monitoring remdesivir treatment (CMP, CBC with diff, INR)",
-      "Item": "LRTZ SET REMDESIVIR X5 DAYS"
-    },
-    {
-      "Text": "Dexamethasone 6 MG PO q24h for up to 10 days",
-      "Item": "PSJZID DEXAMETHASONE 6MG PO QDAY FOR 10DAYS COVID"
-    },
-    {
-      "Text": "Dexamethasone 6 MG IV q24h for up to 10 days",
-      "Item": "PSJZID DEXAMETHASONE 6MG IV PUSH Q24H FOR 10DAYS COVID"
-    },
-    {
-      "Text": "Baricitinib PO/NG/GT",
-      "Item": "ORZID2 GMENU ABX BARICITINIB EUA COVID-19"
-    },
-    {
-      "Text": "Interaction checker for COVID-19 medications website link",
-      "Item": "ORZ GTX ABX URL COVID-19 MED INTERACTION CHECKER"
-    },
-    {
-      "Text": "Paxlovid (Nirmatrelvir/ritonavir) 300mg/100mg PO BID for 5 days",
-      "Item": "ORZ SET ABX PAXLOVID INPT AND OPT ORDERS"
-    },
-    {
-      "Text": "Paxlovid (Nirmatrelvir/ritonavir) 150mg/100mg PO BID for 5 days",
-      "Item": "ORZ SET ABX PAXLOVID RENAL DOSING PHARMACY INFO"
-    },
-    {
-      "Text": "Paxlovid (Nirmatrelvir/ritonavir) 300mg/100mg once on day 1 then",
-      "Item": "ORZ SET ABX PAXLOVID SEVERE RENAL DOSING PHARMACY INFO"
-    },
-    {
-      "Text": "Remdesivir 200mg IV once on day 1, then 100mg IV daily for 2 additional days",
-      "Item": "ORZ SET ABX REMDESIVIR 200MG IV LOAD THEN 100MG Q24HH 3DAYS"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "PSHZID2 NIRMATRELVER 300MG RITONAVIR 100MG PO BID 5DS"
-    },
-    {
-      "Text": "INV-Molnupiravir 800 mg PO BID for 5 days",
-      "Item": "ORZ SET ABX MOLNUPIRAVIR PHARMACY INFO"
-    }
-  ],
+  "Text": "[Select here for help, legend, consults, alternative antimicrobials and more (Ip)](orzc-gmenu-abx-general-information-inpatient)\n[Minneapolis On-Call Schedule-Infectious Disease](orz-min-on-call-schedule)\n## INPATIENT\n\nCOVID-19 ANTIMICROBIAL TREATMENT GUIDELINES\nRefer to the [Minneapolis VAHCS COVID-19 SharePoint site](orz-gtx-abx-url-minneapolis-covid-sharepoint-site) for additional info.\nMinneapolis VAHCS COVID-19 SharePoint Site\n## ***COVID-19 therapy is a rapidly evolving field, including the widespread\n## dissemination of therapies with little or no evidence for benefit. Therapies and\n## dosages not specifically listed here or in the IDSA treatment guidelines\n## should be discussed with the infectious diseases service. ***\n[IDSA Guidelines Treatment/Management Patients with COVID-19](orz-gtx-abx-url-idsa-covid-guidelines-2024)\n## _______________________________________________________________________________\n## HOSPITALIZED DUE TO COVID-19\nRefer to COVID-19 Pharmacological Inpatient Treatment Guidelines to determine\nwhether monotherapy or combination therapy with remdesivir and dexamethasone is\nappropriate. For patients on dexamethasone with rapidly increasing oxygen needs\nand systemic inflammation, add a second immunomodulatory drug (see\nImmunomodulatory Treatment below)\n[Minneapolis VAHCS COVID Pharmacologic Inpatient Treatment Guidelines](orz-gtx-abx-covid-19-pharmacologic-inpt-treatment-guidelines)\n## Remdesivir (IV):\n[Remdesivir 200mg IV once on day 1, then 100mg IV daily for 4 additional days](orz-set-abx-remdesivir-200mg-load-then-100mg-q24h-5days)\n< AND >\n[Lab orders for monitoring remdesivir treatment (CMP, CBC with diff, INR)](lrtz-set-remdesivir-x5-days)\n## Dexamethasone (PO/IV):\n[Dexamethasone 6 MG PO q24h for up to 10 days](psjzid-dexamethasone-6mg-po-qday-for-10days-covid)\n< OR >\n[Dexamethasone 6 MG IV q24h for up to 10 days](psjzid-dexamethasone-6mg-iv-push-q24h-for-10days-covid)\n## Immunomodulatory Treatment\nMVAHCS recommends baricitinib over tocilizumab in patients on high flow nasal\ncannula oxygen or non-invasive ventilated patients that can take PO or NG. For\npatients who cannot take PO or NG, or for those who are mechanically ventilated,\nwe recommend tocilizumab. These treatments are to be added on to dexamethasone,\nwith or without remdesivir. Consult Infectious Diseases for more details.\n[Baricitinib PO/NG/GT](orzid2-gmenu-abx-baricitinib-eua-covid-19)\n<OR>\nTocilizumab IV\n## _______________________________________________________________________________\n## HOSPITALIZED FOR REASONS OTHER THAN COVID-19\nTreatment is recommended for patients with confirmed mild to moderate COVID-19\nand are at high risk of progressing to severe COVID-19.\n[Interaction checker for COVID-19 medications website link](orz-gtx-abx-url-covid-19-med-interaction-checker)\n## Preferred treatment, within 5 days of symptom onset:\n## Inpatient\n\nPaxlovid order sets below contain both inpatient and outpatient orders.\nNORMAL RENAL FUNCTION (eGFR =/> 60 mL/min)\n[Paxlovid (Nirmatrelvir/ritonavir) 300mg/100mg PO BID for 5 days](orz-set-abx-paxlovid-inpt-and-opt-orders)\nMODERATE RENAL IMPAIRMENT (eGFR 30 to < 60 mL/min)\n[Paxlovid (Nirmatrelvir/ritonavir) 150mg/100mg PO BID for 5 days](orz-set-abx-paxlovid-renal-dosing-pharmacy-info)\nSEVERE RENAL IMPAIRMENT including hemodialysis (eGFR < 30 mL/min)\n[Paxlovid (Nirmatrelvir/ritonavir) 300mg/100mg once on day 1 then](orz-set-abx-paxlovid-severe-renal-dosing-pharmacy-info)\n150mg/100mg daily for 4 days\n## Alternative, within 7 days of symptom onset:\n[Remdesivir 200mg IV once on day 1, then 100mg IV daily for 2 additional days](orz-set-abx-remdesivir-200mg-iv-load-then-100mg-q24hh-3days)\n< AND >\nLab orders for monitoring remdesivir treatment (CMP, CBC with diff, INR) ##Outpatient Paxlovid (Nirmatrelvir/ritonavir) 300mg/100mg PO BID for 5 days\n[Non-VA order for above](pshzid2-nirmatrelver-300mg-ritonavir-100mg-po-bid-5ds)\nMODERATE RENAL IMPAIRMENT (eGFR 30 to < 60 mL/min)\nPaxlovid (Nirmatrelvir/ritonavir) 150mg/100mg PO BID for 5 days\nNon-VA order for above\nSEVERE RENAL IMPAIRMENT including hemodialysis (eGFR <30 mL/min)\nPaxlovid (Nirmatrelvir/ritonavir) 300mg/100mg once on day 1 then\n150mg/100mg daily for 4 days\nNon-VA order for above\n## Alternative:\n[INV-Molnupiravir 800 mg PO BID for 5 days](orz-set-abx-molnupiravir-pharmacy-info)\nNon-VA order for above\n## __________________________________________________________________________",
   "Inpt": "ORZID2 GMENU ABX COVID-19 MPLS ANTIMICROBIAL GUIDELINE",
   "Outpt": "ORZID3 GMENU ABX COVID-19 MPLS ANTIMICROBIAL GUIDELINES"
 }
+

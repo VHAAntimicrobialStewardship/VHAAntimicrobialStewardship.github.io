@@ -4,32 +4,6 @@
   "Term1": "ORZID2 GMENU SEVERE SINUSITIS",
   "Term2": "",
   "Text": "## SEVERE SINUSITIS\nCommunity-acquired bacterial sinusitis is most often due to Streptococcus\npneumoniae, Haemophilus influenza or Moraxella catarrhalis. Group A\nStreptococci, Staphylococcus aureus and anaerobes are isolated less frequently.\nFor patients who present with severe symptoms (high fever (>/= 102 degrees\nFahrenheit, >/= 39 degrees Celsius) and purulent nasal discharge for 3-4\nconsecutive days or facial pain lasting for at least 3-4 consecutive days at the\nbeginning of illness), initiate empiric antimicrobials and obtain CT of sinuses\nto determine the extent of infection. If the CT shows extension of sinusitis\ninfection into surrounding structures (i.e. the cranium or orbit) consult ENT\nimmediately. Closely monitor all patients who present with severe signs and\nsymptoms to ensure that signs and symptoms improve within 72 hours.\n## Outpatient\n\nTreatment\nPreferred:\n[Amoxicillin/clavulanate 875-125 mg PO q12h ($) [R] for 7 days](psjzid-amox-clav-875-125mg-po-q12h)\nAlternatives:\n[Assessment of Beta-lactam Reaction](orzid2-gmenu-abx-beta-lactam-allergy-assesment)\n[Cefdinir 300 mg PO q12h ($) [R] for 7 days](psjzid-cefdinir-300mg-po-q12h)\n< OR >\nDoxycycline 100 mg PO BID ($) [DI] for 7 days\n## Treatment of hospitalized patient\nPreferred:\n[Ampicillin-sulbactam 3gm IV q6h ($) [R] for 7 days](psjizid-ampicillin-sulbactam-3gm-iv-q6h)\nAlternative:\nAssessment of Beta-lactam Reaction\n[Ceftriaxone 2 gm IV q24h ($) [M] for 7 days](psjizid-ceftriaxone-2gm-iv-q24h)\n## Treatment failure\nIf symptoms worsen or no improvement is seen after 3-5 days of treatment,\nbroaden coverage, switch to different antimicrobial class and treat 10 days. If\nsymptoms continue to worsen or there is no improvement after 3-5 more days of\ntreatment, obtain CT to investigate non-infectious or suppurative causes. ENT\nconsultation is recommended. If sinuses are aspirated, specimens should be\ncultured.\nPreferred\nfor 7 days\n< OR >\n[Cefepime 2 gm IV q12h ($$) [R] for 7 days](psjizid-cefepime-2-gm-iv-q12h)\n## _______________________________________________________________________________\nReferences:\nChow et al, Clinical Infectious Diseases. 2012, 54(8) e72-e112\nMandell chapter: Sinusitis\nMeltzer et al, J Allergy Clin Immunol. 2004, 114(6) S155-S212.\nRosenfeld et al, Otolaryngology - Head and Neck Surgery. 2015, 152(4) 598-609\nSanford keyword: Sinusitis, Acute, Empiric Therapy\nUp-To-Date article: Acute sinusitis and rhinosinusitis in adults: Clinical\nmanifestations and diagnosis\nSanford keyword: Sinusitis, Chronic\nUp-To-Date article: Microbiology and antibiotic management of chronic\nrhinosinusitis\n\n## ER\n\nGuidance\nPreferred:\nAmpicillin-sulbactam 3gm IV once STAT ($) [R]\nAlternative:\nCeftriaxone 2 gm IV once STAT ($) [M]\n## Treatment failure\nbroaden coverage, switch to different antimicrobial class and treat 7 days. If\nPiperacillin-tazobactam 3.375 gm IV once STAT ($$) [R]\nCefepime 2 gm IV once STAT ($$) [R]\nAlternative:\nMeropenem 1 gm IV once STAT ($$) [R,O]",
-  "LinkTargets": [
-    {
-      "Text": "Amoxicillin/clavulanate 875-125 mg PO q12h ($) [R] for 7 days",
-      "Item": "PSJZID AMOX/CLAV 875-125MG PO Q12H"
-    },
-    {
-      "Text": "Assessment of Beta-lactam Reaction",
-      "Item": "ORZID2 GMENU ABX BETA-LACTAM ALLERGY ASSESMENT"
-    },
-    {
-      "Text": "Cefdinir 300 mg PO q12h ($) [R] for 7 days",
-      "Item": "PSJZID CEFDINIR 300MG PO Q12H"
-    },
-    {
-      "Text": "Ampicillin-sulbactam 3gm IV q6h ($) [R] for 7 days",
-      "Item": "PSJIZID AMPICILLIN-SULBACTAM 3GM IV Q6H"
-    },
-    {
-      "Text": "Ceftriaxone 2 gm IV q24h ($) [M] for 7 days",
-      "Item": "PSJIZID CEFTRIAXONE 2GM IV Q24H"
-    },
-    {
-      "Text": "Cefepime 2 gm IV q12h ($$) [R] for 7 days",
-      "Item": "PSJIZID CEFEPIME 2 GM IV Q12H"
-    }
-  ],
   "Inpt": "ORZID2 GMENU SEVERE SINUSITIS",
   "Outpt": "ORZID3 GMENU ACUTE SINUSITIS SEVERE",
   "ERUC": "ORZID GMENU ER/UC SEVERE SINUSITIS"

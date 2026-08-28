@@ -4,20 +4,6 @@
   "Term1": "HEAD LICE (PEDICULOSIS CAPITIS)",
   "Term2": "",
   "Text": "## HEAD LICE (PEDICULOSIS CAPITIS)\nLice are parasitic insects. Human lice survive by feeding on human blood. To\nmake a diagnosis, use a nit comb, bright light, or lens to find a louse living\non the scalp. Dead nits may remain for months after successful treatment. Dead\nnits are usually located more than 6 mm from the scalp.\nLice are often transmitted by infected clothing and bedclothes but not by\nordinary furniture that is not typically in contact with hair or scalp. Refer\nto the following for advice on household cleaning for lice infestations:\n[https://www.cdc.gov/lice/treatment/index.html](orz-gtx-abx-treat-head-lice-url)\n## Treatment\nRepeat if live lice are seen 7-10 days after treatment.\n## Inpatient\n\n[Permethrin 1% lotion Apply to affected area for 10 minutes then comb out nits](psjzid-permethrin-1-lotion-to-affect-area-10min)\n[M]\n## _______________________________________________________________________________\n## Outpatient\nPermethrin 1% lotion Apply to affected area for 10 minutes then comb out nits\n[M]\n[Non-VA order for above](pshzid2-permethrin-1-lot-10min-7days)\n## _______________________________________________________________________________\nReferences:\nSanford keyword: lice\nUp-to-date website",
-  "LinkTargets": [
-    {
-      "Text": "https://www.cdc.gov/lice/treatment/index.html",
-      "Item": "ORZ GTX ABX TREAT HEAD LICE URL"
-    },
-    {
-      "Text": "Permethrin 1% lotion Apply to affected area for 10 minutes then comb out nits",
-      "Item": "PSJZID PERMETHRIN 1% LOTION TO AFFECT AREA 10MIN"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "PSHZID2 PERMETHRIN 1% LOT 10MIN 7DAYS"
-    }
-  ],
   "Inpt": "ORZID2 GMENU HEAD LICE (PEDICULOSIS CAPITIS)",
   "Outpt": "ORZID3 GMENU HEAD LICE (PEDICULOSIS CAPITIS)"
 }

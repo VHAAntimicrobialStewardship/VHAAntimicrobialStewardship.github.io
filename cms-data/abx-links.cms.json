@@ -3,17 +3,17 @@
     {
       "Name": "Zanamivir",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antiviral-agents/influenza/zanamavir",
-      "RouteFilter": ""
+      "RouteFilter": null
     },
     {
       "Name": "Voriconazole",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antifungal-agents/azoles/voriconazole",
-      "RouteFilter": ""
+      "RouteFilter": null
     },
     {
       "Name": "Vancomycin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/glyco-lipoglyco-peptides/vancomycin",
-      "RouteFilter": ""
+      "RouteFilter": null
     },
     {
       "Name": "Valganciclovir",

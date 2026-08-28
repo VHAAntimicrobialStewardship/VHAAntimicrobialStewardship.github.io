@@ -4,32 +4,6 @@
   "Term1": "NEUT FEVER CAND ORAL THERA",
   "Term2": "",
   "Text": "## NEUTROPENIC FEVER--PATIENT IS A CANDIDATE FOR ORAL THERAPY\n## Can the patient be treated with oral therapy?\n[Link to a scoring tool that identifies low risk patients for oral therapy](orzid2-gmenu-neut-fever-scoring-tool)\n## Treatment\nPreferred:\n## Inpatient\n\n[Ciprofloxacin 500 mg PO q12h ($) [R,DI] <AND> amoxicillin-clavulanate](orz-set-abx-cipro-500mg-q12h-amox-clav-875-125-q12h)\n875/125 mg PO q12h ($) [R]\nAlternative:\n[Ciprofloxacin 500mg PO q12h ($) [R,DI] <AND> Clindamycin 300mg po q6h ($) [H,O]](orz-set-abx-ciproflox-500mg-po-bid-clindamycin-300mg-po-q6h)\n## Outpatient\n\n[Ciprofloxacin 500 mg PO BID ($) [R,DI] <AND> amoxicillin-clavulanate](orz-set-abx-op-cipro-500-bid-amox-clav-875-125-bid)\n875/125 mg PO BID ($) [R]\n[Non-VA order for above](orz-set-abx-nv-cipro-500-bid-amox-clav-875-125-bid)\nAlternative:\n[Ciprofloxacin 500mg po bid ($) [R,DI] <AND> Clindamycin 300mg po qid ($) [H,O]](orz-set-abx-op-cipro-500-bid-clindamycin-300-qid-x7days)\nNon-VA order for above\nReferences:\nFreifeld AG Clinical Infectious Disease 2011, 52: 427-431\nTaplitz RA, J Clin Oncol 2018, 36: 1443-1453\nSanford: Neutropenia, Febrile, Low-Risk\nNCCN Clinical Practice Guidelines, Prevention and Treatment of Cancer-\nRelated Infections. Version 1.2019. nccn.org",
-  "LinkTargets": [
-    {
-      "Text": "Link to a scoring tool that identifies low risk patients for oral therapy",
-      "Item": "ORZID2 GMENU NEUT FEVER SCORING TOOL"
-    },
-    {
-      "Text": "Ciprofloxacin 500 mg PO q12h ($) [R,DI] <AND> amoxicillin-clavulanate",
-      "Item": "ORZ SET ABX CIPRO 500MG Q12H AMOX-CLAV 875/125 Q12H"
-    },
-    {
-      "Text": "Ciprofloxacin 500mg PO q12h ($) [R,DI] <AND> Clindamycin 300mg po q6h ($) [H,O]",
-      "Item": "ORZ SET ABX CIPROFLOX 500MG PO BID CLINDAMYCIN 300MG PO Q6H"
-    },
-    {
-      "Text": "Ciprofloxacin 500 mg PO BID ($) [R,DI] <AND> amoxicillin-clavulanate",
-      "Item": "ORZ SET ABX OP CIPRO 500 BID AMOX-CLAV 875/125 BID"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "ORZ SET ABX NV CIPRO 500 BID AMOX-CLAV 875/125 BID"
-    },
-    {
-      "Text": "Ciprofloxacin 500mg po bid ($) [R,DI] <AND> Clindamycin 300mg po qid ($) [H,O]",
-      "Item": "ORZ SET ABX OP CIPRO 500 BID CLINDAMYCIN 300 QID X7DAYS"
-    }
-  ],
   "Inpt": "ORZID2 GMENU NEUT FEVER CAND ORAL THERA",
   "Outpt": "ORZID3 GMENU NEUT CAND ORAL THERAPY"
 }

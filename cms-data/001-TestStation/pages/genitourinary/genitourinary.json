@@ -1,71 +1,9 @@
 {
   "PageID": "genitourinary",
   "Group": "genitourinary",
-  "Term1": "1. GENITOURINARY (Navigation)",
+  "Term1": "1. 1. GENITOURINARY (Navigation) (Navigation)",
   "Term2": "",
   "Text": "## ++ GENITOURINARY ++\n[Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)](general-information-inpatient)\n## Urinary tract infections (UTI)\n[Approach to Urinary Tract Infection (UTI)](orzid3-gmenu-abx-approach-to-uti)\n[Asymptomatic bacteriuria](asymp-bacteriuria)\n[Candida Urinary Tract Infection](candida-uti)\n[Complicated UTI catheter associated](orzid3-gmenu-abx-complicated-uti-catheter-associated)\n[Complicated UTI without catheter (includes pyelonephritis](orzid3-gmenu-abx-complicated-uti-no-catheter)\nand bacteremic UTI)\nSepsis or shock with suspected UTI - refer to Inpt CDSS\n[Uncomplicated UTI (infection confined to the bladder)](orzid3-gmenu-abx-uncomp-uti)\n## Male specific infections\n[Acute bacterial prostatitis](acute-bact-prostatitis)\n[Balanitis and Balanoposthitis](balanitis)\n[Chronic bacterial prostatitis](chronic-bact-prostatitis)\n[Chronic prostatitis/Chronic pelvic pain syndrome](chron-pros-pelvic-pain-syn)\n[Epididymitis and Epididymo-Orchitis](epididymitis)\n[Urethritis](sexually-transmitted-infection)\n[Bacterial vaginosis-Male Partner Treatment](orzid3-gmenu-bacterial-vaginosis-male-sexual-partner)\n## Female specific Infections\n[Bacterial vaginosis](vaginitis)\n[Candida vulvovaginitis](candida-vulvo-vaginitis)\n[Cervicitis](sexually-transmitted-infection)\n[Pelvic Inflammatory Disease (PID)](sexually-transmitted-infection)\n[Trichomonas vaginitis](sexually-transmitted-infection)\n<!-- RIGHT COLUMN -->\n## Sexually Transmitted Infections (STI)\n[Cervicitis](sexually-transmitted-infection)\nChlamydia (See Cervicitis or Urethritis)\n[Epididymitis](sexually-transmitted-infection)\n[Genital Herpes](sexually-transmitted-infection)\n[Gonorrhea infection with/without Chlamydia](sexually-transmitted-infection)\n[Human Immunodeficiency Virus (HIV)](sexually-transmitted-infection)\n[Pelvic Inflammatory Disease (PID)](sexually-transmitted-infection)\n[Syphilis](sexually-transmitted-infection)\n[Trichomonas Vaginitis](sexually-transmitted-infection)\n[Urethritis](sexually-transmitted-infection)\n## Necrotizing Infection (including Fournier gangrene)\n[Necrotizing infection](necrotizing-infections)\n## Surgical Site Infection\n[Surgical site infection](surg-surgical-site-infect)",
-  "LinkTargets": [
-    {
-      "Text": "Approach to UTI",
-      "Item": "ORZID2 GMENU ABX APPROACH TO UTI"
-    },
-    {
-      "Text": "Asymptomatic bacteriuria",
-      "Item": "asymp-bacteriuria"
-    },
-    {
-      "Text": "Complicated UTI catheter associated",
-      "Item": "ORZID2 GMENU ABX COMPLICATED UTI CATHETER ASSOCIATED"
-    },
-    {
-      "Text": "Complicated UTI without catheter (includes pyelonephritis, febrile,",
-      "Item": "ORZID2 GMENU ABX COMPLICATED UTI NO CATHETER"
-    },
-    {
-      "Text": "Sepsis or shock with suspected UTI",
-      "Item": "ORZID2 GMENU SEPSIS SUSPECTED URO SEPSIS"
-    },
-    {
-      "Text": "Uncomplicated UTI (infection confined to bladder)",
-      "Item": "ORZID2 GMENU ABX UNCOMP UTI"
-    },
-    {
-      "Text": "Acute bacterial prostatitis",
-      "Item": "acute-bact-prostatitis"
-    },
-    {
-      "Text": "Balanitis and Balanoposthitis",
-      "Item": "balanitis"
-    },
-    {
-      "Text": "Necrotizing infection",
-      "Item": "necrotizing-infections"
-    },
-    {
-      "Text": "Chronic bacterial prostatitis",
-      "Item": "chronic-bact-prostatitis"
-    },
-    {
-      "Text": "Chronic prostatitis/Chronic pelvic pain syndrome",
-      "Item": "chron-pros-pelvic-pain-syn"
-    },
-    {
-      "Text": "Epididymitis and Epididymo-Orchitis",
-      "Item": "epididymitis"
-    },
-    {
-      "Text": "Surgical site infection",
-      "Item": "surg-surgical-site-infect"
-    },
-    {
-      "Text": "Bacterial vaginosis",
-      "Item": "vaginitis"
-    },
-    {
-      "Text": "Candida vulvovaginitis",
-      "Item": "candida-vulvo-vaginitis"
-    }
-  ],
   "Inpt": "ORZID2 GMENU ABX GENITOURINARY",
   "Outpt": "ORZID3 GMENU GENITOURINARY"
 }

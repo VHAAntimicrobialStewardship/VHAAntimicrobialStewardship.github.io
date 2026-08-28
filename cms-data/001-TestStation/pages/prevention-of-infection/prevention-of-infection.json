@@ -1,43 +1,9 @@
 {
   "PageID": "prevention-of-infection",
   "Group": "prevention-of-infection",
-  "Term1": "1. PREVENTION OF INFECTION (Navigation)",
+  "Term1": "1. 1. PREVENTION OF INFECTION (Navigation) (Navigation)",
   "Term2": "",
   "Text": "## ++ PREVENTION OF INFECTION ++\n## [Prevention of bacterial endocarditis](orzc-gmenu-prev-of-bact-endocarditis)\nPrevention of bacterial endocarditis\n## Prevention of prosthetic joint infection\n[Before dental procedures](orzid2-gmenu-prev-pros-joint-dental)\n[Before procedures involving infected skin, skin structures or musculoskeletal](orzid2-gmenu-abx-derm-ie-ji-prophylaxis)\ntissue\n## Prevention of infection in patient with malignancy\n[Antibacterial prophylaxis](orzc-gmenu-prev-infect-bact-prophyl)\n[Antifungal prophylaxis](orzc-gmenu-prev-infect-fungal-prophyl)\n[Antiviral prophylaxis](orzid2-gmenu-antiviral-prophylaxis-malignancy)\n## Prevention of infection in patients with liver disease\n[Spontaneous bacterial peritonitis](orzc-gmenu-abx-spon-bact-peritonitis)\n## Prevention of Pneumocystis infection\n[Pneumocystis jirovecii prophylaxis](orzc-gmenu-abx-pneumocystis-jirovecii-prophylaxis)\n## Prevention of recurrent Staphylococcus aureus skin infection\nClick Here\nSection reviewed January 2019",
-  "LinkTargets": [
-    {
-      "Text": "Prevention of bacterial endocarditis",
-      "Item": "prev-of-bact-endocarditis"
-    },
-    {
-      "Text": "Before dental procedures",
-      "Item": "ORZID2 GMENU PREV PROS JOINT DENTAL"
-    },
-    {
-      "Text": "Before procedures involving infected skin, skin structures or musculoskeletal",
-      "Item": "ORZID2 GMENU ABX DERM IE JI PROPHYLAXIS"
-    },
-    {
-      "Text": "Antibacterial prophylaxis",
-      "Item": "prev-infect-bact-prophyl"
-    },
-    {
-      "Text": "Antifungal prophylaxis",
-      "Item": "prev-infect-fungal-prophyl"
-    },
-    {
-      "Text": "Antiviral prophylaxis",
-      "Item": "ORZID2 GMENU ANTIVIRAL PROPHYLAXIS MALIGNANCY"
-    },
-    {
-      "Text": "Spontaneous bacterial peritonitis",
-      "Item": "spon-bact-peritonitis"
-    },
-    {
-      "Text": "Pneumocystis jirovecii prophylaxis",
-      "Item": "pneumocystis-jirovecii-prophylaxis"
-    }
-  ],
   "Inpt": "ORZID2 GMENU ABX PREVENTION OF INFECTION",
   "Outpt": "ORZID3 GMENU PREVENTION OF INFECT"
 }

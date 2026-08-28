@@ -112,19 +112,6 @@ collections:
         widget: markdown
         required: false
         hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
-      - label: "Link Targets"
-        name: LinkTargets
-        widget: list
-        required: false
-        hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
-        fields:
-          - label: "Link Text"
-            name: Text
-            widget: string
-          - label: "Target Page ID or Order Name"
-            name: Item
-            widget: string
-            hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
       - label: "Source Inpatient Menu (read-only)"
         name: Inpt
         widget: string

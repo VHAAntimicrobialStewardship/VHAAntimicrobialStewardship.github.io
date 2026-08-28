@@ -4,12 +4,6 @@
   "Term1": "ORZID2 GMENU SPOROTRICHOSIS",
   "Term2": "",
   "Text": "## SPOROTRICHOSIS\nSporotrichosis occurs most often in people who have had significant outdoor\nexposure to soil. In immunocompetent people, disease is usually limited to the\nskin. In people with decreased host defenses (eg, HIV/AIDS, alcoholism,\ndiabetes mellitus, or chronic obstructive pulmonary disease) sporotrichosis\noften disseminates to bones, joints, or lungs. Consult Infectious Diseases or\nDermatology\n## ____________________________________________________________________________\n## Cutaneous infection in a patient without HIV infection\n## ____________________________________________________________________________\n[Itraconazole 200 mg PO q12h continue for 2-4 weeks after all lesions](psjzid-itraconazole-200mg-po-q12h)\nresolved, usually for a total of 3-6 months ($) [DI]\n## Alternative\nConsult Dermatology or Infectious Diseases.\n## ____________________________________________________________________________\n## Extracutaneous infection or any infection in a patient with HIV/AIDS\n## ____________________________________________________________________________\nConsult Dermatology or Infectious Diseases.\nReferences\nKaufman CA Clin Infect Dis 2000, 30: 684\nUp-to-date website",
-  "LinkTargets": [
-    {
-      "Text": "Itraconazole 200 mg PO q12h continue for 2-4 weeks after all lesions",
-      "Item": "PSJZID ITRACONAZOLE 200MG PO Q12H"
-    }
-  ],
   "Inpt": "ORZID2 GMENU SPOROTRICHOSIS",
   "Outpt": "ORZID3 GMENU SPOROTRICHOSIS"
 }

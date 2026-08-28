@@ -65,10 +65,6 @@ def build_omjson_record(page_rec: dict) -> dict:
         "Term1": page_rec.get("Term1", page_id),
         "Term2": page_rec.get("Term2", ""),
         "Text": page_rec.get("Text", ""),
-        "LinkTargets": [
-            {k: v for k, v in lt.items() if k != "Key"}
-            for lt in page_rec.get("LinkTargets", [])
-        ],
     }
     inpt = page_rec.get("Inpt", "")
     if inpt:
@@ -89,7 +85,10 @@ for menu in menus:
     if pid in cms_pages and menu.get("Inpt"):
         new_rec = build_omjson_record(cms_pages[pid])
         menu.update(new_rec)
+        menu.pop("LinkTargets", None)
         updated += 1
+    elif pid == "main-menu":
+        menu.pop("LinkTargets", None)
 
 # Pages in CMS but not yet in OMJSON: add new
 added = 0

@@ -4,44 +4,6 @@
   "Term1": "ASPIRATION PNEUMONIA",
   "Term2": "",
   "Text": "## ASPIRATION PNEUMONIA\nWhen a larger than usual volume of orogastric content is aspirated,\nmechanical/chemical irritation occurs. Some of these develop into bacterial\npneumonia.\nIt is reasonable to wait before starting antimicrobials to see if respiratory\nimpairment improves or worsens before starting bacterial pneumonia treatment, in\nhemodynamically stable patients.\nTherapy directed towards anaerobic pathogens is usually unnecessary.\nAntimicrobial treatment is warranted if pneumonia is confirmed.\n## Inpatient\n\n## Preferred\nSee below for prior respiratory isolation of MRSA or P. aeruginosa.\nCeftriaxone 2 gm IV q24h [M] for 5 days\n< OR >\n[Ampicillin-sulbactam 3 gm IV q6h [R] for 5 days](psjizid-pna-ampicillin-sulbactam-3gm-iv-q6h)\n## Prior Respiratory Isolation of MRSA within last 12 months:\nADD MRSA coverage to a regimen above or antipseudomonal regimen below.\nObtain cultures/nasal PCR to allow for de-escalation.\n[< ADD > Vancomycin 15mg/kg IV q12h [R]](orz-set-abx-vanco-pna-new-start-mrsa-nares)\n## Prior Respiratory Isolation of P. aeruginosa within last 12 months:\nSelect antipseudomonal regimen below, obtain cultures to allow de-escalation.\nPreferred:\n[Piperacillin-tazobactam 4.5 gm IV q6h [R] for 5 days](psjizid-pna-piperacillin-tazobactam-4-5-gm-iv-q6h)\n< OR >\n[Cefepime 2 gm IV q8h [R] for 5 days](psjizid-pna-cefepime-2-gm-iv-q8h)\n## Alternative\n[Assessment of Beta-lactam Reaction](orzid2-gmenu-abx-beta-lactam-allergy-assesment)\n[Levofloxacin 750 mg PO q24h [R,DI] for 5 days](psjzid-pna-levofloxacin-750mg-po-q24h)\n## Outpatient Preferred\n\n[Amoxicillin-clavulanate 875-125 mg PO q12h [R] for 5 days](psozid2-pna-amox-clav-875-125-mg-po-bid-x5days)\n[Non-VA order for above](pshzid2-pna-amox-clav-875-125-mg-po-bid-x5days)\n## Alternative to above <OR>\n## Prior respiratory isolation of P. aeruginosa within last 12 months\nAssessment of Beta-lactam Reaction\n[Levofloxacin 750 mg PO q24h for 5 days [R,DI]](psozid2-pna-levofloxacin-5ds-750mg-po-qday)\nNon-VA order for above\n## ER\n\n## ## Preferred\nSee below for prior respiratory isolation of MRSA or P. aeruginosa\nCeftriaxone 2 gm IV STAT [M]\n< OR >\nAmpicillin-sulbactam 3 gm IV STAT [R]\n## Prior Respiratory Isolation of MRSA within last 12 months:\nADD MRSA coverage to a regimen above or antipseudomonal regimen below.\nObtain cultures/nasal PCR to allow for de-escalation.\n< ADD > Vancomycin 15mg/kg IV STAT [R]\n## Prior Respiratory Isolation of P. aeruginosa within last 12 months:\nSelect antipseudomonal regimen below, obtain cultures to allow de-escalation\nPreferred:\nPiperacillin-tazobactam 4.5 gm IV STAT [R]\n< OR >\nCefepime 2 gm IV STAT [R]\n## Alternative\nAssessment of Beta-lactam Reaction\nLevofloxacin 750 mg PO STAT [R,DI]\n## _______________________________________________________________________________\n## References:\nUp to date Aspiration pneumonia was accessed 4-1-2025\nMandell et al NEJM 2019: 380: 651\nMetlay at al Am J Resp Crit Care Med 2019: e45 (CAP Guidelines)\nChastre J JAMA 2003, 290: 2588\nDennesen PJ Am J Respir Crit Care Med 2001, 163: 1371\nLuna CM Crit Care Med 2003, 31: 676\nMandell chapter: Lung Abscess\nMandell LA Clin Infect Dis 2003,37:1405\nRoig J J Antimicrob Chemother 2003, 51: 1119\nKalil AC et al. Clin Infect Dis 2016. 63:1",
-  "LinkTargets": [
-    {
-      "Text": "Ampicillin-sulbactam 3 gm IV q6h [R] for 5 days",
-      "Item": "PSJIZID PNA AMPICILLIN-SULBACTAM 3GM IV Q6H"
-    },
-    {
-      "Text": "< ADD > Vancomycin 15mg/kg IV q12h [R]",
-      "Item": "ORZ SET ABX VANCO PNA NEW START + MRSA NARES"
-    },
-    {
-      "Text": "Piperacillin-tazobactam 4.5 gm IV q6h [R] for 5 days",
-      "Item": "PSJIZID PNA PIPERACILLIN-TAZOBACTAM 4.5 GM IV Q6H"
-    },
-    {
-      "Text": "Cefepime 2 gm IV q8h [R] for 5 days",
-      "Item": "PSJIZID PNA CEFEPIME 2 GM IV Q8H"
-    },
-    {
-      "Text": "Assessment of Beta-lactam Reaction",
-      "Item": "ORZID2 GMENU ABX BETA-LACTAM ALLERGY ASSESMENT"
-    },
-    {
-      "Text": "Levofloxacin 750 mg PO q24h [R,DI] for 5 days",
-      "Item": "PSJZID PNA LEVOFLOXACIN 750MG PO Q24H"
-    },
-    {
-      "Text": "Amoxicillin-clavulanate 875-125 mg PO q12h [R] for 5 days",
-      "Item": "PSOZID2 PNA AMOX-CLAV 875/125 MG PO BID X5DAYS"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "PSHZID2 PNA AMOX-CLAV 875/125 MG PO BID X5DAYS"
-    },
-    {
-      "Text": "Levofloxacin 750 mg PO q24h for 5 days [R,DI]",
-      "Item": "PSOZID2 PNA LEVOFLOXACIN 5DS 750MG PO QDAY"
-    }
-  ],
   "Inpt": "ORZID2 GMENU ABX ASPIRATION PNEUMONIA",
   "Outpt": "ORZID3 GMENU ASPIRATION PNEUMONIA",
   "ERUC": "ORZID GMENU ER/UC ASPIRATION PNEUMONIA"

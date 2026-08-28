@@ -4,16 +4,6 @@
   "Term1": "ORZID2 GMENU ANTIVIRAL IMMUNOSUPPRESSIVE MALIGNANCY",
   "Term2": "",
   "Text": "## PREVENTION OF ANTIVIRAL INFECTIONS IN A PATIENT WITH MALIGNANCY\n## Severly Immunosuppressive Chemo-immunotherapy\n## Purine Analogues\nChemotherapy with purine analogues such as fludarabine, cladribine, or\npentostatin results in major cellular-immunodeficiency that may outlast the\nexposure by months and enhances the risk for viral infections.\nRecommend antiviral prophylaxis for patients treated with purine analogues,\nif at least one of the following risk factors is present:\na) Second-line chemotherapy\nb) Treatment with corticosteroids\nc) CD4 cell count <50/ul\nd) Age >65 years\ne) Prolonged Mild or Moderate Neutropenia: Mild<1000 Neutrophils /\n�L (Grade III neutropenia) OR Moderate: <500 Neutrophils/�L\n(Grade IV neutropenia)\n## Recommendations:\nDuration: Antiviral prophylaxis should be initiated in the first week of\ntherapy and continued until 2 months after completion of therapy.\n[Acyclovir 800 MG PO q12h ($) [R]](psjzid-acyclovir-800-mg-po-bid-prophylaxis)\n## Alemtuzumab Therapy:\nAlemtuzumab is a potent reactivator of latent intracellular pathogens,\nincluding CMV. Chemotherapy with alemtuzumab results in major cellular-\nimmunodeficiency that may outlast the exposure by months and enhances the\nrisk for viral infections. The risk of viral disease increases with the\nintensity and duration of functional T-cell suppression experienced with\nrecipients of alemtuzumab.\n## Recommendations:\nDuration: Initiate antiviral prophylaxis with alemtuzumab therapy and\ncontinue therapy for at least 2 months after last dose or until CD4 counts\nare greater than or equal to 200 cells/ul, whichever is later.\nAcyclovir 800 MG PO q12h ($) [R]\n## References:\nTaplitz RA Journal of Clinical Oncology 2018, 36:3043\nMandel Chapter: Prophylaxis and Empirical Therapy of Infection in\nCancer Patients\nUp-to-Date website\nSandherr M Annals of Oncology 2006, 17:1051\n\n## Outpatient\n\nGuidance\n## Recommendations:\n[Acyclovir 800 MG PO BID ($0.40/day) [R]](psozid-acyclovir-800-mg-po-bid)",
-  "LinkTargets": [
-    {
-      "Text": "Acyclovir 800 MG PO q12h ($) [R]",
-      "Item": "PSJZID ACYCLOVIR 800 MG PO BID PROPHYLAXIS"
-    },
-    {
-      "Text": "Acyclovir 800 MG PO BID ($0.40/day) [R]",
-      "Item": "PSOZID ACYCLOVIR 800 MG PO BID"
-    }
-  ],
   "Inpt": "ORZID2 GMENU ANTIVIRAL IMMUNOSUPPRESSIVE MALIGNANCY",
   "Outpt": "ORZID3 GMENU ANTIVIRAL IMMUNOSUPPRESIVE MALIGNANCY"
 }

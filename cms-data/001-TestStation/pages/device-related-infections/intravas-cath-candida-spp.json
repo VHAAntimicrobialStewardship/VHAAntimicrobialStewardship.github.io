@@ -4,7 +4,6 @@
   "Term1": "INTRAVAS CATH CANDIDA SPP",
   "Term2": "",
   "Text": "## INTRAVASCULAR CATHETER-ASSOCIATED CANDIDA SPP. INFECTION\n## Inpatient\n\n## Remove catheter and Consult Infectious Diseases in all cases.\n## Treatment\nRefer to candidemia recommendations for antifungal choice and treatment duration\nCandidemia\n## _______________________________________________________________________________\n## Outpatient\n\nRefer to Inpatient Antimicrobial CDSS. References:\nMandell chapter: Infections Caused by Percutaneous Intravascular Devices\nMermel et al., Clinical Infectious Diseases 49 (2009)\nUp-to-date article: Intravascular catheter-related infection: Epidemiology,\npathogenesis, and microbiology\nUp-to-date article: Intravascular non-hemodialysis catheter-related infection:\nTreatment",
-  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU INTRAVAS CATH CANDIDA SPP",
   "Outpt": "ORZID3 GMENU INTRAVASC CATH-ASSOC INFECT"
 }

@@ -3,29 +3,8 @@
   "Group": "general",
   "Term1": "PD GENTAMICIN 0.6MG/KG Q24H",
   "Term2": "",
-  "Text": "## GENTAMICIN\n## FOR PERITONITIS ASSOCIATED WITH PERITONEAL DIALYSIS\n## Inpateint Gentamicin 0.6 mg/kg PD q24h in 2000 mL 2.5% dextrose diaslyate solution.\n[[Click Here] to order WITH heparin](psjizid-pd-gent-0-6mg-kg-q24h-hep)\nIf Heparin is contraindicated then:\n[[Click Here] to order WITHOUT heparin](psjizid-pd-gent-0-6mg-kg-q24h)\n\n# # Outpatient\n\n## Choose loading dose based on patient's adjusted body weight (AJBW)\n## (see below for AJBW calculation)\n## AJBW < 80 kg:\n[Gentamicin 40 mg PD once daily](psozid-pd-gentamicin-40mg-qday)\n## AJBW >/= 80 kg and <120 kg:\n[Gentamicin 60 mg PD once daily](psozid-pd-gentamicin-60mg-qday)\n## AJBW >/= 120 kg:\n[Gentamicin 80 mg PD once daily](psozid-pd-gentamicin-80mg-qday)\n## Pharmacy may be contacted at pager number 612-818-0841 for dosing information.\nCalculations:\nAJBW = Ideal Body Weight (IBW) + 0.4 (Actual Body Weight - IBW)\nIBW:\nMales: IBW = 50 kg + 2.3 kg for each inch over 5 feet\nFemales: IBW = 45.5 kg + 2.3 kg for each inch over 5 feet",
-  "LinkTargets": [
-    {
-      "Text": "[Click Here] to order WITH heparin",
-      "Item": "PSJIZID PD GENT 0.6MG/KG Q24H HEP"
-    },
-    {
-      "Text": "[Click Here] to order WITHOUT heparin",
-      "Item": "PSJIZID PD GENT 0.6MG/KG Q24H"
-    },
-    {
-      "Text": "Gentamicin 40 mg PD once daily",
-      "Item": "PSOZID PD GENTAMICIN 40MG QDAY"
-    },
-    {
-      "Text": "Gentamicin 60 mg PD once daily",
-      "Item": "PSOZID PD GENTAMICIN 60MG QDAY"
-    },
-    {
-      "Text": "Gentamicin 80 mg PD once daily",
-      "Item": "PSOZID PD GENTAMICIN 80MG QDAY"
-    }
-  ],
+  "Text": "## GENTAMICIN\n## FOR PERITONITIS ASSOCIATED WITH PERITONEAL DIALYSIS\n## Inpateint Gentamicin 0.6 mg/kg PD q24h in 2000 mL 2.5% dextrose diaslyate solution.\n[to order WITH heparin](psjizid-pd-gent-0-6mg-kg-q24h-hep)\nIf Heparin is contraindicated then:\n[to order WITHOUT heparin](psjizid-pd-gent-0-6mg-kg-q24h)\n\n# # Outpatient\n\n## Choose loading dose based on patient's adjusted body weight (AJBW)\n## (see below for AJBW calculation)\n## AJBW < 80 kg:\n[Gentamicin 40 mg PD once daily](psozid-pd-gentamicin-40mg-qday)\n## AJBW >/= 80 kg and <120 kg:\n[Gentamicin 60 mg PD once daily](psozid-pd-gentamicin-60mg-qday)\n## AJBW >/= 120 kg:\n[Gentamicin 80 mg PD once daily](psozid-pd-gentamicin-80mg-qday)\n## Pharmacy may be contacted at pager number 612-818-0841 for dosing information.\nCalculations:\nAJBW = Ideal Body Weight (IBW) + 0.4 (Actual Body Weight - IBW)\nIBW:\nMales: IBW = 50 kg + 2.3 kg for each inch over 5 feet\nFemales: IBW = 45.5 kg + 2.3 kg for each inch over 5 feet",
   "Inpt": "ORZID2 GMENU PD GENTAMICIN 0.6MG/KG Q24H",
   "Outpt": "ORZID3 GMENU PD GENTAMICIN 0.6MG/KG ONCE DAILY"
 }
+

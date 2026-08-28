@@ -1,43 +1,9 @@
 {
   "PageID": "sexually-transmitted-infection",
   "Group": "genitourinary",
-  "Term1": "1. SEXUALLY TRANSMITTED INFECTION (Navigation)",
+  "Term1": "1. 1. SEXUALLY TRANSMITTED INFECTION (Navigation) (Navigation)",
   "Term2": "",
   "Text": "## Sexually Transmitted Infections (STI)\nA diagnosis of a sexually transmitted infection can suggest sexual activity\nthat could result in HIV exposure. Recommendation is for the provider to\ndiscuss with the patient Pre-Exposure Prophylaxis (PrEP) to reduce risk of\nHIV acquisition. If the patient is interested, the provider should place a\nconsult to HIV clinic for further discussion and evaluation for PrEP.\n[[Consult] ID Pre-Exposure Prophylaxis HIV](gmrctz-infectious-disease-prep)\n## Sexually Transmitted Infections (STIs)\nChlamydia\nGonorrhea\nSyphilis\nCervicitis\n[Pelvic Inflammatory Disease (PID)](orzc-gmenu-abx-pid)\nUrethritis\n[Trichomonas Vaginitis, Urethritis and Male Sex Partners](orzc-gmenu-abx-trich-vaginitis)\n[Human Immunodeficiency Virus (HIV)](orzc-gmenu-abx-hiv-aids)\n\n## Outpatient\n\nGuidance\n## Sexually Transmitted Infections (STI)\n[[Consult] HIV Pre-Exposure Prophylaxis (PrEP)](gmrctz-infectious-disease-prep)\n## Sexually Transmitted Infections (STIs)\nEpididymitis\nGenital herpes\n[Doxycycline for Post-Exposure Prophylaxis STI (doxy PEP)](orzid3-gmenu-doxypep)\n[HIV Post-Exposure Prophylaxis Non-Occupational (Blood/Body Fluids) Outpatient](orzid3-gmenu-abx-pep-non-occup-main-page)\n[HIV Post-Exposure Prophylaxis Occupational (Blood/Body Fluids) Outpatient](orzid3-gmenu-abx-pep-occupational-exposure)",
-  "LinkTargets": [
-    {
-      "Text": "[Consult] ID Pre-Exposure Prophylaxis HIV",
-      "Item": "GMRCTZ INFECTIOUS DISEASE PrEP"
-    },
-    {
-      "Text": "Pelvic Inflammatory Disease (PID)",
-      "Item": "pid"
-    },
-    {
-      "Text": "Trichomonas Vaginitis, Urethritis and Male Sex Partners",
-      "Item": "trich-vaginitis"
-    },
-    {
-      "Text": "Human Immunodeficiency Virus (HIV)",
-      "Item": "hiv-aids"
-    },
-    {
-      "Text": "[Consult] HIV Pre-Exposure Prophylaxis (PrEP)",
-      "Item": "GMRCTZ INFECTIOUS DISEASE PrEP"
-    },
-    {
-      "Text": "Doxycycline for Post-Exposure Prophylaxis STI (doxy PEP)",
-      "Item": "ORZID3 GMENU DOXYPEP"
-    },
-    {
-      "Text": "HIV Post-Exposure Prophylaxis Non-Occupational (Blood/Body Fluids) Outpatient",
-      "Item": "ORZID3 GMENU ABX PEP NON-OCCUP MAIN PAGE"
-    },
-    {
-      "Text": "HIV Post-Exposure Prophylaxis Occupational (Blood/Body Fluids) Outpatient",
-      "Item": "ORZID3 GMENU ABX PEP OCCUPATIONAL EXPOSURE"
-    }
-  ],
   "Inpt": "ORZID2 GMENU ABX SEXUALLY TRANSMITTED INFECTION",
   "Outpt": "ORZID3 GMENU SEXUALLY TRANSMITTED INFECTIONS (STI)"
 }

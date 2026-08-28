@@ -4,28 +4,6 @@
   "Term1": "RECALCITRANT ACNE AND ROSACEA",
   "Term2": "",
   "Text": "## DERMATOLOGY SERVICE ORDER MENU FOR RECALCITRANT ACNE AND ROSACEA\n## **For dermatology use only, requires dermatology consult prior to treatment**\n## Recalcitrant Acne and Rosacea Treatment:\n[Trimethoprim sulfamethoxazole 1 DS tablet PO BID ($) [R,DI] for 12 weeks](psjzid2-tmp-sulfa-12wks-1ds-po-q12h)\n< OR >\n[Amoxicillin-clavulanate 500/125 mg PO BID ($) [R] for 12 weeks](psjzid2-amox-clav-500-125mg-12wks-po-q12h)\n< OR >\n[Azithromycin 500 mg three times weekly ($) [O] for 12 weeks](psjzid2-azithromycin-12wks-500mg-po-3x-week)\n## Refractory Severe Rosacea Treatment:\n[Doxycycline 50 mg PO BID ($) [DI] prolonged therapy](psjzid-doxycycline-50mg-po-q12h)\n\n## Outpatient\n\nGuidance\n## Recalcitrant Acne and Rosacea Treatment:\n[Cephalexin 500 mg PO BID for 7 days ($) [R] for 12 weeks](psozid2-cephalexin-12wks-500mg-q12h) (Inpatient may be missing based on double < OR >",
-  "LinkTargets": [
-    {
-      "Text": "Trimethoprim sulfamethoxazole 1 DS tablet PO BID ($) [R,DI] for 12 weeks",
-      "Item": "PSJZID2 TMP/SULFA 12WKS 1DS PO Q12H"
-    },
-    {
-      "Text": "Amoxicillin-clavulanate 500/125 mg PO BID ($) [R] for 12 weeks",
-      "Item": "PSJZID2 AMOX/CLAV 500/125MG 12WKS PO Q12H"
-    },
-    {
-      "Text": "Azithromycin 500 mg three times weekly ($) [O] for 12 weeks",
-      "Item": "PSJZID2 AZITHROMYCIN 12WKS 500MG PO 3X WEEK"
-    },
-    {
-      "Text": "Doxycycline 50 mg PO BID ($) [DI] prolonged therapy",
-      "Item": "PSJZID DOXYCYCLINE 50MG PO Q12H"
-    },
-    {
-      "Text": "Cephalexin 500 mg PO BID for 7 days ($) [R] for 12 weeks",
-      "Item": "PSOZID2 CEPHALEXIN 12WKS 500MG Q12H"
-    }
-  ],
   "Inpt": "ORZID2 GMENU ABX RECALCITRANT ACNE AND ROSACEA",
   "Outpt": "ORZID3 GMENU ABX RECALCITRANT ACNE AND ROSACEA"
 }

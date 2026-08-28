@@ -4,28 +4,6 @@
   "Term1": "ASYMP BACTERIURIA",
   "Term2": "",
   "Text": "## ASYMPTOMATIC BACTERIURIA\nAsymptomatic bacteriuria is common in women and elderly people, especially in\nthose with chronic medical problems (e.g., diabetes, spinal cord injury,\ninstitutionalized patients, catheterized patients). Most patients have no\nadverse outcomes and receive no benefit from treatment of asymptomatic\nbacteriuria.\nPatients who have no symptoms of cystitis (i.e., no dysuria, pain, urgency)\nshould not be treated. The presence of pyuria (>7 wbc/hpf) or positive leukocyte\nesterase, urine nitrate, or urine bacteria is not a sufficient indication for\nantibiotic treatment. Screening and treatment of asymptomatic bacteriuria is\nindicated for pregnant women and patients who will have urological procedures\nand may be indicated in patients < 1-month post-renal transplant. If an\nindwelling catheter is in place and can be removed safely, it should be done as\nthe bacteriuria may clear.\nBacteriuria in pregnant women is associated with pyelonephritis, premature\ndelivery, and lower birth weight. Screening for bacteriuria is recommended at\nleast once early in pregnancy. If bacteriuria is not found upon initial testing,\nfurther screening cultures are not needed. If bacteriuria (>10,000 CFU/mL) is\npresent, the patient should be treated. Testing should be repeated throughout\nthe pregnancy to detect recurrences.\n## _______________________________________________________________________________\n## Pregnant women, empirical treatment\n## Inpatient\n\nPreferred:\n[Nitrofurantoin SA 100 mg PO q12h ($) [R,O], CrCl >30 mL/min, for 5 days](psjzid-nitrofurantoin-sa-100-mg-po-bid)\n*Avoid nitrofurantoin in the third trimester\nAlternatives:\n[Amoxicillin-clavulanate 875/125 mg PO q12h ($) [R] for 5 days](psjzid-amox-clav-875-125mg-po-q12h)\n< OR >\n[Cefadroxil 1000 mg q12h ($) [R] for 5 days](psjzid-cefadroxil-1000mg-po-q12h)\n## _______________________________________________________________________________\n## Patients having urological procedures\n[Antimicrobial prophylaxis for urological procedures](orzid2-gmenu-surg-urology-preop)\n## _______________________________________________________________________________\n## Renal transplant recipients < 1 month after transplant\nScreening and treatment of asymptomatic bacteriuria may be indicated. Consult\nnephrology for recommendations.\n## Outpatient\n\nPreferred:\nNitrofurantoin SA 100 mg PO q12h ($) [R,O], CrCl >30 mL/min, for 5 days\n[Non-VA order for above](pshzid2-nitrofurantoin-sa-100mg-bid-5ds)\n*Avoid nitrofurantoin in the third trimester\nAlternatives:\nAmoxicillin-clavulanate 875/125 mg PO q12h ($) [R] for 5 days\nNon-VA order for above\n< OR >\nCefadroxil 1000 mg q12h ($) [R] for 5 days\nNon-VA order for above\n## _______________________________________________________________________________\n## Patients having urological procedures\nAntimicrobial prophylaxis for urological procedures\n## _______________________________________________________________________________\n## Renal transplant recipients < 1 month after transplant\nScreening and treatment of asymptomatic bacteriuria may be indicated. Consult\nnephrology for recommendations.\n## ___________________________________________________________________________________\nReferences:\nMandell chapter: Urinary Tract Infections\nNicolle et al., Clinical Infectious Diseases, 2019, 2.68(10)e83-e110\nSanford keyword: Bacteriuria, Asymptomatic\nUp-To-Date article: Urinary tract infections and asymptomatic bacteriuria in\npregnancy\nUp-To-Date article: Approach to the adult with asymptomatic bacteriuria\nUp-To-Date article: Kidney transplantation in adults: Urinary tract infection in\nkidney transplant recipients\nUS Preventive Services Task Force, JAMA, 2019, 322(12)1188-1194",
-  "LinkTargets": [
-    {
-      "Text": "Nitrofurantoin SA 100 mg PO q12h ($) [R,O], CrCl >30 mL/min, for 5 days",
-      "Item": "PSJZID NITROFURANTOIN SA 100 MG PO BID"
-    },
-    {
-      "Text": "Amoxicillin-clavulanate 875/125 mg PO q12h ($) [R] for 5 days",
-      "Item": "PSJZID AMOX/CLAV 875-125MG PO Q12H"
-    },
-    {
-      "Text": "Cefadroxil 1000 mg q12h ($) [R] for 5 days",
-      "Item": "PSJZID CEFADROXIL 1000MG PO Q12H"
-    },
-    {
-      "Text": "Antimicrobial prophylaxis for urological procedures",
-      "Item": "ORZID2 GMENU SURG UROLOGY PREOP"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "PSHZID2 NITROFURANTOIN SA 100MG BID 5DS"
-    }
-  ],
   "Inpt": "ORZID2 GMENU ABX ASYMP BACTERIURIA",
   "Outpt": "ORZID3 GMENU ASYMP BACTERIURIA"
 }

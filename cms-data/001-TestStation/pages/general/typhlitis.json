@@ -4,32 +4,6 @@
   "Term1": "TYPHLITIS",
   "Term2": "",
   "Text": "## NEUTROPENIC ENTEROCOLITIS (TYPHLITIS)\n[Oral step-down treatment](orzc-gmenu-abx-step-down-treatment)\nNeutropenic enterocolitis, also known as \"typhlitis\" or \"necrotizing\nenterocolitis\", is a severe intraabdominal infection that occurs in neutropenic\npatients, especially in those with acute leukemia.\nSend stool for C. difficile testing to exclude of C. difficile infection.\n[Clostridioides difficile infection](orzid2-gmenu-abx-assoc-colitis)\nHematology-oncology, Infectious Diseases and general surgery consults are\nessential.\nBroad spectrum antimicrobials that include anaerobic coverage should be\ninitiated promptly.\n## Duration of antimicrobial therapy\nContinue antimicrobial therapy until normalization of body temperature, recovery\nof neutropenia (unless planning to transition back to antimicrobial\nprophylaxis), recovery of thrombocytopenia, return of normal gastrointestinal\nfunction and resolution of bacteremia if initially present. Infectious Disease\nconsult recommended to guide duration if perforation, abscess, or other\ncomplicating feature present.\n## Treatment\n## Inpatient\n\n[Piperacillin-tazobactam 4.5 gm IV q6h [R]](psjizid-pip-taz-4-5gm-iv-q6h-ne-extinf-ci-cefep-metro)\n< OR >\n[Cefepime 2 gm IV q8h [R] <AND> metronidazole 500 mg IV q8h [DI]](orz-set-abx-cefepime-2-gm-iv-q8h-metronidazole-500-mg-iv-q8h)\n## Alternative\n[Assessment of Beta-lactam Reaction](orz-gtx-abx-beta-lactam-reaction-pdf)\n[Ciprofloxacin 400 mg IV q12h [R,DI] <AND> metronidazole 500 mg IV q8h [DI]](orz-set-abx-ciprof-400mg-iv-q12-metron-500mg-iv-q8h)\n## _______________________________________________________________________________\n## Outpatient\n\nRefer to the Inpatient Antimicrobial CDSS References:\nMandell chapter: Diverticulitis and typhlitis\nNCCN Prevention & treatment of cancer-related infections Version 1.2024\nNesher and Rolston, Clinical Infectious Diseases, 2013, 56(5):711-7\nSanford Guide article: Neutropenic Enterocolitis, Typhlitis\nUp-to-Date article: Neutropenic enterocolitis (typhlitis)\nFreifeld AG Clin Infect Dis 2011, 52: e56",
-  "LinkTargets": [
-    {
-      "Text": "Oral step-down treatment",
-      "Item": "step-down-treatment"
-    },
-    {
-      "Text": "Clostridioides difficile infection",
-      "Item": "ORZID2 GMENU ABX ASSOC COLITIS"
-    },
-    {
-      "Text": "Piperacillin-tazobactam 4.5 gm IV q6h [R]",
-      "Item": "PSJIZID PIP/TAZ 4.5GM IV Q6H(NE-EXTINF,CI-CEFEP/METRO)"
-    },
-    {
-      "Text": "Cefepime 2 gm IV q8h [R] <AND> metronidazole 500 mg IV q8h [DI]",
-      "Item": "ORZ SET ABX CEFEPIME 2 GM IV Q8H METRONIDAZOLE 500 MG IV Q8H"
-    },
-    {
-      "Text": "Assessment of Beta-lactam Reaction",
-      "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
-    },
-    {
-      "Text": "Ciprofloxacin 400 mg IV q12h [R,DI] <AND> metronidazole 500 mg IV q8h [DI]",
-      "Item": "ORZ SET ABX CIPROF 400MG IV Q12 METRON 500MG IV Q8H"
-    }
-  ],
   "Inpt": "ORZID2 GMENU ABX TYPHLITIS",
   "Outpt": "ORZID3 GMENU TYPHLITIS"
 }

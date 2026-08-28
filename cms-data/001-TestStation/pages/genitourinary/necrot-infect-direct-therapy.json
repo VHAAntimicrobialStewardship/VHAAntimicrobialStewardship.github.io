@@ -4,40 +4,6 @@
   "Term1": "NECROT INFECT DIRECT THERAPY",
   "Term2": "",
   "Text": "## NECROTIZING INFECTIONS--PATHOGEN-DIRECTED THERAPY\n## ________________________________________________\n## Clostridial infections\n## ________________________________________________\n## Preferred treatment\n[Penicillin 4 million units IV q4h ($) [R] <AND> clindamycin 900 mg](orz-set-abx-penici-4mu-iv-q4h-clinda-900mg-iv-q8h)\nIV q8h ($$) [H,O]\n## Alternative for penicillin allergy\n[Clindamycin 900 mg IV q8h ($$) [H,O]](psjizid-clindamycin-900mg-iv-q8h)\n## _______________________________________________\n## Group A Streptococcal infections (S. pyogenes)\n## _______________________________________________\n## Preferred treatment\nPenicillin 4 million units IV q4h ($) [R] <AND> clindamycin 900 mg\nIV q8h ($$) [H,O]\n## Alternative for penicillin allergy\nClindamycin 900 mg IV q8h ($$) [H,O]\n< OR >\n[Vancomycin 15 mg/kg IV q12h ($) [R]](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n## ______________________________________________\n## Polymicrobial infections\n## ______________________________________________\nThese are more common in injection drug users, or in patients who have had\nrecent abdominal surgery or trauma, vulvo-vaginal infection, or genital or\nrectal abscess.\n## Preferred Treatment:\n[Piperacillin-tazobactam 3.375 gm IV q6h ($$) [R] <AND> clindamycin 900 mg](orz-set-abx-pip-tazo-3-375-clinda-900-vanco-15mg-kg-iv-q12h)\nIV q8h ($$) [H,O] <AND> vancomycin 15 mg/kg IV q12h ($) [R]\n< OR >\n[Ceftriaxone 2 gm IV q24h ($) [M] <AND> clindamycin 900 mg IV q8h](orz-set-abx-ceft-clinda-900mg-iv-q8h-vanco-15mg-kg-iv-q12h)\n($$) [H,O] <AND> vancomycin 15 mg/kg IV q12h ($) [R] < OR >\n[Meropenem 1 gm IV q8h ($$) [R] <AND> vancomycin 15 mg/kg IV q12h ($) [R]](orz-set-abx-meropenem-1gm-iv-q8h-vanco-15mg-kg-iv-q12h)\n## Alternatives for penicillin allergy\n[Ciprofloxacin 400 mg IV q12h ($) [R,DI] <AND> clindamycin 900 mg IV](orz-set-abx-cipro-400-clinda-900-vanco-15mg-kg-iv-q12h)\nq8h ($$) [H,O] <AND> vancomycin 15mg/kg IV q12h ($) [R] < OR >\n[Gentamicin 5 mg/kg IV q24h ($) [R,O] <AND> clindamycin 900 mg IV q8h](orz-set-abx-gent-5mg-kg-clinda-900-vanco-15mg-kg-iv-q12h)\n($$) [H,O] <AND> vancomycin 15mg/kg IV q12h ($) [R]\nReferences\nSanford keyword: Gas gangrene\nUp-to-Date website\nMandell chapter: Cellulitis and subcutaneous tissue infections\nStevens DL Clin Infect Dis 2014, 59: 147\nMontravers P Curr Opin Infect Dis 2016, 29:131\n\n## ER\n\nGuidance\n## Preferred treatment\nPenicillin 4 million units IV STAT ($) [R] <AND> clindamycin 900 mg\nIV STAT ($$) [H,O]\n## Alternative for penicillin allergy\nClindamycin 900 mg IV STAT ($$) [H,O]\n## Preferred treatment\n## Alternative for penicillin allergy\nVancomycin 15 mg/kg IV STAT ($) [R]\n## Preferred Treatment:\nPiperacillin-tazobactam 3.375 gm IV STAT ($$) [R] <AND> clindamycin 900 mg\nIV STAT ($$) [H,O] <AND> vancomycin 15 mg/kg IV STAT ($) [R]\nCeftriaxone 2 gm IV STAT ($) [M] <AND> clindamycin 900 mg IV STAT\n($$) [H,O] <AND> vancomycin 15 mg/kg IV STAT ($) [R] < OR >\nMeropenem 1 gm IV STAT ($$) [R] <AND> vancomycin 15 mg/kg IV STAT ($) [R]\n## Alternatives for penicillin allergy\nCiprofloxacin 400 mg IV STAT ($) [R,DI] <AND> clindamycin 900 mg IV\nSTAT ($$) [H,O] <AND> vancomycin 15mg/kg IV STAT ($) [R]\nGentamicin 5 mg/kg IV STAT ($) [R,O] <AND> clindamycin 900 mg IV STAT\n($$) [H,O] <AND> vancomycin 15mg/kg IV STAT ($) [R]",
-  "LinkTargets": [
-    {
-      "Text": "Penicillin 4 million units IV q4h ($) [R] <AND> clindamycin 900 mg",
-      "Item": "ORZ SET ABX PENICI 4MU IV Q4H CLINDA 900MG IV Q8H"
-    },
-    {
-      "Text": "Clindamycin 900 mg IV q8h ($$) [H,O]",
-      "Item": "PSJIZID CLINDAMYCIN 900MG IV Q8H"
-    },
-    {
-      "Text": "Vancomycin 15 mg/kg IV q12h ($) [R]",
-      "Item": "ORZ SET ABX VANCO NEW START 15MG/KG Q12H + MRSA NARES SCREENING"
-    },
-    {
-      "Text": "Piperacillin-tazobactam 3.375 gm IV q6h ($$) [R] <AND> clindamycin 900 mg",
-      "Item": "ORZ SET ABX PIP/TAZO 3.375 CLINDA 900 VANCO 15MG/KG IV Q12H"
-    },
-    {
-      "Text": "Ceftriaxone 2 gm IV q24h ($) [M] <AND> clindamycin 900 mg IV q8h",
-      "Item": "ORZ SET ABX CEFT CLINDA 900MG IV Q8H VANCO 15MG/KG IV Q12H"
-    },
-    {
-      "Text": "Meropenem 1 gm IV q8h ($$) [R] <AND> vancomycin 15 mg/kg IV q12h ($) [R]",
-      "Item": "ORZ SET ABX MEROPENEM 1GM IV Q8H VANCO 15MG/KG IV Q12H"
-    },
-    {
-      "Text": "Ciprofloxacin 400 mg IV q12h ($) [R,DI] <AND> clindamycin 900 mg IV",
-      "Item": "ORZ SET ABX CIPRO 400 CLINDA 900 VANCO 15MG/KG IV Q12H"
-    },
-    {
-      "Text": "Gentamicin 5 mg/kg IV q24h ($) [R,O] <AND> clindamycin 900 mg IV q8h",
-      "Item": "ORZ SET ABX GENT 5MG/KG CLINDA 900 VANCO 15MG/KG IV Q12H"
-    }
-  ],
   "Inpt": "ORZID2 GMENU NECROT INFECT DIRECT THERAPY",
   "Outpt": "ORZID2 GMENU NECROT INFECT DIRECT THERAPY",
   "ERUC": "ORZID GMENU ER/UC NECROT INFECT DIRECT THERAPY"

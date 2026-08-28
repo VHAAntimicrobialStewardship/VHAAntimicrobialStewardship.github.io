@@ -4,24 +4,6 @@
   "Term1": "ORZID2 GMENU SEPSIS SUSP C. DIFFICILE",
   "Term2": "",
   "Text": "## SEPSIS WITH SUSPECTED SEVERE CLOSTRIDIUM DIFFICILE INFECTION\nConsider empirical broad-spectrum antimicrobials and consulting Infectious\nDiseases if Clostridium difficile is not strongly suspected as the main source\nof infection. Refer to [Unclear Infectious Source](orzc-gmenu-sepsis-empiric-therapy-site-unk) for recommendations.\nUnclear Infectious Source\n## If No ileus:\n[Metronidazole 500 mg IV q8h <AND> vancomycin 500 mg PO q6h](orz-set-abx-sepsis-metro-500mg-iv-q8h-vanco-500mg-po-q6h)\n**ONLY for Vancomycin NG administration**\n[Metronidazole 500 mg IV q8h <AND> vancomycin 500 mg NG q6h](orz-set-abx-sepsis-metro-500mg-iv-q8h-vanco-500mg-ng-q6h)\n## If ileus:\nMetronidazole 500 mg IV q8h <AND> vancomycin 500 mg PO q6h\n<AND> vancomycin enema 500 mg in 100 ml normal saline q6h\n**ONLY for Vancomycin NG administration**\n[Metronidazole 500 mg IV q8h <AND> vancomycin 500 mg NG soln q6h](orz-set-abx-sepsis-metro-500mg-iv-q8h-vanco-500mg-ng-q6h-enema)\n<AND> vancomycin enema 500 mg in 100 ml normal saline q6h\n## _______________________________________________________________________________\nReferences:\nEvans et al., Crit Care Med, 2021, 49(11):e1063-e1143.\nMandell Chapter: Sepsis, Severe Sepsis and Septic Shock\nRhee et al., Clinical Infectious Diseases, 2021, 72(4):541-552. PMID: 32374861\nRhodes et al., Crit Care Med, 2022, 50(4):e413-e414. PMID: 34643578\nSanford keyword: Sepsis, Adult\nSinger et al., JAMA, 2016, 315(8):801-810\nUp-to-date article: Sepsis syndromes in adults: Epidemiology, definitions,\nclinical presentation, diagnosis, and prognosis\n\n## ER\n\nGuidance\n## If No ileus:\nMetronidazole 500 mg IV once STAT <AND> vancomycin 500 mg PO once STAT\nMetronidazole 500 mg IV once STAT <AND> vancomycin 500 mg NG once STAT\n## If ileus:\n<AND> vancomycin enema 500 mg in 100 ml normal saline once STAT\nMetronidazole 500 mg IV once STAT <AND> vancomycin 500 mg NG soln once STAT",
-  "LinkTargets": [
-    {
-      "Text": "Unclear Infectious Source",
-      "Item": "sepsis-empiric-therapy-site-unk"
-    },
-    {
-      "Text": "Metronidazole 500 mg IV q8h <AND> vancomycin 500 mg PO q6h",
-      "Item": "ORZ SET ABX SEPSIS METRO 500MG IV Q8H VANCO 500MG PO Q6H"
-    },
-    {
-      "Text": "Metronidazole 500 mg IV q8h <AND> vancomycin 500 mg NG q6h",
-      "Item": "ORZ SET ABX SEPSIS METRO 500MG IV Q8H VANCO 500MG NG Q6H"
-    },
-    {
-      "Text": "Metronidazole 500 mg IV q8h <AND> vancomycin 500 mg NG soln q6h",
-      "Item": "ORZ SET ABX SEPSIS METRO 500MG IV Q8H VANCO 500MG NG Q6H ENEMA"
-    }
-  ],
   "Inpt": "ORZID2 GMENU SEPSIS SUSP C. DIFFICILE",
   "ERUC": "ORZID GMENU ER/UC SEPSIS SUSP C. DIFFICILE"
 }

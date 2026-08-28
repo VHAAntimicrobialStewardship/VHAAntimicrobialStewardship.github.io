@@ -4,24 +4,6 @@
   "Term1": "SURG PLASTIC SURGERY",
   "Term2": "",
   "Text": "## PLASTIC SURGERY\nAntimicrobial prophylaxis is not recommended for most clean procedures in\npatients without additional postoperative infection risk factors.\nRisk factors that increase the risk of postoperative infectious complications\nfor plastic surgery procedures include implants, skin irradiation before the\nprocedure, and procedures below the waist.\nAntimicrobial prophylaxis is recommended for clean-contaminated procedures,\nbreast cancer procedures, and clean procedures with risk factors. A single\npreoperative dose is recommended.\n## If no antimicrobial prophylaxis recommended, select below:\n[*No antimicrobial prophylaxis recommended](orz-gtx-abx-pre-op-url-nurse-generic-order)\n## Clean with risk factors or clean-contaminated:\n## Preferred Prophylaxis:\n[Cefazolin 2 gm IV over 30 minutes beginning 60 minutes before incision](orzid2-gmenu-surg-cefazolin-weight-based-dosing)\n($) [R]\n## Alternative for beta-lactam allergy:\n[Clindamycin 900 mg IV over 30 minutes beginning 60 minutes before incision](psjizid-clindamy-900mg-iv-once-preop)\n($$) [H,O]\n[Vancomycin 15mg/kg IV beginning 120 minutes before incision ($) [R]](orzid2-gmenu-surg-vancomycin-weight-based-dosing)\n## References\nBratzler DW, et al. Clinical practice guidelines for antimicrobial prophylaxis\nin surgery, Am J Health-Syst Pharm. 2013 Vol 70 page 195-283\nAntimicrobial Prophylaxis for Surgery, Treatment Guidelines from The Medical\nLetter 2012 Vol 10 pages 73-77",
-  "LinkTargets": [
-    {
-      "Text": "*No antimicrobial prophylaxis recommended",
-      "Item": "ORZ GTX ABX PRE-OP URL NURSE GENERIC ORDER"
-    },
-    {
-      "Text": "Cefazolin 2 gm IV over 30 minutes beginning 60 minutes before incision",
-      "Item": "ORZID2 GMENU SURG CEFAZOLIN WEIGHT BASED DOSING"
-    },
-    {
-      "Text": "Clindamycin 900 mg IV over 30 minutes beginning 60 minutes before incision",
-      "Item": "PSJIZID CLINDAMY 900MG IV ONCE PREOP"
-    },
-    {
-      "Text": "Vancomycin 15mg/kg IV beginning 120 minutes before incision ($) [R]",
-      "Item": "ORZID2 GMENU SURG VANCOMYCIN WEIGHT BASED DOSING"
-    }
-  ],
   "Inpt": "ORZID2 GMENU SURG PLASTIC SURGERY",
   "Outpt": "ORZID2 GMENU SURG PLASTIC SURGERY"
 }

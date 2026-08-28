@@ -4,20 +4,6 @@
   "Term1": "EPIGLOTTITIS",
   "Term2": "",
   "Text": "## EPIGLOTTITIS\nMaintaining the airway is the key to management. Call ENT service and ask them\nto see the patient immediately. Blood cultures and epiglottal cultures (in\nintubated patients) should be used to direct antimicrobial therapy. Empirical\ntherapy should be initiated prior to results of cultures as infection is life\nthreatening and cover for likely pathogens (Moraxella catarrhalis, penicillin\nresistant S. pneumonia, beta-hemolytic streptococci and possibly Staph. aureus)\n## Inpatient\n\n## Empiric Treatment\nPreferred:\n[Ceftriaxone 2 gm IV q24h ($) [M] <AND> vancomycin 15 mg/kg IV q 12h ($) [R]](orz-set-abx-cetriax-2g-q24h-vanco-15mg-kg-q12h)\nfor 7 days\nAlternative:\n[Assessment of Beta-lactam Reaction](orzid2-gmenu-abx-beta-lactam-allergy-assesment)\n[Levofloxacin 500 mg IV q24h ($) [R,DI] <AND> vancomycin 15 mg/kg IV q12h ($) [R]](orz-set-abx-levoflox-500mg-qd-vanco-15mg-kg-q12)\nfor 7 days\n## _______________________________________________________________________________\n## Outpatient\n\n## Empirical Treatment\nRefer to the Inpatient Antimicrobial CDSS for parenteral therapy\n## _______________________________________________________________________________\nReferences:\nMandell chapter: Epiglottitis\nRafei et al., Pediatric Clinics 2006, 53.2, 215-242\nSanford keyword: Epiglottitis, Supraglottis\nUp-to-date article: Epiglottis (supraglottis): Management",
-  "LinkTargets": [
-    {
-      "Text": "Ceftriaxone 2 gm IV q24h ($) [M] <AND> vancomycin 15 mg/kg IV q 12h ($) [R]",
-      "Item": "ORZ SET ABX CETRIAX 2G Q24H VANCO 15MG/KG Q12H"
-    },
-    {
-      "Text": "Assessment of Beta-lactam Reaction",
-      "Item": "ORZID2 GMENU ABX BETA-LACTAM ALLERGY ASSESMENT"
-    },
-    {
-      "Text": "Levofloxacin 500 mg IV q24h ($) [R,DI] <AND> vancomycin 15 mg/kg IV q12h ($) [R]",
-      "Item": "ORZ SET ABX LEVOFLOX 500MG QD VANCO 15MG/KG Q12"
-    }
-  ],
   "Inpt": "ORZID2 GMENU ABX EPIGLOTTITIS",
   "Outpt": "ORZID3 GMENU EPIGLOTTITIS"
 }

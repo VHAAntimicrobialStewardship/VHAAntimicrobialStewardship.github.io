@@ -198,10 +198,6 @@ for pid, page in combined_pages.items():
         "Term1": display_term1,
         "Term2": page.get("Term2", ""),
         "Text": page.get("Text", ""),
-        "LinkTargets": [
-            {k: v for k, v in lt.items() if k != "Key"}
-            for lt in page.get("LinkTargets", [])
-        ],
         "Inpt": page.get("Inpt", ""),
     }
     # Preserve cross-tab refs if present (transition period)
@@ -290,19 +286,6 @@ __GROUP_OPTIONS__
         widget: markdown
         required: false
         hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
-      - label: "Link Targets"
-        name: LinkTargets
-        widget: list
-        required: false
-        hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
-        fields:
-          - label: "Link Text"
-            name: Text
-            widget: string
-          - label: "Target Page ID or Order Name"
-            name: Item
-            widget: string
-            hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
       - label: "Source Inpatient Menu (read-only)"
         name: Inpt
         widget: string

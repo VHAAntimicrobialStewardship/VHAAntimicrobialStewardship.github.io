@@ -4,24 +4,6 @@
   "Term1": "CHLAMYDIA URETHRITIS CERVICITIS OR PROCTITIS",
   "Term2": "",
   "Text": "## CHLAMYDIAL OR NON-GONOCOCCAL URETHRITIS, CERVICITIS OR PROCTITIS\n## Treatment:\n## Preferred option (especially for rectal chlamydia or in nonpregnant\n## individuals):\n## Inpatient\n\n[Doxycycline 100 mg PO BID for 7 days ($) [DI]](psjzid-doxycycline-100mg-po-q12h)\n## Preferred in pregnant individuals:\n[Azithromycin 1 gm PO ONCE ($) [M]](psjzid-azithromycin-1gm-po-once)\n## Outpatient\n\nDoxycycline 100 mg PO BID for 7 days ($) [DI]\n[Non-VA order for above](pshzid2-doxycycline-100mg-po-bid-7ds)\n## Preferred for pregnant individuals:\n[Azithromycin 1 gm PO x 1 dose ($) [M]](psozid2-azithromycin-1gm-po-once)\nNon-VA order for above References:\nSt. Cyr S, et al. MMWR Morb Mortal Wkly Rep 2020, 69:1911-1916.\nSanford keyword: Chlamydia trachomatis\nLau, A., et al. N Engl J Med 2021, 384: 2418-2427\nUp-To-Date article: Chlamydia trachomatis",
-  "LinkTargets": [
-    {
-      "Text": "Doxycycline 100 mg PO BID for 7 days ($) [DI]",
-      "Item": "PSJZID DOXYCYCLINE 100MG PO Q12H"
-    },
-    {
-      "Text": "Azithromycin 1 gm PO ONCE ($) [M]",
-      "Item": "PSJZID AZITHROMYCIN 1GM PO ONCE"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "PSHZID2 DOXYCYCLINE 100MG PO BID 7DS"
-    },
-    {
-      "Text": "Azithromycin 1 gm PO x 1 dose ($) [M]",
-      "Item": "PSOZID2 AZITHROMYCIN 1GM PO ONCE"
-    }
-  ],
   "Inpt": "ORZID2 GMENU ABX CHLAMYDIA URETHRITIS CERVICITIS OR PROCTITIS",
   "Outpt": "ORZID3 GMENU CHLAMYDIA URETHRITIS CERVICITIS PROCTITIS"
 }

@@ -1,23 +1,9 @@
 {
   "PageID": "toxic-megacolon",
   "Group": "gi-intraabdominal",
-  "Term1": "1. TOXIC MEGACOLON (Navigation)",
+  "Term1": "1. 1. TOXIC MEGACOLON (Navigation) (Navigation)",
   "Term2": "",
   "Text": "## FULMINANT CLOSTRIDIOIDES DIFFICILE INFECTION (CDI)\n## Discontinue any antibiotics if possible.\n## Narrow antibiotic spectrum if antibiotic therapy is still needed.\n## Discontinue antacid therapy if possible.\n## There are no available data supporting the use of fidaxomicin for treatment of\n## fulminant CDI.\n## Duration of antimicrobial therapy\nAntimicrobial therapy for CDI should be continued for 10 days. In patients being\ntreated with antibiotics for predisposing infections, consider continuing\ntreatment for 7 days after completion of those antibiotics. If patient is being\ntreated for CDI recurrence, pulse taper therapy is indicated after resolution of\nsevere disease. Refer to mild to moderate CDI treatment menu for\nrecommendations.\n## Inpatient\n\n## Treatment if ileus is present\nGeneral Surgery consult is essential for ileus or megacolon. Recommend\nGastroenterology and/or Infectious Disease consults for fulminant CDI. Deliver\nantimicrobials by intravenous, oral, and rectal routes.\n[Metronidazole 500 mg IV q8h [DI] <AND> vancomycin 500 mg PO q6h [M]](orz-set-abx-metronidazole-500mg-iv-q8h-vanco-500mg-caps-po-q6h)\n<AND> vancomycin enema 500 mg in 100 ml normal saline q6h [M]\n**ONLY for Vancomycin NG administration**\n[Metronidazole 500 mg IV q8h [DI] <AND> vancomycin 500 mg NG soln q6h [M]](orz-set-abx-metro-500mg-iv-q8h-vanco-500mg-po-ng-q6h)\n<AND> vancomycin enema 500 mg in 100 ml normal saline q6h [M]\n## _______________________________________________________________________________\n## Treatment if ileus is not present\nGastroenterology and/or Infectious Diseases consults are recommended.\nMetronidazole 500 mg IV q8h [DI] <AND> vancomycin 500 mg PO q6h [M]\n**ONLY for Vancomycin NG administration**\n[Metronidazole 500 mg IV q8h [DI] <AND> vancomycin 500 mg NG q6h [M]](orz-set-abx-metro-500mg-iv-q8h-vanco-500mg-ng-q6h-w-o-enema)\n## _______________________________________________________________________________\n## Outpatient\n\nRefer to the Inpatient Antimicrobial CDSS\n## _______________________________________________________________________________\n## Treatment if ileus is not present\nRefer to the Inpatient Antimicrobial CDSS\n## _______________________________________________________________________________\nReferences:\nJohnson et al, Clin Inf Dis,2021,73(5):e1029-e1044\nMandell chapter: Clostridioides difficile infection\nMcDonald et al, Clin Inf Dis, 2018, (00)1-48\nSanford Guide article: Clostridioides difficile\nUp-to-Date article: Clostridioides difficile infection in adults: Clinical\nmanifestations and diagnosis",
-  "LinkTargets": [
-    {
-      "Text": "Metronidazole 500 mg IV q8h [DI] <AND> vancomycin 500 mg PO q6h [M]",
-      "Item": "ORZ SET ABX METRONIDAZOLE 500MG IV Q8H VANCO 500MG CAPS PO Q6H"
-    },
-    {
-      "Text": "Metronidazole 500 mg IV q8h [DI] <AND> vancomycin 500 mg NG soln q6h [M]",
-      "Item": "ORZ SET ABX METRO 500MG IV Q8h VANCO 500MG PO/NG Q6H"
-    },
-    {
-      "Text": "Metronidazole 500 mg IV q8h [DI] <AND> vancomycin 500 mg NG q6h [M]",
-      "Item": "ORZ SET ABX METRO 500MG IV Q8H VANCO 500MG NG Q6H W/O ENEMA"
-    }
-  ],
   "Inpt": "ORZID2 GMENU ABX TOXIC MEGACOLON",
   "Outpt": "ORZID3 GMENU ILEUS/TOXI MEGACOLON"
 }

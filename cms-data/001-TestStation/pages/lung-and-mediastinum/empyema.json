@@ -4,44 +4,6 @@
   "Term1": "EMPYEMA",
   "Term2": "",
   "Text": "## EMPYEMA/LUNG ABSCESS\nEmpyema is usually a complication of pneumonia. Diagnostic thoracentesis is\nrecommended in most cases. Pulmonary or Infectious Diseases consultation is\nessential.\nInpatient ## Duration\nThe duration of antibiotic therapy for bacterial empyema is not well defined but\ngenerally 4-6 weeks\n## Empirical Treatment\n[Ampicillin-Sulbactam 3 mg IV q6h [M]](psjizid-ampicillin-sulbactam-3gm-iv-q6h)\n< OR >\n[Ceftriaxone 2 gm IV q24h [M]](psjizid-ceftriaxone-2gm-iv-q24h)\n< OR >\n[Ceftriaxone 2 gm IV q24h [M] <AND> metronidazole 500 mg PO q12h [DI]](orz-set-abx-ceftriaxone-2gm-iv-q24h-metronidazole-500mg-po-q12h)\nSuspected MRSA:\n< ADD > vancomycin 15mg/kg IV q12h [R] to an antimicrobial regimen above\n## Oral Step down\nPreferred:\n[Amoxicillin-clavulanate 875-125 mg PO q12h [R]](psjzid-amox-clav-875-125mg-po-q12h)\n<OR>\n[Cefadroxil 1000 mg PO q12h [R]](psjzid-cefadroxil-1000mg-po-q12h)\n<OR>\n[Cefadroxil 1000 mg PO q12h [R] <AND> metronidazole 500 mg PO q12h [DI]](orz-set-abx-cefadroxil-100mg-po-q12h-metronidazole-500mgpo-q12h)\nAlternative:\n[Assessment of Beta-lactam Reaction](orzid2-gmenu-abx-beta-lactam-allergy-assesment)\n[Levofloxacin 750 mg PO q24h [R,DI]](psjzid-levofloxacin-750mg-po-q24h)\n< OR >\n[Levofloxacin 750 mg PO q24h [R,DI] <AND> metronidazole 500 mg PO q12h [DI]](orz-set-abx-levofloxacin-750mg-po-q24h-metronidzole500mgpoq12h)\n## _______________________________________________________________________________\n## Outpatient\n\nRefer to Inpatient Antimicrobial CDSS. ## References Harrison's chapter: Infections due to mixed organisms\nUp-to-date article: Epidemiology, clinical presentation, and diagnostic\nevaluation of parapneumonic\neffusion and empyema in adults\nSanford Guide article: Empyema, Adult, Child > 5 yrs",
-  "LinkTargets": [
-    {
-      "Text": "Ampicillin-Sulbactam 3 mg IV q6h [M]",
-      "Item": "PSJIZID AMPICILLIN-SULBACTAM 3GM IV Q6H"
-    },
-    {
-      "Text": "Ceftriaxone 2 gm IV q24h [M]",
-      "Item": "PSJIZID CEFTRIAXONE 2GM IV Q24H"
-    },
-    {
-      "Text": "Ceftriaxone 2 gm IV q24h [M] <AND> metronidazole 500 mg PO q12h [DI]",
-      "Item": "ORZ SET ABX CEFTRIAXONE 2GM IV Q24H METRONIDAZOLE 500MG PO Q12H"
-    },
-    {
-      "Text": "Amoxicillin-clavulanate 875-125 mg PO q12h [R]",
-      "Item": "PSJZID AMOX/CLAV 875-125MG PO Q12H"
-    },
-    {
-      "Text": "Cefadroxil 1000 mg PO q12h [R]",
-      "Item": "PSJZID CEFADROXIL 1000MG PO Q12H"
-    },
-    {
-      "Text": "Cefadroxil 1000 mg PO q12h [R] <AND> metronidazole 500 mg PO q12h [DI]",
-      "Item": "ORZ SET ABX CEFADROXIL 100MG PO Q12H METRONIDAZOLE 500MGPO Q12H"
-    },
-    {
-      "Text": "Assessment of Beta-lactam Reaction",
-      "Item": "ORZID2 GMENU ABX BETA-LACTAM ALLERGY ASSESMENT"
-    },
-    {
-      "Text": "Levofloxacin 750 mg PO q24h [R,DI]",
-      "Item": "PSJZID LEVOFLOXACIN 750MG PO Q24H"
-    },
-    {
-      "Text": "Levofloxacin 750 mg PO q24h [R,DI] <AND> metronidazole 500 mg PO q12h [DI]",
-      "Item": "ORZ SET ABX LEVOFLOXACIN 750MG PO Q24H METRONIDZOLE500MGPOQ12H"
-    }
-  ],
   "Inpt": "ORZID2 GMENU ABX EMPYEMA",
   "Outpt": "ORZID3 GMENU EMPYEMA"
 }

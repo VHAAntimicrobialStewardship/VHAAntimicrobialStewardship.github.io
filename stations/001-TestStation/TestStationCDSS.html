@@ -778,6 +778,97 @@ function scrollToTop() {
     return (value || '').toString().toLowerCase().replace(/[^a-z0-9]/g, '');
   }
 
+  function isGuidanceTargetName(value) {
+    const trimmed = (value || '').trim();
+    if (!trimmed) {
+      return false;
+    }
+    if (/^[a-z0-9][a-z0-9\-]*$/.test(trimmed)) {
+      return true;
+    }
+    const upper = trimmed.toUpperCase();
+    if (upper === 'MAIN-MENU' || upper === 'INPT-MAIN') {
+      return true;
+    }
+    return upper.includes('GMENU');
+  }
+
+  function shouldSuppressCombinedInternalLink(target, resolvedItem) {
+    if (currentVersion !== 'combined') {
+      return false;
+    }
+    const candidate = (resolvedItem || target || '').trim();
+    if (!candidate) {
+      return false;
+    }
+    return !isGuidanceTargetName(candidate);
+  }
+
+  function appendTextWithAbxLinks(container, text) {
+    const contentText = (text || '').toString();
+    if (!contentText) {
+      return;
+    }
+
+    if (!Array.isArray(abxLinkData) || abxLinkData.length === 0) {
+      container.appendChild(document.createTextNode(contentText));
+      return;
+    }
+
+    const matches = [];
+    abxLinkData.forEach((item) => {
+      const name = (item.Name || '').trim();
+      const url = (item.URL || '').trim();
+      if (!name || !url) {
+        return;
+      }
+
+      const nameRegex = new RegExp(`\\b${escapeRegExp(name)}\\b`, 'gi');
+      let match;
+      while ((match = nameRegex.exec(contentText)) !== null) {
+        matches.push({
+          start: match.index,
+          end: match.index + match[0].length,
+          label: match[0],
+          url
+        });
+      }
+    });
+
+    if (matches.length === 0) {
+      container.appendChild(document.createTextNode(contentText));
+      return;
+    }
+
+    matches.sort((a, b) => {
+      if (a.start !== b.start) {
+        return a.start - b.start;
+      }
+      return (b.end - b.start) - (a.end - a.start);
+    });
+
+    let cursor = 0;
+    matches.forEach((match) => {
+      if (match.start < cursor) {
+        return;
+      }
+      if (match.start > cursor) {
+        container.appendChild(document.createTextNode(contentText.substring(cursor, match.start)));
+      }
+      const linkElement = document.createElement('a');
+      linkElement.href = match.url;
+      linkElement.target = '_blank';
+      linkElement.classList.add('AbxLink');
+      linkElement.textContent = match.label;
+      container.appendChild(linkElement);
+      cursor = match.end;
+    });
+
+    if (cursor < contentText.length) {
+      container.appendChild(document.createTextNode(contentText.substring(cursor)));
+    }
+  }
+
   function resolveEmbeddedLinkTarget(selectedData, target, label = '') {
   const normalizedTarget = (target || '').trim();
   if (!normalizedTarget) {
@@ -785,7 +876,6 @@ function scrollToTop() {
   }
 
     const normalizedTargetId = normalizeComparableId(normalizedTarget);
-    const normalizedLabel = (label || '').trim().toLowerCase();
 
   if (normalizedTarget.toLowerCase().startsWith('cdss:')) {
     return resolveTargetForCurrentVersion(normalizedTarget.substring(5).trim());
@@ -797,31 +887,6 @@ function scrollToTop() {
   );
   if (directPage) {
     return resolveTargetForCurrentVersion(directPage.Name);
-  }
-
-  // Fallback: resolve via current page's LinkTargets
-  const linkTargets = Array.isArray(selectedData.LinkTargets) ? selectedData.LinkTargets : [];
-  const byItem = linkTargets.find(link =>
-    (link.Item || '').trim().toLowerCase() === normalizedTarget.toLowerCase()
-  );
-  if (byItem && byItem.Item) {
-    return resolveTargetForCurrentVersion(byItem.Item);
-  }
-
-  // Legacy Key fallback (VistA order links still use Keys)
-  const byKey = linkTargets.find(link =>
-    (link.Key || '').trim().toLowerCase() === normalizedTarget.toLowerCase()
-  );
-  if (byKey && byKey.Item) {
-    return resolveTargetForCurrentVersion(byKey.Item);
-  }
-
-  // Fallback for rich text links: many pages store canonical Item by label text.
-  const byText = linkTargets.find(link =>
-    (link.Text || '').trim().toLowerCase() === normalizedLabel
-  );
-  if (byText && byText.Item) {
-    return resolveTargetForCurrentVersion(byText.Item);
   }
 
   // Global fallback: match target slug to OM/OD names by normalized identifier.
@@ -837,19 +902,6 @@ function scrollToTop() {
   );
   if (odByNormalized) {
     return odByNormalized.Name;
-  }
-
-  // Last attempt: use label text to find a global OM LinkTarget entry.
-  if (normalizedLabel) {
-    for (const menu of omData) {
-      const menuTargets = Array.isArray(menu.LinkTargets) ? menu.LinkTargets : [];
-      const labelMatch = menuTargets.find(link =>
-        (link.Text || '').trim().toLowerCase() === normalizedLabel
-      );
-      if (labelMatch && labelMatch.Item) {
-        return resolveTargetForCurrentVersion(labelMatch.Item);
-      }
-    }
   }
 
   return null;
@@ -964,11 +1016,14 @@ function appendRichTextLineContent(container, lineText, selectedData) {
   markdownLinks.forEach((match) => {
     const plainText = lineText.substring(currentIndex, match.index);
     if (plainText) {
-      container.appendChild(document.createTextNode(plainText));
+      if (currentVersion === 'combined') {
+        appendTextWithAbxLinks(container, plainText);
+      } else {
+        container.appendChild(document.createTextNode(plainText));
+      }
     }
 
     const label = (match.label || '').trim();
-    const fullMatch = match.fullMatch;
     const target = decodeURIComponent((match.target || '').trim());
     if (isValidURL(target)) {
       const externalLink = document.createElement('a');
@@ -979,7 +1034,7 @@ function appendRichTextLineContent(container, lineText, selectedData) {
       container.appendChild(externalLink);
     } else {
       const resolvedItem = resolveEmbeddedLinkTarget(selectedData, target, label);
-      if (resolvedItem) {
+      if (resolvedItem && !shouldSuppressCombinedInternalLink(target, resolvedItem)) {
         const rowClickElement = document.createElement('a');
         rowClickElement.classList.add('clickable');
         rowClickElement.textContent = label;
@@ -988,7 +1043,11 @@ function appendRichTextLineContent(container, lineText, selectedData) {
         });
         container.appendChild(rowClickElement);
       } else {
-        container.appendChild(document.createTextNode(fullMatch));
+        if (currentVersion === 'combined') {
+          appendTextWithAbxLinks(container, label);
+        } else {
+          container.appendChild(document.createTextNode(match.fullMatch));
+        }
       }
     }
 
@@ -996,7 +1055,12 @@ function appendRichTextLineContent(container, lineText, selectedData) {
   });
 
   if (currentIndex < lineText.length) {
-    container.appendChild(document.createTextNode(lineText.substring(currentIndex)));
+    const trailingText = lineText.substring(currentIndex);
+    if (currentVersion === 'combined') {
+      appendTextWithAbxLinks(container, trailingText);
+    } else {
+      container.appendChild(document.createTextNode(trailingText));
+    }
   }
 }
 

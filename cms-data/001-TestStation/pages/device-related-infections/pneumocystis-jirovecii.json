@@ -4,52 +4,6 @@
   "Term1": "PNEUMOCYSTIS JIROVECII",
   "Term2": "",
   "Text": "## PNEUMOCYSTIS JIROVECII DISEASE\nDiagnosis and treatment are complex, consult Infectious Diseases in all cases.\nPneumocystis jirovecii (formerly termed Pneumocystis carinii) in an ubiquitious\norganism that causes disease in people with compromised cell-mediated immunity.\nDisease is exceedingly rare in people with intact host defenses. Pneumonia is\nthe usual manifestation but P. jirovecii can infect extrapulmonary sites,\nespecially in patients who have been receiving prophylaxis with aerosolized\npentanmidine. P. jirovecii disease occurs most commonly in people with AIDS and\nfewer than 200 CD4 T lymphocytes/microliter.\nThe abbreviation PCP is often used for Pneumocystis pneumonia. It was derived\nfrom the old species name, Pneumocystis carinii.\nTrimethoprim-sulfamethoxazole (TMP-SMZ) is the treatment of choice for P.\njirovecii disease, including disease that occurs despite TMP-SMZ prophylaxis.\nCorticosteriods should be prescribed for patients with AIDS and P. jirovecii\npneumonia and an arterial oxygen tension <70 torr or an alveolar-arterial oxygen\ngradient of >35 torr.\n[LINK to Prophylaxis for Pneumocystis Jirovecii](orzc-gmenu-abx-pneumocystis-jirovecii-prophylaxis)\n## Preferred treatment for mild to moderate disease or step-down treatment once\n## disease has stabilized\n[Trimethoprim-sulfamethoxazole 2 DS tablets PO q8h for 21 days ($)[R,DI]](psozid2-tmp-smx-2ds-tablets-po-q8h-21days)\n< OR >\n[Trimethoprim-sulfamethoxazole 5mg/kg PO q8h ($)[R,DI] <AND> dapsone 100mg](orz-set-abx-trimethoprim-5-mg-kg-dapsone-100mg-po-qd)\nPO QDay ($)[DI] for 21 days\nAlternative\n[Clindamycin 450mg PO q6h ($)[H,O] <AND> Primaquine 26.3 mg PO QDay ($)[DI]](orz-set-abx-clindamycin-450mg-q6h-primaquine-26-3mg-qd)\nfor 21 days\n< OR >\n[Atovaquone 750mg PO BID for 21 days ($)[M]](psjzid-atovaquone-750mg-po-bid)\n## Preferred treatment for severe disease\n[Trimethoprim 5mg/kg - sulfamethoxazole 25MG/KG IV q8h for 21 days](psjizid-trimeth-sulfa-5-25-mg-kg-iv-q8h)\n($$)[R,DI]\nAlternative\n[Clindamycin 600mg IV q6h ($$)[H,O] <AND> primaquine 26.3mg PO QD ($)[DI]](orz-set-abx-clindamycin-600-iv-q6h-primaquine-26-3mg-qd)\nfor 21 days\n< OR >\nRequires ID Approval: Pentamidine 4mg/kg IV q24h ($$$)[DI]\n## Prednisone for patient WITH AIDS\n[Prednisone 40mg PO twice daily for 5 days, then 40mg PO daily for 6 days,](psjzid-prednisone-40mg-po-bid-then-40-6days-then-20-10-days)\nthen 20 mg daily for 10 days.\nReferences:\nGuidelines for Prevention and Treatment of Opportunistic Infections in HIV\nInfected Adults and Adolescents. AIDSinfo (2015) 1-282\nMandell chapter: Mandell Chapter Management of Opportunistic Infections\nAssociated with Human Immunodeficiency Virus Infection\nSanford keyword: pneumocystis pneumonia, Adult\nUp-to-Date article: Treatment and prevention of Pneumocystis infection in HIV-\ninfected patients\n\n## disease has stabilized\n[Trimethoprim-sulfamethoxazole 2 DS tablets PO TID for 21 days ($)[R,DI]](psozid2-tmp-smx-2ds-tablets-po-q8h-21days)\n[Trimethoprim-sulfamethoxazole 5mg/kg PO TID ($)[R,DI] <AND> dapsone 100mg](orz-set-abx-op-tmp-5mg-kg-qd-dapsone-100mg-po-qd)\n[Clindamycin 450mg PO QID ($)[H,O] <AND> Primaquine 26.3 mg PO QDay ($)[DI]](orz-set-abx-op-clindam-450mg-q6h-primaquine-26-3mg-qd)",
-  "LinkTargets": [
-    {
-      "Text": "LINK to Prophylaxis for Pneumocystis Jirovecii",
-      "Item": "pneumocystis-jirovecii-prophylaxis"
-    },
-    {
-      "Text": "Trimethoprim-sulfamethoxazole 2 DS tablets PO q8h for 21 days ($)[R,DI]",
-      "Item": "PSOZID2 TMP/SMX 2DS TABLETS PO Q8H 21DAYS"
-    },
-    {
-      "Text": "Trimethoprim-sulfamethoxazole 5mg/kg PO q8h ($)[R,DI] <AND> dapsone 100mg",
-      "Item": "ORZ SET ABX TRIMETHOPRIM 5 MG/KG DAPSONE 100MG PO QD"
-    },
-    {
-      "Text": "Clindamycin 450mg PO q6h ($)[H,O] <AND> Primaquine 26.3 mg PO QDay ($)[DI]",
-      "Item": "ORZ SET ABX CLINDAMYCIN 450MG Q6H PRIMAQUINE 26.3MG QD"
-    },
-    {
-      "Text": "Atovaquone 750mg PO BID for 21 days ($)[M]",
-      "Item": "PSJZID ATOVAQUONE 750MG PO BID"
-    },
-    {
-      "Text": "Trimethoprim 5mg/kg - sulfamethoxazole 25MG/KG IV q8h for 21 days",
-      "Item": "PSJIZID TRIMETH/SULFA 5/25 MG/KG IV Q8H"
-    },
-    {
-      "Text": "Clindamycin 600mg IV q6h ($$)[H,O] <AND> primaquine 26.3mg PO QD ($)[DI]",
-      "Item": "ORZ SET ABX CLINDAMYCIN 600 IV Q6H PRIMAQUINE 26.3MG QD"
-    },
-    {
-      "Text": "Prednisone 40mg PO twice daily for 5 days, then 40mg PO daily for 6 days,",
-      "Item": "PSJZID PREDNISONE 40MG PO BID THEN 40 6DAYS THEN 20 10 DAYS"
-    },
-    {
-      "Text": "Trimethoprim-sulfamethoxazole 2 DS tablets PO TID for 21 days ($)[R,DI]",
-      "Item": "PSOZID2 TMP/SMX 2DS TABLETS PO Q8H 21DAYS"
-    },
-    {
-      "Text": "Trimethoprim-sulfamethoxazole 5mg/kg PO TID ($)[R,DI] <AND> dapsone 100mg",
-      "Item": "ORZ SET ABX OP TMP 5MG/KG QD DAPSONE 100MG PO QD"
-    },
-    {
-      "Text": "Clindamycin 450mg PO QID ($)[H,O] <AND> Primaquine 26.3 mg PO QDay ($)[DI]",
-      "Item": "ORZ SET ABX OP CLINDAM 450MG Q6H PRIMAQUINE 26.3MG QD"
-    }
-  ],
   "Inpt": "ORZID2 GMENU PNEUMOCYSTIS JIROVECII",
   "Outpt": "ORZID3 GMENU PNEUMOCYSTIS JIROVECII DISEASE"
 }

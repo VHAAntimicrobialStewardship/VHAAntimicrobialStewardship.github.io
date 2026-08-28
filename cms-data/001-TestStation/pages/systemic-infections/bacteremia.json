@@ -1,39 +1,9 @@
 {
   "PageID": "bacteremia",
   "Group": "systemic-infections",
-  "Term1": "1. BACTEREMIA (Navigation)",
+  "Term1": "1. 1. BACTEREMIA (Navigation) (Navigation)",
   "Term2": "",
   "Text": "## Inpatient\n\n## BACTEREMIA\n## Rapid PCR blood culture results:\n[Staphylococcus aureus](orzid2-gmenu-bacteremia-s-aureus)\n[Staphylococcus lugdunensis](orzid2-gmenu-bacteremia-s-lugdunensis)\n[Other staphylococcus sp. (Coagulase-negative Staphylococci)](orzid2-gmenu-bacteremia-coag-neg-staph)\nEnterococci\nStreptococci\n[Listeria monocytogenes](orzid2-gmenu-bacteremia-listeria)\n[Citrobacter, Enterobacter cloacae, or Klebsiella aerogenes](orzid2-gmenu-bacteremia-citro-kleb-or-enterobacter)\n[Pseudomonas sp.](orzid2-gmenu-bacteremia-pseudomonas)\n[Other Gram-negatives](orzid2-gmenu-bacteremia-gram-negative-rods-other)\nCandida spp. ##Outpatient BACTEREMIA\nRefer to Inpatient Antimicrobial CDSS. ##ER ## SUSPECTED BACTEREMIA, BLOOD CULTURES NOT YET POSITIVE\n## If blood cultures are positive, refer to the Bacteremia order menus in the\n## inpatient\n\nAntimicrobial CDSS (link below).\n***ALERT*** Leaving ED Antimicrobial CDSS! When ordering antimicrobials from the\ninpatient Antimicrobial CDSS, STAT priority must be manually selected.\nLink to Bacteremia order menus in the Inpatient Antimicrobial CDSS\n## Choice of antimicrobials\nSelect antimicrobials active against any suspected site of infection that may be\npresent. Return to main menu and refer to the source infection's page within\nthe Antimicrobial CDSS.\n## For patients with an intravascular catheter, refer to the intravascular-\n## associated infection page in the Systemic Infections section of the Inpatient\n## Antimicrobial CDSS\n## Empirical therapy for mild to moderate infection, focal infection not found\nCeftriaxone 2 gm IV once STAT ($) [M]\n## Empirical therapy for severe infection\nCeftriaxone 2 gm IV once STAT ($) [M] < AND > vancomycin 15mg/kg IV once\nSTAT ($) [R]\n## Empirical therapy for immunosuppressed patients\nPiperacillin-tazobactam 4.5 gm IV once STAT ($$) <AND> vancomycin 15 mg/kg\nIV once STAT ($) [R]\n## For patients with penicillin allergy\nVancomycin 15 mg/kg IV once STAT ($) [R] <AND> aztreonam 2 gm IV once STAT\n($$$$) [R]\nReferences\nMedical Letter Treatment Guidelines 2010, 8: 94\nSanford keyword: Pseudomonas aeruginosa\nSanford keyword: Enterococci\nSanford keyword: Staphylococci\nSanford keyword: Streptococci\nUp-to-Date website",
-  "LinkTargets": [
-    {
-      "Text": "Staphylococcus aureus",
-      "Item": "ORZID2 GMENU BACTEREMIA S. AUREUS"
-    },
-    {
-      "Text": "Staphylococcus lugdunensis",
-      "Item": "ORZID2 GMENU BACTEREMIA S. LUGDUNENSIS"
-    },
-    {
-      "Text": "Other staphylococcus sp. (Coagulase-negative Staphylococci)",
-      "Item": "ORZID2 GMENU BACTEREMIA COAG NEG STAPH"
-    },
-    {
-      "Text": "Listeria monocytogenes",
-      "Item": "ORZID2 GMENU BACTEREMIA LISTERIA"
-    },
-    {
-      "Text": "Citrobacter, Enterobacter cloacae, or Klebsiella aerogenes",
-      "Item": "ORZID2 GMENU BACTEREMIA CITRO KLEB OR ENTEROBACTER"
-    },
-    {
-      "Text": "Pseudomonas sp.",
-      "Item": "ORZID2 GMENU BACTEREMIA PSEUDOMONAS"
-    },
-    {
-      "Text": "Other Gram-negatives",
-      "Item": "ORZID2 GMENU BACTEREMIA GRAM-NEGATIVE RODS OTHER"
-    }
-  ],
   "Inpt": "ORZID2 GMENU ABX BACTEREMIA",
   "Outpt": "ORZID3 GMENU BACTEREMIA",
   "ERUC": "ORZID GMENU ER/UC SUSP BACT, BLD CX NOT YET POS"
