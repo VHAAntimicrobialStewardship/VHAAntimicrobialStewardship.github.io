@@ -218,6 +218,9 @@
       margin: 4px 0;
       border-radius: 3px;
     }
+    .markdown-empty-line {
+      min-height: 1em;
+    }
     
 /* Header styles */
 #header {
@@ -1270,7 +1273,10 @@ function appendRichTextLinesWithCodeFences(container, lines, selectedData, skipE
 
     if (!line || !line.trim()) {
       if (!skipEmptyLines) {
-        container.appendChild(document.createElement('div'));
+        const emptyLine = document.createElement('div');
+        emptyLine.classList.add('markdown-empty-line');
+        emptyLine.textContent = '\u00a0';
+        container.appendChild(emptyLine);
       }
       return;
     }
@@ -1440,7 +1446,7 @@ function createStructuredRichTextNavigationTable(selectedData) {
     if (useMultiColumns) {
       cell.style.width = (100 / sections.length) + '%';
     }
-    appendRichTextLinesWithCodeFences(cell, sectionLines, selectedData, true);
+    appendRichTextLinesWithCodeFences(cell, sectionLines, selectedData, false);
     return cell;
   }
 
@@ -1456,7 +1462,7 @@ function createStructuredRichTextNavigationTable(selectedData) {
     sections.forEach(sectionLines => {
       const row = document.createElement('tr');
       const cell = document.createElement('td');
-      appendRichTextLinesWithCodeFences(cell, sectionLines, selectedData, true);
+      appendRichTextLinesWithCodeFences(cell, sectionLines, selectedData, false);
       row.appendChild(cell);
       tbody.appendChild(row);
     });
@@ -1518,6 +1524,9 @@ function createRichTextTable(selectedData) {
 
     if (line.trim() !== '') {
       appendRichTextLineContent(lineElement, line, selectedData);
+    } else {
+      lineElement.classList.add('markdown-empty-line');
+      lineElement.textContent = '\u00a0';
     }
 
     displayCell.appendChild(lineElement);
@@ -1599,7 +1608,7 @@ function createCombinedMainMenuTable(selectedData) {
         displayCell.appendChild(headingElement);
       }
 
-      appendRichTextLinesWithCodeFences(displayCell, section.lines, selectedData, true);
+      appendRichTextLinesWithCodeFences(displayCell, section.lines, selectedData, false);
 
       bodyRow.appendChild(displayCell);
     }
