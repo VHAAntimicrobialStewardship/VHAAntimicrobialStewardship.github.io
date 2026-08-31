@@ -1381,7 +1381,7 @@ function appendRichTextLineContent(container, lineText, selectedData) {
 }
 
 function isStructuredRichTextNavigationPage(selectedData) {
-  if (!selectedData || selectedData.Name === combinedMenu || typeof selectedData.Text !== 'string') {
+  if (!selectedData || typeof selectedData.Text !== 'string') {
     return false;
   }
   // Primary signal: explicit structured column delimiter(s)
@@ -1637,13 +1637,13 @@ function createOMTable(selectedData) {
     return;
   }
 
-  if (selectedData.Name === combinedMenu && typeof selectedData.Text === 'string') {
-    createCombinedMainMenuTable(selectedData);
+  if (isStructuredRichTextNavigationPage(selectedData)) {
+    createStructuredRichTextNavigationTable(selectedData);
     return;
   }
 
-  if (isStructuredRichTextNavigationPage(selectedData)) {
-    createStructuredRichTextNavigationTable(selectedData);
+  if (selectedData.Name === combinedMenu && typeof selectedData.Text === 'string') {
+    createCombinedMainMenuTable(selectedData);
     return;
   }
 
