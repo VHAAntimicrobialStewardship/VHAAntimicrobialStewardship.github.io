@@ -3,7 +3,7 @@ rebuild-nav-columns.py
 
 Rebuilds combined navigation page Text from Minneapolis Contents column data.
 Generates semantic linear text with explicit delimiters:
-  - <!-- RIGHT COLUMN --> for the second section
+    - <!-- COLUMN 2 --> for the second section
   - <!-- COLUMN N --> for third and later sections
 
 Run from repo root:
@@ -57,7 +57,7 @@ def normalize_link_label(text):
 
 def delimiter_for_column_start(column_index):
     if column_index == 2:
-        return '<!-- RIGHT COLUMN -->'
+        return '<!-- COLUMN 2 -->'
     return '<!-- COLUMN %d -->' % column_index
 
 
