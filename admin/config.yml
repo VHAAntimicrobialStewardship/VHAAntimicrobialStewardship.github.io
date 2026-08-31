@@ -86,8 +86,13 @@ collections:
         name: MarkdownLink
         widget: text
         required: false
-        default: "[Antimicrobial Formulary](/assets/uploads/replace-with-uploaded-filename.pdf)"
-        hint: "Copy and edit this format in page content: [Your Link Text](/assets/uploads/your-file.pdf)."
+        default: "[Antimicrobial Formulary](https://vhaantimicrobialstewardship.github.io/assets/uploads/replace-with-uploaded-filename.pdf)"
+        hint: "Auto-filled after publish by GitHub Action using your uploaded file path. Save/publish, then reopen to copy exact markdown."
+      - label: "Exact File URL"
+        name: AbsoluteURL
+        widget: string
+        required: false
+        hint: "Auto-filled after publish. Save/publish, then reopen and copy this full URL."
       - label: "Notes"
         name: Notes
         widget: string
