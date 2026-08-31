@@ -1,0 +1,9 @@
+{
+  "PageID": "abx-restriction-policy",
+  "Group": "cns",
+  "Term1": "Restrictions on antimicrobials",
+  "Term2": "",
+  "Text": "# ANTIMICROBIAL RESTRICTION POLICY\n\nMedication orders placed using the CDSS system will NOT require Infectious\n\nDisease approval. Because prescribing advice within the system has been\n\ndeveloped with input from a broad, representative group of clinicians and the\n\nrecommendations that have emerged are based on site-specific susceptibility\n\npatterns, clinical evidence, local preferences, and national guidelines,\n\nINFECTIOUS DISEASE APPROVAL FOR RESTRICTED ANTIMICROBIALS WILL NOT BE NEEDED at\n\nparticipating VA sites. Clinicians are still encouraged to seek advice from\n\nInfectious Diseases whenever it would be helpful.\n\nRestricted antimicrobials ordered outside the CDSS system will continue to need\n\nID approval.",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU ABX ABX RESTRICTION POLICY"
+}

@@ -1,0 +1,111 @@
+{
+  "PageID": "help-page",
+  "Group": "cns",
+  "Term1": "4. Help (Navigation)",
+  "Term2": "Instructions",
+  "Text": "## CDSS HELP AND ADDITIONAL INFORMATION\n## Allergies\n[Beta-lactam reaction assessment](ORZID2 GMENU ABX BETA-LACTAM ALLERGY ASSESMENT)\n[History, types, implications,](ORZID2 GMENU ABX DRUG ALLERGIES)\nPenicillin desensitization\n## Alternative antimicrobials\nWhen to use and how to find\n[Click Here](ORZID2 GMENU ABX HOW TO FIND ALT ABX)\n## Antimicrobial information\n[Cost Information](ORZID2 GMENU ABX COST INFORMATION)\n[Formulary](orz-gtx-abx-antimicrobial-formulary)\n[Important drug properties](ORZID2 GMENU ABX IMPORTANT DRUG PROPERTIES)\n[Pregnancy and lactation risk](ORZID3 GMENU PREGNANCY RISK INFO)\n[Susceptibilities (Antibiogram)](ORZID2 GMENU ABX SUSCEPTIBILITIES (ANTIBIOGRAM))\n[QTc prolongation drug resource](orz-gtx-abx-resource-qtc)\n[Warfarin interactions](ORZID3 GMENU WARFARIN DRUG INTERACTIONS)\n## Contact Information\n[Additional assistance](ORZID2 GMENU ABX ADDITIONAL ASSISTANCE)\n[Clinical on call schedule (ID)](orz-min-on-call-schedule)\n[Comments or suggestions](ORZID2 GMENU CONTACT CDSS STAFF)\n## Excluded diseases and syndromes\n[Click Here](ORZID2 GMENU ABX EXCLUSIONS)\n<!-- RIGHT COLUMN -->\n## Home IV Treatment Information\n[Click Here](ORZID2 GMENU ABX HOME IV AT MPLS)\n## How to use the CDSS\nNavigation, adjusting regimens, menu\nelements\n[Click Here](ORZID2 GMENU ABX HOW TO USE CDSS)\n## Infection Control\nContact info, links, precautions\n[Click Here](ORZID2 GMENU ABX INFECTION CTRL)\n## Restriction policy information\n[Click Here](orzid2-gmenu-abx-abx-restriction-policy)\n## Other/additional resources\n[About the CDSS](ORZID2 GMENU ABX ABOUT THE CDSS)\n[Acknowledgements](ORZID2 GMENU ABX ACKNOWLEDGEMENTS)\n[TheraDoc](orz-gtx-abx-theradoc-hyperlink)\n[Lexicomp online](orz-gtx-abx-lexicomp-online)\n[Mandell's online](orz-gtx-abx-mandell)\n[Up-to-date online](orz-gtx-abx-up-to-date)\n[Sanford Guide online](orz-gtx-abx-sanford)",
+  "LinkTargets": [
+    {
+      "Text": "Beta-lactam reaction assessment",
+      "Item": "ORZID2 GMENU ABX BETA-LACTAM ALLERGY ASSESMENT"
+    },
+    {
+      "Text": "[Click Here]",
+      "Item": "ORZID2 GMENU ABX HOME IV AT MPLS"
+    },
+    {
+      "Text": "History, types, implications,",
+      "Item": "ORZID2 GMENU ABX DRUG ALLERGIES"
+    },
+    {
+      "Text": "[Click Here]",
+      "Item": "ORZID2 GMENU ABX HOW TO USE CDSS"
+    },
+    {
+      "Text": "[Click Here]",
+      "Item": "ORZID2 GMENU ABX HOW TO FIND ALT ABX"
+    },
+    {
+      "Text": "Cost Information",
+      "Item": "ORZID2 GMENU ABX COST INFORMATION"
+    },
+    {
+      "Text": "[Click Here]",
+      "Item": "ORZID2 GMENU ABX INFECTION CTRL"
+    },
+    {
+      "Text": "Formulary",
+      "Item": "ORZ GTX ABX ANTIMICROBIAL FORMULARY"
+    },
+    {
+      "Text": "Important drug properties",
+      "Item": "ORZID2 GMENU ABX IMPORTANT DRUG PROPERTIES"
+    },
+    {
+      "Text": "Pregnancy and lactation risk",
+      "Item": "ORZID3 GMENU PREGNANCY RISK INFO"
+    },
+    {
+      "Text": "[Click Here]",
+      "Item": "ORZID2 GMENU ABX ABX RESTRICTION POLICY"
+    },
+    {
+      "Text": "Susceptibilities (Antibiogram)",
+      "Item": "ORZID2 GMENU ABX SUSCEPTIBILITIES (ANTIBIOGRAM)"
+    },
+    {
+      "Text": "QTc prolongation drug resource",
+      "Item": "ORZ GTX ABX RESOURCE QTC"
+    },
+    {
+      "Text": "Warfarin interactions",
+      "Item": "ORZID3 GMENU WARFARIN DRUG INTERACTIONS"
+    },
+    {
+      "Text": "About the CDSS",
+      "Item": "ORZID2 GMENU ABX ABOUT THE CDSS"
+    },
+    {
+      "Text": "Acknowledgements",
+      "Item": "ORZID2 GMENU ABX ACKNOWLEDGEMENTS"
+    },
+    {
+      "Text": "TheraDoc",
+      "Item": "ORZ GTX ABX THERADOC HYPERLINK"
+    },
+    {
+      "Text": "Additional assistance",
+      "Item": "ORZID2 GMENU ABX ADDITIONAL ASSISTANCE"
+    },
+    {
+      "Text": "Lexicomp online",
+      "Item": "ORZ GTX ABX LEXICOMP ONLINE"
+    },
+    {
+      "Text": "Clinical on call schedule (ID)",
+      "Item": "ORZ MIN ON CALL SCHEDULE"
+    },
+    {
+      "Text": "Mandell's online",
+      "Item": "ORZ GTX ABX MANDELL"
+    },
+    {
+      "Text": "Comments or suggestions",
+      "Item": "ORZID2 GMENU CONTACT CDSS STAFF"
+    },
+    {
+      "Text": "Up-to-date online",
+      "Item": "ORZ GTX ABX UP TO DATE"
+    },
+    {
+      "Text": "Sanford Guide online",
+      "Item": "ORZ GTX ABX SANFORD"
+    },
+    {
+      "Text": "[Click Here]",
+      "Item": "ORZID2 GMENU ABX EXCLUSIONS"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX HELP PAGE",
+  "Outpt": "ORZID2 GMENU ABX HELP PAGE"
+}

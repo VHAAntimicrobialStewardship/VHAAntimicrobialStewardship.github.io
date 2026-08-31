@@ -4,6 +4,7 @@
   "Term1": "ENTERIC FEVER",
   "Term2": "",
   "Text": "## ENTERIC FEVER (INCLUDING TYPHOID AND PARATYPHOID FEVER)\nEnteric fever is a systemic febrile illness caused by Salmonella enterica\nserotypes Typhi and Paratyphi A, B, or C.\n## Primary treatment\nHydration and electrolyte replacement\n## Antimicrobial Treatment\n## Inpatient\n\nConsult Infectious Diseases for duration of therapy\nCeftriaxone 2 gm IV q24h [M]\n## _______________________________________________________________________________\n## Outpatient\n\nRefer to the Inpatient Antimicrobial CDSS\n## _______________________________________________________________________________ References:\nSanford Guide article: Typhoid Fever, Enteric Fever\nDOI: 10.1093/cid/cix669-Shane et al, Clinical Infectious Diseases 2017,\n65(12):45-80\nUp-to-Date article: Treatment and prevention of enteric (typhoid and\nparatyphoid) fever",
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU ABX ENTERIC FEVER",
   "Outpt": "ORZID3 GMENU ABX ENTERIC FEVER"
 }

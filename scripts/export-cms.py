@@ -37,6 +37,7 @@ MANUAL_INPT_ROOT_GROUPS: dict[str, str] = {
 
 # Display labels for each group folder
 GROUP_LABELS: dict[str, str] = {
+  "main-menu": "Main Menu",
     "adj-exist-abx-therapy": "Adjust Existing Therapy",
     "cns": "Central Nervous System",
     "lung-and-mediastinum": "Lungs & Mediastinum",
@@ -68,6 +69,7 @@ by_name: dict[str, dict] = {m["Name"]: m for m in menus}
 combined_pages: dict[str, dict] = {m["Name"]: m for m in menus if m.get("Inpt")}
 combined_main_id = "main-menu" if "main-menu" in by_name else "inpt-main"
 combined_pages[combined_main_id] = by_name.get(combined_main_id, {})
+MAIN_MENU_GROUP = "main-menu"
 
 print(f"Combined pages to export: {len(combined_pages)}")
 
@@ -107,26 +109,31 @@ if inpt_main_omjson:
 
 # BFS through INPATIENT pages, tracking group ancestry
 inpt_page_to_group: dict[str, str] = {}  # inpatient_page_name -> group_folder
+inpt_page_order: dict[str, int] = {}  # inpatient_page_name -> bfs order within group
 for inpt_root, group_folder in inpt_group_map.items():
-    queue: deque[str] = deque([inpt_root])
-    visited: set[str] = set()
-    while queue:
-        inpt_name = queue.popleft()
-        if inpt_name in visited:
-            continue
-        visited.add(inpt_name)
-        if inpt_name not in inpt_page_to_group:
-            inpt_page_to_group[inpt_name] = group_folder
-        inpt_page = by_name.get(inpt_name)
-        if inpt_page:
-            for lt in inpt_page.get("LinkTargets", []):
-                child = lt.get("Item", "")
-                if child in by_name and child not in visited:
-                    queue.append(child)
+  queue: deque[str] = deque([inpt_root])
+  visited: set[str] = set()
+  order = 0
+  while queue:
+    inpt_name = queue.popleft()
+    if inpt_name in visited:
+      continue
+    visited.add(inpt_name)
+    if inpt_name not in inpt_page_to_group:
+      inpt_page_to_group[inpt_name] = group_folder
+      inpt_page_order[inpt_name] = order
+      order += 1
+    inpt_page = by_name.get(inpt_name)
+    if inpt_page:
+      for lt in inpt_page.get("LinkTargets", []):
+        child = lt.get("Item", "")
+        if child in by_name and child not in visited:
+          queue.append(child)
 
 # Assign combined pages via their Inpt pointer's group
 for pid, page in combined_pages.items():
   if pid == combined_main_id:
+    page_group[pid] = MAIN_MENU_GROUP
     continue
   inpt_source = page.get("Inpt", "")
   group_folder = inpt_page_to_group.get(inpt_source, "general")
@@ -144,6 +151,7 @@ for grp in sorted(group_summary):
 # Prefer known clinical order, then append discovered groups not listed above.
 all_group_folders: list[str] = [
     g for g in [
+    "main-menu",
         "adj-exist-abx-therapy",
         "cns",
         "cardiovascular",
@@ -178,26 +186,96 @@ skipped = 0
 for old_page_file in CMS_ROOT.glob("*/*.json"):
     old_page_file.unlink()
 
-for pid, page in combined_pages.items():
-    if pid == combined_main_id:
-        continue  # auto-generated; not a user-editable CMS page
 
-    group_folder = page_group.get(pid, "general")
+def strip_nav_prefixes_and_suffixes(title: str) -> str:
+  """Remove legacy numeric/nav markers so export owns the numbering format."""
+  cleaned = (title or "").strip()
+  cleaned = re.sub(r"(?:\s*\(navigation\)\s*)+$", "", cleaned, flags=re.IGNORECASE)
+  while True:
+    updated = re.sub(r"^\s*\d+(?:\.\d+)*\.\s*", "", cleaned, count=1)
+    if updated == cleaned:
+      break
+    cleaned = updated.strip()
+  return cleaned.strip()
+
+
+page_export_rows: list[dict] = []
+for pid, page in combined_pages.items():
+  group_folder = page_group.get(pid, "general")
+  raw_term1 = page.get("Term1") or page.get("Name") or pid
+  cleaned_term1 = strip_nav_prefixes_and_suffixes(raw_term1) or pid
+  inpt_source = page.get("Inpt", "")
+  source_inpt = by_name.get(inpt_source, {})
+  source_link_count = len(source_inpt.get("LinkTargets", [])) if source_inpt else 0
+  has_legacy_nav_marker = (
+    bool(re.search(r"\(navigation\)", raw_term1, flags=re.IGNORECASE))
+    or bool(re.match(r"^\s*\d+(?:\.\d+)*\.\s*", raw_term1))
+  )
+
+  is_primary_nav = inpt_source in inpt_group_map
+  is_secondary_nav = (
+    not is_primary_nav
+    and source_link_count >= 8
+    and (
+      has_legacy_nav_marker
+      or inpt_source in inpt_page_order
+    )
+  )
+
+  page_export_rows.append(
+    {
+      "pid": pid,
+      "page": page,
+      "group": group_folder,
+      "term1": cleaned_term1,
+      "inpt": inpt_source,
+      "tree_order": inpt_page_order.get(inpt_source, 10**9),
+      "is_primary_nav": is_primary_nav,
+      "is_nav": is_primary_nav or is_secondary_nav,
+    }
+  )
+
+
+group_nav_numbers: dict[str, dict[str, int]] = {}
+for group_folder in sorted({row["group"] for row in page_export_rows}):
+    nav_rows = [row for row in page_export_rows if row["group"] == group_folder and row["is_nav"]]
+    nav_rows.sort(
+        key=lambda row: (
+            0 if row["is_primary_nav"] else 1,
+            row["tree_order"],
+            row["term1"].lower(),
+            row["pid"],
+        )
+    )
+    group_nav_numbers[group_folder] = {
+        row["pid"]: idx for idx, row in enumerate(nav_rows, start=1)
+    }
+
+for row in page_export_rows:
+    pid = row["pid"]
+    page = row["page"]
+    group_folder = row["group"]
     group_dir = CMS_ROOT / group_folder
     group_dir.mkdir(parents=True, exist_ok=True)
 
-    # Build page record (only CMS-relevant fields)
-    # Navigation pages (their Inpt is directly an inpatient group root) are
-    # prefixed so they sort first alphabetically within their group in Sveltia.
-    is_nav_page = page.get("Inpt", "") in inpt_group_map
-    raw_term1 = page.get("Term1") or page.get("Name") or pid
-    display_term1 = f"1. {raw_term1} (Navigation)" if is_nav_page else raw_term1
+    # Build page record (only CMS-relevant fields).
+    # Navigation pages are numbered sequentially within each clinical group.
+    nav_number = group_nav_numbers.get(group_folder, {}).get(pid)
+    display_term1 = (
+        f"{nav_number}. {row['term1']} (Navigation)"
+        if nav_number is not None
+        else row["term1"]
+    )
     page_record: dict = {
         "PageID": pid,
         "Group": group_folder,
         "Term1": display_term1,
         "Term2": page.get("Term2", ""),
         "Text": page.get("Text", ""),
+        "LinkTargets": [
+            {k: v for k, v in lt.items() if k != "Key"}
+          for lt in (page.get("LinkTargets") or [])
+        ],
         "Inpt": page.get("Inpt", ""),
     }
     # Preserve cross-tab refs if present (transition period)
@@ -233,6 +311,7 @@ def make_group_options_yaml(order: list[str]) -> str:
 
 # Ordered groups for config.yml (clinical order)
 ORDERED_GROUPS = [
+  "main-menu",
     "adj-exist-abx-therapy",
     "cns",
     "cardiovascular",
@@ -286,6 +365,19 @@ __GROUP_OPTIONS__
         widget: markdown
         required: false
         hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
+      - label: "Link Targets"
+        name: LinkTargets
+        widget: list
+        required: false
+        hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
+        fields:
+          - label: "Link Text"
+            name: Text
+            widget: string
+          - label: "Target Page ID or Order Name"
+            name: Item
+            widget: string
+            hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
       - label: "Source Inpatient Menu (read-only)"
         name: Inpt
         widget: string

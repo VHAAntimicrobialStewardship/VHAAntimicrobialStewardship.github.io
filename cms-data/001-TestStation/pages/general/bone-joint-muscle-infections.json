@@ -1,0 +1,34 @@
+{
+  "PageID": "bone-joint-muscle-infections",
+  "Group": "general",
+  "Term1": "BONE-JOINT-MUSCLE-INFECTIONS",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# BONE, JOINT, AND MUSCLE INFECTION\n\n[Septic bursitis](orzid2-gmenu-septic-bursitis)\n\n[Diskitis and vertebral osteomyelitis](orzid2-gmenu-vertebral-diskitis-osteom)\n\n[Osteomyelitis](orzid2-gmenu-osteomyelitis)\n\n[Infections in bone or joint prostheses](orzid2-gmenu-pros-joint-bone-infect)\n\n# Septic arthritis\n\n[Native joint](orzid2-gmenu-septic-arthritis-nat-joint)\n\n[Prosthetic joint](orzid2-gmenu-pros-joint-bone-infect)",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Septic bursitis",
+      "Item": "ORZID2 GMENU SEPTIC BURSITIS"
+    },
+    {
+      "Text": "Diskitis and vertebral osteomyelitis",
+      "Item": "ORZID2 GMENU VERTEBRAL (DISKITIS) OSTEOM"
+    },
+    {
+      "Text": "Osteomyelitis",
+      "Item": "ORZID2 GMENU OSTEOMYELITIS"
+    },
+    {
+      "Text": "Infections in bone or joint prostheses",
+      "Item": "ORZID2 GMENU PROS JOINT BONE INFECT"
+    },
+    {
+      "Text": "Native joint",
+      "Item": "ORZID2 GMENU SEPTIC ARTHRITIS (NAT JOINT)"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU BONE JOINT MUSCLE INFECTIONS"
+}

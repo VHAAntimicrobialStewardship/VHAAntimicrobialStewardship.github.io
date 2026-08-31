@@ -4,6 +4,7 @@
   "Term1": "PREV INFECT BACT PROPHYL",
   "Term2": "",
   "Text": "## PREVENTION OF BACTERIAL INFECTIONS IN A PATIENT WITH MALIGNANCY\nAntimicrobial prophylaxis is often given to patients likely to have profound,\nprolonged neutropenia. Profound neutropenia is less than 100 neutrophils and\nbands per microliter, and such neutropenia is considered prolonged when it is\nexpected to last more than 7 days. Most patients who should receive prophylaxis\nhave received stem cell transplants or are undergoing induction chemotherapy for\nacute leukemia.\n## If antibacterial prophylaxis is indicated\nDuration of therapy: During period of expected neutropenia\nCiprofloxacin 500 mg PO q12h ($) [R,DI] < OR >\nLevofloxacin 500 mg PO q24h ($) [R]\n< OR >\nTrimethoprim-sulfamethoxazole 1 DS tablet PO q12h ($) [R,DI] < OR >\nCefpodoxime 100 mg PO q12h ($$) [R]\nReferences\nTaplitz RA Journal of Clinical Oncology, 2018, 36:3043\nMandell chapter: Prophylaxis and Empirical Therapy for Infection in Cancer\nPatients\nNCCN Clinical Practice Guidelines, Prevention and Treatment of Cancer-\nRelated Infections. Version 1.2019. nccn.org\n\n## Outpatient\n\nGuidance\n## If antibacterial prophylaxis is indicated\nCiprofloxacin 500 mg PO BID for 7 days ($) [R,DI]\nLevofloxacin 500 mg PO QDAY for 7days ($) [R,DI]\nTrimethoprim/sulfamethoxazole 1 DS tablet PO BID for 7 days ($) [R,DI]\nCefpodoxime 100 mg PO BID x7days ($$) [R]",
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU PREV INFECT BACT PROPHYL",
   "Outpt": "ORZID3 GMENU PREV INFECT ANTIBACT PROPHYL"
 }

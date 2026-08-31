@@ -4,6 +4,7 @@
   "Term1": "DERM PROPHYLAXIS",
   "Term2": "",
   "Text": "unnecessary unless the patient has infection of surrounding tissues signified by",
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU ABX DERM PROPHYLAXIS",
   "Outpt": "ORZID2 GMENU ABX DERM PROPHYLAXIS"
 }

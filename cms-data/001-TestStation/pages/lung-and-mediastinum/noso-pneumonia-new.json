@@ -1,9 +1,10 @@
 {
   "PageID": "noso-pneumonia-new",
   "Group": "lung-and-mediastinum",
-  "Term1": "NOSO PNEUMONIA NEW",
+  "Term1": "4. NOSO PNEUMONIA NEW (Navigation)",
   "Term2": "",
   "Text": "## NOSOCOMIAL PNEUMONIA\n[More about nosocomial pneumonia...](orzid2-gmenu-abx-more-about-nosocomial-pneumo)\n## Empirical Treatment\n## Inpatient\n\nLocal facility antibiogram and patient risk factors for multi-drug resistant\npathogens guide antimicrobial therapy.\n[Hospital acquired pneumonia (HAP)](orzid2-gmenu-abx-pneumonia-hap-new)\n[Ventilator associated pneumonia (VAP)](orzid2-gmenu-abx-pneumonia-vap)\n## Empirical therapy must be re-evaluated at 72 hours.\n[Re-evaluate nosocomial pneumonia at 72 hours](orzid2-gmenu-abx-re-evaluate-72hrs-n-pneumo)\n## Pathogen-specific treatment\nCertain respiratory pathogens that are usually treated in unique ways are listed\nhere. Other respiratory pathogens are treated with drugs effective for\npneumonia and active against identified organisms. Refer to pathogen-specific\ntreatment regimen below for recommendation.\n[Acinetobacter baumannii](orzid2-gmenu-abx-nosocomial-a-baumannii)\n[Enterobacterales](orzid2-gmenu-abx-nosocomial-esbl-enterobact)\n[Legionella pneumophila](orzid2-gmenu-abx-nosocomial-l-pneumophila)\n[Pseudomonas aeruginosa](orzid2-gmenu-abx-nosocomial-p-aeruginosa)\n[Staphylococcus aureus](orzid2-gmenu-abx-nosocomial-staphylococcus-pneumonia)\n## _______________________________________________________________________________\n## Outpatient/ER Refer to Inpatient Antimicrobial CDSS for treatment recommendations. ## References:\nChastre J JAMA 2003, 290: 2588\nDennesen PJ Am J Respir Crit Care Med 2001, 163: 1371\nLuna CM. Crit Care Med 2003. 31:676\nRoig J J Antimicrob Chemother 2003, 51: 1119\nUp-to-date website\nKalil AC et al. Clin Infect Dis 2016. 63:1",
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU ABX NOSO PNEUMONIA NEW",
   "Outpt": "ORZID3 GMENU NOSOCOMIAL PNEUMONIA",
   "ERUC": "ORZID GMENU ER/UC NOSO PNEUMONIA NEW"

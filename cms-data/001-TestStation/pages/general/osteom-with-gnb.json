@@ -4,6 +4,7 @@
   "Term1": "OSTEOM WITH GNB",
   "Term2": "",
   "Text": "## OSTEOMYELITIS WITH GRAM NEGATIVE BACILLI (OTHER THAN PSEUDOMONAS)\n## Treatment\nCeftriaxone 2 gm IV q24h ($) [M] < OR >\nAmpicillin-sulbactam 3 gm IV q6h ($$) [R] < OR >\nAmoxicillin-clavulanate 875/125 mg PO q12h ($) [R] < OR >\nReferences:\nSanford keyword: Osteomyelitis\nMandell chapter: Osteomyelitis\nLew DP Lancet 2004, 364: 369\nCunha BA Clin Infect Dis 2002, 35: 287\n\n## Outpatient\n\nGuidance\n## Treatment\nAmoxicillin-clavulanate 875/125 mg PO BID ($) [R] < OR >\nLevofloxacin 500 mg PO qday ($) [R,DI]",
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU OSTEOM WITH GNB",
   "Outpt": "ORZID3 GMENU OSTEOM GNB"
 }

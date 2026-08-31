@@ -4,6 +4,7 @@
   "Term1": "STEP DOWN TREATMENT",
   "Term2": "",
   "Text": "## STEP DOWN TREATMENT\nStep down treatment for completion of antimicrobial course after initial\nintravenous treatment in patients who can tolerate oral therapy. Base selection\non culture results.\n## Gastrointestinal Infections\nAmoxicillin-clavulanate 875/125 mg PO q12h [R]\n< OR >\nCefdinir 300 mg PO q12h [R] <AND> metronidazole 500 mg PO q12h [DI]\n< OR >\nCiprofloxacin 500 mg PO q12h [R,DI] <AND> metronidazole 500 mg PO q12h [DI]\n< OR >\nTrimethoprim-Sulfamethoxazole 1 DS tab q12h [R] <AND> metronidazole 500 mg PO\nq12h [DI]",
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU ABX STEP DOWN TREATMENT",
   "Outpt": "ORZID3 GMENU ABX STEP DOWN TREATMENT"
 }

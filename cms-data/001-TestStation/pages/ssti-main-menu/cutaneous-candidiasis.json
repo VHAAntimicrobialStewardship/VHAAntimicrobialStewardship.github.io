@@ -4,6 +4,7 @@
   "Term1": "CUTANEOUS CANDIDIASIS",
   "Term2": "",
   "Text": "## CUTANEOUS CANDIDIASIS\n## Inpatient\n\nCutaneous candidiasis is a superficial fungal infection of the epidermis.\nPresents with red, erythematous patches, often in areas where skin contacts\nskin, including axillae, groin, and abdominal folds.\nKeep affected areas dry and clean.\n## Treatment\nTreat for 4 weeks.\n## Inpatient\n\nClotrimazole 1% cream apply to affected area BID ($) [M]\n## Alternative\nNystatin Cream to affected area BID ($) [M]\n## Outpatient\n\nClotrimazole 1% cream apply to affected area BID ($) [M]\nNon-VA order for above\n## Alternative\nNystatin Cream to affected area BID ($) [M]\nNon-VA order for above\nReferences\nUp-to-date\nSanford: Cutaneous Candidiasis",
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU CUTANEOUS CANDIDIASIS",
   "Outpt": "ORZID3 GMENU CUTANEOUS CANDIDIASIS"
 }

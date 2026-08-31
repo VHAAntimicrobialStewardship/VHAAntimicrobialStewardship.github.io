@@ -4,6 +4,7 @@
   "Term1": "CHOLERA",
   "Term2": "",
   "Text": "## DIARRHEA WITH CHOLERA (VIBRIO CHOLERAE)\n## Primary Treatment\nAggressive hydration and electrolyte replacement are essential\n## Antimicrobial treatment\nPrimary:\n## Inpatient\n\nDoxycycline 300 mg PO one-time dose [DI]\nAlternative:\nCiprofloxacin 1000 mg PO one-time dose [R,DI]\n< OR >\nAzithromycin 1000 mg PO one-time dose [M]\n## _______________________________________________________________________________\n## Outpatient\n\nDoxycycline 300 mg PO one-time dose [DI]\nNon-VA order for above\nAlternative:\nCiprofloxacin 1000 mg PO one-time dose [R,DI]\nNon-VA order for above\n< OR >\nAzithromycin 1000 mg PO one-time dose [M]\nNon-VA order for above\n## _______________________________________________________________________________\nReferences:\nSanford Guide article: Gastroenteritis, Vibrio cholerae\nDOI: 10.1093/cid/cix669-Shane et al, Clinical Infectious Diseases 2017,\n65(12):45-80\nUp-to-Date article: Cholera: Treatment and prevention",
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU ABX CHOLERA",
   "Outpt": "ORZID3 GMENU DIARRHEA VIBRIO CHOLERA",
   "ERUC": "ORZID GMENU ER/UC CHOLECYSTITIS"

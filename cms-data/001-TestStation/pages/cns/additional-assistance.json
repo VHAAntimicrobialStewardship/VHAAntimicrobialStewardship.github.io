@@ -1,0 +1,23 @@
+{
+  "PageID": "additional-assistance",
+  "Group": "cns",
+  "Term1": "Contact CDSS, ASP, ID, Pharmacy or Microbiology",
+  "Term2": "ASP team contact",
+  "Text": "## WHOM TO CONTACT FOR ADDITIONAL ASSISTANCE\n## CDSS Team\nContact for issues regarding\nnavigation or content of the CDSS\n[CDSS Team Email: andrew.holbrook@va.gov](orz-gtx-abx-cdss-email)\nErik Stensgard, PharmD, BCPS\nAntimicrobial CDSS Program Manager\n(612) 271-4121 -OR- Microsoft TEAMS\nEmail: Erik Stensgard@va.gov\nBobbie Masoud, PharmD, BCPS\nClinical Pharmacist CDSS\n(612) 719-6778 -OR- Microsoft TEAMS\nEmail: Bobbie.Masoud@va.gov\n## ____________________________________\n## Infectious Diseases\nContact for issues regarding\nantimicrobial treatment\n[[CLICK HERE] to open Infectious Diseases on call schedule](orz-min-on-call-schedule)\n<!-- RIGHT COLUMN -->\n## Antimicrobial Stewardship\nContact for issues regarding\nantimicrobial stewardship\nMuthu Narayan, DO\nAntimicrobial Stewardship Physician\nPager: 612-818-3936\nEric Geurkink, PharmD, MBA, BCPS\nAntimicrobial Stewardship Pharmacist\nPager: 612-818-0841\n## ____________________________________\n## Pharmacy Staff\nContact for pharmacy related\nantimicrobial issues\n[[CLICK HERE] to open list of](orz-gtx-abx-pharmacist-numbers-phone-pager)\npharmacists' phone/pager numbers\n## ____________________________________\n## Microbiology\nContact for microbiology issues\nPhone extension: 31-2408",
+  "LinkTargets": [
+    {
+      "Text": "CDSS Team Email: andrew.holbrook@va.gov",
+      "Item": "ORZ GTX ABX CDSS EMAIL"
+    },
+    {
+      "Text": "[CLICK HERE] to open list of",
+      "Item": "ORZ GTX ABX PHARMACIST NUMBERS PHONE/PAGER"
+    },
+    {
+      "Text": "[CLICK HERE] to open Infectious Diseases on call schedule",
+      "Item": "ORZ MIN ON CALL SCHEDULE"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX ADDITIONAL ASSISTANCE",
+  "Outpt": "ORZID2 GMENU ABX ADDITIONAL ASSISTANCE"
+}

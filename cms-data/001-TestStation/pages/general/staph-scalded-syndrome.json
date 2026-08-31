@@ -4,6 +4,7 @@
   "Term1": "ORZID2 GMENU STAPH SCALDED SYNDROME",
   "Term2": "",
   "Text": "## STAPHYLOCOCCAL SCALDED SKIN SYNDROME (RITTER'S DISEASE)\nStaphylococcal scalded skin syndrome (SSSS) presents with severe skin\nblistering and exfoliation resulting from toxins produced by Staphylococcus\naureus. SSSS is usually found in children and rarely in older adults. Obtain\na skin biopsy to differentiate between SSSS and toxic epidermal necrolysis.\nInitiate anti-staphylococcal therapy and obtain cultures and susceptibilities.\nEmpiric therapy active against both MRSA and MSSA until results available.\nIf cultures reveal methicillin-susceptible Staphylococcus aureus (MSSA), change\nto nafcillin or cefazolin for better antimicrobial activity.\n## Empirical treatment\nVancomycin 15 mg/kg IV q12h ($) [R]\n## Treatment if MSSA is isolated\nNafcillin 2 gm IV q4h ($$) [DI]\n< OR >\nReferences\nUp-to-date website\nSanford keyword: Staph. Scalded skin syndrome\nMandell chapter: The acutely ill patient with fever and rash\nStevens DL Clin Infect Dis 2014, 59: 147\nPatel GK Am J Clin Dermatol 2003, 4:165",
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU STAPH SCALDED SYNDROME",
   "Outpt": "ORZID3 GMENU STAPH SCALDED SKIN SYNDROME"
 }

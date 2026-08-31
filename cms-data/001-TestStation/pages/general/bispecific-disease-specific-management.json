@@ -1,0 +1,62 @@
+{
+  "PageID": "bispecific-disease-specific-management",
+  "Group": "general",
+  "Term1": "BISPECIFIC-DISEASE-SPECIFIC-MANAGEMENT",
+  "Term2": "",
+  "Text": "# Bispecific Antibody Inpatient Administration (Oncology)\n\nNote: The oncologist will see the patient in clinic the day prior to admission\n\nfor bispecific antibody treatment. The oncologist will enter the treatment\n\norders in VCM, our oncology-interfaced software. Once the patient is admitted\n\nthe oncology pharmacist will release the orders from VCM to CPRS.\n\n# Please contact Hem-Onc on call for questions or concerns.\n\n[Minneapolis ON-Call Schedule](orz-min-on-call-schedule)\n\n# ______________________________________________________________________________\n\n# Recommend both Cardiac (Telemetry) and O2 Monitoring for Bispecific Antibody:\n\n[Order Continuous Monitoring for both Cardiac and Oximetry](orz-gmenu-admit-to-cardiac-monitor-bispecific)\n\n# ______________________________________________________________________________\n\n# Nurse to call MD IF:\n\n[Nurse call MD for Bispecific Antibody treatment \\(parameters\\)](orz-nurs-call-md-if-new-basic-order-bispecifics)\n\n# ______________________________________________________________________________\n\n# Lab orders will begin the day after admission and continue for up to 2 days.\n\n[Click here Order all labs listed below](orz-set-bispecific-monitoring-daily-labs)\n\n# Order Individual Labs in the above order set by selecting below:\n\nLab orders will begin the day after admission and continue up to 2 days.\n\n# Hematology and Chemistry Panel:\n\n[CBC & Diff Once Daily \\(Bispecific Monitoring\\)](lrtz-cbc-diff-daily-x7days-bispecific-monitoring)\n\n[CMP Once daily \\(Bispecific Monitoring\\)](lrtz-cmp-daily-bispecific-monitoring)\n\n# Inflammatory Markers:\n\n[C-Reactive Protein Once Daily \\(Bispecific Monitoring\\)](lrtz-c-reactive-protein-daily-bispecific-monitoring)\n\n[Ferritin Once Daily \\(Bispecific Monitoring\\)](lrtz-ferritin-bispecific-monitoring)\n\n# Coagulation Parameters:\n\n[Protime/INR Once Daily \\(Bispecific Monitoring\\)](lrtz-protime-inr-daily-bispecific-monitoring)\n\n[PTT Once Daily \\(Bispecific Monitoring\\)](lrtz-ptt-daily-bispecific-monitoring)\n\n[Fibrinogen Once Daily \\(Bispecific Monitoring\\)](lrtz-fibrinogen-daily-bispecific-monitoring)\n\n# _____________________________________________________________________________\n\nNote: Provider orders for managing adverse reactions, including CRS and ICANS\n\nassociated with bispecific antibody treatment, are located below and in the\n\nMedicine Inpatient Hematology-Oncology (Hem-Onc) order menu.\n\n[Bispecific CRS Monitoring Provider Orders](orzid2-gmenu-bispecific-new-crs-monitoring)\n\n[Bispecific ICANS Monitoring Provider Orders](orzid2-gmenu-bispecific-new-icans-monitoring)",
+  "LinkTargets": [
+    {
+      "Text": "Minneapolis ON-Call Schedule",
+      "Item": "ORZ MIN ON CALL SCHEDULE"
+    },
+    {
+      "Text": "Order Continuous Monitoring for both Cardiac and Oximetry",
+      "Item": "ORZ GMENU ADMIT TO CARDIAC MONITOR BISPECIFIC"
+    },
+    {
+      "Text": "Nurse call MD for Bispecific Antibody treatment (parameters)",
+      "Item": "ORZ NURS CALL MD IF NEW BASIC ORDER BISPECIFICS"
+    },
+    {
+      "Text": "[Click here] Order all labs listed below",
+      "Item": "ORZ SET BISPECIFIC MONITORING DAILY LABS"
+    },
+    {
+      "Text": "CBC & Diff Once Daily (Bispecific Monitoring)",
+      "Item": "LRTZ CBC & DIFF DAILY X7DAYS (BISPECIFIC MONITORING)"
+    },
+    {
+      "Text": "CMP Once daily (Bispecific Monitoring)",
+      "Item": "LRTZ CMP DAILY (BISPECIFIC MONITORING)"
+    },
+    {
+      "Text": "C-Reactive Protein Once Daily (Bispecific Monitoring)",
+      "Item": "LRTZ C-REACTIVE PROTEIN DAILY (BISPECIFIC MONITORING)"
+    },
+    {
+      "Text": "Ferritin Once Daily (Bispecific Monitoring)",
+      "Item": "LRTZ FERRITIN (Bispecific Monitoring)"
+    },
+    {
+      "Text": "Protime/INR Once Daily (Bispecific Monitoring)",
+      "Item": "LRTZ PROTIME/INR DAILY (BISPECIFIC MONITORING)"
+    },
+    {
+      "Text": "PTT Once Daily (Bispecific Monitoring)",
+      "Item": "LRTZ PTT DAILY (BISPECIFIC MONITORING)"
+    },
+    {
+      "Text": "Fibrinogen Once Daily (Bispecific Monitoring)",
+      "Item": "LRTZ FIBRINOGEN DAILY (BISPECIFIC MONITORING)"
+    },
+    {
+      "Text": "Bispecific CRS Monitoring Provider Orders",
+      "Item": "ORZID2 GMENU BISPECIFIC NEW CRS MONITORING"
+    },
+    {
+      "Text": "Bispecific ICANS Monitoring Provider Orders",
+      "Item": "ORZID2 GMENU BISPECIFIC NEW ICANS MONITORING"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU BISPECIFIC DISEASE SPECIFIC MANAGEMENT"
+}

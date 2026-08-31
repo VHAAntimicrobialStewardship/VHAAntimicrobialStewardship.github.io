@@ -1,9 +1,51 @@
 {
   "PageID": "prevention-of-infection",
   "Group": "prevention-of-infection",
-  "Term1": "1. 1. PREVENTION OF INFECTION (Navigation) (Navigation)",
+  "Term1": "1. PREVENTION OF INFECTION (Navigation)",
   "Term2": "",
-  "Text": "## ++ PREVENTION OF INFECTION ++\n## Prevention of bacterial endocarditis\nPrevention of bacterial endocarditis\n## Prevention of prosthetic joint infection\n[Before dental procedures](orzid2-gmenu-prev-pros-joint-dental)\n[Before procedures involving infected skin, skin structures or musculoskeletal](orzid2-gmenu-abx-derm-ie-ji-prophylaxis)\ntissue\n## Prevention of infection in patient with malignancy\nAntibacterial prophylaxis\nAntifungal prophylaxis\n[Antiviral prophylaxis](orzid2-gmenu-antiviral-prophylaxis-malignancy)\n## Prevention of infection in patients with liver disease\nSpontaneous bacterial peritonitis\n## Prevention of Pneumocystis infection\nPneumocystis jirovecii prophylaxis\n## Prevention of recurrent Staphylococcus aureus skin infection\nClick Here\nSection reviewed January 2019",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# ++  PREVENTION OF INFECTION  ++\n\n# Prevention of bacterial endocarditis\n\n[Prevention of bacterial endocarditis](orzid2-gmenu-prev-of-bact-endocarditis)\n\n# Prevention of prosthetic joint infection\n\n[Before dental procedures](orzid2-gmenu-prev-pros-joint-dental)\n\n[Before procedures involving infected skin, skin structures or musculoskeletal](orzid2-gmenu-abx-derm-ie-ji-prophylaxis)\n\ntissue\n\n# Prevention of infection in patient with malignancy\n\n[Antibacterial prophylaxis](orzid2-gmenu-prev-infect-bact-prophyl)\n\n[Antifungal prophylaxis](orzid2-gmenu-prev-infect-fungal-prophyl)\n\n[Antiviral prophylaxis](orzid2-gmenu-antiviral-prophylaxis-malignancy)\n\n# Prevention of infection in patients with liver disease\n\n[Spontaneous bacterial peritonitis](orzid2-gmenu-abx-spon-bact-peritonitis)\n\n# Prevention of Pneumocystis infection\n\n[Pneumocystis jirovecii prophylaxis](orzid2-gmenu-abx-pneumocystis-jirovecii-prophylaxis)\n\n# Prevention of recurrent Staphylococcus aureus skin infection\n\n[Click Here](orzid2-gmenu-abx-staphylococcus-aureus-decolonization)\n\nSection reviewed January 2019",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Prevention of bacterial endocarditis",
+      "Item": "ORZID2 GMENU PREV OF BACT ENDOCARDITIS"
+    },
+    {
+      "Text": "Before dental procedures",
+      "Item": "ORZID2 GMENU PREV PROS JOINT DENTAL"
+    },
+    {
+      "Text": "Before procedures involving infected skin, skin structures or musculoskeletal",
+      "Item": "ORZID2 GMENU ABX DERM IE JI PROPHYLAXIS"
+    },
+    {
+      "Text": "Antibacterial prophylaxis",
+      "Item": "ORZID2 GMENU PREV INFECT BACT PROPHYL"
+    },
+    {
+      "Text": "Antifungal prophylaxis",
+      "Item": "ORZID2 GMENU PREV INFECT FUNGAL PROPHYL"
+    },
+    {
+      "Text": "Antiviral prophylaxis",
+      "Item": "ORZID2 GMENU ANTIVIRAL PROPHYLAXIS MALIGNANCY"
+    },
+    {
+      "Text": "Spontaneous bacterial peritonitis",
+      "Item": "ORZID2 GMENU ABX SPON BACT PERITONITIS"
+    },
+    {
+      "Text": "Pneumocystis jirovecii prophylaxis",
+      "Item": "ORZID2 GMENU ABX PNEUMOCYSTIS JIROVECII PROPHYLAXIS"
+    },
+    {
+      "Text": "Click Here",
+      "Item": "ORZID2 GMENU ABX STAPHYLOCOCCUS AUREUS DECOLONIZATION"
+    }
+  ],
   "Inpt": "ORZID2 GMENU ABX PREVENTION OF INFECTION",
   "Outpt": "ORZID3 GMENU PREVENTION OF INFECT"
 }
