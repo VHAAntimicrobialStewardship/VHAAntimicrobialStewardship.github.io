@@ -86,6 +86,7 @@ collections:
         name: MarkdownLink
         widget: text
         required: false
+        default: "[Antimicrobial Formulary](/assets/uploads/replace-with-uploaded-filename.pdf)"
         hint: "Copy and edit this format in page content: [Your Link Text](/assets/uploads/your-file.pdf)."
       - label: "Notes"
         name: Notes
