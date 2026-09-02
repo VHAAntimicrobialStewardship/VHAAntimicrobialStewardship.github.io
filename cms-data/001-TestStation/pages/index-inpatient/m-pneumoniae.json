@@ -1,0 +1,10 @@
+{
+  "PageID": "m-pneumoniae",
+  "Group": "index-inpatient",
+  "Term1": "M. PNEUMONIAE",
+  "Term2": "",
+  "Text": "## MYCOPLASMA PNEUMONIAE\nOptimal therapy depends on both the disease or syndrome and the pathogen. See\ndiagnosis/syndrome section for more information.\n## Preferred treatment\n## Inpatient\n\nDoxycycline 100 mg PO BID for 7 to 14 days ($) [DI]\nAlternative\nIntolerance to doxycycline and azithromycin\nLevofloxacin 500 mg PO q24h for 5 days ($) [R,DI]\n## Outpatient\n\nDoxycycline 100 mg PO BID for 7 to 14 days ($) [DI]\nNon-VA order for above\nAlternative\nAzithromycin 500 mg PO x 1 ($) on day 1, then 250 mg PO QD ($) for 4 days\nNon-VA order for above\nIntolerance to doxycycline and azithromycin\nLevofloxacin 500 mg PO QDay for 5 days ($) [R,DI]\nNon-VA order for above\nReferences:\nMandell Chapter: Mycoplasma pneumoniae and Atypical Pneumonia\nSanford keyword: Mycoplasma pneumoniae\nUp-to-Date article: Mycoplasma pneumoniae infection in adults",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU M. PNEUMONIAE",
+  "Outpt": "ORZID3 GMENU PATH MYCOPLASMA PNEUMO"
+}

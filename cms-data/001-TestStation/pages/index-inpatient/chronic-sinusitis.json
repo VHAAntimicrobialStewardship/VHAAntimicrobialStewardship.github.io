@@ -1,0 +1,19 @@
+{
+  "PageID": "chronic-sinusitis",
+  "Group": "index-inpatient",
+  "Term1": "Chronic Sinusitis",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# CHRONIC SINUSITIS\n\nDiagnosis of chronic sinusitis is based on presence of at least 2 of the 4\n\ncardinal signs/symptoms lasting >/= 12 weeks. In addition, diagnosis requires\n\nobjective evidence of mucosal inflammation using nasal endoscopy and/or CT\n\nimaging. The initial therapy for chronic sinusitis is treatment with intranasal\n\ncorticosteroids and saline. For patients with severe nasal blockage by polyps,\n\ntreat with a short course of oral glucocorticoids. Reassess patient after 1 to 3\n\nmonths of intranasal therapy or after completion of glucocorticoid therapy. If\n\nsigns/symptoms have not improved, consult surgery, ENT and Infectious Diseases\n\nas treatment is complex.\n\nAcute exacerbations of chronic sinusitis can be caused by discontinuing medical\n\ntherapy, viral infections, allergens, noxious inhalants and bacterial or fungal\n\ninfections. Bacterial infections should be suspected when the patient has\n\nincreased signs/symptoms persisting for more than 10 days. Refer to Severe\n\nSinusitis recommendations for choice of antimicrobial therapy in these patients.\n\nRepeated use of the same agent should be avoided to prevent promotion of drug\n\nresistant bacteria or increased fungal colonization.\n\n[Severe Sinusitis](orzid2-gmenu-severe-sinusitis)\n\n# Cardinal Signs/Symptoms of Chronic Sinusitis\n\n1. Anterior and/or posterior nasal mucopurulent drainage\n\n2. Nasal obstruction/nasal blockage/congestion\n\n3. Facial pain, pressure, and/or fullness\n\n4. Reduction or loss of sense of smell\n\n# Objective Evidence mucosal inflammation\n\n1. Purulent (not clear) mucus or edema in the middle meatus or ethmoid regions\n\n2. Polyps in the nasal cavity or the middle meatus\n\n3. Radiographic imaging demonstrating mucosal thickening or partial or complete\n\nopacification of the paranasal sinuses\n\n# _______________________________________________________________________________\n\nReferences:\n\nChow et al, Clinical Infectious Diseases. 2012, 54(8) e72-e112\n\nMandell chapter: Sinusitis\n\nMeltzer et al, J Allergy Clin Immunol. 2004, 114(6) S155-S212.\n\nRosenfeld et al, Otolaryngology - Head and Neck Surgery. 2015, 152(4) 598-609\n\nRudmik et al., JAMA. 2015, 314(9) 926-939\n\nSanford keyword: Sinusitis, Chronic\n\nUp-To-Date article: Chronic rhinosinusitis: Clinical manifestations,\n\npathophysiology, and diagnosis\n\nUp-To-Date article: Microbiology and antibiotic management of chronic\n\nrhinosinusitis",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Severe Sinusitis",
+      "Item": "ORZID2 GMENU SEVERE SINUSITIS"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU CHRONIC SINUSITIS",
+  "Outpt": "ORZID3 GMENU CHRONIC SINUSITIS"
+}

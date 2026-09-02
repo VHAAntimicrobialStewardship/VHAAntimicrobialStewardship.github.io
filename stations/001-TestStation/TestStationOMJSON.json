@@ -67,7 +67,7 @@
       "Name": "antiviral-immunosuppressive-malignancy",
       "Term1": "ORZID2 GMENU ANTIVIRAL IMMUNOSUPPRESSIVE MALIGNANCY",
       "Term2": "",
-      "Text": "## PREVENTION OF ANTIVIRAL INFECTIONS IN A PATIENT WITH MALIGNANCY\n## Severly Immunosuppressive Chemo-immunotherapy\n## Purine Analogues\nChemotherapy with purine analogues such as fludarabine, cladribine, or\npentostatin results in major cellular-immunodeficiency that may outlast the\nexposure by months and enhances the risk for viral infections.\nRecommend antiviral prophylaxis for patients treated with purine analogues,\nif at least one of the following risk factors is present:\na) Second-line chemotherapy\nb) Treatment with corticosteroids\nc) CD4 cell count <50/ul\nd) Age >65 years\ne) Prolonged Mild or Moderate Neutropenia: Mild<1000 Neutrophils /\n�L (Grade III neutropenia) OR Moderate: <500 Neutrophils/�L\n(Grade IV neutropenia)\n## Recommendations:\nDuration: Antiviral prophylaxis should be initiated in the first week of\ntherapy and continued until 2 months after completion of therapy.\nAcyclovir 800 MG PO q12h ($) [R]\n## Alemtuzumab Therapy:\nAlemtuzumab is a potent reactivator of latent intracellular pathogens,\nincluding CMV. Chemotherapy with alemtuzumab results in major cellular-\nimmunodeficiency that may outlast the exposure by months and enhances the\nrisk for viral infections. The risk of viral disease increases with the\nintensity and duration of functional T-cell suppression experienced with\nrecipients of alemtuzumab.\n## Recommendations:\nDuration: Initiate antiviral prophylaxis with alemtuzumab therapy and\ncontinue therapy for at least 2 months after last dose or until CD4 counts\nare greater than or equal to 200 cells/ul, whichever is later.\nAcyclovir 800 MG PO q12h ($) [R]\n## References:\nTaplitz RA Journal of Clinical Oncology 2018, 36:3043\nMandel Chapter: Prophylaxis and Empirical Therapy of Infection in\nCancer Patients\nUp-to-Date website\nSandherr M Annals of Oncology 2006, 17:1051\n\n## Outpatient\n\nGuidance\n## Recommendations:\nAcyclovir 800 MG PO BID ($0.40/day) [R]",
+      "Text": "## PREVENTION OF ANTIVIRAL INFECTIONS IN A PATIENT WITH MALIGNANCY\n## Severly Immunosuppressive Chemo-immunotherapy\n## Purine Analogues\nChemotherapy with purine analogues such as fludarabine, cladribine, or\npentostatin results in major cellular-immunodeficiency that may outlast the\nexposure by months and enhances the risk for viral infections.\nRecommend antiviral prophylaxis for patients treated with purine analogues,\nif at least one of the following risk factors is present:\na) Second-line chemotherapy\nb) Treatment with corticosteroids\nc) CD4 cell count <50/ul\nd) Age >65 years\ne) Prolonged Mild or Moderate Neutropenia: Mild<1000 Neutrophils /\nï¿½L (Grade III neutropenia) OR Moderate: <500 Neutrophils/ï¿½L\n(Grade IV neutropenia)\n## Recommendations:\nDuration: Antiviral prophylaxis should be initiated in the first week of\ntherapy and continued until 2 months after completion of therapy.\nAcyclovir 800 MG PO q12h ($) [R]\n## Alemtuzumab Therapy:\nAlemtuzumab is a potent reactivator of latent intracellular pathogens,\nincluding CMV. Chemotherapy with alemtuzumab results in major cellular-\nimmunodeficiency that may outlast the exposure by months and enhances the\nrisk for viral infections. The risk of viral disease increases with the\nintensity and duration of functional T-cell suppression experienced with\nrecipients of alemtuzumab.\n## Recommendations:\nDuration: Initiate antiviral prophylaxis with alemtuzumab therapy and\ncontinue therapy for at least 2 months after last dose or until CD4 counts\nare greater than or equal to 200 cells/ul, whichever is later.\nAcyclovir 800 MG PO q12h ($) [R]\n## References:\nTaplitz RA Journal of Clinical Oncology 2018, 36:3043\nMandel Chapter: Prophylaxis and Empirical Therapy of Infection in\nCancer Patients\nUp-to-Date website\nSandherr M Annals of Oncology 2006, 17:1051\n\n## Outpatient\n\nGuidance\n## Recommendations:\nAcyclovir 800 MG PO BID ($0.40/day) [R]",
       "Inpt": "ORZID2 GMENU ANTIVIRAL IMMUNOSUPPRESSIVE MALIGNANCY",
       "Outpt": "ORZID3 GMENU ANTIVIRAL IMMUNOSUPPRESIVE MALIGNANCY"
     },
@@ -142,7 +142,7 @@
       "Name": "bacteremia",
       "Term1": "1. BACTEREMIA (Navigation)",
       "Term2": "",
-      "Text": "## Inpatient\n\n## BACTEREMIA\n## Rapid PCR blood culture results:\n[Staphylococcus aureus](orzid2-gmenu-bacteremia-s-aureus)\n[Staphylococcus lugdunensis](orzid2-gmenu-bacteremia-s-lugdunensis)\n[Other staphylococcus sp. (Coagulase-negative Staphylococci)](orzid2-gmenu-bacteremia-coag-neg-staph)\nEnterococci\nStreptococci\n[Listeria monocytogenes](orzid2-gmenu-bacteremia-listeria)\n[Citrobacter, Enterobacter cloacae, or Klebsiella aerogenes](orzid2-gmenu-bacteremia-citro-kleb-or-enterobacter)\n[Pseudomonas sp.](orzid2-gmenu-bacteremia-pseudomonas)\n[Other Gram-negatives](orzid2-gmenu-bacteremia-gram-negative-rods-other)\nCandida spp. ##Outpatient BACTEREMIA\nRefer to Inpatient Antimicrobial CDSS. ##ER ## SUSPECTED BACTEREMIA, BLOOD CULTURES NOT YET POSITIVE\n## If blood cultures are positive, refer to the Bacteremia order menus in the\n## inpatient\n\nAntimicrobial CDSS (link below).\n***ALERT*** Leaving ED Antimicrobial CDSS! When ordering antimicrobials from the\ninpatient Antimicrobial CDSS, STAT priority must be manually selected.\nLink to Bacteremia order menus in the Inpatient Antimicrobial CDSS\n## Choice of antimicrobials\nSelect antimicrobials active against any suspected site of infection that may be\npresent. Return to main menu and refer to the source infection's page within\nthe Antimicrobial CDSS.\n## For patients with an intravascular catheter, refer to the intravascular-\n## associated infection page in the Systemic Infections section of the Inpatient\n## Antimicrobial CDSS\n## Empirical therapy for mild to moderate infection, focal infection not found\nCeftriaxone 2 gm IV once STAT ($) [M]\n## Empirical therapy for severe infection\nCeftriaxone 2 gm IV once STAT ($) [M] < AND > vancomycin 15mg/kg IV once\nSTAT ($) [R]\n## Empirical therapy for immunosuppressed patients\nPiperacillin-tazobactam 4.5 gm IV once STAT ($$) <AND> vancomycin 15 mg/kg\nIV once STAT ($) [R]\n## For patients with penicillin allergy\nVancomycin 15 mg/kg IV once STAT ($) [R] <AND> aztreonam 2 gm IV once STAT\n($$$$) [R]\nReferences\nMedical Letter Treatment Guidelines 2010, 8: 94\nSanford keyword: Pseudomonas aeruginosa\nSanford keyword: Enterococci\nSanford keyword: Staphylococci\nSanford keyword: Streptococci\nUp-to-Date website",
+      "Text": "## Inpatient\n\n## BACTEREMIA\n## Rapid PCR blood culture results:\n[Staphylococcus aureus](orzid2-gmenu-bacteremia-s-aureus)\n[Staphylococcus lugdunensis](orzid2-gmenu-bacteremia-s-lugdunensis)\n[Other staphylococcus sp. (Coagulase-negative Staphylococci)](orzid2-gmenu-bacteremia-coag-neg-staph)\n[Enterococci](enterococci)\n[Streptococci](streptococci)\n[Listeria monocytogenes](orzid2-gmenu-bacteremia-listeria)\n[Citrobacter, Enterobacter cloacae, or Klebsiella aerogenes](orzid2-gmenu-bacteremia-citro-kleb-or-enterobacter)\n[Pseudomonas sp.](orzid2-gmenu-bacteremia-pseudomonas)\n[Other Gram-negatives](orzid2-gmenu-bacteremia-gram-negative-rods-other)\nCandida spp. ##Outpatient BACTEREMIA\nRefer to Inpatient Antimicrobial CDSS. ##ER ## SUSPECTED BACTEREMIA, BLOOD CULTURES NOT YET POSITIVE\n## If blood cultures are positive, refer to the Bacteremia order menus in the\n## inpatient\n\nAntimicrobial CDSS (link below).\n***ALERT*** Leaving ED Antimicrobial CDSS! When ordering antimicrobials from the\ninpatient Antimicrobial CDSS, STAT priority must be manually selected.\nLink to Bacteremia order menus in the Inpatient Antimicrobial CDSS\n## Choice of antimicrobials\nSelect antimicrobials active against any suspected site of infection that may be\npresent. Return to main menu and refer to the source infection's page within\nthe Antimicrobial CDSS.\n## For patients with an intravascular catheter, refer to the intravascular-\n## associated infection page in the Systemic Infections section of the Inpatient\n## Antimicrobial CDSS\n## Empirical therapy for mild to moderate infection, focal infection not found\nCeftriaxone 2 gm IV once STAT ($) [M]\n## Empirical therapy for severe infection\nCeftriaxone 2 gm IV once STAT ($) [M] < AND > vancomycin 15mg/kg IV once\nSTAT ($) [R]\n## Empirical therapy for immunosuppressed patients\nPiperacillin-tazobactam 4.5 gm IV once STAT ($$) <AND> vancomycin 15 mg/kg\nIV once STAT ($) [R]\n## For patients with penicillin allergy\nVancomycin 15 mg/kg IV once STAT ($) [R] <AND> aztreonam 2 gm IV once STAT\n($$$$) [R]\nReferences\nMedical Letter Treatment Guidelines 2010, 8: 94\nSanford keyword: Pseudomonas aeruginosa\nSanford keyword: Enterococci\nSanford keyword: Staphylococci\nSanford keyword: Streptococci\nUp-to-Date website",
       "Inpt": "ORZID2 GMENU ABX BACTEREMIA",
       "Outpt": "ORZID3 GMENU BACTEREMIA",
       "ERUC": "ORZID GMENU ER/UC SUSP BACT, BLD CX NOT YET POS"
@@ -285,7 +285,7 @@
       "Name": "cardiovascular",
       "Term1": "1. CARDIOVASCULAR (Navigation)",
       "Term2": "",
-      "Text": "## ++ CARDIOVASCULAR ++\n## Inpatient\n\n## Endocarditis\n[Approach to Endocarditis](orzid2-gmenu-abx-appro-to-endocarditis)\nDiagnosis of Endocarditis\nNative Valve Endocarditis\n[Empirical Therapy](orzid2-gmenu-ec-nv-emp-thera)\n[Selected Pathogens](orzid2-gmenu-ec-nv-sel-path)\nProsthetic Valve Endocarditis\nEmpirical Therapy\nSelected Pathogens\n## Other\nCardiac Lyme Disease\n[Cardiovascular Device Infections (Excluding Valves)](orzid2-gmenu-abx-infect-involves-card-devices)\n[Catheter-Related Bloodstream Infections](orzid2-gmenu-intravasc-cath-assoc-infect)\nMyocarditis\nPericarditis\n[Suppurative Thrombophlebitis](orzid2-gmenu-abx-suppurative-thrombo-emp-therapy)\n## Section last reviewed 9/2020 ##Outpatient\nRefer to Inpatient Antimicrobial CDSS.",
+      "Text": "## ++ CARDIOVASCULAR ++\n## Inpatient\n\n## Endocarditis\n[Approach to Endocarditis](orzid2-gmenu-abx-appro-to-endocarditis)\n[Diagnosis of Endocarditis](diagnosis-of-endocarditis)\n## Native Valve Endocarditis\n[Empirical Therapy](orzid2-gmenu-ec-nv-emp-thera)\n[Selected Pathogens](orzid2-gmenu-ec-nv-sel-path)\n## Prosthetic Valve Endocarditis\n[Empirical Therapy](empirical-therapy)\n[Selected Pathogens](selected-pathogens)\n## Other\n[Cardiac Lyme Disease](lyme-cardiac-disease)\n[Cardiovascular Device Infections (Excluding Valves)](orzid2-gmenu-abx-infect-involves-card-devices)\n[Catheter-Related Bloodstream Infections](orzid2-gmenu-intravasc-cath-assoc-infect)\n[Myocarditis](myocarditis)\n[Pericarditis](pericarditis)\n[Suppurative Thrombophlebitis](orzid2-gmenu-abx-suppurative-thrombo-emp-therapy)\n## Section last reviewed 9/2020 ##Outpatient\nRefer to Inpatient Antimicrobial CDSS.",
       "Inpt": "ORZID2 GMENU ABX CARDIOVASCULAR",
       "Outpt": "ORZID3 GMENU CARDIOVASCULAR OUTPATIENT"
     },
@@ -830,7 +830,7 @@
       "Name": "general-information-inpatient",
       "Term1": "3. GENERAL INFORMATION INPATIENT (Navigation)",
       "Term2": "",
-      "Text": "## GENERAL INFORMATION\n## Inapatient/Outpatient [Help and Additional Information Menu](orzid2-gmenu-abx-help-page)\nConsult Menu - place consults to specialty service\nAntibiogram\n[Alternative Antimicrobials to CDSS Recommendations - select here](orzid-gmenu-abx-genrl-alternative-drug)\n[Beta-lactam Reaction Assessment](orzid2-gmenu-abx-beta-lactam-allergy-assesment)\n[Contact Information](orzid2-gmenu-abx-additional-assistance)\n[Antimicrobial Information](orzid2-gmenu-abx-drug-info-page)\n## LEGEND ________________________________________________________________________\n[Important Drug Properties](orzid2-gmenu-abx-important-drug-properties)\n[DI] = Important interactions between antimicrobial and other drugs\n[H] = Hepatic excretion of antimicrobial\n[M] = Minimal risk posed by antimicrobial\n[O] = Other important antimicrobial property\n[R] = Renal excretion of antimicrobial\n[Antimicrobial Cost Information](orzid2-gmenu-abx-cost-information)\n($) = <10 dollars per day\n($$) = 10-50 dollars per day\n($$$) = 51-100 dollars per day\n($$$$) = 101-400 dollars per day\n($$$$$) = >400 dollars per day ##ER Help and Additional Information Menu\nInpatient Consult Menu - place consults to specialty service\nOutpatient Consult Menu - place consults to specialty service\nAntibiogram\nBeta-lactam Reaction Assessment\nInpatient Alternative Antimicrobials to CDSS Recommendations - select here\nOutpatient Alternative Antimicrobials to CDSS Recommendations - select here\nContact Information\nAntimicrobial Information\n## LEGEND ________________________________________________________________________\nImportant Drug Properties\n[DI] = Important interactions between antimicrobial and other drugs\n[H] = Hepatic excretion of antimicrobial\n[M] = Minimal risk posed by antimicrobial\n[O] = Other important antimicrobial property\n[R] = Renal excretion of antimicrobial\nAntimicrobial Cost Information\n($) = <10 dollars per day\n($$) = 10-50 dollars per day\n($$$) = 51-100 dollars per day\n($$$$) = 101-400 dollars per day\n($$$$$) = >400 dollars per day",
+      "Text": "## GENERAL INFORMATION\n## Inapatient/Outpatient [Help and Additional Information Menu](orzid2-gmenu-abx-help-page)\nConsult Menu - place consults to specialty service\nAntibiogram\n[Alternative Antimicrobials to CDSS Recommendations - select here](orzid-gmenu-abx-genrl-alternative-drug)\n[Beta-lactam Reaction Assessment](orzid2-gmenu-abx-beta-lactam-allergy-assesment)\n[Contact Information](orzid2-gmenu-abx-additional-assistance)\n[Antimicrobial Information](orzid2-gmenu-abx-drug-info-page)\n## LEGEND ________________________________________________________________________\n[Important Drug Properties](orzid2-gmenu-abx-important-drug-properties)\n[DI] = Important interactions between antimicrobial and other drugs\n[H] = Hepatic excretion of antimicrobial\n[M] = Minimal risk posed by antimicrobial\n[O] = Other important antimicrobial property\n[R] = Renal excretion of antimicrobial\n[Antimicrobial Cost Information](orzid2-gmenu-abx-cost-information)\n($) = <10 dollars per day\n($$) = 10-50 dollars per day\n($$$) = 51-100 dollars per day\n($$$$) = 101-400 dollars per day\n($$$$$) = >400 dollars per day ##ER Help and Additional Information Menu\nInpatient Consult Menu - place consults to specialty service\nOutpatient Consult Menu - place consults to specialty service\nAntibiogram\nBeta-lactam Reaction Assessment\nInpatient Alternative Antimicrobials to CDSS Recommendations - select here\nOutpatient Alternative Antimicrobials to CDSS Recommendations - select here\nContact Information\nAntimicrobial Information\n## LEGEND ________________________________________________________________________\n[Important Drug Properties](important-drug-properties)\n[DI] = Important interactions between antimicrobial and other drugs\n[H] = Hepatic excretion of antimicrobial\n[M] = Minimal risk posed by antimicrobial\n[O] = Other important antimicrobial property\n[R] = Renal excretion of antimicrobial\n[Antimicrobial Cost Information](antimicrobial-cost-information)\n($) = <10 dollars per day\n($$) = 10-50 dollars per day\n($$$) = 51-100 dollars per day\n($$$$) = 101-400 dollars per day\n($$$$$) = >400 dollars per day",
       "Inpt": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT",
       "Outpt": "ORZID3 GMENU ABX GENERAL INFORMATION OUTPATIENT",
       "ERUC": "ORZID GMENU ER/UC ABX GENERAL INFORMATION ED"
@@ -8544,7 +8544,7 @@
       "Name": "ORZID2 GMENU ABX ESBL KPC ETC",
       "Term1": "Resistant gram-negative bacteria, information",
       "Term2": "Gram-negative bacteria, resistance information",
-      "Text": "# Gram-Negative Bacilli Drug Resistance\n\nIn some Gram-negative bacilli, potent bacterial enzymes have emerged that\n\ninactive many newer broad-spectrum beta lactam drugs. These include extended-\n\nspectrum beta-lactamases (ESBLs), serine carbapenemases, metallo-beta-\n\nlactamases, AmpC beta-lactamases and oxacillinases. These enzymes are most\n\ncommon in strains of Acinetobacter, Citrobacter, Enterobacter, Escherichia coli,\n\nKlebsiella, Proteus, Pseudomonas aeruginosa, Salmonella, and Serratia\n\nmarcescens. The enzymes can be latent under many circumstances. However, in\n\npatients receiving beta lactam antibiotics, the enzymes can be expressed and\n\ncontribute to treatment failure. Because of this, and since the enzymes continue\n\nto evolve, they are difficult to detect in clinical microbiology laboratories.\n\nBacteria carrying these enzymes are often also resistant to many other commonly\n\nused antimicrobials, including trimethoprim-sulfamethoxazole, quinolones, and\n\nothers, through different mechanisms. Enterobacteriaceae, Pseudomonas and\n\nAcinetobacter are increasingly resistant to all antimicrobials.\n\nClinicians must be aware that these enzymes may not be detected in all strains\n\nthat carry them. If a Gram-negative infection is not responding to therapy with\n\na beta lactam drug, consider adding or switching to a drug that is not a beta\n\nlactam and appears active in the susceptibility report.\n\nIf a patient is suspected of having a Gram-negative infection and is likely to\n\nbe colonized with bacteria carrying these enzymes, empirical therapy with\n\nalternative drugs that are not inactivated by them should be considered.\n\n# Risk factors for colonization or infection with resistant gram-negative bacilli\n\n1. Travel to Asia\n\n2. Central venous catheters and other indwelling tube and drains\n\n3. Recent surgical procedures\n\n4. Recent antibiotic therapy\n\n5. Long-term care facility residence\n\n6. Multiple, severe chronic illnesses\n\n7. Ventilator assistance\n\n8. Hemodialysis\n\n9. Long hospital or ICU stay.\n\n# AmpC beta-lactamases alternative antimicrobials\n\nInactivate many cephalosporins, most penicillins, and beta-lactam inhibitor\n\ncombinations. Alternatives include aminoglycosides, carbapenems, cefepime and\n\ncolistin.\n\n# ESBLs alternative antimicrobials\n\nInactivate most cephalosporins, monobactams, and penicillins. Alternatives\n\ninclude aminoglycosides, carbapenems and colistin.\n\n# Serine carbapenemases, metallo-beta-lactamases and oxacillinases alternative\n\n# antimicrobials\n\nConfer resistance to all beta-lactams. Most strains are also resistant to most\n\nother antibiotic classes. Alternatives include aminoglycosides and colistin.\n\nInfectious Diseases consultation is recommended.\n\n# Additional alternative antimicrobials\n\nTrimethoprim-sulfamethoxazole and quinolones are non-beta-lactam alternative\n\nantimicrobials, especially useful for IV to PO conversion. Gram negative bacilli\n\nco-resistance to these antimicrobials is common however. Tigecycline (restricted\n\nto ID) and ceftazidime-avibactam (non-formulary) are also potential options for\n\nsusceptible isolates. Infectious Diseases consultation is required for their\n\nuse.\n\nReferences\n\nMandell chapter: Molecular Mechanisms of Antibiotic Resistance in Bacteria\n\nUp-to-Date article: Extended-spectrum beta-lactamases\n\nUp-to-Date article: Overview of carbapenemase-producing gram-negative bacilli\n\nRodr�guez-Bano et al. Clinical microbiology reviews, 2018, 31(2): e00079-17\n\nSanford guide keyword: Gram Negative Bacilli, Drug Resistance, Overview",
+      "Text": "# Gram-Negative Bacilli Drug Resistance\n\nIn some Gram-negative bacilli, potent bacterial enzymes have emerged that\n\ninactive many newer broad-spectrum beta lactam drugs. These include extended-\n\nspectrum beta-lactamases (ESBLs), serine carbapenemases, metallo-beta-\n\nlactamases, AmpC beta-lactamases and oxacillinases. These enzymes are most\n\ncommon in strains of Acinetobacter, Citrobacter, Enterobacter, Escherichia coli,\n\nKlebsiella, Proteus, Pseudomonas aeruginosa, Salmonella, and Serratia\n\nmarcescens. The enzymes can be latent under many circumstances. However, in\n\npatients receiving beta lactam antibiotics, the enzymes can be expressed and\n\ncontribute to treatment failure. Because of this, and since the enzymes continue\n\nto evolve, they are difficult to detect in clinical microbiology laboratories.\n\nBacteria carrying these enzymes are often also resistant to many other commonly\n\nused antimicrobials, including trimethoprim-sulfamethoxazole, quinolones, and\n\nothers, through different mechanisms. Enterobacteriaceae, Pseudomonas and\n\nAcinetobacter are increasingly resistant to all antimicrobials.\n\nClinicians must be aware that these enzymes may not be detected in all strains\n\nthat carry them. If a Gram-negative infection is not responding to therapy with\n\na beta lactam drug, consider adding or switching to a drug that is not a beta\n\nlactam and appears active in the susceptibility report.\n\nIf a patient is suspected of having a Gram-negative infection and is likely to\n\nbe colonized with bacteria carrying these enzymes, empirical therapy with\n\nalternative drugs that are not inactivated by them should be considered.\n\n# Risk factors for colonization or infection with resistant gram-negative bacilli\n\n1. Travel to Asia\n\n2. Central venous catheters and other indwelling tube and drains\n\n3. Recent surgical procedures\n\n4. Recent antibiotic therapy\n\n5. Long-term care facility residence\n\n6. Multiple, severe chronic illnesses\n\n7. Ventilator assistance\n\n8. Hemodialysis\n\n9. Long hospital or ICU stay.\n\n# AmpC beta-lactamases alternative antimicrobials\n\nInactivate many cephalosporins, most penicillins, and beta-lactam inhibitor\n\ncombinations. Alternatives include aminoglycosides, carbapenems, cefepime and\n\ncolistin.\n\n# ESBLs alternative antimicrobials\n\nInactivate most cephalosporins, monobactams, and penicillins. Alternatives\n\ninclude aminoglycosides, carbapenems and colistin.\n\n# Serine carbapenemases, metallo-beta-lactamases and oxacillinases alternative\n\n# antimicrobials\n\nConfer resistance to all beta-lactams. Most strains are also resistant to most\n\nother antibiotic classes. Alternatives include aminoglycosides and colistin.\n\nInfectious Diseases consultation is recommended.\n\n# Additional alternative antimicrobials\n\nTrimethoprim-sulfamethoxazole and quinolones are non-beta-lactam alternative\n\nantimicrobials, especially useful for IV to PO conversion. Gram negative bacilli\n\nco-resistance to these antimicrobials is common however. Tigecycline (restricted\n\nto ID) and ceftazidime-avibactam (non-formulary) are also potential options for\n\nsusceptible isolates. Infectious Diseases consultation is required for their\n\nuse.\n\nReferences\n\nMandell chapter: Molecular Mechanisms of Antibiotic Resistance in Bacteria\n\nUp-to-Date article: Extended-spectrum beta-lactamases\n\nUp-to-Date article: Overview of carbapenemase-producing gram-negative bacilli\n\nRodrï¿½guez-Bano et al. Clinical microbiology reviews, 2018, 31(2): e00079-17\n\nSanford guide keyword: Gram Negative Bacilli, Drug Resistance, Overview",
       "LinkTargets": [],
       "Outpt": "ORZID2 GMENU ABX ESBL KPC ETC",
       "Combined": "esbl-kpc-etc"
@@ -16100,7 +16100,7 @@
       "Name": "ORZID2 GMENU ABX NOT BENEFITED PHARYNGITIS",
       "Term1": "Non-streptococcal pharyngitis",
       "Term2": "Pharyngitis, non-streptococcal",
-      "Text": "# PHARYNGITIS\n\nAcute pharyngitis is common, accounting for 2 percent of all\n\nambulatory visits in the United States.  The major treatable pathogen, group\n\nA streptococcus (GAS), is the cause of pharyngitis in only approximately 10\n\npercent of adults who seek medical care.  The vast majority of patients\n\nreceive presumptive antibiotic therapy for pharyngitis which in most cases is\n\nunnecessary and results in adverse effects including death, increases costs,\n\nand adds to pressure on antimicrobial resistance.  Typical causes of\n\npharyngitis include viruses in about �, beta-hemolytic streptococci other\n\nthan group A in 18%, Mycoplasma pneumoniae in 10%, Chlamydophila pneumoniae\n\nin 8%, Group A streptococci in 5%, and no microbe identified in 1/3.\n\nRheumatic fever is rare in the United States, especially in adults, so\n\nthat some authorities recommend no treatment even if GAS is a potential cause\n\nof pharyngitis.Others feel it is important to detect GAS  since antibiotic\n\ntherapy can slightly shorten the acute illness, prevent acute rheumatic fever\n\nand possibly prevent suppurative sequelae.  Other potential causes of\n\npharyngitis that should be considered and diagnosed if likely include\n\nEpstein-Barr virus (EBV) mononucleosis, primary HIV infection, influenza,\n\ngonococcal pharyngitis, diphtheria, and suppurative pharyngeal infections.\n\nThe Centor criteria are used to predict whether GAS pharyngitis is present.\n\n*  Tonsillar exudates\n\n*  Tender anterior cervical adenopathy\n\n*  Fever by history\n\n*  Absence of cough\n\nIf three or four of these criteria are met, the positive predictive value is\n\n40 to 60 percent.  If fewer than three criteria are present, the likelihood\n\nGAS is causing pharyngitis is less than 20 percent.  If 3 or > Centor criteria\n\nare met, obtain a throat culture for group A streptococcus.  Treat\n\nempirically for GAS if the patient has severe symptoms or treat later for GAS\n\nif the throat culture is positive.\n\n[References:](orzid2-gmenu-abx-references)\n\nMandell chapter: Pharyngitis",
+      "Text": "# PHARYNGITIS\n\nAcute pharyngitis is common, accounting for 2 percent of all\n\nambulatory visits in the United States.  The major treatable pathogen, group\n\nA streptococcus (GAS), is the cause of pharyngitis in only approximately 10\n\npercent of adults who seek medical care.  The vast majority of patients\n\nreceive presumptive antibiotic therapy for pharyngitis which in most cases is\n\nunnecessary and results in adverse effects including death, increases costs,\n\nand adds to pressure on antimicrobial resistance.  Typical causes of\n\npharyngitis include viruses in about ï¿½, beta-hemolytic streptococci other\n\nthan group A in 18%, Mycoplasma pneumoniae in 10%, Chlamydophila pneumoniae\n\nin 8%, Group A streptococci in 5%, and no microbe identified in 1/3.\n\nRheumatic fever is rare in the United States, especially in adults, so\n\nthat some authorities recommend no treatment even if GAS is a potential cause\n\nof pharyngitis.Others feel it is important to detect GAS  since antibiotic\n\ntherapy can slightly shorten the acute illness, prevent acute rheumatic fever\n\nand possibly prevent suppurative sequelae.  Other potential causes of\n\npharyngitis that should be considered and diagnosed if likely include\n\nEpstein-Barr virus (EBV) mononucleosis, primary HIV infection, influenza,\n\ngonococcal pharyngitis, diphtheria, and suppurative pharyngeal infections.\n\nThe Centor criteria are used to predict whether GAS pharyngitis is present.\n\n*  Tonsillar exudates\n\n*  Tender anterior cervical adenopathy\n\n*  Fever by history\n\n*  Absence of cough\n\nIf three or four of these criteria are met, the positive predictive value is\n\n40 to 60 percent.  If fewer than three criteria are present, the likelihood\n\nGAS is causing pharyngitis is less than 20 percent.  If 3 or > Centor criteria\n\nare met, obtain a throat culture for group A streptococcus.  Treat\n\nempirically for GAS if the patient has severe symptoms or treat later for GAS\n\nif the throat culture is positive.\n\n[References:](orzid2-gmenu-abx-references)\n\nMandell chapter: Pharyngitis",
       "LinkTargets": [
         {
           "Key": "orzid2-gmenu-abx-references",
@@ -18836,7 +18836,7 @@
       "Name": "ORZID2 GMENU ANTIVIRAL IMMUNOSUPPRESSIVE MALIGNANCY",
       "Term1": "Viral prophylaxis in chemotherapy",
       "Term2": "Prophylactic antivirals in chemotherapy",
-      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# PREVENTION OF ANTIVIRAL INFECTIONS IN A PATIENT WITH MALIGNANCY\n\n# Severly Immunosuppressive Chemo-immunotherapy\n\n# Purine Analogues\n\nChemotherapy with purine analogues such as fludarabine, cladribine, or\n\npentostatin results in major cellular-immunodeficiency that may outlast the\n\nexposure by months and enhances the risk for viral infections.\n\nRecommend antiviral prophylaxis for patients treated with purine analogues,\n\nif at least one of the following risk factors is present:\n\na) Second-line chemotherapy\n\nb) Treatment with corticosteroids\n\nc) CD4 cell count <50/ul\n\nd) Age >65 years\n\ne) Prolonged Mild or Moderate Neutropenia: Mild<1000 Neutrophils /\n\n�L (Grade III neutropenia) OR Moderate: <500 Neutrophils/�L\n\n(Grade IV neutropenia)\n\n# Recommendations:\n\nDuration: Antiviral prophylaxis should be initiated in the first week of\n\ntherapy and continued until 2 months after completion of therapy.\n\n[Acyclovir 800 MG PO q12h \\($\\) R](psjzid-acyclovir-800-mg-po-bid-prophylaxis)\n\n# Alemtuzumab Therapy:\n\nAlemtuzumab is a potent reactivator of latent intracellular pathogens,\n\nincluding CMV. Chemotherapy with alemtuzumab results in major cellular-\n\nimmunodeficiency that may outlast the exposure by months and enhances the\n\nrisk for viral infections. The risk of viral disease increases with the\n\nintensity and duration of functional T-cell suppression experienced with\n\nrecipients of alemtuzumab.\n\n# Recommendations:\n\nDuration: Initiate antiviral prophylaxis with alemtuzumab therapy and\n\ncontinue therapy for at least 2 months after last dose or until CD4 counts\n\nare greater than or equal to 200 cells/ul, whichever is later.\n\n[Acyclovir 800 MG PO q12h \\($\\) R](psjzid-acyclovir-800-mg-po-bid-prophylaxis)\n\n# References:\n\nTaplitz RA Journal of Clinical Oncology 2018, 36:3043\n\nMandel Chapter: Prophylaxis and Empirical Therapy of Infection in\n\nCancer Patients\n\nUp-to-Date website\n\nSandherr M Annals of Oncology 2006, 17:1051",
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# PREVENTION OF ANTIVIRAL INFECTIONS IN A PATIENT WITH MALIGNANCY\n\n# Severly Immunosuppressive Chemo-immunotherapy\n\n# Purine Analogues\n\nChemotherapy with purine analogues such as fludarabine, cladribine, or\n\npentostatin results in major cellular-immunodeficiency that may outlast the\n\nexposure by months and enhances the risk for viral infections.\n\nRecommend antiviral prophylaxis for patients treated with purine analogues,\n\nif at least one of the following risk factors is present:\n\na) Second-line chemotherapy\n\nb) Treatment with corticosteroids\n\nc) CD4 cell count <50/ul\n\nd) Age >65 years\n\ne) Prolonged Mild or Moderate Neutropenia: Mild<1000 Neutrophils /\n\nï¿½L (Grade III neutropenia) OR Moderate: <500 Neutrophils/ï¿½L\n\n(Grade IV neutropenia)\n\n# Recommendations:\n\nDuration: Antiviral prophylaxis should be initiated in the first week of\n\ntherapy and continued until 2 months after completion of therapy.\n\n[Acyclovir 800 MG PO q12h \\($\\) R](psjzid-acyclovir-800-mg-po-bid-prophylaxis)\n\n# Alemtuzumab Therapy:\n\nAlemtuzumab is a potent reactivator of latent intracellular pathogens,\n\nincluding CMV. Chemotherapy with alemtuzumab results in major cellular-\n\nimmunodeficiency that may outlast the exposure by months and enhances the\n\nrisk for viral infections. The risk of viral disease increases with the\n\nintensity and duration of functional T-cell suppression experienced with\n\nrecipients of alemtuzumab.\n\n# Recommendations:\n\nDuration: Initiate antiviral prophylaxis with alemtuzumab therapy and\n\ncontinue therapy for at least 2 months after last dose or until CD4 counts\n\nare greater than or equal to 200 cells/ul, whichever is later.\n\n[Acyclovir 800 MG PO q12h \\($\\) R](psjzid-acyclovir-800-mg-po-bid-prophylaxis)\n\n# References:\n\nTaplitz RA Journal of Clinical Oncology 2018, 36:3043\n\nMandel Chapter: Prophylaxis and Empirical Therapy of Infection in\n\nCancer Patients\n\nUp-to-Date website\n\nSandherr M Annals of Oncology 2006, 17:1051",
       "LinkTargets": [
         {
           "Key": "orzid2-gmenu-abx-general-information-inpatient",
@@ -36390,7 +36390,7 @@
       "Name": "ORZID3 GMENU ANTIVIRAL IMMUNOSUPPRESIVE MALIGNANCY",
       "Term1": "",
       "Term2": "",
-      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](orzid3-gmenu-abx-general-information-outpatient)\n\n# PREVENTION OF ANTIVIRAL INFECTIONS IN A PATIENT WITH MALIGNANCY\n\n# Severly Immunosuppressive Chemo-immunotherapy\n\n# Purine Analogues\n\nChemotherapy with purine analogues such as fludarabine, cladribine, or\n\npentostatin results in major cellular-immunodeficiency that may outlast the\n\nexposure by months and enhances the risk for viral infections.\n\nRecommend antiviral prophylaxis for patients treated with purine analogues\n\nif at least one of the following risk factors is present:\n\na) Second-line chemotherapy\n\nb) Treatment with corticosteroids\n\nc) CD4 cell count <50/ul\n\nd) Age >65 years\n\ne) Prolonged Mild or Moderate Neutropenia: Mild<1000 Neutrophils /\n\n�L (Grade III neutropenia) OR Moderate: <500 Neutrophils/�L\n\n(Grade IV neutropenia)\n\n# Recommendations:\n\nDuration: Antiviral prophylaxis should be initiated in the first week of\n\ntherapy and continued until 2 months after completion of therapy.\n\n[Acyclovir 800 MG PO BID \\($0.40/day\\) R](psozid-acyclovir-800-mg-po-bid)\n\n[Non-VA order for above](pshzid-acyclovir-800-mg-po-bid)\n\n# Alemtuzumab Therapy:\n\nAlemtuzumab is a potent reactivator of latent intracellular pathogens,\n\nincluding CMV. Chemotherapy with alemtuzumab results in major cellular-\n\nimmunodeficiency that may outlast the exposure by months and enhances the\n\nrisk for viral infections. The risk of viral disease increases with the\n\nintensity and duration of functional T-cell suppression experienced with\n\nrecipients of alemtuzumab.\n\nDuration: Initiate antiviral prophylaxis with alemtuzumab therapy and\n\ncontinue therapy for at least 2 months after last dose or until CD4 counts\n\nare greater than or equal to 200 cells/ul, whichever is later.\n\n[Acyclovir 800 MG PO BID \\($0.40/day\\) R](psozid-acyclovir-800-mg-po-bid)\n\n[Non-VA order for above](pshzid-acyclovir-800-mg-po-bid)\n\n# References:\n\nMandel Chapter: Prophylaxis and Empirical Therapy of Infection in\n\nCancer Patients\n\nUp-to-Date (accessed 6-10-12)\n\nSandherr,M et al, Annals of Oncology 17: 1051-1059, 2006",
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](orzid3-gmenu-abx-general-information-outpatient)\n\n# PREVENTION OF ANTIVIRAL INFECTIONS IN A PATIENT WITH MALIGNANCY\n\n# Severly Immunosuppressive Chemo-immunotherapy\n\n# Purine Analogues\n\nChemotherapy with purine analogues such as fludarabine, cladribine, or\n\npentostatin results in major cellular-immunodeficiency that may outlast the\n\nexposure by months and enhances the risk for viral infections.\n\nRecommend antiviral prophylaxis for patients treated with purine analogues\n\nif at least one of the following risk factors is present:\n\na) Second-line chemotherapy\n\nb) Treatment with corticosteroids\n\nc) CD4 cell count <50/ul\n\nd) Age >65 years\n\ne) Prolonged Mild or Moderate Neutropenia: Mild<1000 Neutrophils /\n\nï¿½L (Grade III neutropenia) OR Moderate: <500 Neutrophils/ï¿½L\n\n(Grade IV neutropenia)\n\n# Recommendations:\n\nDuration: Antiviral prophylaxis should be initiated in the first week of\n\ntherapy and continued until 2 months after completion of therapy.\n\n[Acyclovir 800 MG PO BID \\($0.40/day\\) R](psozid-acyclovir-800-mg-po-bid)\n\n[Non-VA order for above](pshzid-acyclovir-800-mg-po-bid)\n\n# Alemtuzumab Therapy:\n\nAlemtuzumab is a potent reactivator of latent intracellular pathogens,\n\nincluding CMV. Chemotherapy with alemtuzumab results in major cellular-\n\nimmunodeficiency that may outlast the exposure by months and enhances the\n\nrisk for viral infections. The risk of viral disease increases with the\n\nintensity and duration of functional T-cell suppression experienced with\n\nrecipients of alemtuzumab.\n\nDuration: Initiate antiviral prophylaxis with alemtuzumab therapy and\n\ncontinue therapy for at least 2 months after last dose or until CD4 counts\n\nare greater than or equal to 200 cells/ul, whichever is later.\n\n[Acyclovir 800 MG PO BID \\($0.40/day\\) R](psozid-acyclovir-800-mg-po-bid)\n\n[Non-VA order for above](pshzid-acyclovir-800-mg-po-bid)\n\n# References:\n\nMandel Chapter: Prophylaxis and Empirical Therapy of Infection in\n\nCancer Patients\n\nUp-to-Date (accessed 6-10-12)\n\nSandherr,M et al, Annals of Oncology 17: 1051-1059, 2006",
       "LinkTargets": [
         {
           "Key": "orzid3-gmenu-abx-general-information-outpatient",
@@ -49259,7 +49259,7 @@
       "Name": "recommended-immunizations",
       "Term1": "1. RECOMMENDED IMMUNIZATIONS (Navigation)",
       "Term2": "",
-      "Text": "## RECOMMENDED IMMUNIZATION SCHEDULES AND INPATIENT VACCINE ORDERS\n## Patient Vaccine History:\nfor vaccination history including link to Joint Legacy Viewer\n## CDC Recommended Adult Immunization Schedule\nfor link to PDF of CDC Recommended Adult Immunization Schedule\n## For full list of vaccinations, refer to the Outpatient Antimicrobial CDSS\n[for inpatient reference only. Contains clinic orders.](orzid3-gmenu-abx-recommended-immunizations)\n## Inpatient\n\nVaccine Information and Orders\n(See Outpatient CDSS for complete list of vaccinations with clinic orders.)\nCOVID-19 Vaccine 2025-2026 Order\n[Flu (seasonal influenza)](orzid2-gmenu-abx-influenza-vaccination)\nFunctional or Anatomical Asplenia\nRespiratory syncytial virus (RSVPreF)\n## _______________________________________________________________________________\n## Outpatient\n\n## RECOMMENDED IMMUNIZATION SCHEDULES AND OUTPATIENT VACCINE ORDERS\n## Please note:\n*A vaccine series does not need to be restarted, regardless of the time that has\nelapsed between doses.\n*For calculating intervals between doses, 4 weeks = 28 days. Intervals of 4\nmonths or greater are determined by calendar months.\n*Any vaccine can be given with another unless otherwise noted on the specific\nvaccine page.\n*Mild illness is not a contraindication to receiving any vaccine.\n## Vaccine information and orders - listed alphabetically below by organism name\n*see below for immunization based on age or indication\n[Chickenpox (Varivax, VAR)](orzid3-gmenu-abx-var-vaccine-information-page)\nCholera (Vaxchora) - refer to Travel Clinic\n<COVID-19 (COMIRNATY)>\nPreferred: administer via standing order. Document administration in VIMM by\ncompleting \"Immunization Administration Note\" in CPRS.\nAlternative: administer via clinic order [Click Here]\n[Diphtheria (Tenivac, Td / Boostrix, Tdap)](orzid3-gmenu-abx-tdap-vaccine-information-page)\nFlu (seasonal influenza)\n[Haemophilus influenzae type b (Hiberix, Hib)](orzid3-gmenu-abx-hib-vaccine-information-page)\n[Hepatitis A (Havrix, HepA)](orzid3-gmenu-abx-hepa-vaccine-information-page)\n[Hepatitis B (Heplisav-B, HepB)](orzid3-gmenu-abx-hepb-vaccine-information-page)\n[Hepatitis A and Hepatitis B (Twinrix, HepA/B)](orzid3-gmenu-abx-hepahepb-vaccine-information-page)\n[Herpes zoster (Shingrix, RZV)](orzid3-gmenu-abx-zoster-vaccine-information-page)\n[Human papillomavirus (Gardasil 9, HPV)](orzid3-gmenu-abx-hpv-vaccination-information-page)\nInfluenza (seasonal influenza)\nJapanese encephalitis (Ixiaro) - refer to Travel Clinic\n[Measles (M-M-R II, MMR)](orzid3-gmenu-abx-mmr-vaccine-information-page)\n[Meningococcal serogroups A, C, W and Y (Menveo, MenACWY)](orzid3-gmenu-abx-menacwy-vaccine-information-page)\n[Meningococcal serogroup B (Bexsero, MenB)](orzid3-gmenu-abx-menb-vaccine-information-page)\nMonkeypox (Jynneos)\nMumps (M-M-R II, MMR)\nPertussis (Boostrix, Tdap)\n[Pneumococcus (PCV20, Prevnar20)](orzid3-gmenu-abx-pneumococcal-vaccine-information-page)\nPoliovirus (IPOL) - refer to Travel Clinic\n[Rabies (Imovax) - for post-exposure prophylaxis, refer to ED Antimicrobial CDSS](orzid3-gmenu-abx-rabies-pre-exposure-prophylaxis)\nRespiratory syncytial virus (RSVPreF)\nRubella (M-M-R II, MMR)\nShingles (Shingrix, RZV)\nTetanus (Tenivac, Td / Boostrix, Tdap)\nTick-Borne Encephalitis (Ticovac) - refer to Travel Clinic\nTyphoid (Typhim Vi) - refer to Travel Clinic\nVaricella-zoster: refer to chickenpox for prevention of primary infection or\nherpes zoster/shingles/zoster for prevention of viral reactivation\nWhooping cough (Boostrix, Tdap)\nYellow fever (YF-VAX) - refer to Travel Clinic\nZoster (Shingrix, RZV)\n## By Age\n19-26 years\n27-49 years\n50-64 years\n>/= 65 years\n## By Indication\n[Bone Marrow Transplant, hematopoietic stem cell transplant (HSCT)](orzid3-gmenu-abx-bone-marrow-post-transplant-vaccinations)\n[Chronic Liver Disease](orzid3-gmenu-abx-immunization-in-chronic-liver-disease)\nDiabetes\n[Functional or Anatomical Asplenia - Outpatient Orders](orzid3-gmenu-splenectomy-vaccines-abx-prophy)\nFunctional or Anatomical Asplenia - Inpatient Orders\n[Health Care Personnel](orzid3-gmenu-abx-immunization-in-health-care-personnel)\n[Heart/Lung Disease or Alcoholism](orzid3-gmenu-abx-immunization-heart-lung-disease-alcoholism)\nHIV\n[Immunocompromised (not including HIV and HSCT)](orzid3-gmenu-abx-immunization-of-immunocompromised-pts)\n[Kidney Failure or on Hemodialysis](orzid3-gmenu-abx-immunization-in-kidney-failure-hd)\n[Men who Have Sex with Men](orzid3-gmenu-abx-immunization-in-men-who-have-sex-with-men)\nPregnancy\n## _______________________________________________________________________________\nReferences:\nMurthy et al. Annals internal medicine, 2022, 175(3)432-443",
+      "Text": "## RECOMMENDED IMMUNIZATION SCHEDULES AND INPATIENT VACCINE ORDERS\n## Patient Vaccine History:\nfor vaccination history including link to Joint Legacy Viewer\n## CDC Recommended Adult Immunization Schedule\nfor link to PDF of CDC Recommended Adult Immunization Schedule\n## For full list of vaccinations, refer to the Outpatient Antimicrobial CDSS\n[for inpatient reference only. Contains clinic orders.](orzid3-gmenu-abx-recommended-immunizations)\n## Inpatient\n\nVaccine Information and Orders\n(See Outpatient CDSS for complete list of vaccinations with clinic orders.)\nCOVID-19 Vaccine 2025-2026 Order\n[Flu (seasonal influenza)](orzid2-gmenu-abx-influenza-vaccination)\nFunctional or Anatomical Asplenia\nRespiratory syncytial virus (RSVPreF)\n## _______________________________________________________________________________\n## Outpatient\n\n## RECOMMENDED IMMUNIZATION SCHEDULES AND OUTPATIENT VACCINE ORDERS\n## Please note:\n*A vaccine series does not need to be restarted, regardless of the time that has\nelapsed between doses.\n*For calculating intervals between doses, 4 weeks = 28 days. Intervals of 4\nmonths or greater are determined by calendar months.\n*Any vaccine can be given with another unless otherwise noted on the specific\nvaccine page.\n*Mild illness is not a contraindication to receiving any vaccine.\n## Vaccine information and orders - listed alphabetically below by organism name\n*see below for immunization based on age or indication\n[Chickenpox (Varivax, VAR)](orzid3-gmenu-abx-var-vaccine-information-page)\nCholera (Vaxchora) - refer to Travel Clinic\n<COVID-19 (COMIRNATY)>\nPreferred: administer via standing order. Document administration in VIMM by\ncompleting \"Immunization Administration Note\" in CPRS.\nAlternative: administer via clinic order [Click Here]\n[Diphtheria (Tenivac, Td / Boostrix, Tdap)](orzid3-gmenu-abx-tdap-vaccine-information-page)\n[Flu (seasonal influenza)](flu-seasonal-influenza)\n[Haemophilus influenzae type b (Hiberix, Hib)](orzid3-gmenu-abx-hib-vaccine-information-page)\n[Hepatitis A (Havrix, HepA)](orzid3-gmenu-abx-hepa-vaccine-information-page)\n[Hepatitis B (Heplisav-B, HepB)](orzid3-gmenu-abx-hepb-vaccine-information-page)\n[Hepatitis A and Hepatitis B (Twinrix, HepA/B)](orzid3-gmenu-abx-hepahepb-vaccine-information-page)\n[Herpes zoster (Shingrix, RZV)](orzid3-gmenu-abx-zoster-vaccine-information-page)\n[Human papillomavirus (Gardasil 9, HPV)](orzid3-gmenu-abx-hpv-vaccination-information-page)\nInfluenza (seasonal influenza)\nJapanese encephalitis (Ixiaro) - refer to Travel Clinic\n[Measles (M-M-R II, MMR)](orzid3-gmenu-abx-mmr-vaccine-information-page)\n[Meningococcal serogroups A, C, W and Y (Menveo, MenACWY)](orzid3-gmenu-abx-menacwy-vaccine-information-page)\n[Meningococcal serogroup B (Bexsero, MenB)](orzid3-gmenu-abx-menb-vaccine-information-page)\nMonkeypox (Jynneos)\nMumps (M-M-R II, MMR)\nPertussis (Boostrix, Tdap)\n[Pneumococcus (PCV20, Prevnar20)](orzid3-gmenu-abx-pneumococcal-vaccine-information-page)\nPoliovirus (IPOL) - refer to Travel Clinic\n[Rabies (Imovax) - for post-exposure prophylaxis, refer to ED Antimicrobial CDSS](orzid3-gmenu-abx-rabies-pre-exposure-prophylaxis)\nRespiratory syncytial virus (RSVPreF)\nRubella (M-M-R II, MMR)\nShingles (Shingrix, RZV)\nTetanus (Tenivac, Td / Boostrix, Tdap)\nTick-Borne Encephalitis (Ticovac) - refer to Travel Clinic\nTyphoid (Typhim Vi) - refer to Travel Clinic\nVaricella-zoster: refer to chickenpox for prevention of primary infection or\nherpes zoster/shingles/zoster for prevention of viral reactivation\nWhooping cough (Boostrix, Tdap)\nYellow fever (YF-VAX) - refer to Travel Clinic\nZoster (Shingrix, RZV)\n## By Age\n19-26 years\n27-49 years\n50-64 years\n>/= 65 years\n## By Indication\n[Bone Marrow Transplant, hematopoietic stem cell transplant (HSCT)](orzid3-gmenu-abx-bone-marrow-post-transplant-vaccinations)\n[Chronic Liver Disease](orzid3-gmenu-abx-immunization-in-chronic-liver-disease)\nDiabetes\n[Functional or Anatomical Asplenia - Outpatient Orders](orzid3-gmenu-splenectomy-vaccines-abx-prophy)\nFunctional or Anatomical Asplenia - Inpatient Orders\n[Health Care Personnel](orzid3-gmenu-abx-immunization-in-health-care-personnel)\n[Heart/Lung Disease or Alcoholism](orzid3-gmenu-abx-immunization-heart-lung-disease-alcoholism)\nHIV\n[Immunocompromised (not including HIV and HSCT)](orzid3-gmenu-abx-immunization-of-immunocompromised-pts)\n[Kidney Failure or on Hemodialysis](orzid3-gmenu-abx-immunization-in-kidney-failure-hd)\n[Men who Have Sex with Men](orzid3-gmenu-abx-immunization-in-men-who-have-sex-with-men)\nPregnancy\n## _______________________________________________________________________________\nReferences:\nMurthy et al. Annals internal medicine, 2022, 175(3)432-443",
       "Inpt": "ORZID2 GMENU ABX RECOMMENDED IMMUNIZATIONS",
       "Outpt": "ORZID3 GMENU ABX RECOMMENDED IMMUNIZATIONS"
     },
@@ -49405,7 +49405,7 @@
       "Name": "sexually-transmitted-infection",
       "Term1": "2. SEXUALLY TRANSMITTED INFECTION (Navigation)",
       "Term2": "",
-      "Text": "## Sexually Transmitted Infections (STI)\nA diagnosis of a sexually transmitted infection can suggest sexual activity\nthat could result in HIV exposure. Recommendation is for the provider to\ndiscuss with the patient Pre-Exposure Prophylaxis (PrEP) to reduce risk of\nHIV acquisition. If the patient is interested, the provider should place a\nconsult to HIV clinic for further discussion and evaluation for PrEP.\n[Consult] ID Pre-Exposure Prophylaxis HIV\n## Sexually Transmitted Infections (STIs)\nChlamydia\nGonorrhea\nSyphilis\nCervicitis\nPelvic Inflammatory Disease (PID)\nUrethritis\nTrichomonas Vaginitis, Urethritis and Male Sex Partners\nHuman Immunodeficiency Virus (HIV)\n\n## Outpatient\n\nGuidance\n## Sexually Transmitted Infections (STI)\n[Consult] HIV Pre-Exposure Prophylaxis (PrEP)\n## Sexually Transmitted Infections (STIs)\nEpididymitis\nGenital herpes\n[Doxycycline for Post-Exposure Prophylaxis STI (doxy PEP)](orzid3-gmenu-doxypep)\n[HIV Post-Exposure Prophylaxis Non-Occupational (Blood/Body Fluids) Outpatient](orzid3-gmenu-abx-pep-non-occup-main-page)\n[HIV Post-Exposure Prophylaxis Occupational (Blood/Body Fluids) Outpatient](orzid3-gmenu-abx-pep-occupational-exposure)",
+      "Text": "## Sexually Transmitted Infections (STI)\nA diagnosis of a sexually transmitted infection can suggest sexual activity\nthat could result in HIV exposure. Recommendation is for the provider to\ndiscuss with the patient Pre-Exposure Prophylaxis (PrEP) to reduce risk of\nHIV acquisition. If the patient is interested, the provider should place a\nconsult to HIV clinic for further discussion and evaluation for PrEP.\n[Consult] ID Pre-Exposure Prophylaxis HIV\n## Sexually Transmitted Infections (STIs)\nChlamydia\nGonorrhea\n[Syphilis](syphilis)\nCervicitis\nPelvic Inflammatory Disease (PID)\nUrethritis\nTrichomonas Vaginitis, Urethritis and Male Sex Partners\nHuman Immunodeficiency Virus (HIV)\n\n## Outpatient\n\nGuidance\n## Sexually Transmitted Infections (STI)\n[Consult] HIV Pre-Exposure Prophylaxis (PrEP)\n## Sexually Transmitted Infections (STIs)\nEpididymitis\nGenital herpes\n[Doxycycline for Post-Exposure Prophylaxis STI (doxy PEP)](orzid3-gmenu-doxypep)\n[HIV Post-Exposure Prophylaxis Non-Occupational (Blood/Body Fluids) Outpatient](orzid3-gmenu-abx-pep-non-occup-main-page)\n[HIV Post-Exposure Prophylaxis Occupational (Blood/Body Fluids) Outpatient](orzid3-gmenu-abx-pep-occupational-exposure)",
       "Inpt": "ORZID2 GMENU ABX SEXUALLY TRANSMITTED INFECTION",
       "Outpt": "ORZID3 GMENU SEXUALLY TRANSMITTED INFECTIONS (STI)"
     },
@@ -49900,7 +49900,7 @@
       "Name": "head-and-neck",
       "Term1": "1. Head and Neck (Navigation)",
       "Term2": "",
-      "Text": "## ++ HEAD AND NECK ++\n[Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)](general-information-inpatient)\n## Ear/Otologic\n[Malignant Otitis Externa](malignant-otitis-externa)\nMastoiditis\n[Otitis Externa](otitis-externa)\n[Otitis Media](otitis-media)\n## Eye/Ophthalmologic\n[Conjunctivitis](conjunctivitis)\n[Endophthalmitis](endoopthalmitis)\n[Keratitis](keratitis)\nPeriocular Infections\nProphylaxis for Ophthalmic Surgery\n[Retinitis](retinitis)\nUveitis\n## Facial\n[Bell's Palsy](bells-palsy)\n[Pre-septal Cellulitis](preseptal-cellulitis)\n[Post-septal Cellulitis (Orbital Cellulitis)](postseptal-cellulitis)\n## Section last reviewed June 2021\n<!-- COLUMN 2 -->\n## Nasal/Sinus\n[Acute Sinusitis](acute-sinusitis)\nChronic Sinusitis\nFungal Sinusitis\nNasal Packing (to prevent infection)\n[Nosocomial Sinusitis](nosocomial-sinusitis)\n## Throat/Oropharyngeal\n[Deep Oropharyngeal Infections](deep-orophar-infect)\n[Dental Infections](supp-odontogenic-infect)\n[Epiglottitis](epiglottitis)\n[Esophagitis](esophagitis)\nLaryngitis\n[Parotitis](parotitis)\n[Periodontal Disease](periodental-disease)\n[Pertussis](pertussis)\n[Pharyngitis](pharyngitis)\n[Thrush](fungi-candida-albicans)\n[Tonsillitis](pharyngitis)",
+      "Text": "## ++ HEAD AND NECK ++\n[Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)](general-information-inpatient)\n## Ear/Otologic\n[Malignant Otitis Externa](malignant-otitis-externa)\n[Mastoiditis](mastoiditis)\n[Otitis Externa](otitis-externa)\n[Otitis Media](otitis-media)\n## Eye/Ophthalmologic\n[Conjunctivitis](conjunctivitis)\n[Endophthalmitis](endoopthalmitis)\n[Keratitis](keratitis)\n[Periocular Infections](periocular-infections)\n[Prophylaxis for Ophthalmic Surgery](prophylaxis-for-ophthalmic-surgery)\n[Retinitis](retinitis)\n[Uveitis](uveitis)\n## Facial\n[Bell's Palsy](bells-palsy)\n[Pre-septal Cellulitis](preseptal-cellulitis)\n[Post-septal Cellulitis (Orbital Cellulitis)](postseptal-cellulitis)\n## Section last reviewed June 2021\n<!-- COLUMN 2 -->\n## Nasal/Sinus\n[Acute Sinusitis](acute-sinusitis)\n[Chronic Sinusitis](chronic-sinusitis)\n[Fungal Sinusitis](fungal-sinusitis)\n[Nasal Packing (to prevent infection)](nasal-packing-to-prevent-infection)\n[Nosocomial Sinusitis](nosocomial-sinusitis)\n## Throat/Oropharyngeal\n[Deep Oropharyngeal Infections](deep-orophar-infect)\n[Dental Infections](supp-odontogenic-infect)\n[Epiglottitis](epiglottitis)\n[Esophagitis](esophagitis)\n[Laryngitis](laryngitis)\n[Parotitis](parotitis)\n[Periodontal Disease](periodental-disease)\n[Pertussis](pertussis)\n[Pharyngitis](pharyngitis)\n[Thrush](fungi-candida-albicans)\n[Tonsillitis](pharyngitis)",
       "Inpt": "ORZID2 GMENU ABX HEAD AND NECK"
     },
     {
@@ -50024,7 +50024,7 @@
       "Name": "esbl-kpc-etc",
       "Term1": "Resistant gram-negative bacteria, information",
       "Term2": "Gram-negative bacteria, resistance information",
-      "Text": "# Gram-Negative Bacilli Drug Resistance\n\nIn some Gram-negative bacilli, potent bacterial enzymes have emerged that\n\ninactive many newer broad-spectrum beta lactam drugs. These include extended-\n\nspectrum beta-lactamases (ESBLs), serine carbapenemases, metallo-beta-\n\nlactamases, AmpC beta-lactamases and oxacillinases. These enzymes are most\n\ncommon in strains of Acinetobacter, Citrobacter, Enterobacter, Escherichia coli,\n\nKlebsiella, Proteus, Pseudomonas aeruginosa, Salmonella, and Serratia\n\nmarcescens. The enzymes can be latent under many circumstances. However, in\n\npatients receiving beta lactam antibiotics, the enzymes can be expressed and\n\ncontribute to treatment failure. Because of this, and since the enzymes continue\n\nto evolve, they are difficult to detect in clinical microbiology laboratories.\n\nBacteria carrying these enzymes are often also resistant to many other commonly\n\nused antimicrobials, including trimethoprim-sulfamethoxazole, quinolones, and\n\nothers, through different mechanisms. Enterobacteriaceae, Pseudomonas and\n\nAcinetobacter are increasingly resistant to all antimicrobials.\n\nClinicians must be aware that these enzymes may not be detected in all strains\n\nthat carry them. If a Gram-negative infection is not responding to therapy with\n\na beta lactam drug, consider adding or switching to a drug that is not a beta\n\nlactam and appears active in the susceptibility report.\n\nIf a patient is suspected of having a Gram-negative infection and is likely to\n\nbe colonized with bacteria carrying these enzymes, empirical therapy with\n\nalternative drugs that are not inactivated by them should be considered.\n\n# Risk factors for colonization or infection with resistant gram-negative bacilli\n\n1. Travel to Asia\n\n2. Central venous catheters and other indwelling tube and drains\n\n3. Recent surgical procedures\n\n4. Recent antibiotic therapy\n\n5. Long-term care facility residence\n\n6. Multiple, severe chronic illnesses\n\n7. Ventilator assistance\n\n8. Hemodialysis\n\n9. Long hospital or ICU stay.\n\n# AmpC beta-lactamases alternative antimicrobials\n\nInactivate many cephalosporins, most penicillins, and beta-lactam inhibitor\n\ncombinations. Alternatives include aminoglycosides, carbapenems, cefepime and\n\ncolistin.\n\n# ESBLs alternative antimicrobials\n\nInactivate most cephalosporins, monobactams, and penicillins. Alternatives\n\ninclude aminoglycosides, carbapenems and colistin.\n\n# Serine carbapenemases, metallo-beta-lactamases and oxacillinases alternative\n\n# antimicrobials\n\nConfer resistance to all beta-lactams. Most strains are also resistant to most\n\nother antibiotic classes. Alternatives include aminoglycosides and colistin.\n\nInfectious Diseases consultation is recommended.\n\n# Additional alternative antimicrobials\n\nTrimethoprim-sulfamethoxazole and quinolones are non-beta-lactam alternative\n\nantimicrobials, especially useful for IV to PO conversion. Gram negative bacilli\n\nco-resistance to these antimicrobials is common however. Tigecycline (restricted\n\nto ID) and ceftazidime-avibactam (non-formulary) are also potential options for\n\nsusceptible isolates. Infectious Diseases consultation is required for their\n\nuse.\n\nReferences\n\nMandell chapter: Molecular Mechanisms of Antibiotic Resistance in Bacteria\n\nUp-to-Date article: Extended-spectrum beta-lactamases\n\nUp-to-Date article: Overview of carbapenemase-producing gram-negative bacilli\n\nRodr�guez-Bano et al. Clinical microbiology reviews, 2018, 31(2): e00079-17\n\nSanford guide keyword: Gram Negative Bacilli, Drug Resistance, Overview",
+      "Text": "# Gram-Negative Bacilli Drug Resistance\n\nIn some Gram-negative bacilli, potent bacterial enzymes have emerged that\n\ninactive many newer broad-spectrum beta lactam drugs. These include extended-\n\nspectrum beta-lactamases (ESBLs), serine carbapenemases, metallo-beta-\n\nlactamases, AmpC beta-lactamases and oxacillinases. These enzymes are most\n\ncommon in strains of Acinetobacter, Citrobacter, Enterobacter, Escherichia coli,\n\nKlebsiella, Proteus, Pseudomonas aeruginosa, Salmonella, and Serratia\n\nmarcescens. The enzymes can be latent under many circumstances. However, in\n\npatients receiving beta lactam antibiotics, the enzymes can be expressed and\n\ncontribute to treatment failure. Because of this, and since the enzymes continue\n\nto evolve, they are difficult to detect in clinical microbiology laboratories.\n\nBacteria carrying these enzymes are often also resistant to many other commonly\n\nused antimicrobials, including trimethoprim-sulfamethoxazole, quinolones, and\n\nothers, through different mechanisms. Enterobacteriaceae, Pseudomonas and\n\nAcinetobacter are increasingly resistant to all antimicrobials.\n\nClinicians must be aware that these enzymes may not be detected in all strains\n\nthat carry them. If a Gram-negative infection is not responding to therapy with\n\na beta lactam drug, consider adding or switching to a drug that is not a beta\n\nlactam and appears active in the susceptibility report.\n\nIf a patient is suspected of having a Gram-negative infection and is likely to\n\nbe colonized with bacteria carrying these enzymes, empirical therapy with\n\nalternative drugs that are not inactivated by them should be considered.\n\n# Risk factors for colonization or infection with resistant gram-negative bacilli\n\n1. Travel to Asia\n\n2. Central venous catheters and other indwelling tube and drains\n\n3. Recent surgical procedures\n\n4. Recent antibiotic therapy\n\n5. Long-term care facility residence\n\n6. Multiple, severe chronic illnesses\n\n7. Ventilator assistance\n\n8. Hemodialysis\n\n9. Long hospital or ICU stay.\n\n# AmpC beta-lactamases alternative antimicrobials\n\nInactivate many cephalosporins, most penicillins, and beta-lactam inhibitor\n\ncombinations. Alternatives include aminoglycosides, carbapenems, cefepime and\n\ncolistin.\n\n# ESBLs alternative antimicrobials\n\nInactivate most cephalosporins, monobactams, and penicillins. Alternatives\n\ninclude aminoglycosides, carbapenems and colistin.\n\n# Serine carbapenemases, metallo-beta-lactamases and oxacillinases alternative\n\n# antimicrobials\n\nConfer resistance to all beta-lactams. Most strains are also resistant to most\n\nother antibiotic classes. Alternatives include aminoglycosides and colistin.\n\nInfectious Diseases consultation is recommended.\n\n# Additional alternative antimicrobials\n\nTrimethoprim-sulfamethoxazole and quinolones are non-beta-lactam alternative\n\nantimicrobials, especially useful for IV to PO conversion. Gram negative bacilli\n\nco-resistance to these antimicrobials is common however. Tigecycline (restricted\n\nto ID) and ceftazidime-avibactam (non-formulary) are also potential options for\n\nsusceptible isolates. Infectious Diseases consultation is required for their\n\nuse.\n\nReferences\n\nMandell chapter: Molecular Mechanisms of Antibiotic Resistance in Bacteria\n\nUp-to-Date article: Extended-spectrum beta-lactamases\n\nUp-to-Date article: Overview of carbapenemase-producing gram-negative bacilli\n\nRodrï¿½guez-Bano et al. Clinical microbiology reviews, 2018, 31(2): e00079-17\n\nSanford guide keyword: Gram Negative Bacilli, Drug Resistance, Overview",
       "Inpt": "ORZID2 GMENU ABX ESBL KPC ETC",
       "Outpt": "ORZID2 GMENU ABX ESBL KPC ETC"
     },
@@ -50130,6 +50130,499 @@
       "Term2": "",
       "Text": "## Antimicrobial Formulary (Restricted)\n\n## This is a combined stub page. Source content will be curated in a future session.\n\n[Antimicrobial Formulary pdf](https://vhaantimicrobialstewardship.github.io/assets/uploads/Antimicrobial Formulary.pdf)",
       "Inpt": "ORZ GTX ABX ANTIMICROBIAL FORMULARY"
+    },
+    {
+      "Name": "enterococci",
+      "Term1": "Enterococci",
+      "Term2": "",
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# BACTEREMIA ASSOCIATED WITH ENTEROCOCCI\n\nEnterococcus faecalis is almost always susceptible to penicillins locally,\n\nampicillin is more effective than vancomycin in susceptible isolates.\n\nEnterococcus faecium is typically resistant to some beta-lactams,\n\naminoglycosides, and vancomycin. Consult Infectious Diseases in all cases.\n\nRefer to cardiovascular section for suspected infectious endocarditis.\n\n[Approach to Endocarditis](orzid2-gmenu-abx-appro-to-endocarditis)\n\n# Duration of treatment\n\nFor uncomplicated infections where blood cultures are sterile after 24 hours of\n\ntreatment, treat for 7-14 days. A longer duration is needed if infection is\n\ncomplicated or repeat blood cultures are positive.\n\n# Treatment of susceptible E. Faecalis (Van A/B negative)\n\n[Ampicillin 2 gm IV q4h \\($$\\) R](psjizid-ampicillin-2-gm-iv-q4h)\n\n# Treatment of susceptible E. Faecium (Van A/B negative)\n\n[Vancomycin 15 mg/kg IV q12h \\($\\) R](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n\n# Treatment of resistant enterococcus (Van A/B positive)\n\n[Linezolid 600 mg IV q12h \\($$$$\\) DI](psjizid-linezolid-600mg-iv-q12h)\n\n# _______________________________________________________________________________\n\nReferences:\n\nSanford keyword: Enterococcus faecium\n\nSanford keyword: Enterococcus faecalis\n\nUp-to-Date article: Detection of bacteremia: Blood cultures and other diagnostic\n\ntests\n\nUp-to-Date article: Treatment of enterococcal infections",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-appro-to-endocarditis",
+          "Text": "Approach to Endocarditis",
+          "Item": "ORZID2 GMENU ABX APPRO TO ENDOCARDITIS"
+        },
+        {
+          "Key": "psjizid-ampicillin-2-gm-iv-q4h",
+          "Text": "Ampicillin 2 gm IV q4h ($$) [R]",
+          "Item": "PSJIZID AMPICILLIN 2 GM IV Q4H"
+        },
+        {
+          "Key": "orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening",
+          "Text": "Vancomycin 15 mg/kg IV q12h ($) [R]",
+          "Item": "ORZ SET ABX VANCO NEW START 15MG/KG Q12H + MRSA NARES SCREENING"
+        },
+        {
+          "Key": "psjizid-linezolid-600mg-iv-q12h",
+          "Text": "Linezolid 600 mg IV q12h ($$$$) [DI]",
+          "Item": "PSJIZID LINEZOLID 600MG IV Q12H"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU BACTEREMIA ENTEROCOCCI"
+    },
+    {
+      "Name": "streptococci",
+      "Term1": "Streptococci",
+      "Term2": "",
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# BACTEREMIA ASSOCIATED WITH STREPTOCOCCI\n\nBacteremia is typically caused by S. pyogenes (Group A), S. agalactiae (Group B)\n\nand S. pneumoniae. If other streptococcal species are isolated contamination is\n\nlikely. Treat only if greater than one blood culture is positive. Identification\n\nand treatment of the source of infection, in addition to antimicrobial therapy,\n\nis crucial for resolution of infection.\n\nFor patients with toxic shock syndrome refer to those recommendations.\n\n[Toxic Shock Syndrome](orzid2-gmenu-toxic-shock-syndrome)\n\n# Duration of treatment\n\nTreatment duration is not well established. Treat for 7 -14 days depending on\n\nsource control and response to treatment. Consult ID for more information.\n\n# Treatment of S. pyogenes (Group A), S. agalactiae (Group B) and S. pneumoniae\n\n[Penicillin G 4 million units IV q4h \\($$\\) R](psjizid-penicillin-g-4-million-units-iv-q4h)\n\n# Treatment of other streptococcal isolates with 2 of 2 blood cultures positive or\n\n# alternative to above\n\n[Assessment of beta-lactam reaction CLICK HERE](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Ceftriaxone 2 gm IV q24h \\($\\) M](psjizid-ceftriaxone-2gm-iv-q24h)\n\n# _______________________________________________________________________________\n\nReferences:\n\nSanford keyword: Streptococcus agalactiae, Group B Strep\n\nSanford keyword: Streptococcus pyogenes, Beta hemolytic, Group A, B, C, F, G\n\nStrep\n\nSanford keyword: Streptococci, viridans group\n\nUp-to-Date article: Detection of bacteremia: Blood cultures and other diagnostic\n\ntests\n\nUp-to-Date article: Invasive pneumococcal (Streptococcus pneumoniae) infections\n\nand bacteremia in adults\n\nUp-to-Date article: Invasive group A streptococcal infection and toxic shock\n\nsyndrome: Treatment and prevention",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+        },
+        {
+          "Key": "orzid2-gmenu-toxic-shock-syndrome",
+          "Text": "Toxic Shock Syndrome",
+          "Item": "ORZID2 GMENU TOXIC SHOCK SYNDROME"
+        },
+        {
+          "Key": "psjizid-penicillin-g-4-million-units-iv-q4h",
+          "Text": "Penicillin G 4 million units IV q4h ($$) [R]",
+          "Item": "PSJIZID PENICILLIN G 4 MILLION UNITS IV Q4H"
+        },
+        {
+          "Key": "orz-gtx-abx-beta-lactam-reaction-pdf",
+          "Text": "Assessment of beta-lactam reaction [CLICK HERE]",
+          "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
+        },
+        {
+          "Key": "psjizid-ceftriaxone-2gm-iv-q24h",
+          "Text": "Ceftriaxone 2 gm IV q24h ($) [M]",
+          "Item": "PSJIZID CEFTRIAXONE 2GM IV Q24H"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU BACTEREMIA STREPTOCOCCI"
+    },
+    {
+      "Name": "empirical-therapy",
+      "Term1": "Empirical Therapy",
+      "Term2": "",
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# NATIVE VALVE ENDOCARDITIS--EMPIRICAL THERAPY\n\n# Empirical treatment in a non-intravenous drug user\n\nWait for identification of pathogen before initiating antimicrobial therapy in\n\nmost cases. If empiric antimicrobial treatment is necessary, due to hemodynamic\n\ninstability or other severe disease, use:\n\n[Vancomycin 15 mg/kg IV q12h \\($\\) R <AND> ceftriaxone 2 gm IV q24h \\($\\)](orz-set-abx-vanco-15-mg-kg-iv-q12h-ceftriax-2gm-iv-q24h)\n\n< OR >\n\n[Vancomycin 15 mg/kg IV q12h \\($\\) R <AND> gentamicin 1 mg/kg IV q8h \\($\\)](orz-set-abx-van-15-mg-kg-iv-q12h-gent-1-mg-kg-iv-q8h)\n\n[R,O]\n\n# Empirical treatment in an intravenous drug user\n\nStaphylococcus aureus is the most likely pathogen, followed by streptococci and\n\nenterococci. However, gram negative pathogens are often associated with\n\nendocarditis in these patients. Culture results are key for appropriate therapy.\n\nConsult Cardiology and Infectious Diseases for more information.\n\n[Vancomycin 15 mg/kg IV q12h \\($\\) R <AND> gentamicin 1 mg/kg IV q8h \\($\\)](orz-set-abx-van-15-mg-kg-iv-q12h-gent-1-mg-kg-iv-q8h)\n\n[R,O]\n\n# _______________________________________________________________________________\n\nReferences:\n\nBaddour et al., Circulation 2015, 132:1-52\n\nMandell chapter: Endocarditis and intravascular infections\n\nSanford keyword: Endocarditis\n\nUp-To-Date article: Overview of management of infective endocarditis in adults\n\nWang et al., JAMA 2018, 320.1:72-83",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+        },
+        {
+          "Key": "orz-set-abx-vanco-15-mg-kg-iv-q12h-ceftriax-2gm-iv-q24h",
+          "Text": "Vancomycin 15 mg/kg IV q12h ($) [R] <AND> ceftriaxone 2 gm IV q24h ($)",
+          "Item": "ORZ SET ABX VANCO 15 MG/KG IV Q12H CEFTRIAX 2GM IV Q24H"
+        },
+        {
+          "Key": "orz-set-abx-van-15-mg-kg-iv-q12h-gent-1-mg-kg-iv-q8h",
+          "Text": "Vancomycin 15 mg/kg IV q12h ($) [R] <AND> gentamicin 1 mg/kg IV q8h ($)",
+          "Item": "ORZ SET ABX VAN 15 MG/KG IV Q12H GENT 1 MG/KG IV Q8H"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU EC NV EMP THERA"
+    },
+    {
+      "Name": "selected-pathogens",
+      "Term1": "Selected Pathogens",
+      "Term2": "",
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# NATIVE VALVE ENDOCARDITIS--SELECTED PATHOGENS\n\n[Culture-negative endocarditis](orzid2-gmenu-ec-cx-neg)\n\n[Enterococci](orzid2-gmenu-ec-enterococci)\n\n[Fungi](orzid2-gmenu-ec-fungi)\n\n[Gram negative bacilli \\(other than HACEK organisms\\)](orzid2-gmenu-ec-gnb)\n\n[HACEK bacteria](orzid2-gmenu-ec-hacek)\n\n[Staphylococci](orzid2-gmenu-ec-nv-staphylococci)\n\n[Streptococci](orzid2-gmenu-ec-nv-streptococci)",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+        },
+        {
+          "Key": "orzid2-gmenu-ec-cx-neg",
+          "Text": "Culture-negative endocarditis",
+          "Item": "ORZID2 GMENU EC CX NEG"
+        },
+        {
+          "Key": "orzid2-gmenu-ec-enterococci",
+          "Text": "Enterococci",
+          "Item": "ORZID2 GMENU EC ENTEROCOCCI"
+        },
+        {
+          "Key": "orzid2-gmenu-ec-fungi",
+          "Text": "Fungi",
+          "Item": "ORZID2 GMENU EC FUNGI"
+        },
+        {
+          "Key": "orzid2-gmenu-ec-gnb",
+          "Text": "Gram negative bacilli (other than HACEK organisms)",
+          "Item": "ORZID2 GMENU EC GNB"
+        },
+        {
+          "Key": "orzid2-gmenu-ec-hacek",
+          "Text": "HACEK bacteria",
+          "Item": "ORZID2 GMENU EC HACEK"
+        },
+        {
+          "Key": "orzid2-gmenu-ec-nv-staphylococci",
+          "Text": "Staphylococci",
+          "Item": "ORZID2 GMENU EC NV STAPHYLOCOCCI"
+        },
+        {
+          "Key": "orzid2-gmenu-ec-nv-streptococci",
+          "Text": "Streptococci",
+          "Item": "ORZID2 GMENU EC NV STREPTOCOCCI"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU EC NV SEL PATH"
+    },
+    {
+      "Name": "myocarditis",
+      "Term1": "Myocarditis",
+      "Term2": "",
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# MYOCARDITIS\n\nMyocarditis is most commonly associated with enterovirus or coxsackie virus\n\ninfection. Less common pathogens include pyogenic bacteria, rickettsia,\n\ntoxoplasmosis, and fungi.\n\nEmpirical antimicrobial treatment is not indicated. Supportive care and\n\ntreatment of CHF are essential. Consult Cardiology and/or Infectious Diseases\n\nfor more assistance.\n\nAvoid non-steroidal anti-inflammatory drugs (NSAIDS) and corticosteroids in\n\nthese patients, as the use of NSAIDs in myocarditis has been associated with\n\nworse outcomes.\n\n# _______________________________________________________________________________\n\nReferences:\n\nMandell chapter: Myocarditis and Pericarditis\n\nUp-To-Date article: Treatment and prognosis of myocarditis in adults",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU ABX MYOCARDITIS"
+    },
+    {
+      "Name": "pericarditis",
+      "Term1": "Pericarditis",
+      "Term2": "",
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# PERICARDITIS\n\nMost cases arise from non-infectious causes or are associated with viruses.\n\nAntimicrobial therapy is not indicated unless pericardial fluid is purulent. If\n\nfluid is purulent, pericardial drainage is required in most cases. Modify\n\nantimicrobial regimen and narrow coverage based on results of culture and\n\nsusceptibility tests.\n\nCardiology consultation is essential for management of therapy. Infectious\n\nDiseases consultation is recommended if an infectious origin is suspected.\n\n# Duration of therapy\n\nDuration is based on patient specific factors such as resolution of fever and\n\nclinical signs of infection. Generally, duration is 2 to 4 weeks depending on\n\nhow adequacy  of drainage of pericardial fluid and susceptibility of infectious\n\norganism.\n\n# Empirical Treatment\n\nPreferred:\n\n[Vancomycin 15 mg/kg IV q12h \\($\\) R <AND> ceftriaxone 2 gm IV q24h \\($\\) R,DI](orz-set-abx-vanco-15-mg-kg-iv-q12h-ceftriax-2gm-iv-q24h)\n\nAlternative:\n\n[Assessment of beta-lactam reaction CLICK HERE](orzid2-gmenu-abx-beta-lactam-allergy-assesment)\n\n[Vancomycin 15 mg/kg IV q12h \\($\\) R <AND> piperacillin-tazobactam 4.5 gm](orz-set-abx-pip-taz4-5gm-ne-extinf-ci-cefep-metro-vanco15mg-kg)\n\nIV q6h ($$) [R]\n\n# _______________________________________________________________________________\n\nReferences:\n\nAdler et al., European Heart Journal 2015, 36.2921-2964\n\nMandell chapter: Myocarditis and Pericarditis\n\nSanford keyword: Pericarditis\n\nUp-To-Date article: Purulent pericarditis",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+        },
+        {
+          "Key": "orz-set-abx-vanco-15-mg-kg-iv-q12h-ceftriax-2gm-iv-q24h",
+          "Text": "Vancomycin 15 mg/kg IV q12h ($) [R] <AND> ceftriaxone 2 gm IV q24h ($) [R,DI]",
+          "Item": "ORZ SET ABX VANCO 15 MG/KG IV Q12H CEFTRIAX 2GM IV Q24H"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-beta-lactam-allergy-assesment",
+          "Text": "Assessment of beta-lactam reaction [CLICK HERE]",
+          "Item": "ORZID2 GMENU ABX BETA-LACTAM ALLERGY ASSESMENT"
+        },
+        {
+          "Key": "orz-set-abx-pip-taz4-5gm-ne-extinf-ci-cefep-metro-vanco15mg-kg",
+          "Text": "Vancomycin 15 mg/kg IV q12h ($) [R] <AND> piperacillin-tazobactam 4.5 gm",
+          "Item": "ORZ SET ABX PIP/TAZ4.5GM(NE-EXTINF,CI-CEFEP/METRO) VANCO15MG/KG"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU ABX PERICARDITIS"
+    },
+    {
+      "Name": "important-drug-properties",
+      "Term1": "Important Drug Properties",
+      "Term2": "",
+      "Text": "# IMPORTANT DRUG PROPERTIES CODING\n\nNext to each drug quick order in CDSS, there are letters alerting the user to\n\nimportant properties associated with that drug:\n\n[DI]= clinically important drug interactions\n\n[H] = may require dose adjustment in patients with hepatic dysfunction\n\n[R] = may require dose adjustment in patients with renal dysfunction\n\n[O] = other important information\n\n[M] = minimal\n\nThe Important Drug Properties menu contains valuable information on common or\n\nsevere adverse effects, drug interactions and dose adjustments for hepatic and\n\nrenal failure. This list is not comprehensive. Refer to Up-to-date, found in\n\nClinical Online Resources under the Tools menu in CPRS, or click on the ling\n\nbelow for more information.\n\n[Up-to-Date online \\(Lexicomp\\)](orz-gtx-abx-up-to-date)\n\n[Sanford online](orz-gtx-abx-sanford)\n\nInfectious Diseases and Pharmacy Services can help with dose adjustments.\n\n# Important Drug Properties Menu Select by Alphabet of Generic Name\n\nLinks to Sanford and Up-to-Date (Lexicomp) for drug information\n\n[Alphabet: A-B \\(acyclovir-benzathine penicllin\\)](orz-gtx-abx-url-idp-a-b-sanford-or-lexi-links)\n\n[Alphabet: C\\(caspofungin-clindamycin\\)](orz-gtx-abx-url-idp-c-sanford-or-lexi-links)\n\n[Alphabet D-E-F\\(daptomycin-fosfomycin\\)](orz-gtx-abx-url-idp-d-e-f-sanford-lexi-links)\n\n[Alphabet: G-H-I-J-K-L  \\(ganciclovir-linezolid\\)](orz-gtx-abx-url-idp-g-h-i-j-k-l-sanford-lexi-links)\n\n[Alphabet M-N-O\\(metronidazole-oseltamivir\\)](orz-gtx-abx-url-idp-m-n-o-sanford-or-lexi-links)\n\n[Alphabet: P-Q-R-S\\(paromomycin-sulfadiazine\\)](orz-gtx-abx-url-idp-p-q-r-s-sanford-lexicomp-links)\n\n[Alphabet: T-U-V-W-X-Y-Z\\(terconazole-zanamivir\\)](orz-gtx-abx-url-idp-t-u-v-w-x-y-z-sanford-lexi-links)",
+      "LinkTargets": [
+        {
+          "Key": "orz-gtx-abx-up-to-date",
+          "Text": "Up-to-Date online (Lexicomp)",
+          "Item": "ORZ GTX ABX UP TO DATE"
+        },
+        {
+          "Key": "orz-gtx-abx-sanford",
+          "Text": "Sanford online",
+          "Item": "ORZ GTX ABX SANFORD"
+        },
+        {
+          "Key": "orz-gtx-abx-url-idp-a-b-sanford-or-lexi-links",
+          "Text": "Alphabet: A-B (acyclovir-benzathine penicllin)",
+          "Item": "ORZ GTX ABX URL IDP A-B SANFORD OR LEXI LINKS"
+        },
+        {
+          "Key": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links",
+          "Text": "Alphabet: C(caspofungin-clindamycin)",
+          "Item": "ORZ GTX ABX URL IDP C SANFORD OR LEXI LINKS"
+        },
+        {
+          "Key": "orz-gtx-abx-url-idp-d-e-f-sanford-lexi-links",
+          "Text": "Alphabet D-E-F(daptomycin-fosfomycin)",
+          "Item": "ORZ GTX ABX URL IDP D-E-F SANFORD LEXI LINKS"
+        },
+        {
+          "Key": "orz-gtx-abx-url-idp-g-h-i-j-k-l-sanford-lexi-links",
+          "Text": "Alphabet: G-H-I-J-K-L  (ganciclovir-linezolid)",
+          "Item": "ORZ GTX ABX URL IDP G-H-I-J-K-L SANFORD LEXI LINKS"
+        },
+        {
+          "Key": "orz-gtx-abx-url-idp-m-n-o-sanford-or-lexi-links",
+          "Text": "Alphabet M-N-O(metronidazole-oseltamivir)",
+          "Item": "ORZ GTX ABX URL IDP M-N-O SANFORD OR LEXI LINKS"
+        },
+        {
+          "Key": "orz-gtx-abx-url-idp-p-q-r-s-sanford-lexicomp-links",
+          "Text": "Alphabet: P-Q-R-S(paromomycin-sulfadiazine)",
+          "Item": "ORZ GTX ABX URL IDP P-Q-R-S SANFORD LEXICOMP LINKS"
+        },
+        {
+          "Key": "orz-gtx-abx-url-idp-t-u-v-w-x-y-z-sanford-lexi-links",
+          "Text": "Alphabet: T-U-V-W-X-Y-Z(terconazole-zanamivir)",
+          "Item": "ORZ GTX ABX URL IDP T-U-V-W-X-Y-Z SANFORD LEXI LINKS"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU ABX IMPORTANT DRUG PROPERTIES",
+      "Outpt": "ORZID2 GMENU ABX IMPORTANT DRUG PROPERTIES"
+    },
+    {
+      "Name": "antimicrobial-cost-information",
+      "Term1": "Antimicrobial Cost Information",
+      "Term2": "",
+      "Text": "# ANTIMICROBIAL COST INFORMATION\n\nCost is represented as dollar ($) signs in parenthesis following the antibiotic.\n\nThe number of $ signs represent the cost ranges below:\n\n$ = Less than 10 dollars per day\n\n$$ = 10-50 dollars per day\n\n$$$ = 51-100 dollars per day\n\n$$$$ = 101-400 dollars per day\n\n$$$$ = Greater than 400 dollars per day\n\nThe displayed cost of an antibiotic is an estimate based on usual daily doses\n\nfor an 80kg patient. Costs may change frequently due to VA contract negotiations\n\nas well as supply and demand effects. Antibiotic cost and formulary are reviewed\n\nby members of the Antimicrobial Subcommittee annually.",
+      "LinkTargets": [],
+      "Inpt": "ORZID2 GMENU ABX COST INFORMATION",
+      "Outpt": "ORZID2 GMENU ABX COST INFORMATION"
+    },
+    {
+      "Name": "flu-seasonal-influenza",
+      "Term1": "Flu (seasonal influenza)",
+      "Term2": "",
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# INFLUENZA VACCINATION RECOMMENDATIONS\n\n[Influenza Vaccine Outpatient and Inpatient Guidelines](orz-gtx-influenza-info)\n\nAnnual influenza vaccination is recommended for all persons aged 6 months and\n\nolder without a specific contraindication.\n\nEggs and latex allergies are NOT considered contraindications to receiving the\n\nvaccine, the only contraindication to the flu vaccination is severe allergic\n\nreaction (i.e. Anaphylactic reactions).\n\n# Recommend observing all patients for 15 minutes after receiving any influenza\n\n# vaccine. A previous severe allergic reaction to influenza vaccine, regardless of\n\n# the component suspected of being responsible for the reaction, is a\n\n# contraindication to future receipt of ANY influenza vaccine.\n\n# Outpatient (excluding ED) Influenza Vaccination Recommendations\n\n#For age 65 or older administer Fluad Adjuvanted Trivalent 0.5ml syringe.\n\n#For age 64 or under administer Afluria Trivalent 0.5ml syringe.\n\n*No patient specific order needed:\n\n-Administer via standing order protocol or Clinical Reminder\n\nFor those who do not trigger clinical reminder, order below:\n\n[Influenza once dose for outpatients that do not trigger clinical reminder](psczid-influenza-vaccine-once)\n\nNote: Use immunization template to document administration.\n\n# Inpatient and ED Vaccination Recommendations\n\nInfluenza orders are part of the admission order set. For those who require an\n\norder due to admission order being discontinued/expired or if patient was\n\nadmitted prior to influenza season, use the order below:\n\n[Click Here Influenza Vaccination Inpatient and ED 25/26](psjz-inpt-flu-vaccine-25-26)\n\n#For age 65 or older administer Fluad Adjuvanted Trivalent 0.5ml syringe.\n\n#For age 64 or under administer Afluria Trivalent 0.5ml syringe.\n\nNote: Use immunization template to document administration.\n\n# _______________________________________________________________________________\n\n# References:\n\nGrohskopf et al., MMWR Recommendations and Reports, 2024, 73(5)1-25\n\nMinneapolis VAHCS Influenza Committee",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+        },
+        {
+          "Key": "orz-gtx-influenza-info",
+          "Text": "Influenza Vaccine Outpatient and Inpatient Guidelines",
+          "Item": "ORZ GTX INFLUENZA INFO"
+        },
+        {
+          "Key": "psczid-influenza-vaccine-once",
+          "Text": "Influenza once dose for outpatients that do not trigger clinical reminder",
+          "Item": "PSCZID INFLUENZA VACCINE ONCE"
+        },
+        {
+          "Key": "psjz-inpt-flu-vaccine-25-26",
+          "Text": "[Click Here] Influenza Vaccination Inpatient and ED 25/26",
+          "Item": "PSJZ INPT FLU VACCINE 25-26"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU ABX INFLUENZA VACCINATION",
+      "Outpt": "ORZID2 GMENU ABX INFLUENZA VACCINATION"
+    },
+    {
+      "Name": "syphilis",
+      "Term1": "Syphilis",
+      "Term2": "",
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# SYPHILIS\n\n# Consult Infectious Diseases in all cases. Evaluation and management are complex.\n\nSyphilis is a sexually transmitted disease caused by the spirochete Treponema\n\npallidum that can manifest as a variety of signs or symptoms. Primary syphilis\n\ntypically consists of painless ulcers or chancre at the site of infection with\n\nregional adenopathy. Secondary syphilis often includes a skin rash (disseminated\n\nand/or including the palms and soles), fever, malaise, mucocutaneous lesions and\n\nlymphadenopathy. Tertiary syphilis includes those with cardiovascular or\n\ngummatous disease.\n\nLatent syphilis is a period of disease when a patient does not have symptoms but\n\nis found to be infected through serologic testing. Early latent syphilis refers\n\nto latent syphilis acquired within the preceding year and late latent syphilis\n\nrefers to all other cases of latent syphilis. Neurosyphilis, Ocular syphilis or\n\nOtosyphilis, can occur at any stage of syphilis with early manifestations (e.g.\n\nmeningitis, stroke, vision or hearing loss) occurring within the first months to\n\nyears of infection and late manifestations (e.g. dementia, tabes dorsalis)\n\noccurring after 10-30 years.\n\n# Diagnosis\n\nA presumptive diagnosis is made through use of a nontreponemal or serologic test\n\n(i.e. rapid plasma reagin [RPR]) and a treponemal test (i.e. fluorescent\n\ntreponemal antibody absorbed [FTA-ABS]). Direct methods through darkfield\n\nmicroscopy and direct fluorescent antibody (DFA) must be used for definitive\n\ndiagnosis since T. pallidum cannot be cultured.\n\n[Syphilis antibody test with reflex to rapid plasma reagin \\(RPR\\)](lrtz-syphilis-ab-w-reflex-to-rpr-w-titer)\n\n# Management of sex partners\n\nPersons with sexual contact with a person with primary, secondary or early\n\nlatent syphilis within the last 90 days should be presumptively treated even if\n\nserologic test is negative.\n\n# Primary, Secondary and Early Latent Syphilis\n\nPreferred treatment\n\n[Benzathine Penicillin 2.4 million units IM once \\($$$\\) M](psjzid-benzathine-penicillin-2-4mu-im-once)\n\nSecondary treatment for patients who are not pregnant\n\n[Beta-lactam Reaction Assessment](orzid2-gmenu-abx-beta-lactam-allergy-assesment)\n\n[Doxycycline 100 mg PO q12h \\($\\) DI for 14 days](psjzid-doxycycline-100mg-po-q12h)\n\n# Tertiary and Late Latent Syphilis\n\nPreferred treatment\n\n[Benzathine Penicillin 2.4 million units IM qweek \\($$$\\) M x3 doses](psjzid2-benzathine-penicillin-2-4mu-im-qweek-x3-syphilis)\n\nSecondary treatment for patients who are not pregnant\n\n[Beta-lactam Reaction Assessment](orzid2-gmenu-abx-beta-lactam-allergy-assesment)\n\n[Doxycycline 100 mg PO q12h \\($\\) DI for 28 days](psjzid-doxycycline-100mg-po-q12h)\n\n# Neurosyphilis, Ocular syphilis or Otosyphilis\n\nConsult Infectious Disease for treatment\n\n# _______________________________________________________________________________\n\nReferences:\n\nCDC STD Treatment Guidelines MMWR (2021) 70.4\n\nMandell Chapter: Syphilis (Treponema pallidum)\n\nSanford keyword: Syphilis\n\nUp-To-Date article: Syphilis: Screening and diagnostic testing\n\nUp-To-Date article: Syphilis: Treatment and monitoring",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+        },
+        {
+          "Key": "lrtz-syphilis-ab-w-reflex-to-rpr-w-titer",
+          "Text": "Syphilis antibody test with reflex to rapid plasma reagin (RPR)",
+          "Item": "LRTZ SYPHILIS AB W/REFLEX TO RPR W/TITER"
+        },
+        {
+          "Key": "psjzid-benzathine-penicillin-2-4mu-im-once",
+          "Text": "Benzathine Penicillin 2.4 million units IM once ($$$) [M]",
+          "Item": "PSJZID BENZATHINE PENICILLIN 2.4MU IM ONCE"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-beta-lactam-allergy-assesment",
+          "Text": "Beta-lactam Reaction Assessment",
+          "Item": "ORZID2 GMENU ABX BETA-LACTAM ALLERGY ASSESMENT"
+        },
+        {
+          "Key": "psjzid-doxycycline-100mg-po-q12h",
+          "Text": "Doxycycline 100 mg PO q12h ($) [DI] for 14 days",
+          "Item": "PSJZID DOXYCYCLINE 100MG PO Q12H"
+        },
+        {
+          "Key": "psjzid2-benzathine-penicillin-2-4mu-im-qweek-x3-syphilis",
+          "Text": "Benzathine Penicillin 2.4 million units IM qweek ($$$) [M] x3 doses",
+          "Item": "PSJZID2 BENZATHINE PENICILLIN 2.4MU IM QWEEK X3 SYPHILIS"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU ABX SYPHILIS",
+      "Outpt": "ORZID3 GMENU SYPHILIS"
+    },
+    {
+      "Name": "mastoiditis",
+      "Term1": "Mastoiditis",
+      "Term2": "",
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# MASTOIDITIS\n\n# Acute Mastoiditis\n\nAcute mastoiditis most commonly occurs as a suppurative complication of acute\n\notitis media. Diagnosis is supported by CT or MRI imaging and culture of\n\ndrainage. Antibiotics and drainage of middle ear are sufficient treatment in\n\nmost cases. Mastoidectomy is necessary if abscess has formed in the mastoid\n\nbone. If complication of first episode of acute otitis media, etiologies\n\ntypically include Streptococcus pneumonia (most common), Streptococcus pyogenes,\n\nor Staphylococcus aureus. If secondary to chronic otitis media, etiologies\n\ntypically include Staphylococcus aureus or Pseudomonas aeruginosa. Patients\n\nusually too ill for outpatient therapy. ENT consultation recommended. Obtain\n\ncultures of auditory canal or middle ear fluid (preferred).\n\n# Empirical Treatment\n\nPreferred:\n\n[Piperacillin-tazobactam 4.5 gm IV q6h \\($$\\) R](orz-set-abx-pip-taz4-5gm-ne-extinf-ci-cefep-metro-vanco15mg-kg)\n\n<AND> vancomycin 15 mg/kg IV q 12 hours ($) [R] for 7 days\n\nAlternative:\n\n[Assessment of Beta-lactam Reaction](orzid2-gmenu-abx-beta-lactam-allergy-assesment)\n\n[Vancomycin 15 mg/kg IV q 12 hours \\($\\) R < AND > cefepime 2 gm IV q12h \\($$\\) R](orz-set-abx-cefepime-2-gm-iv-q12h-vanco-15mg-kg-q12h)\n\nfor 7 days\n\n# Step down treatment after initial intravenous antibiotic treatment in patients\n\n# who can tolerate oral therapy. Base selection on culture results. Adjust for a\n\n# total duration of 7 days of antimicrobial therapy.\n\n[Amoxicillin/clavulanate 875-125 mg PO q12h for 7 days \\($\\) R](psjzid-amox-clav-875-125mg-po-q12h)\n\n< OR >\n\n[Cefuroxime 500mg PO q12h for 7 days \\($\\) R](psjzid-cefuroxime-500mg-q12h)\n\n< OR >\n\n[Doxycycline 100 mg PO q12h for 7 days \\($\\) DI](psjzid-doxycycline-100mg-po-q12h)\n\n# __________________________________________________________________\n\n# Chronic Mastoiditis\n\nChronic mastoiditis is usually the result of chronic otitis media with\n\nperforation of the tympanic membrane. There is often associated formation of a\n\ncholesteatoma (keratoma). Diagnosis is supported by CT or MRI imaging and\n\nculture of drainage. Long term treatment with topical antimicrobials is first\n\nline therapy. Infection is often polymicrobial, including Staphylococcus aureus,\n\nPseudomonas aeruginosa and anaerobes. Treatment should be managed in\n\ncollaboration with otolaryngology and includes topical antimicrobials, care of\n\nexternal auditory canal, and is some cases mastoidectomy. If possible, withhold\n\ntherapy until a pathogen is identified by culture of drainage to direct therapy.\n\nSpecific drug choice dictated by culture results.\n\n# Empirical Treatment\n\nPreferred:\n\n[Ciprofloxacin-Dexamethasone otic 4 drops in affected ear\\(s\\) BID for 4 weeks \\($\\)](psjzid-ciprofloxacin-dexamethasone-otic-4-drps-bid)\n\n[M]\n\nAlternative:\n\n[Neomycin-polymyxin-hydrocortisone ear drops 4 drops in affected ear\\(s\\) QID for 4](psjzid-neomycin-polymixin-hc-otic-4-drps-qid)\n\nweeks ($) [M]\n\n# _______________________________________________________________________________\n\nReferences:\n\nMandell chapter: Otitis Externa, Otitis Media, and Mastoiditis\n\nLoh et. al., The Journal of Laryngology & Otology. 2018, 132(2)96-104.\n\nSanford keyword: Mastoiditis\n\nUp-to-Date article: Chronic otitis media, cholesteatoma, and mastoiditis in\n\nadults",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+        },
+        {
+          "Key": "orz-set-abx-pip-taz4-5gm-ne-extinf-ci-cefep-metro-vanco15mg-kg",
+          "Text": "Piperacillin-tazobactam 4.5 gm IV q6h ($$) [R]",
+          "Item": "ORZ SET ABX PIP/TAZ4.5GM(NE-EXTINF,CI-CEFEP/METRO) VANCO15MG/KG"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-beta-lactam-allergy-assesment",
+          "Text": "Assessment of Beta-lactam Reaction",
+          "Item": "ORZID2 GMENU ABX BETA-LACTAM ALLERGY ASSESMENT"
+        },
+        {
+          "Key": "orz-set-abx-cefepime-2-gm-iv-q12h-vanco-15mg-kg-q12h",
+          "Text": "Vancomycin 15 mg/kg IV q 12 hours ($) [R] < AND > cefepime 2 gm IV q12h ($$) [R]",
+          "Item": "ORZ SET ABX CEFEPIME 2 GM IV Q12H VANCO 15MG/KG Q12H"
+        },
+        {
+          "Key": "psjzid-amox-clav-875-125mg-po-q12h",
+          "Text": "Amoxicillin/clavulanate 875-125 mg PO q12h for 7 days ($) [R]",
+          "Item": "PSJZID AMOX/CLAV 875-125MG PO Q12H"
+        },
+        {
+          "Key": "psjzid-cefuroxime-500mg-q12h",
+          "Text": "Cefuroxime 500mg PO q12h for 7 days ($) [R]",
+          "Item": "PSJZID CEFUROXIME 500MG Q12H"
+        },
+        {
+          "Key": "psjzid-doxycycline-100mg-po-q12h",
+          "Text": "Doxycycline 100 mg PO q12h for 7 days ($) [DI]",
+          "Item": "PSJZID DOXYCYCLINE 100MG PO Q12H"
+        },
+        {
+          "Key": "psjzid-ciprofloxacin-dexamethasone-otic-4-drps-bid",
+          "Text": "Ciprofloxacin-Dexamethasone otic 4 drops in affected ear(s) BID for 4 weeks ($)",
+          "Item": "PSJZID CIPROFLOXACIN/DEXAMETHASONE OTIC 4 DRPS BID"
+        },
+        {
+          "Key": "psjzid-neomycin-polymixin-hc-otic-4-drps-qid",
+          "Text": "Neomycin-polymyxin-hydrocortisone ear drops 4 drops in affected ear(s) QID for 4",
+          "Item": "PSJZID NEOMYCIN/POLYMIXIN/HC OTIC 4 DRPS QID"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU MASTOIDITIS",
+      "Outpt": "ORZID3 GMENU MASTOIDITIS"
+    },
+    {
+      "Name": "periocular-infections",
+      "Term1": "Periocular Infections",
+      "Term2": "",
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# PERIOCULAR INFECTIONS\n\n# Eyelid infections\n\nPatients with moderate or severe eyelid infections should be referred to\n\nophthalmology.\n\n# __________________________________________________________________\n\n# Blepharitis\n\nWash margins with baby shampoo daily and use warm compresses daily.\n\nAntimicrobials have no benefit.\n\n# __________________________________________________________________\n\n# Hordeolum (stye)\n\nFor external disease (involving the gland of Zeis), daily hot pack massage\n\nencourages drainage and relieves symptoms. For internal disease (involving\n\nMeibomian glands) ophthalmology consult is encouraged, as the infection seldom\n\ndrains without intervention.\n\n# __________________________________________________________________\n\n# Lacrimal infections\n\nRefer cases of lacrimal infection to ophthalmology, including infections of the\n\nlacrimal gland (dacryoadenitis), lacrimal sac (dacrocystitis), or tear ducts\n\n(canaliculitis).\n\n# _______________________________________________________________________________\n\nReferences:\n\nCarlisle et al., American Family Physician. 2015, 92(2)106-112\n\nMandell chapter: Periocular infections\n\nUp-To-Date article: Blepharitis\n\nUp-To-Date article: Eyelid lesions\n\nSanford keyword: Blepharitis\n\nSanford keyword: Hordeolum, Stye",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU PERIOCULAR INFECTIONS",
+      "Outpt": "ORZID3 GMENU PERIOCULAR INFECTIONS"
+    },
+    {
+      "Name": "prophylaxis-for-ophthalmic-surgery",
+      "Term1": "Prophylaxis for Ophthalmic Surgery",
+      "Term2": "",
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# PROPHYLAXIS FOR OPHTHALMIC SURGERY\n\nWhen indicated, ophthalmology will order antimicrobial prophylaxis before\n\nprocedures.",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU PROPHYLAXIS OPTH SURG",
+      "Outpt": "ORZID3 GMENU PROPHYLAXIS OPTH SURG"
+    },
+    {
+      "Name": "uveitis",
+      "Term1": "Uveitis",
+      "Term2": "",
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# UVEITIS\n\nMost cases are non-infectious. Most infectious cases are associated with a\n\npathogen causing systemic or central nervous system infection. Diagnosis of\n\nuveitis usually must be made presumptively due to the technical difficulty of\n\nsampling the uvea. Cases have been associated with fungi, bacteria, viruses, and\n\nprotozoa like Toxoplasma gondii.\n\n# For treatment of posterior uveitis (retinitis) or acute retinal necrosis (ARN)\n\n# due to Varicella-zoster virus (VZV) or herpes simplex virus (HSV) or\n\n# Cytomegalovirus (CMV)\n\n[VZV or HSV retinitis and ARN](orzid2-gmenu-retinitis)\n\n[CMV retinitis and ARN](orzid2-gmenu-abx-cmv-retinitis)\n\n# Treatment of uveitis involves treating the underlying infection and is usually\n\n# systemic. Refer to specific pathogen recommendations for treatment of underlyin\n\n# infection. Contact Ophthalmology and/or Infectious Diseases for assistance.\n\n# _______________________________________________________________________________\n\nReferences:\n\nMandell chapter: Infectious causes of uveitis",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+        },
+        {
+          "Key": "orzid2-gmenu-retinitis",
+          "Text": "VZV or HSV retinitis and ARN",
+          "Item": "ORZID2 GMENU RETINITIS"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-cmv-retinitis",
+          "Text": "CMV retinitis and ARN",
+          "Item": "ORZID2 GMENU ABX CMV RETINITIS"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU UVEITIS",
+      "Outpt": "ORZID3 GMENU UVEITIS"
+    },
+    {
+      "Name": "chronic-sinusitis",
+      "Term1": "Chronic Sinusitis",
+      "Term2": "",
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# CHRONIC SINUSITIS\n\nDiagnosis of chronic sinusitis is based on presence of at least 2 of the 4\n\ncardinal signs/symptoms lasting >/= 12 weeks. In addition, diagnosis requires\n\nobjective evidence of mucosal inflammation using nasal endoscopy and/or CT\n\nimaging. The initial therapy for chronic sinusitis is treatment with intranasal\n\ncorticosteroids and saline. For patients with severe nasal blockage by polyps,\n\ntreat with a short course of oral glucocorticoids. Reassess patient after 1 to 3\n\nmonths of intranasal therapy or after completion of glucocorticoid therapy. If\n\nsigns/symptoms have not improved, consult surgery, ENT and Infectious Diseases\n\nas treatment is complex.\n\nAcute exacerbations of chronic sinusitis can be caused by discontinuing medical\n\ntherapy, viral infections, allergens, noxious inhalants and bacterial or fungal\n\ninfections. Bacterial infections should be suspected when the patient has\n\nincreased signs/symptoms persisting for more than 10 days. Refer to Severe\n\nSinusitis recommendations for choice of antimicrobial therapy in these patients.\n\nRepeated use of the same agent should be avoided to prevent promotion of drug\n\nresistant bacteria or increased fungal colonization.\n\n[Severe Sinusitis](orzid2-gmenu-severe-sinusitis)\n\n# Cardinal Signs/Symptoms of Chronic Sinusitis\n\n1. Anterior and/or posterior nasal mucopurulent drainage\n\n2. Nasal obstruction/nasal blockage/congestion\n\n3. Facial pain, pressure, and/or fullness\n\n4. Reduction or loss of sense of smell\n\n# Objective Evidence mucosal inflammation\n\n1. Purulent (not clear) mucus or edema in the middle meatus or ethmoid regions\n\n2. Polyps in the nasal cavity or the middle meatus\n\n3. Radiographic imaging demonstrating mucosal thickening or partial or complete\n\nopacification of the paranasal sinuses\n\n# _______________________________________________________________________________\n\nReferences:\n\nChow et al, Clinical Infectious Diseases. 2012, 54(8) e72-e112\n\nMandell chapter: Sinusitis\n\nMeltzer et al, J Allergy Clin Immunol. 2004, 114(6) S155-S212.\n\nRosenfeld et al, Otolaryngology - Head and Neck Surgery. 2015, 152(4) 598-609\n\nRudmik et al., JAMA. 2015, 314(9) 926-939\n\nSanford keyword: Sinusitis, Chronic\n\nUp-To-Date article: Chronic rhinosinusitis: Clinical manifestations,\n\npathophysiology, and diagnosis\n\nUp-To-Date article: Microbiology and antibiotic management of chronic\n\nrhinosinusitis",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+        },
+        {
+          "Key": "orzid2-gmenu-severe-sinusitis",
+          "Text": "Severe Sinusitis",
+          "Item": "ORZID2 GMENU SEVERE SINUSITIS"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU CHRONIC SINUSITIS",
+      "Outpt": "ORZID3 GMENU CHRONIC SINUSITIS"
+    },
+    {
+      "Name": "fungal-sinusitis",
+      "Term1": "Fungal Sinusitis",
+      "Term2": "",
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](orzid3-gmenu-abx-general-information-outpatient)\n\n# FUNGAL SINUSITIS\n\nFungal sinusitis mainly affects immunocompromised patients, but occasionally it\n\noccurs in immunocompetent hosts. Drainage is essential. Consult ENT and\n\nInfectious Disease.\n\n# _______________________________________________________________________________\n\nReferences:\n\nSanford Keyword: Aspergillosis, Allergic Fungal Sinusitis\n\nUp-to-Date article: Fungal rhinosinusitis\n\nMandell chapter: Sinusitis",
+      "LinkTargets": [
+        {
+          "Key": "orzid3-gmenu-abx-general-information-outpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+          "Item": "ORZID3 GMENU ABX GENERAL INFORMATION OUTPATIENT"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU FUNGAL SINUSITIS",
+      "Outpt": "ORZID3 GMENU FUNGAL SINUSITIS"
+    },
+    {
+      "Name": "nasal-packing-to-prevent-infection",
+      "Term1": "Nasal Packing (to prevent infection)",
+      "Term2": "",
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# PREVENTION OF INFECTION IN PATIENTS WITH NASAL PACKING\n\nAntimicrobial prophylaxis to prevent infection and toxic shock syndrome in\n\npatients with nasal packing is not recommended. Antibiotics increase the risk of\n\nadverse events in patients with nasal packing with no proven effectiveness in\n\npreventing infection.\n\n# _______________________________________________________________________________\n\nReferences:\n\nCohn, Annals of emergency medicine 2015, 1.65, 109-111\n\nKucik et al, Am Fam Physician 2005, 71.2, 305-311\n\nUp-to-Date article: Approach to the adult with epistaxis",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU ABX NASAL PACKING",
+      "Outpt": "ORZID3 GMENU NASAL PACKING"
+    },
+    {
+      "Name": "laryngitis",
+      "Term1": "Laryngitis",
+      "Term2": "",
+      "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# LARYNGITIS\n\nCases are almost always viral (e.g. rhinovirus, influenza, adenovirus,\n\ncoronavirus). Treatment is based on symptomatic therapy alone.\n\n# _______________________________________________________________________________\n\nReferences:\n\nMandell chapter: Acute laryngitis\n\nUp-To-Date article: Hoarseness in adults",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU ABX LARYNGITIS AND CROUP",
+      "Outpt": "ORZID3 GMENU ABX LARYNGITIS AND CROUP"
     }
   ]
 }

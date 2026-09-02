@@ -57,49 +57,6 @@ collections:
               - {label: "Sizes", name: "sizes", widget: "string"}
               - {label: "Type", name: "type", widget: "string"}
               - {label: "Purpose", name: "purpose", widget: "string", required: false}
-  - label: "001-TestStation Documents"
-    name: "001tes_documents"
-    folder: "cms-data/001-TestStation/documents"
-    create: true
-    format: json
-    extension: json
-    media_folder: "assets/uploads/001-TestStation"
-    public_folder: "/assets/uploads/001-TestStation"
-    editor:
-      preview: false
-    identifier_field: Title
-    summary: "{{fields.Title}} | {{fields.File}}"
-    sortable_fields: ["Title", "File"]
-    fields:
-      - label: "Title"
-        name: Title
-        widget: string
-        hint: "Human-readable label for this file."
-      - label: "File"
-        name: File
-        widget: file
-        hint: "Upload PDF, DOCX, XLSX, or other supported files."
-      - label: "Link Label"
-        name: LinkLabel
-        widget: string
-        required: false
-        hint: "Optional text to display in markdown links. Leave blank to use Title."
-      - label: "Markdown Link Helper"
-        name: MarkdownLink
-        widget: text
-        required: false
-        default: "[Link Display Text](https://vhaantimicrobialstewardship.github.io/assets/uploads/001-TestStation/replace-with-uploaded-filename.pdf)"
-        hint: "Auto-filled after publish by GitHub Action using your uploaded file path. Save/publish, then reopen to copy exact markdown."
-      - label: "Exact File URL"
-        name: AbsoluteURL
-        widget: string
-        required: false
-        hint: "Auto-filled after publish. Save/publish, then reopen and copy this full URL."
-      - label: "Notes"
-        name: Notes
-        widget: string
-        required: false
-        hint: "Optional context for editors."
   - label: "001-TestStation"
     name: "001tes_all_pages"
     folder: "cms-data/001-TestStation/pages"
@@ -124,25 +81,16 @@ collections:
         hint: "Clinical group used for organization and file path under pages/."
         options:
           - { label: "Main Menu", value: "main-menu" }
-          - { label: "Adjust Existing Therapy", value: "adj-exist-abx-therapy" }
-          - { label: "Central Nervous System", value: "cns" }
-          - { label: "Cardiovascular", value: "cardiovascular" }
-          - { label: "Head and Neck", value: "head-and-neck" }
-          - { label: "Dermatology & Surgery", value: "dermatologic-surgery-guidelines" }
-          - { label: "Device-related Infections", value: "device-related-infections" }
-          - { label: "GI & Intraabdominal", value: "gi-intraabdominal" }
-          - { label: "HIV / AIDS", value: "hiv-aids" }
-          - { label: "Immunizations", value: "recommended-immunizations" }
-          - { label: "Immunocompromised", value: "immunocompromised-patient" }
-          - { label: "Lungs & Mediastinum", value: "lung-and-mediastinum" }
-          - { label: "Pneumonia", value: "pneumonia" }
-          - { label: "Prevention of Infection", value: "prevention-of-infection" }
-          - { label: "Urogenital", value: "genitourinary" }
-          - { label: "Skin & Soft Tissue", value: "ssti-main-menu" }
-          - { label: "Systemic Infections", value: "systemic-infections" }
           - { label: "General / Uncategorized", value: "general" }
-          - { label: "system-infectious-diseases", value: "system-infectious-diseases" }
-          - { label: "viruses", value: "viruses" }
+          - { label: "additional-assistance", value: "additional-assistance" }
+          - { label: "bacteria", value: "bacteria" }
+          - { label: "bispecific-disease-specific-management", value: "bispecific-disease-specific-management" }
+          - { label: "bispecific-lodging-admit-information", value: "bispecific-lodging-admit-information" }
+          - { label: "help-page", value: "help-page" }
+          - { label: "index-inpatient", value: "index-inpatient" }
+          - { label: "surgical-post-op-antimicrobial-prophylaxis", value: "surgical-post-op-antimicrobial-prophylaxis" }
+          - { label: "tpoxx-monkeypox-treatment", value: "tpoxx-monkeypox-treatment" }
+          - { label: "vanco-mrsa-nares-information", value: "vanco-mrsa-nares-information" }
       - label: "Display Title (search label)"
         name: Term1
         widget: string

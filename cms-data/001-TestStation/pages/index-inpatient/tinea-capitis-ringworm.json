@@ -1,0 +1,10 @@
+{
+  "PageID": "tinea-capitis-ringworm",
+  "Group": "index-inpatient",
+  "Term1": "ORZID2 GMENU TINEA CAPITIS (RINGWORM)",
+  "Term2": "",
+  "Text": "## TINEA CAPITIS (RINGWORM)\nTinea capitis is a common fungal infection of the scalp and hair. It is\ncharacterized by itchy, red, raised, scaly patches often sharply defined. Redder\nmargins than centers create impression of ring. Tinea capitis primarily affects\nprepubescent children but can affect people of any age.\nBaseline liver function test monitoring recommended. Repeat LFTs if treating for\nlonger than 6 weeks and there were baseline abnormalities, pre-existing liver\ndisease, or other risks for hepatotoxicity.\n## Treatment:\nTreat for 4 weeks.\nTerbinafine 250 mg PO QDAY [R,H,DI,O]\n## _______________________________________________________________________________\nReferences:\nUp-to-date website\nSanford keyword: Tinea Capitis, Ringworm",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU TINEA CAPITIS (RINGWORM)",
+  "Outpt": "ORZID3 GMENU TINEA CAPITIS (RINGWORM)"
+}

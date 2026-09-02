@@ -1,0 +1,9 @@
+{
+  "PageID": "vanco-mrsa-nares-information",
+  "Group": "vanco-mrsa-nares-information",
+  "Term1": "1. VANCO-MRSA-NARES-INFORMATION (Navigation)",
+  "Term2": "",
+  "Text": "# Information on adding MRSA nares screening with new IV Vancomycin starts:\n\nMRSA nares screening will be ordered on all new IV Vancomycin starts.\n\nMRSA nares may be a helpful tool in identifying patients with low risk of\n\nMRSA infection in whom empiric vancomycin may not be required.\n\nA negative MRSA nares does not definitively rule out the presence of MRSA\n\nelsewhere and is one factor to consider in the de-escalation of vancomycin\n\n(and other anti-MRSA antimicrobials).\n\n# References\n\nParente DM, Cunha CB, Mylonakis E, Timbrook TT. The Clinical Utility of\n\nMethicillin-Resistant Staphylococcus aureus (MRSA) Nasal Screening to Rule\n\nOut MRSA Pneumonia: A Diagnostic Meta-analysis With Antimicrobial  Stewardship\n\nImplications. Clin Infect Dis. (2018) 67(1):1-7\n\ndoi: 10.1093/cid/ciy024. PMID: 29340593.\n\nJones BE, Ying J, Stevens V, et al. Empirical Anti-MRSA vs Standard Antibiotic\n\nTherapy and Risk of 30-Day Mortality in Patients Hospitalized for Pneumonia.\n\nJAMA Intern Med. (2020) 180(4):552-560. doi:10.1001/jamainternmed.2019.7495",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU ABX VANCO + MRSA NARES INFORMATION"
+}

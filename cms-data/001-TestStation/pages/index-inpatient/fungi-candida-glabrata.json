@@ -1,0 +1,10 @@
+{
+  "PageID": "fungi-candida-glabrata",
+  "Group": "index-inpatient",
+  "Term1": "FUNGI CANDIDA GLABRATA",
+  "Term2": "",
+  "Text": "## CANDIDA GLABRATA\nC. glabrata is often resistant to fluconazole and occasionally has some degree\nof resistance to amphotericin. Higher doses of amphotericin are recommended due\nto delayed killing effects against Candida glabrata.\n## Duration of antimicrobial therapy\nDuration of therapy is dependent upon location and severity of infection,\nand response to therapy. Consult Infectious Diseases for more information.\n## Preferred treatment\n## Inpatient\n\nMicafungin 100-150 mg IV q24h ($$$) [H,DI]\n*150mg q24h for esophageal candidiasis, 100mg q24h for other indications\n< OR >\n## Alternative for susceptible isolates\nVoriconazole 6mg/kg IV q12h for 2 doses, then 4mg/kg IV q12h ($$$$) [R,H,DI]\n< OR >\nVoriconazole 400 mg PO q12h for 2 doses, then 200 mg PO q12h ($$) [R,H,DI]\n## Outpatient\nRefer to Inpatient Antimicrobial CDSS.\n## Alternative for susceptible isolates\nRefer to Inpatient Antimicrobial CDSS for IV options\n< OR >\nVoriconazole 400 mg PO BID for 2 doses, then 200 mg PO BID ($$) [R,H,DI]\nNon-VA order for above\n## References:\nMandell chapter: Candida Species\nPappas et al. Clinical Infectious Diseases. 2016, 62(4)e1-50\nSanford keyword: Candidiasis, Candidemia or Disseminated\nUp-to-Date article: Treatment of candidemia and invasive candidiasis in adults",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU FUNGI CANDIDA GLABRATA",
+  "Outpt": "ORZID3 GMENU FUNGI C. GLABRATA"
+}

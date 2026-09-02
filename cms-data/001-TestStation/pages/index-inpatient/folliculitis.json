@@ -1,0 +1,10 @@
+{
+  "PageID": "folliculitis",
+  "Group": "index-inpatient",
+  "Term1": "FOLLICULITIS",
+  "Term2": "",
+  "Text": "## FOLLICULITIS\nFolliculitis is an infection of the hair follicle with purulent exudate in the\nepidermis. It is usually associated with Staphylococcus aureus. In patients\nexposed to swimming pools or hot tubs, folliculitis may be associated with\nPseudomonas aeruginosa. Candida albicans can cause folliculitis in patients\nreceiving antimicrobials and/or corticosteroids. For folliculitis in patients\nwith severe acne, consult Dermatology. For extensive folliculitis or in\npatients with HIV, consult Infectious Diseases.\n## Treatment\nUsually self-limiting. For most cases, treat with daily saline compresses until\nsymptoms resolve.\n## Inpatient\n\n## For moderate to severe cases associated with Staphylococcus aureus:\nMupirocin ointment to affected area q8h for 7 days ($) [M]\n## For cases associated with Candida albicans\nClotrimazole cream q8h for 7 days ($) [M]\n## Outpatient\n\n## For moderate to severe cases associated with Staphylococcus aureus:\nMupirocin 2% ointment topical to affected area TID for 7 days ($) [M]\nNon-VA order for above\n## For cases associated with Candida albicans\nClotrimazole cream to affected area TID for 7 days ($) [M]\nNon-VA order for above\nReferences\nUp-to-Date website\nSanford keyword: Folliculitis\nStevens DL Clin Infect Dis 2014 59: 147",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU FOLLICULITIS",
+  "Outpt": "ORZID3 GMENU FOLLICULITIS"
+}

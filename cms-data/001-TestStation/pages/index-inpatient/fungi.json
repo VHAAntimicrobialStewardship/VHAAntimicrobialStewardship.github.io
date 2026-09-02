@@ -1,0 +1,10 @@
+{
+  "PageID": "fungi",
+  "Group": "index-inpatient",
+  "Term1": "19. Fungi section (Navigation)",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# ++ FUNGI ++\n\nAlways consider disease or syndrome, site of infection, penetration of drug(s)\n\ninto site, and whether organism is pathogen, colonizer, or contaminant. See\n\ndisease/syndrome section for more information.\n\n[Aspergillus and other moulds](orzid2-gmenu-fungi-aspergillus-spp)\n\n[Blastomyces dermatitidis](orzid2-gmenu-fungi-blastomyces-dermatidis)\n\n[Candida albicans](orzid2-gmenu-fungi-candida-albicans)\n\n[Candida glabrata](orzid2-gmenu-fungi-candida-glabrata)\n\n[Candida krusei](orzid2-gmenu-fungi-candida-krusei)\n\n[Coccidioidomyces](orzid2-gmenu-fungi-coccidioidomyces)\n\n[Cryptococcus neoformans](orzid2-gmenu-fungi-cryptococcus-neoformans)\n\n[Histoplasma capsulatum](orzid2-gmenu-fungi-histoplasma-capsulatum)\n\n[Pneumocystis \\(considered a fungus\\)](orzid2-gmenu-pneumocystis-jirovecii)\n\n# Last reviewed 8/18",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU ABX FUNGUS",
+  "Outpt": "ORZID3 GMENU FUNGUS"
+}

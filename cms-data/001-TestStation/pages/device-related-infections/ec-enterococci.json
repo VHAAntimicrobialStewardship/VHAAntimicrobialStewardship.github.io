@@ -1,9 +1,0 @@
-{
-  "PageID": "ec-enterococci",
-  "Group": "device-related-infections",
-  "Term1": "EC ENTEROCOCCI",
-  "Term2": "",
-  "Text": "## < OR >",
-  "LinkTargets": [],
-  "Inpt": "ORZID2 GMENU EC ENTEROCOCCI"
-}

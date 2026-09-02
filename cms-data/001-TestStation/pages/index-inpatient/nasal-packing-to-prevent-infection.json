@@ -1,0 +1,15 @@
+{
+  "PageID": "nasal-packing-to-prevent-infection",
+  "Group": "index-inpatient",
+  "Term1": "Nasal Packing (to prevent infection)",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# PREVENTION OF INFECTION IN PATIENTS WITH NASAL PACKING\n\nAntimicrobial prophylaxis to prevent infection and toxic shock syndrome in\n\npatients with nasal packing is not recommended. Antibiotics increase the risk of\n\nadverse events in patients with nasal packing with no proven effectiveness in\n\npreventing infection.\n\n# _______________________________________________________________________________\n\nReferences:\n\nCohn, Annals of emergency medicine 2015, 1.65, 109-111\n\nKucik et al, Am Fam Physician 2005, 71.2, 305-311\n\nUp-to-Date article: Approach to the adult with epistaxis",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX NASAL PACKING",
+  "Outpt": "ORZID3 GMENU NASAL PACKING"
+}

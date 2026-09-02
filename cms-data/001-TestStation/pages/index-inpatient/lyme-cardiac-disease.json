@@ -1,0 +1,11 @@
+{
+  "PageID": "lyme-cardiac-disease",
+  "Group": "index-inpatient",
+  "Term1": "LYME CARDIAC DISEASE",
+  "Term2": "",
+  "Text": "## CARDIAC DISEASE ASSOCIATED WITH LYME DISEASE\nCarditis is a rare manifestation of Lyme Disease and typically occurs within one\nto two months after onset of infection.\n## Consult Infectious Diseases and Cardiology in all cases\n## Duration of therapy\nTreat for 14 to 21 days. Cardiology consult recommended.\n## Treatment of first degree or second-degree heart block\nDoxycycline 100 mg PO q12h ($) [DI]\nFor pregnant patients or patients with doxycycline allergy\nAmoxicillin 500 mg PO q8h ($) [R]\n## Treatment of third-degree heart block or other manifestation\nCeftriaxone 2 gm IV q24h ($) [M]\n## _______________________________________________________________________________\n## Outpatient\n\nTreat for 14 to 21 days. Cardiology consult recommended.\n## Treatment of first degree or second-degree heart block\nDoxycycline 100 mg PO q12h ($) [DI] for 14 days\nNon-VA order for above\nFor pregnant patients or patients with doxycycline allergy\nAmoxicillin 500 mg PO q8h ($) [R] for 14 days\nNon-VA order for above\n## Treatment of third-degree heart block or other manifestation\nRefer to inpatient Antimicrobial CDSS ##ER Treat for 14 to 21 days. Cardiology consult recommended.\n## Treatment of first degree or second-degree heart block\nDoxycycline 100 mg PO q12h ($) [DI]\nNon-VA order for above\nFor pregnant patients or patients with doxycycline allergy\nAmoxicillin 500 mg PO q8h ($) [R]\nNon-VA order for above\n## Treatment of third-degree heart block or other manifestation\nCeftriaxone 2 gm IV once STAT ($) [M]\n## References:\nLantos et al., Clinical Infectious Diseases, 2021, 72(1):e1-e48\nMandell Chapter: Lyme Disease (Lyme Borreliosis) Due to Borrelia burgdorferi\nSanchez et al., JAMA, 2016, 315.16\nSanford keyword: Lyme Disease, Carditis\nUp-to-date article: Lyme carditis",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU LYME CARDIAC DISEASE",
+  "Outpt": "ORZID3 GMENU LYME CARDIAC DISEASE",
+  "ERUC": "ORZID GMENU ER/UC LYME CARDIAC DISEASE"
+}

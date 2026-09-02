@@ -1,0 +1,10 @@
+{
+  "PageID": "nosocomial-sinusitis",
+  "Group": "index-inpatient",
+  "Term1": "NOSOCOMIAL SINUSITIS",
+  "Term2": "",
+  "Text": "## NOSOCOMIAL SINUSITIS\nNasogastric tubes increase the risk of bacterial sinus infection associated with\nStaphylococcus aureus, streptococcus, and gram-negative bacilli, including\nPseudomonas aeruginosa. Aspirate sinuses for gram stain and culture to direct\nantimicrobial therapy. Adequate sinus drainage is vital to treatment.\n## Inpatient\n\n## Empirical antimicrobial treatment\nPreferred:\nAlternative:\n[Assessment of Beta-lactam Reaction](orzid2-gmenu-abx-beta-lactam-allergy-assesment)\nCefepime 2 gm IV q12h ($$) [R]\n## MRSA suggestive on gram-stain\n< ADD > Vancomycin 15 mg/kg IV q12h ($) [R]\n## _______________________________________________________________________________\n## Outpatient\n\nRefer to the Inpatient Antimicrobial CDSS for parenteral therapy References:\nChow et al, Clinical Infectious Diseases. 2012, 54(8) e72-e112\nMandell chapter: Sinusitis\nMeltzer et al, J Allergy Clin Immunol. 2004, 114(6) S155-S212.\nRosenfeld et al, Otolaryngology - Head and Neck Surgery. 2015, 152(4) 598-609\nSanford keyword: Sinusitis, Intubation Associated\nUp-To-Date article: Complications of the endotracheal tube following initial\nplacement: Prevention and management in adult intensive care unit patients",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU NOSOCOMIAL SINUSITIS",
+  "Outpt": "ORZID3 GMENU NOSO SINUSITIS"
+}

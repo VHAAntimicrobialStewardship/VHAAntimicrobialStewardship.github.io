@@ -1,0 +1,11 @@
+{
+  "PageID": "bite-wnds-streptococci",
+  "Group": "index-inpatient",
+  "Term1": "BITE WNDS STREPTOCOCCI",
+  "Term2": "",
+  "Text": "## BITE WOUNDS WITH STREPTOCOCCI\n## Treatment\n## Inpatient\n\nPenicillin G 4 MU IV q4h ($) [R] < OR >\n< OR >\n< OR >\nAlternative for penicillin allergic patients:\nClindamycin 300 mg PO q6h ($) [H,O]\nReferences\nSanford keyword: Bites\nMandell chapter: Cellulitis and subcutaneous tissue infections ## Outpatient\n\n## BITE WOUNDS WITH STREPTOCOCCI\nInfection but no arthritis - 10 days joint involved - 14-21 days\n## __________________________________________________\n## Treatment for infection without joint involvement\n## __________________________________________________\nTreat for 10 days.\n## Alternative for beta-lactam allergy:\n[Assess Beta-lactam allergy prior to ordering alternative](orzid2-gmenu-abx-beta-lactam-allergy-assesment)\nNon-VA order for above\n## __________________________________________________\n## Treatment for infection with joint involvement\n## __________________________________________________\nTreat for 14 to 21 days.\nNon-VA order for above\n## Alternative for beta-lactam allergy:\n[Click here] Assess Beta-lactam allergy prior to ordering alternative\nNon-VA order for above ##ER ## BITE WOUNDS WITH STREPTOCOCCI\nInfection but no arthritis - 10 days joint involved - 14-21 days\n## __________________________________________________\n## Treatment for infection without joint involvement\n## __________________________________________________\nTreat for 10 days.\n<OR>\nAlternative for beta-lactam allergy:\nClindamycin 300 mg PO QID for 10 days ($) [H,O]\nNon-VA order for above\n## __________________________________________________\n## Treatment for infection with joint involvement\n## __________________________________________________\nTreat for 14 to 21 days.\nNon-VA order for above\n<OR>\nAlternative for beta-lactam allergy:\nClindamycin 300 mg PO QID for 14 days ($) [H,O]\nNon-VA order for above\nReferences:\nSanford keyword: Bites\nMandell chapter: Cellulitis and subcutaneous tissue infections",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU BITE WNDS STREPTOCOCCI",
+  "Outpt": "ORZID3 GMENU BITE WNDS STREPTOCOCCI",
+  "ERUC": "ORZID GMENU ER/UC BITE WNDS STREPTOCOCCI"
+}

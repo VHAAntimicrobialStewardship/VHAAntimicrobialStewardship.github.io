@@ -1,0 +1,10 @@
+{
+  "PageID": "yersinia-enterocolitica",
+  "Group": "index-inpatient",
+  "Term1": "YERSINIA ENTEROCOLITICA",
+  "Term2": "",
+  "Text": "## YERSINIA ENTEROCOLITICA\nAntimicrobials are indicated only for patients with severe disease or immune\ncompromise.\n## Primary treatment of gastroenteritis\nHydration and electrolyte replacement\n## Antimicrobial treatment of severe gastroenteritis or immunocompromised patient\nPreferred:\n## Inpatient\n\nCiprofloxacin 500 mg PO q12h for 5 days [R,DI]\nAlternative:\nTrimethoprim-sulfamethoxazole 1 DS tablet q12h for 5 days [R,DI]\n## _______________________________________________________________________________\n## Outpatient\n\nCiprofloxacin 500 mg PO q12h for 5 days [R,DI]\nNon-VA order for above\nAlternative:\nTrimethoprim-sulfamethoxazole 1 DS tablet q12h for 5 days [R,DI]\nNon-VA order for above\n## _______________________________________________________________________________\nReferences:\nSanford Guide article: Gastroenteritis, Y. enterocolitica\nDOI: 10.1093/cid/cix669-Shane et al, Clinical Infectious Diseases 2017,\n65(12):45-80\nUp-to-Date article: Yersiniosis: Infection due to Yersinia enterocolitica and\nYersinia pseudotuberculosis",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU YERSINIA ENTEROCOLITICA",
+  "Outpt": "ORZID3 GMENU DIARRHEA Y. ENTEROCOLITICA"
+}

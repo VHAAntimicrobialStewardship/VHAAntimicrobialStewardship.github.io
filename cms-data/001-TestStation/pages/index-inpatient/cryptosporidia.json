@@ -1,0 +1,10 @@
+{
+  "PageID": "cryptosporidia",
+  "Group": "index-inpatient",
+  "Term1": "CRYPTOSPORIDIA",
+  "Term2": "",
+  "Text": "For deep abscesses away from the rectal area, obtain material for Gram stain and",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU ABX CRYPTOSPORIDIA",
+  "Outpt": "ORZID3 GMENU DIARRHEA C. PARVUM"
+}

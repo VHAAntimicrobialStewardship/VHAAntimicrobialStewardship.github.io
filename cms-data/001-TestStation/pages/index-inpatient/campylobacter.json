@@ -1,0 +1,10 @@
+{
+  "PageID": "campylobacter",
+  "Group": "index-inpatient",
+  "Term1": "CAMPYLOBACTER",
+  "Term2": "",
+  "Text": "## DIARRHEA WITH CAMPYLOBACTER\n## Primary treatment\nHydration and electrolyte replacement\n## Antimicrobial treatment for those with severe disease or risk of severe disease\nFluoroquinolone resistance is increasing worldwide. Macrolide resistance is\nrare.\n## Inpatient\n\nPrimary:\nAzithromycin 1000 mg PO one-time dose [M]\n< OR >\nAzithromycin 500 mg PO q24h for 3 days [M]\nAlternative:\nCiprofloxacin 500 mg PO q12h for 5 days [R,DI]\n## _______________________________________________________________________________\n## Outpatient\nAzithromycin 1000 mg PO one-time dose [M]\nNon-VA order for above\n< OR >\nAzithromycin 500 mg PO q24h for 3 days [M]\nNon-VA order for above\nAlternative:\nCiprofloxacin 500 mg PO q12h for 5 days [R,DI]\nNon-VA order for above\n## _______________________________________________________________________________\nReferences:\nSanford Guide article: Campylobacter jejuni\nDOI: 10.1093/cid/cix669-Shane et al, Clinical Infectious Diseases 2017,\n65(12):45-80\nUp-to-Date article: Clinical manifestations, diagnosis, and treatment of\nCampylobacter infection",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU ABX CAMPYLOBACTER",
+  "Outpt": "ORZID3 GMENU DIARRHEA CAMPYLOBACTER"
+}

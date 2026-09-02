@@ -1,0 +1,10 @@
+{
+  "PageID": "surg-prophylaxis-doses-and-redosing",
+  "Group": "index-inpatient",
+  "Term1": "SURG PROPHYLAXIS DOSES AND REDOSING",
+  "Term2": "",
+  "Text": "Vancomycin 15 mg/kg IV q12h ($) [R]",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU SURG PROPHYLAXIS DOSES AND REDOSING",
+  "Outpt": "ORZID2 GMENU SURG PROPHYLAXIS DOSES AND REDOSING"
+}

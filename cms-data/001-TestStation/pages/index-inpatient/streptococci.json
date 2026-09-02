@@ -1,0 +1,30 @@
+{
+  "PageID": "streptococci",
+  "Group": "index-inpatient",
+  "Term1": "Streptococci",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# BACTEREMIA ASSOCIATED WITH STREPTOCOCCI\n\nBacteremia is typically caused by S. pyogenes (Group A), S. agalactiae (Group B)\n\nand S. pneumoniae. If other streptococcal species are isolated contamination is\n\nlikely. Treat only if greater than one blood culture is positive. Identification\n\nand treatment of the source of infection, in addition to antimicrobial therapy,\n\nis crucial for resolution of infection.\n\nFor patients with toxic shock syndrome refer to those recommendations.\n\n[Toxic Shock Syndrome](orzid2-gmenu-toxic-shock-syndrome)\n\n# Duration of treatment\n\nTreatment duration is not well established. Treat for 7 -14 days depending on\n\nsource control and response to treatment. Consult ID for more information.\n\n# Treatment of S. pyogenes (Group A), S. agalactiae (Group B) and S. pneumoniae\n\n[Penicillin G 4 million units IV q4h \\($$\\) R](psjizid-penicillin-g-4-million-units-iv-q4h)\n\n# Treatment of other streptococcal isolates with 2 of 2 blood cultures positive or\n\n# alternative to above\n\n[Assessment of beta-lactam reaction CLICK HERE](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Ceftriaxone 2 gm IV q24h \\($\\) M](psjizid-ceftriaxone-2gm-iv-q24h)\n\n# _______________________________________________________________________________\n\nReferences:\n\nSanford keyword: Streptococcus agalactiae, Group B Strep\n\nSanford keyword: Streptococcus pyogenes, Beta hemolytic, Group A, B, C, F, G\n\nStrep\n\nSanford keyword: Streptococci, viridans group\n\nUp-to-Date article: Detection of bacteremia: Blood cultures and other diagnostic\n\ntests\n\nUp-to-Date article: Invasive pneumococcal (Streptococcus pneumoniae) infections\n\nand bacteremia in adults\n\nUp-to-Date article: Invasive group A streptococcal infection and toxic shock\n\nsyndrome: Treatment and prevention",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Toxic Shock Syndrome",
+      "Item": "ORZID2 GMENU TOXIC SHOCK SYNDROME"
+    },
+    {
+      "Text": "Penicillin G 4 million units IV q4h ($$) [R]",
+      "Item": "PSJIZID PENICILLIN G 4 MILLION UNITS IV Q4H"
+    },
+    {
+      "Text": "Assessment of beta-lactam reaction [CLICK HERE]",
+      "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
+    },
+    {
+      "Text": "Ceftriaxone 2 gm IV q24h ($) [M]",
+      "Item": "PSJIZID CEFTRIAXONE 2GM IV Q24H"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU BACTEREMIA STREPTOCOCCI"
+}
