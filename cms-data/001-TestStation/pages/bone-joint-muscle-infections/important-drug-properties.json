@@ -4,44 +4,7 @@
   "Term1": "3. Important Drug Properties (Navigation)",
   "Term2": "",
   "Text": "# IMPORTANT DRUG PROPERTIES CODING\n\nNext to each drug quick order in CDSS, there are letters alerting the user to\n\nimportant properties associated with that drug:\n\n[DI]= clinically important drug interactions\n\n[H] = may require dose adjustment in patients with hepatic dysfunction\n\n[R] = may require dose adjustment in patients with renal dysfunction\n\n[O] = other important information\n\n[M] = minimal\n\nThe Important Drug Properties menu contains valuable information on common or\n\nsevere adverse effects, drug interactions and dose adjustments for hepatic and\n\nrenal failure. This list is not comprehensive. Refer to Up-to-date, found in\n\nClinical Online Resources under the Tools menu in CPRS, or click on the ling\n\nbelow for more information.\n\n[Up-to-Date online \\(Lexicomp\\)](orz-gtx-abx-up-to-date)\n\n[Sanford online](orz-gtx-abx-sanford)\n\nInfectious Diseases and Pharmacy Services can help with dose adjustments.\n\n# Important Drug Properties Menu Select by Alphabet of Generic Name\n\nLinks to Sanford and Up-to-Date (Lexicomp) for drug information\n\n[Alphabet: A-B \\(acyclovir-benzathine penicllin\\)](orz-gtx-abx-url-idp-a-b-sanford-or-lexi-links)\n\n[Alphabet: C\\(caspofungin-clindamycin\\)](orz-gtx-abx-url-idp-c-sanford-or-lexi-links)\n\n[Alphabet D-E-F\\(daptomycin-fosfomycin\\)](orz-gtx-abx-url-idp-d-e-f-sanford-lexi-links)\n\n[Alphabet: G-H-I-J-K-L  \\(ganciclovir-linezolid\\)](orz-gtx-abx-url-idp-g-h-i-j-k-l-sanford-lexi-links)\n\n[Alphabet M-N-O\\(metronidazole-oseltamivir\\)](orz-gtx-abx-url-idp-m-n-o-sanford-or-lexi-links)\n\n[Alphabet: P-Q-R-S\\(paromomycin-sulfadiazine\\)](orz-gtx-abx-url-idp-p-q-r-s-sanford-lexicomp-links)\n\n[Alphabet: T-U-V-W-X-Y-Z\\(terconazole-zanamivir\\)](orz-gtx-abx-url-idp-t-u-v-w-x-y-z-sanford-lexi-links)",
-  "LinkTargets": [
-    {
-      "Text": "Up-to-Date online (Lexicomp)",
-      "Item": "ORZ GTX ABX UP TO DATE"
-    },
-    {
-      "Text": "Sanford online",
-      "Item": "ORZ GTX ABX SANFORD"
-    },
-    {
-      "Text": "Alphabet: A-B (acyclovir-benzathine penicllin)",
-      "Item": "ORZ GTX ABX URL IDP A-B SANFORD OR LEXI LINKS"
-    },
-    {
-      "Text": "Alphabet: C(caspofungin-clindamycin)",
-      "Item": "ORZ GTX ABX URL IDP C SANFORD OR LEXI LINKS"
-    },
-    {
-      "Text": "Alphabet D-E-F(daptomycin-fosfomycin)",
-      "Item": "ORZ GTX ABX URL IDP D-E-F SANFORD LEXI LINKS"
-    },
-    {
-      "Text": "Alphabet: G-H-I-J-K-L  (ganciclovir-linezolid)",
-      "Item": "ORZ GTX ABX URL IDP G-H-I-J-K-L SANFORD LEXI LINKS"
-    },
-    {
-      "Text": "Alphabet M-N-O(metronidazole-oseltamivir)",
-      "Item": "ORZ GTX ABX URL IDP M-N-O SANFORD OR LEXI LINKS"
-    },
-    {
-      "Text": "Alphabet: P-Q-R-S(paromomycin-sulfadiazine)",
-      "Item": "ORZ GTX ABX URL IDP P-Q-R-S SANFORD LEXICOMP LINKS"
-    },
-    {
-      "Text": "Alphabet: T-U-V-W-X-Y-Z(terconazole-zanamivir)",
-      "Item": "ORZ GTX ABX URL IDP T-U-V-W-X-Y-Z SANFORD LEXI LINKS"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU ABX IMPORTANT DRUG PROPERTIES",
   "Outpt": "ORZID2 GMENU ABX IMPORTANT DRUG PROPERTIES"
 }

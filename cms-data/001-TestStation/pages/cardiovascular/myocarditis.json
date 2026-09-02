@@ -4,11 +4,6 @@
   "Term1": "Myocarditis",
   "Term2": "",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# MYOCARDITIS\n\nMyocarditis is most commonly associated with enterovirus or coxsackie virus\n\ninfection. Less common pathogens include pyogenic bacteria, rickettsia,\n\ntoxoplasmosis, and fungi.\n\nEmpirical antimicrobial treatment is not indicated. Supportive care and\n\ntreatment of CHF are essential. Consult Cardiology and/or Infectious Diseases\n\nfor more assistance.\n\nAvoid non-steroidal anti-inflammatory drugs (NSAIDS) and corticosteroids in\n\nthese patients, as the use of NSAIDs in myocarditis has been associated with\n\nworse outcomes.\n\n# _______________________________________________________________________________\n\nReferences:\n\nMandell chapter: Myocarditis and Pericarditis\n\nUp-To-Date article: Treatment and prognosis of myocarditis in adults",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU ABX MYOCARDITIS"
 }

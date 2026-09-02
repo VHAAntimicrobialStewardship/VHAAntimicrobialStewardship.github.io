@@ -4,27 +4,6 @@
   "Term1": "Enterococci",
   "Term2": "",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# BACTEREMIA ASSOCIATED WITH ENTEROCOCCI\n\nEnterococcus faecalis is almost always susceptible to penicillins locally,\n\nampicillin is more effective than vancomycin in susceptible isolates.\n\nEnterococcus faecium is typically resistant to some beta-lactams,\n\naminoglycosides, and vancomycin. Consult Infectious Diseases in all cases.\n\nRefer to cardiovascular section for suspected infectious endocarditis.\n\n[Approach to Endocarditis](orzid2-gmenu-abx-appro-to-endocarditis)\n\n# Duration of treatment\n\nFor uncomplicated infections where blood cultures are sterile after 24 hours of\n\ntreatment, treat for 7-14 days. A longer duration is needed if infection is\n\ncomplicated or repeat blood cultures are positive.\n\n# Treatment of susceptible E. Faecalis (Van A/B negative)\n\n[Ampicillin 2 gm IV q4h \\($$\\) R](psjizid-ampicillin-2-gm-iv-q4h)\n\n# Treatment of susceptible E. Faecium (Van A/B negative)\n\n[Vancomycin 15 mg/kg IV q12h \\($\\) R](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n\n# Treatment of resistant enterococcus (Van A/B positive)\n\n[Linezolid 600 mg IV q12h \\($$$$\\) DI](psjizid-linezolid-600mg-iv-q12h)\n\n# _______________________________________________________________________________\n\nReferences:\n\nSanford keyword: Enterococcus faecium\n\nSanford keyword: Enterococcus faecalis\n\nUp-to-Date article: Detection of bacteremia: Blood cultures and other diagnostic\n\ntests\n\nUp-to-Date article: Treatment of enterococcal infections",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
-    },
-    {
-      "Text": "Approach to Endocarditis",
-      "Item": "ORZID2 GMENU ABX APPRO TO ENDOCARDITIS"
-    },
-    {
-      "Text": "Ampicillin 2 gm IV q4h ($$) [R]",
-      "Item": "PSJIZID AMPICILLIN 2 GM IV Q4H"
-    },
-    {
-      "Text": "Vancomycin 15 mg/kg IV q12h ($) [R]",
-      "Item": "ORZ SET ABX VANCO NEW START 15MG/KG Q12H + MRSA NARES SCREENING"
-    },
-    {
-      "Text": "Linezolid 600 mg IV q12h ($$$$) [DI]",
-      "Item": "PSJIZID LINEZOLID 600MG IV Q12H"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU BACTEREMIA ENTEROCOCCI"
 }

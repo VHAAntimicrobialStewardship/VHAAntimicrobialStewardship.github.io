@@ -4,12 +4,7 @@
   "Term1": "Prophylaxis for Ophthalmic Surgery",
   "Term2": "",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# PROPHYLAXIS FOR OPHTHALMIC SURGERY\n\nWhen indicated, ophthalmology will order antimicrobial prophylaxis before\n\nprocedures.",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU PROPHYLAXIS OPTH SURG",
   "Outpt": "ORZID3 GMENU PROPHYLAXIS OPTH SURG"
 }
