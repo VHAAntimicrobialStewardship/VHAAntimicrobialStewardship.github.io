@@ -3,24 +3,7 @@
   "Group": "gi-intraabdominal",
   "Term1": "Fever in asplenic patient",
   "Term2": "Asplenia, fever",
-  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# FEVER IN AN ASPLENIC PATIENT\n\nPatients with impaired splenic function are at risk for severe and overwhelming\n\ninfection with encapsulated bacteria. Streptococcus pneumoniae is the most\n\ncommon cause of fulminant sepsis in patients with impaired splenic function,\n\nfollowed by Haemophilus influenzae and Neisseria meningitidis. Infection with\n\nCapnocytophaga species is possible in asplenic patients with anteceding\n\nscratches and animal bites, especially dog bites. Babesiosis is also more likely\n\nin asplenic patients exposed to tick bites.\n\nIf fever develops in an asplenic patient, immediate administration of an\n\nantimicrobial agent is indicated, because fever can be the initial manifestation\n\nof a fulminant infection and prompt administration of an antimicrobial agent may\n\nprevent the development of clinical sepsis.\n\nAdministration of antibiotics should not be delayed for performing diagnostic\n\nstudies, including lumbar puncture.\n\n# Streptococcus pneumoniae meningitis suspected\n\n[Bacterial meningitis with S. pneumoniae](meningitis-with-streptococcus-pneumoniae)\n\n# Anteceding animal bite or scratch\n\nConsult Infectious Diseases\n\nFor tick bites consider treatment for Babesia species\n\n[Babesia Species](babesia-infections-general)\n\nOther animal bites or scratches\n\n[Piperacillin-tazobactam 4.5 gm IV q6h \\($$\\) R](psjizid-pip-taz-4-5gm-iv-q6h-ne-extinf-ci-cefep-metro)\n\n_______________________________________________________________________________\n\nReferences:\n\nClin Infect Dis 2014, 58:e44-100\n\nMMWR Morb Mortal Wkly Rep 2024:73:11-15\n\nRubin LG, N Engl J Med 2014, 371:349-356\n\nSanford Guide: shock-post-splenectomy\n\nUp-to-date: clinical-features-evaluation-and-management-of-fever-in-patients-\n\nwith-impaired-splenic-function",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "general-information-inpatient"
-    },
-    {
-      "Text": "Bacterial meningitis with S. pneumoniae",
-      "Item": "meningitis-with-streptococcus-pneumoniae"
-    },
-    {
-      "Text": "Babesia Species",
-      "Item": "babesia-infections-general"
-    },
-    {
-      "Text": "Piperacillin-tazobactam 4.5 gm IV q6h ($$) [R]",
-      "Item": "PSJIZID PIP/TAZ 4.5GM IV Q6H(NE-EXTINF,CI-CEFEP/METRO)"
-    }
-  ],
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# FEVER IN AN ASPLENIC PATIENT\n\nPatients with impaired splenic function are at risk for severe and overwhelming\n\ninfection with encapsulated bacteria. Streptococcus pneumoniae is the most\n\ncommon cause of fulminant sepsis in patients with impaired splenic function,\n\nfollowed by Haemophilus influenzae and Neisseria meningitidis. Infection with\n\nCapnocytophaga species is possible in asplenic patients with anteceding\n\nscratches and animal bites, especially dog bites. Babesiosis is also more likely\n\nin asplenic patients exposed to tick bites.\n\nIf fever develops in an asplenic patient, immediate administration of an\n\nantimicrobial agent is indicated, because fever can be the initial manifestation\n\nof a fulminant infection and prompt administration of an antimicrobial agent may\n\nprevent the development of clinical sepsis.\n\nAdministration of antibiotics should not be delayed for performing diagnostic\n\nstudies, including lumbar puncture.\n\n# Streptococcus pneumoniae meningitis suspected\n\n[Bacterial meningitis with S. pneumoniae](meningitis-with-streptococcus-pneumoniae)\n\n# Anteceding animal bite or scratch\n\nConsult Infectious Diseases\n\nFor tick bites consider treatment for Babesia species\n\n[Babesia Species](orzid2-gmenu-babesia-spp)\n\nOther animal bites or scratches\n\n[Piperacillin-tazobactam 4.5 gm IV q6h \\($$\\) R](psjizid-pip-taz-4-5gm-iv-q6h-ne-extinf-ci-cefep-metro)\n\n_______________________________________________________________________________\n\nReferences:\n\nClin Infect Dis 2014, 58:e44-100\n\nMMWR Morb Mortal Wkly Rep 2024:73:11-15\n\nRubin LG, N Engl J Med 2014, 371:349-356\n\nSanford Guide: shock-post-splenectomy\n\nUp-to-date: clinical-features-evaluation-and-management-of-fever-in-patients-\n\nwith-impaired-splenic-function",
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU ABX MANAGEMENT OF FEBRILE EPISODE ASPLENIA"
 }

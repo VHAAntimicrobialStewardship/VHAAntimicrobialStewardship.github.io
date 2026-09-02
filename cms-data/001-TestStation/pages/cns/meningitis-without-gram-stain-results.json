@@ -4,35 +4,6 @@
   "Term1": "Meningitis without gram stain results",
   "Term2": "",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# BACTERIAL MENINGITIS (WITHOUT GRAM STAIN RESULTS)\n\nOnce a diagnosis of acute bacterial meningitis is considered likely,\n\nantimicrobials should be initiated as soon as possible. Two blood cultures\n\nshould be drawn. Lumbar puncture (LP) should be performed in nearly all patients\n\nto obtain cerebrospinal fluid (CSF) for establishing diagnosis and determining\n\ninfectious organism/susceptibility. Adjust antimicrobial regimen to optimize\n\ntherapy and treatment duration based on pathogen once isolated.\n\nIntravenous dexamethasone therapy improves outcomes for meningitis with\n\nStreptococcus pneumoniae and is recommended for empirical treatment of all\n\ncommunity acquired cases that might be associated with S. pneumoniae.\n\nDexamethasone must be given before (1 to 20 minutes) with antimicrobials.\n\nIf meningococcal meningitis is identified, antimicrobial prophylaxis should be\n\nconsidered for close contacts. Contact Infectious Diseases/Epidemiology for\n\nadvice and assistance.\n\n# Consult Infectious Diseases\n\n# Step 1 of Treatment\n\n[Dexamethasone 10 mg IV q6h \\($\\) for 4 days](psjzid-dexamethasone-10mg-iv-q6h-4d)\n\n(Discontinue if isolated pathogen is not S. pneumoniae)\n\n# _______________________________________________________________________________\n\n# Step 2 of Treatment, Select One of the Following:\n\n# Treatment for Adults < 50 Years Without Alcoholism, Debilitating Disease, or\n\n# Any Other Condition Associated with Impaired Cellular Immunity.\n\nPreferred:\n\n[Ceftriaxone 2 gm IV q12h \\($\\) M <AND> vancomycin 15mg/kg IV q12h \\($\\) R](orz-set-abx-ceftriax-2gm-q12h-and-vanco-15mg-kg-q12h)\n\nAlternative:\n\n[Assessment of beta-lactam reaction](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Meropenem 2 gm IV q8h \\($$\\) R <AND> vancomycin 15 mg/kg q12h \\($\\) R](orz-set-abx-meropenem-2gm-iv-q8h-vanco-15mg-kg-iv-q12h)\n\n# Treatment for Adults >= 50 Years or With Alcoholism, Debilitating Disease, or\n\n# Impaired Cellular Immunity. Listeria Monocytogenes is One Important Pathogen.\n\nPreferred:\n\n[Ampicillin 2 gm IV q4h \\($$\\) R <AND> ceftriaxone 2 gm IV q12h \\($\\) M <AND>](orz-set-abx-ampicillin-ceftriax-vancomycin)\n\nvancomycin 15mg/kg q12h ($) [R]\n\nAlternative:\n\n[Assessment of beta-lactam reaction](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Moxifloxacin 400mg IV q24h \\($$\\) R,DI <AND> vancomycin 15mg/kg q12h \\($\\) R](orz-set-abx-moxiflox-iv-q24h-vanco-iv-q12h-tmp-sulfa-iv-q6h)\n\n<AND> trimethoprim 5 mg/kg - sulfamethoxazole 25 mg/kg IV q6h ($$$) [R,DI]\n\n# _______________________________________________________________________________\n\nReferences:\n\nMandell chapter: Acute meningitis\n\nSanford keyword: Meningitis, Age > 50 years\n\nSanford keyword: Meningitis, Age 1 mo to 50 years\n\nSanford keyword: Meningitis, bacterial, positive gram stain\n\nTunkel et al., Clin Infect Dis, 2004, 39.1267-84\n\nUp-to-Date Article: Clinical features and diagnosis of acute bacterial\n\nmeningitis in adults\n\nUp-to-Date Article: Treatment of bacterial meningitis caused by specific\n\npathogens in adults\n\nVan de Beek et al., Clin Microbiol Infect, 2016, 22.S37-S62",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "general-information-inpatient"
-    },
-    {
-      "Text": "Dexamethasone 10 mg IV q6h ($) for 4 days",
-      "Item": "PSJZID DEXAMETHASONE 10MG IV Q6H 4D"
-    },
-    {
-      "Text": "Ceftriaxone 2 gm IV q12h ($) [M] <AND> vancomycin 15mg/kg IV q12h ($) [R]",
-      "Item": "ORZ SET ABX CEFTRIAX 2GM Q12H AND VANCO 15MG/KG Q12H"
-    },
-    {
-      "Text": "Assessment of beta-lactam reaction",
-      "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
-    },
-    {
-      "Text": "Meropenem 2 gm IV q8h ($$) [R] <AND> vancomycin 15 mg/kg q12h ($) [R]",
-      "Item": "ORZ SET ABX MEROPENEM 2GM IV Q8H VANCO 15MG/KG IV Q12H"
-    },
-    {
-      "Text": "Ampicillin 2 gm IV q4h ($$) [R] <AND> ceftriaxone 2 gm IV q12h ($) [M] <AND>",
-      "Item": "ORZ SET ABX AMPICILLIN+CEFTRIAX+VANCOMYCIN"
-    },
-    {
-      "Text": "Moxifloxacin 400mg IV q24h ($$) [R,DI] <AND> vancomycin 15mg/kg q12h ($) [R]",
-      "Item": "ORZ SET ABX MOXIFLOX IV Q24H VANCO IV Q12H TMP/SULFA IV Q6H"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU BACT MENING W/O GRM STAIN RES"
 }

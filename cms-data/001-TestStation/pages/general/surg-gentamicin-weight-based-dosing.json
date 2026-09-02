@@ -1,0 +1,11 @@
+{
+  "PageID": "surg-gentamicin-weight-based-dosing",
+  "Group": "general",
+  "Term1": "SURG GENTAMICIN WEIGHT BASED DOSING",
+  "Term2": "",
+  "Text": "## GENTAMICIN:\n## Inpatient/Outpatient\n\n## Recommended Gentamicin Preop Dose based on patient weight:\nPreop dose administer over 30mins beginning 60 minutes before incision:\n<Click here> Display last recorded patient weight\n## Weight < 50 kg:\n## Weight >/= 50 kg and < 75 kg:\n## Weight >/= 75 kg and < 100 kg:\n## Weight >/= 100 kg and < 120 kg:\n## Weight >/= 120 kg: ##ER ## Recommended Gentamicin Doses based on patient weight:\n## Weight equal/less 50kg:\nGentamicin 240 mg IV beginning 60 minutes before incision\n## Weight greater 50 kg and less 75 kg\nGentamicin 300 mg IV beginning 60 minutes before incision\n## Weight equal 75 kg and less than 100kg:\nGentamicin 400 mg beginning 60 minutes before incision\n## Weight equal to 100 kg and less than 120kg:\nGentamin 500 mg beginning 60 minutes before incision\n## Weight equal/greater 120 kg:\nGentamicin 600 mg IV beginning 60 minutes before incision",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU SURG GENTAMICIN WEIGHT BASED DOSING",
+  "Outpt": "surg-gentamicin-weight-based-dosing",
+  "ERUC": "ORZID GMENU ER/UC SURG GENTAMICIN SPECIFIC DOSING"
+}

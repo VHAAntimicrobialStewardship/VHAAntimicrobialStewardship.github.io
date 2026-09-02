@@ -4,31 +4,6 @@
   "Term1": "Approach to brain abscess",
   "Term2": "Brain abscess, approach to",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# APPROACH TO BRAIN ABSCESS\n\nBrain abscess is a focal infection of the brain parenchyma. Symptoms often\n\ninclude headache, fever, altered mental status, seizures, and focal neural\n\ndeficits. Pathogens vary based on primary site of infection and patient's immune\n\nstatus. Bacteria cause most infections in immunocompetent patients whereas a\n\nwider array of pathogens, including fungi, cause infection in immunocompromised\n\npatients.\n\nStreptococci are the most isolated pathogen, often isolated from mixed\n\ninfections. Bacteroides are also commonly isolated in mixed cultures. Enteric\n\ngram-negative bacilli are typically isolated in patients with otitic foci,\n\nbacteremia, or post-neurosurgery. Staphylococcus aureus is commonly isolated in\n\na pure culture and in patients with endocarditis or cranial trauma. Brain\n\nabscess caused by Listeria and Nocardia may occur in patients who are\n\nimmunocompromised.\n\nMagnetic resonance imaging (MRI) should be obtained in all patients with\n\nsuspected brain abscess for diagnosis and determining number of lesions. Prior\n\nto beginning antimicrobial therapy, when possible, computed topographic (CT) -\n\nguided aspiration or surgery should be performed to obtain abscess material for\n\ndetermination of infectious pathogen.\n\nSolitary brain abscesses usually result from the spread of focal ear, sinus, or\n\ndental infection (contiguous source). Cases with multiple abscesses often result\n\nfrom hematogenous spread from infections such as endocarditis, abdominal\n\ninfection, or lung abscess.\n\n# Consult Neurosurgery, Neurology, and Infectious Disease\n\n# Empiric Treatment After Obtaining Abscess Sample, When Possible\n\n[Brain abscess from contiguous or hematogenous spread of infection](brain-abscess-from-contiguous-or-hematogenous-spread)\n\n[Post-surgical or post-traumatic brain abscess](brain-abscess-post-surgical-or-post-traumatic)\n\n# Treatment Based on Isolated Pathogen\n\nWhen infectious organism is identified, adjust antimicrobials to optimize\n\ntherapy\n\n[Nocardia spp.](brain-abscess-with-nocardia)\n\n[Pseudomonas spp.](brain-abscess-with-pseudomonas)\n\n[Toxoplasma gondii](brain-abscess-with-toxoplasma-gondii)\n\n# _______________________________________________________________________________\n\nReferences:\n\nBrouwer et al. N Engl J Med, 2014, 371(5)447-56\n\nMandell chapter: Brain Abscess\n\nSanford keyword: Brain Abscess\n\nUp-to-Date article: Treatment and Prognosis of Bacterial Brain Abscess\n\nUp-to-Date article: Pathogenesis, clinical manifestations, and diagnosis of\n\nbrain abscess",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "general-information-inpatient"
-    },
-    {
-      "Text": "Brain abscess from contiguous or hematogenous spread of infection",
-      "Item": "brain-abscess-from-contiguous-or-hematogenous-spread"
-    },
-    {
-      "Text": "Post-surgical or post-traumatic brain abscess",
-      "Item": "brain-abscess-post-surgical-or-post-traumatic"
-    },
-    {
-      "Text": "Nocardia spp.",
-      "Item": "brain-abscess-with-nocardia"
-    },
-    {
-      "Text": "Pseudomonas spp.",
-      "Item": "brain-abscess-with-pseudomonas"
-    },
-    {
-      "Text": "Toxoplasma gondii",
-      "Item": "brain-abscess-with-toxoplasma-gondii"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU APPROACH TO BRAIN ABSCESS"
 }

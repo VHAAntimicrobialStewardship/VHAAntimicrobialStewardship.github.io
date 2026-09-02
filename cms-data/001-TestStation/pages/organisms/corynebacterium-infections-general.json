@@ -4,19 +4,6 @@
   "Term1": "Corynebacterium infections, general",
   "Term2": "",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# CORYNEBACTERIUM SPP.\n\nOptimal therapy depends on both the disease or syndrome and the pathogen. See\n\ndisease/syndrome sections for more information.\n\n# For Corynebacterium diphtheriae isolates, contact infectious diseases\n\n# Corynebacterium jeikeium\n\nPreferred treatment:\n\n[Vancomycin 15 mg/kg IV q12h R](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n\nAlternative for vancomycin intolerance:\n\n[Daptomycin 4-6 mg/kg IV q24h R](psjizid-daptomycin-6-mg-kg-iv-q24h)\n\n# _______________________________________________________________________________\n\n# References:\n\nSanford Guide article: Corynebacterium diptheriae\n\nSanford Guide article: Corynebacterium jeikeium\n\nUp-To-Date article: Clinical manifestations, diagnosis, and treatment of\n\ndiptheria",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "general-information-inpatient"
-    },
-    {
-      "Text": "Vancomycin 15 mg/kg IV q12h [R]",
-      "Item": "ORZ SET ABX VANCO NEW START 15MG/KG Q12H + MRSA NARES SCREENING"
-    },
-    {
-      "Text": "Daptomycin 4-6 mg/kg IV q24h [R]",
-      "Item": "PSJIZID DAPTOMYCIN 6 MG/KG IV Q24H"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU GRAM-POS FI CORYNEBACTERIUM SPP."
 }

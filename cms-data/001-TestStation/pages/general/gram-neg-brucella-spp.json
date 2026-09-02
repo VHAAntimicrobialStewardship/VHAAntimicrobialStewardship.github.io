@@ -4,19 +4,6 @@
   "Term1": "gram-neg-brucella-spp",
   "Term2": "",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\n# BRUCELLA SPECIES\n\n# Consult Infectious Diseases in all cases\n\n# Preferred treatment\n\n[Doxycycline 100 mg PO q12h DI < AND > rifampin 600 mg PO q24h DI,O](orz-set-abx-op-doxy-100mg-po-bid-rifamp-600mg-po-qd)\n\n[Non-VA order for above](orz-set-abx-nv-doxy-100mg-po-bid-rifamp-600mg-po-qd)\n\n# _______________________________________________________________________________\n\n# References:\n\nSanford keyword: Brucella sp., Brucellosis, Febrile Illness\n\nUp-To-Date article: Clinical manifestations, diagnosis, and treatment of\n\nbrucellosis",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
-      "Item": "general-information-outpatient"
-    },
-    {
-      "Text": "Doxycycline 100 mg PO q12h [DI] < AND > rifampin 600 mg PO q24h [DI,O]",
-      "Item": "ORZ SET ABX OP DOXY 100MG PO BID RIFAMP 600MG PO QD"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "ORZ SET ABX NV DOXY 100MG PO BID RIFAMP 600MG PO QD"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID3 GMENU GRAM-NEG BRUCELLA SPP."
 }

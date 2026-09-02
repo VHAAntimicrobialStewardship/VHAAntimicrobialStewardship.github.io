@@ -1,54 +1,9 @@
 {
   "PageID": "approach-to-acute-meningitis",
   "Group": "cns",
-  "Term1": "Approach to acute meningitis",
+  "Term1": "2. Approach to acute meningitis (Navigation)",
   "Term2": "Meningitis, acute, approach to",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# APPROACH TO ACUTE MENINGITIS\n\nMeningitis is an inflammation of the meninges and tissues surrounding the brain\n\nand spinal cord. It is characterized by an abnormal amount of white blood cells\n\nin the cerebrospinal fluid (CSF) and symptoms include headache, fever, mental\n\nstatus changes, nuchal rigidity, and nausea.\n\n# Acute Meningitis\n\nThe sudden onset of meningeal symptoms within hours to days caused by several\n\ninfectious etiologies, including bacterial, viral, fungal and protozoa, as well\n\nas non-infectious etiologies. Bacterial meningitis is the most common type of\n\nmeningitis, accounting for up to 90% of cases where a CSF culture was obtained\n\nprior to starting antimicrobials. Non-bacterial meningitis is commonly referred\n\nto as aseptic meningitis (refer to \"Negative CSF culture\" below for\n\nrecommendations).\n\nPatients with acute bacterial meningitis often have severe symptoms and present\n\nsoon after onset of infection. The relationship between predisposing factors and\n\ncommon bacterial pathogen are listed below.\n\n# Predisposing Factors and Common Bacterial Pathogens\n\n*Age 2-50 years - S. pneumoniae, N. meningitidis\n\n*Age > 50 years - S. pneumoniae, N. meningitidis, L. monocytogenes, aerobic\n\ngram-negative bacilli\n\n*Immunocompromised state - S. pneumoniae, N. meningitidis, L. monocytogenes,\n\naerobic gram-negative bacilli (including Pseudomonas aeruginosa)\n\n*Basilar skull fracture - S. pneumoniae: H. influenzae, group A and\n\nbeta-hemolytic streptococci\n\n*Head trauma: after neurosurgery - Staphylococcus aureus, coagulase-negative\n\nstaphylococci (especially Staphylococcus epidermidis), aerobic gram-negative\n\nbacilli (including P. aeruginosa)\n\n# Initial Management of Suspected Acute Bacterial Meningitis\n\nOnce a diagnosis of acute bacterial meningitis is considered likely,\n\nantimicrobials should be initiated as soon as possible. Two blood cultures\n\nshould be drawn. Lumbar puncture (LP) should be performed in nearly all patients\n\nto obtain CSF for establishing diagnosis and determining infectious\n\norganism/susceptibility. Computed tomography (CT) should be performed prior to\n\nLP in some patients (see list below). If CT must be obtained prior to LP or\n\nthere is another delay in performing LP, empiric antimicrobials should not be\n\ndelayed and initiated immediately after obtaining blood cultures only.\n\nRelative LP contraindications (no absolute contraindications exist):\n\nAnticoagulation therapy or bleeding disorder, spinal epidural abscess, raised\n\nintracranial pressure.\n\nComputed tomography scan should be performed prior to lumbar puncture in cases\n\nwith the following: Immunocompromise, history of CNS disease, new onset seizure,\n\npapilledema, abnormal level of consciousness, focal neurologic deficit.\n\n# LP and CSF Analysis\n\nLP opening pressure is often elevated in bacterial meningitis. CSF findings\n\ncharacteristic of bacterial meningitis include CSF glucose <40mg/dL, CSF to\n\nserum glucose ratio </=0.4, CSF protein concentration >/=200 mg/dL and CSF WBC\n\n>1000 microL.\n\n# Empiric Treatment After Blood Cultures are Drawn, and CSF is Obtained, or if LP\n\n# Must be Delayed\n\n[Community acquired meningitis](meningitis-without-gram-stain-results)\n\n[Meningitis associated with trauma or nosocomial infection](meningitis-associated-with-trauma-or-nosocomial-infection)\n\n# Empiric Treatment Based on CSF Gram-Stain Results\n\nWhen gram stain results are available, adjust antimicrobials to optimize therapy\n\n[Gram-positive diplococci suggesting Streptococcus pneumoniae](gram-positive-diplococci-meningitis)\n\n[Gram-negative diplococci suggesting Neisseria meningitidis](gram-negative-diplococci-meningitis)\n\n[Gram-positive bacilli/coccobacilli suggesting Listeria monocytogenes](meningitis-with-gram-positive-bacilli-coccobacilli)\n\n[Gram negative bacilli](gram-negative-bacilli-meningitis)\n\n# Treatment Based on CSF Isolated Organism\n\nWhen infectious organism is identified, adjust antimicrobials to optimize therap\n\n[S. pneumoniae](meningitis-with-streptococcus-pneumoniae)\n\n[N. meningitidis](meningitis-with-neisseria-meningitidis)\n\n[L. monocytogenes](listeria-monocytogenes-meningitis)\n\n[E. Coli, Pseudomonas, or another organism](meningitis-with-e-coli-pseudomonas-or-other-organism)\n\n# Negative CSF Culture\n\nPatients who have a negative CSF culture but have symptoms and CSF findings\n\nconsistent with bacterial meningitis should be treated based on likely pathogen.\n\nPatients with negative CSF culture, symptoms of acute meningitis but have labs\n\ninconsistent with bacterial meningitis should be considered to have aseptic\n\nmeningitis. Aseptic meningitis is caused by a variety of non-bacterial\n\ninfectious etiologies and non-infectious etiologies. Consult Infectious Disease\n\nfor more information.\n\n# _______________________________________________________________________________\n\nReferences:\n\nMandell chapter: Acute meningitis\n\nSanford keyword: Meningitis, bacterial, positive gram stain\n\nTunkel et al., Clin Infect Dis, 2004, 39.1267-84\n\nUp-to-Date Article: Clinical features and diagnosis of acute bacterial\n\nmeningitis in adults\n\nUp-to-Date Article: Treatment of bacterial meningitis caused by specific\n\npathogens in adults\n\nVan de Beek et al., Clin Microbiol Infect, 2016, 22.S37-S62",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "general-information-inpatient"
-    },
-    {
-      "Text": "Community acquired meningitis",
-      "Item": "meningitis-without-gram-stain-results"
-    },
-    {
-      "Text": "Meningitis associated with trauma or nosocomial infection",
-      "Item": "meningitis-associated-with-trauma-or-nosocomial-infection"
-    },
-    {
-      "Text": "Gram-positive diplococci suggesting Streptococcus pneumoniae",
-      "Item": "gram-positive-diplococci-meningitis"
-    },
-    {
-      "Text": "Gram-negative diplococci suggesting Neisseria meningitidis",
-      "Item": "gram-negative-diplococci-meningitis"
-    },
-    {
-      "Text": "Gram-positive bacilli/coccobacilli suggesting Listeria monocytogenes",
-      "Item": "meningitis-with-gram-positive-bacilli-coccobacilli"
-    },
-    {
-      "Text": "Gram negative bacilli",
-      "Item": "gram-negative-bacilli-meningitis"
-    },
-    {
-      "Text": "S. pneumoniae",
-      "Item": "meningitis-with-streptococcus-pneumoniae"
-    },
-    {
-      "Text": "N. meningitidis",
-      "Item": "meningitis-with-neisseria-meningitidis"
-    },
-    {
-      "Text": "L. monocytogenes",
-      "Item": "listeria-monocytogenes-meningitis"
-    },
-    {
-      "Text": "E. Coli, Pseudomonas, or another organism",
-      "Item": "meningitis-with-e-coli-pseudomonas-or-other-organism"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU ABX APPROACH TO ACUTE MENINGITIS"
 }

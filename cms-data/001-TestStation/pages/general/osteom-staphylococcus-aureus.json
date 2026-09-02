@@ -4,39 +4,6 @@
   "Term1": "osteom-staphylococcus-aureus",
   "Term2": "",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\nOSTEOMYELITIS WITH STAPHYLOCOCCUS AUREUS\n\nTreat for 4 weeks\n\n# ________________________________________________\n\n# Methicillin-SUSCEPTIBLE S. aureus\n\n# ________________________________________________\n\n# Treatment\n\n[Trimethoprim-sulfamethoxazole 1 DS tablet PO BID \\($\\) R,DI < OR >](psozid2-tmp-sulfa-28days-1ds-tab-bid)\n\n[Non-VA order for above](pshzid2-tmp-sulfa-28days-1ds-tab-bid)\n\n< OR >\n\n[Cefadroxil 1000 mg PO BID \\($\\) R](psozid2-cefadroxil-1000mg-po-bid-28ds)\n\n[Non-VA order for above](pshzid2-cefadroxil-1000mg-po-bid-28days)\n\n# ________________________________________________________\n\n# Methicillin-RESISTANT S. aureus\n\n# ________________________________________________\n\n# Treatment\n\n[Trimethoprim-sulfamethoxazole 1 DS tablet PO BID \\($\\) R,DI < OR >](psozid2-tmp-sulfa-28days-1ds-tab-bid)\n\n[Non-VA order for above](pshzid2-tmp-sulfa-28days-1ds-tab-bid)\n\n[Minocycline 100 mg PO BID \\($\\) DI < OR >](psozid2-minocycline-28ds-100mg-po-bid)\n\n[Non-VA order for above](pshzid2-minocycline-28ds-100mg-po-bid)\n\n[References](orzid2-gmenu-abx-references)\n\nSanford keyword: Osteomyelitis\n\nMandell chapter: Osteomyelitis\n\nSpellberg B Clin Infect Dis 2012, 54:393\n\nBerbari EF Clin Infect Dis 2015, 61:e26\n\nCalhoun JH Infect Dis Clin North Am 2005, 19:765",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
-      "Item": "general-information-outpatient"
-    },
-    {
-      "Text": "Trimethoprim-sulfamethoxazole 1 DS tablet PO BID ($) [R,DI] < OR >",
-      "Item": "PSOZID2 TMP/SULFA 28DAYS 1DS TAB BID"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "PSHZID2 TMP/SULFA 28DAYS 1DS TAB BID"
-    },
-    {
-      "Text": "Cefadroxil 1000 mg PO BID ($) [R]",
-      "Item": "PSOZID2 CEFADROXIL 1000MG PO BID 28DS"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "PSHZID2 CEFADROXIL 1000MG PO BID 28DAYS"
-    },
-    {
-      "Text": "Minocycline 100 mg PO BID ($) [DI] < OR >",
-      "Item": "PSOZID2 MINOCYCLINE 28DS 100MG PO BID"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "PSHZID2 MINOCYCLINE 28DS 100MG PO BID"
-    },
-    {
-      "Text": "References",
-      "Item": "ORZID2 GMENU ABX REFERENCES"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID3 GMENU OSTEOM STAPHYLOCOCCUS AUREUS"
 }

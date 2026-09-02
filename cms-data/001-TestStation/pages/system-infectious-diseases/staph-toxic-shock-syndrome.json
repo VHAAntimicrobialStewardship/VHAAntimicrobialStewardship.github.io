@@ -4,15 +4,6 @@
   "Term1": "staph-toxic-shock-syndrome",
   "Term2": "",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\nCDC CRITERIA FOR DIAGNOSIS OF STAPHYLOCOCCAL TOXIC SHOCK SYNDROME\n\nThese criteria were developed for epidemiological purposes.  Treat cases when\n\nfewer criteria are met if staphylococcal TSS seems likely.\n\nDefinite:  All 6 of the following criteria are met.\n\nProbable:  Five of the 6 criteria are met.\n\n# Fever\n\nT >38.9 degree Celsius (102.0 degree Fahrenheit)\n\n# Hypotension\n\nSystolic blood pressure 90 mmHg, orthostatic drop in diastolic 15 mmHg,\n\northostatic syncope or dizziness\n\n# Rash\n\nDiffuse macular erythroderma\n\n# Desquamation\n\nOccurs 1 to 2 weeks after onset of illness and usually involving palms and\n\nsoles\n\n# Multisystem involvement (3 or more of the following organ systems)\n\n# GI\n\nVomiting or diarrhea at onset of illness\n\n# Muscular\n\nSevere myalgia or CPK elevation >2 times the normal upper limit\n\n# Mucous membranes\n\nVaginal, oropharyngeal, or conjunctival hyperemia\n\n# Renal\n\nBUN or serum creatinine >2 times the normal upper limit, or pyuria (>5\n\nWBC/hpf)\n\n# Hepatic\n\nBilirubin or transaminases >2 times the normal upper limit\n\n# Hematologic\n\nPlatelets <100,000/microLiter\n\n# Central nervous system\n\nDisorientation or alterations in consciousness without focal neurologic\n\nsigns in the absence of fever and hypotension\n\n# Negative results on the following tests, if obtained\n\nBlood, throat, or cerebrospinal fluid cultures for another pathogen (blood\n\ncultures may be positive for S. aureus).\n\nSerologic tests for Rocky Mountain spotted fever, leptospirosis, or measles\n\n[References](orzid2-gmenu-abx-references)\n\nMMWR 1990, 39(RR-13):1\n\nDeVries AS PLoS One 2011, 6(8):e22997",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "general-information-inpatient"
-    },
-    {
-      "Text": "References",
-      "Item": "ORZID2 GMENU ABX REFERENCES"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU STAPH TOXIC SHOCK SYNDROME"
 }

@@ -4,11 +4,6 @@
   "Term1": "parainfluenza",
   "Term2": "",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\n# PARAINFLUENZA\n\nNo specific antimicrobial therapy is indicated. Contact Infectious Diseases for\n\nmore information on management of this disease.\n\nReferences:\n\nSanford keyword: Parainfluenza virus",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
-      "Item": "general-information-outpatient"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID3 GMENU ABX PARAINFLUENZA"
 }

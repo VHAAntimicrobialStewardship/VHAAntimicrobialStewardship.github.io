@@ -1,50 +1,9 @@
 {
   "PageID": "streptococcal-native-valve-endocarditis",
   "Group": "cardiovascular",
-  "Term1": "Streptococcal native valve endocarditis",
+  "Term1": "4. Streptococcal native valve endocarditis (Navigation)",
   "Term2": "Native valve endocarditis, streptococcal",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# NATIVE VALVE ENDOCARDITIS WITH STREPTOCOCCI\n\nSelection is based on susceptibility to penicillin.\n\n# Treatment of highly susceptible viridians streptococci or Streptococcus\n\n# gallolyticus (bovis) (penicillin MIC less than or equal to 0.12 mcg/ml)\n\nThe addition of gentamicin provides a synergistic effect and is reasonable to\n\nadd in patients with uncomplicated endocarditis, rapid response to therapy and\n\nno underlying renal disease\n\nPreferred:\n\n[Penicillin G 3 million units IV q4h \\($$\\) R for 4 weeks](psjizid-penicillin-g-3-million-units-iv-q4h)\n\n< OR >\n\n[Penicillin G 3 million units IV q4h \\($$\\) R for 2 weeks <AND> gentamicin](orz-set-abx-penicillin-3mu-iv-q4h-gent-3-mg-kg-once-daily)\n\n3 mg/kg IV q24h ($) [R,O] for 2 weeks\n\nPrimary alternatives:\n\n[Assessment of beta-lactam reaction CLICK HERE](beta-lactam-allergy-assessment)\n\n[Ceftriaxone 2 gm IV q24h \\($\\) M for 4 weeks](psjizid-ceftriaxone-2gm-iv-q24h)\n\n< OR >\n\n[Ceftriaxone 2 gm IV q24h \\($\\) for 2 weeks <AND> gentamicin 3 mg/kg IV once](orz-set-abx-ceft-2gm-iv-q24h-gent-3-mg-kg-iv-once-daily)\n\ndaily ($) [R,O] for 2 weeks\n\nSecondary alternative, after assessment of beta-lactam reaction above:\n\n[Vancomycin 15 mg/kg IV q12h \\($\\) R for 4 weeks](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n\n# Treatment of relatively resistant viridians streptococci or S. gallolyticus\n\n# (bovis) (penicillin MIC greater than 0.12 and less than or equal to 0.5 mcg/ml)\n\nFor ceftriaxone susceptible isolates (MIC < 0.5 mcg/mL):\n\n[Ceftriaxone 2 gm IV q24h \\($\\) for 4 weeks](psjizid-ceftriaxone-2gm-iv-q24h)\n\nFor ceftriaxone resistant isolates (MIC >/= 0.5 mcg/mL):\n\n[Penicillin G 4 million units IV q4h \\($$\\) R for 4 weeks <AND> gentamicin](orz-set-abx-penicillin-4mu-iv-q4h-gent-3-mg-kg-iv-qd)\n\n3 mg/kg IV q24h ($) [R,O] for first 2 weeks\n\n< OR >\n\n[Ceftriaxone 2 gm IV q24h \\($\\) for 4 weeks <AND> gentamicin 3 mg/kg IV q24h](orz-set-abx-ceft-2gm-iv-q24h-gent-3-mg-kg-iv-once-daily)\n\n($) [R,O] for first 2 weeks\n\nAlternative:\n\n[Assessment of beta-lactam reaction CLICK HERE](beta-lactam-allergy-assessment)\n\n[Vancomycin 15 mg/kg IV q12h \\($\\) R for 4 weeks](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n\n# Treatment of highly resistant viridians streptococci or S. gallolyticus (bovis)\n\n# (penicillin MIC greater than or equal to 0.5 mcg/mL)\n\nPreferred:\n\n[Penicillin G 4 million units IV q4h \\($$\\) R <AND> gentamicin 1 mg/kg IV q24h](orz-set-abx-penicil-4mu-iv-q4h-gent-1mg-kg-iv-q8h)\n\n($) [R,O] for 4 weeks\n\n< OR>\n\n[Ampicillin 2 gm IV q4h \\($$\\) R <AND> gentamicin 1 mg/kg IV q8h \\($\\) R,O](orz-set-abx-ampici-2gm-iv-q4h-gent-1mg-kg-iv-q8h)\n\nfor 4 weeks\n\nAlternative:\n\n[Assessment of beta-lactam reaction CLICK HERE](beta-lactam-allergy-assessment)\n\n[Vancomycin 15 mg/kg IV q12h \\($\\) R for 4 weeks](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n\n# Treatment of Streptococci pneumonia, Streptococcus pyogenes, and Groups B, C, F\n\n# and G beta-hemolytic streptococci\n\nTreatment is non-standardized and must be tailored to each patient. Consult\n\nInfectious Diseases.\n\n# _______________________________________________________________________________\n\nReferences:\n\nBaddour et al., Circulation 2015, 132:1-52\n\nMandell chapter: Endocarditis and intravascular infections\n\nSanford keyword: Endocarditis\n\nUp-To-Date article: Overview of management of infective endocarditis in adults\n\nWang et al., JAMA 2018, 320.1:72-83",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "general-information-inpatient"
-    },
-    {
-      "Text": "Penicillin G 3 million units IV q4h ($$) [R] for 4 weeks",
-      "Item": "PSJIZID PENICILLIN G 3 MILLION UNITS IV Q4H"
-    },
-    {
-      "Text": "Penicillin G 3 million units IV q4h ($$) [R] for 2 weeks <AND> gentamicin",
-      "Item": "ORZ SET ABX PENICILLIN 3MU IV Q4H GENT 3 MG/KG ONCE DAILY"
-    },
-    {
-      "Text": "Assessment of beta-lactam reaction [CLICK HERE]",
-      "Item": "beta-lactam-allergy-assessment"
-    },
-    {
-      "Text": "Ceftriaxone 2 gm IV q24h ($) [M] for 4 weeks",
-      "Item": "PSJIZID CEFTRIAXONE 2GM IV Q24H"
-    },
-    {
-      "Text": "Ceftriaxone 2 gm IV q24h ($) for 2 weeks <AND> gentamicin 3 mg/kg IV once",
-      "Item": "ORZ SET ABX CEFT 2GM IV Q24H GENT 3 MG/KG IV ONCE DAILY"
-    },
-    {
-      "Text": "Vancomycin 15 mg/kg IV q12h ($) [R] for 4 weeks",
-      "Item": "ORZ SET ABX VANCO NEW START 15MG/KG Q12H + MRSA NARES SCREENING"
-    },
-    {
-      "Text": "Penicillin G 4 million units IV q4h ($$) [R] for 4 weeks <AND> gentamicin",
-      "Item": "ORZ SET ABX PENICILLIN 4MU IV Q4H GENT 3 MG/KG IV QD"
-    },
-    {
-      "Text": "Penicillin G 4 million units IV q4h ($$) [R] <AND> gentamicin 1 mg/kg IV q24h",
-      "Item": "ORZ SET ABX PENICIL 4MU IV Q4H GENT 1MG/KG IV Q8H"
-    },
-    {
-      "Text": "Ampicillin 2 gm IV q4h ($$) [R] <AND> gentamicin 1 mg/kg IV q8h ($) [R,O]",
-      "Item": "ORZ SET ABX AMPICI 2GM IV Q4H GENT 1MG/KG IV Q8H"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU EC NV STREPTOCOCCI"
 }

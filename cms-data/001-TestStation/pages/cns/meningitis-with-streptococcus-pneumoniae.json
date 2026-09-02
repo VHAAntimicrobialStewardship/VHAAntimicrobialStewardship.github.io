@@ -1,54 +1,9 @@
 {
   "PageID": "meningitis-with-streptococcus-pneumoniae",
   "Group": "cns",
-  "Term1": "Meningitis with Streptococcus pneumoniae",
+  "Term1": "5. Meningitis with Streptococcus pneumoniae (Navigation)",
   "Term2": "Streptococcus pneumoniae meningitis",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# BACTERIAL MENINGITIS WITH S. PNEUMONIAE\n\nOnce a diagnosis of acute bacterial meningitis is considered likely,\n\nantimicrobials should be initiated as soon as possible. Two blood cultures\n\nshould be drawn. Lumbar puncture (LP) should be performed in nearly all patients\n\nto obtain cerebrospinal fluid (CSF) for establishing diagnosis and determining\n\ninfectious organism/susceptibility. Adjust antimicrobial regimen to optimize\n\ntherapy and treatment duration based on pathogen once isolated.\n\nIntravenous dexamethasone therapy improves outcomes for meningitis with\n\nStreptococcus pneumoniae and is recommended for empirical treatment of all\n\ncommunity acquired cases that might be associated with S. pneumoniae.\n\nDexamethasone must be given before (1 to 20 minutes) with antimicrobials.\n\n# If Initiating Therapy, Give:\n\n[Dexamethasone 10 mg IV q6h \\($\\) for 4 days](psjzid-dexamethasone-10mg-iv-q6h-4d)\n\n# _______________________________________________________________________________\n\n# Antimicrobial Treatment\n\nNote: Antimicrobials depend on S. pneumoniae MIC results. In most cases results\n\nwill usually be known only after 2 or 3 days of therapy.\n\n# Duration of Therapy\n\nTreat for a total duration of 10-14 days.\n\n# Treatment if Penicillin MIC < or = 0.1 mcg/mL\n\nPreferred:\n\n[Penicillin G 4 million units IV q4h \\($$\\) R](psjizid-penicillin-g-4-million-units-iv-q4h)\n\n< OR >\n\n[Ampicillin 2 gm IV q4h \\($$\\) R](psjizid-ampicillin-2-gm-iv-q4h)\n\n< OR >\n\n[Ceftriaxone 2 gm IV q12h \\($\\) M](psjizid-ceftriaxone-2gm-iv-q12h)\n\n# Treatment if Penicillin MIC > or = 0.1 mcg/mL and Ceftriaxone MIC < or = 0.5\n\n# mcg/mL\n\nPreferred:\n\n[Ceftriaxone 2 gm IV q12h \\($\\) M](psjizid-ceftriaxone-2gm-iv-q12h)\n\nAlternative:\n\n[Assessment of beta-lactam reaction](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Meropenem 2 gm IV q8h \\($$\\) R](psjizid-meropenem-2gm-iv-q8h)\n\n# Treatment if Penicillin MIC > or = 0.1 mcg/mL and Ceftriaxone MIC > 0.5 mcg/mL\n\nTreat as listed below, and obtain another CSF specimen in 24 to 48 hours.\n\nPreferred:\n\nCeftriaxone MIC < 2 mcg/mL\n\n[Ceftriaxone 2 gm IV q12h \\($\\) M <AND> vancomycin 15 mg/kg IV q12h \\($\\) R](orz-set-abx-ceftriax-2gm-q12h-and-vanco-15mg-kg-q12h)\n\nCeftriaxone MIC >/= 2 mcg/mL\n\n[< ADD > Rifampin 600 mg PO q24h to above \\($\\) DI,O](psjzid-rifampin-600mg-po-q24h)\n\n< OR >\n\n[< ADD > Rifampin 600 mg IV q24h to above \\($$$$\\) DI,O](psjizid-rifampin-600mg-iv-q24h)\n\nAlternative:\n\n[Assessment of beta-lactam reaction](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Moxifloxacin 400mg IV q24h \\($$\\) R,DI <AND> vancomycin 15 mg/kg q12h \\($\\) R](orz-set-abx-moxifloxacin-400mg-iv-q24h-vanco-iv-q12h)\n\n# _______________________________________________________________________________\n\nReferences:\n\nMandell chapter: Acute meningitis\n\nSanford keyword: Meningitis, bacterial, positive gram stain\n\nSanford keyword: Meningitis, Streptococcus pneumoniae\n\nTunkel et al., Clin Infect Dis, 2004, 39.1267-84\n\nUp-to-Date Article: Clinical features and diagnosis of acute bacterial\n\nmeningitis in adults\n\nUp-to-Date Article: Treatment of bacterial meningitis caused by specific\n\npathogens in adults\n\nVan de Beek et al., Clin Microbiol Infect, 2016, 22.S37-S62",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "general-information-inpatient"
-    },
-    {
-      "Text": "Dexamethasone 10 mg IV q6h ($) for 4 days",
-      "Item": "PSJZID DEXAMETHASONE 10MG IV Q6H 4D"
-    },
-    {
-      "Text": "Penicillin G 4 million units IV q4h ($$) [R]",
-      "Item": "PSJIZID PENICILLIN G 4 MILLION UNITS IV Q4H"
-    },
-    {
-      "Text": "Ampicillin 2 gm IV q4h ($$) [R]",
-      "Item": "PSJIZID AMPICILLIN 2 GM IV Q4H"
-    },
-    {
-      "Text": "Ceftriaxone 2 gm IV q12h ($) [M]",
-      "Item": "PSJIZID CEFTRIAXONE 2GM IV Q12H"
-    },
-    {
-      "Text": "Assessment of beta-lactam reaction",
-      "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
-    },
-    {
-      "Text": "Meropenem 2 gm IV q8h ($$) [R]",
-      "Item": "PSJIZID MEROPENEM 2GM IV Q8H"
-    },
-    {
-      "Text": "Ceftriaxone 2 gm IV q12h ($) [M] <AND> vancomycin 15 mg/kg IV q12h ($) [R]",
-      "Item": "ORZ SET ABX CEFTRIAX 2GM Q12H AND VANCO 15MG/KG Q12H"
-    },
-    {
-      "Text": "< ADD > Rifampin 600 mg PO q24h to above ($) [DI,O]",
-      "Item": "PSJZID RIFAMPIN 600MG PO Q24H"
-    },
-    {
-      "Text": "< ADD > Rifampin 600 mg IV q24h to above ($$$$) [DI,O]",
-      "Item": "PSJIZID RIFAMPIN 600MG IV Q24H"
-    },
-    {
-      "Text": "Moxifloxacin 400mg IV q24h ($$) [R,DI] <AND> vancomycin 15 mg/kg q12h ($) [R]",
-      "Item": "ORZ SET ABX MOXIFLOXACIN 400MG IV Q24H VANCO IV Q12H"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU BACT MENING S. PNEUMONIAE"
 }

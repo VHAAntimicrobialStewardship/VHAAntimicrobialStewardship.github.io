@@ -4,43 +4,6 @@
   "Term1": "pros-b-j-enterococci",
   "Term2": "",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\n# ENTEROCOCCAL INFECTIONS IN BONE OR JOINT PROSTHESES\n\nFor acute, moderate or severe infections, treat with intravenous antibiotics\n\nfollowed by oral antibiotics. For severe infections, add an aminoglycoside for\n\nsynergy during the first weeks of therapy. Mild infections can be treated with\n\noral antibiotics only.\n\nConsult Infectious Diseases for specific management advice.\n\n# Duration of Treatement\n\nTreat for a total duration of 4-6 weeks. Chronic oral antimicrobial suppression\n\nmay follow treatment based on individual patient circumstances.\n\n# Intravenous Treatment\n\nRefer to the Inpatient Antimicrobial CDSS.\n\n# Oral Treatment For Mild Infections, Continuation of Therapy and Chronic\n\n# Suppression\n\n[Amoxicillin 500 mg PO TID \\($\\) R](psozid-amoxicillin-500-mg-po-tid)\n\n[Non-VA order for above](pshzid-amoxicillin-500-mg-po-tid)\n\n< OR >\n\n[Penicillin VK 500 mg PO QID \\($\\) R](psozid-penicillin-500mg-po-qid)\n\n[Non-VA order for above](pshzid-penicillin-500mg-po-qid)\n\nAllergy to penicillin\n\n[Minocycline 100mg PO BID \\($\\) DI](psozid-minocycline-100mg-po-bid)\n\n[Non-VA order for above](pshzid-minocycline-100mg-po-bid)\n\nFor resistant isolates only\n\n[Linezolid 600 mg PO BID \\($\\) DI,O](zzpsozid-linezolid-600mg-po-bid)\n\n[Non-VA order for above](pshzid-linezolid-600mg-po-bid)\n\nReferences:\n\nMandell chapter: Orthopedic Implant-Associated Infections\n\nUp-to-Date Article: Prosthetic Joint Infections: Treatment\n\nOsmon et al, Clinical Infectious Diseases (2013) 56.1, e1-25\n\nSanford keyword: Prosthetic Joint Infection",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
-      "Item": "general-information-outpatient"
-    },
-    {
-      "Text": "Amoxicillin 500 mg PO TID ($) [R]",
-      "Item": "PSOZID AMOXICILLIN 500 MG PO TID"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "PSHZID AMOXICILLIN 500 MG PO TID"
-    },
-    {
-      "Text": "Penicillin VK 500 mg PO QID ($) [R]",
-      "Item": "PSOZID PENICILLIN 500MG PO QID"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "PSHZID PENICILLIN 500MG PO QID"
-    },
-    {
-      "Text": "Minocycline 100mg PO BID ($) [DI]",
-      "Item": "PSOZID MINOCYCLINE 100MG PO BID"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "PSHZID MINOCYCLINE 100MG PO BID"
-    },
-    {
-      "Text": "Linezolid 600 mg PO BID ($) [DI,O]",
-      "Item": "ZZPSOZID LINEZOLID 600MG PO BID"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "PSHZID LINEZOLID 600MG PO BID"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID3 GMENU PROS B/J ENTEROCOCCI"
 }

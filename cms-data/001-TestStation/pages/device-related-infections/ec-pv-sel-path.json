@@ -1,42 +1,9 @@
 {
   "PageID": "ec-pv-sel-path",
   "Group": "device-related-infections",
-  "Term1": "ec-pv-sel-path",
+  "Term1": "2. ec-pv-sel-path (Navigation)",
   "Term2": "",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# PROSTHETIC VALVE ENDOCARDITIS--SELECTED PATHOGEN\n\n[Culture-negative endocarditis](ec-cx-neg)\n\n[Enterococci](ec-enterococci)\n\n[Fungi](ec-fungi)\n\n[Gram negative bacilli \\(other than HACEK organisms\\)](ec-gnb)\n\n[HACEK bacteria](ec-hacek)\n\n[Staphylococci](orzid2-gmenu-ec-pv-staphylococci)\n\n[Streptococci](orzid2-gmenu-ec-pv-vgs-s-bovis)",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "general-information-inpatient"
-    },
-    {
-      "Text": "Culture-negative endocarditis",
-      "Item": "ec-cx-neg"
-    },
-    {
-      "Text": "Enterococci",
-      "Item": "ec-enterococci"
-    },
-    {
-      "Text": "Fungi",
-      "Item": "ec-fungi"
-    },
-    {
-      "Text": "Gram negative bacilli (other than HACEK organisms)",
-      "Item": "ec-gnb"
-    },
-    {
-      "Text": "HACEK bacteria",
-      "Item": "ec-hacek"
-    },
-    {
-      "Text": "Staphylococci",
-      "Item": "ORZID2 GMENU EC PV STAPHYLOCOCCI"
-    },
-    {
-      "Text": "Streptococci",
-      "Item": "ORZID2 GMENU EC PV VGS/S. BOVIS"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU EC PV SEL PATH"
 }

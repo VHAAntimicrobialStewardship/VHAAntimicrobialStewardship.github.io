@@ -1,0 +1,9 @@
+{
+  "PageID": "surg-cefazolin-weight-based-dosing",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "Term1": "surg-cefazolin-weight-based-dosing",
+  "Term2": "",
+  "Text": "# CEFAZOLIN:\n\n# Recommended Cefazolin Preop Dose based on patient weight:\n\nPreop dose administer over 30 minutes, beginning 60 minutes before incision.\n\n[<Click here> Display last recorded patient weight \\(limited to 2 years\\)](orz-gtx-abx-weight-for-abx-dosing)\n\n# Weight <120 kg:\n\n[Cefazolin 2GM IVPB ONCE](psjizid-cefazolin-2gm-ivpb-once-preop)\n\n# Weight >/= 120 kg:",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU SURG CEFAZOLIN WEIGHT BASED DOSING"
+}

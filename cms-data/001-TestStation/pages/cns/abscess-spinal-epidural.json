@@ -4,35 +4,6 @@
   "Term1": "Abscess, spinal epidural",
   "Term2": "Epidural abscess, spinal",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# SPINAL EPIDURAL ABSCESS\n\nMost cases are associated with Staphylococcus aureus. Others are associated with\n\nGram-negative bacilli and streptococci. Beta-lactam antibiotics are more\n\neffective than vancomycin against susceptible Staphylococci. If Staphylococcus\n\nis isolated, once methicillin-resistance is ruled out, switch to an anti-\n\nstaphylococcal beta-lactam antibiotic. Pseudomonas is a potential pathogen in\n\npost-surgical patients or patients with known Pseudomonas colonization.\n\n# Consult Neurosurgery, Neurology, and Infectious Disease\n\n# Duration of Therapy\n\nTreat for 4 to 8 weeks. Shorter durations may be used in patients who have\n\nundergone surgical drainage and who have responded well to therapy.\n\n# Empiric Treatment\n\nPreferred if Pseudomonas is not suspected:\n\n[Ceftriaxone 2 gm IV q12h \\($\\) M <AND> vancomycin 15 mg/kg IV q12h \\($\\) R](orz-set-abx-ceftriax-2gm-q12h-and-vanco-15mg-kg-q12h)\n\nPreferred if Pseudomonas is suspected:\n\n[Cefepime 2gm IV Q8h \\($$\\) R  < AND > vancomycin 15 mg/kg IV q12h \\($\\) R](orz-set-abx-cefepime-2gm-iv-q8h-vanco-15mg-kg-iv-q12h)\n\nAlternative:\n\n[Assessment of beta-lactam reaction](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Meropenem 2 gm IV q8h \\($$\\) R,O <AND> vancomycin 15mg/kg IV q12h \\($\\) R](orz-set-abx-meropenem-2gm-iv-q8h-vanco-15mg-kg-iv-q12h)\n\n# Treatment if methicillin-sensitive S. aureus is isolated\n\n[Nafcillin 2 gm IV q4h \\($$\\) R,DI](psjizid-nafcillin-2gm-iv-q4h)\n\n< OR >\n\n[Cefazolin 2 gm IV q8h \\($\\) R](psjizid-cefazolin-2gm-ivpb-q8h)\n\n# _______________________________________________________________________________\n\nReferences:\n\nKrishnamohan et al, Curr Infect Dis Rep, 2014, 16(11)1-6\n\nMandell chapter: Subdural Empyema, Epidural Abscess, and Suppurative\n\nUp-To-Date Article: Spinal Epidural Abscess",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "general-information-inpatient"
-    },
-    {
-      "Text": "Ceftriaxone 2 gm IV q12h ($) [M] <AND> vancomycin 15 mg/kg IV q12h ($) [R]",
-      "Item": "ORZ SET ABX CEFTRIAX 2GM Q12H AND VANCO 15MG/KG Q12H"
-    },
-    {
-      "Text": "Cefepime 2gm IV Q8h ($$) [R]  < AND > vancomycin 15 mg/kg IV q12h ($) [R]",
-      "Item": "ORZ SET ABX CEFEPIME 2GM IV Q8H VANCO 15MG/KG IV Q12H"
-    },
-    {
-      "Text": "Assessment of beta-lactam reaction",
-      "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
-    },
-    {
-      "Text": "Meropenem 2 gm IV q8h ($$) [R,O] <AND> vancomycin 15mg/kg IV q12h ($) [R]",
-      "Item": "ORZ SET ABX MEROPENEM 2GM IV Q8H VANCO 15MG/KG IV Q12H"
-    },
-    {
-      "Text": "Nafcillin 2 gm IV q4h ($$) [R,DI]",
-      "Item": "PSJIZID NAFCILLIN 2GM IV Q4H"
-    },
-    {
-      "Text": "Cefazolin 2 gm IV q8h ($) [R]",
-      "Item": "PSJIZID CEFAZOLIN 2GM IVPB Q8H"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU SPINAL EPIDURAL ABSCESS"
 }

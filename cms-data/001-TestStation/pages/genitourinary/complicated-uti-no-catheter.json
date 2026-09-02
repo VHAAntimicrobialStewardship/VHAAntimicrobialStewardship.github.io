@@ -4,67 +4,6 @@
   "Term1": "complicated-uti-no-catheter",
   "Term2": "",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\n# COMPLICATED UTI (NO CATHETER)\n\n# Complicated UTI is an infection beyond the bladder accompanied by symptoms\n\n# including fever/other signs of systemic illness, flank pain, and costovertebral\n\n# tenderness. This includes pyelonephritis and febrile or bacteremic UTI.\n\nNOT signs or symptoms: abnormal urinalysis alone, pyuria, falls, change in urine\n\nodor or color, delirium (acute mental status change, confusion) without systemic\n\nsigns of infection. These may occur in patients with a UTI but alone are\n\ninadequate for diagnosis and empiric treatment.\n\n# _______________________________________________________________________________\n\nFor patients without signs or symptoms of UTI:\n\n[Asymptomatic bacteriuria](asymp-bacteriuria)\n\nFor patients presenting with septic shock from a suspected urinary tract\n\ninfection: Refer to Inpatient Antimicrobial CDSS\n\n# _______________________________________________________________________________\n\n# Duration\n\nTreat for 5 days with fluoroquinolones or 7 days with non-fluoroquinolone\n\norganisms, presence of obstruction, underlying renal disease, immunosuppression,\n\nand neurologic or structural abnormality in some cases. Often therapy can be\n\ncompleted with an oral agent pending clinical stability and susceptibility\n\ntesting.\n\n# _______________________________________________________________________________\n\n# Empirical treatment\n\nPreferred:\n\n[Trimethoprim/sulfamethoxazole 1 DS tablet q12h R,DI for 7 days](psozid2-tmp-sulfa-7days-1ds-tab-bid)\n\n*Avoid trimethoprim/sulfamethoxazole in the first and third trimesters\n\n[Non-VA order for above](pshzid2-tmp-sulfa-7days-1ds-tab-bid)\n\n< OR >\n\n[Ciprofloxacin 750 mg PO q12h R,DI for 5 days](psozid2-ciprofloxacin-750mg-po-bid-5ds)\n\n[Non-VA order for above](pshzid2-ciprofloxacin-750mg-po-bid-5ds)\n\nAlternative or isolate resistant to preferred antimicrobials:\n\n[Amoxicillin-clavulanate 875/125 mg PO q12h R for 7 days](psozid2-amox-clav-875-125mg-7ds-po-bid)\n\n[Non-VA order for above](pshzid2-amox-clav-875-125mg-7ds-po-bid)\n\n< OR >\n\n[Cefadroxil 1000 mg PO q12h R for 7 days](psozid2-cefadroxil-1000mg-po-bid-7days)\n\n[Non-VA order for above](pshzid2-cefadroxil-1000mg-po-bid-7days)\n\n# _______________________________________________________________________________\n\n# Treatment for specific pathogens\n\n# Enterobacteria including E. coli, Klebsiella, and Proteus\n\nPreferred:\n\n[Cefadroxil 1000 mg PO q12h R for 7 days](psozid2-cefadroxil-1000mg-po-bid-7days)\n\n[Non-VA order for above](pshzid2-cefadroxil-1000mg-po-bid-7days)\n\nAlternative or isolate resistant to preferred antimicrobials:\n\n[Assessment of Beta-lactam Reaction](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Trimethoprim/sulfamethoxazole 1 DS tablet q12h R,DI for 7 days](psozid2-tmp-sulfa-7days-1ds-tab-bid)\n\n*Avoid trimethoprim/sulfamethoxazole in the first and third trimesters\n\n[Non-VA order for above](pshzid2-tmp-sulfa-7days-1ds-tab-bid)\n\n# Staphylococcus aureus\n\nS. aureus is an uncommon urinary tract pathogen and presence in the urine may be\n\ndue to hematogenous seeding from another site. Blood cultures are indicated to\n\nrule out bacteremia in patients who have S. aureus isolated from the urine.\n\nConsult Infectious Diseases for more information.\n\n# Pseudomonas\n\nPreferred:\n\n[Ciprofloxacin 750 mg PO q12h R,DI for 5 days](psozid2-ciprofloxacin-750mg-po-bid-5ds)\n\n[Non-VA order for above](pshzid2-ciprofloxacin-750mg-po-bid-5ds)\n\n# Enterococcus\n\nPreferred:\n\n[Amoxicillin 1000 mg PO q8h R for 7 days](psozid2-amoxicillin-1000mg-po-tid-7days)\n\n[Non-VA order for above](pshzid2-amoxicillin-1000mg-po-tid-7days)\n\nAlternative or isolate resistant to preferred antimicrobials:\n\n[Assessment of Beta-lactam Reaction](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Linezolid 600 mg PO q12h DI,O for 7 days](psozid2-linezolid-600mg-po-bid-x7days)\n\n[Non-VA order for above](pshzid2-linezolid-600mg-po-bid-x7days)\n\n# _______________________________________________________________________________\n\nReferences:\n\nGupta et al., Clinical Infectious Diseases, 2011, 52(5)e103-20\n\nMandell chapter: Urinary tract infections\n\nSanford keyword: Pyelonephritis, Acute\n\nUp-To-Date article: Acute complicated cystitis and pyelonephritis\n\nUp-To-Date article: Pseudomonas aeruginosa infections of the eye, ear, urinary\n\ntract, gastrointestinal tract, and central nervous system\n\nUp-To-Date article: Treatment of enterococcal infections\n\nTrautner et al., Clinical Infectious Diseases, 2025, ciaf459",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
-      "Item": "general-information-outpatient"
-    },
-    {
-      "Text": "Asymptomatic bacteriuria",
-      "Item": "asymp-bacteriuria"
-    },
-    {
-      "Text": "Trimethoprim/sulfamethoxazole 1 DS tablet q12h [R,DI] for 7 days",
-      "Item": "PSOZID2 TMP/SULFA 7DAYS 1DS TAB BID"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "PSHZID2 TMP/SULFA 7DAYS 1DS TAB BID"
-    },
-    {
-      "Text": "Ciprofloxacin 750 mg PO q12h [R,DI] for 5 days",
-      "Item": "PSOZID2 CIPROFLOXACIN 750MG PO BID 5DS"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "PSHZID2 CIPROFLOXACIN 750MG PO BID 5DS"
-    },
-    {
-      "Text": "Amoxicillin-clavulanate 875/125 mg PO q12h [R] for 7 days",
-      "Item": "PSOZID2 AMOX/CLAV 875/125MG 7DS PO BID"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "PSHZID2 AMOX/CLAV 875/125MG 7DS PO BID"
-    },
-    {
-      "Text": "Cefadroxil 1000 mg PO q12h [R] for 7 days",
-      "Item": "PSOZID2 CEFADROXIL 1000MG PO BID 7DAYS"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "PSHZID2 CEFADROXIL 1000MG PO BID 7DAYS"
-    },
-    {
-      "Text": "Assessment of Beta-lactam Reaction",
-      "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
-    },
-    {
-      "Text": "Amoxicillin 1000 mg PO q8h [R] for 7 days",
-      "Item": "PSOZID2 AMOXICILLIN 1000MG PO TID 7DAYS"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "PSHZID2 AMOXICILLIN 1000MG PO TID 7DAYS"
-    },
-    {
-      "Text": "Linezolid 600 mg PO q12h [DI,O] for 7 days",
-      "Item": "PSOZID2 LINEZOLID 600MG PO BID X7DAYS"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "PSHZID2 LINEZOLID 600MG PO BID X7DAYS"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID3 GMENU ABX COMPLICATED UTI NO CATHETER"
 }

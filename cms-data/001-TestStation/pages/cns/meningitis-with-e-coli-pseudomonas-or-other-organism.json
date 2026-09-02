@@ -4,11 +4,6 @@
   "Term1": "Meningitis with E. coli, pseudomonas or other organism",
   "Term2": "Escherichia coli meningitis",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# BACTERIAL MENINGITIS WITH E. COLI, PSEUDOMONAS, OR ANOTHER ORGANISM\n\nTreatment is complicated and non-standardized. Consult Infectious Diseases to\n\nassist in treatment in all cases.\n\n# _______________________________________________________________________________\n\nReferences:\n\nMandell chapter: Acute meningitis\n\nSanford keyword: Meningitis, bacterial, positive gram stain\n\nTunkel et al., Clin Infect Dis, 2004, 39.1267-84\n\nUp-to-Date Article: Clinical features and diagnosis of acute bacterial\n\nmeningitis in adults\n\nUp-to-Date Article: Treatment of bacterial meningitis caused by specific\n\npathogens in adults\n\nVan de Beek et al., Clin Microbiol Infect, 2016, 22.S37-S62",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "general-information-inpatient"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU BACT MENING E.COLI, PSEUDOMONAS"
 }

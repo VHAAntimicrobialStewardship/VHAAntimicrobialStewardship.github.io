@@ -1,50 +1,9 @@
 {
   "PageID": "catheter-associated-infection-intravascular",
   "Group": "cardiovascular",
-  "Term1": "Catheter-associated infection, intravascular",
+  "Term1": "2. Catheter-associated infection, intravascular (Navigation)",
   "Term2": "Intravascular catheter-associated infection",
-  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# INTRAVASCULAR CATHETER-ASSOCIATED INFECTION\n\n[Approach to intravascular catheter-associated infection and antimicrobial](orzid2-gmenu-appro-intravas-cath-assoc-infect)\n\nlock therapy\n\nWhen catheter-related bacteremia is suspected, draw blood cultures from both the\n\ncatheter and a peripheral vein. If patient is seriously ill (hypotension,\n\nhypoperfusion, signs and symptoms of organ failure) remove catheter and culture\n\ntip. In patients who are moderately ill (e.g. hypotension, organ failure),\n\nremove catheter and culture tip if patient has a prosthetic valve, pacemaker or\n\nvascular graft. Start empirical antibiotics while awaiting culture results.\n\nNarrow therapeutic spectrum based on sensitivities of cultured pathogens.\n\n# Empirical therapy\n\n[Vancomycin 15 mg/kg IV q12h \\($\\) R](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n\n# Empirical therapy for immunosuppressed patients\n\n[Piperacillin-tazobactam 4.5 gm IV q6h \\($$\\) R <AND> vancomycin 15 mg/kg IV](orz-set-abx-pip-taz4-5gm-ne-extinf-ci-cefep-metro-vanco15mg-kg)\n\nq12h ($) [R]\n\nFor patients with penicillin allergy\n\n[Vancomycin 15 mg/kg IV q12h \\($\\) R <AND> gentamicin 5 mg/kg q24h \\($\\) R,O](orz-set-abx-vanco-15-mg-kg-iv-q12h-gent-5-mg-kg-iv-q24h)\n\n# Pathogen-directed therapy\n\n[Coagulase-negative staph. intravascular catheter-associated infection](intravas-cath-coag-neg-staph)\n\n[Staphyloccus aureus intravascular catheter-associated infection](intravas-cath-s-aureus)\n\n[Enterococcus intravascular catheter-associated infection](enterococcal-intravascular-catheter-associated-infection)\n\n[Gram-negative Bacilli intravascular catheter-associated infection](intravas-cath-gnb)\n\n[Candida Spp. intravascular catheter-associated infection](intravas-cath-candida-spp)\n\nReferences\n\nMandell chapter: Infections Caused by Percutaneous Intravascular Devices\n\nMermel et al., Clinical Infectious Diseases 49 (2009)\n\nUp-to-date article: Treatment of Intravascular Catheter-Related Infections",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "general-information-inpatient"
-    },
-    {
-      "Text": "Approach to intravascular catheter-associated infection and antimicrobial",
-      "Item": "ORZID2 GMENU APPRO INTRAVAS CATH-ASSOC INFECT"
-    },
-    {
-      "Text": "Vancomycin 15 mg/kg IV q12h ($) [R]",
-      "Item": "ORZ SET ABX VANCO NEW START 15MG/KG Q12H + MRSA NARES SCREENING"
-    },
-    {
-      "Text": "Piperacillin-tazobactam 4.5 gm IV q6h ($$) [R] <AND> vancomycin 15 mg/kg IV",
-      "Item": "ORZ SET ABX PIP/TAZ4.5GM(NE-EXTINF,CI-CEFEP/METRO) VANCO15MG/KG"
-    },
-    {
-      "Text": "Vancomycin 15 mg/kg IV q12h ($) [R] <AND> gentamicin 5 mg/kg q24h ($) [R,O]",
-      "Item": "ORZ SET ABX VANCO 15 mg/kg IV Q12H GENT 5 MG/KG IV Q24H"
-    },
-    {
-      "Text": "Coagulase-negative staph. intravascular catheter-associated infection",
-      "Item": "intravas-cath-coag-neg-staph"
-    },
-    {
-      "Text": "Staphyloccus aureus intravascular catheter-associated infection",
-      "Item": "intravas-cath-s-aureus"
-    },
-    {
-      "Text": "Enterococcus intravascular catheter-associated infection",
-      "Item": "enterococcal-intravascular-catheter-associated-infection"
-    },
-    {
-      "Text": "Gram-negative Bacilli intravascular catheter-associated infection",
-      "Item": "intravas-cath-gnb"
-    },
-    {
-      "Text": "Candida Spp. intravascular catheter-associated infection",
-      "Item": "intravas-cath-candida-spp"
-    }
-  ],
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# INTRAVASCULAR CATHETER-ASSOCIATED INFECTION\n\n[Approach to intravascular catheter-associated infection and antimicrobial](orzid2-gmenu-appro-intravas-cath-assoc-infect)\n\nlock therapy\n\nWhen catheter-related bacteremia is suspected, draw blood cultures from both the\n\ncatheter and a peripheral vein. If patient is seriously ill (hypotension,\n\nhypoperfusion, signs and symptoms of organ failure) remove catheter and culture\n\ntip. In patients who are moderately ill (e.g. hypotension, organ failure),\n\nremove catheter and culture tip if patient has a prosthetic valve, pacemaker or\n\nvascular graft. Start empirical antibiotics while awaiting culture results.\n\nNarrow therapeutic spectrum based on sensitivities of cultured pathogens.\n\n# Empirical therapy\n\n[Vancomycin 15 mg/kg IV q12h \\($\\) R](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n\n# Empirical therapy for immunosuppressed patients\n\n[Piperacillin-tazobactam 4.5 gm IV q6h \\($$\\) R <AND> vancomycin 15 mg/kg IV](orz-set-abx-pip-taz4-5gm-ne-extinf-ci-cefep-metro-vanco15mg-kg)\n\nq12h ($) [R]\n\nFor patients with penicillin allergy\n\n[Vancomycin 15 mg/kg IV q12h \\($\\) R <AND> gentamicin 5 mg/kg q24h \\($\\) R,O](orz-set-abx-vanco-15-mg-kg-iv-q12h-gent-5-mg-kg-iv-q24h)\n\n# Pathogen-directed therapy\n\n[Coagulase-negative staph. intravascular catheter-associated infection](intravas-cath-coag-neg-staph)\n\n[Staphyloccus aureus intravascular catheter-associated infection](intravas-cath-s-aureus)\n\n[Enterococcus intravascular catheter-associated infection](orzid2-gmenu-intravas-cath-enterococcus)\n\n[Gram-negative Bacilli intravascular catheter-associated infection](intravas-cath-gnb)\n\n[Candida Spp. intravascular catheter-associated infection](intravas-cath-candida-spp)\n\nReferences\n\nMandell chapter: Infections Caused by Percutaneous Intravascular Devices\n\nMermel et al., Clinical Infectious Diseases 49 (2009)\n\nUp-to-date article: Treatment of Intravascular Catheter-Related Infections",
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU INTRAVASC CATH-ASSOC INFECT"
 }

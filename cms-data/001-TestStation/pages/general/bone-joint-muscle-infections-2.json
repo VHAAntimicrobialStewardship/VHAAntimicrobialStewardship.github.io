@@ -4,31 +4,6 @@
   "Term1": "bone-joint-muscle-infections-2",
   "Term2": "",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\n# BONE, JOINT, AND MUSCLE INFECTION\n\n[Septic bursitis](septic-bursitis)\n\n[Diskitis and vertebral osteomyelitis](vertebral-diskitis-osteom)\n\n[Osteomyelitis](orzid3-gmenu-osteomyelitis)\n\n[Infections in bone or joint prostheses](pros-joint-bone-infect)\n\n# Septic arthritis\n\n[Native joint](septic-arthritis-nat-joint)\n\n[Prosthetic joint](pros-joint-bone-infect)",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
-      "Item": "general-information-outpatient"
-    },
-    {
-      "Text": "Septic bursitis",
-      "Item": "septic-bursitis"
-    },
-    {
-      "Text": "Diskitis and vertebral osteomyelitis",
-      "Item": "vertebral-diskitis-osteom"
-    },
-    {
-      "Text": "Osteomyelitis",
-      "Item": "ORZID3 GMENU OSTEOMYELITIS"
-    },
-    {
-      "Text": "Infections in bone or joint prostheses",
-      "Item": "pros-joint-bone-infect"
-    },
-    {
-      "Text": "Native joint",
-      "Item": "septic-arthritis-nat-joint"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID3 GMENU BONE JOINT MUSCLE INFECTIONS"
 }

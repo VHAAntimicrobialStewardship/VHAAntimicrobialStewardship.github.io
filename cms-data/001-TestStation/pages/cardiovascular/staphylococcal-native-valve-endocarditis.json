@@ -4,31 +4,6 @@
   "Term1": "Staphylococcal native valve endocarditis",
   "Term2": "Native valve endocarditis, staphylococcal",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# NATIVE VALVE ENDOCARDITIS WITH STAPHYLOCOCCI\n\nEndocarditis with Staphylococcus aureus and coagulase-negative staphylococci are\n\ntreated similarly.\n\nRetrospective studies show that patients with native valve staphylococcal\n\nendocarditis treated with valve replacement and antimicrobials have a lower\n\nmortality rate than those treated with antimicrobials alone. Consult\n\ncardiothoracic surgery for all patients with staphylococcal endocarditis.\n\nMost patients need 6 weeks of antimicrobial treatment. For vancomycin-resistant\n\nstrains Infectious Disease consultation is recommended.\n\n# Treatment for methicillin-susceptible strains\n\nPreferred:\n\n[Nafcillin 2 gm IV q4h \\($$\\) DI for 6 weeks](psjizid-nafcillin-2gm-iv-q4h)\n\nPrimary alternative:\n\n[Assessment of beta-lactam reaction CLICK HERE](beta-lactam-allergy-assessment)\n\nTreat for 6 weeks:\n\n[Cefazolin 2 gm IV q8h \\($\\) R](psjizid-cefazolin-2gm-ivpb-q8h)\n\nSecondary alternative, after assessment of beta-lactam reaction above:\n\n[Vancomycin 15 mg/kg IV q12h \\($\\) R for 6 weeks](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n\n# Treatment for methicillin-resistant strains\n\n[Vancomycin 15 mg/kg IV q12h \\($\\) R for 6 weeks](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n\n< OR >\n\n[Daptomycin 8-12mg/kg q24h \\($$$$\\) R,DI for 6 weeks](psjizid-daptomycin-8-12mg-kg-q24h)\n\n# _______________________________________________________________________________\n\nReferences:\n\nBaddour et al., Circulation 2015, 132:1-52\n\nMandell chapter: Endocarditis and intravascular infections\n\nSanford keyword: Endocarditis\n\nUp-To-Date article: Overview of management of infective endocarditis in adults\n\nWang et al., JAMA 2018, 320.1:72-83",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "general-information-inpatient"
-    },
-    {
-      "Text": "Nafcillin 2 gm IV q4h ($$) [DI] for 6 weeks",
-      "Item": "PSJIZID NAFCILLIN 2GM IV Q4H"
-    },
-    {
-      "Text": "Assessment of beta-lactam reaction [CLICK HERE]",
-      "Item": "beta-lactam-allergy-assessment"
-    },
-    {
-      "Text": "Cefazolin 2 gm IV q8h ($) [R]",
-      "Item": "PSJIZID CEFAZOLIN 2GM IVPB Q8H"
-    },
-    {
-      "Text": "Vancomycin 15 mg/kg IV q12h ($) [R] for 6 weeks",
-      "Item": "ORZ SET ABX VANCO NEW START 15MG/KG Q12H + MRSA NARES SCREENING"
-    },
-    {
-      "Text": "Daptomycin 8-12mg/kg q24h ($$$$) [R,DI] for 6 weeks",
-      "Item": "PSJIZID DAPTOMYCIN 8-12MG/KG Q24H"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU EC NV STAPHYLOCOCCI"
 }

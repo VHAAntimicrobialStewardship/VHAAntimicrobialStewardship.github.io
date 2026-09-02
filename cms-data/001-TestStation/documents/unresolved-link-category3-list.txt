@@ -1,14 +1,8 @@
 Category 3: Potentially Mappable Clinical Page Targets
 Format: page | label | target
-adult-immunizations-outpatient | 19-26 years | orzid3-gmenu-abx-immunization-age-19-26-years
-adult-immunizations-outpatient | 27-49 years | orzid3-gmenu-abx-immunization-age-27-49-years
-adult-immunizations-outpatient | 50-64 years | orzid3-gmenu-abx-immunization-age-50-64-years
-adult-immunizations-outpatient | >/= 65 years | orzid3-gmenu-abx-immunization-65-years-or-greater
-adult-immunizations-outpatient | Diabetes | orzid3-gmenu-abx-immunization-in-diabetes
-adult-immunizations-outpatient | HIV | orzid3-gmenu-abx-immunization-in-hiv-pts
-adult-immunizations-outpatient | Pregnancy | orzid3-gmenu-pregnancy-vaccine
 antiviral-infection-malignancy | Seasonal Influenza Recommendations | orzid2-gmenu-abx-influenza-recommendations
-antiviral-prophylaxis-malignancy | Stem cell transplant recipients \(autologous or allogeneic\) | orzid2-gmenu-antiviral-stem-cell-malignancy
+asymp-bacteriuria | Antimicrobial prophylaxis for urological procedures | orzid2-gmenu-surg-urology-preop
+beta-lactam-allergy-assessment | Important Beta-Lactam Allergy Facts and Obtaining a Detailed Reaction History | orzid2-gmenu-abx-important-beta-lactam-allergy-facts
 bispecific-disease-specific-management | Order Continuous Monitoring for both Cardiac and Oximetry | orz-gmenu-admit-to-cardiac-monitor-bispecific
 bispecific-disease-specific-management | CBC & Diff Once Daily \(Bispecific Monitoring\) | lrtz-cbc-diff-daily-x7days-bispecific-monitoring
 bispecific-disease-specific-management | CMP Once daily \(Bispecific Monitoring\) | lrtz-cmp-daily-bispecific-monitoring
@@ -17,16 +11,16 @@ bispecific-disease-specific-management | Ferritin Once Daily \(Bispecific Monito
 bispecific-disease-specific-management | Protime/INR Once Daily \(Bispecific Monitoring\) | lrtz-protime-inr-daily-bispecific-monitoring
 bispecific-disease-specific-management | PTT Once Daily \(Bispecific Monitoring\) | lrtz-ptt-daily-bispecific-monitoring
 bispecific-disease-specific-management | Fibrinogen Once Daily \(Bispecific Monitoring\) | lrtz-fibrinogen-daily-bispecific-monitoring
+bite-wnds-s-aureus | Tetanus, Diphtheria and Acellular Pertussis Vaccine Information Page | orzid3-gmenu-abx-tdap-vaccine-information-page
+bite-wounds | Tetanus, Diphtheria and Acellular Pertussis Vaccine Information Page | orzid3-gmenu-abx-tdap-vaccine-information-page
 bone-joint-muscle-infections | Osteomyelitis | orzid2-gmenu-osteomyelitis
 bone-joint-muscle-infections-2 | Osteomyelitis | orzid3-gmenu-osteomyelitis
-bone-marrow-post-transplant-vaccinations | Allogenic | orzid3-gmenu-abx-bone-marrow-seattle-nashville-allogenic
-bone-marrow-post-transplant-vaccinations | Autologous | orzid3-gmenu-abx-bone-marrow-seattle-nashville-autologous
+bronchitis | Bronchitis-antibiotics not a benefit in otherwise healthy patients | orzid2-gmenu-abx-bronchitis-not-benefit
 bronchitis | COPD exacerbation | orzid2-gmenu-abx-copd-exacerbation
-cardiac-surgery-prophylaxis | Vancomycin 15mg/kg Weight Based Dosing Preop R | orzid2-gmenu-surg-vancomycin-weight-based-dosing
 catheter-associated-infection-intravascular | Approach to intravascular catheter-associated infection and antimicrobial | orzid2-gmenu-appro-intravas-cath-assoc-infect
-cell-mediated-immunity-defects | References | orzid2-gmenu-abx-references
-cied-surgery-pre-op-prophylaxis | Vancomycin 15mg/kg Weight Based Dosing Preop R | orzid2-gmenu-surg-vancomycin-weight-based-dosing
-clostridiodes-difficile-infection | Click here Information on C. difficile lab testing | orzid2-gmenu-abx-c-difficile-2-step-testing
+catheter-associated-infection-intravascular | Enterococcus intravascular catheter-associated infection | orzid2-gmenu-intravas-cath-enterococcus
+cns | Neurosurgery prophylaxis | orzid2-gmenu-surg-neurosurgery
+comm-acq-diarrhea | Clostridioides difficile treatment recommendations | orzid2-gmenu-abx-assoc-colitis
 doxypep | Lab: Syphilis antibody Serum | lrtz-syphilis-ab-w-reflex-to-rpr-w-titer
 doxypep | Lab: Chlamydia with Gonorrhea Urine | lrtz-chlamydia-with-gonorrhea-urine
 doxypep | Lab: Throat  swab for Chlamydia with Gonorrhea \(submit only ONE swab in media\) | lrtz-chlamydia-with-gonorrhea-throat
@@ -36,103 +30,224 @@ doxypep | Lab: HIV Ag/Ab | lrtz-hiv-ag-ab
 ec-pv-sel-path | Staphylococci | orzid2-gmenu-ec-pv-staphylococci
 ec-pv-sel-path | Streptococci | orzid2-gmenu-ec-pv-vgs-s-bovis
 endocarditis-approach-to | Diagnosis with Duke Criteria | orzid2-gmenu-abx-duke-criteria
-ercp-with-incomplete-drainage-prophylaxis | References | orzid2-gmenu-abx-references
-febrile-neutropenia-scoring-tool | References | orzid2-gmenu-abx-references
+endocarditis-approach-to | Penicillin Desensitization protocol | orzid2-gmenu-abx-penicillin-desens-protocol
+fever-in-asplenic-patient | Babesia Species | orzid2-gmenu-babesia-spp
+fungi | Aspergillus and other moulds | orzid2-gmenu-fungi-aspergillus-spp
 general-information-inpatient | Alternative Antimicrobials to CDSS Recommendations - select here | orzid-gmenu-abx-genrl-alternative-drug
 general-information-outpatient | Consult Menu - place consults to specialty service | orz-gmenu-consults-main-op
 general-information-outpatient | Alternative Antimicrobials to CDSS Recommendations - select here | orzid3-gmenu-need-an-alt-abx-main
 gi-intraabdominal | click here | ORZID2 GMENU ABSCESS SUBMENU
+gi-intraabdominal | click here | ORZID2 GMENU ABX ASSOC COLITIS
 gi-intraabdominal | click here | ORZID2 GMENU INFECT DIARRHEA/GASTRO
 gi-intraabdominal | click here | ORZID2 GMENU HEPATITIS SUBMENU
 gi-intraabdominal | click here | ORZID2 GMENU PERITONITIS SUBMENU
 h-pylori-infect | Click here Lab H.Pylori, stool | lrtz-h-pylori-ag-stool
+help-page | Pregnancy and lactation risk | ORZID3 GMENU PREGNANCY RISK INFO
+help-page | Warfarin interactions | ORZID3 GMENU WARFARIN DRUG INTERACTIONS
+help-page | Comments or suggestions | ORZID2 GMENU CONTACT CDSS STAFF
+help-page | Click Here | ORZID2 GMENU ABX EXCLUSIONS
+help-page | Click Here | ORZID2 GMENU ABX HOME IV AT MPLS
+help-page | Click Here | ORZID2 GMENU ABX HOW TO USE CDSS
+help-page | About the CDSS | ORZID2 GMENU ABX ABOUT THE CDSS
+help-page | Acknowledgements | ORZID2 GMENU ABX ACKNOWLEDGEMENTS
+hepatitis-a | Hepatitis A Vaccine Information Page (outpatient orders only) | orzid3-gmenu-abx-hepa-vaccine-information-page
 hepatitis-b-evaluation-anti-cd20-antibody | HEPATITIS B SEROLOGY PANEL | lrtz-hepatitis-b-serology-panel
 hepatitis-b-evaluation-anti-cd20-antibody | HIV RAPID TEST \(results in 1-2 hours\) | lrtzhiv-rapid-qualitative
 hepatitis-b-evaluation-anti-cd20-antibody | HEPATITIS B DNA LEVEL \(VIRAL LOAD\) | lrtz-hepatitis-b-dna-level-viral-load
-hernia-repair-surgery-with-abdominal-mesh-prophylaxis | DVT prophylaxis orders | orz-gmenu-dvt-prophylaxis
-hernia-repair-surgery-with-abdominal-mesh-prophylaxis | Vancomycin 15 mg/kg IV beginning 120 minutes before incision \($\) R | orzid2-gmenu-surg-vancomycin-weight-based-dosing
-high-risk-surgical-site-prophylaxis | Vancomycin 15mg/kg Weight Based Dosing Preop R | orzid2-gmenu-surg-vancomycin-weight-based-dosing
-hypochlorhydria | References | orzid2-gmenu-abx-references
-immunocompromise-basic-concepts | References | orzid2-gmenu-abx-references
+immunocom-malignancy | Prevention of viral infection in a patient with malignancy | orzid2-gmenu-antiviral-prophylaxis-malignancy
+immunocom-neut-fever | Link to a scoring tool that identifies low risk patients for oral therapy | orzid2-gmenu-neut-fever-scoring-tool
+immunocompromised-patient | Basic concepts | orzid2-gmenu-immunocom-basic-concepts
+immunocompromised-patient | Hypochlorhydria | orzid2-gmenu-immunocom-hypochlorhydria
+immunocompromised-patient | Malnutrition | orzid2-gmenu-immunocom-malnutrition
+immunocompromised-patient | Neutropenia | orzid2-gmenu-immunocom-neutropenia
+immunocompromised-patient | Stress | orzid2-gmenu-immunocom-stress
+immunocompromised-patient | Tobacco smoke | orzid2-gmenu-immunocom-tobacco-smoke
+immunocompromised-patient | Cell-mediated immunity (CMI) defects | orzid2-gmenu-cmi-defects
+immunocompromised-patient | Transplantation | orzid2-gmenu-transplantation
+index-inpatient | Abdominal mesh hernia repair surgery | ORZID2 GMENU SURG HERNIA REPAIR
+index-inpatient | About the CDSS | ORZID2 GMENU ABX ABOUT THE CDSS
+index-inpatient | Acknowledgement | ORZID2 GMENU ABX ACKNOWLEDGEMENTS
+index-inpatient | Antimicrobial interactions with warfarin | ORZID3 GMENU WARFARIN DRUG INTERACTIONS
+index-inpatient | Antimicrobial risk factors in pregnancy | ORZID3 GMENU PREGNANCY RISK INFO
+index-inpatient | Antimicrobial shortages updates | ORZID2 GMENU ABX ANTIMICROBIAL SHORTAGES
+index-inpatient | Antimicrobial therapy duration | ORZID2 GMENU ABX DURATION OF ABX THERAPY
+index-inpatient | Aspergillus infections, general | ORZID2 GMENU FUNGI ASPERGILLUS SPP.
 index-inpatient | Asymptomatic bacteriuria | ORZID2 GMENU ABX NOT BENEFITTED BACTERIURIA
+index-inpatient | Babesia infections, general | ORZID2 GMENU BABESIA SPP.
+index-inpatient | Beta-lactam allergy facts | ORZID2 GMENU ABX IMPORTANT BETA-LACTAM ALLERGY FACTS
+index-inpatient | Biliary Surgery | ORZID2 GMENU SURG BILIARY
+index-inpatient | Bone prosthesis infection, S. aureus | ORZID2 GMENU PROS BONE/JOINT S. AUREUS
+index-inpatient | Bowel surgery | ORZID2 GMENU SURG COLON AND RECTAL SURG
 index-inpatient | Bronchitis | ORZID2 GMENU ABX COPD EXACERBATION
+index-inpatient | Bronchitis in otherwise healthy patient | ORZID2 GMENU ABX BRONCHITIS NOT BENEFIT
+index-inpatient | C. diff infection | ORZID2 GMENU ABX ASSOC COLITIS
+index-inpatient | Cardiac Implantable Electronic Device surgery post-op prophylaxis | ORZID2 GMENU SURG CIED POSTOP
+index-inpatient | Cardiac Implantable Electronic Device surgery pre-op prophylaxis | ORZID2 GMENU SURG CIED PREOP
+index-inpatient | Cardiac surgery | ORZID2 GMENU SURG CARDIAC SURG
+index-inpatient | CDSS exclusions | ORZID2 GMENU ABX EXCLUSIONS
+index-inpatient | CDSS project team contact information | ORZID2 GMENU CONTACT CDSS STAFF
+index-inpatient | CDSS, how to use | ORZID2 GMENU ABX HOW TO USE CDSS
+index-inpatient | Cell-mediated immunity defects | ORZID2 GMENU CMI DEFECTS
 index-inpatient | Chemoprophylaxis of Influenza | ORZID2 GMENU ABX INFLUENZA CHEMOPROPHYLAXIS
+index-inpatient | Chickenpox vaccine information | ORZID3 GMENU ABX VAR VACCINE INFORMATION PAGE
+index-inpatient | Classification of surgical wounds | ORZID2 GMENU SURG WND CLASS PROPHYL REC
 index-inpatient | CMV infections, general | ORZID2 GMENU ABX CMV MAIN PAGE
 index-inpatient | Colonized wound | ORZID2 GMENU ABX COLONIZED WOUNDS
+index-inpatient | Contaminated surgical site prophylaxis | ORZID2 GMENU ABX DERM HIGH RISK SITE PROPHYLAXIS
+index-inpatient | Dental surgery, prevention of prosthetic joint infection | ORZID2 GMENU PREV PROS JOINT DENTAL
 index-inpatient | Dermatitis, stasis | ORZID2 GMENU ABX STASIS DERMATITIS
+index-inpatient | Dermatologic surgical site infection | ORZID2 GMENU ABX DERM SURGICAL INFECTION
+index-inpatient | Desensitization protocol, penicillin | ORZID2 GMENU ABX PENICILLIN DESENS PROTOCOL
 index-inpatient | Diabetic foot ulcer | ORZID2 GMENU FOOT ULCER WITH DM
 index-inpatient | Diarrhea, infectious | ORZID2 GMENU INFECT DIARRHEA/GASTRO
+index-inpatient | Diphtheria vaccine information | ORZID3 GMENU ABX TDAP VACCINE INFORMATION PAGE
+index-inpatient | Drainage incomplete, ERCP | ORZID2 GMENU SURG ERCP INCOMP DRAINAGE
+index-inpatient | Endoscopic Ultrasound-FNA procedures | ORZID2 GMENU ABX GI EUS-FNA ENDO PROCED
+index-inpatient | Febrile neutropenia scoring tool | ORZID2 GMENU NEUT FEVER SCORING TOOL
 index-inpatient | Fever of unknown origin | ORZID2 GMENU FEVER OF UNK ORIGIN
+index-inpatient | Gastroduodenal surgery | ORZID2 GMENU SURG GASTRODUODENAL SURG
+index-inpatient | Gynecological surgery | ORZID2 GMENU SURG GYNECOL SURG
+index-inpatient | Haemophilus influenza Type B vaccine information | ORZID3 GMENU ABX HIB VACCINE INFORMATION PAGE
+index-inpatient | Head and neck surgery | ORZID2 GMENU SURG HEAD AND NECK SURG
+index-inpatient | Hemodialysis immunizations | ORZID3 GMENU ABX IMMUNIZATION IN KIDNEY FAILURE/HD
+index-inpatient | HepA vaccine information | ORZID3 GMENU ABX HEPA VACCINE INFORMATION PAGE
+index-inpatient | HepA/B vaccine information | ORZID3 GMENU ABX HEPAHEPB VACCINE INFORMATION PAGE
+index-inpatient | Hepatic disease immunizations | ORZID3 GMENU ABX IMMUNIZATION IN CHRONIC LIVER DISEASE
+index-inpatient | Home IV therapy | ORZID2 GMENU ABX HOME IV AT MPLS
+index-inpatient | HPV vaccine information | ORZID3 GMENU ABX HPV VACCINATION INFORMATION PAGE
+index-inpatient | Hypochlorhydria | ORZID2 GMENU IMMUNOCOM HYPOCHLORHYDRIA
+index-inpatient | Immunocompromise basic concepts | ORZID2 GMENU IMMUNOCOM BASIC CONCEPTS
+index-inpatient | Joint arthroplasty | ORZID2 GMENU SURG ORTHO SURG JOINT ARTHRO
 index-inpatient | Leishmaniasis infections, general | ORZID2 GMENU LEISHMANIASIS
+index-inpatient | Leukocytosis | ORZID2 GMENU LEUKOCYTOSIS
 index-inpatient | MAC | ORZID2 GMENU M. AVIUM INTRACELLULARE
+index-inpatient | Malnutrition | ORZID2 GMENU IMMUNOCOM MALNUTRITION
+index-inpatient | Measles, mumps, rubella vaccine information | ORZID3 GMENU ABX MMR VACCINE INFORMATION PAGE
+index-inpatient | Mediastinitis | ORZID2 GMENU ABX MEDIASTINITIS
+index-inpatient | MENACWY vaccine information | ORZID3 GMENU ABX MENACWY VACCINE INFORMATION PAGE
+index-inpatient | MenB vaccine information | ORZID3 GMENU ABX MENB VACCINE INFORMATION PAGE
 index-inpatient | More about parotitis | ORZID2 GMENU ABX PAROTITIS MORE INFORMATION
 index-inpatient | Mycobacterium tuberculosis | ORZID2 GMENU M. TUBERCULOSIS
+index-inpatient | Neurosurgery | ORZID2 GMENU SURG NEUROSURGERY
+index-inpatient | Neutropenia | ORZID2 GMENU IMMUNOCOM NEUTROPENIA
+index-inpatient | Non-streptococcal pharyngitis | ORZID2 GMENU ABX NOT BENEFITED PHARYNGITIS
 index-inpatient | Norovirus diarrhea/gastroenteritis | ORZID2 GMENU COMM VIRAL GASTROENTERITIS
+index-inpatient | Ophthalmic surgery | ORZID2 GMENU SURG OPHTHALMIC SURG
 index-inpatient | Osteomyelitis | ORZID2 GMENU OSTEOMYELITIS
+index-inpatient | Other procedures | ORZID2 GMENU SURG OTHER PROCEDURES
 index-inpatient | Parainfluenza | ORZID2 GMENU ABX PARAINFLUENZA
+index-inpatient | PCV | ORZID3 GMENU ABX PNEUMOCOCCAL VACCINE INFORMATION PAGE
+index-inpatient | PEG tube placement procedure | ORZID2 GMENU GI PEG TUBE PLACEMENT
+index-inpatient | Podiatric surgery | ORZID2 GMENU SURG PODIATRY
+index-inpatient | Pre-operative antimicrobials general information | ORZID2 GMENU SURG PROPHYL GENRL INFO
+index-inpatient | Prevention of prosthetic joint infection with dirty operation site | ORZID2 GMENU ABX DERM IE JI PROPHYLAXIS
 index-inpatient | Respiratory syncytial virus | ORZID2 GMENU ABX RSV
 index-inpatient | Rosacea | ORZID2 GMENU ABX ROSACEA
+index-inpatient | Shingles vaccine information | ORZID3 GMENU ABX ZOSTER VACCINE INFORMATION PAGE
+index-inpatient | Spinal cord stimulator trial procedure antimicrobial prophylaxis | ORZID2 GMENU SURG SPINAL CORD STIMULATOR TRIAL
 index-inpatient | Stem cell recipients, viral prophylaxis | ORZID2 GMENU ANTIVIRAL STEM CELL MALIGNANCY
+index-inpatient | Stress | ORZID2 GMENU IMMUNOCOM STRESS
+index-inpatient | Thoracic surgery | ORZID2 GMENU SURG THORACIC SURGERY
+index-inpatient | Thoracic surgery post-operative prophylaxis | ORZID2 GMENU SURG THORACIC POSTOP
+index-inpatient | Tobacco smoke | ORZID2 GMENU IMMUNOCOM TOBACCO SMOKE
+index-inpatient | Toxoplasma infections, general | ORZID2 GMENU TOXOPLASMA SPP.
+index-inpatient | Transplantation | ORZID2 GMENU TRANSPLANTATION
 index-inpatient | Tuberculosis | ORZID2 GMENU ABX TUBERCULOSIS
+index-inpatient | Urological post-operative prophylaxis | ORZID2 GMENU SURG UROLOGY POSTOP
+index-inpatient | Urological surgery | ORZID2 GMENU SURG UROLOGY PREOP
+index-inpatient | Vascular surgery | ORZID2 GMENU SURG VASCULAR SURG
+infect-diarrhea-gastroent | Mild to moderate disease | orzid3-gmenu-cdifficile-colitis
 infect-diarrhea-gastroent | Norovirus | orzid3-gmenu-comm-viral-gastroenteritis
 influenza-recommendations-outpatient | Chemoprophylaxis Recommendations | orzid3-gmenu-influenza-chemoprophylaxis
 influenza-recommendations-outpatient | Lab Influenza Testing Menu | orz-gmenu-lab-nasopharyngeal-testing-main
-malnutrition | References | orzid2-gmenu-abx-references
 meds-delayed-pre-op-antibiotics-cv-surgery2 | Standard \(Non PCN allergic\) | orzid2-gmenu-abx-delayed-standard-abx-cv-surg
 meds-delayed-pre-op-antibiotics-cv-surgery2 | Severly PCN allergic | orzid2-gmenu-delayed-pcn-allergic-cv-surg
 modification-of-neutropenic-fever-therapy | Patients who BECOME AFEBRILE in the first 3 to 5 days of treatment | orzid2-gmenu-neut-fever-pt-become-afebrile
 modification-of-neutropenic-fever-therapy | Patients whose FEVER PERSISTS throughout the first 3 to 5 days of treatment | orzid2-gmenu-neut-fever-pt-fever-persists
 modification-of-neutropenic-fever-therapy | References | orzid2-gmenu-abx-references
 more-about-cellulitis | Foot ulcer in patient with diabetes mellitus | orzid2-gmenu-foot-ulcer-with-dm
-neurosurgery-prophylaxis | Vancomycin 15mg/kg Weight Based Dosing Preop R | orzid2-gmenu-surg-vancomycin-weight-based-dosing
-neutropenia | References | orzid2-gmenu-abx-references
-non-streptococcal-pharyngitis | References: | orzid2-gmenu-abx-references
+neut-fever-cand-oral-thera | Link to a scoring tool that identifies low risk patients for oral therapy | orzid2-gmenu-neut-fever-scoring-tool
 noso-pneumonia-new | Hospital acquired pneumonia (HAP) | orzid2-gmenu-abx-pneumonia-hap-new
+not-required | Pharyngitis, non-streptococcal | orzid2-gmenu-abx-not-benefited-pharyngitis
 not-required | Upper Respiratory Infections \(URI\) | orzid2-gmenu-abx-upper-respiratory-infections-uri
+not-required | Bronchitis in an Otherwise Healthy Patient | orzid2-gmenu-abx-bronchitis-not-benefit
 not-required | Stasis Dermatitis | orzid2-gmenu-abx-stasis-dermatitis
 not-required | Colonized Wounds | orzid2-gmenu-abx-colonized-wounds
 not-required | Asymptomatic Bacteriuria, cadiduria and pyuria | orzid2-gmenu-abx-not-benefitted-bacteriuria
-orthopedic-surgery-prophylaxis | Vancomycin 15mg/kg Weight Based Dosing Preop R | orzid2-gmenu-surg-vancomycin-weight-based-dosing
 osteom-staphylococcus-aureus | References | orzid2-gmenu-abx-references
 osteomyelitis-evaluation | <Click here> Osteomyelitis | orzid3-gmenu-osteomyelitis
 other-pathogens | Mycobacterium tuberculosis | orzid2-gmenu-m-tuberculosis
 other-pathogens | Mycobacterium avium intracellulare complex \(a.k.a. MAI or MAC\) | orzid2-gmenu-m-avium-intracellulare
-other-procedures-prophylaxis | References | orzid2-gmenu-abx-references
+parasites | Babesia spp. | orzid2-gmenu-babesia-spp
 parasites | Diarrhea, parasitic | orzid2-gmenu-infect-diarrhea-gastro
 parasites | Malaria | orzid2-gmenu-abx-malaria-treatment
+parasites | Toxoplasma | orzid2-gmenu-toxoplasma-spp
 parotitis | More information on Parotitis | orzid2-gmenu-abx-parotitis-more-information
-podiatric-surgery-prophylaxis | Vancomycin 15 MG/KG IV beginning 120 minutes before incision \($\) R | orzid2-gmenu-surg-vancomycin-weight-based-dosing
-post-exposure-prophylaxis | Blood Borne Pathogen Labs | orz-gmenu-occ-health-bbp-labs-main
-post-exposure-prophylaxis | Select to place order for labs CBC, LFTs, Basic Metabolic\(SMA-7\) | orz-gmenu-lab-ed-pep-cbc-lft-basic-metabolic
-post-exposure-prophylaxis-non-occupational | < SELECT HERE > FOR TABLE | orzid3-gmenu-abx-pep-nonoccup-risk-table-by-exposure-act
-post-exposure-prophylaxis-non-occupational | < SELECT HERE > INITIAL LABORATORY ORDERS | orzid3-gmenu-abx-pep-non-occupational-laboratory-orders
-post-exposure-prophylaxis-non-occupational | < SELECT HERE > ANTIRETROVIRAL RECOMMENDATIONS for nPEP | orzid3-gmenu-abx-pep-non-occupational-drug-tx
-post-exposure-prophylaxis-non-occupational | < SELECT HERE > 4 Week Follow-up Labs and RTC orders | orzid3-gmenu-abx-pep-non-occupational-labs-rtc
 post-operative-wound-infection | Patients with signs of infection WITHIN 48 HOURS of procedure | orzid2-gmenu-surg-w-i-48hrs-procedure
 post-operative-wound-infection | Patients with signs of infection 48 HOURS OR MORE after procedure | orzid2-gmenu-surg-48hrs-after-proc
+prev-of-bact-endocarditis | Patients undergoing procedures on the respiratory tract that involve incision or | orzid2-gmenu-surg-head-and-neck-surg
+prevention-of-infection | Before dental procedures | orzid2-gmenu-prev-pros-joint-dental
+prevention-of-infection | Before procedures involving infected skin, skin structures or musculoskeletal | orzid2-gmenu-abx-derm-ie-ji-prophylaxis
+prevention-of-infection | Antiviral prophylaxis | orzid2-gmenu-antiviral-prophylaxis-malignancy
 pros-b-j-enterococci | Linezolid 600 mg PO BID \($\) DI,O | zzpsozid-linezolid-600mg-po-bid
-rabies-pre-exposure-prophylaxis | Rabies Post-Exposure Prophylaxis | orzid3-gmenu-abx-rabies-post-exposure-prophylaxis
-rabies-pre-exposure-prophylaxis | Rabies virus rapid fluorescent focus inhibition test | lrtzid-rabies-virus-rapid-fluorescent-inhibition-test
+recommended-immunizations | Chickenpox (Varivax, VAR) | orzid3-gmenu-abx-var-vaccine-information-page
+recommended-immunizations | Diphtheria (Tenivac, Td / Boostrix, Tdap) | orzid3-gmenu-abx-tdap-vaccine-information-page
+recommended-immunizations | Haemophilus influenzae type b (Hiberix, Hib) | orzid3-gmenu-abx-hib-vaccine-information-page
+recommended-immunizations | Hepatitis A (Havrix, HepA) | orzid3-gmenu-abx-hepa-vaccine-information-page
+recommended-immunizations | Hepatitis A and Hepatitis B (Twinrix, HepA/B) | orzid3-gmenu-abx-hepahepb-vaccine-information-page
+recommended-immunizations | Herpes zoster (Shingrix, RZV) | orzid3-gmenu-abx-zoster-vaccine-information-page
+recommended-immunizations | Human papillomavirus (Gardasil 9, HPV) | orzid3-gmenu-abx-hpv-vaccination-information-page
+recommended-immunizations | Measles (M-M-R II, MMR) | orzid3-gmenu-abx-mmr-vaccine-information-page
+recommended-immunizations | Meningococcal serogroups A, C, W and Y (Menveo, MenACWY) | orzid3-gmenu-abx-menacwy-vaccine-information-page
+recommended-immunizations | Meningococcal serogroup B (Bexsero, MenB) | orzid3-gmenu-abx-menb-vaccine-information-page
+recommended-immunizations | Pneumococcus (PCV20, Prevnar20) | orzid3-gmenu-abx-pneumococcal-vaccine-information-page
+recommended-immunizations | Rabies (Imovax) - for post-exposure prophylaxis, refer to ED Antimicrobial CDSS | orzid3-gmenu-abx-rabies-pre-exposure-prophylaxis
+recommended-immunizations | Bone Marrow Transplant, hematopoietic stem cell transplant (HSCT) | orzid3-gmenu-abx-bone-marrow-post-transplant-vaccinations
+recommended-immunizations | Chronic Liver Disease | orzid3-gmenu-abx-immunization-in-chronic-liver-disease
+recommended-immunizations | Health Care Personnel | orzid3-gmenu-abx-immunization-in-health-care-personnel
+recommended-immunizations | Heart/Lung Disease or Alcoholism | orzid3-gmenu-abx-immunization-heart-lung-disease-alcoholism
+recommended-immunizations | Immunocompromised (not including HIV and HSCT) | orzid3-gmenu-abx-immunization-of-immunocompromised-pts
+recommended-immunizations | Kidney Failure or on Hemodialysis | orzid3-gmenu-abx-immunization-in-kidney-failure-hd
+recommended-immunizations | Men who Have Sex with Men | orzid3-gmenu-abx-immunization-in-men-who-have-sex-with-men
 sepsis-and-shock | Sepsis antimicrobial treatment recommendations | orzid2-gmenu-sepsis-protocol-antimicrobials
 septic-arth-enterococci | References | orzid2-gmenu-abx-references
-spinal-cord-stimulator-trial-procedure-prophylaxis | Vancomycin Weight Based Dosing IVPB x1 Dose | orzid2-gmenu-surg-vancomycin-weight-based-dosing
+sexually-transmitted-infection | HIV Post-Exposure Prophylaxis Non-Occupational (Blood/Body Fluids) Outpatient | orzid3-gmenu-abx-pep-non-occup-main-page
+sexually-transmitted-infection | HIV Post-Exposure Prophylaxis Occupational (Blood/Body Fluids) Outpatient | orzid3-gmenu-abx-pep-occupational-exposure
 staph-toxic-shock-syndrome | References | orzid2-gmenu-abx-references
 strep-toxic-shock-syndrome | References | orzid2-gmenu-abx-references
-stress | References | orzid2-gmenu-abx-references
 surg-interventional-radiology | Cefazolin Weight Based Dosing Preop \($\)R | orzid2-gmenu-surg-cefazolin-ir-weight-based-dosing
 surg-interventional-radiology | Vancomycin 15mg/kg Weight Based Dosing Preop R | orzid2-gmenu-surg-vancomycin-weight-based-dosing
-surg-timing-dosing-prophyl | References | orzid2-gmenu-abx-references
 surg-vascular-surg-postop | Cefazolin Weight Based Dosing q8h x2 doses postop | orzid2-gmenu-surg-cefazolin-wt-based-postop-doses-x2
 surg-vascular-surg-postop | Vancomycin 15mg/kg Dosing q12h x1 dose postop | orzid2-gmenu-surg-vancomycin-post-op-specific-dosing
 surg-vascular-surg-postop | References | orzid2-gmenu-abx-references
-surgical-wound-classification | References | orzid2-gmenu-abx-references
+surgical-post-op-antimicrobial-prophylaxis | CIED Surgery Post-op Prophylaxis | orzid2-gmenu-surg-cied-postop
+surgical-post-op-antimicrobial-prophylaxis | Thoracic Surgery Post-op Prophylaxis | orzid2-gmenu-surg-thoracic-postop
+surgical-post-op-antimicrobial-prophylaxis | Urology Surgery Post-op Prophylaxis | orzid2-gmenu-surg-urology-postop
+surgical-pre-op-antibiotics | Surgical prophylaxis general information | ORZID2 GMENU SURG PROPHYL GENRL INFO
+surgical-pre-op-antibiotics | Surgical wound classification and prophylaxis recommendations | ORZID2 GMENU SURG WND CLASS PROPHYL REC
+surgical-pre-op-antibiotics | Timing of prophylactic antibiotics | ORZID2 GMENU SURG TIMING DOSING PROPHYL ABX
+surgical-pre-op-antibiotics | CHART: Redosing Interval for Normal and ESRD renal function | ORZID2 GMENU SURG ANTIBIOTIC RENAL REDOSING
+surgical-pre-op-antibiotics | Neurosurgery | ORZID2 GMENU SURG NEUROSURGERY
+surgical-pre-op-antibiotics | Head and neck surgery (See Thoracic for esophageal procedures) | ORZID2 GMENU SURG HEAD AND NECK SURG
+surgical-pre-op-antibiotics | Ophthalmology Surgery- Moxifloxacin Intracameral for Cataract Surgery | ORZID2 GMENU SURG OPHTHALMIC SURG
+surgical-pre-op-antibiotics | Cardiac Procedures | ORZID2 GMENU SURG CARDIAC SURG
+surgical-pre-op-antibiotics | Cardiac Implantable Electronic Devices Surgery | ORZID2 GMENU SURG CIED PREOP
+surgical-pre-op-antibiotics | Thoracic surgery (See CV surgery for heart) | ORZID2 GMENU SURG THORACIC SURGERY
+surgical-pre-op-antibiotics | Cardiovascular surgery decolonization | ORZID3 GMENU ABX CARD SURGERY DECOLON
+surgical-pre-op-antibiotics | Gastroduodenal surgery | ORZID2 GMENU SURG GASTRODUODENAL SURG
+surgical-pre-op-antibiotics | GI Endoscopic Procedures | ORZID2 GMENU GI ENDOSCOPIC PROCEDURES
+surgical-pre-op-antibiotics | Vascular surgery | ORZID2 GMENU SURG VASCULAR SURG
+surgical-pre-op-antibiotics | Biliary surgery | ORZID2 GMENU SURG BILIARY
+surgical-pre-op-antibiotics | Colon and rectal surgery | ORZID2 GMENU SURG COLON AND RECTAL SURG
+surgical-pre-op-antibiotics | Hernia repair surgery with abdominal mesh | ORZID2 GMENU SURG HERNIA REPAIR
+surgical-pre-op-antibiotics | Gynecological surgery | ORZID2 GMENU SURG GYNECOL SURG
+surgical-pre-op-antibiotics | Urological Procedures | ORZID2 GMENU SURG UROLOGY PREOP
+surgical-pre-op-antibiotics | Orthopedic surgery,including joint arthroplasty | ORZID2 GMENU SURG ORTHO SURG JOINT ARTHRO
+surgical-pre-op-antibiotics | Other procedures | ORZID2 GMENU SURG OTHER PROCEDURES
+surgical-pre-op-antibiotics | Pain Clinic-Spinal Cord Stim Trial | ORZID2 GMENU SURG SPINAL CORD STIMULATOR TRIAL
 syphilis | Syphilis antibody test with reflex to rapid plasma reagin \(RPR\) | lrtz-syphilis-ab-w-reflex-to-rpr-w-titer
+system-infectious-diseases | Enterococci | orzid2-gmenu-intravas-cath-enterococcus
 system-infectious-diseases | Fever of unknown origin | orzid2-gmenu-fever-of-unk-origin
-thoracic-surgery-prophylaxis | Vancomycin 15 MG/KG IV beginning 120 minutes before incision \($\) R | orzid2-gmenu-surg-vancomycin-weight-based-dosing
-tobacco-smoke | References | orzid2-gmenu-abx-references
-transplantation | References | orzid2-gmenu-abx-references
-urological-post-operative-prophylaxis | Cefazolin Weight Based Dosing q8h x2 doses postop | orzid2-gmenu-surg-cefazolin-wt-based-postop-doses-x2
-urological-post-operative-prophylaxis | Vancomycin 15mg/kg Dosing q12h x1 dose postop | orzid2-gmenu-surg-vancomycin-post-op-specific-dosing
-urological-surgery-prophylaxis | Link to outpatient menu | orzid3-gmenu-prostate-biopsy-prophylaxis
-vascular-surgery-prophylaxis | Vancomycin 15mg/kg Weight Based Dosing Preop R | orzid2-gmenu-surg-vancomycin-weight-based-dosing
-vascular-surgery-prophylaxis | References | orzid2-gmenu-abx-references
+system-infectious-diseases | Leukocytosis | orzid2-gmenu-leukocytosis
+typhlitis | Clostridioides difficile infection | orzid2-gmenu-abx-assoc-colitis
+viruses | Pre-Exposure Prophylaxis | orzid3-gmenu-abx-rabies-pre-exposure-prophylaxis

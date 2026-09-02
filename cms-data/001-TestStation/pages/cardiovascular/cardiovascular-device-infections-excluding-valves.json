@@ -4,23 +4,6 @@
   "Term1": "Cardiovascular device infections (excluding valves)",
   "Term2": "Device infections, cardiovascular (excluding valves)",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# INFECTIONS INVOLVING CARDIOVASCULAR DEVICES (EXCLUDING VALVES)\n\nMost infections are associated with Staphylococcus aureus and coagulase-negative\n\nstaphylococci.  Many of these staphylococci are resistant to methicillin, so\n\ninitial empiric therapy with vancomycin is required. Consultation with\n\nInfectious Diseases is encouraged for patients with severe allergies to\n\nvancomycin or for those who have vancomycin-resistant infections.\n\nAt least 3 blood cultures should be drawn prior to the initiation of empirical\n\nantimicrobial. Modify antimicrobial regimen and narrow coverage based on results\n\nof culture and susceptibility tests Infectious Disease and Cardiothoracic\n\nsurgery consultations are encouraged.\n\nDevice removal is necessary for cure in most cases.  However, it may be\n\ndifficult depending on the nature of the device and specific clinical\n\ncircumstances.  Device removal should be discussed with Cardiology, Infectious\n\nDisease, or Cardiothoracic surgery consultants.\n\nIf the device removal is not possible add rifampin.\n\n# Duration of therapy\n\nDuration of therapy should be determined in concert with Cardiology, Infectious\n\nDisease, or Cardiothoracic surgery consultants.\n\n# Empiric treatment in cases where device removal is planned\n\n[Vancomycin 15 mg/kg IV q12h \\($\\) R](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n\n# Empiric treatment in cases where surgery cannot be performed\n\n[Vancomycin 15 mg/kg IV q12h \\($\\) R <AND> rifampin 300 mg PO/NG q8h \\($\\)](orz-set-abx-vanco-rifamp-300mg-po-q8h)\n\n[DI,O]\n\n# For hemodynamically unstable patients, add gentamicin to one of the above\n\n# treatment regimens\n\n[< ADD > gentamicin 1 mg/kg IV q8h \\($\\) R,O](psjizid-gentamicin-1-mg-kg-iv-q8h)\n\n# _______________________________________________________________________________\n\nReferences:\n\nBaddour et al., Circulation 2010, 121.458-477\n\nBaddour et al., Circulation 2015, 132:1-52\n\nKusumoto et al., Heart Rhythm 2017, 14.15\n\nSanford keyword: Pacemaker/Defibrillator Infections\n\nMandell chapter: Infections of Nonvalvular Cardiovascular Devices\n\nUp-To-Date article: Infections involving cardiac implantable electronic devices:\n\nTreatment and prevention\n\nWang et al., JAMA 2018, 320.1:72-83",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "general-information-inpatient"
-    },
-    {
-      "Text": "Vancomycin 15 mg/kg IV q12h ($) [R]",
-      "Item": "ORZ SET ABX VANCO NEW START 15MG/KG Q12H + MRSA NARES SCREENING"
-    },
-    {
-      "Text": "Vancomycin 15 mg/kg IV q12h ($) [R] <AND> rifampin 300 mg PO/NG q8h ($)",
-      "Item": "ORZ SET ABX VANCO+RIFAMP 300MG PO Q8H"
-    },
-    {
-      "Text": "< ADD > gentamicin 1 mg/kg IV q8h ($) [R,O]",
-      "Item": "PSJIZID GENTAMICIN 1 MG/KG IV Q8H"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU ABX INFECT INVOLVES CARD DEVICES"
 }

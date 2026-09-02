@@ -4,15 +4,6 @@
   "Term1": "foot-ulcer-in-pt-w-dm",
   "Term2": "",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\n# FOOT ULCER IN PATIENT WITH DIABETES MELLITUS\n\nFoot ulcers in patients with diabetes mellitus are colonized with bacteria. Do\n\nnot treat colonization with systemic antimicrobials.\n\n[Foot ulcers WITH infection of surrounding tissues](foot-ulcer-w-infect-new-march-25)\n\n_______________________________________________________________________________\n\nReferences:\n\nStevens DL Clin Infect Dis 2014, 59:147\n\nLipsky BA Clin Infect Dis 2012, 54:e132",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
-      "Item": "general-information-outpatient"
-    },
-    {
-      "Text": "Foot ulcers WITH infection of surrounding tissues",
-      "Item": "foot-ulcer-w-infect-new-march-25"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID3 GMENU FOOT ULCER IN PT W/ DM"
 }

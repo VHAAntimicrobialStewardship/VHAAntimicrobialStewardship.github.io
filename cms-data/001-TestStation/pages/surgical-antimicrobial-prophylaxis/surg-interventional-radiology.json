@@ -4,27 +4,6 @@
   "Term1": "surg-interventional-radiology",
   "Term2": "",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# Prophylaxis for Interventional Radiology\n\n# If no antimicrobial prophylaxis recommended, select below:\n\n[Click here No antimicrobial prophylaxis recommended for procedure](orz-gtx-abx-pre-op-url-nurse-generic-order)\n\n# Preferred:\n\n[Cefazolin Weight Based Dosing Preop \\($\\)R](orzid2-gmenu-surg-cefazolin-ir-weight-based-dosing)\n\n# Alternative for patients with beta lactam allergy or IF MRSA concern:\n\n[Click here Beta-lactam allergy assessment](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Vancomycin 15mg/kg Weight Based Dosing Preop R](orzid2-gmenu-surg-vancomycin-weight-based-dosing)\n\nReferences\n\nBratzler DW, et al.  Clinical practice guidelines for antimicrobial prophy\n\nin surgery, Am J Health-Syst Pharm. 2013 Vol 70 page 195-283",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "general-information-inpatient"
-    },
-    {
-      "Text": "[Click here] No antimicrobial prophylaxis recommended for procedure",
-      "Item": "ORZ GTX ABX PRE-OP URL NURSE GENERIC ORDER"
-    },
-    {
-      "Text": "Cefazolin Weight Based Dosing Preop ($)[R]",
-      "Item": "ORZID2 GMENU SURG CEFAZOLIN IR WEIGHT BASED DOSING"
-    },
-    {
-      "Text": "[Click here] Beta-lactam allergy assessment",
-      "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
-    },
-    {
-      "Text": "Vancomycin 15mg/kg Weight Based Dosing Preop [R]",
-      "Item": "ORZID2 GMENU SURG VANCOMYCIN WEIGHT BASED DOSING"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU SURG INTERVENTIONAL RADIOLOGY"
 }

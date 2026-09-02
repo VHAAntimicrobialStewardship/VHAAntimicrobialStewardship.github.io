@@ -4,15 +4,6 @@
   "Term1": "gram-pos-propionibact-spp",
   "Term2": "",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\n# CUTIBACTERIUM (FORMERLY PROPIONIBACTERIUM) SPECIES\n\nIsolation of Cutibacterium species from a culture often represents contamination\n\nor colonization and not disease. For questions about whether a patient should be\n\ntreated, contact Infectious Diseases.\n\nOptimal therapy depends on both the disease or syndrome and the pathogen. See\n\ndisease/syndrome sections for more information.\n\n[Acne](acne)\n\n# Preferred treatment\n\nFor intravenous treatment options, please refer to Inpatient Antimicrobial CDSS.\n\n# _______________________________________________________________________________\n\n# References:\n\nSanford Guide article: Cutibacterium acnes\n\nUp-To-Date article: Invasive Cutibacterium (formerly Propionibacterium)\n\ninfections",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
-      "Item": "general-information-outpatient"
-    },
-    {
-      "Text": "Acne",
-      "Item": "acne"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID3 GMENU GRAM-POS PROPIONIBACT SPP."
 }

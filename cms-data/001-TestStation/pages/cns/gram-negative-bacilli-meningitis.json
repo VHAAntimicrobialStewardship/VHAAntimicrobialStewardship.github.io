@@ -4,23 +4,6 @@
   "Term1": "Gram-negative bacilli meningitis",
   "Term2": "Meningitis with gram-negative bacilli",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# BACTERIAL MENINGITIS WITH GRAM-NEGATIVE BACILLI\n\nOnce a diagnosis of acute bacterial meningitis is considered likely,\n\nantimicrobials should be initiated as soon as possible. Two blood cultures\n\nshould be drawn. Lumbar puncture (LP) should be performed in nearly all patients\n\nto obtain cerebrospinal fluid (CSF) for establishing diagnosis and determining\n\ninfectious organism/susceptibility. Adjust antimicrobial regimen to optimize\n\ntherapy and treatment duration based on pathogen once isolated.\n\n# Consult Infectious Diseases\n\n# Empiric Treatment\n\nPreferred:\n\n[Cefepime 2gm IV q8h \\($$\\) R <AND> gentamicin 2 mg/kg IV x 1 then 1.7 mg/kg IV](orz-set-abx-cefepime-2gm-iv-q8h-gent-2mg-kg-x1-1-7mg-kg-iv-q8h)\n\nq8h ($) [R,O]\n\nAlternative:\n\n[Assessment of beta-lactam reaction](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Meropenem 2 gm IV q8h \\($$\\) R,O](psjizid-meropenem-2gm-iv-q8h)\n\n# _______________________________________________________________________________\n\nReferences:\n\nMandell chapter: Acute meningitis\n\nSanford keyword: Meningitis, bacterial, positive gram stain\n\nSanford keyword: Meningitis, Gram-negative Bacilli\n\nTunkel et al., Clin Infect Dis, 2004, 39.1267-84\n\nUp-to-Date Article: Clinical features and diagnosis of acute bacterial\n\nmeningitis in adults\n\nUp-to-Date Article: Treatment of bacterial meningitis caused by specific\n\npathogens in adults\n\nVan de Beek et al., Clin Microbiol Infect, 2016, 22.S37-S62",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "general-information-inpatient"
-    },
-    {
-      "Text": "Cefepime 2gm IV q8h ($$) [R] <AND> gentamicin 2 mg/kg IV x 1 then 1.7 mg/kg IV",
-      "Item": "ORZ SET ABX CEFEPIME 2GM IV Q8H GENT 2MG/KG X1 1.7MG/KG IV Q8H"
-    },
-    {
-      "Text": "Assessment of beta-lactam reaction",
-      "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
-    },
-    {
-      "Text": "Meropenem 2 gm IV q8h ($$) [R,O]",
-      "Item": "PSJIZID MEROPENEM 2GM IV Q8H"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU BACT MENING GNB"
 }

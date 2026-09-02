@@ -4,23 +4,6 @@
   "Term1": "septic-arth-enterococci",
   "Term2": "",
   "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\nSEPTIC ARTHRITIS (NATIVE JOINT) WITH ENTEROCOCCI\n\nAdminister parenteral therapy initially then can be converted to appropriate\n\noral therapy.\n\nDuration of treatment for 2-4 weeks, depending on response\n\n# Treatment, MILD-MODERATE infections\n\n[Amoxicillin 500 mg PO TID \\($\\) R](psozid2-amoxicillin-14ds-500mg-po-tid)\n\n[Non-VA order for above](pshzid2-amoxicillin-14ds-500mg-po-tid)\n\n# Treatment, SEVERE infections\n\nRefer to Inpatient Antimicrobial CDSS.\n\n[References](orzid2-gmenu-abx-references)\n\nMandell chapter: Infectious arthritis of native joints\n\nSanford keyword: Septic arthritis\n\nStevens DL Clin Inf Dis 2014, 59:e10-52",
-  "LinkTargets": [
-    {
-      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
-      "Item": "general-information-outpatient"
-    },
-    {
-      "Text": "Amoxicillin 500 mg PO TID ($) [R]",
-      "Item": "PSOZID2 AMOXICILLIN 14DS 500MG PO TID"
-    },
-    {
-      "Text": "Non-VA order for above",
-      "Item": "PSHZID2 AMOXICILLIN 14DS 500MG PO TID"
-    },
-    {
-      "Text": "References",
-      "Item": "ORZID2 GMENU ABX REFERENCES"
-    }
-  ],
+  "LinkTargets": [],
   "Inpt": "ORZID3 GMENU SEPTIC ARTH ENTEROCOCCI"
 }
