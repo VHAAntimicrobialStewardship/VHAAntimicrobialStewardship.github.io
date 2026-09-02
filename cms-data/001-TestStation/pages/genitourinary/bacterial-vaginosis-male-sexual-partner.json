@@ -1,0 +1,22 @@
+{
+  "PageID": "bacterial-vaginosis-male-sexual-partner",
+  "Group": "genitourinary",
+  "Term1": "bacterial-vaginosis-male-sexual-partner",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\n# Concurrent Male Partner Treatment for Recurrent, Symptomatic Bacterial Vaginosis\n\nIn monogamous relationships where the female partner has confirmed symptomatic,\n\nrecurrent bacterial vaginosis (defined as three or more episodes within a\n\n12-month period), concurrent treatment of the male partner is recommended to\n\nto reduce the risk of recurrence. Concurrent treatment should be considered\n\nwhen the male partner is willing to complete a full 7-day treatment course.\n\nCouples should agree to sexual abstinence or consistent condom use until both\n\npartners have completed therapy. Additionally, continued condom use for at\n\nleast three months following treatment is advised to further minimize\n\nthe risk of reinfection.\n\n# Treatment\n\n[Metronidazole 500mg po bid x7days DI <AND> Clindamycin 2% cream apply](orz-set-abx-op-metro-500-bid-clindamycin-cream-2-male-partner)\n\ntopically to penile skin bid x 7days [M]\n\n[Non-VA order for above](orz-set-abx-op-metronid-500mg-bidx7days-clinda-2-cream-topical)\n\nReferences:\n\nConcurrent Sexual Partner Therapy to Prevent Bacterial Vaginosis Recurrence.\n\nObstetrics & Gynecology 146(6):p e111-e114, December 2025.\n\nVodstrcil LA, et al. N Engl J Med (2025) 392:947-957.\n\nUpToDate (online) Bacterial vaginosis (accessed 2/10/26)",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "general-information-outpatient"
+    },
+    {
+      "Text": "Metronidazole 500mg po bid x7days [DI] <AND> Clindamycin 2% cream apply",
+      "Item": "ORZ SET ABX OP METRO 500 BID+CLINDAMYCIN CREAM 2% MALE PARTNER"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "ORZ SET ABX OP METRONID 500MG BIDX7DAYS+CLINDA 2%CREAM TOPICAL"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU BACTERIAL VAGINOSIS MALE SEXUAL PARTNER"
+}

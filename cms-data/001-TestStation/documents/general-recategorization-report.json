@@ -1,0 +1,60 @@
+{
+  "summary": {
+    "total_pages": 538,
+    "general_count": 97,
+    "group_count": 30
+  },
+  "ignored_main_menu_targets_for_assignment": [
+    "index-inpatient",
+    "drug-info"
+  ],
+  "collapsed_groups": {
+    "surgical-antimicrobial-prophylaxis": [
+      "surgical-pre-op-antibiotics",
+      "surgical-post-op-antimicrobial-prophylaxis"
+    ],
+    "bispecific-antibody": [
+      "bispecific-disease-specific-management",
+      "bispecific-crs-monitoring",
+      "bispecific-lodging-admit-information",
+      "bispecific-icans-monitoring"
+    ]
+  },
+  "group_summary": {
+    "bispecific-antibody": 5,
+    "bispecific-crs-monitoring": 0,
+    "bispecific-disease-specific-management": 0,
+    "bispecific-icans-monitoring": 0,
+    "bispecific-lodging-admit-information": 0,
+    "bone-joint-muscle-infections": 21,
+    "cardiovascular": 19,
+    "cns": 32,
+    "dermatologic-surgery-guidelines": 1,
+    "device-related-infections": 3,
+    "general": 97,
+    "genitourinary": 30,
+    "gi-intraabdominal": 43,
+    "head-and-neck": 35,
+    "help-page": 5,
+    "hiv-aids": 1,
+    "immunocompromised-patient": 15,
+    "important-antimicrobial": 13,
+    "lung-and-mediastinum": 27,
+    "main-menu": 1,
+    "organisms": 41,
+    "prevention-of-infection": 10,
+    "recommended-immunizations": 22,
+    "ssti-main-menu": 44,
+    "surgical-antimicrobial-prophylaxis": 37,
+    "surgical-post-op-antimicrobial-prophylaxis": 0,
+    "surgical-pre-op-antibiotics": 0,
+    "surgical-site-infections": 1,
+    "system-infectious-diseases": 34,
+    "tpoxx-monkeypox-treatment": 1
+  },
+  "verification": {
+    "uti_page_expected_group": "genitourinary",
+    "uti_page_found": true,
+    "uti_page_path": "cms-data/001-TestStation/pages/genitourinary/orzid3-gmenu-abx-approach-to-uti.json"
+  }
+}

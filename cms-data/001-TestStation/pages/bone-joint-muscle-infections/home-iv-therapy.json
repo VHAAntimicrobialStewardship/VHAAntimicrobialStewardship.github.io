@@ -1,0 +1,15 @@
+{
+  "PageID": "home-iv-therapy",
+  "Group": "bone-joint-muscle-infections",
+  "Term1": "Home IV therapy",
+  "Term2": "Intravenous therapy at home",
+  "Text": "# HOME IV AT THE MINNEAPOLIS VA\n\nMinneapolis VA provides home IV therapy contracts with commercial providers. To\n\norder home IV antimicrobials:\n\n# ___________________________________\n\n# Step 1\n\n# ___________________________________\n\nAn Infectious Disease staff physician must approve outpatient IV antimicrobials\n\nin each case. Call x4185, or call the operator on off-tours to contact the ID\n\nstaff member on-call. If the ID service has been consulted, you must request\n\nHome IV approval and recommendations from the ID staff on-call.\n\n# ___________________________________\n\n# Step 2\n\n# ___________________________________\n\nOrder a Home IV consult (click on quick order below). Note: Allow 24 hours for\n\nhome IV service assessment, teaching, etc to occur.\n\n[Home IV consult \\(or page 7253\\)](gmrctz-home-iv-infusion-coordination)",
+  "LinkTargets": [
+    {
+      "Text": "Home IV consult (or page 7253)",
+      "Item": "GMRCTZ HOME IV INFUSION COORDINATION"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX HOME IV AT MPLS",
+  "Outpt": "home-iv-therapy"
+}

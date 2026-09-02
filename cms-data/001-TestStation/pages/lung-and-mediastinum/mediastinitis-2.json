@@ -1,0 +1,14 @@
+{
+  "PageID": "mediastinitis-2",
+  "Group": "lung-and-mediastinum",
+  "Term1": "mediastinitis-2",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\n# MEDIASTINITIS\n\nRefer to Inpatient Antimicrobial CDSS.",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "general-information-outpatient"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU MEDIASTINITIS"
+}

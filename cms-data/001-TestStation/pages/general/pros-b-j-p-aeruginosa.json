@@ -1,0 +1,30 @@
+{
+  "PageID": "pros-b-j-p-aeruginosa",
+  "Group": "general",
+  "Term1": "pros-b-j-p-aeruginosa",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\n# PSEUDOMONAS AERUGINOSA INFECTIONS IN BONE OR JOINT PROSTHESES\n\nFor acute, moderate or severe infections, treat with intravenous antibiotics\n\nfollowed by oral antibiotics. Mild infections can be treated with oral\n\nantibiotics only.\n\nConsult Infectious Diseases for specific management advice.\n\n# Duration of Treatment\n\nTreat for a total duration of 4-6 weeks. Chronic oral antimicrobial suppression\n\nmay follow treatment based on individual patient circumstances.\n\n# Intravenous Treatment\n\nRefer to the Inpatient Antimicrobial CDSS.\n\n# Oral Treatment For Mild Infections, For Continuation of Therapy\n\n[Ciprofloxacin 750 mg PO BID \\($\\) R,DI](psozid-ciprofloxacin-750mg-po-bid)\n\n[Non-VA order for above](pshzid-ciprofloxacin-750mg-po-bid)\n\n# Oral Treatment for Chronic Suppression\n\n[Ciprofloxacin 500 mg PO BID \\($\\) R,DI](psozid-ciprofl-500mg-po-bid)\n\n[Non-VA order for above](pshzid-ciprofl-500mg-po-bid)\n\nReferences:\n\nMandell chapter: Orthopedic Implant-Associated Infections\n\nUp-to-Date Article: Prosthetic Joint Infections: Treatment\n\nOsmon et al, Clinical Infectious Diseases (2013) 56.1, e1-25\n\nSanford keyword: Prosthetic Joint Infection",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "general-information-outpatient"
+    },
+    {
+      "Text": "Ciprofloxacin 750 mg PO BID ($) [R,DI]",
+      "Item": "PSOZID CIPROFLOXACIN 750MG PO BID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID CIPROFLOXACIN 750MG PO BID"
+    },
+    {
+      "Text": "Ciprofloxacin 500 mg PO BID ($) [R,DI]",
+      "Item": "PSOZID CIPROFL 500MG PO BID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID CIPROFL 500MG PO BID"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU PROS B/J P. AERUGINOSA"
+}

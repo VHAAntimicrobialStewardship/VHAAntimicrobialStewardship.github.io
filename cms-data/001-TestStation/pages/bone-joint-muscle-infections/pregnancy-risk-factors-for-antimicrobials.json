@@ -1,0 +1,15 @@
+{
+  "PageID": "pregnancy-risk-factors-for-antimicrobials",
+  "Group": "bone-joint-muscle-infections",
+  "Term1": "Pregnancy risk factors for antimicrobials",
+  "Term2": "Risk factors for antimicrobials in pregnancy",
+  "Text": "# RISK FACTORS FOR ANTIMICROBIALS DURING PREGNANCY\n\n# The FDA amended its rules in 2015 concerning the Pregnancy, Labor and delivery,\n\n# and Nursing mothers subsections of the Use in Specific Populations section of\n\n# product labeling. Pregnancy categories A, B, C, D, and X have been removed.\n\n# Drugs approved after June 30 will use the new format immediately, while drugs\n\n# approved after June 30, 2001 will be phased in gradually.\n\nSee Sanford Guide for comprehensive antimicrobial pregnancy risk and lactation\n\nsafety information\n\n[Sanford Guide Pregnancy Risk & Lactation Safety Table](orz-gtx-abx-sanford-pregnancy)\n\nRisk Factors (A,B,C,D,X) were assigned to all drugs, based on the\n\nlevel of risk the drug poses to the fetus. Risk Factors were designed to\n\nhelp the clinician quickly classify a drug for use during pregnancy. They\n\ndo not refer to breastfeeding risk. The definitions of the Risk Factors\n\nare those used by the FDA.\n\n# Category Description\n\n# A Controlled studies show no risk\n\nAdequate, well-controlled studies in pregnant women\n\nhave failed to demonstrate risk to the fetus.\n\n# B No evidence of risk in humans\n\nEither animal findings show risk (but human\n\nfindings do not) or, if no adequate human studies\n\nhave been done, animal findings are negative.\n\n# C Risk cannot be ruled out\n\nHuman studies are lacking and animal studies\n\nare either positive for fetal risk or lacking\n\nas well. However, potential benefits may\n\njustify the potential risk.\n\n# D Positive evidence of risk\n\nInvestigational or postmarketing data show risk\n\nto fetus. Nevertheless, potential benefits may\n\noutweigh the risk.\n\n# X Contraindicated in pregnancy\n\nStudies in animals or humans, or investigational\n\nor postmarketing reports have shown fetal risk\n\nwhich clearly outweighs any possible benefit to\n\nthe patient.\n\nReferences\n\nUp-to-Date website\n\nSanford website",
+  "LinkTargets": [
+    {
+      "Text": "Sanford Guide Pregnancy Risk & Lactation Safety Table",
+      "Item": "ORZ GTX ABX SANFORD PREGNANCY"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU PREGNANCY RISK INFO",
+  "Outpt": "pregnancy-risk-factors-for-antimicrobials"
+}

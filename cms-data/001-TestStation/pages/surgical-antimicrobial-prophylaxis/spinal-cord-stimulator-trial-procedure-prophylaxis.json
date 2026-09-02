@@ -1,0 +1,31 @@
+{
+  "PageID": "spinal-cord-stimulator-trial-procedure-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "Term1": "Spinal cord stimulator trial procedure prophylaxis",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# Pain Clinic Antimicrobial Prophylaxis Pre-procedure Orders\n\nSpinal Cord Stimulator Trial\n\n# Preferred Prophylaxis:\n\n# For patients weight < 120 kg:\n\n[Cefazolin 2 GM IVPB Once administer 60 minutes prior to procedure \\($\\) R](psjizid-cefazolin-2gm-ivpb-once-pre-procedure-pain-clinic)\n\n# For patients weight >/= 120 kg:\n\n[Cefazolin 3 GM IVPB Once administer 60 minutes prior to procedure  \\($\\) R](psjizid-cefazolin-3gm-iv-once-pre-procedure-pain-clinic)\n\n# Alternative for patient with beta lactam allergy:\n\n[Click here Assess Beta-lactam allergy prior to ordering alternative](beta-lactam-allergy-assessment)\n\n[Vancomycin Weight Based Dosing IVPB x1 Dose](orzid2-gmenu-surg-vancomycin-weight-based-dosing)\n\n# MRSA positive nares + risk factors:\n\n# ADD Vancomycin with Cefazolin (above) for MRSA positive nares + risk factors\n\n[Vancomycin Weight Based Dosing IVPB x1 Dose](orzid2-gmenu-surg-vancomycin-weight-based-dosing)\n\n# References:\n\nBratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis\n\nin surgery, Am J Health-Syst Pharm. 2013 vol 70 pages 195-283\n\nAntimicrobial Prophylaxis for Surgery, Treatment Guidelines from The\n\nMedical Letter 2012 vol 10 pages 73-77",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "general-information-inpatient"
+    },
+    {
+      "Text": "Cefazolin 2 GM IVPB Once administer 60 minutes prior to procedure ($) [R]",
+      "Item": "PSJIZID CEFAZOLIN 2GM IVPB ONCE PRE-PROCEDURE PAIN CLINIC"
+    },
+    {
+      "Text": "Cefazolin 3 GM IVPB Once administer 60 minutes prior to procedure  ($) [R]",
+      "Item": "PSJIZID CEFAZOLIN 3GM IV ONCE PRE-PROCEDURE PAIN CLINIC"
+    },
+    {
+      "Text": "[Click here] Assess Beta-lactam allergy prior to ordering alternative",
+      "Item": "beta-lactam-allergy-assessment"
+    },
+    {
+      "Text": "Vancomycin Weight Based Dosing IVPB x1 Dose",
+      "Item": "ORZID2 GMENU SURG VANCOMYCIN WEIGHT BASED DOSING"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU SURG SPINAL CORD STIMULATOR TRIAL",
+  "Outpt": "spinal-cord-stimulator-trial-procedure-prophylaxis"
+}

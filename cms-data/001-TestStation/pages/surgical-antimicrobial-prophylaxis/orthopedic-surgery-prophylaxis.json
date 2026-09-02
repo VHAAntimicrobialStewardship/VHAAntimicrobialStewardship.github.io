@@ -1,0 +1,27 @@
+{
+  "PageID": "orthopedic-surgery-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "Term1": "Orthopedic surgery prophylaxis",
+  "Term2": "Joint arthroplasty",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\nORTHOPAEDIC SURGERY\n\nAntimicrobial prophylaxis is not recommended for most clean procedures,\n\nincluding knee, hand or foot procedures, arthroscopy, or other procedures\n\nwithout implantation of foreign materials.\n\nProphylaxis is indicated for internal fixation of fracture, total joint\n\nreplacement, and any implanted foreign body. Open fractures should be treated\n\nas infected.\n\nCefazolin is preferred for prophylaxis, as it is more active than vancomycin\n\nagainst susceptible staphylococci, the most common surgical pathogens.\n\nVancomycin should be used in patients who are colonized or recently infected\n\nwith methicilin-resistant Staphlococcus aureus (MRSA).\n\nProphylaxis beyond 24 hours is not supported by current data and guidelines.\n\nLonger durations provide no additional benefit and are associated with\n\nside effects, increased costs, and bacterial resistance.\n\nAlso, there is no evidence of benefit of antimicrobial administration until\n\nall drains or catheters are removed.\n\n# Clean procedures of hand, knee, and foot:\n\n[Click here No antimicrobial prophylaxis recommended for procedure](orz-gtx-abx-pre-op-url-nurse-generic-order)\n\n# Prophylaxis recommendations for the following surgeries:\n\nInternal fixation of fracture, total joint replacement, any implanted\n\nforeign body\n\n# Preferred:\n\n[Cefazolin Weight Based Dosing Preop R](surg-cefazolin-weight-based-dosing)\n\nProphylaxis recommendation includes q8h for 2 doses post-op. Please place\n\npost-op antimicrobial prophylaxis order from orthopedic standing post-op orders\n\nAFTER patient is admitted.\n\n# Alternative for patients with beta lactam allergy:\n\n[Vancomycin 15mg/kg Weight Based Dosing Preop R](orzid2-gmenu-surg-vancomycin-weight-based-dosing)\n\nProphylaxis recommendation includes q12h for 1 dose post-op. Please place\n\npost-op antimicrobial prophylaxis order from orthopedic standing post-op orders\n\nAFTER patient is admitted.\n\n# Known MRSA colonization:\n\n[Vancomycin 15mg/kg Weight Based Dosing Preop R](orzid2-gmenu-surg-vancomycin-weight-based-dosing)\n\nProphylaxis recommendation includes q12h for 1 dose post-op. Please place\n\npost-op antimicrobial prophylaxis order from orthopedic standing post-op orders\n\nAFTER patient is admitted.\n\nReferences:\n\nBratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis\n\nin surgery, Am J Health-Syst Pharm. 2013, vol 70 pages 195-283",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "general-information-inpatient"
+    },
+    {
+      "Text": "[Click here] No antimicrobial prophylaxis recommended for procedure",
+      "Item": "ORZ GTX ABX PRE-OP URL NURSE GENERIC ORDER"
+    },
+    {
+      "Text": "Cefazolin Weight Based Dosing Preop [R]",
+      "Item": "surg-cefazolin-weight-based-dosing"
+    },
+    {
+      "Text": "Vancomycin 15mg/kg Weight Based Dosing Preop [R]",
+      "Item": "ORZID2 GMENU SURG VANCOMYCIN WEIGHT BASED DOSING"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU SURG ORTHO SURG JOINT ARTHRO",
+  "Outpt": "orthopedic-surgery-prophylaxis"
+}

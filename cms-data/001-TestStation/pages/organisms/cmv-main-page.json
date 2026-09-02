@@ -1,0 +1,34 @@
+{
+  "PageID": "cmv-main-page",
+  "Group": "organisms",
+  "Term1": "cmv-main-page",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\n# CYTOMEGALOVIRUS (CMV)\n\n# Antiviral toxicity information\n\nThe major toxicities of both ganciclovir and valganciclovir are neutropenia.\n\nNephrotoxicity is the major toxicity associated with foscarnet, which may be\n\nreduced by concomitant saline administration (generally 0.5-1L).\n\n# _______________________________________________________________________________\n\n# Immunocompetent patient\n\nInfection is rare and usually associated with minimal or no symptoms.\n\nMononucleosis can be associated with CMV, but is more commonly associated with\n\nEpstein Barr virus. Antiviral treatment is not usually necessary as most\n\npatients recover without intervention.\n\n# _______________________________________________________________________________\n\n# Immunocompromised patient\n\nPatients in whom the risk for CMV disease is increased include solid organ and\n\nbone marrow transplant recipients, persons receiving prolonged immunosuppressive\n\nchemotherapy, and persons with advanced HIV disease indicated by a CD4 count of\n\nless than 50 cells/microliter.\n\n# CMV treatment recommendations\n\n[Colitis or esophagitis](cmv-colitis-or-esophagitis)\n\n[Encephalitis](cmv-encephalitis)\n\n[Polyradiculopathy](cmv-polyradiculopathy)\n\n[Retinitis](cmv-retinitis)\n\n[Pneumonia](cmv-pneumonia)\n\nReferences:\n\nGuidelines for Prevention and Treatment of Opportunistic Infections in HIV\n\nInfected Adults and Adolescents. AIDSinfo (2015) 1-282\n\nMandell chapter: Cytomegalovirus\n\nSanford keyword: Cytomegalovirus\n\nUp-to-Date article: Epidemiology, clinical manifestations, and treatment of\n\ncytomegalovirus infection in immunocompetent adults",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "general-information-outpatient"
+    },
+    {
+      "Text": "Colitis or esophagitis",
+      "Item": "cmv-colitis-or-esophagitis"
+    },
+    {
+      "Text": "Encephalitis",
+      "Item": "cmv-encephalitis"
+    },
+    {
+      "Text": "Polyradiculopathy",
+      "Item": "cmv-polyradiculopathy"
+    },
+    {
+      "Text": "Retinitis",
+      "Item": "cmv-retinitis"
+    },
+    {
+      "Text": "Pneumonia",
+      "Item": "cmv-pneumonia"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU ABX CMV MAIN PAGE"
+}

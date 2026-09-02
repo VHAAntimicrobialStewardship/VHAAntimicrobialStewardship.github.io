@@ -1,0 +1,15 @@
+{
+  "PageID": "hepatitis-a-vaccine-information",
+  "Group": "organisms",
+  "Term1": "Hepatitis A vaccine information",
+  "Term2": "HepA vaccine information",
+  "Text": "## Vaccine route, orders, names\n## __________________________\n## Route: IM\n## Outpatient HepA orders:\n[2 dose series](orz-set-abx-op-hepatitis-a-vaccine-2-dose-series)\n## CPRS name:\nHEPATITIS A VACCINE INJ,SUSP\n## Stocked brand name:\nHavrix\n## Other names:\nHepatitis A\n(HepA)\nReferences:\nImmunization Action\nCoalition,\nSummary of Adult\nImmunizations, 2021, P2011\nFreedman et al., Annals of\ninternal medicine, 2021,\n174(3)374-384.\n<!-- COLUMN 2 -->\n## Recommended populations\n## __________________________\n*All adults who want to be\nprotected from hepatitis A\nvirus (HAV) infection.\n*People who travel or work\nanywhere EXCEPT the U.S.,\nmost, but not all of\nWestern Europe, New\nZealand, Australia,\nCanada, and Japan.\n*People with chronic liver\ndisease, injecting and\nnon-injecting drug users,\npeople who have HIV\ninfection, men who have\nsex with men, people who\nare homeless or live in\ntemporary housing (e.g., a\nshelter), people who work\nwith HAV in lab settings.\n*People who anticipate\nclose personal contact\nwith an international\nadoptee from\na country of high or\nintermediate endemicity\nduring the first 60d\nfollowing the adoptee's\narrival in the U.S.\n*Postexposure: adults with\nrecent (within 2wks)\nexposure to HAV, give\nHepA. Vaccine may be used\nin conjunction with IG at\nthe provider's discretion\nin adults older than age\n40 or immunocompromised\n<!-- COLUMN 3 -->\n## Administration Schedule\n## __________________________\n*Give 2 doses, spaced 6-\n12 months apart.\n*If dose #2 is delayed, do\nnot repeat dose #1. Just\ngive dose #2.\n<!-- COLUMN 4 -->\n## Contraindications/Precautions\n## __________________________\n## Contraindications:\nHistory of severe allergic\nreaction (e.g.,\nanaphylaxis) to a previous\ndose or a vaccine\ncomponent.\n## Precautions:\nModerate or severe acute\nillness with or\nwithout fever.",
+  "LinkTargets": [
+    {
+      "Text": "2 dose series",
+      "Item": "ORZ SET ABX OP HEPATITIS A VACCINE 2 DOSE SERIES"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU ABX HEPA VACCINE INFORMATION PAGE",
+  "Outpt": "hepatitis-a-vaccine-information"
+}

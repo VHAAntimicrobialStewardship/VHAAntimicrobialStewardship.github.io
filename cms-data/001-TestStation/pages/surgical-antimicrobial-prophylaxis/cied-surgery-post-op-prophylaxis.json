@@ -1,0 +1,15 @@
+{
+  "PageID": "cied-surgery-post-op-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "Term1": "CIED surgery post-op prophylaxis",
+  "Term2": "Cardiac implantable electronic device surgery post-op prophylaxis",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# Cardiac Implantable Electronic Device (CIED) Surgery:\n\n# *** Routine post-procedure antibiotics are not indicated. ***\n\n# References:\n\nBratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis\n\nin surgery, Am J Health-Syst Pharm. 2013 vol 70 pages 195-283\n\nKrahn AD, et al. Prevention of Arrhythmia Device Infection Trial:\n\nThe PADIT Trial. Am Coll Cardiol. 2018 vol 72 pages 3098-3109\n\nBranch-Elliman W, et al. Association of Duration and Type of Surgical\n\nProphylaxis With Antimicrobial-Associated Adverse Events. JAMA Surg. 2019\n\nvol 154 pages 590-598",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "general-information-inpatient"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU SURG CIED POSTOP",
+  "Outpt": "cied-surgery-post-op-prophylaxis"
+}

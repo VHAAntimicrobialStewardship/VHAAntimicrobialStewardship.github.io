@@ -1,0 +1,30 @@
+{
+  "PageID": "ssti-viral",
+  "Group": "ssti-main-menu",
+  "Term1": "ssti-viral",
+  "Term2": "",
+  "Text": "# Viral SSTI\n\n# Herpes simplex virus\n\n[Genital herpes](genital-herpes)\n\n[Herpes whitlow \\(digit or hand cellulitis\\)](herpes-whitlow)\n\n[Orolabial herpes: mouth,lips,cold sores](orolabial-herpes)\n\n# Varicella-zoster virus\n\n[Primary infection \\(chickenpox\\)](prim-infect-chickenpox)\n\n[Reactivation of primary infection \\(shingles\\)](react-prim-infect-zoster)",
+  "LinkTargets": [
+    {
+      "Text": "Genital herpes",
+      "Item": "genital-herpes"
+    },
+    {
+      "Text": "Herpes whitlow (digit or hand cellulitis)",
+      "Item": "herpes-whitlow"
+    },
+    {
+      "Text": "Orolabial herpes: mouth,lips,cold sores",
+      "Item": "orolabial-herpes"
+    },
+    {
+      "Text": "Primary infection (chickenpox)",
+      "Item": "prim-infect-chickenpox"
+    },
+    {
+      "Text": "Reactivation of primary infection (shingles)",
+      "Item": "react-prim-infect-zoster"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU SSTI VIRAL"
+}

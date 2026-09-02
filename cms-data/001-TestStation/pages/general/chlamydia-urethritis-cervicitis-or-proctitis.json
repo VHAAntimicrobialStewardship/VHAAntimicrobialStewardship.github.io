@@ -1,0 +1,10 @@
+{
+  "PageID": "chlamydia-urethritis-cervicitis-or-proctitis",
+  "Group": "general",
+  "Term1": "CHLAMYDIA URETHRITIS CERVICITIS OR PROCTITIS",
+  "Term2": "",
+  "Text": "## CHLAMYDIAL OR NON-GONOCOCCAL URETHRITIS, CERVICITIS OR PROCTITIS\n## Treatment:\n## Preferred option (especially for rectal chlamydia or in nonpregnant\n## individuals):\n## Inpatient\n\nDoxycycline 100 mg PO BID for 7 days ($) [DI]\n## Preferred in pregnant individuals:\nAzithromycin 1 gm PO ONCE ($) [M]\n## Outpatient\n\nDoxycycline 100 mg PO BID for 7 days ($) [DI]\nNon-VA order for above\n## Preferred for pregnant individuals:\nAzithromycin 1 gm PO x 1 dose ($) [M]\nNon-VA order for above References:\nSt. Cyr S, et al. MMWR Morb Mortal Wkly Rep 2020, 69:1911-1916.\nSanford keyword: Chlamydia trachomatis\nLau, A., et al. N Engl J Med 2021, 384: 2418-2427\nUp-To-Date article: Chlamydia trachomatis",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU ABX CHLAMYDIA URETHRITIS CERVICITIS OR PROCTITIS",
+  "Outpt": "ORZID3 GMENU CHLAMYDIA URETHRITIS CERVICITIS PROCTITIS"
+}

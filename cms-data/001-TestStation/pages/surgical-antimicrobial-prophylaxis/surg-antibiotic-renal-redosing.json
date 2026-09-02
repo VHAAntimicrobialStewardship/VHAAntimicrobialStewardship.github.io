@@ -1,0 +1,10 @@
+{
+  "PageID": "surg-antibiotic-renal-redosing",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "Term1": "surg-antibiotic-renal-redosing",
+  "Term2": "",
+  "Text": "## Recommended Redosing Interval\n## Based on Normal and ESRD renal function\n## Recommended redosing interval 2 times the half-life\n## ANTIMICROBIAL\n## Ampicillin\n## Ampicillin sulbactam\n## Aztreonam\n## Cefazolin\n## Cefuroxime\n## Cefoxitin\n## Cefotetan\n## Ceftriaxone\n## Ciprofloxacin\n## Clindamycin\n## Gentamicin\n## Levofloxacin\n## Metronidazole\n## Piperacilln Tazobactam\n## Vancomycin\n## References\n## Am J Health-Syst Pharm. 2013, 70: 195-283\n## Sanford Guide Online\n## John Hopkins Antibiotic Guide.Online.Oct2021.\n<!-- COLUMN 2 -->\n## REDOSING INTERVAL**\n## NORMAL RENAL FXN\n## 2 hours\n## 2 hours\n## 4 hours\n## 4 hours\n## 4 hours\n## 2 hours\n## 6 hours\n## N/A\n## Do not redose\n## 6 hours\n## Single dose only preop\n## Do not redose\n## 12 hours\n## 2 hours\n## 12 hours\n## Doses based on Dosing Weight (DW)*\n## *Calculate Dosing Weight (DW)\n## DW = IBW + 0.4 (ABW - IBW)\n## IBW=Ideal Body Wt  ABW=Actual Body Wt\n## Male IBW (kg)=50+2.3 * (Ht-60inches)\n## Female IBW (kg)=45.5+2.3 * (Ht-60inches)\n<!-- COLUMN 3 -->\n## Antimicrobial Surgical Prophylaxis\n## **For those marked N/A --\n## based on typical case length,\n## unusually long procedures,\n## redosing may be needed.\n## REDOSING INTERVAL**\n## END STAGE RENAL DISEASE\n## N/A\n## N/A\n## N/A\n## N/A\n## N/A\n## N/A\n## N/A\n## N/A\n## Do not redose\n## 6 hours\n## Only give 3mg/kg preop ONCE*\n## Do not redose\n## 12 hours\n## 6 hours\n## N/A\n## **For those marked N/A --\n## based on typical case length, for\n## unusually long procedures,\n## redosing may be needed.",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU SURG ANTIBIOTIC RENAL REDOSING",
+  "Outpt": "surg-antibiotic-renal-redosing"
+}

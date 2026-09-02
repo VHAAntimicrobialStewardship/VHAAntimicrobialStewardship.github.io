@@ -1,0 +1,38 @@
+{
+  "PageID": "septic-arth-s-aureus",
+  "Group": "general",
+  "Term1": "septic-arth-s-aureus",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\nSEPTIC ARTHRITIS (NATIVE JOINT) WITH STAPHYLOCOCCUS AUREUS\n\nAdminister parenteral therapy initially for approximately two weeks\n\nthen can be converted to appropriate oral therapy.\n\nTotal duration of treatment 4-6 weeks depending on clinical response\n\n# ________________________________________________________\n\n# Methicillin-SUSCEPTIBLE Staphylococcus aureus\n\n# ________________________________________________________\n\n# Treatment\n\n[Trimethoprim-sulfamethoxazole 1 DS tablet PO BID \\($\\) R,DI](psozid2-tmp-sulfa-28days-1ds-tab-bid)\n\n[Non-VA order for above](pshzid2-tmp-sulfa-28days-1ds-tab-bid)\n\n[Cefadroxil 1000 mg PO BID \\($\\) R](psozid2-cefadroxil-1000mg-po-bid-28ds)\n\n[Non-VA order for above](pshzid2-cefadroxil-1000mg-po-bid-28days)\n\n# ________________________________________________________\n\n# Methicillin-RESISTANT Staphylococcus aureus\n\n# ________________________________________________________\n\n# Treatment\n\n[Trimethoprim-sulfamethoxazole 1 DS tablet PO BID \\($\\) R,DI](psozid2-tmp-sulfa-28days-1ds-tab-bid)\n\n[Non-VA order for above](pshzid2-tmp-sulfa-28days-1ds-tab-bid)\n\n[Minocycline 100 mg PO BID \\($\\) DI](psozid2-minocycline-28ds-100mg-po-bid)\n\n[Non-VA order for above](pshzid2-minocycline-28ds-100mg-po-bid)\n\nReferences:\n\nMandell chapter: Infectious arthritis of native joints\n\nSanford keyword: Septic arthritis\n\nUp-to-date online\n\nMathews CJ Lancet 2010, 375:846\n\nCoakley G Rheumatology (Oxford) 2006, 45:1039",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "general-information-outpatient"
+    },
+    {
+      "Text": "Trimethoprim-sulfamethoxazole 1 DS tablet PO BID ($) [R,DI]",
+      "Item": "PSOZID2 TMP/SULFA 28DAYS 1DS TAB BID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 TMP/SULFA 28DAYS 1DS TAB BID"
+    },
+    {
+      "Text": "Cefadroxil 1000 mg PO BID ($) [R]",
+      "Item": "PSOZID2 CEFADROXIL 1000MG PO BID 28DS"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 CEFADROXIL 1000MG PO BID 28DAYS"
+    },
+    {
+      "Text": "Minocycline 100 mg PO BID ($) [DI]",
+      "Item": "PSOZID2 MINOCYCLINE 28DS 100MG PO BID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 MINOCYCLINE 28DS 100MG PO BID"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU SEPTIC ARTH S. AUREUS"
+}

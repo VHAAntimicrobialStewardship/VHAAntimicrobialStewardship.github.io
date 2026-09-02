@@ -1,0 +1,47 @@
+{
+  "PageID": "vascular-surgery-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "Term1": "Vascular surgery prophylaxis",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\nVASCULAR SURGERY\n\nAntimicrobial prophylaxis is not recommended for some procedures, including\n\nbrachiocephalic procedures (e.g., carotid endarterectomy, brachial artery\n\nrepair) without implantation of prosthetic material.\n\nAntimicrobial prophylaxis is recommended in vascular procedures that involve\n\nimplantation of prosthetic material and procedures for which there is greater\n\nrisk of infection, such as aneurysm repair, thromboendarterectomy and vein\n\nbypass. Longer duration of antimicrobial prophylaxis therapy is warranted for\n\ngraft placement.\n\n# If no antimicrobial prophylaxis recommended, select below:\n\n[Click here No antimicrobial prophylaxis recommended for procedure](orz-gtx-abx-pre-op-url-nurse-generic-order)\n\n# Prophylaxis for vascular procedures OTHER THAN graft placement* and procedures\n\n# involving the groin** (see below for graft placement and involving groin)\n\n# Preferred:\n\n[Cefazolin Weight Based Dosing Preop R](surg-cefazolin-weight-based-dosing)\n\n# Alternative for beta-lactam allergy or MRSA colonization:\n\n[Click here Beta-lactam reaction assessment](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Vancomycin 15mg/kg Weight Based Dosing Preop R](orzid2-gmenu-surg-vancomycin-weight-based-dosing)\n\n# *Prophylaxis for graft placement procedures:\n\n# Preferred:\n\n[Cefazolin Weight Based Dosing Preop R](surg-cefazolin-weight-based-dosing)\n\nPost-op prophylaxis include q8h x2doses.\n\nPlease plase post-op antimicrobial prophylaxis order after admission.\n\n# Alternative for beta lactam allergy or MRSA colonization:\n\n[Click here Beta-lactam reaction assessment](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Vancomycin 15mg/kg Weight Based Dosing Preop R](orzid2-gmenu-surg-vancomycin-weight-based-dosing)\n\nPost-op prophylaxis include q12h x1dose.\n\nPlease place post-op antimicrobial prophylaxis order after admission.\n\n# Rifampin vascular graft soak for INFECTED graft\n\n[Rifampin Vascular Graft Soak \\(600mg\\)](psjizid-rifampin-600-mg-vial-for-vascular-surgery)\n\n# **Prophylaxis for procedures that involve the abdominal aorta or groin incision\n\n# due to the potential for gastrointestinal flora:\n\n# Preferred:\n\n[Cefazolin Weight Based Dosing Preop R](surg-cefazolin-weight-based-dosing)\n\n# Alternative for beta lactam allergy:\n\n[Click here Beta-lactam reaction assessment](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Vancomycin 15mg/kg weight based dosing + Gentamicin 5mg/kg weight based dosing](orz-set-abx-vancom-15-mg-kg-iv-60min-gent-5mg-kg-iv-once)\n\n# Alternative for MRSA colonization:\n\n[Cefazolin weight based dosing + Vancomycin 15mg/kg weight based dosing](orz-set-abx-cefazolin-wt-based-vancomycin-15mg-kg-preop)\n\n[References](orzid2-gmenu-abx-references)\n\nMVAHCS Vasclar Surgery Section (2023)\n\nBratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis\n\nin surgery, Am J Health-Syst Pharm. 2013 vol 70 pages 195-283",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "general-information-inpatient"
+    },
+    {
+      "Text": "[Click here] No antimicrobial prophylaxis recommended for procedure",
+      "Item": "ORZ GTX ABX PRE-OP URL NURSE GENERIC ORDER"
+    },
+    {
+      "Text": "Cefazolin Weight Based Dosing Preop [R]",
+      "Item": "surg-cefazolin-weight-based-dosing"
+    },
+    {
+      "Text": "[Click here] Beta-lactam reaction assessment",
+      "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
+    },
+    {
+      "Text": "Vancomycin 15mg/kg Weight Based Dosing Preop [R]",
+      "Item": "ORZID2 GMENU SURG VANCOMYCIN WEIGHT BASED DOSING"
+    },
+    {
+      "Text": "Rifampin Vascular Graft Soak (600mg)",
+      "Item": "PSJIZID RIFAMPIN 600 MG VIAL FOR VASCULAR SURGERY"
+    },
+    {
+      "Text": "Vancomycin 15mg/kg weight based dosing + Gentamicin 5mg/kg weight based dosing",
+      "Item": "ORZ SET ABX VANCOM 15 MG/KG IV 60MIN GENT 5MG/KG IV ONCE"
+    },
+    {
+      "Text": "Cefazolin weight based dosing + Vancomycin 15mg/kg weight based dosing",
+      "Item": "ORZ SET ABX CEFAZOLIN WT BASED + VANCOMYCIN 15MG/KG PREOP"
+    },
+    {
+      "Text": "References",
+      "Item": "ORZID2 GMENU ABX REFERENCES"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU SURG VASCULAR SURG",
+  "Outpt": "vascular-surgery-prophylaxis"
+}

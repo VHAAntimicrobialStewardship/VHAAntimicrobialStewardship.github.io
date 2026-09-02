@@ -1,0 +1,38 @@
+{
+  "PageID": "pros-b-j-streptococci",
+  "Group": "general",
+  "Term1": "pros-b-j-streptococci",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\n# STREPTOCOCCAL INFECTIONS IN BONE OR JOINT PROSTHESES\n\nFor acute, moderate or severe infections, treat with intravenous antibiotics\n\nfollowed by oral antibiotics. Mild infections can be treated with oral\n\nantibiotics only.\n\nConsult Infectious Diseases for specific management advice.\n\n# Consult Infectious Diseases in all cases for specific management advice.\n\n# Duration of Treatment\n\nTreat for a total duration of 4-6 weeks. Chronic suppression with oral\n\nantimicrobials may follow treatment based on individual patient circumstances.\n\n# Intravenous Treatment\n\nRefer to the Inpatient Antimicrobial CDSS.\n\n# Oral Treatment For Mild Infections, Continuation of Therapy or Chronic\n\n# Suppression\n\n[Amoxicillin 500 mg PO TID \\($\\) R](psozid-amoxicillin-500-mg-po-tid)\n\n[Non-VA order for above](pshzid-amoxicillin-500-mg-po-tid)\n\n< OR >\n\n[Penicillin VK 500 mg PO QID \\($\\) R](psozid-penicillin-500mg-po-qid)\n\n[Non-VA order for above](pshzid-penicillin-500mg-po-qid)\n\nAllergy to penicillin or cephalosporin\n\n[Clindamycin 300 mg PO QID \\($\\) H,O](psozid-clindamycin-300mg-po-qid)\n\n[Non-VA order for above](pshzid-clindamycin-300mg-po-qid)\n\nReferences:\n\nMandell chapter: Orthopedic Implant-Associated Infections\n\nUp-to-Date Article: Prosthetic Joint Infections: Treatment\n\nOsmon et al, Clinical Infectious Diseases (2013) 56.1, e1-25\n\nSanford keyword: Prosthetic Joint Infection",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "general-information-outpatient"
+    },
+    {
+      "Text": "Amoxicillin 500 mg PO TID ($) [R]",
+      "Item": "PSOZID AMOXICILLIN 500 MG PO TID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID AMOXICILLIN 500 MG PO TID"
+    },
+    {
+      "Text": "Penicillin VK 500 mg PO QID ($) [R]",
+      "Item": "PSOZID PENICILLIN 500MG PO QID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID PENICILLIN 500MG PO QID"
+    },
+    {
+      "Text": "Clindamycin 300 mg PO QID ($) [H,O]",
+      "Item": "PSOZID CLINDAMYCIN 300MG PO QID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID CLINDAMYCIN 300MG PO QID"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU PROS B/J STREPTOCOCCI"
+}

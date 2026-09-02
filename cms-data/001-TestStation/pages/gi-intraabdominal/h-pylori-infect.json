@@ -1,0 +1,54 @@
+{
+  "PageID": "h-pylori-infect",
+  "Group": "gi-intraabdominal",
+  "Term1": "h-pylori-infect",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\n# HELICOBACTER PYLORI INFECTION\n\nH. pylori infection is associated with peptic ulcers, gastritis, gastric\n\nadenocarcinoma, and gastric lymphoma. Antimicrobials should be given to patients\n\nwith confirmed H. pylori infection. Antisecretory therapy should be given\n\nconcurrently.\n\nTest of cure should be completed at least 4 weeks after completion of therapy\n\n(recommended within 4-8 weeks after completion). Any PPI therapy must be\n\nheld for 2 weeks prior to testing.\n\n[Click here Lab H.Pylori, stool](lrtz-h-pylori-ag-stool)\n\nNote: American College of Gastroenterology (ACG) advises adult household\n\nmembers of individuals who have a positive non-serological test for\n\nH. pylori to seek testing trough their provider.\n\n# First line treatment:\n\n[Bismuth subsalicylate 524 mg PO q6h <AND> Tetracycline 500 mg q6h DI](orz-set-abx-op-bis524mgqid-tcn500mgqid-metro500mgqid-omep20mg)\n\n<AND> metronidazole 500mg PO q6h [DI] <AND> omeprazole 20mg po q12h. Take\n\nall for 14 days.\n\n[NonVA order for above](orz-set-abx-nv-bis524mgqid-tcn500mgqid-metro500mgqid-omep20mg)\n\n# Alternative treatments:\n\nAlternatives may have lower efficacy and higher resistances rates. Test of\n\ncure extremely important.\n\n***Consider referring patients who cannot take first line therapy to\n\nGI pharmacist for treatment management and follow-up testing.***\n\n[Click here Gastroenterology \\(OP\\) Consult - Pharmacists](gmrctz-gastroenterology-op)\n\n# Rifabutin triple (Talicia):\n\nNote: place medication order and PADR using order below\n\n[Amoxicillin/Omeprazole/Rifabutin \\(250/10/12.5MG\\) 4 caps po tid x14days DI,H](orz-set-abx-op-rifabutin-triple-h-pylori-padr)\n\n[NonVA order for above](orz-set-abx-nv-rifabutin-triple-h-pylori-padr)\n\n< OR >\n\n# PCAB dual (Voquezna DualPak-Amoxicillin/Vonoprazan):\n\nNote: place medication order and PADR using order below\n\n[PCAB Dual \\(vonoprazan 20mg q12h/amoxicillin 1000mg q8h\\) po x14daysDI](orz-set-abx-op-pcab-dual-h-pylori-padr)\n\nper package instructions\n\n[NonVA order for above](orz-set-abx-nv-pcab-dual-h-pylori-padr)\n\n< OR >\n\n# Clarithromycin Quadruple:\n\nResistance to clarithromycin is increasing. Do not use for patients with prior\n\nexposure to macrolides. Consider susceptibility testing prior to use.\n\n[Clarithromycin 500 mg PO q12h R,DI <AND> Amoxicillin 1000 mg PO q12h R](orz-set-abx-op-clar500mgbid-amox1gmbid-metro500mgbid-omep)\n\n<AND> metronidazole 500 mg PO q12h [DI] <AND> omeprazole 20 mg PO q12h. Take all\n\nfor 14 days.\n\n[NonVA order for above](orz-set-abx-nv-clar500mgbid-amox1gmbid-metro500mgbid-omep20mg)\n\nReferences:\n\nChey et al. ACG Clinical Guideline: Treatment of Helicobacter pylori infection.\n\nAm J Gastroenterol, 2024, 119(9):1730-1753.\n\nVA PBM Clinical Recommendations November 2024. Use of newer combination products\n\nin the treatment of H.pylori infections.\n\nMandell chapter: Helicobacter pylori and Other Gastric Helicobacter Species\n\nSanford Guide article: Gastric/Duodenal Ulcer, Helicobacter pylori\n\nUp-to-Date article: Treatment regimens for Helicobacter pylori",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "general-information-outpatient"
+    },
+    {
+      "Text": "[Click here] Lab H.Pylori, stool",
+      "Item": "LRTZ H.PYLORI AG, STOOL"
+    },
+    {
+      "Text": "Bismuth subsalicylate 524 mg PO q6h <AND> Tetracycline 500 mg q6h [DI]",
+      "Item": "ORZ SET ABX OP BIS524MGQID TCN500MGQID METRO500MGQID OMEP20MG"
+    },
+    {
+      "Text": "NonVA order for above",
+      "Item": "ORZ SET ABX NV BIS524MGQID TCN500MGQID METRO500MGQID OMEP20MG"
+    },
+    {
+      "Text": "[Click here] Gastroenterology (OP) Consult - Pharmacists",
+      "Item": "GMRCTZ GASTROENTEROLOGY(OP)"
+    },
+    {
+      "Text": "Amoxicillin/Omeprazole/Rifabutin (250/10/12.5MG) 4 caps po tid x14days [DI,H]",
+      "Item": "ORZ SET ABX OP RIFABUTIN TRIPLE H.PYLORI + PADR"
+    },
+    {
+      "Text": "NonVA order for above",
+      "Item": "ORZ SET ABX NV RIFABUTIN TRIPLE H.PYLORI+PADR"
+    },
+    {
+      "Text": "PCAB Dual (vonoprazan 20mg q12h/amoxicillin 1000mg q8h) po x14days[DI]",
+      "Item": "ORZ SET ABX OP PCAB DUAL H.PYLORI + PADR"
+    },
+    {
+      "Text": "NonVA order for above",
+      "Item": "ORZ SET ABX NV PCAB DUAL H.PYLORI+PADR"
+    },
+    {
+      "Text": "Clarithromycin 500 mg PO q12h [R,DI] <AND> Amoxicillin 1000 mg PO q12h [R]",
+      "Item": "ORZ SET ABX OP CLAR500MGBID AMOX1GMBID METRO500MGBID OMEP"
+    },
+    {
+      "Text": "NonVA order for above",
+      "Item": "ORZ SET ABX NV CLAR500MGBID AMOX1GMBID METRO500MGBID OMEP20MG"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU H. PYLORI INFECT"
+}

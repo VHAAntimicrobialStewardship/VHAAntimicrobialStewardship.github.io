@@ -1,0 +1,15 @@
+{
+  "PageID": "pneumococcal-vaccine-information",
+  "Group": "recommended-immunizations",
+  "Term1": "Pneumococcal vaccine information",
+  "Term2": "PCV",
+  "Text": "## Vaccine route, orders, names\n## __________________________\n## Route:\nIM (PCV20)\n## Outpatient orders:\nClinical reminder should\nbe utilized for\nPCV20 vaccination.\nFor those who do\nnot trigger clinical\nreminder, administer\nvia clinic order:\n[Once dose](psczid-pneumococcal-20-valent-vaccine-one-dose)\n## CPRS names:\nPNEUMOCOCCAL 20-VALENT\nCONJUGATE VACCINE INJ\n(PCV20)\n## Stocked brand names:\nPrevnar 20 (PCV20)\n## Other names:\nPneumococcal conjugate\n(PCV20)\nReferences:\nImmunization Action\nCoalition,\nSummary of Adult\nImmunizations, 2021, P2011\nMurthy et al. Annals\ninternal medicine, 2022,\n175(3)432-443\n<!-- COLUMN 2 -->\n## Recommended populations\n## __________________________\n*People age 65yrs or older.\n*People younger than age\n65yrs with certain\nunderlying medical\nconditions:\nalcoholism, chronic\nheart/liver/lung disease,\nchronic renal failure,\ncigarette smoking,\ncochlear implant,\ncongenital or acquired\nasplenia, CSF leak,\ndiabetes mellitus,\ngeneralized malignancy,\nHIV, Hodgkin disease,\nimmunodeficiency,\niatrogenic\nimmunosuppression,\nleukemia, lymphoma,\nmultiple myeloma,\nnephrotic syndrome, solid\norgan transplants, or\nsickle cell disease or\nother hemoglobinopathies.\n<!-- COLUMN 3 -->\n## Administration Schedule\n## __________________________\n*When recommended (see\ncolumn 2), give PCV20 if\nunvaccinated or if\nprevious vaccination\nhistory is unknown.\n<!-- COLUMN 4 -->\n## Contraindications/Precautions\n## __________________________\n## Contraindications:\nHistory of severe allergic\nreaction (e.g.,\nanaphylaxis) to a previous\ndose or a vaccine\ncomponent including\nto any diphtheria\ntoxoid containing vaccine,\nor to any of its\ncomponents, including\nyeast.\n## Precautions:\nModerate or severe acute\nillness with or\nwithout fever.",
+  "LinkTargets": [
+    {
+      "Text": "Once dose",
+      "Item": "PSCZID PNEUMOCOCCAL 20-VALENT VACCINE ONE DOSE"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU ABX PNEUMOCOCCAL VACCINE INFORMATION PAGE",
+  "Outpt": "pneumococcal-vaccine-information"
+}

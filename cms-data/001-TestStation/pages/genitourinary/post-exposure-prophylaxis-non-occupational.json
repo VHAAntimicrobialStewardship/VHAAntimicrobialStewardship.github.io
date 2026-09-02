@@ -1,0 +1,35 @@
+{
+  "PageID": "post-exposure-prophylaxis-non-occupational",
+  "Group": "genitourinary",
+  "Term1": "Post-exposure prophylaxis, non-occupational",
+  "Term2": "PEP, non-occupational",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\n# Non-occupational:\n\n# Post-Exposure Prophylaxis (nPEP) for Exposure to Blood or Body Fluids\n\nfor HIV (sexual, injection drug use, or other substantial non-occupational\n\nHIV exposure)\n\n# Eligibility for nPEP requires ALL:\n\n1.  Less than 72 hours since exposure < AND >\n\n2.  High-risk anatomic site of exposure < AND >\n\n(vagina, rectum, eye, mouth or other mucous membrane, nonintact skin,\n\npercutaneous inoculation)\n\n3.  High-risk type of fluid < AND >\n\n(blood, semen, vaginal secretions, rectal secretions, breast milk,\n\nany body fluid visibly contaminated with blood)\n\n4.  Known (or strongly suspected) HIV-positive source\n\nWhen source HIV status is unknown, recommend erring on the side of providing\n\nantivirals for nPEP given the safety and tolerability of these medications,\n\nwhile including the patient in shared decision making.\n\n# **ID on-call is availble if there are any questions.**\n\n# Estimated per-act risk for acquiring HIV from infected source, by exposure act:\n\n[< SELECT HERE > FOR TABLE](orzid3-gmenu-abx-pep-nonoccup-risk-table-by-exposure-act)\n\n# ****** Complete/assess all four items below for nPEP: ******\n\n# For initial laboratory orders for assessment:\n\n[< SELECT HERE > INITIAL LABORATORY ORDERS](orzid3-gmenu-abx-pep-non-occupational-laboratory-orders)\n\n# For nPEP drug treatment recommendations:\n\n[< SELECT HERE > ANTIRETROVIRAL RECOMMENDATIONS for nPEP](orzid3-gmenu-abx-pep-non-occupational-drug-tx)\n\n# For Follow-up Laboratory Orders and Schedule Return to Clinic Appointment(s):\n\n[< SELECT HERE > 4 Week Follow-up Labs and RTC orders](orzid3-gmenu-abx-pep-non-occupational-labs-rtc)\n\n# IF risk factors for HIV persist place HIV Clinic (MRTC) consult:\n\nIf risk factors for HIV persist, place a consult to HIV Clinic (MRTC) for\n\nconsideration of PrEP prior to the 28 days of nPEP ending.\n\n[<<ORDER>> HIV Clinic Outpatient Consult](gmrctz-mrtc-outpt)\n\nReferences:\n\nCDC Guidelines 2025",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "general-information-outpatient"
+    },
+    {
+      "Text": "< SELECT HERE > FOR TABLE",
+      "Item": "ORZID3 GMENU ABX PEP NONOCCUP RISK TABLE BY EXPOSURE ACT"
+    },
+    {
+      "Text": "< SELECT HERE > INITIAL LABORATORY ORDERS",
+      "Item": "ORZID3 GMENU ABX PEP NON-OCCUPATIONAL LABORATORY ORDERS"
+    },
+    {
+      "Text": "< SELECT HERE > ANTIRETROVIRAL RECOMMENDATIONS for nPEP",
+      "Item": "ORZID3 GMENU ABX PEP NON-OCCUPATIONAL DRUG TX"
+    },
+    {
+      "Text": "< SELECT HERE > 4 Week Follow-up Labs and RTC orders",
+      "Item": "ORZID3 GMENU ABX PEP NON-OCCUPATIONAL LABS + RTC"
+    },
+    {
+      "Text": "<<ORDER>> HIV Clinic Outpatient Consult",
+      "Item": "GMRCTZ MRTC - OUTPT"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU ABX PEP NON-OCCUP MAIN PAGE",
+  "Outpt": "post-exposure-prophylaxis-non-occupational"
+}

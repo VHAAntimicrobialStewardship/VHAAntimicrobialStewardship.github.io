@@ -1,0 +1,30 @@
+{
+  "PageID": "septic-arth-n-gonorrhoeae",
+  "Group": "general",
+  "Term1": "septic-arth-n-gonorrhoeae",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\nSEPTIC ARTHRITIS (NATIVE JOINT) WITH NEISSERIA GONORRHOEAE\n\nTreat presumptively also for Chlamydia trachomatis infection\n\n(asymptomatic urethritis) and test for HIV.  Infection control will\n\nreport cases with N. gonorrhea isolated to the state department of health.\n\nSexual partners within 60 days should be referred for evaluation and treatment.\n\nParenteral therapy recommended until clinical improvement, then switch to oral\n\ntherapy to complete 1-2 weeks of therapy.\n\nSusceptibility results are required to guide potential switch to an oral medicat\n\n# Treatment for N. gonorrheae (Plus see below for Chlamydia treatment)\n\nRefer to Inpatient Antimicrobial CDSS for initial parenteral treatment\n\n# ______________________________________________________________\n\n# Concomitant treatment for C. trachomatis\n\nPreferred treatment:\n\n[Azithromycin 1000 mg PO once \\($\\) M](psozid2-azithromycin-1gm-po-once)\n\n[Non-VA order for above](pshzid2-azithromycin-1gm-po-once)\n\nAlternative treatment:\n\n[Doxycycline 100 mg PO BID for 7 days \\($\\) DI](psozid2-doxycycline-100mg-po-bid-7ds)\n\n[Non-VA order for above](pshzid2-doxycycline-100mg-po-bid-7ds)\n\nReferences\n\nMandell chapter: Infectious arthritis of native joints\n\nSanford keyword: Septic arthritis\n\nCoakley G Lancet 2010, 375:846\n\nMMWR Recommendations and Reports CDC 2015, 64:1-137",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "general-information-outpatient"
+    },
+    {
+      "Text": "Azithromycin 1000 mg PO once ($) [M]",
+      "Item": "PSOZID2 AZITHROMYCIN 1GM PO ONCE"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 AZITHROMYCIN 1GM PO ONCE"
+    },
+    {
+      "Text": "Doxycycline 100 mg PO BID for 7 days ($) [DI]",
+      "Item": "PSOZID2 DOXYCYCLINE 100MG PO BID 7DS"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 DOXYCYCLINE 100MG PO BID 7DS"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU SEPTIC ARTH N. GONORRHOEAE"
+}

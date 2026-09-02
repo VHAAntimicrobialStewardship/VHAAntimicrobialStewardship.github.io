@@ -1,0 +1,23 @@
+{
+  "PageID": "other-procedures-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "Term1": "Other procedures prophylaxis",
+  "Term2": "Procedures, other",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\nOTHER PROCEDURES\n\nIn view of the small number of wound infections that would be prevented by\n\nsystemic antimicrobial prophylaxis the risks outweigh benefits for patients who\n\nwill have cardiac catheterization, varicose vein surgery, most dermatologic and\n\nplastic surgery, arterial puncture, thoracentesis, paracentesis, repair of\n\nsimple lacerations, outpatient treatment of burns, dental extractions, or root\n\ncanal therapy.\n\n# If no antimicrobial prophylaxis recommended, select below:\n\n[*No antimicrobial prophylaxis recommended](orz-gtx-abx-pre-op-url-nurse-generic-order)\n\n[References](orzid2-gmenu-abx-references)\n\nBratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis\n\nin surgery, Am J Health-Syst Pharm. 2013 vol 70 pages 195-283",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "general-information-inpatient"
+    },
+    {
+      "Text": "*No antimicrobial prophylaxis recommended",
+      "Item": "ORZ GTX ABX PRE-OP URL NURSE GENERIC ORDER"
+    },
+    {
+      "Text": "References",
+      "Item": "ORZID2 GMENU ABX REFERENCES"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU SURG OTHER PROCEDURES",
+  "Outpt": "other-procedures-prophylaxis"
+}

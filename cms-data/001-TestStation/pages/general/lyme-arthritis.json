@@ -1,0 +1,10 @@
+{
+  "PageID": "lyme-arthritis",
+  "Group": "general",
+  "Term1": "LYME ARTHRITIS",
+  "Term2": "",
+  "Text": "## ARTHRITIS ASSOCIATED WITH LYME DISEASE\nArthritis is a common manifestation of late-stage Lyme Disease. Consult\nInfectious Diseases or Rheumatology if symptoms persist or recur after\ncompleting antimicrobial treatment.\n## Treatment\nPreferred:\n## Inpatient/##Outpatient\n\nDoxycycline 100 mg PO q12h ($) [DI] for 28 days\nFor pregnant patients or those with contraindications to doxycycline:\nAmoxicillin 500 mg PO q8h ($) [R] for 28 days\n ## _______________________________________________________________________________\nReferences:\nLantos et al., Clinical Infectious Diseases, 2021, 72(1):e1-e48\nMandell Chapter: Lyme Disease (Lyme Borreliosis) Due to Borrelia burgdorferi\nSanchez et al., JAMA (2016) 315.16\nSanford keyword: Lyme Disease, Arthritis\nUp-to-date article: Musculoskeletal manifestations of Lyme disease",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU LYME ARTHRITIS",
+  "Outpt": "ORZID3 GMENU LYME ARTHRITIS ASSOC"
+}

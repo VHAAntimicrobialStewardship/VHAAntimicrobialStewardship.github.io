@@ -1,0 +1,30 @@
+{
+  "PageID": "surg-vascular-surg-postop",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "Term1": "surg-vascular-surg-postop",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# Vascular surgery postop antimicrobial prophylaxis:\n\nProphylactic antibiotics should be discontinued within 24 hours.\n\nAntimicrobial prophylaxis is not recommended for some procedures, including\n\nbrachiocephalic procedures (e.g., carotid endarterectomy, brachial artery\n\nrepair) without implantation of prosthetic material.\n\nAntimicrobial prophylaxis is recommended in vascular procedures that involve\n\nimplantation of prosthetic material and procedures for which there is greater\n\nrisk of infection, such as aneurysm repair, thromboendarterectomy and vein\n\nbypass. Longer duration of antimicrobial prophylaxis therapy is warranted for\n\ngraft placement.\n\n# Prophylaxis for vascular procedures OTHER THAN graft placement*\n\n**No postop antimicrobial doses recommended for procedures that do not\n\ninvolve graft placement.**\n\n# *Prophylaxis for graft placement procedures:\n\n# Preferred:\n\n[Cefazolin Weight Based Dosing q8h x2 doses postop](orzid2-gmenu-surg-cefazolin-wt-based-postop-doses-x2)\n\n# Alternative for beta lactam allergy or MRSA colonization:\n\n[Click here Beta-lactam reaction assessment](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Vancomycin 15mg/kg Dosing q12h x1 dose postop](orzid2-gmenu-surg-vancomycin-post-op-specific-dosing)\n\n[References](orzid2-gmenu-abx-references)\n\nBratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis\n\nin surgery, Am J Health-Syst Pharm. 2013 vol 70 pages 195-283\n\nAntimicrobial Prophylaxis for Surgery, Treatment Guidelines from The\n\nMedical Letter 2012 vol 10 pages 73-77",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "general-information-inpatient"
+    },
+    {
+      "Text": "Cefazolin Weight Based Dosing q8h x2 doses postop",
+      "Item": "ORZID2 GMENU SURG CEFAZOLIN WT BASED POSTOP DOSES X2"
+    },
+    {
+      "Text": "[Click here] Beta-lactam reaction assessment",
+      "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
+    },
+    {
+      "Text": "Vancomycin 15mg/kg Dosing q12h x1 dose postop",
+      "Item": "ORZID2 GMENU SURG VANCOMYCIN POST-OP SPECIFIC DOSING"
+    },
+    {
+      "Text": "References",
+      "Item": "ORZID2 GMENU ABX REFERENCES"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU SURG VASCULAR SURG POSTOP"
+}

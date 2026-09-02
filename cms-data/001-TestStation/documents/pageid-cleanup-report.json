@@ -1,0 +1,819 @@
+{
+  "summary": {
+    "combined_pages_total": 538,
+    "renamed_pages": 0,
+    "menus_with_text_link_rewrites": 0,
+    "markdown_targets_rewritten": 0,
+    "linktargets_rewritten": 0,
+    "crossref_fields_rewritten": 0,
+    "term1_normalized": 34,
+    "remaining_combined_pageids_with_vista_tokens": 0,
+    "remaining_combined_term1_with_vista_tokens": 0,
+    "remaining_combined_markdown_targets_with_vista_tokens_sampled": 200
+  },
+  "rename_map": {},
+  "remaining_bad_pageids": [],
+  "remaining_bad_term1_pageids": [],
+  "remaining_bad_text_targets_sample": [
+    {
+      "page_id": "antiviral-infection-malignancy",
+      "target": "orzid2-gmenu-abx-influenza-recommendations"
+    },
+    {
+      "page_id": "bronchitis",
+      "target": "orzid2-gmenu-abx-copd-exacerbation"
+    },
+    {
+      "page_id": "cap-outpatient-treated-setting",
+      "target": "orz-gtx-abx-cap-psi"
+    },
+    {
+      "page_id": "general-information-inpatient",
+      "target": "orzid-gmenu-abx-genrl-alternative-drug"
+    },
+    {
+      "page_id": "more-about-cellulitis",
+      "target": "orzid2-gmenu-foot-ulcer-with-dm"
+    },
+    {
+      "page_id": "noso-pneumonia-new",
+      "target": "orzid2-gmenu-abx-pneumonia-hap-new"
+    },
+    {
+      "page_id": "parotitis",
+      "target": "orzid2-gmenu-abx-parotitis-more-information"
+    },
+    {
+      "page_id": "sepsis-and-shock",
+      "target": "orzid2-gmenu-sepsis-protocol-antimicrobials"
+    },
+    {
+      "page_id": "system-infectious-diseases",
+      "target": "orzid2-gmenu-fever-of-unk-origin"
+    },
+    {
+      "page_id": "bone-joint-muscle-infections",
+      "target": "orzid2-gmenu-osteomyelitis"
+    },
+    {
+      "page_id": "gi-intraabdominal",
+      "target": "ORZID2 GMENU ABSCESS SUBMENU"
+    },
+    {
+      "page_id": "gi-intraabdominal",
+      "target": "ORZID2 GMENU INFECT DIARRHEA/GASTRO"
+    },
+    {
+      "page_id": "gi-intraabdominal",
+      "target": "ORZID2 GMENU HEPATITIS SUBMENU"
+    },
+    {
+      "page_id": "gi-intraabdominal",
+      "target": "ORZID2 GMENU PERITONITIS SUBMENU"
+    },
+    {
+      "page_id": "other-pathogens",
+      "target": "orzid2-gmenu-m-tuberculosis"
+    },
+    {
+      "page_id": "other-pathogens",
+      "target": "orzid2-gmenu-m-avium-intracellulare"
+    },
+    {
+      "page_id": "parasites",
+      "target": "orzid2-gmenu-infect-diarrhea-gastro"
+    },
+    {
+      "page_id": "parasites",
+      "target": "orzid2-gmenu-abx-malaria-treatment"
+    },
+    {
+      "page_id": "additional-assistance",
+      "target": "orz-gtx-abx-cdss-email"
+    },
+    {
+      "page_id": "help-page",
+      "target": "orz-gtx-abx-antimicrobial-formulary"
+    },
+    {
+      "page_id": "help-page",
+      "target": "ORZID2 GMENU ABX SUSCEPTIBILITIES (ANTIBIOGRAM"
+    },
+    {
+      "page_id": "help-page",
+      "target": "orz-gtx-abx-resource-qtc"
+    },
+    {
+      "page_id": "help-page",
+      "target": "orz-min-on-call-schedule"
+    },
+    {
+      "page_id": "help-page",
+      "target": "orz-gtx-abx-theradoc-hyperlink"
+    },
+    {
+      "page_id": "help-page",
+      "target": "orz-gtx-abx-lexicomp-online"
+    },
+    {
+      "page_id": "help-page",
+      "target": "orz-gtx-abx-mandell"
+    },
+    {
+      "page_id": "help-page",
+      "target": "orz-gtx-abx-up-to-date"
+    },
+    {
+      "page_id": "help-page",
+      "target": "orz-gtx-abx-sanford"
+    },
+    {
+      "page_id": "susceptibilities-antibiogram",
+      "target": "orz-gtx-abx-mpls-vamc-abx-sensitivities"
+    },
+    {
+      "page_id": "susceptibilities-antibiogram",
+      "target": "orz-gtx-abx-antibiogram"
+    },
+    {
+      "page_id": "susceptibilities-antibiogram",
+      "target": "orz-gtx-abx-sanford"
+    },
+    {
+      "page_id": "susceptibilities-antibiogram",
+      "target": "orz-gtx-abx-mandell"
+    },
+    {
+      "page_id": "beta-lactam-allergy-assessment",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page_id": "infection-control",
+      "target": "orz-min-on-call-schedule"
+    },
+    {
+      "page_id": "infection-control",
+      "target": "orz-gtx-abx-mvamc-intranet-infect-ctrl"
+    },
+    {
+      "page_id": "infection-control",
+      "target": "orz-gtx-abx-cdc-website"
+    },
+    {
+      "page_id": "infection-control",
+      "target": "orz-gtx-abx-isolation-signs"
+    },
+    {
+      "page_id": "not-required",
+      "target": "orzid2-gmenu-abx-upper-respiratory-infections-uri"
+    },
+    {
+      "page_id": "not-required",
+      "target": "orzid2-gmenu-abx-stasis-dermatitis"
+    },
+    {
+      "page_id": "not-required",
+      "target": "orzid2-gmenu-abx-colonized-wounds"
+    },
+    {
+      "page_id": "not-required",
+      "target": "orzid2-gmenu-abx-not-benefitted-bacteriuria"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX SUSCEPTIBILITIES (ANTIBIOGRAM"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX SUSCEPTIBILITIES (ANTIBIOGRAM"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX NOT BENEFITTED BACTERIURIA"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX NOT BENEFITTED BACTERIURIA"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX NOT BENEFITTED BACTERIURIA"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX NOT BENEFITTED BACTERIURIA"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU BED BUGS (HEMIPTERA"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU BODY LICE (PEDICULOSIS CORPORIS"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX COPD EXACERBATION"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX NOT BENEFITTED BACTERIURIA"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX INFLUENZA CHEMOPROPHYLAXIS"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX CMV MAIN PAGE"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX COLONIZED WOUNDS"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX COPD EXACERBATION"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX CMV MAIN PAGE"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX STASIS DERMATITIS"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU FOOT ULCER WITH DM"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU INFECT DIARRHEA/GASTRO"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX COPD EXACERBATION"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU FEVER OF UNK ORIGIN"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX INFLUENZA CHEMOPROPHYLAXIS"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU FOOT ULCER WITH DM"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU INFECT DIARRHEA/GASTRO"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU HEAD LICE (PEDICULOSIS CAPITIS"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU BED BUGS (HEMIPTERA"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU INFECT DIARRHEA/GASTRO"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX INFLUENZA CHEMOPROPHYLAXIS"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU LEISHMANIASIS"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU BODY LICE (PEDICULOSIS CORPORIS"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU HEAD LICE (PEDICULOSIS CAPITIS"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU M. AVIUM INTRACELLULARE"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU M. AVIUM INTRACELLULARE"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX PAROTITIS MORE INFORMATION"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU M. AVIUM INTRACELLULARE"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU M. TUBERCULOSIS"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU COMM VIRAL GASTROENTERITIS"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU OSTEOMYELITIS"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX PARAINFLUENZA"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX PAROTITIS MORE INFORMATION"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU BODY LICE (PEDICULOSIS CORPORIS"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX NOT BENEFITTED BACTERIURIA"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX UPPER RESPIRATORY INFECTIONS (URI"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX RSV"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX ROSACEA"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU COMM VIRAL GASTROENTERITIS"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX RSV"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX STASIS DERMATITIS"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ANTIVIRAL STEM CELL MALIGNANCY"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX SUSCEPTIBILITIES (ANTIBIOGRAM"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX TUBERCULOSIS"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU M. TUBERCULOSIS"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU FOOT ULCER WITH DM"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX UPPER RESPIRATORY INFECTIONS (URI"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX UPPER RESPIRATORY INFECTIONS (URI"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU COMM VIRAL GASTROENTERITIS"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ANTIVIRAL STEM CELL MALIGNANCY"
+    },
+    {
+      "page_id": "index-inpatient",
+      "target": "ORZID2 GMENU ABX COLONIZED WOUNDS"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-a-b-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-a-b-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-a-b-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-a-b-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-a-b-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-a-b-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-a-b-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-a-b-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-a-b-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-a-b-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-a-b-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-a-b-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-a-b-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-a-b-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-a-b-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-d-e-f-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-d-e-f-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-d-e-f-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-d-e-f-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-d-e-f-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-d-e-f-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-d-e-f-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-d-e-f-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-d-e-f-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-d-e-f-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-d-e-f-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-d-e-f-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-d-e-f-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-d-e-f-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-d-e-f-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-d-e-f-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-g-h-i-j-k-l-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-g-h-i-j-k-l-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-g-h-i-j-k-l-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-g-h-i-j-k-l-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-g-h-i-j-k-l-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-g-h-i-j-k-l-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-g-h-i-j-k-l-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-g-h-i-j-k-l-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-g-h-i-j-k-l-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-g-h-i-j-k-l-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-m-n-o-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-m-n-o-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-m-n-o-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-m-n-o-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-m-n-o-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-m-n-o-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-m-n-o-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-m-n-o-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-m-n-o-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-m-n-o-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-m-n-o-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-m-n-o-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-m-n-o-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-m-n-o-sanford-or-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-p-q-r-s-sanford-lexicomp-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-p-q-r-s-sanford-lexicomp-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-p-q-r-s-sanford-lexicomp-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-p-q-r-s-sanford-lexicomp-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-p-q-r-s-sanford-lexicomp-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-p-q-r-s-sanford-lexicomp-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-p-q-r-s-sanford-lexicomp-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-p-q-r-s-sanford-lexicomp-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-p-q-r-s-sanford-lexicomp-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-p-q-r-s-sanford-lexicomp-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-p-q-r-s-sanford-lexicomp-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-p-q-r-s-sanford-lexicomp-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-t-u-v-w-x-y-z-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-t-u-v-w-x-y-z-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-t-u-v-w-x-y-z-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-t-u-v-w-x-y-z-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-t-u-v-w-x-y-z-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-t-u-v-w-x-y-z-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-t-u-v-w-x-y-z-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-t-u-v-w-x-y-z-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-t-u-v-w-x-y-z-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-t-u-v-w-x-y-z-sanford-lexi-links"
+    },
+    {
+      "page_id": "drug-info",
+      "target": "orz-gtx-abx-url-idp-t-u-v-w-x-y-z-sanford-lexi-links"
+    },
+    {
+      "page_id": "tpoxx-monkeypox-treatment",
+      "target": "orz-gtx-abx-tpoxx-documents-link"
+    },
+    {
+      "page_id": "tpoxx-monkeypox-treatment",
+      "target": "orz-set-abx-inv-tecovirimat-600-mg-orally-q12h-14-days"
+    },
+    {
+      "page_id": "tpoxx-monkeypox-treatment",
+      "target": "orz-set-abx-inv-tecovirimat-600-mg-orally-q8h-14-days"
+    }
+  ]
+}

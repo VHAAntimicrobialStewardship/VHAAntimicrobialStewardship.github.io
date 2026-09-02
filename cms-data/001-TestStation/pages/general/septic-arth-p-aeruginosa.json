@@ -1,0 +1,22 @@
+{
+  "PageID": "septic-arth-p-aeruginosa",
+  "Group": "general",
+  "Term1": "septic-arth-p-aeruginosa",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\nSEPTIC ARTHRITIS (NATIVE JOINT) WITH PSEUDOMONAS AERUGINOSA\n\nAdminister parenteral therapy initially then can be converted to appropriate\n\noral therapy.\n\n# Treatment\n\nTreat for 4 weeks\n\n[Ciprofloxacin 750 mg PO BID \\($\\) R,DI](psozid2-ciproflox-14ds-750mg-po-bid)\n\n[Non-VA order for above](pshzid2-ciproflox-14ds-750mg-po-bid)\n\nReferences:\n\nMandell chapter: Infectious arthritis of native joints\n\nSanford keyword: Septic arthritis\n\nUp-to-date online\n\nMathews CJ Lancet 2010, 375:846",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "general-information-outpatient"
+    },
+    {
+      "Text": "Ciprofloxacin 750 mg PO BID ($) [R,DI]",
+      "Item": "PSOZID2 CIPROFLOX 14DS 750MG PO BID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 CIPROFLOX 14DS 750MG PO BID"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU SEPTIC ARTH P. AERUGINOSA"
+}

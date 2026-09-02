@@ -3,11 +3,11 @@
   "Group": "lung-and-mediastinum",
   "Term1": "Nosocomial pneumonia with Pseudomonas aeruginosa",
   "Term2": "Pseudomonas aeruginosa nosocomial pneumonia",
-  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# NOSOCOMIAL PNEUMONIA WITH PSEUDOMONAS AERUGINOSA\n\nSingle drug therapy is as effective as combination therapy once susceptibility\n\nresults are known.\n\n# Duration of therapy\n\nTreat for 14 days. Patients who respond promptly and are no longer intubated may\n\nbe treated for as few as 7 days.\n\n# Empiric Treatment:\n\nSee below for oral therapy or history of multi-drug resistant Pseudomonas\n\nPreferred\n\n[Cefepime 2 gm IV q8h R](psjizid-cefepime-2-gm-iv-q8h)\n\n< OR >\n\n[Piperacillin-tazobactam 4.5 gm IV q6h R](psjizid-pip-taz-4-5gm-iv-q6h-ne-extinf-ci-cefep-metro)\n\nAlternative\n\n[Assessment of Beta-lactam Reaction](orzid2-gmenu-abx-beta-lactam-allergy-assesment)\n\n[Ciprofloxacin 400 mg IV q8h R,DI](psjizid-ciproflox-400mg-iv-q8h)\n\n# History of multi-drug resistant Pseudomonas\n\nConsult ID if Carbapenemase gene detected (IMP, KPC, NDM, OXA-48, VIM)\n\n[<ADD> Tobramycin 5 mg/kg IV once R,O to one of the regimens above](psjizid-tobramycin-5-mg-kg-iv-once)\n\n# Oral therapy (usually given after several days of intravenous therapy)\n\n# if isolate known sensitive to fluoroquinolone\n\n[Ciprofloxacin 750 mg PO q12h R,DI](psjzid-ciprofloxacin-500mg-po-q12h)\n\n# _______________________________________________________________________________\n\n# References:\n\nKalil AC Clin Infect Dis 2016 63:1\n\nTamma PD. Clin Infect Dis. 2024 Aug 7:ciae403. doi: 10.1093/cid/ciae403\n\nDaghmouri MA. EClinicalMedicine. 2023 1:58:101880\n\nChastre J JAMA 2003, 290: 2588\n\nBougle A. Intensive Care Med. 2022:48(7):841\n\nUp-to-date website",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# NOSOCOMIAL PNEUMONIA WITH PSEUDOMONAS AERUGINOSA\n\nSingle drug therapy is as effective as combination therapy once susceptibility\n\nresults are known.\n\n# Duration of therapy\n\nTreat for 14 days. Patients who respond promptly and are no longer intubated may\n\nbe treated for as few as 7 days.\n\n# Empiric Treatment:\n\nSee below for oral therapy or history of multi-drug resistant Pseudomonas\n\nPreferred\n\n[Cefepime 2 gm IV q8h R](psjizid-cefepime-2-gm-iv-q8h)\n\n< OR >\n\n[Piperacillin-tazobactam 4.5 gm IV q6h R](psjizid-pip-taz-4-5gm-iv-q6h-ne-extinf-ci-cefep-metro)\n\nAlternative\n\n[Assessment of Beta-lactam Reaction](beta-lactam-allergy-assessment)\n\n[Ciprofloxacin 400 mg IV q8h R,DI](psjizid-ciproflox-400mg-iv-q8h)\n\n# History of multi-drug resistant Pseudomonas\n\nConsult ID if Carbapenemase gene detected (IMP, KPC, NDM, OXA-48, VIM)\n\n[<ADD> Tobramycin 5 mg/kg IV once R,O to one of the regimens above](psjizid-tobramycin-5-mg-kg-iv-once)\n\n# Oral therapy (usually given after several days of intravenous therapy)\n\n# if isolate known sensitive to fluoroquinolone\n\n[Ciprofloxacin 750 mg PO q12h R,DI](psjzid-ciprofloxacin-500mg-po-q12h)\n\n# _______________________________________________________________________________\n\n# References:\n\nKalil AC Clin Infect Dis 2016 63:1\n\nTamma PD. Clin Infect Dis. 2024 Aug 7:ciae403. doi: 10.1093/cid/ciae403\n\nDaghmouri MA. EClinicalMedicine. 2023 1:58:101880\n\nChastre J JAMA 2003, 290: 2588\n\nBougle A. Intensive Care Med. 2022:48(7):841\n\nUp-to-date website",
   "LinkTargets": [
     {
       "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+      "Item": "general-information-inpatient"
     },
     {
       "Text": "Cefepime 2 gm IV q8h [R]",
@@ -19,7 +19,7 @@
     },
     {
       "Text": "Assessment of Beta-lactam Reaction",
-      "Item": "ORZID2 GMENU ABX BETA-LACTAM ALLERGY ASSESMENT"
+      "Item": "beta-lactam-allergy-assessment"
     },
     {
       "Text": "Ciprofloxacin 400 mg IV q8h [R,DI]",

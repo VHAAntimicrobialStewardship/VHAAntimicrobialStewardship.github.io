@@ -3,15 +3,15 @@
   "Group": "organisms",
   "Term1": "Propionibacterium infections, general",
   "Term2": "",
-  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# CUTIBACTERIUM (FORMERLY PROPIONIBACTERIUM) SPECIES\n\nIsolation of Cutibacterium species from a culture often represents contamination\n\nor colonization and not disease. For questions about whether a patient should be\n\ntreated, contact Infectious Diseases.\n\nOptimal therapy depends on both the disease or syndrome and the pathogen. See\n\ndisease/syndrome sections for more information.\n\n[Acne and Rosacea](orzid2-gmenu-abx-acne)\n\n# Preferred treatment\n\n[Penicillin G 2 million units IV q4h R](psjizid-penicillin-2mu-iv-q4h)\n\n# Alternative treatment\n\n[Ceftriaxone 2 gm IV q24h M](psjizid-ceftriaxone-2gm-iv-q24h)\n\nFor severe beta-lactam allergy:\n\n[Assessment of Beta-lactam Reaction](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Vancomycin 15 mg/kg IV q12h R](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n\n# _______________________________________________________________________________\n\n# References:\n\nSanford Guide article: Cutibacterium acnes\n\nUp-To-Date article: Invasive Cutibacterium (formerly Propionibacterium)\n\ninfections",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# CUTIBACTERIUM (FORMERLY PROPIONIBACTERIUM) SPECIES\n\nIsolation of Cutibacterium species from a culture often represents contamination\n\nor colonization and not disease. For questions about whether a patient should be\n\ntreated, contact Infectious Diseases.\n\nOptimal therapy depends on both the disease or syndrome and the pathogen. See\n\ndisease/syndrome sections for more information.\n\n[Acne and Rosacea](acne)\n\n# Preferred treatment\n\n[Penicillin G 2 million units IV q4h R](psjizid-penicillin-2mu-iv-q4h)\n\n# Alternative treatment\n\n[Ceftriaxone 2 gm IV q24h M](psjizid-ceftriaxone-2gm-iv-q24h)\n\nFor severe beta-lactam allergy:\n\n[Assessment of Beta-lactam Reaction](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Vancomycin 15 mg/kg IV q12h R](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n\n# _______________________________________________________________________________\n\n# References:\n\nSanford Guide article: Cutibacterium acnes\n\nUp-To-Date article: Invasive Cutibacterium (formerly Propionibacterium)\n\ninfections",
   "LinkTargets": [
     {
       "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+      "Item": "general-information-inpatient"
     },
     {
       "Text": "Acne and Rosacea",
-      "Item": "ORZID2 GMENU ABX ACNE"
+      "Item": "acne"
     },
     {
       "Text": "Penicillin G 2 million units IV q4h [R]",

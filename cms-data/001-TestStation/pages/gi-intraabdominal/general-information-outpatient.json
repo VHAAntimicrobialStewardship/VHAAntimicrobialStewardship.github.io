@@ -1,0 +1,50 @@
+{
+  "PageID": "general-information-outpatient",
+  "Group": "gi-intraabdominal",
+  "Term1": "general-information-outpatient",
+  "Term2": "",
+  "Text": "# GENERAL INFORMATION\n\n[Help and Additional Information Menu](help-page)\n\n[Consult Infectious Diseases \\(outpatient\\)](gmrctz-infectious-disease-outpt)\n\n[Consult Menu - place consults to specialty service](orz-gmenu-consults-main-op)\n\n[Antibiogram](susceptibilities-antibiogram)\n\n[Alternative Antimicrobials to CDSS Recommendations - select here](orzid3-gmenu-need-an-alt-abx-main)\n\n[Beta-lactam Reaction Assessment](beta-lactam-allergy-assessment)\n\n[Contact Information](additional-assistance)\n\n[Antimicrobial Information](drug-info)\n\n# LEGEND ________________________________________________________________________\n\n[Important Drug Properties](important-drug-properties)\n\n[DI] = Important interactions between antimicrobial and other drugs\n\n[H] = Hepatic excretion of antimicrobial\n\n[M] = Minimal risk posed by antimicrobial\n\n[O] = Other important antimicrobial property\n\n[R] = Renal excretion of antimicrobial\n\n[Antimicrobial Cost Information](antimicrobial-cost-information)\n\n($) = <10 dollars per day\n\n($$) = 10-50 dollars per day\n\n($$$) = 51-100 dollars per day\n\n($$$$) = 101-400 dollars per day\n\n($$$$$) = >400 dollars per day",
+  "LinkTargets": [
+    {
+      "Text": "Help and Additional Information Menu",
+      "Item": "help-page"
+    },
+    {
+      "Text": "Consult Infectious Diseases (outpatient)",
+      "Item": "GMRCTZ INFECTIOUS DISEASE (OUTPT)"
+    },
+    {
+      "Text": "Consult Menu - place consults to specialty service",
+      "Item": "ORZ GMENU CONSULTS MAIN OP"
+    },
+    {
+      "Text": "Antibiogram",
+      "Item": "susceptibilities-antibiogram"
+    },
+    {
+      "Text": "Alternative Antimicrobials to CDSS Recommendations - select here",
+      "Item": "ORZID3 GMENU NEED AN ALT ABX MAIN"
+    },
+    {
+      "Text": "Beta-lactam Reaction Assessment",
+      "Item": "beta-lactam-allergy-assessment"
+    },
+    {
+      "Text": "Contact Information",
+      "Item": "additional-assistance"
+    },
+    {
+      "Text": "Antimicrobial Information",
+      "Item": "drug-info"
+    },
+    {
+      "Text": "Important Drug Properties",
+      "Item": "important-drug-properties"
+    },
+    {
+      "Text": "Antimicrobial Cost Information",
+      "Item": "antimicrobial-cost-information"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU ABX GENERAL INFORMATION OUTPATIENT"
+}

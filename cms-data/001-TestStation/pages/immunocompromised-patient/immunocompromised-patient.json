@@ -1,0 +1,10 @@
+{
+  "PageID": "immunocompromised-patient",
+  "Group": "immunocompromised-patient",
+  "Term1": "1. IMMUNOCOMPROMISED PATIENT (Navigation)",
+  "Term2": "",
+  "Text": "## ++ INFECTIONS IN IMMUNOCOMPROMISED PATIENTS - OUTPATIENT ++\n[Basic concepts](immunocompromise-basic-concepts)\n## Innate defects\n[Altered microbial flora](immunocom-altered-micro-flora)\n[Complement deficiency](immunocom-comp-deficiency)\n[Diabetes Mellitus](immunocom-diabetes-mellitus)\n[Hypochlorhydria](hypochlorhydria)\n[Malignancy](immunocom-malignancy)\n[Malnutrition](malnutrition)\n[Neurological dysfunction](immunocom-neurol-dysfunction)\n[Neutropenia](neutropenia)\n[Neutropenic fever](immunocom-neut-fever)\n[Spleen absent or dysfunctional](splenectomy-vaccines-prophy)\n[Stress](stress)\n[Tobacco smoke](tobacco-smoke)\n[Pneumocystis](pneumocystis-jirovecii)\n## Last reviewed February 2012\n<!-- COLUMN 2 -->\n## Immune defects\n[HIV](hiv-aids)\n[Cell-mediated immunity (CMI) defects](cell-mediated-immunity-defects)\n[Immunoglobulin deficiency (humoral immune system)](ig-his-deficiency)\n[Transplantation](transplantation)",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU ABX IMMUNOCOMPROMISED PATIENT",
+  "Outpt": "ORZID3 GMENU IMMUNOCOMPROMISED PT"
+}

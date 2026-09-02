@@ -1,0 +1,10 @@
+{
+  "PageID": "giardia",
+  "Group": "organisms",
+  "Term1": "GIARDIA",
+  "Term2": "",
+  "Text": "## DIARRHEA WITH GIARDIA\nTreatment can be offered when the patient has symptomatic disease.\nTreatment of asymptomatic patients can be considered if they have contact with\nimmunocompromised or pregnant people or live or work in settings where there is\nrisk of spreading infection to others (e.g., food handlers, daycare, nursing\nhome).\n## Primary treatment\n## Inpatient\n\nHydration and electrolyte replacement\n## Antimicrobial treatment\nMetronidazole 250 mg PO q8h for 5 to 7 days [DI]\n## _______________________________________________________________________________\n## Outpatient\n\nHydration and electrolyte replacement\n## Antimicrobial treatment\nMetronidazole 250 mg PO q8h for 5 to 7 days [DI]\nNon-VA order for above\n## _______________________________________________________________________________\nReferences:\nDOI: 10.1136/bmj.i5369-Minetti et al, BMJ, 2016, 355.i5369\nSanford Guide article: Giardiasis\nDOI: 10.1093/cid/cix669-Shane et al, Clinical Infectious Diseases 2017,\n65(12):45-80\nUp-to-Date article: Giardiasis: Treatment and prevention",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU ABX GIARDIA",
+  "Outpt": "ORZID3 GMENU DIARRHEA G. LAMBLIA"
+}

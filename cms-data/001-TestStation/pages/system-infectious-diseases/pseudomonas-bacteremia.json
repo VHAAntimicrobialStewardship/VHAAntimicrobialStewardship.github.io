@@ -1,0 +1,26 @@
+{
+  "PageID": "pseudomonas-bacteremia",
+  "Group": "system-infectious-diseases",
+  "Term1": "Pseudomonas bacteremia",
+  "Term2": "Bacteremia, pseudomonas",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# BACTEREMIA ASOOCIATED WITH PSEUDOMONAS\n\nOne antimicrobial is sufficient to treat pseudomonas bacteremia unless the\n\npatient is critically ill. Identification and treatment of the source of\n\ninfection, in addition to antimicrobial therapy, is crucial for resolution of\n\ninfection. This may include removal of catheters and draining of abscesses if\n\npresent.\n\n# Duration of therapy\n\nTreat for a total of 7 days with source control. Most patients can rapidly\n\ntransition to an oral antibiotic. Call Infectious Diseases or Stewardship Team\n\nfor more information.\n\n# Treatment\n\n[Piperacillin-tazobactam 4.5 gm IV q6h \\($$\\) R](psjizid-pip-taz-4-5gm-iv-q6h-ne-extinf-ci-cefep-metro)\n\n< OR >\n\n[Cefepime 2 gm IV q8h \\($$\\) R](psjizid-cefepime-2-gm-iv-q8h)\n\n# For critically ill patients or likely resistant organism, in addition to\n\n# treatment above\n\n[< ADD > Tobramycin 5 mg/kg IV x 1 \\($\\) R,O](psjizid-tobramycin-5-mg-kg-iv-once)\n\n# _______________________________________________________________________________\n\nReferences:\n\nSanford keyword: Pseudomonas aeruginosa\n\nUp-to-Date article: Detection of bacteremia: Blood cultures and other diagnostic\n\ntests\n\nUp-to-Date article: Gram-negative bacillary bacteremia in adults",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "general-information-inpatient"
+    },
+    {
+      "Text": "Piperacillin-tazobactam 4.5 gm IV q6h ($$) [R]",
+      "Item": "PSJIZID PIP/TAZ 4.5GM IV Q6H(NE-EXTINF,CI-CEFEP/METRO)"
+    },
+    {
+      "Text": "Cefepime 2 gm IV q8h ($$) [R]",
+      "Item": "PSJIZID CEFEPIME 2 GM IV Q8H"
+    },
+    {
+      "Text": "< ADD > Tobramycin 5 mg/kg IV x 1 ($) [R,O]",
+      "Item": "PSJIZID TOBRAMYCIN 5 MG/KG IV ONCE"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU BACTEREMIA PSEUDOMONAS"
+}

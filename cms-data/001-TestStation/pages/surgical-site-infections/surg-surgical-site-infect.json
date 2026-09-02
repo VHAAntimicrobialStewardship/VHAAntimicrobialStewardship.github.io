@@ -1,0 +1,10 @@
+{
+  "PageID": "surg-surgical-site-infect",
+  "Group": "surgical-site-infections",
+  "Term1": "1. surg-surgical-site-infect (Navigation)",
+  "Term2": "",
+  "Text": "## ++ SURGICAL SITE INFECTION ++\n[Post-operative wound infection](post-operative-wound-infection)\nMediastinitis\n## ++SURGICAL PROPHYLAXIS FOR DERMATOLGY/POST-OP SKIN INFECTION++\nDermatologic Infections",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU SURG SURGICAL SITE INFECT",
+  "Outpt": "ORZID3 GMENU SURG SITE INFECT"
+}

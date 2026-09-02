@@ -1,0 +1,30 @@
+{
+  "PageID": "influenza-recommendations-outpatient",
+  "Group": "lung-and-mediastinum",
+  "Term1": "influenza-recommendations-outpatient",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\n# SEASONAL INFLUENZA\n\n[Influenza vaccination recommendations](flu-seasonal-influenza)\n\n[Antiviral Treatment Recommendations](antiviral-treatment)\n\n[Chemoprophylaxis Recommendations](orzid3-gmenu-influenza-chemoprophylaxis)\n\n[Lab Influenza Testing Menu](orz-gmenu-lab-nasopharyngeal-testing-main)",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "general-information-outpatient"
+    },
+    {
+      "Text": "Influenza vaccination recommendations",
+      "Item": "flu-seasonal-influenza"
+    },
+    {
+      "Text": "Antiviral Treatment Recommendations",
+      "Item": "antiviral-treatment"
+    },
+    {
+      "Text": "Chemoprophylaxis Recommendations",
+      "Item": "ORZID3 GMENU INFLUENZA CHEMOPROPHYLAXIS"
+    },
+    {
+      "Text": "Lab Influenza Testing Menu",
+      "Item": "ORZ GMENU LAB NASOPHARYNGEAL TESTING MAIN"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU INFLUENZA RECOMMENDATIONS OUTPATIENT"
+}

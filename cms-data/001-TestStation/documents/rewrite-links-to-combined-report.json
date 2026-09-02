@@ -1,0 +1,4022 @@
+{
+  "summary": {
+    "menus_scanned": 538,
+    "menus_text_updated": 19,
+    "menus_linktargets_updated": 15,
+    "text_link_rewrites": 57,
+    "linktarget_item_rewrites": 50,
+    "unresolved_candidate_targets": 802
+  },
+  "unresolved_candidates": [
+    {
+      "page": "abscess-spinal-epidural",
+      "label": "Ceftriaxone 2 gm IV q12h \\($\\) M <AND> vancomycin 15 mg/kg IV q12h \\($\\) R",
+      "target": "orz-set-abx-ceftriax-2gm-q12h-and-vanco-15mg-kg-q12h"
+    },
+    {
+      "page": "abscess-spinal-epidural",
+      "label": "Cefepime 2gm IV Q8h \\($$\\) R  < AND > vancomycin 15 mg/kg IV q12h \\($\\) R",
+      "target": "orz-set-abx-cefepime-2gm-iv-q8h-vanco-15mg-kg-iv-q12h"
+    },
+    {
+      "page": "abscess-spinal-epidural",
+      "label": "Assessment of beta-lactam reaction",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "abscess-spinal-epidural",
+      "label": "Meropenem 2 gm IV q8h \\($$\\) R,O <AND> vancomycin 15mg/kg IV q12h \\($\\) R",
+      "target": "orz-set-abx-meropenem-2gm-iv-q8h-vanco-15mg-kg-iv-q12h"
+    },
+    {
+      "page": "abscess-spinal-epidural",
+      "label": "Nafcillin 2 gm IV q4h \\($$\\) R,DI",
+      "target": "psjizid-nafcillin-2gm-iv-q4h"
+    },
+    {
+      "page": "abscess-spinal-epidural",
+      "label": "Cefazolin 2 gm IV q8h \\($\\) R",
+      "target": "psjizid-cefazolin-2gm-ivpb-q8h"
+    },
+    {
+      "page": "additional-assistance",
+      "label": "CDSS Team Email: andrew.holbrook@va.gov",
+      "target": "orz-gtx-abx-cdss-email"
+    },
+    {
+      "page": "adult-immunizations-outpatient",
+      "label": "Click Here for vaccination history including link to Joint Legacy Viewer",
+      "target": "orz-gtx-abx-joint-legacy-viewer"
+    },
+    {
+      "page": "adult-immunizations-outpatient",
+      "label": "Click Here for link to PDF of CDC Recommended Adult Immunization Schedule",
+      "target": "orz-gtx-abx-cdc-adult-immunization-schedule"
+    },
+    {
+      "page": "adult-immunizations-outpatient",
+      "label": "Alternative: administer via clinic order Click Here",
+      "target": "psczid-covid-19-monovalent-vaccine-once"
+    },
+    {
+      "page": "adult-immunizations-outpatient",
+      "label": "Monkeypox \\(Jynneos\\)",
+      "target": "orz-gtx-abx-monkeypox-vaccine-nursing-text-order"
+    },
+    {
+      "page": "adult-immunizations-outpatient",
+      "label": "19-26 years",
+      "target": "orzid3-gmenu-abx-immunization-age-19-26-years"
+    },
+    {
+      "page": "adult-immunizations-outpatient",
+      "label": "27-49 years",
+      "target": "orzid3-gmenu-abx-immunization-age-27-49-years"
+    },
+    {
+      "page": "adult-immunizations-outpatient",
+      "label": "50-64 years",
+      "target": "orzid3-gmenu-abx-immunization-age-50-64-years"
+    },
+    {
+      "page": "adult-immunizations-outpatient",
+      "label": ">/= 65 years",
+      "target": "orzid3-gmenu-abx-immunization-65-years-or-greater"
+    },
+    {
+      "page": "adult-immunizations-outpatient",
+      "label": "Diabetes",
+      "target": "orzid3-gmenu-abx-immunization-in-diabetes"
+    },
+    {
+      "page": "adult-immunizations-outpatient",
+      "label": "HIV",
+      "target": "orzid3-gmenu-abx-immunization-in-hiv-pts"
+    },
+    {
+      "page": "adult-immunizations-outpatient",
+      "label": "Pregnancy",
+      "target": "orzid3-gmenu-pregnancy-vaccine"
+    },
+    {
+      "page": "antibiotic-loaded-bone-cement-for-pji-phi",
+      "label": "Cefuroxime and vancomycin ALBC order set",
+      "target": "orz-set-abx-vanco-cefuroxime-albc-spacer-ortho"
+    },
+    {
+      "page": "antibiotic-loaded-bone-cement-for-pji-phi",
+      "label": "Aztreonam and vancomycin ALBC order set",
+      "target": "orz-set-abx-vanco-aztreonam-albc-spacer-ortho"
+    },
+    {
+      "page": "antibiotic-loaded-bone-cement-for-pji-phi",
+      "label": "Select here for full protocol",
+      "target": "orz-gtx-abx-albc-orthopedic-hyperlink"
+    },
+    {
+      "page": "antiviral-infection-malignancy",
+      "label": "Seasonal Influenza Recommendations",
+      "target": "orzid2-gmenu-abx-influenza-recommendations"
+    },
+    {
+      "page": "antiviral-prophylaxis-malignancy",
+      "label": "Stem cell transplant recipients \\(autologous or allogeneic\\)",
+      "target": "orzid2-gmenu-antiviral-stem-cell-malignancy"
+    },
+    {
+      "page": "aspergillus-infections-general",
+      "label": "Voriconazole 6 mg/kg IV q12h for 2 doses, then 4 mg/kg IV q12h \\($$$$\\) R,H,",
+      "target": "psjizid-voriconazole-6mg-kg-q12h-then-4mg-kg-iv-q12h"
+    },
+    {
+      "page": "aspergillus-infections-general",
+      "label": "Amphotericin B Liposomal 3-5MG/KG IV q24h \\($$$$\\)R,O+ NS Hydratio",
+      "target": "orz-set-abx-amphotericin-liposomal-fluid-flush-orders"
+    },
+    {
+      "page": "aspergillus-infections-general",
+      "label": "Voriconazole 200 mg PO q12h \\($$\\) R,H,DI",
+      "target": "psjzid-voriconazole-200mg-po-bid"
+    },
+    {
+      "page": "babesia-infections-general",
+      "label": "Azithromycin 500 mg PO once on day 1, then 250 mg PO q24h \\($\\) O for 6",
+      "target": "orz-set-abx-azithro-500-then-250-q24h-atovaquone-750-q12h"
+    },
+    {
+      "page": "babesia-infections-general",
+      "label": "Azithromycin 500 IV q24h \\($\\) M <AND> atovaquone 750 mg PO q12h \\($\\) M",
+      "target": "orz-set-abx-azithro-500mg-iv-q24h-atova-750mg-po-q12h"
+    },
+    {
+      "page": "bacillus-infections-general",
+      "label": "Vancomycin 15 mg/kg IV q12h R",
+      "target": "orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening"
+    },
+    {
+      "page": "bacterial-vaginosis-male-sexual-partner",
+      "label": "Metronidazole 500mg po bid x7days DI <AND> Clindamycin 2% cream apply",
+      "target": "orz-set-abx-op-metro-500-bid-clindamycin-cream-2-male-partner"
+    },
+    {
+      "page": "bacterial-vaginosis-male-sexual-partner",
+      "label": "Non-VA order for above",
+      "target": "orz-set-abx-op-metronid-500mg-bidx7days-clinda-2-cream-topical"
+    },
+    {
+      "page": "baricitinib-eua-covid-19",
+      "label": "Baricitinib 4 mg PO qday for 14 days or until discharge \\(COVID-19\\) \\($$$\\) R",
+      "target": "psjzid-baricitinib-eua-covid-4mg-po-qday-x14days"
+    },
+    {
+      "page": "baricitinib-eua-covid-19",
+      "label": "Baricitinib 4 mg NG qday for 14 days or until discharge \\(COVID-19\\) \\($$$\\) R",
+      "target": "orz-set-abx-baricitinib-ng-4mg-administration-instructions"
+    },
+    {
+      "page": "baricitinib-eua-covid-19",
+      "label": "Baricitinib 4 mg G Tube qday for 14 days or until discharge \\(COVID-19\\)",
+      "target": "orz-set-abx-baricitinib-gtube-4mg-admin-instructions"
+    },
+    {
+      "page": "baricitinib-eua-covid-19",
+      "label": "Baricitinib 2 mg PO qday for 14 days or until discharge \\(COVID-19\\) \\($$\\) R",
+      "target": "psjzid-baricitinib-eua-covid-2mg-po-qday-x14days"
+    },
+    {
+      "page": "baricitinib-eua-covid-19",
+      "label": "Baricitinib 2 mg NG qday for 14 days or until discharge \\(COVID-19\\) \\($$\\) R",
+      "target": "orz-set-abx-baricitinib-ng-2mg-administration-instructions"
+    },
+    {
+      "page": "baricitinib-eua-covid-19",
+      "label": "Baricitinib 2 mg G Tube qday for 14 days or until discharge \\(COVID-19\\)",
+      "target": "orz-set-abx-baricitinib-gtube-2mg-admin-instructions"
+    },
+    {
+      "page": "baricitinib-eua-covid-19",
+      "label": "Baricitinib 1 mg PO qday for 14 days or until discharge \\(COVID-19\\) \\($$\\) R",
+      "target": "psjzid-baricitinib-eua-covid-1mg-po-qday-x14days"
+    },
+    {
+      "page": "baricitinib-eua-covid-19",
+      "label": "Baricitinib 1 mg NG qday for 14 days or until discharge \\(COVID-19\\) \\($$\\) R",
+      "target": "orz-set-abx-baricitinib-ng-1mg-administration-instructions"
+    },
+    {
+      "page": "baricitinib-eua-covid-19",
+      "label": "Baricitinib 1 mg G Tube qday for 14 days or until discharge \\(COVID-19\\)",
+      "target": "orz-set-abx-baricitinib-gtube-1mg-admin-instructions"
+    },
+    {
+      "page": "beta-lactam-allergy-assessment",
+      "label": "Assessment of Beta-lactam Reaction CLICK HERE",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "biliary-surgery-prophylaxis",
+      "label": "Click here No antimicrobial prophylaxis recommended for procedure",
+      "target": "orz-gtx-abx-pre-op-url-nurse-generic-order"
+    },
+    {
+      "page": "biliary-surgery-prophylaxis",
+      "label": "Clindamycin 900mg IV once <AND> Gentamicin 5mg/kg Weight Based once pre-op",
+      "target": "orz-set-abx-clindamycin-900mg-gentamicin-5mg-kg-preop"
+    },
+    {
+      "page": "bispecific-crs-monitoring",
+      "label": "Acetaminophen 650mg PO q6h prn Temp>/=100.4 F or headache or rigors",
+      "target": "psjizid-acetamin-650mg-po-q6h-prn-temp-100-4-ha-rigors-crs"
+    },
+    {
+      "page": "bispecific-crs-monitoring",
+      "label": "Sodium Chloride 0.9% 1000 ml IV initial bolus over 2 hours for hypotension",
+      "target": "psjizid-sodium-chloride-0-9-first-bolus-crs"
+    },
+    {
+      "page": "bispecific-crs-monitoring",
+      "label": "Sodium Chloride 0.9% 1000 ml IV bolus over 2 hours \\(2nd bolus for hypotension\\)",
+      "target": "psjizid-sodium-chloride-0-9-second-bolus-crs"
+    },
+    {
+      "page": "bispecific-crs-monitoring",
+      "label": "Dexamethasone 8MG IV x1 STAT for CRS Grade 2",
+      "target": "psjzid-dexamethasone-8-mg-iv-x1-crs-grade-2"
+    },
+    {
+      "page": "bispecific-crs-monitoring",
+      "label": "Transfer Patient to ICU",
+      "target": "orz-set-pcm-transfer-to-micu"
+    },
+    {
+      "page": "bispecific-crs-monitoring",
+      "label": "Tocilizumab 8 MG/KG IV STAT DOSE#1 \\(Grade 3-4 CRS\\)",
+      "target": "psjizid-tocilizumab-8mg-kg-iv-once-dose-1"
+    },
+    {
+      "page": "bispecific-crs-monitoring",
+      "label": "Tocilizumab 8 MG/KG IV STAT DOSE#2 \\(Grade 3-4 CRS\\)",
+      "target": "psjizid-tocilizumab-8mg-kg-iv-once-dose-2"
+    },
+    {
+      "page": "bispecific-crs-monitoring",
+      "label": "Tocilizumab 8 MG/KG IV STAT DOSE#3 \\(Grade 3-4 CRS\\)",
+      "target": "psjizid-tocilizumab-8mg-kg-iv-once-dose-3"
+    },
+    {
+      "page": "bispecific-crs-monitoring",
+      "label": "Tocilizumab 8 MG/KG IV STAT DOSE#4 \\(Grade 3-4 CRS\\)",
+      "target": "psjizid-tocilizumab-8mg-kg-iv-once-dose-4"
+    },
+    {
+      "page": "bispecific-disease-specific-management",
+      "label": "Order Continuous Monitoring for both Cardiac and Oximetry",
+      "target": "orz-gmenu-admit-to-cardiac-monitor-bispecific"
+    },
+    {
+      "page": "bispecific-disease-specific-management",
+      "label": "Nurse call MD for Bispecific Antibody treatment \\(parameters\\)",
+      "target": "orz-nurs-call-md-if-new-basic-order-bispecifics"
+    },
+    {
+      "page": "bispecific-disease-specific-management",
+      "label": "Click here Order all labs listed below",
+      "target": "orz-set-bispecific-monitoring-daily-labs"
+    },
+    {
+      "page": "bispecific-disease-specific-management",
+      "label": "CBC & Diff Once Daily \\(Bispecific Monitoring\\)",
+      "target": "lrtz-cbc-diff-daily-x7days-bispecific-monitoring"
+    },
+    {
+      "page": "bispecific-disease-specific-management",
+      "label": "CMP Once daily \\(Bispecific Monitoring\\)",
+      "target": "lrtz-cmp-daily-bispecific-monitoring"
+    },
+    {
+      "page": "bispecific-disease-specific-management",
+      "label": "C-Reactive Protein Once Daily \\(Bispecific Monitoring\\)",
+      "target": "lrtz-c-reactive-protein-daily-bispecific-monitoring"
+    },
+    {
+      "page": "bispecific-disease-specific-management",
+      "label": "Ferritin Once Daily \\(Bispecific Monitoring\\)",
+      "target": "lrtz-ferritin-bispecific-monitoring"
+    },
+    {
+      "page": "bispecific-disease-specific-management",
+      "label": "Protime/INR Once Daily \\(Bispecific Monitoring\\)",
+      "target": "lrtz-protime-inr-daily-bispecific-monitoring"
+    },
+    {
+      "page": "bispecific-disease-specific-management",
+      "label": "PTT Once Daily \\(Bispecific Monitoring\\)",
+      "target": "lrtz-ptt-daily-bispecific-monitoring"
+    },
+    {
+      "page": "bispecific-disease-specific-management",
+      "label": "Fibrinogen Once Daily \\(Bispecific Monitoring\\)",
+      "target": "lrtz-fibrinogen-daily-bispecific-monitoring"
+    },
+    {
+      "page": "bispecific-icans-monitoring",
+      "label": "Click here to order Dexamethasone 10mg IV ONCE STAT",
+      "target": "psjzid-dexamethasone-10mg-iv-once-stat"
+    },
+    {
+      "page": "bispecific-icans-monitoring",
+      "label": "Click here to order Dexamethasone 10mg IV q12h",
+      "target": "psjzid-dexamethasone-10mg-ivp-q12h"
+    },
+    {
+      "page": "bispecific-icans-monitoring",
+      "label": "Click here to order Dexamethasone 10mg IV q6h",
+      "target": "psjzid-dexamethasone-10mg-iv-q6h-no-stop-date"
+    },
+    {
+      "page": "bispecific-icans-monitoring",
+      "label": "Click here to order High dose Methylpred 500mg IV q12h x3days THEN taper",
+      "target": "psjzid-methylpred-high-dose-icans-with-taper"
+    },
+    {
+      "page": "bispecific-lodging-admit-information",
+      "label": "Click here Patient Lodging Consult for Building 10",
+      "target": "gmrctz-lodging-request"
+    },
+    {
+      "page": "bispecific-lodging-admit-information",
+      "label": "Click here Patient Lodging Information Building 10",
+      "target": "orz-gtx-abx-patient-lodging-information-building-10"
+    },
+    {
+      "page": "bispecific-lodging-admit-information",
+      "label": "Click here Patient Lodging MAP Building 10",
+      "target": "orz-gtx-abx-patient-lodging-map-building-10"
+    },
+    {
+      "page": "bone-joint-muscle-infections",
+      "label": "Osteomyelitis",
+      "target": "orzid2-gmenu-osteomyelitis"
+    },
+    {
+      "page": "bone-joint-muscle-infections-2",
+      "label": "Osteomyelitis",
+      "target": "orzid3-gmenu-osteomyelitis"
+    },
+    {
+      "page": "bone-marrow-post-transplant-vaccinations",
+      "label": "Allogenic",
+      "target": "orzid3-gmenu-abx-bone-marrow-seattle-nashville-allogenic"
+    },
+    {
+      "page": "bone-marrow-post-transplant-vaccinations",
+      "label": "Autologous",
+      "target": "orzid3-gmenu-abx-bone-marrow-seattle-nashville-autologous"
+    },
+    {
+      "page": "bowel-surgery-prophylaxis",
+      "label": "Outpatient orders for Bowel Prep \\(Golytely+Neomycin PO+Erythromycin PO\\)",
+      "target": "psoz-set-general-surgery-bowel-prep"
+    },
+    {
+      "page": "bowel-surgery-prophylaxis",
+      "label": "Reglan 10mg PO prior to Golytely",
+      "target": "psjz-metoclopramide-10mg-po-pre-golytely"
+    },
+    {
+      "page": "bowel-surgery-prophylaxis",
+      "label": "Golytely Bowel Prep",
+      "target": "psjz-golytely-bowel-prep"
+    },
+    {
+      "page": "bowel-surgery-prophylaxis",
+      "label": "Neomycin 1000 mg PO TID day before surgery",
+      "target": "psjz-neomycin-1gm-po-tid-bowel-prep"
+    },
+    {
+      "page": "bowel-surgery-prophylaxis",
+      "label": "Erythromycin 1000 mg PO TID day before surgery",
+      "target": "psjz-erythromycin-1gm-po-tid-bowel-prep"
+    },
+    {
+      "page": "bowel-surgery-prophylaxis",
+      "label": "Cefazolin 2gm IV over 30 minutes beginning 60 minutes before incision",
+      "target": "orz-set-abx-cefazo-wt-based-iv-metron-500mg-iv-preop"
+    },
+    {
+      "page": "bowel-surgery-prophylaxis",
+      "label": "Gentamicin 5 MG/KG  IV over 30 minutes \\($\\) R,O beginning 60 minutes",
+      "target": "orz-set-abx-gentam-5-mg-kg-iv-30min-metro-500mg-iv-x1"
+    },
+    {
+      "page": "bowel-surgery-prophylaxis",
+      "label": "Clindamycin 900mg IV over 30 minutes \\($\\)H,O beginning 60 minutes",
+      "target": "orz-set-abx-clindamycin-900mg-iv-levofloxacin-500mg-iv"
+    },
+    {
+      "page": "brain-abscess-from-contiguous-or-hematogenous-spread",
+      "label": "Ceftriaxone 2 gm IV q12h \\($\\) M <AND> metronidazole 500 mg IV q8h \\($\\) DI",
+      "target": "orz-set-abx-ceftriax-2gm-iv-q12h-metro-500mg-iv-q8h"
+    },
+    {
+      "page": "brain-abscess-from-contiguous-or-hematogenous-spread",
+      "label": "Assessment of beta-lactam reaction",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "brain-abscess-from-contiguous-or-hematogenous-spread",
+      "label": "Meropenem 2 gm IV q8h \\($$\\) R,O",
+      "target": "psjizid-meropenem-2gm-iv-q8h"
+    },
+    {
+      "page": "brain-abscess-from-contiguous-or-hematogenous-spread",
+      "label": "Ceftriaxone 2 gm IV q12h \\($\\) M <AND> metronidazole 500 mg IV q8h",
+      "target": "orz-set-abx-ceftr-2gm-metro-500mg-iv-q8h-vanco-15mg-kg-iv-q12h"
+    },
+    {
+      "page": "brain-abscess-from-contiguous-or-hematogenous-spread",
+      "label": "Cefepime 2gm IV Q8h \\($$\\) R <AND> metronidazole 500 mg IV q8h \\($\\) DI",
+      "target": "orz-set-abx-cefe2gmivq8h-metro500mgivq8h-vanco15mg-kgivq12hstat"
+    },
+    {
+      "page": "brain-abscess-from-contiguous-or-hematogenous-spread",
+      "label": "Meropenem 2 gm IV q8h \\($$\\) R,O  <AND> vancomycin 15mg/kg IV q12h \\($\\) R",
+      "target": "orz-set-abx-meropenem-2gm-iv-q8h-vanco-15mg-kg-iv-q12h"
+    },
+    {
+      "page": "brain-abscess-post-surgical-or-post-traumatic",
+      "label": "Cefepime 2gm IV Q8h \\($$\\) R <AND> vancomycin 15mg/kg IV q12h \\($\\) R",
+      "target": "orz-set-abx-cefepime-2gm-iv-q8h-vanco-15mg-kg-iv-q12h"
+    },
+    {
+      "page": "brain-abscess-post-surgical-or-post-traumatic",
+      "label": "Assessment of beta-lactam reaction",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "brain-abscess-post-surgical-or-post-traumatic",
+      "label": "Meropenem 2 gm IV q8h \\($$\\) R,O <AND> vancomycin 15mg/kg IV q12h \\($\\) R",
+      "target": "orz-set-abx-meropenem-2gm-iv-q8h-vanco-15mg-kg-iv-q12h"
+    },
+    {
+      "page": "brain-abscess-post-surgical-or-post-traumatic",
+      "label": "Ceftriaxone 2 gm IV q12h \\($\\) M <AND> vancomycin 15mg/kg IV q12h \\($\\) R",
+      "target": "orz-set-abx-vancom-15mg-kg-iv-q12h-ceft-2gm-iv-q12h"
+    },
+    {
+      "page": "brain-abscess-with-nocardia",
+      "label": "Sulfamethoxazole 75 mg/kg - trimethoprim 15 mg/kg IV q8h \\($$$\\) R,DI <AND>",
+      "target": "orz-set-abx-tmp-smz-15-75mg-kg-iv-q8h-imipenem-1gm-iv-q8h"
+    },
+    {
+      "page": "brain-abscess-with-nocardia",
+      "label": "Sulfamethoxazole 75 mg/kg - trimethoprim 15 mg/kg IV q8h \\($$$\\) R,DI <AND>",
+      "target": "orz-set-abx-tmp-smz-25-75mg-kg-iv-q8h-ceftriaxone-2gm-iv-q12h"
+    },
+    {
+      "page": "brain-abscess-with-nocardia",
+      "label": "< ADD > Amikacin 7.5 mg/kg IV q12h \\($$\\)",
+      "target": "psjizid-amikacin-7-5-mg-kg-iv-q12h"
+    },
+    {
+      "page": "brain-abscess-with-nocardia",
+      "label": "Linezolid 600 mg IV q12h \\($$$$\\) DI,O < AND > imipenem 1 gm IV q8h \\($$\\) R",
+      "target": "orz-set-abx-linezolid-600mg-iv-q12h-imipenem-1gm-iv-q8h"
+    },
+    {
+      "page": "brain-abscess-with-nocardia",
+      "label": "Sulfamethoxazole-trimethoprim 2 DS PO q12h \\($\\) R,DI",
+      "target": "psjzid-trimeth-sulfa-2ds-po-q12h"
+    },
+    {
+      "page": "brain-abscess-with-nocardia",
+      "label": "Minocycline 100mg q12h\\($\\) DI",
+      "target": "psjzid-minocycline-100mg-po-q12h"
+    },
+    {
+      "page": "brain-abscess-with-nocardia",
+      "label": "Amoxicillin-clavulanate 875-125 mg PO q12h \\($\\) R",
+      "target": "psjzid-amox-clav-875-125mg-po-q12h"
+    },
+    {
+      "page": "brain-abscess-with-pseudomonas",
+      "label": "Cefepime 2gm IV Q8h \\($$\\) R",
+      "target": "psjizid-cefepime-2-gm-iv-q8h"
+    },
+    {
+      "page": "brain-abscess-with-pseudomonas",
+      "label": "Assessment of beta-lactam reaction",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "brain-abscess-with-pseudomonas",
+      "label": "Ceftazidime 2 gm IV q8h \\($$\\) R",
+      "target": "psjizid-ceftazidime-2gm-iv-q8h"
+    },
+    {
+      "page": "brain-abscess-with-pseudomonas",
+      "label": "Meropenem 2 gm IV q8h \\($$\\) R,O",
+      "target": "psjizid-meropenem-2gm-iv-q8h"
+    },
+    {
+      "page": "brain-abscess-with-toxoplasma-gondii",
+      "label": "Pyrimethamine 200 mg PO x 1 then 75 mg po daily \\($$$$$\\) DI,O <AND>",
+      "target": "orz-set-abx-pyrim200mgthen75mgq24h-sulfad1-5gmq6h-leuco10mgq24h"
+    },
+    {
+      "page": "brain-abscess-with-toxoplasma-gondii",
+      "label": "Pyrimethamine 200 mg PO x 1 then 50 mg PO daily \\($$$$$\\) DI,O <AND>",
+      "target": "orz-set-abx-pyrimeth-200mg-po-sulfad-1gm-leucovorin-10mg"
+    },
+    {
+      "page": "brain-abscess-with-toxoplasma-gondii",
+      "label": "Pyrimethamine 75 mg PO q24h \\($$$$$\\) DI,O <AND> clindamycin 600 mg PO q6h",
+      "target": "orz-set-abx-pyrim-75mg-q24h-clinda-600mg-po-q6h-leuco-10mg-q24h"
+    },
+    {
+      "page": "brain-abscess-with-toxoplasma-gondii",
+      "label": "Pyrimethamine 50 mg PO q24h \\($$$$$\\) DI,O <AND> clindamycin 600 mg PO q6h",
+      "target": "orz-set-abx-pyrim-50mg-q24h-clinda-600mg-po-q6h-leuco-10mg-q24h"
+    },
+    {
+      "page": "brain-abscess-with-toxoplasma-gondii",
+      "label": "Trimethoprim 5 mg/kg - sulfamethoxazole 25 mg/kg IV q12h \\($$$\\) R,DI",
+      "target": "psjizid-trimethoprim-sulfameth-5-25-mg-kg-iv-q12h"
+    },
+    {
+      "page": "brain-abscess-with-toxoplasma-gondii",
+      "label": "Trimethoprim 5 mg/kg - sulfamethoxazole 25 mg/kg PO q12h \\($\\) R,DI",
+      "target": "psjzid-trimeth-sulfa-5-25-mg-kg-po-q12h"
+    },
+    {
+      "page": "bronchitis",
+      "label": "COPD exacerbation",
+      "target": "orzid2-gmenu-abx-copd-exacerbation"
+    },
+    {
+      "page": "brucella-infections-general",
+      "label": "Doxycycline 100 mg PO q12h DI < AND > rifampin 600 mg PO q24h DI,O",
+      "target": "orz-set-abx-doxycy-100mg-po-q12h-rifamp-600mg-po-q24h"
+    },
+    {
+      "page": "cap-outpatient-treated-setting",
+      "label": "CAP Pneumonia Severity Index (PSI) Calculator",
+      "target": "orz-gtx-abx-cap-psi"
+    },
+    {
+      "page": "cap-treated-in-outpt-setting",
+      "label": "CAP Pneumonia Severity Index \\(PSI\\) Calculator",
+      "target": "orz-gtx-abx-cap-psi"
+    },
+    {
+      "page": "cap-treated-in-outpt-setting",
+      "label": "Doxycycline 100 mg PO Q12H for 5 days DI",
+      "target": "psozid2-pna-doxycycline-100mg-po-bid-5days"
+    },
+    {
+      "page": "cap-treated-in-outpt-setting",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-pna-doxycycline-100mg-po-bid-5days"
+    },
+    {
+      "page": "cap-treated-in-outpt-setting",
+      "label": "Amoxicillin 1000 mg PO Q8H for 5 days R",
+      "target": "psozid2-pna-amoxicillin-1000mg-po-tid-x5days"
+    },
+    {
+      "page": "cap-treated-in-outpt-setting",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-pna-amoxicillin-1000mg-po-tid-x5days"
+    },
+    {
+      "page": "cap-treated-in-outpt-setting",
+      "label": "Amoxicillin-clavulanate 875/125 mg PO Q12H for 5 days R <AND> azithromycin po",
+      "target": "orz-set-abx-op-pna-amox-clav-875-125-bid-azith-500-then-250"
+    },
+    {
+      "page": "cap-treated-in-outpt-setting",
+      "label": "Non-VA order for above",
+      "target": "orz-set-abx-nv-pna-amox-clav-875-125-bid-azith-500-then-250"
+    },
+    {
+      "page": "cap-treated-in-outpt-setting",
+      "label": "Cefdinir 300 mg PO Q12H for 5 days R <AND> azithromycin once on day 1, then",
+      "target": "orz-set-abx-op-pna-cefdinir-300mg-po-bid-azith-500-then-250"
+    },
+    {
+      "page": "cap-treated-in-outpt-setting",
+      "label": "Non-VA order for above",
+      "target": "orz-set-abx-nv-pna-cefdinir-300mg-po-bid-azith-500-then-250"
+    },
+    {
+      "page": "cap-treated-in-outpt-setting",
+      "label": "Amoxicillin-clavulanate 875/125 mg PO Q12H for 5 days R <AND> doxycycline 100",
+      "target": "orz-set-abx-op-pna-amox-clav-875-125-bid-doxy-100mg-bid"
+    },
+    {
+      "page": "cap-treated-in-outpt-setting",
+      "label": "Non-VA order for above",
+      "target": "orz-set-abx-nv-pna-amox-clav-875-125-bid-doxy-100mg-bid"
+    },
+    {
+      "page": "cap-treated-in-outpt-setting",
+      "label": "Cefdinir 300 mg PO q12h for 5 days R <AND> doxycycline 100 mg PO Q12H for 5",
+      "target": "orz-set-abx-op-pna-cefdinir-300mg-bid-doxy-100mg-bid"
+    },
+    {
+      "page": "cap-treated-in-outpt-setting",
+      "label": "Non-VA order for above",
+      "target": "orz-set-abx-nv-pna-cefdinir-300mg-bid-doxy-100mg-bid"
+    },
+    {
+      "page": "cap-treated-in-outpt-setting",
+      "label": "Levofloxacin 750 mg PO q24h for 5 days DI",
+      "target": "psozid2-pna-levofloxacin-5ds-750mg-po-qday"
+    },
+    {
+      "page": "cap-treated-in-outpt-setting",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-pna-levofloxacin-5ds-750mg-po-qday"
+    },
+    {
+      "page": "cardiac-surgery-post-op-prophylaxis",
+      "label": "Cefuroxime 1.5 gm IV q8h x 1 dose post-op \\($$\\) R <AND> vancomycin 15 mg/kg",
+      "target": "orz-set-abx-cefur-1-5g-vanco-15mg-kg-postop-card"
+    },
+    {
+      "page": "cardiac-surgery-post-op-prophylaxis",
+      "label": "Vancomycin 15 mg/kg \\(pharmacy to dose\\) IV q12h x 1 dose post-op \\($\\) R",
+      "target": "psjizid-vancomycin-15mg-kg-postoperative-q12h-once"
+    },
+    {
+      "page": "cardiac-surgery-prophylaxis",
+      "label": "*No antimicrobial prophylaxis recommended",
+      "target": "orz-gtx-abx-pre-op-url-nurse-generic-order"
+    },
+    {
+      "page": "cardiac-surgery-prophylaxis",
+      "label": "Click here Beta-lactam allergy assessment",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "cardiac-surgery-prophylaxis",
+      "label": "Vancomycin 15mg/kg Weight Based Dosing Preop R",
+      "target": "orzid2-gmenu-surg-vancomycin-weight-based-dosing"
+    },
+    {
+      "page": "cardiovascular-device-infections-excluding-valves",
+      "label": "Vancomycin 15 mg/kg IV q12h \\($\\) R",
+      "target": "orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening"
+    },
+    {
+      "page": "cardiovascular-device-infections-excluding-valves",
+      "label": "Vancomycin 15 mg/kg IV q12h \\($\\) R <AND> rifampin 300 mg PO/NG q8h \\($\\)",
+      "target": "orz-set-abx-vanco-rifamp-300mg-po-q8h"
+    },
+    {
+      "page": "cardiovascular-device-infections-excluding-valves",
+      "label": "< ADD > gentamicin 1 mg/kg IV q8h \\($\\) R,O",
+      "target": "psjizid-gentamicin-1-mg-kg-iv-q8h"
+    },
+    {
+      "page": "catheter-associated-infection-intravascular",
+      "label": "Approach to intravascular catheter-associated infection and antimicrobial",
+      "target": "orzid2-gmenu-appro-intravas-cath-assoc-infect"
+    },
+    {
+      "page": "catheter-associated-infection-intravascular",
+      "label": "Vancomycin 15 mg/kg IV q12h \\($\\) R",
+      "target": "orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening"
+    },
+    {
+      "page": "catheter-associated-infection-intravascular",
+      "label": "Piperacillin-tazobactam 4.5 gm IV q6h \\($$\\) R <AND> vancomycin 15 mg/kg IV",
+      "target": "orz-set-abx-pip-taz4-5gm-ne-extinf-ci-cefep-metro-vanco15mg-kg"
+    },
+    {
+      "page": "catheter-associated-infection-intravascular",
+      "label": "Vancomycin 15 mg/kg IV q12h \\($\\) R <AND> gentamicin 5 mg/kg q24h \\($\\) R,O",
+      "target": "orz-set-abx-vanco-15-mg-kg-iv-q12h-gent-5-mg-kg-iv-q24h"
+    },
+    {
+      "page": "cell-mediated-immunity-defects",
+      "label": "References",
+      "target": "orzid2-gmenu-abx-references"
+    },
+    {
+      "page": "chickenpox-vaccine-information",
+      "label": "2 dose series",
+      "target": "orz-set-abx-op-varicella-vaccine-2-dose-series"
+    },
+    {
+      "page": "cied-surgery-pre-op-prophylaxis",
+      "label": "Click here Beta-lactam reaction assessment",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "cied-surgery-pre-op-prophylaxis",
+      "label": "Vancomycin 15mg/kg Weight Based Dosing Preop R",
+      "target": "orzid2-gmenu-surg-vancomycin-weight-based-dosing"
+    },
+    {
+      "page": "cied-surgery-pre-op-prophylaxis",
+      "label": "Mupirocin Ointment apply topical to each nostril bid x5days prior to procedure",
+      "target": "psozid-mupirocin-2-oint-decolon-topical-bid-5d"
+    },
+    {
+      "page": "cied-surgery-pre-op-prophylaxis",
+      "label": "Cefazolin weight based dosing + Vancomycin 15mg/kg weight based dosing",
+      "target": "orz-set-abx-cefazolin-wt-based-vancomycin-15mg-kg-preop"
+    },
+    {
+      "page": "citrobacter-freundii-bacteremia",
+      "label": "Cefepime 2 gm IV q8h \\($$\\) R",
+      "target": "psjizid-cefepime-2-gm-iv-q8h"
+    },
+    {
+      "page": "citrobacter-freundii-bacteremia",
+      "label": "Meropenem 1 gm IV q8h \\($$\\) R,O",
+      "target": "psjizid-meropenem-1gm-iv-q8h"
+    },
+    {
+      "page": "clostridiodes-difficile-infection",
+      "label": "Click here Information on C. difficile lab testing",
+      "target": "orzid2-gmenu-abx-c-difficile-2-step-testing"
+    },
+    {
+      "page": "coagulase-negative-staphylococci-bacteremia",
+      "label": "Nafcillin 2 gm IV q4h \\($$\\) R",
+      "target": "psjizid-nafcillin-2gm-iv-q4h"
+    },
+    {
+      "page": "coagulase-negative-staphylococci-bacteremia",
+      "label": "Assessment of beta-lactam reaction CLICK HERE",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "coagulase-negative-staphylococci-bacteremia",
+      "label": "Cefazolin 2 gm IV q8h \\($\\) R",
+      "target": "psjizid-cefazolin-2gm-ivpb-q8h"
+    },
+    {
+      "page": "coagulase-negative-staphylococci-bacteremia",
+      "label": "Vancomycin 15 mg/kg IV q12h \\($\\) R",
+      "target": "orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening"
+    },
+    {
+      "page": "complicated-uti-catheter-associated",
+      "label": "Trimethoprim/sulfamethoxazole 1 DS tablet PO q12h R,DI for 7 days",
+      "target": "psozid2-tmp-sulfa-7days-1ds-tab-bid"
+    },
+    {
+      "page": "complicated-uti-catheter-associated",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-tmp-sulfa-7days-1ds-tab-bid"
+    },
+    {
+      "page": "complicated-uti-catheter-associated",
+      "label": "Nitrofurantoin SA 100 mg PO q12h R,O, CrCl =/>30mL/min, for 7 days",
+      "target": "psozid-nitrofurantoin-sa-7ds-100-mg-po-bid"
+    },
+    {
+      "page": "complicated-uti-catheter-associated",
+      "label": "Non-VA order for above",
+      "target": "pshzid-nitrofurantoin-sa-7ds-100-mg-po-bid"
+    },
+    {
+      "page": "complicated-uti-catheter-associated",
+      "label": "Amoxicillin-clavulanate 875/125 mg PO q12h R for 7 days",
+      "target": "psozid2-amox-clav-875-125mg-7ds-po-bid"
+    },
+    {
+      "page": "complicated-uti-catheter-associated",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-amox-clav-875-125mg-7ds-po-bid"
+    },
+    {
+      "page": "complicated-uti-catheter-associated",
+      "label": "Fosfomycin 3 gm sachet PO every other day M x 3 doses",
+      "target": "psozid-fosfomycin-3gm-po-qotherday-for-3doses"
+    },
+    {
+      "page": "complicated-uti-catheter-associated",
+      "label": "Non-VA order for above",
+      "target": "pshzid-fosfomycin-3gm-po-qotherday-for-3doses"
+    },
+    {
+      "page": "complicated-uti-catheter-associated",
+      "label": "Cefpodoxime 400 mg PO q12h R for 7 days",
+      "target": "psozid2-cefpodoxime-400mg-po-bid-7ds"
+    },
+    {
+      "page": "complicated-uti-catheter-associated",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-cefpodoxime-400mg-po-bid-7ds"
+    },
+    {
+      "page": "complicated-uti-catheter-associated",
+      "label": "Assessment of Beta-lactam Reaction",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "complicated-uti-catheter-associated",
+      "label": "Ciprofloxacin 500 mg PO q12h R,DI for 5 days",
+      "target": "psozid2-ciprofloxacin-5ds-500mg-po-bid"
+    },
+    {
+      "page": "complicated-uti-catheter-associated",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-ciprofloxacin-5ds-500mg-po-bid"
+    },
+    {
+      "page": "complicated-uti-catheter-associated",
+      "label": "Cefadroxil 1000 mg PO q12h R for 7 days",
+      "target": "psozid2-cefadroxil-1000mg-po-bid-7days"
+    },
+    {
+      "page": "complicated-uti-catheter-associated",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-cefadroxil-1000mg-po-bid-7days"
+    },
+    {
+      "page": "complicated-uti-catheter-associated",
+      "label": "Ciprofloxacin 750 mg PO q12h R,DI for 5 days",
+      "target": "psozid2-ciprofloxacin-750mg-po-bid-5ds"
+    },
+    {
+      "page": "complicated-uti-catheter-associated",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-ciprofloxacin-750mg-po-bid-5ds"
+    },
+    {
+      "page": "complicated-uti-catheter-associated",
+      "label": "Amoxicillin 1000 mg PO q8h R for 7 days",
+      "target": "psozid2-amoxicillin-1000mg-po-tid-7days"
+    },
+    {
+      "page": "complicated-uti-catheter-associated",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-amoxicillin-1000mg-po-tid-7days"
+    },
+    {
+      "page": "complicated-uti-no-catheter",
+      "label": "Trimethoprim/sulfamethoxazole 1 DS tablet q12h R,DI for 7 days",
+      "target": "psozid2-tmp-sulfa-7days-1ds-tab-bid"
+    },
+    {
+      "page": "complicated-uti-no-catheter",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-tmp-sulfa-7days-1ds-tab-bid"
+    },
+    {
+      "page": "complicated-uti-no-catheter",
+      "label": "Ciprofloxacin 750 mg PO q12h R,DI for 5 days",
+      "target": "psozid2-ciprofloxacin-750mg-po-bid-5ds"
+    },
+    {
+      "page": "complicated-uti-no-catheter",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-ciprofloxacin-750mg-po-bid-5ds"
+    },
+    {
+      "page": "complicated-uti-no-catheter",
+      "label": "Amoxicillin-clavulanate 875/125 mg PO q12h R for 7 days",
+      "target": "psozid2-amox-clav-875-125mg-7ds-po-bid"
+    },
+    {
+      "page": "complicated-uti-no-catheter",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-amox-clav-875-125mg-7ds-po-bid"
+    },
+    {
+      "page": "complicated-uti-no-catheter",
+      "label": "Cefadroxil 1000 mg PO q12h R for 7 days",
+      "target": "psozid2-cefadroxil-1000mg-po-bid-7days"
+    },
+    {
+      "page": "complicated-uti-no-catheter",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-cefadroxil-1000mg-po-bid-7days"
+    },
+    {
+      "page": "complicated-uti-no-catheter",
+      "label": "Assessment of Beta-lactam Reaction",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "complicated-uti-no-catheter",
+      "label": "Amoxicillin 1000 mg PO q8h R for 7 days",
+      "target": "psozid2-amoxicillin-1000mg-po-tid-7days"
+    },
+    {
+      "page": "complicated-uti-no-catheter",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-amoxicillin-1000mg-po-tid-7days"
+    },
+    {
+      "page": "complicated-uti-no-catheter",
+      "label": "Linezolid 600 mg PO q12h DI,O for 7 days",
+      "target": "psozid2-linezolid-600mg-po-bid-x7days"
+    },
+    {
+      "page": "complicated-uti-no-catheter",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-linezolid-600mg-po-bid-x7days"
+    },
+    {
+      "page": "corynebacterium-infections-general",
+      "label": "Vancomycin 15 mg/kg IV q12h R",
+      "target": "orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening"
+    },
+    {
+      "page": "corynebacterium-infections-general",
+      "label": "Daptomycin 4-6 mg/kg IV q24h R",
+      "target": "psjizid-daptomycin-6-mg-kg-iv-q24h"
+    },
+    {
+      "page": "cranial-epidural-abscess",
+      "label": "Ceftriaxone 2 gm IV q12h \\($\\) M <AND> metronidazole 500 mg IV q8h",
+      "target": "orz-set-abx-ceftr-2gm-metro-500mg-iv-q8h-vanco-15mg-kg-iv-q12h"
+    },
+    {
+      "page": "cranial-epidural-abscess",
+      "label": "Cefepime 2gm IV Q8h \\($$\\) R <AND> metronidazole 500 mg IV q8h \\($\\) DI",
+      "target": "orz-set-abx-cefe2gmivq8h-metro500mgivq8h-vanco15mg-kgivq12hstat"
+    },
+    {
+      "page": "cranial-epidural-abscess",
+      "label": "Assessment of beta-lactam reaction",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "cranial-epidural-abscess",
+      "label": "Meropenem 2 gm IV q8h \\($$\\) R,O <AND> vancomycin 15mg/kg IV q12h \\($\\) R",
+      "target": "orz-set-abx-meropenem-2gm-iv-q8h-vanco-15mg-kg-iv-q12h"
+    },
+    {
+      "page": "cranial-epidural-abscess",
+      "label": "Nafcillin 2 gm IV q4h \\($$\\) R,DI",
+      "target": "psjizid-nafcillin-2gm-iv-q4h"
+    },
+    {
+      "page": "cranial-epidural-abscess",
+      "label": "Cefazolin 2 gm IV q8h \\($\\) R",
+      "target": "psjizid-cefazolin-2gm-ivpb-q8h"
+    },
+    {
+      "page": "decolonization-of-staph-in-cardiac-surgery",
+      "label": "Chlorhexidine 4% liquid topically Q24h \\($\\) M < AND > Mupirocin 2%",
+      "target": "orz-set-abx-chlorhex-mupiro-decolon-cardiothor"
+    },
+    {
+      "page": "decolonization-of-staph-in-cardiac-surgery",
+      "label": "Chlorhexidine 4% liquid topically Q24h \\($\\) M nursing text order",
+      "target": "orz-set-abx-inpt-chlorhex-mupiro-decolon-cardiothor"
+    },
+    {
+      "page": "decolonization-of-staphylococcus-aureus",
+      "label": "Mupirocin 2% ointment topically q12h M <AND> chlorhexidine 4% liquid",
+      "target": "orz-set-abx-chlorhexidine-mupirocin-decolonization"
+    },
+    {
+      "page": "decolonization-of-staphylococcus-aureus",
+      "label": "Mupirocin 2% ointment topically BID M <AND> chlorhexidine 4% liquid",
+      "target": "orz-set-abx-op-chlorhexidine-mupirocin-decolonization"
+    },
+    {
+      "page": "dermatologic-surgical-site-infection",
+      "label": "Cefadroxil 1000 mg PO q12h \\($\\) R",
+      "target": "psozid-cefadroxil-1000mg-po-bid"
+    },
+    {
+      "page": "dermatologic-surgical-site-infection",
+      "label": "Trimethoprim-sulfamethoxazole 1 DS tablet BID \\($\\) R,DI",
+      "target": "psozid2-tmp-sulfa-7days-1ds-tab-bid"
+    },
+    {
+      "page": "dermatologic-surgical-site-infection",
+      "label": "Cefazolin 2 gm IV q8h \\($\\) R",
+      "target": "psjizid-cefazolin-2gm-ivpb-q8h"
+    },
+    {
+      "page": "dermatologic-surgical-site-infection",
+      "label": "Vancomycin 15 mg/kg IV q12h \\($\\) R",
+      "target": "orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening"
+    },
+    {
+      "page": "dermatologic-surgical-site-infection",
+      "label": "Cefadroxil 1000 mg PO q12h \\($\\) R <AND> metronidazole 500 mg PO q8h \\($\\) DI",
+      "target": "orz-set-abx-op-cefadroxil-1000mg-po-q12h-metron-500mg-po-q8h"
+    },
+    {
+      "page": "dermatologic-surgical-site-infection",
+      "label": "Ciprofloxacin 50O mg PO q12h \\($\\) R,DI <AND> metronidazole 500 mg PO q8h \\($",
+      "target": "orz-set-abx-op-ciprof-500mg-po-bid-metro-500mg-po-tid"
+    },
+    {
+      "page": "dermatologic-surgical-site-infection",
+      "label": "Trimethoprim-sulfamethoxazole 1 DS tablet BID \\($\\) R,DI <AND> metronidazole",
+      "target": "orz-set-abx-op-tmp-1-ds-tab-po-bid-metro-500mg-po-tid"
+    },
+    {
+      "page": "dermatologic-surgical-site-infection",
+      "label": "Ceftriaxone 2 gm IV q24h \\($\\) M <AND> metronidazole 500 mg IV q8h \\($\\) DI",
+      "target": "orz-set-abx-ceftriaxone-2gm-iv-q24h-metron-500mg-iv-q8h"
+    },
+    {
+      "page": "dermatologic-surgical-site-infection",
+      "label": "Ciprofloxacin 400 mg IV q12h \\($\\) R,DI <AND> metronidazole 500 mg IV q8h \\($",
+      "target": "orz-set-abx-ciprof-400mg-iv-q12-metron-500mg-iv-q8h"
+    },
+    {
+      "page": "doxypep",
+      "label": "Doxycycline 200mg PO PRN within 24 hours but not later than 72 hours after",
+      "target": "psozid-doxycycline-200mg-prn-doxy-pep"
+    },
+    {
+      "page": "doxypep",
+      "label": "Lab: Syphilis antibody Serum",
+      "target": "lrtz-syphilis-ab-w-reflex-to-rpr-w-titer"
+    },
+    {
+      "page": "doxypep",
+      "label": "Lab: Chlamydia with Gonorrhea Urine",
+      "target": "lrtz-chlamydia-with-gonorrhea-urine"
+    },
+    {
+      "page": "doxypep",
+      "label": "Lab: Throat  swab for Chlamydia with Gonorrhea \\(submit only ONE swab in media\\)",
+      "target": "lrtz-chlamydia-with-gonorrhea-throat"
+    },
+    {
+      "page": "doxypep",
+      "label": "Lab: Rectal  swab for Chlamydia with Gonorrhea \\(submit only ONE swab in media\\)",
+      "target": "lrtz-chlamydia-with-gonorrhea-rectal"
+    },
+    {
+      "page": "doxypep",
+      "label": "Lab: Vaginal swab for Chlamydia with Gonorrhea \\(submit only ONE swab in media\\)",
+      "target": "lrtz-chlamydia-with-gonorrhoeae-vaginal"
+    },
+    {
+      "page": "doxypep",
+      "label": "Lab: HIV Ag/Ab",
+      "target": "lrtz-hiv-ag-ab"
+    },
+    {
+      "page": "doxypep",
+      "label": "HIV Pre-Exposure Prophylaxis \\(PrEP\\) CONSULT",
+      "target": "gmrctz-infectious-disease-prep"
+    },
+    {
+      "page": "drug-info",
+      "label": "Acyclovir PO",
+      "target": "orz-gtx-abx-url-idp-a-b-sanford-or-lexi-links"
+    },
+    {
+      "page": "drug-info",
+      "label": "Caspofungin IV",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page": "drug-info",
+      "label": "Daptomycin IV",
+      "target": "orz-gtx-abx-url-idp-d-e-f-sanford-lexi-links"
+    },
+    {
+      "page": "drug-info",
+      "label": "Ganciclovir IV",
+      "target": "orz-gtx-abx-url-idp-g-h-i-j-k-l-sanford-lexi-links"
+    },
+    {
+      "page": "drug-info",
+      "label": "Meropenem IV",
+      "target": "orz-gtx-abx-url-idp-m-n-o-sanford-or-lexi-links"
+    },
+    {
+      "page": "drug-info",
+      "label": "Paromomycin PO",
+      "target": "orz-gtx-abx-url-idp-p-q-r-s-sanford-lexicomp-links"
+    },
+    {
+      "page": "drug-info",
+      "label": "Terconazole 0.4% Vaginal",
+      "target": "orz-gtx-abx-url-idp-t-u-v-w-x-y-z-sanford-lexi-links"
+    },
+    {
+      "page": "ec-pv-sel-path",
+      "label": "Staphylococci",
+      "target": "orzid2-gmenu-ec-pv-staphylococci"
+    },
+    {
+      "page": "ec-pv-sel-path",
+      "label": "Streptococci",
+      "target": "orzid2-gmenu-ec-pv-vgs-s-bovis"
+    },
+    {
+      "page": "empirical-therapy",
+      "label": "Vancomycin 15 mg/kg IV q12h \\($\\) R <AND> ceftriaxone 2 gm IV q24h \\($\\)",
+      "target": "orz-set-abx-vanco-15-mg-kg-iv-q12h-ceftriax-2gm-iv-q24h"
+    },
+    {
+      "page": "empirical-therapy",
+      "label": "Vancomycin 15 mg/kg IV q12h \\($\\) R <AND> gentamicin 1 mg/kg IV q8h \\($\\)",
+      "target": "orz-set-abx-van-15-mg-kg-iv-q12h-gent-1-mg-kg-iv-q8h"
+    },
+    {
+      "page": "endocarditis-approach-to",
+      "label": "Diagnosis with Duke Criteria",
+      "target": "orzid2-gmenu-abx-duke-criteria"
+    },
+    {
+      "page": "endoscopic-ultrasound-fna-procedures",
+      "label": "Levofloxacin 500 mg PO q24h for 4 days, beginning 60 minutes before",
+      "target": "psjzid-levofloxacin-500mg-po-qday-4days-procedure"
+    },
+    {
+      "page": "endoscopic-ultrasound-fna-procedures",
+      "label": "Levofloxacin 500 mg PO q24h for 4 days, beginning 60 minutes before",
+      "target": "psozid-levofloxacin-500mg-po-once-then-qday-3days"
+    },
+    {
+      "page": "enterobacteriaceae-esbl-nosocomial-pneumonia",
+      "label": "Cefepime 2 gm IV q8h R for 7 days",
+      "target": "psjizid-cefepime-2-gm-iv-q8h"
+    },
+    {
+      "page": "enterobacteriaceae-esbl-nosocomial-pneumonia",
+      "label": "Ertapenem 1 gm IV q24h R,O for 7 days",
+      "target": "psjizid-ertapenem-1gm-iv-q24h"
+    },
+    {
+      "page": "enterobacteriaceae-esbl-nosocomial-pneumonia",
+      "label": "Ceftriaxone 2 gm IV q24h M for 7 days",
+      "target": "psjizid-ceftriaxone-2gm-iv-q24h"
+    },
+    {
+      "page": "enterobacteriaceae-esbl-nosocomial-pneumonia",
+      "label": "Meropenem 2 gm IV q8h R,O for 7 days",
+      "target": "psjizid-meropenem-2gm-iv-q8h"
+    },
+    {
+      "page": "enterococcal-intravascular-catheter-associated-infection",
+      "label": "Ampicillin 2 gm IV q4h \\($$\\) R <AND> ampicillin antibiotic lock therapy",
+      "target": "orz-set-abx-ampicil-2g-q4h-ampicil-abx-lock-therapy"
+    },
+    {
+      "page": "enterococcal-intravascular-catheter-associated-infection",
+      "label": "Vancomycin 15 mg/kg IV q12h \\($\\) R <AND> vancomycin antibiotic lock therapy",
+      "target": "orz-set-abx-vanco-15mg-kg-q12h-vanco-abx-lock-therapy"
+    },
+    {
+      "page": "enterococci",
+      "label": "Ampicillin 2 gm IV q4h \\($$\\) R",
+      "target": "psjizid-ampicillin-2-gm-iv-q4h"
+    },
+    {
+      "page": "enterococci",
+      "label": "Vancomycin 15 mg/kg IV q12h \\($\\) R",
+      "target": "orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening"
+    },
+    {
+      "page": "enterococci",
+      "label": "Linezolid 600 mg IV q12h \\($$$$\\) DI",
+      "target": "psjizid-linezolid-600mg-iv-q12h"
+    },
+    {
+      "page": "ercp-with-incomplete-drainage-prophylaxis",
+      "label": "Ciprofloxacin 500 mg PO q12h \\($\\) R,DI < OR >",
+      "target": "psjzid-ciprofloxacin-500mg-po-q12h"
+    },
+    {
+      "page": "ercp-with-incomplete-drainage-prophylaxis",
+      "label": "Amoxicillin-clavulante 875/125 mg PO q12h \\($\\) R",
+      "target": "psjzid-amox-clav-875-125mg-po-q12h"
+    },
+    {
+      "page": "ercp-with-incomplete-drainage-prophylaxis",
+      "label": "Ciprofloxacin 500 mg PO BID for 5 days \\($\\) R,DI",
+      "target": "psozid2-ciprofloxacin-5ds-500mg-po-bid"
+    },
+    {
+      "page": "ercp-with-incomplete-drainage-prophylaxis",
+      "label": "Amoxicillin-clavulanate 875/125 mg PO BID for 5 days \\($\\) R",
+      "target": "psozid2-amox-clav-875-125mg-5ds-po-bid"
+    },
+    {
+      "page": "ercp-with-incomplete-drainage-prophylaxis",
+      "label": "References",
+      "target": "orzid2-gmenu-abx-references"
+    },
+    {
+      "page": "exacerbation-of-copd",
+      "label": "Doxcycline 100 mg PO BID for COPD exacerbation 5 days \\($\\) DI",
+      "target": "psozid2-doxycycline-5ds-100mg-po-bid-copd-exacerbation"
+    },
+    {
+      "page": "exacerbation-of-copd",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-doxycycline-5ds-100mg-po-bid-copd-exacerbation"
+    },
+    {
+      "page": "exacerbation-of-copd",
+      "label": "Trimethoprim-sulfa 1 DS tablet BID for COPD exacerbation 5 days \\($\\) R,DI",
+      "target": "psozid2-tmp-smx-5days-1ds-tab-bid-copd-exacerbation"
+    },
+    {
+      "page": "exacerbation-of-copd",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-tmp-smx-5days-1ds-tab-bid-copd-exacerbation"
+    },
+    {
+      "page": "exacerbation-of-copd",
+      "label": "Azithromycin 500 mg PO x1 on day 1 then 250 mg PO qday for 4days\\($\\)M",
+      "target": "psozid2-azith-500mg-po-x1-then-250mg-qdayx4-copd-exacerbation"
+    },
+    {
+      "page": "exacerbation-of-copd",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-azithromycin-500mg-pox1-250qdayx4-copd-exacerbation"
+    },
+    {
+      "page": "exacerbation-of-copd",
+      "label": "Amoxicillin/clav 875/125 mg po bid COPD exacerbation 5 days \\($\\) R",
+      "target": "psozid2-amoxicillin-clav-875-125-bid-5days-copd-exacerbation"
+    },
+    {
+      "page": "exacerbation-of-copd",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-amoxicillin-clav-875-125-po-bid-copd-exacerbation-5days"
+    },
+    {
+      "page": "exacerbation-of-copd",
+      "label": "Levofloxacin 750mg PO qday for COPD Exacerbation for 5 days \\($\\) R,DI",
+      "target": "psozid2-levofloxacin-750mg-po-qday-copd-exacerbation-5-days"
+    },
+    {
+      "page": "exacerbation-of-copd",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-levofloxacin-750mg-po-qday-5days-copd-exacerbation"
+    },
+    {
+      "page": "febrile-neutropenia-scoring-tool",
+      "label": "References",
+      "target": "orzid2-gmenu-abx-references"
+    },
+    {
+      "page": "fever-in-asplenic-patient",
+      "label": "Piperacillin-tazobactam 4.5 gm IV q6h \\($$\\) R",
+      "target": "psjizid-pip-taz-4-5gm-iv-q6h-ne-extinf-ci-cefep-metro"
+    },
+    {
+      "page": "flu-seasonal-influenza",
+      "label": "Influenza Vaccine Outpatient and Inpatient Guidelines",
+      "target": "orz-gtx-influenza-info"
+    },
+    {
+      "page": "flu-seasonal-influenza",
+      "label": "Influenza once dose for outpatients that do not trigger clinical reminder",
+      "target": "psczid-influenza-vaccine-once"
+    },
+    {
+      "page": "flu-seasonal-influenza",
+      "label": "Click Here Influenza Vaccination Inpatient and ED 25/26",
+      "target": "psjz-inpt-flu-vaccine-25-26"
+    },
+    {
+      "page": "gastroduodenal-surgery-prophylaxis",
+      "label": "Click here No antimicrobial prophylaxis recommended for procedure",
+      "target": "orz-gtx-abx-pre-op-url-nurse-generic-order"
+    },
+    {
+      "page": "gastroduodenal-surgery-prophylaxis",
+      "label": "Clindamycin 900mg once preop + Ciprofloxacin 400mg once preop",
+      "target": "orz-set-abx-clindamycin-900mg-ciproflo-400-gastric-preop"
+    },
+    {
+      "page": "general-information-inpatient",
+      "label": "Alternative Antimicrobials to CDSS Recommendations - select here",
+      "target": "orzid-gmenu-abx-genrl-alternative-drug"
+    },
+    {
+      "page": "general-information-outpatient",
+      "label": "Consult Infectious Diseases \\(outpatient\\)",
+      "target": "gmrctz-infectious-disease-outpt"
+    },
+    {
+      "page": "general-information-outpatient",
+      "label": "Consult Menu - place consults to specialty service",
+      "target": "orz-gmenu-consults-main-op"
+    },
+    {
+      "page": "general-information-outpatient",
+      "label": "Alternative Antimicrobials to CDSS Recommendations - select here",
+      "target": "orzid3-gmenu-need-an-alt-abx-main"
+    },
+    {
+      "page": "gi-intraabdominal",
+      "label": "click here",
+      "target": "ORZID2 GMENU ABSCESS SUBMENU"
+    },
+    {
+      "page": "gi-intraabdominal",
+      "label": "click here",
+      "target": "ORZID2 GMENU INFECT DIARRHEA/GASTRO"
+    },
+    {
+      "page": "gi-intraabdominal",
+      "label": "click here",
+      "target": "ORZID2 GMENU HEPATITIS SUBMENU"
+    },
+    {
+      "page": "gi-intraabdominal",
+      "label": "click here",
+      "target": "ORZID2 GMENU PERITONITIS SUBMENU"
+    },
+    {
+      "page": "gram-neg-brucella-spp",
+      "label": "Doxycycline 100 mg PO q12h DI < AND > rifampin 600 mg PO q24h DI,O",
+      "target": "orz-set-abx-op-doxy-100mg-po-bid-rifamp-600mg-po-qd"
+    },
+    {
+      "page": "gram-neg-brucella-spp",
+      "label": "Non-VA order for above",
+      "target": "orz-set-abx-nv-doxy-100mg-po-bid-rifamp-600mg-po-qd"
+    },
+    {
+      "page": "gram-negative-bacilli-meningitis",
+      "label": "Cefepime 2gm IV q8h \\($$\\) R <AND> gentamicin 2 mg/kg IV x 1 then 1.7 mg/kg IV",
+      "target": "orz-set-abx-cefepime-2gm-iv-q8h-gent-2mg-kg-x1-1-7mg-kg-iv-q8h"
+    },
+    {
+      "page": "gram-negative-bacilli-meningitis",
+      "label": "Assessment of beta-lactam reaction",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "gram-negative-bacilli-meningitis",
+      "label": "Meropenem 2 gm IV q8h \\($$\\) R,O",
+      "target": "psjizid-meropenem-2gm-iv-q8h"
+    },
+    {
+      "page": "gram-negative-diplococci-meningitis",
+      "label": "Ceftriaxone 2 gm IV q12h \\($\\) M",
+      "target": "psjizid-ceftriaxone-2gm-iv-q12h"
+    },
+    {
+      "page": "gram-negative-diplococci-meningitis",
+      "label": "Assessment of beta-lactam reaction",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "gram-negative-diplococci-meningitis",
+      "label": "Meropenem 2 gm IV q8h \\($$\\) R,O",
+      "target": "psjizid-meropenem-2gm-iv-q8h"
+    },
+    {
+      "page": "gram-pos-actinomyces-spp",
+      "label": "Penicillin VK 500 mg PO QID \\($\\) R",
+      "target": "psozid-penicillin-500mg-po-qid"
+    },
+    {
+      "page": "gram-pos-actinomyces-spp",
+      "label": "Non-VA order for above",
+      "target": "pshzid-penicillin-500mg-po-qid"
+    },
+    {
+      "page": "gram-pos-actinomyces-spp",
+      "label": "Amoxicillin 500 mg PO TID \\($\\) R",
+      "target": "psozid-amoxicillin-500-mg-po-tid"
+    },
+    {
+      "page": "gram-pos-actinomyces-spp",
+      "label": "Non-VA order for above",
+      "target": "pshzid-amoxicillin-500-mg-po-tid"
+    },
+    {
+      "page": "gram-pos-actinomyces-spp",
+      "label": "Doxycycline 100 mg PO BID \\($\\) DI",
+      "target": "psozid-doxycycline-100mg-po-bid"
+    },
+    {
+      "page": "gram-pos-actinomyces-spp",
+      "label": "Non-VA order for above",
+      "target": "pshzid-doxycycline-100mg-po-bid"
+    },
+    {
+      "page": "gram-positive-diplococci-meningitis",
+      "label": "Dexamethasone 10 mg IV q6h \\($\\) for 4 days",
+      "target": "psjzid-dexamethasone-10mg-iv-q6h-4d"
+    },
+    {
+      "page": "gram-positive-diplococci-meningitis",
+      "label": "Ceftriaxone 2 gm IV q12h \\($\\) M <AND> vancomycin 15 mg/kg IV q12h \\($\\) R",
+      "target": "orz-set-abx-ceftriax-2gm-q12h-and-vanco-15mg-kg-q12h"
+    },
+    {
+      "page": "gram-positive-diplococci-meningitis",
+      "label": "Assessment of beta-lactam reaction",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "gram-positive-diplococci-meningitis",
+      "label": "Meropenem 2 gm IV q8h \\($$\\) R,O",
+      "target": "psjizid-meropenem-2gm-iv-q8h"
+    },
+    {
+      "page": "gynecological-surgery-prophylaxis",
+      "label": "Click here Beta-lactam allergy assessment",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "gynecological-surgery-prophylaxis",
+      "label": "Clindamycin 900mg IV once <AND> Gentamicin 5mg/kg Weight Based once pre-op",
+      "target": "orz-set-abx-clindamycin-900mg-gentamicin-5mg-kg-preop"
+    },
+    {
+      "page": "h-pylori-infect",
+      "label": "Click here Lab H.Pylori, stool",
+      "target": "lrtz-h-pylori-ag-stool"
+    },
+    {
+      "page": "h-pylori-infect",
+      "label": "Bismuth subsalicylate 524 mg PO q6h <AND> Tetracycline 500 mg q6h DI",
+      "target": "orz-set-abx-op-bis524mgqid-tcn500mgqid-metro500mgqid-omep20mg"
+    },
+    {
+      "page": "h-pylori-infect",
+      "label": "NonVA order for above",
+      "target": "orz-set-abx-nv-bis524mgqid-tcn500mgqid-metro500mgqid-omep20mg"
+    },
+    {
+      "page": "h-pylori-infect",
+      "label": "Click here Gastroenterology \\(OP\\) Consult - Pharmacists",
+      "target": "gmrctz-gastroenterology-op"
+    },
+    {
+      "page": "h-pylori-infect",
+      "label": "Amoxicillin/Omeprazole/Rifabutin \\(250/10/12.5MG\\) 4 caps po tid x14days DI,H",
+      "target": "orz-set-abx-op-rifabutin-triple-h-pylori-padr"
+    },
+    {
+      "page": "h-pylori-infect",
+      "label": "NonVA order for above",
+      "target": "orz-set-abx-nv-rifabutin-triple-h-pylori-padr"
+    },
+    {
+      "page": "h-pylori-infect",
+      "label": "PCAB Dual \\(vonoprazan 20mg q12h/amoxicillin 1000mg q8h\\) po x14daysDI",
+      "target": "orz-set-abx-op-pcab-dual-h-pylori-padr"
+    },
+    {
+      "page": "h-pylori-infect",
+      "label": "NonVA order for above",
+      "target": "orz-set-abx-nv-pcab-dual-h-pylori-padr"
+    },
+    {
+      "page": "h-pylori-infect",
+      "label": "Clarithromycin 500 mg PO q12h R,DI <AND> Amoxicillin 1000 mg PO q12h R",
+      "target": "orz-set-abx-op-clar500mgbid-amox1gmbid-metro500mgbid-omep"
+    },
+    {
+      "page": "h-pylori-infect",
+      "label": "NonVA order for above",
+      "target": "orz-set-abx-nv-clar500mgbid-amox1gmbid-metro500mgbid-omep20mg"
+    },
+    {
+      "page": "haemophilus-influenza-type-b-vaccine-information",
+      "label": "One dose",
+      "target": "orz-set-abx-op-haemophilus-b-vaccine-one-dose"
+    },
+    {
+      "page": "haemophilus-influenza-type-b-vaccine-information",
+      "label": "3 dose series",
+      "target": "orz-set-abx-op-haemophilus-b-vaccine-3-dose-series"
+    },
+    {
+      "page": "head-and-neck-surgery-prophylaxis",
+      "label": "Click here No antimicrobial prophylaxis recommended for procedure",
+      "target": "orz-gtx-abx-pre-op-url-nurse-generic-order"
+    },
+    {
+      "page": "head-and-neck-surgery-prophylaxis",
+      "label": "Click here Beta-lactam reaction assessment",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "head-and-neck-surgery-prophylaxis",
+      "label": "Clindamycin 900mg IV once pre-op",
+      "target": "psjizid-clindamy-900mg-iv-once-preop"
+    },
+    {
+      "page": "head-and-neck-surgery-prophylaxis",
+      "label": "Ampicillin-Sulbactam 3gm IV once pre-op",
+      "target": "psjizid-ampicillin-sulbactam-3gm-iv-once-preop"
+    },
+    {
+      "page": "head-and-neck-surgery-prophylaxis",
+      "label": "Cefazolin weight based dosing once pre-op + Metronidazole 500mg once IV pre-op",
+      "target": "orz-set-abx-cefazo-wt-based-iv-metron-500mg-iv-preop"
+    },
+    {
+      "page": "help-page",
+      "label": "QTc prolongation drug resource",
+      "target": "orz-gtx-abx-resource-qtc"
+    },
+    {
+      "page": "help-page",
+      "label": "TheraDoc",
+      "target": "orz-gtx-abx-theradoc-hyperlink"
+    },
+    {
+      "page": "help-page",
+      "label": "Lexicomp online",
+      "target": "orz-gtx-abx-lexicomp-online"
+    },
+    {
+      "page": "help-page",
+      "label": "Mandell's online",
+      "target": "orz-gtx-abx-mandell"
+    },
+    {
+      "page": "help-page",
+      "label": "Sanford Guide online",
+      "target": "orz-gtx-abx-sanford"
+    },
+    {
+      "page": "hepatitis-a-and-b-vaccine-information",
+      "label": "3 dose series",
+      "target": "orz-set-abx-op-hepatitis-a-b-vaccine-3-dose-series"
+    },
+    {
+      "page": "hepatitis-a-and-b-vaccine-information",
+      "label": "Booster Dose",
+      "target": "psczid-hepatitis-a-b-vaccine-booster-dose"
+    },
+    {
+      "page": "hepatitis-a-and-b-vaccine-information",
+      "label": "4 dose series",
+      "target": "orz-set-abx-op-hepatitis-a-b-vaccine-accelerated-4-dose-series"
+    },
+    {
+      "page": "hepatitis-a-vaccine-information",
+      "label": "2 dose series",
+      "target": "orz-set-abx-op-hepatitis-a-vaccine-2-dose-series"
+    },
+    {
+      "page": "hepatitis-b-evaluation-anti-cd20-antibody",
+      "label": "Hepatitis B Oncology SharePoint",
+      "target": "orz-gtx-abx-hepatitis-b-oncology-sharepoint"
+    },
+    {
+      "page": "hepatitis-b-evaluation-anti-cd20-antibody",
+      "label": "HEPATITIS B SEROLOGY PANEL",
+      "target": "lrtz-hepatitis-b-serology-panel"
+    },
+    {
+      "page": "hepatitis-b-evaluation-anti-cd20-antibody",
+      "label": "GASTROENTEROLOGY LIVER OUTPATIENT CONSULT",
+      "target": "gmrctz-gastroenterology-liver-outpt"
+    },
+    {
+      "page": "hepatitis-b-evaluation-anti-cd20-antibody",
+      "label": "HIV RAPID TEST \\(results in 1-2 hours\\)",
+      "target": "lrtzhiv-rapid-qualitative"
+    },
+    {
+      "page": "hepatitis-b-evaluation-anti-cd20-antibody",
+      "label": "CONSULT ID FOR HIV POSITIVE PATIENTS",
+      "target": "gmrctz-infectious-disease-outpt"
+    },
+    {
+      "page": "hepatitis-b-evaluation-anti-cd20-antibody",
+      "label": "ORDER LABS: COMPREHENSIVE METABOLIC + PHOSPHORUS",
+      "target": "orz-set-abx-lrtz-comprehensive-metabolic-mg-phosphorus"
+    },
+    {
+      "page": "hepatitis-b-evaluation-anti-cd20-antibody",
+      "label": "HEPATITIS B DNA LEVEL \\(VIRAL LOAD\\)",
+      "target": "lrtz-hepatitis-b-dna-level-viral-load"
+    },
+    {
+      "page": "hepatitis-b-evaluation-anti-cd20-antibody",
+      "label": "Entecavir 0.5 mg po daily \\(throughout anti-CD20 antibody therapy",
+      "target": "psozid-entecavir-0-5mg-po-qday-hepatitis-b-anti-cd20-ab"
+    },
+    {
+      "page": "hepatitis-b-evaluation-anti-cd20-antibody",
+      "label": "Entecavir 1 mg po daily \\(througout anti-CD20 antibody therapy",
+      "target": "psozid-entecavir-1mg-po-qday-hepatitis-b-anti-cd20-ab"
+    },
+    {
+      "page": "hepatitis-b-evaluation-anti-cd20-antibody",
+      "label": "Tenofovir 300 mg PO daily \\(throughout anti-CD20 antibody therapy",
+      "target": "psozid-tenofovir-300mg-po-qday-anti-cd20-therapy"
+    },
+    {
+      "page": "hepb-vaccine-information-page",
+      "label": "2 dose series",
+      "target": "orz-set-abx-op-hepatitis-b-adjuvanted-vaccine-2-dose-series"
+    },
+    {
+      "page": "hernia-repair-surgery-with-abdominal-mesh-prophylaxis",
+      "label": "DVT prophylaxis orders",
+      "target": "orz-gmenu-dvt-prophylaxis"
+    },
+    {
+      "page": "hernia-repair-surgery-with-abdominal-mesh-prophylaxis",
+      "label": "Vancomycin 15 mg/kg IV beginning 120 minutes before incision \\($\\) R",
+      "target": "orzid2-gmenu-surg-vancomycin-weight-based-dosing"
+    },
+    {
+      "page": "hernia-repair-surgery-with-abdominal-mesh-prophylaxis",
+      "label": "Click here Beta-lactam allergy assessment",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "high-risk-surgical-site-prophylaxis",
+      "label": "Cephalexin 2 GM PO ONCE - 1 hour prior to procedure \\($\\) R",
+      "target": "psjzid-cephalexin-2gm-po-once-c"
+    },
+    {
+      "page": "high-risk-surgical-site-prophylaxis",
+      "label": "Trimethoprim/Sulfamethoxazole 1 DS tablet PO 60 minutes before incision \\($\\)",
+      "target": "orz-set-abx-op-tmp-smx-1-ds-tab-po-once-penvk-500mg-po-once"
+    },
+    {
+      "page": "high-risk-surgical-site-prophylaxis",
+      "label": "Vancomycin 15mg/kg Weight Based Dosing Preop R",
+      "target": "orzid2-gmenu-surg-vancomycin-weight-based-dosing"
+    },
+    {
+      "page": "home-iv-therapy",
+      "label": "Home IV consult \\(or page 7253\\)",
+      "target": "gmrctz-home-iv-infusion-coordination"
+    },
+    {
+      "page": "human-papillomavirus-vaccine-information",
+      "label": "3 dose series",
+      "target": "orz-set-abx-op-human-papillomavirus-vaccine-3-dose-series"
+    },
+    {
+      "page": "hypochlorhydria",
+      "label": "References",
+      "target": "orzid2-gmenu-abx-references"
+    },
+    {
+      "page": "immunizations-in-chronic-liver-disease",
+      "label": "Patient vaccine history",
+      "target": "orz-gtx-abx-joint-legacy-viewer"
+    },
+    {
+      "page": "immunizations-in-chronic-liver-disease",
+      "label": "CDC Recommended Adult Immunization Schedule",
+      "target": "orz-gtx-abx-cdc-adult-immunization-schedule"
+    },
+    {
+      "page": "immunizations-in-chronic-liver-disease",
+      "label": "Hepatitis A: 2 dose series.",
+      "target": "orz-set-abx-op-hepatitis-a-vaccine-2-dose-series"
+    },
+    {
+      "page": "immunizations-in-chronic-liver-disease",
+      "label": "Hepatitis A/B: 3 dose series.",
+      "target": "orz-set-abx-op-hepatitis-a-b-vaccine-3-dose-series"
+    },
+    {
+      "page": "immunizations-in-chronic-liver-disease",
+      "label": "Hepatitis B: 2 dose Heplisav-B series",
+      "target": "orz-set-abx-op-hepatitis-b-adjuvanted-vaccine-2-dose-series"
+    },
+    {
+      "page": "immunizations-in-chronic-liver-disease",
+      "label": "Herpes zoster: 2 dose series in those age >/= 50yrs.",
+      "target": "orz-set-abx-op-zoster-recombinant-vaccine-2-dose-series"
+    },
+    {
+      "page": "immunizations-in-chronic-liver-disease",
+      "label": "Human papillomavirus: 3 dose series through age </= 26yrs and for age 27-45yrs",
+      "target": "orz-set-abx-op-human-papillomavirus-vaccine-3-dose-series"
+    },
+    {
+      "page": "immunizations-in-chronic-liver-disease",
+      "label": "Measles, mumps, and rubella: one dose.",
+      "target": "orz-set-abx-op-measles-mumps-rubella-vaccine-one-dose"
+    },
+    {
+      "page": "immunizations-in-chronic-liver-disease",
+      "label": "Measles, mumps, and rubella: 2 dose series, for those w/additional risk factor",
+      "target": "orz-set-abx-op-measles-mumps-rubella-vaccine-2-dose-series"
+    },
+    {
+      "page": "immunizations-in-chronic-liver-disease",
+      "label": "Meningococcal B: 2 dose series, for those w/additional risk factor or another",
+      "target": "orz-set-abx-op-meningococcal-b-vaccine-2-dose-series"
+    },
+    {
+      "page": "immunizations-in-chronic-liver-disease",
+      "label": "Tetanus, diphtheria and pertussis: 3 dose primary series, booster every 10yrs.",
+      "target": "orz-set-abx-op-td-tdap-vaccine-3-dose-series"
+    },
+    {
+      "page": "immunizations-in-chronic-liver-disease",
+      "label": "Varicella: 2 dose series.",
+      "target": "orz-set-abx-op-varicella-vaccine-2-dose-series"
+    },
+    {
+      "page": "immunizations-in-kidney-failure-hd",
+      "label": "Patient vaccine history",
+      "target": "orz-gtx-abx-joint-legacy-viewer"
+    },
+    {
+      "page": "immunizations-in-kidney-failure-hd",
+      "label": "CDC Recommended Adult Immunization Schedule",
+      "target": "orz-gtx-abx-cdc-adult-immunization-schedule"
+    },
+    {
+      "page": "immunizations-in-kidney-failure-hd",
+      "label": "Hepatitis A: 2 dose series, for those who want protection, or w/additional risk",
+      "target": "orz-set-abx-op-hepatitis-a-vaccine-2-dose-series"
+    },
+    {
+      "page": "immunizations-in-kidney-failure-hd",
+      "label": "Hepatitis B: 2 dose Heplisav-B series",
+      "target": "orz-set-abx-op-hepatitis-b-adjuvanted-vaccine-2-dose-series"
+    },
+    {
+      "page": "immunizations-in-kidney-failure-hd",
+      "label": "Herpes zoster: 2 dose series in those age >/= 50yrs.",
+      "target": "orz-set-abx-op-zoster-recombinant-vaccine-2-dose-series"
+    },
+    {
+      "page": "immunizations-in-kidney-failure-hd",
+      "label": "Human papillomavirus: 3 dose series through age </= 26yrs and for age 27-45yrs",
+      "target": "orz-set-abx-op-human-papillomavirus-vaccine-3-dose-series"
+    },
+    {
+      "page": "immunizations-in-kidney-failure-hd",
+      "label": "Measles, mumps, and rubella: one dose.",
+      "target": "orz-set-abx-op-measles-mumps-rubella-vaccine-one-dose"
+    },
+    {
+      "page": "immunizations-in-kidney-failure-hd",
+      "label": "Measles, mumps, and rubella: 2 dose series, for those w/additional risk factor",
+      "target": "orz-set-abx-op-measles-mumps-rubella-vaccine-2-dose-series"
+    },
+    {
+      "page": "immunizations-in-kidney-failure-hd",
+      "label": "Meningococcal B: 2 dose series, for those w/additional risk factor or another",
+      "target": "orz-set-abx-op-meningococcal-b-vaccine-2-dose-series"
+    },
+    {
+      "page": "immunizations-in-kidney-failure-hd",
+      "label": "Tetanus, diphtheria and pertussis: 3 dose primary series, booster every 10yrs.",
+      "target": "orz-set-abx-op-td-tdap-vaccine-3-dose-series"
+    },
+    {
+      "page": "immunizations-in-kidney-failure-hd",
+      "label": "Varicella: 2 dose series.",
+      "target": "orz-set-abx-op-varicella-vaccine-2-dose-series"
+    },
+    {
+      "page": "immunocompromise-basic-concepts",
+      "label": "References",
+      "target": "orzid2-gmenu-abx-references"
+    },
+    {
+      "page": "important-drug-properties",
+      "label": "Sanford online",
+      "target": "orz-gtx-abx-sanford"
+    },
+    {
+      "page": "important-drug-properties",
+      "label": "Alphabet: A-B \\(acyclovir-benzathine penicllin\\)",
+      "target": "orz-gtx-abx-url-idp-a-b-sanford-or-lexi-links"
+    },
+    {
+      "page": "important-drug-properties",
+      "label": "Alphabet: C\\(caspofungin-clindamycin\\)",
+      "target": "orz-gtx-abx-url-idp-c-sanford-or-lexi-links"
+    },
+    {
+      "page": "important-drug-properties",
+      "label": "Alphabet D-E-F\\(daptomycin-fosfomycin\\)",
+      "target": "orz-gtx-abx-url-idp-d-e-f-sanford-lexi-links"
+    },
+    {
+      "page": "important-drug-properties",
+      "label": "Alphabet: G-H-I-J-K-L  \\(ganciclovir-linezolid\\)",
+      "target": "orz-gtx-abx-url-idp-g-h-i-j-k-l-sanford-lexi-links"
+    },
+    {
+      "page": "important-drug-properties",
+      "label": "Alphabet M-N-O\\(metronidazole-oseltamivir\\)",
+      "target": "orz-gtx-abx-url-idp-m-n-o-sanford-or-lexi-links"
+    },
+    {
+      "page": "important-drug-properties",
+      "label": "Alphabet: P-Q-R-S\\(paromomycin-sulfadiazine\\)",
+      "target": "orz-gtx-abx-url-idp-p-q-r-s-sanford-lexicomp-links"
+    },
+    {
+      "page": "important-drug-properties",
+      "label": "Alphabet: T-U-V-W-X-Y-Z\\(terconazole-zanamivir\\)",
+      "target": "orz-gtx-abx-url-idp-t-u-v-w-x-y-z-sanford-lexi-links"
+    },
+    {
+      "page": "index-inpatient",
+      "label": "Asymptomatic bacteriuria",
+      "target": "ORZID2 GMENU ABX NOT BENEFITTED BACTERIURIA"
+    },
+    {
+      "page": "index-inpatient",
+      "label": "Bronchitis",
+      "target": "ORZID2 GMENU ABX COPD EXACERBATION"
+    },
+    {
+      "page": "index-inpatient",
+      "label": "Chemoprophylaxis of Influenza",
+      "target": "ORZID2 GMENU ABX INFLUENZA CHEMOPROPHYLAXIS"
+    },
+    {
+      "page": "index-inpatient",
+      "label": "CMV infections, general",
+      "target": "ORZID2 GMENU ABX CMV MAIN PAGE"
+    },
+    {
+      "page": "index-inpatient",
+      "label": "Colonized wound",
+      "target": "ORZID2 GMENU ABX COLONIZED WOUNDS"
+    },
+    {
+      "page": "index-inpatient",
+      "label": "Dermatitis, stasis",
+      "target": "ORZID2 GMENU ABX STASIS DERMATITIS"
+    },
+    {
+      "page": "index-inpatient",
+      "label": "Diabetic foot ulcer",
+      "target": "ORZID2 GMENU FOOT ULCER WITH DM"
+    },
+    {
+      "page": "index-inpatient",
+      "label": "Diarrhea, infectious",
+      "target": "ORZID2 GMENU INFECT DIARRHEA/GASTRO"
+    },
+    {
+      "page": "index-inpatient",
+      "label": "Fever of unknown origin",
+      "target": "ORZID2 GMENU FEVER OF UNK ORIGIN"
+    },
+    {
+      "page": "index-inpatient",
+      "label": "Leishmaniasis infections, general",
+      "target": "ORZID2 GMENU LEISHMANIASIS"
+    },
+    {
+      "page": "index-inpatient",
+      "label": "MAC",
+      "target": "ORZID2 GMENU M. AVIUM INTRACELLULARE"
+    },
+    {
+      "page": "index-inpatient",
+      "label": "More about parotitis",
+      "target": "ORZID2 GMENU ABX PAROTITIS MORE INFORMATION"
+    },
+    {
+      "page": "index-inpatient",
+      "label": "Mycobacterium tuberculosis",
+      "target": "ORZID2 GMENU M. TUBERCULOSIS"
+    },
+    {
+      "page": "index-inpatient",
+      "label": "Norovirus diarrhea/gastroenteritis",
+      "target": "ORZID2 GMENU COMM VIRAL GASTROENTERITIS"
+    },
+    {
+      "page": "index-inpatient",
+      "label": "Osteomyelitis",
+      "target": "ORZID2 GMENU OSTEOMYELITIS"
+    },
+    {
+      "page": "index-inpatient",
+      "label": "Parainfluenza",
+      "target": "ORZID2 GMENU ABX PARAINFLUENZA"
+    },
+    {
+      "page": "index-inpatient",
+      "label": "Respiratory syncytial virus",
+      "target": "ORZID2 GMENU ABX RSV"
+    },
+    {
+      "page": "index-inpatient",
+      "label": "Rosacea",
+      "target": "ORZID2 GMENU ABX ROSACEA"
+    },
+    {
+      "page": "index-inpatient",
+      "label": "Stem cell recipients, viral prophylaxis",
+      "target": "ORZID2 GMENU ANTIVIRAL STEM CELL MALIGNANCY"
+    },
+    {
+      "page": "index-inpatient",
+      "label": "Tuberculosis",
+      "target": "ORZID2 GMENU ABX TUBERCULOSIS"
+    },
+    {
+      "page": "infect-diarrhea-gastroent",
+      "label": "Norovirus",
+      "target": "orzid3-gmenu-comm-viral-gastroenteritis"
+    },
+    {
+      "page": "infection-control",
+      "label": "Click here Minneapolis VAMC Infection Prevention & Control SharePoint site",
+      "target": "orz-gtx-abx-mvamc-intranet-infect-ctrl"
+    },
+    {
+      "page": "infection-control",
+      "label": "Click here CDC website",
+      "target": "orz-gtx-abx-cdc-website"
+    },
+    {
+      "page": "infection-control",
+      "label": "Click here Consult Infectious Diseases \\(inpatient\\)",
+      "target": "gmrctz-infectious-disease-inpt"
+    },
+    {
+      "page": "infection-control",
+      "label": "Click here Consult Infectious Diseases \\(outpatient\\)",
+      "target": "gmrctz-infectious-disease-outpt"
+    },
+    {
+      "page": "infection-control",
+      "label": "Click here Minneapolis VAMC Isolation Precautions",
+      "target": "orz-gtx-abx-isolation-signs"
+    },
+    {
+      "page": "influenza-recommendations-outpatient",
+      "label": "Chemoprophylaxis Recommendations",
+      "target": "orzid3-gmenu-influenza-chemoprophylaxis"
+    },
+    {
+      "page": "influenza-recommendations-outpatient",
+      "label": "Lab Influenza Testing Menu",
+      "target": "orz-gmenu-lab-nasopharyngeal-testing-main"
+    },
+    {
+      "page": "listeria-monocytogenes-bacteremia",
+      "label": "Ampicillin 2 gm IV q4h \\($$\\) R",
+      "target": "psjizid-ampicillin-2-gm-iv-q4h"
+    },
+    {
+      "page": "listeria-monocytogenes-bacteremia",
+      "label": "Assessment of beta-lactam reaction CLICK HERE",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "listeria-monocytogenes-bacteremia",
+      "label": "Trimethoprim 5 mg/kg - sulfamethoxazole 25 mg/kg IV q12h \\($$$\\) R,DI",
+      "target": "psjizid-trimethoprim-sulfameth-5-25-mg-kg-iv-q12h"
+    },
+    {
+      "page": "listeria-monocytogenes-meningitis",
+      "label": "Ampicillin 2 gm IV q4h \\($$\\) R for 21 days",
+      "target": "psjizid-ampicillin-2-gm-iv-q4h"
+    },
+    {
+      "page": "listeria-monocytogenes-meningitis",
+      "label": "Gentamicin 2 mg/kg IV x 1 then 1.7 mg/kg IV q8h \\($\\) R,O for 7 days",
+      "target": "psjizid-gent-2mg-kg-iv-once-then-1-7mg-kg-iv-q8h"
+    },
+    {
+      "page": "listeria-monocytogenes-meningitis",
+      "label": "Assessment of beta-lactam reaction",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "listeria-monocytogenes-meningitis",
+      "label": "Trimethoprim 5 mg/kg - sulfamethoxazole 25 mg/kg IV q6h \\($$$\\) R,DI",
+      "target": "psjizid-trimeth-sulfa-5-25-mg-kg-iv-q6h"
+    },
+    {
+      "page": "malnutrition",
+      "label": "References",
+      "target": "orzid2-gmenu-abx-references"
+    },
+    {
+      "page": "mastoiditis",
+      "label": "Piperacillin-tazobactam 4.5 gm IV q6h \\($$\\) R",
+      "target": "orz-set-abx-pip-taz4-5gm-ne-extinf-ci-cefep-metro-vanco15mg-kg"
+    },
+    {
+      "page": "mastoiditis",
+      "label": "Vancomycin 15 mg/kg IV q 12 hours \\($\\) R < AND > cefepime 2 gm IV q12h \\($$\\) R",
+      "target": "orz-set-abx-cefepime-2-gm-iv-q12h-vanco-15mg-kg-q12h"
+    },
+    {
+      "page": "mastoiditis",
+      "label": "Amoxicillin/clavulanate 875-125 mg PO q12h for 7 days \\($\\) R",
+      "target": "psjzid-amox-clav-875-125mg-po-q12h"
+    },
+    {
+      "page": "mastoiditis",
+      "label": "Cefuroxime 500mg PO q12h for 7 days \\($\\) R",
+      "target": "psjzid-cefuroxime-500mg-q12h"
+    },
+    {
+      "page": "mastoiditis",
+      "label": "Doxycycline 100 mg PO q12h for 7 days \\($\\) DI",
+      "target": "psjzid-doxycycline-100mg-po-q12h"
+    },
+    {
+      "page": "mastoiditis",
+      "label": "Ciprofloxacin-Dexamethasone otic 4 drops in affected ear\\(s\\) BID for 4 weeks \\($\\)",
+      "target": "psjzid-ciprofloxacin-dexamethasone-otic-4-drps-bid"
+    },
+    {
+      "page": "mastoiditis",
+      "label": "Neomycin-polymyxin-hydrocortisone ear drops 4 drops in affected ear\\(s\\) QID for 4",
+      "target": "psjzid-neomycin-polymixin-hc-otic-4-drps-qid"
+    },
+    {
+      "page": "measles-mumps-rubella-vaccine-information",
+      "label": "2 dose series",
+      "target": "orz-set-abx-op-measles-mumps-rubella-vaccine-2-dose-series"
+    },
+    {
+      "page": "measles-mumps-rubella-vaccine-information",
+      "label": "One dose",
+      "target": "orz-set-abx-op-measles-mumps-rubella-vaccine-one-dose"
+    },
+    {
+      "page": "measles-mumps-rubella-vaccine-information",
+      "label": "Best Practices Guidance",
+      "target": "orz-gtx-abx-url-acip-best-practices-guidance"
+    },
+    {
+      "page": "mediastinitis",
+      "label": "Cefepime 2 gm IV q8h R <AND> vancomycin 15 mg/kg IV q12h R",
+      "target": "orz-set-abx-cefepime-2gm-iv-q8h-vanco-15mg-kg-iv-q12h"
+    },
+    {
+      "page": "mediastinitis",
+      "label": "Piperacillin/tazobactam 4.5 gm IV q6h R <AND> vancomycin 15 mg/kg IV q12h R",
+      "target": "orz-set-abx-pip-taz4-5gm-ne-extinf-ci-cefep-metro-vanco15mg-kg"
+    },
+    {
+      "page": "mediastinitis",
+      "label": "Levofloxacin 750 mg IV q24h R <AND> vancomycin 15 mg/kg IV q12h R",
+      "target": "orz-set-abx-levo-750mg-iv-q24h-and-vanco-15mg-kg-iv-q12h"
+    },
+    {
+      "page": "mediastinitis",
+      "label": "Ampicillin-sulbactam 3 gm IV q6h R",
+      "target": "psjizid-ampicillin-sulbactam-3gm-iv-q6h"
+    },
+    {
+      "page": "mediastinitis",
+      "label": "Levofloxacin 750 mg IV q24h R,DI <AND> metronidazole 500 mg IV q12h DI",
+      "target": "orz-set-abx-levofloxacin-750mg-iv-and-metro-500mg-iv-q12h"
+    },
+    {
+      "page": "meds-delayed-pre-op-antibiotics-cv-surgery2",
+      "label": "Standard \\(Non PCN allergic\\)",
+      "target": "orzid2-gmenu-abx-delayed-standard-abx-cv-surg"
+    },
+    {
+      "page": "meds-delayed-pre-op-antibiotics-cv-surgery2",
+      "label": "Severly PCN allergic",
+      "target": "orzid2-gmenu-delayed-pcn-allergic-cv-surg"
+    },
+    {
+      "page": "meningitis-associated-with-trauma-or-nosocomial-infection",
+      "label": "Cefepime 2gm IV q8h \\($$\\) R <AND> vancomycin 15mg/kg IV q12h \\($\\) R for 10-14",
+      "target": "orz-set-abx-cefepime-2gm-iv-q8h-vanco-15mg-kg-iv-q12h"
+    },
+    {
+      "page": "meningitis-associated-with-trauma-or-nosocomial-infection",
+      "label": "Assessment of beta-lactam reaction",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "meningitis-associated-with-trauma-or-nosocomial-infection",
+      "label": "Meropenem 2 gm IV q8h \\($$\\) R,O <AND> vancomycin 15mg/kg IV q12h \\($\\) R for",
+      "target": "orz-set-abx-meropenem-2gm-iv-q8h-vanco-15mg-kg-iv-q12h"
+    },
+    {
+      "page": "meningitis-with-gram-positive-bacilli-coccobacilli",
+      "label": "Ampicillin 2 gm IV q4h \\($$\\) R",
+      "target": "psjizid-ampicillin-2-gm-iv-q4h"
+    },
+    {
+      "page": "meningitis-with-gram-positive-bacilli-coccobacilli",
+      "label": "Gentamicin 2 mg/kg IV x 1 then 1.7 mg/kg IV q8h \\($\\) R,O",
+      "target": "psjizid-gent-2mg-kg-iv-once-then-1-7mg-kg-iv-q8h"
+    },
+    {
+      "page": "meningitis-with-gram-positive-bacilli-coccobacilli",
+      "label": "Assessment of beta-lactam reaction",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "meningitis-with-gram-positive-bacilli-coccobacilli",
+      "label": "Trimethoprim 5 mg/kg - sulfamethoxazole 25 mg/kg IV q6h \\($$$\\) R,DI",
+      "target": "psjizid-trimeth-sulfa-5-25-mg-kg-iv-q6h"
+    },
+    {
+      "page": "meningitis-with-neisseria-meningitidis",
+      "label": "Ceftriaxone 2 gm IV q12h \\($\\) M",
+      "target": "psjizid-ceftriaxone-2gm-iv-q12h"
+    },
+    {
+      "page": "meningitis-with-neisseria-meningitidis",
+      "label": "Assessment of beta-lactam reaction",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "meningitis-with-neisseria-meningitidis",
+      "label": "Penicillin MIC <0.1 mcg/mL: Ampicillin 2 gm IV q4h \\($$\\) R",
+      "target": "psjizid-ampicillin-2-gm-iv-q4h"
+    },
+    {
+      "page": "meningitis-with-neisseria-meningitidis",
+      "label": "Penicillin MIC 0.1-1.0 mcg/mL: Meropenem 2 gm IV q8h \\($$\\) R,O",
+      "target": "psjizid-meropenem-2gm-iv-q8h"
+    },
+    {
+      "page": "meningitis-with-streptococcus-pneumoniae",
+      "label": "Dexamethasone 10 mg IV q6h \\($\\) for 4 days",
+      "target": "psjzid-dexamethasone-10mg-iv-q6h-4d"
+    },
+    {
+      "page": "meningitis-with-streptococcus-pneumoniae",
+      "label": "Penicillin G 4 million units IV q4h \\($$\\) R",
+      "target": "psjizid-penicillin-g-4-million-units-iv-q4h"
+    },
+    {
+      "page": "meningitis-with-streptococcus-pneumoniae",
+      "label": "Ampicillin 2 gm IV q4h \\($$\\) R",
+      "target": "psjizid-ampicillin-2-gm-iv-q4h"
+    },
+    {
+      "page": "meningitis-with-streptococcus-pneumoniae",
+      "label": "Ceftriaxone 2 gm IV q12h \\($\\) M",
+      "target": "psjizid-ceftriaxone-2gm-iv-q12h"
+    },
+    {
+      "page": "meningitis-with-streptococcus-pneumoniae",
+      "label": "Assessment of beta-lactam reaction",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "meningitis-with-streptococcus-pneumoniae",
+      "label": "Meropenem 2 gm IV q8h \\($$\\) R",
+      "target": "psjizid-meropenem-2gm-iv-q8h"
+    },
+    {
+      "page": "meningitis-with-streptococcus-pneumoniae",
+      "label": "Ceftriaxone 2 gm IV q12h \\($\\) M <AND> vancomycin 15 mg/kg IV q12h \\($\\) R",
+      "target": "orz-set-abx-ceftriax-2gm-q12h-and-vanco-15mg-kg-q12h"
+    },
+    {
+      "page": "meningitis-with-streptococcus-pneumoniae",
+      "label": "< ADD > Rifampin 600 mg PO q24h to above \\($\\) DI,O",
+      "target": "psjzid-rifampin-600mg-po-q24h"
+    },
+    {
+      "page": "meningitis-with-streptococcus-pneumoniae",
+      "label": "< ADD > Rifampin 600 mg IV q24h to above \\($$$$\\) DI,O",
+      "target": "psjizid-rifampin-600mg-iv-q24h"
+    },
+    {
+      "page": "meningitis-with-streptococcus-pneumoniae",
+      "label": "Moxifloxacin 400mg IV q24h \\($$\\) R,DI <AND> vancomycin 15 mg/kg q12h \\($\\) R",
+      "target": "orz-set-abx-moxifloxacin-400mg-iv-q24h-vanco-iv-q12h"
+    },
+    {
+      "page": "meningitis-without-gram-stain-results",
+      "label": "Dexamethasone 10 mg IV q6h \\($\\) for 4 days",
+      "target": "psjzid-dexamethasone-10mg-iv-q6h-4d"
+    },
+    {
+      "page": "meningitis-without-gram-stain-results",
+      "label": "Ceftriaxone 2 gm IV q12h \\($\\) M <AND> vancomycin 15mg/kg IV q12h \\($\\) R",
+      "target": "orz-set-abx-ceftriax-2gm-q12h-and-vanco-15mg-kg-q12h"
+    },
+    {
+      "page": "meningitis-without-gram-stain-results",
+      "label": "Assessment of beta-lactam reaction",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "meningitis-without-gram-stain-results",
+      "label": "Meropenem 2 gm IV q8h \\($$\\) R <AND> vancomycin 15 mg/kg q12h \\($\\) R",
+      "target": "orz-set-abx-meropenem-2gm-iv-q8h-vanco-15mg-kg-iv-q12h"
+    },
+    {
+      "page": "meningitis-without-gram-stain-results",
+      "label": "Ampicillin 2 gm IV q4h \\($$\\) R <AND> ceftriaxone 2 gm IV q12h \\($\\) M <AND>",
+      "target": "orz-set-abx-ampicillin-ceftriax-vancomycin"
+    },
+    {
+      "page": "meningitis-without-gram-stain-results",
+      "label": "Moxifloxacin 400mg IV q24h \\($$\\) R,DI <AND> vancomycin 15mg/kg q12h \\($\\) R",
+      "target": "orz-set-abx-moxiflox-iv-q24h-vanco-iv-q12h-tmp-sulfa-iv-q6h"
+    },
+    {
+      "page": "meningococcal-conjugate-vaccine-information",
+      "label": "2 dose series",
+      "target": "orz-set-abx-op-meningococcal-oligosaccharide-conj-vacc-2-dose"
+    },
+    {
+      "page": "meningococcal-conjugate-vaccine-information",
+      "label": "Booster Dose",
+      "target": "psczid-meningococcal-oligosaccharide-conj-vaccine-once"
+    },
+    {
+      "page": "meningococcal-serogroup-b-vaccine-information",
+      "label": "3 dose series",
+      "target": "orz-set-abx-op-meningococcal-b-vaccine-2-dose-series"
+    },
+    {
+      "page": "meningococcal-serogroup-b-vaccine-information",
+      "label": "Booster Dose",
+      "target": "psczid-meningococcal-b-vaccine-one-dose"
+    },
+    {
+      "page": "modification-of-neutropenic-fever-therapy",
+      "label": "Patients who BECOME AFEBRILE in the first 3 to 5 days of treatment",
+      "target": "orzid2-gmenu-neut-fever-pt-become-afebrile"
+    },
+    {
+      "page": "modification-of-neutropenic-fever-therapy",
+      "label": "Patients whose FEVER PERSISTS throughout the first 3 to 5 days of treatment",
+      "target": "orzid2-gmenu-neut-fever-pt-fever-persists"
+    },
+    {
+      "page": "modification-of-neutropenic-fever-therapy",
+      "label": "References",
+      "target": "orzid2-gmenu-abx-references"
+    },
+    {
+      "page": "more-about-cellulitis",
+      "label": "Foot ulcer in patient with diabetes mellitus",
+      "target": "orzid2-gmenu-foot-ulcer-with-dm"
+    },
+    {
+      "page": "neurosurgery-prophylaxis",
+      "label": "Click here No antimicrobial prophylaxis recommended for procedure",
+      "target": "orz-gtx-abx-pre-op-url-nurse-generic-order"
+    },
+    {
+      "page": "neurosurgery-prophylaxis",
+      "label": "Click here Beta-lactam allergy assessment",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "neurosurgery-prophylaxis",
+      "label": "Vancomycin 15mg/kg Weight Based Dosing Preop R",
+      "target": "orzid2-gmenu-surg-vancomycin-weight-based-dosing"
+    },
+    {
+      "page": "neutropenia",
+      "label": "References",
+      "target": "orzid2-gmenu-abx-references"
+    },
+    {
+      "page": "non-streptococcal-pharyngitis",
+      "label": "References:",
+      "target": "orzid2-gmenu-abx-references"
+    },
+    {
+      "page": "noso-pneumonia-new",
+      "label": "Hospital acquired pneumonia (HAP)",
+      "target": "orzid2-gmenu-abx-pneumonia-hap-new"
+    },
+    {
+      "page": "nosocomial-pneumonia-with-acinetobacter-baumannii",
+      "label": "Meropenem 2 gm IV q8h R,O",
+      "target": "psjizid-meropenem-2gm-iv-q8h"
+    },
+    {
+      "page": "nosocomial-pneumonia-with-acinetobacter-baumannii",
+      "label": "Ampicillin-sulbactam 3 gm IV q4h R,O",
+      "target": "psjizid-ampicillin-sulbactam-3gm-iv-q4h"
+    },
+    {
+      "page": "nosocomial-pneumonia-with-legionella-pneumophila",
+      "label": "Azithromycin 500 mg IV q24h M",
+      "target": "psjzid-azithromycin-500mg-po-q24h"
+    },
+    {
+      "page": "nosocomial-pneumonia-with-legionella-pneumophila",
+      "label": "Levofloxacin 750 mg IV q24h R,DI",
+      "target": "psjizid-levofloxacin-750mg-iv-q24h"
+    },
+    {
+      "page": "nosocomial-pneumonia-with-legionella-pneumophila",
+      "label": "Levofloxacin 750 mg PO q24h R,DI",
+      "target": "psjzid-levofloxacin-750mg-po-q24h"
+    },
+    {
+      "page": "nosocomial-pneumonia-with-pseudomonas-aeruginosa",
+      "label": "Cefepime 2 gm IV q8h R",
+      "target": "psjizid-cefepime-2-gm-iv-q8h"
+    },
+    {
+      "page": "nosocomial-pneumonia-with-pseudomonas-aeruginosa",
+      "label": "Piperacillin-tazobactam 4.5 gm IV q6h R",
+      "target": "psjizid-pip-taz-4-5gm-iv-q6h-ne-extinf-ci-cefep-metro"
+    },
+    {
+      "page": "nosocomial-pneumonia-with-pseudomonas-aeruginosa",
+      "label": "Ciprofloxacin 400 mg IV q8h R,DI",
+      "target": "psjizid-ciproflox-400mg-iv-q8h"
+    },
+    {
+      "page": "nosocomial-pneumonia-with-pseudomonas-aeruginosa",
+      "label": "<ADD> Tobramycin 5 mg/kg IV once R,O to one of the regimens above",
+      "target": "psjizid-tobramycin-5-mg-kg-iv-once"
+    },
+    {
+      "page": "nosocomial-pneumonia-with-pseudomonas-aeruginosa",
+      "label": "Ciprofloxacin 750 mg PO q12h R,DI",
+      "target": "psjzid-ciprofloxacin-500mg-po-q12h"
+    },
+    {
+      "page": "not-required",
+      "label": "Upper Respiratory Infections \\(URI\\)",
+      "target": "orzid2-gmenu-abx-upper-respiratory-infections-uri"
+    },
+    {
+      "page": "not-required",
+      "label": "Stasis Dermatitis",
+      "target": "orzid2-gmenu-abx-stasis-dermatitis"
+    },
+    {
+      "page": "not-required",
+      "label": "Colonized Wounds",
+      "target": "orzid2-gmenu-abx-colonized-wounds"
+    },
+    {
+      "page": "not-required",
+      "label": "Asymptomatic Bacteriuria, cadiduria and pyuria",
+      "target": "orzid2-gmenu-abx-not-benefitted-bacteriuria"
+    },
+    {
+      "page": "ophthalmic-surgery-prophylaxis",
+      "label": "Moxifloxacin 500mcg/0.5ml Eye Inj Intracameral Cataract \\(Conc.=100mcg/0.1ml\\)",
+      "target": "psjizid-moxifloxacin-vigamox-eye-drops-cataract-surgery"
+    },
+    {
+      "page": "orthopedic-surgery-prophylaxis",
+      "label": "Click here No antimicrobial prophylaxis recommended for procedure",
+      "target": "orz-gtx-abx-pre-op-url-nurse-generic-order"
+    },
+    {
+      "page": "orthopedic-surgery-prophylaxis",
+      "label": "Vancomycin 15mg/kg Weight Based Dosing Preop R",
+      "target": "orzid2-gmenu-surg-vancomycin-weight-based-dosing"
+    },
+    {
+      "page": "osteom-staphylococcus-aureus",
+      "label": "Trimethoprim-sulfamethoxazole 1 DS tablet PO BID \\($\\) R,DI < OR >",
+      "target": "psozid2-tmp-sulfa-28days-1ds-tab-bid"
+    },
+    {
+      "page": "osteom-staphylococcus-aureus",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-tmp-sulfa-28days-1ds-tab-bid"
+    },
+    {
+      "page": "osteom-staphylococcus-aureus",
+      "label": "Cefadroxil 1000 mg PO BID \\($\\) R",
+      "target": "psozid2-cefadroxil-1000mg-po-bid-28ds"
+    },
+    {
+      "page": "osteom-staphylococcus-aureus",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-cefadroxil-1000mg-po-bid-28days"
+    },
+    {
+      "page": "osteom-staphylococcus-aureus",
+      "label": "Minocycline 100 mg PO BID \\($\\) DI < OR >",
+      "target": "psozid2-minocycline-28ds-100mg-po-bid"
+    },
+    {
+      "page": "osteom-staphylococcus-aureus",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-minocycline-28ds-100mg-po-bid"
+    },
+    {
+      "page": "osteom-staphylococcus-aureus",
+      "label": "References",
+      "target": "orzid2-gmenu-abx-references"
+    },
+    {
+      "page": "osteomyelitis-evaluation",
+      "label": "<Click here> Osteomyelitis",
+      "target": "orzid3-gmenu-osteomyelitis"
+    },
+    {
+      "page": "other-gram-negative-rods-bacteremia",
+      "label": "Ceftriaxone 2 gm IV q24h \\($\\) M",
+      "target": "psjizid-ceftriaxone-2gm-iv-q24h"
+    },
+    {
+      "page": "other-gram-negative-rods-bacteremia",
+      "label": "Meropenem 1 gm IV q8h \\($$\\) R,O",
+      "target": "psjizid-meropenem-1gm-iv-q8h"
+    },
+    {
+      "page": "other-pathogens",
+      "label": "Mycobacterium tuberculosis",
+      "target": "orzid2-gmenu-m-tuberculosis"
+    },
+    {
+      "page": "other-pathogens",
+      "label": "Mycobacterium avium intracellulare complex \\(a.k.a. MAI or MAC\\)",
+      "target": "orzid2-gmenu-m-avium-intracellulare"
+    },
+    {
+      "page": "other-procedures-prophylaxis",
+      "label": "*No antimicrobial prophylaxis recommended",
+      "target": "orz-gtx-abx-pre-op-url-nurse-generic-order"
+    },
+    {
+      "page": "other-procedures-prophylaxis",
+      "label": "References",
+      "target": "orzid2-gmenu-abx-references"
+    },
+    {
+      "page": "parasites",
+      "label": "Diarrhea, parasitic",
+      "target": "orzid2-gmenu-infect-diarrhea-gastro"
+    },
+    {
+      "page": "parasites",
+      "label": "Malaria",
+      "target": "orzid2-gmenu-abx-malaria-treatment"
+    },
+    {
+      "page": "parotitis",
+      "label": "More information on Parotitis",
+      "target": "orzid2-gmenu-abx-parotitis-more-information"
+    },
+    {
+      "page": "percutaneous-endoscopic-gastromy-tube-placement-procedure",
+      "label": "Clindamycin 600 mg IV over 30 minutes beginning 60 minutes",
+      "target": "psjizid-clindamycin-600mg-iv-once-c"
+    },
+    {
+      "page": "pericarditis",
+      "label": "Vancomycin 15 mg/kg IV q12h \\($\\) R <AND> ceftriaxone 2 gm IV q24h \\($\\) R,DI",
+      "target": "orz-set-abx-vanco-15-mg-kg-iv-q12h-ceftriax-2gm-iv-q24h"
+    },
+    {
+      "page": "pericarditis",
+      "label": "Vancomycin 15 mg/kg IV q12h \\($\\) R <AND> piperacillin-tazobactam 4.5 gm",
+      "target": "orz-set-abx-pip-taz4-5gm-ne-extinf-ci-cefep-metro-vanco15mg-kg"
+    },
+    {
+      "page": "peritoneal-dialysis-colonoscopy-prophylaxis",
+      "label": "Cefazolin 1 gm IV \\(M\\) once",
+      "target": "psjizid-cefazolin-1-gm-iv-once-prophylaxis"
+    },
+    {
+      "page": "peritoneal-dialysis-colonoscopy-prophylaxis",
+      "label": "Metronidazole 500 mg IV DI once",
+      "target": "psjizid-metronidazole-500mg-iv-once-preop"
+    },
+    {
+      "page": "peritoneal-dialysis-colonoscopy-prophylaxis",
+      "label": "Ampicillin-sulbactam 3 gm IV R once",
+      "target": "psjizid-ampicillin-sulbactam-3gm-iv-once-preop"
+    },
+    {
+      "page": "peritoneal-dialysis-colonoscopy-prophylaxis",
+      "label": "Ampicillin 1 gm IV R once < AND > gentamicin 80 mg IV R,O once",
+      "target": "orz-set-abx-ampicillin-1gm-iv-gentamicin-80mg-iv-once-preop"
+    },
+    {
+      "page": "pneumococcal-vaccine-information",
+      "label": "Once dose",
+      "target": "psczid-pneumococcal-20-valent-vaccine-one-dose"
+    },
+    {
+      "page": "podiatric-surgery-prophylaxis",
+      "label": "Select here No antimicrobial prophylaxis recommended for procedure/surgery",
+      "target": "orz-gtx-abx-pre-op-url-nurse-generic-order"
+    },
+    {
+      "page": "podiatric-surgery-prophylaxis",
+      "label": "Select here No antimicrobial prophylaxis, already on concurrent antimicrobials",
+      "target": "orz-gtx-abx-pre-op-url-nurse-podiatry-order"
+    },
+    {
+      "page": "podiatric-surgery-prophylaxis",
+      "label": "Clindamycin 900 mg IV over 30 minutes beginning 60 minutes before incision",
+      "target": "psjizid-clindamy-900mg-iv-once-preop"
+    },
+    {
+      "page": "podiatric-surgery-prophylaxis",
+      "label": "Vancomycin 15 MG/KG IV beginning 120 minutes before incision \\($\\) R",
+      "target": "orzid2-gmenu-surg-vancomycin-weight-based-dosing"
+    },
+    {
+      "page": "post-exposure-prophylaxis",
+      "label": "Post-Exposure Prophylaxis Protocol",
+      "target": "orz-gtx-abx-post-exposure-prophylaxis-occup-hyperlink"
+    },
+    {
+      "page": "post-exposure-prophylaxis",
+      "label": "Blood Borne Pathogen Labs",
+      "target": "orz-gmenu-occ-health-bbp-labs-main"
+    },
+    {
+      "page": "post-exposure-prophylaxis",
+      "label": "Select to place order for labs CBC, LFTs, Basic Metabolic\\(SMA-7\\)",
+      "target": "orz-gmenu-lab-ed-pep-cbc-lft-basic-metabolic"
+    },
+    {
+      "page": "post-exposure-prophylaxis",
+      "label": "Emtricitabine 200MG/Tenofovir 300MG Tab 1 po q day\\($$\\)R,DI,O < AND >",
+      "target": "orz-set-abx-op-pep-occup-dolutegravir-emtricitabine-tenofir"
+    },
+    {
+      "page": "post-exposure-prophylaxis-non-occupational",
+      "label": "< SELECT HERE > FOR TABLE",
+      "target": "orzid3-gmenu-abx-pep-nonoccup-risk-table-by-exposure-act"
+    },
+    {
+      "page": "post-exposure-prophylaxis-non-occupational",
+      "label": "< SELECT HERE > INITIAL LABORATORY ORDERS",
+      "target": "orzid3-gmenu-abx-pep-non-occupational-laboratory-orders"
+    },
+    {
+      "page": "post-exposure-prophylaxis-non-occupational",
+      "label": "< SELECT HERE > ANTIRETROVIRAL RECOMMENDATIONS for nPEP",
+      "target": "orzid3-gmenu-abx-pep-non-occupational-drug-tx"
+    },
+    {
+      "page": "post-exposure-prophylaxis-non-occupational",
+      "label": "< SELECT HERE > 4 Week Follow-up Labs and RTC orders",
+      "target": "orzid3-gmenu-abx-pep-non-occupational-labs-rtc"
+    },
+    {
+      "page": "post-exposure-prophylaxis-non-occupational",
+      "label": "<<ORDER>> HIV Clinic Outpatient Consult",
+      "target": "gmrctz-mrtc-outpt"
+    },
+    {
+      "page": "post-operative-wound-infection",
+      "label": "Patients with signs of infection WITHIN 48 HOURS of procedure",
+      "target": "orzid2-gmenu-surg-w-i-48hrs-procedure"
+    },
+    {
+      "page": "post-operative-wound-infection",
+      "label": "Patients with signs of infection 48 HOURS OR MORE after procedure",
+      "target": "orzid2-gmenu-surg-48hrs-after-proc"
+    },
+    {
+      "page": "pregnancy-risk-factors-for-antimicrobials",
+      "label": "Sanford Guide Pregnancy Risk & Lactation Safety Table",
+      "target": "orz-gtx-abx-sanford-pregnancy"
+    },
+    {
+      "page": "propionibacterium-infections-general",
+      "label": "Penicillin G 2 million units IV q4h R",
+      "target": "psjizid-penicillin-2mu-iv-q4h"
+    },
+    {
+      "page": "propionibacterium-infections-general",
+      "label": "Ceftriaxone 2 gm IV q24h M",
+      "target": "psjizid-ceftriaxone-2gm-iv-q24h"
+    },
+    {
+      "page": "propionibacterium-infections-general",
+      "label": "Assessment of Beta-lactam Reaction",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "propionibacterium-infections-general",
+      "label": "Vancomycin 15 mg/kg IV q12h R",
+      "target": "orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening"
+    },
+    {
+      "page": "pros-b-j-enterococci",
+      "label": "Amoxicillin 500 mg PO TID \\($\\) R",
+      "target": "psozid-amoxicillin-500-mg-po-tid"
+    },
+    {
+      "page": "pros-b-j-enterococci",
+      "label": "Non-VA order for above",
+      "target": "pshzid-amoxicillin-500-mg-po-tid"
+    },
+    {
+      "page": "pros-b-j-enterococci",
+      "label": "Penicillin VK 500 mg PO QID \\($\\) R",
+      "target": "psozid-penicillin-500mg-po-qid"
+    },
+    {
+      "page": "pros-b-j-enterococci",
+      "label": "Non-VA order for above",
+      "target": "pshzid-penicillin-500mg-po-qid"
+    },
+    {
+      "page": "pros-b-j-enterococci",
+      "label": "Minocycline 100mg PO BID \\($\\) DI",
+      "target": "psozid-minocycline-100mg-po-bid"
+    },
+    {
+      "page": "pros-b-j-enterococci",
+      "label": "Non-VA order for above",
+      "target": "pshzid-minocycline-100mg-po-bid"
+    },
+    {
+      "page": "pros-b-j-enterococci",
+      "label": "Linezolid 600 mg PO BID \\($\\) DI,O",
+      "target": "zzpsozid-linezolid-600mg-po-bid"
+    },
+    {
+      "page": "pros-b-j-enterococci",
+      "label": "Non-VA order for above",
+      "target": "pshzid-linezolid-600mg-po-bid"
+    },
+    {
+      "page": "pros-b-j-gnb",
+      "label": "Trimethoprim-sulfamethoxazole 1 DS tablet PO BID \\($\\) R,DI",
+      "target": "psozid-trimeth-sulfa-1-ds-tablet-po-bid"
+    },
+    {
+      "page": "pros-b-j-gnb",
+      "label": "Non-VA order for above",
+      "target": "pshzid-trimeth-sulfa-1-ds-tablet-po-bid"
+    },
+    {
+      "page": "pros-b-j-gnb",
+      "label": "Amoxicillin-clavulanate 875-125 mg PO BID \\($\\) R",
+      "target": "psozid-amox-clav-875-125mg-po-bid"
+    },
+    {
+      "page": "pros-b-j-gnb",
+      "label": "Non-VA order for above",
+      "target": "pshzid-amox-clav-875-125mg-po-bid"
+    },
+    {
+      "page": "pros-b-j-gnb",
+      "label": "Ciprofloxacin 750 mg PO BID \\($\\) R,DI",
+      "target": "psozid-ciprofloxacin-750mg-po-bid"
+    },
+    {
+      "page": "pros-b-j-gnb",
+      "label": "Non-VA order for above",
+      "target": "pshzid-ciprofloxacin-750mg-po-bid"
+    },
+    {
+      "page": "pros-b-j-gnb",
+      "label": "Ciprofloxacin 500 mg PO BID \\($\\) R,DI",
+      "target": "psozid-ciprofl-500mg-po-bid"
+    },
+    {
+      "page": "pros-b-j-gnb",
+      "label": "Non-VA order for above",
+      "target": "pshzid-ciprofl-500mg-po-bid"
+    },
+    {
+      "page": "pros-b-j-p-aeruginosa",
+      "label": "Ciprofloxacin 750 mg PO BID \\($\\) R,DI",
+      "target": "psozid-ciprofloxacin-750mg-po-bid"
+    },
+    {
+      "page": "pros-b-j-p-aeruginosa",
+      "label": "Non-VA order for above",
+      "target": "pshzid-ciprofloxacin-750mg-po-bid"
+    },
+    {
+      "page": "pros-b-j-p-aeruginosa",
+      "label": "Ciprofloxacin 500 mg PO BID \\($\\) R,DI",
+      "target": "psozid-ciprofl-500mg-po-bid"
+    },
+    {
+      "page": "pros-b-j-p-aeruginosa",
+      "label": "Non-VA order for above",
+      "target": "pshzid-ciprofl-500mg-po-bid"
+    },
+    {
+      "page": "pros-b-j-streptococci",
+      "label": "Amoxicillin 500 mg PO TID \\($\\) R",
+      "target": "psozid-amoxicillin-500-mg-po-tid"
+    },
+    {
+      "page": "pros-b-j-streptococci",
+      "label": "Non-VA order for above",
+      "target": "pshzid-amoxicillin-500-mg-po-tid"
+    },
+    {
+      "page": "pros-b-j-streptococci",
+      "label": "Penicillin VK 500 mg PO QID \\($\\) R",
+      "target": "psozid-penicillin-500mg-po-qid"
+    },
+    {
+      "page": "pros-b-j-streptococci",
+      "label": "Non-VA order for above",
+      "target": "pshzid-penicillin-500mg-po-qid"
+    },
+    {
+      "page": "pros-b-j-streptococci",
+      "label": "Clindamycin 300 mg PO QID \\($\\) H,O",
+      "target": "psozid-clindamycin-300mg-po-qid"
+    },
+    {
+      "page": "pros-b-j-streptococci",
+      "label": "Non-VA order for above",
+      "target": "pshzid-clindamycin-300mg-po-qid"
+    },
+    {
+      "page": "prosthetic-valve-endocarditis-empirical-therapy",
+      "label": "Vancomycin 15 mg/kg IV q12h \\($\\) R <AND> gentamicin 1 mg/kg IV q8h \\($\\)",
+      "target": "orz-set-abx-vanco-15mg-kg-iv-q12h-rifamp-300mg-po-gent-1mg-kg"
+    },
+    {
+      "page": "pseudomonas-bacteremia",
+      "label": "Piperacillin-tazobactam 4.5 gm IV q6h \\($$\\) R",
+      "target": "psjizid-pip-taz-4-5gm-iv-q6h-ne-extinf-ci-cefep-metro"
+    },
+    {
+      "page": "pseudomonas-bacteremia",
+      "label": "Cefepime 2 gm IV q8h \\($$\\) R",
+      "target": "psjizid-cefepime-2-gm-iv-q8h"
+    },
+    {
+      "page": "pseudomonas-bacteremia",
+      "label": "< ADD > Tobramycin 5 mg/kg IV x 1 \\($\\) R,O",
+      "target": "psjizid-tobramycin-5-mg-kg-iv-once"
+    },
+    {
+      "page": "rabies-pre-exposure-prophylaxis",
+      "label": "Rabies Post-Exposure Prophylaxis",
+      "target": "orzid3-gmenu-abx-rabies-post-exposure-prophylaxis"
+    },
+    {
+      "page": "rabies-pre-exposure-prophylaxis",
+      "label": "Rabies vaccine, 2-dose series \\(0, 7 days\\)",
+      "target": "orz-set-abx-op-rabies-vaccine-2-dose-series"
+    },
+    {
+      "page": "rabies-pre-exposure-prophylaxis",
+      "label": "Rabies virus rapid fluorescent focus inhibition test",
+      "target": "lrtzid-rabies-virus-rapid-fluorescent-inhibition-test"
+    },
+    {
+      "page": "rabies-pre-exposure-prophylaxis",
+      "label": "Rabies booster vaccine",
+      "target": "orz-set-abx-op-rabies-booster-vaccine-one-dose"
+    },
+    {
+      "page": "rosacea",
+      "label": "Metronidazole 0.75% cream topically q24h \\($\\) DI",
+      "target": "psozid-metronidazole-0-75-cream-topically-q24h"
+    },
+    {
+      "page": "rosacea",
+      "label": "Doxycycline 50 mg PO q12h \\($\\) DI for 12 weeks",
+      "target": "psozid2-doxycycline-12wks-50mg-po-q12h"
+    },
+    {
+      "page": "rosacea",
+      "label": "Minocycline 50 mg PO q12h \\($\\) DI for 12 weeks",
+      "target": "psozid2-minocylcine-12wks-50mg-po-q12h"
+    },
+    {
+      "page": "sa-decolonization",
+      "label": "Mupirocin 2% ointment topically BID M <AND> chlorhexidine 4% liquid",
+      "target": "orz-set-abx-op-chlorhexidine-mupirocin-decolonization"
+    },
+    {
+      "page": "sa-decolonization",
+      "label": "Non-VA order for above",
+      "target": "orz-set-abx-nv-chlorhexidine-mupirocin-decolonization"
+    },
+    {
+      "page": "sepsis-and-shock",
+      "label": "Sepsis antimicrobial treatment recommendations",
+      "target": "orzid2-gmenu-sepsis-protocol-antimicrobials"
+    },
+    {
+      "page": "septic-arth-enterococci",
+      "label": "Amoxicillin 500 mg PO TID \\($\\) R",
+      "target": "psozid2-amoxicillin-14ds-500mg-po-tid"
+    },
+    {
+      "page": "septic-arth-enterococci",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-amoxicillin-14ds-500mg-po-tid"
+    },
+    {
+      "page": "septic-arth-enterococci",
+      "label": "References",
+      "target": "orzid2-gmenu-abx-references"
+    },
+    {
+      "page": "septic-arth-gnb",
+      "label": "Amoxicillin-clavulanate 875/125 mg PO BID \\($\\) R",
+      "target": "psozid2-amox-clav-875-125mg-14ds-po-bid"
+    },
+    {
+      "page": "septic-arth-gnb",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-amox-clav-875-125mg-14ds-po-bid"
+    },
+    {
+      "page": "septic-arth-gnb",
+      "label": "Levofloxacin 500mg PO qday \\($\\) R,DI",
+      "target": "psozid2-levofloxacin-14ds-500mg-po-qday"
+    },
+    {
+      "page": "septic-arth-gnb",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-levofloxacin-14ds-500mg-po-qday"
+    },
+    {
+      "page": "septic-arth-n-gonorrhoeae",
+      "label": "Azithromycin 1000 mg PO once \\($\\) M",
+      "target": "psozid2-azithromycin-1gm-po-once"
+    },
+    {
+      "page": "septic-arth-n-gonorrhoeae",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-azithromycin-1gm-po-once"
+    },
+    {
+      "page": "septic-arth-n-gonorrhoeae",
+      "label": "Doxycycline 100 mg PO BID for 7 days \\($\\) DI",
+      "target": "psozid2-doxycycline-100mg-po-bid-7ds"
+    },
+    {
+      "page": "septic-arth-n-gonorrhoeae",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-doxycycline-100mg-po-bid-7ds"
+    },
+    {
+      "page": "septic-arth-p-aeruginosa",
+      "label": "Ciprofloxacin 750 mg PO BID \\($\\) R,DI",
+      "target": "psozid2-ciproflox-14ds-750mg-po-bid"
+    },
+    {
+      "page": "septic-arth-p-aeruginosa",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-ciproflox-14ds-750mg-po-bid"
+    },
+    {
+      "page": "septic-arth-s-aureus",
+      "label": "Trimethoprim-sulfamethoxazole 1 DS tablet PO BID \\($\\) R,DI",
+      "target": "psozid2-tmp-sulfa-28days-1ds-tab-bid"
+    },
+    {
+      "page": "septic-arth-s-aureus",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-tmp-sulfa-28days-1ds-tab-bid"
+    },
+    {
+      "page": "septic-arth-s-aureus",
+      "label": "Cefadroxil 1000 mg PO BID \\($\\) R",
+      "target": "psozid2-cefadroxil-1000mg-po-bid-28ds"
+    },
+    {
+      "page": "septic-arth-s-aureus",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-cefadroxil-1000mg-po-bid-28days"
+    },
+    {
+      "page": "septic-arth-s-aureus",
+      "label": "Minocycline 100 mg PO BID \\($\\) DI",
+      "target": "psozid2-minocycline-28ds-100mg-po-bid"
+    },
+    {
+      "page": "septic-arth-s-aureus",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-minocycline-28ds-100mg-po-bid"
+    },
+    {
+      "page": "septic-arth-streptococci",
+      "label": "Amoxicillin 1000 mg PO tid for 14 days \\($\\) R",
+      "target": "psozid2-amoxicillin-1000mg-po-tid-14days"
+    },
+    {
+      "page": "septic-arth-streptococci",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-amoxicillin-1000mg-po-tid-14days"
+    },
+    {
+      "page": "septic-arth-streptococci",
+      "label": "Clindamycin 300mg PO qid for 14 days \\($\\) H",
+      "target": "psozid2-clindamycin-14ds-300mg-po-qid"
+    },
+    {
+      "page": "septic-arth-streptococci",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-clindamycin-14ds-300mg-po-qid"
+    },
+    {
+      "page": "spinal-cord-stimulator-trial-procedure-prophylaxis",
+      "label": "Cefazolin 2 GM IVPB Once administer 60 minutes prior to procedure \\($\\) R",
+      "target": "psjizid-cefazolin-2gm-ivpb-once-pre-procedure-pain-clinic"
+    },
+    {
+      "page": "spinal-cord-stimulator-trial-procedure-prophylaxis",
+      "label": "Cefazolin 3 GM IVPB Once administer 60 minutes prior to procedure  \\($\\) R",
+      "target": "psjizid-cefazolin-3gm-iv-once-pre-procedure-pain-clinic"
+    },
+    {
+      "page": "spinal-cord-stimulator-trial-procedure-prophylaxis",
+      "label": "Vancomycin Weight Based Dosing IVPB x1 Dose",
+      "target": "orzid2-gmenu-surg-vancomycin-weight-based-dosing"
+    },
+    {
+      "page": "splenectomy-daily-antibiotic",
+      "label": "Amoxicillin 500MG PO bid for daily prophylaxis for asplenic patient \\($\\) R",
+      "target": "psozid-amoxicillin-500mg-po-bid-for-asplenia-daily-prophylaxis"
+    },
+    {
+      "page": "splenectomy-daily-antibiotic",
+      "label": "Cephalexin 250MG PO bid for daily propylaxis for asplenic patient \\($\\) R",
+      "target": "psozid-cephalexin-250mg-po-bid-daily-prophylaxis-asplenia"
+    },
+    {
+      "page": "splenectomy-daily-antibiotic",
+      "label": "Click here Beta-lactam reaction assessment",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "splenectomy-daily-antibiotic",
+      "label": "Azithromycin 250MG PO qday for daily prophylaxis for asplenic patients \\($\\)DI",
+      "target": "psozid-azithromycin-250-mg-qday-daily-propylaxis-asplenia"
+    },
+    {
+      "page": "splenectomy-empiric",
+      "label": "Amoxicillin-clavulanate 875MG PO BID for asplenia empiric antibiotic \\($\\) R",
+      "target": "psozid-amoxicillin-clavulanate-875-125mg-po-bid-asplenia"
+    },
+    {
+      "page": "splenectomy-empiric",
+      "label": "Cefuroxime 500MG PO BID for asplenia empiric antibiotic \\($\\) R",
+      "target": "psozid-cefuroxime-500mg-po-bid-asplenia"
+    },
+    {
+      "page": "splenectomy-empiric",
+      "label": "Click here Beta-lactam reaction assessment",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "splenectomy-empiric",
+      "label": "Levofloxacin 750MG PO QDAY for asplenia empiric antibiotic \\($\\) R,DI",
+      "target": "psozid-levofloxacin-750mg-po-qdaily-asplenia"
+    },
+    {
+      "page": "splenectomy-vaccines-prophy-2",
+      "label": "click here Vaccinations for Adults without a Spleen",
+      "target": "orz-gtx-abx-url-asplenia-vaccination-recommendations"
+    },
+    {
+      "page": "staph-toxic-shock-syndrome",
+      "label": "References",
+      "target": "orzid2-gmenu-abx-references"
+    },
+    {
+      "page": "staphylococcal-native-valve-endocarditis",
+      "label": "Nafcillin 2 gm IV q4h \\($$\\) DI for 6 weeks",
+      "target": "psjizid-nafcillin-2gm-iv-q4h"
+    },
+    {
+      "page": "staphylococcal-native-valve-endocarditis",
+      "label": "Cefazolin 2 gm IV q8h \\($\\) R",
+      "target": "psjizid-cefazolin-2gm-ivpb-q8h"
+    },
+    {
+      "page": "staphylococcal-native-valve-endocarditis",
+      "label": "Vancomycin 15 mg/kg IV q12h \\($\\) R for 6 weeks",
+      "target": "orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening"
+    },
+    {
+      "page": "staphylococcal-native-valve-endocarditis",
+      "label": "Daptomycin 8-12mg/kg q24h \\($$$$\\) R,DI for 6 weeks",
+      "target": "psjizid-daptomycin-8-12mg-kg-q24h"
+    },
+    {
+      "page": "staphylococcus-aureus-bacteremia",
+      "label": "Cefazolin 2 gm IV q8h \\($\\) R",
+      "target": "psjizid-cefazolin-2gm-ivpb-q8h"
+    },
+    {
+      "page": "staphylococcus-aureus-bacteremia",
+      "label": "Nafcillin 2 gm IV q4h \\($$\\) R",
+      "target": "psjizid-nafcillin-2gm-iv-q4h"
+    },
+    {
+      "page": "staphylococcus-aureus-bacteremia",
+      "label": "Vancomycin 15 mg/kg IV q12h \\($\\) R",
+      "target": "orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening"
+    },
+    {
+      "page": "staphylococcus-aureus-nosocomial-pneumonia",
+      "label": "Cefazolin 2 gm IV q8h R",
+      "target": "psjizid-cefazolin-2gm-ivpb-q8h"
+    },
+    {
+      "page": "staphylococcus-aureus-nosocomial-pneumonia",
+      "label": "Nafcillin 2 gm IV q4h DI",
+      "target": "psjizid-nafcillin-2gm-iv-q4h"
+    },
+    {
+      "page": "staphylococcus-aureus-nosocomial-pneumonia",
+      "label": "Cefadroxil 1000 mg PO q12h R",
+      "target": "psjzid-cefadroxil-1000mg-po-q12h"
+    },
+    {
+      "page": "staphylococcus-aureus-nosocomial-pneumonia",
+      "label": "Minocycline 100 mg PO q12h DI",
+      "target": "psjzid-minocycline-100mg-po-q12h"
+    },
+    {
+      "page": "staphylococcus-aureus-nosocomial-pneumonia",
+      "label": "Vancomycin 15 mg/kg IV q12h R",
+      "target": "orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening"
+    },
+    {
+      "page": "staphylococcus-aureus-nosocomial-pneumonia",
+      "label": "Linezolid 600 mg IV q12h DI,O",
+      "target": "psjizid-linezolid-600mg-iv-q12h"
+    },
+    {
+      "page": "staphylococcus-aureus-nosocomial-pneumonia",
+      "label": "Trimethoprim-sulfamethoxazole 1 DS tablet PO q12h R,DI",
+      "target": "psjzid-trimeth-sulfa-1-ds-tab-bid"
+    },
+    {
+      "page": "staphylococcus-aureus-nosocomial-pneumonia",
+      "label": "Linezolid 600 mg PO q12h DI,O",
+      "target": "psjzid-linezolid-600mg-po-q12h"
+    },
+    {
+      "page": "staphylococcus-lugdunensis-bacteremia",
+      "label": "Cefazolin 2 gm IV q8h \\($\\) R",
+      "target": "psjizid-cefazolin-2gm-ivpb-q8h"
+    },
+    {
+      "page": "staphylococcus-lugdunensis-bacteremia",
+      "label": "Nafcillin 2 gm IV q4h \\($$\\) R",
+      "target": "psjizid-nafcillin-2gm-iv-q4h"
+    },
+    {
+      "page": "staphylococcus-lugdunensis-bacteremia",
+      "label": "Vancomycin 15 mg/kg IV q12h \\($\\) R",
+      "target": "orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening"
+    },
+    {
+      "page": "strep-toxic-shock-syndrome",
+      "label": "References",
+      "target": "orzid2-gmenu-abx-references"
+    },
+    {
+      "page": "streptococcal-native-valve-endocarditis",
+      "label": "Penicillin G 3 million units IV q4h \\($$\\) R for 4 weeks",
+      "target": "psjizid-penicillin-g-3-million-units-iv-q4h"
+    },
+    {
+      "page": "streptococcal-native-valve-endocarditis",
+      "label": "Penicillin G 3 million units IV q4h \\($$\\) R for 2 weeks <AND> gentamicin",
+      "target": "orz-set-abx-penicillin-3mu-iv-q4h-gent-3-mg-kg-once-daily"
+    },
+    {
+      "page": "streptococcal-native-valve-endocarditis",
+      "label": "Ceftriaxone 2 gm IV q24h \\($\\) M for 4 weeks",
+      "target": "psjizid-ceftriaxone-2gm-iv-q24h"
+    },
+    {
+      "page": "streptococcal-native-valve-endocarditis",
+      "label": "Ceftriaxone 2 gm IV q24h \\($\\) for 2 weeks <AND> gentamicin 3 mg/kg IV once",
+      "target": "orz-set-abx-ceft-2gm-iv-q24h-gent-3-mg-kg-iv-once-daily"
+    },
+    {
+      "page": "streptococcal-native-valve-endocarditis",
+      "label": "Vancomycin 15 mg/kg IV q12h \\($\\) R for 4 weeks",
+      "target": "orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening"
+    },
+    {
+      "page": "streptococcal-native-valve-endocarditis",
+      "label": "Penicillin G 4 million units IV q4h \\($$\\) R for 4 weeks <AND> gentamicin",
+      "target": "orz-set-abx-penicillin-4mu-iv-q4h-gent-3-mg-kg-iv-qd"
+    },
+    {
+      "page": "streptococcal-native-valve-endocarditis",
+      "label": "Penicillin G 4 million units IV q4h \\($$\\) R <AND> gentamicin 1 mg/kg IV q24h",
+      "target": "orz-set-abx-penicil-4mu-iv-q4h-gent-1mg-kg-iv-q8h"
+    },
+    {
+      "page": "streptococcal-native-valve-endocarditis",
+      "label": "Ampicillin 2 gm IV q4h \\($$\\) R <AND> gentamicin 1 mg/kg IV q8h \\($\\) R,O",
+      "target": "orz-set-abx-ampici-2gm-iv-q4h-gent-1mg-kg-iv-q8h"
+    },
+    {
+      "page": "streptococci",
+      "label": "Penicillin G 4 million units IV q4h \\($$\\) R",
+      "target": "psjizid-penicillin-g-4-million-units-iv-q4h"
+    },
+    {
+      "page": "streptococci",
+      "label": "Assessment of beta-lactam reaction CLICK HERE",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "streptococci",
+      "label": "Ceftriaxone 2 gm IV q24h \\($\\) M",
+      "target": "psjizid-ceftriaxone-2gm-iv-q24h"
+    },
+    {
+      "page": "stress",
+      "label": "References",
+      "target": "orzid2-gmenu-abx-references"
+    },
+    {
+      "page": "subdural-empyema",
+      "label": "Ceftriaxone 2 gm IV q12h \\($\\) M <AND> metronidazole 500 mg IV q8h \\($\\) DI",
+      "target": "orz-set-abx-ceftriax-2gm-iv-q12h-metro-500mg-iv-q8h"
+    },
+    {
+      "page": "subdural-empyema",
+      "label": "Assessment of beta-lactam reaction",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "subdural-empyema",
+      "label": "Meropenem 2 gm IV q8h \\($$\\) R,O",
+      "target": "psjizid-meropenem-2gm-iv-q8h"
+    },
+    {
+      "page": "subdural-empyema",
+      "label": "Ceftriaxone 2 gm IV q12h \\($\\) M <AND> metronidazole 500 mg IV q8h",
+      "target": "orz-set-abx-ceftr-2gm-metro-500mg-iv-q8h-vanco-15mg-kg-iv-q12h"
+    },
+    {
+      "page": "subdural-empyema",
+      "label": "Meropenem 2 gm IV q8h \\($$\\) R,O  <AND> vancomycin 15mg/kg IV q12h \\($\\) R",
+      "target": "orz-set-abx-meropenem-2gm-iv-q8h-vanco-15mg-kg-iv-q12h"
+    },
+    {
+      "page": "suppurative-intracranial-thrombophlebitis",
+      "label": "Ceftriaxone 2 gm IV q12h \\($\\) M <AND> metronidazole 500 mg IV q8h",
+      "target": "orz-set-abx-ceftr-2gm-metro-500mg-iv-q8h-vanco-15mg-kg-iv-q12h"
+    },
+    {
+      "page": "suppurative-intracranial-thrombophlebitis",
+      "label": "Cefepime 2gm IV Q8h \\($$\\) R <AND> metronidazole 500 mg IV q8h \\($\\) DI",
+      "target": "orz-set-abx-cefe2gmivq8h-metro500mgivq8h-vanco15mg-kgivq12hstat"
+    },
+    {
+      "page": "suppurative-intracranial-thrombophlebitis",
+      "label": "Assessment of beta-lactam reaction",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "suppurative-intracranial-thrombophlebitis",
+      "label": "Meropenem 2 gm IV q8h \\($$\\) R,O  <AND> vancomycin 15mg/kg IV q12h \\($\\) R",
+      "target": "orz-set-abx-meropenem-2gm-iv-q8h-vanco-15mg-kg-iv-q12h"
+    },
+    {
+      "page": "suppurative-intracranial-thrombophlebitis",
+      "label": "Nafcillin 2 gm IV q4h \\($$\\) R,DI",
+      "target": "psjizid-nafcillin-2gm-iv-q4h"
+    },
+    {
+      "page": "suppurative-intracranial-thrombophlebitis",
+      "label": "Cefazolin 2 gm IV q8h \\($\\) R",
+      "target": "psjizid-cefazolin-2gm-ivpb-q8h"
+    },
+    {
+      "page": "suppurative-thrombophlebitis",
+      "label": "Vancomycin 15 mg/kg IV q12h \\($\\) R <AND> ceftriaxone 2 gm IV q24h \\($\\) M",
+      "target": "orz-set-abx-vanc-15-mg-kg-iv-q12h-ceftriax-2-gm-iv-q24h"
+    },
+    {
+      "page": "suppurative-thrombophlebitis",
+      "label": "Vancomycin 15 mg/kg IV q12h \\($\\) R <AND> gentamicin 5 mg/kg IV q24h \\($\\)",
+      "target": "orz-set-abx-vanco-15-mg-kg-iv-q12h-gent-5-mg-kg-iv-q24h"
+    },
+    {
+      "page": "suppurative-thrombophlebitis",
+      "label": "Piperacillin-tazobactam 4.5 gm IV q6h \\($$\\) R",
+      "target": "psjizid-pip-taz-4-5gm-iv-q6h-ne-extinf-ci-cefep-metro"
+    },
+    {
+      "page": "suppurative-thrombophlebitis",
+      "label": "Ceftriaxone 2 gm IV q24h \\($\\) M <AND> metronidazole 500 mg IV q8h \\($\\) DI",
+      "target": "orz-set-abx-ceftriaxone-2gm-iv-q24h-metron-500mg-iv-q8h"
+    },
+    {
+      "page": "suppurative-thrombophlebitis",
+      "label": "< ADD > Vancomycin 15 mg/kg IV q12h \\($\\) R",
+      "target": "orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening"
+    },
+    {
+      "page": "surg-cefazolin-weight-based-dosing",
+      "label": "<Click here> Display last recorded patient weight \\(limited to 2 years\\)",
+      "target": "orz-gtx-abx-weight-for-abx-dosing"
+    },
+    {
+      "page": "surg-cefazolin-weight-based-dosing",
+      "label": "Cefazolin 2GM IVPB ONCE",
+      "target": "psjizid-cefazolin-2gm-ivpb-once-preop"
+    },
+    {
+      "page": "surg-interventional-radiology",
+      "label": "Click here No antimicrobial prophylaxis recommended for procedure",
+      "target": "orz-gtx-abx-pre-op-url-nurse-generic-order"
+    },
+    {
+      "page": "surg-interventional-radiology",
+      "label": "Cefazolin Weight Based Dosing Preop \\($\\)R",
+      "target": "orzid2-gmenu-surg-cefazolin-ir-weight-based-dosing"
+    },
+    {
+      "page": "surg-interventional-radiology",
+      "label": "Click here Beta-lactam allergy assessment",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "surg-interventional-radiology",
+      "label": "Vancomycin 15mg/kg Weight Based Dosing Preop R",
+      "target": "orzid2-gmenu-surg-vancomycin-weight-based-dosing"
+    },
+    {
+      "page": "surg-timing-dosing-prophyl",
+      "label": "References",
+      "target": "orzid2-gmenu-abx-references"
+    },
+    {
+      "page": "surg-vascular-surg-postop",
+      "label": "Cefazolin Weight Based Dosing q8h x2 doses postop",
+      "target": "orzid2-gmenu-surg-cefazolin-wt-based-postop-doses-x2"
+    },
+    {
+      "page": "surg-vascular-surg-postop",
+      "label": "Click here Beta-lactam reaction assessment",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "surg-vascular-surg-postop",
+      "label": "Vancomycin 15mg/kg Dosing q12h x1 dose postop",
+      "target": "orzid2-gmenu-surg-vancomycin-post-op-specific-dosing"
+    },
+    {
+      "page": "surg-vascular-surg-postop",
+      "label": "References",
+      "target": "orzid2-gmenu-abx-references"
+    },
+    {
+      "page": "surgical-pre-op-antibiotics",
+      "label": "<Hyperlink> Surgical Antimicrobial Prophylaxis Guidelines 2013",
+      "target": "orz-gtx-abx-surgical-prophylaxis"
+    },
+    {
+      "page": "surgical-wound-classification",
+      "label": "References",
+      "target": "orzid2-gmenu-abx-references"
+    },
+    {
+      "page": "susceptibilities-antibiogram",
+      "label": "Click here to go directly to the Antibiotic Susceptibilities.",
+      "target": "orz-gtx-abx-mpls-vamc-abx-sensitivities"
+    },
+    {
+      "page": "susceptibilities-antibiogram",
+      "label": "Please Click Here For the MDH website",
+      "target": "orz-gtx-abx-antibiogram"
+    },
+    {
+      "page": "susceptibilities-antibiogram",
+      "label": "Click Here for link to Sanford Guide online access",
+      "target": "orz-gtx-abx-sanford"
+    },
+    {
+      "page": "susceptibilities-antibiogram",
+      "label": "Click Here for link to Principles and Practice of Infectious Diseases online",
+      "target": "orz-gtx-abx-mandell"
+    },
+    {
+      "page": "syphilis",
+      "label": "Syphilis antibody test with reflex to rapid plasma reagin \\(RPR\\)",
+      "target": "lrtz-syphilis-ab-w-reflex-to-rpr-w-titer"
+    },
+    {
+      "page": "syphilis",
+      "label": "Benzathine Penicillin 2.4 million units IM once \\($$$\\) M",
+      "target": "psjzid-benzathine-penicillin-2-4mu-im-once"
+    },
+    {
+      "page": "syphilis",
+      "label": "Doxycycline 100 mg PO q12h \\($\\) DI for 14 days",
+      "target": "psjzid-doxycycline-100mg-po-q12h"
+    },
+    {
+      "page": "syphilis",
+      "label": "Benzathine Penicillin 2.4 million units IM qweek \\($$$\\) M x3 doses",
+      "target": "psjzid2-benzathine-penicillin-2-4mu-im-qweek-x3-syphilis"
+    },
+    {
+      "page": "system-infectious-diseases",
+      "label": "Fever of unknown origin",
+      "target": "orzid2-gmenu-fever-of-unk-origin"
+    },
+    {
+      "page": "tetanus-diphtheria-and-acellular-pertussis-vaccine-information",
+      "label": "Td/Tdap 3 dose series",
+      "target": "orz-set-abx-op-td-tdap-vaccine-3-dose-series"
+    },
+    {
+      "page": "tetanus-diphtheria-and-acellular-pertussis-vaccine-information",
+      "label": "Td",
+      "target": "orz-set-abx-op-tetanus-diphtheria-vaccine-one-dose"
+    },
+    {
+      "page": "tetanus-diphtheria-and-acellular-pertussis-vaccine-information",
+      "label": "Tdap",
+      "target": "orz-set-abx-op-tetanus-diphtheria-pertussis-vaccine-one-dose"
+    },
+    {
+      "page": "thoracic-surgery-post-op-prophylaxis",
+      "label": "Cefazolin 2 gm IV q8h x 2 doses post-op \\($\\) R <AND> metronidazole 500 mg IV",
+      "target": "orz-set-abx-cefazolin-2gm-metronidazole-500mg-2-doses-post-op"
+    },
+    {
+      "page": "thoracic-surgery-post-op-prophylaxis",
+      "label": "Clindamycin 900 mg IV q8h x 2 doses post-op \\($$\\)",
+      "target": "psjizid-clindam-900mg-iv-q8h-x2doses-postop"
+    },
+    {
+      "page": "thoracic-surgery-post-op-prophylaxis",
+      "label": "Vancomycin 15 mg/kg IV \\(pharmacy to dose\\) q12h x 1 dose post-op \\($\\) R",
+      "target": "psjizid-vancomycin-15mg-kg-postoperative-q12h-once"
+    },
+    {
+      "page": "thoracic-surgery-prophylaxis",
+      "label": "Cefazolin weight based dosing once pre-op + Metronidazole 500mg once IV pre-op",
+      "target": "orz-set-abx-cefazo-wt-based-iv-metron-500mg-iv-preop"
+    },
+    {
+      "page": "thoracic-surgery-prophylaxis",
+      "label": "Clindamycin 900 mg IV over 30 minutes, beginning 60 minutes before incision",
+      "target": "psjizid-clindamy-900mg-iv-once-preop"
+    },
+    {
+      "page": "thoracic-surgery-prophylaxis",
+      "label": "Vancomycin 15 MG/KG IV beginning 120 minutes before incision \\($\\) R",
+      "target": "orzid2-gmenu-surg-vancomycin-weight-based-dosing"
+    },
+    {
+      "page": "tobacco-smoke",
+      "label": "References",
+      "target": "orzid2-gmenu-abx-references"
+    },
+    {
+      "page": "toxoplasma-infections-general",
+      "label": "Pyrimethamine 200 mg PO once \\($$$\\), then 50 mg PO q24h \\($$\\) DI,O <AND>",
+      "target": "orz-set-abx-pyrim200mgthen50mgq24h-sulfdiaz1gmq6h-leuco10mgq24h"
+    },
+    {
+      "page": "toxoplasma-infections-general",
+      "label": "Pyrimethamine 200 mg PO once \\($$$\\), then 75 mg PO q24h \\($$\\) DI,O <AND>",
+      "target": "orz-set-abx-pyrim200mgthen75mgq24h-sulfad1-5gmq6h-leuco10mgq24h"
+    },
+    {
+      "page": "toxoplasma-infections-general",
+      "label": "Pyrimethamine 200 mg PO once \\($$$\\), then 50 mg PO q24h \\($$\\) DI,O <AND>",
+      "target": "orz-set-abx-pyrim200mgthen50mgq24h-clinda600mgq6h-leuco10mgq24h"
+    },
+    {
+      "page": "toxoplasma-infections-general",
+      "label": "Pyrimethamine 200 mg PO once \\($$$\\), then 75 mg PO q24h \\($$\\) DI,O <AND>",
+      "target": "orz-set-abx-pyrim200mgthen75mgq24h-clinda600mgq6h-leuco10mgq24h"
+    },
+    {
+      "page": "toxoplasma-infections-general",
+      "label": "Trimethoprim 5 mg/kg-sulfamethoxazole 25 mg/kg IV q12h \\($$\\) R,DI",
+      "target": "psjizid-trimethoprim-sulfameth-5-25-mg-kg-iv-q12h"
+    },
+    {
+      "page": "toxoplasma-infections-general",
+      "label": "Trimethoprim 5 mg/kg-sulfamethoxazole 25 mg/kg PO q12h \\($\\) R,DI",
+      "target": "psjzid-trimeth-sulfa-5-25-mg-kg-po-q12h"
+    },
+    {
+      "page": "toxoplasma-infections-general",
+      "label": "Pyrimethamine 50 mg PO q24h \\($$\\) DI,O <AND> sulfadiazine 0.5-1 gm PO q6h",
+      "target": "orz-set-abx-pyrim-50mg-q24h-sulfadiaz-0-5gm-q6h-leuco-10mg-q24h"
+    },
+    {
+      "page": "toxoplasma-infections-general",
+      "label": "Pyrimethamine 50 mg PO q24h \\($$\\) DI,O <AND> clindamycin 600 mg PO q8h \\($\\)",
+      "target": "orz-set-abx-pyrim-50mg-q24h-clinda-600mg-q8h-leuco-10mg-q24h"
+    },
+    {
+      "page": "toxoplasma-infections-general",
+      "label": "Pyrimethamine 25 mg PO q24h \\($$\\) DI,O <AND> atovaquone 750-1500 mg PO",
+      "target": "orz-set-abx-pyrime-25mg-q24h-atova-750mg-q12h-leuco-10mg-q24h"
+    },
+    {
+      "page": "toxoplasma-infections-general",
+      "label": "Trimethoprim sulfamethoxazole 1DS tablet PO q24h \\($\\) R,DI",
+      "target": "psjzid-trimeth-sulfa-1-ds-tablet-po-q24h"
+    },
+    {
+      "page": "toxoplasma-infections-general",
+      "label": "Atovaquone 750-1500 mg PO q12h \\($\\) M",
+      "target": "psjzid-atovaquone-750mg-po-q12h"
+    },
+    {
+      "page": "toxoplasma-infections-general",
+      "label": "Pyrimethamine 50 mg q12h for 2 days, then 50 mg PO q24h \\($$\\) DI,O <AND>",
+      "target": "orz-set-abx-pyrimethamine-sulfadiazine-leucovorin-pregnancy"
+    },
+    {
+      "page": "tpoxx-monkeypox-treatment",
+      "label": "CLICK HERE for link to required documents \\(MPox Taskforce Teams group\\)",
+      "target": "orz-gtx-abx-tpoxx-documents-link"
+    },
+    {
+      "page": "tpoxx-monkeypox-treatment",
+      "label": "INV-Tecovirimat 600 mg \\(3 capsules\\) orally q12h for 14 days",
+      "target": "orz-set-abx-inv-tecovirimat-600-mg-orally-q12h-14-days"
+    },
+    {
+      "page": "tpoxx-monkeypox-treatment",
+      "label": "INV-Tecovirimat 600 mg \\(3 capsules\\) orally q8h for 14 days",
+      "target": "orz-set-abx-inv-tecovirimat-600-mg-orally-q8h-14-days"
+    },
+    {
+      "page": "tpoxx-monkeypox-treatment",
+      "label": "INV-Tecovirimat 200 mg IV q12h over 6 hours for 14 days",
+      "target": "orz-set-abx-inv-tecovirimat-200mg-iv-q12h-x14-days"
+    },
+    {
+      "page": "tpoxx-monkeypox-treatment",
+      "label": "INV-Tecovirimat 300 mg IV q12h over 6 hours for 14 days",
+      "target": "orz-set-abx-inv-tecovirimat-300mg-iv-q12h-x14-days"
+    },
+    {
+      "page": "transplantation",
+      "label": "References",
+      "target": "orzid2-gmenu-abx-references"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Nitrofurantoin SA 100 mg PO q12h R,O, CrCl =/>30 mL/min, for 7 days",
+      "target": "psozid2-nitrofurantoin-sa-7ds-100-mg-po-bid"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-nitrofurantoin-sa-7ds-100-mg-po-bid"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Trimethoprim/sulfamethoxazole 1 DS tablet PO q12h R,DI for 7 days",
+      "target": "psozid2-tmp-sulfa-7days-1ds-tab-bid"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-tmp-sulfa-7days-1ds-tab-bid"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Amoxicillin-clavulanate 875/125 mg PO q12h R for 7 days",
+      "target": "psozid2-amox-clav-875-125mg-7ds-po-bid"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-amox-clav-875-125mg-7ds-po-bid"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Assessment of Beta-lactam Reaction",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Ciprofloxacin 500 mg PO q12h R,DI for 5 days",
+      "target": "psozid2-ciprofloxacin-5ds-500mg-po-bid"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-ciprofloxacin-5ds-500mg-po-bid"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Nitrofurantoin SA 100 mg PO q12h R,O, CrCl =/>30 mL/min, for 5 days",
+      "target": "psozid2-nitrofurantoin-sa-100mg-bid-5ds"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-nitrofurantoin-sa-100mg-bid-5ds"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Trimethoprim/sulfamethoxazole 1 DS tablet PO q12h R,DI for 3 days",
+      "target": "psozid2-tmp-sulfa-3days-1ds-tablet-bid"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-tmp-sulfa-3days-1ds-tablet-bid"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Fosfomycin 3GM sachet PO M once",
+      "target": "psozid-fosfomycin-3gm-sachet-po-x-1-dose"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Non-VA order for above",
+      "target": "pshzid-fosfomycin-3gm-sachet-po-x-1-dose"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Amoxicillin-clavulanate 875/125 mg PO q12h R for 5 days",
+      "target": "psozid2-amox-clav-875-125mg-5ds-po-bid"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-amox-clav-875-125mg-5ds-po-bid"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Ciprofloxacin 500 mg PO q12h R,DI for 3 days",
+      "target": "psozid2-ciprofloxacin-3ds-500mg-po-bid"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Non-VA order for above",
+      "target": "pshzid2-ciprofloxacin-3ds-500mg-po-bid"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Trimethoprim/sulfamethoxazole 1/2 SS tablet PO q24h R,DI",
+      "target": "psozid-trimeth-sulfa-1-2-ss-po-qday"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Non-VA order for above",
+      "target": "pshzid-trimeth-sulfa-1-2-ss-po-qday"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Trimethoprim/sulfamethoxazole 1 SS tablet PO once post-coitus R,DI",
+      "target": "psozid-trimeth-sulfa-1-ss-po-postcoitus"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Non-VA order for above",
+      "target": "pshzid-trimeth-sulfa-1-ss-po-postcoitus"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Nitrofurantoin SA 100 mg PO qhs R,O, CrCl =/>30 mL/min",
+      "target": "psozid-nitrofurantoin-sa-100mg-po-qhs"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Non-VA order for above",
+      "target": "pshzid-nitrofurantoin-sa-100mg-po-qhs"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Nitrofurantoin SA 100 mg PO once post-coitus R,O, CrCl =/>30 mL/min",
+      "target": "psozid-nitrofurantoin-sa-100mg-po-postcoitus"
+    },
+    {
+      "page": "uncomp-uti",
+      "label": "Non-VA order for above",
+      "target": "pshzid-nitrofurantoin-sa-100mg-po-postcoitus"
+    },
+    {
+      "page": "urological-post-operative-prophylaxis",
+      "label": "<Click here> AUA Surgery Abx Prophylaxis Guidelines",
+      "target": "orz-gtx-abx-aua-surgery-prophyl"
+    },
+    {
+      "page": "urological-post-operative-prophylaxis",
+      "label": "Cefazolin Weight Based Dosing q8h x2 doses postop",
+      "target": "orzid2-gmenu-surg-cefazolin-wt-based-postop-doses-x2"
+    },
+    {
+      "page": "urological-post-operative-prophylaxis",
+      "label": "Click here Beta-lactam allergy assessment",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "urological-post-operative-prophylaxis",
+      "label": "Vancomycin 15mg/kg Dosing q12h x1 dose postop",
+      "target": "orzid2-gmenu-surg-vancomycin-post-op-specific-dosing"
+    },
+    {
+      "page": "urological-post-operative-prophylaxis",
+      "label": "Cephalexin 500mg PO q6h X1 day postop urology \\($\\) R",
+      "target": "psjzid2-cephalexin-500mg-po-q6h-x1day-postop-urology"
+    },
+    {
+      "page": "urological-post-operative-prophylaxis",
+      "label": "Sulfa/Trimeth DS 1 tablet po q12h X1 day postop urology procedure \\($\\) R,DI",
+      "target": "psjzid2-trimeth-sulfa-ds-q12h-x1day-postop-urology"
+    },
+    {
+      "page": "urological-post-operative-prophylaxis",
+      "label": "Nitrofurantoin SA 1 capsule q12h X1 day postop urology procedure \\($\\) R,O",
+      "target": "psjzid2-nitrofurantoin-sa-1-q12h-x1day-post-op-urology"
+    },
+    {
+      "page": "urological-post-operative-prophylaxis",
+      "label": "Cephalexin 500mg PO qid X5 days postop urology procedure \\($\\) R",
+      "target": "psozid2-cephalexin-500mg-po-qid-x5days-postop-urology"
+    },
+    {
+      "page": "urological-post-operative-prophylaxis",
+      "label": "Sulfa/Trimeth 1 DS tablet PO q12h X5 days postop urology procedure \\($\\) R,DI",
+      "target": "psozid2-trimeth-sulfa-1-ds-po-bid-x5days-postop-urology"
+    },
+    {
+      "page": "urological-post-operative-prophylaxis",
+      "label": "Nitrofurantoin SA 1 capsule q12h X5 days postop urology procedure \\($\\) R,O",
+      "target": "psozid2-nitrofurantoin-sa-1-bid-x5days-postop-urology"
+    },
+    {
+      "page": "urological-surgery-prophylaxis",
+      "label": "<Click here> AUA Surgery Abx Prophylaxis Guidelines",
+      "target": "orz-gtx-abx-aua-surgery-prophyl"
+    },
+    {
+      "page": "urological-surgery-prophylaxis",
+      "label": "*No antimicrobial prophylaxis recommended order",
+      "target": "orz-gtx-abx-pre-op-url-nurse-generic-order"
+    },
+    {
+      "page": "urological-surgery-prophylaxis",
+      "label": "Ampicillin 2gram IV ONCE AND Gentamicin 5mg/kg IV ONCE Preop",
+      "target": "orz-set-abx-ampicillin-2gm-and-gentamicin-5mg-kg-preop"
+    },
+    {
+      "page": "urological-surgery-prophylaxis",
+      "label": "Click here Beta-lactam reaction assessment",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "urological-surgery-prophylaxis",
+      "label": "Levofloxacin 500mg IVPB ONCE Preop",
+      "target": "psjizid-levofloxacin-500mg-iv-once-preop"
+    },
+    {
+      "page": "urological-surgery-prophylaxis",
+      "label": "Clindamycin 900mg IV once <AND> Gentamicin 5mg/kg Weight Based once pre-op",
+      "target": "orz-set-abx-clindamycin-900mg-gentamicin-5mg-kg-preop"
+    },
+    {
+      "page": "urological-surgery-prophylaxis",
+      "label": "Ciprofloxacin 400mg IV ONCE Preop",
+      "target": "psjizid-ciprofl-400mg-iv-once-surg-preop"
+    },
+    {
+      "page": "urological-surgery-prophylaxis",
+      "label": "Ciprofloxacin 500 mg po x1 give in clinic",
+      "target": "psczid-ciprofloxacin-500mg-x1-given-in-clinic"
+    },
+    {
+      "page": "urological-surgery-prophylaxis",
+      "label": "Fluconazole 400mg IV ONCE Preop",
+      "target": "psjizid-fluconazole-400mg-iv-once-preop"
+    },
+    {
+      "page": "urological-surgery-prophylaxis",
+      "label": "Cefazolin Weight Based IV ONCE AND Metronidazole 500mg IV ONCE Preop",
+      "target": "orz-set-abx-cefazo-wt-based-iv-metron-500mg-iv-preop"
+    },
+    {
+      "page": "urological-surgery-prophylaxis",
+      "label": "Cefazolin Weight Based IV ONCE AND Gentamicin 5mg/kg IV ONCE Preop",
+      "target": "orz-set-abx-cefazolin-wt-based-ivpb-gentamicin-5mg-kg-iv-preop"
+    },
+    {
+      "page": "urological-surgery-prophylaxis",
+      "label": "Vancomycin 15mg/kg IV ONCE AND Gentamicin 5mg/kg IV ONCE Preop",
+      "target": "orz-set-abx-vanco-15mg-kg-gentamicin-5mg-kg-iv-preop"
+    },
+    {
+      "page": "urological-surgery-prophylaxis",
+      "label": "Penile Implant Soak \\(Gentamicin 50MG and Rifampin 500MG\\) prior to implantation",
+      "target": "orz-set-abx-gentamicin-50mg-rifampin-500mg-penile-implant-soak"
+    },
+    {
+      "page": "urological-surgery-prophylaxis",
+      "label": "Link to outpatient menu",
+      "target": "orzid3-gmenu-prostate-biopsy-prophylaxis"
+    },
+    {
+      "page": "vaccines-for-health-care-professionals",
+      "label": "Patient vaccine history",
+      "target": "orz-gtx-abx-joint-legacy-viewer"
+    },
+    {
+      "page": "vaccines-for-health-care-professionals",
+      "label": "CDC Recommended Adult Immunization Schedule",
+      "target": "orz-gtx-abx-cdc-adult-immunization-schedule"
+    },
+    {
+      "page": "vaccines-for-health-care-professionals",
+      "label": "Hepatitis A: 2 dose series, for those who want protection, or w/additional risk",
+      "target": "orz-set-abx-op-hepatitis-a-vaccine-2-dose-series"
+    },
+    {
+      "page": "vaccines-for-health-care-professionals",
+      "label": "Hepatitis A/B: 3 dose series, for those who want protection, or w/additional",
+      "target": "orz-set-abx-op-hepatitis-a-b-vaccine-3-dose-series"
+    },
+    {
+      "page": "vaccines-for-health-care-professionals",
+      "label": "Hepatitis B: 2 dose Heplisav-B series",
+      "target": "orz-set-abx-op-hepatitis-b-adjuvanted-vaccine-2-dose-series"
+    },
+    {
+      "page": "vaccines-for-health-care-professionals",
+      "label": "Herpes zoster: 2 dose series in those age >/= 50yrs.",
+      "target": "orz-set-abx-op-zoster-recombinant-vaccine-2-dose-series"
+    },
+    {
+      "page": "vaccines-for-health-care-professionals",
+      "label": "Human papillomavirus: 3 dose series through age </= 26yrs and for age 27-45yrs",
+      "target": "orz-set-abx-op-human-papillomavirus-vaccine-3-dose-series"
+    },
+    {
+      "page": "vaccines-for-health-care-professionals",
+      "label": "Measles, mumps, and rubella: one dose.",
+      "target": "orz-set-abx-op-measles-mumps-rubella-vaccine-one-dose"
+    },
+    {
+      "page": "vaccines-for-health-care-professionals",
+      "label": "Measles, mumps, and rubella: 2 dose series, for those w/additional risk factor",
+      "target": "orz-set-abx-op-measles-mumps-rubella-vaccine-2-dose-series"
+    },
+    {
+      "page": "vaccines-for-health-care-professionals",
+      "label": "Meningococcal B: 2 dose series, for those w/additional risk factor or another",
+      "target": "orz-set-abx-op-meningococcal-b-vaccine-2-dose-series"
+    },
+    {
+      "page": "vaccines-for-health-care-professionals",
+      "label": "Tetanus, diphtheria and pertussis: 3 dose primary series, booster every 10yrs.",
+      "target": "orz-set-abx-op-td-tdap-vaccine-3-dose-series"
+    },
+    {
+      "page": "vaccines-for-health-care-professionals",
+      "label": "Varicella: 2 dose series.",
+      "target": "orz-set-abx-op-varicella-vaccine-2-dose-series"
+    },
+    {
+      "page": "vaccines-in-heart-lung-disease-or-alcoholism",
+      "label": "Patient vaccine history",
+      "target": "orz-gtx-abx-joint-legacy-viewer"
+    },
+    {
+      "page": "vaccines-in-heart-lung-disease-or-alcoholism",
+      "label": "CDC Recommended Adult Immunization Schedule",
+      "target": "orz-gtx-abx-cdc-adult-immunization-schedule"
+    },
+    {
+      "page": "vaccines-in-heart-lung-disease-or-alcoholism",
+      "label": "Hepatitis A: 2 dose series, for those who want protection, or w/additional risk",
+      "target": "orz-set-abx-op-hepatitis-a-vaccine-2-dose-series"
+    },
+    {
+      "page": "vaccines-in-heart-lung-disease-or-alcoholism",
+      "label": "Hepatitis A/B: 3 dose series, for those who want protection, or w/additional",
+      "target": "orz-set-abx-op-hepatitis-a-b-vaccine-3-dose-series"
+    },
+    {
+      "page": "vaccines-in-heart-lung-disease-or-alcoholism",
+      "label": "Hepatitis B: 2 dose Heplisav-B series",
+      "target": "orz-set-abx-op-hepatitis-b-adjuvanted-vaccine-2-dose-series"
+    },
+    {
+      "page": "vaccines-in-heart-lung-disease-or-alcoholism",
+      "label": "Herpes zoster: 2 dose series in those age >/= 50yrs.",
+      "target": "orz-set-abx-op-zoster-recombinant-vaccine-2-dose-series"
+    },
+    {
+      "page": "vaccines-in-heart-lung-disease-or-alcoholism",
+      "label": "Human papillomavirus: 3 dose series through age </= 26yrs and for age 27-45yrs",
+      "target": "orz-set-abx-op-human-papillomavirus-vaccine-3-dose-series"
+    },
+    {
+      "page": "vaccines-in-heart-lung-disease-or-alcoholism",
+      "label": "Measles, mumps, and rubella: one dose.",
+      "target": "orz-set-abx-op-measles-mumps-rubella-vaccine-one-dose"
+    },
+    {
+      "page": "vaccines-in-heart-lung-disease-or-alcoholism",
+      "label": "Measles, mumps, and rubella: 2 dose series, for those w/additional risk factor",
+      "target": "orz-set-abx-op-measles-mumps-rubella-vaccine-2-dose-series"
+    },
+    {
+      "page": "vaccines-in-heart-lung-disease-or-alcoholism",
+      "label": "Meningococcal B: 2 dose series, for those w/additional risk factor or another",
+      "target": "orz-set-abx-op-meningococcal-b-vaccine-2-dose-series"
+    },
+    {
+      "page": "vaccines-in-heart-lung-disease-or-alcoholism",
+      "label": "Tetanus, diphtheria and pertussis: 3 dose primary series, booster every 10yrs.",
+      "target": "orz-set-abx-op-td-tdap-vaccine-3-dose-series"
+    },
+    {
+      "page": "vaccines-in-heart-lung-disease-or-alcoholism",
+      "label": "Varicella: 2 dose series.",
+      "target": "orz-set-abx-op-varicella-vaccine-2-dose-series"
+    },
+    {
+      "page": "vaccines-in-immunocompromised-patients",
+      "label": "Patient vaccine history",
+      "target": "orz-gtx-abx-joint-legacy-viewer"
+    },
+    {
+      "page": "vaccines-in-immunocompromised-patients",
+      "label": "CDC Recommended Adult Immunization Schedule",
+      "target": "orz-gtx-abx-cdc-adult-immunization-schedule"
+    },
+    {
+      "page": "vaccines-in-immunocompromised-patients",
+      "label": "Hepatitis A: 2 dose series, for those who want protection, or w/additional risk",
+      "target": "orz-set-abx-op-hepatitis-a-vaccine-2-dose-series"
+    },
+    {
+      "page": "vaccines-in-immunocompromised-patients",
+      "label": "Hepatitis A/B: 3 dose series, for those who want protection, or w/additional",
+      "target": "orz-set-abx-op-hepatitis-a-b-vaccine-3-dose-series"
+    },
+    {
+      "page": "vaccines-in-immunocompromised-patients",
+      "label": "Hepatitis B: 2 dose Heplisav-B series",
+      "target": "orz-set-abx-op-hepatitis-b-adjuvanted-vaccine-2-dose-series"
+    },
+    {
+      "page": "vaccines-in-immunocompromised-patients",
+      "label": "Herpes zoster: 2 dose series in those age >/= 50yrs",
+      "target": "orz-set-abx-op-zoster-recombinant-vaccine-2-dose-series"
+    },
+    {
+      "page": "vaccines-in-immunocompromised-patients",
+      "label": "Human papillomavirus: 3 dose series through age </= 26yrs",
+      "target": "orz-set-abx-op-human-papillomavirus-vaccine-3-dose-series"
+    },
+    {
+      "page": "vaccines-in-immunocompromised-patients",
+      "label": "Meningococcal B: 2 dose series, for those w/additional risk factor or another",
+      "target": "orz-set-abx-op-meningococcal-b-vaccine-2-dose-series"
+    },
+    {
+      "page": "vaccines-in-immunocompromised-patients",
+      "label": "Tetanus, diphtheria and pertussis: 3 dose primary series, booster every 10yrs",
+      "target": "orz-set-abx-op-td-tdap-vaccine-3-dose-series"
+    },
+    {
+      "page": "vaccines-in-men-who-have-sex-with-men",
+      "label": "Patient vaccine history",
+      "target": "orz-gtx-abx-joint-legacy-viewer"
+    },
+    {
+      "page": "vaccines-in-men-who-have-sex-with-men",
+      "label": "CDC Recommended Adult Immunization Schedule",
+      "target": "orz-gtx-abx-cdc-adult-immunization-schedule"
+    },
+    {
+      "page": "vaccines-in-men-who-have-sex-with-men",
+      "label": "Hepatitis A: 2 dose series",
+      "target": "orz-set-abx-op-hepatitis-a-vaccine-2-dose-series"
+    },
+    {
+      "page": "vaccines-in-men-who-have-sex-with-men",
+      "label": "Hepatitis A/B: 3 dose series",
+      "target": "orz-set-abx-op-hepatitis-a-b-vaccine-3-dose-series"
+    },
+    {
+      "page": "vaccines-in-men-who-have-sex-with-men",
+      "label": "Hepatitis B: 2 dose Heplisav-B series",
+      "target": "orz-set-abx-op-hepatitis-b-adjuvanted-vaccine-2-dose-series"
+    },
+    {
+      "page": "vaccines-in-men-who-have-sex-with-men",
+      "label": "Herpes zoster: 2 dose series in those age >/= 50yrs.",
+      "target": "orz-set-abx-op-zoster-recombinant-vaccine-2-dose-series"
+    },
+    {
+      "page": "vaccines-in-men-who-have-sex-with-men",
+      "label": "Human papillomavirus: 3 dose series through age </= 26yrs and for age 27-45yrs",
+      "target": "orz-set-abx-op-human-papillomavirus-vaccine-3-dose-series"
+    },
+    {
+      "page": "vaccines-in-men-who-have-sex-with-men",
+      "label": "Measles, mumps, and rubella: one dose.",
+      "target": "orz-set-abx-op-measles-mumps-rubella-vaccine-one-dose"
+    },
+    {
+      "page": "vaccines-in-men-who-have-sex-with-men",
+      "label": "Measles, mumps, and rubella: 2 dose series, for those w/additional risk factor",
+      "target": "orz-set-abx-op-measles-mumps-rubella-vaccine-2-dose-series"
+    },
+    {
+      "page": "vaccines-in-men-who-have-sex-with-men",
+      "label": "Meningococcal B: 2 dose series, for those w/additional risk factor or another",
+      "target": "orz-set-abx-op-meningococcal-b-vaccine-2-dose-series"
+    },
+    {
+      "page": "vaccines-in-men-who-have-sex-with-men",
+      "label": "Tetanus, diphtheria and pertussis: 3 dose primary series, booster every 10yrs.",
+      "target": "orz-set-abx-op-td-tdap-vaccine-3-dose-series"
+    },
+    {
+      "page": "vaccines-in-men-who-have-sex-with-men",
+      "label": "Varicella: 2 dose series.",
+      "target": "orz-set-abx-op-varicella-vaccine-2-dose-series"
+    },
+    {
+      "page": "vascular-surgery-prophylaxis",
+      "label": "Click here No antimicrobial prophylaxis recommended for procedure",
+      "target": "orz-gtx-abx-pre-op-url-nurse-generic-order"
+    },
+    {
+      "page": "vascular-surgery-prophylaxis",
+      "label": "Click here Beta-lactam reaction assessment",
+      "target": "orz-gtx-abx-beta-lactam-reaction-pdf"
+    },
+    {
+      "page": "vascular-surgery-prophylaxis",
+      "label": "Vancomycin 15mg/kg Weight Based Dosing Preop R",
+      "target": "orzid2-gmenu-surg-vancomycin-weight-based-dosing"
+    },
+    {
+      "page": "vascular-surgery-prophylaxis",
+      "label": "Rifampin Vascular Graft Soak \\(600mg\\)",
+      "target": "psjizid-rifampin-600-mg-vial-for-vascular-surgery"
+    },
+    {
+      "page": "vascular-surgery-prophylaxis",
+      "label": "Vancomycin 15mg/kg weight based dosing + Gentamicin 5mg/kg weight based dosing",
+      "target": "orz-set-abx-vancom-15-mg-kg-iv-60min-gent-5mg-kg-iv-once"
+    },
+    {
+      "page": "vascular-surgery-prophylaxis",
+      "label": "Cefazolin weight based dosing + Vancomycin 15mg/kg weight based dosing",
+      "target": "orz-set-abx-cefazolin-wt-based-vancomycin-15mg-kg-preop"
+    },
+    {
+      "page": "vascular-surgery-prophylaxis",
+      "label": "References",
+      "target": "orzid2-gmenu-abx-references"
+    },
+    {
+      "page": "ventilator-associated-pneumonia",
+      "label": "Cefepime 2 gm IV q8h R <AND> vancomycin 15 mg/kg IV q12h R  for 7 days",
+      "target": "orz-set-abx-cefepime-2gm-iv-q8h-vanco-15mg-kg-iv-q12h"
+    },
+    {
+      "page": "ventilator-associated-pneumonia",
+      "label": "Piperacillin-tazobactam 4.5 gm IV q6h R <AND> vancomycin 15 mg/kg IV q12h R",
+      "target": "orz-set-abx-pip-taz4-5gm-ne-extinf-ci-cefep-metro-vanco15mg-kg"
+    },
+    {
+      "page": "ventilator-associated-pneumonia",
+      "label": "Meropenem 1 gm IV q8h R <AND> vancomycin 15mg/kg IV q12h R for 7 days",
+      "target": "orz-set-abx-meropenem-1gm-iv-q8h-vanco-15mg-kg-iv-q12h"
+    },
+    {
+      "page": "ventilator-associated-pneumonia",
+      "label": "Levofloxacin 750 mg IV q24h R,DI <AND> vancomycin 15 mg/kg IV q12h R for",
+      "target": "orz-set-abx-levo-750mg-iv-q24h-and-vanco-15mg-kg-iv-q12h"
+    },
+    {
+      "page": "ventilator-associated-pneumonia",
+      "label": "<ADD> Tobramycin 5 mg/kg IV once R,O to one of the regimens above",
+      "target": "psjizid-tobramycin-5-mg-kg-iv-once"
+    },
+    {
+      "page": "warfarin-interactions-with-antimicrobials",
+      "label": "Lexicomp Drug Interactions",
+      "target": "orz-gtx-abx-lexicomp-interactions"
+    },
+    {
+      "page": "zoster-vaccine-information",
+      "label": "2 dose series",
+      "target": "orz-set-abx-op-zoster-recombinant-vaccine-2-dose-series"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "PageID": "candidemia",
+  "Group": "system-infectious-diseases",
+  "Term1": "Candidemia",
+  "Term2": "Fungemia associated with Candida spp.",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# CANDIDEMIA\n\n# Consult Infectious Diseases in all cases.\n\nIf other yeasts (e.g. Cryptococcus, Histoplasma) are suspected, refer to fungi\n\nsection and contact Infectious Diseases for treatment recommendations.\n\n[Fungi](fungi)\n\nIdentification and treatment of the source of infection, in addition to\n\nantimicrobial therapy, is crucial for resolution of infection. This may include\n\nremoval of catheters and draining of abscesses if present. Call Infectious\n\nDiseases for advice.\n\nFollow-up blood cultures should be obtained within 24-48 hours after initiating\n\nantimicrobial therapy. Obtain at least 2, preferably 3 blood culture sets from\n\ndifferent venipuncture sites within a 24-hour period.\n\n# Duration of therapy\n\nTreat for 2 weeks after last negative blood culture, resolution of neutropenia,\n\nand candidemia symptoms have resolved.\n\n# Treatment\n\n[Candida albicans \\(refer to systemic candida infection treatment\\)](fungi-candida-albicans)\n\n[Candida glabrata](fungi-candida-glabrata)\n\n[Candida krusei](fungi-candida-krusei)\n\n# _______________________________________________________________________________\n\nReferences:\n\nAndes et al, Clinical Infectious Diseases 2012, 54.8\n\nMandell chapter: Candida Species\n\nPappas et al, Clinical Infectious Diseases 2016, 62.4e1-50\n\nSanford keyword: Candidiasis\n\nUp-to-Date article: Clinical manifestations and diagnosis of candidemia and\n\ninvasive candidiasis in adults\n\nUp-to-Date article: Detection of bacteremia: Blood cultures and other diagnostic\n\ntests\n\nUp-to-Date article: Management of candidemia and invasive candidiasis in adults",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "general-information-inpatient"
+    },
+    {
+      "Text": "Fungi",
+      "Item": "fungi"
+    },
+    {
+      "Text": "Candida albicans (refer to systemic candida infection treatment)",
+      "Item": "fungi-candida-albicans"
+    },
+    {
+      "Text": "Candida glabrata",
+      "Item": "fungi-candida-glabrata"
+    },
+    {
+      "Text": "Candida krusei",
+      "Item": "fungi-candida-krusei"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU BACTEREMIA CANDIDA SPP."
+}

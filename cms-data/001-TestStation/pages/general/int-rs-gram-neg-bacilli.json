@@ -1,0 +1,9 @@
+{
+  "PageID": "int-rs-gram-neg-bacilli",
+  "Group": "general",
+  "Term1": "int-rs-gram-neg-bacilli",
+  "Term2": "",
+  "Text": "# REFER TO SYNDROME OR INFECTIOUS DISEASE FOR RECOMMENDATIONS\n\nRecommendations based on isolation of this specific pathogen are not available.\n\nPlease refer to the syndrome or infectious disease caused by this pathogen for\n\nantimicrobial therapy recommendations.",
+  "LinkTargets": [],
+  "Inpt": "ORZID3 GMENU INT RS GRAM-NEG BACILLI"
+}

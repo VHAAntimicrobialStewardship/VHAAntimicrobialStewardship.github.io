@@ -1,0 +1,10 @@
+{
+  "PageID": "antimicrobial-shortages-updates",
+  "Group": "general",
+  "Term1": "Antimicrobial shortages updates",
+  "Term2": "Shortages of antimicrobials updates",
+  "Text": "# Select individual antimicrobial listed below for current status on shortages.\n\n# Currently NO antimicrobial shortages.",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU ABX ANTIMICROBIAL SHORTAGES",
+  "Outpt": "antimicrobial-shortages-updates"
+}

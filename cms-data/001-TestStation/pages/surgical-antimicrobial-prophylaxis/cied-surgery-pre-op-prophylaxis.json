@@ -1,0 +1,35 @@
+{
+  "PageID": "cied-surgery-pre-op-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "Term1": "CIED surgery pre-op prophylaxis",
+  "Term2": "Cardiac implantable electronic device surgery pre-op prophylaxis",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# Cardiac Implantable Electronic Device (CIED) Pre-Op Prophylaxis Antibiotics\n\n# Pre-procedure IV prophylaxis antibiotic recommendations:\n\n# Preferred prophylaxis:\n\n[Cefazolin Weight Based Dosing Preop R](surg-cefazolin-weight-based-dosing)\n\n# Alternative in patients with beta lactam allergy:\n\n[Click here Beta-lactam reaction assessment](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Vancomycin 15mg/kg Weight Based Dosing Preop R](orzid2-gmenu-surg-vancomycin-weight-based-dosing)\n\n# Recommended for MRSA Positive Patients: Decolonization AND Pre-op Antibiotics\n\n# Decolonization for MRSA positive:\n\n[Mupirocin Ointment apply topical to each nostril bid x5days prior to procedure](psozid-mupirocin-2-oint-decolon-topical-bid-5d)\n\n# Preferred prophylaxis for MRSA positive:\n\n[Cefazolin weight based dosing + Vancomycin 15mg/kg weight based dosing](orz-set-abx-cefazolin-wt-based-vancomycin-15mg-kg-preop)\n\n# References:\n\nBratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis\n\nin surgery, Am J Health-Syst Pharm. 2013 vol 70 pages 195-283",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "general-information-inpatient"
+    },
+    {
+      "Text": "Cefazolin Weight Based Dosing Preop [R]",
+      "Item": "surg-cefazolin-weight-based-dosing"
+    },
+    {
+      "Text": "[Click here] Beta-lactam reaction assessment",
+      "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
+    },
+    {
+      "Text": "Vancomycin 15mg/kg Weight Based Dosing Preop [R]",
+      "Item": "ORZID2 GMENU SURG VANCOMYCIN WEIGHT BASED DOSING"
+    },
+    {
+      "Text": "Mupirocin Ointment apply topical to each nostril bid x5days prior to procedure",
+      "Item": "PSOZID MUPIROCIN 2% OINT DECOLON TOPICAL BID 5D"
+    },
+    {
+      "Text": "Cefazolin weight based dosing + Vancomycin 15mg/kg weight based dosing",
+      "Item": "ORZ SET ABX CEFAZOLIN WT BASED + VANCOMYCIN 15MG/KG PREOP"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU SURG CIED PREOP",
+  "Outpt": "cied-surgery-pre-op-prophylaxis"
+}

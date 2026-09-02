@@ -1,9 +1,9 @@
 {
   "PageID": "fungi",
   "Group": "organisms",
-  "Term1": "5. Fungi section (Navigation)",
+  "Term1": "2. Fungi section (Navigation)",
   "Term2": "",
-  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# ++ FUNGI ++\n\nAlways consider disease or syndrome, site of infection, penetration of drug(s)\n\ninto site, and whether organism is pathogen, colonizer, or contaminant. See\n\ndisease/syndrome section for more information.\n\n[Aspergillus and other moulds](orzid2-gmenu-fungi-aspergillus-spp)\n\n[Blastomyces dermatitidis](fungi-blastomyces-dermatidis)\n\n[Candida albicans](fungi-candida-albicans)\n\n[Candida glabrata](fungi-candida-glabrata)\n\n[Candida krusei](fungi-candida-krusei)\n\n[Coccidioidomyces](fungi-coccidioidomyces)\n\n[Cryptococcus neoformans](fungi-cryptococcus-neoformans)\n\n[Histoplasma capsulatum](fungi-histoplasma-capsulatum)\n\n[Pneumocystis \\(considered a fungus\\)](pneumocystis-jirovecii)\n\n# Last reviewed 8/18",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# ++ FUNGI ++\n\nAlways consider disease or syndrome, site of infection, penetration of drug(s)\n\ninto site, and whether organism is pathogen, colonizer, or contaminant. See\n\ndisease/syndrome section for more information.\n\n[Aspergillus and other moulds](aspergillus-infections-general)\n\n[Blastomyces dermatitidis](fungi-blastomyces-dermatidis)\n\n[Candida albicans](fungi-candida-albicans)\n\n[Candida glabrata](fungi-candida-glabrata)\n\n[Candida krusei](fungi-candida-krusei)\n\n[Coccidioidomyces](fungi-coccidioidomyces)\n\n[Cryptococcus neoformans](fungi-cryptococcus-neoformans)\n\n[Histoplasma capsulatum](fungi-histoplasma-capsulatum)\n\n[Pneumocystis \\(considered a fungus\\)](pneumocystis-jirovecii)\n\n# Last reviewed 8/18",
   "LinkTargets": [],
   "Inpt": "ORZID2 GMENU ABX FUNGUS",
   "Outpt": "ORZID3 GMENU FUNGUS"

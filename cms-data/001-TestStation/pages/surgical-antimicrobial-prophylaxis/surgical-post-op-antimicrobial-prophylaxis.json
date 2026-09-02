@@ -1,0 +1,10 @@
+{
+  "PageID": "surgical-post-op-antimicrobial-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "Term1": "2. SURGICAL-POST-OP-ANTIMICROBIAL-PROPHYLAXIS (Navigation)",
+  "Term2": "",
+  "Text": "[CIED Surgery Post-op Prophylaxis](cied-surgery-post-op-prophylaxis)\n\n[CV Surgery \\(Open Heart\\) Post-op Prophylaxis](cardiac-surgery-post-op-prophylaxis)\n\n[Vascular Surgery Post-op Prophylaxis](surg-vascular-surg-postop)\n\n[Thoracic Surgery Post-op Prophylaxis](thoracic-surgery-post-op-prophylaxis)\n\n[Urology Surgery Post-op Prophylaxis](urological-post-operative-prophylaxis)",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU POST-OP ANTIMICROBIAL PROPHYLAXIS",
+  "Outpt": "surgical-post-op-antimicrobial-prophylaxis"
+}

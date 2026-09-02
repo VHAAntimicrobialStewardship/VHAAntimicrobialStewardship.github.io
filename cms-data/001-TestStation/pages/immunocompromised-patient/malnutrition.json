@@ -1,0 +1,19 @@
+{
+  "PageID": "malnutrition",
+  "Group": "immunocompromised-patient",
+  "Term1": "Malnutrition",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\nMALNUTRITION\n\nAdequate nutrition is necessary for optimal host defense function.  A few days\n\nof malnutrition can decrease host defenses, mainly cell-mediated immunity. The\n\ndegree of compromised immunity increases with the duration of malnutrition.\n\nHowever, nutritional replacement has not been shown to improve outcomes in\n\npatients with mild-moderate malnutrition.  Enteral nutritional replacement is\n\nfar superior to and safer than intravenous hyperalimentation.\n\n# Treatment\n\nEmpirical antimicrobials are not indicated for malnourished patients with fever\n\nbut without evidence of a specific infectious disease.\n\n[References](orzid2-gmenu-abx-references)\n\nRich RR, et al, eds.  Clinical Immunology\n\nRoitt I, et al, eds.  Immunology",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "general-information-inpatient"
+    },
+    {
+      "Text": "References",
+      "Item": "ORZID2 GMENU ABX REFERENCES"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU IMMUNOCOM MALNUTRITION",
+  "Outpt": "malnutrition"
+}

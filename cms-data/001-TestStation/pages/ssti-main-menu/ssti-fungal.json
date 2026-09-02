@@ -1,0 +1,38 @@
+{
+  "PageID": "ssti-fungal",
+  "Group": "ssti-main-menu",
+  "Term1": "ssti-fungal",
+  "Term2": "",
+  "Text": "# Fungal SSTI\n\n[Blastomyces](fungi-blastomyces-dermatidis)\n\n[Cutaneous Candidiasis](cutaneous-candidiasis)\n\n[Sporotrichosis](sporotrichosis)\n\n# Tinea Infections\n\n[Tinea capitis \\(scalp ringworm\\)](tinea-capitis-ringworm)\n\n[Tinea pedis/cruris/corporis \\(athlete's foot,jock itch, body ringworm\\)](tinea-pedis-athlete-s-foot)\n\n[Tinea unguium \\(onychomycosis\\)](tinea-unguium-onychomycosis)\n\n[Tinea versicolor \\(discolored patches of skin\\)](tinea-versicolor)",
+  "LinkTargets": [
+    {
+      "Text": "Blastomyces",
+      "Item": "fungi-blastomyces-dermatidis"
+    },
+    {
+      "Text": "Cutaneous Candidiasis",
+      "Item": "cutaneous-candidiasis"
+    },
+    {
+      "Text": "Sporotrichosis",
+      "Item": "sporotrichosis"
+    },
+    {
+      "Text": "Tinea capitis (scalp ringworm)",
+      "Item": "tinea-capitis-ringworm"
+    },
+    {
+      "Text": "Tinea pedis/cruris/corporis (athlete's foot,jock itch, body ringworm)",
+      "Item": "tinea-pedis-athlete-s-foot"
+    },
+    {
+      "Text": "Tinea unguium (onychomycosis)",
+      "Item": "tinea-unguium-onychomycosis"
+    },
+    {
+      "Text": "Tinea versicolor (discolored patches of skin)",
+      "Item": "tinea-versicolor"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU SSTI FUNGAL"
+}

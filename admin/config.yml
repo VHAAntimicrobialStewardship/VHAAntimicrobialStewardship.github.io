@@ -91,6 +91,16 @@ collections:
           - { label: "Systemic Infections", value: "system-infectious-diseases" }
           - { label: "Urogenital", value: "genitourinary" }
           - { label: "Organisms", value: "organisms" }
+          - { label: "Dermatological Guidelines", value: "dermatologic-surgery-guidelines" }
+          - { label: "Device-Related Infections", value: "device-related-infections" }
+          - { label: "HIV / AIDS", value: "hiv-aids" }
+          - { label: "Immunocompromised Patients", value: "immunocompromised-patient" }
+          - { label: "MPox Treatment", value: "tpoxx-monkeypox-treatment" }
+          - { label: "Prevention of Infection", value: "prevention-of-infection" }
+          - { label: "Recommended Adult Immunizations", value: "recommended-immunizations" }
+          - { label: "Surgical Antimicrobial Prophylaxis", value: "surgical-antimicrobial-prophylaxis" }
+          - { label: "Surgical Site Infections", value: "surgical-site-infections" }
+          - { label: "Bispecific Antibody", value: "bispecific-antibody" }
           - { label: "Help & Resources", value: "help-page" }
           - { label: "Important Antimicrobial Information", value: "important-antimicrobial" }
           - { label: "General / Miscellaneous", value: "general" }

@@ -1,0 +1,9 @@
+{
+  "PageID": "refer-to-inpatient-cdss",
+  "Group": "general",
+  "Term1": "refer-to-inpatient-cdss",
+  "Term2": "",
+  "Text": "# Refer to the Inpatient Antimicrobial CDSS for recommendations\n\nOutpatient recommendations and orders are not available for this infectious\n\ndisease. Refer to the Inpatient Antimicrobial CDSS for treatment options.",
+  "LinkTargets": [],
+  "Inpt": "ORZID3 GMENU ABX REFER TO INPATIENT CDSS"
+}

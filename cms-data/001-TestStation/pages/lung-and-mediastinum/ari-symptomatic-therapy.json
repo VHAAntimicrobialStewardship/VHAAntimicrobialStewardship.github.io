@@ -1,0 +1,9 @@
+{
+  "PageID": "ari-symptomatic-therapy",
+  "Group": "lung-and-mediastinum",
+  "Term1": "ari-symptomatic-therapy",
+  "Term2": "",
+  "Text": "## Acute Respiratory Infection (ARI) Symptomatic Therapy\nContact the CDSS Team\n## Per CDC: Antibiotics Aren't Always the Answer. Be Antibiotics Aware.\nAntibiotics do not work on viruses, such as colds and flu, or runny noses,\neven if the mucus is thick, yellow or green. Antibiotics also won't help\nsome common bacterial infections including most cases of bronchitis, many\nsinus infections, and some ear infections. When antibiotics aren't needed,\nthey won't help you, and the side effects could still hurt you. Reactions\nfrom antibiotics cause 1 out of 5 medication-related visits to ED.\n## Select links below to print educational material for patient:\n<Link> CDC Print Pamphlet-Symptomatic RX for Acute Respiratory Infections\n<Link> CDC Print Pamphlet-Antibiotics aren't always the answer\n## ___________________________________________________________________\n## ARI: Symptom-based therapy represents the mainstay of treatment.\nPlease select only one item from each symptom category patient experencing.\n## Antitussive Therapy:\nNon-VA order for above\n< OR >\nNon-VA for above (*Controlled Substance: Requires written prescription*)\n< OR >\nNon-VA order for above\n## Wheezing:\nNon-VA order for above\n## Pain and/or Fever:\nNon-VA order for above\n< OR >\nNon-VA order for above\n## Throat Pain:\nNon-VA order for above\n## Nasal Congestion:\nNon-VA order for above\n< OR >\nNon-VA order for above\n< OR >\nNon-VA order for above\n## Rhinorrhea and Sneezing:\nNon-VA order for above\n## Rhinorrhea:\nNon-VA order for above",
+  "LinkTargets": [],
+  "Inpt": "ORZID3 GMENU ARI SYMPTOMATIC THERAPY"
+}

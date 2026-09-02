@@ -1,0 +1,14 @@
+{
+  "PageID": "toxic-shock-syndrome-2",
+  "Group": "system-infectious-diseases",
+  "Term1": "toxic-shock-syndrome-2",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\nTOXIC SHOCK SYNDROME\n\nRefer to Inpatient Antimicrobial CDSS.",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "general-information-outpatient"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU TOXIC SHOCK SYNDROME"
+}

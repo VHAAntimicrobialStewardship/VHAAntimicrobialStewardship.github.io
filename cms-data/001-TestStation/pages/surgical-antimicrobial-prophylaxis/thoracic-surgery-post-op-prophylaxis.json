@@ -1,0 +1,35 @@
+{
+  "PageID": "thoracic-surgery-post-op-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "Term1": "Thoracic surgery post-op prophylaxis",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# THORACIC SURGERY POST-OPERATIVE ANTIMICROBIAL PROPHYLAXIS RECOMMENDATIONS\n\nPlace post-op IV antimicrobial prophylaxis orders after admission to ward.\n\nDuration of antimicrobial prophylaxis should not exceed 24 hours. Durations\n\nlonger than 24 hours have not been shown effective in preventing cardiothoracic\n\nsurgical site infections. There is no benefit to continuing antimicrobial\n\nprophylaxis until all indwelling drains and intravascular catheters are removed.\n\nFor CIED surgery postoperative antimicrobial prophylaxis click link below:\n\n[CIED Surgery Postoperative Prophylaxis](surg-vascular-surg-postop)\n\nFor CV surgery (Open Heart) postoperative prophylaxis click link below:\n\n[CV Surgery Postoperative Prophylaxis](cardiac-surgery-post-op-prophylaxis)\n\n# Esophageal Surgical Procedures Postoperative Prophylaxis\n\n[Cefazolin 2 gm IV q8h x 2 doses post-op \\($\\) R <AND> metronidazole 500 mg IV](orz-set-abx-cefazolin-2gm-metronidazole-500mg-2-doses-post-op)\n\nq8h x 2 doses post-op ($) [R]\n\nAlternative for patient with cephalosporin allergy\n\n[Clindamycin 900 mg IV q8h x 2 doses post-op \\($$\\)](psjizid-clindam-900mg-iv-q8h-x2doses-postop)\n\nAlternative for patient colonized or recently infected with MRSA\n\n[Vancomycin 15 mg/kg IV \\(pharmacy to dose\\) q12h x 1 dose post-op \\($\\) R](psjizid-vancomycin-15mg-kg-postoperative-q12h-once)\n\n# Non-Esophageal Thoracic Procedures Postoperative Prophylaxis\n\nIncludes video-assisted thoracoscopic surgery (VATS) and non-cardiac procedures\n\nincluding lobectomy, pneumonectomy, lung resection and thoracotomy.\n\nNo postoperative antibiotic prophylaxis is recommended\n\nReferences:\n\nBratzler DW et al, Clinical Practice Guidelines for Antimicrobial Prophylaxis in\n\nSurgery, Am J Health-Syst Pharm (2013) 70:195-283",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "general-information-inpatient"
+    },
+    {
+      "Text": "CIED Surgery Postoperative Prophylaxis",
+      "Item": "surg-vascular-surg-postop"
+    },
+    {
+      "Text": "CV Surgery Postoperative Prophylaxis",
+      "Item": "cardiac-surgery-post-op-prophylaxis"
+    },
+    {
+      "Text": "Cefazolin 2 gm IV q8h x 2 doses post-op ($) [R] <AND> metronidazole 500 mg IV",
+      "Item": "ORZ SET ABX CEFAZOLIN 2GM METRONIDAZOLE 500MG 2 DOSES POST OP"
+    },
+    {
+      "Text": "Clindamycin 900 mg IV q8h x 2 doses post-op ($$)",
+      "Item": "PSJIZID CLINDAM 900MG IV Q8H X2DOSES POSTOP"
+    },
+    {
+      "Text": "Vancomycin 15 mg/kg IV (pharmacy to dose) q12h x 1 dose post-op ($) [R]",
+      "Item": "PSJIZID VANCOMYCIN 15MG/KG POSTOPERATIVE Q12H ONCE"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU SURG THORACIC POSTOP",
+  "Outpt": "thoracic-surgery-post-op-prophylaxis"
+}

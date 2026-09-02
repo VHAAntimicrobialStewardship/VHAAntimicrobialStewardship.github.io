@@ -48,6 +48,21 @@ MAIN_MENU_SECTION_GROUPS: dict[str, str] = {
     "other-pathogens": "organisms",
     "parasites": "organisms",
     "viruses": "organisms",
+    # General and Miscellaneous (collapsed per heading)
+    "dermatologic-surgery-guidelines": "dermatologic-surgery-guidelines",
+    "device-related-infections": "device-related-infections",
+    "hiv-aids": "hiv-aids",
+    "immunocompromised-patient": "immunocompromised-patient",
+    "tpoxx-monkeypox-treatment": "tpoxx-monkeypox-treatment",
+    "prevention-of-infection": "prevention-of-infection",
+    "recommended-immunizations": "recommended-immunizations",
+    "surgical-pre-op-antibiotics": "surgical-antimicrobial-prophylaxis",
+    "surgical-post-op-antimicrobial-prophylaxis": "surgical-antimicrobial-prophylaxis",
+    "surg-surgical-site-infect": "surgical-site-infections",
+    "bispecific-disease-specific-management": "bispecific-antibody",
+    "bispecific-crs-monitoring": "bispecific-antibody",
+    "bispecific-lodging-admit-information": "bispecific-antibody",
+    "bispecific-icans-monitoring": "bispecific-antibody",
     # Help
     "additional-assistance": "help-page",
     "help-page": "help-page",
@@ -67,6 +82,11 @@ MAIN_MENU_SECTION_GROUPS: dict[str, str] = {
     "abx-not-required": "important-antimicrobial",
 }
 
+IGNORED_MAIN_MENU_TARGETS: set[str] = {
+    "index-inpatient",
+    "drug-info",
+}
+
 # Display labels for each group folder
 GROUP_LABELS: dict[str, str] = {
     "main-menu": "Main Menu",
@@ -82,11 +102,22 @@ GROUP_LABELS: dict[str, str] = {
     "genitourinary": "Urogenital",
     # Organisms
     "organisms": "Organisms",
+    # General and Miscellaneous
+    "dermatologic-surgery-guidelines": "Dermatological Guidelines",
+    "device-related-infections": "Device-Related Infections",
+    "hiv-aids": "HIV / AIDS",
+    "immunocompromised-patient": "Immunocompromised Patients",
+    "tpoxx-monkeypox-treatment": "MPox Treatment",
+    "prevention-of-infection": "Prevention of Infection",
+    "recommended-immunizations": "Recommended Adult Immunizations",
+    "surgical-antimicrobial-prophylaxis": "Surgical Antimicrobial Prophylaxis",
+    "surgical-site-infections": "Surgical Site Infections",
+    "bispecific-antibody": "Bispecific Antibody",
     # Help
     "help-page": "Help & Resources",
     # Important Antimicrobial Information
     "important-antimicrobial": "Important Antimicrobial Information",
-    # General / Miscellaneous
+    # General fallback
     "general": "General / Miscellaneous",
 }
 
@@ -106,6 +137,23 @@ MAIN_MENU_GROUP = "main-menu"
 
 print(f"Combined pages to export: {len(combined_pages)}")
 
+
+def ensure_path_safe(group_folder: str, page_id: str) -> str:
+    """Ensure JSON output path doesn't exceed Windows 260-char limit.
+    Truncate page_id if necessary to fit."""
+    import hashlib
+    # Estimate full path length
+    base_path = str(CMS_ROOT / group_folder / "")  # ~70-100 chars
+    json_suffix = ".json"  # 5 chars
+    # Windows limit is 260 chars; use 240 as safety margin
+    max_id_len = max(50, 240 - len(base_path) - len(json_suffix))
+    if len(page_id) > max_id_len:
+        # Truncate and add hash suffix to preserve uniqueness
+        h = hashlib.md5(page_id.encode()).hexdigest()[:6]
+        page_id = page_id[: max_id_len - 7] + "-" + h
+    return page_id
+
+
 # ── Assign each combined page to a group via main-menu structure ──────────────
 # Strategy: Extract main-menu links to build group assignments. Combined pages
 # are mapped to groups based on MAIN_MENU_SECTION_GROUPS. Then inpatient pages
@@ -118,70 +166,186 @@ if not combined_main:
     print("ERROR: combined main menu not found (expected main-menu or inpt-main).")
     raise SystemExit(1)
 
-# Build map: inpatient group root name -> combined group folder name
-# Strategy: scan main-menu LinkTargets to find which combined pages link to 
-# which inpatient roots, then assign those inpatient roots to groups.
-inpt_group_map: dict[str, str] = {}   # inpatient_name -> group_folder
-
-# Extract links from combined main-menu text
+# Build top-level inpatient roots from combined main menu links.
+# Ignore index links because they are global and not category-defining.
 main_text = combined_main.get("Text", "")
 main_menu_links = re.findall(r"\[([^\]]+)\]\(([^)]+)\)", main_text)
 
-for label, target_slug in main_menu_links:
-    # Get the group this slug should be in (from MAIN_MENU_SECTION_GROUPS)
+# Build combined-page adjacency so assignment reflects actual click paths.
+combined_ids: set[str] = set(combined_pages.keys())
+combined_adjacency: dict[str, set[str]] = {pid: set() for pid in combined_ids}
+
+for pid, page in combined_pages.items():
+    text_links = re.findall(r"\[([^\]]+)\]\(([^)]+)\)", page.get("Text", ""))
+    for _, target in text_links:
+        if target in combined_ids:
+            combined_adjacency[pid].add(target)
+
+    for lt in page.get("LinkTargets", []):
+        item = (lt or {}).get("Item", "")
+        if item in combined_ids:
+            combined_adjacency[pid].add(item)
+
+root_defs: list[tuple[str, str, int, str]] = []  # (inpt_root, group_folder, root_order, root_pid)
+for root_order, (_, target_slug) in enumerate(main_menu_links):
+    if target_slug in IGNORED_MAIN_MENU_TARGETS:
+        continue
+
     target_group = MAIN_MENU_SECTION_GROUPS.get(target_slug)
     if not target_group:
         continue
-    
-    # Find the combined page
+
     combined_page = by_name.get(target_slug)
     if not combined_page:
         continue
-    
-    # Get its inpatient source
+
     inpt_root = combined_page.get("Inpt")
-    if inpt_root:
-        inpt_group_map[inpt_root] = target_group
+    if inpt_root and inpt_root in by_name:
+        root_defs.append((inpt_root, target_group, root_order, target_slug))
 
-# BFS through INPATIENT pages, tracking group ancestry
-inpt_page_to_group: dict[str, str] = {}  # inpatient_page_name -> group_folder
-inpt_page_order: dict[str, int] = {}  # inpatient_page_name -> bfs order within group
-for inpt_root, group_folder in inpt_group_map.items():
-  queue: deque[str] = deque([inpt_root])
-  visited: set[str] = set()
-  order = 0
-  while queue:
-    inpt_name = queue.popleft()
-    if inpt_name in visited:
-      continue
-    visited.add(inpt_name)
-    if inpt_name not in inpt_page_to_group:
-      inpt_page_to_group[inpt_name] = group_folder
-      inpt_page_order[inpt_name] = order
-      order += 1
-    inpt_page = by_name.get(inpt_name)
-    if inpt_page:
-      for lt in inpt_page.get("LinkTargets", []):
-        child = lt.get("Item", "")
-        if child in by_name and child not in visited:
-          queue.append(child)
+# Collect all reachable ancestry candidates: inpt page -> group -> (depth, root_order)
+inpt_group_scores: dict[str, dict[str, tuple[int, int]]] = {}
+inpt_page_order: dict[str, int] = {}
+combined_group_scores: dict[str, dict[str, tuple[int, int]]] = {}
 
-# Assign combined pages via MAIN_MENU_SECTION_GROUPS (explicit assignment) or
-# via inpatient source group (implicit).
+for inpt_root, group_folder, root_order, root_pid in root_defs:
+    queue: deque[tuple[str, int]] = deque([(inpt_root, 0)])
+    visited: set[str] = set()
+
+    while queue:
+        inpt_name, depth = queue.popleft()
+        if inpt_name in visited:
+            continue
+        visited.add(inpt_name)
+
+        prev_depth = inpt_page_order.get(inpt_name)
+        if prev_depth is None or depth < prev_depth:
+            inpt_page_order[inpt_name] = depth
+
+        group_scores = inpt_group_scores.setdefault(inpt_name, {})
+        prev = group_scores.get(group_folder)
+        if prev is None or (depth, root_order) < prev:
+            group_scores[group_folder] = (depth, root_order)
+
+        inpt_page = by_name.get(inpt_name)
+        if inpt_page:
+            for lt in inpt_page.get("LinkTargets", []):
+                child = lt.get("Item", "")
+                if child in by_name and child not in visited:
+                    queue.append((child, depth + 1))
+
+
+    # Combined navigation BFS (actual click-path ancestry)
+    cqueue: deque[tuple[str, int]] = deque([(root_pid, 0)])
+    cvisited: set[str] = set()
+    while cqueue:
+        curr_pid, depth = cqueue.popleft()
+        if curr_pid in cvisited:
+            continue
+        cvisited.add(curr_pid)
+
+        cg = combined_group_scores.setdefault(curr_pid, {})
+        prev = cg.get(group_folder)
+        if prev is None or (depth, root_order) < prev:
+            cg[group_folder] = (depth, root_order)
+
+        for nxt in combined_adjacency.get(curr_pid, set()):
+            if nxt not in cvisited:
+                cqueue.append((nxt, depth + 1))
+
+DISEASE_PRIORITY_GROUPS = {
+    "bone-joint-muscle-infections",
+    "cardiovascular",
+    "cns",
+    "gi-intraabdominal",
+    "head-and-neck",
+    "lung-and-mediastinum",
+    "ssti-main-menu",
+    "system-infectious-diseases",
+    "genitourinary",
+}
+
+ORGANISM_GROUPS = {"organisms"}
+GENERAL_MISC_GROUPS = {
+    "dermatologic-surgery-guidelines",
+    "device-related-infections",
+    "hiv-aids",
+    "immunocompromised-patient",
+    "tpoxx-monkeypox-treatment",
+    "prevention-of-infection",
+    "recommended-immunizations",
+    "surgical-antimicrobial-prophylaxis",
+    "surgical-site-infections",
+    "bispecific-antibody",
+}
+
+
+def group_rank(group: str) -> int:
+    # Prefer disease/syndrome lineage even if it takes more clicks.
+    if group in DISEASE_PRIORITY_GROUPS:
+        return 0
+    if group in ORGANISM_GROUPS:
+        return 1
+    if group in GENERAL_MISC_GROUPS:
+        return 2
+    if group == "important-antimicrobial":
+        return 3
+    if group == "help-page":
+        return 4
+    if group == "general":
+        return 5
+    return 6
+
+
+def pick_best_group(scores: dict[str, tuple[int, int]]) -> str:
+    return min(
+        scores,
+        key=lambda g: (
+            group_rank(g),
+            scores[g][0],
+            scores[g][1],
+            g,
+        ),
+    )
+
+
+def choose_group(pid: str, inpt_source: str) -> str:
+    combined_scores = combined_group_scores.get(pid, {})
+    if combined_scores:
+        return pick_best_group(combined_scores)
+
+    if not inpt_source:
+        return "general"
+
+    inpt_scores = inpt_group_scores.get(inpt_source, {})
+    if inpt_scores:
+        return pick_best_group(inpt_scores)
+
+    return "general"
+
+
+inpt_group_map: dict[str, str] = {
+    inpt_root: group_folder for inpt_root, group_folder, _, _ in root_defs
+}
+
+# Assign combined pages via explicit top-level assignment or best ancestry match.
 for pid, page in combined_pages.items():
-  if pid == combined_main_id:
-    page_group[pid] = MAIN_MENU_GROUP
-    continue
-  
-  # First try explicit assignment
-  if pid in MAIN_MENU_SECTION_GROUPS:
-    page_group[pid] = MAIN_MENU_SECTION_GROUPS[pid]
-    continue
-  
-  # Otherwise, use inpatient source's group
-  inpt_source = page.get("Inpt", "")
-  group_folder = inpt_page_to_group.get(inpt_source, "general")
-  page_group[pid] = group_folder
+    if pid == combined_main_id:
+        page_group[pid] = MAIN_MENU_GROUP
+        continue
+
+    # Keep ignored index pages in general and avoid using them as routing roots.
+    if pid in IGNORED_MAIN_MENU_TARGETS:
+        page_group[pid] = "general"
+        continue
+
+    if pid in MAIN_MENU_SECTION_GROUPS:
+        page_group[pid] = MAIN_MENU_SECTION_GROUPS[pid]
+        continue
+
+    inpt_source = page.get("Inpt", "")
+    page_group[pid] = choose_group(pid, inpt_source)
+
 
 group_summary: dict[str, int] = {}
 for pid, grp in page_group.items():
@@ -213,15 +377,12 @@ all_group_folders: list[str] = [
     "device-related-infections",
     "hiv-aids",
     "immunocompromised-patient",
+    "tpoxx-monkeypox-treatment",
     "prevention-of-infection",
     "recommended-immunizations",
-    "surgical-pre-op-antibiotics",
-    "surgical-post-op-antimicrobial-prophylaxis",
-    "tpoxx-monkeypox-treatment",
-    "bispecific-disease-specific-management",
-    "bispecific-crs-monitoring",
-    "bispecific-lodging-admit-information",
-    "bispecific-icans-monitoring",
+    "surgical-antimicrobial-prophylaxis",
+    "surgical-site-infections",
+    "bispecific-antibody",
     # Help
     "help-page",
     # Important Antimicrobial Information
@@ -342,7 +503,9 @@ for row in page_export_rows:
         if page.get(field):
             page_record[field] = page[field]
 
-    out_path = group_dir / f"{pid}.json"
+    # Ensure path length is safe on Windows
+    safe_pid = ensure_path_safe(group_folder, pid)
+    out_path = group_dir / f"{safe_pid}.json"
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(page_record, f, indent=2, ensure_ascii=False)
         f.write("\n")

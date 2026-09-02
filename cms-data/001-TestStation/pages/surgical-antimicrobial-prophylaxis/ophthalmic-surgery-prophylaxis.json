@@ -1,0 +1,19 @@
+{
+  "PageID": "ophthalmic-surgery-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "Term1": "Ophthalmic surgery prophylaxis",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\nOPHTHALMIC SURGERY\n\nWhen indicated, ophthalmology will order antimicrobial prophylaxis before\n\nprocedures.\n\n# Cataract Surgery\n\nIntracameral moxifloxacin is recommended for use to reduce the risk of\n\npost-operative endophthalmitis after cataract surgery only in those patients\n\nat highest risk of infection, including the following:\n\n* Patients with prior intravitreal injections\n\n* Immunosuppressed patients\n\n* Patients with significant ocular surface eyelid disease\n\n* Complication occurs during surgery (i.e. capusle rupture, vitreous loss)\n\n* Other possible high risk situations as they arise but not listed above\n\n# Preferred:\n\n[Moxifloxacin 500mcg/0.5ml Eye Inj Intracameral Cataract \\(Conc.=100mcg/0.1ml\\)](psjizid-moxifloxacin-vigamox-eye-drops-cataract-surgery)\n\n# References:\n\nArshinoff S., J Cataract Refract Surg, (2016) 42:1730-1741",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "general-information-inpatient"
+    },
+    {
+      "Text": "Moxifloxacin 500mcg/0.5ml Eye Inj Intracameral Cataract (Conc.=100mcg/0.1ml)",
+      "Item": "PSJIZID MOXIFLOXACIN (VIGAMOX) EYE DROPS CATARACT SURGERY"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU SURG OPHTHALMIC SURG",
+  "Outpt": "ophthalmic-surgery-prophylaxis"
+}

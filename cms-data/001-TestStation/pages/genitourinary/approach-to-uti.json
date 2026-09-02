@@ -1,0 +1,42 @@
+{
+  "PageID": "approach-to-uti",
+  "Group": "genitourinary",
+  "Term1": "approach-to-uti",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\n# APPROACH TO URINARY TRACT INFECTION (UTI)\n\n# IDSA 2025 complicated and uncomplicated UTI definition updates:\n\nUncomplicated UTI is an infection confined to the bladder in afebrile women or\n\nmen without urinary catheter.\n\n[Uncomplicated urinary tract infection](uncomp-uti)\n\nComplicated UTI is an infection beyond the bladder and accompanied by symptoms\n\nincluding fever/other signs of systemic illness. Complicated UTI includes\n\npyelonephritis, febrile or bacteremic UTI, catheter-associated (CAUTI).\n\n[Complicated UTI without catheter](complicated-uti-no-catheter)\n\n[Complicated UTI catheter associated](complicated-uti-catheter-associated)\n\n[Acute prostatitis](acute-bact-prostatitis)\n\nFor patients presenting with septic shock from a suspected urinary tract\n\ninfection: Refer to Inpatient Antimicrobial CDSS\n\nAsymptomatic bacteriuria occurs in patients who have bacteria in the urine but\n\ndo not have symptoms of a urinary tract infection.\n\n[Asymptomatic bacteriuria](asymp-bacteriuria)\n\nPatients at risk of sexually transmitted infections should be assessed for\n\ntreatment:\n\n[Sexually Transmitted Infections and HIV Exposure](sexually-transmitted-infection)\n\nCandida urinary tract infections are discussed elsewhere:\n\n[Candida urinary tract infections](candida-uti)\n\n_______________________________________________________________________________\n\nReferences:\n\nGupta et al., Clinical Infectious Diseases, 2011, 52(5)e103-20\n\nMandell chapter: Urinary Tract Infection\n\nTrautner et al., Clinical Infectious Diseases, 2025, ciaf459",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "general-information-outpatient"
+    },
+    {
+      "Text": "Uncomplicated urinary tract infection",
+      "Item": "uncomp-uti"
+    },
+    {
+      "Text": "Complicated UTI without catheter",
+      "Item": "complicated-uti-no-catheter"
+    },
+    {
+      "Text": "Complicated UTI catheter associated",
+      "Item": "complicated-uti-catheter-associated"
+    },
+    {
+      "Text": "Acute prostatitis",
+      "Item": "acute-bact-prostatitis"
+    },
+    {
+      "Text": "Asymptomatic bacteriuria",
+      "Item": "asymp-bacteriuria"
+    },
+    {
+      "Text": "Sexually Transmitted Infections and HIV Exposure",
+      "Item": "sexually-transmitted-infection"
+    },
+    {
+      "Text": "Candida urinary tract infections",
+      "Item": "candida-uti"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU ABX APPROACH TO UTI"
+}

@@ -3,11 +3,11 @@
   "Group": "organisms",
   "Term1": "Bacillus infections, general",
   "Term2": "",
-  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# BACILLUS SPECIES\n\nFor non-cereus or anthracis isolates, seriously consider as contaminant.\n\n# For B. anthracis isolates, consult Infectious Diseases immediately.\n\n# B. cereus treatment\n\nOptimal therapy depends on both the disease or syndrome and the pathogen. See\n\ndisease/syndrome sections for more information. No specific treatment is needed\n\nfor food poisoning.\n\nPreferred treatment:\n\n[Vancomycin 15 mg/kg IV q12h R](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n\n# _______________________________________________________________________________\n\nReferences:\n\nMMWR Recomm Rep. 2023 Nov 17:72(6):1-47. doi: 10.15585/mmwr.rr7206a1\n\nUp-to-Date article: Bacillus cereus and other non-anthracis Bacillus species\n\nUp-to-Date article: Treatment of anthrax\n\nSanford Guide article: Bacillus sp.\n\nSanford Guide article: Anthrax, Systemic",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# BACILLUS SPECIES\n\nFor non-cereus or anthracis isolates, seriously consider as contaminant.\n\n# For B. anthracis isolates, consult Infectious Diseases immediately.\n\n# B. cereus treatment\n\nOptimal therapy depends on both the disease or syndrome and the pathogen. See\n\ndisease/syndrome sections for more information. No specific treatment is needed\n\nfor food poisoning.\n\nPreferred treatment:\n\n[Vancomycin 15 mg/kg IV q12h R](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n\n# _______________________________________________________________________________\n\nReferences:\n\nMMWR Recomm Rep. 2023 Nov 17:72(6):1-47. doi: 10.15585/mmwr.rr7206a1\n\nUp-to-Date article: Bacillus cereus and other non-anthracis Bacillus species\n\nUp-to-Date article: Treatment of anthrax\n\nSanford Guide article: Bacillus sp.\n\nSanford Guide article: Anthrax, Systemic",
   "LinkTargets": [
     {
       "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
-      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+      "Item": "general-information-inpatient"
     },
     {
       "Text": "Vancomycin 15 mg/kg IV q12h [R]",

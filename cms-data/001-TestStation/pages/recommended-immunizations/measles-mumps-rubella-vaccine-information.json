@@ -1,0 +1,23 @@
+{
+  "PageID": "measles-mumps-rubella-vaccine-information",
+  "Group": "recommended-immunizations",
+  "Term1": "Measles, mumps, rubella vaccine information",
+  "Term2": "Mumps vaccine information",
+  "Text": "## Vaccine route, orders, names\n## __________________________\n## Route: Subcutaneous\n## Outpatient MMR orders:\n[2 dose series](orz-set-abx-op-measles-mumps-rubella-vaccine-2-dose-series)\n[One dose](orz-set-abx-op-measles-mumps-rubella-vaccine-one-dose)\n## CPRS name:\nMEASLES/MUMPS/RUBELLA\nVIRUS VACCINE INJ\n## Stocked brand name:\nM-M-R II\n## Other names:\nMeasles, mumps, rubella\n(MMR)\nReferences:\nImmunization Action\nCoalition,\nSummary of Adult\nImmunizations, 2021, P2011\nFreedman et al., Annals of\ninternal medicine, 2021,\n174(3)374-384.\n<!-- COLUMN 2 -->\n## Recommended populations\n## __________________________\n*People born in 1957 or\nlater (especially those\nborn outside the U.S.)\nshould receive at least 1\ndose of MMR if they have\nno laboratory evidence of\nimmunity to each of the 3\ndiseases or documentation\nof a dose given on or\nafter the first birthday.\n*People in high-risk\ngroups, such as healthcare\npersonnel (paid, unpaid,\nor volunteer), students\nentering college and other\npost-high school\neducational institutions,\nand international\ntravelers, should receive\na total of 2 doses.\n*HIV infection with CD4\ncount >/=200 cells/mm3 for\nat least 6 months and no\nevidence of immunity to\nmeasles, mumps, or rubella\nshould receive a total of\n2 doses. MMR\ncontraindicated for HIV\ninfection with CD4 count\n<200 cells/mm3\n*People born before 1957\nare usually considered\nimmune, but evidence of\nimmunity (serology or\ndocumented history of 2\ndoses of MMR) should be\nconsidered for healthcare\npersonnel.\n*Women of childbearing age\nwho do not have acceptable\nevidence of rubella\nimmunity or vaccination.\n<!-- COLUMN 3 -->\n## Administration Schedule\n## __________________________\n*Give 1 or 2 doses (see\ncriteria in 1st and 2nd\nbullets in box to left).\n*If dose #2 is\nrecommended, give it no\nsooner than 4wks after\ndose #1.\n*If woman of childbearing-\nage is found to be rubella\nsusceptible and is not\npregnant, give 1 dose of\nMMR. If she is pregnant,\nthe dose should be given\npostpartum. This includes\nwomen who have already\nreceived 1 or 2 doses of\nrubella-containing\nvaccine.\n*If 2 or more of the\nfollowing live virus\nvaccines are to be given -\nMMR, LAIV, Var, ZVL,\nand/or yellow fever - they\nshould be given on the\nsame day. If they are not\ngiven on the same day,\nspace them by at least 28d\n(30d for yellow fever).\nMay use as post-exposure\nprophylaxis if given\nwithin 3d of exposure.\n<!-- COLUMN 4 -->\n## Contraindications/Precautions\n## __________________________\n## Contraindications:\n*History of severe allergic\nreaction (e.g.,\nanaphylaxis) to a previous\ndose or a vaccine\ncomponent.\n*Pregnancy or possibility\nof pregnancy within 4wks.\n*Severe immunodeficiency\n(e.g., hematologic and\nsolid tumors, receiving\nchemotherapy, congenital\nimmunodeficiency, long-\nterm immunosuppressive\ntherapy, people with human\nimmunodeficiency virus\n(HIV) infection who are\nseverely\nimmunocompromised (CD4\ncount <200 cells/mm3).)\n## Precautions\n*Moderate or severe acute\nillness with or without\nfever.\n*If blood, plasma, and/or\nimmune globulin were given\nin past 11m, see ACIP's\n[Best Practices Guidance](orz-gtx-abx-url-acip-best-practices-guidance)\nregarding time to wait\nbefore vaccinating.\n*History of\nthrombocytopenia or\nthrombocytopenic purpura.\n*Need for tuberculin skin\ntesting (TST) or\ninterferon-gamma release\nassay (IGRA) testing.\nnote: If TST or IGRA and\nMMR are both needed but\nnot given on same day,\ndelay TST or IGRA for at\nleast 4wks after MMR.",
+  "LinkTargets": [
+    {
+      "Text": "2 dose series",
+      "Item": "ORZ SET ABX OP MEASLES/MUMPS/RUBELLA VACCINE 2 DOSE SERIES"
+    },
+    {
+      "Text": "One dose",
+      "Item": "ORZ SET ABX OP MEASLES/MUMPS/RUBELLA VACCINE ONE DOSE"
+    },
+    {
+      "Text": "Best Practices Guidance",
+      "Item": "ORZ GTX ABX URL ACIP BEST PRACTICES GUIDANCE"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU ABX MMR VACCINE INFORMATION PAGE",
+  "Outpt": "measles-mumps-rubella-vaccine-information"
+}

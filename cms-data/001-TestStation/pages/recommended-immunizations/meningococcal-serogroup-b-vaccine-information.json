@@ -1,0 +1,19 @@
+{
+  "PageID": "meningococcal-serogroup-b-vaccine-information",
+  "Group": "recommended-immunizations",
+  "Term1": "Meningococcal serogroup B vaccine information",
+  "Term2": "MenB vaccine information",
+  "Text": "## Vaccine route, orders, names\n## __________________________\n## Route: IM\n## Outpatient MenB orders:\n[3 dose series](orz-set-abx-op-meningococcal-b-vaccine-2-dose-series)\n[Booster Dose](psczid-meningococcal-b-vaccine-one-dose)\n## CPRS name:\nMENINGOCOCCAL B VACCINE\nINJ,SUSP\n## Stocked brand name:\nBexsero\n## Other names:\nMeningococcal serogroup B\n(MenB)\nReferences:\nImmunization Action\nCoalition,\nSummary of Adult\nImmunizations, 2021, P2011\nFreedman et al., Annals of\ninternal medicine, 2021,\n174(3)374-384.\n<!-- COLUMN 2 -->\n## Recommended populations\n## __________________________\n*People with anatomic or\nfunctional asplenia or\npersistent complement\ncomponent deficiency.\n*Microbiologists routinely\nexposed to isolates of N.\nmeningitidis.\n*People identified as at\na serogroup B\nmeningococcal disease\noutbreak.\n*Young adults through age\n23yrs may be vaccinated\nroutinely.\n<!-- COLUMN 3 -->\n## Administration Schedule\n## __________________________\n*Give 3 dose series at\nat 0, 1-2months,and 6months\n*For people with continuing\nrisk (see 1st-3rd bullets\nin column to left), give a\nbooster 1 year after\ncompleting the primary\nseries, followed by a\nbooster every 2-3 years as\nlong as risk continues.\nBooster doses must be same\nbrand as primary series.\n*MenB vaccine may be given\nconcomitantly with MenACWY\nvaccine\n<!-- COLUMN 4 -->\n## Contraindications/Precautions\n## __________________________\n## Contraindications:\nHistory of severe allergic\nreaction (e.g.,\nanaphylaxis) to a previous\ndose or a vaccine\ncomponent.\n## Precautions:\n*Moderate or severe acute\nillness with or\nwithout fever.\n*Pregnancy",
+  "LinkTargets": [
+    {
+      "Text": "3 dose series",
+      "Item": "ORZ SET ABX OP MENINGOCOCCAL B VACCINE 2 DOSE SERIES"
+    },
+    {
+      "Text": "Booster Dose",
+      "Item": "PSCZID MENINGOCOCCAL B VACCINE ONE DOSE"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU ABX MENB VACCINE INFORMATION PAGE",
+  "Outpt": "meningococcal-serogroup-b-vaccine-information"
+}

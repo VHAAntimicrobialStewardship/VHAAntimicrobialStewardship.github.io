@@ -1,0 +1,649 @@
+{
+  "review_summary": {
+    "pages_reviewed": 116,
+    "pages_created_from_variants": 87,
+    "pages_still_truly_multi_version": 29
+  },
+  "created_from_variants": [
+    {
+      "page_id": "about-the-cdss",
+      "inpt_source": "ORZID2 GMENU ABX ABOUT THE CDSS",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "acknowledgement",
+      "inpt_source": "ORZID2 GMENU ABX ACKNOWLEDGEMENTS",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "antimicrobial-shortages-updates",
+      "inpt_source": "ORZID2 GMENU ABX ANTIMICROBIAL SHORTAGES",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "clostridiodes-difficile-infection",
+      "inpt_source": "ORZID2 GMENU ABX ASSOC COLITIS",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "bronchitis-not-benefit",
+      "inpt_source": "ORZID2 GMENU ABX BRONCHITIS NOT BENEFIT",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "high-risk-surgical-site-prophylaxis",
+      "inpt_source": "ORZID2 GMENU ABX DERM HIGH RISK SITE PROPHYLAXIS",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "prevention-of-prosthetic-joint-infection-with-dirty-operation-site",
+      "inpt_source": "ORZID2 GMENU ABX DERM IE JI PROPHYLAXIS",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "dermatologic-surgical-site-infection",
+      "inpt_source": "ORZID2 GMENU ABX DERM SURGICAL INFECTION",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "duration-of-antimicrobial-therapy",
+      "inpt_source": "ORZID2 GMENU ABX DURATION OF ABX THERAPY",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "diseases-and-syndromes-not-covered",
+      "inpt_source": "ORZID2 GMENU ABX EXCLUSIONS",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "endoscopic-ultrasound-fna-procedures",
+      "inpt_source": "ORZID2 GMENU ABX GI EUS-FNA ENDO PROCED",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "home-iv-therapy",
+      "inpt_source": "ORZID2 GMENU ABX HOME IV AT MPLS",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "how-to-use-the-cdss",
+      "inpt_source": "ORZID2 GMENU ABX HOW TO USE CDSS",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "beta-lactam-allergy-facts",
+      "inpt_source": "ORZID2 GMENU ABX IMPORTANT BETA-LACTAM ALLERGY FACTS",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "mediastinitis",
+      "inpt_source": "ORZID2 GMENU ABX MEDIASTINITIS",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "non-streptococcal-pharyngitis",
+      "inpt_source": "ORZID2 GMENU ABX NOT BENEFITED PHARYNGITIS",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "penicillin-desensitization-protocol",
+      "inpt_source": "ORZID2 GMENU ABX PENICILLIN DESENS PROTOCOL",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "antiviral-prophylaxis-malignancy",
+      "inpt_source": "ORZID2 GMENU ANTIVIRAL PROPHYLAXIS MALIGNANCY",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "babesia-infections-general",
+      "inpt_source": "ORZID2 GMENU BABESIA SPP.",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "cell-mediated-immunity-defects",
+      "inpt_source": "ORZID2 GMENU CMI DEFECTS",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "contact-cdss-project-team",
+      "inpt_source": "ORZID2 GMENU CONTACT CDSS STAFF",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "aspergillus-infections-general",
+      "inpt_source": "ORZID2 GMENU FUNGI ASPERGILLUS SPP.",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "gi-endoscopic-procedures",
+      "inpt_source": "ORZID2 GMENU GI ENDOSCOPIC PROCEDURES",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "percutaneous-endoscopic-gastromy-tube-placement-procedure",
+      "inpt_source": "ORZID2 GMENU GI PEG TUBE PLACEMENT",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "immunocompromise-basic-concepts",
+      "inpt_source": "ORZID2 GMENU IMMUNOCOM BASIC CONCEPTS",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "hypochlorhydria",
+      "inpt_source": "ORZID2 GMENU IMMUNOCOM HYPOCHLORHYDRIA",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "malnutrition",
+      "inpt_source": "ORZID2 GMENU IMMUNOCOM MALNUTRITION",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "neutropenia",
+      "inpt_source": "ORZID2 GMENU IMMUNOCOM NEUTROPENIA",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "stress",
+      "inpt_source": "ORZID2 GMENU IMMUNOCOM STRESS",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "tobacco-smoke",
+      "inpt_source": "ORZID2 GMENU IMMUNOCOM TOBACCO SMOKE",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "enterococcal-intravascular-catheter-associated-infection",
+      "inpt_source": "ORZID2 GMENU INTRAVAS CATH ENTEROCOCCUS",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "leukocytosis",
+      "inpt_source": "ORZID2 GMENU LEUKOCYTOSIS",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "febrile-neutropenia-scoring-tool",
+      "inpt_source": "ORZID2 GMENU NEUT FEVER SCORING TOOL",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "prevention-of-prosthetic-joint-infection-in-dental-surgery",
+      "inpt_source": "ORZID2 GMENU PREV PROS JOINT DENTAL",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "pros-bone-joint-s-aureus",
+      "inpt_source": "ORZID2 GMENU PROS BONE/JOINT S. AUREUS",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "surg-antibiotic-renal-redosing",
+      "inpt_source": "ORZID2 GMENU SURG ANTIBIOTIC RENAL REDOSING",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "biliary-surgery-prophylaxis",
+      "inpt_source": "ORZID2 GMENU SURG BILIARY",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "cardiac-surgery-prophylaxis",
+      "inpt_source": "ORZID2 GMENU SURG CARDIAC SURG",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "cied-surgery-post-op-prophylaxis",
+      "inpt_source": "ORZID2 GMENU SURG CIED POSTOP",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "cied-surgery-pre-op-prophylaxis",
+      "inpt_source": "ORZID2 GMENU SURG CIED PREOP",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "bowel-surgery-prophylaxis",
+      "inpt_source": "ORZID2 GMENU SURG COLON AND RECTAL SURG",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "ercp-with-incomplete-drainage-prophylaxis",
+      "inpt_source": "ORZID2 GMENU SURG ERCP INCOMP DRAINAGE",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "gastroduodenal-surgery-prophylaxis",
+      "inpt_source": "ORZID2 GMENU SURG GASTRODUODENAL SURG",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "gynecological-surgery-prophylaxis",
+      "inpt_source": "ORZID2 GMENU SURG GYNECOL SURG",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "head-and-neck-surgery-prophylaxis",
+      "inpt_source": "ORZID2 GMENU SURG HEAD AND NECK SURG",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "hernia-repair-surgery-with-abdominal-mesh-prophylaxis",
+      "inpt_source": "ORZID2 GMENU SURG HERNIA REPAIR",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "neurosurgery-prophylaxis",
+      "inpt_source": "ORZID2 GMENU SURG NEUROSURGERY",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "ophthalmic-surgery-prophylaxis",
+      "inpt_source": "ORZID2 GMENU SURG OPHTHALMIC SURG",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "orthopedic-surgery-prophylaxis",
+      "inpt_source": "ORZID2 GMENU SURG ORTHO SURG JOINT ARTHRO",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "other-procedures-prophylaxis",
+      "inpt_source": "ORZID2 GMENU SURG OTHER PROCEDURES",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "podiatric-surgery-prophylaxis",
+      "inpt_source": "ORZID2 GMENU SURG PODIATRY",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "surgical-prophylaxis-general-information",
+      "inpt_source": "ORZID2 GMENU SURG PROPHYL GENRL INFO",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "spinal-cord-stimulator-trial-procedure-prophylaxis",
+      "inpt_source": "ORZID2 GMENU SURG SPINAL CORD STIMULATOR TRIAL",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "thoracic-surgery-post-op-prophylaxis",
+      "inpt_source": "ORZID2 GMENU SURG THORACIC POSTOP",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "thoracic-surgery-prophylaxis",
+      "inpt_source": "ORZID2 GMENU SURG THORACIC SURGERY",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "surg-timing-dosing-prophyl-abx",
+      "inpt_source": "ORZID2 GMENU SURG TIMING DOSING PROPHYL ABX",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "urological-post-operative-prophylaxis",
+      "inpt_source": "ORZID2 GMENU SURG UROLOGY POSTOP",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "urological-surgery-prophylaxis",
+      "inpt_source": "ORZID2 GMENU SURG UROLOGY PREOP",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "vascular-surgery-prophylaxis",
+      "inpt_source": "ORZID2 GMENU SURG VASCULAR SURG",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "surgical-wound-classification",
+      "inpt_source": "ORZID2 GMENU SURG WND CLASS PROPHYL REC",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "toxoplasma-infections-general",
+      "inpt_source": "ORZID2 GMENU TOXOPLASMA SPP.",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "transplantation",
+      "inpt_source": "ORZID2 GMENU TRANSPLANTATION",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "bone-marrow-post-transplant-vaccinations",
+      "inpt_source": "ORZID3 GMENU ABX BONE MARROW POST TRANSPLANT VACCINATIONS",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "decolonization-of-staph-in-cardiac-surgery",
+      "inpt_source": "ORZID3 GMENU ABX CARD SURGERY DECOLON",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "hepatitis-a-vaccine-information",
+      "inpt_source": "ORZID3 GMENU ABX HEPA VACCINE INFORMATION PAGE",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "hepatitis-a-and-b-vaccine-information",
+      "inpt_source": "ORZID3 GMENU ABX HEPAHEPB VACCINE INFORMATION PAGE",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "haemophilus-influenza-type-b-vaccine-information",
+      "inpt_source": "ORZID3 GMENU ABX HIB VACCINE INFORMATION PAGE",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "human-papillomavirus-vaccine-information",
+      "inpt_source": "ORZID3 GMENU ABX HPV VACCINATION INFORMATION PAGE",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "vaccines-in-heart-lung-disease-or-alcoholism",
+      "inpt_source": "ORZID3 GMENU ABX IMMUNIZATION HEART, LUNG DISEASE, ALCOHOLISM",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "immunizations-in-chronic-liver-disease",
+      "inpt_source": "ORZID3 GMENU ABX IMMUNIZATION IN CHRONIC LIVER DISEASE",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "vaccines-for-health-care-professionals",
+      "inpt_source": "ORZID3 GMENU ABX IMMUNIZATION IN HEALTH CARE PERSONNEL",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "immunizations-in-kidney-failure-hd",
+      "inpt_source": "ORZID3 GMENU ABX IMMUNIZATION IN KIDNEY FAILURE/HD",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "vaccines-in-men-who-have-sex-with-men",
+      "inpt_source": "ORZID3 GMENU ABX IMMUNIZATION IN MEN WHO HAVE SEX WITH MEN",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "vaccines-in-immunocompromised-patients",
+      "inpt_source": "ORZID3 GMENU ABX IMMUNIZATION OF IMMUNOCOMPROMISED PTS",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "meningococcal-conjugate-vaccine-information",
+      "inpt_source": "ORZID3 GMENU ABX MENACWY VACCINE INFORMATION PAGE",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "meningococcal-serogroup-b-vaccine-information",
+      "inpt_source": "ORZID3 GMENU ABX MENB VACCINE INFORMATION PAGE",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "measles-mumps-rubella-vaccine-information",
+      "inpt_source": "ORZID3 GMENU ABX MMR VACCINE INFORMATION PAGE",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "post-exposure-prophylaxis-non-occupational",
+      "inpt_source": "ORZID3 GMENU ABX PEP NON-OCCUP MAIN PAGE",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "post-exposure-prophylaxis",
+      "inpt_source": "ORZID3 GMENU ABX PEP OCCUPATIONAL EXPOSURE",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "pneumococcal-vaccine-information",
+      "inpt_source": "ORZID3 GMENU ABX PNEUMOCOCCAL VACCINE INFORMATION PAGE",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "rabies-pre-exposure-prophylaxis",
+      "inpt_source": "ORZID3 GMENU ABX RABIES PRE-EXPOSURE PROPHYLAXIS",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "adult-immunizations-outpatient",
+      "inpt_source": "ORZID3 GMENU ABX RECOMMENDED IMMUNIZATIONS",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "tetanus-diphtheria-and-acellular-pertussis-vaccine-information",
+      "inpt_source": "ORZID3 GMENU ABX TDAP VACCINE INFORMATION PAGE",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "chickenpox-vaccine-information",
+      "inpt_source": "ORZID3 GMENU ABX VAR VACCINE INFORMATION PAGE",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "zoster-vaccine-information",
+      "inpt_source": "ORZID3 GMENU ABX ZOSTER VACCINE INFORMATION PAGE",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "pregnancy-risk-factors-for-antimicrobials",
+      "inpt_source": "ORZID3 GMENU PREGNANCY RISK INFO",
+      "reason": "outpt_redirect_or_same"
+    },
+    {
+      "page_id": "warfarin-interactions-with-antimicrobials",
+      "inpt_source": "ORZID3 GMENU WARFARIN DRUG INTERACTIONS",
+      "reason": "outpt_redirect_or_same"
+    }
+  ],
+  "still_truly_multi_version": [
+    {
+      "inpt_source": "ORZID GMENU ABX GENRL ALTERNATIVE DRUG",
+      "outpt_name": "ORZID3 GMENU NEED AN ALT ABX MAIN",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU ABSCESS SUBMENU",
+      "outpt_name": "ORZID3 GMENU ABSCESS SUBMENU",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU ABX CMV MAIN PAGE",
+      "outpt_name": "ORZID3 GMENU ABX CMV MAIN PAGE",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU ABX COLONIZED WOUNDS",
+      "outpt_name": "ORZID3 GMENU ABX COLONIZED WOUNDS OP",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU ABX COPD EXACERBATION",
+      "outpt_name": "ORZID3 GMENU BRONCHITIS NEW",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU ABX INFLUENZA CHEMOPROPHYLAXIS",
+      "outpt_name": "ORZID3 GMENU INFLUENZA CHEMOPROPHYLAXIS",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU ABX INFLUENZA RECOMMENDATIONS",
+      "outpt_name": "ORZID3 GMENU INFLUENZA RECOMMENDATIONS OUTPATIENT",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU ABX MALARIA TREATMENT",
+      "outpt_name": "ORZID3 GMENU ABX MALARIA TREATMENT",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU ABX NOT BENEFITTED BACTERIURIA",
+      "outpt_name": "ORZID3 GMENU ABX NOT BENEFITTED BACTERIURIA OP",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU ABX PARAINFLUENZA",
+      "outpt_name": "ORZID3 GMENU ABX PARAINFLUENZA",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU ABX PAROTITIS MORE INFORMATION",
+      "outpt_name": "ORZID3 GMENU ABX PAROTITIS MORE INFORMATION",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU ABX PNEUMONIA HAP NEW",
+      "outpt_name": "",
+      "outpt_is_different": false,
+      "eruc_name": "ORZID GMENU ER/UC PNEUMONIA HAP NEW",
+      "eruc_is_different": true
+    },
+    {
+      "inpt_source": "ORZID2 GMENU ABX ROSACEA",
+      "outpt_name": "ORZID3 GMENU ABX ROSACEA",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU ABX RSV",
+      "outpt_name": "ORZID3 GMENU ABX RSV",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU ABX STASIS DERMATITIS",
+      "outpt_name": "ORZID3 GMENU ABX STASIS DERMATITIS OP",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU ABX TUBERCULOSIS",
+      "outpt_name": "ORZID3 GMENU TUBERCULOSIS",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU ABX UPPER RESPIRATORY INFECTIONS (URI)",
+      "outpt_name": "ORZID3 GMENU ABX UPPER RESPIRATORY INFECTIONS OP (URI)",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU ANTIVIRAL STEM CELL MALIGNANCY",
+      "outpt_name": "ORZID3 GMENU ANTIVIRAL STEM CELL MALIGNANCY",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU COMM VIRAL GASTROENTERITIS",
+      "outpt_name": "ORZID3 GMENU COMM VIRAL GASTROENTERITIS",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU FEVER OF UNK ORIGIN",
+      "outpt_name": "ORZID3 GMENU FEVER OF UNKNOWN ORIGIN",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU FOOT ULCER WITH DM",
+      "outpt_name": "ORZID3 GMENU FOOT ULCER IN PT W/ DM",
+      "outpt_is_different": true,
+      "eruc_name": "ORZID GMENU ER/UC FOOT ULCER WITH DM",
+      "eruc_is_different": true
+    },
+    {
+      "inpt_source": "ORZID2 GMENU HEPATITIS SUBMENU",
+      "outpt_name": "ORZID3 GMENU HEPATITIS SUBMENU",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU INFECT DIARRHEA/GASTRO",
+      "outpt_name": "ORZID3 GMENU INFECT DIARRHEA/GASTROENT",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU LEISHMANIASIS",
+      "outpt_name": "ORZID3 GMENU LEISHMANIASIS",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU M. AVIUM INTRACELLULARE",
+      "outpt_name": "ORZID3 GMENU PATH M. AVIUM INTRACELL",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU M. TUBERCULOSIS",
+      "outpt_name": "ORZID3 GMENU PATHO M. TUBERCULOSIS",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU OSTEOMYELITIS",
+      "outpt_name": "ORZID3 GMENU OSTEOMYELITIS",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU PERITONITIS SUBMENU",
+      "outpt_name": "ORZID3 GMENU PERITONITIS SUBMENU",
+      "outpt_is_different": true,
+      "eruc_name": "",
+      "eruc_is_different": false
+    },
+    {
+      "inpt_source": "ORZID2 GMENU SEPSIS PROTOCOL ANTIMICROBIALS",
+      "outpt_name": "",
+      "outpt_is_different": false,
+      "eruc_name": "ORZID GMENU ER/UC SEPSIS PROTOCOL ANTIMICROBIALS",
+      "eruc_is_different": true
+    }
+  ]
+}

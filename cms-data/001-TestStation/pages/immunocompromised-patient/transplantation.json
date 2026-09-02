@@ -1,0 +1,19 @@
+{
+  "PageID": "transplantation",
+  "Group": "immunocompromised-patient",
+  "Term1": "Transplantation",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\nTRANSPLANTATION\n\nOrgan transplantation is associated with many host defense defects.  Early on,\n\nsurgical wounds may become infected.  Preparation for transplantation and anti-\n\nrejection drugs can induce neutropenia.  Later, CMI defects predominate.\n\nPatients become infected with exogenous pathogens and also endogenous pathogens\n\nlike cytomegalovirus that might have been present in latent or subclinical form.\n\nCell-mediated immune defects caused by anti-rejection drugs cause patients to be\n\nespecially susceptible to infections with organisms that infrequently cause\n\ndisease in healthy people.  They include: Pneumocystis jirovecii (formerly\n\nPneumocystis carinii), mycobacteria, salmonella, candida, aspergillus,\n\nToxoplasma gondii, varicella-zoster virus, cytomegalovirus, Epstein-Barr virus,\n\nand cryptosporidia.\n\nThe approach to fever or other signs or symptoms suggesting the possibility of\n\nan infectious disease depends on the specific defects present in the patient,\n\nthe nature of the presenting signs and symptoms and a bedside assessment of the\n\nseverity of illness.  Empirical antimicrobials are usually not indicated for\n\nfever alone unless the patient has a host defense defect that predisposes to\n\nrapid progression of illness like severe neutropenia or splenectomy.  Contact\n\nInfectious Diseases for more information.\n\n[References](orzid2-gmenu-abx-references)\n\nRich RR, et al, eds.  Clinical Immunology\n\nRoitt I, et al, eds.  Immunology",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "general-information-inpatient"
+    },
+    {
+      "Text": "References",
+      "Item": "ORZID2 GMENU ABX REFERENCES"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU TRANSPLANTATION",
+  "Outpt": "transplantation"
+}

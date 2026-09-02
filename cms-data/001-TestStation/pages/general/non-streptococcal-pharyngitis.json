@@ -1,0 +1,15 @@
+{
+  "PageID": "non-streptococcal-pharyngitis",
+  "Group": "general",
+  "Term1": "Non-streptococcal pharyngitis",
+  "Term2": "Pharyngitis, non-streptococcal",
+  "Text": "# PHARYNGITIS\n\nAcute pharyngitis is common, accounting for 2 percent of all\n\nambulatory visits in the United States.  The major treatable pathogen, group\n\nA streptococcus (GAS), is the cause of pharyngitis in only approximately 10\n\npercent of adults who seek medical care.  The vast majority of patients\n\nreceive presumptive antibiotic therapy for pharyngitis which in most cases is\n\nunnecessary and results in adverse effects including death, increases costs,\n\nand adds to pressure on antimicrobial resistance.  Typical causes of\n\npharyngitis include viruses in about ï¿½, beta-hemolytic streptococci other\n\nthan group A in 18%, Mycoplasma pneumoniae in 10%, Chlamydophila pneumoniae\n\nin 8%, Group A streptococci in 5%, and no microbe identified in 1/3.\n\nRheumatic fever is rare in the United States, especially in adults, so\n\nthat some authorities recommend no treatment even if GAS is a potential cause\n\nof pharyngitis.Others feel it is important to detect GAS  since antibiotic\n\ntherapy can slightly shorten the acute illness, prevent acute rheumatic fever\n\nand possibly prevent suppurative sequelae.  Other potential causes of\n\npharyngitis that should be considered and diagnosed if likely include\n\nEpstein-Barr virus (EBV) mononucleosis, primary HIV infection, influenza,\n\ngonococcal pharyngitis, diphtheria, and suppurative pharyngeal infections.\n\nThe Centor criteria are used to predict whether GAS pharyngitis is present.\n\n*  Tonsillar exudates\n\n*  Tender anterior cervical adenopathy\n\n*  Fever by history\n\n*  Absence of cough\n\nIf three or four of these criteria are met, the positive predictive value is\n\n40 to 60 percent.  If fewer than three criteria are present, the likelihood\n\nGAS is causing pharyngitis is less than 20 percent.  If 3 or > Centor criteria\n\nare met, obtain a throat culture for group A streptococcus.  Treat\n\nempirically for GAS if the patient has severe symptoms or treat later for GAS\n\nif the throat culture is positive.\n\n[References:](orzid2-gmenu-abx-references)\n\nMandell chapter: Pharyngitis",
+  "LinkTargets": [
+    {
+      "Text": "References:",
+      "Item": "ORZID2 GMENU ABX REFERENCES"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX NOT BENEFITED PHARYNGITIS",
+  "Outpt": "non-streptococcal-pharyngitis"
+}

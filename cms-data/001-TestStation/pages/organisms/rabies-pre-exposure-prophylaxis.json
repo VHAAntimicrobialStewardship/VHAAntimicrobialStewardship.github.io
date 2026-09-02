@@ -1,0 +1,31 @@
+{
+  "PageID": "rabies-pre-exposure-prophylaxis",
+  "Group": "organisms",
+  "Term1": "Rabies pre-exposure prophylaxis",
+  "Term2": "Pre-exposure prophylaxis for rabies",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\n# RABIES PRE-EXPOSURE PROPHYLAXIS\n\nFor patients exposed to a rabid animal, refer to the Rabies Post-Exposure\n\nProphylaxis recommendations in the emergency department CDSS.\n\n[Rabies Post-Exposure Prophylaxis](orzid3-gmenu-abx-rabies-post-exposure-prophylaxis)\n\n# Rabies Vaccination\n\nPeople in Risk Category Groups 1-4 (see below for full descriptions) should be\n\nvaccinated against rabies.\n\n[Rabies vaccine, 2-dose series \\(0, 7 days\\)](orz-set-abx-op-rabies-vaccine-2-dose-series)\n\n# Rabies Booster\n\nA booster vaccination is given for groups 1 through 3 (not 4 or 5).  For groups\n\n1 and 2, this is dictated by rabies serum titer levels.  For group 3, a one-time\n\nbooster is recommended at a specific time interval.  For those in risk category\n\n1, check titer every 6 months.  For those in risk category 2, check titer every\n\n2 years).  See below for information regarding timing of the one-time booster\n\nfor risk category 3.\n\n[Rabies virus rapid fluorescent focus inhibition test](lrtzid-rabies-virus-rapid-fluorescent-inhibition-test)\n\n[Rabies booster vaccine](orz-set-abx-op-rabies-booster-vaccine-one-dose)\n\n# CDC guidelines categorize patients into five categories based on exposure risk\n\nRisk Category 1 (Highest risk): People who work with live or concentrated rabies\n\nvirus in laboratories\n\nRecommendation: Give rabies vaccination. Check titer every 6 months and give\n\nbooster dose if titer is low\n\nRisk Category 2: People who frequently do at least one of the following: handle\n\nbats, have contact with bats, enter high-density bat environments like caves, or\n\nperform animal necropsies\n\nRecommendation: Give rabies vaccination. Check titer every 2 years and give\n\nbooster dose if titer is low\n\nRisk Category 3: People who interact with, or are at higher risk to interact,\n\nwith mammals other than bats that could be rabid, for a period longer than three\n\nyears after they receive PrEP. This group includes:\n\nMost veterinarians, veterinary technicians, animal control officers, wildlife\n\nbiologists, rehabilitators, trappers, and spelunkers (cave explorers). Certain\n\ntravelers to regions outside of the United States where rabies in dogs is\n\ncommonly found.\n\nRecommendation: Give rabies vaccination. Either a one-time titer check after 1\n\nand up to 3 years following the first 2-dose vaccination < OR > 1-dose booster\n\nbetween 3 weeks and 3 years following the first vaccine in the 2-dose\n\nvaccination\n\nRisk Category 4: Same population as risk category 3, but at a higher risk for ?\n\nthree years after they receive PrEP.\n\nRecommendation: Give rabies vaccination. Routine boosters not recommended.\n\nRisk Category 5:\n\nPeople who do not have special occupational risks.\n\nRecommendation: Rabies vaccination and boosters not recommended.\n\n_______________________________________________________________________________\n\nReferences:\n\nRao et. Al., MMWR. Morbidity and mortality weekly report 71 (2022)\n\nhttps://www.cdc.gov/rabies/hcp/clinical-care/pre-exposure-prophylaxis.html",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "general-information-outpatient"
+    },
+    {
+      "Text": "Rabies Post-Exposure Prophylaxis",
+      "Item": "ORZID3 GMENU ABX RABIES POST-EXPOSURE PROPHYLAXIS"
+    },
+    {
+      "Text": "Rabies vaccine, 2-dose series (0, 7 days)",
+      "Item": "ORZ SET ABX OP RABIES VACCINE 2 DOSE SERIES"
+    },
+    {
+      "Text": "Rabies virus rapid fluorescent focus inhibition test",
+      "Item": "LRTZID RABIES VIRUS RAPID FLUORESCENT INHIBITION TEST"
+    },
+    {
+      "Text": "Rabies booster vaccine",
+      "Item": "ORZ SET ABX OP RABIES BOOSTER VACCINE ONE DOSE"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU ABX RABIES PRE-EXPOSURE PROPHYLAXIS",
+  "Outpt": "rabies-pre-exposure-prophylaxis"
+}

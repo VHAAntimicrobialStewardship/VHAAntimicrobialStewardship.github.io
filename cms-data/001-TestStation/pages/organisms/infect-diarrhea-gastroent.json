@@ -1,0 +1,66 @@
+{
+  "PageID": "infect-diarrhea-gastroent",
+  "Group": "organisms",
+  "Term1": "infect-diarrhea-gastroent",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\n# INFECTIOUS DIARRHEA / GASTROENTERITIS\n\nMost episodes of acute diarrhea are self-limited. In most mild to moderate\n\ncases, antimicrobial therapy does not provide benefit.\n\n# Bloody diarrhea\n\nBloody diarrhea can represent hemorrhagic colitis or dysentery. Antimicrobial\n\ntherapy and antimotility agents are not recommended in most patients with bloody\n\ndiarrhea due to an increased risk of hemolytic uremic syndrome when using these\n\nagents.\n\n# Primary treatment\n\nHydration and electrolyte replacement\n\n# Empirical antimicrobial treatment of diarrhea\n\n[Community acquired diarrhea \\(no recent travel\\)](comm-acq-diarrhea)\n\n[Traveler's diarrhea](travelers-diarrhea)\n\n# Treatment of diarrhea caused by specific bacteria, parasites, and viruses\n\n[Campylobacter](campylobacter)\n\nClostridioides difficile:\n\n[Mild to moderate disease](clostridiodes-difficile-infection)\n\n[Severe/life-threatening disease \\(shock, ileus, and megacolon\\)](toxic-megacolon)\n\n[Cryptosporidium spp](cryptosporidia)\n\n[Escherichia coli, including varieties listed below:](e-coli-infect)\n\nEnteroaggretive E. coli (EAEC), Enterotoxigenic E. coli (ETEC),\n\nEnterohemorrhagic E. coli (EHEC), Shiga Toxin-producing E. coli (STEC),\n\nEnteropathogenic E. coli (EPEC), Enteroinvasive E. Coli (EIEC)\n\n[Giardia duodenalis](giardia)\n\n[Norovirus](orzid3-gmenu-comm-viral-gastroenteritis)\n\n[Rotavirus](orzid3-gmenu-comm-viral-gastroenteritis)\n\n[Salmonella](salmonella-species)\n\n[Shigella](shigella-species)\n\n[Vibrio cholerae](cholera)\n\n[Yersinia enterocolitica](yersinia-enterocolitica)\n\n# _______________________________________________________________________________\n\nReferences:\n\nMandell chapter: Nausea, Vomiting, and Noninflammatory Diarrhea\n\nSanford Guide article: Gastroenteritis, Diarrhea: Overview\n\nDOI: 10.1093/cid/cix669-Shane et al, Clinical Infectious Diseases 2017,\n\n65(12):45-80\n\nUp-To-Date article: Approach to the adult with acute diarrhea in resource-rich\n\nsettings",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "general-information-outpatient"
+    },
+    {
+      "Text": "Community acquired diarrhea (no recent travel)",
+      "Item": "comm-acq-diarrhea"
+    },
+    {
+      "Text": "Traveler's diarrhea",
+      "Item": "travelers-diarrhea"
+    },
+    {
+      "Text": "Campylobacter",
+      "Item": "campylobacter"
+    },
+    {
+      "Text": "Mild to moderate disease",
+      "Item": "clostridiodes-difficile-infection"
+    },
+    {
+      "Text": "Severe/life-threatening disease (shock, ileus, and megacolon)",
+      "Item": "toxic-megacolon"
+    },
+    {
+      "Text": "Cryptosporidium spp",
+      "Item": "cryptosporidia"
+    },
+    {
+      "Text": "Escherichia coli, including varieties listed below:",
+      "Item": "e-coli-infect"
+    },
+    {
+      "Text": "Giardia duodenalis",
+      "Item": "giardia"
+    },
+    {
+      "Text": "Norovirus",
+      "Item": "ORZID3 GMENU COMM VIRAL GASTROENTERITIS"
+    },
+    {
+      "Text": "Salmonella",
+      "Item": "salmonella-species"
+    },
+    {
+      "Text": "Shigella",
+      "Item": "shigella-species"
+    },
+    {
+      "Text": "Vibrio cholerae",
+      "Item": "cholera"
+    },
+    {
+      "Text": "Yersinia enterocolitica",
+      "Item": "yersinia-enterocolitica"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU INFECT DIARRHEA/GASTROENT"
+}

@@ -1,0 +1,31 @@
+{
+  "PageID": "neurosurgery-prophylaxis",
+  "Group": "cns",
+  "Term1": "Neurosurgery prophylaxis",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\nNEUROSURGERY\n\nRisk factors for postoperative infections following neurologic procedures\n\ninclude diabetes, procedure duration longer than two to four hours, placement\n\nof a foreign body, repeat surgery, emergency surgery, cerebrospinal fluid\n\n(CSF) leak, postoperative intracranial pressure monitoring or presence of a\n\nventricular drain for more than five days postoperatively, and concurrent or\n\nprior infection of an incision or shunt.\n\nIn spinal surgery, the infection rate after conventional lumbar discectomy is\n\nlow, but due to the severe consequences of postoperative infection at this site\n\nantimicrobial prophylaxis is recommended. Infection rates are higher after\n\nprolonged spinal surgery or spinal procedures involving fusion or insertion of\n\nforeign material, and antimicrobial prophylaxis is also recommended.\n\nAntimicrobial prophylaxis is warranted for patients undergoing clean craniotomy\n\nCSF shunt procedures, or intrathecal pump placement.\n\nFor all other neurosurgical procedures, antimicrobial prophylaxis is not\n\nindicated.\n\nCefazolin is preferred for most patients as it penetrates into the cerebrospinal\n\nfluid and is more active than vancomycin against susceptible staphylococci.\n\nVancomycin should be used when the patient is colonized or has been recently\n\ninfected with methicillin-resistant Staphylococcus aureus.  Consult Neurosurgery\n\nor Infectious Diseases for more information.\n\n# If no antimicrobial prophylaxis recommended, select below:\n\n[Click here No antimicrobial prophylaxis recommended for procedure](orz-gtx-abx-pre-op-url-nurse-generic-order)\n\n# Preferred:\n\n[Cefazolin Weight Based Dosing Preop R](surg-cefazolin-weight-based-dosing)\n\n# Alternative for patients with beta lactam allergy or IF MRSA concern:\n\n[Click here Beta-lactam allergy assessment](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Vancomycin 15mg/kg Weight Based Dosing Preop R](orzid2-gmenu-surg-vancomycin-weight-based-dosing)\n\nReferences\n\nBratzler DW, et al.  Clinical practice guidelines for antimicrobial prophy\n\nin surgery, Am J Health-Syst Pharm. 2013 Vol 70 page 195-283\n\nAntimicrobial Prophylaxis for Surgery, Treatment Guidelines from The Medical\n\nLetter 2012 Vol 10 pages 73-77",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "general-information-inpatient"
+    },
+    {
+      "Text": "[Click here] No antimicrobial prophylaxis recommended for procedure",
+      "Item": "ORZ GTX ABX PRE-OP URL NURSE GENERIC ORDER"
+    },
+    {
+      "Text": "Cefazolin Weight Based Dosing Preop [R]",
+      "Item": "surg-cefazolin-weight-based-dosing"
+    },
+    {
+      "Text": "[Click here] Beta-lactam allergy assessment",
+      "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
+    },
+    {
+      "Text": "Vancomycin 15mg/kg Weight Based Dosing Preop [R]",
+      "Item": "ORZID2 GMENU SURG VANCOMYCIN WEIGHT BASED DOSING"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU SURG NEUROSURGERY",
+  "Outpt": "neurosurgery-prophylaxis"
+}

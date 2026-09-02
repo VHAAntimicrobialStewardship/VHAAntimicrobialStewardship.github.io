@@ -1,0 +1,19 @@
+{
+  "PageID": "about-the-cdss",
+  "Group": "bone-joint-muscle-infections",
+  "Term1": "About the CDSS",
+  "Term2": "CDSS Information",
+  "Text": "# ABOUT THE ANTIMICROBIAL COMPUTERIZED DECISION SUPPORT SYSTEM (CDSS)\n\nThe Antimicrobial CDSS is a tool within the Computerized Patient Record System\n\nthat offers antimicrobial prescribing advice to clinicians at the point of order\n\nentry. The system is structured as an order menu decision tree that contains\n\nquick orders pre-programmed with appropriate antimicrobial regimens for specific\n\ninfectious diseases.\n\n# Goals\n\nImprove patient outcomes, reduce rates of microbial resistance, prevent adverse\n\npatient outcomes, optimize costs and improve providers' lives. In addition to\n\nthese goals, the program fulfills antimicrobial stewardship quality standards\n\nimplemented by the Joint Commission.\n\n# Rationale\n\n*Improved patient outcomes\n\nIn a 2013 study, Minneapolis Veterans Affairs Medical Center (MVAMC)\n\nantimicrobial courses ordered through the Antimicrobial CDSS were significantly\n\nmore likely to be appropriate from start to completion, (44%) compared to non-\n\nCDSS courses (33%, P = 0.013). This is consistent with other studies that have\n\nshown significant improvement in appropriate use of antimicrobials when CDSS\n\nprograms are utilized.\n\n*Restricted formulary\n\nThe Minneapolis VAHCS has a restricted antimicrobial formulary. A restricted\n\nformulary reduces cost of health care and is an integral part of antimicrobial\n\nstewardship. The Antimicrobial CDSS provides a method of formulary restriction\n\nthat doesn't require a call back from pharmacy or a prior authorization for the\n\nantimicrobial to be approved.\n\n[More information on antimicrobial restriction policy](restriction-policy)\n\n*Increased efficiency\n\nAlong with being able to order restricted antimicrobials without a prior\n\nauthorization or call back from pharmacy, the Antimicrobial CDSS provides quick\n\norders pre-programmed with appropriate antimicrobial regimens for specific\n\ninfectious diseases. Using the system saves time and increases the efficiency of\n\nthe ordering provider.\n\n# Features\n\nThe CDSS has been developed locally with input from a broad, representative\n\ngroup of clinicians. Recommendations have been based on local susceptibility\n\npatterns, clinical evidence, local preferences, and national guidelines. The\n\nCDSS provides a way for clinicians to select alternative drugs when the\n\nrecommended drugs are contraindicated.\n\nDetailed instructions can be found in the link below.\n\n[How to use the CDSS](how-to-use-the-cdss)\n\nReferences\n\nDellit et al. Clinical Infectious Diseases 2007, 44:159-7\n\nFilice et al. Infection Control and Hospital Epidemiology. 2013, 34.6\n\nRawson et al. Clinical Microbiology and Infection. 2017, 1e9",
+  "LinkTargets": [
+    {
+      "Text": "More information on antimicrobial restriction policy",
+      "Item": "restriction-policy"
+    },
+    {
+      "Text": "How to use the CDSS",
+      "Item": "how-to-use-the-cdss"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX ABOUT THE CDSS",
+  "Outpt": "about-the-cdss"
+}

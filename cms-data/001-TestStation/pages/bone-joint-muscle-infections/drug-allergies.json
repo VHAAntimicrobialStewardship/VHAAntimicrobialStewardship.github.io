@@ -6,5 +6,5 @@
   "Text": "## For PERIRECTAL ABSCESSES that need systemic antimicrobials:",
   "LinkTargets": [],
   "Inpt": "ORZID2 GMENU ABX DRUG ALLERGIES",
-  "Outpt": "ORZID2 GMENU ABX DRUG ALLERGIES"
+  "Outpt": "drug-allergies"
 }

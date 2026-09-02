@@ -1,0 +1,15 @@
+{
+  "PageID": "human-papillomavirus-vaccine-information",
+  "Group": "recommended-immunizations",
+  "Term1": "Human papillomavirus vaccine information",
+  "Term2": "HPV vaccine information",
+  "Text": "## Vaccine route, orders, names\n## __________________________\n## Route: IM\n## Outpatient HPV orders:\n[3 dose series](orz-set-abx-op-human-papillomavirus-vaccine-3-dose-series)\n## CPRS name:\nPAPILLOMAVIRUS HUMAN\nVACCINE INJ,SUSP\n## Stocked brand name:\nGardasil 9\n## Other names:\nHuman papillomavirus\n(HPV)\nReferences:\nImmunization Action\nCoalition,\nSummary of Adult\nImmunizations, 2021, P2011\nFreedman et al., Annals of\ninternal medicine, 2021,\n174(3)374-384.\n<!-- COLUMN 2 -->\n## Recommended populations\n## __________________________\n*For unvaccinated or\npartially vaccinated\nadults through age 26yrs:\nComplete a 3-dose series\nof HPV.\n*Unvaccinated adults age\n27 through 45yrs may be\nvaccinated based on\nshared clinical decision-\nmaking.\n*Other guidance: Pregnancy\nis neither a\ncontraindication nor a\nprecaution\nto HPV vaccine.\n<!-- COLUMN 3 -->\n## Administration Schedule\n## __________________________\n*Give 3 doses on a 0, 1-2,\n6-month schedule.\n*There must be at least\n4wks between doses #1 and\n#2 and at least 12wks\nbetween doses #2 and #3.\nOverall, there must be at\nleast 5 months between\ndoses #1 and #3\n*If the type of HPV\nvaccine previously given\nis not known or not\navailable, any available\nHPV vaccine should be used\nto complete the series.\n<!-- COLUMN 4 -->\n## Contraindications/Precautions\n## __________________________\n## Contraindications:\nHistory of severe allergic\nreaction (e.g.,\nanaphylaxis) to a previous\ndose or a vaccine\ncomponent.\n## Precautions:\nModerate or severe acute\nillness with or\nwithout fever.",
+  "LinkTargets": [
+    {
+      "Text": "3 dose series",
+      "Item": "ORZ SET ABX OP HUMAN PAPILLOMAVIRUS VACCINE 3 DOSE SERIES"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU ABX HPV VACCINATION INFORMATION PAGE",
+  "Outpt": "human-papillomavirus-vaccine-information"
+}

@@ -1,0 +1,14 @@
+{
+  "PageID": "pyomyositis",
+  "Group": "general",
+  "Term1": "pyomyositis",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-outpatient)\n\nPYOMYOSITIS\n\nRefer to Inpatient Antimicrobial CDSS.",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "general-information-outpatient"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU PYOMYOSITIS"
+}

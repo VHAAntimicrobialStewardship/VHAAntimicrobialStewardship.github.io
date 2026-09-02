@@ -1,0 +1,13 @@
+{
+  "summary": {
+    "general_pages_total": 150,
+    "ignored_general_pages": [
+      "drug-info",
+      "index-inpatient"
+    ],
+    "general_pages_reachable_from_disease_roots": 0,
+    "reachable_within_2_clicks": 0,
+    "reachable_within_3_clicks": 0
+  },
+  "candidates": []
+}

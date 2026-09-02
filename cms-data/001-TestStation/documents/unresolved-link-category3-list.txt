@@ -1,0 +1,138 @@
+Category 3: Potentially Mappable Clinical Page Targets
+Format: page | label | target
+adult-immunizations-outpatient | 19-26 years | orzid3-gmenu-abx-immunization-age-19-26-years
+adult-immunizations-outpatient | 27-49 years | orzid3-gmenu-abx-immunization-age-27-49-years
+adult-immunizations-outpatient | 50-64 years | orzid3-gmenu-abx-immunization-age-50-64-years
+adult-immunizations-outpatient | >/= 65 years | orzid3-gmenu-abx-immunization-65-years-or-greater
+adult-immunizations-outpatient | Diabetes | orzid3-gmenu-abx-immunization-in-diabetes
+adult-immunizations-outpatient | HIV | orzid3-gmenu-abx-immunization-in-hiv-pts
+adult-immunizations-outpatient | Pregnancy | orzid3-gmenu-pregnancy-vaccine
+antiviral-infection-malignancy | Seasonal Influenza Recommendations | orzid2-gmenu-abx-influenza-recommendations
+antiviral-prophylaxis-malignancy | Stem cell transplant recipients \(autologous or allogeneic\) | orzid2-gmenu-antiviral-stem-cell-malignancy
+bispecific-disease-specific-management | Order Continuous Monitoring for both Cardiac and Oximetry | orz-gmenu-admit-to-cardiac-monitor-bispecific
+bispecific-disease-specific-management | CBC & Diff Once Daily \(Bispecific Monitoring\) | lrtz-cbc-diff-daily-x7days-bispecific-monitoring
+bispecific-disease-specific-management | CMP Once daily \(Bispecific Monitoring\) | lrtz-cmp-daily-bispecific-monitoring
+bispecific-disease-specific-management | C-Reactive Protein Once Daily \(Bispecific Monitoring\) | lrtz-c-reactive-protein-daily-bispecific-monitoring
+bispecific-disease-specific-management | Ferritin Once Daily \(Bispecific Monitoring\) | lrtz-ferritin-bispecific-monitoring
+bispecific-disease-specific-management | Protime/INR Once Daily \(Bispecific Monitoring\) | lrtz-protime-inr-daily-bispecific-monitoring
+bispecific-disease-specific-management | PTT Once Daily \(Bispecific Monitoring\) | lrtz-ptt-daily-bispecific-monitoring
+bispecific-disease-specific-management | Fibrinogen Once Daily \(Bispecific Monitoring\) | lrtz-fibrinogen-daily-bispecific-monitoring
+bone-joint-muscle-infections | Osteomyelitis | orzid2-gmenu-osteomyelitis
+bone-joint-muscle-infections-2 | Osteomyelitis | orzid3-gmenu-osteomyelitis
+bone-marrow-post-transplant-vaccinations | Allogenic | orzid3-gmenu-abx-bone-marrow-seattle-nashville-allogenic
+bone-marrow-post-transplant-vaccinations | Autologous | orzid3-gmenu-abx-bone-marrow-seattle-nashville-autologous
+bronchitis | COPD exacerbation | orzid2-gmenu-abx-copd-exacerbation
+cardiac-surgery-prophylaxis | Vancomycin 15mg/kg Weight Based Dosing Preop R | orzid2-gmenu-surg-vancomycin-weight-based-dosing
+catheter-associated-infection-intravascular | Approach to intravascular catheter-associated infection and antimicrobial | orzid2-gmenu-appro-intravas-cath-assoc-infect
+cell-mediated-immunity-defects | References | orzid2-gmenu-abx-references
+cied-surgery-pre-op-prophylaxis | Vancomycin 15mg/kg Weight Based Dosing Preop R | orzid2-gmenu-surg-vancomycin-weight-based-dosing
+clostridiodes-difficile-infection | Click here Information on C. difficile lab testing | orzid2-gmenu-abx-c-difficile-2-step-testing
+doxypep | Lab: Syphilis antibody Serum | lrtz-syphilis-ab-w-reflex-to-rpr-w-titer
+doxypep | Lab: Chlamydia with Gonorrhea Urine | lrtz-chlamydia-with-gonorrhea-urine
+doxypep | Lab: Throat  swab for Chlamydia with Gonorrhea \(submit only ONE swab in media\) | lrtz-chlamydia-with-gonorrhea-throat
+doxypep | Lab: Rectal  swab for Chlamydia with Gonorrhea \(submit only ONE swab in media\) | lrtz-chlamydia-with-gonorrhea-rectal
+doxypep | Lab: Vaginal swab for Chlamydia with Gonorrhea \(submit only ONE swab in media\) | lrtz-chlamydia-with-gonorrhoeae-vaginal
+doxypep | Lab: HIV Ag/Ab | lrtz-hiv-ag-ab
+ec-pv-sel-path | Staphylococci | orzid2-gmenu-ec-pv-staphylococci
+ec-pv-sel-path | Streptococci | orzid2-gmenu-ec-pv-vgs-s-bovis
+endocarditis-approach-to | Diagnosis with Duke Criteria | orzid2-gmenu-abx-duke-criteria
+ercp-with-incomplete-drainage-prophylaxis | References | orzid2-gmenu-abx-references
+febrile-neutropenia-scoring-tool | References | orzid2-gmenu-abx-references
+general-information-inpatient | Alternative Antimicrobials to CDSS Recommendations - select here | orzid-gmenu-abx-genrl-alternative-drug
+general-information-outpatient | Consult Menu - place consults to specialty service | orz-gmenu-consults-main-op
+general-information-outpatient | Alternative Antimicrobials to CDSS Recommendations - select here | orzid3-gmenu-need-an-alt-abx-main
+gi-intraabdominal | click here | ORZID2 GMENU ABSCESS SUBMENU
+gi-intraabdominal | click here | ORZID2 GMENU INFECT DIARRHEA/GASTRO
+gi-intraabdominal | click here | ORZID2 GMENU HEPATITIS SUBMENU
+gi-intraabdominal | click here | ORZID2 GMENU PERITONITIS SUBMENU
+h-pylori-infect | Click here Lab H.Pylori, stool | lrtz-h-pylori-ag-stool
+hepatitis-b-evaluation-anti-cd20-antibody | HEPATITIS B SEROLOGY PANEL | lrtz-hepatitis-b-serology-panel
+hepatitis-b-evaluation-anti-cd20-antibody | HIV RAPID TEST \(results in 1-2 hours\) | lrtzhiv-rapid-qualitative
+hepatitis-b-evaluation-anti-cd20-antibody | HEPATITIS B DNA LEVEL \(VIRAL LOAD\) | lrtz-hepatitis-b-dna-level-viral-load
+hernia-repair-surgery-with-abdominal-mesh-prophylaxis | DVT prophylaxis orders | orz-gmenu-dvt-prophylaxis
+hernia-repair-surgery-with-abdominal-mesh-prophylaxis | Vancomycin 15 mg/kg IV beginning 120 minutes before incision \($\) R | orzid2-gmenu-surg-vancomycin-weight-based-dosing
+high-risk-surgical-site-prophylaxis | Vancomycin 15mg/kg Weight Based Dosing Preop R | orzid2-gmenu-surg-vancomycin-weight-based-dosing
+hypochlorhydria | References | orzid2-gmenu-abx-references
+immunocompromise-basic-concepts | References | orzid2-gmenu-abx-references
+index-inpatient | Asymptomatic bacteriuria | ORZID2 GMENU ABX NOT BENEFITTED BACTERIURIA
+index-inpatient | Bronchitis | ORZID2 GMENU ABX COPD EXACERBATION
+index-inpatient | Chemoprophylaxis of Influenza | ORZID2 GMENU ABX INFLUENZA CHEMOPROPHYLAXIS
+index-inpatient | CMV infections, general | ORZID2 GMENU ABX CMV MAIN PAGE
+index-inpatient | Colonized wound | ORZID2 GMENU ABX COLONIZED WOUNDS
+index-inpatient | Dermatitis, stasis | ORZID2 GMENU ABX STASIS DERMATITIS
+index-inpatient | Diabetic foot ulcer | ORZID2 GMENU FOOT ULCER WITH DM
+index-inpatient | Diarrhea, infectious | ORZID2 GMENU INFECT DIARRHEA/GASTRO
+index-inpatient | Fever of unknown origin | ORZID2 GMENU FEVER OF UNK ORIGIN
+index-inpatient | Leishmaniasis infections, general | ORZID2 GMENU LEISHMANIASIS
+index-inpatient | MAC | ORZID2 GMENU M. AVIUM INTRACELLULARE
+index-inpatient | More about parotitis | ORZID2 GMENU ABX PAROTITIS MORE INFORMATION
+index-inpatient | Mycobacterium tuberculosis | ORZID2 GMENU M. TUBERCULOSIS
+index-inpatient | Norovirus diarrhea/gastroenteritis | ORZID2 GMENU COMM VIRAL GASTROENTERITIS
+index-inpatient | Osteomyelitis | ORZID2 GMENU OSTEOMYELITIS
+index-inpatient | Parainfluenza | ORZID2 GMENU ABX PARAINFLUENZA
+index-inpatient | Respiratory syncytial virus | ORZID2 GMENU ABX RSV
+index-inpatient | Rosacea | ORZID2 GMENU ABX ROSACEA
+index-inpatient | Stem cell recipients, viral prophylaxis | ORZID2 GMENU ANTIVIRAL STEM CELL MALIGNANCY
+index-inpatient | Tuberculosis | ORZID2 GMENU ABX TUBERCULOSIS
+infect-diarrhea-gastroent | Norovirus | orzid3-gmenu-comm-viral-gastroenteritis
+influenza-recommendations-outpatient | Chemoprophylaxis Recommendations | orzid3-gmenu-influenza-chemoprophylaxis
+influenza-recommendations-outpatient | Lab Influenza Testing Menu | orz-gmenu-lab-nasopharyngeal-testing-main
+malnutrition | References | orzid2-gmenu-abx-references
+meds-delayed-pre-op-antibiotics-cv-surgery2 | Standard \(Non PCN allergic\) | orzid2-gmenu-abx-delayed-standard-abx-cv-surg
+meds-delayed-pre-op-antibiotics-cv-surgery2 | Severly PCN allergic | orzid2-gmenu-delayed-pcn-allergic-cv-surg
+modification-of-neutropenic-fever-therapy | Patients who BECOME AFEBRILE in the first 3 to 5 days of treatment | orzid2-gmenu-neut-fever-pt-become-afebrile
+modification-of-neutropenic-fever-therapy | Patients whose FEVER PERSISTS throughout the first 3 to 5 days of treatment | orzid2-gmenu-neut-fever-pt-fever-persists
+modification-of-neutropenic-fever-therapy | References | orzid2-gmenu-abx-references
+more-about-cellulitis | Foot ulcer in patient with diabetes mellitus | orzid2-gmenu-foot-ulcer-with-dm
+neurosurgery-prophylaxis | Vancomycin 15mg/kg Weight Based Dosing Preop R | orzid2-gmenu-surg-vancomycin-weight-based-dosing
+neutropenia | References | orzid2-gmenu-abx-references
+non-streptococcal-pharyngitis | References: | orzid2-gmenu-abx-references
+noso-pneumonia-new | Hospital acquired pneumonia (HAP) | orzid2-gmenu-abx-pneumonia-hap-new
+not-required | Upper Respiratory Infections \(URI\) | orzid2-gmenu-abx-upper-respiratory-infections-uri
+not-required | Stasis Dermatitis | orzid2-gmenu-abx-stasis-dermatitis
+not-required | Colonized Wounds | orzid2-gmenu-abx-colonized-wounds
+not-required | Asymptomatic Bacteriuria, cadiduria and pyuria | orzid2-gmenu-abx-not-benefitted-bacteriuria
+orthopedic-surgery-prophylaxis | Vancomycin 15mg/kg Weight Based Dosing Preop R | orzid2-gmenu-surg-vancomycin-weight-based-dosing
+osteom-staphylococcus-aureus | References | orzid2-gmenu-abx-references
+osteomyelitis-evaluation | <Click here> Osteomyelitis | orzid3-gmenu-osteomyelitis
+other-pathogens | Mycobacterium tuberculosis | orzid2-gmenu-m-tuberculosis
+other-pathogens | Mycobacterium avium intracellulare complex \(a.k.a. MAI or MAC\) | orzid2-gmenu-m-avium-intracellulare
+other-procedures-prophylaxis | References | orzid2-gmenu-abx-references
+parasites | Diarrhea, parasitic | orzid2-gmenu-infect-diarrhea-gastro
+parasites | Malaria | orzid2-gmenu-abx-malaria-treatment
+parotitis | More information on Parotitis | orzid2-gmenu-abx-parotitis-more-information
+podiatric-surgery-prophylaxis | Vancomycin 15 MG/KG IV beginning 120 minutes before incision \($\) R | orzid2-gmenu-surg-vancomycin-weight-based-dosing
+post-exposure-prophylaxis | Blood Borne Pathogen Labs | orz-gmenu-occ-health-bbp-labs-main
+post-exposure-prophylaxis | Select to place order for labs CBC, LFTs, Basic Metabolic\(SMA-7\) | orz-gmenu-lab-ed-pep-cbc-lft-basic-metabolic
+post-exposure-prophylaxis-non-occupational | < SELECT HERE > FOR TABLE | orzid3-gmenu-abx-pep-nonoccup-risk-table-by-exposure-act
+post-exposure-prophylaxis-non-occupational | < SELECT HERE > INITIAL LABORATORY ORDERS | orzid3-gmenu-abx-pep-non-occupational-laboratory-orders
+post-exposure-prophylaxis-non-occupational | < SELECT HERE > ANTIRETROVIRAL RECOMMENDATIONS for nPEP | orzid3-gmenu-abx-pep-non-occupational-drug-tx
+post-exposure-prophylaxis-non-occupational | < SELECT HERE > 4 Week Follow-up Labs and RTC orders | orzid3-gmenu-abx-pep-non-occupational-labs-rtc
+post-operative-wound-infection | Patients with signs of infection WITHIN 48 HOURS of procedure | orzid2-gmenu-surg-w-i-48hrs-procedure
+post-operative-wound-infection | Patients with signs of infection 48 HOURS OR MORE after procedure | orzid2-gmenu-surg-48hrs-after-proc
+pros-b-j-enterococci | Linezolid 600 mg PO BID \($\) DI,O | zzpsozid-linezolid-600mg-po-bid
+rabies-pre-exposure-prophylaxis | Rabies Post-Exposure Prophylaxis | orzid3-gmenu-abx-rabies-post-exposure-prophylaxis
+rabies-pre-exposure-prophylaxis | Rabies virus rapid fluorescent focus inhibition test | lrtzid-rabies-virus-rapid-fluorescent-inhibition-test
+sepsis-and-shock | Sepsis antimicrobial treatment recommendations | orzid2-gmenu-sepsis-protocol-antimicrobials
+septic-arth-enterococci | References | orzid2-gmenu-abx-references
+spinal-cord-stimulator-trial-procedure-prophylaxis | Vancomycin Weight Based Dosing IVPB x1 Dose | orzid2-gmenu-surg-vancomycin-weight-based-dosing
+staph-toxic-shock-syndrome | References | orzid2-gmenu-abx-references
+strep-toxic-shock-syndrome | References | orzid2-gmenu-abx-references
+stress | References | orzid2-gmenu-abx-references
+surg-interventional-radiology | Cefazolin Weight Based Dosing Preop \($\)R | orzid2-gmenu-surg-cefazolin-ir-weight-based-dosing
+surg-interventional-radiology | Vancomycin 15mg/kg Weight Based Dosing Preop R | orzid2-gmenu-surg-vancomycin-weight-based-dosing
+surg-timing-dosing-prophyl | References | orzid2-gmenu-abx-references
+surg-vascular-surg-postop | Cefazolin Weight Based Dosing q8h x2 doses postop | orzid2-gmenu-surg-cefazolin-wt-based-postop-doses-x2
+surg-vascular-surg-postop | Vancomycin 15mg/kg Dosing q12h x1 dose postop | orzid2-gmenu-surg-vancomycin-post-op-specific-dosing
+surg-vascular-surg-postop | References | orzid2-gmenu-abx-references
+surgical-wound-classification | References | orzid2-gmenu-abx-references
+syphilis | Syphilis antibody test with reflex to rapid plasma reagin \(RPR\) | lrtz-syphilis-ab-w-reflex-to-rpr-w-titer
+system-infectious-diseases | Fever of unknown origin | orzid2-gmenu-fever-of-unk-origin
+thoracic-surgery-prophylaxis | Vancomycin 15 MG/KG IV beginning 120 minutes before incision \($\) R | orzid2-gmenu-surg-vancomycin-weight-based-dosing
+tobacco-smoke | References | orzid2-gmenu-abx-references
+transplantation | References | orzid2-gmenu-abx-references
+urological-post-operative-prophylaxis | Cefazolin Weight Based Dosing q8h x2 doses postop | orzid2-gmenu-surg-cefazolin-wt-based-postop-doses-x2
+urological-post-operative-prophylaxis | Vancomycin 15mg/kg Dosing q12h x1 dose postop | orzid2-gmenu-surg-vancomycin-post-op-specific-dosing
+urological-surgery-prophylaxis | Link to outpatient menu | orzid3-gmenu-prostate-biopsy-prophylaxis
+vascular-surgery-prophylaxis | Vancomycin 15mg/kg Weight Based Dosing Preop R | orzid2-gmenu-surg-vancomycin-weight-based-dosing
+vascular-surgery-prophylaxis | References | orzid2-gmenu-abx-references

@@ -1,0 +1,10 @@
+{
+  "PageID": "ini-epi-assoc-colitis",
+  "Group": "gi-intraabdominal",
+  "Term1": "ini-epi-assoc-colitis",
+  "Term2": "",
+  "Text": "## INITIAL EPISODE OF CLOSTRIDIOIDES DIFFICILE INFECTION (CDI)\nDiscontinue implicated antibiotic(s). Narrow antibiotic spectrum if antibiotic\ntherapy is still needed. Avoid antiperistaltic agents (narcotics, loperamide,\netc.). Avoid antacid therapy without clear indication. If diarrhea has improved\nor resolved prior to starting C. difficile treatment, consider re-assessing the\ndiagnosis before initiating therapy. C. difficile infection usually responds to\nantimicrobial therapy. If symptoms do not respond to appropriate antimicrobial\ntherapy, re-consider the diagnosis.\n## Inpatient\n\n## Patient at increased risk of CDI recurrence:\n(e.g., age >65 years old, concomitant antibiotic use during CDI treatment,\nand/or immunosuppression)\nFidaxomicin 200 mg po q12h for 10 days [M]\n## Patient not meeting criteria above for increased risk of CDI recurrence:\nVancomycin 125mg PO q6h for 10 days [M]\n_______________________________________________________________________________\n## Outpatient\n\n## Treatment for initial episode of CDI:\nNon-VA order for above\n## Alternate treatment for patient at increased risk of CDI recurrence:\n(e.g., age >65 years old, concomitant antibiotic use during CDI treatment,\nand/or immunosuppression)\nFidaxomicin 200 mg po q12h for 10 days [M]\nNon-VA order for above\nReferences:\nJohnson et al, Clin Inf Dis, 2021, 73(5): e1029-e1044\nMcDonald et al, Clin Inf Dis 2018, 66 (7): e1-e48\nCriteria for Use: Fidaxomicin VA-PBM (11/21)\nMandell chapter: Clostridioides difficile infection\nSanford Guide article: Clostridioides difficile\nUp-to-Date article: Clostridioides difficile infection in adults: Clinical\nmanifestations and diagnosis",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU ABX INI EPI ABX ASSOC COLITIS",
+  "Outpt": "ORZID3 GMENU INI EPISODE ABX ASSOC COLITIS"
+}

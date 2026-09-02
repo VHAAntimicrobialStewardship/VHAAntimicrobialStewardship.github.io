@@ -1,0 +1,19 @@
+{
+  "PageID": "tobacco-smoke",
+  "Group": "immunocompromised-patient",
+  "Term1": "Tobacco smoke",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\nTOBACCO SMOKE\n\nActive or passive exposure to tobacco smoke is associated with increased\n\nsusceptibility to respiratory infectious diseases and several systemic\n\ninfectious diseases with bacterial and viral pathogens.  Compounds found in\n\ntobacco or tobacco smoke interfere with several host defense mechanisms in the\n\nrespiratory tract and elsewhere in the body.\n\n[References](orzid2-gmenu-abx-references)\n\nRich RR, et al, eds.  Clinical Immunology\n\nRoitt I, et al, eds.  Immunology",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "general-information-inpatient"
+    },
+    {
+      "Text": "References",
+      "Item": "ORZID2 GMENU ABX REFERENCES"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU IMMUNOCOM TOBACCO SMOKE",
+  "Outpt": "tobacco-smoke"
+}

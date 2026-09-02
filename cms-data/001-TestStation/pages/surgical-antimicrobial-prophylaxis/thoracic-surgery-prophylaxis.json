@@ -1,0 +1,31 @@
+{
+  "PageID": "thoracic-surgery-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "Term1": "Thoracic surgery prophylaxis",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# THORACIC SURGERY (INCLUDES SECTION ON ESOPHAGEAL PROCEDURES)\n\n# Esophageal Surgical Procedures:\n\n# Prophylaxis:\n\n[Cefazolin weight based dosing once pre-op + Metronidazole 500mg once IV pre-op](orz-set-abx-cefazo-wt-based-iv-metron-500mg-iv-preop)\n\nbeginning 60 minutes before incision\n\nProphylaxis recommendations includes BOTH MEDICATIONS q8h for 2 doses post-op.\n\nPlease place post-op antimicrobial prophylaxis orders after admission.\n\n# Alternative for patients with beta-lactam allergy:\n\n[Clindamycin 900 mg IV over 30 minutes, beginning 60 minutes before incision](psjizid-clindamy-900mg-iv-once-preop)\n\n($) [H,O]\n\nProphylaxis recommendation includes q8h for 2 doses post-op.\n\nPlease place post-op antimicrobial prophylaxis order after admission.\n\n# ___________________________________________________________________________\n\n# Thoracic surgery (except for esophageal procedures):\n\nIncludes video-assisted thoracoscopic surgery (VATS) and non-cardiac procedures,\n\nincluding lobectomy, pneumonectomy, lung resection and thoracotomy.\n\n# No post-operative doses are recommended.\n\n# Prophylaxis\n\n[Cefazolin Weight Based Dosing Preop R](surg-cefazolin-weight-based-dosing)\n\n# Alternative for patients with beta-lactam allergy:\n\n[Clindamycin 900 mg IV over 30 minutes, beginning 60 minutes before incision](psjizid-clindamy-900mg-iv-once-preop)\n\n($) [H,O]\n\n# Alternative for patient colonized or recently infected with MRSA\n\n[Vancomycin 15 MG/KG IV beginning 120 minutes before incision \\($\\) R](orzid2-gmenu-surg-vancomycin-weight-based-dosing)\n\n# References\n\nBratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis\n\nin surgery, Am J Health-Syst Pharm. 2013 Vol 70 page 195-283\n\nAntimicrobial Prophylaxis for Surgery, Treatment Guidelines from The Medical\n\nLetter 2012 Vol 10 pages 73-77",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "general-information-inpatient"
+    },
+    {
+      "Text": "Cefazolin weight based dosing once pre-op + Metronidazole 500mg once IV pre-op",
+      "Item": "ORZ SET ABX CEFAZO WT BASED IV +METRON 500MG IV PREOP"
+    },
+    {
+      "Text": "Clindamycin 900 mg IV over 30 minutes, beginning 60 minutes before incision",
+      "Item": "PSJIZID CLINDAMY 900MG IV ONCE PREOP"
+    },
+    {
+      "Text": "Cefazolin Weight Based Dosing Preop [R]",
+      "Item": "surg-cefazolin-weight-based-dosing"
+    },
+    {
+      "Text": "Vancomycin 15 MG/KG IV beginning 120 minutes before incision ($) [R]",
+      "Item": "ORZID2 GMENU SURG VANCOMYCIN WEIGHT BASED DOSING"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU SURG THORACIC SURGERY",
+  "Outpt": "thoracic-surgery-prophylaxis"
+}

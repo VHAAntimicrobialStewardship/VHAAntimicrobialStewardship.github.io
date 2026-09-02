@@ -1,9 +1,9 @@
 {
   "PageID": "parasites",
   "Group": "organisms",
-  "Term1": "3. Parasites (Navigation)",
+  "Term1": "4. Parasites (Navigation)",
   "Term2": "",
-  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# ++ PARASITES ++\n\nAlways consider disease or syndrome, site of infection, penetration of drug(s)\n\ninto site, and whether organism is pathogen, colonizer, or contaminant. See\n\ndisease/syndrome section for more information.\n\n[Babesia spp.](orzid2-gmenu-babesia-spp)\n\n[Diarrhea, parasitic](orzid2-gmenu-infect-diarrhea-gastro)\n\n[Malaria](orzid2-gmenu-abx-malaria-treatment)\n\n[Pneumocystis](pneumocystis-jirovecii)\n\n[Toxoplasma](orzid2-gmenu-toxoplasma-spp)\n\n# Last reviewed 8/2018",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# ++ PARASITES ++\n\nAlways consider disease or syndrome, site of infection, penetration of drug(s)\n\ninto site, and whether organism is pathogen, colonizer, or contaminant. See\n\ndisease/syndrome section for more information.\n\n[Babesia spp.](babesia-infections-general)\n\n[Diarrhea, parasitic](orzid2-gmenu-infect-diarrhea-gastro)\n\n[Malaria](orzid2-gmenu-abx-malaria-treatment)\n\n[Pneumocystis](pneumocystis-jirovecii)\n\n[Toxoplasma](toxoplasma-infections-general)\n\n# Last reviewed 8/2018",
   "LinkTargets": [],
   "Inpt": "ORZID2 GMENU PARASITES",
   "Outpt": "ORZID3 GMENU PARASITES MAIN"
