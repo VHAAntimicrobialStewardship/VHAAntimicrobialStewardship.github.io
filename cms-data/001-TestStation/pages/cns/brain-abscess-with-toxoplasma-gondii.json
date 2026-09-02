@@ -1,0 +1,38 @@
+{
+  "PageID": "brain-abscess-with-toxoplasma-gondii",
+  "Group": "cns",
+  "Term1": "Brain abscess with Toxoplasma gondii",
+  "Term2": "Toxoplasma gondii brain abscess",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# BRAIN ABSCESS WITH TOXOPLASMA GONDII\n\nPrior to beginning antimicrobial therapy, when possible, computed topographic\n\n(CT) - guided aspiration or surgery should be performed to obtain abscess\n\nmaterial for determination of infectious pathogen. Adjust antimicrobial regimen\n\nto optimize therapy based on pathogen once isolated.\n\nCentral nervous system toxoplasmosis occurs mostly in HIV-infected patients.\n\n# Consult Neurosurgery, Neurology, and Infectious Disease\n\n# Duration of Therapy\n\nContinue treatment for a minimum of 6 weeks after resolution of signs/symptoms,\n\nfollowed by suppressive therapy until sustained immune reconstitution occurs.\n\nSuppression can be discontinued if CD4 count >200 for 6 months.\n\n# Treatment\n\nPreferred:\n\nPatient weight >/= 60 kg\n\n[Pyrimethamine 200 mg PO x 1 then 75 mg po daily \\($$$$$\\) DI,O <AND>](orz-set-abx-pyrim200mgthen75mgq24h-sulfad1-5gmq6h-leuco10mgq24h)\n\nsulfadiazine 1.5 gm PO q6h ($$) [DI,O] <AND> leucovorin 10 to 25 mg po daily ($)\n\n< OR >\n\nPatient weight < 60 kg\n\n[Pyrimethamine 200 mg PO x 1 then 50 mg PO daily \\($$$$$\\) DI,O <AND>](orz-set-abx-pyrimeth-200mg-po-sulfad-1gm-leucovorin-10mg)\n\nsulfadiazine 1 gm po q6h ($$) [DI,O] <AND> leucovorin 10 to 25 mg po daily ($)\n\nAlternatives:\n\nPatient weight >/= 60 kg\n\n[Pyrimethamine 75 mg PO q24h \\($$$$$\\) DI,O <AND> clindamycin 600 mg PO q6h](orz-set-abx-pyrim-75mg-q24h-clinda-600mg-po-q6h-leuco-10mg-q24h)\n\n($) [H,O] <AND> leucovorin 10 to 25 mg po daily ($)\n\n< OR >\n\nPatient weight < 60 kg\n\n[Pyrimethamine 50 mg PO q24h \\($$$$$\\) DI,O <AND> clindamycin 600 mg PO q6h](orz-set-abx-pyrim-50mg-q24h-clinda-600mg-po-q6h-leuco-10mg-q24h)\n\n($) [H,O] <AND> leucovorin 10 to 25 mg po daily ($)\n\n< OR >\n\n[Trimethoprim 5 mg/kg - sulfamethoxazole 25 mg/kg IV q12h \\($$$\\) R,DI](psjizid-trimethoprim-sulfameth-5-25-mg-kg-iv-q12h)\n\n< OR >\n\n[Trimethoprim 5 mg/kg - sulfamethoxazole 25 mg/kg PO q12h \\($\\) R,DI](psjzid-trimeth-sulfa-5-25-mg-kg-po-q12h)\n\n# _______________________________________________________________________________\n\nReferences:\n\nBrouwer et al. N Engl J Med, 2014, 371(5)447-56\n\nMandell chapter: Brain Abscess\n\nSanford keyword: Brain Abscess, Toxoplasmosis\n\nUp-to-Date article: Toxoplasmosis",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Pyrimethamine 200 mg PO x 1 then 75 mg po daily ($$$$$) [DI,O] <AND>",
+      "Item": "ORZ SET ABX PYRIM200MGTHEN75MGQ24H SULFAD1.5GMQ6H LEUCO10MGQ24H"
+    },
+    {
+      "Text": "Pyrimethamine 200 mg PO x 1 then 50 mg PO daily ($$$$$) [DI,O] <AND>",
+      "Item": "ORZ SET ABX PYRIMETH 200MG PO SULFAD 1GM LEUCOVORIN 10MG"
+    },
+    {
+      "Text": "Pyrimethamine 75 mg PO q24h ($$$$$) [DI,O] <AND> clindamycin 600 mg PO q6h",
+      "Item": "ORZ SET ABX PYRIM 75MG Q24H CLINDA 600MG PO Q6H LEUCO 10MG Q24H"
+    },
+    {
+      "Text": "Pyrimethamine 50 mg PO q24h ($$$$$) [DI,O] <AND> clindamycin 600 mg PO q6h",
+      "Item": "ORZ SET ABX PYRIM 50MG Q24H CLINDA 600MG PO Q6H LEUCO 10MG Q24H"
+    },
+    {
+      "Text": "Trimethoprim 5 mg/kg - sulfamethoxazole 25 mg/kg IV q12h ($$$) [R,DI]",
+      "Item": "PSJIZID TRIMETHOPRIM/SULFAMETH 5/25 MG/KG IV Q12H"
+    },
+    {
+      "Text": "Trimethoprim 5 mg/kg - sulfamethoxazole 25 mg/kg PO q12h ($) [R,DI]",
+      "Item": "PSJZID TRIMETH/SULFA 5/25 MG/KG PO Q12H"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU BRN ABSC TOXOPLASMA GONDII"
+}

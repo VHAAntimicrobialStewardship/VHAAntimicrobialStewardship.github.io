@@ -1,0 +1,42 @@
+{
+  "PageID": "ventilator-associated-pneumonia",
+  "Group": "lung-and-mediastinum",
+  "Term1": "9. Ventilator-associated pneumonia (Navigation)",
+  "Term2": "VAP",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# EMPIRIC TREATMENT: VENTILATOR ASSOCIATED PNEUMONIA (VAP)\n\nPneumonia occurring 48 hours or more after endotracheal intubation\n\n# Empiric Treatment (see below for multidrug resistance (MDR))\n\nObtain MRSA nasal PCR and sputum culture before antibiotics, whenever possible.\n\nNarrow therapy based on results of culture and susceptibility tests. Discontinue\n\nMRSA and/or Pseudomonas coverage if not isolated from respiratory cultures.\n\nDiscontinue MRSA coverage if MRSA nasal PCR negative.\n\n[Re-evaluate Nosocomial pneumonia at 72 hours](orzid2-gmenu-abx-re-evaluate-72hrs-n-pneumo)\n\nPreferred:\n\nSee below for history of Gram-negative resistance to preferred antimicrobials\n\n[Cefepime 2 gm IV q8h R <AND> vancomycin 15 mg/kg IV q12h R  for 7 days](orz-set-abx-cefepime-2gm-iv-q8h-vanco-15mg-kg-iv-q12h)\n\n<OR>\n\n[Piperacillin-tazobactam 4.5 gm IV q6h R <AND> vancomycin 15 mg/kg IV q12h R](orz-set-abx-pip-taz4-5gm-ne-extinf-ci-cefep-metro-vanco15mg-kg)\n\nfor 7 days\n\nHistory of Gram-negative resistance to cefepime and piperacillin-tazobactam\n\nwithin the last year:\n\n[Meropenem 1 gm IV q8h R <AND> vancomycin 15mg/kg IV q12h R for 7 days](orz-set-abx-meropenem-1gm-iv-q8h-vanco-15mg-kg-iv-q12h)\n\nAlternative:\n\n[Assessment of Beta-lactam Reaction](orzid2-gmenu-abx-beta-lactam-allergy-assesment)\n\n[Levofloxacin 750 mg IV q24h R,DI <AND> vancomycin 15 mg/kg IV q12h R for](orz-set-abx-levo-750mg-iv-q24h-and-vanco-15mg-kg-iv-q12h)\n\n7 days\n\n# MDR gram-negative/high severity of illness and MDR risks\n\n> Prior intravenous antibiotic use within 90 days (especially broad spectrum)\n\n> Septic shock at the time of VAP\n\n> ARDS preceding VAP\n\n> 5 or more days of hospitalization prior to the occurrence of VAP\n\n> Acute renal replacement therapy prior to VAP onset\n\n[<ADD> Tobramycin 5 mg/kg IV once R,O to one of the regimens above](psjizid-tobramycin-5-mg-kg-iv-once)\n\n# _______________________________________________________________________________\n\n# References:\n\nKalil AC et al. Clin Infect Dis 2016. 63:1.\n\nPugh R. Cochrane Database Syst Rev. 2015 Aug 24:2015(8):CD00757\n\nDaghmouri MA. EClinicalMedicine. 2023 1:58:101880\n\nDennesen PJ. Am J Respir Crit Care Med 2001. 163:1371.\n\nLuna CM. Crit Care Med 2003. 31:676.\n\nUp-to-date website",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Re-evaluate Nosocomial pneumonia at 72 hours",
+      "Item": "ORZID2 GMENU ABX RE-EVALUATE 72HRS N. PNEUMO"
+    },
+    {
+      "Text": "Cefepime 2 gm IV q8h [R] <AND> vancomycin 15 mg/kg IV q12h [R]  for 7 days",
+      "Item": "ORZ SET ABX CEFEPIME 2GM IV Q8H VANCO 15MG/KG IV Q12H"
+    },
+    {
+      "Text": "Piperacillin-tazobactam 4.5 gm IV q6h [R] <AND> vancomycin 15 mg/kg IV q12h [R]",
+      "Item": "ORZ SET ABX PIP/TAZ4.5GM(NE-EXTINF,CI-CEFEP/METRO) VANCO15MG/KG"
+    },
+    {
+      "Text": "Meropenem 1 gm IV q8h [R] <AND> vancomycin 15mg/kg IV q12h [R] for 7 days",
+      "Item": "ORZ SET ABX MEROPENEM 1GM IV Q8H VANCO 15MG/KG IV Q12H"
+    },
+    {
+      "Text": "Assessment of Beta-lactam Reaction",
+      "Item": "ORZID2 GMENU ABX BETA-LACTAM ALLERGY ASSESMENT"
+    },
+    {
+      "Text": "Levofloxacin 750 mg IV q24h [R,DI] <AND> vancomycin 15 mg/kg IV q12h [R] for",
+      "Item": "ORZ SET ABX LEVO 750MG IV Q24H AND VANCO 15MG/KG IV Q12H"
+    },
+    {
+      "Text": "<ADD> Tobramycin 5 mg/kg IV once [R,O] to one of the regimens above",
+      "Item": "PSJIZID TOBRAMYCIN 5 MG/KG IV ONCE"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX PNEUMONIA VAP"
+}

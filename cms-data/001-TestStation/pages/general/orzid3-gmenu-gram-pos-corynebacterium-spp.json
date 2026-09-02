@@ -1,0 +1,14 @@
+{
+  "PageID": "orzid3-gmenu-gram-pos-corynebacterium-spp",
+  "Group": "general",
+  "Term1": "orzid3-gmenu-gram-pos-corynebacterium-spp",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](orzid3-gmenu-abx-general-information-outpatient)\n\n# CORYNEBACTERIUM SPP.\n\nOptimal therapy depends on both the disease or syndrome and the pathogen. See\n\ndisease/syndrome sections for more information.\n\n# For Corynebacterium diphtheriae isolates, contact infectious diseases\n\n# Corynebacterium jeikeium\n\nFor intravenous treatment options, please refer to Inpatient Antimicrobial CDSS.\n\n# _______________________________________________________________________________\n\n# References:\n\nSanford Guide article: Corynebacterium diptheriae\n\nSanford Guide article: Corynebacterium jeikeium\n\nUp-To-Date article: Clinical manifestations, diagnosis, and treatment of\n\ndiptheria",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "ORZID3 GMENU ABX GENERAL INFORMATION OUTPATIENT"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU GRAM-POS CORYNEBACTERIUM SPP."
+}

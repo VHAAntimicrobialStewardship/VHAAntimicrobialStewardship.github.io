@@ -1,0 +1,9 @@
+{
+  "PageID": "ice-assessment-for-icans",
+  "Group": "general",
+  "Term1": "ice-assessment-for-icans",
+  "Term2": "",
+  "Text": "# ASSESSMENT:\n\n# Immune Effector Cell-Associated Encephalopathy (ICE)\n\nIf the patient's ICE score is 9 or below,\n\nnotify physician immediately.\n\n# Orientation\n\n# Orientation to year, month, city, hospital\n\n# 4 points\n\n# Naming\n\n# Ability to name 3 objects (e.g. point\n\n# 3 points\n\n# to clock, pen, button)\n\n# Following Commands\n\n# Ability to follow simple comands (e.g.\n\n# 1 point\n\n# \"Show me 2 fingers\" or \"Close your eyes\n\n# and stick out your tongue\")\n\n# Writing\n\n# Ability to write a simple sentence (e.g.\n\n# 1 point\n\n# \"Our national bird is the bald eagle.\")\n\n# Attention\n\n# Ability to count backwards from 100 to 10\n\n# 1 point",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU ICE ASSESSMENT FOR ICANS"
+}

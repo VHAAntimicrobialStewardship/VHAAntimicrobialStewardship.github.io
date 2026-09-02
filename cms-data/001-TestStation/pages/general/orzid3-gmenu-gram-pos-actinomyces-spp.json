@@ -1,0 +1,38 @@
+{
+  "PageID": "orzid3-gmenu-gram-pos-actinomyces-spp",
+  "Group": "general",
+  "Term1": "orzid3-gmenu-gram-pos-actinomyces-spp",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](orzid3-gmenu-abx-general-information-outpatient)\n\n# ACTINOMYCES SPP.\n\nOptimal therapy depends on both the disease or syndrome and the pathogen. See\n\ndiagnosis/syndrome section for more information.\n\nFor intravenous treatment options, please refer to Inpatient Antimicrobial CDSS.\n\n# Preferred treatment\n\n[Penicillin VK 500 mg PO QID \\($\\) R](psozid-penicillin-500mg-po-qid)\n\n[Non-VA order for above](pshzid-penicillin-500mg-po-qid)\n\n<OR>\n\n[Amoxicillin 500 mg PO TID \\($\\) R](psozid-amoxicillin-500-mg-po-tid)\n\n[Non-VA order for above](pshzid-amoxicillin-500-mg-po-tid)\n\n# Alternative for patients with beta-lactam allergy\n\n[Doxycycline 100 mg PO BID \\($\\) DI](psozid-doxycycline-100mg-po-bid)\n\n[Non-VA order for above](pshzid-doxycycline-100mg-po-bid)\n\n# _______________________________________________________________________________\n\n# References:\n\nSanford Guide article: Actinomycosis\n\nUp-To-Date article: Treatment of actinomycosis",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "ORZID3 GMENU ABX GENERAL INFORMATION OUTPATIENT"
+    },
+    {
+      "Text": "Penicillin VK 500 mg PO QID ($) [R]",
+      "Item": "PSOZID PENICILLIN 500MG PO QID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID PENICILLIN 500MG PO QID"
+    },
+    {
+      "Text": "Amoxicillin 500 mg PO TID ($) [R]",
+      "Item": "PSOZID AMOXICILLIN 500 MG PO TID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID AMOXICILLIN 500 MG PO TID"
+    },
+    {
+      "Text": "Doxycycline 100 mg PO BID ($) [DI]",
+      "Item": "PSOZID DOXYCYCLINE 100MG PO BID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID DOXYCYCLINE 100MG PO BID"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU GRAM-POS ACTINOMYCES SPP."
+}

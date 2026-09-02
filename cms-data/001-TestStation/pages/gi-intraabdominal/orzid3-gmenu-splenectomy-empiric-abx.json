@@ -1,0 +1,30 @@
+{
+  "PageID": "orzid3-gmenu-splenectomy-empiric-abx",
+  "Group": "gi-intraabdominal",
+  "Term1": "orzid3-gmenu-splenectomy-empiric-abx",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](orzid3-gmenu-abx-general-information-outpatient)\n\n# Self-medicate Empiric Antibiotics for Fever or Other Signs of Systemic Infectio\n\nPatients should keep an emergency supply of antibiotics on hand to be used\n\nfor the development of fever or other signs of systemic infection, and\n\nseek medical care immediately if these symptoms develop.\n\n# Recommendations to self- medicate:\n\n[Amoxicillin-clavulanate 875MG PO BID for asplenia empiric antibiotic \\($\\) R](psozid-amoxicillin-clavulanate-875-125mg-po-bid-asplenia)\n\n< OR >\n\n[Cefuroxime 500MG PO BID for asplenia empiric antibiotic \\($\\) R](psozid-cefuroxime-500mg-po-bid-asplenia)\n\n# Alternative recommendation for penicillin/beta-lactam allergy:\n\n[Click here Beta-lactam reaction assessment](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Levofloxacin 750MG PO QDAY for asplenia empiric antibiotic \\($\\) R,DI](psozid-levofloxacin-750mg-po-qdaily-asplenia)\n\n# References\n\nUp-to-Date online\n\nKeenan RD, Br J Haematol 1999. 105:509",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "ORZID3 GMENU ABX GENERAL INFORMATION OUTPATIENT"
+    },
+    {
+      "Text": "Amoxicillin-clavulanate 875MG PO BID for asplenia empiric antibiotic ($) [R]",
+      "Item": "PSOZID AMOXICILLIN-CLAVULANATE 875/125MG PO BID ASPLENIA"
+    },
+    {
+      "Text": "Cefuroxime 500MG PO BID for asplenia empiric antibiotic ($) [R]",
+      "Item": "PSOZID CEFUROXIME 500MG PO BID ASPLENIA"
+    },
+    {
+      "Text": "[Click here] Beta-lactam reaction assessment",
+      "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
+    },
+    {
+      "Text": "Levofloxacin 750MG PO QDAY for asplenia empiric antibiotic ($) [R,DI]",
+      "Item": "PSOZID LEVOFLOXACIN 750MG PO QDAILY ASPLENIA"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU SPLENECTOMY EMPIRIC ABX"
+}

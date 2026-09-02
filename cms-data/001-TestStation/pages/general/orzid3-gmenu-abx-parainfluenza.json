@@ -1,0 +1,14 @@
+{
+  "PageID": "orzid3-gmenu-abx-parainfluenza",
+  "Group": "general",
+  "Term1": "orzid3-gmenu-abx-parainfluenza",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](orzid3-gmenu-abx-general-information-outpatient)\n\n# PARAINFLUENZA\n\nNo specific antimicrobial therapy is indicated. Contact Infectious Diseases for\n\nmore information on management of this disease.\n\nReferences:\n\nSanford keyword: Parainfluenza virus",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "ORZID3 GMENU ABX GENERAL INFORMATION OUTPATIENT"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU ABX PARAINFLUENZA"
+}

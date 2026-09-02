@@ -1,0 +1,38 @@
+{
+  "PageID": "suppurative-intracranial-thrombophlebitis",
+  "Group": "cns",
+  "Term1": "Suppurative intracranial thrombophlebitis",
+  "Term2": "Thrombophlebitis, suppurative intracranial",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# SUPPURATIVE INTRACRANIAL THROMBOPHLEBITIS\n\nAdjust therapy from empirical regimens listed below after consultation with\n\nInfectious Disease or Neurosurgery services. Beta-lactam antibiotics are more\n\neffective than vancomycin against susceptible Staphylococci. If Staphylococcus\n\nis isolated, once methicillin-resistance is ruled out, switch to an anti-\n\nstaphylococcal beta-lactam antibiotic. Pseudomonas is a potential pathogen in\n\npost-surgical patients or patients with known pseudomonas colonization.\n\nConsult Infectious Disease and Neurosurgery.\n\n# Duration of Therapy\n\nTreat for 3 to 6 weeks.\n\n# Empiric Treatment\n\nPreferred if Pseudomonas is not suspected:\n\n[Ceftriaxone 2 gm IV q12h \\($\\) M <AND> metronidazole 500 mg IV q8h](orz-set-abx-ceftr-2gm-metro-500mg-iv-q8h-vanco-15mg-kg-iv-q12h)\n\n($) [DI] <AND> vancomycin 15 mg/kg IV q12h ($) [R]\n\nPreferred if Pseudomonas is suspected:\n\n[Cefepime 2gm IV Q8h \\($$\\) R <AND> metronidazole 500 mg IV q8h \\($\\) DI](orz-set-abx-cefe2gmivq8h-metro500mgivq8h-vanco15mg-kgivq12hstat)\n\n<AND> vancomycin 15 mg/kg IV q12h ($) [R]\n\nAlternative:\n\n[Assessment of beta-lactam reaction](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Meropenem 2 gm IV q8h \\($$\\) R,O  <AND> vancomycin 15mg/kg IV q12h \\($\\) R](orz-set-abx-meropenem-2gm-iv-q8h-vanco-15mg-kg-iv-q12h)\n\n# Treatment if Methicillin-Sensitive S. Aureus is Isolated\n\n[Nafcillin 2 gm IV q4h \\($$\\) R,DI](psjizid-nafcillin-2gm-iv-q4h)\n\n< OR >\n\n[Cefazolin 2 gm IV q8h \\($\\) R](psjizid-cefazolin-2gm-ivpb-q8h)\n\n# _______________________________________________________________________________\n\nReferences:\n\nKombogiorgas et al, British Journal of Neurosurgery, 2007, 21(6)603 - 609\n\nMandell chapter: Subdural Empyema, Epidural Abscess, and Suppurative\n\nIntracranial Thrombophlebitis",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Ceftriaxone 2 gm IV q12h ($) [M] <AND> metronidazole 500 mg IV q8h",
+      "Item": "ORZ SET ABX CEFTR 2GM METRO 500MG IV Q8H VANCO 15MG/KG IV Q12H"
+    },
+    {
+      "Text": "Cefepime 2gm IV Q8h ($$) [R] <AND> metronidazole 500 mg IV q8h ($) [DI]",
+      "Item": "ORZ SET ABX CEFE2GMIVQ8H METRO500MGIVQ8H VANCO15MG/KGIVQ12HSTAT"
+    },
+    {
+      "Text": "Assessment of beta-lactam reaction",
+      "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
+    },
+    {
+      "Text": "Meropenem 2 gm IV q8h ($$) [R,O] ] <AND> vancomycin 15mg/kg IV q12h ($) [R]",
+      "Item": "ORZ SET ABX MEROPENEM 2GM IV Q8H VANCO 15MG/KG IV Q12H"
+    },
+    {
+      "Text": "Nafcillin 2 gm IV q4h ($$) [R,DI]",
+      "Item": "PSJIZID NAFCILLIN 2GM IV Q4H"
+    },
+    {
+      "Text": "Cefazolin 2 gm IV q8h ($) [R]",
+      "Item": "PSJIZID CEFAZOLIN 2GM IVPB Q8H"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU SUPP INTRACRANIAL THROMBOPH"
+}

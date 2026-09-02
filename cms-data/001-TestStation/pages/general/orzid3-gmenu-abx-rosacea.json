@@ -1,0 +1,30 @@
+{
+  "PageID": "orzid3-gmenu-abx-rosacea",
+  "Group": "general",
+  "Term1": "orzid3-gmenu-abx-rosacea",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# ROSACEA\n\nRosacea is an inflammatory skin condition resulting in erythema and\n\ntelangiectasia of nose, cheeks, eyelids, and forehead. It typically occurs in\n\nmid-life and the etiology is unknown. Erythematous rosacea is the early stage of\n\nthe disease and usually manifests with flushing reactions and persistently\n\nerythematous skin. Late-stage disease is known as papulopustular rosace.\n\nSymptoms include papular, pustular, cysts and nodules. Severe disease results in\n\ntissue atrophy and rhinophyma (bulbus nose).\n\nThe goal of treatment is control of symptoms, not cure. General treatment\n\nmeasures include avoiding triggers (e.g. spicy food, alcohol), skin care (e.g.\n\nmoisturizing, gentle cleansing, avoiding topical irritants) and using sun\n\nscreen. Medical treatment includes topical agents as first line therapy and oral\n\ntreatment for refractory disease.\n\n# Papulopustular rosacea\n\nPreferred:\n\n[Metronidazole 0.75% cream topically q24h \\($\\) DI](psozid-metronidazole-0-75-cream-topically-q24h)\n\nAlternative:\n\n[Doxycycline 50 mg PO q12h \\($\\) DI for 12 weeks](psozid2-doxycycline-12wks-50mg-po-q12h)\n\n< OR >\n\n[Minocycline 50 mg PO q12h \\($\\) DI for 12 weeks](psozid2-minocylcine-12wks-50mg-po-q12h)\n\n________________________________________________________________________________\n\n**FOR DERMATOLOGY USE ONLY, REQUIRES DERMATOLOGY CONSULT PRIOR TO TREATMENT**\n\n[Recalcitrant Rosacea](orzid3-gmenu-abx-recalcitrant-acne-and-rosacea)\n\n________________________________________________________________________________\n\nReferences:\n\nSanford keyword: Acne Rosacea\n\nUp-to-Date Article: Rosacea: Pathogenesis, clinical features, and diagnosis\n\nUp-to-Date Article: Management of rosacea\n\nvan Zuuren EJ et al., N Engl J Med, 2017, 377(18)1754-1764",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Metronidazole 0.75% cream topically q24h ($) [DI]",
+      "Item": "PSOZID METRONIDAZOLE 0.75% CREAM TOPICALLY Q24H"
+    },
+    {
+      "Text": "Doxycycline 50 mg PO q12h ($) [DI] for 12 weeks",
+      "Item": "PSOZID2 DOXYCYCLINE 12WKS 50MG PO Q12H"
+    },
+    {
+      "Text": "Minocycline 50 mg PO q12h ($) [DI] for 12 weeks",
+      "Item": "PSOZID2 MINOCYLCINE 12WKS 50MG PO Q12H"
+    },
+    {
+      "Text": "Recalcitrant Rosacea",
+      "Item": "ORZID3 GMENU ABX RECALCITRANT ACNE AND ROSACEA"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU ABX ROSACEA"
+}

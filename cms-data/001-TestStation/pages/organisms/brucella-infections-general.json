@@ -1,0 +1,18 @@
+{
+  "PageID": "brucella-infections-general",
+  "Group": "organisms",
+  "Term1": "Brucella infections, general",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# BRUCELLA SPECIES\n\n# Consult Infectious Diseases in all cases\n\n# Preferred treatment\n\n[Doxycycline 100 mg PO q12h DI < AND > rifampin 600 mg PO q24h DI,O](orz-set-abx-doxycy-100mg-po-q12h-rifamp-600mg-po-q24h)\n\n# _______________________________________________________________________________\n\n# References:\n\nSanford keyword: Brucella sp., Brucellosis, Febrile Illness\n\nUp-To-Date article: Clinical manifestations, diagnosis, and treatment of\n\nbrucellosis",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Doxycycline 100 mg PO q12h [DI] < AND > rifampin 600 mg PO q24h [DI,O]",
+      "Item": "ORZ SET ABX DOXYCY 100MG PO Q12H RIFAMP 600MG PO Q24H"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU GRAM-NEG FINAL BRUCELLA SPP."
+}

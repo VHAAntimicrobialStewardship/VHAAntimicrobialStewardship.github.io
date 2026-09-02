@@ -1,0 +1,66 @@
+{
+  "PageID": "orzid3-gmenu-infect-diarrhea-gastroent",
+  "Group": "general",
+  "Term1": "orzid3-gmenu-infect-diarrhea-gastroent",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](orzid3-gmenu-abx-general-information-outpatient)\n\n# INFECTIOUS DIARRHEA / GASTROENTERITIS\n\nMost episodes of acute diarrhea are self-limited. In most mild to moderate\n\ncases, antimicrobial therapy does not provide benefit.\n\n# Bloody diarrhea\n\nBloody diarrhea can represent hemorrhagic colitis or dysentery. Antimicrobial\n\ntherapy and antimotility agents are not recommended in most patients with bloody\n\ndiarrhea due to an increased risk of hemolytic uremic syndrome when using these\n\nagents.\n\n# Primary treatment\n\nHydration and electrolyte replacement\n\n# Empirical antimicrobial treatment of diarrhea\n\n[Community acquired diarrhea \\(no recent travel\\)](orzid3-gmenu-com-acq-diarrhea-no-travel)\n\n[Traveler's diarrhea](orzid3-gmenu-traveler-diarrhea)\n\n# Treatment of diarrhea caused by specific bacteria, parasites, and viruses\n\n[Campylobacter](orzid3-gmenu-diarrhea-campylobacter)\n\nClostridioides difficile:\n\n[Mild to moderate disease](orzid3-gmenu-cdifficile-colitis)\n\n[Severe/life-threatening disease \\(shock, ileus, and megacolon\\)](orzid3-gmenu-ileus-toxi-megacolon)\n\n[Cryptosporidium spp](orzid3-gmenu-diarrhea-c-parvum)\n\n[Escherichia coli, including varieties listed below:](orzid3-gmenu-diarrhea-enterohem-e-coli)\n\nEnteroaggretive E. coli (EAEC), Enterotoxigenic E. coli (ETEC),\n\nEnterohemorrhagic E. coli (EHEC), Shiga Toxin-producing E. coli (STEC),\n\nEnteropathogenic E. coli (EPEC), Enteroinvasive E. Coli (EIEC)\n\n[Giardia duodenalis](orzid3-gmenu-diarrhea-g-lamblia)\n\n[Norovirus](orzid3-gmenu-comm-viral-gastroenteritis)\n\n[Rotavirus](orzid3-gmenu-comm-viral-gastroenteritis)\n\n[Salmonella](orzid3-gmenu-diarrhea-salmonella)\n\n[Shigella](orzid3-gmenu-diarrhea-shigella)\n\n[Vibrio cholerae](orzid3-gmenu-diarrhea-vibrio-cholera)\n\n[Yersinia enterocolitica](orzid3-gmenu-diarrhea-y-enterocolitica)\n\n# _______________________________________________________________________________\n\nReferences:\n\nMandell chapter: Nausea, Vomiting, and Noninflammatory Diarrhea\n\nSanford Guide article: Gastroenteritis, Diarrhea: Overview\n\nDOI: 10.1093/cid/cix669-Shane et al, Clinical Infectious Diseases 2017,\n\n65(12):45-80\n\nUp-To-Date article: Approach to the adult with acute diarrhea in resource-rich\n\nsettings",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "ORZID3 GMENU ABX GENERAL INFORMATION OUTPATIENT"
+    },
+    {
+      "Text": "Community acquired diarrhea (no recent travel)",
+      "Item": "ORZID3 GMENU COM ACQ DIARRHEA/NO TRAVEL"
+    },
+    {
+      "Text": "Traveler's diarrhea",
+      "Item": "ORZID3 GMENU TRAVELER DIARRHEA"
+    },
+    {
+      "Text": "Campylobacter",
+      "Item": "ORZID3 GMENU DIARRHEA CAMPYLOBACTER"
+    },
+    {
+      "Text": "Mild to moderate disease",
+      "Item": "ORZID3 GMENU CDIFFICILE COLITIS"
+    },
+    {
+      "Text": "Severe/life-threatening disease (shock, ileus, and megacolon)",
+      "Item": "ORZID3 GMENU ILEUS/TOXI MEGACOLON"
+    },
+    {
+      "Text": "Cryptosporidium spp",
+      "Item": "ORZID3 GMENU DIARRHEA C. PARVUM"
+    },
+    {
+      "Text": "Escherichia coli, including varieties listed below:",
+      "Item": "ORZID3 GMENU DIARRHEA ENTEROHEM E. COLI"
+    },
+    {
+      "Text": "Giardia duodenalis",
+      "Item": "ORZID3 GMENU DIARRHEA G. LAMBLIA"
+    },
+    {
+      "Text": "Norovirus",
+      "Item": "ORZID3 GMENU COMM VIRAL GASTROENTERITIS"
+    },
+    {
+      "Text": "Salmonella",
+      "Item": "ORZID3 GMENU DIARRHEA SALMONELLA"
+    },
+    {
+      "Text": "Shigella",
+      "Item": "ORZID3 GMENU DIARRHEA SHIGELLA"
+    },
+    {
+      "Text": "Vibrio cholerae",
+      "Item": "ORZID3 GMENU DIARRHEA VIBRIO CHOLERA"
+    },
+    {
+      "Text": "Yersinia enterocolitica",
+      "Item": "ORZID3 GMENU DIARRHEA Y. ENTEROCOLITICA"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU INFECT DIARRHEA/GASTROENT"
+}

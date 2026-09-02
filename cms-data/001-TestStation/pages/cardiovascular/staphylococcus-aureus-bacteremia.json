@@ -1,0 +1,30 @@
+{
+  "PageID": "staphylococcus-aureus-bacteremia",
+  "Group": "cardiovascular",
+  "Term1": "Staphylococcus aureus bacteremia",
+  "Term2": "Bacteremia, S. aureus",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# BACTEREMIA ASSOCIATED WITH STAPHYLOCOCCUS AUREUS\n\n# Consult Infectious Diseases in all cases.\n\nTransthoracic echocardiography (TTE) should be performed to rule out infectious\n\nendocarditis. Consult Cardiology or Infectious Diseases for more information.\n\nRefer to cardiovascular section for suspected infectious endocarditis.\n\n[Approach to Endocarditis](orzid2-gmenu-abx-appro-to-endocarditis)\n\nFollow-up blood cultures should be obtained within 24-48 hours after initiating\n\nantimicrobial therapy.\n\n# Duration of therapy:\n\nTreatment duration requires assessing complexity of infection. Uncomplicated\n\nbacteremia are those who meet the following criteria:\n\n1. Infectious endocarditis has been excluded via TTE\n\n2. Resolution of fever within 3 days of initiating anti-staphylococci\n\nantimicrobial therapy\n\n3. The primary focus of infection has been promptly removed\n\n4. Negative blood cultures within 2-3 days of removing focus of infection and\n\ninitiating anti-staphylococci antimicrobial therapy\n\n5. No hematogenous spread of infection to secondary foci\n\n6. No presence of implanted devices\n\nTreat for 2 weeks after last negative blood culture set in uncomplicated\n\nbacteremia. If there is an easily removable or drainable focus (e.g. infected\n\nintravenous catheter, minor abscess, urinary cystitis, or mild to moderate\n\npneumonia), and this focus has been treated, give parenteral antimicrobials for\n\n2 weeks. Complicated bacteremia requires 4-6 weeks of treatment.\n\n# Treatment of methicillin-susceptible Staphylococcus aureus (MSSA) (mec-A\n\n# negative)\n\n[Cefazolin 2 gm IV q8h \\($\\) R](psjizid-cefazolin-2gm-ivpb-q8h)\n\n< OR >\n\n[Nafcillin 2 gm IV q4h \\($$\\) R](psjizid-nafcillin-2gm-iv-q4h)\n\n# Treatment of methicillin-resistant Staphylococcus aureus (MRSA) (mec-A positive)\n\n[Vancomycin 15 mg/kg IV q12h \\($\\) R](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n\n# _______________________________________________________________________________\n\nReferences:\n\nMedical Letter Choice of Antimicrobials 2010, 8.94\n\nSanford keyword: Staphylococcus aureus, MSSA\n\nSanford keyword: Staphylococcus aureus, MRSA\n\nSanford keyword: Bacteremia, Staph. Aureus\n\nUp-to-Date article: Detection of bacteremia: Blood cultures and other diagnostic\n\ntests\n\nUp-to-Date article: Clinical approach to Staphylococcus aureus bacteremia in\n\nadults\n\nUp-to-Date article: Methicillin-resistant Staphylococcus aureus (MRSA) in\n\nadults: Treatment of bacteremia",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Approach to Endocarditis",
+      "Item": "ORZID2 GMENU ABX APPRO TO ENDOCARDITIS"
+    },
+    {
+      "Text": "Cefazolin 2 gm IV q8h ($) [R]",
+      "Item": "PSJIZID CEFAZOLIN 2GM IVPB Q8H"
+    },
+    {
+      "Text": "Nafcillin 2 gm IV q4h ($$) [R]",
+      "Item": "PSJIZID NAFCILLIN 2GM IV Q4H"
+    },
+    {
+      "Text": "Vancomycin 15 mg/kg IV q12h ($) [R]",
+      "Item": "ORZ SET ABX VANCO NEW START 15MG/KG Q12H + MRSA NARES SCREENING"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU BACTEREMIA S. AUREUS"
+}

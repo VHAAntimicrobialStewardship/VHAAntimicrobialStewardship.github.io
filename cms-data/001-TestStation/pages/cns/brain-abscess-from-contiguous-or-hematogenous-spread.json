@@ -1,0 +1,38 @@
+{
+  "PageID": "brain-abscess-from-contiguous-or-hematogenous-spread",
+  "Group": "cns",
+  "Term1": "Brain abscess from contiguous or hematogenous spread",
+  "Term2": "Contiguous spread, brain abscess",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# BRAIN ABSCESS FROM CONTIGUOUS OR HEMATOGENOUS SPREAD OF INFECTION\n\nPrior to beginning antimicrobial therapy, when possible, computed topographic\n\n(CT) - guided aspiration or surgery should be performed to obtain abscess\n\nmaterial for determination of infectious pathogen. Adjust antimicrobial regimen\n\nto optimize therapy and treatment duration to optimize therapy based on pathogen\n\nonce isolated.\n\nBroad spectrum empiric antimicrobials are indicated initially for brain abscess.\n\nStaphylococcus aureus is a common pathogen. Beta-lactam antibiotics are more\n\neffective than vancomycin for susceptible Staphylococci. If Staphylococcus is\n\nisolated, once methicillin- resistance is ruled out, switch to an\n\nanti-staphylococcal beta-lactam antibiotic. Pseudomonas is a potential pathogen\n\nin post-surgical patients, and those who are known to be colonized with\n\nPseudomonas.\n\n# Consult Neurosurgery, Neurology, and Infectious Disease\n\n# Duration of Therapy\n\nDuration is typically 6-8 weeks, with the shorter duration for those with\n\ncerebritis only or drained abscess, longer for undrained or encapsulated\n\nabscesses, multiple or loculated abscesses, abscess in an immunocompromised\n\nhost.\n\n# Empiric Treatment for Solitary Brain Abscess from Contiguous Source\n\nPreferred:\n\n[Ceftriaxone 2 gm IV q12h \\($\\) M <AND> metronidazole 500 mg IV q8h \\($\\) DI](orz-set-abx-ceftriax-2gm-iv-q12h-metro-500mg-iv-q8h)\n\nAlternative:\n\n[Assessment of beta-lactam reaction](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Meropenem 2 gm IV q8h \\($$\\) R,O](psjizid-meropenem-2gm-iv-q8h)\n\n# Empiric Treatment for Solitary Brain Abscess from Unknown Source, From\n\n# Hematogenous Spread, Multiple Brain Abscesses or History of MRSA Infection or\n\n# Colonization\n\nPreferred if Pseudomonas is not likely:\n\n[Ceftriaxone 2 gm IV q12h \\($\\) M <AND> metronidazole 500 mg IV q8h](orz-set-abx-ceftr-2gm-metro-500mg-iv-q8h-vanco-15mg-kg-iv-q12h)\n\n($) [DI] <AND> vancomycin 15 mg/kg IV q12h ($) [R]\n\nPreferred if Pseudomonas is likely:\n\n[Cefepime 2gm IV Q8h \\($$\\) R <AND> metronidazole 500 mg IV q8h \\($\\) DI](orz-set-abx-cefe2gmivq8h-metro500mgivq8h-vanco15mg-kgivq12hstat)\n\n<AND> vancomycin 15 mg/kg IV q12h ($) [R]\n\nAlternative:\n\n[Assessment of beta-lactam reaction](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Meropenem 2 gm IV q8h \\($$\\) R,O  <AND> vancomycin 15mg/kg IV q12h \\($\\) R](orz-set-abx-meropenem-2gm-iv-q8h-vanco-15mg-kg-iv-q12h)\n\n# _______________________________________________________________________________\n\nReferences:\n\nBrouwer et al. N Engl J Med, 2014, 371(5)447-56\n\nMandell chapter: Brain Abscess\n\nSanford keyword: Brain Abscess\n\nUp-to-Date article: Treatment and Prognosis of Bacterial Brain Abscess\n\nUp-to-Date article: Pathogenesis, clinical manifestations, and diagnosis of\n\nbrain abscess",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Ceftriaxone 2 gm IV q12h ($) [M] <AND> metronidazole 500 mg IV q8h ($) [DI]",
+      "Item": "ORZ SET ABX CEFTRIAX 2GM IV Q12H METRO 500MG IV Q8H"
+    },
+    {
+      "Text": "Assessment of beta-lactam reaction",
+      "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
+    },
+    {
+      "Text": "Meropenem 2 gm IV q8h ($$) [R,O]",
+      "Item": "PSJIZID MEROPENEM 2GM IV Q8H"
+    },
+    {
+      "Text": "Ceftriaxone 2 gm IV q12h ($) [M] <AND> metronidazole 500 mg IV q8h",
+      "Item": "ORZ SET ABX CEFTR 2GM METRO 500MG IV Q8H VANCO 15MG/KG IV Q12H"
+    },
+    {
+      "Text": "Cefepime 2gm IV Q8h ($$) [R] <AND> metronidazole 500 mg IV q8h ($) [DI]",
+      "Item": "ORZ SET ABX CEFE2GMIVQ8H METRO500MGIVQ8H VANCO15MG/KGIVQ12HSTAT"
+    },
+    {
+      "Text": "Meropenem 2 gm IV q8h ($$) [R,O] ] <AND> vancomycin 15mg/kg IV q12h ($) [R]",
+      "Item": "ORZ SET ABX MEROPENEM 2GM IV Q8H VANCO 15MG/KG IV Q12H"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU BRN ABSC CONT HEMATO SPRD INFECT"
+}

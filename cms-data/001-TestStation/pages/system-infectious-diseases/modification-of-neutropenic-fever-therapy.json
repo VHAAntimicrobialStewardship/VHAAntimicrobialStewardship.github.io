@@ -1,0 +1,26 @@
+{
+  "PageID": "modification-of-neutropenic-fever-therapy",
+  "Group": "system-infectious-diseases",
+  "Term1": "Modification of neutropenic fever therapy",
+  "Term2": "Neutropenic fever, modification of therapy",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\nMODIFICATION TO NEUTROPENIC FEVER THERAPY\n\nDetermine efficacy of the initial regimen during the first 3 to 5 days.\n\nDecisions about therapy should be made based on (1) whether an infectious\n\ndisease has been diagnosed (e.g., pneumonia or cellulitis), (2) whether the\n\nfever has resolved, and (3) the clinical course.\n\nIf a specific infectious disease and/or pathogen is identified, ensure that the\n\nantimicrobial regimen is adequate to treat that pathogen or disease, and\n\ncontinue broad-spectrum antimicrobial therapy.\n\n# Treatment\n\n[Patients who BECOME AFEBRILE in the first 3 to 5 days of treatment](orzid2-gmenu-neut-fever-pt-become-afebrile)\n\n[Patients whose FEVER PERSISTS throughout the first 3 to 5 days of treatment](orzid2-gmenu-neut-fever-pt-fever-persists)\n\n[References](orzid2-gmenu-abx-references)\n\nHughes WT Clin Infect Dis 2002, 34: 730\n\n(www.journals.uchicago.edu/doi/pdf/10.1086/339215)\n\nRolston KVI Clin Infect Dis 2004, 39: S44\n\nSipsas NV  Cancer 2005, 103: 1103",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Patients who BECOME AFEBRILE in the first 3 to 5 days of treatment",
+      "Item": "ORZID2 GMENU NEUT FEVER PT BECOME AFEBRILE"
+    },
+    {
+      "Text": "Patients whose FEVER PERSISTS throughout the first 3 to 5 days of treatment",
+      "Item": "ORZID2 GMENU NEUT FEVER PT FEVER PERSISTS"
+    },
+    {
+      "Text": "References",
+      "Item": "ORZID2 GMENU ABX REFERENCES"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU NEUT FEVER MOD THERAPY"
+}

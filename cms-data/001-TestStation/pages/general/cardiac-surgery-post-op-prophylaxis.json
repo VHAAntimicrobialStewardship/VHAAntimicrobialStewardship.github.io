@@ -1,0 +1,26 @@
+{
+  "PageID": "cardiac-surgery-post-op-prophylaxis",
+  "Group": "general",
+  "Term1": "Cardiac surgery post-op prophylaxis",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# CV SURGERY (OPEN HEART) MVAHCS POSTOPERATIVE PROPHYLAXIS RECOMMENDATIONS\n\nPlace post-op IV antimicrobial prophylaxis orders after admission to ward.\n\nDuration of antimicrobial prophylaxis should not exceed 24 hours. Durations\n\nlonger than 24 hours have not been shown effective in preventing cardiothoracic\n\nsurgical site infections. There is no benefit to continuing antimicrobial\n\nprophylaxis until all indwelling drains and intravascular catheters are removed.\n\nFor CIED surgery postoperative antimicrobial prophylaxis click link below:\n\n[CIED Surgery Postoperative Prophylaxis](orzid2-gmenu-surg-vascular-surg-postop)\n\n# CV Surgery (including CAB and TAVR) Postoperative Prophylaxis\n\n[Cefuroxime 1.5 gm IV q8h x 1 dose post-op \\($$\\) R <AND> vancomycin 15 mg/kg](orz-set-abx-cefur-1-5g-vanco-15mg-kg-postop-card)\n\n(pharmacy to dose) IV q12h x 1 dose post-op ($) [R]\n\nAlternative for patient with cephalosporin allergy\n\nLevofloxacin has a duration of action of 24 hours. If patient received a pre-op\n\ndose of levofloxacin, a post-op dose is not required.\n\n[Vancomycin 15 mg/kg \\(pharmacy to dose\\) IV q12h x 1 dose post-op \\($\\) R](psjizid-vancomycin-15mg-kg-postoperative-q12h-once)\n\nReferences:\n\nBratzler DW et al, Clinical Practice Guidelines for Antimicrobial Prophylaxis in\n\nSurgery, Am J Health-Syst Pharm (2013) 70:195-283",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "CIED Surgery Postoperative Prophylaxis",
+      "Item": "ORZID2 GMENU SURG VASCULAR SURG POSTOP"
+    },
+    {
+      "Text": "Cefuroxime 1.5 gm IV q8h x 1 dose post-op ($$) [R] <AND> vancomycin 15 mg/kg",
+      "Item": "ORZ SET ABX CEFUR 1.5G VANCO 15MG/KG POSTOP CARD"
+    },
+    {
+      "Text": "Vancomycin 15 mg/kg (pharmacy to dose) IV q12h x 1 dose post-op ($) [R]",
+      "Item": "PSJIZID VANCOMYCIN 15MG/KG POSTOPERATIVE Q12H ONCE"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU SURG CV POSTOP"
+}

@@ -1,0 +1,18 @@
+{
+  "PageID": "strep-toxic-shock-syndrome",
+  "Group": "system-infectious-diseases",
+  "Term1": "strep-toxic-shock-syndrome",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\nCRITERIA FOR DIAGNOSIS OF STREPTOCOCCAL TOXIC SHOCK SYNDROME\n\nThese criteria were developed for epidemiological purposes.  Treat cases when\n\nfewer criteria are met if streptococcal TSS seems likely.\n\n1.)  Isolation of Group A Streptococcus from a normally sterile site (eg, blood\n\ncerebrospinal, pleural, or peritoneal fluid, tissue biopsy, or surgical wound)\n\n< AND >\n\n2.)  Hypotension (systolic blood pressure 90 mm Hg in adults\n\n< AND >\n\n# 3.)  Two or more of the following:\n\n# Renal impairment\n\n(creatinine in adults, 2 mg/dL, in children, two-times upper limit of normal\n\nfor age, in patients with pre-existing renal disease two-fold elevation over\n\nbaseline)\n\n# Coagulopathy\n\n(eg, thrombocytopenia, disseminated intravascular coagulation)\n\n# Liver involvement\n\n(eg, two-times upper limit of normal for age of transaminases or bilirubin, in\n\npatients with pre-existing liver disease two-fold elevation over baseline)\n\n# Adult respiratory distress syndrome\n\n# Erythematous macular rash\n\nmay desquamate\n\nSoft tissue necrosis (eg, necrotizing fasciitis, myositis, or gangrene)\n\n[References](orzid2-gmenu-abx-references)\n\nWorking Group on Severe Streptococcal Infections JAMA 1993, 269:390",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "References",
+      "Item": "ORZID2 GMENU ABX REFERENCES"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU STREP TOXIC SHOCK SYNDROME"
+}

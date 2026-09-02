@@ -1,0 +1,30 @@
+{
+  "PageID": "enterobacteriaceae-esbl-nosocomial-pneumonia",
+  "Group": "lung-and-mediastinum",
+  "Term1": "Enterobacteriaceae (ESBL+) nosocomial pneumonia",
+  "Term2": "Nosocomial pneumonia, enterobacteriaceae (ESBL+)",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# NOSOCOMIAL PNEUMONIA WITH ENTEROBACTERALES\n\n# Citrobacter freundii, Klebsiella aerogenes, or Enterobacter cloacae treatment\n\nThese organisms can develop resistance to certain beta-lactams (e.g.,\n\nceftriaxone) despite reported susceptibility or lack of resistance genes on\n\nrapid diagnostic panels\n\n[Cefepime 2 gm IV q8h R for 7 days](psjizid-cefepime-2-gm-iv-q8h)\n\n< OR >\n\n[Ertapenem 1 gm IV q24h R,O for 7 days](psjizid-ertapenem-1gm-iv-q24h)\n\n# _______________________________________________________________________________\n\n# Other Enterobacterales (E. coli, K. pneumoniae, P. mirabilis, etc.) treatment\n\n# Ceftriaxone - susceptible or ESBL gene (CTX-M) not-detected\n\n[Ceftriaxone 2 gm IV q24h M for 7 days](psjizid-ceftriaxone-2gm-iv-q24h)\n\n# Ceftriaxone - resistance or ESBL gene (CTX-M) detected\n\n[Ertapenem 1 gm IV q24h R,O for 7 days](psjizid-ertapenem-1gm-iv-q24h)\n\nIf critically ill:\n\n[Meropenem 2 gm IV q8h R,O for 7 days](psjizid-meropenem-2gm-iv-q8h)\n\n# _______________________________________________________________________________\n\nReferences:\n\nKalil AC et al. Clin Infect Dis 2016. 63:1\n\nTamma PD. Clin Infect Dis. 2024 Aug 7:ciae403. doi: 10.1093/cid/ciae403\n\nUp-to-date website",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Cefepime 2 gm IV q8h [R] for 7 days",
+      "Item": "PSJIZID CEFEPIME 2 GM IV Q8H"
+    },
+    {
+      "Text": "Ertapenem 1 gm IV q24h [R,O] for 7 days",
+      "Item": "PSJIZID ERTAPENEM 1GM IV Q24H"
+    },
+    {
+      "Text": "Ceftriaxone 2 gm IV q24h [M] for 7 days",
+      "Item": "PSJIZID CEFTRIAXONE 2GM IV Q24H"
+    },
+    {
+      "Text": "Meropenem 2 gm IV q8h [R,O] for 7 days",
+      "Item": "PSJIZID MEROPENEM 2GM IV Q8H"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX NOSOCOMIAL ESBL ENTEROBACT"
+}

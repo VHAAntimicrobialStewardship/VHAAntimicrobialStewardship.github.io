@@ -1,0 +1,30 @@
+{
+  "PageID": "orzid3-gmenu-influenza-recommendations-outpatient",
+  "Group": "general",
+  "Term1": "orzid3-gmenu-influenza-recommendations-outpatient",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](orzid3-gmenu-abx-general-information-outpatient)\n\n# SEASONAL INFLUENZA\n\n[Influenza vaccination recommendations](orzid2-gmenu-abx-influenza-vaccination)\n\n[Antiviral Treatment Recommendations](orzid3-gmenu-antiviral-treatment)\n\n[Chemoprophylaxis Recommendations](orzid3-gmenu-influenza-chemoprophylaxis)\n\n[Lab Influenza Testing Menu](orz-gmenu-lab-nasopharyngeal-testing-main)",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "ORZID3 GMENU ABX GENERAL INFORMATION OUTPATIENT"
+    },
+    {
+      "Text": "Influenza vaccination recommendations",
+      "Item": "ORZID2 GMENU ABX INFLUENZA VACCINATION"
+    },
+    {
+      "Text": "Antiviral Treatment Recommendations",
+      "Item": "ORZID3 GMENU ANTIVIRAL TREATMENT"
+    },
+    {
+      "Text": "Chemoprophylaxis Recommendations",
+      "Item": "ORZID3 GMENU INFLUENZA CHEMOPROPHYLAXIS"
+    },
+    {
+      "Text": "Lab Influenza Testing Menu",
+      "Item": "ORZ GMENU LAB NASOPHARYNGEAL TESTING MAIN"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU INFLUENZA RECOMMENDATIONS OUTPATIENT"
+}

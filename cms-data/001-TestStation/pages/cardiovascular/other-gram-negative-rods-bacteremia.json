@@ -1,0 +1,26 @@
+{
+  "PageID": "other-gram-negative-rods-bacteremia",
+  "Group": "cardiovascular",
+  "Term1": "Other Gram-negative rods bacteremia",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# BACTEREMIA ASSOCIATED WITH OTHER GRAM-NEGATIVE RODS\n\n[Pseudomonas bacteremia](orzid2-gmenu-bacteremia-pseudomonas)\n\nOther Gram-negative rods typically associated with bacteremia include\n\nEscherichia coli, Klebsiella pneumoniae, Proteus spp. and other species.\n\nIdentification and treatment of the source of infection, in addition to\n\nantimicrobial therapy, is crucial for resolution of infection. This may include\n\nremoval of catheters and draining of abscesses if present.\n\n# Consult ID for Acinetobacter, Bacteroides and Stenotrophomonas\n\n# Duration of therapy\n\nTreat for a total of 7 days with source control.  Most patients can rapidly\n\ntransition to an oral antibiotic. Call Infectious Diseases or Stewardship Team\n\nfor more information.\n\n# Treatment for non-ESBL producing organisms (e.g. CTX-M negative)\n\n[Ceftriaxone 2 gm IV q24h \\($\\) M](psjizid-ceftriaxone-2gm-iv-q24h)\n\n# Treatment for ESBL producing organisms (e.g. CTX-M positive)\n\n[Meropenem 1 gm IV q8h \\($$\\) R,O](psjizid-meropenem-1gm-iv-q8h)\n\n# _______________________________________________________________________________\n\nReferences:\n\nSanford keyword: Escherichia coli\n\nSanford keyword: Klebsiella sp. (oxytoca, pneumoniae, variicola)\n\nSanford keyword: Neisseria Meningitidis\n\nSanford keyword: Neisseria Gonorrhoeae\n\nSanford keyword: Proteus sp. (mirabilis, penneri, vulgari\n\nUp-to-Date article: Detection of bacteremia: Blood cultures and other diagnostic\n\ntests\n\nUp-to-Date article: Gram-negative bacillary bacteremia in adults",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Pseudomonas bacteremia",
+      "Item": "ORZID2 GMENU BACTEREMIA PSEUDOMONAS"
+    },
+    {
+      "Text": "Ceftriaxone 2 gm IV q24h ($) [M]",
+      "Item": "PSJIZID CEFTRIAXONE 2GM IV Q24H"
+    },
+    {
+      "Text": "Meropenem 1 gm IV q8h ($$) [R,O]",
+      "Item": "PSJIZID MEROPENEM 1GM IV Q8H"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU BACTEREMIA GRAM-NEGATIVE RODS OTHER"
+}

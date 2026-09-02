@@ -1,0 +1,26 @@
+{
+  "PageID": "gram-negative-diplococci-meningitis",
+  "Group": "cns",
+  "Term1": "Gram-negative diplococci meningitis",
+  "Term2": "Meningitis with gram-negative diplococci",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# BACTERIAL MENINGITIS WITH GRAM-NEGATIVE DIPLOCOCCI SUGGESTING NEISSERIA\n\n# MENINGITIDIS\n\nOnce a diagnosis of acute bacterial meningitis is considered likely,\n\nantimicrobials should be initiated as soon as possible. Two blood cultures\n\nshould be drawn. Lumbar puncture (LP) should be performed in nearly all patients\n\nto obtain cerebrospinal fluid (CSF) for establishing diagnosis and determining\n\ninfectious organism/susceptibility. Adjust antimicrobial regimen to optimize\n\ntherapy and treatment duration based on pathogen once isolated.\n\nIf meningococcal meningitis is identified, antimicrobial prophylaxis should be\n\nconsidered for close contacts. Contact Infectious Diseases/Epidemiology for\n\nadvice and assistance.\n\n# Consult Infectious Diseases\n\n# Empiric Treatment\n\nPreferred:\n\n[Ceftriaxone 2 gm IV q12h \\($\\) M](psjizid-ceftriaxone-2gm-iv-q12h)\n\nAlternative:\n\n[Assessment of beta-lactam reaction](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Meropenem 2 gm IV q8h \\($$\\) R,O](psjizid-meropenem-2gm-iv-q8h)\n\n# _______________________________________________________________________________\n\nReferences:\n\nMandell chapter: Acute meningitis\n\nSanford keyword: Meningitis, bacterial, positive gram stain\n\nTunkel et al., Clin Infect Dis, 2004, 39.1267-84\n\nUp-to-Date Article: Clinical features and diagnosis of acute bacterial\n\nmeningitis in adults\n\nUp-to-Date Article: Treatment of bacterial meningitis caused by specific\n\npathogens in adults\n\nVan de Beek et al., Clin Microbiol Infect, 2016, 22.S37-S62",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Ceftriaxone 2 gm IV q12h ($) [M]",
+      "Item": "PSJIZID CEFTRIAXONE 2GM IV Q12H"
+    },
+    {
+      "Text": "Assessment of beta-lactam reaction",
+      "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
+    },
+    {
+      "Text": "Meropenem 2 gm IV q8h ($$) [R,O]",
+      "Item": "PSJIZID MEROPENEM 2GM IV Q8H"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU BACT MENING GRM NEG DIPL N. MENING"
+}

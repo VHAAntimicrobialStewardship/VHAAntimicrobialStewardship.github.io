@@ -1,0 +1,22 @@
+{
+  "PageID": "orzid3-gmenu-abx-sa-decolonization",
+  "Group": "general",
+  "Term1": "orzid3-gmenu-abx-sa-decolonization",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](orzid3-gmenu-abx-general-information-outpatient)\n\n# STAPHYLOCOCCUS AUREUS DECOLONIZATION\n\nFrom 10% to 40% of adults are colonized with Staphylococcus aureus, and the\n\nanterior nares is the most common site of colonization. A majority of people\n\nnever have disease with S. aureus, but a tiny fraction of people develop\n\nclinical infections with the S. aureus that has colonized their skin or anterior\n\nnares. Steps to decolonize the skin and anterior nares can transiently diminish\n\nor eradicate S. aureus colonization and can prevent post-operative wound\n\ninfection in certain high-risk circumstances. For people who have other forms of\n\nrecurrent S. aureus disease, not associated with an operation, results with\n\ndecolonization have been disappointing, and decolonization is not routinely\n\nrecommended. Colonization typically reappears in most patients within a few days\n\nor weeks after decolonization has been attempted. Clinicians occasionally wish\n\nto attempt decolonization for patients with frequent, troublesome recurrences.\n\nThe procedure here is one of several that have been studied, but none have been\n\nparticularly effective over the long run.\n\nConsultation with Infectious Diseases is recommended.\n\n# Decolonization Order Set:\n\n[Mupirocin 2% ointment topically BID M <AND> chlorhexidine 4% liquid](orz-set-abx-op-chlorhexidine-mupirocin-decolonization)\n\ntopically qday [M] for 5 days\n\n[Non-VA order for above](orz-set-abx-nv-chlorhexidine-mupirocin-decolonization)\n\n# Instructions\n\n* Patient must wear clean clothes after bathing to prevent recontamination\n\n* Bedding and linens must be changed/cleaned daily until the end of the\n\ndecolonization protocol.\n\n# _______________________________________________________________________________\n\n# References:\n\nBradley S Clin Infect Dis 2007, 44: 186\n\nLonneke G NEJM 2010, 362: 9\n\nSchweizer et al, JAMA 2015, 313.212:162-2171\n\nUp-To-Date article: Methicillin-resistant Staphylococcus aureus (MRSA) in\n\nadults: Prevention and control",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "ORZID3 GMENU ABX GENERAL INFORMATION OUTPATIENT"
+    },
+    {
+      "Text": "Mupirocin 2% ointment topically BID [M] <AND> chlorhexidine 4% liquid",
+      "Item": "ORZ SET ABX OP CHLORHEXIDINE MUPIROCIN DECOLONIZATION"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "ORZ SET ABX NV CHLORHEXIDINE MUPIROCIN DECOLONIZATION"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU ABX SA DECOLONIZATION"
+}

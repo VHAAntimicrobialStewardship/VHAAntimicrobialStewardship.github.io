@@ -1,0 +1,14 @@
+{
+  "PageID": "nosocomial-pneumonia-re-evaluation-at-72-hours",
+  "Group": "lung-and-mediastinum",
+  "Term1": "Nosocomial pneumonia re-evaluation at 72 hours",
+  "Term2": "Re-evaluate nosocomial pneumonia at 72 hours",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# SUBOPTIMAL VANCOMYCIN RESPONSE AT 72 HOURS\n\nIf the patient has not improved, consider the following:\n\n1. The patient has pneumonia with a pathogen resistant to empirical\n\nantimicrobials (e.g., resistant bacteria, fungi, mycobacteria)\n\n2. The patient does not have bacterial pneumonia.  Consider alternative\n\ndiagnoses including pulmonary edema, atelectasis, pulmonary embolus, ARDS,\n\npulmonary hemorrhage, underlying disease, and neoplasm.\n\n3. The patient has infectious disease outside the lungs.\n\n4. The patient has one or more complications of pneumonia (e.g., empyema, lung\n\nabscess, mediastinitis, or pericarditis)\n\n5. The patient has an adverse drug event\n\nInfectious Disease or Pulmonary consultation is strongly encouraged for patients\n\nwho do not respond to initial therapy.\n\n# _______________________________________________________________________________\n\n# References:\n\nChastre J JAMA 2003, 290: 2588\n\nDennesen PJ Am J Respir Crit Care Med 2001, 163: 1371\n\nKalil AC et al. Clin Infect Dis 2016. 63:1\n\nLuna CM  Crit Care Med 2003, 31: 676\n\nRoig J  J Antimicrob Chemother 2003, 51: 1119\n\nUp-to-date website",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX RE-EVALUATE 72HRS N. PNEUMO"
+}

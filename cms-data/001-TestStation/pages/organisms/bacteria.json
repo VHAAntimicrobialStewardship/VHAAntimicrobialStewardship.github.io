@@ -3,7 +3,7 @@
   "Group": "organisms",
   "Term1": "1. Bacteria section (Navigation)",
   "Term2": "",
-  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# BACTERIA\n\nAlways consider disease or syndrome, site of infection, penetration of drug(s)\n\ninto site, and whether organism is pathogen, colonizer, or contaminant. See\n\ndisease/syndrome section for more information and treatment of pathogens not\n\nlisted below.\n\n[Actinomyces spp.](orzid2-gmenu-gram-pos-fi-actinomyces-spp)\n\n[Bacillus spp.](orzid2-gmenu-gram-pos-fi-bacillus-spp)\n\n[Brucella spp.](orzid2-gmenu-gram-neg-final-brucella-spp)\n\n[Corynebacterium spp.](orzid2-gmenu-gram-pos-fi-corynebacterium-spp)\n\n[Cutibacterium \\(formerly Propionibacterium\\) spp.](orzid2-gmenu-gram-pos-fi-propionibact-spp)\n\nLast Reviewed: 2025",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# BACTERIA\n\nAlways consider disease or syndrome, site of infection, penetration of drug(s)\n\ninto site, and whether organism is pathogen, colonizer, or contaminant. See\n\ndisease/syndrome section for more information and treatment of pathogens not\n\nlisted below.\n\n[Actinomyces spp.](gram-pos-fi-actinomyces-spp)\n\n[Bacillus spp.](bacillus-infections-general)\n\n[Brucella spp.](brucella-infections-general)\n\n[Corynebacterium spp.](corynebacterium-infections-general)\n\n[Cutibacterium \\(formerly Propionibacterium\\) spp.](propionibacterium-infections-general)\n\nLast Reviewed: 2025",
   "LinkTargets": [],
   "Inpt": "ORZID2 GMENU BACTERIA MAIN MENU",
   "Outpt": "ORZID3 GMENU BACTERIA MAIN MENU"

@@ -1,0 +1,26 @@
+{
+  "PageID": "nosocomial-pneumonia-with-legionella-pneumophila",
+  "Group": "lung-and-mediastinum",
+  "Term1": "Nosocomial pneumonia with Legionella pneumophila",
+  "Term2": "Legionella pneumophila nosocomial pneumonia",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# NOSOCOMIAL PNEUMONIA WITH LEGIONELLA PNEUMOPHILA\n\nIntravenous therapy preferred initially until signs and symptoms improve.\n\n# Duration of therapy\n\nTreat for 7 to 10 days based on response. Consider longer courses of therapy in\n\nimmunocompromised patients with severe illness. ID consultation is recommended\n\nif immunocompromise.\n\n# Recommend starting with parenteral therapy\n\n[Azithromycin 500 mg IV q24h M](psjzid-azithromycin-500mg-po-q24h)\n\n< OR >\n\n[Levofloxacin 750 mg IV q24h R,DI](psjizid-levofloxacin-750mg-iv-q24h)\n\n# Switch to oral to complete therapy\n\n[Azithromycin 500 mg PO q24h M](psjzid-azithromycin-500mg-po-q24h)\n\n< OR >\n\n[Levofloxacin 750 mg PO q24h R,DI](psjzid-levofloxacin-750mg-po-q24h)\n\n# _______________________________________________________________________________\n\n# References:\n\nJasper AS. Clin Infect Dis. 2021:72(11):1979\n\nPhin N. Lancet Infectious Diseases 2014, 14:1011\n\nSanford: Pneumonia Legionella\n\nUp-to-date website",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Azithromycin 500 mg IV q24h [M]",
+      "Item": "PSJZID AZITHROMYCIN 500MG PO Q24H"
+    },
+    {
+      "Text": "Levofloxacin 750 mg IV q24h [R,DI]",
+      "Item": "PSJIZID LEVOFLOXACIN 750MG IV Q24H"
+    },
+    {
+      "Text": "Levofloxacin 750 mg PO q24h [R,DI]",
+      "Item": "PSJZID LEVOFLOXACIN 750MG PO Q24H"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX NOSOCOMIAL L. PNEUMOPHILA"
+}

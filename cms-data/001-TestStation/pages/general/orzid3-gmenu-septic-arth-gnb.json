@@ -1,0 +1,30 @@
+{
+  "PageID": "orzid3-gmenu-septic-arth-gnb",
+  "Group": "general",
+  "Term1": "orzid3-gmenu-septic-arth-gnb",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](orzid3-gmenu-abx-general-information-outpatient)\n\nSEPTIC ARTHRITIS (NATIVE JOINT) WITH GRAM NEGATIVE BACILLI (OTHER THAN\n\nPSEUDOMONAS)\n\nAdminister parenteral therapy initially for approximately 1-2 weeks\n\nthen can be converted to appropriate oral therapy.\n\nDuration of treatment for 4 weeks depending on response\n\n# Oral therapy to complete the course after intravenous therapy initially:\n\n[Amoxicillin-clavulanate 875/125 mg PO BID \\($\\) R](psozid2-amox-clav-875-125mg-14ds-po-bid)\n\n[Non-VA order for above](pshzid2-amox-clav-875-125mg-14ds-po-bid)\n\n[Levofloxacin 500mg PO qday \\($\\) R,DI](psozid2-levofloxacin-14ds-500mg-po-qday)\n\n[Non-VA order for above](pshzid2-levofloxacin-14ds-500mg-po-qday)\n\nReferences:\n\nMandell chapter: Infectious arthritis of native joints\n\nSanford keyword: Septic arthritis\n\nUp-to-date online\n\nMathews CJ Lancet 2010 375:846",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "ORZID3 GMENU ABX GENERAL INFORMATION OUTPATIENT"
+    },
+    {
+      "Text": "Amoxicillin-clavulanate 875/125 mg PO BID ($) [R]",
+      "Item": "PSOZID2 AMOX/CLAV 875/125MG 14DS PO BID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 AMOX/CLAV 875/125MG 14DS PO BID"
+    },
+    {
+      "Text": "Levofloxacin 500mg PO qday ($) [R,DI]",
+      "Item": "PSOZID2 LEVOFLOXACIN 14DS 500MG PO QDAY"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 LEVOFLOXACIN 14DS 500MG PO QDAY"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU SEPTIC ARTH GNB"
+}

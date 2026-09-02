@@ -1,0 +1,26 @@
+{
+  "PageID": "meningitis-associated-with-trauma-or-nosocomial-infection",
+  "Group": "cns",
+  "Term1": "Meningitis associated with trauma or nosocomial infection",
+  "Term2": "Trauma or nosocomial infection associated meningitis",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# BACTERIAL MENINGITIS ASSOCIATED WITH TRAUMA OR NOSOCOMIAL INFECTION\n\nOnce a diagnosis of acute bacterial meningitis is considered likely,\n\nantimicrobials should be initiated as soon as possible. Two blood cultures\n\nshould be drawn. Lumbar puncture (LP) should be performed in nearly all patients\n\nto obtain cerebrospinal fluid (CSF) for establishing diagnosis and determining\n\ninfectious organism/susceptibility. Adjust antimicrobial regimen to optimize\n\ntherapy and treatment duration based on pathogen once isolated.\n\n# Consult Neurosurgery and Infectious Diseases\n\n# Removal of Infected Shunt, Drain, and Other Hardware is Required for Source\n\n# Control\n\n# Duration of Therapy\n\nTreatment duration is typically 10-14 days depending on infection type,\n\norganism, severity, and source control.A shorter duration may be used in\n\ninfections caused by P. acnes, coagulase-negative staphylococci, diptheroids,\n\nand infections with minimal CSF abnormalities.\n\n# Empiric Treatment\n\nPreferred:\n\n[Cefepime 2gm IV q8h \\($$\\) R <AND> vancomycin 15mg/kg IV q12h \\($\\) R for 10-14](orz-set-abx-cefepime-2gm-iv-q8h-vanco-15mg-kg-iv-q12h)\n\ndays\n\nAlternative:\n\n[Assessment of beta-lactam reaction](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Meropenem 2 gm IV q8h \\($$\\) R,O <AND> vancomycin 15mg/kg IV q12h \\($\\) R for](orz-set-abx-meropenem-2gm-iv-q8h-vanco-15mg-kg-iv-q12h)\n\n10-14 days\n\n# _______________________________________________________________________________\n\nReferences:\n\nMandell chapter: Acute meningitis\n\nSanford keyword: Meningitis, bacterial, positive gram stain\n\nTunkel et al., Clin Infect Dis, 2004, 39.1267-84\n\nTunkel et al., Clinical Infectious Diseases, 2017, 64(6)e34-e65\n\nUp-to-Date Article: Clinical features and diagnosis of acute bacterial\n\nmeningitis in adults\n\nUp-to-Date Article: Treatment of bacterial meningitis caused by specific\n\npathogens in adults\n\nVan de Beek et al., Clin Microbiol Infect, 2016, 22.S37-S62",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Cefepime 2gm IV q8h ($$) [R] <AND> vancomycin 15mg/kg IV q12h ($) [R] for 10-14",
+      "Item": "ORZ SET ABX CEFEPIME 2GM IV Q8H VANCO 15MG/KG IV Q12H"
+    },
+    {
+      "Text": "Assessment of beta-lactam reaction",
+      "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
+    },
+    {
+      "Text": "Meropenem 2 gm IV q8h ($$) [R,O] <AND> vancomycin 15mg/kg IV q12h ($) [R] for",
+      "Item": "ORZ SET ABX MEROPENEM 2GM IV Q8H VANCO 15MG/KG IV Q12H"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU BACT MENING ASSOC TRAUMA"
+}

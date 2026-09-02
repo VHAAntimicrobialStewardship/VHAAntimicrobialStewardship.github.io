@@ -1,0 +1,126 @@
+{
+  "PageID": "orzid3-gmenu-abx-uncomp-uti",
+  "Group": "general",
+  "Term1": "orzid3-gmenu-abx-uncomp-uti",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](orzid3-gmenu-abx-general-information-outpatient)\n\n# UNCOMPLICATED URINARY TRACT INFECTIONS\n\n# Uncomplicated UTI is an infection confined to the bladder in afebrile women or\n\n# men without urinary catheter. Symptoms include dysuria, lower abdominal pain,\n\n# and urgency.\n\nNOT signs or symptoms: abnormal urinalysis alone, pyuria, falls, change in urine\n\nodor or color, delirium (acute mental status change, confusion) without systemic\n\nsigns of infection. These may occur in patients with a UTI but alone are\n\ninadequate for diagnosis and empiric treatment.\n\n# _______________________________________________________________________________\n\nFor patients without signs or symptoms of UTI:\n\n[Asymptomatic bacteriuria](orzid3-gmenu-asymp-bacteriuria)\n\n# _______________________________________________________________________________\n\n# Men, empirical treatment\n\nPreferred:\n\n[Nitrofurantoin SA 100 mg PO q12h R,O, CrCl =/>30 mL/min, for 7 days](psozid2-nitrofurantoin-sa-7ds-100-mg-po-bid)\n\n[Non-VA order for above](pshzid2-nitrofurantoin-sa-7ds-100-mg-po-bid)\n\n< OR >\n\n[Trimethoprim/sulfamethoxazole 1 DS tablet PO q12h R,DI for 7 days](psozid2-tmp-sulfa-7days-1ds-tab-bid)\n\n[Non-VA order for above](pshzid2-tmp-sulfa-7days-1ds-tab-bid)\n\nPrimary alternative:\n\n[Amoxicillin-clavulanate 875/125 mg PO q12h R for 7 days](psozid2-amox-clav-875-125mg-7ds-po-bid)\n\n[Non-VA order for above](pshzid2-amox-clav-875-125mg-7ds-po-bid)\n\nSecondary alternative:\n\n[Assessment of Beta-lactam Reaction](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Ciprofloxacin 500 mg PO q12h R,DI for 5 days](psozid2-ciprofloxacin-5ds-500mg-po-bid)\n\n[Non-VA order for above](pshzid2-ciprofloxacin-5ds-500mg-po-bid)\n\n# Women, empirical treatment\n\nPreferred:\n\n[Nitrofurantoin SA 100 mg PO q12h R,O, CrCl =/>30 mL/min, for 5 days](psozid2-nitrofurantoin-sa-100mg-bid-5ds)\n\n*Avoid nitrofurantoin in the third trimester\n\n[Non-VA order for above](pshzid2-nitrofurantoin-sa-100mg-bid-5ds)\n\n< OR >\n\n[Trimethoprim/sulfamethoxazole 1 DS tablet PO q12h R,DI for 3 days](psozid2-tmp-sulfa-3days-1ds-tablet-bid)\n\n*Avoid trimethoprim/sulfamethoxazole in the first and third trimesters\n\n[Non-VA order for above](pshzid2-tmp-sulfa-3days-1ds-tablet-bid)\n\nPrimary alternatives:\n\n[Fosfomycin 3GM sachet PO M once](psozid-fosfomycin-3gm-sachet-po-x-1-dose)\n\n[Non-VA order for above](pshzid-fosfomycin-3gm-sachet-po-x-1-dose)\n\n<OR>\n\n[Amoxicillin-clavulanate 875/125 mg PO q12h R for 5 days](psozid2-amox-clav-875-125mg-5ds-po-bid)\n\n[Non-VA order for above](pshzid2-amox-clav-875-125mg-5ds-po-bid)\n\nSecondary alternative:\n\n[Assessment of Beta-lactam Reaction](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Ciprofloxacin 500 mg PO q12h R,DI for 3 days](psozid2-ciprofloxacin-3ds-500mg-po-bid)\n\n[Non-VA order for above](pshzid2-ciprofloxacin-3ds-500mg-po-bid)\n\n# Women, suppression\n\n*Avoid trimethoprim/sulfamethoxazole in the first and third trimesters\n\n*Avoid nitrofurantoin in the third trimester\n\n[Trimethoprim/sulfamethoxazole 1/2 SS tablet PO q24h R,DI](psozid-trimeth-sulfa-1-2-ss-po-qday)\n\n[Non-VA order for above](pshzid-trimeth-sulfa-1-2-ss-po-qday)\n\n< OR >\n\n[Trimethoprim/sulfamethoxazole 1 SS tablet PO once post-coitus R,DI](psozid-trimeth-sulfa-1-ss-po-postcoitus)\n\n[Non-VA order for above](pshzid-trimeth-sulfa-1-ss-po-postcoitus)\n\n< OR >\n\n[Nitrofurantoin SA 100 mg PO qhs R,O, CrCl =/>30 mL/min](psozid-nitrofurantoin-sa-100mg-po-qhs)\n\n[Non-VA order for above](pshzid-nitrofurantoin-sa-100mg-po-qhs)\n\n< OR >\n\n[Nitrofurantoin SA 100 mg PO once post-coitus R,O, CrCl =/>30 mL/min](psozid-nitrofurantoin-sa-100mg-po-postcoitus)\n\n[Non-VA order for above](pshzid-nitrofurantoin-sa-100mg-po-postcoitus)\n\n# _______________________________________________________________________________\n\nReferences:\n\nDrekonja et al., JAMA, 2021, 326(4)324-331\n\nGupta et al., Clinical Infectious Diseases, 2011, 52(5)e103-20\n\nMandell chapter: Urinary tract infections\n\nSanford keyword: UTI, Acute, Uncomplicated, Adult, Female\n\nSanford keyword: UTI, Adult, Male\n\nSanford keyword: Prevention of Recurrent UTI, Female\n\nUp-To-Date article: Acute simple cystitis in men\n\nUp-To-Date article: Acute simple cystitis in women Up-To-Date article: Recurrent\n\nsimple cystitis in women\n\nTrautner et al., Clinical Infectious Diseases, 2025, ciaf459",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)",
+      "Item": "ORZID3 GMENU ABX GENERAL INFORMATION OUTPATIENT"
+    },
+    {
+      "Text": "Asymptomatic bacteriuria",
+      "Item": "ORZID3 GMENU ASYMP BACTERIURIA"
+    },
+    {
+      "Text": "Nitrofurantoin SA 100 mg PO q12h [R,O], CrCl =/>30 mL/min, for 7 days",
+      "Item": "PSOZID2 NITROFURANTOIN SA 7DS 100 MG PO BID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 NITROFURANTOIN SA 7DS 100 MG PO BID"
+    },
+    {
+      "Text": "Trimethoprim/sulfamethoxazole 1 DS tablet PO q12h [R,DI] for 7 days",
+      "Item": "PSOZID2 TMP/SULFA 7DAYS 1DS TAB BID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 TMP/SULFA 7DAYS 1DS TAB BID"
+    },
+    {
+      "Text": "Amoxicillin-clavulanate 875/125 mg PO q12h [R] for 7 days",
+      "Item": "PSOZID2 AMOX/CLAV 875/125MG 7DS PO BID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 AMOX/CLAV 875/125MG 7DS PO BID"
+    },
+    {
+      "Text": "Assessment of Beta-lactam Reaction",
+      "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
+    },
+    {
+      "Text": "Ciprofloxacin 500 mg PO q12h [R,DI] for 5 days",
+      "Item": "PSOZID2 CIPROFLOXACIN 5DS 500MG PO BID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 CIPROFLOXACIN 5DS 500MG PO BID"
+    },
+    {
+      "Text": "Nitrofurantoin SA 100 mg PO q12h [R,O], CrCl =/>30 mL/min, for 5 days",
+      "Item": "PSOZID2 NITROFURANTOIN SA 100MG BID 5DS"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 NITROFURANTOIN SA 100MG BID 5DS"
+    },
+    {
+      "Text": "Trimethoprim/sulfamethoxazole 1 DS tablet PO q12h [R,DI] for 3 days",
+      "Item": "PSOZID2 TMP/SULFA 3DAYS 1DS TABLET BID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 TMP/SULFA 3DAYS 1DS TABLET BID"
+    },
+    {
+      "Text": "Fosfomycin 3GM sachet PO [M] once",
+      "Item": "PSOZID FOSFOMYCIN 3GM SACHET PO X 1 DOSE"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID FOSFOMYCIN 3GM SACHET PO X 1 DOSE"
+    },
+    {
+      "Text": "Amoxicillin-clavulanate 875/125 mg PO q12h [R] for 5 days",
+      "Item": "PSOZID2 AMOX/CLAV 875/125MG 5DS PO BID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 AMOX/CLAV 875/125MG 5DS PO BID"
+    },
+    {
+      "Text": "Ciprofloxacin 500 mg PO q12h [R,DI] for 3 days",
+      "Item": "PSOZID2 CIPROFLOXACIN 3DS 500MG PO BID"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID2 CIPROFLOXACIN 3DS 500MG PO BID"
+    },
+    {
+      "Text": "Trimethoprim/sulfamethoxazole 1/2 SS tablet PO q24h [R,DI]",
+      "Item": "PSOZID TRIMETH/SULFA 1/2 SS PO QDAY"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID TRIMETH/SULFA 1/2 SS PO QDAY"
+    },
+    {
+      "Text": "Trimethoprim/sulfamethoxazole 1 SS tablet PO once post-coitus [R,DI]",
+      "Item": "PSOZID TRIMETH/SULFA 1 SS PO POSTCOITUS"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID TRIMETH/SULFA 1 SS PO POSTCOITUS"
+    },
+    {
+      "Text": "Nitrofurantoin SA 100 mg PO qhs [R,O], CrCl =/>30 mL/min",
+      "Item": "PSOZID NITROFURANTOIN SA 100MG PO QHS"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID NITROFURANTOIN SA 100MG PO QHS"
+    },
+    {
+      "Text": "Nitrofurantoin SA 100 mg PO once post-coitus [R,O], CrCl =/>30 mL/min",
+      "Item": "PSOZID NITROFURANTOIN SA 100MG PO POSTCOITUS"
+    },
+    {
+      "Text": "Non-VA order for above",
+      "Item": "PSHZID NITROFURANTOIN SA 100MG PO POSTCOITUS"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU ABX UNCOMP UTI"
+}

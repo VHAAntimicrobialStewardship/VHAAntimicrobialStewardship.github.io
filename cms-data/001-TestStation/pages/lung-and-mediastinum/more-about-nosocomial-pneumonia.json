@@ -1,0 +1,18 @@
+{
+  "PageID": "more-about-nosocomial-pneumonia",
+  "Group": "lung-and-mediastinum",
+  "Term1": "More about nosocomial pneumonia",
+  "Term2": "Nosocomial pneumonia, more about",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# MORE ABOUT NOSOCOMIAL PNEUMONIA\n\n# Types of nosocomial pneumonia\n\nHospital acquired pneumonia (HAP): Development of pneumonia 48 hours or more\n\nafter hospital admission.\n\nVentilator-associated pneumonia (VAP): Pneumonia occurring 48 hours or more\n\nafter endotracheal intubation.\n\n# Criteria for diagnosis of pneumonia\n\n1.  Presence of new or progressive infiltrate <AND>\n\n2.  At least two of the following:\n\n> Fever greater than 38 C (100.4 F)\n\n> Leukocytosis or leukopenia\n\n> Purulent bronchial secretions\n\n# HAP OR VAP suspected:\n\nGram stain and culture of lower respiratory tract secretions and blood cultures\n\nare important for guiding therapy.\n\n[Re-evaluate Nosocomial pneumonia at 72 hours](orzid2-gmenu-abx-re-evaluate-72hrs-n-pneumo)\n\n# Duration of therapy\n\nTreatment for 7 days is generally sufficient if the initial empiric therapy\n\ncovered the pathogen and the patient is clinically responding. Narrow therapy to\n\ntreat specific pathogen(s) based on results of culture and susceptibility tests.\n\nLonger duration of therapy is recommended for more resistant organisms (e.g.\n\nPseudomonas aeruginosa, Acinetobacter baumanni, and Legionella pneumophila).\n\n# _______________________________________________________________________________\n\n# References:\n\nKalil AC Clin Infect Dis 2016, 63:1\n\nChastre J JAMA 2003, 290: 2588\n\nDennesen PJ Am J Respir Crit Care Med 2001, 163: 1371\n\nLuna CM  Crit Care Med 2003, 31: 676\n\nRoig J  J Antimicrob Chemother 2003, 51: 1119",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Re-evaluate Nosocomial pneumonia at 72 hours",
+      "Item": "ORZID2 GMENU ABX RE-EVALUATE 72HRS N. PNEUMO"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX MORE ABOUT NOSOCOMIAL PNEUMO"
+}

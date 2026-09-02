@@ -1,0 +1,46 @@
+{
+  "PageID": "staphylococcus-aureus-nosocomial-pneumonia",
+  "Group": "lung-and-mediastinum",
+  "Term1": "10. Staphylococcus aureus nosocomial pneumonia (Navigation)",
+  "Term2": "Nosocomial pneumonia, S. aureus",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# NOSOCOMIAL PNEUMONIA WITH STAPHYLOCOCCUS AUREUS\n\n# Methicillin-SUSCEPTIBLE Staphylococcus aureus pneumonia (mec-A/C and MREJ not\n\n# detected)\n\nDuration of therapy 7-14 days.\n\n[Cefazolin 2 gm IV q8h R](psjizid-cefazolin-2gm-ivpb-q8h)\n\n< OR >\n\n[Nafcillin 2 gm IV q4h DI](psjizid-nafcillin-2gm-iv-q4h)\n\n# Oral therapy (usually given after several days of intravenous therapy):\n\nA patient who is substantially improved, without a fever for at least 2 days can\n\nbe treated with an oral agent to which the isolate is susceptible.\n\n[Cefadroxil 1000 mg PO q12h R](psjzid-cefadroxil-1000mg-po-q12h)\n\n< OR >\n\n[Minocycline 100 mg PO q12h DI](psjzid-minocycline-100mg-po-q12h)\n\n# _________________________________________________________________\n\n# Methicillin-RESISTANT or Susceptibilities Unknown Staphylococcus aureus (mec-A/C\n\n# and MREJ detected)\n\nIn patients with MRSA pneumonia complicated by empyema, antimicrobial therapy\n\nshould be used in conjunction with drainage procedures.\n\nDuration of therapy 7-14 days\n\n[Vancomycin 15 mg/kg IV q12h R](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n\n< OR >\n\n[Linezolid 600 mg IV q12h DI,O](psjizid-linezolid-600mg-iv-q12h)\n\n# Oral therapy (usually given after several days of intravenous therapy:\n\nIn cases when a patient has substantially improved and has not had a fever for\n\nat least 2 days, it may be appropriate to treat with an oral agent to which the\n\nisolate is susceptible to complete therapy.\n\n[Minocycline 100 mg PO q12h DI](psjzid-minocycline-100mg-po-q12h)\n\n< OR >\n\n[Trimethoprim-sulfamethoxazole 1 DS tablet PO q12h R,DI](psjzid-trimeth-sulfa-1-ds-tab-bid)\n\n< OR >\n\n[Linezolid 600 mg PO q12h DI,O](psjzid-linezolid-600mg-po-q12h)\n\n# _______________________________________________________________________________\n\n# References:\n\nLiu C, Clin Infect Dis. 2011:52:285\n\nWunderink RG, Clin Infect Dis. 2012: 54:621\n\nRybak MJ, Clin Infect 2009: Dis 49:325\n\nSanford Keyword: Staphylococcus aureus pneumonia John Hopkins Antimicrobial\n\nGuide\n\nwww.johnhopkinsguides.com",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Cefazolin 2 gm IV q8h [R]",
+      "Item": "PSJIZID CEFAZOLIN 2GM IVPB Q8H"
+    },
+    {
+      "Text": "Nafcillin 2 gm IV q4h [DI]",
+      "Item": "PSJIZID NAFCILLIN 2GM IV Q4H"
+    },
+    {
+      "Text": "Cefadroxil 1000 mg PO q12h [R]",
+      "Item": "PSJZID CEFADROXIL 1000MG PO Q12H"
+    },
+    {
+      "Text": "Minocycline 100 mg PO q12h [DI]",
+      "Item": "PSJZID MINOCYCLINE 100MG PO Q12H"
+    },
+    {
+      "Text": "Vancomycin 15 mg/kg IV q12h [R]",
+      "Item": "ORZ SET ABX VANCO NEW START 15MG/KG Q12H + MRSA NARES SCREENING"
+    },
+    {
+      "Text": "Linezolid 600 mg IV q12h [DI,O]",
+      "Item": "PSJIZID LINEZOLID 600MG IV Q12H"
+    },
+    {
+      "Text": "Trimethoprim-sulfamethoxazole 1 DS tablet PO q12h [R,DI]",
+      "Item": "PSJZID TRIMETH/SULFA 1 DS TAB BID"
+    },
+    {
+      "Text": "Linezolid 600 mg PO q12h [DI,O]",
+      "Item": "PSJZID LINEZOLID 600MG PO Q12H"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU ABX NOSOCOMIAL STAPHYLOCOCCUS PNEUMONIA"
+}

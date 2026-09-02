@@ -1,0 +1,30 @@
+{
+  "PageID": "orzid3-gmenu-ssti-bed-bugs-lice-scabies",
+  "Group": "general",
+  "Term1": "orzid3-gmenu-ssti-bed-bugs-lice-scabies",
+  "Term2": "",
+  "Text": "# Bed Bugs, Lice, Scabies\n\n[Bed bugs \\(Hemiptera\\)](orzid3-gmenu-bed-bugs-hemiptera)\n\n[Body lice \\(pediculosis corporis\\)](orzid3-gmenu-body-lice-pediculosis-corporis)\n\n[Head lice \\(pediculosis capitis\\)](orzid3-gmenu-head-lice-pediculosis-capitis)\n\n[Pubic lice \\(pediculosis pubis\\)](orzid3-gmenu-pubic-lice-pediculosis-pubis)\n\n[Scabies](orzid3-gmenu-scabies)",
+  "LinkTargets": [
+    {
+      "Text": "Bed bugs (Hemiptera)",
+      "Item": "ORZID3 GMENU BED BUGS (HEMIPTERA)"
+    },
+    {
+      "Text": "Body lice (pediculosis corporis)",
+      "Item": "ORZID3 GMENU BODY LICE (PEDICULOSIS CORPORIS)"
+    },
+    {
+      "Text": "Head lice (pediculosis capitis)",
+      "Item": "ORZID3 GMENU HEAD LICE (PEDICULOSIS CAPITIS)"
+    },
+    {
+      "Text": "Pubic lice (pediculosis pubis)",
+      "Item": "ORZID3 GMENU PUBIC LICE (PEDICULOSIS PUBIS)"
+    },
+    {
+      "Text": "Scabies",
+      "Item": "ORZID3 GMENU SCABIES"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU SSTI BED BUGS LICE SCABIES"
+}

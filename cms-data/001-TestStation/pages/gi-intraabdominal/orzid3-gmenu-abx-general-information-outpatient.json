@@ -1,0 +1,50 @@
+{
+  "PageID": "orzid3-gmenu-abx-general-information-outpatient",
+  "Group": "gi-intraabdominal",
+  "Term1": "10. orzid3-gmenu-abx-general-information-outpatient (Navigation)",
+  "Term2": "",
+  "Text": "# GENERAL INFORMATION\n\n[Help and Additional Information Menu](orzid2-gmenu-abx-help-page)\n\n[Consult Infectious Diseases \\(outpatient\\)](gmrctz-infectious-disease-outpt)\n\n[Consult Menu - place consults to specialty service](orz-gmenu-consults-main-op)\n\n[Antibiogram](orzid2-gmenu-abx-susceptibilities-antibiogram)\n\n[Alternative Antimicrobials to CDSS Recommendations - select here](orzid3-gmenu-need-an-alt-abx-main)\n\n[Beta-lactam Reaction Assessment](orzid2-gmenu-abx-beta-lactam-allergy-assesment)\n\n[Contact Information](orzid2-gmenu-abx-additional-assistance)\n\n[Antimicrobial Information](orzid2-gmenu-abx-drug-info-page)\n\n# LEGEND ________________________________________________________________________\n\n[Important Drug Properties](orzid2-gmenu-abx-important-drug-properties)\n\n[DI] = Important interactions between antimicrobial and other drugs\n\n[H] = Hepatic excretion of antimicrobial\n\n[M] = Minimal risk posed by antimicrobial\n\n[O] = Other important antimicrobial property\n\n[R] = Renal excretion of antimicrobial\n\n[Antimicrobial Cost Information](orzid2-gmenu-abx-cost-information)\n\n($) = <10 dollars per day\n\n($$) = 10-50 dollars per day\n\n($$$) = 51-100 dollars per day\n\n($$$$) = 101-400 dollars per day\n\n($$$$$) = >400 dollars per day",
+  "LinkTargets": [
+    {
+      "Text": "Help and Additional Information Menu",
+      "Item": "ORZID2 GMENU ABX HELP PAGE"
+    },
+    {
+      "Text": "Consult Infectious Diseases (outpatient)",
+      "Item": "GMRCTZ INFECTIOUS DISEASE (OUTPT)"
+    },
+    {
+      "Text": "Consult Menu - place consults to specialty service",
+      "Item": "ORZ GMENU CONSULTS MAIN OP"
+    },
+    {
+      "Text": "Antibiogram",
+      "Item": "ORZID2 GMENU ABX SUSCEPTIBILITIES (ANTIBIOGRAM)"
+    },
+    {
+      "Text": "Alternative Antimicrobials to CDSS Recommendations - select here",
+      "Item": "ORZID3 GMENU NEED AN ALT ABX MAIN"
+    },
+    {
+      "Text": "Beta-lactam Reaction Assessment",
+      "Item": "ORZID2 GMENU ABX BETA-LACTAM ALLERGY ASSESMENT"
+    },
+    {
+      "Text": "Contact Information",
+      "Item": "ORZID2 GMENU ABX ADDITIONAL ASSISTANCE"
+    },
+    {
+      "Text": "Antimicrobial Information",
+      "Item": "ORZID2 GMENU ABX DRUG INFO PAGE"
+    },
+    {
+      "Text": "Important Drug Properties",
+      "Item": "ORZID2 GMENU ABX IMPORTANT DRUG PROPERTIES"
+    },
+    {
+      "Text": "Antimicrobial Cost Information",
+      "Item": "ORZID2 GMENU ABX COST INFORMATION"
+    }
+  ],
+  "Inpt": "ORZID3 GMENU ABX GENERAL INFORMATION OUTPATIENT"
+}

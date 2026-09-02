@@ -1,0 +1,26 @@
+{
+  "PageID": "listeria-monocytogenes-bacteremia",
+  "Group": "system-infectious-diseases",
+  "Term1": "Listeria monocytogenes bacteremia",
+  "Term2": "Bacteremia, Listeria monocytogenes",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# BACTEREMIA ASSOCIATED WITH LISTERIA MONOCYTOGENES\n\nConsult Infectious Diseases in all cases. Identification and treatment of the\n\nsource of infection, in addition to antimicrobial therapy, is crucial for\n\nresolution of infection.\n\n# Duration of treatment\n\nTreat for a total duration of at least 2 weeks.\n\n# Treatment of listeria infection\n\n[Ampicillin 2 gm IV q4h \\($$\\) R](psjizid-ampicillin-2-gm-iv-q4h)\n\n# Alternative\n\n[Assessment of beta-lactam reaction CLICK HERE](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Trimethoprim 5 mg/kg - sulfamethoxazole 25 mg/kg IV q12h \\($$$\\) R,DI](psjizid-trimethoprim-sulfameth-5-25-mg-kg-iv-q12h)\n\n# _______________________________________________________________________________\n\nReferences:\n\nCharlier et al., Lancet Infect Dis 2017, May:17(5):510-519. doi:\n\n10.1016/S1473-3099(16)30521-7\n\nMandell chapter: Listeria Monocytogenes\n\nMedical Letter Choice of Antimicrobials 2010, 8.94\n\nSanford keyword: Listeria monocytogenes\n\nUp-to-Date article: Detection of bacteremia: Blood cultures and other diagnostic\n\ntests\n\nUp-to-Date article: Treatment and prevention of Listeria monocytogenes infection",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Ampicillin 2 gm IV q4h ($$) [R]",
+      "Item": "PSJIZID AMPICILLIN 2 GM IV Q4H"
+    },
+    {
+      "Text": "Assessment of beta-lactam reaction [CLICK HERE]",
+      "Item": "ORZ GTX ABX BETA-LACTAM REACTION PDF"
+    },
+    {
+      "Text": "Trimethoprim 5 mg/kg - sulfamethoxazole 25 mg/kg IV q12h ($$$) [R,DI]",
+      "Item": "PSJIZID TRIMETHOPRIM/SULFAMETH 5/25 MG/KG IV Q12H"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU BACTEREMIA LISTERIA"
+}

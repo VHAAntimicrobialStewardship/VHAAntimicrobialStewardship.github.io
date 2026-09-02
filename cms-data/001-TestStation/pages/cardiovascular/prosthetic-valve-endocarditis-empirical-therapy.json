@@ -1,0 +1,18 @@
+{
+  "PageID": "prosthetic-valve-endocarditis-empirical-therapy",
+  "Group": "cardiovascular",
+  "Term1": "Prosthetic valve endocarditis empirical therapy",
+  "Term2": "Endocarditis, prosthetic valve empirical therapy",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# PROSTHETIC VALVE ENDOCARDITIS--EMPIRICAL THERAPY\n\nEarly surgical consultation is essential.\n\nIf a patient is hemodynamically stable and the diagnosis is uncertain,\n\nantimicrobial therapy can safely be withheld until the diagnosis is clear and\n\nblood culture results are available to guide therapy. In all cases, be sure\n\nadequate numbers of blood cultures are obtained before antimicrobials are given.\n\n# Empirical Treatment\n\n[Vancomycin 15 mg/kg IV q12h \\($\\) R <AND> gentamicin 1 mg/kg IV q8h \\($\\)](orz-set-abx-vanco-15mg-kg-iv-q12h-rifamp-300mg-po-gent-1mg-kg)\n\n[R,O] <AND> rifampin 300 mg PO/NG q8h ($) [DI,O]\n\n# _______________________________________________________________________________\n\nReferences:\n\nBaddour et al., Circulation 2015, 132:1-52\n\nMandell chapter: Endocarditis and intravascular infections\n\nSanford keyword: Endocarditis\n\nUp-To-Date article: Overview of management of infective endocarditis in adults\n\nWang et al., JAMA 2018, 320.1:72-83",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Vancomycin 15 mg/kg IV q12h ($) [R] <AND> gentamicin 1 mg/kg IV q8h ($)",
+      "Item": "ORZ SET ABX VANCO 15MG/KG IV Q12H RIFAMP 300MG PO GENT 1MG/KG"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU EC PV EMP THERAPY"
+}
