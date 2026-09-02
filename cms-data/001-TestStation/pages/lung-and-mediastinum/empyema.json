@@ -1,0 +1,10 @@
+{
+  "PageID": "empyema",
+  "Group": "lung-and-mediastinum",
+  "Term1": "2. EMPYEMA (Navigation)",
+  "Term2": "",
+  "Text": "## EMPYEMA/LUNG ABSCESS\n\nEmpyema is usually a complication of pneumonia. Diagnostic thoracentesis is\nrecommended in most cases. Pulmonary or Infectious Diseases consultation is\nessential.                                                                             \n\n------------------------------------------------------------------\n\n## Inpatient \n\n## Duration\n\nThe duration of antibiotic therapy for bacterial empyema is not well defined but\ngenerally 4-6 weeks\n\n## Empirical Treatment\n\nAmpicillin-Sulbactam 3 mg IV q6h [M]\n< OR >\nCeftriaxone 2 gm IV q24h [M]\n< OR >\nCeftriaxone 2 gm IV q24h [M] <AND> metronidazole 500 mg PO q12h [DI]\nSuspected MRSA:\n< ADD > vancomycin 15mg/kg IV q12h [R] to an antimicrobial regimen above\n\n ------------------------------------------------------------------\n\n## Oral Step down\n\nPreferred:\nAmoxicillin-clavulanate 875-125 mg PO q12h [R]\n<OR>\nCefadroxil 1000 mg PO q12h [R]\n<OR>\nCefadroxil 1000 mg PO q12h [R] <AND> metronidazole 500 mg PO q12h [DI]\nAlternative:\n[Assessment of Beta-lactam Reaction](orzid2-gmenu-abx-beta-lactam-allergy-assesment)\nLevofloxacin 750 mg PO q24h [R,DI]\n< OR >\nLevofloxacin 750 mg PO q24h [R,DI] <AND> metronidazole 500 mg PO q12h [DI]\n\n ____________________________________________\n\n## Outpatient\n\nRefer to Inpatient Antimicrobial CDSS. ## References Harrison's chapter: Infections due to mixed organisms\nUp-to-date article: Epidemiology, clinical presentation, and diagnostic\nevaluation of parapneumonic\neffusion and empyema in adults\nSanford Guide article: Empyema, Adult, Child > 5 yrs",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU ABX EMPYEMA",
+  "Outpt": "ORZID3 GMENU EMPYEMA"
+}
