@@ -63,6 +63,8 @@ collections:
     create: true
     format: json
     extension: json
+    media_folder: "assets/uploads/001-TestStation"
+    public_folder: "/assets/uploads/001-TestStation"
     editor:
       preview: false
     identifier_field: Title
@@ -86,7 +88,7 @@ collections:
         name: MarkdownLink
         widget: text
         required: false
-        default: "[Link Display Text](https://vhaantimicrobialstewardship.github.io/assets/uploads/replace-with-uploaded-filename.pdf)"
+        default: "[Link Display Text](https://vhaantimicrobialstewardship.github.io/assets/uploads/001-TestStation/replace-with-uploaded-filename.pdf)"
         hint: "Auto-filled after publish by GitHub Action using your uploaded file path. Save/publish, then reopen to copy exact markdown."
       - label: "Exact File URL"
         name: AbsoluteURL
