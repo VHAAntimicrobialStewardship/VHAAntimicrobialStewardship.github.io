@@ -1,0 +1,11 @@
+{
+  "PageID": "bite-wnds-p-multocida",
+  "Group": "general",
+  "Term1": "BITE WNDS P. MULTOCIDA",
+  "Term2": "",
+  "Text": "## BITE WOUNDS WITH PASTEURELLA MULTOCIDA\n## Treatment ##Inpatient\nAmoxicillin-clavulanate 875/125 mg PO q12h ($) [R] < OR >\nAmpicillin-sulbactam 1.5-3 gm IV q6h ($$) [R]\n## Alternative for penicillin allergy\nDoxycycline 100mg PO q12h ($) [DI] < OR >\nDoxycycline 100mg IV q12h ($$) [DI]\n## Outpatient\n\n## Treatment for infection without joint involvement\n## __________________________________________________\nTreat for 10 days.\nAmoxicillin-clavulanate 875/125 mg PO BID ($) [R]\nNon-VA order for above\n## Alternative for penicillin allergy\nDoxycycline 100mg PO BID ($) [DI]\nNon-VA order for above\n## __________________________________________________\n## Treatment for infection with joint involvement\n## __________________________________________________\nTreat for 14 to 21 days.\nAmoxicillin-clavulanate 875/125 mg PO BID ($) [R]\nNon-VA order for above\n## Alternative for penicillin allergy\nDoxycycline 100 mg PO BID ($) [DI]\nNon-VA order for above ##ER ## Treatment for infection without joint involvement\n## __________________________________________________\nTreat for 10 days.\nAmoxicillin-clavulanate 875/125 mg PO BID ($) [R]\nNon-VA order for above\n<OR>\nAmpicillin-sulbactam 3 gm IV once STAT ($$) [R]\n## Alternative for penicillin allergy\nDoxycycline 100mg PO BID ($) [DI]\nNon-VA order for above\n<OR>\nDoxycycline 100mg IV once STAT ($$) [DI]\n## __________________________________________________\n## Treatment for infection with joint involvement\n## __________________________________________________\nTreat for 14 to 21 days.\nAmoxicillin-clavulanate 875/125 mg PO BID ($) [R]\nNon-VA order for above\n<OR>\nAmpicillin-sulbactam 3 gm IV once STAT ($$) [R]\n## Alternative for penicillin allergy\nDoxycycline 100 mg PO BID ($) [DI]\nNon-VA order for above\n<OR>\nDoxycycline 100mg IV once STAT ($$) [DI] References\nSanford keyword: Bites\nMandell chapter: Cellulitis and subcutaneous tissue infections\nStevens DL Clin Infect Dis 2014, 59:147",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU BITE WNDS P. MULTOCIDA",
+  "Outpt": "ORZID3 GMENU BITE WNDS P. MULTOCIDA",
+  "ERUC": "ORZID GMENU ER/UC BITE WNDS P. MULTOCIDA"
+}

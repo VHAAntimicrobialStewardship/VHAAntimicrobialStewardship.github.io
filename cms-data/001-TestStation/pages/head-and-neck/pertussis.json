@@ -1,0 +1,10 @@
+{
+  "PageID": "pertussis",
+  "Group": "head-and-neck",
+  "Term1": "PERTUSSIS",
+  "Term2": "",
+  "Text": "## PERTUSSIS\nPertussis also known as \"whooping cough\" is caused by Bordetella pertussis. CDC\nrecommends antibiotic therapy for those presenting within three weeks of\nsymptoms (cough). After three weeks, patients may not be infectious, and thus\nantibiotic administration is not routinely recommended.\nDiagnosis of pertussis\nPrevention of pertussis\n## Treatment\nAzithromycin 500mg po day 1, then 250mg q24h for days 2-5 [O]\n## Alternative for macrolide intolerant or allergic patients\nTrimethoprim/sulfamethoxazole 1 DS tablet PO q12h for 7 days [R,DI]\n## _______________________________________________________________________________\n## References:\nKline et al, Am Fam Physician (2013) 88.8, 507-514\nLangley et al, Pediatrics (2004), e96-e101\nSanford keyword: Pertussis\nMandell chapter: Bordetella species",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU ABX PERTUSSIS",
+  "Outpt": "ORZID3 GMENU PERTUSSIS"
+}

@@ -1,0 +1,10 @@
+{
+  "PageID": "second-recur-abx-assoc-colitis",
+  "Group": "gi-intraabdominal",
+  "Term1": "SECOND RECUR ABX ASSOC COLITIS",
+  "Term2": "",
+  "Text": "## SECOND RECURRENCE OF CLOSTRIDIOIDES DIFFICILE INFECTION (CDI)\nDiscontinue implicated antibiotic(s). Narrow antibiotic spectrum if antibiotic\ntherapy is still needed. Avoid antiperistaltic agents (narcotics, loperamide,\netc.). Avoid antacid therapy without clear indication. If diarrhea has improved\nor resolved prior to starting C. difficile treatment, consider re-assessing the\ndiagnosis before initiating therapy. C. difficile infection usually responds to\nantimicrobial therapy. If symptoms do not respond to appropriate antimicrobial\ntherapy, re-consider the diagnosis.\n## Second Recurrence CDI:\nVancomycin Extended Pulse-Taper Regimen [M]\n(Vancomycin 125 mg PO q6h for 10 days, then taper and pulse with 125 mg po q12h\nfor 7 days, then 125mg po qday for 7 days, then 125mg every other day for 6\nweeks)\n< OR >\nIf fidaxomicin not previously used:\nFidaxomicin 200 mg po q12h for 10 days [M]\n< OR>\nIf fidaxomicin extended-pulse regimen not previously used:\nFidaxomicin Extended-Pulse Regimen [M]\n(Fidaxomicin 200mg po bid x5days,then 200mg every other day x20days)\n## Third or more recurrence: Consult Gastroenterology or Infectious Disease\n## _______________________________________________________________________________\nReferences:\nJohnson et al, Clin Inf Dis, 2021, 73(5): e1029-e1044\nMcDonald et al, Clin Inf Dis 2018, 66 (7): e1-e48\nCriteria for Use: Fidaxomicin VA-PBM (11/21)\nMandell chapter: Clostridioides difficile infection\nSanford Guide article: Clostridioides difficile\nUp-to-Date article: Clostridioides difficile infection in adults: Treatment and\nprevention",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU ABX SECOND RECUR ABX ASSOC COLITIS",
+  "Outpt": "ORZID3 GMENU SECOND RECURRENCE CDIFF COLITIS"
+}

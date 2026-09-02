@@ -1,0 +1,10 @@
+{
+  "PageID": "endoopthalmitis",
+  "Group": "head-and-neck",
+  "Term1": "ENDOOPTHALMITIS",
+  "Term2": "",
+  "Text": "## ENDOPHTHALMITIS\nEndophthalmitis is a medical emergency and presents with eye pain and visual\nloss. It may be associated with gram positive or gram-negative bacteria,\nincluding Staphylococcus aureus and Pseudomonas aeruginosa, or with fungi.\nConsult ophthalmology immediately. The ophthalmologist will obtain an aqueous or\nvitreous fluid sample for gram stain and culture and begin intravitreal\nantimicrobials.\n## Inpatient\n\n## Treatment with intravitreal antimicrobials\nVancomycin 1 mg/0.1 mL intravitreal injection STAT ($) [R] < AND > ceftazidime\n2.25 mg/0.1 mL intravitreal injection STAT ($$) [M]\n< OR >\nVancomycin 1 mg/0.1 mL intravitreal injection STAT ($) [R] < AND > amikacin 0.4\nmg/0.1 mL intravitreal injection STAT ($$) [M]\n## Fungal endophthalmitis\nFungal endophthalmitis is rarely diagnosed in temperate climates and treatment\nis complicated. Ophthalmology and Infectious Diseases involvement is essential.\nAmphotericin B 5mcg/0.1mL intravitreal injection STAT ($$$) [R,O]\n< OR >\nVoriconazole 100 mcg/0.1mL intravitreal injection STAT ($$$$) [R,H,DI]\n## _______________________________________________________________________________\n## Outpatient\n\nRefer to the Inpatient Antimicrobial CDSS for parenteral therapy\n## Fungal endophthalmitis\nFungal endophthalmitis is rarely diagnosed in temperate climates and treatment\nis complicated. Ophthalmology and Infectious Diseases involvement is essential.\nRefer to the Inpatient Antimicrobial CDSS for parenteral therapy References:\nReferences: Mandell chapter: Endophthalmitis\nSanford keyword: Endophthalmitis, Hematogenous or Endogenous\nTranos et al., Advances in therapy. 2016, 33(5)727-746\nUp-to-Date article: Bacterial endophthalmitis",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU ENDOOPTHALMITIS",
+  "Outpt": "ORZID3 GMENU ENDOPHTHALMITIS"
+}

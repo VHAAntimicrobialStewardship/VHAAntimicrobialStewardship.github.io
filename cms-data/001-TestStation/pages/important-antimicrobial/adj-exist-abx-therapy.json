@@ -1,0 +1,10 @@
+{
+  "PageID": "adj-exist-abx-therapy",
+  "Group": "important-antimicrobial",
+  "Term1": "10. ADJ EXIST ABX THERAPY (Navigation)",
+  "Term2": "",
+  "Text": "## ADJUSTING EXISTING ANTIMICROBIAL THERAPY\n## To change the DOSE of a CURRENTLY ACTIVE antimicrobial in CPRS\nRight click on the active order and change the dose as needed.\n## To change from the CURRENT ANTIMICROBIAL MEDICATION\nWe encourage clinicians to consult the CDSS when considering alternative\nantimicrobial therapy due to an adverse drug reaction, a culture result, or a\nneed to switch from intravenous to oral therapy. Many of the CDSS advice menus\ncontain more than one antimicrobial recommendation. If a suitable alternative\nis not listed on the advice menu, clinicians have the additional resource of an\nexpanded menu of alternative medications that can be accessed by selecting the\nNeed an alternative antimicrobial? link at the top of each advice menu. To\norder an alternative medication using this link prescribers will need to\nindicate the rationale behind the choice.\nNote: Restricted antimicrobials ordered outside of the CDSS system will still\nrequire Infectious Diseases approval.",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU ABX ADJ EXIST ABX THERAPY",
+  "Outpt": "ORZID2 GMENU ABX ADJ EXIST ABX THERAPY"
+}

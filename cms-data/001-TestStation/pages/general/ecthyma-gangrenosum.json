@@ -1,0 +1,10 @@
+{
+  "PageID": "ecthyma-gangrenosum",
+  "Group": "general",
+  "Term1": "ECTHYMA GANGRENOSUM",
+  "Term2": "",
+  "Text": "## ECTHYMA GANGRENOSUM\nEcthyma gangrenosum lesions commonly begin as painless red macules which\nrapidly evolve into areas of induration that develop into pustules and-or\nbullae. Ultimately, these become gangrenous ulcers. Ecthyma lesions\ntypically progress rapidly within 12 to 18 hours. They are often associated\nwith Pseudomonas aeruginosa bacteremia, especially in neutropenic patients.\nRecommend blood cultures and culture of skin exudates.\n#Inpatient Infectious disease consult is suggested.\nConsider combination therapy in patients with severe infections.\nTreat for 7 days.\n## Preferred treatment\nPiperacillin-tazobactam 4.5 gm IV q6h ($$) [R]\nCiprofloxacin 400 mg IV q8h ($) [R,DI]\nGentamicin 5 mg/kg IV q24h ($) [R,O]\n## Alternative for severe infections\nPiperacillin-tazobactam 4.5 gm IV q6h ($$) [R] < AND > gentamicin\n5 mg/kg IV q24h ($) [R,O]\nCiprofloxacin 400 mg IV q8h ($) [R,DI] < AND > gentamicin 5 mg/kg\nIV q24h ($) [R,O]\n## Outpatient\n\n## Treatment\nRefer to Inpatient Antimicrobial CDSS.\nReferences\nUp-to-date website\nMandell chapter: Pseudomonas aeruginosa\nStevens DL Clin Infect Dis 2014, 59: 147\nMontravers P Curr Opin Infect Dis 2016, 29:131",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU ECTHYMA GANGRENOSUM",
+  "Outpt": "ORZID3 GMENU ECTHYMA GANGRENOSUM"
+}

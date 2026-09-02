@@ -1,9 +1,0 @@
-{
-  "PageID": "gram-pos-fi-actinomyces-spp",
-  "Group": "index-inpatient",
-  "Term1": "GRAM-POS FI ACTINOMYCES SPP.",
-  "Term2": "",
-  "Text": "## ACTINOMYCES SPP.\nOptimal therapy depends on both the disease or syndrome and the pathogen. See\ndiagnosis/syndrome section for more information.\n## Preferred treatment\nPenicillin G 4 million units IV q4h [R]\n< OR >\nAmpicillin 2 gm IV q4h [R]\n< OR >\nAmoxicillin 500 mg PO q8h [R]\n## Alternative for severe beta-lactam allergy\nAssessment of Beta-lactam Reaction\nDoxycycline 100 mg IV q12h [DI]\n< OR >\nDoxycycline 100 mg PO q12h [DI]\n## _______________________________________________________________________________\n## References:\nSanford Guide article: Actinomycosis\nUp-To-Date article: Treatment of actinomycosis",
-  "LinkTargets": [],
-  "Inpt": "ORZID2 GMENU GRAM-POS FI ACTINOMYCES SPP."
-}

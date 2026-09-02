@@ -1,0 +1,10 @@
+{
+  "PageID": "emp-intrav-w-o-vanco",
+  "Group": "system-infectious-diseases",
+  "Term1": "EMP INTRAV W/O VANCO",
+  "Term2": "",
+  "Text": "## Suspected MRSA",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU EMP INTRAV W/O VANCO",
+  "ERUC": "ORZID GMENU ER/UC EMP INTRAV W/O VANCO"
+}

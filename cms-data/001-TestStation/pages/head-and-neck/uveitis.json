@@ -1,0 +1,23 @@
+{
+  "PageID": "uveitis",
+  "Group": "head-and-neck",
+  "Term1": "Uveitis",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# UVEITIS\n\nMost cases are non-infectious. Most infectious cases are associated with a\n\npathogen causing systemic or central nervous system infection. Diagnosis of\n\nuveitis usually must be made presumptively due to the technical difficulty of\n\nsampling the uvea. Cases have been associated with fungi, bacteria, viruses, and\n\nprotozoa like Toxoplasma gondii.\n\n# For treatment of posterior uveitis (retinitis) or acute retinal necrosis (ARN)\n\n# due to Varicella-zoster virus (VZV) or herpes simplex virus (HSV) or\n\n# Cytomegalovirus (CMV)\n\n[VZV or HSV retinitis and ARN](orzid2-gmenu-retinitis)\n\n[CMV retinitis and ARN](orzid2-gmenu-abx-cmv-retinitis)\n\n# Treatment of uveitis involves treating the underlying infection and is usually\n\n# systemic. Refer to specific pathogen recommendations for treatment of underlyin\n\n# infection. Contact Ophthalmology and/or Infectious Diseases for assistance.\n\n# _______________________________________________________________________________\n\nReferences:\n\nMandell chapter: Infectious causes of uveitis",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "VZV or HSV retinitis and ARN",
+      "Item": "ORZID2 GMENU RETINITIS"
+    },
+    {
+      "Text": "CMV retinitis and ARN",
+      "Item": "ORZID2 GMENU ABX CMV RETINITIS"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU UVEITIS",
+  "Outpt": "ORZID3 GMENU UVEITIS"
+}

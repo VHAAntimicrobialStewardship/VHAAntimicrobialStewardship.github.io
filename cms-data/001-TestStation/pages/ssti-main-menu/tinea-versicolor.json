@@ -1,0 +1,10 @@
+{
+  "PageID": "tinea-versicolor",
+  "Group": "ssti-main-menu",
+  "Term1": "ORZID2 GMENU TINEA VERSICOLOR",
+  "Term2": "",
+  "Text": "## TINEA VERSICOLOR\nTopical antifungals can be used for limited disease. For disease that involves\nnails or does not respond to topical therapy, use oral antifungals.\nReturn of normal skin color often takes several weeks after the treatment course\nis finished.\n## Treatment limited disease:\nKetoconazole 2% shampoo apply to the affected area QDAY for 3 days. Apply to\ndamp skin, lather, leave on 5 minutes, and rinse.\n< OR >\nKetoconazole 2% cream to affected area QDAY for 14 days [M]\n< OR >\nTerbinafine 1% cream apply to affected area QDAY for 7 days [M]\n< OR >\nSelenium sulfide lotion 2.5% apply to affected area, leave on for 10 minutes,\nthen rinse/shower thoroughly QDAY for 7 days [M]\n## Treatment extensive disease:\nFluconazole 300 MG PO weekly for 2 weeks [R]\n## _______________________________________________________________________________\nReferences:\nUp-to-date\nSanford keyword: Tinea\nAK Gupta AK, J Cutan Med Surg. 2014, 18:79",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU TINEA VERSICOLOR",
+  "Outpt": "ORZID3 GMENU TINEA VERSICOLOR"
+}

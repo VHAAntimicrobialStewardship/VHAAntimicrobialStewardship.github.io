@@ -29,32 +29,65 @@ MERGED_GROUPS: dict[str, str] = {
     "toxic-megacolon": "gi-intraabdominal",
 }
 
-# Inpatient root menus that do not have a Combined page counterpart but should
-# still map descendants into a dedicated CMS group folder.
-MANUAL_INPT_ROOT_GROUPS: dict[str, str] = {
-  "ORZID2 GMENU ABX HEAD AND NECK": "head-and-neck",
+# Main-menu section to group mapping: links from combined main-menu to CMS groups
+# These define the category structure shown in Sveltia
+MAIN_MENU_SECTION_GROUPS: dict[str, str] = {
+    # Syndromes and Diseases, by Body Systems
+    "bone-joint-muscle-infections": "bone-joint-muscle-infections",
+    "cardiovascular": "cardiovascular",
+    "cns": "cns",
+    "gi-intraabdominal": "gi-intraabdominal",
+    "head-and-neck": "head-and-neck",
+    "lung-and-mediastinum": "lung-and-mediastinum",
+    "ssti-main-menu": "ssti-main-menu",
+    "system-infectious-diseases": "system-infectious-diseases",
+    "genitourinary": "genitourinary",
+    # Organisms
+    "bacteria": "organisms",
+    "fungi": "organisms",
+    "other-pathogens": "organisms",
+    "parasites": "organisms",
+    "viruses": "organisms",
+    # Help
+    "additional-assistance": "help-page",
+    "help-page": "help-page",
+    "faq": "help-page",
+    "clinical-on-call-schedule": "help-page",
+    "up-to-date-online": "help-page",
+    # Important Antimicrobial Information
+    "susceptibilities-antibiogram": "important-antimicrobial",
+    "antimicrobial-formulary": "important-antimicrobial",
+    "abx-restriction-policy": "important-antimicrobial",
+    "adj-exist-abx-therapy": "important-antimicrobial",
+    "how-to-find-alt-abx": "important-antimicrobial",
+    "beta-lactam-allergy-assessment": "important-antimicrobial",
+    "infection-control": "important-antimicrobial",
+    "vanco-mrsa-nares-information": "important-antimicrobial",
+    "esbl-kpc-etc": "important-antimicrobial",
+    "abx-not-required": "important-antimicrobial",
 }
 
 # Display labels for each group folder
 GROUP_LABELS: dict[str, str] = {
-  "main-menu": "Main Menu",
-    "adj-exist-abx-therapy": "Adjust Existing Therapy",
-    "cns": "Central Nervous System",
-    "lung-and-mediastinum": "Lungs & Mediastinum",
-    "dermatologic-surgery-guidelines": "Dermatology & Surgery",
-    "device-related-infections": "Device-related Infections",
-    "prevention-of-infection": "Prevention of Infection",
-    "pneumonia": "Pneumonia",
-    "hiv-aids": "HIV / AIDS",
+    "main-menu": "Main Menu",
+    # Syndromes and Diseases
+    "bone-joint-muscle-infections": "Bone, Muscle & Joint Infections",
     "cardiovascular": "Cardiovascular",
-    "immunocompromised-patient": "Immunocompromised",
+    "cns": "Central Nervous System",
     "gi-intraabdominal": "GI & Intraabdominal",
-    "recommended-immunizations": "Immunizations",
     "head-and-neck": "Head and Neck",
+    "lung-and-mediastinum": "Lungs & Mediastinum",
+    "ssti-main-menu": "Skin & Soft Tissue Infections",
+    "system-infectious-diseases": "Systemic Infections",
     "genitourinary": "Urogenital",
-    "ssti-main-menu": "Skin & Soft Tissue",
-    "systemic-infections": "Systemic Infections",
-    "general": "General / Uncategorized",
+    # Organisms
+    "organisms": "Organisms",
+    # Help
+    "help-page": "Help & Resources",
+    # Important Antimicrobial Information
+    "important-antimicrobial": "Important Antimicrobial Information",
+    # General / Miscellaneous
+    "general": "General / Miscellaneous",
 }
 
 
@@ -73,39 +106,42 @@ MAIN_MENU_GROUP = "main-menu"
 
 print(f"Combined pages to export: {len(combined_pages)}")
 
-# ── Assign each combined page to a group via inpatient tree ancestry ──────────
-# Strategy: BFS the INPATIENT tree from ORZID2 GMENU ABX INPT MAIN, recording
-# which inpatient group root each page descends from. Then map combined pages to
-# groups via their Inpt pointer. This correctly captures orphan combined pages
-# that aren't linked from other combined pages.
+# ── Assign each combined page to a group via main-menu structure ──────────────
+# Strategy: Extract main-menu links to build group assignments. Combined pages
+# are mapped to groups based on MAIN_MENU_SECTION_GROUPS. Then inpatient pages
+# are assigned to the same group as their combined parent via BFS.
 
 page_group: dict[str, str] = {}  # page_id -> group_folder
 
-inpt_main_omjson = by_name.get("ORZID2 GMENU ABX INPT MAIN")
 combined_main = by_name.get(combined_main_id)
 if not combined_main:
     print("ERROR: combined main menu not found (expected main-menu or inpt-main).")
     raise SystemExit(1)
 
 # Build map: inpatient group root name -> combined group folder name
-# These are the inpatient pages directly linked from ORZID2 GMENU ABX INPT MAIN
-# that have a Combined counterpart
+# Strategy: scan main-menu LinkTargets to find which combined pages link to 
+# which inpatient roots, then assign those inpatient roots to groups.
 inpt_group_map: dict[str, str] = {}   # inpatient_name -> group_folder
-if inpt_main_omjson:
-    for lt in inpt_main_omjson.get("LinkTargets", []):
-        inpt_root = lt.get("Item", "")
-        inpt_page = by_name.get(inpt_root)
-        if not inpt_page:
-            continue
-        combined_id = inpt_page.get("Combined")
-        if combined_id and combined_id in combined_pages:
-            group_folder = MERGED_GROUPS.get(combined_id, combined_id)
-            inpt_group_map[inpt_root] = group_folder
-            continue
 
-        manual_group = MANUAL_INPT_ROOT_GROUPS.get(inpt_root)
-        if manual_group:
-            inpt_group_map[inpt_root] = manual_group
+# Extract links from combined main-menu text
+main_text = combined_main.get("Text", "")
+main_menu_links = re.findall(r"\[([^\]]+)\]\(([^)]+)\)", main_text)
+
+for label, target_slug in main_menu_links:
+    # Get the group this slug should be in (from MAIN_MENU_SECTION_GROUPS)
+    target_group = MAIN_MENU_SECTION_GROUPS.get(target_slug)
+    if not target_group:
+        continue
+    
+    # Find the combined page
+    combined_page = by_name.get(target_slug)
+    if not combined_page:
+        continue
+    
+    # Get its inpatient source
+    inpt_root = combined_page.get("Inpt")
+    if inpt_root:
+        inpt_group_map[inpt_root] = target_group
 
 # BFS through INPATIENT pages, tracking group ancestry
 inpt_page_to_group: dict[str, str] = {}  # inpatient_page_name -> group_folder
@@ -130,11 +166,19 @@ for inpt_root, group_folder in inpt_group_map.items():
         if child in by_name and child not in visited:
           queue.append(child)
 
-# Assign combined pages via their Inpt pointer's group
+# Assign combined pages via MAIN_MENU_SECTION_GROUPS (explicit assignment) or
+# via inpatient source group (implicit).
 for pid, page in combined_pages.items():
   if pid == combined_main_id:
     page_group[pid] = MAIN_MENU_GROUP
     continue
+  
+  # First try explicit assignment
+  if pid in MAIN_MENU_SECTION_GROUPS:
+    page_group[pid] = MAIN_MENU_SECTION_GROUPS[pid]
+    continue
+  
+  # Otherwise, use inpatient source's group
   inpt_source = page.get("Inpt", "")
   group_folder = inpt_page_to_group.get(inpt_source, "general")
   page_group[pid] = group_folder
@@ -152,23 +196,38 @@ for grp in sorted(group_summary):
 all_group_folders: list[str] = [
     g for g in [
     "main-menu",
-        "adj-exist-abx-therapy",
-        "cns",
-        "cardiovascular",
-        "head-and-neck",
-        "dermatologic-surgery-guidelines",
-        "device-related-infections",
-        "gi-intraabdominal",
-        "hiv-aids",
-        "recommended-immunizations",
-        "immunocompromised-patient",
-        "lung-and-mediastinum",
-        "pneumonia",
-        "prevention-of-infection",
-        "genitourinary",
-        "ssti-main-menu",
-        "systemic-infections",
-        "general",
+    # Syndromes and Diseases, by Body Systems
+    "bone-joint-muscle-infections",
+    "cardiovascular",
+    "cns",
+    "gi-intraabdominal",
+    "head-and-neck",
+    "lung-and-mediastinum",
+    "ssti-main-menu",
+    "system-infectious-diseases",
+    "genitourinary",
+    # Organisms
+    "organisms",
+    # General and Miscellaneous
+    "dermatologic-surgery-guidelines",
+    "device-related-infections",
+    "hiv-aids",
+    "immunocompromised-patient",
+    "prevention-of-infection",
+    "recommended-immunizations",
+    "surgical-pre-op-antibiotics",
+    "surgical-post-op-antimicrobial-prophylaxis",
+    "tpoxx-monkeypox-treatment",
+    "bispecific-disease-specific-management",
+    "bispecific-crs-monitoring",
+    "bispecific-lodging-admit-information",
+    "bispecific-icans-monitoring",
+    # Help
+    "help-page",
+    # Important Antimicrobial Information
+    "important-antimicrobial",
+    # General fallback
+    "general",
     ]
     if g in group_summary
 ]

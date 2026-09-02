@@ -1,0 +1,10 @@
+{
+  "PageID": "prev-of-pertussis",
+  "Group": "head-and-neck",
+  "Term1": "PREV OF PERTUSSIS",
+  "Term2": "",
+  "Text": "## PREVENTION OF PERTUSSIS\n## Immunization\nGive a single dose of tetanus-diphtheria acellular pertussis vaccine (Tdap) in\nadults regardless of interval between most recent Td vaccine. One dose of Tdap\nvaccine is given to pregnant women during each pregnancy.\n## Postexposure prophylaxis in adults\nHousehold contacts with symptomatic coughing should be treated as if they have\npertussis. Consult Infectious Diseases for all suspected cases of pertussis and\nexposure to pertussis.\nCDC recommends postexposure prophylaxis in household contacts within 21 days\nafter exposure to pertussis regardless of immunization history. Non-household\ncontacts who are at high risk of severe illness or who have close contact with\nhigh-risk individuals should receive post exposure prophylaxis within 21 days of\nexposure. Those at high risk of severe illness are infants less than one year of\nage, women in third trimester of pregnancy and those with preexisting health\nconditions that may be exacerbated by pertussis (e.g. immunosuppressed and\nasthmatic individuals).\nA single dose of Tdap should be administered in those who are not up to date.\nPreferred:\nAzithromycin 500mg po day 1, then 250mg q24h for days 2-5 [O]\nAlternative for macrolide intolerant or allergic patients:\nTrimethoprim/sulfamethoxazole 1 DS tablet PO q12h [R,DI] for 7 days\n## _______________________________________________________________________________\n## References:\nCDC: Pertussis https://www.cdc.gov/pertussis/outbreaks/pep.html\nKim et al, Annals of internal medicine (2016) 184-194\nSanford keyword: Pertussis\nMandell chapter: Bordetella species\n\n## Outpatient\n\nGuidance\nAlternative for macrolide intolerant or allergic patients:\nTrimethoprim/sulfamethoxazole 1 DS tablet PO BID for 7 days [R,DI]",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU PREV OF PERTUSSIS",
+  "Outpt": "ORZID3 GMENU PREVENTION PERTUSSIS"
+}

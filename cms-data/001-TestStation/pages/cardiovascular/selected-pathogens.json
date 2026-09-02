@@ -1,0 +1,42 @@
+{
+  "PageID": "selected-pathogens",
+  "Group": "cardiovascular",
+  "Term1": "2. Selected Pathogens (Navigation)",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# NATIVE VALVE ENDOCARDITIS--SELECTED PATHOGENS\n\n[Culture-negative endocarditis](orzid2-gmenu-ec-cx-neg)\n\n[Enterococci](orzid2-gmenu-ec-enterococci)\n\n[Fungi](orzid2-gmenu-ec-fungi)\n\n[Gram negative bacilli \\(other than HACEK organisms\\)](orzid2-gmenu-ec-gnb)\n\n[HACEK bacteria](orzid2-gmenu-ec-hacek)\n\n[Staphylococci](orzid2-gmenu-ec-nv-staphylococci)\n\n[Streptococci](orzid2-gmenu-ec-nv-streptococci)",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Culture-negative endocarditis",
+      "Item": "ORZID2 GMENU EC CX NEG"
+    },
+    {
+      "Text": "Enterococci",
+      "Item": "ORZID2 GMENU EC ENTEROCOCCI"
+    },
+    {
+      "Text": "Fungi",
+      "Item": "ORZID2 GMENU EC FUNGI"
+    },
+    {
+      "Text": "Gram negative bacilli (other than HACEK organisms)",
+      "Item": "ORZID2 GMENU EC GNB"
+    },
+    {
+      "Text": "HACEK bacteria",
+      "Item": "ORZID2 GMENU EC HACEK"
+    },
+    {
+      "Text": "Staphylococci",
+      "Item": "ORZID2 GMENU EC NV STAPHYLOCOCCI"
+    },
+    {
+      "Text": "Streptococci",
+      "Item": "ORZID2 GMENU EC NV STREPTOCOCCI"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU EC NV SEL PATH"
+}

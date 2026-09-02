@@ -1,0 +1,10 @@
+{
+  "PageID": "immunocom-neurol-dysfunction",
+  "Group": "general",
+  "Term1": "IMMUNOCOM NEUROL DYSFUNCTION",
+  "Term2": "",
+  "Text": "## NEUROLOGICAL DYSFUNCTION\n## Inpatient/Outpatient\n\nSeveral types of neurological dysfunction predispose patients to infectious\ndiseases. Comatose patients are unable to keep weight off dependent tissues,\npredisposing them to decubitus ulcers and pressure necrosis. Atelectasis is\ncommon in obtunded patients who cannot cough or breathe deeply. When patients\nrequire artificial ventilation, intubation compounds the risk of respiratory\ninfection.\nNeurological dysfunction of the bladder can interfere with normal bladder\nemptying and predisposes patients to bacteriuria. The risk of bacteruria\nincreases if patients are catheterized. Antimicrobial treatment is not\nindicated for asymptomatic bacteriuria. It provides no benefit and increases\nrisk of colonization with resistant organisms.\nNeurological dysfunction predisposes patients to aspiration of oropharyngeal or\ngastric contents. Aspiration causes fever, inflammation, and/or pulmonary\ninfiltrate, but does not require antimicrobial treatment. Bacterial pneumonia\noccurs in a minority of patients who experience significant aspiration,\ntypically about 3 days later. Typically, the patient improves for the first 2\ndays and then worsens as bacterial pneumonia develops with increased fever, new\nor progressive infiltrates, leukocytosis, and newly purulent sputum.\nAspiration pneumonia\nReferences\nRich RR, et al, eds. Clinical Immunology\nRoitt I, et al, eds. Immunology",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU IMMUNOCOM NEUROL DYSFUNCTION",
+  "Outpt": "ORZID3 GMENU IMMUNOCOM NEUROL DYSFUNCT"
+}

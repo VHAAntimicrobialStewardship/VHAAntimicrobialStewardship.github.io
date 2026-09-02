@@ -1,0 +1,10 @@
+{
+  "PageID": "colonized-respiratory-tract-ventilator",
+  "Group": "important-antimicrobial",
+  "Term1": "COLONIZED RESPIRATORY TRACT VENTILATOR",
+  "Term2": "",
+  "Text": "## COLONIZED RESPIRATORY TRACT IN A PATIENT ON A VENTILATOR\nThe respiratory tracts of persons who are intubated, have a\ntracheostomy, or have other abnormalities of the larynx or trachea are\nusually colonized with bacteria and often fungi. The bacteria can be of\nrelatively low virulence (e.g. coagulase negative staphylococci, streptococci,\ncandida) or of potentially greater virulence (Staphylococcus aureus,\nenterobacteriaceae, pseudomonas). Candida and enterococci are common\nrespiratory tract colonizers and they almost never cause pneumonia. There is\nno benefit from treatment of patients with systemic antimicrobials simply\nbecause the respiratory tract is colonized with a potential pathogen and there\nis no evidence of an infiltrate. Systemic antimicrobial therapy will select for\nresistant organisms and may lead to other adverse effects.\n## Inpatient\n\nSee below for ventilator-associated pneumonia treatment recommendations in\npatients with a new or progressive infiltrate and at least one of the following:\nfever greater than 100.4F, leukocytosis, leukopenia or purulent bronchial\nsecretions.\nNosocomial Pneumonia\n## Outpatient\n\nRefer to Inpatient Antimicrobial CDSS for ventilator-associated pneumonia\ntreatment recommendations in patients with a new or progressive infiltrate and\nat least one of the following: fever greater than 100.4F, leukocytosis,\nleukopenia or purulent bronchial secretions.\nReferences\nKalil et al. Clin Infect Dis, 2016, 63(5): e61-e111.",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU ABX COLONIZED RESPIRATORY TRACT VENTILATOR",
+  "Outpt": "ORZID3 GMENU ABX COLONIZED RESPIRATORY TRACT VENTILATOR OP"
+}

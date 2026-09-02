@@ -81,16 +81,19 @@ collections:
         hint: "Clinical group used for organization and file path under pages/."
         options:
           - { label: "Main Menu", value: "main-menu" }
-          - { label: "General / Uncategorized", value: "general" }
-          - { label: "additional-assistance", value: "additional-assistance" }
-          - { label: "bacteria", value: "bacteria" }
-          - { label: "bispecific-disease-specific-management", value: "bispecific-disease-specific-management" }
-          - { label: "bispecific-lodging-admit-information", value: "bispecific-lodging-admit-information" }
-          - { label: "help-page", value: "help-page" }
-          - { label: "index-inpatient", value: "index-inpatient" }
-          - { label: "surgical-post-op-antimicrobial-prophylaxis", value: "surgical-post-op-antimicrobial-prophylaxis" }
-          - { label: "tpoxx-monkeypox-treatment", value: "tpoxx-monkeypox-treatment" }
-          - { label: "vanco-mrsa-nares-information", value: "vanco-mrsa-nares-information" }
+          - { label: "Bone, Muscle & Joint Infections", value: "bone-joint-muscle-infections" }
+          - { label: "Cardiovascular", value: "cardiovascular" }
+          - { label: "Central Nervous System", value: "cns" }
+          - { label: "GI & Intraabdominal", value: "gi-intraabdominal" }
+          - { label: "Head and Neck", value: "head-and-neck" }
+          - { label: "Lungs & Mediastinum", value: "lung-and-mediastinum" }
+          - { label: "Skin & Soft Tissue Infections", value: "ssti-main-menu" }
+          - { label: "Systemic Infections", value: "system-infectious-diseases" }
+          - { label: "Urogenital", value: "genitourinary" }
+          - { label: "Organisms", value: "organisms" }
+          - { label: "Help & Resources", value: "help-page" }
+          - { label: "Important Antimicrobial Information", value: "important-antimicrobial" }
+          - { label: "General / Miscellaneous", value: "general" }
       - label: "Display Title (search label)"
         name: Term1
         widget: string

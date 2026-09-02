@@ -1,0 +1,10 @@
+{
+  "PageID": "pd-gentamicin-06mg-kg-q24h",
+  "Group": "gi-intraabdominal",
+  "Term1": "PD GENTAMICIN 0.6MG/KG Q24H",
+  "Term2": "",
+  "Text": "## GENTAMICIN\n## FOR PERITONITIS ASSOCIATED WITH PERITONEAL DIALYSIS\n## Inpateint Gentamicin 0.6 mg/kg PD q24h in 2000 mL 2.5% dextrose diaslyate solution.\nto order WITH heparin\nIf Heparin is contraindicated then:\nto order WITHOUT heparin\n\n# # Outpatient\n\n## Choose loading dose based on patient's adjusted body weight (AJBW)\n## (see below for AJBW calculation)\n## AJBW < 80 kg:\nGentamicin 40 mg PD once daily\n## AJBW >/= 80 kg and <120 kg:\nGentamicin 60 mg PD once daily\n## AJBW >/= 120 kg:\nGentamicin 80 mg PD once daily\n## Pharmacy may be contacted at pager number 612-818-0841 for dosing information.\nCalculations:\nAJBW = Ideal Body Weight (IBW) + 0.4 (Actual Body Weight - IBW)\nIBW:\nMales: IBW = 50 kg + 2.3 kg for each inch over 5 feet\nFemales: IBW = 45.5 kg + 2.3 kg for each inch over 5 feet",
+  "LinkTargets": [],
+  "Inpt": "ORZID2 GMENU PD GENTAMICIN 0.6MG/KG Q24H",
+  "Outpt": "ORZID3 GMENU PD GENTAMICIN 0.6MG/KG ONCE DAILY"
+}

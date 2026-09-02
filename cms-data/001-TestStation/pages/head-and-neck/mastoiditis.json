@@ -1,0 +1,47 @@
+{
+  "PageID": "mastoiditis",
+  "Group": "head-and-neck",
+  "Term1": "2. Mastoiditis (Navigation)",
+  "Term2": "",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](orzid2-gmenu-abx-general-information-inpatient)\n\n# MASTOIDITIS\n\n# Acute Mastoiditis\n\nAcute mastoiditis most commonly occurs as a suppurative complication of acute\n\notitis media. Diagnosis is supported by CT or MRI imaging and culture of\n\ndrainage. Antibiotics and drainage of middle ear are sufficient treatment in\n\nmost cases. Mastoidectomy is necessary if abscess has formed in the mastoid\n\nbone. If complication of first episode of acute otitis media, etiologies\n\ntypically include Streptococcus pneumonia (most common), Streptococcus pyogenes,\n\nor Staphylococcus aureus. If secondary to chronic otitis media, etiologies\n\ntypically include Staphylococcus aureus or Pseudomonas aeruginosa. Patients\n\nusually too ill for outpatient therapy. ENT consultation recommended. Obtain\n\ncultures of auditory canal or middle ear fluid (preferred).\n\n# Empirical Treatment\n\nPreferred:\n\n[Piperacillin-tazobactam 4.5 gm IV q6h \\($$\\) R](orz-set-abx-pip-taz4-5gm-ne-extinf-ci-cefep-metro-vanco15mg-kg)\n\n<AND> vancomycin 15 mg/kg IV q 12 hours ($) [R] for 7 days\n\nAlternative:\n\n[Assessment of Beta-lactam Reaction](orzid2-gmenu-abx-beta-lactam-allergy-assesment)\n\n[Vancomycin 15 mg/kg IV q 12 hours \\($\\) R < AND > cefepime 2 gm IV q12h \\($$\\) R](orz-set-abx-cefepime-2-gm-iv-q12h-vanco-15mg-kg-q12h)\n\nfor 7 days\n\n# Step down treatment after initial intravenous antibiotic treatment in patients\n\n# who can tolerate oral therapy. Base selection on culture results. Adjust for a\n\n# total duration of 7 days of antimicrobial therapy.\n\n[Amoxicillin/clavulanate 875-125 mg PO q12h for 7 days \\($\\) R](psjzid-amox-clav-875-125mg-po-q12h)\n\n< OR >\n\n[Cefuroxime 500mg PO q12h for 7 days \\($\\) R](psjzid-cefuroxime-500mg-q12h)\n\n< OR >\n\n[Doxycycline 100 mg PO q12h for 7 days \\($\\) DI](psjzid-doxycycline-100mg-po-q12h)\n\n# __________________________________________________________________\n\n# Chronic Mastoiditis\n\nChronic mastoiditis is usually the result of chronic otitis media with\n\nperforation of the tympanic membrane. There is often associated formation of a\n\ncholesteatoma (keratoma). Diagnosis is supported by CT or MRI imaging and\n\nculture of drainage. Long term treatment with topical antimicrobials is first\n\nline therapy. Infection is often polymicrobial, including Staphylococcus aureus,\n\nPseudomonas aeruginosa and anaerobes. Treatment should be managed in\n\ncollaboration with otolaryngology and includes topical antimicrobials, care of\n\nexternal auditory canal, and is some cases mastoidectomy. If possible, withhold\n\ntherapy until a pathogen is identified by culture of drainage to direct therapy.\n\nSpecific drug choice dictated by culture results.\n\n# Empirical Treatment\n\nPreferred:\n\n[Ciprofloxacin-Dexamethasone otic 4 drops in affected ear\\(s\\) BID for 4 weeks \\($\\)](psjzid-ciprofloxacin-dexamethasone-otic-4-drps-bid)\n\n[M]\n\nAlternative:\n\n[Neomycin-polymyxin-hydrocortisone ear drops 4 drops in affected ear\\(s\\) QID for 4](psjzid-neomycin-polymixin-hc-otic-4-drps-qid)\n\nweeks ($) [M]\n\n# _______________________________________________________________________________\n\nReferences:\n\nMandell chapter: Otitis Externa, Otitis Media, and Mastoiditis\n\nLoh et. al., The Journal of Laryngology & Otology. 2018, 132(2)96-104.\n\nSanford keyword: Mastoiditis\n\nUp-to-Date article: Chronic otitis media, cholesteatoma, and mastoiditis in\n\nadults",
+  "LinkTargets": [
+    {
+      "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+      "Item": "ORZID2 GMENU ABX GENERAL INFORMATION INPATIENT"
+    },
+    {
+      "Text": "Piperacillin-tazobactam 4.5 gm IV q6h ($$) [R]",
+      "Item": "ORZ SET ABX PIP/TAZ4.5GM(NE-EXTINF,CI-CEFEP/METRO) VANCO15MG/KG"
+    },
+    {
+      "Text": "Assessment of Beta-lactam Reaction",
+      "Item": "ORZID2 GMENU ABX BETA-LACTAM ALLERGY ASSESMENT"
+    },
+    {
+      "Text": "Vancomycin 15 mg/kg IV q 12 hours ($) [R] < AND > cefepime 2 gm IV q12h ($$) [R]",
+      "Item": "ORZ SET ABX CEFEPIME 2 GM IV Q12H VANCO 15MG/KG Q12H"
+    },
+    {
+      "Text": "Amoxicillin/clavulanate 875-125 mg PO q12h for 7 days ($) [R]",
+      "Item": "PSJZID AMOX/CLAV 875-125MG PO Q12H"
+    },
+    {
+      "Text": "Cefuroxime 500mg PO q12h for 7 days ($) [R]",
+      "Item": "PSJZID CEFUROXIME 500MG Q12H"
+    },
+    {
+      "Text": "Doxycycline 100 mg PO q12h for 7 days ($) [DI]",
+      "Item": "PSJZID DOXYCYCLINE 100MG PO Q12H"
+    },
+    {
+      "Text": "Ciprofloxacin-Dexamethasone otic 4 drops in affected ear(s) BID for 4 weeks ($)",
+      "Item": "PSJZID CIPROFLOXACIN/DEXAMETHASONE OTIC 4 DRPS BID"
+    },
+    {
+      "Text": "Neomycin-polymyxin-hydrocortisone ear drops 4 drops in affected ear(s) QID for 4",
+      "Item": "PSJZID NEOMYCIN/POLYMIXIN/HC OTIC 4 DRPS QID"
+    }
+  ],
+  "Inpt": "ORZID2 GMENU MASTOIDITIS",
+  "Outpt": "ORZID3 GMENU MASTOIDITIS"
+}

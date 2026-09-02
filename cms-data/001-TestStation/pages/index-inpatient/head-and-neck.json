@@ -1,9 +1,0 @@
-{
-  "PageID": "head-and-neck",
-  "Group": "index-inpatient",
-  "Term1": "14. Head and Neck (Navigation)",
-  "Term2": "",
-  "Text": "## ++ HEAD AND NECK ++\n[Help, legend, allergy info, consults, alternative antimicrobials and more (Opt)](general-information-inpatient)\n## Ear/Otologic\n[Malignant Otitis Externa](malignant-otitis-externa)\n[Mastoiditis](mastoiditis)\n[Otitis Externa](otitis-externa)\n[Otitis Media](otitis-media)\n## Eye/Ophthalmologic\n[Conjunctivitis](conjunctivitis)\n[Endophthalmitis](endoopthalmitis)\n[Keratitis](keratitis)\n[Periocular Infections](periocular-infections)\n[Prophylaxis for Ophthalmic Surgery](prophylaxis-for-ophthalmic-surgery)\n[Retinitis](retinitis)\n[Uveitis](uveitis)\n## Facial\n[Bell's Palsy](bells-palsy)\n[Pre-septal Cellulitis](preseptal-cellulitis)\n[Post-septal Cellulitis (Orbital Cellulitis)](postseptal-cellulitis)\n## Section last reviewed June 2021\n<!-- COLUMN 2 -->\n## Nasal/Sinus\n[Acute Sinusitis](acute-sinusitis)\n[Chronic Sinusitis](chronic-sinusitis)\n[Fungal Sinusitis](fungal-sinusitis)\n[Nasal Packing (to prevent infection)](nasal-packing-to-prevent-infection)\n[Nosocomial Sinusitis](nosocomial-sinusitis)\n## Throat/Oropharyngeal\n[Deep Oropharyngeal Infections](deep-orophar-infect)\n[Dental Infections](supp-odontogenic-infect)\n[Epiglottitis](epiglottitis)\n[Esophagitis](esophagitis)\n[Laryngitis](laryngitis)\n[Parotitis](parotitis)\n[Periodontal Disease](periodental-disease)\n[Pertussis](pertussis)\n[Pharyngitis](pharyngitis)\n[Thrush](fungi-candida-albicans)\n[Tonsillitis](pharyngitis)",
-  "LinkTargets": [],
-  "Inpt": "ORZID2 GMENU ABX HEAD AND NECK"
-}
