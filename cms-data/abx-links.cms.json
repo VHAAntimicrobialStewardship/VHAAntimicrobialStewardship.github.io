@@ -479,6 +479,11 @@
       "Name": "Nitrofurantoin",
       "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/other-antibacterial/agents-urinary-tract/nitrofurantoin",
       "RouteFilter": ""
+    },
+    {
+      "Name": "Prednisone",
+      "URL": "https://medlineplus.gov/druginfo/meds/a601102.html",
+      "RouteFilter": ""
     }
   ]
 }
