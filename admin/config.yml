@@ -57,6 +57,49 @@ collections:
               - {label: "Sizes", name: "sizes", widget: "string"}
               - {label: "Type", name: "type", widget: "string"}
               - {label: "Purpose", name: "purpose", widget: "string", required: false}
+  - label: "001-TestStation Documents"
+    name: "001tes_documents"
+    folder: "cms-data/001-TestStation/documents"
+    create: true
+    format: json
+    extension: json
+    media_folder: "assets/uploads/001-TestStation"
+    public_folder: "/assets/uploads/001-TestStation"
+    editor:
+      preview: false
+    identifier_field: Title
+    summary: "{{fields.Title}} | {{fields.File}}"
+    sortable_fields: ["Title", "File"]
+    fields:
+      - label: "Title"
+        name: Title
+        widget: string
+        hint: "Human-readable label for this file."
+      - label: "File"
+        name: File
+        widget: file
+        hint: "Upload PDF, DOCX, XLSX, or other supported files."
+      - label: "Link Label"
+        name: LinkLabel
+        widget: string
+        required: false
+        hint: "Optional text to display in markdown links. Leave blank to use Title."
+      - label: "Markdown Link Helper"
+        name: MarkdownLink
+        widget: text
+        required: false
+        default: "[Link Display Text](https://vhaantimicrobialstewardship.github.io/assets/uploads/001-TestStation/replace-with-uploaded-filename.pdf)"
+        hint: "Auto-filled after publish by GitHub Action using your uploaded file path. Save/publish, then reopen to copy exact markdown."
+      - label: "Exact File URL"
+        name: AbsoluteURL
+        widget: string
+        required: false
+        hint: "Auto-filled after publish. Save/publish, then reopen and copy this full URL."
+      - label: "Notes"
+        name: Notes
+        widget: string
+        required: false
+        hint: "Optional context for editors."
   - label: "001-TestStation"
     name: "001tes_all_pages"
     folder: "cms-data/001-TestStation/pages"
