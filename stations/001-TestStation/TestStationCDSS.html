@@ -803,6 +803,51 @@ function isValidURL(value) {
     return false;
   }
 }
+
+function safeDecodeURIComponent(value) {
+  try {
+    return decodeURIComponent(value);
+  } catch (error) {
+    return value;
+  }
+}
+
+function normalizeContentAssetUrl(rawUrl) {
+  const original = (rawUrl || '').trim();
+  if (!original) {
+    return '';
+  }
+
+  if (isValidURL(original) || original.startsWith('data:') || original.startsWith('blob:')) {
+    return original;
+  }
+
+  if (original.startsWith('//')) {
+    return `${window.location.protocol}${original}`;
+  }
+
+  let normalized = original.replace(/\\/g, '/');
+  while (normalized.startsWith('./')) {
+    normalized = normalized.substring(2);
+  }
+  while (normalized.startsWith('../')) {
+    normalized = normalized.substring(3);
+  }
+
+  if (normalized.startsWith('/')) {
+    return normalized;
+  }
+
+  if (normalized.startsWith('assets/')) {
+    return `/${normalized}`;
+  }
+
+  if (normalized.startsWith('uploads/')) {
+    return `/assets/${normalized}`;
+  }
+
+  return `/${normalized}`;
+}
   
   
 // Scroll to the top of the table
@@ -1166,6 +1211,31 @@ function extractMarkdownImages(lineText) {
   return images;
 }
 
+function extractHtmlImages(lineText) {
+  const images = [];
+  const imageTagRegex = /<img\b[^>]*>/gi;
+  let tagMatch;
+
+  while ((tagMatch = imageTagRegex.exec(lineText)) !== null) {
+    const fullTag = tagMatch[0];
+    const srcMatch = fullTag.match(/\bsrc\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/i);
+    if (!srcMatch) {
+      continue;
+    }
+    const altMatch = fullTag.match(/\balt\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/i);
+
+    images.push({
+      index: tagMatch.index,
+      end: tagMatch.index + fullTag.length,
+      fullMatch: fullTag,
+      alt: altMatch ? (altMatch[1] || altMatch[2] || altMatch[3] || '') : '',
+      target: srcMatch[1] || srcMatch[2] || srcMatch[3] || ''
+    });
+  }
+
+  return images;
+}
+
 function resolveTargetForCurrentVersion(targetName) {
   const normalizedTarget = (targetName || '').trim();
   if (!normalizedTarget || currentVersion !== 'combined') {
@@ -1308,11 +1378,13 @@ function appendRichTextLineContent(container, lineText, selectedData) {
 
   const contentText = parsedLine.text;
   const markdownImages = extractMarkdownImages(contentText);
+  const htmlImages = extractHtmlImages(contentText);
   const markdownLinks = extractMarkdownLinks(contentText).filter((link) => {
     return !(link.index > 0 && contentText[link.index - 1] === '!');
   });
   const markdownTokens = [];
   markdownImages.forEach((image) => markdownTokens.push({ type: 'image', ...image }));
+  htmlImages.forEach((image) => markdownTokens.push({ type: 'image', ...image }));
   markdownLinks.forEach((link) => markdownTokens.push({ type: 'link', ...link }));
   markdownTokens.sort((a, b) => {
     if (a.index !== b.index) {
@@ -1333,7 +1405,7 @@ function appendRichTextLineContent(container, lineText, selectedData) {
     }
 
     if (match.type === 'image') {
-      const imageUrl = decodeURIComponent((match.target || '').trim());
+      const imageUrl = normalizeContentAssetUrl(safeDecodeURIComponent((match.target || '').trim()));
       if (imageUrl) {
         const imageElement = document.createElement('img');
         imageElement.src = imageUrl;
@@ -1348,7 +1420,7 @@ function appendRichTextLineContent(container, lineText, selectedData) {
     }
 
     const label = (match.label || '').trim();
-    const target = decodeURIComponent((match.target || '').trim());
+    const target = safeDecodeURIComponent((match.target || '').trim());
     if (isValidURL(target)) {
       const externalLink = document.createElement('a');
       externalLink.href = target;
