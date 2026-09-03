@@ -494,6 +494,11 @@
       "Name": "Trimethoprim",
       "URL": "https://medlineplus.gov/druginfo/meds/a684025.html",
       "RouteFilter": ""
+    },
+    {
+      "Name": "Baloxavir Marboxil",
+      "URL": "https://medlineplus.gov/druginfo/meds/a618062.html",
+      "RouteFilter": ""
     }
   ]
 }
