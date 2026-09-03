@@ -487,7 +487,12 @@
     },
     {
       "Name": "Doxycycline",
-      "URL": "https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=doxycycline&_gl=1*ldsvyd*_ga*MTY3NTg3MDU2MS4xNzgwMzI3NzQ0*_ga_7147EPK006*czE3ODg0NDUwMzgkbzMkZzAkdDE3ODg0NDUwMzgkajYwJGwwJGgw*_ga_P1FPTH9PL4*czE3ODg0NDUwMzgkbzMkZzAkdDE3ODg0NDUwMzgkajYwJGwwJGgw",
+      "URL": "https://medlineplus.gov/druginfo/meds/a682063.html",
+      "RouteFilter": ""
+    },
+    {
+      "Name": "Trimethoprim",
+      "URL": "https://medlineplus.gov/druginfo/meds/a684025.html",
       "RouteFilter": ""
     }
   ]
