@@ -846,7 +846,36 @@ function normalizeContentAssetUrl(rawUrl) {
     return `/assets/${normalized}`;
   }
 
+  // Sveltia markdown widget can emit bare filenames like "image.png".
+  // Treat these as CMS uploads under /assets/uploads.
+  if (!normalized.includes('/')) {
+    return `/assets/uploads/${normalized}`;
+  }
+
   return `/${normalized}`;
+}
+
+function parseMarkdownTargetParts(rawTarget) {
+  const raw = (rawTarget || '').trim();
+  if (!raw) {
+    return { url: '', title: '' };
+  }
+
+  let url = raw;
+  let title = '';
+
+  const titleMatch = raw.match(/^(.+?)\s+(?:"([^"]*)"|'([^']*)'|\(([^)]*)\))\s*$/);
+  if (titleMatch) {
+    url = (titleMatch[1] || '').trim();
+    title = (titleMatch[2] || titleMatch[3] || titleMatch[4] || '').trim();
+  }
+
+  // Angle-bracket destination support: <path/to/file.png>
+  if (url.startsWith('<') && url.endsWith('>')) {
+    url = url.substring(1, url.length - 1).trim();
+  }
+
+  return { url, title };
 }
   
   
@@ -1405,11 +1434,15 @@ function appendRichTextLineContent(container, lineText, selectedData) {
     }
 
     if (match.type === 'image') {
-      const imageUrl = normalizeContentAssetUrl(safeDecodeURIComponent((match.target || '').trim()));
+      const imageParts = parseMarkdownTargetParts(match.target || '');
+      const imageUrl = normalizeContentAssetUrl(safeDecodeURIComponent((imageParts.url || '').trim()));
       if (imageUrl) {
         const imageElement = document.createElement('img');
         imageElement.src = imageUrl;
         imageElement.alt = (match.alt || '').trim();
+        if (imageParts.title) {
+          imageElement.title = imageParts.title;
+        }
         imageElement.classList.add('markdown-image');
         container.appendChild(imageElement);
       } else {
@@ -1420,7 +1453,8 @@ function appendRichTextLineContent(container, lineText, selectedData) {
     }
 
     const label = (match.label || '').trim();
-    const target = safeDecodeURIComponent((match.target || '').trim());
+    const linkParts = parseMarkdownTargetParts(match.target || '');
+    const target = safeDecodeURIComponent((linkParts.url || '').trim());
     if (isValidURL(target)) {
       const externalLink = document.createElement('a');
       externalLink.href = target;
