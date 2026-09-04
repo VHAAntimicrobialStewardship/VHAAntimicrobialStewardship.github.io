@@ -563,5 +563,10 @@
     "Name": "Mupirocin",
     "URL": "https://medlineplus.gov/druginfo/meds/a688004.html",
     "RouteFilter": ""
+  },
+  {
+    "Name": "Benzoyl Peroxide",
+    "URL": "https://medlineplus.gov/druginfo/meds/a601026.html",
+    "RouteFilter": ""
   }
 ]
