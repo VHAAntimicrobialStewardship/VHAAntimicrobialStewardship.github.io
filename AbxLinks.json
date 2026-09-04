@@ -528,5 +528,10 @@
     "Name": "",
     "URL": "",
     "RouteFilter": ""
+  },
+  {
+    "Name": "Terbinafine",
+    "URL": "https://medlineplus.gov/druginfo/meds/a699061.html",
+    "RouteFilter": ""
   }
 ]
