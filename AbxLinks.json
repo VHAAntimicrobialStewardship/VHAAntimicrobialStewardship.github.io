@@ -533,5 +533,15 @@
     "Name": "Terbinafine",
     "URL": "https://medlineplus.gov/druginfo/meds/a699061.html",
     "RouteFilter": ""
+  },
+  {
+    "Name": "Ketoconazole",
+    "URL": "https://medlineplus.gov/druginfo/meds/a682816.html",
+    "RouteFilter": ""
+  },
+  {
+    "Name": "Selenium Sulfide",
+    "URL": "https://medlineplus.gov/druginfo/meds/a682258.html",
+    "RouteFilter": ""
   }
 ]
