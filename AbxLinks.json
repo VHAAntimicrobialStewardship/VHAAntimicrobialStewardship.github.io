@@ -553,5 +553,10 @@
     "Name": "Permethrin",
     "URL": "https://medlineplus.gov/druginfo/meds/a698037.html",
     "RouteFilter": ""
+  },
+  {
+    "Name": "Erythromycin",
+    "URL": "https://medlineplus.gov/druginfo/meds/a682381.html",
+    "RouteFilter": ""
   }
 ]
