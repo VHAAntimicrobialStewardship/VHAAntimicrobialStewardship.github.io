@@ -559,6 +559,11 @@
       "Name": "Erythromycin",
       "URL": "https://medlineplus.gov/druginfo/meds/a682381.html",
       "RouteFilter": ""
+    },
+    {
+      "Name": "Mupirocin",
+      "URL": "https://medlineplus.gov/druginfo/meds/a688004.html",
+      "RouteFilter": ""
     }
   ]
 }
