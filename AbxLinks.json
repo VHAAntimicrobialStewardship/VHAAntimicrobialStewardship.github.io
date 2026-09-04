@@ -503,5 +503,10 @@
     "Name": "Cefepime",
     "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/cephalosporins/parenteral/3rd-4th-generation/cefepime",
     "RouteFilter": ""
+  },
+  {
+    "Name": "Cefuroxime",
+    "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/cephalosporins/parenteral/2nd-generation/cefuroxime",
+    "RouteFilter": ""
   }
 ]
