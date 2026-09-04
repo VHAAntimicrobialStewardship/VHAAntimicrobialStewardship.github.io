@@ -508,5 +508,15 @@
     "Name": "Cefuroxime",
     "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/cephalosporins/parenteral/2nd-generation/cefuroxime",
     "RouteFilter": ""
+  },
+  {
+    "Name": "Moxifloxacin",
+    "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/fluoroquinolones/moxifloxacin",
+    "RouteFilter": ""
+  },
+  {
+    "Name": "",
+    "URL": "",
+    "RouteFilter": ""
   }
 ]
