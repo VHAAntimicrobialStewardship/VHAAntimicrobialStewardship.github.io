@@ -549,6 +549,11 @@
       "Name": "Triamcinolone",
       "URL": "https://medlineplus.gov/druginfo/meds/a601122.html",
       "RouteFilter": ""
+    },
+    {
+      "Name": "Permethrin",
+      "URL": "https://medlineplus.gov/druginfo/meds/a698037.html",
+      "RouteFilter": ""
     }
   ]
 }
