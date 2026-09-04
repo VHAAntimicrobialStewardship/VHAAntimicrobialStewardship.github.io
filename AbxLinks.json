@@ -543,5 +543,10 @@
     "Name": "Selenium Sulfide",
     "URL": "https://medlineplus.gov/druginfo/meds/a682258.html",
     "RouteFilter": ""
+  },
+  {
+    "Name": "Triamcinolone",
+    "URL": "https://medlineplus.gov/druginfo/meds/a601122.html",
+    "RouteFilter": ""
   }
 ]
