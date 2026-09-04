@@ -516,6 +516,11 @@
       "RouteFilter": ""
     },
     {
+      "Name": "Ofloxacin",
+      "URL": "https://dva.sanfordguide.com/en/drug-information/antibacterial-agents/fluoroquinolones/ofloxacin",
+      "RouteFilter": ""
+    },
+    {
       "Name": "",
       "URL": "",
       "RouteFilter": ""
