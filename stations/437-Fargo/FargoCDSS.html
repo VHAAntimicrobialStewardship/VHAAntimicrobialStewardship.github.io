@@ -740,9 +740,15 @@ function createOMTable(selectedData) {
             // Check if there are partial string matches with links in a row
             if (abxLinkData.length > 0) {
               const linkContainer = document.createElement('div');
-              const matchingURLs = abxLinkData.filter(item =>
-                contentText.toLowerCase().includes(item.Name.toLowerCase())
-              );
+              const matchingURLs = abxLinkData
+                .filter(item => 
+                  item && 
+                  typeof item.Name === 'string' && item.Name.trim() !== '' &&
+                  typeof item.URL === 'string' && item.URL.trim() !== ''
+                )
+                .filter(item =>
+                  contentText.toLowerCase().includes(item.Name.toLowerCase())
+                );
               const sortedMatchingURLs = matchingURLs.sort((a, b) => {
                 const aIndex = contentText.toLowerCase().indexOf(a.Name.toLowerCase());
                 const bIndex = contentText.toLowerCase().indexOf(b.Name.toLowerCase());
@@ -752,9 +758,17 @@ function createOMTable(selectedData) {
               currentIndex = 0;
               sortedMatchingURLs.forEach(matchingURL => {
                 const { Name, URL } = matchingURL;
-                const nameRegex = new RegExp(`\\b${Name}\\b`, 'gi');
+                const escapedName = escapeRegExp(Name.trim());
+                if (!escapedName) {
+                  return;
+                }
+                const nameRegex = new RegExp(`\\b${escapedName}\\b`, 'gi');
                 let match;
                 while ((match = nameRegex.exec(contentText)) !== null) {
+                  if (match[0].length === 0) {
+                    nameRegex.lastIndex++;
+                    continue;
+                  }
                   // If currentIndex is ahead of the current match index, update currentIndex to the end of this match
                   if (currentIndex > match.index) {
                     currentIndex = match.index + match[0].length;

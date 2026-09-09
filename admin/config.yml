@@ -27,8 +27,8 @@ collections:
             name: "entries"
             widget: list
             fields:
-              - { label: "Name", name: "Name", widget: "string", required: false }
-              - { label: "URL", name: "URL", widget: "string", required: false }
+              - { label: "Name", name: "Name", widget: "string", required: true }
+              - { label: "URL", name: "URL", widget: "string", required: true }
               - { label: "Route Filter", name: "RouteFilter", widget: "string", required: false }
   - label: "Site Settings"
     name: "site_settings"
