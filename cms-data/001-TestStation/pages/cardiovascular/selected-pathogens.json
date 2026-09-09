@@ -3,6 +3,6 @@
   "Group": "cardiovascular",
   "Term1": "3. Selected Pathogens (Navigation)",
   "Term2": "",
-  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-legend)\n\n# NATIVE VALVE ENDOCARDITIS--SELECTED PATHOGENS\n\n[Culture-negative endocarditis](ec-cx-neg)\n\n[Enterococci](ec-enterococci)\n\n[Fungi](ec-fungi)\n\n[Gram negative bacilli \\(other than HACEK organisms\\)](ec-gnb)\n\n[HACEK bacteria](ec-hacek)\n\n[Staphylococci](staphylococcal-native-valve-endocarditis)\n\n[Streptococci](streptococcal-native-valve-endocarditis)",
+  "Text": "[Help and Legend \\(Inpt\\)](general-information-legend)\n\n# NATIVE VALVE ENDOCARDITIS--SELECTED PATHOGENS\n\n[Culture-negative endocarditis](ec-cx-neg)\n\n[Enterococci](ec-enterococci)\n\n[Fungi](ec-fungi)\n\n[Gram negative bacilli \\(other than HACEK organisms\\)](ec-gnb)\n\n[HACEK bacteria](ec-hacek)\n\n[Staphylococci](staphylococcal-native-valve-endocarditis)\n\n[Streptococci](streptococcal-native-valve-endocarditis)",
   "Inpt": "ORZID2 GMENU EC NV SEL PATH"
 }

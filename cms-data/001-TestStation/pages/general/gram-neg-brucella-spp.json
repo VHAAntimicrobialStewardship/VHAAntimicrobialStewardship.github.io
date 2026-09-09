@@ -3,6 +3,6 @@
   "Group": "general",
   "Term1": "gram-neg-brucella-spp",
   "Term2": "",
-  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-legend)\n\n# BRUCELLA SPECIES\n\n# Consult Infectious Diseases in all cases\n\n# Preferred treatment\n\n[Doxycycline 100 mg PO q12h DI < AND > rifampin 600 mg PO q24h DI,O](orz-set-abx-op-doxy-100mg-po-bid-rifamp-600mg-po-qd)\n\n[Non-VA order for above](orz-set-abx-nv-doxy-100mg-po-bid-rifamp-600mg-po-qd)\n\n# _______________________________________________________________________________\n\n# References:\n\nSanford keyword: Brucella sp., Brucellosis, Febrile Illness\n\nUp-To-Date article: Clinical manifestations, diagnosis, and treatment of\n\nbrucellosis",
+  "Text": "[Help and Legend \\(Opt\\)](general-information-legend)\n\n# BRUCELLA SPECIES\n\n# Consult Infectious Diseases in all cases\n\n# Preferred treatment\n\n[Doxycycline 100 mg PO q12h DI < AND > rifampin 600 mg PO q24h DI,O](orz-set-abx-op-doxy-100mg-po-bid-rifamp-600mg-po-qd)\n\n[Non-VA order for above](orz-set-abx-nv-doxy-100mg-po-bid-rifamp-600mg-po-qd)\n\n# _______________________________________________________________________________\n\n# References:\n\nSanford keyword: Brucella sp., Brucellosis, Febrile Illness\n\nUp-To-Date article: Clinical manifestations, diagnosis, and treatment of\n\nbrucellosis",
   "Inpt": "ORZID3 GMENU GRAM-NEG BRUCELLA SPP."
 }

@@ -3,6 +3,6 @@
   "Group": "lung-and-mediastinum",
   "Term1": "mediastinitis",
   "Term2": "",
-  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Opt\\)](general-information-legend)\n\n# MEDIASTINITIS\n\nRefer to Inpatient Antimicrobial CDSS.",
+  "Text": "[Help and Legend \\(Opt\\)](general-information-legend)\n\n# MEDIASTINITIS\n\nRefer to Inpatient Antimicrobial CDSS.",
   "Inpt": "ORZID3 GMENU MEDIASTINITIS"
 }
