@@ -1,9 +1,0 @@
-{
-  "PageID": "spinal-cord-stimulator-trial-procedure-prophylaxis",
-  "Group": "general",
-  "Term1": "Spinal cord stimulator trial procedure prophylaxis",
-  "Term2": "",
-  "Text": "[Help and Legend](general-information-legend)\n\n# Pain Clinic Antimicrobial Prophylaxis Pre-procedure Orders\n\nSpinal Cord Stimulator Trial\n\n# Preferred Prophylaxis:\n\n# For patients weight < 120 kg:\n\n[Cefazolin 2 GM IVPB Once administer 60 minutes prior to procedure \\($\\) R](psjizid-cefazolin-2gm-ivpb-once-pre-procedure-pain-clinic)\n\n# For patients weight >/= 120 kg:\n\n[Cefazolin 3 GM IVPB Once administer 60 minutes prior to procedure  \\($\\) R](psjizid-cefazolin-3gm-iv-once-pre-procedure-pain-clinic)\n\n# Alternative for patient with beta lactam allergy:\n\n[Click here Assess Beta-lactam allergy prior to ordering alternative](beta-lactam-allergy-assessment)\n\n[Vancomycin Weight Based Dosing IVPB x1 Dose](orzid2-gmenu-surg-vancomycin-weight-based-dosing)\n\n# MRSA positive nares + risk factors:\n\n# ADD Vancomycin with Cefazolin (above) for MRSA positive nares + risk factors\n\n[Vancomycin Weight Based Dosing IVPB x1 Dose](orzid2-gmenu-surg-vancomycin-weight-based-dosing)\n\n# References:\n\nBratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis\n\nin surgery, Am J Health-Syst Pharm. 2013 vol 70 pages 195-283\n\nAntimicrobial Prophylaxis for Surgery, Treatment Guidelines from The\n\nMedical Letter 2012 vol 10 pages 73-77",
-  "Inpt": "ORZID2 GMENU SURG SPINAL CORD STIMULATOR TRIAL",
-  "Outpt": "ORZID2 GMENU SURG SPINAL CORD STIMULATOR TRIAL"
-}

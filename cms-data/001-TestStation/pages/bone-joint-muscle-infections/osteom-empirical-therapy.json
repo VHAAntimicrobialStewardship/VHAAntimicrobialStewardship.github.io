@@ -1,0 +1,9 @@
+{
+  "PageID": "osteom-empirical-therapy",
+  "Group": "bone-joint-muscle-infections",
+  "Term1": "OSTEOM EMPIRICAL THERAPY",
+  "Term2": "",
+  "Text": "## ($) [R,DI]",
+  "Inpt": "ORZID2 GMENU OSTEOM EMPIRICAL THERAPY",
+  "Outpt": "osteom-empirical-therapy"
+}

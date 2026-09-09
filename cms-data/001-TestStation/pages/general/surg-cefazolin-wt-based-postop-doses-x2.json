@@ -1,8 +1,0 @@
-{
-  "PageID": "surg-cefazolin-wt-based-postop-doses-x2",
-  "Group": "general",
-  "Term1": "surg-cefazolin-wt-based-postop-doses-x2",
-  "Term2": "",
-  "Text": "# CEFAZOLIN:\n\nPostoperative antimicrobial administration for preventing SSI is not\n\nnecessary for most procedures. The duration of antimicrobial prophylaxis\n\nshould be less than 24 hours.\n\n# Cefazolin Postop Dose based on patient weight:\n\n[<Click here> Display last recorded patient weight \\(limited to 2 years\\)](orz-gtx-abx-weight-for-abx-dosing)\n\n# Weight <120 kg:\n\n[Cefazolin 2GM IVPB q8hours X2 doses Postop](psjizid-cefazolin-2gm-ivpb-q8h-x-2doses-postop)\n\n# Weight >/= 120 kg:\n\n[Cefazolin 3GM IVPB q8hours X2 doses Postop](psjizid-cefazolin-3-gm-postop-x2doses-for-wt-greater-than-120kg)",
-  "Inpt": "ORZID2 GMENU SURG CEFAZOLIN WT BASED POSTOP DOSES X2"
-}

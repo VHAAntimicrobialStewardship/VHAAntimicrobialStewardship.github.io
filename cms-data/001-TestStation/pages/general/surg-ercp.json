@@ -1,9 +1,0 @@
-{
-  "PageID": "surg-ercp",
-  "Group": "general",
-  "Term1": "SURG ERCP",
-  "Term2": "",
-  "Text": "Rosengren et al, Curr Derm Rep (2012) 1, 55-63",
-  "Inpt": "ORZID2 GMENU SURG ERCP",
-  "Outpt": "surg-ercp"
-}

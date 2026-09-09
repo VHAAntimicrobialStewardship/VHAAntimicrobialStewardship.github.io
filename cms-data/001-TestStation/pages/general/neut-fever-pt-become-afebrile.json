@@ -1,8 +1,0 @@
-{
-  "PageID": "neut-fever-pt-become-afebrile",
-  "Group": "general",
-  "Term1": "neut-fever-pt-become-afebrile",
-  "Term2": "",
-  "Text": "[Help and Legend](general-information-legend)\n\nPATIENTS WITH NEUTROPENIC FEVER WHO BECOME AFEBRILE IN THE FIRST 3 TO 5 DAYS OF\n\nTREATMENT\n\n# >>  Treatment if an INFECTIOUS CAUSE WAS IDENTIFIED and has resolved\n\n(The infectious disease associated with the fever has resolved, the pathogen has\n\nbeen controlled or eradicated, and the patient seems well)\n\nStop antimicrobials after treatment for pathogen/disease is completed, often\n\nafter 7 days.\n\n# >>  Treatment if infectious cause of fever WAS NOT identified\n\nTo determine a patients risk level refer to\n\n[Scoring tool to identify low risk febrile neutropenic patients](orzid2-gmenu-neut-fever-scoring-tool)\n\n# Treatment for low risk patients\n\nConsider a change to oral therapy\n\n[Ciprofloxacin 500 mg PO q12h  \\($0.18/day\\) R,DI <AND> amoxicillin-](orz-set-abx-cipro-500mg-q12h-amox-clav-875-125-q12h)\n\nclavulanate 875/125 mg PO q12h  ($1.56/day) [R]\n\n# Treatment for high risk patients\n\nContinue same antimicrobials for 7 days\n\n[References](orzid2-gmenu-abx-references)\n\nHughes WT Clin Infect Dis 2002, 34: 730\n\nRolston KVI Clin Infect Dis 2004, 39: S44\n\nSipsas NV  Cancer 2005, 103: 1103",
-  "Inpt": "ORZID2 GMENU NEUT FEVER PT BECOME AFEBRILE"
-}

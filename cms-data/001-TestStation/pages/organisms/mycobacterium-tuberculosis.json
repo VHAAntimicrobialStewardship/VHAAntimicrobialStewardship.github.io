@@ -1,0 +1,9 @@
+{
+  "PageID": "mycobacterium-tuberculosis",
+  "Group": "organisms",
+  "Term1": "Mycobacterium tuberculosis",
+  "Term2": "Tuberculosis",
+  "Text": "[Help and Legend](general-information-legend)\n\n# MYCOBACTERIUM TUBERCULOSIS\n\nManagement of tuberculosis is complex. Contact Infectious Diseases and/or\n\nPulmonary service for more information.",
+  "Inpt": "ORZID2 GMENU M. TUBERCULOSIS",
+  "Outpt": "ORZID3 GMENU PATHO M. TUBERCULOSIS"
+}

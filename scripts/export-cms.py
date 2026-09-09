@@ -80,6 +80,24 @@ MAIN_MENU_SECTION_GROUPS: dict[str, str] = {
     "vanco-mrsa-nares-information": "important-antimicrobial",
     "esbl-kpc-etc": "important-antimicrobial",
     "abx-not-required": "important-antimicrobial",
+    # Utility/reference pages that are footer-linked from nearly every
+    # clinical page. Without an explicit override, BFS adjacency sweeps
+    # them into whichever disease group happens to be enumerated first in
+    # the main menu, which is incorrect since they aren't disease-specific.
+    "about-the-cdss": "help-page",
+    "acknowledgement": "help-page",
+    "contact-cdss-project-team": "help-page",
+    "diseases-and-syndromes-not-covered": "help-page",
+    "elements-of-cdss-advice-page": "help-page",
+    "home-iv-therapy": "help-page",
+    "how-to-use-the-cdss": "help-page",
+    "references": "help-page",
+    "adj-exist-therapy": "important-antimicrobial",
+    "beta-lactam-allergy-facts": "important-antimicrobial",
+    "duration-of-antimicrobial-therapy": "important-antimicrobial",
+    "genrl-alternative-drug": "important-antimicrobial",
+    "pregnancy-risk-factors-for-antimicrobials": "important-antimicrobial",
+    "warfarin-interactions-with-antimicrobials": "important-antimicrobial",
 }
 
 IGNORED_MAIN_MENU_TARGETS: set[str] = {

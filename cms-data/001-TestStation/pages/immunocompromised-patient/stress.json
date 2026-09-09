@@ -1,0 +1,9 @@
+{
+  "PageID": "stress",
+  "Group": "immunocompromised-patient",
+  "Term1": "Stress",
+  "Term2": "",
+  "Text": "[Help and Legend](general-information-legend)\n\nSTRESS\n\nAcute psychological stress is associated with immune stimulation and increased\n\ncellular host defenses.  However, chronic stress decrease humoral and cell-\n\nmediated immunity.  Chronic stress has been correlated with increased risk of\n\nrespiratory tract infection.\n\nCritically ill patients are usually profoundly stressed.  The risk of infection\n\nis subtle and the defects are non-specific.\n\n[References](references)\n\nRich RR, et al, eds.  Clinical Immunology\n\nRoitt I, et al, eds.  Immunology",
+  "Inpt": "ORZID2 GMENU IMMUNOCOM STRESS",
+  "Outpt": "ORZID2 GMENU IMMUNOCOM STRESS"
+}

@@ -1,0 +1,8 @@
+{
+  "PageID": "neut-fever-pt-fever-persists",
+  "Group": "system-infectious-diseases",
+  "Term1": "neut-fever-pt-fever-persists",
+  "Term2": "",
+  "Text": "[Help and Legend](general-information-legend)\n\nPATIENTS WITH NEUTROPENIC FEVER WHOSE FEVER PERSISTS THROUGHOUT THE FIRST 3 TO 5\n\nDAYS OF TREATMENT\n\nIf no infectious disease has been diagnosed but the patient is clinically\n\nstable, continue the current regimen.  If vancomycin was part of initial therapy\n\nbut culture results have not yielded a pathogen that must be treated with\n\nvancomycin, discontinue it to minimize development of resistance.\n\nConsider adding amphotericin B for empirical antifungal therapy.  Hematology-\n\noncology or Infectious Diseases may recommend another antifungal like\n\nmicafungin or voriconazole.  Contact Infectious Diseases for more information.\n\nIf the patient is receiving prophylactic fluconazole, stop it when empirical\n\nantifungals are started.\n\n# Treatment\n\n[Amphotericin B Liposomal 3-5MG/KG IV q24h \\($$$$\\)R,O+ NS Hydratio](orz-set-abx-amphotericin-liposomal-fluid-flush-orders)\n\nReferences:\n\nHughes WT Clin Infect Dis 2002, 34: 730\n\nRolston KVI  Clin Infect Dis 2004, 39: S44\n\nSipsas NV  Cancer 2005, 103: 1103",
+  "Inpt": "ORZID2 GMENU NEUT FEVER PT FEVER PERSISTS"
+}

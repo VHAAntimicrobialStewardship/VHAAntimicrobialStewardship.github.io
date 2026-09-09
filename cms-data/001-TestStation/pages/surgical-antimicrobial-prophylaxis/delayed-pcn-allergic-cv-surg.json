@@ -1,0 +1,9 @@
+{
+  "PageID": "delayed-pcn-allergic-cv-surg",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "Term1": "delayed-pcn-allergic-cv-surg",
+  "Term2": "",
+  "Text": "# Severly PCN Allergic Pre-op Antibiotic Delayed Order\n\n[Vancomycin 1500mg PREOPERATIVE dose **AND** 1000mg INTRAOPERATIVE dose](orz-set-abx-vancomycin-1500mg-preop-and-1000mg-intraoperative)\n\n[Levofloxacin 750mg IV once Pre-op Delayed Order](psjizid-levofloxacin-750-mg-delayed-order)",
+  "Inpt": "ORZID2 GMENU DELAYED PCN ALLERGIC CV SURG",
+  "Outpt": "ORZID2 GMENU DELAYED PCN ALLERGIC CV SURG"
+}

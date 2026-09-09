@@ -1,8 +1,0 @@
-{
-  "PageID": "staphylococcal-prosthetic-valve-endocarditis",
-  "Group": "general",
-  "Term1": "Staphylococcal prosthetic valve endocarditis",
-  "Term2": "Prosthetic valve endocarditis, staphylococcal",
-  "Text": "[Help and Legend](general-information-legend)\n\n# PROSTHETIC VALVE ENDOCARDITIS WITH STAPHYLOCOCCI\n\nEndocarditis with Staphylococcus aureus and coagulase-negative staphylococci are\n\ntreated similarly. Surgery is required frequently in these patients.\n\n# Treatment for methicillin-susceptible strains\n\n[Nafcillin 2 gm IV q4h \\($$\\) DI x 6 weeks <AND> rifampin 300 mg PO/NG q8h](orz-set-abx-nafcil-2gm-iv-q4h-rifamp-300mg-q8h-gent-1mg-kg-q8h)\n\n($) [DI,O] for 6 weeks <AND> gentamicin 1 mg/kg IV q8h ($) [R,O] for initial 2\n\nweeks\n\n# Treatment for methicillin-resistant strains\n\n[Vancomycin 15 mg/kg IV q12h \\($\\) R x 6 weeks <AND> rifampin 300 mg PO/NG](orz-set-abx-vanco-15mg-kg-iv-q12h-rifamp-300mg-po-gent-1mg-kg)\n\n($) [DI,O] q8h for 6 weeks <AND> gentamicin 1 mg/kg IV q8h ($) [R,O] for initial\n\n2 weeks\n\n# _______________________________________________________________________________\n\nReferences:\n\nBaddour et al., Circulation 2015, 132:1-52\n\nMandell chapter: Endocarditis and intravascular infections\n\nSanford keyword: Endocarditis\n\nUp-To-Date article: Overview of management of infective endocarditis in adults\n\nWang et al., JAMA 2018, 320.1:72-83",
-  "Inpt": "ORZID2 GMENU EC PV STAPHYLOCOCCI"
-}
