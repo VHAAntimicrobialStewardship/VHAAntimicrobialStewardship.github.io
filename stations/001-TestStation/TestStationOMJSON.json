@@ -55260,6 +55260,442 @@
       ],
       "Inpt": "ORZID2 GMENU M. TUBERCULOSIS",
       "Outpt": "ORZID3 GMENU PATHO M. TUBERCULOSIS"
+    },
+    {
+      "Name": "genrl-alternative-drug",
+      "Term1": "",
+      "Term2": "",
+      "Text": "# NEED AN ALERNATIVE ANTIMICROBIAL?\n\nIf you cannot use the recommended antimicrobials or you believe another one\n\nwould be better for your patient, you can order another drug. Please indicate\n\nthe reason you need an alternative drug below.\n\n[Allergic to recommended drug\\(s\\)](orz-set-abx-allergic-to-recommended-drugs)\n\n[Decreased renal clearance](orz-set-abx-decreased-renal-clr)\n\n[Liver secretory or metabolic impairment](orz-set-abx-liver-secretory)\n\n[Drug interaction](orz-set-abx-drug-interaction)\n\n[Patient has multiple infections requiring antimicrobials](orz-set-abx-multiple-infections)\n\n[Adjust therapy based on antimicrobial susceptibility](orz-set-abx-isolate-not-susc-to-recomd-drug)\n\n[Other adverse drug effect](orz-set-abx-other-adverse-drug-affect)\n\n[Other reason](orz-set-abx-alternative-other-reason)\n\nNote: Alternative antimicrobial selections will be reviewed and we may contact\n\nprescribers to learn more about situations that need alternatives, improve the\n\nCDSS, and in some cases offer suggestions.\n\n# Clarification/Comments:\n\n[Please Click Here to contact the CDSS team](additional-assistance)\n\n[Information about drug allergies](drug-allergies)",
+      "LinkTargets": [
+        {
+          "Key": "orz-set-abx-allergic-to-recommended-drugs",
+          "Text": "Allergic to recommended drug(s)",
+          "Item": "ORZ SET ABX ALLERGIC TO RECOMMENDED DRUGS"
+        },
+        {
+          "Key": "orz-set-abx-decreased-renal-clr",
+          "Text": "Decreased renal clearance",
+          "Item": "ORZ SET ABX DECREASED RENAL CLR"
+        },
+        {
+          "Key": "orz-set-abx-liver-secretory",
+          "Text": "Liver secretory or metabolic impairment",
+          "Item": "ORZ SET ABX LIVER SECRETORY"
+        },
+        {
+          "Key": "orz-set-abx-drug-interaction",
+          "Text": "Drug interaction",
+          "Item": "ORZ SET ABX DRUG INTERACTION"
+        },
+        {
+          "Key": "orz-set-abx-multiple-infections",
+          "Text": "Patient has multiple infections requiring antimicrobials",
+          "Item": "ORZ SET ABX MULTIPLE INFECTIONS"
+        },
+        {
+          "Key": "orz-set-abx-isolate-not-susc-to-recomd-drug",
+          "Text": "Adjust therapy based on antimicrobial susceptibility",
+          "Item": "ORZ SET ABX ISOLATE NOT SUSC TO RECOMD DRUG"
+        },
+        {
+          "Key": "orz-set-abx-other-adverse-drug-affect",
+          "Text": "Other adverse drug effect",
+          "Item": "ORZ SET ABX OTHER ADVERSE DRUG AFFECT"
+        },
+        {
+          "Key": "orz-set-abx-alternative-other-reason",
+          "Text": "Other reason",
+          "Item": "ORZ SET ABX ALTERNATIVE OTHER REASON"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-additional-assistance",
+          "Text": "Please Click Here to contact the CDSS team",
+          "Item": "additional-assistance"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-drug-allergies",
+          "Text": "Information about drug allergies",
+          "Item": "drug-allergies"
+        }
+      ],
+      "Inpt": "ORZID GMENU ABX GENRL ALTERNATIVE DRUG"
+    },
+    {
+      "Name": "abscess-submenu",
+      "Term1": "",
+      "Term2": "",
+      "Text": "[Help and Legend](general-information-legend)\n\n# Select abscess type:\n\n[Hepatic](liver-pyogenic-abscess)\n\n[Intraabdominal](second-peritonitis)\n\n[Intraperitoneal](second-peritonitis)\n\n[Perirectal/Anorectal](perianal-anorectal-abscess)",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "general-information-inpatient"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-liver-pyogenic-abscess",
+          "Text": "Hepatic",
+          "Item": "liver-pyogenic-abscess"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-second-peritonitis",
+          "Text": "Intraabdominal",
+          "Item": "second-peritonitis"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-perianal-anorectal-abscess",
+          "Text": "Perirectal/Anorectal",
+          "Item": "perianal-anorectal-abscess"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU ABSCESS SUBMENU"
+    },
+    {
+      "Name": "colonized-wounds",
+      "Term1": "Colonized wound",
+      "Term2": "Wound, colonized",
+      "Text": "# COLONIZED WOUNDS\n\nOpen wounds are usually colonized with bacteria and often fungi. This is true of\n\nulcers (see below), post-operative wounds, traumatic wounds, and others. Then\n\nbacteria can be of relatively low virulence (eg, coagulase negative\n\nstaphylococci, diphtheroids) or of potentially greater virulence (Staphylococcus\n\naureus, enterobacteriaceae, pseudomonas). Candida is commonly present on wounds\n\nthat are moist or covered. There is no need to treat patients with systemic\n\nantimicrobials simply because a wound culture is positive for a potential\n\npathogen. Topical antimicrobials are not effective in nearly all circumstances\n\nand can select for resistant organisms or lead to other adverse effects.\n\nSystemic antimicrobial therapy may be indicated if there are signs of infection.\n\n[Decubitus ulcers](decubitus-ulcers)\n\n[Diabetic foot ulcers](orzid2-gmenu-foot-ulcer-with-dm)\n\nReferences\n\nLipsky et al, Clin Infect Dis, 2012, 54(12): e132-e173\n\nUp-to-Date article: Clinical assessment of chronic wounds",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-decubitus-ulcers",
+          "Text": "Decubitus ulcers",
+          "Item": "decubitus-ulcers"
+        },
+        {
+          "Key": "orzid2-gmenu-foot-ulcer-with-dm",
+          "Text": "Diabetic foot ulcers",
+          "Item": "ORZID2 GMENU FOOT ULCER WITH DM"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU ABX COLONIZED WOUNDS"
+    },
+    {
+      "Name": "influenza-recommendations",
+      "Term1": "",
+      "Term2": "",
+      "Text": "[Help and Legend](general-information-legend)\n\n# SEASONAL INFLUENZA\n\n[Influenza vaccination recommendations](flu-seasonal-influenza)\n\n[Antiviral Treatment Recommendations](antiviral-treatment)\n\n[Chemoprophylaxis Recommendations](orzid2-gmenu-abx-influenza-chemoprophylaxis)\n\n[Lab Influenza Testing Menu](orz-gmenu-lab-nasopharyngeal-testing-main)",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "general-information-inpatient"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-influenza-vaccination",
+          "Text": "Influenza vaccination recommendations",
+          "Item": "flu-seasonal-influenza"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-antiviral-treatment",
+          "Text": "Antiviral Treatment Recommendations",
+          "Item": "antiviral-treatment"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-influenza-chemoprophylaxis",
+          "Text": "Chemoprophylaxis Recommendations",
+          "Item": "ORZID2 GMENU ABX INFLUENZA CHEMOPROPHYLAXIS"
+        },
+        {
+          "Key": "orz-gmenu-lab-nasopharyngeal-testing-main",
+          "Text": "Lab Influenza Testing Menu",
+          "Item": "ORZ GMENU LAB NASOPHARYNGEAL TESTING MAIN"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU ABX INFLUENZA RECOMMENDATIONS"
+    },
+    {
+      "Name": "malaria-treatment",
+      "Term1": "Malaria Treatment",
+      "Term2": "",
+      "Text": "[Help and Legend](general-information-legend)\n\n# MALARIA TREATMENT\n\nConsider malaria in any febrile person who has traveled to a malaria-endemic\n\narea in preceding months\n\nSearch \"CDC malaria countries\" for malaria endemic areas\n\n[Link to open internet browser and Google search \"CDC Malaria Countries\"](orz-gtx-abx-url-google-cdc-malaria-countries)\n\nObtain malaria smear and call ID on-call in ALL cases when a malaria test is\n\nsent\n\n[Malaria Smear lab order](lrtz-mb-malaria-smear)\n\n[ID on call schedule](orz-min-on-call-schedule)\n\n# Treatment\n\n[Coartem + prior auth bundle: artemether 80 mg/lumefantrine 480 mg twice daily](orz-set-abx-malaria-treatment-and-prior-auth)\n\nfor 3 days, the first 2 doses should be administered 8 hours apart\n\nArtesunate is appropriate in certain situations e.g. severe malaria - contact\n\nID on call\n\n# ___________________________________________________________________________\n\nReferences:",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "general-information-inpatient"
+        },
+        {
+          "Key": "orz-gtx-abx-url-google-cdc-malaria-countries",
+          "Text": "Link to open internet browser and Google search \"CDC Malaria Countries\"",
+          "Item": "ORZ GTX ABX URL GOOGLE CDC MALARIA COUNTRIES"
+        },
+        {
+          "Key": "lrtz-mb-malaria-smear",
+          "Text": "Malaria Smear lab order",
+          "Item": "LRTZ MB MALARIA SMEAR"
+        },
+        {
+          "Key": "orz-min-on-call-schedule",
+          "Text": "ID on call schedule",
+          "Item": "ORZ MIN ON CALL SCHEDULE"
+        },
+        {
+          "Key": "orz-set-abx-malaria-treatment-and-prior-auth",
+          "Text": "Coartem + prior auth bundle: artemether 80 mg/lumefantrine 480 mg twice daily",
+          "Item": "ORZ SET ABX MALARIA TREATMENT AND PRIOR AUTH"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU ABX MALARIA TREATMENT"
+    },
+    {
+      "Name": "not-benefitted-bacteriuria",
+      "Term1": "Bacteriuria, asymptomatic",
+      "Term2": "Candiduria, asymptomatic",
+      "Text": "# BACTERIURIA, CANDIDURIA, AND PYURIA\n\nAsymptomatic bacteriuria (>= 100,000 bacteria per ml of urine) is common in\n\nmiddle aged and older people, especially those who have chronic medical\n\nconditions. Pyuria is common in persons with bacteriuria and individuals with\n\nindwelling catheters in place. By itself, the presence of pyuria is not\n\nsufficient to diagnose bacteriuria, and the presence or absence of pyuria does\n\nnot differentiate symptomatic from asymptomatic urinary infection. Candiduria is\n\nless common than bacteriuria, but the implications of candiduria are similar to\n\nthose of bacteriuria.\n\nMany studies, including randomized clinical trials have shown that\n\ntreatment of asymptomatic bacteriuria and candiduria, with or without pyuria is\n\nof no benefit, except in certain well-defined circumstances. Antimicrobial\n\ntherapy is always accompanied by risk of harms, including drug reactions,\n\nClostridium difficile colitis, anaphylaxis and death. Except in circumstances\n\nspecified below, it is best to not order urinalysis or urine culture in\n\nasymptomatic persons. If bacteriuria, candiduria or pyuria is discovered in an\n\nasymptomatic person for some reason, antimicrobial therapy should not be given\n\nexcept as specified below.\n\n# Pregnant women or patients undergoing urological procedures with bacteriuria\n\n[Treatment of Asymptomatic Bacteriuria](asymp-bacteriuria)\n\n# Patients undergoing urological procedures or neutropenic patients with\n\n# candiduria\n\n[Treatment of Candida Urinary Tract Infections](candida-uti)\n\nReferences\n\nPappas et al, Clin Infect Dis, 2016, 62.409\n\nNicolle et al, Clin Infect Dis, 2005, 40:643",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-asymp-bacteriuria",
+          "Text": "Treatment of Asymptomatic Bacteriuria",
+          "Item": "asymp-bacteriuria"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-candida-uti",
+          "Text": "Treatment of Candida Urinary Tract Infections",
+          "Item": "candida-uti"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU ABX NOT BENEFITTED BACTERIURIA"
+    },
+    {
+      "Name": "stasis-dermatitis",
+      "Term1": "Stasis dermatitis",
+      "Term2": "Dermatitis, stasis",
+      "Text": "# STASIS DERMATITIS\n\nStasis dermatitis is a common condition that is often confused with\n\nbacterial cellulitis. Stasis dermatitis does not benefit from antimicrobial\n\ntherapy. It is important to distinguish between the two. The provider\n\nshould be mindful of the fact that bacterial cellulitis can occur on skin\n\nwith underlying stasis dermatitis. (See link below for bacterial cellulitis)\n\nCommon risk factors for venous stasis include advancing age, family\n\nhistory of venous disease, increased body mass index, smoking, a history of\n\ntrauma, prior venous thrombosis and pregnancy. Chronic venous disease and\n\narterial vascular disease have some common risk factors (eg, smoking,\n\nobesity) and pathophysiological processes. The most common symptoms reported\n\nby patients with chronic venous disease are limb discomfort (tired, heavy\n\nlegs), pain, and limb swelling. Swelling is often worse with prolonged\n\nstanding and improves with leg elevation and walking. The skin of the\n\nanterior surfaces of the lower legs often has brown or blue-grey\n\nhyperpigmentation.\n\nPeople with venous stasis are prone to develop stasis dermatitis which\n\nis one of the most common and earliest dermatologic signs of chronic venous\n\ninsufficiency. Stasis dermatitis is an inflammatory process that presents as\n\nan eczematous rash characterized by itching, erythema, scaling, weeping,\n\nerosions, and crusting. Longstanding cases may develop lipodermatosclerosis\n\na fibrosing panniculitis of the subcutaneous tissue. Lipodermatosclerosis\n\ntypically starts with a firm area of induration at the medial ankle. As the\n\nprocess progresses, the entire leg lower leg can become involved with\n\nextension up to the mid leg in more advanced cases. The skin overlying the\n\npanniculitis is typically heavily pigmented and bound down to the\n\nsubcutaneous tissues. Brawny edema above the fibrotic area and on the foot\n\nbelow is seen in advanced cases. Leukocytosis and fever are common in people\n\nwith stasis dermatitis.\n\nChronic venous disease is the most common cause of leg ulcers. They\n\nare usually found low on the medial ankle over a perforating vein, or along\n\nthe course of the great or small saphenous veins. They occur more proximally\n\nif precipitated by trauma. Venous ulcers are not found on the forefoot or\n\nabove the level of the knee. Venous ulcers can be multiple or single, and\n\ncan be exquisitely tender, shallow, exudative and have a granulation base.\n\nThe ulcer borders are usually irregular but not undermined. They can extend\n\ncircumferentially around the leg if left untreated.\n\nArterial ulcers are typically painful, and punched out or stellate. The\n\nsurrounding skin is red and taut. Some arterial ulcers are pale - others have\n\na black or yellow eschar. They are often associated with trauma and commonly\n\noccur on the foot over pressure points. There may be other signs of arterial\n\ninsufficiency on the lower limb including thin atrophic or hairless skin,\n\npoor pedal pulses, diminished capillary refill, or hypertrophic deformed\n\nnails.\n\nPatients with stasis or lipodermatosclerosis are prone to bouts of\n\nbacterial cellulitis, usually caused by Staphylococcus aureus or encapsulated\n\nstreptococci. Typically, stasis dermatitis develops slowly, over a week or\n\nmore. It is often bilateral. The onset of bacterial cellulitis is usually\n\nabrupt, typically developing over 1 or 2 days. Bacterial cellulitis often\n\nstarts in one area and spreads to adjacent areas. Bacterial cellulitis is\n\nunilateral. Both can present with fever and leukocytosis.\n\nIn a patient with stasis and cellulitis and the physician is uncertain\n\nabout whether bacterial cellulitis is present, the physician should consider\n\na trial of bed rest, leg elevation, and if there is fluid overload, diuresis\n\nIf the cellulitis improves in 24-48 hours, antibacterial therapy and the\n\nattendant adverse reactions can be avoided. If it is clear that bacterial\n\ncellulitis has occurred, antimicrobial therapy should be given.\n\n[Bacterial Cellulitis](cellulitis)\n\nReferences\n\nStevens et al, Clin Infect Dis, 2014, 59(2): e10-52\n\nUp-to-Date article: Stasis dermatitis",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-cellulitis",
+          "Text": "Bacterial Cellulitis",
+          "Item": "cellulitis"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU ABX STASIS DERMATITIS"
+    },
+    {
+      "Name": "upper-respiratory-infections-uri",
+      "Term1": "Upper respiratory infections",
+      "Term2": "URI",
+      "Text": "# UPPER RESPIRATORY INFECTION (URI)\n\nUpper respiratory infections include several common syndromes including\n\nthe common cold, bronchitis (see below), pharyngitis (see below) and sinusitis\n\n(see below). Most are caused by viruses and there is no benefit from\n\nantimicrobial therapy. If a patient presents with a URI, consider specific\n\ninfections that do respond to antimicrobial therapy like herpes simplex\n\nstomatitis, pertussis or thrush. If no condition that benefits from\n\nantimicrobial therapy is present, antimicrobials will almost certainly not help\n\nbut will likely select for antimicrobial resistance and may lead to other\n\nadverse effects.\n\n[Bronchitis](bronchitis)\n\n[Sinusitis](acute-sinusitis)\n\n[Pharyngitis](pharyngitis)\n\nReferences\n\nKogawa et al, General medicine, 2009, 10:7-15",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-bronchitis",
+          "Text": "Bronchitis",
+          "Item": "bronchitis"
+        },
+        {
+          "Key": "orzid2-gmenu-acute-sinusitis",
+          "Text": "Sinusitis",
+          "Item": "acute-sinusitis"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-pharyngitis",
+          "Text": "Pharyngitis",
+          "Item": "pharyngitis"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU ABX UPPER RESPIRATORY INFECTIONS (URI)"
+    },
+    {
+      "Name": "fever-of-unk-origin",
+      "Term1": "Fever of unknown origin",
+      "Term2": "",
+      "Text": "[Help and Legend](general-information-legend)\n\n# FEVER OF UNKNOWN ORIGIN\n\nFever of unknown origin (FUO) is the occurrence of several episodes of fever\n\ngreater than 101 degrees Fahrenheit over a period of at least 3 weeks despite 1\n\nweek of hospital evaluation. Cases with FUO are often classified in four\n\ncategories: (1) classical, (2) neutropenic, (3) nosocomial, and (4) fever in\n\npersons with HIV/AIDS. Empirical antimicrobial therapy is rarely indicated in\n\npatients with FUO.\n\nNote that FUO in neutropenic patients refers to persistent fever that has\n\nremained undiagnosed after extensive diagnostic work and empirical antimicrobial\n\ntherapy. New fever in patients with profound neutropenia is a different syndrome\n\nand does require empirical antimicrobial therapy. Infectious Diseases should be\n\ninvolved in any case where empirical treatment for fever of unknown origin is\n\nbeing considered. For more information refer to the neutropenic fever\n\nrecommendations.\n\n[Neutropenic fever](immunocom-neut-fever)\n\n# _______________________________________________________________________________\n\nReferences:\n\nMandell Chapter: Fever of Unknown Origin\n\nUp-to-date article: Approach to the adult with fever of unknown origin",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "general-information-inpatient"
+        },
+        {
+          "Key": "orzid2-gmenu-immunocom-neut-fever",
+          "Text": "Neutropenic fever",
+          "Item": "immunocom-neut-fever"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU FEVER OF UNK ORIGIN"
+    },
+    {
+      "Name": "foot-ulcer-with-dm",
+      "Term1": "Diabetic foot ulcer",
+      "Term2": "Foot ulcer in patient with diabetes",
+      "Text": "[Help and Legend](general-information-legend)\n\n# FOOT ULCER IN PATIENT WITH DIABETES MELLITUS\n\nFoot ulcers in patients with diabetes mellitus are colonized with bacteria. Do\n\nnot treat colonization with systemic antimicrobials.\n\n[Foot ulcers WITH infection of surrounding tissues](orzid2-gmenu-foot-ulcer-w-infect-surr-tissues)\n\n_______________________________________________________________________________\n\nReferences:\n\nStevens DL Clin Infect Dis 2014, 59:147\n\nLipsky BA Clin Infect Dis 2012, 54:e132",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "general-information-inpatient"
+        },
+        {
+          "Key": "orzid2-gmenu-foot-ulcer-w-infect-surr-tissues",
+          "Text": "Foot ulcers WITH infection of surrounding tissues",
+          "Item": "ORZID2 GMENU FOOT ULCER W/ INFECT SURR TISSUES"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU FOOT ULCER WITH DM"
+    },
+    {
+      "Name": "infect-diarrhea-gastro",
+      "Term1": "Infectious diarrhea/gastroenteritis",
+      "Term2": "Diarrhea, infectious",
+      "Text": "[Help and Legend](general-information-legend)\n\n# INFECTIOUS DIARRHEA / GASTROENTERITIS\n\nMost episodes of acute diarrhea are self-limited. In most mild to moderate\n\ncases, antimicrobial therapy does not provide benefit.\n\n# Bloody diarrhea\n\nBloody diarrhea can represent hemorrhagic colitis or dysentery. Antimicrobial\n\ntherapy and antimotility agents are not recommended in most patients with bloody\n\ndiarrhea due to an increased risk of hemolytic uremic syndrome when using these\n\nagents.\n\n# Primary treatment\n\nHydration and electrolyte replacement\n\n# Empirical antimicrobial treatment of diarrhea\n\n[Community acquired diarrhea \\(no recent travel\\)](comm-acq-diarrhea)\n\n[Traveler's diarrhea](travelers-diarrhea)\n\n# Treatment of diarrhea caused by specific bacteria, parasites, and viruses\n\n[Campylobacter](campylobacter)\n\nClostridioides difficile:\n\n[Mild to moderate disease](orzid2-gmenu-abx-assoc-colitis)\n\n[Severe/life-threatening disease \\(shock, ileus, and megacolon\\)](toxic-megacolon)\n\n[Cryptosporidium spp](cryptosporidia)\n\n[Escherichia coli, including varieties listed below:](e-coli-infect)\n\nEnteroaggretive E. coli (EAEC), Enterotoxigenic E. coli (ETEC),\n\nEnterohemorrhagic E. coli (EHEC), Shiga Toxin-producing E. coli (STEC),\n\nEnteropathogenic E. coli (EPEC), Enteroinvasive E. Coli (EIEC)\n\n[Giardia duodenalis](giardia)\n\n[Norovirus](orzid2-gmenu-comm-viral-gastroenteritis)\n\n[Rotavirus](orzid2-gmenu-comm-viral-gastroenteritis)\n\n[Salmonella](salmonella-species)\n\n[Shigella](shigella-species)\n\n[Vibrio cholerae](cholera)\n\n[Yersinia enterocolitica](yersinia-enterocolitica)\n\n# _______________________________________________________________________________\n\nReferences:\n\nMandell chapter: Nausea, Vomiting, and Noninflammatory Diarrhea\n\nSanford Guide article: Gastroenteritis, Diarrhea: Overview\n\nDOI: 10.1093/cid/cix669-Shane et al, Clinical Infectious Diseases 2017,\n\n65(12):45-80\n\nUp-To-Date article: Approach to the adult with acute diarrhea in resource-rich\n\nsettings",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "general-information-inpatient"
+        },
+        {
+          "Key": "orzid2-gmenu-comm-acq-diarrhea",
+          "Text": "Community acquired diarrhea (no recent travel)",
+          "Item": "comm-acq-diarrhea"
+        },
+        {
+          "Key": "orzid2-gmenu-travelers-diarrhea",
+          "Text": "Traveler's diarrhea",
+          "Item": "travelers-diarrhea"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-campylobacter",
+          "Text": "Campylobacter",
+          "Item": "campylobacter"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-assoc-colitis",
+          "Text": "Mild to moderate disease",
+          "Item": "ORZID2 GMENU ABX ASSOC COLITIS"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-toxic-megacolon",
+          "Text": "Severe/life-threatening disease (shock, ileus, and megacolon)",
+          "Item": "toxic-megacolon"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-cryptosporidia",
+          "Text": "Cryptosporidium spp",
+          "Item": "cryptosporidia"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-e-coli-infect",
+          "Text": "Escherichia coli, including varieties listed below:",
+          "Item": "e-coli-infect"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-giardia",
+          "Text": "Giardia duodenalis",
+          "Item": "giardia"
+        },
+        {
+          "Key": "orzid2-gmenu-comm-viral-gastroenteritis",
+          "Text": "Norovirus",
+          "Item": "ORZID2 GMENU COMM VIRAL GASTROENTERITIS"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-salmonella-species",
+          "Text": "Salmonella",
+          "Item": "salmonella-species"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-shigella-species",
+          "Text": "Shigella",
+          "Item": "shigella-species"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-cholera",
+          "Text": "Vibrio cholerae",
+          "Item": "cholera"
+        },
+        {
+          "Key": "orzid2-gmenu-yersinia-enterocolitica",
+          "Text": "Yersinia enterocolitica",
+          "Item": "yersinia-enterocolitica"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU INFECT DIARRHEA/GASTRO"
+    },
+    {
+      "Name": "m.-avium-intracellulare",
+      "Term1": "Mycobacterium avium intracellular complex",
+      "Term2": "MAI",
+      "Text": "[Help and Legend](general-information-legend)\n\n# MYCOBACTERIUM AVIUM INTRACELLULARE (MAI OR MAC)\n\nMAI colonization in patients with chronic lung disease is common. These\n\npatients should not be treated with antimicrobials.\n\nOccasionally, MAI causes pulmonary disease in patients who are not\n\nimmunosuppressed. Diagnosis and management are complex. Consult Infectious\n\nDiseases and/or Pulmonary.\n\nMAI causes systemic disease commonly in patients with HIV/AIDS. Most of these\n\ncases do not involve the lungs. After treatment, long-term prophylaxis is\n\nusually given. Consult Infectious Diseases in all cases.\n\n[Treatment for pneumonia](m-avium-pneumonia)\n\n[Treatment for disseminated disease](disseminated-m-avium)\n\n[Prophylaxis](prophylaxis-m-avium)",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "general-information-inpatient"
+        },
+        {
+          "Key": "orzid2-gmenu-m-avium-pneumonia",
+          "Text": "Treatment for pneumonia",
+          "Item": "m-avium-pneumonia"
+        },
+        {
+          "Key": "orzid2-gmenu-disseminated-m-avium",
+          "Text": "Treatment for disseminated disease",
+          "Item": "disseminated-m-avium"
+        },
+        {
+          "Key": "orzid2-gmenu-prophylaxis-m-avium",
+          "Text": "Prophylaxis",
+          "Item": "prophylaxis-m-avium"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU M. AVIUM INTRACELLULARE"
+    },
+    {
+      "Name": "osteomyelitis",
+      "Term1": "Osteomyelitis",
+      "Term2": "",
+      "Text": "[Help and Legend](general-information-legend)\n\n# OSTEOMYELITIS\n\nObtain material for gram-stain and culture before initiating antimicrobials.\n\nBlood and bone cultures are ideal.\n\nAntibiotics should be held if patient does not have adjacent skin/soft tissue\n\ninfection\n\nDuration of treatment and route will vary with differences in location of\n\ninfection, infecting organism, and host comorbidities.\n\n# Empirical treatment regimens\n\n[Empirical therapy for osteomyelitis](osteom-empirical-therapy)\n\n>>  For patients with infections associated with prosthetic materials see\n\n[Infections in bone or joint prostheses](pros-joint-bone-infect)\n\n# _______________________________________________________________________________\n\nReferences:\n\nMandell chapter: Osteomyelitis\n\nSanford Guide: osteomyelitis, foot bone",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "general-information-inpatient"
+        },
+        {
+          "Key": "orzid2-gmenu-osteom-empirical-therapy",
+          "Text": "Empirical therapy for osteomyelitis",
+          "Item": "osteom-empirical-therapy"
+        },
+        {
+          "Key": "orzid2-gmenu-pros-joint-bone-infect",
+          "Text": "Infections in bone or joint prostheses",
+          "Item": "pros-joint-bone-infect"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU OSTEOMYELITIS"
+    },
+    {
+      "Name": "peritonitis-submenu",
+      "Term1": "",
+      "Term2": "",
+      "Text": "[Help and Legend](general-information-legend)\n\n# PERITONITIS SUBMENU\n\n[Acute Spontaneous Bacterial Peritonitis \\(SBP\\)](spon-bact-peritonitis)\n\n[Secondary peritonitis](second-peritonitis)\n\n# Peritonitis associated with peritoneal dialysis\n\n[Initial empiric treatment](orzid2-gmenu-abx-init-peri-assoc-w-peri-dial)\n\n[Ongoing treatment \\(empiric and pathogen specific\\)](peri-assoc-w-peri-dial)",
+      "LinkTargets": [
+        {
+          "Key": "orzid2-gmenu-abx-general-information-inpatient",
+          "Text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)",
+          "Item": "general-information-inpatient"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-spon-bact-peritonitis",
+          "Text": "Acute Spontaneous Bacterial Peritonitis (SBP)",
+          "Item": "spon-bact-peritonitis"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-second-peritonitis",
+          "Text": "Secondary peritonitis",
+          "Item": "second-peritonitis"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-init-peri-assoc-w-peri-dial",
+          "Text": "Initial empiric treatment",
+          "Item": "ORZID2 GMENU ABX INIT PERI ASSOC W PERI DIAL"
+        },
+        {
+          "Key": "orzid2-gmenu-abx-peri-assoc-w-peri-dial",
+          "Text": "Ongoing treatment (empiric and pathogen specific)",
+          "Item": "peri-assoc-w-peri-dial"
+        }
+      ],
+      "Inpt": "ORZID2 GMENU PERITONITIS SUBMENU"
     }
   ]
 }
