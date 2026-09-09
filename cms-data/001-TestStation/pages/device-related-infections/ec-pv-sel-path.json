@@ -3,6 +3,6 @@
   "Group": "device-related-infections",
   "Term1": "2. ec-pv-sel-path (Navigation)",
   "Term2": "",
-  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-inpatient)\n\n# PROSTHETIC VALVE ENDOCARDITIS--SELECTED PATHOGEN\n\n[Culture-negative endocarditis](ec-cx-neg)\n\n[Enterococci](ec-enterococci)\n\n[Fungi](ec-fungi)\n\n[Gram negative bacilli \\(other than HACEK organisms\\)](ec-gnb)\n\n[HACEK bacteria](ec-hacek)\n\n[Staphylococci](orzid2-gmenu-ec-pv-staphylococci)\n\n[Streptococci](orzid2-gmenu-ec-pv-vgs-s-bovis)",
+  "Text": "[Help, legend, allergy info, consults, alternative antimicrobials and more \\(Inpt\\)](general-information-legend)\n\n# PROSTHETIC VALVE ENDOCARDITIS--SELECTED PATHOGEN\n\n[Culture-negative endocarditis](ec-cx-neg)\n\n[Enterococci](ec-enterococci)\n\n[Fungi](ec-fungi)\n\n[Gram negative bacilli \\(other than HACEK organisms\\)](ec-gnb)\n\n[HACEK bacteria](ec-hacek)\n\n[Staphylococci](orzid2-gmenu-ec-pv-staphylococci)\n\n[Streptococci](orzid2-gmenu-ec-pv-vgs-s-bovis)",
   "Inpt": "ORZID2 GMENU EC PV SEL PATH"
 }

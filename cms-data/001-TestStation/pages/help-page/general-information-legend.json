@@ -1,0 +1,12 @@
+{
+  "PageID": "general-information-legend",
+  "Group": "help-page",
+  "Inpt": "GENERAL INFORMATION LEGEND",
+  "Term1": "GENERAL INFORMATION LEGEND (Navigation)",
+  "Term2": "Legend & Navigation Guide",
+  "Text": "# General Information: Help & Legend\n\nThis page consolidates navigation guidance and legend information for using this clinical decision support system.\n\n## Navigation Legend\n\n- **Combined Tab**: Primary guidance mode (default view)\n- **InPatient (Inpt)**: Inpatient-specific recommendations\n- **Outpatient (Outpt)**: Outpatient setting recommendations\n- **ER/UC (ERUC)**: Emergency department and urgent care guidance\n\n## Additional Resources\n\n- [Antimicrobial Shortages & Updates](antimicrobial-shortages-updates)\n- [Consult Infectious Disease](gmrctz-infectious-disease-inpt)\n- [On-Call Schedule](orz-min-on-call-schedule)\n- [Antimicrobial Cost Reference](https://vha.sharepoint.com/",
+  "Outpt": "",
+  "ERUC": "",
+  "Combined": "true",
+  "LinkTargets": []
+}
