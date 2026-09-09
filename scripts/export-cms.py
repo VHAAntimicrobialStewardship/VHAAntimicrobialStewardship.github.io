@@ -156,8 +156,8 @@ def ensure_path_safe(group_folder: str, page_id: str) -> str:
 
 # ── Assign each combined page to a group via main-menu structure ──────────────
 # Strategy: Extract main-menu links to build group assignments. Combined pages
-# are mapped to groups based on MAIN_MENU_SECTION_GROUPS. Then inpatient pages
-# are assigned to the same group as their combined parent via BFS.
+# are mapped to groups based on MAIN_MENU_SECTION_GROUPS and combined markdown
+# click-path ancestry.
 
 page_group: dict[str, str] = {}  # page_id -> group_folder
 
@@ -181,12 +181,7 @@ for pid, page in combined_pages.items():
         if target in combined_ids:
             combined_adjacency[pid].add(target)
 
-    for lt in page.get("LinkTargets", []):
-        item = (lt or {}).get("Item", "")
-        if item in combined_ids:
-            combined_adjacency[pid].add(item)
-
-root_defs: list[tuple[str, str, int, str]] = []  # (inpt_root, group_folder, root_order, root_pid)
+root_defs: list[tuple[str, int, str]] = []  # (group_folder, root_order, root_pid)
 for root_order, (_, target_slug) in enumerate(main_menu_links):
     if target_slug in IGNORED_MAIN_MENU_TARGETS:
         continue
@@ -199,42 +194,12 @@ for root_order, (_, target_slug) in enumerate(main_menu_links):
     if not combined_page:
         continue
 
-    inpt_root = combined_page.get("Inpt")
-    if inpt_root and inpt_root in by_name:
-        root_defs.append((inpt_root, target_group, root_order, target_slug))
+    root_defs.append((target_group, root_order, target_slug))
 
-# Collect all reachable ancestry candidates: inpt page -> group -> (depth, root_order)
-inpt_group_scores: dict[str, dict[str, tuple[int, int]]] = {}
-inpt_page_order: dict[str, int] = {}
+# Collect reachable ancestry candidates from combined markdown click paths.
 combined_group_scores: dict[str, dict[str, tuple[int, int]]] = {}
 
-for inpt_root, group_folder, root_order, root_pid in root_defs:
-    queue: deque[tuple[str, int]] = deque([(inpt_root, 0)])
-    visited: set[str] = set()
-
-    while queue:
-        inpt_name, depth = queue.popleft()
-        if inpt_name in visited:
-            continue
-        visited.add(inpt_name)
-
-        prev_depth = inpt_page_order.get(inpt_name)
-        if prev_depth is None or depth < prev_depth:
-            inpt_page_order[inpt_name] = depth
-
-        group_scores = inpt_group_scores.setdefault(inpt_name, {})
-        prev = group_scores.get(group_folder)
-        if prev is None or (depth, root_order) < prev:
-            group_scores[group_folder] = (depth, root_order)
-
-        inpt_page = by_name.get(inpt_name)
-        if inpt_page:
-            for lt in inpt_page.get("LinkTargets", []):
-                child = lt.get("Item", "")
-                if child in by_name and child not in visited:
-                    queue.append((child, depth + 1))
-
-
+for group_folder, root_order, root_pid in root_defs:
     # Combined navigation BFS (actual click-path ancestry)
     cqueue: deque[tuple[str, int]] = deque([(root_pid, 0)])
     cvisited: set[str] = set()
@@ -314,19 +279,7 @@ def choose_group(pid: str, inpt_source: str) -> str:
     if combined_scores:
         return pick_best_group(combined_scores)
 
-    if not inpt_source:
-        return "general"
-
-    inpt_scores = inpt_group_scores.get(inpt_source, {})
-    if inpt_scores:
-        return pick_best_group(inpt_scores)
-
     return "general"
-
-
-inpt_group_map: dict[str, str] = {
-    inpt_root: group_folder for inpt_root, group_folder, _, _ in root_defs
-}
 
 # Assign combined pages via explicit top-level assignment or best ancestry match.
 for pid, page in combined_pages.items():
@@ -343,8 +296,7 @@ for pid, page in combined_pages.items():
         page_group[pid] = MAIN_MENU_SECTION_GROUPS[pid]
         continue
 
-    inpt_source = page.get("Inpt", "")
-    page_group[pid] = choose_group(pid, inpt_source)
+    page_group[pid] = choose_group(pid, page.get("Inpt", ""))
 
 
 group_summary: dict[str, int] = {}
@@ -421,39 +373,35 @@ def strip_nav_prefixes_and_suffixes(title: str) -> str:
 
 page_export_rows: list[dict] = []
 for pid, page in combined_pages.items():
-  group_folder = page_group.get(pid, "general")
-  raw_term1 = page.get("Term1") or page.get("Name") or pid
-  cleaned_term1 = strip_nav_prefixes_and_suffixes(raw_term1) or pid
-  inpt_source = page.get("Inpt", "")
-  source_inpt = by_name.get(inpt_source, {})
-  source_link_count = len(source_inpt.get("LinkTargets", [])) if source_inpt else 0
-  has_legacy_nav_marker = (
-    bool(re.search(r"\(navigation\)", raw_term1, flags=re.IGNORECASE))
-    or bool(re.match(r"^\s*\d+(?:\.\d+)*\.\s*", raw_term1))
-  )
+        group_folder = page_group.get(pid, "general")
+        raw_term1 = page.get("Term1") or page.get("Name") or pid
+        cleaned_term1 = strip_nav_prefixes_and_suffixes(raw_term1) or pid
+        inpt_source = page.get("Inpt", "")
+        combined_score = combined_group_scores.get(pid, {})
+        min_combined_depth = min((v[0] for v in combined_score.values()), default=10**9)
+        has_legacy_nav_marker = (
+                bool(re.search(r"\(navigation\)", raw_term1, flags=re.IGNORECASE))
+                or bool(re.match(r"^\s*\d+(?:\.\d+)*\.\s*", raw_term1))
+        )
 
-  is_primary_nav = inpt_source in inpt_group_map
-  is_secondary_nav = (
-    not is_primary_nav
-    and source_link_count >= 8
-    and (
-      has_legacy_nav_marker
-      or inpt_source in inpt_page_order
-    )
-  )
+        is_primary_nav = pid in MAIN_MENU_SECTION_GROUPS
+        is_secondary_nav = (
+                not is_primary_nav
+                and has_legacy_nav_marker
+        )
 
-  page_export_rows.append(
-    {
-      "pid": pid,
-      "page": page,
-      "group": group_folder,
-      "term1": cleaned_term1,
-      "inpt": inpt_source,
-      "tree_order": inpt_page_order.get(inpt_source, 10**9),
-      "is_primary_nav": is_primary_nav,
-      "is_nav": is_primary_nav or is_secondary_nav,
-    }
-  )
+        page_export_rows.append(
+                {
+                        "pid": pid,
+                        "page": page,
+                        "group": group_folder,
+                        "term1": cleaned_term1,
+                        "inpt": inpt_source,
+                        "tree_order": min_combined_depth,
+                        "is_primary_nav": is_primary_nav,
+                        "is_nav": is_primary_nav or is_secondary_nav,
+                }
+        )
 
 
 group_nav_numbers: dict[str, dict[str, int]] = {}
@@ -492,10 +440,6 @@ for row in page_export_rows:
         "Term1": display_term1,
         "Term2": page.get("Term2", ""),
         "Text": page.get("Text", ""),
-        "LinkTargets": [
-            {k: v for k, v in lt.items() if k != "Key"}
-          for lt in (page.get("LinkTargets") or [])
-        ],
         "Inpt": page.get("Inpt", ""),
     }
     # Preserve cross-tab refs if present (transition period)
@@ -587,19 +531,6 @@ __GROUP_OPTIONS__
         widget: markdown
         required: false
         hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
-      - label: "Link Targets"
-        name: LinkTargets
-        widget: list
-        required: false
-        hint: "Explicit link registry. Required only for links to VistA order dialogs; combined page links resolve automatically by Page ID."
-        fields:
-          - label: "Link Text"
-            name: Text
-            widget: string
-          - label: "Target Page ID or Order Name"
-            name: Item
-            widget: string
-            hint: "For guidance pages: use the Page ID. For order dialogs: use the full VistA order name."
       - label: "Source Inpatient Menu (read-only)"
         name: Inpt
         widget: string

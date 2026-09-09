@@ -4,6 +4,5 @@
   "Term1": "meds-delayed-pre-op-antibiotics-cv-surgery2",
   "Term2": "",
   "Text": "# Delayed Antibiotic Orders CV Surgery\n\n[Standard \\(Non PCN allergic\\)](orzid2-gmenu-abx-delayed-standard-abx-cv-surg)\n\n[Severly PCN allergic](orzid2-gmenu-delayed-pcn-allergic-cv-surg)",
-  "LinkTargets": [],
   "Inpt": "ORZID2 GMENU ABX MEDS DELAYED PRE-OP ANTIBIOTICS CV SURGERY2"
 }
