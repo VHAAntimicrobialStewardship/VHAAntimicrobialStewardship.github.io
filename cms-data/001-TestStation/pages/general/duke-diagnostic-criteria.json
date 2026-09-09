@@ -1,0 +1,8 @@
+{
+  "PageID": "duke-diagnostic-criteria",
+  "Group": "general",
+  "Term1": "Duke diagnostic criteria",
+  "Term2": "Modified Duke diagnostic criteria",
+  "Text": "[Help and Legend](general-information-legend)\n\n# MODIFIED DUKE DIAGNOSTIC CRITERIA\n\nThe Modified Duke criteria are used to diagnose endocarditis on clinical\n\ngrounds. Endocarditis may also be diagnosed by pathology results.\n\n[Modified Duke Criteria Diagnostic Listing](orzid2-gmenu-abx-duke-listing)\n\n# Requirements for definite diagnosis of endocarditis\n\nTwo major criteria\n\n< OR >\n\nOne major criterion and three minor criteria\n\n< OR >\n\nFive minor criteria\n\n# Requirements for possible diagnosis of endocarditis\n\nOne major criterion and one minor criterion\n\n< OR >\n\nThree minor criteria\n\n# Requirements for rejection of diagnosis of endocarditis\n\nFirm alternative diagnosis explaining evidence of endocarditis\n\n< OR >\n\nResolution of endocarditis syndrome with antibiotic therapy for less than 4 days\n\n< OR >\n\nNo pathological evidence of endocarditis at surgery or autopsy, with antibiotic\n\ntherapy for less than 4 days\n\n< OR >\n\nDoes not meet criteria for possible endocarditis as above.\n\n# _______________________________________________________________________________\n\nReferences:\n\nBaddour et al., Circulation 2015, 132:1-52\n\nMandell chapter: Endocarditis and intravascular infections\n\nSanford keyword: Endocarditis\n\nUp-To-Date article: Overview of management of infective endocarditis in adults\n\nWang et al., JAMA 2018, 320.1:72-83",
+  "Inpt": "ORZID2 GMENU ABX DUKE CRITERIA"
+}

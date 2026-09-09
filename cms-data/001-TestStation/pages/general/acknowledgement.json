@@ -1,0 +1,9 @@
+{
+  "PageID": "acknowledgement",
+  "Group": "general",
+  "Term1": "Acknowledgement",
+  "Term2": "Funding",
+  "Text": "# ACKNOWLEDGEMENT\n\nThis project was funded as a VISN 23 Strategic Planning Project for FY2005-2007.\n\nIt addresses the VISN's efforts to build a culture of continuous quality\n\nimprovement, evidence-based practice and optimal resource utilization.\n\nThis project has been guided by our project collaborators as well as the efforts\n\nof the guideline review committee members. We would like to thank these\n\nindividuals for their time and thoughtful input.",
+  "Inpt": "ORZID2 GMENU ABX ACKNOWLEDGEMENTS",
+  "Outpt": "ORZID2 GMENU ABX ACKNOWLEDGEMENTS"
+}

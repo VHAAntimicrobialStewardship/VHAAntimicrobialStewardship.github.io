@@ -1,0 +1,8 @@
+{
+  "PageID": "upper-respiratory-infections-uri",
+  "Group": "general",
+  "Term1": "Upper respiratory infections",
+  "Term2": "URI",
+  "Text": "# UPPER RESPIRATORY INFECTION (URI)\n\nUpper respiratory infections include several common syndromes including\n\nthe common cold, bronchitis (see below), pharyngitis (see below) and sinusitis\n\n(see below). Most are caused by viruses and there is no benefit from\n\nantimicrobial therapy. If a patient presents with a URI, consider specific\n\ninfections that do respond to antimicrobial therapy like herpes simplex\n\nstomatitis, pertussis or thrush. If no condition that benefits from\n\nantimicrobial therapy is present, antimicrobials will almost certainly not help\n\nbut will likely select for antimicrobial resistance and may lead to other\n\nadverse effects.\n\n[Bronchitis](bronchitis)\n\n[Sinusitis](acute-sinusitis)\n\n[Pharyngitis](pharyngitis)\n\nReferences\n\nKogawa et al, General medicine, 2009, 10:7-15",
+  "Inpt": "ORZID2 GMENU ABX UPPER RESPIRATORY INFECTIONS (URI)"
+}

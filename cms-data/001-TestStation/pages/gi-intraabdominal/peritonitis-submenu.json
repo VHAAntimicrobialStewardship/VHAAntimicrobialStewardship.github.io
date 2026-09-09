@@ -1,0 +1,8 @@
+{
+  "PageID": "peritonitis-submenu",
+  "Group": "gi-intraabdominal",
+  "Term1": "peritonitis-submenu",
+  "Term2": "",
+  "Text": "[Help and Legend](general-information-legend)\n\n# PERITONITIS SUBMENU\n\n[Acute Spontaneous Bacterial Peritonitis \\(SBP\\)](spon-bact-peritonitis)\n\n[Secondary peritonitis](second-peritonitis)\n\n# Peritonitis associated with peritoneal dialysis\n\n[Initial empiric treatment](orzid2-gmenu-abx-init-peri-assoc-w-peri-dial)\n\n[Ongoing treatment \\(empiric and pathogen specific\\)](peri-assoc-w-peri-dial)",
+  "Inpt": "ORZID2 GMENU PERITONITIS SUBMENU"
+}

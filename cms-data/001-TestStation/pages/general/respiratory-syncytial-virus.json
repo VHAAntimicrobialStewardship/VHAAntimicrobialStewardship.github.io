@@ -1,0 +1,9 @@
+{
+  "PageID": "respiratory-syncytial-virus",
+  "Group": "general",
+  "Term1": "Respiratory syncytial virus",
+  "Term2": "RSV",
+  "Text": "[Help and Legend](general-information-legend)\n\n# RESPIRATORY SYNCYTIAL VIRUS (RSV)\n\nNo specific antimicrobial therapy is indicated. Contact Infectious Diseases for\n\nmore information on management of this disease.\n\nReferences:\n\nSanford keyword: Respiratory Syncytial Virus",
+  "Inpt": "ORZID2 GMENU ABX RSV",
+  "Outpt": "ORZID3 GMENU ABX RSV"
+}

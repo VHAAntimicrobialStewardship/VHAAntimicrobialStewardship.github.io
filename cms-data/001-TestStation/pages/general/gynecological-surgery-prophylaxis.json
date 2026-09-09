@@ -1,0 +1,9 @@
+{
+  "PageID": "gynecological-surgery-prophylaxis",
+  "Group": "general",
+  "Term1": "Gynecological surgery prophylaxis",
+  "Term2": "",
+  "Text": "[Help and Legend](general-information-legend)\n\nGYNECOLOGICAL SURGERY\n\nProphylaxis is indicated for abdominal or vaginal hysterectomy with either open\n\nor laparoscopic approach.  Antimicrobials are not indicated after incisions are\n\nclosed.\n\n# Preferred prophylaxis\n\n[Cefazolin Weight Based Dosing Preop R](surg-cefazolin-weight-based-dosing)\n\n# Alternative in patients with beta lactam allergy\n\n[Click here Beta-lactam allergy assessment](orz-gtx-abx-beta-lactam-reaction-pdf)\n\n[Clindamycin 900mg IV once <AND> Gentamicin 5mg/kg Weight Based once pre-op](orz-set-abx-clindamycin-900mg-gentamicin-5mg-kg-preop)\n\nReferences:\n\nBratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis\n\nin surgery, Am J Health-Syst Pharm. 2013 vol 70 pages 195-283",
+  "Inpt": "ORZID2 GMENU SURG GYNECOL SURG",
+  "Outpt": "ORZID2 GMENU SURG GYNECOL SURG"
+}

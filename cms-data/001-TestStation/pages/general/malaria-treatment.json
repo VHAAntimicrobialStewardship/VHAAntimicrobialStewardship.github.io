@@ -1,0 +1,8 @@
+{
+  "PageID": "malaria-treatment",
+  "Group": "general",
+  "Term1": "Malaria Treatment",
+  "Term2": "",
+  "Text": "[Help and Legend](general-information-legend)\n\n# MALARIA TREATMENT\n\nConsider malaria in any febrile person who has traveled to a malaria-endemic\n\narea in preceding months\n\nSearch \"CDC malaria countries\" for malaria endemic areas\n\n[Link to open internet browser and Google search \"CDC Malaria Countries\"](orz-gtx-abx-url-google-cdc-malaria-countries)\n\nObtain malaria smear and call ID on-call in ALL cases when a malaria test is\n\nsent\n\n[Malaria Smear lab order](lrtz-mb-malaria-smear)\n\n[ID on call schedule](orz-min-on-call-schedule)\n\n# Treatment\n\n[Coartem + prior auth bundle: artemether 80 mg/lumefantrine 480 mg twice daily](orz-set-abx-malaria-treatment-and-prior-auth)\n\nfor 3 days, the first 2 doses should be administered 8 hours apart\n\nArtesunate is appropriate in certain situations e.g. severe malaria - contact\n\nID on call\n\n# ___________________________________________________________________________\n\nReferences:",
+  "Inpt": "ORZID2 GMENU ABX MALARIA TREATMENT"
+}
