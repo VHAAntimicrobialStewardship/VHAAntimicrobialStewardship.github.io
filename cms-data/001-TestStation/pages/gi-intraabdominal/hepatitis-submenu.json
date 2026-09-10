@@ -5,7 +5,7 @@
   "SortKey": "gi-intraabdominal~1~hepatitis-submenu",
   "Term1": "hepatitis-submenu",
   "Term2": "",
-  "Text": "[Help and Legend](general-information-legend)\n\n# Select virus type:\n\n[Hepatitis A](hepatitis-a)\n\n[Hepatitis B](hepatitis-b)\n\n[Hepatitis C](hepatitis-c)",
+  "Text": "# Select virus type:\n\n[Hepatitis A](hepatitis-a)\n\n[Hepatitis B](hepatitis-b)\n\n[Hepatitis C](hepatitis-c)",
   "Inpt": "ORZID2 GMENU HEPATITIS SUBMENU",
   "Outpt": "ORZID3 GMENU HEPATITIS SUBMENU"
 }

@@ -5,7 +5,7 @@
   "SortKey": "surgical-antimicrobial-prophylaxis~1~decolonization of staph in cardiac surgery",
   "Term1": "Decolonization of staph in cardiac surgery",
   "Term2": "Cardiac surgery staph decolonization",
-  "Text": "[Help and Legend](general-information-legend)\n\n# Cardiac Surgery MRSA/MSSA Decolonization Protocol Pre-Op\n\n# Outpatient\n\n[Chlorhexidine 4% liquid topically Q24h \\($\\) M < AND > Mupirocin 2%](orz-set-abx-chlorhex-mupiro-decolon-cardiothor)\n\nointment topically Q12h ($) [M]\n\n# Inpatient\n\nIf patient is discharged prior to surgery, place outpatient orders as well\n\n[Chlorhexidine 4% liquid topically Q24h \\($\\) M nursing text order](orz-set-abx-inpt-chlorhex-mupiro-decolon-cardiothor)\n\n< AND > Mupirocin 2% ointment topically Q12h ($) [M]\n\n# References:\n\nUp-To-Date article: Methicillin-resistant Staphylococcus aureus (MRSA) in\n\nadults: Prevention and control",
+  "Text": "# Cardiac Surgery MRSA/MSSA Decolonization Protocol Pre-Op\n\n# Outpatient\n\n[Chlorhexidine 4% liquid topically Q24h \\($\\) M < AND > Mupirocin 2%](orz-set-abx-chlorhex-mupiro-decolon-cardiothor)\n\nointment topically Q12h ($) [M]\n\n# Inpatient\n\nIf patient is discharged prior to surgery, place outpatient orders as well\n\n[Chlorhexidine 4% liquid topically Q24h \\($\\) M nursing text order](orz-set-abx-inpt-chlorhex-mupiro-decolon-cardiothor)\n\n< AND > Mupirocin 2% ointment topically Q12h ($) [M]\n\n# References:\n\nUp-To-Date article: Methicillin-resistant Staphylococcus aureus (MRSA) in\n\nadults: Prevention and control",
   "Inpt": "ORZID3 GMENU ABX CARD SURGERY DECOLON",
   "Outpt": "ORZID3 GMENU ABX CARD SURGERY DECOLON"
 }

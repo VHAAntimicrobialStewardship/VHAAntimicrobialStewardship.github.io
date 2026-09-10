@@ -5,6 +5,6 @@
   "SortKey": "gi-intraabdominal~1~abscess-submenu",
   "Term1": "abscess-submenu",
   "Term2": "",
-  "Text": "[Help and Legend](general-information-legend)\n\n# Select abscess type:\n\n[Hepatic](liver-pyogenic-abscess)\n\n[Intraabdominal](second-peritonitis)\n\n[Intraperitoneal](second-peritonitis)\n\n[Perirectal/Anorectal](perianal-anorectal-abscess)",
+  "Text": "# Select abscess type:\n\n[Hepatic](liver-pyogenic-abscess)\n\n[Intraabdominal](second-peritonitis)\n\n[Intraperitoneal](second-peritonitis)\n\n[Perirectal/Anorectal](perianal-anorectal-abscess)",
   "Inpt": "ORZID2 GMENU ABSCESS SUBMENU"
 }

@@ -21,6 +21,8 @@
   var homeButtonUrl = 'https://VHAAntimicrobialStewardship.github.io/'; /*Only important to CDSS program functions, home URL*/
   const Index = 'ORZID2 GMENU ABX INDEX INPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
   const outptIndex = 'ORZID3 GMENU ABX INDEX OUTPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
+  const combinedIndex = 'index'; /*Combined guidance index page*/
+  const helpLegendPageId = 'general-information-legend'; /*Combined guidance Help and Legend page*/
   const OMjson = '/stations/001-TestStation/TestStationOMJSON.json'; /*Name of OMJSON file*/
   const ODjson = '/stations/001-TestStation/TestStationODJSON.json'; /*Name of ODJSOM file*/
   const txmlFile = '/stations/001-TestStation/TestStation.txml'; /*Name of txml file*/
@@ -312,6 +314,7 @@
 }
 
 #combinedButton,
+#helpLegendButton,
 #inptButton,
 #outptButton,
 #erucButton   {
@@ -325,6 +328,13 @@
   cursor: pointer;
   color: white;
   padding: 5px 5px; /* Adjust the values to your desired padding */
+}
+
+/* Inpatient/Outpatient/ER-UC tabs are being retired in favor of Combined guidance */
+#inptButton,
+#outptButton,
+#erucButton {
+  display: none;
 }
 
 #goBackButton,
@@ -352,6 +362,7 @@
 #goForwardButton:hover,
 #install-button:hover,
 #homeButton:hover,
+#helpLegendButton:hover,
 #inptButton:hover,
 #outptButton:hover,
 #erucButton:hover 
@@ -397,6 +408,7 @@
 	</div>
 	<div class="buttons-container2">
       <button id="combinedButton">Combined</button>
+      <button id="helpLegendButton">Help and Legend</button>
     	<button id="inptButton">Inpatient</button>
     	<button id="outptButton">Outpatient</button>
     	<button id="erucButton">ER/UC</button>
@@ -2498,6 +2510,8 @@ function handleIndex() {
   	dropdown.value = Index;
   	} else if (currentVersion === 'outpt') {
 	  	dropdown.value = outptIndex;
+	} else if (currentVersion === 'combined') {
+		dropdown.value = combinedIndex;
 	};
   filterData({ target: dropdown });
   scrollToTop();    
@@ -2697,6 +2711,7 @@ document.getElementById('outptButton').addEventListener('click', handleOutpt);
 document.getElementById('inptButton').addEventListener('click', handleInpt);
 document.getElementById('erucButton').addEventListener('click', handleEruc);
 document.getElementById('combinedButton').addEventListener('click', handleCombined);
+document.getElementById('helpLegendButton').addEventListener('click', () => handleRowClick({ Item: helpLegendPageId }));
 document.getElementById('filterDropdown').addEventListener('change', filterData);
 window.addEventListener('resize', adjustFontSize);
 window.addEventListener('DOMContentLoaded', adjustFontSize);

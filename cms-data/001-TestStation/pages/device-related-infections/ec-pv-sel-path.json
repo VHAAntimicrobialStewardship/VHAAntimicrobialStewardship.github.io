@@ -5,6 +5,6 @@
   "SortKey": "device-related-infections~1~ec-pv-sel-path (navigation)",
   "Term1": "ec-pv-sel-path (Navigation)",
   "Term2": "",
-  "Text": "[Help and Legend](general-information-legend)\n\n# PROSTHETIC VALVE ENDOCARDITIS--SELECTED PATHOGEN\n\n[Culture-negative endocarditis](ec-cx-neg)\n\n[Enterococci](ec-enterococci)\n\n[Fungi](ec-fungi)\n\n[Gram negative bacilli \\(other than HACEK organisms\\)](ec-gnb)\n\n[HACEK bacteria](ec-hacek)\n\n[Staphylococci](staphylococcal-prosthetic-valve-endocarditis)\n\n[Streptococci](streptococcal-prosthetic-valve-endocarditis)",
+  "Text": "# PROSTHETIC VALVE ENDOCARDITIS--SELECTED PATHOGEN\n\n[Culture-negative endocarditis](ec-cx-neg)\n\n[Enterococci](ec-enterococci)\n\n[Fungi](ec-fungi)\n\n[Gram negative bacilli \\(other than HACEK organisms\\)](ec-gnb)\n\n[HACEK bacteria](ec-hacek)\n\n[Staphylococci](staphylococcal-prosthetic-valve-endocarditis)\n\n[Streptococci](streptococcal-prosthetic-valve-endocarditis)",
   "Inpt": "ORZID2 GMENU EC PV SEL PATH"
 }

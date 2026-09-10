@@ -5,6 +5,6 @@
   "SortKey": "prevention-of-infection~1~influenza-recommendations",
   "Term1": "influenza-recommendations",
   "Term2": "",
-  "Text": "[Help and Legend](general-information-legend)\n\n# SEASONAL INFLUENZA\n\n[Influenza vaccination recommendations](flu-seasonal-influenza)\n\n[Antiviral Treatment Recommendations](antiviral-treatment)\n\n[Chemoprophylaxis Recommendations](influenza-chemoprophylaxis)\n\n[Lab Influenza Testing Menu](orz-gmenu-lab-nasopharyngeal-testing-main)",
+  "Text": "# SEASONAL INFLUENZA\n\n[Influenza vaccination recommendations](flu-seasonal-influenza)\n\n[Antiviral Treatment Recommendations](antiviral-treatment)\n\n[Chemoprophylaxis Recommendations](influenza-chemoprophylaxis)\n\n[Lab Influenza Testing Menu](orz-gmenu-lab-nasopharyngeal-testing-main)",
   "Inpt": "ORZID2 GMENU ABX INFLUENZA RECOMMENDATIONS"
 }

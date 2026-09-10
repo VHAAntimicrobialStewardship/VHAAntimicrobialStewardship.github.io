@@ -5,7 +5,7 @@
   "SortKey": "immunocompromised-patient~1~hypochlorhydria",
   "Term1": "Hypochlorhydria",
   "Term2": "",
-  "Text": "[Help and Legend](general-information-legend)\n\nHYPOCHLORHYDRIA\nDiminished gastric acid allows increased numbers of bacteria in the stomach and\npredisposes to infection with several potentially pathogenic bacterial species.\n\nThese changes increase the risk of nosocomial pneumonia and possibly the risk of\ncommunity-acquired respiratory infections.  However, interventions to\ndecontaminate the upper gastrointestinal tract do not prevent infectious\ndisease.\n\n[References](references)\n\nRich RR, et al, eds.  Clinical Immunology\nRoitt I, et al, eds.  Immunology",
+  "Text": "HYPOCHLORHYDRIA\nDiminished gastric acid allows increased numbers of bacteria in the stomach and\npredisposes to infection with several potentially pathogenic bacterial species.\n\nThese changes increase the risk of nosocomial pneumonia and possibly the risk of\ncommunity-acquired respiratory infections.  However, interventions to\ndecontaminate the upper gastrointestinal tract do not prevent infectious\ndisease.\n\n[References](references)\n\nRich RR, et al, eds.  Clinical Immunology\nRoitt I, et al, eds.  Immunology",
   "Inpt": "ORZID2 GMENU IMMUNOCOM HYPOCHLORHYDRIA",
   "Outpt": "ORZID2 GMENU IMMUNOCOM HYPOCHLORHYDRIA"
 }

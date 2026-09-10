@@ -5,6 +5,6 @@
   "SortKey": "cardiovascular~1~selected pathogens (navigation)",
   "Term1": "Selected Pathogens (Navigation)",
   "Term2": "",
-  "Text": "[Help and Legend](general-information-legend)\n\n# NATIVE VALVE ENDOCARDITIS--SELECTED PATHOGENS\n\n[Culture-negative endocarditis](ec-cx-neg)\n\n[Enterococci](ec-enterococci)\n\n[Fungi](ec-fungi)\n\n[Gram negative bacilli \\(other than HACEK organisms\\)](ec-gnb)\n\n[HACEK bacteria](ec-hacek)\n\n[Staphylococci](staphylococcal-native-valve-endocarditis)\n\n[Streptococci](streptococcal-native-valve-endocarditis)",
+  "Text": "# NATIVE VALVE ENDOCARDITIS--SELECTED PATHOGENS\n\n[Culture-negative endocarditis](ec-cx-neg)\n\n[Enterococci](ec-enterococci)\n\n[Fungi](ec-fungi)\n\n[Gram negative bacilli \\(other than HACEK organisms\\)](ec-gnb)\n\n[HACEK bacteria](ec-hacek)\n\n[Staphylococci](staphylococcal-native-valve-endocarditis)\n\n[Streptococci](streptococcal-native-valve-endocarditis)",
   "Inpt": "ORZID2 GMENU EC NV SEL PATH"
 }
