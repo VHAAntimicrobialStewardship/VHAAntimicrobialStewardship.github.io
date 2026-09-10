@@ -1,7 +1,7 @@
 {
   "PageID": "not-required",
   "Group": "general",
-  "Term1": "4. Conditions not benefitted by antimicrobials (Navigation)",
+  "Term1": "Conditions not benefitted by antimicrobials (Navigation)",
   "Term2": "Antimicrobials not required",
   "Text": "# CONDITIONS NOT BENEFITTED BY ANTIMICROBIAL THERAPY\n\nSeveral common conditions associated with inflammation or\n\nmicroorganisms do not benefit from antibiotic therapy in most or all cases.\n\nYet, antimicrobials are frequently prescribed for these conditions leading to\n\nunnecessary toxicity and costs, rare deaths, and the relentless increase in\n\nantimicrobial resistance. Please review these conditions and do not give\n\nantimicrobials for these conditions unless there are extraordinary\n\ncircumstances that make your situation different. If you have any questions,\n\nplease contact the infectious disease physician on call.\n\n# Lungs and Mediastinum\n\n[Pharyngitis, non-streptococcal](non-streptococcal-pharyngitis)\n\n[Upper Respiratory Infections \\(URI\\)](upper-respiratory-infections-uri)\n\n[Bronchitis in an Otherwise Healthy Patient](bronchitis-not-benefit)\n\n[Colonized Respiratory Tract in a Patient on a Ventilator](colonized-respiratory-tract-ventilator)\n\n# Skin and Soft Tissue\n\n[Stasis Dermatitis](stasis-dermatitis)\n\n[Colonized Wounds](colonized-wounds)\n\n# Genitourinary\n\n[Asymptomatic Bacteriuria, cadiduria and pyuria](not-benefitted-bacteriuria)\n\n# Miscellaneous\n\n[Blood culture positive for coagulase negative staphylococci](positive-blood-culture-coag-neg-staph)\n\n# Last reviewed 9-2018",
   "Inpt": "ORZID2 GMENU ABX NOT REQUIRED MAIN",

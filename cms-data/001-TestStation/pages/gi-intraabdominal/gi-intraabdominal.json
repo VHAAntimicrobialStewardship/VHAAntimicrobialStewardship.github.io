@@ -1,7 +1,7 @@
 {
   "PageID": "gi-intraabdominal",
   "Group": "gi-intraabdominal",
-  "Term1": "1. Gastrointestinal section (Navigation)",
+  "Term1": "Gastrointestinal section (Navigation)",
   "Term2": "Intraabdominal section",
   "Text": "## ++ GASTROINTESTINAL ++\n[Help and Legend](general-information-legend)\n## Oral step-down treatment\n[click here](step-down-treatment)\n## Abscess\n[click here](abscess-submenu)\n## Appendicitis\n[Without perforation](appendicitis-w-o-perforation)\n[With perforation](appendicitis-with-perforation)\n## Asplenia (Fever Tx/Vaccines/Abx Prophylaxis)\n[click here](splenectomy-vaccines-prophy)\n## Cholecystitis\n[click here](cholecystitis)\n## Cholangitis\n[click here](cholangitis)\n## Clostridioides difficile disease\n[click here](clostridiodes-difficile-infection)\n## Diarrhea, infectious\n[click here](infect-diarrhea-gastro)\n## Diverticulitis\n[click here](diverticulitis)\n## SECTION LAST REVIEWED 2024\n<!-- COLUMN 2 -->\n## Enteric Fever\n[click here](enteric-fever)\n## Esophagitis\n[Candidal](fungi-candida-albicans)\n[Other](esophagitis)\n## Helicobacter pylori infection\n[click here](h-pylori-infect)\n## Hepatitis\n[click here](hepatitis-submenu)\n## Neutropenic enterocolitis (Typhlitis)\n[click here](typhlitis)\n## Pancreatitis\n[click here](pancreatitis)\n## Peritonitis\n[click here](peritonitis-submenu)\n## Thrush\n[click here](fungi-candida-albicans)",
   "Inpt": "ORZID2 GMENU ABX GASTROINTESTINAL",

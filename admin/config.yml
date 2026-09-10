@@ -80,7 +80,6 @@ collections:
         widget: select
         hint: "Clinical group used for organization and file path under pages/."
         options:
-          - { label: "Main Menu", value: "main-menu" }
           - { label: "Bone, Muscle & Joint Infections", value: "bone-joint-muscle-infections" }
           - { label: "Cardiovascular", value: "cardiovascular" }
           - { label: "Central Nervous System", value: "cns" }
