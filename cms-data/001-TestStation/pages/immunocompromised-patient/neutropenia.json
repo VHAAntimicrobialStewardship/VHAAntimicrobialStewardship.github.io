@@ -1,6 +1,7 @@
 {
   "PageID": "neutropenia",
   "Group": "immunocompromised-patient",
+  "SortKey": "immunocompromised-patient~1~neutropenia",
   "Term1": "Neutropenia",
   "Term2": "",
   "Text": "[Help and Legend](general-information-legend)\n\nNEUTROPENIA\n\nPatients with neutropenia are at risk of infection from pyogenic organisms\n\nincluding Staphylococcus aureus, streptococci, Gram-negative bacilli,\n\nPseudomonas aeruginosa, candida, and certain filamentous fungi, most notably\n\nAspergillus and the zygomycetes.  The risk is inversely related to the absolute\n\nneutrophil count (ANC), the disease or condition associated with neutropenia,\n\nduration of neutropenia, and the presence of other host defense defects or\n\nunderlying diseases.\n\n[References](references)",

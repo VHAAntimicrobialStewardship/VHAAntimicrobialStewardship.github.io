@@ -1,6 +1,7 @@
 {
   "PageID": "immunocom-diabetes-mellitus",
   "Group": "immunocompromised-patient",
+  "SortKey": "immunocompromised-patient~1~immunocom diabetes mellitus",
   "Term1": "IMMUNOCOM DIABETES MELLITUS",
   "Term2": "",
   "Text": "## Duration of therapy: 5 - 7 days, but adjust to clinical response",

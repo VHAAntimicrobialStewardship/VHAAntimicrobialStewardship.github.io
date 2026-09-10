@@ -1,6 +1,7 @@
 {
   "PageID": "hepatitis-submenu",
   "Group": "gi-intraabdominal",
+  "SortKey": "gi-intraabdominal~1~hepatitis-submenu",
   "Term1": "hepatitis-submenu",
   "Term2": "",
   "Text": "[Help and Legend](general-information-legend)\n\n# Select virus type:\n\n[Hepatitis A](hepatitis-a)\n\n[Hepatitis B](hepatitis-b)\n\n[Hepatitis C](hepatitis-c)",

@@ -1,6 +1,7 @@
 {
   "PageID": "cryptosporidia",
   "Group": "gi-intraabdominal",
+  "SortKey": "gi-intraabdominal~1~cryptosporidia",
   "Term1": "CRYPTOSPORIDIA",
   "Term2": "",
   "Text": "For deep abscesses away from the rectal area, obtain material for Gram stain and",

@@ -1,6 +1,7 @@
 {
   "PageID": "diagnosis-pertussis",
   "Group": "general",
+  "SortKey": "general~1~diagnosis pertussis",
   "Term1": "DIAGNOSIS PERTUSSIS",
   "Term2": "",
   "Text": "osteomyelitis if managed without plastic surgery. Treatment with prolonged",

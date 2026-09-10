@@ -1,6 +1,7 @@
 {
   "PageID": "ssti-bed-bugs-lice-scabies",
   "Group": "ssti-main-menu",
+  "SortKey": "ssti-main-menu~1~ssti-bed-bugs-lice-scabies",
   "Term1": "ssti-bed-bugs-lice-scabies",
   "Term2": "",
   "Text": "# Bed Bugs, Lice, Scabies\n\n[Bed bugs \\(Hemiptera\\)](bed-bugs-hemiptera)\n\n[Body lice \\(pediculosis corporis\\)](body-lice-pediculosis-corporis)\n\n[Head lice \\(pediculosis capitis\\)](head-lice-pediculosis-capitis)\n\n[Pubic lice \\(pediculosis pubis\\)](pubic-lice-pediculosis-pubis)\n\n[Scabies](scabies)",

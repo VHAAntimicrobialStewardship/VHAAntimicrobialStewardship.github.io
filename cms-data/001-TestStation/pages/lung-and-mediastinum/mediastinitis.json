@@ -1,6 +1,7 @@
 {
   "PageID": "mediastinitis",
   "Group": "lung-and-mediastinum",
+  "SortKey": "lung-and-mediastinum~1~mediastinitis",
   "Term1": "mediastinitis",
   "Term2": "",
   "Text": "[Help and Legend](general-information-legend)\n\n# MEDIASTINITIS\n\nRefer to Inpatient Antimicrobial CDSS.",

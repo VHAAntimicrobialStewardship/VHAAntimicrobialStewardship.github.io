@@ -1,6 +1,7 @@
 {
   "PageID": "orzid3-gmenu-need-an-alt-abx-main",
   "Group": "general",
+  "SortKey": "general~1~orzid3-gmenu-need-an-alt-abx-main",
   "Term1": "orzid3-gmenu-need-an-alt-abx-main",
   "Term2": "",
   "Text": "# NEED AN ALERNATIVE ANTIMICROBIAL?\n\nIf you cannot use the recommended antimicrobials or you believe another one\n\nwould be better for your patient, you can order another drug. Please indicate\n\nthe reason you need an alternative drug below.\n\n[Allergic to recommended drug\\(s\\)](orz-set-abx-op-pt-allergic-to-recom-drugs)\n\n[Decreased renal clearance](orz-set-abx-op-decreased-renal-clr)\n\n[Liver secretory or metabolic impairment](orz-set-abx-op-liver-sec-metab-impair)\n\n[Drug interaction](orz-set-abx-op-drug-interaction)\n\n[Patient has multiple infections requiring antimicrobials](orz-set-abx-op-pt-has-mult-infect-req-abx)\n\n[Adjust therapy based on antimicrobial susceptibility](orz-set-abx-op-adj-thera-based-on-abx-susp)\n\n[Other adverse drug effect](orz-set-abx-op-other-adverse-drug-affect)\n\n[Other reason](orz-set-abx-op-alternative-other-reason)\n\nNote: Alternative antimicrobial selections will be reviewed and we may contact\n\nprescribers to learn more about situations that need alternatives, improve the\n\nCDSS, and in some cases offer suggestions.\n\n# Clarification/Comments:\n\n[Please Click Here to contact the CDSS team](additional-assistance)\n\n[Information about drug allergies](drug-allergies)",

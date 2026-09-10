@@ -1,6 +1,7 @@
 {
   "PageID": "ec-enterococci",
   "Group": "cardiovascular",
+  "SortKey": "cardiovascular~1~ec enterococci",
   "Term1": "EC ENTEROCOCCI",
   "Term2": "",
   "Text": "## < OR >",

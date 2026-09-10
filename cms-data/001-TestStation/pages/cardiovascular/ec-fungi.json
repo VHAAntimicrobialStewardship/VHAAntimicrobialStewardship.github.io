@@ -1,6 +1,7 @@
 {
   "PageID": "ec-fungi",
   "Group": "cardiovascular",
+  "SortKey": "cardiovascular~1~ec fungi",
   "Term1": "EC FUNGI",
   "Term2": "",
   "Text": "Refer to Inpatient Antimicrobial CDSS for parenteral prophylaxis",

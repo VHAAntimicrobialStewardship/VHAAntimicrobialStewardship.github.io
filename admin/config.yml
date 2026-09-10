@@ -68,7 +68,11 @@ collections:
       preview: false
     identifier_field: PageID
     summary: "{{fields.Group}} | {{fields.Term1}} [{{fields.PageID}}]"
-    sortable_fields: ["PageID", "Term1", "Group"]
+    sortable_fields:
+      fields: ["SortKey", "PageID", "Term1", "Group"]
+      default:
+        field: "SortKey"
+        direction: "Ascending"
     fields:
       - label: "Page ID"
         name: PageID
@@ -103,6 +107,11 @@ collections:
           - { label: "Help & Resources", value: "help-page" }
           - { label: "Important Antimicrobial Information", value: "important-antimicrobial" }
           - { label: "General / Miscellaneous", value: "general" }
+      - label: "Sort Order (internal — do not edit)"
+        name: SortKey
+        widget: hidden
+        default: "zzz"
+        hint: "Auto-generated so the group's nav page sorts first in this list. Managed by scripts/set-nav-sort-keys.py — do not edit by hand."
       - label: "Display Title (search label)"
         name: Term1
         widget: string

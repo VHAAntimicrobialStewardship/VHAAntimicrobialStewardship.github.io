@@ -1,6 +1,7 @@
 {
   "PageID": "delayed-standard-abx-cv-surg",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "SortKey": "surgical-antimicrobial-prophylaxis~1~delayed-standard-abx-cv-surg",
   "Term1": "delayed-standard-abx-cv-surg",
   "Term2": "",
   "Text": "[Vancomycin 1500mg PRE-OPERATIVE dose **AND** 1000mg INTRAOPERATIVE dose](orz-set-abx-vancomycin-1500mg-preop-and-1000mg-intraoperative)\n\n[Cefuroxime 1.5gm PRE-OPERATIVE dose **AND** 1.5gm INTRAOPERATIVE dose](orz-set-abx-cefuroxime-1500mg-pre-op-intra-op-doses)",

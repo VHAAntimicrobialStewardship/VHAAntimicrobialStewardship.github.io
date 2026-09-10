@@ -1,6 +1,7 @@
 {
   "PageID": "tobacco-smoke",
   "Group": "immunocompromised-patient",
+  "SortKey": "immunocompromised-patient~1~tobacco smoke",
   "Term1": "Tobacco smoke",
   "Term2": "",
   "Text": "[Help and Legend](general-information-legend)\n\nTOBACCO SMOKE\n\nActive or passive exposure to tobacco smoke is associated with increased\n\nsusceptibility to respiratory infectious diseases and several systemic\n\ninfectious diseases with bacterial and viral pathogens.  Compounds found in\n\ntobacco or tobacco smoke interfere with several host defense mechanisms in the\n\nrespiratory tract and elsewhere in the body.\n\n[References](references)\n\nRich RR, et al, eds.  Clinical Immunology\n\nRoitt I, et al, eds.  Immunology",

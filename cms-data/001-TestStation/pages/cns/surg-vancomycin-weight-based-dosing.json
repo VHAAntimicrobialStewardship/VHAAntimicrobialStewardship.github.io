@@ -1,6 +1,7 @@
 {
   "PageID": "surg-vancomycin-weight-based-dosing",
   "Group": "cns",
+  "SortKey": "cns~1~surg-vancomycin-weight-based-dosing",
   "Term1": "surg-vancomycin-weight-based-dosing",
   "Term2": "",
   "Text": "# VANCOMYCIN:\n\n# Recommended Vancomycin 15mg/kg Preop Dose based on patient weight:\n\nPreop dose administer beginning 120 minutes before incision:\n\n[<Click here> Display patients last recorded weight](orz-gtx-abx-weight-for-abx-dosing)\n\n# Weight <70 kg:\n\n# Weight 70-100 kg:\n\n[Vancomycin 1500mg/300ml IVPB once](psjizid-vancomycin-1500mg-300ml-ivpb-dose-70-100kg-preop)\n\n# Weight >100 kg:\n\n[Vancomycin 2000mg/400ml IVPB once](psjizid-vancomycin-2000mg-400ml-ivpb-dose-greater-100kg-preop)",

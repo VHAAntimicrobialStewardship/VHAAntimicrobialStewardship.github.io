@@ -1,6 +1,7 @@
 {
   "PageID": "influenza-egg-allergy-acip",
   "Group": "general",
+  "SortKey": "general~1~influenza-egg-allergy-acip",
   "Term1": "influenza-egg-allergy-acip",
   "Term2": "",
   "Text": "# RECOMMENDATIONS NOT AVAILABLE\n\nRecommendations for this condition are not available within CDSS. Please refer\n\nto facility guidelines or other clinical resources for recommendations.",

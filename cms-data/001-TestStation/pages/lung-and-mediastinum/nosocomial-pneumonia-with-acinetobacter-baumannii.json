@@ -1,6 +1,7 @@
 {
   "PageID": "nosocomial-pneumonia-with-acinetobacter-baumannii",
   "Group": "lung-and-mediastinum",
+  "SortKey": "lung-and-mediastinum~1~nosocomial pneumonia with acinetobacter baumannii",
   "Term1": "Nosocomial pneumonia with Acinetobacter baumannii",
   "Term2": "Acinetobacter baumannii, nosocomial pneumonia",
   "Text": "[Help and Legend](general-information-legend)\n\n# NOSOCOMIAL PNEUMONIA WITH ACINETOBACTER BAUMANNII\n\nInfectious Diseases consultation is essential for cases with Acinetobacter which\n\nare often resistant to most therapies.\n\n# Consult ID if Carbapenemase gene detected (IMP, KPC, NDM, OXA-48, VIM)\n\n# Empiric treatment\n\n[Meropenem 2 gm IV q8h R,O](psjizid-meropenem-2gm-iv-q8h)\n\n< OR >\n\n[Ampicillin-sulbactam 3 gm IV q4h R,O](psjizid-ampicillin-sulbactam-3gm-iv-q4h)\n\n# _______________________________________________________________________________\n\n# References:\n\nKalil AC et al. Clin Infect Dis 2016. 63:1\n\nUp-to-date website",
