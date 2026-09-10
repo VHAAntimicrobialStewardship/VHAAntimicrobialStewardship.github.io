@@ -1,7 +1,7 @@
 {
   "PageID": "drug-allergies",
-  "Group": "bone-joint-muscle-infections",
-  "Term1": "DRUG ALLERGIES",
+  "Group": "important-antimicrobial",
+  "Term1": "14. DRUG ALLERGIES (Navigation)",
   "Term2": "",
   "Text": "## For PERIRECTAL ABSCESSES that need systemic antimicrobials:",
   "Inpt": "ORZID2 GMENU ABX DRUG ALLERGIES",

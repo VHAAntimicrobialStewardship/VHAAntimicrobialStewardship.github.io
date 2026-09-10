@@ -98,6 +98,16 @@ MAIN_MENU_SECTION_GROUPS: dict[str, str] = {
     "genrl-alternative-drug": "important-antimicrobial",
     "pregnancy-risk-factors-for-antimicrobials": "important-antimicrobial",
     "warfarin-interactions-with-antimicrobials": "important-antimicrobial",
+    # Utility/reference pages found miscategorized under
+    # bone-joint-muscle-infections (footer-linked from many pages, so BFS
+    # adjacency incorrectly swept them into whichever disease group's
+    # pages happened to link to them first).
+    "antimicrobial-cost-information": "important-antimicrobial",
+    "drug-allergies": "important-antimicrobial",
+    "general-information-legend": "help-page",
+    "how-to-find-alt": "important-antimicrobial",
+    "important-drug-properties": "important-antimicrobial",
+    "restriction-policy": "important-antimicrobial",
 }
 
 IGNORED_MAIN_MENU_TARGETS: set[str] = {
