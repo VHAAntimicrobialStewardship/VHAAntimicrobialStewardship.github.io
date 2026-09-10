@@ -1,0 +1,1457 @@
+{
+  "pages_changed": 108,
+  "links_added": 173,
+  "details": [
+    {
+      "page": "septic-arthritis-nat-joint",
+      "links_added": [
+        {
+          "text": "Infections in bone or joint prostheses",
+          "slug": "pros-joint-bone-infect"
+        },
+        {
+          "text": "Bite wounds",
+          "slug": "bite-wounds"
+        },
+        {
+          "text": "Lyme disease",
+          "slug": "lyme-disease"
+        }
+      ]
+    },
+    {
+      "page": "appro-intravas-cath-assoc-infect",
+      "links_added": [
+        {
+          "text": "Suppurative thrombophlebitis",
+          "slug": "suppurative-thrombophlebitis"
+        }
+      ]
+    },
+    {
+      "page": "approach-to-acute-meningitis",
+      "links_added": [
+        {
+          "text": "S. pneumoniae",
+          "slug": "meningitis-with-streptococcus-pneumoniae"
+        },
+        {
+          "text": "N. meningitidis",
+          "slug": "meningitis-with-neisseria-meningitidis"
+        },
+        {
+          "text": "L. monocytogenes",
+          "slug": "listeria-monocytogenes-meningitis"
+        }
+      ]
+    },
+    {
+      "page": "lyme-disease",
+      "links_added": [
+        {
+          "text": "Anaplasmosis",
+          "slug": "anaplasma-phatocytophilum"
+        },
+        {
+          "text": "Ehrlichioisis",
+          "slug": "ehrlichia-chaffeensis"
+        },
+        {
+          "text": "Babesiosis",
+          "slug": "babesia-infections-general"
+        },
+        {
+          "text": "Lyme Disease Prophylaxis",
+          "slug": "lyme-disease-prophylaxis"
+        },
+        {
+          "text": "Erythema migrans",
+          "slug": "lyme-erythema-migrans"
+        },
+        {
+          "text": "Acute neurological disease",
+          "slug": "lyme-acute-neuro-disease"
+        },
+        {
+          "text": "Cardiac disease",
+          "slug": "lyme-cardiac-disease"
+        }
+      ]
+    },
+    {
+      "page": "device-related-infections",
+      "links_added": [
+        {
+          "text": "Infections in bone or joint prostheses",
+          "slug": "pros-joint-bone-infect"
+        }
+      ]
+    },
+    {
+      "page": "abscesses",
+      "links_added": [
+        {
+          "text": "Cutaneous abscess",
+          "slug": "cutaneous-abscess"
+        },
+        {
+          "text": "Perianal/Anorectal Abscess",
+          "slug": "perianal-anorectal-abscess"
+        },
+        {
+          "text": "Furuncles and carbuncles",
+          "slug": "furuncles-and-carbuncles"
+        },
+        {
+          "text": "Pyomyositis",
+          "slug": "pyomyositis"
+        }
+      ]
+    },
+    {
+      "page": "bacteremia",
+      "links_added": [
+        {
+          "text": "Candida spp.",
+          "slug": "candidemia"
+        },
+        {
+          "text": "Enterococci",
+          "slug": "enterococci"
+        },
+        {
+          "text": "Streptococci",
+          "slug": "streptococci"
+        }
+      ]
+    },
+    {
+      "page": "bite-wnds-eikenella-corrodens",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "bite-wnds-p-multocida",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "bite-wnds-streptococci",
+      "links_added": [
+        {
+          "text": "[Click here] Assess Beta-lactam allergy prior to ordering alternative",
+          "slug": "beta-lactam-allergy-assessment"
+        }
+      ]
+    },
+    {
+      "page": "cervicitis-assoc-std",
+      "links_added": [
+        {
+          "text": "Treatment of recurrent or persistent cervicitis",
+          "slug": "recurrent-persist-urethritis"
+        },
+        {
+          "text": "Treatment for chlamydial or non-gonococcal cervicitis",
+          "slug": "chlamydia-urethritis-cervicitis-or-proctitis"
+        },
+        {
+          "text": "Treatment for gonorrhea cervicitis",
+          "slug": "gonococcal"
+        }
+      ]
+    },
+    {
+      "page": "colonized-respiratory-tract-ventilator",
+      "links_added": [
+        {
+          "text": "Nosocomial Pneumonia",
+          "slug": "noso-pneumonia-new"
+        }
+      ]
+    },
+    {
+      "page": "com-acq-pneumonia",
+      "links_added": [
+        {
+          "text": "CAP NON-SEVERE treated in an Inpatient Ward setting",
+          "slug": "cap-inpatient-treated-setting-non-severe-cap"
+        },
+        {
+          "text": "CAP SEVERE treated in an ICU setting",
+          "slug": "cap-inpatient-treated-setting-severe-cap"
+        },
+        {
+          "text": "Treatment of CAP in an outpatient setting (outpatient)",
+          "slug": "cap-treated-in-outpt-setting"
+        }
+      ]
+    },
+    {
+      "page": "covid-19-mpls-antimicrobial-guideline",
+      "links_added": [
+        {
+          "text": "Select here for help, legend, consults, alternative antimicrobials and more (Ip)",
+          "slug": "general-information-inpatient"
+        }
+      ]
+    },
+    {
+      "page": "cutaneous-abscess",
+      "links_added": [
+        {
+          "text": "Perianal/Anorectal Abscess",
+          "slug": "perianal-anorectal-abscess"
+        }
+      ]
+    },
+    {
+      "page": "decubitus-ulcers",
+      "links_added": [
+        {
+          "text": "Perianal/Anorectal Abscess",
+          "slug": "perianal-anorectal-abscess"
+        }
+      ]
+    },
+    {
+      "page": "drug-pt-undergo-dental-proc",
+      "links_added": [
+        {
+          "text": "Assessment of beta-lactam reaction",
+          "slug": "beta-lactam-allergy-assessment"
+        }
+      ]
+    },
+    {
+      "page": "ecthyma-gangrenosum",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "erysipelas",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "erysipeloid",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "general-information-inpatient",
+      "links_added": [
+        {
+          "text": "Antibiogram",
+          "slug": "susceptibilities-antibiogram"
+        },
+        {
+          "text": "Help and Additional Information Menu",
+          "slug": "help-page"
+        },
+        {
+          "text": "Beta-lactam Reaction Assessment",
+          "slug": "beta-lactam-allergy-assessment"
+        },
+        {
+          "text": "Inpatient Alternative Antimicrobials to CDSS Recommendations - select here",
+          "slug": "genrl-alternative-drug"
+        },
+        {
+          "text": "Outpatient Alternative Antimicrobials to CDSS Recommendations - select here",
+          "slug": "orzid3-gmenu-need-an-alt-abx-main"
+        },
+        {
+          "text": "Contact Information",
+          "slug": "additional-assistance"
+        },
+        {
+          "text": "Antimicrobial Information",
+          "slug": "drug-info"
+        }
+      ]
+    },
+    {
+      "page": "mild-to-moderate-sinusitis",
+      "links_added": [
+        {
+          "text": "Assessment of Beta-lactam Reaction",
+          "slug": "beta-lactam-allergy-assessment"
+        }
+      ]
+    },
+    {
+      "page": "more-about-cellulitis",
+      "links_added": [
+        {
+          "text": "Erysipelas",
+          "slug": "erysipelas"
+        },
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "necrot-infect-direct-therapy",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "necrot-infect-emp-therapy",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "osteom-with-gnb",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "osteom-with-p-aeruginosa",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "osteom-with-streptococci",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "pneumonia",
+      "links_added": [
+        {
+          "text": "Aspiration Pneumonia",
+          "slug": "aspiration-pneumonia"
+        },
+        {
+          "text": "Nosocomial pneumonia (including HAP AND VAP)",
+          "slug": "noso-pneumonia-new"
+        }
+      ]
+    },
+    {
+      "page": "positive-blood-culture-coag-neg-staph",
+      "links_added": [
+        {
+          "text": "Treatment of CNS Infected Intravascular Catheters",
+          "slug": "intravas-cath-coag-neg-staph"
+        }
+      ]
+    },
+    {
+      "page": "staph-scalded-syndrome",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "urethritis-assoc-std",
+      "links_added": [
+        {
+          "text": "Treatment of recurrent or persistent urethritis",
+          "slug": "recurrent-persist-urethritis"
+        },
+        {
+          "text": "Treatment for gonococcal urethritis",
+          "slug": "gonococcal"
+        },
+        {
+          "text": "Treatment for chlamydial or non-gonococcal urethritis",
+          "slug": "chlamydia-urethritis-cervicitis-or-proctitis"
+        }
+      ]
+    },
+    {
+      "page": "asymp-bacteriuria",
+      "links_added": [
+        {
+          "text": "Antimicrobial prophylaxis for urological procedures",
+          "slug": "urological-surgery-prophylaxis"
+        }
+      ]
+    },
+    {
+      "page": "balanitis",
+      "links_added": [
+        {
+          "text": "Sexually Transmitted Infections and HIV Exposure",
+          "slug": "sexually-transmitted-infection"
+        }
+      ]
+    },
+    {
+      "page": "chronic-bact-prostatitis",
+      "links_added": [
+        {
+          "text": "Chronic prostate pain syndrome",
+          "slug": "chron-pros-pelvic-pain-syn"
+        }
+      ]
+    },
+    {
+      "page": "epididymitis",
+      "links_added": [
+        {
+          "text": "Assessment of Beta-lactam Reaction",
+          "slug": "beta-lactam-allergy-assessment"
+        }
+      ]
+    },
+    {
+      "page": "genitourinary",
+      "links_added": [
+        {
+          "text": "Cervicitis",
+          "slug": "sexually-transmitted-infection"
+        }
+      ]
+    },
+    {
+      "page": "necrotizing-infections",
+      "links_added": [
+        {
+          "text": "Empirical therapy of necrotizing infections",
+          "slug": "necrot-infect-emp-therapy"
+        },
+        {
+          "text": "Pathogen-directed therapy of necrotizing infections",
+          "slug": "necrot-infect-direct-therapy"
+        }
+      ]
+    },
+    {
+      "page": "sexually-transmitted-infection",
+      "links_added": [
+        {
+          "text": "Chlamydia",
+          "slug": "chlamydia-urethritis-cervicitis-or-proctitis"
+        },
+        {
+          "text": "Gonorrhea",
+          "slug": "gonococcal"
+        },
+        {
+          "text": "Cervicitis",
+          "slug": "cervicitis-assoc-std"
+        },
+        {
+          "text": "Pelvic Inflammatory Disease (PID)",
+          "slug": "pid"
+        },
+        {
+          "text": "Urethritis",
+          "slug": "urethritis-assoc-std"
+        },
+        {
+          "text": "Trichomonas Vaginitis, Urethritis and Male Sex Partners",
+          "slug": "trich-vaginitis"
+        },
+        {
+          "text": "Human Immunodeficiency Virus (HIV)",
+          "slug": "hiv-aids"
+        },
+        {
+          "text": "Epididymitis",
+          "slug": "epididymitis"
+        },
+        {
+          "text": "Genital herpes",
+          "slug": "genital-herpes"
+        }
+      ]
+    },
+    {
+      "page": "vaginitis",
+      "links_added": [
+        {
+          "text": "Sexually Transmitted Infections and HIV Exposure",
+          "slug": "sexually-transmitted-infection"
+        }
+      ]
+    },
+    {
+      "page": "appendicitis-w-o-perforation",
+      "links_added": [
+        {
+          "text": "Oral step-down treatment",
+          "slug": "step-down-treatment"
+        },
+        {
+          "text": "Link to appendicitis with perforation menu",
+          "slug": "appendicitis-with-perforation"
+        },
+        {
+          "text": "Assessment of Beta-lactam Reaction",
+          "slug": "beta-lactam-allergy-assessment"
+        }
+      ]
+    },
+    {
+      "page": "appendicitis-with-perforation",
+      "links_added": [
+        {
+          "text": "Oral step-down treatment",
+          "slug": "step-down-treatment"
+        },
+        {
+          "text": "Assessment of Beta-lactam Reaction",
+          "slug": "beta-lactam-allergy-assessment"
+        }
+      ]
+    },
+    {
+      "page": "cholangitis",
+      "links_added": [
+        {
+          "text": "Oral step-down treatment",
+          "slug": "step-down-treatment"
+        }
+      ]
+    },
+    {
+      "page": "cholecystitis",
+      "links_added": [
+        {
+          "text": "Oral step-down treatment",
+          "slug": "step-down-treatment"
+        },
+        {
+          "text": "Assessment of Beta-lactam Reaction",
+          "slug": "beta-lactam-allergy-assessment"
+        }
+      ]
+    },
+    {
+      "page": "clostridiodes-difficile-infection",
+      "links_added": [
+        {
+          "text": "Fulminant",
+          "slug": "toxic-megacolon"
+        }
+      ]
+    },
+    {
+      "page": "diverticulitis",
+      "links_added": [
+        {
+          "text": "Oral step-down treatment",
+          "slug": "step-down-treatment"
+        },
+        {
+          "text": "Assessment of Beta-lactam Reaction",
+          "slug": "beta-lactam-allergy-assessment"
+        }
+      ]
+    },
+    {
+      "page": "e-coli-infect",
+      "links_added": [
+        {
+          "text": "Shigella/Enteroinvasive E. coli treatment recommendations",
+          "slug": "shigella-species"
+        }
+      ]
+    },
+    {
+      "page": "esophagitis",
+      "links_added": [
+        {
+          "text": "Candidiasis",
+          "slug": "fungi-candida-albicans"
+        },
+        {
+          "text": "CMV Esophagitis",
+          "slug": "cmv-colitis-or-esophagitis"
+        },
+        {
+          "text": "Herpes Simplex Esophagitis",
+          "slug": "herpes-simplex-esophagitis"
+        }
+      ]
+    },
+    {
+      "page": "hepatitis-b",
+      "links_added": [
+        {
+          "text": "Hepatitis B Evaluation",
+          "slug": "hepatitis-b-evaluation-anti-cd20-antibody"
+        }
+      ]
+    },
+    {
+      "page": "liver-pyogenic-abscess",
+      "links_added": [
+        {
+          "text": "Oral step-down treatment",
+          "slug": "step-down-treatment"
+        }
+      ]
+    },
+    {
+      "page": "pancreatitis",
+      "links_added": [
+        {
+          "text": "Oral step-down treatment",
+          "slug": "step-down-treatment"
+        }
+      ]
+    },
+    {
+      "page": "salmonella-species",
+      "links_added": [
+        {
+          "text": "Enteric Fever treatment recommendations",
+          "slug": "enteric-fever"
+        }
+      ]
+    },
+    {
+      "page": "second-peritonitis",
+      "links_added": [
+        {
+          "text": "Oral step-down treatment",
+          "slug": "step-down-treatment"
+        }
+      ]
+    },
+    {
+      "page": "splenectomy-vaccines-prophy",
+      "links_added": [
+        {
+          "text": "Daily Antibiotic Prophylaxis INPATIENT",
+          "slug": "splenectomy-daily-antibiotics"
+        }
+      ]
+    },
+    {
+      "page": "spon-bact-peritonitis",
+      "links_added": [
+        {
+          "text": "Oral step-down treatment",
+          "slug": "step-down-treatment"
+        },
+        {
+          "text": "Assessment of Beta-lactam Reaction",
+          "slug": "beta-lactam-allergy-assessment"
+        }
+      ]
+    },
+    {
+      "page": "typhlitis",
+      "links_added": [
+        {
+          "text": "Oral step-down treatment",
+          "slug": "step-down-treatment"
+        }
+      ]
+    },
+    {
+      "page": "deep-orophar-infect",
+      "links_added": [
+        {
+          "text": "Assessment of Beta-lactam Reaction",
+          "slug": "beta-lactam-allergy-assessment"
+        }
+      ]
+    },
+    {
+      "page": "keratitis",
+      "links_added": [
+        {
+          "text": "Herpes keratitis",
+          "slug": "herpes-keratitis"
+        }
+      ]
+    },
+    {
+      "page": "otitis-externa",
+      "links_added": [
+        {
+          "text": "Furuncles and Carbuncles",
+          "slug": "furuncles-and-carbuncles"
+        }
+      ]
+    },
+    {
+      "page": "pertussis",
+      "links_added": [
+        {
+          "text": "Diagnosis of pertussis",
+          "slug": "diagnosis-pertussis"
+        },
+        {
+          "text": "Prevention of pertussis",
+          "slug": "prev-of-pertussis"
+        }
+      ]
+    },
+    {
+      "page": "pharyngitis",
+      "links_added": [
+        {
+          "text": "Treatment of Gonorrheal Infections",
+          "slug": "gonococcal"
+        },
+        {
+          "text": "More About Pharyngitis/Tonsillitis and Modified Centor score",
+          "slug": "more-about-pharyngitis"
+        }
+      ]
+    },
+    {
+      "page": "postseptal-cellulitis",
+      "links_added": [
+        {
+          "text": "Assessment of Beta-lactam Reaction",
+          "slug": "beta-lactam-allergy-assessment"
+        }
+      ]
+    },
+    {
+      "page": "preseptal-cellulitis",
+      "links_added": [
+        {
+          "text": "Assessment of Beta-lactam Reaction",
+          "slug": "beta-lactam-allergy-assessment"
+        }
+      ]
+    },
+    {
+      "page": "retinitis",
+      "links_added": [
+        {
+          "text": "Link to Treatment of CMV Retinitis and ARN",
+          "slug": "cmv-retinitis"
+        }
+      ]
+    },
+    {
+      "page": "severe-sinusitis",
+      "links_added": [
+        {
+          "text": "Assessment of Beta-lactam Reaction",
+          "slug": "beta-lactam-allergy-assessment"
+        }
+      ]
+    },
+    {
+      "page": "ig-his-deficiency",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "immunocom-altered-micro-flora",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "immunocom-comp-deficiency",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "immunocom-malignancy",
+      "links_added": [
+        {
+          "text": "Neutropenic fever",
+          "slug": "immunocom-neut-fever"
+        },
+        {
+          "text": "Prevention of bacterial infections in a patient with malignancy",
+          "slug": "prev-infect-bact-prophyl"
+        },
+        {
+          "text": "Prevention of fungal infections in a patient with malignancy",
+          "slug": "prev-infect-fungal-prophyl"
+        },
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "immunocom-neurol-dysfunction",
+      "links_added": [
+        {
+          "text": "Aspiration pneumonia",
+          "slug": "aspiration-pneumonia"
+        },
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "aspiration-pneumonia",
+      "links_added": [
+        {
+          "text": "Assessment of Beta-lactam Reaction",
+          "slug": "beta-lactam-allergy-assessment"
+        }
+      ]
+    },
+    {
+      "page": "bronchitis",
+      "links_added": [
+        {
+          "text": "Pertussis",
+          "slug": "pertussis"
+        },
+        {
+          "text": "Bronchitis-antibiotics not a benefit in otherwise healthy patients (inpatient)",
+          "slug": "bronchitis-not-benefit"
+        },
+        {
+          "text": "COPD exacerbation (outpatient)",
+          "slug": "exacerbation-of-copd"
+        }
+      ]
+    },
+    {
+      "page": "copd-exacerbation",
+      "links_added": [
+        {
+          "text": "COPD exacerbation",
+          "slug": "exacerbation-of-copd"
+        }
+      ]
+    },
+    {
+      "page": "other-pathogens",
+      "links_added": [
+        {
+          "text": "Pneumocystis",
+          "slug": "pneumocystis-jirovecii"
+        }
+      ]
+    },
+    {
+      "page": "antiviral-infection-malignancy",
+      "links_added": [
+        {
+          "text": "Select for recommendations for antiviral prophylaxis",
+          "slug": "antiviral-immunosuppressive-malignancy"
+        }
+      ]
+    },
+    {
+      "page": "antiviral-type-of-malignancy",
+      "links_added": [
+        {
+          "text": "Hepatitis B information page",
+          "slug": "hepatitis-b"
+        }
+      ]
+    },
+    {
+      "page": "prev-infect-bact-prophyl",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "prev-of-bact-endocarditis",
+      "links_added": [
+        {
+          "text": "Patients undergoing dental or oral mucosa procedures",
+          "slug": "drug-pt-undergo-dental-proc"
+        },
+        {
+          "text": "Patients undergoing procedures for infected skin, skin structures, or infected",
+          "slug": "proced-for-infected-skin-skin-structures"
+        }
+      ]
+    },
+    {
+      "page": "prevention-of-infection",
+      "links_added": [
+        {
+          "text": "Prevention of bacterial endocarditis",
+          "slug": "prev-of-bact-endocarditis"
+        }
+      ]
+    },
+    {
+      "page": "recommended-immunizations",
+      "links_added": [
+        {
+          "text": "Functional or Anatomical Asplenia",
+          "slug": "splenectomy-vaccines-prophy"
+        },
+        {
+          "text": "Respiratory syncytial virus (RSVPreF)",
+          "slug": "rsv-vaccine-information-page"
+        },
+        {
+          "text": "Functional or Anatomical Asplenia - Inpatient Orders",
+          "slug": "splenectomy-vaccines-prophy"
+        }
+      ]
+    },
+    {
+      "page": "splenectomy-vaccines-prophy-2",
+      "links_added": [
+        {
+          "text": "Daily Antibiotic Prophylaxis",
+          "slug": "splenectomy-daily-antibiotic"
+        }
+      ]
+    },
+    {
+      "page": "acne",
+      "links_added": [
+        {
+          "text": "Recalcitrant acne",
+          "slug": "recalcitrant-acne-and-rosacea"
+        }
+      ]
+    },
+    {
+      "page": "bed-bugs-hemiptera",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "bite-wounds",
+      "links_added": [
+        {
+          "text": "Tetanus, Diphtheria and Acellular Pertussis Vaccine Information Page",
+          "slug": "tetanus-diphtheria-and-acellular-pertussis-vaccine-information"
+        }
+      ]
+    },
+    {
+      "page": "body-lice-pediculosis-corporis",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "cutaneous-candidiasis",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "folliculitis",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "foot-ulcer-w-infect-new-march-25",
+      "links_added": [
+        {
+          "text": "[Click here] for Osteomyelitis Evaluation",
+          "slug": "osteomyelitis-evaluation"
+        },
+        {
+          "text": "Beta-lactam Allergy Assessment",
+          "slug": "beta-lactam-allergy-assessment"
+        }
+      ]
+    },
+    {
+      "page": "impetigo",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "paronychia",
+      "links_added": [
+        {
+          "text": "Link to Herpes whitlow",
+          "slug": "herpes-whitlow"
+        },
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "pubic-lice-pediculosis-pubis",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "scabies",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "sporotrichosis",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "ssti-main-menu",
+      "links_added": [
+        {
+          "text": "Surgical site infections (SSI)",
+          "slug": "surg-surgical-site-infect"
+        }
+      ]
+    },
+    {
+      "page": "surg-surgical-site-infect",
+      "links_added": [
+        {
+          "text": "Mediastinitis",
+          "slug": "mediastinitis-2"
+        },
+        {
+          "text": "Dermatologic Infections",
+          "slug": "dermatologic-surgery-guidelines"
+        }
+      ]
+    },
+    {
+      "page": "immunocom-neut-fever",
+      "links_added": [
+        {
+          "text": "If patient IS a candidate for oral therapy",
+          "slug": "neut-fever-cand-oral-thera"
+        },
+        {
+          "text": "If patient is NOT a candidate for oral therapy",
+          "slug": "neut-fever-cand-not-oral-thera"
+        },
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "intravas-cath-candida-spp",
+      "links_added": [
+        {
+          "text": "Candidemia",
+          "slug": "candidemia"
+        }
+      ]
+    },
+    {
+      "page": "intravas-cath-coag-neg-staph",
+      "links_added": [
+        {
+          "text": "Coagulase-negative staphylococcus bacteremia",
+          "slug": "coagulase-negative-staphylococci-bacteremia"
+        }
+      ]
+    },
+    {
+      "page": "intravas-cath-s-aureus",
+      "links_added": [
+        {
+          "text": "Staphylococcus aureus bacteremia",
+          "slug": "staphylococcus-aureus-bacteremia"
+        }
+      ]
+    },
+    {
+      "page": "neut-fever-cand-not-oral-thera",
+      "links_added": [
+        {
+          "text": "Empirical intravenous regimens WITHOUT vancomycin",
+          "slug": "emp-intrav-w-o-vanco"
+        },
+        {
+          "text": "Empirical intravenous regimens WITH vancomycin",
+          "slug": "emp-intrav-w-vanco"
+        },
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "page": "pneumocystis-jirovecii",
+      "links_added": [
+        {
+          "text": "LINK to Prophylaxis for Pneumocystis Jirovecii",
+          "slug": "pneumocystis-jirovecii-prophylaxis"
+        }
+      ]
+    },
+    {
+      "page": "sepsis-and-shock",
+      "links_added": [
+        {
+          "text": "Sepsis antimicrobial treatment recommendations",
+          "slug": "sepsis-protocol-antimicrobials"
+        }
+      ]
+    },
+    {
+      "page": "sepsis-empiric-therapy-site-unk",
+      "links_added": [
+        {
+          "text": "Treatment of Sepsis with Severe Beta-Lactam Reaction",
+          "slug": "sepsis-severe-beta-lactam-reaction"
+        }
+      ]
+    },
+    {
+      "page": "sepsis-pneumonia",
+      "links_added": [
+        {
+          "text": "Treatment of Sepsis with Severe Beta-Lactam Reaction",
+          "slug": "sepsis-severe-beta-lactam-reaction"
+        }
+      ]
+    },
+    {
+      "page": "sepsis-susp-c-difficile",
+      "links_added": [
+        {
+          "text": "Unclear Infectious Source",
+          "slug": "sepsis-empiric-therapy-site-unk"
+        }
+      ]
+    },
+    {
+      "page": "sepsis-susp-endocarditis",
+      "links_added": [
+        {
+          "text": "Treatment of Sepsis with Severe Beta-Lactam Reaction",
+          "slug": "sepsis-severe-beta-lactam-reaction"
+        }
+      ]
+    },
+    {
+      "page": "sepsis-suspected-skin-soft-tissue",
+      "links_added": [
+        {
+          "text": "Necrotizing infections",
+          "slug": "necrotizing-infections"
+        },
+        {
+          "text": "Treatment of Sepsis with Severe Beta-Lactam Reaction",
+          "slug": "sepsis-severe-beta-lactam-reaction"
+        }
+      ]
+    },
+    {
+      "page": "toxic-shock-syndrome",
+      "links_added": [
+        {
+          "text": "References",
+          "slug": "references"
+        }
+      ]
+    }
+  ],
+  "skipped_ambiguous": [
+    {
+      "page": "septic-arthritis-nat-joint",
+      "text": "Help, legend, allergy info, consults, alternative antimicrobials and more (Inpt)"
+    },
+    {
+      "page": "cardiovascular",
+      "text": "Selected Pathogens"
+    },
+    {
+      "page": "cardiovascular",
+      "text": "Empirical Therapy"
+    },
+    {
+      "page": "furuncles-and-carbuncles",
+      "text": "Select here for Staphylococcus aureus Decolonization"
+    },
+    {
+      "page": "general-information-inpatient",
+      "text": "Alternative Antimicrobials to CDSS Recommendations - select here"
+    },
+    {
+      "page": "index-inpatient",
+      "text": "Tuberculosis"
+    },
+    {
+      "page": "index-inpatient",
+      "text": "Corynebacterium infections, general"
+    },
+    {
+      "page": "index-inpatient",
+      "text": "Step down treatment for CAP"
+    },
+    {
+      "page": "index-inpatient",
+      "text": "C. diff infection"
+    },
+    {
+      "page": "index-inpatient",
+      "text": "72 hour nosocomial pneumonia re-evaluation"
+    },
+    {
+      "page": "index-inpatient",
+      "text": "Diarrhea, infectious"
+    },
+    {
+      "page": "index-inpatient",
+      "text": "Mediastinitis"
+    },
+    {
+      "page": "index-inpatient",
+      "text": "Brucella infections, general"
+    },
+    {
+      "page": "index-inpatient",
+      "text": "Joint and bone section"
+    },
+    {
+      "page": "index-inpatient",
+      "text": "Staphylococcal toxic shock syndrome"
+    },
+    {
+      "page": "index-inpatient",
+      "text": "Flu chemoprophylaxis"
+    },
+    {
+      "page": "index-inpatient",
+      "text": "Actinomyces infections, general"
+    },
+    {
+      "page": "index-inpatient",
+      "text": "Decolonization of Staphylococcus aureus"
+    },
+    {
+      "page": "index-inpatient",
+      "text": "Osteomyelitis"
+    },
+    {
+      "page": "index-inpatient",
+      "text": "Respiratory syncytial virus"
+    },
+    {
+      "page": "index-inpatient",
+      "text": "Asplenia vaccines and antimicrobial recommendations"
+    },
+    {
+      "page": "index-inpatient",
+      "text": "Rotavirus diarrhea/gastroenteritis"
+    },
+    {
+      "page": "index-inpatient",
+      "text": "Diabetic foot ulcer"
+    },
+    {
+      "page": "index-inpatient",
+      "text": "Propionibacterium infections, general"
+    },
+    {
+      "page": "index-inpatient",
+      "text": "Bacillus infections, general"
+    },
+    {
+      "page": "index-inpatient",
+      "text": "Parainfluenza"
+    },
+    {
+      "page": "pneumonia",
+      "text": "Community-acquired pneumonia (CAP)"
+    },
+    {
+      "page": "comm-acq-diarrhea",
+      "text": "Clostridioides difficile treatment recommendations"
+    },
+    {
+      "page": "gi-intraabdominal",
+      "text": "[click here]"
+    },
+    {
+      "page": "help-page",
+      "text": "[Click Here]"
+    },
+    {
+      "page": "immunocompromised-patient",
+      "text": "Spleen absent or dysfunctional"
+    },
+    {
+      "page": "bronchitis",
+      "text": "COPD exacerbation"
+    },
+    {
+      "page": "lung-and-mediastinum",
+      "text": "Influenza Seasonal"
+    },
+    {
+      "page": "lung-and-mediastinum",
+      "text": "Tuberculosis"
+    },
+    {
+      "page": "lung-and-mediastinum",
+      "text": "Exacerbation of chronic obstructive pulmonary disease (COPD)"
+    },
+    {
+      "page": "lung-and-mediastinum",
+      "text": "Mediastinitis"
+    },
+    {
+      "page": "lung-and-mediastinum",
+      "text": "Community-acquired pneumonia (CAP)"
+    },
+    {
+      "page": "main-menu",
+      "text": "[b] Influenza 2025-2026"
+    },
+    {
+      "page": "main-menu",
+      "text": "[CLICK HERE]"
+    },
+    {
+      "page": "bacteria",
+      "text": "Cutibacterium (formerly Propionibacterium) spp."
+    },
+    {
+      "page": "bacteria",
+      "text": "Actinomyces spp."
+    },
+    {
+      "page": "bacteria",
+      "text": "Bacillus spp."
+    },
+    {
+      "page": "bacteria",
+      "text": "Brucella spp."
+    },
+    {
+      "page": "bacteria",
+      "text": "Corynebacterium spp."
+    },
+    {
+      "page": "parasites",
+      "text": "Diarrhea, parasitic"
+    },
+    {
+      "page": "viruses",
+      "text": "[click here]"
+    },
+    {
+      "page": "prevention-of-infection",
+      "text": "Click Here"
+    },
+    {
+      "page": "ssti-main-menu",
+      "text": "[Click here for above]"
+    },
+    {
+      "page": "ssti-main-menu",
+      "text": "Help Information"
+    },
+    {
+      "page": "ssti-main-menu",
+      "text": "[Click here]"
+    },
+    {
+      "page": "ssti-purulent-infections",
+      "text": "[Click Here] for Staphylococcus aureus Decolonization"
+    },
+    {
+      "page": "system-infectious-diseases",
+      "text": "Other staphylococcus sp. (Coag-neg Staph)"
+    },
+    {
+      "page": "system-infectious-diseases",
+      "text": "Enterococci"
+    },
+    {
+      "page": "system-infectious-diseases",
+      "text": "Staphylococcus aureus"
+    }
+  ],
+  "unresolved": []
+}
