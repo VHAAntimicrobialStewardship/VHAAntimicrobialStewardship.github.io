@@ -35,7 +35,7 @@
     },
     {
       "Name": "adj-exist-therapy",
-      "Term1": "adj-exist-therapy",
+      "Term1": "1. adj-exist-therapy (Navigation)",
       "Term2": "",
       "Text": "## ADJUSTING EXISTING ANTIMICROBIAL THERAPY\n## To change the DOSE of a CURRENTLY ACTIVE antimicrobial in CPRS\nRight click on the active order and change the dose as needed.\n## To change from the CURRENT ANTIMICROBIAL MEDICATION\nWe encourage clinicians to consult the CDSS when considering alternative\nantimicrobial therapy due to an adverse drug reaction, a culture result, or a\nneed to switch from intravenous to oral therapy. Many of the CDSS advice menus\ncontain more than one antimicrobial recommendation. If a suitable alternative\nis not listed on the advice menu, clinicians have the additional resource of an\nexpanded menu of alternative medications that can be accessed by selecting the\nNeed an alternative antimicrobial? link at the top of each advice menu. To\norder an alternative medication using this link prescribers will need to\nindicate the rationale behind the choice.\nNote: Restricted antimicrobials ordered outside of the CDSS system will still\nrequire Infectious Diseases approval.",
       "Inpt": "ORZID2 GMENU ABX ADJ EXIST ABX THERAPY",
@@ -634,7 +634,7 @@
     },
     {
       "Name": "elements-of-cdss-advice-page",
-      "Term1": "ELEMENTS OF CDSS ADVICE PAGE",
+      "Term1": "13. ELEMENTS OF CDSS ADVICE PAGE (Navigation)",
       "Term2": "",
       "Text": "## Patients unable to take oral medications",
       "Inpt": "ORZID2 GMENU ABX ELEMENTS OF CDSS ADVICE PAGE",
@@ -7633,7 +7633,8 @@
           "Item": "PSJIZID PIP/TAZ 4.5GM IV Q6H(NE-EXTINF,CI-CEFEP/METRO)"
         }
       ],
-      "Outpt": "ORZID3 GMENU BRONCHITIS NEW"
+      "Outpt": "ORZID3 GMENU BRONCHITIS NEW",
+      "Combined": "copd-exacerbation"
     },
     {
       "Name": "ORZID2 GMENU ABX COST INFORMATION",
@@ -14877,7 +14878,8 @@
           "Item": "PSJZID OSELTAMIVIR 75 MG PO DAILY PROPHY"
         }
       ],
-      "Outpt": "ORZID3 GMENU INFLUENZA CHEMOPROPHYLAXIS"
+      "Outpt": "ORZID3 GMENU INFLUENZA CHEMOPROPHYLAXIS",
+      "Combined": "influenza-chemoprophylaxis"
     },
     {
       "Name": "ORZID2 GMENU ABX INFLUENZA EGG ALLERGY ACIP",
@@ -16835,7 +16837,8 @@
           "Item": "PSJIZID TOBRAMYCIN 5 MG/KG IV ONCE"
         }
       ],
-      "ERUC": "ORZID GMENU ER/UC PNEUMONIA HAP NEW"
+      "ERUC": "ORZID GMENU ER/UC PNEUMONIA HAP NEW",
+      "Combined": "pneumonia-hap-new"
     },
     {
       "Name": "ORZID2 GMENU ABX PNEUMONIA VAP",
@@ -18997,7 +19000,8 @@
           "Item": "antiviral-infection-malignancy"
         }
       ],
-      "Outpt": "ORZID3 GMENU ANTIVIRAL STEM CELL MALIGNANCY"
+      "Outpt": "ORZID3 GMENU ANTIVIRAL STEM CELL MALIGNANCY",
+      "Combined": "antiviral-stem-cell-malignancy"
     },
     {
       "Name": "ORZID2 GMENU ANTIVIRAL TYPE OF MALIGNANCY",
@@ -26542,7 +26546,8 @@
           "Item": "neut-fever-cand-not-oral-thera"
         }
       ],
-      "ERUC": "ORZID GMENU ER/UC SEPSIS PROTOCOL ANTIMICROBIALS"
+      "ERUC": "ORZID GMENU ER/UC SEPSIS PROTOCOL ANTIMICROBIALS",
+      "Combined": "sepsis-protocol-antimicrobials"
     },
     {
       "Name": "ORZID2 GMENU SEPSIS SEVERE BETA-LACTAM REACTION",
@@ -50115,7 +50120,7 @@
     },
     {
       "Name": "susceptibilities-antibiogram",
-      "Term1": "1. Antibiogram (Navigation)",
+      "Term1": "2. Antibiogram (Navigation)",
       "Term2": "Antimicrobial susceptibilities",
       "Text": "# ANTIMICROBIAL SUSCEPTIBILITIES\n\nAntimicrobial selection should be based on likely susceptibilities of\n\nanticipated or proven pathogens. Clinicians should be aware of local, regional,\n\nand national susceptibility patterns. Several sources for susceptibility\n\npatterns are listed below.\n\nLocal PDF File:\n\n[Minneapolis-Antibiogram](https://vhaantimicrobialstewardship.github.io/assets/uploads/001-TestStation/AntibiogramMinneapolis.pdf)\n\n# \n\n# _____________________________________\n\n# Minnesota Department of Health\n\n[Please Click Here For the MDH website](https://www.health.state.mn.us/diseases/antibioticresistance/abx/index.html)\n\n# _____________________________________\n\n# NATIONAL\n\n# _____________________________________\n\n# Sanford Guide\n\n[Click Here for link to Sanford Guide online access](https://dva.sanfordguide.com/)\n\nGilbert DN et al: The Sanford Guide to Antimicrobial Therapy, published\n\nannually by Antimicrobial Therapy, Inc., Hyde Park, VT.\n\n# Mandell, Douglas, and Bennett Textbook\n\n[Click Here for link to Principles and Practice of Infectious Diseases online](https://www.clinicalkey.com/#!/browse/book/3-s2.0-C2016100010X)\n\naccess\n\nMandell et al: Principles and Practice of Infectious Diseases, Churchill\n\nLivingstone",
       "Inpt": "ORZID2 GMENU ABX SUSCEPTIBILITIES (ANTIBIOGRAM)",
@@ -50138,7 +50143,7 @@
     },
     {
       "Name": "beta-lactam-allergy-assessment",
-      "Term1": "3. Beta-lactam reaction assessment (Navigation)",
+      "Term1": "4. Beta-lactam reaction assessment (Navigation)",
       "Term2": "Penicillin reaction assessment",
       "Text": "# ASSESSMENT OF BETA-LACTAM REACTION AND ALTERNATIVE TREATMENT\n\n# Streamlined Version (PDF form)\n\n[Assessment of Beta-lactam Reaction CLICK HERE](orz-gtx-abx-beta-lactam-reaction-pdf)\n\nThis guide is intended to aid clinicians in assessment of beta-lactam\n\nreactions and selection of appropriate alternative therapy. It is not a\n\nsubstitute for clinical judgment and should not be used as a sole resource when\n\nselecting antimicrobial therapy.\n\n[Important Beta-Lactam Allergy Facts and Obtaining a Detailed Reaction History](beta-lactam-allergy-facts)\n\n# Reaction Assessment and Selection of an Alternative Beta-lactam\n\n- If the same or a different beta-lactam was subsequently tolerated without\n\nreaction, that beta-lactam may be used.\n\n- If reaction was intolerance (e.g. headache, GI symptoms), family history of\n\nreaction, or if the patient denies allergy, any beta-lactam may be used.\n\n- See below for treatment based on type of reaction (severe vs non-severe).\n\n- If reaction is unknown and patient denies any severe reactions (see below for\n\nlist of severe reactions), reaction is considered non-severe.\n\n- If patient is in a suitable care setting, observation during the first 15\n\nminutes to 1 hour after first dose of therapy may be performed to monitor for\n\nsigns/symptoms of an allergic reaction.\n\n# _______________________________________________________________________________\n\n# SEVERE REACTION TO BETA-LACTAM:\n\n# _______________________________________________________________________________\n\nIf the patient experienced a known severe reaction (use link below for severe\n\nreaction list), AVOID ALL Beta-Lactam Antibiotics. If beta-lactam therapy is\n\nideal, contact Infectious Diseases for desensitization or alternative.\n\nSevere Reaction Examples:\n\n- Anaphylaxis\n\n- Reaction needed medical intervention\n\n- Mucosal, cardiovascular or respiratory system involvement\n\n- Hemolytic anemia\n\n- Immune hepatitis\n\n- Interstitial nephritis\n\n- Acute interstitial nephritis (AIN)\n\n- Skin desquamation\n\n- Drug reaction with eosinophilia and systemic symptoms (DRESS)\n\n- Stevens-Johnson syndrome (SJS)\n\n- Generalized exanthematous pustulosis\n\n- Toxic epidermal necrolysis (TEN)\n\n# _______________________________________________________________________________\n\n# NON-SEVERE REACTION TO BETA-LACTAM:\n\n# _______________________________________________________________________________\n\nSelect an alternative non-cross-reactive beta-lactam for therapy based on\n\nbeta-lactam class patient had a reaction to. Refer to PDF document above for\n\ndetailed cross-reactivity chart.\n\n# PENICILLIN CLASS REACTION\n\n(e.g. Amoxicillin, ampicillin, cloxacillin, dicloxacillin, nafcillin, oxacillin,\n\npenicillin, piperacillin, ticarcillin)\n\n# Use: Cefazolin, cefdinir, cefuroxime, ceftazidime, ceftriaxone, cefepime,\n\n# ertapenem, imipenem, or meropenem\n\n# 1ST GENERATION CEPHALOSPORIN CLASS REACTION\n\n(e.g. Cefadroxil, cefatrizine, cefazolin, ceftezole, cephalexin, cephalothin,\n\ncephapirin)\n\n# Use: Dicloxacillin, nafcillin, cefazolin (unless reaction was to cefazolin)\n\n# cefdinir, ceftazidime, ceftriaxone, cefuroxime, cefepime, ertapenem, imipenem,\n\n# or meropenem\n\n# 2ND GENERATION CEPHALOSPORIN CLASS REACTION\n\n(e.g. Cefaclor, cefamandole, cefonicid, cefotetan, cefoxitin, cefprozil,\n\ncefuroxime)\n\n# Use: Amoxicillin, ampicillin, dicloxacillin, nafcillin, piperacillin,\n\n# cefadroxil cefazolin, cefdinir, ceftazidime, ceftriaxone, cephalexin, cefepime,\n\n# ertapenem imipenem, or meropenem\n\n# 3RD-5TH GENERATION CEPHALOSPORIN CLASS REACTION\n\n(e.g. Cefdinir, cefditoren, cefepime, cefiderocol,cefixime, cefpirome,\n\ncefoperazone, cefotaxime, cefpodoxime, ceftaroline, ceftazidime, ceftibuten,\n\nceftizoxime, ceftolozane, ceftriaxone)\n\n# Use: Amoxicillin, ampicillin, dicloxacillin, nafcillin, penicillin,\n\n# piperacillin, cefadroxil, cefazolin, cephalexin, ertapenem, imipenem, or\n\n# meropenem\n\n# CARBAPENEM CLASS REACTION\n\n(e.g. Ertapenem, imipenem and meropenem)\n\n# Use: Amoxicillin, ampicillin, dicloxacillin, nafcillin, penicillin,\n\n# piperacillin, cefadroxil, cefazolin, cephalexin, cefdinir, ceftazidime,\n\n# ceftriaxone, or cefepime\n\n# _______________________________________________________________________________\n\n# References\n\nBlumenthal et. al., Addressing Inpatient Beta-Lactam Allergies: A Multihospital\n\nImplementation. J Allergy Clin Immunol Pract. 2017, 5(3)616-625\n\nIs it Really a Penicillin Allergy? Centers for Disease Control and Prevention,\n\n2017\n\nChaudhry et al., Cephalosporins: A Focus on Side Chains and Beta-Lactam Cross-\n\nReactivity. Pharmacy, 2019, 7(3)103\n\nCollins, et al. Impact of an Antibiotic Side-Chain-Based Cross-reactivity Chart\n\nCombined With Enhanced Allergy Assessment Processes for Surgical Prophylaxis\n\nAntimicrobials in Patients With Beta-Lactam Allergies. Clinical Infectious\n\nDiseases, 2020\n\nPatrick et al., Beta-lactam allergy Benefits of de-labeling can be achieved\n\nsafely. BC Medical Journal, 2019, 61(9)350\n\nSakoulas et al., Is a Reported Penicillin Allergy Sufficient Grounds to Forgo\n\nthe Multidimensional Antimicrobial Benefits of Beta-Lactam Antibiotics?\n\nClinical Infectious Diseases, 2019, 68(1)157\n\nShenoy et al., Evaluation and Management of Penicillin Allergy. JAMA. 2019,\n\n321(2)188\n\nSolensky et al., Drug Allergy: An Updated Practice Parameter. Ann Allergy Asthma\n\nImmunol. 2010, 105(4)259\n\nSanford keyword: Drug Allergy, Beta-lactams\n\nTribiano et al. The Three C's of Antibiotic Allergy - Classification, Cross-\n\nReactivity and Collaboration. J Allergy Clin Immunol Pract, 2017, 5(6)1532-\n\n1542\n\nUp-to-Date article: Cephalosporin-allergic patients: Subsequent use of\n\ncephalosporins and related antibiotics\n\nUp-to-Date article: Drug allergy: Classification and clinical features\n\nZagursky et al., Cross-reactivity in b-Lactam Allergy. J Allergy Clin Immunol\n\nPract. 2018, 6(1)72",
       "Inpt": "ORZID2 GMENU ABX BETA-LACTAM ALLERGY ASSESMENT",
@@ -50146,7 +50151,7 @@
     },
     {
       "Name": "infection-control",
-      "Term1": "4. Infection control department information (Navigation)",
+      "Term1": "5. Infection control department information (Navigation)",
       "Term2": "Infection prevention department information",
       "Text": "# INFECTION CONTROL\n\nMinneapolis VAMC infection control policies and practices are designed to\n\nprevent infection and infectious diseases among patients, employees, visitors,\n\nfamilies and friends. This section briefly summarizes key infection control\n\npractices.\n\n# ____________________________________________\n\n# For more information\n\n# ____________________________________________\n\n>> Infection Prevention is available via phone (612-467-6888) during\n\nduty hours Monday to Friday. (Internal extension 31-6888)\n\n>> During nights, weekends, and holidays, contact the on-call person for\n\nInfectious Diseases.\n\n[Click here Minneapolis Clinical On-Call Schedule](clinical-on-call-schedule)\n\n>> Minneapolis VAMC Infection Prevention and Control SharePoint site\n\n[Click here Minneapolis VAMC Infection Prevention & Control SharePoint site](orz-gtx-abx-mvamc-intranet-infect-ctrl)\n\n>> CDC web site (www.cdc.gov)\n\n[Click here CDC website](orz-gtx-abx-cdc-website)\n\n>> Place consults for ID\n\n[Click here Consult Infectious Diseases \\(inpatient\\)](gmrctz-infectious-disease-inpt)\n\n[Click here Consult Infectious Diseases \\(outpatient\\)](gmrctz-infectious-disease-outpt)\n\n# ____________________________________________\n\n# Standard and special precautions\n\n# ____________________________________________\n\n[Click here Minneapolis VAMC Isolation Precautions](orz-gtx-abx-isolation-signs)",
       "Inpt": "ORZID2 GMENU ABX INFECTION CTRL",
@@ -50154,14 +50159,14 @@
     },
     {
       "Name": "vanco-mrsa-nares-information",
-      "Term1": "6. VANCO-MRSA-NARES-INFORMATION (Navigation)",
+      "Term1": "7. VANCO-MRSA-NARES-INFORMATION (Navigation)",
       "Term2": "",
       "Text": "# Information on adding MRSA nares screening with new IV Vancomycin starts:\n\nMRSA nares screening will be ordered on all new IV Vancomycin starts.\n\nMRSA nares may be a helpful tool in identifying patients with low risk of\n\nMRSA infection in whom empiric vancomycin may not be required.\n\nA negative MRSA nares does not definitively rule out the presence of MRSA\n\nelsewhere and is one factor to consider in the de-escalation of vancomycin\n\n(and other anti-MRSA antimicrobials).\n\n# References\n\nParente DM, Cunha CB, Mylonakis E, Timbrook TT. The Clinical Utility of\n\nMethicillin-Resistant Staphylococcus aureus (MRSA) Nasal Screening to Rule\n\nOut MRSA Pneumonia: A Diagnostic Meta-analysis With Antimicrobial  Stewardship\n\nImplications. Clin Infect Dis. (2018) 67(1):1-7\n\ndoi: 10.1093/cid/ciy024. PMID: 29340593.\n\nJones BE, Ying J, Stevens V, et al. Empirical Anti-MRSA vs Standard Antibiotic\n\nTherapy and Risk of 30-Day Mortality in Patients Hospitalized for Pneumonia.\n\nJAMA Intern Med. (2020) 180(4):552-560. doi:10.1001/jamainternmed.2019.7495",
       "Inpt": "ORZID2 GMENU ABX VANCO + MRSA NARES INFORMATION"
     },
     {
       "Name": "esbl-kpc-etc",
-      "Term1": "5. Resistant gram-negative bacteria, information (Navigation)",
+      "Term1": "6. Resistant gram-negative bacteria, information (Navigation)",
       "Term2": "Gram-negative bacteria, resistance information",
       "Text": "# Gram-Negative Bacilli Drug Resistance\n\nIn some Gram-negative bacilli, potent bacterial enzymes have emerged that\n\ninactive many newer broad-spectrum beta lactam drugs. These include extended-\n\nspectrum beta-lactamases (ESBLs), serine carbapenemases, metallo-beta-\n\nlactamases, AmpC beta-lactamases and oxacillinases. These enzymes are most\n\ncommon in strains of Acinetobacter, Citrobacter, Enterobacter, Escherichia coli,\n\nKlebsiella, Proteus, Pseudomonas aeruginosa, Salmonella, and Serratia\n\nmarcescens. The enzymes can be latent under many circumstances. However, in\n\npatients receiving beta lactam antibiotics, the enzymes can be expressed and\n\ncontribute to treatment failure. Because of this, and since the enzymes continue\n\nto evolve, they are difficult to detect in clinical microbiology laboratories.\n\nBacteria carrying these enzymes are often also resistant to many other commonly\n\nused antimicrobials, including trimethoprim-sulfamethoxazole, quinolones, and\n\nothers, through different mechanisms. Enterobacteriaceae, Pseudomonas and\n\nAcinetobacter are increasingly resistant to all antimicrobials.\n\nClinicians must be aware that these enzymes may not be detected in all strains\n\nthat carry them. If a Gram-negative infection is not responding to therapy with\n\na beta lactam drug, consider adding or switching to a drug that is not a beta\n\nlactam and appears active in the susceptibility report.\n\nIf a patient is suspected of having a Gram-negative infection and is likely to\n\nbe colonized with bacteria carrying these enzymes, empirical therapy with\n\nalternative drugs that are not inactivated by them should be considered.\n\n# Risk factors for colonization or infection with resistant gram-negative bacilli\n\n1. Travel to Asia\n\n2. Central venous catheters and other indwelling tube and drains\n\n3. Recent surgical procedures\n\n4. Recent antibiotic therapy\n\n5. Long-term care facility residence\n\n6. Multiple, severe chronic illnesses\n\n7. Ventilator assistance\n\n8. Hemodialysis\n\n9. Long hospital or ICU stay.\n\n# AmpC beta-lactamases alternative antimicrobials\n\nInactivate many cephalosporins, most penicillins, and beta-lactam inhibitor\n\ncombinations. Alternatives include aminoglycosides, carbapenems, cefepime and\n\ncolistin.\n\n# ESBLs alternative antimicrobials\n\nInactivate most cephalosporins, monobactams, and penicillins. Alternatives\n\ninclude aminoglycosides, carbapenems and colistin.\n\n# Serine carbapenemases, metallo-beta-lactamases and oxacillinases alternative\n\n# antimicrobials\n\nConfer resistance to all beta-lactams. Most strains are also resistant to most\n\nother antibiotic classes. Alternatives include aminoglycosides and colistin.\n\nInfectious Diseases consultation is recommended.\n\n# Additional alternative antimicrobials\n\nTrimethoprim-sulfamethoxazole and quinolones are non-beta-lactam alternative\n\nantimicrobials, especially useful for IV to PO conversion. Gram negative bacilli\n\nco-resistance to these antimicrobials is common however. Tigecycline (restricted\n\nto ID) and ceftazidime-avibactam (non-formulary) are also potential options for\n\nsusceptible isolates. Infectious Diseases consultation is required for their\n\nuse.\n\nReferences\n\nMandell chapter: Molecular Mechanisms of Antibiotic Resistance in Bacteria\n\nUp-to-Date article: Extended-spectrum beta-lactamases\n\nUp-to-Date article: Overview of carbapenemase-producing gram-negative bacilli\n\nRodrï¿½guez-Bano et al. Clinical microbiology reviews, 2018, 31(2): e00079-17\n\nSanford guide keyword: Gram Negative Bacilli, Drug Resistance, Overview",
       "Inpt": "ORZID2 GMENU ABX ESBL KPC ETC",
@@ -50265,7 +50270,7 @@
     },
     {
       "Name": "antimicrobial-formulary",
-      "Term1": "2. Antimicrobial Formulary (Restricted) (Navigation)",
+      "Term1": "3. Antimicrobial Formulary (Restricted) (Navigation)",
       "Term2": "",
       "Text": "## Antimicrobial Formulary (Restricted)\n\n## \n\n[Antimicrobial Formulary pdf](https://vhaantimicrobialstewardship.github.io/assets/uploads/Antimicrobial Formulary.pdf)",
       "Inpt": "ORZ GTX ABX ANTIMICROBIAL FORMULARY"
@@ -51558,7 +51563,7 @@
     },
     {
       "Name": "references",
-      "Term1": "references",
+      "Term1": "6. references (Navigation)",
       "Term2": "",
       "Text": "# References\n\n[Book references](orzid2-gmenu-abx-references-book)\n\n[Website references](orzid2-gmenu-abx-references-website)\n\n[Journal references](orzid2-gmenu-abx-references-journal)",
       "LinkTargets": null,
@@ -51646,7 +51651,7 @@
     },
     {
       "Name": "about-the-cdss",
-      "Term1": "About the CDSS",
+      "Term1": "7. About the CDSS (Navigation)",
       "Term2": "CDSS Information",
       "Text": "# ABOUT THE ANTIMICROBIAL COMPUTERIZED DECISION SUPPORT SYSTEM (CDSS)\n\nThe Antimicrobial CDSS is a tool within the Computerized Patient Record System\n\nthat offers antimicrobial prescribing advice to clinicians at the point of order\n\nentry. The system is structured as an order menu decision tree that contains\n\nquick orders pre-programmed with appropriate antimicrobial regimens for specific\n\ninfectious diseases.\n\n# Goals\n\nImprove patient outcomes, reduce rates of microbial resistance, prevent adverse\n\npatient outcomes, optimize costs and improve providers' lives. In addition to\n\nthese goals, the program fulfills antimicrobial stewardship quality standards\n\nimplemented by the Joint Commission.\n\n# Rationale\n\n*Improved patient outcomes\n\nIn a 2013 study, Minneapolis Veterans Affairs Medical Center (MVAMC)\n\nantimicrobial courses ordered through the Antimicrobial CDSS were significantly\n\nmore likely to be appropriate from start to completion, (44%) compared to non-\n\nCDSS courses (33%, P = 0.013). This is consistent with other studies that have\n\nshown significant improvement in appropriate use of antimicrobials when CDSS\n\nprograms are utilized.\n\n*Restricted formulary\n\nThe Minneapolis VAHCS has a restricted antimicrobial formulary. A restricted\n\nformulary reduces cost of health care and is an integral part of antimicrobial\n\nstewardship. The Antimicrobial CDSS provides a method of formulary restriction\n\nthat doesn't require a call back from pharmacy or a prior authorization for the\n\nantimicrobial to be approved.\n\n[More information on antimicrobial restriction policy](restriction-policy)\n\n*Increased efficiency\n\nAlong with being able to order restricted antimicrobials without a prior\n\nauthorization or call back from pharmacy, the Antimicrobial CDSS provides quick\n\norders pre-programmed with appropriate antimicrobial regimens for specific\n\ninfectious diseases. Using the system saves time and increases the efficiency of\n\nthe ordering provider.\n\n# Features\n\nThe CDSS has been developed locally with input from a broad, representative\n\ngroup of clinicians. Recommendations have been based on local susceptibility\n\npatterns, clinical evidence, local preferences, and national guidelines. The\n\nCDSS provides a way for clinicians to select alternative drugs when the\n\nrecommended drugs are contraindicated.\n\nDetailed instructions can be found in the link below.\n\n[How to use the CDSS](how-to-use-the-cdss)\n\nReferences\n\nDellit et al. Clinical Infectious Diseases 2007, 44:159-7\n\nFilice et al. Infection Control and Hospital Epidemiology. 2013, 34.6\n\nRawson et al. Clinical Microbiology and Infection. 2017, 1e9",
       "LinkTargets": null,
@@ -51655,7 +51660,7 @@
     },
     {
       "Name": "acknowledgement",
-      "Term1": "Acknowledgement",
+      "Term1": "8. Acknowledgement (Navigation)",
       "Term2": "Funding",
       "Text": "# ACKNOWLEDGEMENT\n\nThis project was funded as a VISN 23 Strategic Planning Project for FY2005-2007.\n\nIt addresses the VISN's efforts to build a culture of continuous quality\n\nimprovement, evidence-based practice and optimal resource utilization.\n\nThis project has been guided by our project collaborators as well as the efforts\n\nof the guideline review committee members. We would like to thank these\n\nindividuals for their time and thoughtful input.",
       "LinkTargets": null,
@@ -51718,7 +51723,7 @@
     },
     {
       "Name": "duration-of-antimicrobial-therapy",
-      "Term1": "Duration of antimicrobial therapy",
+      "Term1": "12. Duration of antimicrobial therapy (Navigation)",
       "Term2": "Antimicrobial therapy duration",
       "Text": "# DURATION OF ANTIMICROBIAL THERAPY\n\nIn general, duration of therapy is based on multiple factors, including\n\ninfection severity, rapidity of improvement, and pathogen susceptibility. For a\n\nfew diseases guidelines are established based on available evidence and opinion.\n\nFor many more diseases, guidelines have not been established.\n\nFor outpatient prescriptions, when a range is recommended by CDSS, the\n\nprescription order will default to the lowest dose and day supply. For inpatient\n\norders, durations are listed in the recommendations but are not included in the\n\nquick order. The provider must select a duration, if desired, when completing an\n\ninpatient quick order.\n\nFor all cases clinical judgment is important. More information is given within\n\nspecific diagnoses or syndromes sections.",
       "LinkTargets": null,
@@ -51727,7 +51732,7 @@
     },
     {
       "Name": "diseases-and-syndromes-not-covered",
-      "Term1": "Diseases and syndromes not covered",
+      "Term1": "10. Diseases and syndromes not covered (Navigation)",
       "Term2": "Exclusions from CDSS",
       "Text": "# DISEASES AND SYNDROMES NOT COVERED\n\nOur system provides advice for the treatment of most infectious diseases likely\n\nto be encountered in our patient population. Diseases that do not require\n\nantimicrobial therapy are not included. For more information on a syndrome not\n\ndescribed in our system, please contact infectious diseases. If you feel that a\n\nsyndrome should be included in our system please contact us.\n\n[Contact VISN23 Antimicrobial CDSS Program Staff](additional-assistance)\n\nErik Stensgard, PharmD: (612) 271-4121\n\nBobbie Masoud, PharmD:  (612) 719-6778",
       "LinkTargets": null,
@@ -51745,7 +51750,7 @@
     },
     {
       "Name": "home-iv-therapy",
-      "Term1": "Home IV therapy",
+      "Term1": "11. Home IV therapy (Navigation)",
       "Term2": "Intravenous therapy at home",
       "Text": "# HOME IV AT THE MINNEAPOLIS VA\n\nMinneapolis VA provides home IV therapy contracts with commercial providers. To\n\norder home IV antimicrobials:\n\n# ___________________________________\n\n# Step 1\n\n# ___________________________________\n\nAn Infectious Disease staff physician must approve outpatient IV antimicrobials\n\nin each case. Call x4185, or call the operator on off-tours to contact the ID\n\nstaff member on-call. If the ID service has been consulted, you must request\n\nHome IV approval and recommendations from the ID staff on-call.\n\n# ___________________________________\n\n# Step 2\n\n# ___________________________________\n\nOrder a Home IV consult (click on quick order below). Note: Allow 24 hours for\n\nhome IV service assessment, teaching, etc to occur.\n\n[Home IV consult \\(or page 7253\\)](gmrctz-home-iv-infusion-coordination)",
       "LinkTargets": null,
@@ -51754,7 +51759,7 @@
     },
     {
       "Name": "how-to-use-the-cdss",
-      "Term1": "How to use the CDSS",
+      "Term1": "12. How to use the CDSS (Navigation)",
       "Term2": "CDSS, how to use",
       "Text": "# HOW TO USE THE CDSS\n\nThe CDSS has been designed to offer antimicrobial prescribing advice quickly and\n\nefficiently. Since inpatient and outpatient drugs are ordered differently, the\n\nCDSS has both and inpatient and outpatient versions for prescribing.\n\nThe Antimicrobial CDSS is located within CPRS. When CPRS is open, click on the\n\nOrders tab at the bottom left hand side of the CPRS window.\n\n# For inpatients\n\nOn the left-hand side of the \"Orders\" tab, click on the \"Medicine Inpt Orders.\"\n\noption.  In the right-hand column of the window that pops up, select \"#77\n\nAntimicrobials (CDSS).\". The main menu of the Inpatient Antimicrobial CDSS will\n\nnow be open.\n\n# For outpatients\n\nOn the left-hand side of the \"Orders\" tab, click on the \"Medicine Outpt Orders.\"\n\noption.In the right-hand column of the window that pops up, select \"#55\n\nAntimicrobial (CDSS).\". The main menu of the Outpatient Antimicrobial CDSS will\n\nnow be open.\n\n# Navigating Within the CDSS\n\n*Using the decision tree\n\nThe main menu of the Antimicrobial CDSS contains links to categories of\n\ninfectious diseases based on syndrome/organ system (e.g. cardiovascular,\n\ngenitourinary, etc.), organisms (e.g. gram-positive bacteria, gram-negative\n\nbacteria, viruses, etc.) and other special cases. To navigate to specific\n\ninfectious disease, select the category the infectious disease is associated\n\nwith. Within the category menu, select the specific infectious disease sub-menu\n\nfor recommendations, quick orders and pertinent resources (e.g., section-\n\nspecific consults, important drug properties, CDSS system help resources, etc.).\n\n*Using the Index\n\nThe Index is in the main menu at the top of the left-hand column under the\n\nheader Index of Antimicrobial CDSS content. The Index contains an alphabetized\n\nlist of Antimicrobial CDSS content. Find the infectious disease, organism or\n\nother topic you are looking for by scrolling down the list. When you locate the\n\nterm you are looking for, click on it to be linked to the menu containing\n\nspecific recommendations, quick orders and pertinent resources.\n\n# Quick Orders\n\nQuick orders are preprogrammed with the usually recommended antimicrobial dose,\n\nfrequency and solution for the specific infectious disease.\n\n[More information on duration of antimicrobial therapy](duration-of-antimicrobial-therapy)\n\nQuick orders are not tailored to specific patient factors such as renal\n\ninsufficiency, comorbidities, contraindications, weight, allergies, etc. The\n\nprovider must assess every patient closely for these factors and modify\n\nrecommended antimicrobials if needed. To assist the provider, additional drug\n\ninformation is provided within specific infectious diseases recommendation menus\n\nand a link to more in depth information is provided at the top of these menus.\n\nAlternatives to preferred antimicrobials quick orders are often provided in\n\nrecommendations, a broader selection of alternative antimicrobials is provided\n\nin the Alternative Antimicrobial menu (see What if a Preferred Antimicrobial is\n\nnot Provided in the Recommendations?).\n\n# Elements of a CDSS Advice Page\n\n[Click Here](elements-of-cdss-advice-page)\n\n# If you need to modify existing therapy\n\n[Adjusting existing antimicrobial therapy](adj-exist-therapy)\n\n# If you need an alternative antimicrobial\n\n[How to find an alternative antimicrobial within the CDSS](how-to-find-alt)",
       "LinkTargets": null,
@@ -51763,7 +51768,7 @@
     },
     {
       "Name": "beta-lactam-allergy-facts",
-      "Term1": "Beta-lactam allergy facts",
+      "Term1": "8. Beta-lactam allergy facts (Navigation)",
       "Term2": "Obtaining a Beta-lactam reaction history",
       "Text": "# Important Beta-lactam Allergy Facts\n\n1. 10% of patients report an allergy to penicillin.\n\n2. Less than 1% of patients are truly allergic to penicillin.\n\n3. 80% of patients who had an immediate allergic reaction (Type I,\n\nImmunoglobulin E (IgE)-mediated) to penicillin lose sensitivity after 10\n\nyears.\n\n4. Cross-reactivity between penicillin and cephalosporins occurs in only 2% of\n\npatients and most patients do not have clinically significant reactions.\n\n# Obtaining a Detailed Reaction History\n\n- Locate documented reaction information within the Computerized Patient Record\n\nSystem (CPRS)\n\n> Reported reactions can be found in the Cover Sheet under Allergies/Adverse\n\nReactions. Double click on the specific reaction for more information,\n\nincluding signs/symptoms and date of reaction.\n\n> A reaction report can also be found here: Reports tab -> Clinical Reports -\n\nAllergies.\n\n- Determine beta-lactam medication history. A list of all locally prescribed\n\nmedications can be found here: Reports tab -> Clinical Reports -> Pharmacy ->\n\nAll Medications.\n\n- Interview the patient or family for details about the reaction. Questions to\n\nask during the interview:\n\n> What medication were you taking when the reaction occurred? DO NOT accept\n\nPenicillin or Cephalosporin as an allergy, ensure specific offending\n\nmedication is identified.\n\n> How long after taking the medication did the reaction occur? Immediate\n\nreactions typically occur within 1 hour and up to 72 hours after\n\nadministration. Delayed reactions occur after 72 hours.\n\n> How long ago did the reaction occur? Did it occur over 10 years ago?\n\n> What kind of reaction occurred? Did the reaction require medical attention?\n\n# _______________________________________________________________________________\n\n# References\n\nBlumenthal et. al., Addressing Inpatient Beta-Lactam Allergies: A Multihospital\n\nImplementation. J Allergy Clin Immunol Pract. 2017, 5(3)616-625\n\nIs it Really a Penicillin Allergy? Centers for Disease Control and Prevention,\n\n2017\n\nChaudhry et al., Cephalosporins: A Focus on Side Chains and Beta-Lactam Cross-\n\nReactivity. Pharmacy, 2019, 7(3)103\n\nCollins, et al. Impact of an Antibiotic Side-Chain-Based Cross-reactivity Chart\n\nCombined With Enhanced Allergy Assessment Processes for Surgical Prophylaxis\n\nAntimicrobials in Patients With Beta-Lactam Allergies. Clinical Infectious\n\nDiseases, 2020\n\nPatrick et al., Beta-lactam allergy Benefits of de-labeling can be achieved\n\nsafely. BC Medical Journal, 2019, 61(9)350\n\nSakoulas et al., Is a Reported Penicillin Allergy Sufficient Grounds to Forgo\n\nthe Multidimensional Antimicrobial Benefits of Beta-Lactam Antibiotics?\n\nClinical Infectious Diseases, 2019, 68(1)157\n\nShenoy et al., Evaluation and Management of Penicillin Allergy. JAMA. 2019,\n\n321(2)188\n\nSolensky et al., Drug Allergy: An Updated Practice Parameter. Ann Allergy Asthma\n\nImmunol. 2010, 105(4)259\n\nSanford keyword: Drug Allergy, Beta-lactams\n\nTribiano et al. The Three C's of Antibiotic Allergy - Classification, Cross-\n\nReactivity and Collaboration. J Allergy Clin Immunol Pract, 2017, 5(6)1532-\n\n1542\n\nUp-to-Date article: Cephalosporin-allergic patients: Subsequent use of\n\ncephalosporins and related antibiotics\n\nUp-to-Date article: Drug allergy: Classification and clinical features\n\nZagursky et al., Cross-reactivity in b-Lactam Allergy. J Allergy Clin Immunol\n\nPract. 2018, 6(1)72",
       "LinkTargets": null,
@@ -51826,7 +51831,7 @@
     },
     {
       "Name": "contact-cdss-project-team",
-      "Term1": "Contact CDSS project team",
+      "Term1": "9. Contact CDSS project team (Navigation)",
       "Term2": "CDSS project team contact information",
       "Text": "The CDSS Project Team can be contacted in Outlook using the\n\ngroup Email: andrew.holbrook@va.gov\n\n[Contact CDSS Team](additional-assistance)\n\n[Exclusions- recommendations for additions to CDSS](diseases-and-syndromes-not-covered)",
       "LinkTargets": null,
@@ -52420,7 +52425,7 @@
     },
     {
       "Name": "pregnancy-risk-factors-for-antimicrobials",
-      "Term1": "Pregnancy risk factors for antimicrobials",
+      "Term1": "10. Pregnancy risk factors for antimicrobials (Navigation)",
       "Term2": "Risk factors for antimicrobials in pregnancy",
       "Text": "# RISK FACTORS FOR ANTIMICROBIALS DURING PREGNANCY\n\n# The FDA amended its rules in 2015 concerning the Pregnancy, Labor and delivery,\n\n# and Nursing mothers subsections of the Use in Specific Populations section of\n\n# product labeling. Pregnancy categories A, B, C, D, and X have been removed.\n\n# Drugs approved after June 30 will use the new format immediately, while drugs\n\n# approved after June 30, 2001 will be phased in gradually.\n\nSee Sanford Guide for comprehensive antimicrobial pregnancy risk and lactation\n\nsafety information\n\n[Sanford Guide Pregnancy Risk & Lactation Safety Table](orz-gtx-abx-sanford-pregnancy)\n\nRisk Factors (A,B,C,D,X) were assigned to all drugs, based on the\n\nlevel of risk the drug poses to the fetus. Risk Factors were designed to\n\nhelp the clinician quickly classify a drug for use during pregnancy. They\n\ndo not refer to breastfeeding risk. The definitions of the Risk Factors\n\nare those used by the FDA.\n\n# Category Description\n\n# A Controlled studies show no risk\n\nAdequate, well-controlled studies in pregnant women\n\nhave failed to demonstrate risk to the fetus.\n\n# B No evidence of risk in humans\n\nEither animal findings show risk (but human\n\nfindings do not) or, if no adequate human studies\n\nhave been done, animal findings are negative.\n\n# C Risk cannot be ruled out\n\nHuman studies are lacking and animal studies\n\nare either positive for fetal risk or lacking\n\nas well. However, potential benefits may\n\njustify the potential risk.\n\n# D Positive evidence of risk\n\nInvestigational or postmarketing data show risk\n\nto fetus. Nevertheless, potential benefits may\n\noutweigh the risk.\n\n# X Contraindicated in pregnancy\n\nStudies in animals or humans, or investigational\n\nor postmarketing reports have shown fetal risk\n\nwhich clearly outweighs any possible benefit to\n\nthe patient.\n\nReferences\n\nUp-to-Date website\n\nSanford website",
       "LinkTargets": null,
@@ -52429,7 +52434,7 @@
     },
     {
       "Name": "warfarin-interactions-with-antimicrobials",
-      "Term1": "Warfarin interactions with antimicrobials",
+      "Term1": "11. Warfarin interactions with antimicrobials (Navigation)",
       "Term2": "Antimicrobial interactions with warfarin",
       "Text": "# DRUG-DRUG INTERACTIONS BETWEEN ANTIMICROBIALS AND WARFARIN\n\nSeveral antimicrobials will affect metabolism or the effect of\n\nwarfarin on a patient's clotting function. If possible, avoid using an\n\nantimicrobial with a significant interaction with warfarin. If you\n\ndecide that an antimicrobial that interacts with warfarin is needed or\n\nyou stop an antimicrobial that could interact with warfarin, you\n\nshould determine the INR more frequently than usual and adjust dosage\n\naccordingly. Instruct patients to inform their primary warfarin\n\nprovider whenever an antimicrobial is prescribed for them.\n\nAntimicrobials can alter warfarin's anticoagulant effect by decreasing\n\nintestinal synthesis or absorption of vitamin K or by affecting\n\ndistribution or metabolism of the vitamin. Some antimicrobials increase\n\nsynthesis of coagulation factors.\n\nAntimicrobials can decrease the rate of warfarin absorption, compete\n\nwith warfarin at sites of warfarin metabolism, induce warfarin\n\nmetabolic enzymes, or inhibit the function or synthesis warfarin\n\nmetabolic enzymes. Some antimicrobials displace warfarin from protein\n\nbinding sites.\n\nCheck for warfarin-antimicrobial interactions on Lexicomp:\n\n[Lexicomp Drug Interactions](orz-gtx-abx-lexicomp-interactions)\n\nReferences\n\nHolbrook, Anne M., et al. Archives of internal medicine 165.10 (2005): 1095-\n\n1106\n\nLexicomp website",
       "LinkTargets": null,
@@ -52517,7 +52522,7 @@
     },
     {
       "Name": "genrl-alternative-drug",
-      "Term1": "genrl-alternative-drug",
+      "Term1": "9. genrl-alternative-drug (Navigation)",
       "Term2": "",
       "Text": "# NEED AN ALERNATIVE ANTIMICROBIAL?\n\nIf you cannot use the recommended antimicrobials or you believe another one\n\nwould be better for your patient, you can order another drug. Please indicate\n\nthe reason you need an alternative drug below.\n\n[Allergic to recommended drug\\(s\\)](orz-set-abx-allergic-to-recommended-drugs)\n\n[Decreased renal clearance](orz-set-abx-decreased-renal-clr)\n\n[Liver secretory or metabolic impairment](orz-set-abx-liver-secretory)\n\n[Drug interaction](orz-set-abx-drug-interaction)\n\n[Patient has multiple infections requiring antimicrobials](orz-set-abx-multiple-infections)\n\n[Adjust therapy based on antimicrobial susceptibility](orz-set-abx-isolate-not-susc-to-recomd-drug)\n\n[Other adverse drug effect](orz-set-abx-other-adverse-drug-affect)\n\n[Other reason](orz-set-abx-alternative-other-reason)\n\nNote: Alternative antimicrobial selections will be reviewed and we may contact\n\nprescribers to learn more about situations that need alternatives, improve the\n\nCDSS, and in some cases offer suggestions.\n\n# Clarification/Comments:\n\n[Please Click Here to contact the CDSS team](additional-assistance)\n\n[Information about drug allergies](drug-allergies)",
       "LinkTargets": null,
