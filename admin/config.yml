@@ -73,6 +73,15 @@ collections:
       default:
         field: "SortKey"
         direction: "Ascending"
+    # EXPERIMENTAL: adds "Group by Clinical Group" section headers in the Sveltia
+    # entry list, active by default. To revert to the status quo (flat list, no
+    # headers), simply delete this whole view_groups block.
+    view_groups:
+      groups:
+        - name: clinical_group
+          label: "Clinical Group"
+          field: Group
+      default: clinical_group
     fields:
       - label: "Page ID"
         name: PageID
