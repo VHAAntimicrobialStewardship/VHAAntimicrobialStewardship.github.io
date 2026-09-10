@@ -116,16 +116,20 @@ collections:
           - { label: "Help & Resources", value: "help-page" }
           - { label: "Important Antimicrobial Information", value: "important-antimicrobial" }
           - { label: "General / Miscellaneous", value: "general" }
+      # Auto-generated human-readable Group label used for section headers in
+      # the Sveltia entry list. Managed by scripts/set-group-labels.py — do not
+      # edit by hand. (The `hidden` field type only supports name/widget/default/
+      # i18n, so this note lives in a comment instead of a `hint` option.)
       - label: "Clinical Group (display label)"
         name: GroupLabel
         widget: hidden
         default: ""
-        hint: "Auto-generated human-readable Group label used for section headers in the Sveltia entry list. Managed by scripts/set-group-labels.py — do not edit by hand."
+      # Auto-generated so the group's nav page sorts first in this list.
+      # Managed by scripts/set-nav-sort-keys.py — do not edit by hand.
       - label: "Sort Order (internal — do not edit)"
         name: SortKey
         widget: hidden
         default: "zzz"
-        hint: "Auto-generated so the group's nav page sorts first in this list. Managed by scripts/set-nav-sort-keys.py — do not edit by hand."
       - label: "Display Title (search label)"
         name: Term1
         widget: string
