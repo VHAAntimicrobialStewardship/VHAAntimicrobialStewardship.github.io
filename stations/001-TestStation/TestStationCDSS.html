@@ -588,9 +588,12 @@ function populateDropdown(omData) {
   const dropdown = document.getElementById('filterDropdown');
   dropdown.innerHTML = '';
 
+  // In combined mode, hide legacy Inpt/Outpt/ERUC source records that have been superseded by a Combined page
+  const sourceData = currentVersion === 'combined' ? omData.filter(item => !item.Combined) : omData;
+
   const itemsWithoutTerms = [];
 
-  omData.forEach(item => {
+  sourceData.forEach(item => {
     const terms = [];
     // Check for "Term1" through "Term99" in the item
     for (let i = 1; i <= 99; i++) {
@@ -622,6 +625,7 @@ function populateDropdown(omData) {
     option.textContent = item.DisplayText || item.Name;
 	  
     option.style.display = 'none'; // Make the option invisible
+
     dropdown.appendChild(option);
     //console.log(`Added invisible option: ${option.textContent}`);
   });
@@ -642,7 +646,10 @@ function searchData() {
   } else {
     const searchTerms = searchText.split(' ');
 
-    let filteredData = omData.map(item => {
+    // In combined mode, hide legacy Inpt/Outpt/ERUC source records that have been superseded by a Combined page
+    const searchableOmData = currentVersion === 'combined' ? omData.filter(item => !item.Combined) : omData;
+
+    let filteredData = searchableOmData.map(item => {
       let relevanceScore = 0;
       let matchingTerm = ''
       let closestMatchingTerm = '';
@@ -788,7 +795,6 @@ function handleOutsideClick(event) {
     dropdown.style.display = 'none';
     isDropdownOpen = false;
     //console.log('searchselect')
-    currentVersion = 'inpt'	
     checkMatchesAndSetButtonAppearance(); 	  
   });
 }
@@ -2371,7 +2377,8 @@ async function createODTable(selectedItem) {
 // Function to filter data based on the selected option
 function filterData(event, sortByTerm = false) {
   const selectedOption = event.target.value;
-  const matchingData = omData.find(item => item.Name === selectedOption);
+  const resolvedOption = resolveTargetForCurrentVersion(selectedOption);
+  const matchingData = omData.find(item => item.Name === resolvedOption) || omData.find(item => item.Name === selectedOption);
   if (matchingData) {
     selectedData = matchingData;
     createOMTable(matchingData);
