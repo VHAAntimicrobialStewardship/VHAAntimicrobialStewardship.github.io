@@ -1308,7 +1308,7 @@ function parseRichTextLineSyntax(lineText) {
   const bannerMatch = rawLine.match(BANNER_LINE_REGEX);
   if (bannerMatch) {
     parsed.text = bannerMatch[1].trim();
-    parsed.classes.push('bold', 'markdown-banner');
+    parsed.classes.push('bold', 'markdown-heading-2', 'markdown-banner');
     return parsed;
   }
 
@@ -1375,9 +1375,17 @@ function appendBannerRow(tbody, bannerText, colSpan) {
   const bannerRow = document.createElement('tr');
   const bannerCell = document.createElement('td');
   bannerCell.colSpan = colSpan;
-  bannerCell.classList.add('bold');
   bannerCell.style.backgroundColor = 'lightblue';
-  bannerCell.textContent = bannerText;
+  // Classes go on an inner div (not the <td> itself) so it matches the same
+  // markup shape as a regular "##" heading line (appendRichTextLineContent
+  // puts classes on the line's div, never the td). Otherwise ".table td"'s
+  // font-family rule (specificity 0,1,1) beats ".bold"/".markdown-heading-2"
+  // (specificity 0,1,0) when applied straight to the td, and the banner text
+  // silently renders in the regular (non-bold) font.
+  const bannerTextElement = document.createElement('div');
+  bannerTextElement.classList.add('bold', 'markdown-heading-2');
+  bannerTextElement.textContent = bannerText;
+  bannerCell.appendChild(bannerTextElement);
   bannerRow.appendChild(bannerCell);
   tbody.appendChild(bannerRow);
 }
