@@ -1,0 +1,969 @@
+[
+  {
+    "path": "cms-data/001-TestStation/pages\\gi-intraabdominal\\hepb-vaccine-information-page.json",
+    "bad_count": 60,
+    "suspicious": true,
+    "reasons": [
+      "9 consecutive heading lines with no body content between them (looks like a flattened table header row)",
+      "8 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\prevention-of-infection\\influenza-chemoprophylaxis.json",
+    "bad_count": 40,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\help-page\\how-to-use-the-cdss.json",
+    "bad_count": 26,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\important-antimicrobial\\esbl-kpc-etc.json",
+    "bad_count": 24,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cardiovascular\\appro-intravas-cath-assoc-infect.json",
+    "bad_count": 23,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\general\\idp-ciprofloxacin-po.json",
+    "bad_count": 22,
+    "suspicious": true,
+    "reasons": [
+      "4 consecutive heading lines with no body content between them (looks like a flattened table header row)",
+      "5 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\help-page\\about-the-cdss.json",
+    "bad_count": 21,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\lung-and-mediastinum\\bronchitis-not-benefit.json",
+    "bad_count": 21,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cns\\approach-to-brain-abscess.json",
+    "bad_count": 20,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\important-antimicrobial\\beta-lactam-allergy-assessment.json",
+    "bad_count": 20,
+    "suspicious": true,
+    "reasons": [
+      "5 consecutive heading lines with no body content between them (looks like a flattened table header row)",
+      "20 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\lung-and-mediastinum\\orzid3-gmenu-influenza-chemoprophylaxis.json",
+    "bad_count": 20,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cardiovascular\\endocarditis-approach-to.json",
+    "bad_count": 19,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\general\\non-streptococcal-pharyngitis.json",
+    "bad_count": 17,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\head-and-neck\\mastoiditis.json",
+    "bad_count": 17,
+    "suspicious": true,
+    "reasons": [
+      "4 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\organisms\\rabies-pre-exposure-prophylaxis.json",
+    "bad_count": 17,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\genitourinary\\syphilis.json",
+    "bad_count": 16,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\head-and-neck\\more-about-parotitis.json",
+    "bad_count": 16,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\important-antimicrobial\\how-to-find-alt.json",
+    "bad_count": 16,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\important-antimicrobial\\pregnancy-risk-factors-for-antimicrobials.json",
+    "bad_count": 16,
+    "suspicious": true,
+    "reasons": [
+      "6 consecutive heading lines with no body content between them (looks like a flattened table header row)",
+      "6 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\head-and-neck\\chronic-sinusitis.json",
+    "bad_count": 15,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\surgical-antimicrobial-prophylaxis\\surgical-wound-classification.json",
+    "bad_count": 15,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\general\\not-benefitted-bacteriuria.json",
+    "bad_count": 14,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\general\\sa-decolonization.json",
+    "bad_count": 14,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\important-antimicrobial\\warfarin-interactions-with-antimicrobials.json",
+    "bad_count": 14,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\ssti-main-menu\\decolonization-of-staphylococcus-aureus.json",
+    "bad_count": 14,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cns\\neurosurgery-prophylaxis.json",
+    "bad_count": 13,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\genitourinary\\surg-48hrs-after-proc.json",
+    "bad_count": 13,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\surgical-antimicrobial-prophylaxis\\biliary-surgery-prophylaxis.json",
+    "bad_count": 13,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\surgical-antimicrobial-prophylaxis\\orthopedic-surgery-prophylaxis.json",
+    "bad_count": 13,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\system-infectious-diseases\\coagulase-negative-staphylococci-bacteremia.json",
+    "bad_count": 13,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\lung-and-mediastinum\\copd-exacerbation.json",
+    "bad_count": 12,
+    "suspicious": true,
+    "reasons": [
+      "3 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cns\\brain-abscess-from-contiguous-or-hematogenous-spread.json",
+    "bad_count": 11,
+    "suspicious": true,
+    "reasons": [
+      "3 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\genitourinary\\complicated-uti-no-catheter.json",
+    "bad_count": 11,
+    "suspicious": true,
+    "reasons": [
+      "4 consecutive heading lines with no body content between them (looks like a flattened table header row)",
+      "7 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\genitourinary\\post-operative-wound-infection.json",
+    "bad_count": 11,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\immunocompromised-patient\\immunocompromise-basic-concepts.json",
+    "bad_count": 11,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\immunocompromised-patient\\transplantation.json",
+    "bad_count": 11,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\important-antimicrobial\\beta-lactam-allergy-facts.json",
+    "bad_count": 11,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\system-infectious-diseases\\fever-of-unk-origin.json",
+    "bad_count": 11,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\system-infectious-diseases\\staphylococcus-aureus-bacteremia.json",
+    "bad_count": 11,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cns\\brain-abscess-with-nocardia.json",
+    "bad_count": 10,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cns\\meningitis-associated-with-trauma-or-nosocomial-infection.json",
+    "bad_count": 10,
+    "suspicious": true,
+    "reasons": [
+      "4 consecutive heading lines with no body content between them (looks like a flattened table header row)",
+      "3 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cns\\meningitis-without-gram-stain-results.json",
+    "bad_count": 10,
+    "suspicious": true,
+    "reasons": [
+      "4 consecutive heading lines with no body content between them (looks like a flattened table header row)",
+      "5 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\gi-intraabdominal\\fever-in-asplenic-patient.json",
+    "bad_count": 10,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\gi-intraabdominal\\h-pylori-infect.json",
+    "bad_count": 10,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\lung-and-mediastinum\\exacerbation-of-copd.json",
+    "bad_count": 10,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\prevention-of-infection\\antiviral-prophylaxis-malignancy.json",
+    "bad_count": 10,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\ssti-main-menu\\rosacea.json",
+    "bad_count": 10,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cns\\gram-negative-diplococci-meningitis.json",
+    "bad_count": 9,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cns\\listeria-monocytogenes-meningitis.json",
+    "bad_count": 9,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cns\\meningitis-with-streptococcus-pneumoniae.json",
+    "bad_count": 9,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\genitourinary\\post-exposure-prophylaxis.json",
+    "bad_count": 9,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\immunocompromised-patient\\cell-mediated-immunity-defects.json",
+    "bad_count": 9,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\recommended-immunizations\\splenectomy-vaccines-prophy-2.json",
+    "bad_count": 9,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\surgical-antimicrobial-prophylaxis\\surg-timing-dosing-prophyl-abx.json",
+    "bad_count": 9,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\system-infectious-diseases\\leukocytosis.json",
+    "bad_count": 9,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cardiovascular\\cardiovascular-device-infections-excluding-valves.json",
+    "bad_count": 8,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cardiovascular\\suppurative-thrombophlebitis.json",
+    "bad_count": 8,
+    "suspicious": true,
+    "reasons": [
+      "3 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cns\\gram-positive-diplococci-meningitis.json",
+    "bad_count": 8,
+    "suspicious": true,
+    "reasons": [
+      "4 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\general\\colonized-wounds.json",
+    "bad_count": 8,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\gi-intraabdominal\\hepatitis-b-evaluation-anti-cd20-antibody.json",
+    "bad_count": 8,
+    "suspicious": true,
+    "reasons": [
+      "4 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\surgical-antimicrobial-prophylaxis\\surg-vascular-surg-postop.json",
+    "bad_count": 8,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\system-infectious-diseases\\candidemia.json",
+    "bad_count": 8,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\system-infectious-diseases\\enterococcal-intravascular-catheter-associa-7d0538.json",
+    "bad_count": 8,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cns\\brain-abscess-post-surgical-or-post-traumatic.json",
+    "bad_count": 7,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cns\\gram-negative-bacilli-meningitis.json",
+    "bad_count": 7,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cns\\meningitis-with-gram-positive-bacilli-coccobacilli.json",
+    "bad_count": 7,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cns\\meningitis-with-neisseria-meningitidis.json",
+    "bad_count": 7,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\general\\upper-respiratory-infections-uri.json",
+    "bad_count": 7,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\genitourinary\\complicated-uti-catheter-associated.json",
+    "bad_count": 7,
+    "suspicious": true,
+    "reasons": [
+      "5 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\genitourinary\\surg-w-i-48hrs-procedure.json",
+    "bad_count": 7,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\important-antimicrobial\\duration-of-antimicrobial-therapy.json",
+    "bad_count": 7,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\organisms\\toxoplasma-infections-general.json",
+    "bad_count": 7,
+    "suspicious": true,
+    "reasons": [
+      "4 consecutive heading lines with no body content between them (looks like a flattened table header row)",
+      "8 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\surgical-antimicrobial-prophylaxis\\cardiac-surgery-prophylaxis.json",
+    "bad_count": 7,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\surgical-antimicrobial-prophylaxis\\surgical-prophylaxis-general-information.json",
+    "bad_count": 7,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\surgical-antimicrobial-prophylaxis\\vascular-surgery-prophylaxis.json",
+    "bad_count": 7,
+    "suspicious": true,
+    "reasons": [
+      "5 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\system-infectious-diseases\\pseudomonas-bacteremia.json",
+    "bad_count": 7,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\system-infectious-diseases\\staphylococcus-lugdunensis-bacteremia.json",
+    "bad_count": 7,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\system-infectious-diseases\\streptococci.json",
+    "bad_count": 7,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\tpoxx-monkeypox-treatment\\tpoxx-monkeypox-treatment.json",
+    "bad_count": 7,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cardiovascular\\myocarditis.json",
+    "bad_count": 6,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cardiovascular\\penicillin-desensitization-protocol.json",
+    "bad_count": 6,
+    "suspicious": true,
+    "reasons": [
+      "4 consecutive heading lines with no body content between them (looks like a flattened table header row)",
+      "5 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cardiovascular\\pericarditis.json",
+    "bad_count": 6,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\general\\cap-treated-in-outpt-setting.json",
+    "bad_count": 6,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\general\\dermatologic-surgical-site-infection.json",
+    "bad_count": 6,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\general\\not-required.json",
+    "bad_count": 6,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\genitourinary\\approach-to-uti.json",
+    "bad_count": 6,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\genitourinary\\bacterial-vaginosis-male-sexual-partner.json",
+    "bad_count": 6,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\genitourinary\\post-exposure-prophylaxis-non-occupational.json",
+    "bad_count": 6,
+    "suspicious": true,
+    "reasons": [
+      "3 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\gi-intraabdominal\\splenectomy-daily-antibiotic.json",
+    "bad_count": 6,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\organisms\\cmv-main-page.json",
+    "bad_count": 6,
+    "suspicious": true,
+    "reasons": [
+      "3 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\prevention-of-infection\\antiviral-stem-cell-malignancy.json",
+    "bad_count": 6,
+    "suspicious": true,
+    "reasons": [
+      "4 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\recommended-immunizations\\immunizations-in-chronic-liver-disease.json",
+    "bad_count": 6,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\recommended-immunizations\\immunizations-in-kidney-failure-hd.json",
+    "bad_count": 6,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\recommended-immunizations\\vaccines-for-health-care-professionals.json",
+    "bad_count": 6,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\recommended-immunizations\\vaccines-in-immunocompromised-patients.json",
+    "bad_count": 6,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\recommended-immunizations\\vaccines-in-men-who-have-sex-with-men.json",
+    "bad_count": 6,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\surgical-antimicrobial-prophylaxis\\other-procedures-prophylaxis.json",
+    "bad_count": 6,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\system-infectious-diseases\\neut-fever-pt-fever-persists.json",
+    "bad_count": 6,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\system-infectious-diseases\\sepsis-protocol-antimicrobials.json",
+    "bad_count": 6,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\system-infectious-diseases\\strep-toxic-shock-syndrome.json",
+    "bad_count": 6,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\bispecific-antibody\\bispecific-lodging-admit-information.json",
+    "bad_count": 5,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cardiovascular\\catheter-associated-infection-intravascular.json",
+    "bad_count": 5,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cardiovascular\\staphylococcal-native-valve-endocarditis.json",
+    "bad_count": 5,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cns\\abscess-spinal-epidural.json",
+    "bad_count": 5,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cns\\cranial-epidural-abscess.json",
+    "bad_count": 5,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\general\\high-risk-surgical-site-prophylaxis.json",
+    "bad_count": 5,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\gi-intraabdominal\\clostridiodes-difficile-infection.json",
+    "bad_count": 5,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\gi-intraabdominal\\infect-diarrhea-gastro.json",
+    "bad_count": 5,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\immunocompromised-patient\\malnutrition.json",
+    "bad_count": 5,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\lung-and-mediastinum\\flu-seasonal-influenza.json",
+    "bad_count": 5,
+    "suspicious": true,
+    "reasons": [
+      "5 consecutive heading lines with no body content between them (looks like a flattened table header row)",
+      "5 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\lung-and-mediastinum\\more-about-nosocomial-pneumonia.json",
+    "bad_count": 5,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\lung-and-mediastinum\\nosocomial-pneumonia-re-evaluation-at-72-hours.json",
+    "bad_count": 5,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\lung-and-mediastinum\\staphylococcus-aureus-nosocomial-pneumonia.json",
+    "bad_count": 5,
+    "suspicious": true,
+    "reasons": [
+      "5 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\organisms\\infect-diarrhea-gastroent.json",
+    "bad_count": 5,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\organisms\\orzid3-gmenu-cdifficile-colitis.json",
+    "bad_count": 5,
+    "suspicious": true,
+    "reasons": [
+      "3 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\prevention-of-infection\\prevention-of-prosthetic-joint-infection-in-6e069b.json",
+    "bad_count": 5,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\recommended-immunizations\\vaccines-in-heart-lung-disease-or-alcoholism.json",
+    "bad_count": 5,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\ssti-main-menu\\osteomyelitis-evaluation.json",
+    "bad_count": 5,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\surgical-antimicrobial-prophylaxis\\urological-post-operative-prophylaxis.json",
+    "bad_count": 5,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\system-infectious-diseases\\citrobacter-freundii-bacteremia.json",
+    "bad_count": 5,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\system-infectious-diseases\\enterococci.json",
+    "bad_count": 5,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\system-infectious-diseases\\other-gram-negative-rods-bacteremia.json",
+    "bad_count": 5,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\system-infectious-diseases\\staph-toxic-shock-syndrome.json",
+    "bad_count": 5,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\bispecific-antibody\\bispecific-disease-specific-management.json",
+    "bad_count": 4,
+    "suspicious": true,
+    "reasons": [
+      "3 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cardiovascular\\empirical-therapy.json",
+    "bad_count": 4,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\cns\\suppurative-intracranial-thrombophlebitis.json",
+    "bad_count": 4,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\general\\pros-b-j-enterococci.json",
+    "bad_count": 4,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\genitourinary\\uncomp-uti.json",
+    "bad_count": 4,
+    "suspicious": true,
+    "reasons": [
+      "4 consecutive heading lines with no body content between them (looks like a flattened table header row)",
+      "4 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\head-and-neck\\periocular-infections.json",
+    "bad_count": 4,
+    "suspicious": true,
+    "reasons": [
+      "4 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\head-and-neck\\uveitis.json",
+    "bad_count": 4,
+    "suspicious": true,
+    "reasons": [
+      "4 consecutive heading lines with no body content between them (looks like a flattened table header row)",
+      "5 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\help-page\\diseases-and-syndromes-not-covered.json",
+    "bad_count": 4,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\help-page\\home-iv-therapy.json",
+    "bad_count": 4,
+    "suspicious": true,
+    "reasons": [
+      "4 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\immunocompromised-patient\\hypochlorhydria.json",
+    "bad_count": 4,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\immunocompromised-patient\\neutropenia.json",
+    "bad_count": 4,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\immunocompromised-patient\\stress.json",
+    "bad_count": 4,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\immunocompromised-patient\\tobacco-smoke.json",
+    "bad_count": 4,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\important-antimicrobial\\important-drug-properties.json",
+    "bad_count": 4,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\important-antimicrobial\\infection-control.json",
+    "bad_count": 4,
+    "suspicious": true,
+    "reasons": [
+      "4 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\important-antimicrobial\\restriction-policy.json",
+    "bad_count": 4,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\important-antimicrobial\\susceptibilities-antibiogram.json",
+    "bad_count": 4,
+    "suspicious": true,
+    "reasons": [
+      "4 consecutive heading lines with no body content between them (looks like a flattened table header row)",
+      "4 heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)"
+    ]
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\organisms\\m.-avium-intracellulare.json",
+    "bad_count": 4,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\surgical-antimicrobial-prophylaxis\\bowel-surgery-prophylaxis.json",
+    "bad_count": 4,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\surgical-antimicrobial-prophylaxis\\cardiac-surgery-post-op-prophylaxis.json",
+    "bad_count": 4,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\surgical-antimicrobial-prophylaxis\\gastroduodenal-surgery-prophylaxis.json",
+    "bad_count": 4,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\surgical-antimicrobial-prophylaxis\\head-and-neck-surgery-prophylaxis.json",
+    "bad_count": 4,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\surgical-antimicrobial-prophylaxis\\thoracic-surgery-post-op-prophylaxis.json",
+    "bad_count": 4,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\system-infectious-diseases\\aspergillus-infections-general.json",
+    "bad_count": 4,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\system-infectious-diseases\\febrile-neutropenia-scoring-tool.json",
+    "bad_count": 4,
+    "suspicious": false,
+    "reasons": []
+  },
+  {
+    "path": "cms-data/001-TestStation/pages\\system-infectious-diseases\\modification-of-neutropenic-fever-therapy.json",
+    "bad_count": 4,
+    "suspicious": false,
+    "reasons": []
+  }
+]

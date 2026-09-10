@@ -99,7 +99,7 @@ def reflow(text):
     return '\n'.join(result)
 
 
-def scan():
+def find_affected(threshold=3):
     pages = glob.glob('cms-data/001-TestStation/pages/**/*.json', recursive=True)
     affected = []
     for p in pages:
@@ -118,18 +118,84 @@ def scan():
                 prev = lines[i]
                 if nxt.strip() and nxt.strip()[0].islower() and not prev.rstrip().endswith((':', ')', ']')):
                     bad += 1
-        if bad > 3:
+        if bad > threshold:
             affected.append((p, bad))
     affected.sort(key=lambda x: -x[1])
+    return affected
+
+
+def scan():
+    affected = find_affected()
     print(len(affected), "affected pages")
     for p, bad in affected:
         print(bad, p)
+
+
+def is_suspicious(text):
+    """Heuristic detector for hepb-vaccine-style column-table flattening,
+    where the Text is NOT hard-wrapped prose but interleaved fragments from
+    a multi-column table. The reliable signal is a run of headings that
+    immediately follow one another (ignoring blank lines) with NO body
+    content in between -- normal documents almost never do this (each
+    section heading is followed by prose/list content), but a flattened
+    table's column-header row produces several such transitions in a row.
+    A single such transition is common (e.g. one heading legitimately split
+    across two physical lines) so require several to flag."""
+    reasons = []
+    non_blank = [l.strip() for l in text.split('\n') if l.strip() != '']
+    if not non_blank:
+        return False, reasons
+
+    types = [classify(l) for l in non_blank]
+    max_run = 0
+    run = 0
+    for t in types:
+        if t == 'heading':
+            run += 1
+            max_run = max(max_run, run)
+        else:
+            run = 0
+    # max_run counts consecutive heading lines; a run of N headings means
+    # (N-1) heading-to-heading transitions with zero body content between.
+    if max_run >= 4:
+        reasons.append(f'{max_run} consecutive heading lines with no body content between them (looks like a flattened table header row)')
+
+    transitions = sum(1 for a, b in zip(types, types[1:]) if a == 'heading' and b == 'heading')
+    if transitions >= 3:
+        reasons.append(f'{transitions} heading-immediately-followed-by-heading transitions scattered through the page (looks like flattened table columns)')
+
+    return (len(reasons) > 0), reasons
+
+
+def audit():
+    affected = find_affected()
+    report = []
+    for p, bad in affected:
+        with open(p, encoding='utf-8') as f:
+            data = json.load(f)
+        text = data.get('Text', '')
+        suspicious, reasons = is_suspicious(text)
+        report.append({
+            'path': p,
+            'bad_count': bad,
+            'suspicious': suspicious,
+            'reasons': reasons,
+        })
+    out_path = 'cms-data/001-TestStation/documents/hardwrap-fix-audit-report.json'
+    with open(out_path, 'w', encoding='utf-8', newline='\n') as f:
+        json.dump(report, f, indent=2, ensure_ascii=False)
+        f.write('\n')
+    n_suspicious = sum(1 for r in report if r['suspicious'])
+    print(f'{len(report)} affected pages, {n_suspicious} flagged suspicious. Report: {out_path}')
 
 
 if __name__ == '__main__':
     mode = sys.argv[1] if len(sys.argv) > 1 else 'preview'
     if mode == 'scan':
         scan()
+        sys.exit(0)
+    if mode == 'audit':
+        audit()
         sys.exit(0)
 
     paths = sys.argv[2:]
