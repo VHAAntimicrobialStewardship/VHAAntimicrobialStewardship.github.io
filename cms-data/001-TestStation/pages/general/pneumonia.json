@@ -5,7 +5,7 @@
   "SortKey": "general~1~pneumonia",
   "Term1": "PNEUMONIA",
   "Term2": "",
-  "Text": "## ++ PNEUMONIA - INPATIENT ++\n[Aspiration Pneumonia](aspiration-pneumonia)\nCommunity-acquired pneumonia (CAP)\nNote: Healthcare-associated pneumonia (HCAP) is no longer used. See CAP above.\n[Nosocomial pneumonia (including HAP AND VAP)](noso-pneumonia-new)",
+  "Text": "++ ## PNEUMONIA - INPATIENT ++\n[Aspiration Pneumonia](aspiration-pneumonia)\nCommunity-acquired pneumonia (CAP)\nNote: Healthcare-associated pneumonia (HCAP) is no longer used. See CAP above.\n[Nosocomial pneumonia (including HAP AND VAP)](noso-pneumonia-new)",
   "Inpt": "ORZID2 GMENU ABX PNEUMONIA",
   "Outpt": "ORZID3 GMENU COMM INFECT PNEUMO"
 }

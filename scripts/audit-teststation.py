@@ -60,7 +60,53 @@ for m in combined_menus:
     if not m.get("Inpt"):
         warns.append(f"{n} missing Inpt pointer")
 
-link_re = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
+# VistA order-dialog / action-menu / text-object prefixes. These represent
+# orderable items (labs, meds, consults, radiology, scheduling), order-set
+# groupings, or generic-text (GTX) documents -- none of these are navigable
+# CDSS content pages and will never have their own menu record, so unresolved
+# links to them are expected/non-actionable noise, not broken navigation.
+NON_MENU_LINK_PREFIXES = (
+    "lrtz",       # LR package: lab test orders
+    "lr-",
+    "lr_",
+    "gmrctz",     # GMRC package: consult orders
+    "psjz",       # PSJ package: inpatient pharmacy orders
+    "psoz",       # PSO package: outpatient pharmacy orders
+    "pscz",       # PSC package: pharmacy clinic orders (e.g. vaccines)
+    "pshizid",    # PSH package: pharmacy IV orders
+    "psjizid",
+    "psozid",
+    "zzpsjizid",  # ZZ = locally created/temporary VistA order mnemonics
+    "zzpsozid",
+    "zzorzid",
+    "raz-",       # RA package: radiology orders
+    "sdz-",       # SD package: scheduling actions
+    "sd-rtc",
+    "orz-set-",   # explicit VistA "order set"
+    "orz-nurs-",  # nursing text orders
+    "orz-ap-",    # anatomic pathology orders
+    "orz-min-",   # informational text reference never given its own menu (e.g. on-call schedule)
+    "orz-gtx-",   # OR GTX: generic-text/document objects, not menus
+    "or-gtx-",
+    "test-",      # explicit dev/test artifacts
+    "testing-",
+)
+# "GMENU" without "-abx-" is a generic VistA order/consult-grouping menu from
+# another package (Consults, ED, Sepsis order sets, etc.), not CDSS clinical
+# content -- CDSS's own migrated clinical-topic menus are always namespaced
+# with "-abx-" (e.g. orzid2-gmenu-abx-cardiovascular).
+NON_MENU_GMENU_RE = re.compile(r"^orz(id\d*)?-gmenu-(?!abx-)")
+
+
+def is_non_menu_link(target_lower: str) -> bool:
+    if target_lower.startswith(NON_MENU_LINK_PREFIXES):
+        return True
+    return bool(NON_MENU_GMENU_RE.match(target_lower))
+
+
+# Negative lookbehind for "!" so markdown images (![alt](src)) aren't matched
+# as broken internal links -- images point to uploaded assets, not menus.
+link_re = re.compile(r"(?<!!)\[([^\]]+)\]\(([^)]+)\)")
 for m in data:
     txt = m.get("Text", "")
     if not txt:
@@ -78,9 +124,13 @@ for m in data:
             continue
         if tl.startswith("cdss:"):
             continue
+        if tl.startswith("/"):
+            continue
         if normalized_t in normalized_om_names:
             continue
         if normalized_t in normalized_od_names:
+            continue
+        if is_non_menu_link(tl):
             continue
         warns.append(f"{m['Name']} unresolved link target ({t}) label={label}")
 

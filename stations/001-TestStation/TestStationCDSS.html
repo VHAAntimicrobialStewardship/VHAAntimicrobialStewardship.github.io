@@ -1305,6 +1305,13 @@ function parseRichTextLineSyntax(lineText) {
     return parsed;
   }
 
+  const bannerMatch = rawLine.match(BANNER_LINE_REGEX);
+  if (bannerMatch) {
+    parsed.text = bannerMatch[1].trim();
+    parsed.classes.push('bold', 'markdown-banner');
+    return parsed;
+  }
+
   const headingMatch = rawLine.match(/^\s{0,3}(#{1,6})\s+(.*)$/);
   if (headingMatch) {
     const level = headingMatch[1].length;
@@ -1336,6 +1343,43 @@ function parseRichTextLineSyntax(lineText) {
   }
 
   return parsed;
+}
+
+// Banner heading convention: ++ ## Title ++
+// The outer ++ mark the WHOLE LINE as a banner (bold, highlighted, full-width
+// treatment); the inner ## marks the title text itself as a heading. Authors
+// type this directly into the plain-text Text field in the Sveltia editor.
+const BANNER_LINE_REGEX = /^\s{0,3}\+\+\s*#{1,6}\s*(.*?)\s*\+\+\s*$/;
+
+// Pulls the FIRST banner line (if any) out of an array of source lines so it
+// can be rendered as a standalone full-width row above any column layout.
+// Any later banner-marked lines are left in place and are instead styled
+// inline by parseRichTextLineSyntax/appendRichTextLineContent.
+function extractTopBanner(lines) {
+  let bannerText = null;
+  const remainingLines = [];
+  for (const line of lines) {
+    if (bannerText === null) {
+      const bannerMatch = line.match(BANNER_LINE_REGEX);
+      if (bannerMatch) {
+        bannerText = bannerMatch[1].trim();
+        continue;
+      }
+    }
+    remainingLines.push(line);
+  }
+  return { bannerText, remainingLines };
+}
+
+function appendBannerRow(tbody, bannerText, colSpan) {
+  const bannerRow = document.createElement('tr');
+  const bannerCell = document.createElement('td');
+  bannerCell.colSpan = colSpan;
+  bannerCell.classList.add('bold');
+  bannerCell.style.backgroundColor = 'lightblue';
+  bannerCell.textContent = bannerText;
+  bannerRow.appendChild(bannerCell);
+  tbody.appendChild(bannerRow);
 }
 
 function appendCodeBlockElement(container, codeLines) {
@@ -1399,6 +1443,10 @@ function appendRichTextLineContent(container, lineText, selectedData) {
     hr.classList.add('markdown-rule');
     container.appendChild(hr);
     return;
+  }
+
+  if (parsedLine.classes.includes('markdown-banner')) {
+    container.style.backgroundColor = 'lightblue';
   }
 
   if (parsedLine.prefix) {
@@ -1500,17 +1548,9 @@ function createStructuredRichTextNavigationTable(selectedData) {
   const tbody = document.createElement('tbody');
   const lines = (selectedData.Text || '').split(/\r?\n/);
 
-  // Extract top banner (first ## ++ ... ++ heading)
-  let topBanner = '';
-  const contentLines = [];
-  for (const line of lines) {
-    const headingMatch = line.match(/^\s{0,3}##\s+(.*)$/);
-    if (!topBanner && headingMatch && headingMatch[1].trim().includes('++')) {
-      topBanner = headingMatch[1].trim();
-    } else {
-      contentLines.push(line);
-    }
-  }
+  // Extract top banner (first "++ ## Title ++" line), so it renders as a
+  // full-width row above any multi-column layout below it.
+  const { bannerText: topBanner, remainingLines: contentLines } = extractTopBanner(lines);
 
   // Split content into N sections based on delimiter markers.
   // Supported markers: <!-- RIGHT COLUMN -->, <!-- COLUMN 2 -->, <!-- COLUMN 3 -->, etc.
@@ -1535,14 +1575,7 @@ function createStructuredRichTextNavigationTable(selectedData) {
 
   // Banner row (full width)
   if (topBanner) {
-    const bannerRow = document.createElement('tr');
-    const bannerCell = document.createElement('td');
-    bannerCell.colSpan = colCount;
-    bannerCell.classList.add('bold');
-    bannerCell.style.backgroundColor = 'lightblue';
-    bannerCell.textContent = topBanner;
-    bannerRow.appendChild(bannerCell);
-    tbody.appendChild(bannerRow);
+    appendBannerRow(tbody, topBanner, colCount);
   }
 
   // Helper: render one section into a <td>
@@ -1596,7 +1629,15 @@ function createRichTextTable(selectedData) {
   table.classList.add('table');
   const tbody = document.createElement('tbody');
   const content = typeof selectedData.Text === 'string' ? selectedData.Text : '';
-  const lines = content.split(/\r?\n/);
+  const allLines = content.split(/\r?\n/);
+
+  // Extract top banner (first "++ ## Title ++" line) so it renders as a
+  // full-width row above the rest of the content, same as the multi-column
+  // renderer, regardless of this page being single-column.
+  const { bannerText: topBanner, remainingLines: lines } = extractTopBanner(allLines);
+  if (topBanner) {
+    appendBannerRow(tbody, topBanner, 1);
+  }
 
   let inCodeBlock = false;
   let codeLines = [];

@@ -82,9 +82,11 @@ existing_combined_ids: set[str] = {m["Name"] for m in menus if m.get("Inpt")}
 updated = 0
 for menu in menus:
     pid = menu["Name"]
-    if pid in cms_pages and menu.get("Inpt"):
+    if pid in cms_pages:
         new_rec = build_omjson_record(cms_pages[pid])
         menu.update(new_rec)
+        if not new_rec.get("Inpt"):
+            menu.pop("Inpt", None)
         menu.pop("LinkTargets", None)
         updated += 1
     elif pid == "main-menu":
