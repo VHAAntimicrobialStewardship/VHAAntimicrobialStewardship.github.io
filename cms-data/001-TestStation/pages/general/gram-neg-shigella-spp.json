@@ -1,6 +1,7 @@
 {
   "PageID": "gram-neg-shigella-spp",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~gram-neg-shigella-spp",
   "Term1": "gram-neg-shigella-spp",
   "Term2": "",

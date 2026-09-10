@@ -1,6 +1,7 @@
 {
   "PageID": "sepsis-and-shock",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~sepsis-and-shock",
   "Term1": "sepsis-and-shock",
   "Term2": "",

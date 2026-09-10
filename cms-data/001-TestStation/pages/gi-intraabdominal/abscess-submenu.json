@@ -1,6 +1,7 @@
 {
   "PageID": "abscess-submenu",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~abscess-submenu",
   "Term1": "abscess-submenu",
   "Term2": "",

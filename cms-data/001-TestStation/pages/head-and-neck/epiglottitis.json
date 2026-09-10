@@ -1,6 +1,7 @@
 {
   "PageID": "epiglottitis",
   "Group": "head-and-neck",
+  "GroupLabel": "Head and Neck",
   "SortKey": "head-and-neck~1~epiglottitis",
   "Term1": "EPIGLOTTITIS",
   "Term2": "",

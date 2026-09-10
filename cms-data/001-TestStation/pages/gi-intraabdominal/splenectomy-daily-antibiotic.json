@@ -1,6 +1,7 @@
 {
   "PageID": "splenectomy-daily-antibiotic",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~splenectomy-daily-antibiotic",
   "Term1": "splenectomy-daily-antibiotic",
   "Term2": "",

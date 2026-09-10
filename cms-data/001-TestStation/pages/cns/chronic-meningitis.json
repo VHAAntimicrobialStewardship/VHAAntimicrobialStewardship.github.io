@@ -1,6 +1,7 @@
 {
   "PageID": "chronic-meningitis",
   "Group": "cns",
+  "GroupLabel": "Central Nervous System",
   "SortKey": "cns~1~chronic meningitis",
   "Term1": "CHRONIC MENINGITIS",
   "Term2": "",

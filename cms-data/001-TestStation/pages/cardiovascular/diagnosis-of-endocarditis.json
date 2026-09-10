@@ -1,6 +1,7 @@
 {
   "PageID": "diagnosis-of-endocarditis",
   "Group": "cardiovascular",
+  "GroupLabel": "Cardiovascular",
   "SortKey": "cardiovascular~1~diagnosis of endocarditis",
   "Term1": "DIAGNOSIS OF ENDOCARDITIS",
   "Term2": "",

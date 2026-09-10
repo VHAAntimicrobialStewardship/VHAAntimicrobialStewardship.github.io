@@ -1,6 +1,7 @@
 {
   "PageID": "int-rs-gram-neg-cocci",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~int-rs-gram-neg-cocci",
   "Term1": "int-rs-gram-neg-cocci",
   "Term2": "",

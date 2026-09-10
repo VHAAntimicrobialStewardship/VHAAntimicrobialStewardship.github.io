@@ -1,6 +1,7 @@
 {
   "PageID": "pericarditis",
   "Group": "cardiovascular",
+  "GroupLabel": "Cardiovascular",
   "SortKey": "cardiovascular~1~pericarditis",
   "Term1": "Pericarditis",
   "Term2": "",

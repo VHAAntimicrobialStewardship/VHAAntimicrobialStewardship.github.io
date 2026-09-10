@@ -1,6 +1,7 @@
 {
   "PageID": "listeria-monocytogenes-bacteremia",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~listeria monocytogenes bacteremia",
   "Term1": "Listeria monocytogenes bacteremia",
   "Term2": "Bacteremia, Listeria monocytogenes",

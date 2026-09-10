@@ -1,6 +1,7 @@
 {
   "PageID": "sepsis-empiric-therapy-site-unk",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~sepsis-empiric-therapy-site-unk",
   "Term1": "sepsis-empiric-therapy-site-unk",
   "Term2": "",

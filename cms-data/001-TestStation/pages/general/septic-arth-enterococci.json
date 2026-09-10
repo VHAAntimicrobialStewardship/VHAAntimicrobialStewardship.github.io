@@ -1,6 +1,7 @@
 {
   "PageID": "septic-arth-enterococci",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~septic-arth-enterococci",
   "Term1": "septic-arth-enterococci",
   "Term2": "",

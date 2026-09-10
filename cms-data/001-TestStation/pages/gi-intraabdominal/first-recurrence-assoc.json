@@ -1,6 +1,7 @@
 {
   "PageID": "first-recurrence-assoc",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~first-recurrence-assoc",
   "Term1": "first-recurrence-assoc",
   "Term2": "",

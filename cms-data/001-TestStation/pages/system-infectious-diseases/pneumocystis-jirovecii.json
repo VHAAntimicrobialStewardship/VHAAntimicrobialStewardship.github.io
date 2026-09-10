@@ -1,6 +1,7 @@
 {
   "PageID": "pneumocystis-jirovecii",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~pneumocystis jirovecii (navigation)",
   "Term1": "PNEUMOCYSTIS JIROVECII (Navigation)",
   "Term2": "",

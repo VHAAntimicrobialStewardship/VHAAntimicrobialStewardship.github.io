@@ -1,6 +1,7 @@
 {
   "PageID": "surg-timing-dosing-prophyl-abx",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~surg-timing-dosing-prophyl-abx",
   "Term1": "surg-timing-dosing-prophyl-abx",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "coagulase-negative-staphylococci-bacteremia",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~coagulase-negative staphylococci bacteremia",
   "Term1": "Coagulase-negative staphylococci bacteremia",
   "Term2": "Bacteremia, coag-neg dtaphylococci",

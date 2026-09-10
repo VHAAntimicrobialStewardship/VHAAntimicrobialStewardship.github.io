@@ -1,6 +1,7 @@
 {
   "PageID": "laryngitis",
   "Group": "head-and-neck",
+  "GroupLabel": "Head and Neck",
   "SortKey": "head-and-neck~1~laryngitis",
   "Term1": "Laryngitis",
   "Term2": "",

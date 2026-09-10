@@ -1,6 +1,7 @@
 {
   "PageID": "surg-surgical-site-infect",
   "Group": "surgical-site-infections",
+  "GroupLabel": "Surgical Site Infections",
   "SortKey": "surgical-site-infections~1~surg-surgical-site-infect (navigation)",
   "Term1": "surg-surgical-site-infect (Navigation)",
   "Term2": "",

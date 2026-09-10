@@ -1,6 +1,7 @@
 {
   "PageID": "surg-vascular-surg-postop",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~surg-vascular-surg-postop",
   "Term1": "surg-vascular-surg-postop",
   "Term2": "",

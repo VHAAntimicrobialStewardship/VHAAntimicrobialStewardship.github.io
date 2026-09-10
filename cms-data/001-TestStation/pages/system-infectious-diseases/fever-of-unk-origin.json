@@ -1,6 +1,7 @@
 {
   "PageID": "fever-of-unk-origin",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~fever of unknown origin",
   "Term1": "Fever of unknown origin",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "intravas-cath-gnb",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~intravas cath gnb",
   "Term1": "INTRAVAS CATH GNB",
   "Term2": "",

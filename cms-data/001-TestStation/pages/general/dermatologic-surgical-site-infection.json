@@ -1,6 +1,7 @@
 {
   "PageID": "dermatologic-surgical-site-infection",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~dermatologic surgical site infection",
   "Term1": "Dermatologic surgical site infection",
   "Term2": "surgical site infection, dermatologic",

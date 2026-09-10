@@ -1,6 +1,7 @@
 {
   "PageID": "liver-pyogenic-abscess",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~liver pyogenic abscess",
   "Term1": "LIVER PYOGENIC ABSCESS",
   "Term2": "",

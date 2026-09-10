@@ -1,6 +1,7 @@
 {
   "PageID": "ice-assessment-for-icans",
   "Group": "bispecific-antibody",
+  "GroupLabel": "Bispecific Antibody",
   "SortKey": "bispecific-antibody~1~ice-assessment-for-icans",
   "Term1": "ice-assessment-for-icans",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "infection-control",
   "Group": "important-antimicrobial",
+  "GroupLabel": "Important Antimicrobial Information",
   "SortKey": "important-antimicrobial~1~infection control department information (navigation)",
   "Term1": "Infection control department information (Navigation)",
   "Term2": "Infection prevention department information",

@@ -1,6 +1,7 @@
 {
   "PageID": "main-menu",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~0",
   "Term1": "Main Menu",
   "Term2": "",

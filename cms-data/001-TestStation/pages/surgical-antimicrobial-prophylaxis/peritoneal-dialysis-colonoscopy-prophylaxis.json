@@ -1,6 +1,7 @@
 {
   "PageID": "peritoneal-dialysis-colonoscopy-prophylaxis",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~peritoneal dialysis colonoscopy prophylaxis",
   "Term1": "Peritoneal Dialysis Colonoscopy Prophylaxis",
   "Term2": "Colonoscopy Peritoneal Dialysis Prophylaxis",

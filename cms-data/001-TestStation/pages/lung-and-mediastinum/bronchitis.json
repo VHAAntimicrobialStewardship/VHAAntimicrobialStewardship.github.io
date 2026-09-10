@@ -1,6 +1,7 @@
 {
   "PageID": "bronchitis",
   "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
   "SortKey": "lung-and-mediastinum~1~bronchitis",
   "Term1": "BRONCHITIS",
   "Term2": "",

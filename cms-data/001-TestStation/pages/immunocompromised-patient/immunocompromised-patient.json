@@ -1,6 +1,7 @@
 {
   "PageID": "immunocompromised-patient",
   "Group": "immunocompromised-patient",
+  "GroupLabel": "Immunocompromised Patients",
   "SortKey": "immunocompromised-patient~0",
   "Term1": "IMMUNOCOMPROMISED PATIENT (Navigation)",
   "Term2": "",

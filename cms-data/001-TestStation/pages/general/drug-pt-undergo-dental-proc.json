@@ -1,6 +1,7 @@
 {
   "PageID": "drug-pt-undergo-dental-proc",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~drug pt undergo dental proc",
   "Term1": "DRUG PT UNDERGO DENTAL PROC",
   "Term2": "",

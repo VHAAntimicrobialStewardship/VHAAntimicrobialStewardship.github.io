@@ -1,6 +1,7 @@
 {
   "PageID": "yersinia-enterocolitica",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~yersinia enterocolitica",
   "Term1": "YERSINIA ENTEROCOLITICA",
   "Term2": "",

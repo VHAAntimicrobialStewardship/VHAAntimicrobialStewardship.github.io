@@ -1,6 +1,7 @@
 {
   "PageID": "sepsis-pneumonia",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~sepsis-pneumonia",
   "Term1": "sepsis-pneumonia",
   "Term2": "",

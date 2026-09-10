@@ -1,6 +1,7 @@
 {
   "PageID": "gram-neg-klebsiella-spp",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~gram-neg-klebsiella-spp",
   "Term1": "gram-neg-klebsiella-spp",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "uncomp-uti",
   "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
   "SortKey": "genitourinary~1~uncomp-uti",
   "Term1": "uncomp-uti",
   "Term2": "",

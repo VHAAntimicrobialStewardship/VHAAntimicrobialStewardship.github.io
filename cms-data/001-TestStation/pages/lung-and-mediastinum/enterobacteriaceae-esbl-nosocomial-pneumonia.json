@@ -1,6 +1,7 @@
 {
   "PageID": "enterobacteriaceae-esbl-nosocomial-pneumonia",
   "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
   "SortKey": "lung-and-mediastinum~1~enterobacteriaceae (esbl+) nosocomial pneumonia",
   "Term1": "Enterobacteriaceae (ESBL+) nosocomial pneumonia",
   "Term2": "Nosocomial pneumonia, enterobacteriaceae (ESBL+)",

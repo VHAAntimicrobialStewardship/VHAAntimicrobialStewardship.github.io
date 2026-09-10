@@ -1,6 +1,7 @@
 {
   "PageID": "diagnosis-pertussis",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~diagnosis pertussis",
   "Term1": "DIAGNOSIS PERTUSSIS",
   "Term2": "",

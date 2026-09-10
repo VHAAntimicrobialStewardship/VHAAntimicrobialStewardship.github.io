@@ -1,6 +1,7 @@
 {
   "PageID": "drug-allergies",
   "Group": "important-antimicrobial",
+  "GroupLabel": "Important Antimicrobial Information",
   "SortKey": "important-antimicrobial~1~drug allergies (navigation)",
   "Term1": "DRUG ALLERGIES (Navigation)",
   "Term2": "",

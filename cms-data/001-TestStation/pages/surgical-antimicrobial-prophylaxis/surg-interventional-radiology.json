@@ -1,6 +1,7 @@
 {
   "PageID": "surg-interventional-radiology",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~surg-interventional-radiology",
   "Term1": "surg-interventional-radiology",
   "Term2": "",

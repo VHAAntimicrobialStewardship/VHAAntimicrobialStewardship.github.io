@@ -1,6 +1,7 @@
 {
   "PageID": "cied-surgery-pre-op-prophylaxis",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~cied surgery pre-op prophylaxis",
   "Term1": "CIED surgery pre-op prophylaxis",
   "Term2": "Cardiac implantable electronic device surgery pre-op prophylaxis",

@@ -1,6 +1,7 @@
 {
   "PageID": "gram-neg-n-meningitidis",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~gram-neg-n-meningitidis",
   "Term1": "gram-neg-n-meningitidis",
   "Term2": "",

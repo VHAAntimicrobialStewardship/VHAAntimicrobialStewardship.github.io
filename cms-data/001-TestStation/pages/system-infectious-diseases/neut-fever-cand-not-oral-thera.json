@@ -1,6 +1,7 @@
 {
   "PageID": "neut-fever-cand-not-oral-thera",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~neut fever cand not oral thera",
   "Term1": "NEUT FEVER CAND NOT ORAL THERA",
   "Term2": "",

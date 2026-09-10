@@ -1,6 +1,7 @@
 {
   "PageID": "cied-surgery-post-op-prophylaxis",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~cied surgery post-op prophylaxis",
   "Term1": "CIED surgery post-op prophylaxis",
   "Term2": "Cardiac implantable electronic device surgery post-op prophylaxis",

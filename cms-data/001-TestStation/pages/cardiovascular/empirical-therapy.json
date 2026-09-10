@@ -1,6 +1,7 @@
 {
   "PageID": "empirical-therapy",
   "Group": "cardiovascular",
+  "GroupLabel": "Cardiovascular",
   "SortKey": "cardiovascular~1~empirical therapy",
   "Term1": "Empirical Therapy",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "enterococci",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~enterococci",
   "Term1": "Enterococci",
   "Term2": "",

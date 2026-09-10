@@ -1,6 +1,7 @@
 {
   "PageID": "ig-his-deficiency",
   "Group": "immunocompromised-patient",
+  "GroupLabel": "Immunocompromised Patients",
   "SortKey": "immunocompromised-patient~1~ig his deficiency",
   "Term1": "IG HIS DEFICIENCY",
   "Term2": "",

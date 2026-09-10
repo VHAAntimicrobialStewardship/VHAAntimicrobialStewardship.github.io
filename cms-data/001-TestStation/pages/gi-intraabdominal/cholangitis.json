@@ -1,6 +1,7 @@
 {
   "PageID": "cholangitis",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~cholangitis (navigation)",
   "Term1": "CHOLANGITIS (Navigation)",
   "Term2": "",

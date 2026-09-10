@@ -1,6 +1,7 @@
 {
   "PageID": "pancreatitis",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~pancreatitis",
   "Term1": "PANCREATITIS",
   "Term2": "",

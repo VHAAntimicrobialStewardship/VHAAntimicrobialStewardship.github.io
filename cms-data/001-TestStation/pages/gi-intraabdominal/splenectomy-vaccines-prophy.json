@@ -1,6 +1,7 @@
 {
   "PageID": "splenectomy-vaccines-prophy",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~splenectomy-vaccines-prophy",
   "Term1": "splenectomy-vaccines-prophy",
   "Term2": "",

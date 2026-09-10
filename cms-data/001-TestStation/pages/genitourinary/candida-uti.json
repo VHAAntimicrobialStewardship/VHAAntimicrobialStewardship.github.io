@@ -1,6 +1,7 @@
 {
   "PageID": "candida-uti",
   "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
   "SortKey": "genitourinary~1~candida uti",
   "Term1": "CANDIDA UTI",
   "Term2": "",

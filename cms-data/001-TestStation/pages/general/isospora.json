@@ -1,6 +1,7 @@
 {
   "PageID": "isospora",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~isospora",
   "Term1": "ISOSPORA",
   "Term2": "",

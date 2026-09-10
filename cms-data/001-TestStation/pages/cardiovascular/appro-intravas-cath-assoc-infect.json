@@ -1,6 +1,7 @@
 {
   "PageID": "appro-intravas-cath-assoc-infect",
   "Group": "cardiovascular",
+  "GroupLabel": "Cardiovascular",
   "SortKey": "cardiovascular~1~appro-intravas-cath-assoc-infect",
   "Term1": "appro-intravas-cath-assoc-infect",
   "Term2": "",

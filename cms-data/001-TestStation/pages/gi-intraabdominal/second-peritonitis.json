@@ -1,6 +1,7 @@
 {
   "PageID": "second-peritonitis",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~second peritonitis (navigation)",
   "Term1": "SECOND PERITONITIS (Navigation)",
   "Term2": "",

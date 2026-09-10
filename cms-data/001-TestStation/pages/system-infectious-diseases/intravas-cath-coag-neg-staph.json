@@ -1,6 +1,7 @@
 {
   "PageID": "intravas-cath-coag-neg-staph",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~intravas cath coag-neg staph",
   "Term1": "INTRAVAS CATH COAG-NEG STAPH",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "h-pylori-infect",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~h-pylori-infect",
   "Term1": "h-pylori-infect",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "meningococcal-conjugate-vaccine-information",
   "Group": "recommended-immunizations",
+  "GroupLabel": "Recommended Adult Immunizations",
   "SortKey": "recommended-immunizations~1~meningococcal conjugate vaccine information",
   "Term1": "Meningococcal conjugate vaccine information",
   "Term2": "MENACWY vaccine information",

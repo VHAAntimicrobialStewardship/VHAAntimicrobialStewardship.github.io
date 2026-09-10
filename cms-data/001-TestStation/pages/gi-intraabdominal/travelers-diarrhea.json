@@ -1,6 +1,7 @@
 {
   "PageID": "travelers-diarrhea",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~travelers-diarrhea",
   "Term1": "travelers-diarrhea",
   "Term2": "",

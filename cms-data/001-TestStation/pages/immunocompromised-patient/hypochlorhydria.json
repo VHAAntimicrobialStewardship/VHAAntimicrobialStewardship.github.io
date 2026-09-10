@@ -1,6 +1,7 @@
 {
   "PageID": "hypochlorhydria",
   "Group": "immunocompromised-patient",
+  "GroupLabel": "Immunocompromised Patients",
   "SortKey": "immunocompromised-patient~1~hypochlorhydria",
   "Term1": "Hypochlorhydria",
   "Term2": "",

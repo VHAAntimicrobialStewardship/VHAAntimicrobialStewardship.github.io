@@ -1,6 +1,7 @@
 {
   "PageID": "staphylococcus-aureus-nosocomial-pneumonia",
   "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
   "SortKey": "lung-and-mediastinum~1~staphylococcus aureus nosocomial pneumonia (navigation)",
   "Term1": "Staphylococcus aureus nosocomial pneumonia (Navigation)",
   "Term2": "Nosocomial pneumonia, S. aureus",

@@ -1,6 +1,7 @@
 {
   "PageID": "typhlitis",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~typhlitis",
   "Term1": "TYPHLITIS",
   "Term2": "",

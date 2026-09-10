@@ -1,6 +1,7 @@
 {
   "PageID": "rsv-vaccine-information-page",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~rsv vaccine information page",
   "Term1": "RSV VACCINE INFORMATION PAGE",
   "Term2": "",

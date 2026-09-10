@@ -1,6 +1,7 @@
 {
   "PageID": "gram-neg-enterobacter-spp",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~gram-neg-enterobacter-spp",
   "Term1": "gram-neg-enterobacter-spp",
   "Term2": "",

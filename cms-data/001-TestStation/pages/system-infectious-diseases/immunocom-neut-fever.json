@@ -1,6 +1,7 @@
 {
   "PageID": "immunocom-neut-fever",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~immunocom neut fever",
   "Term1": "IMMUNOCOM NEUT FEVER",
   "Term2": "",

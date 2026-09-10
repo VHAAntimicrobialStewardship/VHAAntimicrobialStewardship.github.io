@@ -1,6 +1,7 @@
 {
   "PageID": "staphylococcus-lugdunensis-bacteremia",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~staphylococcus lugdunensis bacteremia",
   "Term1": "Staphylococcus lugdunensis bacteremia",
   "Term2": "Bacteremia, S. lugdunensis",

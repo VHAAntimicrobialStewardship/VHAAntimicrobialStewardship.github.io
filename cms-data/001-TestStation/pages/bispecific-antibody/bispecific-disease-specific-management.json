@@ -1,6 +1,7 @@
 {
   "PageID": "bispecific-disease-specific-management",
   "Group": "bispecific-antibody",
+  "GroupLabel": "Bispecific Antibody",
   "SortKey": "bispecific-antibody~0",
   "Term1": "BISPECIFIC-DISEASE-SPECIFIC-MANAGEMENT (Navigation)",
   "Term2": "",

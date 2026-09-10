@@ -1,6 +1,7 @@
 {
   "PageID": "spon-bact-peritonitis",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~spon bact peritonitis",
   "Term1": "SPON BACT PERITONITIS",
   "Term2": "",

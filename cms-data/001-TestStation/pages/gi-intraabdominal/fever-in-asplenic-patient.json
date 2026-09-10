@@ -1,6 +1,7 @@
 {
   "PageID": "fever-in-asplenic-patient",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~fever in asplenic patient",
   "Term1": "Fever in asplenic patient",
   "Term2": "Asplenia, fever",

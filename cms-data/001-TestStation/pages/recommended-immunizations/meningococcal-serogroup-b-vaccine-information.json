@@ -1,6 +1,7 @@
 {
   "PageID": "meningococcal-serogroup-b-vaccine-information",
   "Group": "recommended-immunizations",
+  "GroupLabel": "Recommended Adult Immunizations",
   "SortKey": "recommended-immunizations~1~meningococcal serogroup b vaccine information",
   "Term1": "Meningococcal serogroup B vaccine information",
   "Term2": "MenB vaccine information",

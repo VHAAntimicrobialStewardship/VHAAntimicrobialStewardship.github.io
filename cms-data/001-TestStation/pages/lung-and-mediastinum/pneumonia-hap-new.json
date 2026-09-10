@@ -1,6 +1,7 @@
 {
   "PageID": "pneumonia-hap-new",
   "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
   "SortKey": "lung-and-mediastinum~1~hospital-acquired pneumonia",
   "Term1": "Hospital-acquired pneumonia",
   "Term2": "HAP",

@@ -1,6 +1,7 @@
 {
   "PageID": "chickenpox-vaccine-information",
   "Group": "recommended-immunizations",
+  "GroupLabel": "Recommended Adult Immunizations",
   "SortKey": "recommended-immunizations~1~chickenpox vaccine information",
   "Term1": "Chickenpox vaccine information",
   "Term2": "Varicella-Zoster vaccine information",

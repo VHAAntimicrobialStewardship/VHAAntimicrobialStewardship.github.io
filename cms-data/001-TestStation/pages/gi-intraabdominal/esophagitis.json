@@ -1,6 +1,7 @@
 {
   "PageID": "esophagitis",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~esophagitis",
   "Term1": "ESOPHAGITIS",
   "Term2": "",

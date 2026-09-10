@@ -1,6 +1,7 @@
 {
   "PageID": "sepsis-protocol-antimicrobials",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~sepsis, empirical treatment",
   "Term1": "Sepsis, empirical treatment",
   "Term2": "",

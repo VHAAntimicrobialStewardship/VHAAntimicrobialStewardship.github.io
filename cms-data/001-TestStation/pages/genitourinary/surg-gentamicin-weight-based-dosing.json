@@ -1,6 +1,7 @@
 {
   "PageID": "surg-gentamicin-weight-based-dosing",
   "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
   "SortKey": "genitourinary~1~surg gentamicin weight based dosing",
   "Term1": "SURG GENTAMICIN WEIGHT BASED DOSING",
   "Term2": "",

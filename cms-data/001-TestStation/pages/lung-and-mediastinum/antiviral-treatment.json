@@ -1,6 +1,7 @@
 {
   "PageID": "antiviral-treatment",
   "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
   "SortKey": "lung-and-mediastinum~1~antiviral treatment",
   "Term1": "ANTIVIRAL TREATMENT",
   "Term2": "",

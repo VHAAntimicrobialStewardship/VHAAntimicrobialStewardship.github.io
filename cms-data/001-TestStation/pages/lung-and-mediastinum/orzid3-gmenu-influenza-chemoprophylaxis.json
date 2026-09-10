@@ -1,6 +1,7 @@
 {
   "PageID": "orzid3-gmenu-influenza-chemoprophylaxis",
   "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
   "SortKey": "lung-and-mediastinum~1~orzid3-gmenu-influenza-chemoprophylaxis",
   "Term1": "orzid3-gmenu-influenza-chemoprophylaxis",
   "Term2": "",

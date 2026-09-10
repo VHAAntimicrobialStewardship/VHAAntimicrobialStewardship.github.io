@@ -1,6 +1,7 @@
 {
   "PageID": "gram-neg-campylobacter-spp",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~gram-neg-campylobacter-spp",
   "Term1": "gram-neg-campylobacter-spp",
   "Term2": "",

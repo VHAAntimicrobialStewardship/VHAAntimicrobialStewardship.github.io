@@ -1,6 +1,7 @@
 {
   "PageID": "index-inpatient",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~index-inpatient",
   "Term1": "INDEX-INPATIENT",
   "Term2": "",

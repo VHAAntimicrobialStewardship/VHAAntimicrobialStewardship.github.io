@@ -1,6 +1,7 @@
 {
   "PageID": "babesia-infections-general",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~babesia infections, general",
   "Term1": "Babesia infections, general",
   "Term2": "",

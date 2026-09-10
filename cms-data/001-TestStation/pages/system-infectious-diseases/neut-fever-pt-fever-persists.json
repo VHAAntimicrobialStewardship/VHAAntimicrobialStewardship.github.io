@@ -1,6 +1,7 @@
 {
   "PageID": "neut-fever-pt-fever-persists",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~neut-fever-pt-fever-persists",
   "Term1": "neut-fever-pt-fever-persists",
   "Term2": "",

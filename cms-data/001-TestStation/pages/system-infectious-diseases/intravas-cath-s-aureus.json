@@ -1,6 +1,7 @@
 {
   "PageID": "intravas-cath-s-aureus",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~intravas cath s. aureus",
   "Term1": "INTRAVAS CATH S. AUREUS",
   "Term2": "",

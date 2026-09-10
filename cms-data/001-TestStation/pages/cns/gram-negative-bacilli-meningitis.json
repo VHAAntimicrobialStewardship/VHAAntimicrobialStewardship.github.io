@@ -1,6 +1,7 @@
 {
   "PageID": "gram-negative-bacilli-meningitis",
   "Group": "cns",
+  "GroupLabel": "Central Nervous System",
   "SortKey": "cns~1~gram-negative bacilli meningitis",
   "Term1": "Gram-negative bacilli meningitis",
   "Term2": "Meningitis with gram-negative bacilli",

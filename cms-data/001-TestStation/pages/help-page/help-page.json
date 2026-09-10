@@ -1,6 +1,7 @@
 {
   "PageID": "help-page",
   "Group": "help-page",
+  "GroupLabel": "Help & Resources",
   "SortKey": "help-page~0",
   "Term1": "Help (Navigation)",
   "Term2": "Instructions",

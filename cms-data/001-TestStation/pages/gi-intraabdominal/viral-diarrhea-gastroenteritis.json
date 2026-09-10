@@ -1,6 +1,7 @@
 {
   "PageID": "viral-diarrhea-gastroenteritis",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~viral diarrhea/gastroenteritis",
   "Term1": "Viral diarrhea/gastroenteritis",
   "Term2": "Norovirus diarrhea/gastroenteritis",

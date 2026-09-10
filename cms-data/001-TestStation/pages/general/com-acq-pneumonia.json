@@ -1,6 +1,7 @@
 {
   "PageID": "com-acq-pneumonia",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~com-acq pneumonia",
   "Term1": "COM-ACQ PNEUMONIA",
   "Term2": "",

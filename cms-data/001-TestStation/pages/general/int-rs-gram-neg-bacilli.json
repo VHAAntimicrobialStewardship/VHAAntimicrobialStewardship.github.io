@@ -1,6 +1,7 @@
 {
   "PageID": "int-rs-gram-neg-bacilli",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~int-rs-gram-neg-bacilli",
   "Term1": "int-rs-gram-neg-bacilli",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "other-procedures-prophylaxis",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~other procedures prophylaxis",
   "Term1": "Other procedures prophylaxis",
   "Term2": "Procedures, other",

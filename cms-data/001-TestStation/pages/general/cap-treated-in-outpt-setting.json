@@ -1,6 +1,7 @@
 {
   "PageID": "cap-treated-in-outpt-setting",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~cap-treated-in-outpt-setting",
   "Term1": "cap-treated-in-outpt-setting",
   "Term2": "",

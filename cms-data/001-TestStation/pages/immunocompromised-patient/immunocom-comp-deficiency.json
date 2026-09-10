@@ -1,6 +1,7 @@
 {
   "PageID": "immunocom-comp-deficiency",
   "Group": "immunocompromised-patient",
+  "GroupLabel": "Immunocompromised Patients",
   "SortKey": "immunocompromised-patient~1~immunocom comp deficiency",
   "Term1": "IMMUNOCOM COMP DEFICIENCY",
   "Term2": "",

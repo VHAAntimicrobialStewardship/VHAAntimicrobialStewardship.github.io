@@ -1,6 +1,7 @@
 {
   "PageID": "brain-abscess-post-surgical-or-post-traumatic",
   "Group": "cns",
+  "GroupLabel": "Central Nervous System",
   "SortKey": "cns~1~brain abscess, post-surgical or post-traumatic",
   "Term1": "Brain abscess, post-surgical or post-traumatic",
   "Term2": "Post-surgical brain abscess",

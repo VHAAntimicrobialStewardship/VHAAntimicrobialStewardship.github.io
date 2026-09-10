@@ -1,6 +1,7 @@
 {
   "PageID": "tobacco-smoke",
   "Group": "immunocompromised-patient",
+  "GroupLabel": "Immunocompromised Patients",
   "SortKey": "immunocompromised-patient~1~tobacco smoke",
   "Term1": "Tobacco smoke",
   "Term2": "",

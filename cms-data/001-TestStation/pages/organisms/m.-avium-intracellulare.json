@@ -1,6 +1,7 @@
 {
   "PageID": "m.-avium-intracellulare",
   "Group": "organisms",
+  "GroupLabel": "Organisms",
   "SortKey": "organisms~1~mycobacterium avium intracellular complex",
   "Term1": "Mycobacterium avium intracellular complex",
   "Term2": "MAI",

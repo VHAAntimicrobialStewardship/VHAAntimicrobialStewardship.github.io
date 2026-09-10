@@ -1,6 +1,7 @@
 {
   "PageID": "duke-diagnostic-criteria",
   "Group": "cardiovascular",
+  "GroupLabel": "Cardiovascular",
   "SortKey": "cardiovascular~1~duke diagnostic criteria",
   "Term1": "Duke diagnostic criteria",
   "Term2": "Modified Duke diagnostic criteria",

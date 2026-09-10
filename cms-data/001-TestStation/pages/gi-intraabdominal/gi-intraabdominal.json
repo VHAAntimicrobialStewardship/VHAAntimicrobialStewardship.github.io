@@ -1,6 +1,7 @@
 {
   "PageID": "gi-intraabdominal",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~0",
   "Term1": "Gastrointestinal section (Navigation)",
   "Term2": "Intraabdominal section",

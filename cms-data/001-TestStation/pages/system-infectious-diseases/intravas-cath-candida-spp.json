@@ -1,6 +1,7 @@
 {
   "PageID": "intravas-cath-candida-spp",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~intravas cath candida spp",
   "Term1": "INTRAVAS CATH CANDIDA SPP",
   "Term2": "",

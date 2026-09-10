@@ -1,6 +1,7 @@
 {
   "PageID": "diverticulitis",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~diverticulitis (navigation)",
   "Term1": "DIVERTICULITIS (Navigation)",
   "Term2": "",

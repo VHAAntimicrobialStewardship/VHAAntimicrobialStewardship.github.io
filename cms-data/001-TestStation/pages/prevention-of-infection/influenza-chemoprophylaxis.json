@@ -1,6 +1,7 @@
 {
   "PageID": "influenza-chemoprophylaxis",
   "Group": "prevention-of-infection",
+  "GroupLabel": "Prevention of Infection",
   "SortKey": "prevention-of-infection~1~influenza chemoprophylaxis",
   "Term1": "Influenza chemoprophylaxis",
   "Term2": "Chemoprophylaxis of Influenza",

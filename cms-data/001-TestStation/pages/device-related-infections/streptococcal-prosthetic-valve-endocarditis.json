@@ -1,6 +1,7 @@
 {
   "PageID": "streptococcal-prosthetic-valve-endocarditis",
   "Group": "device-related-infections",
+  "GroupLabel": "Device-Related Infections",
   "SortKey": "device-related-infections~1~streptococcal prosthetic valve endocarditis",
   "Term1": "Streptococcal prosthetic valve endocarditis",
   "Term2": "Prosthetic valve endocarditis, streptococcal",

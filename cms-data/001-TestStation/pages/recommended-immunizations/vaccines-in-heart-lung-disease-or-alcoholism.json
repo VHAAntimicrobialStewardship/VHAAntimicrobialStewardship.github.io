@@ -1,6 +1,7 @@
 {
   "PageID": "vaccines-in-heart-lung-disease-or-alcoholism",
   "Group": "recommended-immunizations",
+  "GroupLabel": "Recommended Adult Immunizations",
   "SortKey": "recommended-immunizations~1~vaccines in heart/lung disease or alcoholism",
   "Term1": "Vaccines in heart/lung disease or alcoholism",
   "Term2": "Immunizations in heart/lung disease or  alcoholism",

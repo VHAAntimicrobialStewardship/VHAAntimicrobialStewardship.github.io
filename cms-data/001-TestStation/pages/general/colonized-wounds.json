@@ -1,6 +1,7 @@
 {
   "PageID": "colonized-wounds",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~colonized wound",
   "Term1": "Colonized wound",
   "Term2": "Wound, colonized",

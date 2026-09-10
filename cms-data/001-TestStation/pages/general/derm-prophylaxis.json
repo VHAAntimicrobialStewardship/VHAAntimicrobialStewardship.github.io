@@ -1,6 +1,7 @@
 {
   "PageID": "derm-prophylaxis",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~derm prophylaxis",
   "Term1": "DERM PROPHYLAXIS",
   "Term2": "",

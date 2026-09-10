@@ -1,6 +1,7 @@
 {
   "PageID": "immunizations-in-kidney-failure-hd",
   "Group": "recommended-immunizations",
+  "GroupLabel": "Recommended Adult Immunizations",
   "SortKey": "recommended-immunizations~1~immunizations in kidney failure/hd",
   "Term1": "Immunizations in kidney failure/HD",
   "Term2": "Hemodialysis immunizations",

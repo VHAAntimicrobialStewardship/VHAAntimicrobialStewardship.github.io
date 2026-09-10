@@ -1,6 +1,7 @@
 {
   "PageID": "vaccines-in-immunocompromised-patients",
   "Group": "recommended-immunizations",
+  "GroupLabel": "Recommended Adult Immunizations",
   "SortKey": "recommended-immunizations~1~vaccines in immunocompromised patients",
   "Term1": "Vaccines in immunocompromised patients",
   "Term2": "Immunizations in immunocompromised patients",

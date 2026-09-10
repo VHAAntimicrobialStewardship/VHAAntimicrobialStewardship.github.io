@@ -1,6 +1,7 @@
 {
   "PageID": "meds-delayed-pre-op-antibiotics-cv-surgery2",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~meds-delayed-pre-op-antibiotics-cv-surgery2",
   "Term1": "meds-delayed-pre-op-antibiotics-cv-surgery2",
   "Term2": "",

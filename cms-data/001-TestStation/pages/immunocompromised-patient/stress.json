@@ -1,6 +1,7 @@
 {
   "PageID": "stress",
   "Group": "immunocompromised-patient",
+  "GroupLabel": "Immunocompromised Patients",
   "SortKey": "immunocompromised-patient~1~stress",
   "Term1": "Stress",
   "Term2": "",

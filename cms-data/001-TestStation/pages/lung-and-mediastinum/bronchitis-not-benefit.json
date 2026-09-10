@@ -1,6 +1,7 @@
 {
   "PageID": "bronchitis-not-benefit",
   "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
   "SortKey": "lung-and-mediastinum~1~bronchitis-not-benefit",
   "Term1": "bronchitis-not-benefit",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "post-exposure-prophylaxis",
   "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
   "SortKey": "genitourinary~1~post-exposure prophylaxis",
   "Term1": "Post-exposure prophylaxis",
   "Term2": "PEP",

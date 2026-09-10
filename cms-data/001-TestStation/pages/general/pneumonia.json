@@ -1,6 +1,7 @@
 {
   "PageID": "pneumonia",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~pneumonia",
   "Term1": "PNEUMONIA",
   "Term2": "",

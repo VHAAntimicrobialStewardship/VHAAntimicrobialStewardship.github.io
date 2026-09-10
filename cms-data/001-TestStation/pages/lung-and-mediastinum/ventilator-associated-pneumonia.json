@@ -1,6 +1,7 @@
 {
   "PageID": "ventilator-associated-pneumonia",
   "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
   "SortKey": "lung-and-mediastinum~1~ventilator-associated pneumonia (navigation)",
   "Term1": "Ventilator-associated pneumonia (Navigation)",
   "Term2": "VAP",

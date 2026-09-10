@@ -1,6 +1,7 @@
 {
   "PageID": "salmonella-species",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~salmonella species",
   "Term1": "SALMONELLA SPECIES",
   "Term2": "",

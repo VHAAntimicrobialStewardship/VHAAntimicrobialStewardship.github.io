@@ -1,6 +1,7 @@
 {
   "PageID": "candidemia",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~candidemia",
   "Term1": "Candidemia",
   "Term2": "Fungemia associated with Candida spp.",

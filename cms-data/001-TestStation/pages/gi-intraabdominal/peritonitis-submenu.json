@@ -1,6 +1,7 @@
 {
   "PageID": "peritonitis-submenu",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~peritonitis-submenu",
   "Term1": "peritonitis-submenu",
   "Term2": "",

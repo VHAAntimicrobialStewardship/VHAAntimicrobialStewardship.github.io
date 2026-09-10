@@ -1,6 +1,7 @@
 {
   "PageID": "cardiovascular-device-infections-excluding-valves",
   "Group": "cardiovascular",
+  "GroupLabel": "Cardiovascular",
   "SortKey": "cardiovascular~1~cardiovascular device infections (excluding valves)",
   "Term1": "Cardiovascular device infections (excluding valves)",
   "Term2": "Device infections, cardiovascular (excluding valves)",

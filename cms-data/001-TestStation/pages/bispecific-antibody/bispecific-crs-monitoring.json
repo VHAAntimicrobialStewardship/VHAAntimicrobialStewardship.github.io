@@ -1,6 +1,7 @@
 {
   "PageID": "bispecific-crs-monitoring",
   "Group": "bispecific-antibody",
+  "GroupLabel": "Bispecific Antibody",
   "SortKey": "bispecific-antibody~1~bispecific-crs-monitoring (navigation)",
   "Term1": "BISPECIFIC-CRS-MONITORING (Navigation)",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "idp-ciprofloxacin-po",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~idp-ciprofloxacin-po",
   "Term1": "idp-ciprofloxacin-po",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "ssti-fungal",
   "Group": "ssti-main-menu",
+  "GroupLabel": "Skin & Soft Tissue Infections",
   "SortKey": "ssti-main-menu~1~ssti-fungal",
   "Term1": "ssti-fungal",
   "Term2": "",

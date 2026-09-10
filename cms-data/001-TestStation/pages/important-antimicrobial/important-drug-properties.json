@@ -1,6 +1,7 @@
 {
   "PageID": "important-drug-properties",
   "Group": "important-antimicrobial",
+  "GroupLabel": "Important Antimicrobial Information",
   "SortKey": "important-antimicrobial~1~important drug properties (navigation)",
   "Term1": "Important Drug Properties (Navigation)",
   "Term2": "",

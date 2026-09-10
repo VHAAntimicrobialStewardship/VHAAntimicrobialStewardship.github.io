@@ -1,6 +1,7 @@
 {
   "PageID": "prosthetic-valve-endocarditis-empirical-therapy",
   "Group": "device-related-infections",
+  "GroupLabel": "Device-Related Infections",
   "SortKey": "device-related-infections~1~prosthetic valve endocarditis empirical therapy",
   "Term1": "Prosthetic valve endocarditis empirical therapy",
   "Term2": "Endocarditis, prosthetic valve empirical therapy",

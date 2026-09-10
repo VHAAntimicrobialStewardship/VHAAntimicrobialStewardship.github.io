@@ -1,6 +1,7 @@
 {
   "PageID": "cryptosporidia",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~cryptosporidia",
   "Term1": "CRYPTOSPORIDIA",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "giardia",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~giardia",
   "Term1": "GIARDIA",
   "Term2": "",

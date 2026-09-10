@@ -1,6 +1,7 @@
 {
   "PageID": "antiviral-prophylaxis-malignancy",
   "Group": "prevention-of-infection",
+  "GroupLabel": "Prevention of Infection",
   "SortKey": "prevention-of-infection~1~antiviral-prophylaxis-malignancy",
   "Term1": "antiviral-prophylaxis-malignancy",
   "Term2": "",

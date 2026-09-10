@@ -1,6 +1,7 @@
 {
   "PageID": "gram-pos-staphylococci",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~gram-pos-staphylococci",
   "Term1": "gram-pos-staphylococci",
   "Term2": "",

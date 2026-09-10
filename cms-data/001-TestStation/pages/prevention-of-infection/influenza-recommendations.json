@@ -1,6 +1,7 @@
 {
   "PageID": "influenza-recommendations",
   "Group": "prevention-of-infection",
+  "GroupLabel": "Prevention of Infection",
   "SortKey": "prevention-of-infection~1~influenza-recommendations",
   "Term1": "influenza-recommendations",
   "Term2": "",

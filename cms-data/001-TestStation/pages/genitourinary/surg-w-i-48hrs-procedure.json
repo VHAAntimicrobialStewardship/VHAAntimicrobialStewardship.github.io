@@ -1,6 +1,7 @@
 {
   "PageID": "surg-w-i-48hrs-procedure",
   "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
   "SortKey": "genitourinary~1~surg-w-i-48hrs-procedure",
   "Term1": "surg-w-i-48hrs-procedure",
   "Term2": "",

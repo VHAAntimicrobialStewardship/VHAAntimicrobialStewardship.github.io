@@ -1,6 +1,7 @@
 {
   "PageID": "non-streptococcal-pharyngitis",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~non-streptococcal pharyngitis",
   "Term1": "Non-streptococcal pharyngitis",
   "Term2": "Pharyngitis, non-streptococcal",

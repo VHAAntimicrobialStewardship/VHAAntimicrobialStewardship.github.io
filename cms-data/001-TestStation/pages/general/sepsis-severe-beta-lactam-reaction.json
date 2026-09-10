@@ -1,6 +1,7 @@
 {
   "PageID": "sepsis-severe-beta-lactam-reaction",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~sepsis-severe-beta-lactam-reaction",
   "Term1": "sepsis-severe-beta-lactam-reaction",
   "Term2": "",

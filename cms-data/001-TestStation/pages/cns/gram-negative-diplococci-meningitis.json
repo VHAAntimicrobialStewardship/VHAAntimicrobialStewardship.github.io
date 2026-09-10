@@ -1,6 +1,7 @@
 {
   "PageID": "gram-negative-diplococci-meningitis",
   "Group": "cns",
+  "GroupLabel": "Central Nervous System",
   "SortKey": "cns~1~gram-negative diplococci meningitis",
   "Term1": "Gram-negative diplococci meningitis",
   "Term2": "Meningitis with gram-negative diplococci",

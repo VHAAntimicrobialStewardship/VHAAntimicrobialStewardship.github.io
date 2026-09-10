@@ -1,6 +1,7 @@
 {
   "PageID": "campylobacter",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~campylobacter",
   "Term1": "CAMPYLOBACTER",
   "Term2": "",

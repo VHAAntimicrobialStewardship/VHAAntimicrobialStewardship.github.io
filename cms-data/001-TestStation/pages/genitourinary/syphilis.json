@@ -1,6 +1,7 @@
 {
   "PageID": "syphilis",
   "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
   "SortKey": "genitourinary~1~syphilis",
   "Term1": "Syphilis",
   "Term2": "",

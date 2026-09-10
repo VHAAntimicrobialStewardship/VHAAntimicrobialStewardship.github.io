@@ -1,6 +1,7 @@
 {
   "PageID": "meningitis-with-e-coli-pseudomonas-or-other-organism",
   "Group": "cns",
+  "GroupLabel": "Central Nervous System",
   "SortKey": "cns~1~meningitis with e. coli, pseudomonas or other organism",
   "Term1": "Meningitis with E. coli, pseudomonas or other organism",
   "Term2": "Escherichia coli meningitis",

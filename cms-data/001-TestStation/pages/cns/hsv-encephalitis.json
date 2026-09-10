@@ -1,6 +1,7 @@
 {
   "PageID": "hsv-encephalitis",
   "Group": "cns",
+  "GroupLabel": "Central Nervous System",
   "SortKey": "cns~1~hsv encephalitis",
   "Term1": "HSV ENCEPHALITIS",
   "Term2": "",

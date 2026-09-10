@@ -1,6 +1,7 @@
 {
   "PageID": "exacerbation-of-copd",
   "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
   "SortKey": "lung-and-mediastinum~1~exacerbation of copd",
   "Term1": "Exacerbation of COPD",
   "Term2": "COPD, exacerbations",

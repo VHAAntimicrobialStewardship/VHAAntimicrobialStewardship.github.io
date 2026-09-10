@@ -1,6 +1,7 @@
 {
   "PageID": "acute-bact-prostatitis",
   "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
   "SortKey": "genitourinary~1~acute bact prostatitis",
   "Term1": "ACUTE BACT PROSTATITIS",
   "Term2": "",

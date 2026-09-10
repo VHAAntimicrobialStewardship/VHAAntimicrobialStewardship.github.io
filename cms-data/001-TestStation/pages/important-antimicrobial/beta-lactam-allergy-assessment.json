@@ -1,6 +1,7 @@
 {
   "PageID": "beta-lactam-allergy-assessment",
   "Group": "important-antimicrobial",
+  "GroupLabel": "Important Antimicrobial Information",
   "SortKey": "important-antimicrobial~1~beta-lactam reaction assessment (navigation)",
   "Term1": "Beta-lactam reaction assessment (Navigation)",
   "Term2": "Penicillin reaction assessment",

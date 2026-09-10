@@ -1,6 +1,7 @@
 {
   "PageID": "cap-inpatient-treated-setting-non-severe-cap",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~cap inpatient treated setting non-severe cap (navigation)",
   "Term1": "CAP INPATIENT TREATED SETTING NON-SEVERE CAP (Navigation)",
   "Term2": "",

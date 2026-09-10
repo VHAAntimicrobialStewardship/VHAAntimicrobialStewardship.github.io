@@ -1,6 +1,7 @@
 {
   "PageID": "thoracic-surgery-prophylaxis",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~thoracic surgery prophylaxis",
   "Term1": "Thoracic surgery prophylaxis",
   "Term2": "",

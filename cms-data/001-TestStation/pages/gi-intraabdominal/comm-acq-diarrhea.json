@@ -1,6 +1,7 @@
 {
   "PageID": "comm-acq-diarrhea",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~comm acq diarrhea",
   "Term1": "COMM ACQ DIARRHEA",
   "Term2": "",

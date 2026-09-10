@@ -1,6 +1,7 @@
 {
   "PageID": "immunocom-altered-micro-flora",
   "Group": "immunocompromised-patient",
+  "GroupLabel": "Immunocompromised Patients",
   "SortKey": "immunocompromised-patient~1~immunocom altered micro flora",
   "Term1": "IMMUNOCOM ALTERED MICRO FLORA",
   "Term2": "",

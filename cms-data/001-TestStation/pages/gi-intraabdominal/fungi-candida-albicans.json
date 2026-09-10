@@ -1,6 +1,7 @@
 {
   "PageID": "fungi-candida-albicans",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~fungi candida albicans (navigation)",
   "Term1": "FUNGI CANDIDA ALBICANS (Navigation)",
   "Term2": "",

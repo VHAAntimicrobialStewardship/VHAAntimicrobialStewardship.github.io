@@ -1,6 +1,7 @@
 {
   "PageID": "enteric-fever",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~enteric fever",
   "Term1": "ENTERIC FEVER",
   "Term2": "",

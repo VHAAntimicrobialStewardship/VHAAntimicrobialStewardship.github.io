@@ -1,6 +1,7 @@
 {
   "PageID": "abscess-spinal-epidural",
   "Group": "cns",
+  "GroupLabel": "Central Nervous System",
   "SortKey": "cns~1~abscess, spinal epidural",
   "Term1": "Abscess, spinal epidural",
   "Term2": "Epidural abscess, spinal",

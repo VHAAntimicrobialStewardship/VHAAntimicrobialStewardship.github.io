@@ -1,6 +1,7 @@
 {
   "PageID": "general-information-inpatient",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~general information inpatient (navigation)",
   "Term1": "GENERAL INFORMATION INPATIENT (Navigation)",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "ini-epi-assoc-colitis",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~ini-epi-assoc-colitis",
   "Term1": "ini-epi-assoc-colitis",
   "Term2": "",

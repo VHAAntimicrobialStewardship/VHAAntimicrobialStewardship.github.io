@@ -1,6 +1,7 @@
 {
   "PageID": "adj-exist-therapy",
   "Group": "important-antimicrobial",
+  "GroupLabel": "Important Antimicrobial Information",
   "SortKey": "important-antimicrobial~1~adj-exist-therapy (navigation)",
   "Term1": "adj-exist-therapy (Navigation)",
   "Term2": "",

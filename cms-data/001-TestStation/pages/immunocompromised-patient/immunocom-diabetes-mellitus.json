@@ -1,6 +1,7 @@
 {
   "PageID": "immunocom-diabetes-mellitus",
   "Group": "immunocompromised-patient",
+  "GroupLabel": "Immunocompromised Patients",
   "SortKey": "immunocompromised-patient~1~immunocom diabetes mellitus",
   "Term1": "IMMUNOCOM DIABETES MELLITUS",
   "Term2": "",

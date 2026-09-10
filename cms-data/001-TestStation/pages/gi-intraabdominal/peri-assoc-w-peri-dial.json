@@ -1,6 +1,7 @@
 {
   "PageID": "peri-assoc-w-peri-dial",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~peri assoc w peri dial (navigation)",
   "Term1": "PERI ASSOC W PERI DIAL (Navigation)",
   "Term2": "",

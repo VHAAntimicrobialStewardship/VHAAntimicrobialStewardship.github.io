@@ -1,6 +1,7 @@
 {
   "PageID": "cap-oral-treatment",
   "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
   "SortKey": "lung-and-mediastinum~1~cap oral (stepdown) treatment (navigation)",
   "Term1": "CAP ORAL (STEPDOWN) TREATMENT (Navigation)",
   "Term2": "",

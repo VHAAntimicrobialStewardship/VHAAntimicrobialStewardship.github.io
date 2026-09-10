@@ -1,6 +1,7 @@
 {
   "PageID": "post-exposure-prophylaxis-non-occupational",
   "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
   "SortKey": "genitourinary~1~post-exposure prophylaxis, non-occupational",
   "Term1": "Post-exposure prophylaxis, non-occupational",
   "Term2": "PEP, non-occupational",

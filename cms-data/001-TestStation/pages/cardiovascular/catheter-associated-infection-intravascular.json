@@ -1,6 +1,7 @@
 {
   "PageID": "catheter-associated-infection-intravascular",
   "Group": "cardiovascular",
+  "GroupLabel": "Cardiovascular",
   "SortKey": "cardiovascular~1~catheter-associated infection, intravascular (navigation)",
   "Term1": "Catheter-associated infection, intravascular (Navigation)",
   "Term2": "Intravascular catheter-associated infection",

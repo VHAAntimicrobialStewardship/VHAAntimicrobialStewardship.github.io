@@ -1,6 +1,7 @@
 {
   "PageID": "clostridiodes-difficile-infection",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~clostridiodes difficile infection",
   "Term1": "Clostridiodes difficile Infection",
   "Term2": "C. diff infection",

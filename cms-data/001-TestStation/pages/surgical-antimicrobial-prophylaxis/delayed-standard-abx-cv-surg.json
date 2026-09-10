@@ -1,6 +1,7 @@
 {
   "PageID": "delayed-standard-abx-cv-surg",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~delayed-standard-abx-cv-surg",
   "Term1": "delayed-standard-abx-cv-surg",
   "Term2": "",

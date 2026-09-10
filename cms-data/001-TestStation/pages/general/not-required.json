@@ -1,6 +1,7 @@
 {
   "PageID": "not-required",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~conditions not benefitted by antimicrobials (navigation)",
   "Term1": "Conditions not benefitted by antimicrobials (Navigation)",
   "Term2": "Antimicrobials not required",

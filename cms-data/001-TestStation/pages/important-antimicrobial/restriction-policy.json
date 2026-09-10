@@ -1,6 +1,7 @@
 {
   "PageID": "restriction-policy",
   "Group": "important-antimicrobial",
+  "GroupLabel": "Important Antimicrobial Information",
   "SortKey": "important-antimicrobial~1~restrictions on antimicrobials (navigation)",
   "Term1": "Restrictions on antimicrobials (Navigation)",
   "Term2": "",

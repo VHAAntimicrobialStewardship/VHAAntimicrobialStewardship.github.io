@@ -1,6 +1,7 @@
 {
   "PageID": "nosocomial-pneumonia-re-evaluation-at-72-hours",
   "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
   "SortKey": "lung-and-mediastinum~1~nosocomial pneumonia re-evaluation at 72 hours",
   "Term1": "Nosocomial pneumonia re-evaluation at 72 hours",
   "Term2": "Re-evaluate nosocomial pneumonia at 72 hours",

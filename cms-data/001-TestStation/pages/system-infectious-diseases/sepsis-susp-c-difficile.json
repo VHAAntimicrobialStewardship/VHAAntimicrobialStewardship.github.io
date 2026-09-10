@@ -1,6 +1,7 @@
 {
   "PageID": "sepsis-susp-c-difficile",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~sepsis-susp-c-difficile",
   "Term1": "sepsis-susp-c-difficile",
   "Term2": "",

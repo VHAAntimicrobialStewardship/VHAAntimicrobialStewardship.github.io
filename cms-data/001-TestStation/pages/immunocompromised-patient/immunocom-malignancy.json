@@ -1,6 +1,7 @@
 {
   "PageID": "immunocom-malignancy",
   "Group": "immunocompromised-patient",
+  "GroupLabel": "Immunocompromised Patients",
   "SortKey": "immunocompromised-patient~1~immunocom malignancy",
   "Term1": "IMMUNOCOM MALIGNANCY",
   "Term2": "",

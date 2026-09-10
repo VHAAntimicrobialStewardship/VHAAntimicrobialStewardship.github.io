@@ -1,6 +1,7 @@
 {
   "PageID": "cardiac-surgery-post-op-prophylaxis",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~cardiac surgery post-op prophylaxis",
   "Term1": "Cardiac surgery post-op prophylaxis",
   "Term2": "",

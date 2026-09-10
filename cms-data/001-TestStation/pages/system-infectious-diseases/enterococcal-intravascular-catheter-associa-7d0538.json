@@ -1,6 +1,7 @@
 {
   "PageID": "enterococcal-intravascular-catheter-associated-infection",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~enterococcal intravascular catheter-associated infection",
   "Term1": "Enterococcal intravascular catheter-associated infection",
   "Term2": "Intravascular catheter-associated infection, enterococci",

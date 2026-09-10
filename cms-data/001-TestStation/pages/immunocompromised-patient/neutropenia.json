@@ -1,6 +1,7 @@
 {
   "PageID": "neutropenia",
   "Group": "immunocompromised-patient",
+  "GroupLabel": "Immunocompromised Patients",
   "SortKey": "immunocompromised-patient~1~neutropenia",
   "Term1": "Neutropenia",
   "Term2": "",

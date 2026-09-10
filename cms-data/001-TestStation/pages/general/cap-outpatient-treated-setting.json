@@ -1,6 +1,7 @@
 {
   "PageID": "cap-outpatient-treated-setting",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~cap-outpatient-treated-setting",
   "Term1": "cap-outpatient-treated-setting",
   "Term2": "",

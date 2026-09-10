@@ -1,6 +1,7 @@
 {
   "PageID": "nosocomial-pneumonia-with-pseudomonas-aeruginosa",
   "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
   "SortKey": "lung-and-mediastinum~1~nosocomial pneumonia with pseudomonas aeruginosa",
   "Term1": "Nosocomial pneumonia with Pseudomonas aeruginosa",
   "Term2": "Pseudomonas aeruginosa nosocomial pneumonia",

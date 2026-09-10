@@ -1,6 +1,7 @@
 {
   "PageID": "surg-cefazolin-wt-based-postop-doses-x2",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~surg-cefazolin-wt-based-postop-doses-x2",
   "Term1": "surg-cefazolin-wt-based-postop-doses-x2",
   "Term2": "",

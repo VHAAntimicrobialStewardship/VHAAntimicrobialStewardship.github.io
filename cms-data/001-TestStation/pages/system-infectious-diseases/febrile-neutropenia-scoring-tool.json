@@ -1,6 +1,7 @@
 {
   "PageID": "febrile-neutropenia-scoring-tool",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~febrile neutropenia scoring tool",
   "Term1": "Febrile neutropenia scoring tool",
   "Term2": "Neutropenic fever scoring tool",

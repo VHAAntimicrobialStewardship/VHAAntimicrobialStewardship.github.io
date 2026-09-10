@@ -1,6 +1,7 @@
 {
   "PageID": "nosocomial-pneumonia-with-legionella-pneumophila",
   "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
   "SortKey": "lung-and-mediastinum~1~nosocomial pneumonia with legionella pneumophila",
   "Term1": "Nosocomial pneumonia with Legionella pneumophila",
   "Term2": "Legionella pneumophila nosocomial pneumonia",

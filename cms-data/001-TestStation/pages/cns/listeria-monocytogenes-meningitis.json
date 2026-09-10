@@ -1,6 +1,7 @@
 {
   "PageID": "listeria-monocytogenes-meningitis",
   "Group": "cns",
+  "GroupLabel": "Central Nervous System",
   "SortKey": "cns~1~listeria monocytogenes meningitis",
   "Term1": "Listeria monocytogenes meningitis",
   "Term2": "Meningitis with Listeria monocytogenes",

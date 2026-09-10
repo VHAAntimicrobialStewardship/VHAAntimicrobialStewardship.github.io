@@ -1,6 +1,7 @@
 {
   "PageID": "pseudomonas-bacteremia",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~pseudomonas bacteremia",
   "Term1": "Pseudomonas bacteremia",
   "Term2": "Bacteremia, pseudomonas",

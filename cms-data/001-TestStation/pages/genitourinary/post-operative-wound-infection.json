@@ -1,6 +1,7 @@
 {
   "PageID": "post-operative-wound-infection",
   "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
   "SortKey": "genitourinary~1~post-operative wound infection",
   "Term1": "Post-operative wound infection",
   "Term2": "Wound infection, post-operative",

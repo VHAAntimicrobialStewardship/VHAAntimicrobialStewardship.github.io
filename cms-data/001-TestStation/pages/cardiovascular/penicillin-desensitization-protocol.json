@@ -1,6 +1,7 @@
 {
   "PageID": "penicillin-desensitization-protocol",
   "Group": "cardiovascular",
+  "GroupLabel": "Cardiovascular",
   "SortKey": "cardiovascular~1~penicillin desensitization protocol",
   "Term1": "Penicillin desensitization protocol",
   "Term2": "Desensitization protocol, penicillin",

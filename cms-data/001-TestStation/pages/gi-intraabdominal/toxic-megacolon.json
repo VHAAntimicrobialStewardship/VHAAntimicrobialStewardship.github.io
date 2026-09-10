@@ -1,6 +1,7 @@
 {
   "PageID": "toxic-megacolon",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~toxic megacolon",
   "Term1": "TOXIC MEGACOLON",
   "Term2": "",

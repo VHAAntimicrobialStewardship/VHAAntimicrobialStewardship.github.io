@@ -1,6 +1,7 @@
 {
   "PageID": "influenza-egg-allergy-acip",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~influenza-egg-allergy-acip",
   "Term1": "influenza-egg-allergy-acip",
   "Term2": "",

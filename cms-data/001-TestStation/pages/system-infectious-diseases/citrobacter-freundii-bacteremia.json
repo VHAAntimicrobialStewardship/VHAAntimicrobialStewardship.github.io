@@ -1,6 +1,7 @@
 {
   "PageID": "citrobacter-freundii-bacteremia",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~citrobacter freundii bacteremia",
   "Term1": "Citrobacter freundii bacteremia",
   "Term2": "Klebsiella aerogenes bacteremia",

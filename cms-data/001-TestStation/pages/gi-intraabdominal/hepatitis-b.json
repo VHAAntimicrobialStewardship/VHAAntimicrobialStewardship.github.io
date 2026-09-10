@@ -1,6 +1,7 @@
 {
   "PageID": "hepatitis-b",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~hepatitis b",
   "Term1": "HEPATITIS B",
   "Term2": "",

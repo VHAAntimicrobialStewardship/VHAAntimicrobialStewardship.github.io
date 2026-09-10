@@ -1,6 +1,7 @@
 {
   "PageID": "flu-seasonal-influenza",
   "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
   "SortKey": "lung-and-mediastinum~1~flu (seasonal influenza)",
   "Term1": "Flu (seasonal influenza)",
   "Term2": "",

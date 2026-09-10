@@ -1,6 +1,7 @@
 {
   "PageID": "surg-48hrs-after-proc",
   "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
   "SortKey": "genitourinary~1~surg-48hrs-after-proc",
   "Term1": "surg-48hrs-after-proc",
   "Term2": "",

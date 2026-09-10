@@ -1,6 +1,7 @@
 {
   "PageID": "duration-of-antimicrobial-therapy",
   "Group": "important-antimicrobial",
+  "GroupLabel": "Important Antimicrobial Information",
   "SortKey": "important-antimicrobial~1~duration of antimicrobial therapy (navigation)",
   "Term1": "Duration of antimicrobial therapy (Navigation)",
   "Term2": "Antimicrobial therapy duration",

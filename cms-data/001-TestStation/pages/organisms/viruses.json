@@ -1,6 +1,7 @@
 {
   "PageID": "viruses",
   "Group": "organisms",
+  "GroupLabel": "Organisms",
   "SortKey": "organisms~1~viruses (navigation)",
   "Term1": "VIRUSES (Navigation)",
   "Term2": "",

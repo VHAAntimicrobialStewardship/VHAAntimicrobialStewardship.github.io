@@ -1,6 +1,7 @@
 {
   "PageID": "gram-pos-treat-s-aureus",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~gram-pos-treat-s-aureus",
   "Term1": "gram-pos-treat-s-aureus",
   "Term2": "",

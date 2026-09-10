@@ -1,6 +1,7 @@
 {
   "PageID": "selected-pathogens",
   "Group": "cardiovascular",
+  "GroupLabel": "Cardiovascular",
   "SortKey": "cardiovascular~1~selected pathogens (navigation)",
   "Term1": "Selected Pathogens (Navigation)",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "fungi-candida-glabrata",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~fungi candida glabrata",
   "Term1": "FUNGI CANDIDA GLABRATA",
   "Term2": "",

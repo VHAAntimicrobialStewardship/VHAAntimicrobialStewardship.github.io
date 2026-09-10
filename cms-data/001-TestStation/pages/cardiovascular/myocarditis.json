@@ -1,6 +1,7 @@
 {
   "PageID": "myocarditis",
   "Group": "cardiovascular",
+  "GroupLabel": "Cardiovascular",
   "SortKey": "cardiovascular~1~myocarditis",
   "Term1": "Myocarditis",
   "Term2": "",

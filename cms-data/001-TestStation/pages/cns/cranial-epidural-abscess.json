@@ -1,6 +1,7 @@
 {
   "PageID": "cranial-epidural-abscess",
   "Group": "cns",
+  "GroupLabel": "Central Nervous System",
   "SortKey": "cns~1~cranial epidural abscess",
   "Term1": "Cranial epidural abscess",
   "Term2": "Abscess, cranial epidural",

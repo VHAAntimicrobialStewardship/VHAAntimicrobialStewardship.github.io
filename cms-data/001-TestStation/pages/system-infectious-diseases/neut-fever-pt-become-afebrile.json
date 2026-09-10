@@ -1,6 +1,7 @@
 {
   "PageID": "neut-fever-pt-become-afebrile",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~neut-fever-pt-become-afebrile",
   "Term1": "neut-fever-pt-become-afebrile",
   "Term2": "",

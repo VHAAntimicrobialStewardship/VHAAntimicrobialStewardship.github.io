@@ -1,6 +1,7 @@
 {
   "PageID": "surgical-prophylaxis-general-information",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~surgical prophylaxis general information",
   "Term1": "Surgical prophylaxis general information",
   "Term2": "Pre-operative antimicrobials general information",

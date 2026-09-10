@@ -1,6 +1,7 @@
 {
   "PageID": "refer-to-inpatient-cdss",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~refer-to-inpatient-cdss",
   "Term1": "refer-to-inpatient-cdss",
   "Term2": "",

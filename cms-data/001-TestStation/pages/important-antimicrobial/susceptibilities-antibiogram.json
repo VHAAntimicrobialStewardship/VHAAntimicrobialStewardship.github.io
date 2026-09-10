@@ -1,6 +1,7 @@
 {
   "PageID": "susceptibilities-antibiogram",
   "Group": "important-antimicrobial",
+  "GroupLabel": "Important Antimicrobial Information",
   "SortKey": "important-antimicrobial~0",
   "Term1": "Antibiogram (Navigation)",
   "Term2": "Antimicrobial susceptibilities",

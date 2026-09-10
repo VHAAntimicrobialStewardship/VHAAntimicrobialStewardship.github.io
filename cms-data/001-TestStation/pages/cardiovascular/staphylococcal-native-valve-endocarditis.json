@@ -1,6 +1,7 @@
 {
   "PageID": "staphylococcal-native-valve-endocarditis",
   "Group": "cardiovascular",
+  "GroupLabel": "Cardiovascular",
   "SortKey": "cardiovascular~1~staphylococcal native valve endocarditis",
   "Term1": "Staphylococcal native valve endocarditis",
   "Term2": "Native valve endocarditis, staphylococcal",

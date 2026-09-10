@@ -1,6 +1,7 @@
 {
   "PageID": "prim-infect-chickenpox",
   "Group": "ssti-main-menu",
+  "GroupLabel": "Skin & Soft Tissue Infections",
   "SortKey": "ssti-main-menu~1~prim infect chickenpox",
   "Term1": "PRIM INFECT CHICKENPOX",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "fungi-coccidioidomyces",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~fungi coccidioidomyces",
   "Term1": "FUNGI COCCIDIOIDOMYCES",
   "Term2": "",

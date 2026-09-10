@@ -1,6 +1,7 @@
 {
   "PageID": "ssti-viral",
   "Group": "ssti-main-menu",
+  "GroupLabel": "Skin & Soft Tissue Infections",
   "SortKey": "ssti-main-menu~1~ssti-viral",
   "Term1": "ssti-viral",
   "Term2": "",

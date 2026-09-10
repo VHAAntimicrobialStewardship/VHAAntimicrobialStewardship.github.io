@@ -1,6 +1,7 @@
 {
   "PageID": "bone-marrow-post-transplant-vaccinations",
   "Group": "recommended-immunizations",
+  "GroupLabel": "Recommended Adult Immunizations",
   "SortKey": "recommended-immunizations~1~bone marrow post-transplant vaccinations",
   "Term1": "Bone marrow post-transplant vaccinations",
   "Term2": "Vaccines in bone marrow transplant patients",

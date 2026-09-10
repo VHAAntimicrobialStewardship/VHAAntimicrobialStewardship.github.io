@@ -1,6 +1,7 @@
 {
   "PageID": "cmv-main-page",
   "Group": "organisms",
+  "GroupLabel": "Organisms",
   "SortKey": "organisms~1~cmv-main-page",
   "Term1": "cmv-main-page",
   "Term2": "",

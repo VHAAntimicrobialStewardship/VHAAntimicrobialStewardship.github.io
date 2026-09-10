@@ -1,6 +1,7 @@
 {
   "PageID": "gram-neg-e-coli",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~gram-neg-e-coli",
   "Term1": "gram-neg-e-coli",
   "Term2": "",

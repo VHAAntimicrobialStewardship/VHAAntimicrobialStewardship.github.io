@@ -1,6 +1,7 @@
 {
   "PageID": "infect-diarrhea-gastro",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~infectious diarrhea/gastroenteritis",
   "Term1": "Infectious diarrhea/gastroenteritis",
   "Term2": "Diarrhea, infectious",

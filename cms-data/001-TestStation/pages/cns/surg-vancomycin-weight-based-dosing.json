@@ -1,6 +1,7 @@
 {
   "PageID": "surg-vancomycin-weight-based-dosing",
   "Group": "cns",
+  "GroupLabel": "Central Nervous System",
   "SortKey": "cns~1~surg-vancomycin-weight-based-dosing",
   "Term1": "surg-vancomycin-weight-based-dosing",
   "Term2": "",

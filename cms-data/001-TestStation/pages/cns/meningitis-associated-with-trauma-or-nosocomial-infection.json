@@ -1,6 +1,7 @@
 {
   "PageID": "meningitis-associated-with-trauma-or-nosocomial-infection",
   "Group": "cns",
+  "GroupLabel": "Central Nervous System",
   "SortKey": "cns~1~meningitis associated with trauma or nosocomial infection",
   "Term1": "Meningitis associated with trauma or nosocomial infection",
   "Term2": "Trauma or nosocomial infection associated meningitis",

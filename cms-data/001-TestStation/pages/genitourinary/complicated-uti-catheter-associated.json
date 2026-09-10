@@ -1,6 +1,7 @@
 {
   "PageID": "complicated-uti-catheter-associated",
   "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
   "SortKey": "genitourinary~1~complicated-uti-catheter-associated",
   "Term1": "complicated-uti-catheter-associated",
   "Term2": "",

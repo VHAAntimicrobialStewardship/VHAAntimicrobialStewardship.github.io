@@ -1,6 +1,7 @@
 {
   "PageID": "antiviral-infection-malignancy",
   "Group": "prevention-of-infection",
+  "GroupLabel": "Prevention of Infection",
   "SortKey": "prevention-of-infection~1~antiviral infection malignancy",
   "Term1": "ANTIVIRAL INFECTION MALIGNANCY",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "cholera",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~cholera",
   "Term1": "CHOLERA",
   "Term2": "",

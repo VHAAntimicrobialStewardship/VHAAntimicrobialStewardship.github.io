@@ -1,6 +1,7 @@
 {
   "PageID": "sepsis-suspected-skin-soft-tissue",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~sepsis-suspected-skin-soft-tissue",
   "Term1": "sepsis-suspected-skin-soft-tissue",
   "Term2": "",

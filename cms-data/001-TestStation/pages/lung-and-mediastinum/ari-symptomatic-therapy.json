@@ -1,6 +1,7 @@
 {
   "PageID": "ari-symptomatic-therapy",
   "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
   "SortKey": "lung-and-mediastinum~1~ari-symptomatic-therapy",
   "Term1": "ari-symptomatic-therapy",
   "Term2": "",

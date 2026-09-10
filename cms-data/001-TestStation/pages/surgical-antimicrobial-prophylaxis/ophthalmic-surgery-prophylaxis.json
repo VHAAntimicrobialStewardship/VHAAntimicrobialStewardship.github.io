@@ -1,6 +1,7 @@
 {
   "PageID": "ophthalmic-surgery-prophylaxis",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~ophthalmic surgery prophylaxis",
   "Term1": "Ophthalmic surgery prophylaxis",
   "Term2": "",

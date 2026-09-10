@@ -1,6 +1,7 @@
 {
   "PageID": "bispecific-icans-monitoring",
   "Group": "bispecific-antibody",
+  "GroupLabel": "Bispecific Antibody",
   "SortKey": "bispecific-antibody~1~bispecific-icans-monitoring (navigation)",
   "Term1": "BISPECIFIC-ICANS-MONITORING (Navigation)",
   "Term2": "",

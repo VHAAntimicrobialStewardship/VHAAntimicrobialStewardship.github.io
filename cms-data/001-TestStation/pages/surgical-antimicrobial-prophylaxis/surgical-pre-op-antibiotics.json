@@ -1,6 +1,7 @@
 {
   "PageID": "surgical-pre-op-antibiotics",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~0",
   "Term1": "Pre-operative Antimicrobials section (Navigation)",
   "Term2": "",

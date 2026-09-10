@@ -1,6 +1,7 @@
 {
   "PageID": "cell-mediated-immunity-defects",
   "Group": "immunocompromised-patient",
+  "GroupLabel": "Immunocompromised Patients",
   "SortKey": "immunocompromised-patient~1~cell-mediated immunity defects",
   "Term1": "Cell-mediated immunity defects",
   "Term2": "CMI defects",

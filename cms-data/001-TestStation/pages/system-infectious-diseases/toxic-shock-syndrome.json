@@ -1,6 +1,7 @@
 {
   "PageID": "toxic-shock-syndrome",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~toxic-shock-syndrome",
   "Term1": "toxic-shock-syndrome",
   "Term2": "",

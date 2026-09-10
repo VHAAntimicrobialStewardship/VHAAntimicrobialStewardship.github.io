@@ -1,6 +1,7 @@
 {
   "PageID": "splenectomy-chart",
   "Group": "recommended-immunizations",
+  "GroupLabel": "Recommended Adult Immunizations",
   "SortKey": "recommended-immunizations~1~splenectomy chart",
   "Term1": "SPLENECTOMY CHART",
   "Term2": "",

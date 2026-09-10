@@ -1,6 +1,7 @@
 {
   "PageID": "biliary-surgery-prophylaxis",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~biliary surgery prophylaxis",
   "Term1": "Biliary surgery prophylaxis",
   "Term2": "",

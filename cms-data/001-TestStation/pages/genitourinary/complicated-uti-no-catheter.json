@@ -1,6 +1,7 @@
 {
   "PageID": "complicated-uti-no-catheter",
   "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
   "SortKey": "genitourinary~1~complicated-uti-no-catheter",
   "Term1": "complicated-uti-no-catheter",
   "Term2": "",

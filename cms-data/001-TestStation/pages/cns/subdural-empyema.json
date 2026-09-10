@@ -1,6 +1,7 @@
 {
   "PageID": "subdural-empyema",
   "Group": "cns",
+  "GroupLabel": "Central Nervous System",
   "SortKey": "cns~1~subdural empyema",
   "Term1": "Subdural empyema",
   "Term2": "Empyema, subdural",

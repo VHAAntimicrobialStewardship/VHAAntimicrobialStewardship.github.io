@@ -1,6 +1,7 @@
 {
   "PageID": "asymp-bacteriuria",
   "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
   "SortKey": "genitourinary~1~asymp bacteriuria",
   "Term1": "ASYMP BACTERIURIA",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "septic-arthritis-nat-joint",
   "Group": "bone-joint-muscle-infections",
+  "GroupLabel": "Bone, Muscle & Joint Infections",
   "SortKey": "bone-joint-muscle-infections~1~septic-arthritis-nat-joint",
   "Term1": "septic-arthritis-nat-joint",
   "Term2": "",

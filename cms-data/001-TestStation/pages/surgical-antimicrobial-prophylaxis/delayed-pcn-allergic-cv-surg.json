@@ -1,6 +1,7 @@
 {
   "PageID": "delayed-pcn-allergic-cv-surg",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~delayed-pcn-allergic-cv-surg",
   "Term1": "delayed-pcn-allergic-cv-surg",
   "Term2": "",

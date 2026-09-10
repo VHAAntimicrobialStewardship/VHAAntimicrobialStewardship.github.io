@@ -1,6 +1,7 @@
 {
   "PageID": "pid",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~pid",
   "Term1": "PID",
   "Term2": "",

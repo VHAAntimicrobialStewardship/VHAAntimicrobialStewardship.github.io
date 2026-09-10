@@ -1,6 +1,7 @@
 {
   "PageID": "esbl-kpc-etc",
   "Group": "important-antimicrobial",
+  "GroupLabel": "Important Antimicrobial Information",
   "SortKey": "important-antimicrobial~1~resistant gram-negative bacteria, information (navigation)",
   "Term1": "Resistant gram-negative bacteria, information (Navigation)",
   "Term2": "Gram-negative bacteria, resistance information",

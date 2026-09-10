@@ -1,6 +1,7 @@
 {
   "PageID": "high-risk-surgical-site-prophylaxis",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~high risk surgical site prophylaxis",
   "Term1": "High risk surgical site prophylaxis",
   "Term2": "Contaminated surgical site prophylaxis",

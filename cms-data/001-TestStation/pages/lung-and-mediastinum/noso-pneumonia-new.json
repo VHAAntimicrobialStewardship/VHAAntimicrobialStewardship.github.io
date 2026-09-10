@@ -1,6 +1,7 @@
 {
   "PageID": "noso-pneumonia-new",
   "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
   "SortKey": "lung-and-mediastinum~1~noso pneumonia new (navigation)",
   "Term1": "NOSO PNEUMONIA NEW (Navigation)",
   "Term2": "",

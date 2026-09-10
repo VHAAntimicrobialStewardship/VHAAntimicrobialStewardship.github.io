@@ -1,6 +1,7 @@
 {
   "PageID": "genrl-alternative-drug",
   "Group": "important-antimicrobial",
+  "GroupLabel": "Important Antimicrobial Information",
   "SortKey": "important-antimicrobial~1~genrl-alternative-drug (navigation)",
   "Term1": "genrl-alternative-drug (Navigation)",
   "Term2": "",

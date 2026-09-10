@@ -1,6 +1,7 @@
 {
   "PageID": "ec-pv-sel-path",
   "Group": "device-related-infections",
+  "GroupLabel": "Device-Related Infections",
   "SortKey": "device-related-infections~1~ec-pv-sel-path (navigation)",
   "Term1": "ec-pv-sel-path (Navigation)",
   "Term2": "",

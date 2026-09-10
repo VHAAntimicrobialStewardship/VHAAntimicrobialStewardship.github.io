@@ -1,6 +1,7 @@
 {
   "PageID": "streptococcal-native-valve-endocarditis",
   "Group": "cardiovascular",
+  "GroupLabel": "Cardiovascular",
   "SortKey": "cardiovascular~1~streptococcal native valve endocarditis (navigation)",
   "Term1": "Streptococcal native valve endocarditis (Navigation)",
   "Term2": "Native valve endocarditis, streptococcal",

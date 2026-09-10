@@ -1,6 +1,7 @@
 {
   "PageID": "system-infectious-diseases",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~0",
   "Term1": "SYSTEM INFECTIOUS DISEASES (Navigation)",
   "Term2": "",

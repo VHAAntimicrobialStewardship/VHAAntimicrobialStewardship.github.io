@@ -1,6 +1,7 @@
 {
   "PageID": "drug-info",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~drug information",
   "Term1": "Drug Information",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "surg-ercp",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~surg ercp",
   "Term1": "SURG ERCP",
   "Term2": "",

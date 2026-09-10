@@ -1,6 +1,7 @@
 {
   "PageID": "aspiration-pneumonia",
   "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
   "SortKey": "lung-and-mediastinum~1~aspiration pneumonia (navigation)",
   "Term1": "ASPIRATION PNEUMONIA (Navigation)",
   "Term2": "",

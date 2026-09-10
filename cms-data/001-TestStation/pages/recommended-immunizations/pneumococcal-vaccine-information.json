@@ -1,6 +1,7 @@
 {
   "PageID": "pneumococcal-vaccine-information",
   "Group": "recommended-immunizations",
+  "GroupLabel": "Recommended Adult Immunizations",
   "SortKey": "recommended-immunizations~1~pneumococcal vaccine information",
   "Term1": "Pneumococcal vaccine information",
   "Term2": "PCV",

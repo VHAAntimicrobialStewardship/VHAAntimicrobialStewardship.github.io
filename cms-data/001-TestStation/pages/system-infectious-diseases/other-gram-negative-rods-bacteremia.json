@@ -1,6 +1,7 @@
 {
   "PageID": "other-gram-negative-rods-bacteremia",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~other gram-negative rods bacteremia",
   "Term1": "Other Gram-negative rods bacteremia",
   "Term2": "",

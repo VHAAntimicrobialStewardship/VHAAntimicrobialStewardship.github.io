@@ -1,6 +1,7 @@
 {
   "PageID": "vaccines-for-health-care-professionals",
   "Group": "recommended-immunizations",
+  "GroupLabel": "Recommended Adult Immunizations",
   "SortKey": "recommended-immunizations~1~vaccines for health care professionals",
   "Term1": "Vaccines for health care professionals",
   "Term2": "Immunizations for health care professionals",

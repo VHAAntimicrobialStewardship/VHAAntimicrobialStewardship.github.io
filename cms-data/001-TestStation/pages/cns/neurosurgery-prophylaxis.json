@@ -1,6 +1,7 @@
 {
   "PageID": "neurosurgery-prophylaxis",
   "Group": "cns",
+  "GroupLabel": "Central Nervous System",
   "SortKey": "cns~1~neurosurgery prophylaxis",
   "Term1": "Neurosurgery prophylaxis",
   "Term2": "",

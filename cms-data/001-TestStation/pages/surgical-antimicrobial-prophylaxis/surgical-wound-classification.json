@@ -1,6 +1,7 @@
 {
   "PageID": "surgical-wound-classification",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~surgical wound classification",
   "Term1": "Surgical wound classification",
   "Term2": "Wound, surgical, classification",

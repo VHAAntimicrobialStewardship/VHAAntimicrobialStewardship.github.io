@@ -1,6 +1,7 @@
 {
   "PageID": "surg-cefazolin-ir-weight-based-dosing",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~surg-cefazolin-ir-weight-based-dosing",
   "Term1": "surg-cefazolin-ir-weight-based-dosing",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "general-information-outpatient",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~general-information-outpatient (navigation)",
   "Term1": "general-information-outpatient (Navigation)",
   "Term2": "",

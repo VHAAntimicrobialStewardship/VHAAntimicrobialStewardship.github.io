@@ -1,6 +1,7 @@
 {
   "PageID": "hepb-vaccine-information-page",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~hepb-vaccine-information-page",
   "Term1": "hepb-vaccine-information-page",
   "Term2": "",

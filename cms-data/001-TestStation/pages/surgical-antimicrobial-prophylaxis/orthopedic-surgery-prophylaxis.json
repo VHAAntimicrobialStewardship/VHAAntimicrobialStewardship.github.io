@@ -1,6 +1,7 @@
 {
   "PageID": "orthopedic-surgery-prophylaxis",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~orthopedic surgery prophylaxis",
   "Term1": "Orthopedic surgery prophylaxis",
   "Term2": "Joint arthroplasty",

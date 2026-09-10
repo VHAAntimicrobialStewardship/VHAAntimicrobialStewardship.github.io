@@ -1,6 +1,7 @@
 {
   "PageID": "sepsis-susp-endocarditis",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~sepsis-susp-endocarditis",
   "Term1": "sepsis-susp-endocarditis",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "appendicitis-with-perforation",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~appendicitis with perforation (navigation)",
   "Term1": "APPENDICITIS WITH PERFORATION (Navigation)",
   "Term2": "",

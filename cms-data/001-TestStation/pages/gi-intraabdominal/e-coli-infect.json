@@ -1,6 +1,7 @@
 {
   "PageID": "e-coli-infect",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~e coli infect",
   "Term1": "E COLI INFECT",
   "Term2": "",

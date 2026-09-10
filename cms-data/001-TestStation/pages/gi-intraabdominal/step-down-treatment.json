@@ -1,6 +1,7 @@
 {
   "PageID": "step-down-treatment",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~step down treatment",
   "Term1": "STEP DOWN TREATMENT",
   "Term2": "",

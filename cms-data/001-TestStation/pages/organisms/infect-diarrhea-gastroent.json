@@ -1,6 +1,7 @@
 {
   "PageID": "infect-diarrhea-gastroent",
   "Group": "organisms",
+  "GroupLabel": "Organisms",
   "SortKey": "organisms~1~infect-diarrhea-gastroent",
   "Term1": "infect-diarrhea-gastroent",
   "Term2": "",

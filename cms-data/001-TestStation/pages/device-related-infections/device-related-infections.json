@@ -1,6 +1,7 @@
 {
   "PageID": "device-related-infections",
   "Group": "device-related-infections",
+  "GroupLabel": "Device-Related Infections",
   "SortKey": "device-related-infections~0",
   "Term1": "DEVICE-RELATED INFECTIONS (Navigation)",
   "Term2": "",

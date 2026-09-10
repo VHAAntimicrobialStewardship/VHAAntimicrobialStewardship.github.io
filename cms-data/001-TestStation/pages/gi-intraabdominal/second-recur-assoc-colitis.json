@@ -1,6 +1,7 @@
 {
   "PageID": "second-recur-assoc-colitis",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~second-recur-assoc-colitis",
   "Term1": "second-recur-assoc-colitis",
   "Term2": "",

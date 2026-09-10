@@ -1,6 +1,7 @@
 {
   "PageID": "hepatitis-c",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~hepatitis c",
   "Term1": "HEPATITIS C",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "aspergillus-infections-general",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~aspergillus infections, general",
   "Term1": "Aspergillus infections, general",
   "Term2": "",

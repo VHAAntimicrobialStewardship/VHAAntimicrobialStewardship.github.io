@@ -1,6 +1,7 @@
 {
   "PageID": "surg-vancomycin-post-op-specific-dosing",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~surg-vancomycin-post-op-specific-dosing",
   "Term1": "surg-vancomycin-post-op-specific-dosing",
   "Term2": "",

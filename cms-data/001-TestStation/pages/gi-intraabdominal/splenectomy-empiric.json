@@ -1,6 +1,7 @@
 {
   "PageID": "splenectomy-empiric",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~splenectomy-empiric",
   "Term1": "splenectomy-empiric",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "bispecific-lodging-admit-information",
   "Group": "bispecific-antibody",
+  "GroupLabel": "Bispecific Antibody",
   "SortKey": "bispecific-antibody~1~bispecific-lodging-admit-information (navigation)",
   "Term1": "BISPECIFIC-LODGING-ADMIT-INFORMATION (Navigation)",
   "Term2": "",

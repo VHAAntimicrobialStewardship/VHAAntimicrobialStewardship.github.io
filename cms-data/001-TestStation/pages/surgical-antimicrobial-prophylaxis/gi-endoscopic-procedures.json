@@ -1,6 +1,7 @@
 {
   "PageID": "gi-endoscopic-procedures",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~gi-endoscopic-procedures",
   "Term1": "gi-endoscopic-procedures",
   "Term2": "",

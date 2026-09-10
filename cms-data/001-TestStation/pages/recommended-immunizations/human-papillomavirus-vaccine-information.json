@@ -1,6 +1,7 @@
 {
   "PageID": "human-papillomavirus-vaccine-information",
   "Group": "recommended-immunizations",
+  "GroupLabel": "Recommended Adult Immunizations",
   "SortKey": "recommended-immunizations~1~human papillomavirus vaccine information",
   "Term1": "Human papillomavirus vaccine information",
   "Term2": "HPV vaccine information",

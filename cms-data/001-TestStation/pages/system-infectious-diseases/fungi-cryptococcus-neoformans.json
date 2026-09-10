@@ -1,6 +1,7 @@
 {
   "PageID": "fungi-cryptococcus-neoformans",
   "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
   "SortKey": "system-infectious-diseases~1~fungi cryptococcus neoformans",
   "Term1": "FUNGI CRYPTOCOCCUS NEOFORMANS",
   "Term2": "",

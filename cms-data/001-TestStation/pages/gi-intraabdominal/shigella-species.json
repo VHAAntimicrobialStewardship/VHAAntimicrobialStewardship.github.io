@@ -1,6 +1,7 @@
 {
   "PageID": "shigella-species",
   "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
   "SortKey": "gi-intraabdominal~1~shigella species",
   "Term1": "SHIGELLA SPECIES",
   "Term2": "",

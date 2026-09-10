@@ -1,6 +1,7 @@
 {
   "PageID": "haemophilus-influenza-type-b-vaccine-information",
   "Group": "recommended-immunizations",
+  "GroupLabel": "Recommended Adult Immunizations",
   "SortKey": "recommended-immunizations~1~haemophilus influenza type b vaccine information",
   "Term1": "Haemophilus influenza Type B vaccine information",
   "Term2": "Hib vaccine information",

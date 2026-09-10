@@ -1,6 +1,7 @@
 {
   "PageID": "brain-abscess-with-pseudomonas",
   "Group": "cns",
+  "GroupLabel": "Central Nervous System",
   "SortKey": "cns~1~brain abscess with pseudomonas",
   "Term1": "Brain abscess with pseudomonas",
   "Term2": "Pseudomonas brain abscess",

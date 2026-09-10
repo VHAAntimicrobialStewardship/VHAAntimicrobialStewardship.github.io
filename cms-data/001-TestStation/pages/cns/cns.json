@@ -1,6 +1,7 @@
 {
   "PageID": "cns",
   "Group": "cns",
+  "GroupLabel": "Central Nervous System",
   "SortKey": "cns~0",
   "Term1": "CNS (Navigation)",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "osteomyelitis",
   "Group": "bone-joint-muscle-infections",
+  "GroupLabel": "Bone, Muscle & Joint Infections",
   "SortKey": "bone-joint-muscle-infections~1~osteomyelitis",
   "Term1": "Osteomyelitis",
   "Term2": "",

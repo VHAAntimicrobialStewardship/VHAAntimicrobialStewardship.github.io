@@ -1,6 +1,7 @@
 {
   "PageID": "vascular-surgery-prophylaxis",
   "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~vascular surgery prophylaxis",
   "Term1": "Vascular surgery prophylaxis",
   "Term2": "",

@@ -1,6 +1,7 @@
 {
   "PageID": "upper-respiratory-infections-uri",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~upper respiratory infections",
   "Term1": "Upper respiratory infections",
   "Term2": "URI",

@@ -1,6 +1,7 @@
 {
   "PageID": "not-benefitted-bacteriuria",
   "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~bacteriuria, asymptomatic",
   "Term1": "Bacteriuria, asymptomatic",
   "Term2": "Candiduria, asymptomatic",
