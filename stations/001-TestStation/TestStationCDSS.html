@@ -330,7 +330,8 @@
   padding: 5px 5px; /* Adjust the values to your desired padding */
 }
 
-/* Inpatient/Outpatient/ER-UC tabs are being retired in favor of Combined guidance */
+/* Combined is now the only navigation mode; legacy tab buttons are retired */
+#combinedButton,
 #inptButton,
 #outptButton,
 #erucButton {
@@ -2929,7 +2930,7 @@ if (currentVersion === 'inpt'){
 	setButtonBackground(outptButton, false);
 	setButtonBackground(erucButton, false);
 	setButtonBackground(combinedButton, true);
-	setButtonAppearance(indexButton, false);
+	setButtonAppearance(indexButton, true);
 	}
 }
 // Function to set the button appearance
