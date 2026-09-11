@@ -97,10 +97,28 @@ def main():
     def breadcrumb(path):
         return [{"name": n, "label": label_for(n)} for n in path]
 
+    # A legacy record counts as "already migrated" if EITHER:
+    #  (a) it has its own Combined field (the usual convention for the Inpt-side source), OR
+    #  (b) some combined page's Inpt/Outpt/ERUC field points back at it (the convention used
+    #      for the Outpt-side and ER/UC-side source of a page that was already migrated via
+    #      its Inpt-side counterpart -- these do NOT get their own Combined field, only a
+    #      reverse pointer from the combined page). Missing this reverse-pointer check was a
+    #      real bug: it produced hundreds of false "no combined equivalent" results for
+    #      records that the live site already resolves correctly via
+    #      resolveTargetForCurrentVersion()'s reverse Inpt/Outpt/ERUC lookup.
+    reverse_referenced_names = set()
+    for m in menus:
+        for field in ("Inpt", "Outpt", "ERUC"):
+            val = (m.get(field) or "").strip()
+            if val:
+                reverse_referenced_names.add(val)
+
     # Legacy = non-slug Name (i.e. a raw VistA/order-menu record), with no Combined equivalent.
     legacy_without_combined = [
         m for m in menus
-        if not is_slug_name(m.get("Name", "")) and not (m.get("Combined") or "").strip()
+        if not is_slug_name(m.get("Name", ""))
+        and not (m.get("Combined") or "").strip()
+        and m["Name"] not in reverse_referenced_names
     ]
 
     report = []
