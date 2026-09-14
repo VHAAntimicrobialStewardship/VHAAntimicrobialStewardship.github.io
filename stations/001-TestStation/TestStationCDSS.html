@@ -2539,7 +2539,7 @@ if (currentVersion === 'inpt') {
   } else if (currentVersion === 'eruc') {
     dropdown.value = erucMenu;
   } else if (currentVersion === 'combined') {
-    dropdown.value = matchedCombinedName || combinedMenu;
+    dropdown.value = combinedMenu;
   }
   if (!dropdown.querySelector(`option[value="${dropdown.value}"]`)) {
     const firstVisibleOption = Array.from(dropdown.options).find(opt => opt.style.display !== 'none' && !opt.disabled);
