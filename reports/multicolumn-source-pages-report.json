@@ -1,0 +1,512 @@
+{
+  "likely_table_pages": [
+    {
+      "Name": "ORZID2 GMENU ABX INDEX INPATIENT",
+      "DisplayText": "Inpatient Antimicrobial CDSS Index",
+      "combined_pageid": "index",
+      "num_columns": 4,
+      "prose_rows": 28,
+      "item_rows": 1024,
+      "row_overlap_fraction": 1.0
+    },
+    {
+      "Name": "ORZID3 GMENU ABX HEPB VACCINE INFORMATION OLD PAGE",
+      "DisplayText": "Hepatitis B Vaccine Information Page",
+      "combined_pageid": "hepb-vaccine-information-old-page",
+      "num_columns": 4,
+      "prose_rows": 152,
+      "item_rows": 3,
+      "row_overlap_fraction": 1.0
+    },
+    {
+      "Name": "ORZID3 GMENU ABX HEPB VACCINE INFORMATION PAGE",
+      "DisplayText": null,
+      "combined_pageid": "hepb-vaccine-information-page",
+      "num_columns": 4,
+      "prose_rows": 109,
+      "item_rows": 1,
+      "row_overlap_fraction": 1.0
+    },
+    {
+      "Name": "ORZID3 GMENU ABX INDEX OUTPATIENT",
+      "DisplayText": "Outpatient Antimicrobial CDSS Index ",
+      "combined_pageid": "ORZID2 GMENU ABX INDEX INPATIENT",
+      "num_columns": 4,
+      "prose_rows": 28,
+      "item_rows": 1024,
+      "row_overlap_fraction": 1.0
+    },
+    {
+      "Name": "ORZID3 GMENU ABX MENACWY VACCINE INFORMATION PAGE",
+      "DisplayText": "Meningococcal Conjugate Vaccine Information Page",
+      "combined_pageid": "meningococcal-conjugate-vaccine-information",
+      "num_columns": 4,
+      "prose_rows": 82,
+      "item_rows": 2,
+      "row_overlap_fraction": 1.0
+    },
+    {
+      "Name": "ORZID3 GMENU ABX MMR VACCINE INFORMATION PAGE",
+      "DisplayText": "Measles, Mumps, Rubella Vaccine Information Page",
+      "combined_pageid": "measles-mumps-rubella-vaccine-information",
+      "num_columns": 4,
+      "prose_rows": 140,
+      "item_rows": 3,
+      "row_overlap_fraction": 1.0
+    },
+    {
+      "Name": "ORZID3 GMENU ABX VAR VACCINE INFORMATION PAGE",
+      "DisplayText": "Varicella Vaccine Information Page",
+      "combined_pageid": "chickenpox-vaccine-information",
+      "num_columns": 4,
+      "prose_rows": 137,
+      "item_rows": 1,
+      "row_overlap_fraction": 1.0
+    },
+    {
+      "Name": "ORZID3 GMENU ABX ZOSTER VACCINE INFORMATION PAGE",
+      "DisplayText": "Zoster (shingles) Information Page",
+      "combined_pageid": "zoster-vaccine-information",
+      "num_columns": 4,
+      "prose_rows": 88,
+      "item_rows": 1,
+      "row_overlap_fraction": 1.0
+    },
+    {
+      "Name": "ORZID3 GMENU ABX HEPAHEPB VACCINE INFORMATION PAGE",
+      "DisplayText": "Hepatitis A and Hepatitis B Vaccine Information Page",
+      "combined_pageid": "hepatitis-a-and-b-vaccine-information",
+      "num_columns": 4,
+      "prose_rows": 172,
+      "item_rows": 3,
+      "row_overlap_fraction": 0.96
+    },
+    {
+      "Name": "ORZID3 GMENU ABX HEPA VACCINE INFORMATION PAGE",
+      "DisplayText": "Hepatitis A Vaccine Information Page",
+      "combined_pageid": "hepatitis-a-vaccine-information",
+      "num_columns": 4,
+      "prose_rows": 76,
+      "item_rows": 1,
+      "row_overlap_fraction": 0.95
+    },
+    {
+      "Name": "ORZID3 GMENU ABX TDAP VACCINE INFORMATION PAGE",
+      "DisplayText": "Tetanus, Diphtheria and Acellular Pertussis Vaccine Information Page ",
+      "combined_pageid": "tetanus-diphtheria-and-acellular-pertussis-vaccine-information",
+      "num_columns": 4,
+      "prose_rows": 113,
+      "item_rows": 3,
+      "row_overlap_fraction": 0.93
+    },
+    {
+      "Name": "ORZID2 GMENU SURG ANTIBIOTIC RENAL REDOSING",
+      "DisplayText": "Redosing Interval for renal fxn normal vs esrd",
+      "combined_pageid": "surg-antibiotic-renal-redosing",
+      "num_columns": 3,
+      "prose_rows": 72,
+      "item_rows": 0,
+      "row_overlap_fraction": 0.91
+    },
+    {
+      "Name": "ORZID2 GMENU SURG PROPHYLAXIS DOSES AND REDOSING",
+      "DisplayText": "Doses and Redosing of prophylactic antibiotics",
+      "combined_pageid": "surg-prophylaxis-doses-and-redosing",
+      "num_columns": 3,
+      "prose_rows": 71,
+      "item_rows": 2,
+      "row_overlap_fraction": 0.91
+    },
+    {
+      "Name": "ORZID3 GMENU ABX PEP NONOCCUP RISK TABLE BY EXPOSURE ACT",
+      "DisplayText": "< SELECT HERE> FOR TABLE",
+      "combined_pageid": "ORZID3 GMENU ABX PEP NONOCCUP RISK TABLE BY EXPOSURE ACT",
+      "num_columns": 2,
+      "prose_rows": 38,
+      "item_rows": 0,
+      "row_overlap_fraction": 0.89
+    },
+    {
+      "Name": "ORZID2 GMENU SSTI MAIN MENU",
+      "DisplayText": "SSTI MAIN MENU ",
+      "combined_pageid": "ssti-main-menu",
+      "num_columns": 3,
+      "prose_rows": 19,
+      "item_rows": 21,
+      "row_overlap_fraction": 0.85
+    },
+    {
+      "Name": "ORZID3 GMENU SSTI MAIN MENU",
+      "DisplayText": "SSTI MAIN MENU ",
+      "combined_pageid": "ORZID2 GMENU SSTI MAIN MENU",
+      "num_columns": 3,
+      "prose_rows": 22,
+      "item_rows": 19,
+      "row_overlap_fraction": 0.85
+    },
+    {
+      "Name": "ORZID2 GMENU ABX CNS",
+      "DisplayText": "Central Nervous System",
+      "combined_pageid": "cns",
+      "num_columns": 2,
+      "prose_rows": 9,
+      "item_rows": 27,
+      "row_overlap_fraction": 0.82
+    },
+    {
+      "Name": "ORZID2 GMENU ABX SYSTEM INFECTIOUS DISEASES",
+      "DisplayText": "Systemic Infectious Diseases",
+      "combined_pageid": "system-infectious-diseases",
+      "num_columns": 2,
+      "prose_rows": 14,
+      "item_rows": 23,
+      "row_overlap_fraction": 0.8
+    },
+    {
+      "Name": "ORZID2 GMENU ABX GASTROINTESTINAL",
+      "DisplayText": "Gastrointestinal and Intraabdominal ",
+      "combined_pageid": "gi-intraabdominal",
+      "num_columns": 2,
+      "prose_rows": 19,
+      "item_rows": 20,
+      "row_overlap_fraction": 0.73
+    },
+    {
+      "Name": "ORZID2 GMENU BISPECIFIC NEW CRS MONITORING",
+      "DisplayText": "Bispecific CRS Monitoring Provider Orders ",
+      "combined_pageid": "bispecific-crs-monitoring",
+      "num_columns": 2,
+      "prose_rows": 37,
+      "item_rows": 10,
+      "row_overlap_fraction": 0.73
+    },
+    {
+      "Name": "ORZID3 GMENU ABX PNEUMOCOCCAL VACCINE INFORMATION PAGE",
+      "DisplayText": "Pneumococcal Vaccine Information Page",
+      "combined_pageid": "pneumococcal-vaccine-information",
+      "num_columns": 4,
+      "prose_rows": 79,
+      "item_rows": 1,
+      "row_overlap_fraction": 0.73
+    },
+    {
+      "Name": "ORZID3 GMENU GASTROINT OUTPT MAIN",
+      "DisplayText": "Gastrointestinal (Outpatient) ",
+      "combined_pageid": "ORZID2 GMENU ABX GASTROINTESTINAL",
+      "num_columns": 2,
+      "prose_rows": 19,
+      "item_rows": 20,
+      "row_overlap_fraction": 0.73
+    },
+    {
+      "Name": "ORZID3 GMENU VIRUSES OUTPT MAIN",
+      "DisplayText": "Viruses (Outpatient) ",
+      "combined_pageid": "ORZID2 GMENU ABX VIRUSES",
+      "num_columns": 2,
+      "prose_rows": 14,
+      "item_rows": 20,
+      "row_overlap_fraction": 0.72
+    },
+    {
+      "Name": "ORZID2 GMENU ABX HELP PAGE",
+      "DisplayText": "Help page (instructions, microbiology, drug properties, etc.)",
+      "combined_pageid": "help-page",
+      "num_columns": 2,
+      "prose_rows": 16,
+      "item_rows": 25,
+      "row_overlap_fraction": 0.68
+    },
+    {
+      "Name": "ORZID2 GMENU ABX ADDITIONAL ASSISTANCE",
+      "DisplayText": "Additional assistance",
+      "combined_pageid": "additional-assistance",
+      "num_columns": 2,
+      "prose_rows": 34,
+      "item_rows": 3,
+      "row_overlap_fraction": 0.67
+    },
+    {
+      "Name": "ORZID2 GMENU BISPECIFIC NEW ICANS MONITORING",
+      "DisplayText": "Bispecific ICANS Monitoring Provider Orders",
+      "combined_pageid": "bispecific-icans-monitoring",
+      "num_columns": 2,
+      "prose_rows": 39,
+      "item_rows": 5,
+      "row_overlap_fraction": 0.67
+    },
+    {
+      "Name": "ORZID3 GMENU ABX OUTPT MAIN",
+      "DisplayText": "Outpatient Antimicrobial Computer Decision Support System (CDSS)",
+      "combined_pageid": "main-menu",
+      "num_columns": 2,
+      "prose_rows": 39,
+      "item_rows": 69,
+      "row_overlap_fraction": 0.67
+    },
+    {
+      "Name": "ORZID3 GMENU ABX HPV VACCINATION INFORMATION PAGE",
+      "DisplayText": "Human Papillomavirus Vaccine Information Page",
+      "combined_pageid": "human-papillomavirus-vaccine-information",
+      "num_columns": 4,
+      "prose_rows": 66,
+      "item_rows": 1,
+      "row_overlap_fraction": 0.62
+    },
+    {
+      "Name": "ORZID3 GMENU ABX MENB VACCINE INFORMATION PAGE",
+      "DisplayText": "Meningococcal Serogroup B Vaccine Information Page ",
+      "combined_pageid": "meningococcal-serogroup-b-vaccine-information",
+      "num_columns": 4,
+      "prose_rows": 66,
+      "item_rows": 2,
+      "row_overlap_fraction": 0.59
+    },
+    {
+      "Name": "ORZID GMENU ER/UC EMERGENCY DEPARTMENT MAIN MENU",
+      "DisplayText": "ED Emergency Department Main Menu",
+      "combined_pageid": "main-menu",
+      "num_columns": 2,
+      "prose_rows": 50,
+      "item_rows": 45,
+      "row_overlap_fraction": 0.58
+    },
+    {
+      "Name": "ORZID2 GMENU ABX VIRUSES",
+      "DisplayText": "Viruses",
+      "combined_pageid": "viruses",
+      "num_columns": 2,
+      "prose_rows": 12,
+      "item_rows": 19,
+      "row_overlap_fraction": 0.58
+    },
+    {
+      "Name": "ORZID2 GMENU ABX GENITOURINARY",
+      "DisplayText": "Genitourinary",
+      "combined_pageid": "genitourinary",
+      "num_columns": 2,
+      "prose_rows": 10,
+      "item_rows": 30,
+      "row_overlap_fraction": 0.56
+    },
+    {
+      "Name": "ORZID2 GMENU ABX INPT MAIN",
+      "DisplayText": "Inpatient Antimicrobial Computer Decision Support System (CDSS)",
+      "combined_pageid": "main-menu",
+      "num_columns": 2,
+      "prose_rows": 39,
+      "item_rows": 66,
+      "row_overlap_fraction": 0.56
+    },
+    {
+      "Name": "ORZID2 GMENU ICE ASSESSMENT FOR ICANS",
+      "DisplayText": "Immune effector cell-associated encephalopathy (ICE) assessment",
+      "combined_pageid": "ice-assessment-for-icans",
+      "num_columns": 3,
+      "prose_rows": 23,
+      "item_rows": 0,
+      "row_overlap_fraction": 0.56
+    },
+    {
+      "Name": "ORZID3 GMENU GENITOURINARY",
+      "DisplayText": "Genitourinary (Outpatient) ",
+      "combined_pageid": "genitourinary",
+      "num_columns": 2,
+      "prose_rows": 10,
+      "item_rows": 30,
+      "row_overlap_fraction": 0.56
+    },
+    {
+      "Name": "ORZID3 GMENU ABX HIB VACCINE INFORMATION PAGE",
+      "DisplayText": "Haemophilus Influenza Type B Information Page",
+      "combined_pageid": "haemophilus-influenza-type-b-vaccine-information",
+      "num_columns": 4,
+      "prose_rows": 61,
+      "item_rows": 2,
+      "row_overlap_fraction": 0.46
+    }
+  ],
+  "other_migrated_multicolumn_pages": [
+    {
+      "Name": "ORZID2 GMENU MEDS DELAYED PRE-OP ANTIBIOTICS",
+      "DisplayText": "Pre-Op Antimicrobials",
+      "combined_pageid": "surgical-pre-op-antibiotics",
+      "num_columns": 2,
+      "prose_rows": 11,
+      "item_rows": 35,
+      "row_overlap_fraction": 0.1
+    },
+    {
+      "Name": "ORZID2 GMENU ABX HEAD AND NECK",
+      "DisplayText": "Head and Neck",
+      "combined_pageid": "head-and-neck",
+      "num_columns": 2,
+      "prose_rows": 7,
+      "item_rows": 31,
+      "row_overlap_fraction": 0.8
+    },
+    {
+      "Name": "ORZID3 GMENU HEAD AND NECK/ENT OUTPT MAIN",
+      "DisplayText": "Head and Neck / ENT (Outpatient) ",
+      "combined_pageid": "ORZID2 GMENU ABX HEAD AND NECK",
+      "num_columns": 2,
+      "prose_rows": 7,
+      "item_rows": 31,
+      "row_overlap_fraction": 0.8
+    },
+    {
+      "Name": "ORZID3 GMENU IMMUNOCOMPROMISED PT",
+      "DisplayText": "Infections in Immunocompromised patients (Outpatient) ",
+      "combined_pageid": "immunocompromised-patient",
+      "num_columns": 2,
+      "prose_rows": 4,
+      "item_rows": 19,
+      "row_overlap_fraction": 0.28
+    },
+    {
+      "Name": "ORZID2 GMENU ABX IMMUNOCOMPROMISED PATIENT",
+      "DisplayText": "Infections in Immunocompromised Patients",
+      "combined_pageid": "immunocompromised-patient",
+      "num_columns": 2,
+      "prose_rows": 3,
+      "item_rows": 22,
+      "row_overlap_fraction": 0.25
+    },
+    {
+      "Name": "ORZID2 GMENU ABX LUNG AND MEDIASTINUM",
+      "DisplayText": "Lung and Mediastinum ",
+      "combined_pageid": "lung-and-mediastinum",
+      "num_columns": 2,
+      "prose_rows": 3,
+      "item_rows": 13,
+      "row_overlap_fraction": 0.33
+    },
+    {
+      "Name": "ORZID2 GMENU ABX DRUG INFO PAGE",
+      "DisplayText": "Click for drug information. ([R]=renal excretion, [H]=hepatic excretion,",
+      "combined_pageid": "drug-info",
+      "num_columns": 2,
+      "prose_rows": 2,
+      "item_rows": 99,
+      "row_overlap_fraction": 0.96
+    },
+    {
+      "Name": "ORZID3 GMENU LUNGS AND MEDIASTINUM",
+      "DisplayText": "Lungs and Mediastinum (Outpatient)",
+      "combined_pageid": "lung-and-mediastinum",
+      "num_columns": 2,
+      "prose_rows": 2,
+      "item_rows": 14,
+      "row_overlap_fraction": 0.33
+    }
+  ],
+  "legacy_only_multicolumn_menus": [
+    {
+      "Name": "ORZID3 GMENU HIV PREP MEDICATION INDICATIONS CHART",
+      "DisplayText": "Medications indications chart ",
+      "combined_pageid": null,
+      "num_columns": 4,
+      "prose_rows": 33,
+      "item_rows": 0,
+      "row_overlap_fraction": 0.69
+    },
+    {
+      "Name": "ORZID2 GMENU ABX INDEX TEST ",
+      "DisplayText": null,
+      "combined_pageid": null,
+      "num_columns": 4,
+      "prose_rows": 28,
+      "item_rows": 1028,
+      "row_overlap_fraction": 0.99
+    },
+    {
+      "Name": "ORZID3 GMENU SSTI PURULENT",
+      "DisplayText": "Purulent SSTI",
+      "combined_pageid": null,
+      "num_columns": 2,
+      "prose_rows": 22,
+      "item_rows": 1,
+      "row_overlap_fraction": 0.45
+    },
+    {
+      "Name": "ORZID3 GMENU SSTI NEW",
+      "DisplayText": "SSTI",
+      "combined_pageid": null,
+      "num_columns": 2,
+      "prose_rows": 12,
+      "item_rows": 41,
+      "row_overlap_fraction": 0.79
+    },
+    {
+      "Name": "ORZID3 GMENU SSTI NEWEST",
+      "DisplayText": "SSTI",
+      "combined_pageid": null,
+      "num_columns": 2,
+      "prose_rows": 11,
+      "item_rows": 24,
+      "row_overlap_fraction": 0.87
+    },
+    {
+      "Name": "ORZID3 GMENU SSTI NEWER",
+      "DisplayText": "SSTI",
+      "combined_pageid": null,
+      "num_columns": 2,
+      "prose_rows": 9,
+      "item_rows": 19,
+      "row_overlap_fraction": 0.67
+    },
+    {
+      "Name": "ORZID3 GMENU HIV PREP LAB ORDERS PCP",
+      "DisplayText": "PrEP Orders ",
+      "combined_pageid": null,
+      "num_columns": 2,
+      "prose_rows": 7,
+      "item_rows": 25,
+      "row_overlap_fraction": 0.6
+    },
+    {
+      "Name": "ORZID3 GMENU DERMATOLOGY OUTPT MAIN",
+      "DisplayText": "Dermatology Infections (Outpatient) ",
+      "combined_pageid": null,
+      "num_columns": 2,
+      "prose_rows": 4,
+      "item_rows": 37,
+      "row_overlap_fraction": 0.74
+    },
+    {
+      "Name": "ORZID3 GMENU OUTPATIENT GENRL ALT LIST",
+      "DisplayText": "List of antimicrobials - Outpatient ",
+      "combined_pageid": null,
+      "num_columns": 2,
+      "prose_rows": 4,
+      "item_rows": 111,
+      "row_overlap_fraction": 0.54
+    },
+    {
+      "Name": "ORZID GMENU ABX GENRL ALT AM LIST",
+      "DisplayText": "List of antimicrobials",
+      "combined_pageid": null,
+      "num_columns": 2,
+      "prose_rows": 2,
+      "item_rows": 73,
+      "row_overlap_fraction": 0.79
+    },
+    {
+      "Name": "ORZID2 GMENU ABX SKIN SOFT TISSUE INFECTIONS",
+      "DisplayText": "Soft tissue, muscle, bone and joint infections",
+      "combined_pageid": null,
+      "num_columns": 2,
+      "prose_rows": 2,
+      "item_rows": 15,
+      "row_overlap_fraction": 0.5
+    },
+    {
+      "Name": "ORZID3 GMENU BONE MUSCLE JOINT NEW",
+      "DisplayText": "Bone, Muscle and Joint Infections",
+      "combined_pageid": null,
+      "num_columns": 2,
+      "prose_rows": 2,
+      "item_rows": 8,
+      "row_overlap_fraction": 0.5
+    }
+  ]
+}
