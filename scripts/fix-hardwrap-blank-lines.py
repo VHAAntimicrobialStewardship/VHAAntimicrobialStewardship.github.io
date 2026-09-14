@@ -181,7 +181,7 @@ def audit():
             'suspicious': suspicious,
             'reasons': reasons,
         })
-    out_path = 'cms-data/001-TestStation/documents/hardwrap-fix-audit-report.json'
+    out_path = 'reports/hardwrap-fix-audit-report.json'
     with open(out_path, 'w', encoding='utf-8', newline='\n') as f:
         json.dump(report, f, indent=2, ensure_ascii=False)
         f.write('\n')

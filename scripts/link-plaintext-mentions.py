@@ -37,7 +37,7 @@ from pathlib import Path
 ROOT = Path(__file__).parent.parent
 OMJSON_PATH = ROOT / "stations" / "001-TestStation" / "TestStationOMJSON.json"
 CMS_ROOT = ROOT / "cms-data" / "001-TestStation" / "pages"
-REPORT_PATH = ROOT / "cms-data" / "001-TestStation" / "documents" / "plaintext-link-pass-report.json"
+REPORT_PATH = ROOT / "reports" / "plaintext-link-pass-report.json"
 
 DRY_RUN = "--dry-run" in sys.argv
 
