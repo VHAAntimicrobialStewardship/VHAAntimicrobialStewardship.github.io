@@ -52554,7 +52554,7 @@
       "Name": "osteomyelitis",
       "Term1": "Osteomyelitis",
       "Term2": "",
-      "Text": "# OSTEOMYELITIS\nObtain material for gram-stain and culture before initiating antimicrobials.\nBlood and bone cultures are ideal.\n\nAntibiotics should be held if patient does not have adjacent skin/soft tissue infection\nDuration of treatment and route will vary with differences in location of\ninfection, infecting organism, and host comorbidities.\n\n## Empirical treatment regimens\n[Empirical therapy for osteomyelitis](osteom-empirical-therapy)\n>>  For patients with infections associated with prosthetic materials see\n[Infections in bone or joint prostheses](pros-joint-bone-infect)\n\n_______________________________________________________________________________\n\nReferences:\nMandell chapter: Osteomyelitis\nSanford Guide: osteomyelitis, foot bone",
+      "Text": "# OSTEOMYELITIS\n\nObtain material for gram-stain and culture before initiating antimicrobials.\nBlood and bone cultures are ideal.\n\nAntibiotics should be held if patient does not have adjacent skin/soft tissue infection\nDuration of treatment and route will vary with differences in location of\ninfection, infecting organism, and host comorbidities.\n\nTest edit \n\n## Empirical treatment regimens\n\n[Empirical therapy for osteomyelitis](osteom-empirical-therapy)\n>>  For patients with infections associated with prosthetic materials see\n[Infections in bone or joint prostheses](pros-joint-bone-infect)\n\n_______________________________________________________________________________\n\nReferences:\nMandell chapter: Osteomyelitis\nSanford Guide: osteomyelitis, foot bone",
       "Inpt": "ORZID2 GMENU OSTEOMYELITIS"
     },
     {
