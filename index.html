@@ -145,9 +145,6 @@
     </div>
     <div class="button-container">
         <p><span class="bold-text">Continue by selecting version below:</span></p>
-        <div class="green-button-row">
-        <button id="install-button" class="appinstall-button" style="display: none;">Install App</button>
-        </div>
         <div class="orange-button-row">
             <a style="text-decoration:none" class="special-button" href="stations/001-TestStation/TestStationCDSS.html">001-TestStation</a>
             <a style="text-decoration:none" class="special-button" href="stations/618-Minneapolis/MinneapolisCDSS.html">Minneapolis</a>
@@ -178,40 +175,6 @@
             scope: '/'
           });
         }
-
-        // Add an event listener to trigger the installation prompt
-        let deferredInstallPrompt;
-
-        window.addEventListener('beforeinstallprompt', (event) => {
-            // Store the event to use it later when you want to show the install prompt.
-            deferredInstallPrompt = event;
-
-            // Show the install button
-            const installButton = document.getElementById('install-button');
-            installButton.style.display = 'block';
-        });
-
-        // Your existing click event listener for the install button
-        const installButton = document.getElementById('install-button');
-
-        installButton.addEventListener('click', () => {
-            if (deferredInstallPrompt) {
-                // Show the installation prompt to the user
-                deferredInstallPrompt.prompt();
-
-                // Wait for the user's choice
-                deferredInstallPrompt.userChoice.then((choiceResult) => {
-                    if (choiceResult.outcome === 'accepted') {
-                        console.log('User accepted the installation');
-                    } else {
-                        console.log('User dismissed the installation');
-                    }
-
-                    // Reset the deferred event
-                    deferredInstallPrompt = null;
-                });
-            }
-        });
     </script>
 </body>
 </html>
