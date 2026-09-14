@@ -437,12 +437,14 @@
       <img src="/CDSSLogo.png" alt="CDSS Logo" id="CDSSlogo" class="CDSSLogo">
       <img src="/VASeal.jpg" alt="VA Seal" id="VASeal" class="VASeal">
     </div>
+    <!--
     <div class="buttons-containerDownloads">
       <a href="#" id="menusLink" class="button2">MenuData</a>
       <a href="#" id="ordersLink" class="button2">OrderData</a>
       <a href="#" id="templateFieldsLink" class="button2">TemplateFieldData</a>
       <a href="#" id="downloadJSONButton" class="button2">CurrentMenuData</a>
-    </div>  
+    </div>
+    -->
     <span id="versionTag"></span>
 <script>
 function adjustFontSize() {
@@ -567,11 +569,14 @@ if (hideButtonsHome === 'True') {
 }
   
 // Function to hide or remove buttons based on the value of hideButtons
+// Footer download buttons (MenuData/OrderData/TemplateFieldData/CurrentMenuData) removed; commented out below to avoid null-reference errors.
+/*
 if (hideButtonsDownloads === 'True') {
   {document.getElementById("menusLink").style.display="none";};
   {document.getElementById("ordersLink").style.display="none";};
   {document.getElementById("templateFieldsLink").style.display="none";};  
 }
+*/
 
 // Function to hide or remove buttons based on the value of hideVersionButtons
 var buttonsContainerVersions = document.querySelector('.buttons-containerVersions');
@@ -2752,7 +2757,7 @@ document.getElementById('siouxFallsButton').addEventListener('click', function (
 });
 
 // Attach event listeners
-document.getElementById('downloadJSONButton').addEventListener('click', handleDownloadJSON);
+// document.getElementById('downloadJSONButton').addEventListener('click', handleDownloadJSON); // footer button removed
 document.getElementById('goBackButton').addEventListener('click', handleGoBack);
 document.getElementById('goForwardButton').addEventListener('click', handleGoForward);
 document.getElementById('mainMenuButton').addEventListener('click', handleMainMenu);
@@ -2771,6 +2776,8 @@ document.getElementById('searchInput').addEventListener('input', openDropdown);
 document.getElementById('homeButton').addEventListener('click', function() {
     window.location.href = homeButtonUrl;
 });
+  // Footer download buttons removed; setting their href/download attributes is no longer needed.
+  /*
   document.addEventListener('DOMContentLoaded', () => {
       document.getElementById('menusLink').setAttribute('href', OMjson);
       document.getElementById('menusLink').setAttribute('download', OMjson);
@@ -2781,6 +2788,7 @@ document.getElementById('homeButton').addEventListener('click', function() {
       document.getElementById('templateFieldsLink').setAttribute('href', txmlFile);
       document.getElementById('templateFieldsLink').setAttribute('download', txmlFile);
     });
+  */
   
 // Call the adjustFontSize function when the window is resized
 window.addEventListener('resize', adjustFontSize);

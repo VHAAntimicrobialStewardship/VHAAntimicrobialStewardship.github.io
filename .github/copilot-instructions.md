@@ -6,6 +6,15 @@ Primary references:
 - Minneapolis source site: https://antimicrobialcdss.github.io/MinneapolisCDSS.html
 - Current site: https://vhaantimicrobialstewardship.github.io/
 
+Station roles (do not conflate these)
+
+- Production stations — stations/506-AnnArbor/, stations/539-Cincinnati/, stations/541-Cleveland/: live stations where real SME-driven content changes are expected and should be made freely per station request.
+- Test station — stations/001-TestStation/: for testing runtime/CMS/pipeline changes before they reach production stations. Safe to modify experimentally.
+- Minneapolis (reference only) — stations/618-Minneapolis/: the original source-of-truth reference kept only to check new work against. Do not make changes here (including incidental/cosmetic ones like footer buttons) unless the user explicitly asks for a Minneapolis-specific change.
+- All other station folders (437-Fargo, 438-SiouxFalls, 442-Cheyenne, 568-BlackHills, 636-Omaha, 636A6-DesMoines, 656-StCloud) are obsolete: do not touch, build features for, or treat as in-scope for changes unless the user explicitly says otherwise.
+
+When a request says "all stations" or is otherwise ambiguous about scope, ask which of the above groups it applies to rather than assuming Minneapolis or the obsolete stations are included.
+
 Stability-first operating rule
 
 When making any change, preserve behavior across three coupled systems:
