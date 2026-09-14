@@ -1324,13 +1324,6 @@ function parseRichTextLineSyntax(lineText) {
     return parsed;
   }
 
-  const bannerMatch = rawLine.match(BANNER_LINE_REGEX);
-  if (bannerMatch) {
-    parsed.text = bannerMatch[1].trim();
-    parsed.classes.push('bold', 'markdown-heading-2', 'markdown-banner');
-    return parsed;
-  }
-
   const headingMatch = rawLine.match(/^\s{0,3}(#{1,6})\s+(.*)$/);
   if (headingMatch) {
     const level = headingMatch[1].length;
@@ -1364,49 +1357,51 @@ function parseRichTextLineSyntax(lineText) {
   return parsed;
 }
 
-// Banner heading convention: ++ ## Title ++
-// The outer ++ mark the WHOLE LINE as a banner (bold, highlighted, full-width
-// treatment); the inner ## marks the title text itself as a heading. Authors
-// type this directly into the plain-text Text field in the Sveltia editor.
-const BANNER_LINE_REGEX = /^\s{0,3}\+\+\s*#{1,6}\s*(.*?)\s*\+\+\s*$/;
+// Banner heading convention: a plain H1 ('# Title') as the VERY FIRST
+// non-blank line of a page's Text is rendered as the full-width banner.
+// This is ordinary markdown -- Sveltia's WYSIWYG shows it as a real heading
+// -- so no special authoring syntax is needed; the runtime alone decides to
+// give the first H1 the full-width/highlighted banner treatment instead of
+// the normal inline heading treatment. Only the first line qualifies:
+// an H1 appearing later in the document is just a regular heading.
+const TOP_BANNER_HEADING_REGEX = /^\s{0,3}#\s+(.*?)\s*$/;
 
-// Pulls the FIRST banner line (if any) out of an array of source lines so it
-// can be rendered as a standalone full-width row above any column layout.
-// Any later banner-marked lines are left in place and are instead styled
-// inline by parseRichTextLineSyntax/appendRichTextLineContent.
+// Pulls the leading H1 (if any) out of an array of source lines so it can be
+// rendered as a standalone full-width row above any column layout. Only the
+// first non-blank line is ever eligible; blank lines before it are left in
+// place (stripBlankLinesAroundTightLines/normal rendering handles those).
 function extractTopBanner(lines) {
-  let bannerText = null;
-  const remainingLines = [];
-  for (const line of lines) {
-    if (bannerText === null) {
-      const bannerMatch = line.match(BANNER_LINE_REGEX);
-      if (bannerMatch) {
-        bannerText = bannerMatch[1].trim();
-        continue;
-      }
-    }
-    remainingLines.push(line);
+  let index = 0;
+  while (index < lines.length && (lines[index] || '').trim() === '') {
+    index++;
   }
-  return { bannerText, remainingLines };
+  if (index < lines.length) {
+    const bannerMatch = (lines[index] || '').match(TOP_BANNER_HEADING_REGEX);
+    if (bannerMatch) {
+      const remainingLines = lines.slice(0, index).concat(lines.slice(index + 1));
+      return { bannerText: bannerMatch[1].trim(), remainingLines };
+    }
+  }
+  return { bannerText: null, remainingLines: lines };
 }
 
-// Heading lines (## Title), banner lines (++ ## Title ++), and lines that are
-// ENTIRELY a single markdown link ([label](target)) are all block-level
-// elements that authors conventionally surround with a blank line in
-// markdown source -- that's normal, purely structural markdown syntax
-// (Sveltia's WYSIWYG never shows it as visible extra content: a link is just
-// another inline element in the flow, and a blank line is just a paragraph
-// separator). Our row-per-physical-line renderers (createRichTextTable /
-// createStructuredRichTextNavigationTable), however, render every blank
-// line as its own visible spacer row, which doubles up with the
-// heading/link's own row and produces a large visible gap that isn't in the
-// CMS preview. isTightBoundaryLine + stripBlankLinesAroundTightLines drop
-// only the blank line(s) immediately touching one of these lines so they sit
-// flush against surrounding content, while leaving blank lines elsewhere
-// (real paragraph/section spacing) untouched.
+// Heading lines (## Title, including the top banner's # Title), and lines
+// that are ENTIRELY a single markdown link ([label](target)), are all
+// block-level elements that authors conventionally surround with a blank
+// line in markdown source -- that's normal, purely structural markdown
+// syntax (Sveltia's WYSIWYG never shows it as visible extra content: a link
+// is just another inline element in the flow, and a blank line is just a
+// paragraph separator). Our row-per-physical-line renderers
+// (createRichTextTable / createStructuredRichTextNavigationTable), however,
+// render every blank line as its own visible spacer row, which doubles up
+// with the heading/link's own row and produces a large visible gap that
+// isn't in the CMS preview. isTightBoundaryLine + stripBlankLinesAroundTightLines
+// drop only the blank line(s) immediately touching one of these lines so
+// they sit flush against surrounding content, while leaving blank lines
+// elsewhere (real paragraph/section spacing) untouched.
 function isTightBoundaryLine(line) {
   const text = (line || '').toString();
-  if (/^\s{0,3}#{1,6}\s+.+$/.test(text) || BANNER_LINE_REGEX.test(text)) {
+  if (/^\s{0,3}#{1,6}\s+.+$/.test(text)) {
     return true;
   }
   // A line that is nothing but a single markdown link (optionally with a
@@ -1521,10 +1516,6 @@ function appendRichTextLineContent(container, lineText, selectedData) {
     return;
   }
 
-  if (parsedLine.classes.includes('markdown-banner')) {
-    container.style.backgroundColor = 'lightblue';
-  }
-
   if (parsedLine.prefix) {
     container.appendChild(document.createTextNode(parsedLine.prefix));
   }
@@ -1624,8 +1615,8 @@ function createStructuredRichTextNavigationTable(selectedData) {
   const tbody = document.createElement('tbody');
   const lines = (selectedData.Text || '').split(/\r?\n/);
 
-  // Extract top banner (first "++ ## Title ++" line), so it renders as a
-  // full-width row above any multi-column layout below it.
+  // Extract top banner (leading "# Title" H1 line, if any) so it renders as
+  // a full-width row above any multi-column layout below it.
   const { bannerText: topBanner, remainingLines: rawContentLines } = extractTopBanner(lines);
   const contentLines = stripBlankLinesAroundTightLines(rawContentLines);
 
@@ -1708,8 +1699,8 @@ function createRichTextTable(selectedData) {
   const content = typeof selectedData.Text === 'string' ? selectedData.Text : '';
   const allLines = content.split(/\r?\n/);
 
-  // Extract top banner (first "++ ## Title ++" line) so it renders as a
-  // full-width row above the rest of the content, same as the multi-column
+  // Extract top banner (leading "# Title" H1 line, if any) so it renders as
+  // a full-width row above the rest of the content, same as the multi-column
   // renderer, regardless of this page being single-column.
   const { bannerText: topBanner, remainingLines: rawLines } = extractTopBanner(allLines);
   const lines = stripBlankLinesAroundTightLines(rawLines);
