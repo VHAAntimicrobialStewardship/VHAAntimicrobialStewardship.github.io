@@ -1,0 +1,10 @@
+{
+  "PageID": "ec-enterococci",
+  "Group": "cardiovascular",
+  "GroupLabel": "Cardiovascular",
+  "SortKey": "cardiovascular~1~ec enterococci",
+  "Term1": "EC ENTEROCOCCI",
+  "Term2": "",
+  "Text": "## < OR >",
+  "Inpt": "ORZID2 GMENU EC ENTEROCOCCI"
+}

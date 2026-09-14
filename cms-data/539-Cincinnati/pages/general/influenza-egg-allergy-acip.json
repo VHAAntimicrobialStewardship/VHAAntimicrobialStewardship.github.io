@@ -1,0 +1,10 @@
+{
+  "PageID": "influenza-egg-allergy-acip",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~influenza-egg-allergy-acip",
+  "Term1": "influenza-egg-allergy-acip",
+  "Term2": "",
+  "Text": "# RECOMMENDATIONS NOT AVAILABLE\n\nRecommendations for this condition are not available within CDSS. Please refer\nto facility guidelines or other clinical resources for recommendations.",
+  "Inpt": "ORZID2 GMENU ABX INFLUENZA EGG ALLERGY ACIP"
+}

@@ -1,0 +1,11 @@
+{
+  "PageID": "derm-post-op-infections",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~derm post-op infections (navigation)",
+  "Term1": "DERM POST-OP INFECTIONS (Navigation)",
+  "Term2": "",
+  "Text": "decubitus ulcers with surrounding infection need broad spectrum antimicrobials.",
+  "Inpt": "ORZID2 GMENU ABX DERM POST-OP INFECTIONS",
+  "Outpt": "derm-post-op-infections"
+}

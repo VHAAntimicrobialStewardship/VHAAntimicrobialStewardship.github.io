@@ -1,0 +1,11 @@
+{
+  "PageID": "immunocom-diabetes-mellitus",
+  "Group": "immunocompromised-patient",
+  "GroupLabel": "Immunocompromised Patients",
+  "SortKey": "immunocompromised-patient~1~immunocom diabetes mellitus",
+  "Term1": "Diabetes mellitus",
+  "Term2": "",
+  "Text": "## Duration of therapy: 5 - 7 days, but adjust to clinical response",
+  "Inpt": "ORZID2 GMENU IMMUNOCOM DIABETES MELLITUS",
+  "Outpt": "immunocom-diabetes-mellitus"
+}

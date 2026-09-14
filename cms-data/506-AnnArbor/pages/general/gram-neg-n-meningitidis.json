@@ -1,0 +1,10 @@
+{
+  "PageID": "gram-neg-n-meningitidis",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~gram-neg-n-meningitidis",
+  "Term1": "Neisseria meningitidis",
+  "Term2": "",
+  "Text": "# REFER TO SYNDROME OR INFECTIOUS DISEASE FOR RECOMMENDATIONS\n\nRecommendations based on isolation of this specific pathogen are not available.\n\nPlease refer to the syndrome or infectious disease caused by this pathogen for\nantimicrobial therapy recommendations.",
+  "Inpt": "ORZID3 GMENU GRAM-NEG N. MENINGITIDIS"
+}

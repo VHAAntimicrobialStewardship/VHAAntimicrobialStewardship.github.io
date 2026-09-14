@@ -1,0 +1,10 @@
+{
+  "PageID": "gram-pos-corynebacterium-spp",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~gram-pos-corynebacterium-spp",
+  "Term1": "gram-pos-corynebacterium-spp",
+  "Term2": "",
+  "Text": "# CORYNEBACTERIUM SPP.\n\nOptimal therapy depends on both the disease or syndrome and the pathogen. See\ndisease/syndrome sections for more information.\n\n# For Corynebacterium diphtheriae isolates, contact infectious diseases\n\n# Corynebacterium jeikeium\n\nFor intravenous treatment options, please refer to Inpatient Antimicrobial CDSS.\n\n# _______________________________________________________________________________\n\n# References:\n\nSanford Guide article: Corynebacterium diptheriae\nSanford Guide article: Corynebacterium jeikeium\nUp-To-Date article: Clinical manifestations, diagnosis, and treatment of\ndiptheria",
+  "Inpt": "ORZID3 GMENU GRAM-POS CORYNEBACTERIUM SPP."
+}

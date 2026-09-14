@@ -1,0 +1,10 @@
+{
+  "PageID": "abscess-submenu",
+  "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
+  "SortKey": "gi-intraabdominal~1~abscess-submenu",
+  "Term1": "Select abscess type:",
+  "Term2": "",
+  "Text": "# Select abscess type:\n\n[Hepatic](liver-pyogenic-abscess)\n\n[Intraabdominal](second-peritonitis)\n\n[Intraperitoneal](second-peritonitis)\n\n[Perirectal/Anorectal](perianal-anorectal-abscess)",
+  "Inpt": "ORZID2 GMENU ABSCESS SUBMENU"
+}

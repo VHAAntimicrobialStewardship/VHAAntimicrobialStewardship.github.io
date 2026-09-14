@@ -1,0 +1,11 @@
+{
+  "PageID": "emp-intrav-w-o-vanco",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~emp intrav w/o vanco",
+  "Term1": "EMP INTRAV W/O VANCO",
+  "Term2": "",
+  "Text": "## Suspected MRSA",
+  "Inpt": "ORZID2 GMENU EMP INTRAV W/O VANCO",
+  "ERUC": "ORZID GMENU ER/UC EMP INTRAV W/O VANCO"
+}

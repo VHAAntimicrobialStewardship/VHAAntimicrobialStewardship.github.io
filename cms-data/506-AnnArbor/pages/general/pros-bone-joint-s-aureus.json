@@ -1,0 +1,11 @@
+{
+  "PageID": "pros-bone-joint-s-aureus",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~pros-bone-joint-s-aureus",
+  "Term1": "Staphylococcus aureus infections in bone or joint prostheses",
+  "Term2": "",
+  "Text": "# REFER TO SYNDROME OR INFECTIOUS DISEASE FOR RECOMMENDATIONS\n\nRecommendations based on isolation of this specific pathogen are not available.\n\nPlease refer to the syndrome or infectious disease caused by this pathogen for\nantimicrobial therapy recommendations.",
+  "Inpt": "ORZID2 GMENU PROS BONE/JOINT S. AUREUS",
+  "Outpt": "ORZID3 GMENU PROS B/J S. AUREUS"
+}

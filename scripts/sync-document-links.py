@@ -8,7 +8,15 @@ from pathlib import Path
 from urllib.parse import quote
 
 BASE_URL = "https://vhaantimicrobialstewardship.github.io"
-DOCS_DIR = Path("cms-data/001-TestStation/documents")
+ROOT = Path(__file__).parent.parent
+
+# Every station's cms-data/{station}/documents/ folder is synced.
+STATIONS: list[str] = [
+    "001-TestStation",
+    "541-Cleveland",
+    "539-Cincinnati",
+    "506-AnnArbor",
+]
 
 
 def to_absolute_url(file_path: str) -> str:
@@ -55,18 +63,28 @@ def sync_file(path: Path) -> bool:
     return changed
 
 
-def main() -> int:
-    if not DOCS_DIR.exists():
-        print(f"Directory not found: {DOCS_DIR}")
+def sync_station(docs_dir: Path) -> int:
+    if not docs_dir.exists():
+        print(f"Directory not found: {docs_dir}")
         return 0
 
     changed_files = 0
-    for path in sorted(DOCS_DIR.glob("*.json")):
+    for path in sorted(docs_dir.glob("*.json")):
         if sync_file(path):
             changed_files += 1
             print(f"Updated {path}")
 
-    print(f"Done. Updated {changed_files} file(s).")
+    return changed_files
+
+
+def main() -> int:
+    total_changed = 0
+    for station_dir in STATIONS:
+        docs_dir = ROOT / "cms-data" / station_dir / "documents"
+        print(f"\n=== {station_dir} ===")
+        total_changed += sync_station(docs_dir)
+
+    print(f"\nDone. Updated {total_changed} file(s) total.")
     return 0
 
 

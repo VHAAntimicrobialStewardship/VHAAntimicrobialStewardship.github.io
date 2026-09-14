@@ -1,0 +1,11 @@
+{
+  "PageID": "parasites",
+  "Group": "organisms",
+  "GroupLabel": "Organisms",
+  "SortKey": "organisms~1~parasites (navigation)",
+  "Term1": "Parasites (Navigation)",
+  "Term2": "",
+  "Text": "# ++ PARASITES ++\n\nAlways consider disease or syndrome, site of infection, penetration of drug(s)\n\ninto site, and whether organism is pathogen, colonizer, or contaminant. See\ndisease/syndrome section for more information.\n\n[Babesia spp.](babesia-infections-general)\n\n[Diarrhea, parasitic](infect-diarrhea-gastro)\n\n[Malaria](malaria-treatment)\n\n[Pneumocystis](pneumocystis-jirovecii)\n\n[Toxoplasma](toxoplasma-infections-general)\n\n# Last reviewed 8/2018",
+  "Inpt": "ORZID2 GMENU PARASITES",
+  "Outpt": "ORZID3 GMENU PARASITES MAIN"
+}

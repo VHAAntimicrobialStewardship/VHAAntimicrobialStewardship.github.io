@@ -1,0 +1,10 @@
+{
+  "PageID": "ec-gnb",
+  "Group": "cardiovascular",
+  "GroupLabel": "Cardiovascular",
+  "SortKey": "cardiovascular~1~ec gnb",
+  "Term1": "EC GNB",
+  "Term2": "",
+  "Text": "## _______________________________________________________________________________",
+  "Inpt": "ORZID2 GMENU EC GNB"
+}

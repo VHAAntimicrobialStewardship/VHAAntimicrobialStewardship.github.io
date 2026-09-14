@@ -8,6 +8,20 @@ Output:
   cms-data/001-TestStation/pages/{group}/{page-id}.json  — one file per page
   admin/config.yml updated with one primary station collection and filtered
   shortcut collections for common groups
+
+SCOPE NOTE (multi-station): This script is intentionally NOT generalized to
+loop over multiple stations. It regenerates admin/config.yml's collections
+wholesale from scratch (see the "Generate admin/config.yml" section below),
+so blindly looping it over every station would require it to merge multiple
+stations' collection blocks correctly in one pass — a much larger, riskier
+rewrite of that section. New stations added by copying 001-TestStation's
+cms-data directly (rather than deriving cms-data from OMJSON via this script)
+do not need this script at all; scripts/compile-cms.py (cms-data -> OMJSON)
+is already multi-station-aware and is the one that matters for day-to-day
+CMS edits. If export-cms.py ever needs to target a different station,
+change STATION_ID/JSON_PATH/CMS_ROOT below manually and re-review the
+admin/config.yml generation logic before running — never run this script
+without asking the user first, per repo memory.
 """
 
 import json

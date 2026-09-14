@@ -1,0 +1,10 @@
+{
+  "PageID": "pyomyositis",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~pyomyositis",
+  "Term1": "pyomyositis",
+  "Term2": "",
+  "Text": "PYOMYOSITIS\nRefer to Inpatient Antimicrobial CDSS.",
+  "Inpt": "ORZID3 GMENU PYOMYOSITIS"
+}

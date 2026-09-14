@@ -1,0 +1,10 @@
+{
+  "PageID": "meningitis-with-e-coli-pseudomonas-or-other-organism",
+  "Group": "cns",
+  "GroupLabel": "Central Nervous System",
+  "SortKey": "cns~1~meningitis with e. coli, pseudomonas or other organism",
+  "Term1": "Bacterial meningitis with e. coli, pseudomonas, or another organism",
+  "Term2": "Escherichia coli meningitis",
+  "Text": "# BACTERIAL MENINGITIS WITH E. COLI, PSEUDOMONAS, OR ANOTHER ORGANISM\n\nTreatment is complicated and non-standardized. Consult Infectious Diseases to\nassist in treatment in all cases.\n\n# _______________________________________________________________________________\n\nReferences:\n\nMandell chapter: Acute meningitis\nSanford keyword: Meningitis, bacterial, positive gram stain\nTunkel et al., Clin Infect Dis, 2004, 39.1267-84\nUp-to-Date Article: Clinical features and diagnosis of acute bacterial\nmeningitis in adults\nUp-to-Date Article: Treatment of bacterial meningitis caused by specific\npathogens in adults\nVan de Beek et al., Clin Microbiol Infect, 2016, 22.S37-S62",
+  "Inpt": "ORZID2 GMENU BACT MENING E.COLI, PSEUDOMONAS"
+}

@@ -1,0 +1,11 @@
+{
+  "PageID": "acknowledgement",
+  "Group": "help-page",
+  "GroupLabel": "Help & Resources",
+  "SortKey": "help-page~1~acknowledgement (navigation)",
+  "Term1": "Acknowledgement (Navigation)",
+  "Term2": "Funding",
+  "Text": "# ACKNOWLEDGEMENT\n\nThis project was funded as a VISN 23 Strategic Planning Project for FY2005-2007.\n\nIt addresses the VISN's efforts to build a culture of continuous quality\nimprovement, evidence-based practice and optimal resource utilization.\n\nThis project has been guided by our project collaborators as well as the efforts\nof the guideline review committee members. We would like to thank these\nindividuals for their time and thoughtful input.",
+  "Inpt": "ORZID2 GMENU ABX ACKNOWLEDGEMENTS",
+  "Outpt": "ORZID2 GMENU ABX ACKNOWLEDGEMENTS"
+}

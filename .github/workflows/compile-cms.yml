@@ -35,9 +35,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add stations/001-TestStation/TestStationOMJSON.json
+          git add stations/541-Cleveland/ClevelandOMJSON.json
+          git add stations/539-Cincinnati/CincinnatiOMJSON.json
+          git add stations/506-AnnArbor/AnnArborOMJSON.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: compile CMS edits into TestStationOMJSON [skip ci]"
+            git commit -m "chore: compile CMS edits into station OMJSON files [skip ci]"
             git push
           fi

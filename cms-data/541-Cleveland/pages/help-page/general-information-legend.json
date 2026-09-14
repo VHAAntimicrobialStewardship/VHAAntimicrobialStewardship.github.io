@@ -1,0 +1,9 @@
+{
+  "PageID": "general-information-legend",
+  "Group": "help-page",
+  "GroupLabel": "Help & Resources",
+  "SortKey": "help-page~1~general information (navigation)",
+  "Term1": "GENERAL INFORMATION (Navigation)",
+  "Term2": "Legend & Additional Information",
+  "Text": "# GENERAL INFORMATION\n\n[Help and Additional Information Menu](help-page)\n\nConsult Menu - place consults to specialty service\nAntibiogram\n[Alternative Antimicrobials to CDSS Recommendations - select here](genrl-alternative-drug)\n\n[Beta-lactam Reaction Assessment](beta-lactam-allergy-assessment)\n\n[Contact Information](additional-assistance)\n\n[Antimicrobial Information](drug-info)\n\n## LEGEND\n\n[Important Drug Properties](important-drug-properties)\n\n[DI] = Important interactions between antimicrobial and other drugs\n[H] = Hepatic excretion of antimicrobial\n[M] = Minimal risk posed by antimicrobial\n[O] = Other important antimicrobial property\n[R] = Renal excretion of antimicrobial\n[Antimicrobial Cost Information](antimicrobial-cost-information)\n\n($) = <10 dollars per day\n($$) = 10-50 dollars per day\n($$$) = 51-100 dollars per day\n($$$$) = 101-400 dollars per day\n($$$$$) = >400 dollars per day"
+}

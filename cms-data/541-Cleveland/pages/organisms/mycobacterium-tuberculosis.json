@@ -1,0 +1,11 @@
+{
+  "PageID": "mycobacterium-tuberculosis",
+  "Group": "organisms",
+  "GroupLabel": "Organisms",
+  "SortKey": "organisms~1~mycobacterium tuberculosis",
+  "Term1": "Mycobacterium tuberculosis",
+  "Term2": "Tuberculosis",
+  "Text": "# MYCOBACTERIUM TUBERCULOSIS\n\nManagement of tuberculosis is complex. Contact Infectious Diseases and/or\nPulmonary service for more information.",
+  "Inpt": "ORZID2 GMENU M. TUBERCULOSIS",
+  "Outpt": "ORZID3 GMENU PATHO M. TUBERCULOSIS"
+}

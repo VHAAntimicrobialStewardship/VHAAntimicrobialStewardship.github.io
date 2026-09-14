@@ -1,0 +1,11 @@
+{
+  "PageID": "prophylaxis-for-ophthalmic-surgery",
+  "Group": "head-and-neck",
+  "GroupLabel": "Head and Neck",
+  "SortKey": "head-and-neck~1~prophylaxis for ophthalmic surgery",
+  "Term1": "Prophylaxis for ophthalmic surgery",
+  "Term2": "",
+  "Text": "# PROPHYLAXIS FOR OPHTHALMIC SURGERY\n\nWhen indicated, ophthalmology will order antimicrobial prophylaxis before\nprocedures.",
+  "Inpt": "ORZID2 GMENU PROPHYLAXIS OPTH SURG",
+  "Outpt": "ORZID3 GMENU PROPHYLAXIS OPTH SURG"
+}
