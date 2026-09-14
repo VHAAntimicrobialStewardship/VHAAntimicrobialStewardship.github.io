@@ -91,6 +91,19 @@
             cursor: pointer;
             text-align: center;
         }
+        .big-button {
+            white-space: nowrap;
+            flex: 1;
+            background-color: #00b159;
+            color: white;
+            padding: 25px 20px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            font-size: 24px;
+            font-family: 'PT Serif Bold', Arial, sans-serif;
+            font-weight: bold;
+        }
         .appinstall-button {
             font-size: 16px;
             white-space: nowrap;
@@ -104,7 +117,8 @@
         }
         .blue-button-row,
         .orange-button-row,
-        .green-button-row {
+        .green-button-row,
+        .big-button-row {
             display: flex;
             gap: 10px;
             flex-basis: 100%;
@@ -145,11 +159,6 @@
     </div>
     <div class="button-container">
         <p><span class="bold-text">Continue by selecting version below:</span></p>
-        <div class="orange-button-row">
-            <a style="text-decoration:none" class="special-button" href="stations/001-TestStation/TestStationCDSS.html">001-TestStation</a>
-            <a style="text-decoration:none" class="special-button" href="stations/618-Minneapolis/MinneapolisCDSS.html">Minneapolis</a>
-        </div>
-        <div class="blankSpace"></div>
         <div class="blue-button-row">
             <a style="text-decoration:none" class="button" href="stations/541-Cleveland/ClevelandCDSS.html">Cleveland</a>
             <a style="text-decoration:none" class="button" href="stations/539-Cincinnati/CincinnatiCDSS.html">Cincinnati</a>
@@ -157,6 +166,14 @@
         <div class="blankSpace"></div>
         <div class="blue-button-row">
             <a style="text-decoration:none" class="button" href="stations/506-AnnArbor/AnnArborCDSS.html">Ann Arbor</a>
+        </div>
+        <div class="blankSpace"></div>
+        <div class="orange-button-row">
+            <a style="text-decoration:none" class="special-button" href="stations/001-TestStation/TestStationCDSS.html">001-TestStation</a>
+        </div>
+        <div class="blankSpace"></div>
+        <div class="big-button-row">
+            <a style="text-decoration:none" class="big-button" href="stations/618-Minneapolis/MinneapolisCDSS.html">Minneapolis</a>
         </div>
     </div>
     <div class="bottom-image">
