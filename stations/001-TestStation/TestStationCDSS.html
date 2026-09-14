@@ -1390,24 +1390,31 @@ function extractTopBanner(lines) {
   return { bannerText, remainingLines };
 }
 
-// Heading lines (## Title) and banner lines (++ ## Title ++) are both
-// block-level elements that authors conventionally surround with a blank
-// line in markdown source -- that's normal, purely structural markdown
-// syntax (Sveltia's WYSIWYG never shows it as visible extra content). Our
-// row-per-physical-line renderers (createRichTextTable /
+// Heading lines (## Title), banner lines (++ ## Title ++), and lines that are
+// ENTIRELY a single markdown link ([label](target)) are all block-level
+// elements that authors conventionally surround with a blank line in
+// markdown source -- that's normal, purely structural markdown syntax
+// (Sveltia's WYSIWYG never shows it as visible extra content: a link is just
+// another inline element in the flow, and a blank line is just a paragraph
+// separator). Our row-per-physical-line renderers (createRichTextTable /
 // createStructuredRichTextNavigationTable), however, render every blank
-// line as its own visible spacer row, which doubles up with the heading's
-// own row and produces a large visible gap that isn't in the CMS preview.
-// isHeadingLikeLine + stripBlankLinesAroundHeadings drop only the blank
-// line(s) immediately touching a heading/banner line so headings sit flush
-// against their content, while leaving blank lines elsewhere (real
-// paragraph/section spacing) untouched.
-function isHeadingLikeLine(line) {
+// line as its own visible spacer row, which doubles up with the
+// heading/link's own row and produces a large visible gap that isn't in the
+// CMS preview. isTightBoundaryLine + stripBlankLinesAroundTightLines drop
+// only the blank line(s) immediately touching one of these lines so they sit
+// flush against surrounding content, while leaving blank lines elsewhere
+// (real paragraph/section spacing) untouched.
+function isTightBoundaryLine(line) {
   const text = (line || '').toString();
-  return /^\s{0,3}#{1,6}\s+.+$/.test(text) || BANNER_LINE_REGEX.test(text);
+  if (/^\s{0,3}#{1,6}\s+.+$/.test(text) || BANNER_LINE_REGEX.test(text)) {
+    return true;
+  }
+  // A line that is nothing but a single markdown link (optionally with a
+  // trailing punctuation mark), e.g. "[Septic bursitis](septic-bursitis)".
+  return /^\s{0,3}\[[^\]]+\]\([^)]+\)[.,;:]?\s*$/.test(text);
 }
 
-function stripBlankLinesAroundHeadings(lines) {
+function stripBlankLinesAroundTightLines(lines) {
   const result = [];
   let i = 0;
   while (i < lines.length) {
@@ -1416,9 +1423,9 @@ function stripBlankLinesAroundHeadings(lines) {
       while (j < lines.length && (lines[j] || '').trim() === '') {
         j++;
       }
-      const prevIsHeading = i > 0 && isHeadingLikeLine(lines[i - 1]);
-      const nextIsHeading = j < lines.length && isHeadingLikeLine(lines[j]);
-      if (!(prevIsHeading || nextIsHeading)) {
+      const prevIsTight = i > 0 && isTightBoundaryLine(lines[i - 1]);
+      const nextIsTight = j < lines.length && isTightBoundaryLine(lines[j]);
+      if (!(prevIsTight || nextIsTight)) {
         for (let k = i; k < j; k++) {
           result.push(lines[k]);
         }
@@ -1620,7 +1627,7 @@ function createStructuredRichTextNavigationTable(selectedData) {
   // Extract top banner (first "++ ## Title ++" line), so it renders as a
   // full-width row above any multi-column layout below it.
   const { bannerText: topBanner, remainingLines: rawContentLines } = extractTopBanner(lines);
-  const contentLines = stripBlankLinesAroundHeadings(rawContentLines);
+  const contentLines = stripBlankLinesAroundTightLines(rawContentLines);
 
   // Split content into N sections based on delimiter markers.
   // Supported markers: <!-- RIGHT COLUMN -->, <!-- COLUMN 2 -->, <!-- COLUMN 3 -->, etc.
@@ -1705,7 +1712,7 @@ function createRichTextTable(selectedData) {
   // full-width row above the rest of the content, same as the multi-column
   // renderer, regardless of this page being single-column.
   const { bannerText: topBanner, remainingLines: rawLines } = extractTopBanner(allLines);
-  const lines = stripBlankLinesAroundHeadings(rawLines);
+  const lines = stripBlankLinesAroundTightLines(rawLines);
   if (topBanner) {
     appendBannerRow(tbody, topBanner, 1);
   }
