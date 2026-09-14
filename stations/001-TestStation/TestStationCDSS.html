@@ -1390,6 +1390,48 @@ function extractTopBanner(lines) {
   return { bannerText, remainingLines };
 }
 
+// Heading lines (## Title) and banner lines (++ ## Title ++) are both
+// block-level elements that authors conventionally surround with a blank
+// line in markdown source -- that's normal, purely structural markdown
+// syntax (Sveltia's WYSIWYG never shows it as visible extra content). Our
+// row-per-physical-line renderers (createRichTextTable /
+// createStructuredRichTextNavigationTable), however, render every blank
+// line as its own visible spacer row, which doubles up with the heading's
+// own row and produces a large visible gap that isn't in the CMS preview.
+// isHeadingLikeLine + stripBlankLinesAroundHeadings drop only the blank
+// line(s) immediately touching a heading/banner line so headings sit flush
+// against their content, while leaving blank lines elsewhere (real
+// paragraph/section spacing) untouched.
+function isHeadingLikeLine(line) {
+  const text = (line || '').toString();
+  return /^\s{0,3}#{1,6}\s+.+$/.test(text) || BANNER_LINE_REGEX.test(text);
+}
+
+function stripBlankLinesAroundHeadings(lines) {
+  const result = [];
+  let i = 0;
+  while (i < lines.length) {
+    if ((lines[i] || '').trim() === '') {
+      let j = i;
+      while (j < lines.length && (lines[j] || '').trim() === '') {
+        j++;
+      }
+      const prevIsHeading = i > 0 && isHeadingLikeLine(lines[i - 1]);
+      const nextIsHeading = j < lines.length && isHeadingLikeLine(lines[j]);
+      if (!(prevIsHeading || nextIsHeading)) {
+        for (let k = i; k < j; k++) {
+          result.push(lines[k]);
+        }
+      }
+      i = j;
+      continue;
+    }
+    result.push(lines[i]);
+    i++;
+  }
+  return result;
+}
+
 function appendBannerRow(tbody, bannerText, colSpan) {
   const bannerRow = document.createElement('tr');
   const bannerCell = document.createElement('td');
@@ -1577,7 +1619,8 @@ function createStructuredRichTextNavigationTable(selectedData) {
 
   // Extract top banner (first "++ ## Title ++" line), so it renders as a
   // full-width row above any multi-column layout below it.
-  const { bannerText: topBanner, remainingLines: contentLines } = extractTopBanner(lines);
+  const { bannerText: topBanner, remainingLines: rawContentLines } = extractTopBanner(lines);
+  const contentLines = stripBlankLinesAroundHeadings(rawContentLines);
 
   // Split content into N sections based on delimiter markers.
   // Supported markers: <!-- RIGHT COLUMN -->, <!-- COLUMN 2 -->, <!-- COLUMN 3 -->, etc.
@@ -1661,7 +1704,8 @@ function createRichTextTable(selectedData) {
   // Extract top banner (first "++ ## Title ++" line) so it renders as a
   // full-width row above the rest of the content, same as the multi-column
   // renderer, regardless of this page being single-column.
-  const { bannerText: topBanner, remainingLines: lines } = extractTopBanner(allLines);
+  const { bannerText: topBanner, remainingLines: rawLines } = extractTopBanner(allLines);
+  const lines = stripBlankLinesAroundHeadings(rawLines);
   if (topBanner) {
     appendBannerRow(tbody, topBanner, 1);
   }
