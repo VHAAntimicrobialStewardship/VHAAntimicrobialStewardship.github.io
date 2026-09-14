@@ -3,7 +3,7 @@
   "Group": "general",
   "GroupLabel": "General / Miscellaneous",
   "SortKey": "general~1~rsv vaccine information page",
-  "Term1": "RSV VACCINE INFORMATION PAGE",
+  "Term1": "Rsv vaccine",
   "Term2": "",
   "Text": "## RSV VACCINE\nVaccination is recommended to protect adults aged 75 years and older from\nsevere Respiratory Syncytial Virus (RSV) infection. Vaccination consists of\na single dose of either available vaccine formulation (GlaxoSmithKline or\nPfizer).\nPeople 60-74 years may recieve the vaccine if they have a risk factor for\nsevere RSV disease.\n## Inpatient\n\nOrder:\nRSV vaccine once\n## _______________________________________________________________________________\nReferences:\nMelgar, Michael, MMWR, 2023, 72\nUp-To-Date article: Recombinant respiratory syncytial virus vaccine (RSVPreF)\n(Abrysvo): Drug information\n\n## Outpatient\n\nGuidance\n## *Pregnant patients - Order Abrysvo once dose from drug file\n## Outpatient\n\nmRESVIA order:\n## Outpatient\n\nmRESVIA order:\nRSV (mRESVIA) vaccine once dose (not approved for pregnant patients)",
   "Inpt": "ORZID2 GMENU ABX RSV VACCINE INFORMATION PAGE",

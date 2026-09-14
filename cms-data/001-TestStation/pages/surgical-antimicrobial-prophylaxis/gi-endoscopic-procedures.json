@@ -3,7 +3,7 @@
   "Group": "surgical-antimicrobial-prophylaxis",
   "GroupLabel": "Surgical Antimicrobial Prophylaxis",
   "SortKey": "surgical-antimicrobial-prophylaxis~1~gi-endoscopic-procedures",
-  "Term1": "gi-endoscopic-procedures",
+  "Term1": "Antibiotic prophylaxis for gi endoscopic procedures",
   "Term2": "",
   "Text": "# ANTIBIOTIC PROPHYLAXIS FOR GI ENDOSCOPIC PROCEDURES\n\nThe purpose of antibiotic prophylaxis during GI endoscopy is to reduce the\nrisk of iatrogenic infectious complications.\n\n[Endoscopic Retrograde Cholangiopancreatography \\(ERCP\\)-Inpatient](surg-ercp)\n\n[Endoscopic Ultrasound-FNA Gastrointestinal Tract](endoscopic-ultrasound-fna-procedures)\n\n[Placement of Percutaneous Gastrostomy \\(PEG\\) Tube](percutaneous-endoscopic-gastromy-tube-placement-procedure)",
   "Inpt": "ORZID2 GMENU GI ENDOSCOPIC PROCEDURES",
