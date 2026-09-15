@@ -63,7 +63,7 @@ collections:
     create: true
     format: json
     extension: json
-    media_folder: "assets/uploads/001-TestStation"
+    media_folder: "/assets/uploads/001-TestStation"
     public_folder: "/assets/uploads/001-TestStation"
     editor:
       preview: false
@@ -197,7 +197,7 @@ collections:
     create: true
     format: json
     extension: json
-    media_folder: "assets/uploads/541-Cleveland"
+    media_folder: "/assets/uploads/541-Cleveland"
     public_folder: "/assets/uploads/541-Cleveland"
     editor:
       preview: false
@@ -322,7 +322,7 @@ collections:
     create: true
     format: json
     extension: json
-    media_folder: "assets/uploads/539-Cincinnati"
+    media_folder: "/assets/uploads/539-Cincinnati"
     public_folder: "/assets/uploads/539-Cincinnati"
     editor:
       preview: false
@@ -447,7 +447,7 @@ collections:
     create: true
     format: json
     extension: json
-    media_folder: "assets/uploads/506-AnnArbor"
+    media_folder: "/assets/uploads/506-AnnArbor"
     public_folder: "/assets/uploads/506-AnnArbor"
     editor:
       preview: false
