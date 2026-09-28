@@ -274,7 +274,8 @@
     
 .buttons-containerDownloads,
 .buttons-containerVersions,
-.buttons-containerMenuJson {
+.buttons-containerMenuJson,
+.buttons-containerFeedback {
   width: 800px;
   margin-left: 0px; /* Add the desired margin value */
   margin-top: 5px; 
@@ -436,6 +437,9 @@
     <div class="picture-container">
       <img src="/CDSSLogo.png" alt="CDSS Logo" id="CDSSlogo" class="CDSSLogo">
       <img src="/VASeal.jpg" alt="VA Seal" id="VASeal" class="VASeal">
+    </div>
+    <div class="buttons-containerFeedback">
+      <button id="feedbackButton" class="button2">Antimicrobial SME Feedback</button>
     </div>
     <!--
     <div class="buttons-containerDownloads">
@@ -2767,6 +2771,13 @@ document.getElementById('inptButton').addEventListener('click', handleInpt);
 document.getElementById('erucButton').addEventListener('click', handleEruc);
 document.getElementById('combinedButton').addEventListener('click', handleCombined);
 document.getElementById('helpLegendButton').addEventListener('click', () => handleRowClick({ Item: helpLegendPageId }));
+document.getElementById('feedbackButton').addEventListener('click', function () {
+  const pageId = (selectedData && selectedData.Name) ? selectedData.Name : '';
+  const feedbackUrl = 'https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Ixtf6a-r7kWCHberJRqzv6NdTKT5lyFNnrhFJ-FjMgxURFYyUFlBWkkyMFhEWlFZMUdQRFg3M1RHRiQlQCN0PWcu'
+    + '&r3cd582c08765477899cdd43f15e435b8=' + encodeURIComponent(pageId)
+    + '&r7c21ccd08e3f47d889bb72f61fcd47c8=' + encodeURIComponent(CDSSlocation);
+  window.open(feedbackUrl, '_blank', 'noopener,noreferrer');
+});
 document.getElementById('filterDropdown').addEventListener('change', filterData);
 window.addEventListener('resize', adjustFontSize);
 window.addEventListener('DOMContentLoaded', adjustFontSize);
