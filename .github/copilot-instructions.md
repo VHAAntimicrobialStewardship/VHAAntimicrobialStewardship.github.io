@@ -6,6 +6,17 @@ Primary references:
 - Minneapolis source site: https://antimicrobialcdss.github.io/MinneapolisCDSS.html
 - Current site: https://vhaantimicrobialstewardship.github.io/
 
+Project status and current increment
+
+- MVP complete: the three production stations (Ann Arbor, Cincinnati, Cleveland) have been delivered and validated with customers. Treat the combined-guidance runtime/CMS/pipeline model as production-proven, not experimental.
+- Current increment focus: scalability and usability. Prioritize feature work that:
+	- Reduces manual/per-station effort to onboard additional stations (station scaffolding, config generation, repeatable pipelines).
+	- Improves content-editor (SME) usability in the CMS (Sveltia) workflow — e.g. clearer field guidance, validation, preview fidelity.
+	- Improves end-user (clinician) usability of the site itself — navigation, search, mobile/responsive behavior, accessibility.
+	- Reduces script/pipeline friction (fewer manual steps, better error messages, safer re-runs) as more stations are added.
+- New feature ideas should be evaluated against this increment's goals first; purely cosmetic or one-off station requests remain lower priority unless explicitly requested by the user.
+- This status note should be revisited/updated as the increment progresses or a new increment begins — ask the user before assuming it is still current if there is a large time gap since the note was last updated (last updated 2026-09-21).
+
 Station roles (do not conflate these)
 
 - Production stations — stations/506-AnnArbor/, stations/539-Cincinnati/, stations/541-Cleveland/: live stations where real SME-driven content changes are expected and should be made freely per station request.
