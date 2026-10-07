@@ -12,11 +12,14 @@ Steps:
   3. Remove Combined field from all menus
   4. Add fresh combined menus and Combined cross-refs
   5. Rebuild combined main menu from inpatient main menu structure
+  6. Rename the legacy ORZC page names to stable PageID slugs (reusing the
+     PageIDs already assigned in cms-data/) and fix every reference to them
+
+Run `python scripts/audit-teststation.py` afterwards.
 """
 
 import copy
 import json
-import os
 import re
 import shutil
 import tempfile
@@ -29,15 +32,18 @@ XLSX = ROOT / "AntimicrobialStewardshipGuidanceCombined.xlsx"
 TEST_PATH = ROOT / "stations" / "001-TestStation" / "TestStationOMJSON.json"
 CMS_ROOT = ROOT / "cms-data" / "001-TestStation" / "pages"
 
-# Copy xlsx to temp dir to avoid OneDrive lock issues
-_tmp = Path(tempfile.gettempdir()) / "GuidanceCombined_rebuild.xlsx"
-shutil.copy2(XLSX, _tmp)
-XLSX = _tmp
-
+# Spreadsheet cells that mean "no guidance written yet".
 PLACEHOLDERS = {"", "mehul", "mahul", "mimi"}
 INPT_MAIN_NAME = "ORZID2 GMENU ABX INPT MAIN"
 COMBINED_MAIN_NAME = "ORZC GMENU ABX INPT MAIN"
+# Final PageID of the combined main menu (see copilot-instructions: stable ID).
+MAIN_MENU_PAGE_ID = "main-menu"
 
+# Markdown link [label](target)
+LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
+
+
+# ── Name helpers ────────────────────────────────────────────────────────────
 
 def to_combined_name(inpt_name: str) -> str:
     """Convert inpatient VistA menu name to ORZC equivalent."""
@@ -78,7 +84,10 @@ def load_cms_inpt_mapping() -> tuple[dict[str, str], dict[str, str]]:
     return inpt_to_pageid, inpt_to_term1
 
 
-def extract_tab(ws):
+# ── Spreadsheet reading ─────────────────────────────────────────────────────
+
+def extract_tab(ws) -> dict[str, str]:
+    """Return {inpatient menu name: combined guidance text} for one worksheet."""
     rows = list(ws.iter_rows(values_only=True))
     if not rows:
         return {}
@@ -105,7 +114,8 @@ def extract_tab(ws):
     return result
 
 
-def format_combined(raw):
+def format_combined(raw: str) -> str:
+    """Normalize spreadsheet guidance text into clean markdown."""
     text = raw.replace("\r\n", "\n").replace("\r", "\n").replace("\xa0", " ")
 
     # Normalize merged heading artifacts from spreadsheet text.
@@ -116,8 +126,10 @@ def format_combined(raw):
         flags=re.IGNORECASE,
     )
 
+    # "##Heading" -> "## Heading"
     text = re.sub(r"^(#{2,6})(\S)", r"\1 \2", text, flags=re.MULTILINE)
 
+    # Trim trailing whitespace and collapse runs of spaces within each line.
     lines = []
     for line in text.split("\n"):
         lines.append(re.sub(r" {2,}", " ", line.rstrip()))
@@ -134,158 +146,192 @@ def format_combined(raw):
     return "\n\n".join(blocks)
 
 
-wb = openpyxl.load_workbook(XLSX, read_only=True, data_only=True)
-mimi_data = extract_tab(wb.worksheets[0])
-mehul_data = extract_tab(wb.worksheets[1])
-guidance = {**mimi_data, **mehul_data}
+def load_guidance() -> dict[str, str]:
+    """Merge both spreadsheet tabs ({inpatient menu name: guidance}); Mehul wins on overlap."""
+    # Copy xlsx to temp dir to avoid OneDrive lock issues
+    xlsx_copy = Path(tempfile.gettempdir()) / "GuidanceCombined_rebuild.xlsx"
+    shutil.copy2(XLSX, xlsx_copy)
 
-print(f"Mimi tab:  {len(mimi_data)} entries")
-print(f"Mehul tab: {len(mehul_data)} entries")
-print(f"Merged:    {len(guidance)} unique entries")
+    wb = openpyxl.load_workbook(xlsx_copy, read_only=True, data_only=True)
+    mimi_data = extract_tab(wb.worksheets[0])
+    mehul_data = extract_tab(wb.worksheets[1])
+    guidance = {**mimi_data, **mehul_data}
 
-with open(TEST_PATH, encoding="utf-8") as f:
-    data = json.load(f)
+    print(f"Mimi tab:  {len(mimi_data)} entries")
+    print(f"Mehul tab: {len(mehul_data)} entries")
+    print(f"Merged:    {len(guidance)} unique entries")
+    return guidance
 
-existing_combined_names = {
-    m.get("Combined")
-    for m in data["menus"]
-    if isinstance(m.get("Combined"), str) and m.get("Combined").strip()
-}
 
-# Strip all existing combined pages (ORZC prefix and slug-style) and Combined fields.
-data["menus"] = [
-    m
-    for m in data["menus"]
-    if not m["Name"].startswith("ORZC ")
-    and not m["Name"].startswith("COMBINED ")
-    and not re.match(r'^[a-z0-9][a-z0-9\-]*$', m["Name"])  # slug-style pages
-]
-for m in data["menus"]:
-    m.pop("Combined", None)
+# ── Rebuild steps ───────────────────────────────────────────────────────────
 
-print(f"Menus after stripping existing combined pages: {len(data['menus'])}")
+def strip_existing_combined_pages(data: dict) -> None:
+    """Remove all existing combined pages (ORZC prefix and slug-style) and every Combined field."""
+    data["menus"] = [
+        m
+        for m in data["menus"]
+        if not m["Name"].startswith("ORZC ")
+        and not m["Name"].startswith("COMBINED ")
+        and not re.match(r'^[a-z0-9][a-z0-9\-]*$', m["Name"])  # slug-style pages
+    ]
+    for m in data["menus"]:
+        m.pop("Combined", None)
 
-inpt_by_name = {m["Name"]: m for m in data["menus"]}
-new_menus = []
-cross_refs = 0
+    print(f"Menus after stripping existing combined pages: {len(data['menus'])}")
 
-for inpt_name, combined_text in guidance.items():
-    combined_name = to_combined_name(inpt_name)
-    inpt_menu = inpt_by_name.get(inpt_name)
 
-    combined_menu = {
-        "Name": combined_name,
-        "Term1": "",
-        "Term2": "",
-        "Text": format_combined(combined_text),
-        "LinkTargets": [],
-    }
+def add_combined_menus(data: dict, guidance: dict[str, str]) -> None:
+    """Create one ORZC combined page per guidance entry and link the inpatient page back to it."""
+    inpt_by_name = {m["Name"]: m for m in data["menus"]}
+    new_menus = []
+    cross_refs = 0
 
-    if inpt_menu:
-        combined_menu["Inpt"] = inpt_name
-        if inpt_menu.get("Outpt"):
-            combined_menu["Outpt"] = inpt_menu["Outpt"]
-        if inpt_menu.get("ERUC"):
-            combined_menu["ERUC"] = inpt_menu["ERUC"]
+    for inpt_name, combined_text in guidance.items():
+        combined_name = to_combined_name(inpt_name)
+        inpt_menu = inpt_by_name.get(inpt_name)
 
-    new_menus.append(combined_menu)
-    if inpt_menu:
-        inpt_menu["Combined"] = combined_name
-        cross_refs += 1
+        combined_menu = {
+            "Name": combined_name,
+            "Term1": "",
+            "Term2": "",
+            "Text": format_combined(combined_text),
+            "LinkTargets": [],
+        }
 
-print(f"Combined menus created: {len(new_menus)}")
-print(f"Combined cross-refs added: {cross_refs}")
+        # Carry the Outpt/ERUC crossrefs over from the inpatient source page.
+        if inpt_menu:
+            combined_menu["Inpt"] = inpt_name
+            if inpt_menu.get("Outpt"):
+                combined_menu["Outpt"] = inpt_menu["Outpt"]
+            if inpt_menu.get("ERUC"):
+                combined_menu["ERUC"] = inpt_menu["ERUC"]
 
-data["menus"].extend(new_menus)
-by_name = {m["Name"]: m for m in data["menus"]}
+        new_menus.append(combined_menu)
+        if inpt_menu:
+            inpt_menu["Combined"] = combined_name
+            cross_refs += 1
 
-inpt_main = by_name.get(INPT_MAIN_NAME)
-combined_main = by_name.get(COMBINED_MAIN_NAME)
+    print(f"Combined menus created: {len(new_menus)}")
+    print(f"Combined cross-refs added: {cross_refs}")
 
-if inpt_main and combined_main:
-    combined_main["Term1"] = inpt_main.get("Term1", "")
-    combined_main["Term2"] = inpt_main.get("Term2", "")
-    combined_main["Text"] = inpt_main.get("Text", "")
-    combined_main["LinkTargets"] = copy.deepcopy(inpt_main.get("LinkTargets", []))
+    data["menus"].extend(new_menus)
 
-    remapped = 0
-    for lt in combined_main["LinkTargets"]:
-        target = by_name.get(lt.get("Item", ""))
-        if target and target.get("Combined") and target["Combined"] in by_name:
-            lt["Item"] = target["Combined"]
-            remapped += 1
 
-    print(
-        f"Combined main menu: {len(combined_main['LinkTargets'])} links, "
-        f"{remapped} remapped to Combined"
-    )
-elif not combined_main:
-    print("WARNING: Combined main menu not found")
+def rebuild_combined_main_menu(data: dict) -> None:
+    """Copy the inpatient main menu into the combined main menu, pointing its links at combined pages."""
+    by_name = {m["Name"]: m for m in data["menus"]}
+    inpt_main = by_name.get(INPT_MAIN_NAME)
+    combined_main = by_name.get(COMBINED_MAIN_NAME)
 
-# Convert legacy ORZC names to stable PageIDs while preserving rebuilt content.
-inpt_to_pageid, inpt_to_term1 = load_cms_inpt_mapping()
-all_menus = data["menus"]
-combined_menus = [m for m in all_menus if isinstance(m.get("Inpt"), str) and m.get("Inpt").strip()]
-used_names = {m["Name"] for m in all_menus if not m.get("Inpt")}
-old_to_new: dict[str, str] = {}
+    if inpt_main and combined_main:
+        combined_main["Term1"] = inpt_main.get("Term1", "")
+        combined_main["Term2"] = inpt_main.get("Term2", "")
+        combined_main["Text"] = inpt_main.get("Text", "")
+        combined_main["LinkTargets"] = copy.deepcopy(inpt_main.get("LinkTargets", []))
 
-for m in combined_menus:
-    old_name = m["Name"]
-    inpt = m["Inpt"].strip()
-    if old_name == COMBINED_MAIN_NAME or inpt == INPT_MAIN_NAME:
-        new_name = "main-menu"
-    elif inpt in inpt_to_pageid:
-        new_name = inpt_to_pageid[inpt]
-    else:
-        new_name = slugify_combined_name(old_name)
+        remapped = 0
+        for lt in combined_main["LinkTargets"]:
+            target = by_name.get(lt.get("Item", ""))
+            if target and target.get("Combined") and target["Combined"] in by_name:
+                lt["Item"] = target["Combined"]
+                remapped += 1
 
-    base = new_name
-    suffix = 2
-    while new_name in used_names:
-        new_name = f"{base}-{suffix}"
-        suffix += 1
-    used_names.add(new_name)
-    old_to_new[old_name] = new_name
-
-for m in combined_menus:
-    old_name = m["Name"]
-    inpt = m["Inpt"].strip()
-    m["Name"] = old_to_new[old_name]
-    if not (m.get("Term1") or "").strip():
-        m["Term1"] = inpt_to_term1.get(
-            inpt,
-            re.sub(r"^ORZID2\s+GMENU\s+ABX\s+", "", inpt).strip(),
+        print(
+            f"Combined main menu: {len(combined_main['LinkTargets'])} links, "
+            f"{remapped} remapped to Combined"
         )
+    elif not combined_main:
+        print("WARNING: Combined main menu not found")
 
-for m in all_menus:
-    combined_ref = m.get("Combined")
-    if isinstance(combined_ref, str) and combined_ref in old_to_new:
-        m["Combined"] = old_to_new[combined_ref]
 
-    for lt in m.get("LinkTargets", []):
-        item = lt.get("Item")
-        if isinstance(item, str) and item in old_to_new:
-            lt["Item"] = old_to_new[item]
+def assign_stable_page_ids(data: dict) -> None:
+    """Rename legacy ORZC pages to stable PageIDs and rewrite every reference to them.
 
-link_re = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
-for m in combined_menus:
-    txt = m.get("Text")
-    if not isinstance(txt, str) or not txt:
-        continue
+    PageID priority: main-menu for the main menu, then the PageID already used in
+    cms-data/ for the same Inpt source, else a slug of the old name. Collisions
+    get a numeric suffix.
+    """
+    inpt_to_pageid, inpt_to_term1 = load_cms_inpt_mapping()
+    all_menus = data["menus"]
+    combined_menus = [m for m in all_menus if isinstance(m.get("Inpt"), str) and m.get("Inpt").strip()]
+    used_names = {m["Name"] for m in all_menus if not m.get("Inpt")}
+    old_to_new: dict[str, str] = {}
 
-    def _replace(match: re.Match) -> str:
+    # 1. Decide the new name for every combined page.
+    for m in combined_menus:
+        old_name = m["Name"]
+        inpt = m["Inpt"].strip()
+        if old_name == COMBINED_MAIN_NAME or inpt == INPT_MAIN_NAME:
+            new_name = MAIN_MENU_PAGE_ID
+        elif inpt in inpt_to_pageid:
+            new_name = inpt_to_pageid[inpt]
+        else:
+            new_name = slugify_combined_name(old_name)
+
+        base = new_name
+        suffix = 2
+        while new_name in used_names:
+            new_name = f"{base}-{suffix}"
+            suffix += 1
+        used_names.add(new_name)
+        old_to_new[old_name] = new_name
+
+    # 2. Apply the rename; fill in a missing Term1 (CMS value, else derived from the Inpt name).
+    for m in combined_menus:
+        old_name = m["Name"]
+        inpt = m["Inpt"].strip()
+        m["Name"] = old_to_new[old_name]
+        if not (m.get("Term1") or "").strip():
+            m["Term1"] = inpt_to_term1.get(
+                inpt,
+                re.sub(r"^ORZID2\s+GMENU\s+ABX\s+", "", inpt).strip(),
+            )
+
+    # 3. Fix Combined crossrefs and LinkTargets Items that still use the old names.
+    for m in all_menus:
+        combined_ref = m.get("Combined")
+        if isinstance(combined_ref, str) and combined_ref in old_to_new:
+            m["Combined"] = old_to_new[combined_ref]
+
+        for lt in m.get("LinkTargets", []):
+            item = lt.get("Item")
+            if isinstance(item, str) and item in old_to_new:
+                lt["Item"] = old_to_new[item]
+
+    # 4. Fix markdown links in combined page text.
+    def replace_link(match: re.Match) -> str:
         label = match.group(1)
         target = match.group(2).strip()
         return f"[{label}]({old_to_new.get(target, target)})"
 
-    m["Text"] = link_re.sub(_replace, txt)
+    for m in combined_menus:
+        txt = m.get("Text")
+        if not isinstance(txt, str) or not txt:
+            continue
+        m["Text"] = LINK_RE.sub(replace_link, txt)
 
-data["menus"].sort(key=lambda menu: menu.get("Name", "").lower())
-print(f"Combined PageIDs restored: {len(combined_menus)}")
-print(f"Mapped from CMS by Inpt: {sum(1 for m in combined_menus if m['Inpt'].strip() in inpt_to_pageid)}")
+    data["menus"].sort(key=lambda menu: menu.get("Name", "").lower())
+    print(f"Combined PageIDs restored: {len(combined_menus)}")
+    print(f"Mapped from CMS by Inpt: {sum(1 for m in combined_menus if m['Inpt'].strip() in inpt_to_pageid)}")
 
-with open(TEST_PATH, "w", encoding="utf-8") as f:
-    json.dump(data, f, indent=2, ensure_ascii=False)
 
-print(f"Total menus: {len(data['menus'])}")
-print("Saved.")
+def main() -> None:
+    guidance = load_guidance()
+
+    with open(TEST_PATH, encoding="utf-8") as f:
+        data = json.load(f)
+
+    strip_existing_combined_pages(data)
+    add_combined_menus(data, guidance)
+    rebuild_combined_main_menu(data)
+    assign_stable_page_ids(data)
+
+    with open(TEST_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+    print(f"Total menus: {len(data['menus'])}")
+    print("Saved.")
+
+
+if __name__ == "__main__":
+    main()

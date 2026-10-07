@@ -28,7 +28,30 @@ STATIONS: list[tuple[str, str]] = [
 ]
 
 
+def build_omjson_record(page_rec: dict) -> dict:
+    """Convert a CMS page file record to an OMJSON menu record.
+
+    Only the fields the runtime uses are kept (LinkTargets is deliberately
+    never written: markdown links in Text are the only link source).
+    """
+    page_id = page_rec["PageID"]
+    record: dict = {
+        "Name": page_id,
+        "Term1": page_rec.get("Term1", page_id),
+        "Term2": page_rec.get("Term2", ""),
+        "Text": page_rec.get("Text", ""),
+    }
+    inpt = page_rec.get("Inpt", "")
+    if inpt:
+        record["Inpt"] = inpt
+    for field in ("Outpt", "ERUC"):
+        if page_rec.get(field):
+            record[field] = page_rec[field]
+    return record
+
+
 def compile_station(station_dir: str, omjson_filename: str) -> None:
+    """Merge one station's CMS page files into its OMJSON file (in place)."""
     json_path = ROOT / "stations" / station_dir / omjson_filename
     cms_root = ROOT / "cms-data" / station_dir / "pages"
 
@@ -40,7 +63,7 @@ def compile_station(station_dir: str, omjson_filename: str) -> None:
 
     menus: list[dict] = data["menus"]
 
-    # Build lookup tables
+    # Lookup of existing OMJSON records by Name (PageID)
     by_name: dict[str, dict] = {m["Name"]: m for m in menus}
 
     # ── Read CMS page files ─────────────────────────────────────────────────
@@ -65,26 +88,11 @@ def compile_station(station_dir: str, omjson_filename: str) -> None:
 
     print(f"CMS page files loaded: {len(cms_pages)}")
 
-    # ── Build new combined page records for OMJSON ───────────────────────────
-    def build_omjson_record(page_rec: dict) -> dict:
-        """Convert a CMS page file record to an OMJSON menu record."""
-        page_id = page_rec["PageID"]
-        record: dict = {
-            "Name": page_id,
-            "Term1": page_rec.get("Term1", page_id),
-            "Term2": page_rec.get("Term2", ""),
-            "Text": page_rec.get("Text", ""),
-        }
-        inpt = page_rec.get("Inpt", "")
-        if inpt:
-            record["Inpt"] = inpt
-        for field in ("Outpt", "ERUC"):
-            if page_rec.get(field):
-                record[field] = page_rec[field]
-        return record
-
     # ── Update or insert combined pages in OMJSON ────────────────────────────
-    # Pages present in both CMS and OMJSON: update in-place
+    # Pages present in both CMS and OMJSON: update in-place (fields not in the
+    # CMS record, e.g. Combined/Contents, are kept; Inpt is dropped when the CMS
+    # record has none). The main menu is not CMS-managed, so it only has any
+    # stale LinkTargets removed.
     updated = 0
     for menu in menus:
         pid = menu["Name"]

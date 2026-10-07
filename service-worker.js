@@ -1,7 +1,16 @@
+// Caching strategy (summary):
+//   - CMS content (.json/.txml): network-first with HTTP cache bypassed; cache is the offline fallback.
+//   - HTML pages/navigation and .js (the shared app script, shared/cdss-app.js):
+//                                network-first; cache is the offline fallback.
+//   - Everything else:           cache-first; fetched and cached on first use.
+// Bump VERSION whenever a caching rule or the precache list changes; the activate
+// handler deletes every cache whose name does not match the current version.
 const APP_PREFIX = 'CDSS_';
-const VERSION = '1.271'; // Update the version when you make changes
+const VERSION = '1.272'; // Update the version when you make changes
 const CACHE_NAME = APP_PREFIX + VERSION;
 
+// Files precached on install. Pages not listed here (e.g. the production station
+// HTML) are still cached the first time they are fetched, by the fetch handler below.
 const URLS = [
   '/AbxLinks.json',
   '/Antimicrobial CDSS Frequently Asked Questions.pdf',
@@ -18,6 +27,7 @@ const URLS = [
   '/index.html',
   '/manifest.webmanifest',
   '/service-worker.js',
+  '/shared/cdss-app.js',
   
   '/stations/001-TestStation/TestStationCDSS.html',
 
@@ -63,6 +73,7 @@ const URLS = [
   '/Fonts/PTSerif-Regular.woff2',
 ];
 
+// Install: precache the files listed in URLS into this version's cache.
 self.addEventListener('install', function (e) {
   console.log('Installing service worker: ' + CACHE_NAME);
 
@@ -77,6 +88,7 @@ self.addEventListener('install', function (e) {
   );
 });
 
+// Activate: remove caches left over from previous versions, then take control of open pages.
 self.addEventListener('activate', function (e) {
   console.log('Activating service worker: ' + CACHE_NAME);
 
@@ -95,9 +107,11 @@ self.addEventListener('activate', function (e) {
   );
 });
 
+// Fetch: choose a strategy per request type (see summary at top of file).
 self.addEventListener('fetch', function (e) {
   console.log('Fetch request: ' + e.request.url);
 
+  // Only same-origin requests are handled; third-party requests go straight to the network.
   if (!e.request.url.startsWith(self.location.origin)) {
     console.log('Skipping caching for third-party resource: ' + e.request.url);
     return;
@@ -108,9 +122,13 @@ self.addEventListener('fetch', function (e) {
     e.request.method === 'GET' &&
     (requestUrl.pathname.endsWith('.json') || requestUrl.pathname.endsWith('.txml'));
 
+  // HTML and the shared app script must stay fresh together: a page and its
+  // script from different versions could break the app.
   const isHtmlRequest =
     e.request.method === 'GET' &&
-    (e.request.mode === 'navigate' || requestUrl.pathname.endsWith('.html'));
+    (e.request.mode === 'navigate' ||
+      requestUrl.pathname.endsWith('.html') ||
+      requestUrl.pathname.endsWith('.js'));
 
   // CMS-managed content should prefer the network so saved edits appear quickly.
   if (isCmsContentRequest) {
@@ -151,6 +169,7 @@ self.addEventListener('fetch', function (e) {
     return;
   }
 
+  // Default (images, fonts, PDFs, ...): cache-first, falling back to the network.
   e.respondWith(
     caches.match(e.request).then(function (response) {
       // Reload assets if version has changed.

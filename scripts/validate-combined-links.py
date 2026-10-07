@@ -6,6 +6,10 @@ Checks for specific link quality issues in ORZC combined menus:
 2. Links embedded mid-sentence (label found as substring, not standalone line)
 3. LinkTarget Items that don't exist in the JSON (broken refs)
 4. ORZC menus that still have plain-text lines matching known LT labels (missed links)
+
+NOTE: legacy helper. It only inspects pages whose Name starts with "ORZC ", but
+combined pages now use slug PageIDs (e.g. "main-menu"), so it currently finds
+nothing. Use audit-teststation.py for link checks on the current data.
 """
 import json
 import re

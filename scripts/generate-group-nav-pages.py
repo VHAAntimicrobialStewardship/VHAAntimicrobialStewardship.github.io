@@ -170,7 +170,8 @@ def build_nav_text(inpt_root_name: str) -> tuple[str, list[dict]]:
             combined_id = resolve_to_combined(target)
             if combined_id:
                 rebuilt += f"[{label}]({combined_id})"
-                # Add to LinkTargets registry for the nav page
+                # Legacy LinkTargets metadata: no longer read by the runtime or
+                # exported to the CMS; the markdown link in Text is what counts.
                 if not any(lt["Item"] == combined_id for lt in link_targets):
                     link_targets.append({"Text": label, "Item": combined_id})
             else:
