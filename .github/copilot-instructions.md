@@ -15,7 +15,8 @@ Project status and current increment
 	- Improves end-user (clinician) usability of the site itself — navigation, search, mobile/responsive behavior, accessibility.
 	- Reduces script/pipeline friction (fewer manual steps, better error messages, safer re-runs) as more stations are added.
 - New feature ideas should be evaluated against this increment's goals first; purely cosmetic or one-off station requests remain lower priority unless explicitly requested by the user.
-- This status note should be revisited/updated as the increment progresses or a new increment begins — ask the user before assuming it is still current if there is a large time gap since the note was last updated (last updated 2026-09-21).
+- In progress (2026-10-19): opt-in sidebar redesign (left menu tree + right therapy panel) is live on the test station only, awaiting design-colleague/SME review before any production station adopts it. See invariant 11.
+- This status note should be revisited/updated as the increment progresses or a new increment begins — ask the user before assuming it is still current if there is a large time gap since the note was last updated (last updated 2026-10-19).
 
 Station roles (do not conflate these)
 
@@ -29,7 +30,7 @@ When a request says "all stations" or is otherwise ambiguous about scope, ask wh
 Stability-first operating rule
 
 When making any change, preserve behavior across three coupled systems:
-1. Runtime navigation and rendering in stations/001-TestStation/TestStationCDSS.html
+1. Runtime navigation and rendering in shared/cdss-app.js (loaded by the test station AND the three production stations; each station HTML only holds its configuration block)
 2. CMS schema and content files (admin/config.yml and cms-data/)
 3. OMJSON compile/export pipelines in scripts/
 
@@ -37,7 +38,10 @@ If a change fixes one area but regresses another, the change is incomplete.
 
 Critical files and ownership
 
-- Runtime UI behavior: stations/001-TestStation/TestStationCDSS.html
+- Runtime UI behavior (all stations): shared/cdss-app.js. Any edit here reaches production stations (506/539/541) on push to main; smoke-test a production station after changes.
+- Optional sidebar layout (opt-in per station page): shared/cdss-sidebar.js and shared/cdss-sidebar.css
+- Station configuration and entry page: stations/001-TestStation/TestStationCDSS.html (and the equivalent HTML in each production station)
+- Design reference: docs/CDSS_wire_10092026.pdf (sidebar wireframe). docs/ is deliberately outside station folders, cms-data/ and assets/uploads/ so Sveltia does not see it; keep non-site documents there.
 - Master menu/order data: stations/001-TestStation/TestStationOMJSON.json and stations/001-TestStation/TestStationODJSON.json
 - CMS config and schema: admin/config.yml
 - CMS page content source: cms-data/001-TestStation/pages/<group>/<pageid>.json
@@ -113,12 +117,19 @@ Non-negotiable invariants (do not break)
 10) Service worker and cache behavior
 - Service worker strategy is network-first for HTML.
 - Any caching rule changes must include explicit version bump and regression check for content freshness.
+- .js and .css are network-first along with HTML so a page and its shared scripts/styles stay in sync. New shared assets (e.g. cdss-sidebar.js/.css) must be added to the precache list in service-worker.js together with a VERSION bump (currently 1.273).
 
 11) Sidebar layout (test station only, opt-in)
-- stations/001-TestStation/TestStationCDSS.html sets `var Layout = 'sidebar'` and `var WelcomePage = 'welcome'`; shared/cdss-sidebar.js and shared/cdss-sidebar.css build the menu tree, header drop-downs and therapy panel. `?layout=classic` restores the original layout.
-- All sidebar behavior in shared/cdss-app.js is behind `SIDEBAR_LAYOUT`; stations without the flag must behave exactly as before.
+- Opt-in mechanism: a station page enables the layout by setting `var Layout = 'sidebar'` (and optionally `var WelcomePage = '<pageid>'`) in its configuration block and loading /shared/cdss-sidebar.css and /shared/cdss-sidebar.js before /shared/cdss-app.js. Only stations/001-TestStation/TestStationCDSS.html does this today. `?layout=classic` on the URL restores the original layout for that visit.
+- shared/cdss-sidebar.js sets `window.CDSSSidebar.enabled`; shared/cdss-app.js reads it into `SIDEBAR_LAYOUT`. All sidebar behavior in cdss-app.js (hooks such as beforeRender, afterRender, syncUrl, onDataReady) is behind `SIDEBAR_LAYOUT`; stations without the flag must behave exactly as before, so never remove that gating or let sidebar code run unconditionally.
+- To roll the layout out to a production station: add the Layout/WelcomePage variables and the sidebar css/js tags to that station's HTML, add the `Therapy` field and a `welcome` page to its CMS collection (export-cms.py currently generates these for 001-TestStation only), run split-therapy.py for that station (the script is currently hard-wired to 001-TestStation), then compile, audit and review with the SMEs. Do not do this without an explicit user request.
 - The menu tree is derived at runtime from main-menu plus nav-like pages (no separate menu data). Nav pages are detected by link-line ratio; bold-only lines act as sub-headings.
-- Optional per-page `Therapy` field (markdown, CMS "Therapy Panel", 001-TestStation collection only) renders in the right-hand therapy panel; the panel is absent when the field is empty. scripts/split-therapy.py (dry run by default; `--apply` to write; then compile-cms.py and audit-teststation.py) bulk-moves therapy sections from Text into Therapy for 001-TestStation pages and skips pages that already have Therapy; in classic layout, cdss-app.js merges Therapy back into the page text. The welcome page (PageID `welcome`) is a standalone page kept by export-cms.py (STANDALONE_PAGES).
+- Optional per-page `Therapy` field (markdown, CMS label "Therapy Panel", 001-TestStation collection only) renders in the right-hand therapy panel; the panel is absent when the field is empty. Data flow: cms-data page JSON `Therapy` -> compile-cms.py writes it to the OMJSON record -> runtime renders it in the panel. export-cms.py writes it back out only when present and emits the field definition into admin/config.yml (edit the generator, not just config.yml, or the next export loses it); audit-teststation.py checks markdown links in both Text and Therapy.
+- Therapy markdown must not start with a level-1 heading (`# ` becomes a page banner); therapy headings start at `##`. Keep Therapy free of References; References always stay in Text.
+- Classic layout fallback: when `!SIDEBAR_LAYOUT` and Therapy is non-empty, cdss-app.js (`withTherapyInText`) merges Therapy back into the page text before the trailing separator/References block, so the content is never hidden.
+- scripts/split-therapy.py (dry run by default; `--apply` to write; `--show <PageID>`, `--page <PageID>`, `--include-empty`; then compile-cms.py and audit-teststation.py) bulk-moves therapy sections from Text into Therapy for 001-TestStation pages. It skips pages that already have Therapy (hand-edited splits are safe), skips pages whose Text would be left with only a title, verifies each split is lossless, refuses any split that would put a References line in Therapy, and writes reports/therapy-split-report.json. The heuristics are noisy (see the report's stragglers); review the report and rendered pages after applying. To undo a bulk split: `git checkout -- cms-data/001-TestStation/pages`, but first back up any hand-split pages that are uncommitted.
+- The welcome page (PageID `welcome`) is a standalone page kept by export-cms.py (STANDALONE_PAGES).
+- The menu tree is derived at runtime from main-menu plus nav-like pages (no separate menu data). Nav pages are detected by link-line ratio; bold-only lines act as sub-headings.
 
 Script workflows to protect
 
@@ -132,6 +143,18 @@ CMS export/compile flow
 3. Edit content in CMS if needed
 4. python scripts/compile-cms.py
 5. python scripts/audit-teststation.py
+
+Therapy split flow (test station, sidebar layout)
+1. python scripts/split-therapy.py (dry run; review reports/therapy-split-report.json)
+2. python scripts/split-therapy.py --apply
+3. python scripts/compile-cms.py
+4. python scripts/audit-teststation.py
+5. Verify in the browser: sidebar layout and `?layout=classic` on several split pages
+
+Repository hygiene
+- Python bytecode (__pycache__/, *.pyc) is git-ignored; do not commit it.
+- The repo lives under OneDrive; git's automatic gc can prompt about failing to delete .git/objects/XX folders. Answer n (or run git with `-c gc.auto=0`) and never leave a prompt waiting in an agent terminal.
+- CI recompiles OMJSON on CMS edits ("chore: compile CMS edits into station OMJSON files" commits), so `git pull --rebase --autostash` before pushing.
 
 Deprecated scripts (do not use in normal workflows)
 
@@ -150,7 +173,8 @@ Expected script behavior assumptions
 - export-cms.py regenerates admin/config.yml and page-per-file JSON exports without LinkTargets.
 - export-cms.py expects combined main menu at main-menu, with fallback inpt-main.
 - export-cms.py classifies and emits combined CMS pages based on combined page markdown ancestry, not LinkTargets metadata.
-- compile-cms.py compiles CMS page files back into OMJSON and preserves main-menu handling.
+- compile-cms.py compiles CMS page files back into OMJSON and preserves main-menu handling, including the optional Therapy field.
+- compile-cms.py runs for all four CMS stations; stations whose cms-data did not change must come out byte-identical (check `git status` for unintended station changes).
 - audit-teststation.py is the integrity gate and should be run after structural/data rewrites.
 - Order dialogs (VistA orders) are transitional and may be de-emphasized or removed entirely in non-VistA EHR contexts; do not build new features that depend on them.
 - Tab-specific navigation (inpt/outpt/eruc) is transitional; all long-term development should assume combined-only model.
@@ -179,7 +203,8 @@ After edits (required checks)
 	 - embedded links resolve and navigate correctly
 	 - tab switches preserve expected crosswalk behavior
 	 - Abx links still render in combined and legacy row paths
-3. If service-worker behavior changed, verify HTML freshness after reload.
+3. If shared/cdss-app.js changed, also smoke-test one production station (e.g. stations/541-Cleveland/ClevelandCDSS.html): classic layout, loads on main-menu, navigates to a guidance page, Abx links render, no console errors. Test the test station in both sidebar and `?layout=classic`.
+4. If service-worker behavior changed, verify HTML freshness after reload.
 
 Regression checklist (must pass for merge)
 
@@ -191,6 +216,8 @@ Regression checklist (must pass for merge)
 - No schema drift in admin/config.yml collection-level keys.
 - No orphaned internal markdown links created by ID rewrites.
 - LinkTargets not reintroduced into export output or CMS schema.
+- Production stations (no Layout flag) render identically after any shared/cdss-app.js or sidebar change.
+- Therapy field survives an export-cms.py -> compile-cms.py round trip and no Therapy block contains References.
 - audit-teststation.py reports no new issues.
 
 Known acceptable risk profile
