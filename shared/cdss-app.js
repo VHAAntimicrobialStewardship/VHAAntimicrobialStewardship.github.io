@@ -16,6 +16,24 @@
 // ===========================================================================
 
 // ===========================================================================
+// SIDEBAR LAYOUT (optional, per station page)
+// Enabled by /shared/cdss-sidebar.js when the station page sets
+// `var Layout = 'sidebar'`. That script must be loaded BEFORE this one. When it
+// is not loaded (or the layout is off) every branch below is skipped and the
+// original layout behaves exactly as before.
+// ===========================================================================
+const SIDEBAR_LAYOUT = Boolean(window.CDSSSidebar && window.CDSSSidebar.enabled);
+
+// Width (px) used to choose single vs multi-column page layouts: the viewport
+// normally, the centre column in the sidebar layout.
+function getLayoutWidthPx() {
+  if (SIDEBAR_LAYOUT) {
+    return document.getElementById('resultContainer').clientWidth;
+  }
+  return window.innerWidth / (window.devicePixelRatio || 1);
+}
+
+// ===========================================================================
 // LAYOUT: responsive table width and font size
 // ===========================================================================
 
@@ -42,6 +60,10 @@ function getTableWidthPx(screenWidth, isSingleColumn) {
 // Applies the table width and cell font size for the current viewport.
 // Must be called after every render (new rows have no font size yet) and on resize.
 function adjustFontSize() {
+  if (SIDEBAR_LAYOUT) {
+    adjustFontSizeSidebar();
+    return;
+  }
   const table = document.querySelector('.table');
   const tableRows = table.querySelectorAll('tr');
   const screenWidth = window.innerWidth / window.devicePixelRatio;
@@ -54,6 +76,18 @@ function adjustFontSize() {
   const fontSize = FONT_SIZE_BREAKPOINTS.find(b => screenWidth < b.maxWidth).px + 'px';
   tableRows.forEach(row => {
     row.querySelectorAll('td').forEach(cell => {
+      cell.style.fontSize = fontSize;
+    });
+  });
+}
+
+// Sidebar layout: the page and therapy tables fill their columns (CSS sets the
+// widths); only the cell font size is set here.
+function adjustFontSizeSidebar() {
+  const fontSize = (window.innerWidth < 700 ? 15 : window.innerWidth < 1600 ? 16 : 17) + 'px';
+  document.querySelectorAll('#resultContainer .table, #cdssTherapyContent .table').forEach(table => {
+    table.style.width = '100%';
+    table.querySelectorAll('td').forEach(cell => {
       cell.style.fontSize = fontSize;
     });
   });
@@ -868,6 +902,12 @@ function resolveTargetForCurrentVersion(targetName) {
   }
 
   const directTarget = findMenuByNameInsensitive(normalizedTarget);
+  // A combined page (identified by its Inpt pointer) is already the answer. Without this,
+  // a few combined slugs that are also a legacy page's Outpt/ERUC pointer were remapped
+  // to that legacy page by the reverse lookup below.
+  if (directTarget && (directTarget.Inpt || '').trim()) {
+    return directTarget.Name;
+  }
   if (directTarget && directTarget.Combined) {
     const mappedCombined = findMenuByNameInsensitive(directTarget.Combined);
     if (mappedCombined) {
@@ -1235,6 +1275,9 @@ function showTable(table) {
   resultContainer.appendChild(table);
   checkMatchesAndSetButtonAppearance();
   forwardBackButtonActivate();
+  if (SIDEBAR_LAYOUT) {
+    window.CDSSSidebar.afterRender(selectedData);
+  }
 }
 
 // Footer row under every page: "Page ID: <slug>", or "Page Target: <name>" for
@@ -1289,7 +1332,7 @@ function createStructuredRichTextNavigationTable(selectedData) {
     sections.pop();
   }
 
-  const screenWidth = window.innerWidth / (window.devicePixelRatio || 1);
+  const screenWidth = getLayoutWidthPx();
   const useMultiColumns = sections.length > 1 && screenWidth >= 900;
   const colCount = useMultiColumns ? sections.length : 1;
 
@@ -1327,7 +1370,9 @@ function createStructuredRichTextNavigationTable(selectedData) {
 
 // Ordinary guidance page: one table row per source line (blank lines become
 // spacer rows), plus an optional full-width banner row for a leading "# Title".
-function createRichTextTable(selectedData) {
+// Builds and returns the table without showing it; the sidebar layout also uses
+// it for the Therapy panel (without the Page ID row).
+function buildRichTextTable(selectedData, includePageIdRow = true) {
   const table = document.createElement('table');
   table.classList.add('table');
   const tbody = document.createElement('tbody');
@@ -1382,10 +1427,16 @@ function createRichTextTable(selectedData) {
     appendCodeBlockRow(tbody, codeLines); // unterminated code fence
   }
 
-  appendPageIdRow(tbody, selectedData.Name);
+  if (includePageIdRow) {
+    appendPageIdRow(tbody, selectedData.Name);
+  }
 
   table.appendChild(tbody);
-  showTable(table);
+  return table;
+}
+
+function createRichTextTable(selectedData) {
+  showTable(buildRichTextTable(selectedData));
 }
 
 // The combined main menu: each "## Heading" starts a section (heading plus its
@@ -1418,7 +1469,7 @@ function createCombinedMainMenuTable(selectedData) {
     currentSection.lines.push(line);
   });
 
-  const screenWidth = window.innerWidth / (window.devicePixelRatio || 1);
+  const screenWidth = getLayoutWidthPx();
   const columns = screenWidth < 900 ? 1 : 2;
 
   for (let i = 0; i < sections.length; i += columns) {
@@ -1454,9 +1505,30 @@ function createCombinedMainMenuTable(selectedData) {
 }
 
 // Entry point for rendering a page record (from OMJSON) into #resultContainer.
+// Without the sidebar layout there is no Therapy panel, so a page's Therapy text is
+// shown in the page itself, just above its trailing separator / References block.
+function withTherapyInText(record) {
+  const lines = record.Text.split(/\r?\n/);
+  let insertAt = lines.findIndex((line, i) => i > 0 && /^\s*(?:#{1,6}\s*)?references?\s*:?\s*$/i.test(line));
+  if (insertAt < 0) {
+    insertAt = lines.length;
+  }
+  while (insertAt > 0 && (lines[insertAt - 1].trim() === '' || /^\s*(?:#{1,6}\s*)?[_\-=*]{8,}\s*$/.test(lines[insertAt - 1]))) {
+    insertAt--;
+  }
+  const merged = lines.slice(0, insertAt).concat('', record.Therapy.split(/\r?\n/), '', lines.slice(insertAt));
+  return Object.assign({}, record, { Text: merged.join('\n') });
+}
+
 function createOMTable(selectedData) {
   if (!selectedData) {
     return;
+  }
+
+  if (SIDEBAR_LAYOUT) {
+    window.CDSSSidebar.beforeRender(selectedData);
+  } else if (typeof selectedData.Text === 'string' && typeof selectedData.Therapy === 'string' && selectedData.Therapy.trim()) {
+    selectedData = withTherapyInText(selectedData);
   }
 
   if (isStructuredRichTextNavigationPage(selectedData)) {
@@ -2018,6 +2090,9 @@ function pushHistory(item) {
     historyIndex++;
     history.splice(historyIndex, history.length - historyIndex, item);
   }
+  if (SIDEBAR_LAYOUT) {
+    window.CDSSSidebar.syncUrl(item); // keep the #page-id in the URL (Back button, bookmarks)
+  }
 }
 
 // Clears the search box and restores its magnifier placeholder.
@@ -2073,7 +2148,7 @@ function handleMainMenu() {
   } else if (currentVersion === 'eruc') {
     dropdown.value = erucMenu;
   } else if (currentVersion === 'combined') {
-    dropdown.value = combinedMenu;
+    dropdown.value = SIDEBAR_LAYOUT ? window.CDSSSidebar.welcomeId : combinedMenu;
   }
   // If that page is not in the dropdown, fall back to the first visible option.
   if (!dropdown.querySelector(`option[value="${dropdown.value}"]`)) {
@@ -2290,10 +2365,14 @@ function openPageInNewWindow(pageURL, replacements) {
 // the first visible option.
 function selectInitialPage(dropdown) {
   const dropdownValue = new URLSearchParams(window.location.search).get('dropdown');
-  dropdown.value = dropdownValue ? decodeURIComponent(dropdownValue) : combinedMenu;
+  // Sidebar layout: the #page-id in the URL wins, and the Welcome page is the default start page.
+  const sidebarPage = SIDEBAR_LAYOUT ? window.CDSSSidebar.pageFromUrl() : '';
+  const startPage = SIDEBAR_LAYOUT ? window.CDSSSidebar.welcomeId : combinedMenu;
+  dropdown.value = sidebarPage || (dropdownValue ? decodeURIComponent(dropdownValue) : startPage);
 
   if (!dropdown.querySelector(`option[value="${dropdown.value}"]`)) {
-    const combinedMenuOption = dropdown.querySelector(`option[value="${combinedMenu}"]`);
+    const startPageOption = dropdown.querySelector(`option[value="${startPage}"]`);
+    const combinedMenuOption = startPageOption || dropdown.querySelector(`option[value="${combinedMenu}"]`);
     const mainMenuOption = dropdown.querySelector(`option[value="${MainMenu}"]`);
     const firstVisibleOption = Array.from(dropdown.options).find(opt => opt.style.display !== 'none' && !opt.disabled);
     const fallbackOption = combinedMenuOption || mainMenuOption || firstVisibleOption || dropdown.options[0];
@@ -2317,6 +2396,9 @@ Promise.all([fetchOMData(), fetchODData(), fetchAbxLink()])
       currentVersion = 'combined';
     }
     populateDropdown(omData);
+    if (SIDEBAR_LAYOUT) {
+      window.CDSSSidebar.onDataReady(omData); // build the menu tree before the first page is shown
+    }
 
     const dropdown = document.getElementById('filterDropdown');
     selectInitialPage(dropdown);

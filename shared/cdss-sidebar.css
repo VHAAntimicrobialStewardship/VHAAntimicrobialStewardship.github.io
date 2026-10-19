@@ -1,0 +1,425 @@
+/* Sidebar layout for station pages that set `var Layout = 'sidebar'`.
+   Every rule is scoped to body.layout-sidebar, which /shared/cdss-sidebar.js
+   adds only when that layout is active, so stations without it are unaffected.
+
+   Desktop (>= 1000px): menu bar + header row, then three scrolling columns:
+   menu tree | page | therapy panel (only when the page has Therapy data).
+   Narrower: the tree becomes a slide-in drawer and the therapy panel stacks
+   below the page (keep the breakpoint in sync with DRAWER_MAX_WIDTH in the JS). */
+
+body.layout-sidebar {
+  margin: 0;
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: 'PT Serif Regular', Arial, sans-serif;
+}
+
+body.layout-sidebar [hidden] {
+  display: none !important;
+}
+
+/* ---- Header: menu bar (row 1) and station/search row (row 2) ------------- */
+
+body.layout-sidebar #header {
+  position: relative;
+  flex: 0 0 auto;
+  min-width: 0;
+  width: 100%;
+  z-index: 40;
+  overflow: visible;
+  flex-wrap: nowrap; /* the original column+wrap header distorts row heights */
+}
+
+body.layout-sidebar .buttons-container,
+body.layout-sidebar .buttons-container2,
+body.layout-sidebar .buttons-containerFeedback {
+  display: none;
+}
+
+body.layout-sidebar #cdssMenuBar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px;
+  padding: 0 8px;
+  background-color: #0088aa;
+}
+
+body.layout-sidebar #cdssMenuBar > button,
+body.layout-sidebar .cdss-menu-button {
+  font-family: 'PT Serif Regular', Arial, sans-serif;
+  font-size: 14px;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 12px;
+  width: auto;
+  flex: 0 0 auto;
+}
+
+body.layout-sidebar #cdssMenuBar > #feedbackButton {
+  margin-left: auto;
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+body.layout-sidebar #cdssMenuBar > button:hover,
+body.layout-sidebar .cdss-menu-button:hover,
+body.layout-sidebar .cdss-menu-button[aria-expanded="true"] {
+  background-color: #4db8ff;
+}
+
+body.layout-sidebar .cdss-menu {
+  position: relative;
+}
+
+body.layout-sidebar .cdss-menu-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 50;
+  min-width: 260px;
+  max-width: 90vw;
+  max-height: 70vh;
+  overflow-y: auto;
+  margin: 0;
+  padding: 4px 0;
+  list-style: none;
+  background: #fff;
+  border: 1px solid #b7b7b7;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+body.layout-sidebar .cdss-menu-list a {
+  display: block;
+  padding: 7px 14px;
+  color: #003f52;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+body.layout-sidebar .cdss-menu-list a:hover,
+body.layout-sidebar .cdss-menu-list a:focus {
+  background-color: #e3f6fc;
+}
+
+body.layout-sidebar #cdssHeaderRow {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 6px 8px;
+}
+
+body.layout-sidebar #cdssHeaderRow > button {
+  font-family: 'PT Serif Regular', Arial, sans-serif;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  padding: 6px 10px;
+  width: auto;
+}
+
+body.layout-sidebar #cdssHeaderRow > button:hover {
+  background-color: #4db8ff;
+}
+
+body.layout-sidebar #mainMenuButton {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+body.layout-sidebar #cdssHeaderRow .search-container {
+  position: relative;
+  flex: 1 1 260px;
+  max-width: 375px;
+  margin: 0 10px;
+}
+
+body.layout-sidebar #cdssNavToggle {
+  display: none;
+}
+
+/* ---- Body: three columns ------------------------------------------------- */
+
+body.layout-sidebar #cdssBody {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: 290px minmax(0, 1fr);
+  grid-template-areas: "nav main";
+}
+
+body.layout-sidebar.has-therapy #cdssBody {
+  grid-template-columns: 290px minmax(0, 1fr) minmax(320px, 34%);
+  grid-template-areas: "nav main therapy";
+}
+
+body.layout-sidebar #cdssNav,
+body.layout-sidebar #cdssMain,
+body.layout-sidebar #cdssTherapy {
+  min-width: 0;
+  min-height: 0;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+body.layout-sidebar #cdssNav {
+  grid-area: nav;
+  background: #f3fafd;
+  border-right: 1px solid #c9dfe6;
+  padding: 8px 6px 24px;
+}
+
+body.layout-sidebar #cdssMain {
+  grid-area: main;
+  padding: 8px 16px 16px;
+}
+
+body.layout-sidebar #cdssTherapy {
+  grid-area: therapy;
+  background: #fbfbf4;
+  border-left: 1px solid #d9d9c4;
+  padding: 8px 14px 16px;
+}
+
+body.layout-sidebar .cdss-therapy-title,
+body.layout-sidebar .cdss-nav-title {
+  margin: 4px 6px 8px;
+  font-family: 'PT Serif Bold', Arial, sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #0088aa;
+}
+
+body.layout-sidebar #cdssMain .table,
+body.layout-sidebar #cdssTherapy .table {
+  width: 100%;
+}
+
+body.layout-sidebar #cdssTherapy .table td {
+  padding: 3px 4px;
+}
+
+body.layout-sidebar .cdss-back-link {
+  margin: 20px 4px;
+  font-size: 16px;
+}
+
+body.layout-sidebar .cdss-back-link a {
+  color: #0070a0;
+}
+
+/* ---- Footer inside the page column (logos, version) ---------------------- */
+
+body.layout-sidebar #cdssFooter {
+  margin-top: 24px;
+  border-top: 1px solid #ddd;
+}
+
+body.layout-sidebar #cdssFooter .picture-container {
+  margin: 10px 0;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+body.layout-sidebar #cdssFooter .CDSSLogo {
+  width: 140px;
+  float: none;
+}
+
+body.layout-sidebar #cdssFooter .VASeal {
+  width: 210px;
+  float: none;
+}
+
+/* ---- Menu tree ----------------------------------------------------------- */
+
+body.layout-sidebar .cdss-tree-section-title {
+  margin: 14px 6px 4px;
+  font-family: 'PT Serif Bold', Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #0088aa;
+}
+
+body.layout-sidebar .cdss-tree-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body.layout-sidebar .cdss-tree-list .cdss-tree-list {
+  margin-left: 14px;
+  border-left: 1px solid #c9dfe6;
+}
+
+body.layout-sidebar .cdss-tree-row {
+  display: flex;
+  align-items: flex-start;
+  border-radius: 4px;
+}
+
+body.layout-sidebar .cdss-tree-row:hover {
+  background-color: #dff1f8;
+}
+
+body.layout-sidebar .cdss-tree-row.active {
+  background-color: #00aedb;
+}
+
+body.layout-sidebar .cdss-tree-row.active .cdss-tree-link {
+  color: #fff;
+  font-family: 'PT Serif Bold', Arial, sans-serif;
+}
+
+body.layout-sidebar .cdss-tree-toggle,
+body.layout-sidebar .cdss-tree-spacer {
+  flex: 0 0 24px;
+  width: 24px;
+  height: 28px;
+}
+
+body.layout-sidebar .cdss-tree-toggle {
+  position: relative;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+body.layout-sidebar .cdss-tree-toggle::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  margin: -5px 0 0 -4px;
+  border-right: 2px solid #4d7c8a;
+  border-bottom: 2px solid #4d7c8a;
+  transform: rotate(-45deg);
+  transition: transform 0.12s;
+}
+
+body.layout-sidebar .cdss-tree-toggle[aria-expanded="true"]::before {
+  transform: rotate(45deg);
+}
+
+body.layout-sidebar .cdss-tree-row.active .cdss-tree-toggle::before {
+  border-color: #fff;
+}
+
+body.layout-sidebar .cdss-tree-link {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 4px 6px 4px 0;
+  font-size: 14px;
+  line-height: 1.3;
+  color: #003f52;
+  text-decoration: none;
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+
+body.layout-sidebar .cdss-tree-link:hover {
+  text-decoration: underline;
+}
+
+body.layout-sidebar .cdss-tree-heading-label {
+  margin: 8px 4px 2px 8px;
+  font-family: 'PT Serif Bold', Arial, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #4d7c8a;
+}
+
+body.layout-sidebar .cdss-tree-heading.level-2 > .cdss-tree-heading-label {
+  font-family: 'PT Serif Italic', Arial, sans-serif;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 12.5px;
+  margin-top: 4px;
+}
+
+body.layout-sidebar .cdss-tree-heading > .cdss-tree-list {
+  margin-left: 6px;
+  border-left: none;
+}
+
+body.layout-sidebar a:focus-visible,
+body.layout-sidebar button:focus-visible {
+  outline: 2px solid #ff9f1c;
+  outline-offset: 1px;
+}
+
+/* ---- Narrow screens: drawer menu, therapy below the page ------------------ */
+
+@media (max-width: 999px) {
+  body.layout-sidebar #cdssNavToggle {
+    display: inline-block;
+  }
+
+  body.layout-sidebar #cdssBody,
+  body.layout-sidebar.has-therapy #cdssBody {
+    display: block;
+    overflow-y: auto;
+  }
+
+  body.layout-sidebar #cdssMain,
+  body.layout-sidebar #cdssTherapy {
+    overflow: visible;
+  }
+
+  body.layout-sidebar #cdssMain {
+    padding: 8px 10px 12px;
+  }
+
+  body.layout-sidebar #cdssTherapy {
+    border-left: none;
+    border-top: 2px solid #d9d9c4;
+  }
+
+  body.layout-sidebar #cdssNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 60;
+    width: min(88vw, 340px);
+    transform: translateX(-100%);
+    transition: transform 0.18s ease-out;
+    box-shadow: none;
+  }
+
+  body.layout-sidebar.nav-open #cdssNav {
+    transform: translateX(0);
+    box-shadow: 4px 0 14px rgba(0, 0, 0, 0.35);
+  }
+
+  body.layout-sidebar.nav-open::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 55;
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  body.layout-sidebar #cdssHeaderRow .search-container {
+    flex-basis: 100%;
+    max-width: none;
+    margin: 4px 0 0;
+  }
+}
