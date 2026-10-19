@@ -192,14 +192,20 @@ body.layout-sidebar #cdssTherapy {
   padding: 8px 14px 16px;
 }
 
-body.layout-sidebar .cdss-therapy-title,
-body.layout-sidebar .cdss-nav-title {
-  margin: 4px 6px 8px;
+/* Matches the shaded H1 banner of the centre pane title. */
+body.layout-sidebar .cdss-therapy-title {
+  margin: 0 0 8px;
+  padding: 4px;
+  background-color: lightblue;
   font-family: 'PT Serif Bold', Arial, sans-serif;
-  font-size: 15px;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: #0088aa;
+  font-size: 1.25em;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #000;
+}
+
+body.layout-sidebar #install-button {
+  display: none !important;
 }
 
 body.layout-sidebar #cdssMain .table,

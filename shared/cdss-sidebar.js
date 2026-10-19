@@ -314,9 +314,8 @@
     });
     headerRow.appendChild(byId('mainMenuButton'));
     headerRow.appendChild(header.querySelector('.search-container'));
-    const installButton = byId('install-button');
+    // The Install App button stays in the DOM (cdss-app.js binds to it) but is hidden by CSS.
     const homeButton = byId('homeButton');
-    if (installButton) headerRow.appendChild(installButton);
     if (homeButton) {
       homeButton.title = 'Back to regular site';
       headerRow.appendChild(homeButton);
@@ -328,9 +327,6 @@
     // Body: left menu tree, centre page, right therapy panel.
     const nav = make('nav', 'cdssNav');
     nav.setAttribute('aria-label', 'Guidance menu');
-    const navTitle = make('h2', null, 'cdss-nav-title');
-    navTitle.textContent = 'Menu';
-    nav.appendChild(navTitle);
     nav.appendChild(make('div', 'cdssTree'));
 
     const main = make('main', 'cdssMain');
