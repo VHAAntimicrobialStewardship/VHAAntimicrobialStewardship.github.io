@@ -21,6 +21,11 @@
   var Title = '001-TestStation Antimicrobial CDSS'; /*Name of the tab on the website*/
   var MainMenuButton = '001-TestStation Home'; /*Main menu button name*/
 
+  // Sidebar layout (menu tree + therapy panel), see /shared/cdss-sidebar.js. Remove these two
+  // lines (or add ?layout=classic to the URL) for the original layout.
+  var Layout = 'sidebar';
+  var WelcomePage = 'welcome'; /*Landing page ID and target of the station home button*/
+
   // Page names each (legacy) tab starts on. 'combined' is the default tab and
   // the long-term only one; the others are transitional.
   const MainMenu = 'ORZID2 GMENU ABX INPT MAIN'; /*Inpatient tab start menu (legacy)*/
@@ -51,7 +56,7 @@
   // Footer/header button visibility ('True' hides). The station-switcher row
   // (hideButtonsVersions) is only shown on the test station.
   var hideButtonsDownloads = 'False'; /*buttons to allow user to download json and txml files*/
-  var hideButtonsVersions = 'False';/*mark as true for non-CDSS systems*/
+  var hideButtonsVersions = 'True';/*mark as true for non-CDSS systems*/
   var hideButtonsIndex = 'False';/*mark as true for non-CDSS systems*/
   var hideButtonsHome = 'False';/*mark as true for non-CDSS systems*/
   var Version = 'V1.2'; /*Text at the bottom of the menu, change to whatever you want*/
@@ -61,6 +66,7 @@
   <title id="pageTitle"></title>
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="icon" href="/CDSSLogoApp.png" type="image/x-icon">
+  <link rel="stylesheet" href="/shared/cdss-sidebar.css">
   <style>
   /* Common styles */
   @font-face {
@@ -476,6 +482,7 @@
     </div>
     -->
     <span id="versionTag"></span>
+<script src="/shared/cdss-sidebar.js"></script>
 <script src="/shared/cdss-app.js"></script>
 </body>
 </html>
