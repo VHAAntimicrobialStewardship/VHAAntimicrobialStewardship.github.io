@@ -170,8 +170,9 @@ def find_unresolved_links(menus: list[dict], om_names: set[str], od_names: set[s
     """Warnings for internal markdown links whose target is not a known page/order dialog."""
     warns = []
     for m in menus:
-        text = m.get("Text", "")
-        if not text:
+        # Text and the optional right-hand Therapy panel both carry markdown links.
+        text = (m.get("Text", "") or "") + "\n" + (m.get("Therapy", "") or "")
+        if not text.strip():
             continue
 
         for label, target in LINK_RE.findall(text):

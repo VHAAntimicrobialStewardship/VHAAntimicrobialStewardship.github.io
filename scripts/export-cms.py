@@ -55,6 +55,9 @@ LEGACY_MAIN_MENU_ID = "inpt-main"
 MAIN_MENU_GROUP = "main-menu"
 # Group used for any page that cannot be reached from a main-menu section.
 FALLBACK_GROUP = "general"
+# Pages without an Inpt pointer that are still exported (they land in
+# FALLBACK_GROUP as they are not linked from the main menu).
+STANDALONE_PAGES = ("welcome",)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -458,6 +461,9 @@ def write_page_files(rows: list[dict], nav_numbers: dict[str, dict[str, int]]) -
         for field in ("Outpt", "ERUC"):
             if page.get(field):
                 page_record[field] = page[field]
+        # Therapy panel text (sidebar layout); only written when present.
+        if page.get("Therapy"):
+            page_record["Therapy"] = page["Therapy"]
 
         out_path = group_dir / f"{ensure_path_safe(group, pid)}.json"
         with open(out_path, "w", encoding="utf-8") as f:
@@ -502,6 +508,11 @@ __GROUP_OPTIONS__
         widget: markdown
         required: false
         hint: "Write content here. Link to other pages using [Label](page-id) where page-id is shown at the bottom of the target page on the live site."
+      - label: "Therapy Panel"
+        name: Therapy
+        widget: markdown
+        required: false
+        hint: "Shown in the right-hand Therapy panel of the sidebar layout. Leave empty if this page has no therapy section (the panel is then hidden)."
       - label: "Source Inpatient Menu (read-only)"
         name: Inpt
         widget: string
@@ -614,6 +625,11 @@ def main() -> None:
     combined_pages: dict[str, dict] = {m["Name"]: m for m in menus if m.get("Inpt")}
     main_menu_id = MAIN_MENU_ID if MAIN_MENU_ID in by_name else LEGACY_MAIN_MENU_ID
     combined_pages[main_menu_id] = by_name.get(main_menu_id, {})
+    # Standalone pages (no Inpt pointer) that must still be exported, e.g. the
+    # sidebar layout's Welcome page.
+    for standalone_id in STANDALONE_PAGES:
+        if standalone_id in by_name:
+            combined_pages[standalone_id] = by_name[standalone_id]
     print(f"Combined pages to export: {len(combined_pages)}")
 
     main_menu = by_name.get(main_menu_id)

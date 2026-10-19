@@ -114,6 +114,12 @@ Non-negotiable invariants (do not break)
 - Service worker strategy is network-first for HTML.
 - Any caching rule changes must include explicit version bump and regression check for content freshness.
 
+11) Sidebar layout (test station only, opt-in)
+- stations/001-TestStation/TestStationCDSS.html sets `var Layout = 'sidebar'` and `var WelcomePage = 'welcome'`; shared/cdss-sidebar.js and shared/cdss-sidebar.css build the menu tree, header drop-downs and therapy panel. `?layout=classic` restores the original layout.
+- All sidebar behavior in shared/cdss-app.js is behind `SIDEBAR_LAYOUT`; stations without the flag must behave exactly as before.
+- The menu tree is derived at runtime from main-menu plus nav-like pages (no separate menu data). Nav pages are detected by link-line ratio; bold-only lines act as sub-headings.
+- Optional per-page `Therapy` field (markdown, CMS "Therapy Panel", 001-TestStation collection only) renders in the right-hand therapy panel; the panel is absent when the field is empty. scripts/split-therapy.py (dry run by default; `--apply` to write; then compile-cms.py and audit-teststation.py) bulk-moves therapy sections from Text into Therapy for 001-TestStation pages and skips pages that already have Therapy; in classic layout, cdss-app.js merges Therapy back into the page text. The welcome page (PageID `welcome`) is a standalone page kept by export-cms.py (STANDALONE_PAGES).
+
 Script workflows to protect
 
 Combined guidance rebuild flow (spreadsheet-driven)

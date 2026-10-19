@@ -44,6 +44,9 @@ def build_omjson_record(page_rec: dict) -> dict:
     inpt = page_rec.get("Inpt", "")
     if inpt:
         record["Inpt"] = inpt
+    # Optional right-hand "Therapy" panel text (sidebar layout only).
+    if page_rec.get("Therapy", "").strip():
+        record["Therapy"] = page_rec["Therapy"]
     for field in ("Outpt", "ERUC"):
         if page_rec.get(field):
             record[field] = page_rec[field]
@@ -101,6 +104,8 @@ def compile_station(station_dir: str, omjson_filename: str) -> None:
             menu.update(new_rec)
             if not new_rec.get("Inpt"):
                 menu.pop("Inpt", None)
+            if not new_rec.get("Therapy"):
+                menu.pop("Therapy", None)  # cleared in the CMS
             menu.pop("LinkTargets", None)
             updated += 1
         elif pid == "main-menu":
