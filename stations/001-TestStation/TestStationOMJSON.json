@@ -50595,7 +50595,7 @@
       "Name": "prophylaxis-for-ophthalmic-surgery",
       "Term1": "Prophylaxis for ophthalmic surgery",
       "Term2": "",
-      "Text": "# PROPHYLAXIS FOR OPHTHALMIC SURGERY\n\nWhen indicated, ophthalmology will order antimicrobial prophylaxis before\nprocedures.",
+      "Text": "# PROPHYLAXIS FOR OPHTHALMIC SURGERY\n\nWhen indicated, ophthalmology will order antimicrobial prophylaxis before procedures.",
       "Inpt": "ORZID2 GMENU PROPHYLAXIS OPTH SURG",
       "Outpt": "ORZID3 GMENU PROPHYLAXIS OPTH SURG"
     },
