@@ -5,7 +5,7 @@
   "SortKey": "general~1~diagnosis pertussis",
   "Term1": "DIAGNOSIS PERTUSSIS",
   "Term2": "",
-  "Text": "osteomyelitis if managed without plastic surgery. Treatment with prolonged",
+  "Text": "# DIAGNOSIS OF PERTUSSIS\n\nPertussis is a clinical diagnosis with two weeks of cough and at least on other\nsymptoms of pertussis such as paroxysms or post tussive vomiting. Lab testing is\nnot required but available\nFor previously unvaccinated individuals, the three-dose serious of Td/Tdap\nshould be administered. A Tdap booster should be administered every 10 years\nafter completion of the series.\n\n[Td/Tdap Immunization Menu](orzid3-gmenu-abx-tdap-vaccine-information-page)\n\n[Obtain nasopharyngeal sample for Bordetella pertussis/para-pertussis PCR](lrtzid-igg-aby-bordetella-pertussis)\n\n# _______________________________________________________________________________\n\n# References:\n\nUp-to-Date article: Pertussis infection in adolescents and adults: Clinic\nmanifestations and diagnosis\nSanford keyword: Pertussis\nMandell chapter: Bordetella species",
   "Inpt": "ORZID2 GMENU DIAGNOSIS PERTUSSIS",
   "Outpt": "diagnosis-pertussis"
 }

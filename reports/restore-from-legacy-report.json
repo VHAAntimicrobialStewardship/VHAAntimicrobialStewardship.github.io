@@ -1,0 +1,228 @@
+{
+  "restored": [
+    {
+      "page": "ec-cx-neg",
+      "group": "cardiovascular",
+      "inpt": "ORZID2 GMENU EC CX NEG",
+      "legacy_words": 40,
+      "cms_words": 0,
+      "ratio": 0.0,
+      "coverage": 0.0,
+      "new_text_words": 40,
+      "new_therapy_words": 0
+    },
+    {
+      "page": "ec-enterococci",
+      "group": "cardiovascular",
+      "inpt": "ORZID2 GMENU EC ENTEROCOCCI",
+      "legacy_words": 182,
+      "cms_words": 0,
+      "ratio": 0.0,
+      "coverage": 0.0,
+      "new_text_words": 92,
+      "new_therapy_words": 90
+    },
+    {
+      "page": "ec-fungi",
+      "group": "cardiovascular",
+      "inpt": "ORZID2 GMENU EC FUNGI",
+      "legacy_words": 10,
+      "cms_words": 7,
+      "ratio": 0.7,
+      "coverage": 0.0,
+      "new_text_words": 10,
+      "new_therapy_words": 0
+    },
+    {
+      "page": "ec-gnb",
+      "group": "cardiovascular",
+      "inpt": "ORZID2 GMENU EC GNB",
+      "legacy_words": 84,
+      "cms_words": 0,
+      "ratio": 0.0,
+      "coverage": 0.0,
+      "new_text_words": 63,
+      "new_therapy_words": 21
+    },
+    {
+      "page": "ec-hacek",
+      "group": "cardiovascular",
+      "inpt": "ORZID2 GMENU EC HACEK",
+      "legacy_words": 92,
+      "cms_words": 5,
+      "ratio": 0.05,
+      "coverage": 0.0,
+      "new_text_words": 73,
+      "new_therapy_words": 19
+    },
+    {
+      "page": "chronic-meningitis",
+      "group": "cns",
+      "inpt": "ORZID2 GMENU ABX CHRONIC MENINGITIS",
+      "legacy_words": 40,
+      "cms_words": 9,
+      "ratio": 0.23,
+      "coverage": 0.03,
+      "new_text_words": 40,
+      "new_therapy_words": 0
+    },
+    {
+      "page": "diagnosis-pertussis",
+      "group": "general",
+      "inpt": "ORZID2 GMENU DIAGNOSIS PERTUSSIS",
+      "legacy_words": 58,
+      "cms_words": 8,
+      "ratio": 0.14,
+      "coverage": 0.02,
+      "new_text_words": 58,
+      "new_therapy_words": 0
+    },
+    {
+      "page": "emp-intrav-w-o-vanco",
+      "group": "general",
+      "inpt": "ORZID2 GMENU EMP INTRAV W/O VANCO",
+      "legacy_words": 62,
+      "cms_words": 2,
+      "ratio": 0.03,
+      "coverage": 0.0,
+      "new_text_words": 29,
+      "new_therapy_words": 33
+    },
+    {
+      "page": "emp-intrav-w-vanco",
+      "group": "general",
+      "inpt": "ORZID2 GMENU EMP INTRAV W/ VANCO",
+      "legacy_words": 81,
+      "cms_words": 7,
+      "ratio": 0.09,
+      "coverage": 0.02,
+      "new_text_words": 26,
+      "new_therapy_words": 55
+    },
+    {
+      "page": "pyomyositis",
+      "group": "general",
+      "inpt": "ORZID2 GMENU PYOMYOSITIS",
+      "legacy_words": 28,
+      "cms_words": 5,
+      "ratio": 0.18,
+      "coverage": 0.11,
+      "new_text_words": 28,
+      "new_therapy_words": 0
+    },
+    {
+      "page": "cryptosporidia",
+      "group": "gi-intraabdominal",
+      "inpt": "ORZID2 GMENU ABX CRYPTOSPORIDIA",
+      "legacy_words": 42,
+      "cms_words": 14,
+      "ratio": 0.33,
+      "coverage": 0.06,
+      "new_text_words": 26,
+      "new_therapy_words": 16
+    }
+  ],
+  "not_in_scope": [
+    {
+      "page": "bispecific-crs-monitoring",
+      "group": "bispecific-antibody",
+      "inpt": "ORZID2 GMENU BISPECIFIC NEW CRS MONITORING",
+      "legacy_words": 222,
+      "cms_words": 78,
+      "ratio": 0.35,
+      "coverage": 0.44
+    },
+    {
+      "page": "dermatologic-surgery-guidelines",
+      "group": "dermatologic-surgery-guidelines",
+      "inpt": "ORZID2 GMENU ABX DERMATOLOGIC SURGERY GUIDELINES",
+      "legacy_words": 108,
+      "cms_words": 10,
+      "ratio": 0.09,
+      "coverage": 0.08
+    },
+    {
+      "page": "aeromonas",
+      "group": "general",
+      "inpt": "ORZID2 GMENU ABX AEROMONAS",
+      "legacy_words": 21,
+      "cms_words": 9,
+      "ratio": 0.43,
+      "coverage": 0.12
+    },
+    {
+      "page": "derm-post-op-infections",
+      "group": "general",
+      "inpt": "ORZID2 GMENU ABX DERM POST-OP INFECTIONS",
+      "legacy_words": 314,
+      "cms_words": 9,
+      "ratio": 0.03,
+      "coverage": 0.01
+    },
+    {
+      "page": "derm-prophylaxis",
+      "group": "general",
+      "inpt": "ORZID2 GMENU ABX DERM PROPHYLAXIS",
+      "legacy_words": 220,
+      "cms_words": 9,
+      "ratio": 0.04,
+      "coverage": 0.02
+    },
+    {
+      "page": "entamoeba-histolytica",
+      "group": "general",
+      "inpt": "ORZID2 GMENU ABX ENTAMOEBA HISTOLYTICA",
+      "legacy_words": 21,
+      "cms_words": 8,
+      "ratio": 0.38,
+      "coverage": 0.06
+    },
+    {
+      "page": "isospora",
+      "group": "general",
+      "inpt": "ORZID2 GMENU ABX ISOSPORA",
+      "legacy_words": 21,
+      "cms_words": 4,
+      "ratio": 0.19,
+      "coverage": 0.0
+    },
+    {
+      "page": "elements-of-cdss-advice-page",
+      "group": "help-page",
+      "inpt": "ORZID2 GMENU ABX ELEMENTS OF CDSS ADVICE PAGE",
+      "legacy_words": 268,
+      "cms_words": 5,
+      "ratio": 0.02,
+      "coverage": 0.01
+    },
+    {
+      "page": "immunocom-diabetes-mellitus",
+      "group": "immunocompromised-patient",
+      "inpt": "ORZID2 GMENU IMMUNOCOM DIABETES MELLITUS",
+      "legacy_words": 48,
+      "cms_words": 7,
+      "ratio": 0.15,
+      "coverage": 0.0
+    },
+    {
+      "page": "surg-ercp",
+      "group": "surgical-antimicrobial-prophylaxis",
+      "inpt": "ORZID2 GMENU SURG ERCP",
+      "legacy_words": 85,
+      "cms_words": 5,
+      "ratio": 0.06,
+      "coverage": 0.0
+    },
+    {
+      "page": "surg-prophylaxis-doses-and-redosing",
+      "group": "surgical-antimicrobial-prophylaxis",
+      "inpt": "ORZID2 GMENU SURG PROPHYLAXIS DOSES AND REDOSING",
+      "legacy_words": 132,
+      "cms_words": 2,
+      "ratio": 0.02,
+      "coverage": 0.01
+    }
+  ],
+  "no_legacy_source": [],
+  "unchanged": []
+}
