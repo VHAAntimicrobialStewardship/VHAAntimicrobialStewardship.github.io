@@ -6,7 +6,7 @@
   "Term1": "Herpes simplex encephalitis",
   "Term2": "",
   "Text": "# HERPES SIMPLEX ENCEPHALITIS\n\nHerpes simplex virus (HSV) type 1 is the leading cause of sporadic fatal encephalitis worldwide and should be suspected in patients who have symptoms unexplained by other causes. Typical symptoms include acute alteration of consciousness for more than 24 hours, fever, new onset seizures and/or focal neurologic deficits. Patients taking natalizumab are at increased risk of HSV encephalitis. Early diagnosis and treatment are essential to achieve resolution of infection and symptoms. If diagnosis is not certain and there is little likelihood of herniation, obtain cerebrospinal fluid (CSF) sample for HSV polymerase chain reaction (PCR). MRI without contrast nearly always show abnormal signs in patients with HSV encephalitis. Neurology and Infectious Disease consultations are strongly encouraged.\n\nReferences:\nRabinstein, Neurol Clin, 2017, 695-705\nSanford keyword: Encephalitis\nUp-to-Date Article: Herpes simplex virus type 1 encephalitis",
-  "Therapy": "## Treatment, Initiate Immediately When HSV Encephalitis is Suspected\n\n## Inpatient\n\nAcyclovir 10 mg/kg IV q8h ($$) [R,DI] for 14 to 21 days\n\\*If BMI > 35, use IBW to dose\n\n## Outpatient\n\nRefer to the Inpatient Antimicrobial CDSS.",
+  "Therapy": "## Treatment, Initiate Immediately When HSV Encephalitis is Suspected\n\nAcyclovir 10 mg/kg IV q8h ($$) [R,DI] for 14 to 21 days\n\\*If BMI > 35, use IBW to dose\n\n##",
   "Inpt": "ORZID2 GMENU ABX HSV ENCEPHALITIS",
   "Outpt": "ORZID3 GMENU HSV ENCEPHALITIS"
 }
