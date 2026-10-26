@@ -5,8 +5,8 @@
   "SortKey": "ssti-main-menu~1~herpes whitlow",
   "Term1": "Herpes whitlow (digit or hand cellulitis)",
   "Term2": "",
-  "Text": "# HERPES WHITLOW (DIGIT OR HAND CELLULITIS)\n\n## Treatment\n\n## Inpatient\n\nAcyclovir 400 mg PO q8h for 10 days ($) [R]\n\n## Outpatient\n\nPreferred:\nAcyclovir 400 mg PO q8h for 10 days ($) [R]\n\nAlternative for easier compliance schedule:\nValacyclovir 1 gm PO q12h for 10 days ($) [R]\nNon-VA order for above\n\n## Alternative for easier compliance schedule\n\nValacyclovir 1 gm PO BID for 10 days ($) [R]\nNon-VA order for above\n\nReferences:\nMandell chapter: Herpes simplex virus\nSanford keyword: Whitlow, herpetic",
-  "Therapy": "",
+  "Text": "# HERPES WHITLOW (DIGIT OR HAND CELLULITIS)\n\n## \n\nReferences:\nMandell chapter: Herpes simplex virus\nSanford keyword: Whitlow, herpetic",
+  "Therapy": "## \n\n## Inpatient\n\nAcyclovir 400 mg PO q8h for 10 days ($) [R]\n\n## Outpatient\n\nPreferred:\nAcyclovir 400 mg PO q8h for 10 days ($) [R]\n\nAlternative for easier compliance schedule:\nValacyclovir 1 gm PO q12h for 10 days ($) [R]\nNon-VA order for above\n\n## Alternative for easier compliance schedule\n\nValacyclovir 1 gm PO BID for 10 days ($) [R]\nNon-VA order for above",
   "Inpt": "ORZID2 GMENU ABX HERPES WHITLOW",
   "Outpt": "ORZID3 GMENU HERPES WHITLOW"
 }
