@@ -980,9 +980,10 @@
       "Name": "hepatitis-c",
       "Term1": "Hepatitis c",
       "Term2": "",
-      "Text": "# HEPATITIS C\n\n## Treatment of acute disease\n\nMost acute disease is asymptomatic or mild. Patients with acute hepatitis C should be referred to the Hepatitis C clinic. Treatment may be indicated for disease that persists beyond 2 months.\n\n## Chronic disease treatment\n\nAntiviral therapy for chronic hepatitis C is a complicated, highly specialized task.\n\n## Inpatient\n\nConsult Gastroenterology and Infectious Diseases. \n\n## Outpatient\n\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\nReferences:\nMandell chapter: Acute viral hepatitis\nMandell chapter: Chronic viral hepatitis\nUp-to-date article: Overview of the management of chronic hepatitis C virus infection\n\n## _______________________________________________________________________________",
+      "Text": "# HEPATITIS C\n\nMost acute disease is asymptomatic or mild. Patients with acute hepatitis C should be referred to the Hepatitis C clinic. Treatment may be indicated for disease that persists beyond 2 months.\n\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\nReferences:\nMandell chapter: Acute viral hepatitis\nMandell chapter: Chronic viral hepatitis\nUp-to-date article: Overview of the management of chronic hepatitis C virus infection\n\n## _______________________________________________________________________________",
       "Inpt": "ORZID2 GMENU ABX HEPATITIS C",
-      "Outpt": "ORZID3 GMENU ABX HEPATITIS C"
+      "Outpt": "ORZID3 GMENU ABX HEPATITIS C",
+      "Therapy": "## Chronic disease treatment\n\nAntiviral therapy for chronic hepatitis C is a complicated, highly specialized task.\n\nConsult Gastroenterology and Infectious Diseases."
     },
     {
       "Name": "herpes-keratitis",
