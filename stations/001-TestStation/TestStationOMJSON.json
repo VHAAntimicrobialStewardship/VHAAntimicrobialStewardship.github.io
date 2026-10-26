@@ -170,9 +170,10 @@
       "Name": "bed-bugs-hemiptera",
       "Term1": "Bed bugs (hemiptera)",
       "Term2": "",
-      "Text": "# BED BUGS (HEMIPTERA)\n\nAntimicrobial treatment is not indicated. Treat itching with topical corticosteroids or systemic antihistamines.\n\n## Inpatient\n\nTriamcinolone 0.1% cream apply to affected area BID PRN for itching ($)[M]\n\nHydroxyzine pamoate 25 mg PO TID until symptoms resolve, then take 25 mg PO TID PRN for itching ($) [H]\n\n## Outpatient\n\nTriamcinolone 0.1% cream apply to affected area BID PRN for itching ($)[M]\nNon-VA order for above\n\nHydroxyzine pamoate 25 mg PO TID until symptoms resolve, then take 25 mg PO TID PRN for itching ($) [H]\nNon-VA order for above\n\n[References](references)\nUp-to-date website",
+      "Text": "# BED BUGS (HEMIPTERA)\n\nAntimicrobial treatment is not indicated. Treat itching with topical corticosteroids or systemic antihistamines.\n\n[References](references)\nUp-to-date website",
       "Inpt": "ORZID2 GMENU BED BUGS (HEMIPTERA)",
-      "Outpt": "ORZID3 GMENU BED BUGS (HEMIPTERA)"
+      "Outpt": "ORZID3 GMENU BED BUGS (HEMIPTERA)",
+      "Therapy": "## Inpatient\n\nTriamcinolone 0.1% cream apply to affected area BID PRN for itching ($)[M]\n\nHydroxyzine pamoate 25 mg PO TID until symptoms resolve, then take 25 mg PO TID PRN for itching ($) [H]\n\n## Outpatient\n\nTriamcinolone 0.1% cream apply to affected area BID PRN for itching ($)[M]\nNon-VA order for above\n\nHydroxyzine pamoate 25 mg PO TID until symptoms resolve, then take 25 mg PO TID PRN for itching ($) [H]\nNon-VA order for above"
     },
     {
       "Name": "bells-palsy",
@@ -237,7 +238,7 @@
       "Text": "# BODY LICE (PEDICULOSIS CORPORIS)\n\nLice are parasitic insects. Human lice survive by feeding on human blood. Body lice proliferate in places where crowding of persons with poor hygiene is common, especially homeless persons. Infested clothing and bed linen should be heat washed or discarded. Itching is the most common symptom, but some patients present only with excoriations and inflammation on the neck and trunk.\n\n[References](references)\nSanford keyword: lice\nUp-to-date website",
       "Inpt": "ORZID2 GMENU BODY LICE (PEDICULOSIS CORPORIS)",
       "Outpt": "ORZID3 GMENU BODY LICE (PEDICULOSIS CORPORIS)",
-      "Therapy": "## Inpatient\n\n## Treatment\n\nA repeat application may be used if live lice are seen 7-10 days after treatment.\n\nPermethrin 1% lotion Apply to affected area for 10 minutes then comb out nits ($) [M]\n\n## Outpatient\n\n## Treatment\n\nA repeat application may be used if live lice are seen 7-10 days after treatment.\n\nPermethrin 1% lotion Apply to affected area for 10 minutes then comb out nits ($) [M]\nNon-VA order for above"
+      "Therapy": "## Inpatient\n\nA repeat application may be used if live lice are seen 7-10 days after treatment.\n\nPermethrin 1% lotion Apply to affected area for 10 minutes then comb out nits ($) [M]\n\n## Outpatient\n\nA repeat application may be used if live lice are seen 7-10 days after treatment.\n\nPermethrin 1% lotion Apply to affected area for 10 minutes then comb out nits ($) [M]\nNon-VA order for above"
     },
     {
       "Name": "bronchitis",
