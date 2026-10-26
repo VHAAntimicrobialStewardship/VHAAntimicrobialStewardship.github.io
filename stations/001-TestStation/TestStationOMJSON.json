@@ -49574,7 +49574,7 @@
       "Text": "# PUBIC LICE (PEDICULOSIS PUBIS)\n\nLice are parasitic insects. Human lice survive by feeding on human blood. To make a diagnosis, use a nit comb, bright light, or lens to find a louse living in pubic hair. The presence of nits on a hair shaft, especially when they are located more than 6 mm from the skin, does NOT indicate active infestation. Dead nits may remain present for months after successful treatment.\n\nHousehold contacts and persons who may have come into contact with personal belongings of an infested individual should be examined for evidence of lice and discarded or cleaned if contaminated.\n\n[References](references)\nSanford keyword: lice\nUp-to-date website",
       "Inpt": "ORZID2 GMENU PUBIC LICE (PEDICULOSIS PUBIS)",
       "Outpt": "ORZID3 GMENU PUBIC LICE (PEDICULOSIS PUBIS)",
-      "Therapy": "## Treatment\n\nA repeat application may be used if live lice are seen 7-10 days after treatment.\n\nPermethrin 1% lotion. Apply to affected area for 10 minutes then comb out nits ($) [M]"
+      "Therapy": "A repeat application may be used if live lice are seen 7-10 days after treatment.\n\nPermethrin 1% lotion. Apply to affected area for 10 minutes then comb out nits ($) [M]"
     },
     {
       "Name": "react-prim-infect-zoster",
@@ -49645,7 +49645,7 @@
       "Text": "# SCABIES\n\nScabies is an infestation of the skin by the mite Sarcoptes scabiei. It is transmitted by skin to skin contact. Outbreaks occur in nursing homes, day care centers, and residential institutions. Scabies is highly contagious and meticulous infection control is needed. Treatment is a single application of permethrin cream. Some experts recommend a second application 7-10 days after the first application if the patient is still symptomatic or if live mites are found at that time.\n\nContact Dermatology or Infectious Diseases for more information.\n\nTreat family members and other close contacts to prevent spread and recurrence.\n\n[References](references)\nSanford keyword: Scabies\nUp-to-date website",
       "Inpt": "ORZID2 GMENU SCABIES",
       "Outpt": "ORZID3 GMENU SCABIES",
-      "Therapy": "## Treatment\n\nRepeat application 7-10 days after the first application if patient is still experiencing symptoms, or if live mites are found.\n\nPermethrin 5% cream apply from head to feet, leave on for 8-14 hours, then wash cream off with soap and water ($) [M]"
+      "Therapy": "Repeat application 7-10 days after the first application if patient is still experiencing symptoms, or if live mites are found.\n\nPermethrin 5% cream apply from head to feet, leave on for 8-14 hours, then wash cream off with soap and water ($) [M]"
     },
     {
       "Name": "second-peritonitis",
