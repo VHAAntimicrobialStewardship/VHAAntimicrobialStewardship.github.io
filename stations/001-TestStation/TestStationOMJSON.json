@@ -784,7 +784,7 @@
       "Text": "# ERYTHRASMA\n\nErythrasma presents as brownish-red, well circumscribed, irregularly shaped patches in or near skin folds. Patches in the groin often itch. Most cases respond to topical therapy.\n\n## _______________________________________________________________________________\n\nReferences:\nSanford keyword: erythrasma\nUp-to-date website\nHoldiness MR Drugs 2002, 62:1131",
       "Inpt": "ORZID2 GMENU ERYTHRASMA",
       "Outpt": "ORZID3 GMENU ERYTHRASMA",
-      "Therapy": "## Inpatient\n\n## Outpatient\n\nClindamycin 1% topical solution apply twice daily [M] for 14 days"
+      "Therapy": "## Inpatient/Outpatient\n\nClindamycin 1% topical solution apply twice daily [M] for 14 days"
     },
     {
       "Name": "esophagitis",
