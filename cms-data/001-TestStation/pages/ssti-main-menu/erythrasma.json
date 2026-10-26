@@ -5,8 +5,8 @@
   "SortKey": "ssti-main-menu~1~erythrasma",
   "Term1": "Erythrasma",
   "Term2": "",
-  "Text": "# ERYTHRASMA\nErythrasma presents as brownish-red, well circumscribed, irregularly shaped\npatches in or near skin folds. Patches in the groin often itch.\nMost cases respond to topical therapy.\n\n## _______________________________________________________________________________\nReferences:\nSanford keyword: erythrasma\nUp-to-date website\nHoldiness MR Drugs 2002, 62:1131",
-  "Therapy": "## Treatment\n\n## Inpatient\n\n/Outpatient Clindamycin 1% topical solution apply twice daily [M] for 14 days",
+  "Text": "# ERYTHRASMA\n\nErythrasma presents as brownish-red, well circumscribed, irregularly shaped patches in or near skin folds. Patches in the groin often itch. Most cases respond to topical therapy.\n\n## _______________________________________________________________________________\n\nReferences:\nSanford keyword: erythrasma\nUp-to-date website\nHoldiness MR Drugs 2002, 62:1131",
+  "Therapy": "## Inpatient\n\n## Outpatient\n\nClindamycin 1% topical solution apply twice daily [M] for 14 days",
   "Inpt": "ORZID2 GMENU ERYTHRASMA",
   "Outpt": "ORZID3 GMENU ERYTHRASMA"
 }
