@@ -229,7 +229,7 @@
       "Inpt": "ORZID2 GMENU BITE WOUNDS",
       "Outpt": "ORZID3 GMENU BITE WOUNDS",
       "ERUC": "ORZID GMENU ER/UC BITE WOUNDS",
-      "Therapy": "## Prophylaxis:\n\n## Inpatient\n\nDuration 3 to 5 days:\nAmoxicillin-clavulanate 875/125 mg PO BID for 5 days [R]\n\nUnable to take oral antimicrobials:\nAmpicillin-sulbactam 3 gm IV q6h [R]\n\n## Outpatient\n\nDuration 3 to 5 days:\nAmoxicillin-clavulanate 875/125 mg PO BID for 5 days [R]\nNon-VA order for above\n\nAlternative for patients with penicillin allergy:\ndepends on the bite: call ID if further questions\nDoxycycline 100 mg PO BID for 5 days < AND > metronidazole 500 mg PO BID for 5 days"
+      "Therapy": "## Inpatient\n\nDuration 3 to 5 days:\nAmoxicillin-clavulanate 875/125 mg PO BID for 5 days [R]\n\nUnable to take oral antimicrobials:\nAmpicillin-sulbactam 3 gm IV q6h [R]\n\n## Outpatient\n\nDuration 3 to 5 days:\nAmoxicillin-clavulanate 875/125 mg PO BID for 5 days [R]\nNon-VA order for above\n\nAlternative for patients with penicillin allergy:\ndepends on the bite: call ID if further questions\nDoxycycline 100 mg PO BID for 5 days < AND > metronidazole 500 mg PO BID for 5 days"
     },
     {
       "Name": "body-lice-pediculosis-corporis",
