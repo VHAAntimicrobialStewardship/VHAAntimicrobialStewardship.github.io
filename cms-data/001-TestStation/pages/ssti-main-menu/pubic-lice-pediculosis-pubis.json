@@ -6,7 +6,7 @@
   "Term1": "Pubic lice (pediculosis pubis)",
   "Term2": "",
   "Text": "# PUBIC LICE (PEDICULOSIS PUBIS)\n\nLice are parasitic insects. Human lice survive by feeding on human blood. To make a diagnosis, use a nit comb, bright light, or lens to find a louse living in pubic hair. The presence of nits on a hair shaft, especially when they are located more than 6 mm from the skin, does NOT indicate active infestation. Dead nits may remain present for months after successful treatment.\n\nHousehold contacts and persons who may have come into contact with personal belongings of an infested individual should be examined for evidence of lice and discarded or cleaned if contaminated.\n\n[References](references)\nSanford keyword: lice\nUp-to-date website",
-  "Therapy": "## Treatment\nA repeat application may be used if live lice are seen 7-10 days after\ntreatment.\nPermethrin 1% lotion. Apply to affected area for 10 minutes then comb out\nnits ($) [M]",
+  "Therapy": "## Treatment\n\nA repeat application may be used if live lice are seen 7-10 days after treatment.\n\nPermethrin 1% lotion. Apply to affected area for 10 minutes then comb out nits ($) [M]",
   "Inpt": "ORZID2 GMENU PUBIC LICE (PEDICULOSIS PUBIS)",
   "Outpt": "ORZID3 GMENU PUBIC LICE (PEDICULOSIS PUBIS)"
 }
