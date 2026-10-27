@@ -6,7 +6,7 @@
   "Term1": "Epiglottitis",
   "Term2": "",
   "Text": "# EPIGLOTTITIS\n\nMaintaining the airway is the key to management. Call ENT service and ask them to see the patient immediately. Blood cultures and epiglottal cultures (in intubated patients) should be used to direct antimicrobial therapy. Empirical therapy should be initiated prior to results of cultures as infection is life threatening and cover for likely pathogens (Moraxella catarrhalis, penicillin resistant S. pneumonia, beta-hemolytic streptococci and possibly Staph. aureus)\n\n## _______________________________________________________________________________\n\nReferences:\nMandell chapter: Epiglottitis\nRafei et al., Pediatric Clinics 2006, 53.2, 215-242\nSanford keyword: Epiglottitis, Supraglottis\nUp-to-date article: Epiglottis (supraglottis): Management",
-  "Therapy": "## Inpatient\n\nPreferred:\nCeftriaxone 2 gm IV q24h ($) [M] <AND> vancomycin 15 mg/kg IV q 12h ($) [R] for 7 days\n\nAlternative:\n[Assessment of Beta-lactam Reaction](beta-lactam-allergy-assessment)\nLevofloxacin 500 mg IV q24h ($) [R,DI] <AND> vancomycin 15 mg/kg IV q12h ($) [R] for 7 days\n\n## Outpatient\n\nRefer to the Inpatient Antimicrobial CDSS for parenteral therapy.",
+  "Therapy": "## Inpatient/Outpatient\n\nPreferred:\nCeftriaxone 2 gm IV q24h ($) [M] <AND> vancomycin 15 mg/kg IV q 12h ($) [R] for 7 days\n\nAlternative:\n[Assessment of Beta-lactam Reaction](beta-lactam-allergy-assessment)\nLevofloxacin 500 mg IV q24h ($) [R,DI] <AND> vancomycin 15 mg/kg IV q12h ($) [R] for 7 days\n\n##",
   "Inpt": "ORZID2 GMENU ABX EPIGLOTTITIS",
   "Outpt": "ORZID3 GMENU EPIGLOTTITIS"
 }
