@@ -6,7 +6,7 @@
   "Term1": "Bed bugs (hemiptera)",
   "Term2": "",
   "Text": "# BED BUGS (HEMIPTERA)\n\nAntimicrobial treatment is not indicated. Treat itching with topical corticosteroids or systemic antihistamines.\n\n[References](references)\nUp-to-date website",
-  "Therapy": "",
+  "Therapy": "## Inpatient\n\nTriamcinolone 0.1% cream apply to affected area BID PRN for itching ($)[M]\n\nHydroxyzine pamoate 25 mg PO TID until symptoms resolve, then take 25 mg PO TID PRN for itching ($) [H]\n\n## Outpatient\n\nTriamcinolone 0.1% cream apply to affected area BID PRN for itching ($)[M]\nNon-VA order for above\n\nHydroxyzine pamoate 25 mg PO TID until symptoms resolve, then take 25 mg PO TID PRN for itching ($) [H]\nNon-VA order for above",
   "Inpt": "ORZID2 GMENU BED BUGS (HEMIPTERA)",
   "Outpt": "ORZID3 GMENU BED BUGS (HEMIPTERA)"
 }
