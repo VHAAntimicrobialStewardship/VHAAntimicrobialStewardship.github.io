@@ -50271,10 +50271,10 @@
       "Name": "yersinia-enterocolitica",
       "Term1": "Yersinia enterocolitica",
       "Term2": "",
-      "Text": "# YERSINIA ENTEROCOLITICA\nAntimicrobials are indicated only for patients with severe disease or immune\ncompromise.\n\n## _______________________________________________________________________________\nReferences:\nSanford Guide article: Gastroenteritis, Y. enterocolitica\nDOI: 10.1093/cid/cix669-Shane et al, Clinical Infectious Diseases 2017,\n65(12):45-80\nUp-to-Date article: Yersiniosis: Infection due to Yersinia enterocolitica and\nYersinia pseudotuberculosis",
+      "Text": "# YERSINIA ENTEROCOLITICA\n\nAntimicrobials are indicated only for patients with severe disease or immune compromise.\n\n## _______________________________________________________________________________\n\nReferences:\nSanford Guide article: Gastroenteritis, Y. enterocolitica\nDOI: 10.1093/cid/cix669-Shane et al, Clinical Infectious Diseases 2017, 65(12):45-80\nUp-to-Date article: Yersiniosis: Infection due to Yersinia enterocolitica and Yersinia pseudotuberculosis",
       "Inpt": "ORZID2 GMENU YERSINIA ENTEROCOLITICA",
       "Outpt": "ORZID3 GMENU DIARRHEA Y. ENTEROCOLITICA",
-      "Therapy": "## Primary treatment of gastroenteritis\nHydration and electrolyte replacement\n\n## Antimicrobial treatment of severe gastroenteritis or immunocompromised patient\nPreferred:\n\n## Inpatient\n\nCiprofloxacin 500 mg PO q12h for 5 days [R,DI]\nAlternative:\nTrimethoprim-sulfamethoxazole 1 DS tablet q12h for 5 days [R,DI]\n\n## Outpatient\n\nCiprofloxacin 500 mg PO q12h for 5 days [R,DI]\nNon-VA order for above\nAlternative:\nTrimethoprim-sulfamethoxazole 1 DS tablet q12h for 5 days [R,DI]\nNon-VA order for above"
+      "Therapy": "## Primary treatment of gastroenteritis\n\nHydration and electrolyte replacement\n\n## Antimicrobial treatment of severe gastroenteritis or immunocompromised patient\n\n## Inpatient\n\nPreferred:\nCiprofloxacin 500 mg PO q12h for 5 days [R,DI]\n\nAlternative:\nTrimethoprim-sulfamethoxazole 1 DS tablet q12h for 5 days [R,DI]\n\n## Outpatient\n\nPreferred:\nCiprofloxacin 500 mg PO q12h for 5 days [R,DI]\nNon-VA order for above\n\nAlternative:\nTrimethoprim-sulfamethoxazole 1 DS tablet q12h for 5 days [R,DI]\nNon-VA order for above"
     },
     {
       "Name": "head-and-neck",
