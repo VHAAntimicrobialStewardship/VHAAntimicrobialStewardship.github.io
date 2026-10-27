@@ -51264,9 +51264,9 @@
       "Name": "corynebacterium-infections-general",
       "Term1": "Corynebacterium infections, general",
       "Term2": "",
-      "Text": "# CORYNEBACTERIUM SPP.\n\nOptimal therapy depends on both the disease or syndrome and the pathogen. See\ndisease/syndrome sections for more information.\n\n# _______________________________________________________________________________\n\n#\nReferences:\n\nSanford Guide article: Corynebacterium diptheriae\nSanford Guide article: Corynebacterium jeikeium\nUp-To-Date article: Clinical manifestations, diagnosis, and treatment of\ndiptheria",
+      "Text": "# CORYNEBACTERIUM SPP.\n\nOptimal therapy depends on both the disease or syndrome and the pathogen. See disease/syndrome sections for more information.\n\n# _______________________________________________________________________________\n\nReferences:\nSanford Guide article: Corynebacterium diptheriae\nSanford Guide article: Corynebacterium jeikeium\nUp-To-Date article: Clinical manifestations, diagnosis, and treatment of diptheria",
       "Inpt": "ORZID2 GMENU GRAM-POS FI CORYNEBACTERIUM SPP.",
-      "Therapy": "## For Corynebacterium diphtheriae isolates, contact infectious diseases\n\n## Corynebacterium jeikeium\n\nPreferred treatment:\n\n[Vancomycin 15 mg/kg IV q12h R](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n\nAlternative for vancomycin intolerance:\n\n[Daptomycin 4-6 mg/kg IV q24h R](psjizid-daptomycin-6-mg-kg-iv-q24h)"
+      "Therapy": "## For Corynebacterium diphtheriae isolates, contact Infectious Diseases\n\n## Corynebacterium jeikeium\n\nPreferred:\n[Vancomycin 15 mg/kg IV q12h R](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)\n\nAlternative (for vancomycin intolerance):\n[Daptomycin 4-6 mg/kg IV q24h R](psjizid-daptomycin-6-mg-kg-iv-q24h)"
     },
     {
       "Name": "propionibacterium-infections-general",
