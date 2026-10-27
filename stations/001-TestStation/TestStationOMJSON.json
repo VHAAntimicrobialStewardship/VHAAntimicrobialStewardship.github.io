@@ -597,7 +597,7 @@
       "Name": "diverticulitis",
       "Term1": "Diverticulitis (Navigation)",
       "Term2": "",
-      "Text": "# DIVERTICULITIS\n\n[Oral step-down treatment](step-down-treatment)\n\n## Inpatient\n\n## Uncomplicated diverticulitis requiring admission or immunocompromised\n\nDuration of therapy: Treatment duration depends on clinical response, typically requiring 7-10 days of antimicrobial therapy.\n\n## _______________________________________________________________________________\n\nReferences:\nMandell chapter: Diverticulitis and Typhlitis\nSanford Guide article: Diverticulitis\nSolomkin et al, Clin Infect Dis, 2010, 50:133-64\nUp-to-Date article: Acute colonic diverticulitis: Medical management",
+      "Text": "# DIVERTICULITIS\n\n[Oral step-down treatment](step-down-treatment)\n\n## Uncomplicated diverticulitis requiring admission or immunocompromised \n\nDuration of therapy: Treatment duration depends on clinical response, typically requiring 7-10 days of antimicrobial therapy.\n\n## _______________________________________________________________________________\n\nReferences:\nMandell chapter: Diverticulitis and Typhlitis\nSanford Guide article: Diverticulitis\nSolomkin et al, Clin Infect Dis, 2010, 50:133-64\nUp-to-Date article: Acute colonic diverticulitis: Medical management",
       "Inpt": "ORZID2 GMENU ABX DIVERTICULITIS",
       "Outpt": "ORZID3 GMENU DIVERTICULITIS",
       "ERUC": "ORZID GMENU ER/UC DIVERTICULITIS",
