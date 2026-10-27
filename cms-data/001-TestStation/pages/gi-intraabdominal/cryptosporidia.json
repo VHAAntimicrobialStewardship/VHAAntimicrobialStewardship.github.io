@@ -5,7 +5,7 @@
   "SortKey": "gi-intraabdominal~1~cryptosporidia",
   "Term1": "CRYPTOSPORIDIA",
   "Term2": "",
-  "Text": "# DIARRHEA WITH CRYPTOSPORIDIUM PARVUM\n\nAntibiotic therapy is usually used only for persons with severe disease or\nimmunocompromised persons.\n\n# Antimicrobial treatment for patients with advanced HIV\n\nConsult Infectious Diseases\n\n# _______________________________________________________________________________\n\nReferences:\n\nGuidelines for Prevention and Treatment of Opportunistic Infections in HIV\nInfected Adults and Adolescents. AIDSinfo (2015) 1-282\nSanford Guide article: Cryptosporidiosis\nDOI: 10.1093/cid/cix669-Shane et al, Clinical Infectious Diseases 2017,\n65(12):45-80\nUp-to-Date article: Cryptosporidiosis: Treatment and prevention",
+  "Text": "# DIARRHEA WITH CRYPTOSPORIDIUM PARVUM\n\nAntibiotic therapy is usually used only for persons with severe disease or immunocompromised persons.\n\n# Antimicrobial treatment for patients with advanced HIV\n\nConsult Infectious Diseases\n\n# _______________________________________________________________________________\n\nReferences:\nGuidelines for Prevention and Treatment of Opportunistic Infections in HIV Infected Adults and Adolescents. AIDSinfo (2015) 1-282\nSanford Guide article: Cryptosporidiosis\nDOI: 10.1093/cid/cix669-Shane et al, Clinical Infectious Diseases 2017, 65(12):45-80\nUp-to-Date article: Cryptosporidiosis: Treatment and prevention",
   "Therapy": "## Primary treatment\n\nHydration and electrolyte replacement\n\n## Antimicrobial treatment for immunocompromised patients\n\n[Nitazoxanide 500 mg PO q12h for 3 days M](psjzid-nitazoxanide-500mg-po-q12h)",
   "Inpt": "ORZID2 GMENU ABX CRYPTOSPORIDIA",
   "Outpt": "ORZID3 GMENU DIARRHEA C. PARVUM"
