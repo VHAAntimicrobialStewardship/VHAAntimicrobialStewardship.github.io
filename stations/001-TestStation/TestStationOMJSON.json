@@ -50169,7 +50169,7 @@
       "Text": "# TINEA PEDIS (ATHLETE'S FOOT), TINEA CORPORIS, TINEA MANUUM, OR TINEA CRURIS\n\nDermatophyte fungal infections are common worldwide. Dermatophytes metabolize and subsist upon keratin in the skin, hair, and nails. Most tinea infections can often be cured with topical therapy alone. Systemic therapy is reserved for severe or refractory infection, recurrent infection, or in immunocompromised patients.\n\nTreatment should continue for at least one week after clinical curing of infection.\n\n## _______________________________________________________________________________\n\nReferences:\nUp-to-date website\nSanford keyword: Tinea Corporis, Cruris, Pedis\nCochrane Database Syst Rev. 2007 Jul 18:2007(3):CD001434\nAm Fam Physician. 2002 May 15:65(10):2095",
       "Inpt": "ORZID2 GMENU TINEA PEDIS (ATHLETE'S FOOT)",
       "Outpt": "ORZID3 GMENU TINEA PEDIS (ATHLETE'S FOOT)",
-      "Therapy": "## Treatment\nTerbinafine 1% cream apply to affected area BID x 2-4 weeks [M]\n\n## Alternative\nClotrimazole 1% cream apply to affected area BID x 4 weeks [M]\n\n## Systemic treatment\nFluconazole 150 mg q week x 2-4 weeks [R,DI]\n< OR >\nTerbinafine 250 mg PO QDAY x 2 weeks [R,H,DI,O]"
+      "Therapy": "Terbinafine 1% cream apply to affected area BID x 2-4 weeks [M]\n\n## Alternative\n\nClotrimazole 1% cream apply to affected area BID x 4 weeks [M]\n\n## Systemic treatment\n\nFluconazole 150 mg q week x 2-4 weeks [R,DI]\n< OR >\nTerbinafine 250 mg PO QDAY x 2 weeks [R,H,DI,O]"
     },
     {
       "Name": "tinea-unguium-onychomycosis",
