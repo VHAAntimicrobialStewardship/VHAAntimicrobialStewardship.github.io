@@ -51256,9 +51256,9 @@
       "Name": "brucella-infections-general",
       "Term1": "Brucella infections, general",
       "Term2": "",
-      "Text": "# BRUCELLA SPECIES\n\n# Consult Infectious Diseases in all cases\n\n# _______________________________________________________________________________\n\n#\nReferences:\n\nSanford keyword: Brucella sp., Brucellosis, Febrile Illness\n\nUp-To-Date article: Clinical manifestations, diagnosis, and treatment of\n\nbrucellosis",
+      "Text": "# BRUCELLA SPECIES\n\n# Consult Infectious Diseases in all cases\n\n# _______________________________________________________________________________\n\nReferences:\nSanford keyword: Brucella sp., Brucellosis, Febrile Illness\nUp-To-Date article: Clinical manifestations, diagnosis, and treatment of brucellosis",
       "Inpt": "ORZID2 GMENU GRAM-NEG FINAL BRUCELLA SPP.",
-      "Therapy": "## Preferred treatment\n\n[Doxycycline 100 mg PO q12h DI < AND > rifampin 600 mg PO q24h DI,O](orz-set-abx-doxycy-100mg-po-q12h-rifamp-600mg-po-q24h)"
+      "Therapy": "## Preferred treatment\n\n[Doxycycline 100 mg PO q12h DI](orz-set-abx-doxycy-100mg-po-q12h-rifamp-600mg-po-q24h)\n[<AND>](orz-set-abx-doxycy-100mg-po-q12h-rifamp-600mg-po-q24h)\n[rifampin 600 mg PO q24h DI,O](orz-set-abx-doxycy-100mg-po-q12h-rifamp-600mg-po-q24h)"
     },
     {
       "Name": "corynebacterium-infections-general",
