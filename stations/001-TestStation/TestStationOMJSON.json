@@ -49573,7 +49573,7 @@
       "Text": "# INFECTIONS IN BONE OR JOINT PROSTHESES\n\n## Empirical therapy before a pathogen is identified is not recommended unless\n\n## patient is clinically unstable.\n\nSome infections may require one or two stage reimplantation. long-term\nsuppressive antimicrobial therapy or joint removal without replacement may be\noptions depending on patient's condition. Consult Infectious Diseases\n(inpatient) for more information.\n\n## Infectious Disease and Orthopedics consultations are essential.\n\nIf patient has sepsis or is otherwise unstable, empiric treatment before culture\nresults are obtained may be justified.\n\nReferences:\nMandell chapter: Orthopedic Implant-Associated Infections\nUp-to-Date Article: Prosthetic Joint Infections: Treatment\nOsmon et al, Clinical Infectious Diseases (2013) 56.1, e1-25\nSanford keyword: Prosthetic Joint Infection",
       "Inpt": "ORZID2 GMENU PROS JOINT BONE INFECT",
       "Outpt": "ORZID3 GMENU PROSTHESIS BONE JOINT INFECT",
-      "Therapy": "## Inpatient\n\nCefepime 2g IV q12h [R] <AND> vancomycin 15 mg/kg q12h [R]\n\n## Outpatient\n\nRefer to the Inpatient Antimicrobial CDSS"
+      "Therapy": "Cefepime 2g IV q12h [R] <AND> vancomycin 15 mg/kg q12h [R]\n\n##"
     },
     {
       "Name": "pubic-lice-pediculosis-pubis",
