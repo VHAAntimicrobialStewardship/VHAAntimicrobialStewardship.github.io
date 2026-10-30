@@ -15,8 +15,8 @@ Project status and current increment
 	- Improves end-user (clinician) usability of the site itself — navigation, search, mobile/responsive behavior, accessibility.
 	- Reduces script/pipeline friction (fewer manual steps, better error messages, safer re-runs) as more stations are added.
 - New feature ideas should be evaluated against this increment's goals first; purely cosmetic or one-off station requests remain lower priority unless explicitly requested by the user.
-- In progress (2026-10-19): opt-in sidebar redesign (left menu tree + right therapy panel) is live on the test station only, awaiting design-colleague/SME review before any production station adopts it. See invariant 11.
-- This status note should be revisited/updated as the increment progresses or a new increment begins — ask the user before assuming it is still current if there is a large time gap since the note was last updated (last updated 2026-10-19).
+- Completed (2026-10-30): the opt-in sidebar redesign (left menu tree + right therapy panel) is rolled out to the test station and the three production stations (506/539/541). Clean pages were overwritten from the test station; SME-edited pages were held back and split by hand in Sveltia. See invariant 11. Known follow-ups: (a) osteom-empirical-therapy is redundant (its therapy now lives in the osteomyelitis page) and still exists, linked from `index`, in all four stations; (b) the production welcome page is still the test-station placeholder until each station's SME supplies text; (c) a few Therapy fields break the Therapy rules (References inside Therapy: otitis-externa, orolabial-herpes; Therapy starting with `# `: empirical-therapy, doxypep, post-exposure-prophylaxis-non-occupational, hepatitis-b, influenza-chemoprophylaxis; empirical-therapy also has an empty Text). These exist in the test station too.
+- This status note should be revisited/updated as the increment progresses or a new increment begins — ask the user before assuming it is still current if there is a large time gap since the note was last updated (last updated 2026-10-30).
 
 Station roles (do not conflate these)
 
@@ -119,17 +119,16 @@ Non-negotiable invariants (do not break)
 - Any caching rule changes must include explicit version bump and regression check for content freshness.
 - .js and .css are network-first along with HTML so a page and its shared scripts/styles stay in sync. New shared assets (e.g. cdss-sidebar.js/.css) must be added to the precache list in service-worker.js together with a VERSION bump (currently 1.273).
 
-11) Sidebar layout (test station only, opt-in)
-- Opt-in mechanism: a station page enables the layout by setting `var Layout = 'sidebar'` (and optionally `var WelcomePage = '<pageid>'`) in its configuration block and loading /shared/cdss-sidebar.css and /shared/cdss-sidebar.js before /shared/cdss-app.js. Only stations/001-TestStation/TestStationCDSS.html does this today. `?layout=classic` on the URL restores the original layout for that visit.
+11) Sidebar layout (opt-in per station page; live on the test station and the three production stations)
+- Opt-in mechanism: a station page enables the layout by setting `var Layout = 'sidebar'` (and optionally `var WelcomePage = '<pageid>'`) in its configuration block and loading /shared/cdss-sidebar.css and /shared/cdss-sidebar.js before /shared/cdss-app.js. The test station and the 506/539/541 production station pages do this; the Minneapolis reference page and obsolete stations stay classic. `?layout=classic` on the URL restores the original layout for that visit.
 - shared/cdss-sidebar.js sets `window.CDSSSidebar.enabled`; shared/cdss-app.js reads it into `SIDEBAR_LAYOUT`. All sidebar behavior in cdss-app.js (hooks such as beforeRender, afterRender, syncUrl, onDataReady) is behind `SIDEBAR_LAYOUT`; stations without the flag must behave exactly as before, so never remove that gating or let sidebar code run unconditionally.
-- To roll the layout out to a production station: add the Layout/WelcomePage variables and the sidebar css/js tags to that station's HTML, add the `Therapy` field and a `welcome` page to its CMS collection (export-cms.py currently generates these for 001-TestStation only), run split-therapy.py for that station (the script is currently hard-wired to 001-TestStation), then compile, audit and review with the SMEs. Do not do this without an explicit user request.
+- Production rollout (done 2026-10-30) used scripts/rollout-diff.py, a one-time three-way classification against the fork commit b9498ed8 (the commit that copied the test station into the production stations). Pages unchanged by SMEs since the fork were overwritten from the test station (`--apply-a`); SME-edited pages were held and split by hand. The script's FORK_COMMIT is fixed, so re-running it now only reports test-vs-production drift. Before any future bulk copy from the test station to a production station, classify first and never overwrite SME-edited pages. Onboarding a new station: copy a production station's cms-data, add its HTML (Layout/WelcomePage variables and the sidebar css/js tags), add its collection (including the Therapy field) to admin/config.yml, and add it to the STATIONS lists in compile-cms.py and audit-teststation.py. split-therapy.py and export-cms.py remain hard-wired to 001-TestStation; export-cms.py regenerates admin/config.yml, so check that the production collections still have their Therapy field before committing if it is ever run.
 - The menu tree is derived at runtime from main-menu plus nav-like pages (no separate menu data). Nav pages are detected by link-line ratio; bold-only lines act as sub-headings.
-- Optional per-page `Therapy` field (markdown, CMS label "Therapy Panel", 001-TestStation collection only) renders in the right-hand therapy panel; the panel is absent when the field is empty. Data flow: cms-data page JSON `Therapy` -> compile-cms.py writes it to the OMJSON record -> runtime renders it in the panel. export-cms.py writes it back out only when present and emits the field definition into admin/config.yml (edit the generator, not just config.yml, or the next export loses it); audit-teststation.py checks markdown links in both Text and Therapy.
+- Optional per-page `Therapy` field (markdown, CMS label "Therapy Panel", present in all four station collections in admin/config.yml) renders in the right-hand therapy panel; the panel is absent when the field is empty. Data flow: cms-data page JSON `Therapy` -> compile-cms.py writes it to the OMJSON record -> runtime renders it in the panel. export-cms.py writes it back out only when present and emits the field definition into admin/config.yml (edit the generator, not just config.yml, or the next export loses it); audit-teststation.py checks markdown links in both Text and Therapy.
 - Therapy markdown must not start with a level-1 heading (`# ` becomes a page banner); therapy headings start at `##`. Keep Therapy free of References; References always stay in Text.
 - Classic layout fallback: when `!SIDEBAR_LAYOUT` and Therapy is non-empty, cdss-app.js (`withTherapyInText`) merges Therapy back into the page text before the trailing separator/References block, so the content is never hidden.
 - scripts/split-therapy.py (dry run by default; `--apply` to write; `--show <PageID>`, `--page <PageID>`, `--include-empty`; then compile-cms.py and audit-teststation.py) bulk-moves therapy sections from Text into Therapy for 001-TestStation pages. It skips pages that already have Therapy (hand-edited splits are safe), skips pages whose Text would be left with only a title, verifies each split is lossless, refuses any split that would put a References line in Therapy, and writes reports/therapy-split-report.json. The heuristics are noisy (see the report's stragglers); review the report and rendered pages after applying. To undo a bulk split: `git checkout -- cms-data/001-TestStation/pages`, but first back up any hand-split pages that are uncommitted.
-- The welcome page (PageID `welcome`) is a standalone page kept by export-cms.py (STANDALONE_PAGES).
-- The menu tree is derived at runtime from main-menu plus nav-like pages (no separate menu data). Nav pages are detected by link-line ratio; bold-only lines act as sub-headings.
+- The welcome page (PageID `welcome`) is a standalone page kept by export-cms.py (STANDALONE_PAGES). Production stations carry the placeholder welcome page until their SMEs supply text.
 
 Script workflows to protect
 
@@ -203,7 +202,7 @@ After edits (required checks)
 	 - embedded links resolve and navigate correctly
 	 - tab switches preserve expected crosswalk behavior
 	 - Abx links still render in combined and legacy row paths
-3. If shared/cdss-app.js changed, also smoke-test one production station (e.g. stations/541-Cleveland/ClevelandCDSS.html): classic layout, loads on main-menu, navigates to a guidance page, Abx links render, no console errors. Test the test station in both sidebar and `?layout=classic`.
+3. If shared/cdss-app.js changed, also smoke-test one production station (e.g. stations/541-Cleveland/ClevelandCDSS.html): sidebar layout and `?layout=classic`, loads on the welcome page, navigates to a guidance page, Abx links render, no console errors. Test the test station in both sidebar and `?layout=classic`. For the Minneapolis reference page (classic only), confirm nothing changed.
 4. If service-worker behavior changed, verify HTML freshness after reload.
 
 Regression checklist (must pass for merge)
@@ -216,7 +215,7 @@ Regression checklist (must pass for merge)
 - No schema drift in admin/config.yml collection-level keys.
 - No orphaned internal markdown links created by ID rewrites.
 - LinkTargets not reintroduced into export output or CMS schema.
-- Production stations (no Layout flag) render identically after any shared/cdss-app.js or sidebar change.
+- Stations without the Layout flag (Minneapolis reference, obsolete stations) and any station viewed with `?layout=classic` render identically after any shared/cdss-app.js or sidebar change.
 - Therapy field survives an export-cms.py -> compile-cms.py round trip and no Therapy block contains References.
 - audit-teststation.py reports no new issues.
 

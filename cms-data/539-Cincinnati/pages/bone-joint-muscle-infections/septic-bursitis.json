@@ -5,7 +5,7 @@
   "SortKey": "bone-joint-muscle-infections~1~septic-bursitis",
   "Term1": "Septic bursitis",
   "Term2": "",
-  "Text": "# SEPTIC BURSITIS\n\nObtain synovial fluid for gram stain and culture to guide therapy.\n\n## \n\n## _______________________________________________________________________________\n\nReferences:\nUp-to-date website\nSanford keyword: Bursitis, septic\nMandell chapter: Infectious arthritis of native joints\nBaumbach SF, Arch Orthop Trauma Surg 2014, 134:359",
+  "Text": "# SEPTIC BURSITIS\n\nObtain synovial fluid for gram stain and culture to guide therapy.\n\n\n## _______________________________________________________________________________\n\nReferences:\nUp-to-date website\nSanford keyword: Bursitis, septic\nMandell chapter: Infectious arthritis of native joints\nBaumbach SF, Arch Orthop Trauma Surg 2014, 134:359",
   "Therapy": "## Inpatient\n\n## Likely MSSA:\n\nCefazolin 2 gm IV q8h \n\n## Likey MRSA:\n\nBeta-lactam Reaction Assessment\nVancomycin 15 mg/kg IV q12h \n\n## Step down to oral therapy\n\nLikely MSSA:\nCefadroxil 1000 mg PO q12h \nLikely MRSA:\nDoxycycline 100 mg PO BID \n< OR >\nTrimethoprim-sulfamethoxazole 1 DS tablet PO BID \n\n## Outpatient\n\n## Mild cases in otherwise healthy adults\n\nLikely MSSA:\nCefadroxil 1000 mg PO q12h ($) for 14 days\nLikely MRSA:\nDoxycycline 100 mg PO BID for 14 days\nTrimethoprim-sulfamethoxazole 1 DS tablet PO BID for 14 days\n\n## Moderate to severe cases\n\nRefer to Inpatient guidance above.",
   "Inpt": "ORZID2 GMENU SEPTIC BURSITIS",
   "Outpt": "ORZID3 GMENU SEPTIC BURSITIS"

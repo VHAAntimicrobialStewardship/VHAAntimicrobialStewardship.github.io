@@ -5,7 +5,7 @@
   "SortKey": "gi-intraabdominal~1~cholera",
   "Term1": "Diarrhea with cholera (vibrio cholerae)",
   "Term2": "",
-  "Text": "# DIARRHEA WITH CHOLERA (VIBRIO CHOLERAE)\n\n## \n\n## _______________________________________________________________________________\n\nReferences:\nSanford Guide article: Gastroenteritis, Vibrio cholerae\nDOI: 10.1093/cid/cix669-Shane et al, Clinical Infectious Diseases 2017, 65(12):45-80\nUp-to-Date article: Cholera: Treatment and prevention",
+  "Text": "# DIARRHEA WITH CHOLERA (VIBRIO CHOLERAE)\n\n\n## _______________________________________________________________________________\n\nReferences:\nSanford Guide article: Gastroenteritis, Vibrio cholerae\nDOI: 10.1093/cid/cix669-Shane et al, Clinical Infectious Diseases 2017, 65(12):45-80\nUp-to-Date article: Cholera: Treatment and prevention",
   "Therapy": "## Primary Treatment\n\nAggressive hydration and electrolyte replacement are essential.\n\n## Antimicrobial treatment\n\n## Inpatient\n\nPreferred:\nDoxycycline 300 mg PO one-time dose [DI]\n\nAlternative:\nCiprofloxacin 1000 mg PO one-time dose [R,DI]\n< OR >\nAzithromycin 1000 mg PO one-time dose [M]\n\n## _______________________________________________________________________________\n\n## Outpatient\n\nPreferred:\nDoxycycline 300 mg PO one-time dose [DI]\nNon-VA order for above\n\nAlternative:\nCiprofloxacin 1000 mg PO one-time dose [R,DI]\nNon-VA order for above\n< OR >\nAzithromycin 1000 mg PO one-time dose [M]\nNon-VA order for above",
   "Inpt": "ORZID2 GMENU ABX CHOLERA",
   "ERUC": "ORZID GMENU ER/UC CHOLECYSTITIS",
