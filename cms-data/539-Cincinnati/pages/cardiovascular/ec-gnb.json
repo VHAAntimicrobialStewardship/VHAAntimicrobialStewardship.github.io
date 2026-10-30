@@ -5,6 +5,7 @@
   "SortKey": "cardiovascular~1~ec gnb",
   "Term1": "EC GNB",
   "Term2": "",
-  "Text": "## _______________________________________________________________________________",
+  "Text": "# ENDOCARDITIS WITH GRAM NEGATIVE BACILLI OTHER THAN HACEK ORGANISMS\n\nPseudomonas aeruginosa and various Enterobacteriaceae are uncommon endocarditis\npathogens. Risk factors include cirrhosis, IV drug use and prosthetic valve.\n\nChoice of agents should be based on in vitro susceptibilities.\n\nBegin treatment with a beta-lactam agent, and when appropriate, Infectious\nDiseases will initiate treatment with add-on aminoglycoside or fluroquinolone\nagent for additional coverage.\n\nConsult Infectious Diseases and Cardiothoracic surgery in all cases.\n\n# _______________________________________________________________________________\n\nReferences:\n\nBaddour et al., Circulation 2015, 132:1-52\nMandell chapter: Endocarditis and intravascular infections\nSanford keyword: Endocarditis\nUp-To-Date article: Overview of management of infective endocarditis in adults\nWang et al., JAMA 2018, 320.1:72-83",
+  "Therapy": "## Treatment for Enterobacteriaceae\n\n[Ceftriaxone 2 gm IV q24h \\($\\) M for 6 weeks](psjizid-ceftriaxone-2gm-iv-q24h)\n\n## Treatment for Pseudomonas\n\nMost cases of pseudomonas endocarditis occur in IV drug users.\n\n[Cefepime  2 gm IV q8h \\($$\\) R for 6 weeks](psjizid-cefepime-2-gm-iv-q8h)",
   "Inpt": "ORZID2 GMENU EC GNB"
 }

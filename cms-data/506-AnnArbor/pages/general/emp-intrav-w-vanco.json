@@ -5,7 +5,8 @@
   "SortKey": "general~1~emp intrav w/ vanco",
   "Term1": "EMP INTRAV W/ VANCO",
   "Term2": "",
-  "Text": "Refer to Inpatient Antimicrobial CDSS for parenteral prophylaxis",
+  "Text": "EMPIRICAL INTRAVENOUS REGIMENS WITH VANCOMYCIN\nDiscontinue vancomycin after 3 days unless culture results indicate that\ncontinued therapy is needed.  Gentamicin is optional.  Contact Hematology-\nOncology or Infectious Diseases for advice.\n\n[References](orzid2-gmenu-abx-references)\n\nHughes WT Clin Infect Dis 2002, 34: 730\nRolston KVI Clin Infect Dis 2004, 39: S44\nSipsas NV  Cancer 2005, 103: 1103",
+  "Therapy": "## Preferred treatment\n\n[Vancomycin 15 mg/kg IV q12h \\($6/day\\) R <AND> cefepime 2 gm IV q8h](orz-set-abx-cefepime-2gm-iv-q8h-vanco-15mg-kg-iv-q12h)\n\n($35/DAY) [R]\n\n[Piperacillin-tazobactam 4.5 gm IV q6h \\($33/day\\) R <AND> vancomycin 15mg/kg](orz-set-abx-pip-taz4-5gm-ne-extinf-ci-cefep-metro-vanco15mg-kg)\n\nIV q12h ($6.00/day) [R] < OR >\n[Piperacillin-tazobactam 4.5 gm IV q6h \\($33/day\\) R <AND> gentamicin 5](orz-set-abx-piper-tz-4-5-gent-5m-kg-vanco-15mg-kg-q12h)\n\nmg/kg IV q24h ($3/day) [R] <AND> vancomycin 15mg/kg q12h ($6.00/day) [R]\n\n## Alternatives for penicillin allergy\n\n[Aztreonam 2 gm IV q8h \\($50/day\\) <AND> vancomycin 15mg/kg IV q12h](orz-set-abx-aztreon-2gm-q8h-vanco-15mg-kg-q12h)\n\n($6/day) [R] < OR >\n[Aztreonam 2 gm IV q8h \\($50/day\\) <AND> gentamicin 5 mg/kg IV q24h \\($3/day\\)](orz-set-abx-aztreon-2g-q8h-gent-5mg-kg-vanco-15mg-kg-q12h)\n\n[R] <AND> vancomycin 15mg/kg IV q12h ($6.00/day) [R]",
   "Inpt": "ORZID2 GMENU EMP INTRAV W/ VANCO",
   "ERUC": "ORZID GMENU ER/UC EMP INTRAV W/ VANCO"
 }

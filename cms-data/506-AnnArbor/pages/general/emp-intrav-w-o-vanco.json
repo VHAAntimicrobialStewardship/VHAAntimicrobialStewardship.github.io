@@ -5,7 +5,8 @@
   "SortKey": "general~1~emp intrav w/o vanco",
   "Term1": "EMP INTRAV W/O VANCO",
   "Term2": "",
-  "Text": "## Suspected MRSA",
+  "Text": "EMPIRICAL INTRAVENOUS REGIMENS WITHOUT VANCOMYCIN\nGentamicin is optional.  Contact Hematology-Oncology or Infectious Diseases for\nadvice.\n\n[References](orzid2-gmenu-abx-references)\n\nHughes WT  Clin Infect Dis 2002, 34: 730\nRolston KVI Clin Infect Dis 2004, 39: S44\nSipsas NV  Cancer 2005, 103: 1103",
+  "Therapy": "[Cefepime 2 gm IV q8h ($35/day) R  < OR >](psjizid-cefepime-2-gm-iv-q8h)\n\n[Piperacillin-tazobactam 4.5 gm IV q6h ($33/day) R < OR >](psjizid-pip-taz-4-5gm-iv-q6h-ne-extinf-ci-cefep-metro)\n\n[Piperacillin-tazobactam 4.5 gm IV q6h ($33/day) R <AND> gentamicin 5](orz-set-abx-pip-tazo-4-5-gm-iv-q6h-gent-5mg-iv-qd)\n\nmg/kg IV q24h ($3/day) [R]\n\n## Alternatives for penicillin allergy\n\nVancomycin must be added to aztreonam for coverage of Gram-positive organisms.\n\n[Aztreonam 2 gm IV q8h ($50/day) <AND> vancomycin 15mg/kg IV q12h](orz-set-abx-aztreon-2gm-q8h-vanco-15mg-kg-q12h)\n\n($6/day) [R] < OR >\n[Aztreonam 2 gm IV q8h ($50/day) <AND> gentamicin 5 mg/kg IV q24h ($3/day)](orz-set-abx-aztreon-2g-q8h-gent-5mg-kg-vanco-15mg-kg-q12h)\n\n[R] <AND> vancomycin 15mg/kg IV q12h ($6.00/day) [R]",
   "Inpt": "ORZID2 GMENU EMP INTRAV W/O VANCO",
   "ERUC": "ORZID GMENU ER/UC EMP INTRAV W/O VANCO"
 }

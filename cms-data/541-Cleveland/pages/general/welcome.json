@@ -1,0 +1,10 @@
+{
+  "PageID": "welcome",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~welcome",
+  "Term1": "Welcome",
+  "Term2": "",
+  "Text": "# Welcome\n\nIntroductory text here",
+  "Inpt": ""
+}

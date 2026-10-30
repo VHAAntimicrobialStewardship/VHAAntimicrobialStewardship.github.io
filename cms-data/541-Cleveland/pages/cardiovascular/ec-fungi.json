@@ -5,6 +5,6 @@
   "SortKey": "cardiovascular~1~ec fungi",
   "Term1": "EC FUNGI",
   "Term2": "",
-  "Text": "Refer to Inpatient Antimicrobial CDSS for parenteral prophylaxis",
+  "Text": "# ENDOCARDITIS WITH FUNGI\n\nConsult Infectious Diseases, Cardiology, and Cardiothoracic surgery.\n\n# _______________________________________________________________________________\n\nReferences:\n\nBaddour et al., Circulation 2015, 132:1-52\nMandell chapter: Endocarditis and intravascular infections\nSanford keyword: Endocarditis\nUp-To-Date article: Overview of management of infective endocarditis in adults\nWang et al., JAMA 2018, 320.1:72-83",
   "Inpt": "ORZID2 GMENU EC FUNGI"
 }

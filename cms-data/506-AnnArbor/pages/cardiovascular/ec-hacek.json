@@ -5,6 +5,7 @@
   "SortKey": "cardiovascular~1~ec hacek",
   "Term1": "EC HACEK",
   "Term2": "",
-  "Text": "Minocycline 100 mg PO 1 hour before incision ($) [DI]",
+  "Text": "# ENDOCARDITIS WITH HACEK BACTERIA\n\nHACEK bacteria are the fastidious Gram-negative bacilli, including Haemophilus\nparainfluenzae, Haemophilus paraphrophilus, Haemophilus influenzae,\nAggregatibacter aphrophilus (Haemophilus aphrophilus), Actinobacillus\nactinomycetemcomitans, Cardiobacterium hominis, Eikenella corrodens, Kingella\nkingae and Kingella denitrificans. It may take up three weeks for the\nmicrobiology laboratory to isolate these organisms.\n\nTreatment options are limited for patients with allergies to beta-lactam\nantibiotics. Consult Infectious Diseases for advice.\n\n# Duration of therapy\n\nNative valve endocarditis (NVE): 4 weeks\nProsthetic valve endocarditis (PVE): 6 weeks\n\n# _______________________________________________________________________________\n\nReferences:\n\nBaddour et al., Circulation 2015, 132:1-52\nMandell chapter: Endocarditis and intravascular infections\nSanford keyword: Endocarditis\nUp-To-Date article: Overview of management of infective endocarditis in adults\nWang et al., JAMA 2018, 320.1:72-83",
+  "Therapy": "## Treatment\n\n[Ceftriaxone 2 gm IV q24h \\($\\) M for 4 weeks \\(NVE\\) or 6 weeks \\(PVE\\)](psjizid-ceftriaxone-2gm-iv-q24h)\n\n## Isolate is susceptible to ampicillin\n\n[Ampicillin-sulbactam 3 gm IV q6h \\($\\) R for 4 weeks \\(NVE\\) or 6 weeks \\(PVE\\)](psjizid-ampicillin-sulbactam-3gm-iv-q6h)",
   "Inpt": "ORZID2 GMENU EC HACEK"
 }
