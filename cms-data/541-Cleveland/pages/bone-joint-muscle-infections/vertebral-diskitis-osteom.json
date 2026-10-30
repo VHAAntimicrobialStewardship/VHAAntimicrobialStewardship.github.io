@@ -5,7 +5,8 @@
   "SortKey": "bone-joint-muscle-infections~1~vertebral (diskitis) osteom",
   "Term1": "Discitis and vertebral osteomyelitis",
   "Term2": "",
-  "Text": "# DISCITIS AND VERTEBRAL OSTEOMYELITIS\n\nWhen possible, obtain diagnostic cultures before starting empiric therapy.\nObtain blood cultures, MRSA nares swab, and image guided aspirates or surgical bone biopsy.\nDefinitive therapy is based on culture and susceptibility test results.\n\n## ____________________________________________\n\n## Empiric Treatment\n\n- Vancomycin 15 mg/kg IV q12h <AND> ceftriaxone 2 gm IV q24h\n- If pseudomonas or gram-negative bacteria is suspected\n    - Vancomycin 15 mg/kg IV q12h <AND> cefepime 2g IV q8h\n\n_______________________________________________________________________________\n\n## Duration of Treatment\n\n- At least 6 weeks of pathogen directed IV/PO therapy\n- Once culture and susceptibility testing is available switch to pathogen directed\ntherapy.",
+  "Text": "# DISCITIS AND VERTEBRAL OSTEOMYELITIS\n\nWhen possible, obtain diagnostic cultures before starting empiric therapy.\nObtain blood cultures, MRSA nares swab, and image guided aspirates or surgical bone biopsy.\nDefinitive therapy is based on culture and susceptibility test results.\n\n_______________________________________________________________________________\n\n## Duration of Treatment\n\n- At least 6 weeks of pathogen directed IV/PO therapy\n- Once culture and susceptibility testing is available switch to pathogen directed\ntherapy.",
+  "Therapy": "- Vancomycin 15 mg/kg IV q12h <AND> ceftriaxone 2 gm IV q24h\n- If pseudomonas or gram-negative bacteria is suspected\n    - Vancomycin 15 mg/kg IV q12h <AND> cefepime 2g IV q8h",
   "Inpt": "ORZID2 GMENU VERTEBRAL (DISKITIS) OSTEOM",
   "Outpt": "ORZID3 GMENU DISKITIS"
 }
