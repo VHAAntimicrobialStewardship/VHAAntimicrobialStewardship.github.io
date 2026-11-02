@@ -34,7 +34,11 @@
   const HEADER_MENUS = [
     { section: 'General and Miscellaneous', label: 'General and Misc', includeWelcome: true },
     { section: 'Important Antimicrobial Information', label: 'Important Antimicrobial Info' },
-    { section: 'Help', label: 'Support' }
+    {
+      section: 'Help',
+      label: 'Support',
+      externalLinks: [{ label: 'Edit Guidance (admin only)', url: 'https://vhaantimicrobialstewardship.github.io/admin' }]
+    }
   ];
   // main-menu sections that appear nowhere in the tree/menus (the header has an Index button).
   const IGNORED_SECTIONS = ['index'];
@@ -153,7 +157,7 @@
   }
 
   // Builds the navigation model from the page records:
-  //   headerMenus: [{ label, items: [{ label, target }] }]
+  //   headerMenus: [{ label, items: [{ label, target } or { label, url }] }]
   //   treeSections: [{ label, children: [node] }]   node = { id, type, label, target?, children, parent }
   //   byTarget: Map(lower-case page name -> [link nodes])
   function buildNavModel(records, options) {
@@ -233,6 +237,7 @@
             items.push({ label: link.label, target: record.Name });
           }
         });
+        (headerDef.externalLinks || []).forEach((ext) => items.push({ label: ext.label, url: ext.url }));
         model.headerMenus.push({ label: headerDef.label, items });
         return;
       }
@@ -435,7 +440,13 @@
         const li = document.createElement('li');
         const anchor = document.createElement('a');
         anchor.textContent = item.label;
-        bindPageLink(anchor, item.target);
+        if (item.url) {
+          anchor.href = item.url;
+          anchor.target = '_blank';
+          anchor.rel = 'noopener noreferrer';
+        } else {
+          bindPageLink(anchor, item.target);
+        }
         li.appendChild(anchor);
         list.appendChild(li);
       });
