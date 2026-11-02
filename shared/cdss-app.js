@@ -2308,11 +2308,19 @@ onClickIfPresent('combinedButton', handleCombined);
 
 document.getElementById('helpLegendButton').addEventListener('click', () => handleRowClick({ Item: helpLegendPageId }));
 
-// Feedback form, pre-filled with the current page ID and station.
-document.getElementById('feedbackButton').addEventListener('click', function () {
+// Direct link to the current page: the sidebar layout keeps it in the address bar
+// (#page-id); the classic layout is addressed with ?dropdown=<page-id>.
+function currentPageUrl() {
   const pageId = (selectedData && selectedData.Name) ? selectedData.Name : '';
+  if (SIDEBAR_LAYOUT) return window.location.href;
+  const base = window.location.origin + window.location.pathname;
+  return pageId ? base + '?dropdown=' + encodeURIComponent(pageId) : base;
+}
+
+// Feedback form, pre-filled with the current page URL and station.
+document.getElementById('feedbackButton').addEventListener('click', function () {
   const feedbackUrl = 'https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Ixtf6a-r7kWCHberJRqzv6NdTKT5lyFNnrhFJ-FjMgxURFYyUFlBWkkyMFhEWlFZMUdQRFg3M1RHRiQlQCN0PWcu'
-    + '&r3cd582c08765477899cdd43f15e435b8=' + encodeURIComponent(pageId)
+    + '&r3cd582c08765477899cdd43f15e435b8=' + encodeURIComponent(currentPageUrl())
     + '&r7c21ccd08e3f47d889bb72f61fcd47c8=' + encodeURIComponent(CDSSlocation);
   window.open(feedbackUrl, '_blank', 'noopener,noreferrer');
 });
