@@ -14,6 +14,7 @@ What it does, per station:
 """
 
 import json
+import re
 import subprocess
 from pathlib import Path
 
@@ -28,17 +29,21 @@ STATIONS: list[tuple[str, str]] = [
     ("506-AnnArbor", "AnnArborOMJSON.json"),
 ]
 
-# Stations whose OMJSON records get LastUpdated/LastUpdatedBy from git history.
-GIT_META_STATIONS = {"001-TestStation"}
+# Stations whose OMJSON records get LastUpdated metadata from git history.
+GIT_META_STATIONS = {"001-TestStation", "541-Cleveland", "539-Cincinnati", "506-AnnArbor"}
 # Pages that never show a "Last updated" line.
 GIT_META_SKIP_PAGES = {"main-menu", "inpt-main"}
+# Sveltia's default commit subject, e.g. Update 001-TestStation “group/page”.
+SVELTIA_COMMIT = re.compile(r"^(?:Update|Create)\s+\S+\s+[“\"]")
 
 
-def load_git_last_updated(pages_dir: Path) -> dict[str, tuple[str, str]]:
-    """Map repo-relative page file path -> (author, YYYY-MM-DD) of its newest commit.
+def load_git_last_updated(pages_dir: Path) -> dict[str, tuple[str, str, str]]:
+    """Map repo-relative page file path -> (editor, edit date, initial date).
 
-    Returns {} (so existing values are kept) when git is unavailable or the
-    clone is shallow, since a shallow history would stamp the wrong commit.
+    The editor/edit date come from the newest Sveltia commit ("" when the page
+    was never edited in Sveltia); the initial date is the oldest commit that
+    touched the page (renames are followed). Returns {} (so existing values are
+    kept) when git is unavailable or the clone is shallow.
     """
     git = ["git", "-c", "core.quotepath=false", "-C", str(ROOT)]
     try:
@@ -50,7 +55,7 @@ def load_git_last_updated(pages_dir: Path) -> dict[str, tuple[str, str]]:
             print("  WARNING: shallow clone; skipping LastUpdated metadata (use fetch-depth: 0)")
             return {}
         log = subprocess.run(
-            git + ["log", "--diff-filter=AMR", "--name-only", "--format=%x1e%an%x1f%aI",
+            git + ["log", "--name-status", "--format=%x1e%an%x1f%aI%x1f%s",
                    "--", pages_dir.relative_to(ROOT).as_posix()],
             capture_output=True, text=True, encoding="utf-8", errors="replace", check=True,
         ).stdout
@@ -58,17 +63,33 @@ def load_git_last_updated(pages_dir: Path) -> dict[str, tuple[str, str]]:
         print(f"  WARNING: git history unavailable ({e}); skipping LastUpdated metadata")
         return {}
 
-    # Commits are listed newest first, so the first sighting of a file wins.
-    latest: dict[str, tuple[str, str]] = {}
+    # Commits are listed newest first. canon maps an older path to the page's
+    # current path once a rename has been seen.
+    canon: dict[str, str] = {}
+    edits: dict[str, tuple[str, str]] = {}
+    initial: dict[str, str] = {}
     for chunk in log.split("\x1e"):
         header, _, files = chunk.partition("\n")
-        author, _, iso = header.partition("\x1f")
+        author, _, rest = header.partition("\x1f")
+        iso, _, subject = rest.partition("\x1f")
         if not iso:
             continue
-        for path in files.splitlines():
-            if path.strip():
-                latest.setdefault(path.strip(), (author.strip(), iso[:10]))
-    return latest
+        date = iso[:10]
+        is_sveltia = bool(SVELTIA_COMMIT.match(subject))
+        for line in files.splitlines():
+            parts = line.split("\t")
+            if len(parts) < 2 or parts[0].startswith("D"):
+                continue
+            path = canon.get(parts[-1], parts[-1])
+            if parts[0][0] in "RC" and len(parts) == 3:
+                canon[parts[1]] = path
+            if is_sveltia:
+                edits.setdefault(path, (author.strip(), date))
+            initial[path] = date  # overwritten until the oldest commit is reached
+    return {
+        path: (*edits.get(path, ("", "")), initial_date)
+        for path, initial_date in initial.items()
+    }
 
 
 def build_omjson_record(page_rec: dict) -> dict:
@@ -171,16 +192,25 @@ def compile_station(station_dir: str, omjson_filename: str) -> None:
     # ── Last-updated metadata from git history (opt-in stations only) ────────
     if station_dir in GIT_META_STATIONS:
         last_updated = load_git_last_updated(cms_root)
-        stamped = 0
+        stamped = edited = 0
         for menu in menus:
             pid = menu["Name"]
             if pid not in cms_files or pid in GIT_META_SKIP_PAGES:
                 continue
             meta = last_updated.get(cms_files[pid].relative_to(ROOT).as_posix())
-            if meta:
-                menu["LastUpdatedBy"], menu["LastUpdated"] = meta
-                stamped += 1
-        print(f"Pages stamped with LastUpdated: {stamped}")
+            if not meta:
+                continue
+            editor, edit_date, initial_date = meta
+            if edit_date:
+                menu["LastUpdatedBy"], menu["LastUpdated"] = editor, edit_date
+                menu.pop("InitialLoaded", None)
+                edited += 1
+            else:
+                menu["InitialLoaded"] = initial_date
+                menu.pop("LastUpdatedBy", None)
+                menu.pop("LastUpdated", None)
+            stamped += 1
+        print(f"Pages stamped: {stamped} ({edited} edited in Sveltia)")
 
     # ── Refresh Combined cross-refs on inpatient pages ───────────────────────
     # For each CMS page that has an Inpt pointer, ensure the inpatient page's

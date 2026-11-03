@@ -1527,19 +1527,29 @@ function findContentEnd(lines) {
   return end;
 }
 
-// Adds "Last updated by X on DATE" below the page content, above References.
-// Only pages whose OMJSON record carries LastUpdated/LastUpdatedBy (written by
-// compile-cms.py for the test station) get it.
+// Adds "Last updated by X on DATE" (page edited in Sveltia) or "No local edits
+// found. Initial page loaded on DATE" below the page content, above References.
+// Only records carrying LastUpdated/LastUpdatedBy or InitialLoaded (written by
+// compile-cms.py from git history) get it.
+function hasLastUpdatedInfo(record) {
+  return Boolean((record.LastUpdated && record.LastUpdatedBy) || record.InitialLoaded);
+}
+
 function withLastUpdatedInText(record) {
-  const [y, m, d] = String(record.LastUpdated).split('-').map(Number);
-  const date = new Date(y, m - 1, d);
-  const dateText = Number.isNaN(date.getTime())
-    ? String(record.LastUpdated)
-    : date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-  const author = String(record.LastUpdatedBy).replace(/[*_`~\[\]\\]/g, '');
+  const formatDate = (iso) => {
+    const [y, m, d] = String(iso).split('-').map(Number);
+    const date = new Date(y, m - 1, d);
+    return Number.isNaN(date.getTime())
+      ? String(iso)
+      : date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+  };
+  const author = String(record.LastUpdatedBy || '').replace(/[*_`~\[\]\\]/g, '');
+  const stamp = record.LastUpdated && record.LastUpdatedBy
+    ? `Last updated by ${author} on ${formatDate(record.LastUpdated)}`
+    : `No local edits found. Initial page loaded on ${formatDate(record.InitialLoaded)}`;
   const lines = record.Text.split(/\r?\n/);
   const insertAt = findContentEnd(lines);
-  const merged = lines.slice(0, insertAt).concat('', `*Last updated by ${author} on ${dateText}*`, '', lines.slice(insertAt));
+  const merged = lines.slice(0, insertAt).concat('', `*${stamp}*`, '', lines.slice(insertAt));
   return Object.assign({}, record, { Text: merged.join('\n') });
 }
 
@@ -1554,7 +1564,7 @@ function createOMTable(selectedData) {
     selectedData = withTherapyInText(selectedData);
   }
 
-  if (typeof selectedData.Text === 'string' && selectedData.LastUpdated && selectedData.LastUpdatedBy &&
+  if (typeof selectedData.Text === 'string' && hasLastUpdatedInfo(selectedData) &&
       selectedData.Name !== combinedMenu && !isStructuredRichTextNavigationPage(selectedData)) {
     selectedData = withLastUpdatedInText(selectedData);
   }
