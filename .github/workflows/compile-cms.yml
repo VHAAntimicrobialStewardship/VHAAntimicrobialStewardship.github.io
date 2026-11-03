@@ -19,8 +19,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          # Full history needed so the bot commit has proper authorship context
-          fetch-depth: 1
+          # Full history needed: compile-cms.py reads per-page last commit author/date
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5

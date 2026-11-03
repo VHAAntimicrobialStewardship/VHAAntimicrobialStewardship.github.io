@@ -1509,14 +1509,37 @@ function createCombinedMainMenuTable(selectedData) {
 // shown in the page itself, just above its trailing separator / References block.
 function withTherapyInText(record) {
   const lines = record.Text.split(/\r?\n/);
-  let insertAt = lines.findIndex((line, i) => i > 0 && /^\s*(?:#{1,6}\s*)?references?\s*:?\s*$/i.test(line));
-  if (insertAt < 0) {
-    insertAt = lines.length;
-  }
-  while (insertAt > 0 && (lines[insertAt - 1].trim() === '' || /^\s*(?:#{1,6}\s*)?[_\-=*]{8,}\s*$/.test(lines[insertAt - 1]))) {
-    insertAt--;
-  }
+  const insertAt = findContentEnd(lines);
   const merged = lines.slice(0, insertAt).concat('', record.Therapy.split(/\r?\n/), '', lines.slice(insertAt));
+  return Object.assign({}, record, { Text: merged.join('\n') });
+}
+
+// Index in `lines` where the real content ends: just above the trailing
+// separator / References block (or the end of the text if there is none).
+function findContentEnd(lines) {
+  let end = lines.findIndex((line, i) => i > 0 && /^\s*(?:#{1,6}\s*)?references?\s*:?\s*$/i.test(line));
+  if (end < 0) {
+    end = lines.length;
+  }
+  while (end > 0 && (lines[end - 1].trim() === '' || /^\s*(?:#{1,6}\s*)?[_\-=*]{8,}\s*$/.test(lines[end - 1]))) {
+    end--;
+  }
+  return end;
+}
+
+// Adds "Last updated by X on DATE" below the page content, above References.
+// Only pages whose OMJSON record carries LastUpdated/LastUpdatedBy (written by
+// compile-cms.py for the test station) get it.
+function withLastUpdatedInText(record) {
+  const [y, m, d] = String(record.LastUpdated).split('-').map(Number);
+  const date = new Date(y, m - 1, d);
+  const dateText = Number.isNaN(date.getTime())
+    ? String(record.LastUpdated)
+    : date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+  const author = String(record.LastUpdatedBy).replace(/[*_`~\[\]\\]/g, '');
+  const lines = record.Text.split(/\r?\n/);
+  const insertAt = findContentEnd(lines);
+  const merged = lines.slice(0, insertAt).concat('', `*Last updated by ${author} on ${dateText}*`, '', lines.slice(insertAt));
   return Object.assign({}, record, { Text: merged.join('\n') });
 }
 
@@ -1529,6 +1552,11 @@ function createOMTable(selectedData) {
     window.CDSSSidebar.beforeRender(selectedData);
   } else if (typeof selectedData.Text === 'string' && typeof selectedData.Therapy === 'string' && selectedData.Therapy.trim()) {
     selectedData = withTherapyInText(selectedData);
+  }
+
+  if (typeof selectedData.Text === 'string' && selectedData.LastUpdated && selectedData.LastUpdatedBy &&
+      selectedData.Name !== combinedMenu && !isStructuredRichTextNavigationPage(selectedData)) {
+    selectedData = withLastUpdatedInText(selectedData);
   }
 
   if (isStructuredRichTextNavigationPage(selectedData)) {

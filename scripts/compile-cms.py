@@ -14,6 +14,7 @@ What it does, per station:
 """
 
 import json
+import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
@@ -26,6 +27,48 @@ STATIONS: list[tuple[str, str]] = [
     ("539-Cincinnati", "CincinnatiOMJSON.json"),
     ("506-AnnArbor", "AnnArborOMJSON.json"),
 ]
+
+# Stations whose OMJSON records get LastUpdated/LastUpdatedBy from git history.
+GIT_META_STATIONS = {"001-TestStation"}
+# Pages that never show a "Last updated" line.
+GIT_META_SKIP_PAGES = {"main-menu", "inpt-main"}
+
+
+def load_git_last_updated(pages_dir: Path) -> dict[str, tuple[str, str]]:
+    """Map repo-relative page file path -> (author, YYYY-MM-DD) of its newest commit.
+
+    Returns {} (so existing values are kept) when git is unavailable or the
+    clone is shallow, since a shallow history would stamp the wrong commit.
+    """
+    git = ["git", "-c", "core.quotepath=false", "-C", str(ROOT)]
+    try:
+        shallow = subprocess.run(
+            git + ["rev-parse", "--is-shallow-repository"],
+            capture_output=True, text=True, check=True,
+        ).stdout.strip()
+        if shallow == "true":
+            print("  WARNING: shallow clone; skipping LastUpdated metadata (use fetch-depth: 0)")
+            return {}
+        log = subprocess.run(
+            git + ["log", "--diff-filter=AMR", "--name-only", "--format=%x1e%an%x1f%aI",
+                   "--", pages_dir.relative_to(ROOT).as_posix()],
+            capture_output=True, text=True, encoding="utf-8", errors="replace", check=True,
+        ).stdout
+    except (OSError, subprocess.CalledProcessError) as e:
+        print(f"  WARNING: git history unavailable ({e}); skipping LastUpdated metadata")
+        return {}
+
+    # Commits are listed newest first, so the first sighting of a file wins.
+    latest: dict[str, tuple[str, str]] = {}
+    for chunk in log.split("\x1e"):
+        header, _, files = chunk.partition("\n")
+        author, _, iso = header.partition("\x1f")
+        if not iso:
+            continue
+        for path in files.splitlines():
+            if path.strip():
+                latest.setdefault(path.strip(), (author.strip(), iso[:10]))
+    return latest
 
 
 def build_omjson_record(page_rec: dict) -> dict:
@@ -76,6 +119,7 @@ def compile_station(station_dir: str, omjson_filename: str) -> None:
         return
 
     cms_pages: dict[str, dict] = {}  # page_id -> page record
+    cms_files: dict[str, Path] = {}  # page_id -> source file
     for page_file in sorted(cms_root.rglob("*.json")):
         try:
             page_rec = json.loads(page_file.read_text(encoding="utf-8"))
@@ -88,6 +132,7 @@ def compile_station(station_dir: str, omjson_filename: str) -> None:
             page_id = page_file.stem
             page_rec["PageID"] = page_id
         cms_pages[page_id] = page_rec
+        cms_files[page_id] = page_file
 
     print(f"CMS page files loaded: {len(cms_pages)}")
 
@@ -122,6 +167,20 @@ def compile_station(station_dir: str, omjson_filename: str) -> None:
 
     print(f"Combined pages updated: {updated}")
     print(f"New combined pages added: {added}")
+
+    # ── Last-updated metadata from git history (opt-in stations only) ────────
+    if station_dir in GIT_META_STATIONS:
+        last_updated = load_git_last_updated(cms_root)
+        stamped = 0
+        for menu in menus:
+            pid = menu["Name"]
+            if pid not in cms_files or pid in GIT_META_SKIP_PAGES:
+                continue
+            meta = last_updated.get(cms_files[pid].relative_to(ROOT).as_posix())
+            if meta:
+                menu["LastUpdatedBy"], menu["LastUpdated"] = meta
+                stamped += 1
+        print(f"Pages stamped with LastUpdated: {stamped}")
 
     # ── Refresh Combined cross-refs on inpatient pages ───────────────────────
     # For each CMS page that has an Inpt pointer, ensure the inpatient page's
