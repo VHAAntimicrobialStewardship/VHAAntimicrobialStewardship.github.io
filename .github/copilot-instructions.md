@@ -117,7 +117,7 @@ Non-negotiable invariants (do not break)
 10) Service worker and cache behavior
 - Service worker strategy is network-first for HTML.
 - Any caching rule changes must include explicit version bump and regression check for content freshness.
-- .js and .css are network-first along with HTML so a page and its shared scripts/styles stay in sync. New shared assets (e.g. cdss-sidebar.js/.css) must be added to the precache list in service-worker.js together with a VERSION bump (currently 1.273).
+- .js and .css are network-first along with HTML so a page and its shared scripts/styles stay in sync. New shared assets (e.g. cdss-sidebar.js/.css) must be added to the precache list in service-worker.js together with a VERSION bump (currently 1.274).
 
 11) Sidebar layout (opt-in per station page; live on the test station and the three production stations)
 - Opt-in mechanism: a station page enables the layout by setting `var Layout = 'sidebar'` (and optionally `var WelcomePage = '<pageid>'`) in its configuration block and loading /shared/cdss-sidebar.css and /shared/cdss-sidebar.js before /shared/cdss-app.js. The test station and the 506/539/541 production station pages do this; the Minneapolis reference page and obsolete stations stay classic. `?layout=classic` on the URL restores the original layout for that visit.

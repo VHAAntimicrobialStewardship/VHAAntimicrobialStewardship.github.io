@@ -37,7 +37,7 @@
     {
       section: 'Help',
       label: 'Support',
-      externalLinks: [{ label: 'Edit Guidance (admin only)', url: 'https://vhaantimicrobialstewardship.github.io/admin' }]
+      externalLinks: [{ label: 'Edit Guidance (admin only)', url: '/admin/', editPage: true }]
     }
   ];
   // main-menu sections that appear nowhere in the tree/menus (the header has an Index button).
@@ -237,7 +237,9 @@
             items.push({ label: link.label, target: record.Name });
           }
         });
-        (headerDef.externalLinks || []).forEach((ext) => items.push({ label: ext.label, url: ext.url }));
+        (headerDef.externalLinks || []).forEach((ext) =>
+          items.push({ label: ext.label, url: ext.url, editPage: Boolean(ext.editPage) })
+        );
         model.headerMenus.push({ label: headerDef.label, items });
         return;
       }
@@ -412,6 +414,29 @@
   // -------------------------------------------------------------------------
 
   const openMenus = [];
+  const editAnchors = [];
+
+  // Sveltia collection id for this station, e.g. /stations/506-AnnArbor/ -> 506ann_all_pages.
+  function cmsCollectionName() {
+    const m = window.location.pathname.match(/\/stations\/(\d+)-([A-Za-z]+)\//);
+    return m ? m[1] + m[2].slice(0, 3).toLowerCase() + '_all_pages' : '';
+  }
+
+  // Sveltia editor URL for a page record; the admin home when its CMS group is unknown.
+  function cmsEditUrl(baseUrl, record) {
+    const collection = cmsCollectionName();
+    if (!record || !record.CmsGroup || !collection) return baseUrl;
+    return (
+      baseUrl + '#/collections/' + collection + '/entries/' +
+      encodeURIComponent(record.CmsGroup) + '/' + encodeURIComponent(record.Name)
+    );
+  }
+
+  function refreshEditLinks(record) {
+    editAnchors.forEach((entry) => {
+      entry.anchor.href = cmsEditUrl(entry.baseUrl, record);
+    });
+  }
 
   function closeAllMenus() {
     openMenus.forEach((menu) => {
@@ -444,6 +469,10 @@
           anchor.href = item.url;
           anchor.target = '_blank';
           anchor.rel = 'noopener noreferrer';
+          if (item.editPage) {
+            editAnchors.push({ anchor, baseUrl: item.url });
+            refreshEditLinks(typeof selectedData !== 'undefined' ? selectedData : null);
+          }
         } else {
           bindPageLink(anchor, item.target);
         }
@@ -724,6 +753,7 @@
     }
 
     setActivePage(record.Name);
+    refreshEditLinks(record);
     document.title = (record.Term1 ? record.Term1 + ' - ' : '') + (typeof Title !== 'undefined' ? Title : '');
   }
 

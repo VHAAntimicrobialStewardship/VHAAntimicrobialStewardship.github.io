@@ -108,6 +108,9 @@ def build_omjson_record(page_rec: dict) -> dict:
     inpt = page_rec.get("Inpt", "")
     if inpt:
         record["Inpt"] = inpt
+    # CMS folder group; the runtime uses it to build the Sveltia edit URL.
+    if page_rec.get("Group"):
+        record["CmsGroup"] = page_rec["Group"]
     # Optional right-hand "Therapy" panel text (sidebar layout only).
     if page_rec.get("Therapy", "").strip():
         record["Therapy"] = page_rec["Therapy"]
