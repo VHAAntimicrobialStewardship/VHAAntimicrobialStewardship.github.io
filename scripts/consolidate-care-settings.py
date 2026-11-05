@@ -1,7 +1,9 @@
-"""One-off (2026-11 cleanup pass): merge care-setting variants of the same guidance into one page.
+"""Merge care-setting variants of the same guidance into one page (applied to 001/506/539/541 on 2026-11-05).
 
+    python scripts/consolidate-care-settings.py --survey        # list pages still needing a merge
     python scripts/consolidate-care-settings.py                 # dry run, all four CMS stations
-    python scripts/consolidate-care-settings.py --dump FILE     # write the test station result for review
+    python scripts/consolidate-care-settings.py --station 999-NewStation --archive FILE
+    python scripts/consolidate-care-settings.py --dump FILE     # write the first station's result for review
     python scripts/consolidate-care-settings.py --apply
 
 The Minneapolis inpatient (ORZID2), outpatient (ORZID3) and ER/UC (ORZID) pages for one topic share
@@ -16,10 +18,16 @@ narrative in Text and a Therapy panel with "## Inpatient" / "## Outpatient" / "#
   REBUILD          narrative and all sections rebuilt from the archived variants (current page is a raw merge)
   REBUILD_THERAPY  current narrative kept; Therapy rebuilt from the archived variants (current one corrupted)
   fix_mismerged    duplicated or mis-merged pages fixed by hand-written rules
+  merge_copd       two separate pages (inpatient copd-exacerbation, outpatient exacerbation-of-copd) merged
 
-sepsis-protocol-antimicrobials is deleted: its link list moves into sepsis-and-shock, which loses its
-Therapy panel (it has no drug recommendations). Its OMJSON record is removed here (compile never deletes).
-Run once; pages already in the new shape are skipped. Then run compile-cms.py.
+DELETE_PAGES are removed from cms-data and OMJSON (compile never deletes); links to them are repointed
+(REPOINT). sepsis-protocol-antimicrobials' link list moves into sepsis-and-shock, which loses its
+Therapy panel (it has no drug recommendations).
+--archive names the JSON ({"menus": [{"Name", "Text"}, ...]}, OMJSON record shape with markdown links)
+holding the station's legacy ORZ records. The default, docs/legacy-archive, is the Minneapolis content in
+that shape; the raw stations/618-Minneapolis OMJSON (Contents/DisplayText) does not work here. Pages
+already in the new shape are skipped, so a
+re-run is safe. Then run compile-cms.py.
 """
 import argparse
 import importlib.util
@@ -43,10 +51,12 @@ promote = load_script("promote-legacy-pages")
 cleanup = load_script("cleanup-legacy-records")
 
 STATIONS = [(s, om, od) for s, om, od in promote.STATIONS]
-ARCHIVE = {m["Name"]: m for m in json.loads(
-    (ROOT / "docs" / "legacy-archive" / "001-TestStation-legacy-records.json").read_text(encoding="utf-8"))["menus"]}
+DEFAULT_ARCHIVE = ROOT / "docs" / "legacy-archive" / "001-TestStation-legacy-records.json"
+ARCHIVE = {}  # legacy record name -> record; loaded in main()
 
 DELETE_PAGE = "sepsis-protocol-antimicrobials"
+DELETE_PAGES = [DELETE_PAGE, "exacerbation-of-copd"]
+REPOINT = {"exacerbation-of-copd": "copd-exacerbation"}
 
 SEPSIS_ER = {
     "sepsis-empiric-therapy-site-unk": "ORZID GMENU ER/UC SEPSIS EMPIRIC THERAPY SITE UNK",
@@ -81,13 +91,15 @@ REBUILD_THERAPY = {
 # Pointer fixes (field -> value; None removes the field).
 POINTERS = {
     "sepsis-meningitis-cns-infection": {"ERUC": "ORZID GMENU ER/UC SEPSIS SUSPECTED MENINGITIS"},
-    # The outpatient COPD guidance is its own page (exacerbation-of-copd); this pointed at bronchitis.
-    "copd-exacerbation": {"Outpt": None},
+    # The wrong pointer named bronchitis; the outpatient COPD guidance is merged in by merge_copd.
+    "copd-exacerbation": {"Outpt": "ORZID3 GMENU ABX COPD EXACERBATION"},
 }
 
 SEPSIS_LINKS_HEADING = "## Initial empiric antibiotic guidelines for sepsis"
 
 ER_HEAD_RE = re.compile(r"^#{1,6}\s*(?:ER|ER/UC|ER Guidance)\s*$")
+# The target shape: '## Inpatient', '## Outpatient and ER/UC', ... in Therapy.
+SECTION_HEAD_RE = re.compile(r"^## (?:Inpatient|Outpatient|ER/UC)(?: and (?:Inpatient|Outpatient|ER/UC))*$")
 HEAD_RE = re.compile(r"^(#{1,6})\s+(.*\S)\s*$")
 PENDING_RE = re.compile(r"^#{1,6}\s*PENDING CARE SETTING CONSOLIDATION", re.M)
 ORDER_TARGET_RE = re.compile(r"^(?:ps[a-z]*zid|orz-)")
@@ -314,7 +326,7 @@ def edit_station(station_dir, od_file):
 
     def page(pid):
         p = pages.get(pid)
-        if not p and pid != DELETE_PAGE:  # already deleted on a re-run
+        if not p and pid not in DELETE_PAGES:  # already deleted on a re-run
             problems.append(f"{pid}: page missing")
         return p
 
@@ -362,7 +374,14 @@ def edit_station(station_dir, od_file):
         p.data["Therapy"] = therapy_sections([(label, legacy.parts(pid, name)[1]) for label, name in variants])
 
     fix_mismerged(page, problems)
+    merge_copd(page)
 
+    for p in pages.values():
+        if p.data["PageID"] in DELETE_PAGES:
+            continue
+        for field in ("Text", "Therapy"):
+            if p.data.get(field):
+                p.data[field] = repoint_links(p.data[field])
     for pid, changes in POINTERS.items():
         p = pages.get(pid)
         for field, value in (changes.items() if p else []):
@@ -439,9 +458,72 @@ def fix_mismerged(page, problems):
                                               ("ER/UC", "Preferred:" + er_ther)])
 
 
+def repoint_links(text):
+    pieces, cursor = [], 0
+    for start, end, label, target in promote.link_spans(text):
+        if target.strip() in REPOINT:
+            pieces += [text[cursor:start], f"[{label}]({REPOINT[target.strip()]})"]
+            cursor = end
+    return "".join(pieces) + text[cursor:]
+
+
+def paragraphs(text):
+    """(body paragraphs, reference bullets) of a page Text."""
+    body, _, refs = text.partition("\n---\n")
+    bullets = []
+    for line in refs.split("\n"):
+        if line.startswith("- "):
+            bullets.append(line[2:].strip())
+        elif line.strip() and bullets and not promote.REF_HEAD_RE.match(line):
+            bullets[-1] += " " + line.strip()
+    return [p.strip("\n") for p in body.split("\n\n") if p.strip()], bullets
+
+
+def merge_copd(page):
+    """Inpatient copd-exacerbation + outpatient exacerbation-of-copd -> copd-exacerbation with Inpatient
+    and Outpatient sections. The setting-specific guidance (when antibiotics help, the fluoroquinolone
+    note that only fits the inpatient regimens, the home action plan) goes with its setting's therapy."""
+    inp, out = page("copd-exacerbation"), page("exacerbation-of-copd")
+    if not (inp and out):
+        return
+    in_paras, in_refs = paragraphs(inp.data["Text"])
+    out_paras, out_refs = paragraphs(out.data["Text"])
+
+    def take(paras, prefix):
+        found = next(p for p in paras if p.startswith(prefix))
+        paras.remove(found)
+        return found
+
+    title, definition, bullets = (take(in_paras, "# "), take(in_paras, "Exacerbation of COPD"),
+                                  take(in_paras, "- "))
+    differential = take(in_paras, "Dyspnea differential")
+    out_differential = take(out_paras, "Dyspnea differential")
+    action_plan = out_differential.split("medication non-adherence", 1)[1].strip()
+    differential = differential.replace("medication non-adherence Test", "medication non-adherence. Test")
+    if not differential.endswith("."):
+        differential += "."
+    inpatient_notes = [p.replace("[COPD exacerbation](exacerbation-of-copd)", "COPD exacerbation") for p in in_paras]
+    outpatient_notes = [p for p in out_paras if not p.startswith(("[Select here for help", "# ", "Exacerbation of COPD", "- "))]
+    outpatient_notes.append(action_plan)
+
+    first_words = {r.split()[0] for r in in_refs}
+    refs = [r for r in in_refs if not r.startswith("Access:")]
+    access = next((r for r in in_refs if r.startswith("Access:")), None)
+    if access:
+        refs = [f"{r} {access}" if r.startswith("Global Initiative") else r for r in refs]
+    refs += [r for r in out_refs if r.split()[0] not in first_words]
+
+    inp.data["Text"] = ("\n\n".join([title, definition, bullets, differential]) + "\n\n---\n\nReferences:\n\n"
+                        + "\n".join(f"- {r}" for r in refs))
+    inp.data["Therapy"] = therapy_sections([
+        ("Inpatient", "\n\n".join(inpatient_notes) + "\n\n" + inp.data["Therapy"]),
+        ("Outpatient", "\n\n".join(outpatient_notes) + "\n\n" + out.data["Therapy"]),
+    ])
+
+
 def update_omjson(station_dir, om_file):
-    """Deletes the protocol page record and removed pointer fields (compile-cms never deletes either)."""
-    paths = list((ROOT / "cms-data" / station_dir / "pages").glob(f"*/{DELETE_PAGE}.json"))
+    """Deletes the DELETE_PAGES records and removed pointer fields (compile-cms never deletes either)."""
+    paths = [p for pid in DELETE_PAGES for p in (ROOT / "cms-data" / station_dir / "pages").glob(f"*/{pid}.json")]
     for path in paths:
         path.unlink()
     om_path = ROOT / "stations" / station_dir / om_file
@@ -449,7 +531,7 @@ def update_omjson(station_dir, om_file):
     data = json.loads(raw.decode("utf-8"))
     before = json.dumps(data)
     count = len(data["menus"])
-    data["menus"] = [m for m in data["menus"] if m["Name"] != DELETE_PAGE]
+    data["menus"] = [m for m in data["menus"] if m["Name"] not in DELETE_PAGES]
     for m in data["menus"]:
         for field, value in POINTERS.get(m["Name"], {}).items():
             if value is None:
@@ -462,13 +544,53 @@ def update_omjson(station_dir, om_file):
     return len(paths), count - len(data["menus"])
 
 
+def survey(station_dir):
+    """Pages that still carry unmerged care-setting variants (candidates for this script's tables)."""
+    found = []
+    for path in sorted((ROOT / "cms-data" / station_dir / "pages").glob("*/*.json")):
+        data = json.loads(path.read_text(encoding="utf-8"))
+        text, therapy = data.get("Text", ""), data.get("Therapy", "")
+        marks = []
+        if PENDING_RE.search(text + "\n" + therapy):
+            marks.append("PENDING CARE SETTING CONSOLIDATION")
+        if re.search(r"^#{1,6}\s*NEED SME REVIEW", text + "\n" + therapy, re.M):
+            marks.append("NEED SME REVIEW")
+        for field, value in (("Text", text), ("Therapy", therapy)):
+            lines = [l.strip() for l in value.split("\n")]
+            if field == "Therapy":
+                lines = [l for l in lines if not SECTION_HEAD_RE.match(l)]
+            if any(ER_HEAD_RE.match(l) for l in lines):
+                marks.append(f"ER heading in {field}")
+            if re.search(r"^#{1,6}\s*(?:INPATIENT|OUTPATIENT|ER/UC):", value, re.M):
+                marks.append(f"pasted setting block in {field}")
+        if marks:
+            found.append(f"{data.get('PageID', path.stem)}: {', '.join(marks)} (Inpt/Outpt/ERUC: "
+                         f"{data.get('Inpt', '-')} | {data.get('Outpt', '-')} | {data.get('ERUC', '-')})")
+    return found
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--apply", action="store_true")
     parser.add_argument("--dump", metavar="FILE")
+    parser.add_argument("--station", action="append", help="station folder (repeatable); default: the four CMS stations")
+    parser.add_argument("--archive", default=str(DEFAULT_ARCHIVE), help="JSON with the legacy ORZ records")
+    parser.add_argument("--survey", action="store_true", help="only list pages with unmerged care-setting variants")
     args = parser.parse_args()
+    ARCHIVE.update({m["Name"]: m for m in json.loads(Path(args.archive).read_text(encoding="utf-8"))["menus"]})
+    stations = STATIONS
+    if args.station:
+        stations = [(s, next((ROOT / "stations" / s).glob("*OMJSON.json")).name,
+                     next((ROOT / "stations" / s).glob("*ODJSON.json")).name) for s in args.station]
     dumps = {}
-    for station_dir, om_file, od_file in STATIONS:
+    if args.survey:
+        for station_dir, _, _ in stations:
+            found = survey(station_dir)
+            print(f"=== {station_dir}: {len(found)} page(s)")
+            for line in found:
+                print(f"    {line}")
+        return
+    for station_dir, om_file, od_file in stations:
         pages, problems = edit_station(station_dir, od_file)
         changed = [p for p in pages.values() if p.changed()]
         print(f"=== {station_dir}: {len(changed)} pages changed")
@@ -479,15 +601,15 @@ def main():
             + (f"---------- THERAPY ----------\n{p.data['Therapy']}\n" if p.data.get("Therapy") else "")
             for p in changed)
         dumps[station_dir] = dump
-        if dump != dumps["001-TestStation"]:
-            print("  NOTE: result differs from the test station")
+        if dump != next(iter(dumps.values())):
+            print("  NOTE: result differs from the first station")
         if args.apply:
             for p in changed:
                 p.write()
             files, records = update_omjson(station_dir, om_file)
-            print(f"  deleted {DELETE_PAGE}: {files} cms file(s), {records} OMJSON record(s)")
+            print(f"  deleted {', '.join(DELETE_PAGES)}: {files} cms file(s), {records} OMJSON record(s)")
     if args.dump:
-        Path(args.dump).write_text(dumps["001-TestStation"], encoding="utf-8")
+        Path(args.dump).write_text(next(iter(dumps.values())), encoding="utf-8")
     print("Written." if args.apply else "Dry run; nothing written.")
 
 

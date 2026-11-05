@@ -1150,7 +1150,7 @@
        {
         "type": "link",
         "label": "Exacerbation of chronic obstructive pulmonary disease (COPD)",
-        "target": "exacerbation-of-copd",
+        "target": "copd-exacerbation",
         "children": []
        },
        {
@@ -5477,7 +5477,7 @@
        {
         "type": "link",
         "label": "Exacerbation of chronic obstructive pulmonary disease (COPD)",
-        "target": "exacerbation-of-copd",
+        "target": "copd-exacerbation",
         "children": []
        },
        {
@@ -9804,7 +9804,7 @@
        {
         "type": "link",
         "label": "Exacerbation of chronic obstructive pulmonary disease (COPD)",
-        "target": "exacerbation-of-copd",
+        "target": "copd-exacerbation",
         "children": []
        },
        {
@@ -14111,7 +14111,7 @@
        {
         "type": "link",
         "label": "Exacerbation of chronic obstructive pulmonary disease (COPD)",
-        "target": "exacerbation-of-copd",
+        "target": "copd-exacerbation",
         "children": []
        },
        {
