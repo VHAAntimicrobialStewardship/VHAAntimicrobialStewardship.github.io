@@ -16,7 +16,8 @@ Project status and current increment
 	- Reduces script/pipeline friction (fewer manual steps, better error messages, safer re-runs) as more stations are added.
 - New feature ideas should be evaluated against this increment's goals first; purely cosmetic or one-off station requests remain lower priority unless explicitly requested by the user.
 - Completed (2026-10-30): the opt-in sidebar redesign (left menu tree + right therapy panel) is rolled out to the test station and the three production stations (506/539/541). Clean pages were overwritten from the test station; SME-edited pages were held back and split by hand in Sveltia. See invariant 11. Post-rollout cleanup (2026-10-30): the redundant osteom-empirical-therapy page and its index link were removed from all four stations, and the Therapy-rule breaks (References inside Therapy, level-1 first heading, empty Text on empirical-therapy) were fixed; audit-teststation.py reports 0 issues. Remaining follow-up: the production welcome page is still the test-station placeholder until each station's SME supplies text.
-- This status note should be revisited/updated as the increment progresses or a new increment begins — ask the user before assuming it is still current if there is a large time gap since the note was last updated (last updated 2026-10-30).
+- Completed (2026-11-05): the markdown page renderer (marked + DOMPurify) and the converted Sveltia-style markdown data are live on the test station and the three production stations. See invariant 13. Remaining follow-up: convert the column pages, nav-like pages and flattened-table pages that the conversion skipped (lists in reports/markdown-migration-review-<station>.txt), and hand-fix the review-list items (removed `>` blockquote indentation, wraps left unjoined next to link lines, possible wrapped reference entries).
+- This status note should be revisited/updated as the increment progresses or a new increment begins — ask the user before assuming it is still current if there is a large time gap since the note was last updated (last updated 2026-11-05).
 
 Station roles (do not conflate these)
 
@@ -40,6 +41,7 @@ Critical files and ownership
 
 - Runtime UI behavior (all stations): shared/cdss-app.js. Any edit here reaches production stations (506/539/541) on push to main; smoke-test a production station after changes.
 - Optional sidebar layout (opt-in per station page): shared/cdss-sidebar.js and shared/cdss-sidebar.css
+- Markdown page renderer (opt-in per station page): shared/cdss-markdown.js and shared/cdss-markdown.css, with vendored libraries in shared/vendor/ (marked.umd.js, purify.min.js)
 - Station configuration and entry page: stations/001-TestStation/TestStationCDSS.html (and the equivalent HTML in each production station)
 - Design reference: docs/CDSS_wire_10092026.pdf (sidebar wireframe). docs/ is deliberately outside station folders, cms-data/ and assets/uploads/ so Sveltia does not see it; keep non-site documents there.
 - Master menu/order data: stations/001-TestStation/TestStationOMJSON.json and stations/001-TestStation/TestStationODJSON.json
@@ -84,7 +86,7 @@ Non-negotiable invariants (do not break)
 - createCombinedMainMenuTable is dedicated to combined main menu rendering.
 - createStructuredRichTextNavigationTable remains row-paired multi-column navigation rendering for heading/link-heavy nav pages.
 - isStructuredRichTextNavigationPage detection thresholds are part of functional behavior (navigation pages vs guidance pages) and should not be casually changed.
-- createRichTextTable remains the baseline single-column guidance renderer.
+- createRichTextTable / buildRichTextTable is the single-column guidance renderer. On stations with `var Renderer = 'markdown'` (all four CMS stations) it delegates to buildMarkdownTable (shared/cdss-markdown.js); the line-per-row code path is only used when the station does not opt in or the URL has `?renderer=classic`. The line-based helpers (parseRichTextLineSyntax, appendRichTextLineContent, stripBlankLinesAroundTightLines) are still needed by the column-delimiter pages and the main menu.
 - Column delimiter compatibility must preserve both modern and legacy markers:
 	- <!-- COLUMN 2 -->, <!-- COLUMN 3 -->, ...
 	- <!-- RIGHT COLUMN --> (backward compatibility)
@@ -93,6 +95,7 @@ Non-negotiable invariants (do not break)
 - Drug links are injected in two paths:
 	- legacy row-based path for older tab displays
 	- combined markdown text path via appendTextWithAbxLinks
+- Markdown renderer path: decorate() in shared/cdss-markdown.js injects drug links on text nodes through the same appendPlainTextWithAbxLinks (skipping links and code), combined mode only.
 - Matching remains case-insensitive and word-boundary based.
 - RouteFilter exists in data but is not currently enforced as a runtime filter.
 
@@ -126,20 +129,21 @@ Non-negotiable invariants (do not break)
 - The menu tree is derived at runtime from main-menu plus nav-like pages (no separate menu data). Nav pages are detected by link-line ratio; bold-only lines act as sub-headings.
 - Optional per-page `Therapy` field (markdown, CMS label "Therapy Panel", present in all four station collections in admin/config.yml) renders in the right-hand therapy panel; the panel is absent when the field is empty. Data flow: cms-data page JSON `Therapy` -> compile-cms.py writes it to the OMJSON record -> runtime renders it in the panel. export-cms.py writes it back out only when present and emits the field definition into admin/config.yml (edit the generator, not just config.yml, or the next export loses it); audit-teststation.py checks markdown links in both Text and Therapy.
 - Therapy markdown must not start with a level-1 heading (`# ` becomes a page banner); therapy headings start at `##`. Keep Therapy free of References; References always stay in Text.
-- Classic layout fallback: when `!SIDEBAR_LAYOUT` and Therapy is non-empty, cdss-app.js (`withTherapyInText`) merges Therapy back into the page text before the trailing separator/References block, so the content is never hidden.
-- scripts/split-therapy.py (dry run by default; `--apply` to write; `--show <PageID>`, `--page <PageID>`, `--include-empty`; then compile-cms.py and audit-teststation.py) bulk-moves therapy sections from Text into Therapy for 001-TestStation pages. It skips pages that already have Therapy (hand-edited splits are safe), skips pages whose Text would be left with only a title, verifies each split is lossless, refuses any split that would put a References line in Therapy, and writes reports/therapy-split-report.json. The heuristics are noisy (see the report's stragglers); review the report and rendered pages after applying. To undo a bulk split: `git checkout -- cms-data/001-TestStation/pages`, but first back up any hand-split pages that are uncommitted.
+- The classic layout (`?layout=classic`, no sidebar) is no longer maintained: the sidebar is the way forward. The Therapy-merge fallback (`withTherapyInText`) remains only so content is never hidden when the sidebar is off.
+- scripts/split-therapy.py (test station only, already applied; do not re-run) bulk-moved therapy sections from Text into Therapy. It refused splits that would put a References line in Therapy.
 - The welcome page (PageID `welcome`) is a standalone page kept by export-cms.py (STANDALONE_PAGES). Production stations carry the placeholder welcome page until their SMEs supply text.
 
 12) Last-updated line (all four CMS stations)
 - compile-cms.py derives per-page metadata from git history of cms-data/<station>/pages and writes it onto OMJSON records: `LastUpdatedBy` + `LastUpdated` (newest Sveltia commit, matched by the default subject `Update|Create <station> “group/page”`) or, when a page was never edited in Sveltia, `InitialLoaded` (oldest commit touching the file, renames followed). `main-menu`/`inpt-main` are skipped. In a shallow clone or without git the existing values are kept, so CI checkout in compile-cms.yml must stay `fetch-depth: 0`.
-- shared/cdss-app.js (`withLastUpdatedInText`) inserts an italic "Last updated by X on DATE" / "No local edits found. Initial page loaded on DATE" line above the trailing References block of a page's Text (after the classic-layout Therapy merge). It is data-gated (records without these fields render unchanged), skips column-delimited navigation pages and the main menu. These fields are not CMS fields and are never written to cms-data page JSON.
+- shared/cdss-app.js (`withLastUpdatedInText`) inserts an italic "Last updated by X on DATE" / "No local edits found. Initial page loaded on DATE" line above the trailing separator/References block of a page's Text (findContentEnd treats `---`, `***`, `___` and the older `# ____` lines as the separator; the stamp is italic markdown). It is data-gated (records without these fields render unchanged), skips column-delimited navigation pages and the main menu. These fields are not CMS fields and are never written to cms-data page JSON.
 - admin/config.yml station collection summaries show `{{commit_author}}, {{commit_date}}` in the Sveltia entry list. The summary and view_groups in config.yml are hand-edited and no longer match export-cms.py's generator; do not run export-cms.py without diffing config.yml first.
 
-13) Markdown renderer migration (in progress; live on the test station only)
-- Goal: render guidance pages with standard markdown (marked + DOMPurify, the libraries Sveltia previews with) so the Sveltia editor and the site agree, and replace the line-per-row renderer, column delimiters and VistA tables with paragraphs, lists and GFM tables. Plan: opt-in per station, test station first, production after review.
-- Opt-in: station page sets `var Renderer = 'markdown'` and loads /shared/vendor/marked.umd.js, /shared/vendor/purify.min.js and /shared/cdss-markdown.js (plus cdss-markdown.css) before cdss-app.js. `?renderer=classic` restores the old renderer for that visit. cdss-app.js `buildRichTextTable` delegates to `buildMarkdownTable` only when `MARKDOWN_RENDERER` is set; column-delimiter pages and the main menu keep their own renderers.
-- Config lives in shared/cdss-markdown.js (also required by scripts/render-check.js): `breaks:true` (Sveltia shows a single newline as a line break), raw HTML is never parsed (literal `<AND>`/`<OR>` stay text), internal links are emitted as data-cdss-target and wired up by `decorate()` using the existing resolveEmbeddedLinkTarget/handleRowClick/Abx logic. Vendored library copies come from scripts/node_modules (`npm install` in scripts/).
-- Data conversion: scripts/classify-lines.py (phase 1 report), scripts/convert-markdown.py (dry run by default, `--apply`, per station, verifies words and link targets are unchanged, skips column/nav/flattened pages and main-menu, writes reports/markdown-migration-review.txt). Validators: `node scripts/render-check.js`, `node scripts/nav-snapshot.js` (menu tree must match reports/nav-model-baseline.json; refresh with `--write` only when a change is accepted), plus compile-cms.py and audit-teststation.py. Convert each station from its own data, never copy test-station pages over production ones.
+13) Markdown renderer (live on the test station and the three production stations since 2026-11-05)
+- Guidance page Text and Therapy are rendered with standard markdown (marked + DOMPurify, the libraries Sveltia previews with) so the Sveltia editor and the site agree. Column-delimiter pages, nav-like pages, flattened-table pages and the main menu were NOT converted and still use the line-based renderers (see the review lists).
+- Opt-in: station page sets `var Renderer = 'markdown'` and loads /shared/cdss-markdown.css and, before cdss-app.js, /shared/vendor/marked.umd.js, /shared/vendor/purify.min.js and /shared/cdss-markdown.js. `?renderer=classic` restores the old renderer for that visit (a debugging aid, not maintained). cdss-app.js `buildRichTextTable` delegates to `buildMarkdownTable` only when `MARKDOWN_RENDERER` is set. A new station needs the same variable, css link and script tags.
+- Config lives in shared/cdss-markdown.js (also required by scripts/render-check.js, which therefore sees exactly what the browser renders): `breaks:true` (Sveltia shows a single newline as a line break), raw HTML is never parsed (literal `<AND>`/`<OR>` stay text), internal links are emitted as data-cdss-target and wired up by `decorate()` using the existing resolveEmbeddedLinkTarget/handleRowClick/Abx logic, a table saved without a header row (Sveltia writes bare pipe rows) gets a synthetic empty header that is removed after parsing, and the leading `# Title` is shown as the blue banner row. Vendored library copies come from scripts/node_modules (`npm install` in scripts/, then copy marked/lib/marked.umd.js and dompurify/dist/purify.min.js to shared/vendor/); bump the service worker VERSION when they change.
+- Data conventions (what Sveltia writes and the converter produces): blank line between paragraphs, wrapped prose joined into one line, a single newline is a deliberate line break (stacked lines such as `Preferred:` then a link or `< OR >`), `---` for separators (Sveltia saves rules as `***`), References as a bullet list after the separator, no `>` blockquote markers (VistA `>>` indentation was removed), GFM tables with at most one divider row. Never put a divider row after every table row; Sveltia then marks every row as a shaded header.
+- Converting more pages (a new station, or the skipped pages once hand-prepared): scripts/classify-lines.py (report), then scripts/convert-markdown.py (dry run by default, `--station`, `--apply`, `--show <PageID>`). It verifies words and link targets are unchanged, skips column/nav/flattened pages and main-menu, and writes reports/markdown-migration-review.txt (copy it per station). Then compile-cms.py, audit-teststation.py, `node scripts/render-check.js` (hard errors must stay confined to skipped pages), `node scripts/nav-snapshot.js` (menu tree must match reports/nav-model-baseline.json; refresh with `--write` only when a change is accepted). Joining wrapped lines changes the sidebar's link-line ratio, which can turn a guidance page into a nav page. Convert each station from its own data, never copy pages between stations.
 - Commit data conversions with a plain subject, not `Update|Create <station> “…”`, so Last-updated attribution is untouched.
 Script workflows to protect
 
@@ -154,15 +158,16 @@ CMS export/compile flow
 4. python scripts/compile-cms.py
 5. python scripts/audit-teststation.py
 
-Therapy split flow (test station, sidebar layout)
-1. python scripts/split-therapy.py (dry run; review reports/therapy-split-report.json)
-2. python scripts/split-therapy.py --apply
+Markdown conversion flow (see invariant 13)
+1. python scripts/convert-markdown.py --station <station> (dry run; review the output and reports/markdown-migration-review.txt)
+2. python scripts/convert-markdown.py --station <station> --apply
 3. python scripts/compile-cms.py
 4. python scripts/audit-teststation.py
-5. Verify in the browser: sidebar layout and `?layout=classic` on several split pages
+5. node scripts/render-check.js and node scripts/nav-snapshot.js
+6. Verify in the browser (sidebar layout): a guidance page, its Therapy panel, an internal link, Abx links, a page with a table
 
 Repository hygiene
-- Python bytecode (__pycache__/, *.pyc) is git-ignored; do not commit it.
+- Python bytecode (__pycache__/, *.pyc) is git-ignored; do not commit it. Node tooling lives in scripts/package.json; node_modules/ is git-ignored (commit package-lock.json).
 - The repo lives under OneDrive; git's automatic gc can prompt about failing to delete .git/objects/XX folders. Answer n (or run git with `-c gc.auto=0`) and never leave a prompt waiting in an agent terminal.
 - CI recompiles OMJSON on CMS edits ("chore: compile CMS edits into station OMJSON files" commits), so `git pull --rebase --autostash` before pushing.
 
@@ -175,6 +180,7 @@ The following scripts were one-off migration/cleanup utilities and should not be
 - scripts/strip-order-links.py — removed VistA order-dialog links; use only if importing new legacy-format content.
 - scripts/fix-broken-outpt-refs.py, scripts/fix-missing-nav-pages.py, scripts/fix-combined-link-headings.py — legacy one-off fixes; do not rely on these.
 - scripts/migrate-pageids.py, scripts/review-skipped-variants.py — temporary migration helpers; not for routine use.
+- scripts/fix-hardwrap-blank-lines.py, scripts/fix-extra-linebreaks.py — earlier line-break cleanups, superseded by scripts/convert-markdown.py; scripts/split-therapy.py — applied once to the test station.
 
 If a new cleanup pass is needed, implement a fresh script based on current markdown-only link rules and validate with audit-teststation.py.
 
@@ -213,7 +219,7 @@ After edits (required checks)
 	 - embedded links resolve and navigate correctly
 	 - tab switches preserve expected crosswalk behavior
 	 - Abx links still render in combined and legacy row paths
-3. If shared/cdss-app.js changed, also smoke-test one production station (e.g. stations/541-Cleveland/ClevelandCDSS.html): sidebar layout and `?layout=classic`, loads on the welcome page, navigates to a guidance page, Abx links render, no console errors. Test the test station in both sidebar and `?layout=classic`. For the Minneapolis reference page (classic only), confirm nothing changed.
+3. If shared/cdss-app.js, shared/cdss-markdown.js or the css changed, also smoke-test one production station (e.g. stations/541-Cleveland/ClevelandCDSS.html): loads on the welcome page, navigates to a guidance page (banner, References list, Therapy panel), Abx links render, no console errors. Locally (python -m http.server from the repo root) unregister the service worker and clear caches first, or stale files are served. For the Minneapolis reference page (classic only), confirm nothing changed.
 4. If service-worker behavior changed, verify HTML freshness after reload.
 
 Regression checklist (must pass for merge)
@@ -226,7 +232,8 @@ Regression checklist (must pass for merge)
 - No schema drift in admin/config.yml collection-level keys.
 - No orphaned internal markdown links created by ID rewrites.
 - LinkTargets not reintroduced into export output or CMS schema.
-- Stations without the Layout flag (Minneapolis reference, obsolete stations) and any station viewed with `?layout=classic` render identically after any shared/cdss-app.js or sidebar change.
+- Stations without the Renderer/Layout flags (Minneapolis reference, obsolete stations) render identically after any shared/cdss-app.js, sidebar or markdown change.
+- `node scripts/render-check.js` shows no hard errors outside the skipped pages, and `node scripts/nav-snapshot.js` matches the baseline.
 - Therapy field survives an export-cms.py -> compile-cms.py round trip and no Therapy block contains References.
 - audit-teststation.py reports no new issues.
 
