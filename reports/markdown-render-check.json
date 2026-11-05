@@ -1,12 +1,15 @@
 {
-  "generated": "2026-11-05T19:13:08.439Z",
+  "generated": "2026-11-05T19:39:51.351Z",
   "counts": {
-    "column-page": 28,
-    "has-list": 347,
-    "tag-like-text": 136,
-    "text-mismatch": 1,
-    "long-emphasis": 1,
-    "blockquote-marker": 3
+    "column-page": 111,
+    "has-list": 425,
+    "has-table": 1,
+    "tag-like-text": 543,
+    "text-mismatch": 4,
+    "long-emphasis": 4,
+    "blockquote-marker": 46,
+    "separator-line": 15,
+    "runaway-emphasis": 3
   },
   "hardErrors": [
     {
@@ -19,6 +22,1066 @@
           "at": 860,
           "expected": "name:autoimmunehepatitis,0,1,4monthsEngerix-Balanineaminotransfer",
           "rendered": "name:autoimmunehepatitis,2)0,1,4monthsEngerix-Balanineaminotransf"
+        }
+      ]
+    },
+    {
+      "station": "506-AnnArbor",
+      "page": "septic-arthritis-nat-joint",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 3,
+          "sample": ">> For arthritis associated with a PROSTHETIC JOINT see"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 5,
+          "sample": ">> For arthritis associated with a BITE WOUND see"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 7,
+          "sample": ">> For arthritis associated with TICK EXPOSURE in an endemic area, con"
+        }
+      ]
+    },
+    {
+      "station": "506-AnnArbor",
+      "page": "catheter-associated-infection-intravascular",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "separator-line",
+          "sample": "______________________________________________________________"
+        }
+      ]
+    },
+    {
+      "station": "506-AnnArbor",
+      "page": "diagnosis-of-endocarditis",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "separator-line",
+          "sample": "______________________________________________________________________"
+        }
+      ]
+    },
+    {
+      "station": "506-AnnArbor",
+      "page": "penicillin-desensitization-protocol",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 14,
+          "sample": "> Perform in an ICU or similar setting."
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 16,
+          "sample": "> Discontinue all beta-adrenergic antagonists."
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 18,
+          "sample": "> Have IV line in place and EKG and spirometer ready."
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 20,
+          "sample": "> Once desensitization has been accomplished, therapy with this drug m"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 24,
+          "sample": "> A history of Stevens Johnson syndrome, exfoliative dermatitis, or er"
+        }
+      ]
+    },
+    {
+      "station": "506-AnnArbor",
+      "page": "hepb-vaccine-information-old-page",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "text-mismatch",
+          "at": 860,
+          "expected": "name:autoimmunehepatitis,0,1,4monthsEngerix-Balanineaminotransfer",
+          "rendered": "name:autoimmunehepatitis,2)0,1,4monthsEngerix-Balanineaminotransf"
+        }
+      ]
+    },
+    {
+      "station": "506-AnnArbor",
+      "page": "complicated-uti-catheter-associated",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "separator-line",
+          "sample": "______________________________________________________________________"
+        }
+      ]
+    },
+    {
+      "station": "506-AnnArbor",
+      "page": "beta-lactam-allergy-facts",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 19,
+          "sample": "> Reported reactions can be found in the Cover Sheet under Allergies/A"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 23,
+          "sample": "> A reaction report can also be found here: Reports tab -> Clinical Re"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 33,
+          "sample": "> What medication were you taking when the reaction occurred? DO NOT a"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 37,
+          "sample": "> How long after taking the medication did the reaction occur? Immedia"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 41,
+          "sample": "> How long ago did the reaction occur? Did it occur over 10 years ago?"
+        }
+      ]
+    },
+    {
+      "station": "506-AnnArbor",
+      "page": "infection-control",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 14,
+          "sample": ">> Infection Prevention is available via phone (612-467-6888) during"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 18,
+          "sample": ">> During nights, weekends, and holidays, contact the on-call person f"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 24,
+          "sample": ">> Minneapolis VAMC Infection Prevention and Control SharePoint site"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 28,
+          "sample": ">> CDC web site (www.cdc.gov)"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 32,
+          "sample": ">> Place consults for ID"
+        }
+      ]
+    },
+    {
+      "station": "506-AnnArbor",
+      "page": "more-about-nosocomial-pneumonia",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 17,
+          "sample": "> Fever greater than 38 C (100.4 F)"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 19,
+          "sample": "> Leukocytosis or leukopenia"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 21,
+          "sample": "> Purulent bronchial secretions"
+        }
+      ]
+    },
+    {
+      "station": "506-AnnArbor",
+      "page": "ventilator-associated-pneumonia",
+      "field": "Therapy",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 35,
+          "sample": "> Prior intravenous antibiotic use within 90 days (especially broad sp"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 37,
+          "sample": "> Septic shock at the time of VAP"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 39,
+          "sample": "> ARDS preceding VAP"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 40,
+          "sample": "> 5 or more days of hospitalization prior to the occurrence of VAP"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 42,
+          "sample": "> Acute renal replacement therapy prior to VAP onset"
+        }
+      ]
+    },
+    {
+      "station": "506-AnnArbor",
+      "page": "antiviral-type-of-malignancy",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 16,
+          "sample": ">10 days and profound neutropenia (<500 neutrophils) regularly occurs "
+        }
+      ]
+    },
+    {
+      "station": "506-AnnArbor",
+      "page": "bone-marrow-post-transplant-vaccinations",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 16,
+          "sample": ">>Under construction"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 26,
+          "sample": ">>Under construction"
+        }
+      ]
+    },
+    {
+      "station": "506-AnnArbor",
+      "page": "recommended-immunizations",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 40,
+          "sample": ">/= 65 years"
+        }
+      ]
+    },
+    {
+      "station": "506-AnnArbor",
+      "page": "bite-wounds",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "separator-line",
+          "sample": "______________________________________________________________________"
+        }
+      ]
+    },
+    {
+      "station": "506-AnnArbor",
+      "page": "gastroduodenal-surgery-prophylaxis",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 8,
+          "sample": ">>Patients with high gastric pH or acid-suppression therapy,"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 9,
+          "sample": ">>Patients with decreased gastroduodenal motility due to obstruction,"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 11,
+          "sample": ">>Obese patients"
+        }
+      ]
+    },
+    {
+      "station": "506-AnnArbor",
+      "page": "peritoneal-dialysis-colonoscopy-prophylaxis",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 3,
+          "sample": ">Colonoscopy generally doesn't not require antimicrobial prophylaxis"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 4,
+          "sample": ">Patients who use peritoneal dialysis are at higher risk of bacterial"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 7,
+          "sample": ">Ensure that the abdomen is empty of fluid before procedures."
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 9,
+          "sample": ">Antimicrobials during procedure may be used, generally covering gram "
+        }
+      ]
+    },
+    {
+      "station": "506-AnnArbor",
+      "page": "surg-vascular-surg-postop",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "runaway-emphasis",
+          "sample": "No postop antimicrobial doses recommended for procedures that do notin"
+        }
+      ]
+    },
+    {
+      "station": "506-AnnArbor",
+      "page": "coagulase-negative-staphylococci-bacteremia",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "separator-line",
+          "sample": "______________________________________________________________________"
+        }
+      ]
+    },
+    {
+      "station": "506-AnnArbor",
+      "page": "neut-fever-cand-not-oral-thera",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 4,
+          "sample": ">> Suspected catheter-related infection,"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 5,
+          "sample": ">> Skin or soft-tissue infection,"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 6,
+          "sample": ">> Pneumonia,"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 7,
+          "sample": ">> Hemodynamic instability"
+        }
+      ]
+    },
+    {
+      "station": "539-Cincinnati",
+      "page": "catheter-associated-infection-intravascular",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "separator-line",
+          "sample": "______________________________________________________________"
+        }
+      ]
+    },
+    {
+      "station": "539-Cincinnati",
+      "page": "diagnosis-of-endocarditis",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "separator-line",
+          "sample": "______________________________________________________________________"
+        }
+      ]
+    },
+    {
+      "station": "539-Cincinnati",
+      "page": "penicillin-desensitization-protocol",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 14,
+          "sample": "> Perform in an ICU or similar setting."
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 16,
+          "sample": "> Discontinue all beta-adrenergic antagonists."
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 18,
+          "sample": "> Have IV line in place and EKG and spirometer ready."
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 20,
+          "sample": "> Once desensitization has been accomplished, therapy with this drug m"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 24,
+          "sample": "> A history of Stevens Johnson syndrome, exfoliative dermatitis, or er"
+        }
+      ]
+    },
+    {
+      "station": "539-Cincinnati",
+      "page": "hepb-vaccine-information-old-page",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "text-mismatch",
+          "at": 860,
+          "expected": "name:autoimmunehepatitis,0,1,4monthsEngerix-Balanineaminotransfer",
+          "rendered": "name:autoimmunehepatitis,2)0,1,4monthsEngerix-Balanineaminotransf"
+        }
+      ]
+    },
+    {
+      "station": "539-Cincinnati",
+      "page": "complicated-uti-catheter-associated",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "separator-line",
+          "sample": "______________________________________________________________________"
+        }
+      ]
+    },
+    {
+      "station": "539-Cincinnati",
+      "page": "beta-lactam-allergy-facts",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 19,
+          "sample": "> Reported reactions can be found in the Cover Sheet under Allergies/A"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 23,
+          "sample": "> A reaction report can also be found here: Reports tab -> Clinical Re"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 33,
+          "sample": "> What medication were you taking when the reaction occurred? DO NOT a"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 37,
+          "sample": "> How long after taking the medication did the reaction occur? Immedia"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 41,
+          "sample": "> How long ago did the reaction occur? Did it occur over 10 years ago?"
+        }
+      ]
+    },
+    {
+      "station": "539-Cincinnati",
+      "page": "infection-control",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 14,
+          "sample": ">> Infection Prevention is available via phone (612-467-6888) during"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 18,
+          "sample": ">> During nights, weekends, and holidays, contact the on-call person f"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 24,
+          "sample": ">> Minneapolis VAMC Infection Prevention and Control SharePoint site"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 28,
+          "sample": ">> CDC web site (www.cdc.gov)"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 32,
+          "sample": ">> Place consults for ID"
+        }
+      ]
+    },
+    {
+      "station": "539-Cincinnati",
+      "page": "more-about-nosocomial-pneumonia",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 17,
+          "sample": "> Fever greater than 38 C (100.4 F)"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 19,
+          "sample": "> Leukocytosis or leukopenia"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 21,
+          "sample": "> Purulent bronchial secretions"
+        }
+      ]
+    },
+    {
+      "station": "539-Cincinnati",
+      "page": "ventilator-associated-pneumonia",
+      "field": "Therapy",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 35,
+          "sample": "> Prior intravenous antibiotic use within 90 days (especially broad sp"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 37,
+          "sample": "> Septic shock at the time of VAP"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 39,
+          "sample": "> ARDS preceding VAP"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 40,
+          "sample": "> 5 or more days of hospitalization prior to the occurrence of VAP"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 42,
+          "sample": "> Acute renal replacement therapy prior to VAP onset"
+        }
+      ]
+    },
+    {
+      "station": "539-Cincinnati",
+      "page": "antiviral-type-of-malignancy",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 16,
+          "sample": ">10 days and profound neutropenia (<500 neutrophils) regularly occurs "
+        }
+      ]
+    },
+    {
+      "station": "539-Cincinnati",
+      "page": "bone-marrow-post-transplant-vaccinations",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 16,
+          "sample": ">>Under construction"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 26,
+          "sample": ">>Under construction"
+        }
+      ]
+    },
+    {
+      "station": "539-Cincinnati",
+      "page": "recommended-immunizations",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 40,
+          "sample": ">/= 65 years"
+        }
+      ]
+    },
+    {
+      "station": "539-Cincinnati",
+      "page": "bite-wounds",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "separator-line",
+          "sample": "______________________________________________________________________"
+        }
+      ]
+    },
+    {
+      "station": "539-Cincinnati",
+      "page": "gastroduodenal-surgery-prophylaxis",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 8,
+          "sample": ">>Patients with high gastric pH or acid-suppression therapy,"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 9,
+          "sample": ">>Patients with decreased gastroduodenal motility due to obstruction,"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 11,
+          "sample": ">>Obese patients"
+        }
+      ]
+    },
+    {
+      "station": "539-Cincinnati",
+      "page": "peritoneal-dialysis-colonoscopy-prophylaxis",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 3,
+          "sample": ">Colonoscopy generally doesn't not require antimicrobial prophylaxis"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 4,
+          "sample": ">Patients who use peritoneal dialysis are at higher risk of bacterial"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 7,
+          "sample": ">Ensure that the abdomen is empty of fluid before procedures."
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 9,
+          "sample": ">Antimicrobials during procedure may be used, generally covering gram "
+        }
+      ]
+    },
+    {
+      "station": "539-Cincinnati",
+      "page": "surg-vascular-surg-postop",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "runaway-emphasis",
+          "sample": "No postop antimicrobial doses recommended for procedures that do notin"
+        }
+      ]
+    },
+    {
+      "station": "539-Cincinnati",
+      "page": "coagulase-negative-staphylococci-bacteremia",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "separator-line",
+          "sample": "______________________________________________________________________"
+        }
+      ]
+    },
+    {
+      "station": "539-Cincinnati",
+      "page": "neut-fever-cand-not-oral-thera",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 4,
+          "sample": ">> Suspected catheter-related infection,"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 5,
+          "sample": ">> Skin or soft-tissue infection,"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 6,
+          "sample": ">> Pneumonia,"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 7,
+          "sample": ">> Hemodynamic instability"
+        }
+      ]
+    },
+    {
+      "station": "541-Cleveland",
+      "page": "catheter-associated-infection-intravascular",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "separator-line",
+          "sample": "______________________________________________________________"
+        }
+      ]
+    },
+    {
+      "station": "541-Cleveland",
+      "page": "diagnosis-of-endocarditis",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "separator-line",
+          "sample": "______________________________________________________________________"
+        }
+      ]
+    },
+    {
+      "station": "541-Cleveland",
+      "page": "penicillin-desensitization-protocol",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 14,
+          "sample": "> Perform in an ICU or similar setting."
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 16,
+          "sample": "> Discontinue all beta-adrenergic antagonists."
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 18,
+          "sample": "> Have IV line in place and EKG and spirometer ready."
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 20,
+          "sample": "> Once desensitization has been accomplished, therapy with this drug m"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 24,
+          "sample": "> A history of Stevens Johnson syndrome, exfoliative dermatitis, or er"
+        }
+      ]
+    },
+    {
+      "station": "541-Cleveland",
+      "page": "hepb-vaccine-information-old-page",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "text-mismatch",
+          "at": 860,
+          "expected": "name:autoimmunehepatitis,0,1,4monthsEngerix-Balanineaminotransfer",
+          "rendered": "name:autoimmunehepatitis,2)0,1,4monthsEngerix-Balanineaminotransf"
+        }
+      ]
+    },
+    {
+      "station": "541-Cleveland",
+      "page": "complicated-uti-catheter-associated",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "separator-line",
+          "sample": "______________________________________________________________________"
+        }
+      ]
+    },
+    {
+      "station": "541-Cleveland",
+      "page": "beta-lactam-allergy-facts",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 19,
+          "sample": "> Reported reactions can be found in the Cover Sheet under Allergies/A"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 23,
+          "sample": "> A reaction report can also be found here: Reports tab -> Clinical Re"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 33,
+          "sample": "> What medication were you taking when the reaction occurred? DO NOT a"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 37,
+          "sample": "> How long after taking the medication did the reaction occur? Immedia"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 41,
+          "sample": "> How long ago did the reaction occur? Did it occur over 10 years ago?"
+        }
+      ]
+    },
+    {
+      "station": "541-Cleveland",
+      "page": "infection-control",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 14,
+          "sample": ">> Infection Prevention is available via phone (612-467-6888) during"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 18,
+          "sample": ">> During nights, weekends, and holidays, contact the on-call person f"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 24,
+          "sample": ">> Minneapolis VAMC Infection Prevention and Control SharePoint site"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 28,
+          "sample": ">> CDC web site (www.cdc.gov)"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 32,
+          "sample": ">> Place consults for ID"
+        }
+      ]
+    },
+    {
+      "station": "541-Cleveland",
+      "page": "more-about-nosocomial-pneumonia",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 17,
+          "sample": "> Fever greater than 38 C (100.4 F)"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 19,
+          "sample": "> Leukocytosis or leukopenia"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 21,
+          "sample": "> Purulent bronchial secretions"
+        }
+      ]
+    },
+    {
+      "station": "541-Cleveland",
+      "page": "ventilator-associated-pneumonia",
+      "field": "Therapy",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 35,
+          "sample": "> Prior intravenous antibiotic use within 90 days (especially broad sp"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 37,
+          "sample": "> Septic shock at the time of VAP"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 39,
+          "sample": "> ARDS preceding VAP"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 40,
+          "sample": "> 5 or more days of hospitalization prior to the occurrence of VAP"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 42,
+          "sample": "> Acute renal replacement therapy prior to VAP onset"
+        }
+      ]
+    },
+    {
+      "station": "541-Cleveland",
+      "page": "antiviral-type-of-malignancy",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 16,
+          "sample": ">10 days and profound neutropenia (<500 neutrophils) regularly occurs "
+        }
+      ]
+    },
+    {
+      "station": "541-Cleveland",
+      "page": "bone-marrow-post-transplant-vaccinations",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 16,
+          "sample": ">>Under construction"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 26,
+          "sample": ">>Under construction"
+        }
+      ]
+    },
+    {
+      "station": "541-Cleveland",
+      "page": "recommended-immunizations",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 40,
+          "sample": ">/= 65 years"
+        }
+      ]
+    },
+    {
+      "station": "541-Cleveland",
+      "page": "bite-wounds",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "separator-line",
+          "sample": "______________________________________________________________________"
+        }
+      ]
+    },
+    {
+      "station": "541-Cleveland",
+      "page": "gastroduodenal-surgery-prophylaxis",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 8,
+          "sample": ">>Patients with high gastric pH or acid-suppression therapy,"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 9,
+          "sample": ">>Patients with decreased gastroduodenal motility due to obstruction,"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 11,
+          "sample": ">>Obese patients"
+        }
+      ]
+    },
+    {
+      "station": "541-Cleveland",
+      "page": "peritoneal-dialysis-colonoscopy-prophylaxis",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 3,
+          "sample": ">Colonoscopy generally doesn't not require antimicrobial prophylaxis"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 4,
+          "sample": ">Patients who use peritoneal dialysis are at higher risk of bacterial"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 7,
+          "sample": ">Ensure that the abdomen is empty of fluid before procedures."
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 9,
+          "sample": ">Antimicrobials during procedure may be used, generally covering gram "
+        }
+      ]
+    },
+    {
+      "station": "541-Cleveland",
+      "page": "surg-vascular-surg-postop",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "runaway-emphasis",
+          "sample": "No postop antimicrobial doses recommended for procedures that do notin"
+        }
+      ]
+    },
+    {
+      "station": "541-Cleveland",
+      "page": "coagulase-negative-staphylococci-bacteremia",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "separator-line",
+          "sample": "______________________________________________________________________"
+        }
+      ]
+    },
+    {
+      "station": "541-Cleveland",
+      "page": "neut-fever-cand-not-oral-thera",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "blockquote-marker",
+          "line": 4,
+          "sample": ">> Suspected catheter-related infection,"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 5,
+          "sample": ">> Skin or soft-tissue infection,"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 6,
+          "sample": ">> Pneumonia,"
+        },
+        {
+          "type": "blockquote-marker",
+          "line": 7,
+          "sample": ">> Hemodynamic instability"
         }
       ]
     }
@@ -51,7 +1114,90 @@
     "001-TestStation/tetanus-diphtheria-and-acellular-pertussis-vac-4c4170:Text",
     "001-TestStation/surg-antibiotic-renal-redosing:Text",
     "001-TestStation/surgical-pre-op-antibiotics:Text",
-    "001-TestStation/system-infectious-diseases:Text"
+    "001-TestStation/system-infectious-diseases:Text",
+    "506-AnnArbor/bispecific-crs-monitoring:Text",
+    "506-AnnArbor/cns:Text",
+    "506-AnnArbor/drug-info:Text",
+    "506-AnnArbor/index:Text",
+    "506-AnnArbor/main-menu:Text",
+    "506-AnnArbor/genitourinary:Text",
+    "506-AnnArbor/gi-intraabdominal:Text",
+    "506-AnnArbor/hepatitis-a-vaccine-information:Text",
+    "506-AnnArbor/head-and-neck:Text",
+    "506-AnnArbor/additional-assistance:Text",
+    "506-AnnArbor/help-page:Text",
+    "506-AnnArbor/immunocompromised-patient:Text",
+    "506-AnnArbor/lung-and-mediastinum:Text",
+    "506-AnnArbor/viruses:Text",
+    "506-AnnArbor/chickenpox-vaccine-information:Text",
+    "506-AnnArbor/haemophilus-influenza-type-b-vaccine-information:Text",
+    "506-AnnArbor/hepatitis-a-and-b-vaccine-information:Text",
+    "506-AnnArbor/human-papillomavirus-vaccine-information:Text",
+    "506-AnnArbor/measles-mumps-rubella-vaccine-information:Text",
+    "506-AnnArbor/meningococcal-conjugate-vaccine-information:Text",
+    "506-AnnArbor/meningococcal-serogroup-b-vaccine-information:Text",
+    "506-AnnArbor/pneumococcal-vaccine-information:Text",
+    "506-AnnArbor/zoster-vaccine-information:Text",
+    "506-AnnArbor/ssti-main-menu:Text",
+    "506-AnnArbor/tetanus-diphtheria-and-acellular-pertussis-vac-4c4170:Text",
+    "506-AnnArbor/surg-antibiotic-renal-redosing:Text",
+    "506-AnnArbor/surgical-pre-op-antibiotics:Text",
+    "506-AnnArbor/system-infectious-diseases:Text",
+    "539-Cincinnati/bispecific-crs-monitoring:Text",
+    "539-Cincinnati/cns:Text",
+    "539-Cincinnati/drug-info:Text",
+    "539-Cincinnati/index:Text",
+    "539-Cincinnati/main-menu:Text",
+    "539-Cincinnati/genitourinary:Text",
+    "539-Cincinnati/gi-intraabdominal:Text",
+    "539-Cincinnati/hepatitis-a-vaccine-information:Text",
+    "539-Cincinnati/head-and-neck:Text",
+    "539-Cincinnati/additional-assistance:Text",
+    "539-Cincinnati/help-page:Text",
+    "539-Cincinnati/immunocompromised-patient:Text",
+    "539-Cincinnati/lung-and-mediastinum:Text",
+    "539-Cincinnati/viruses:Text",
+    "539-Cincinnati/chickenpox-vaccine-information:Text",
+    "539-Cincinnati/haemophilus-influenza-type-b-vaccine-information:Text",
+    "539-Cincinnati/hepatitis-a-and-b-vaccine-information:Text",
+    "539-Cincinnati/human-papillomavirus-vaccine-information:Text",
+    "539-Cincinnati/measles-mumps-rubella-vaccine-information:Text",
+    "539-Cincinnati/meningococcal-conjugate-vaccine-information:Text",
+    "539-Cincinnati/meningococcal-serogroup-b-vaccine-information:Text",
+    "539-Cincinnati/pneumococcal-vaccine-information:Text",
+    "539-Cincinnati/zoster-vaccine-information:Text",
+    "539-Cincinnati/ssti-main-menu:Text",
+    "539-Cincinnati/tetanus-diphtheria-and-acellular-pertussis-vac-4c4170:Text",
+    "539-Cincinnati/surg-antibiotic-renal-redosing:Text",
+    "539-Cincinnati/surgical-pre-op-antibiotics:Text",
+    "539-Cincinnati/system-infectious-diseases:Text",
+    "541-Cleveland/cns:Text",
+    "541-Cleveland/drug-info:Text",
+    "541-Cleveland/index:Text",
+    "541-Cleveland/main-menu:Text",
+    "541-Cleveland/genitourinary:Text",
+    "541-Cleveland/gi-intraabdominal:Text",
+    "541-Cleveland/hepatitis-a-vaccine-information:Text",
+    "541-Cleveland/head-and-neck:Text",
+    "541-Cleveland/additional-assistance:Text",
+    "541-Cleveland/help-page:Text",
+    "541-Cleveland/immunocompromised-patient:Text",
+    "541-Cleveland/lung-and-mediastinum:Text",
+    "541-Cleveland/viruses:Text",
+    "541-Cleveland/chickenpox-vaccine-information:Text",
+    "541-Cleveland/haemophilus-influenza-type-b-vaccine-information:Text",
+    "541-Cleveland/hepatitis-a-and-b-vaccine-information:Text",
+    "541-Cleveland/human-papillomavirus-vaccine-information:Text",
+    "541-Cleveland/measles-mumps-rubella-vaccine-information:Text",
+    "541-Cleveland/meningococcal-conjugate-vaccine-information:Text",
+    "541-Cleveland/meningococcal-serogroup-b-vaccine-information:Text",
+    "541-Cleveland/pneumococcal-vaccine-information:Text",
+    "541-Cleveland/zoster-vaccine-information:Text",
+    "541-Cleveland/ssti-main-menu:Text",
+    "541-Cleveland/tetanus-diphtheria-and-acellular-pertussis-vac-4c4170:Text",
+    "541-Cleveland/surg-antibiotic-renal-redosing:Text",
+    "541-Cleveland/surgical-pre-op-antibiotics:Text",
+    "541-Cleveland/system-infectious-diseases:Text"
   ],
   "tagLikeText": {
     "001-TestStation/osteomyelitis:Therapy": [
@@ -474,6 +1620,1273 @@
       "AND"
     ],
     "001-TestStation/toxic-shock-syndrome:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "506-AnnArbor/osteomyelitis:Therapy": [
+      "ADD"
+    ],
+    "506-AnnArbor/pros-joint-bone-infect:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/septic-arthritis-nat-joint:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/vertebral-diskitis-osteom:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/cardiovascular-device-infections-excluding-valves:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/catheter-associated-infection-intravascular:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/empirical-therapy:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/pericarditis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/streptococcal-native-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/suppurative-thrombophlebitis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/abscess-spinal-epidural:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/bells-palsy:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/brain-abscess-from-contiguous-or-hematogenous-spread:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/brain-abscess-post-surgical-or-post-traumatic:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/brain-abscess-with-nocardia:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/brain-abscess-with-toxoplasma-gondii:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/cranial-epidural-abscess:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/gram-negative-bacilli-meningitis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/gram-positive-diplococci-meningitis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/meningitis-associated-with-trauma-or-nosocomial-infection:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/meningitis-with-streptococcus-pneumoniae:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/meningitis-without-gram-stain-results:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/subdural-empyema:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/suppurative-intracranial-thrombophlebitis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/surg-cefazolin-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "506-AnnArbor/surg-vancomycin-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "506-AnnArbor/prosthetic-valve-endocarditis-empirical-therapy:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/staphylococcal-prosthetic-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/streptococcal-prosthetic-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/bacteremia:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/bite-wnds-eikenella-corrodens:Text": [
+      "OR"
+    ],
+    "506-AnnArbor/bite-wnds-p-multocida:Text": [
+      "OR"
+    ],
+    "506-AnnArbor/bite-wnds-streptococci:Text": [
+      "OR"
+    ],
+    "506-AnnArbor/cap-inpatient-treated-setting-non-severe-cap:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/cap-inpatient-treated-setting-severe-cap:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/cap-outpatient-treated-setting:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/cap-treated-in-outpt-setting:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/covid-19-mpls-antimicrobial-guideline:Therapy": [
+      "OR"
+    ],
+    "506-AnnArbor/dermatologic-surgical-site-infection:Text": [
+      "AND"
+    ],
+    "506-AnnArbor/emp-intrav-w-o-vanco:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/emp-intrav-w-vanco:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/gonococcal:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/gram-pos-actinomyces-spp:Therapy": [
+      "OR"
+    ],
+    "506-AnnArbor/necrot-infect-direct-therapy:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/necrot-infect-emp-therapy:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/neut-fever-cand-oral-thera:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/osteom-with-p-aeruginosa:Text": [
+      "OR"
+    ],
+    "506-AnnArbor/pid:Therapy": [
+      "AND",
+      "OPTIONAL"
+    ],
+    "506-AnnArbor/sa-decolonization:Text": [
+      "AND"
+    ],
+    "506-AnnArbor/sepsis-severe-beta-lactam-reaction:Therapy": [
+      "ADD"
+    ],
+    "506-AnnArbor/acute-bact-prostatitis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/bacterial-vaginosis-male-sexual-partner:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/epididymitis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/post-exposure-prophylaxis-non-occupational:Text": [
+      "ORDER"
+    ],
+    "506-AnnArbor/surg-48hrs-after-proc:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/surg-gentamicin-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "506-AnnArbor/uncomp-uti:Therapy": [
+      "OR"
+    ],
+    "506-AnnArbor/urological-surgery-prophylaxis:Text": [
+      "Click"
+    ],
+    "506-AnnArbor/urological-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/appendicitis-w-o-perforation:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/appendicitis-with-perforation:Therapy": [
+      "AND",
+      "ADD"
+    ],
+    "506-AnnArbor/babesia-infections-general:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/cholangitis:Therapy": [
+      "ADD",
+      "AND"
+    ],
+    "506-AnnArbor/cholecystitis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/diverticulitis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/fungi-candida-albicans:Therapy": [
+      "OR"
+    ],
+    "506-AnnArbor/h-pylori-infect:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/hepatitis-a:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/liver-pyogenic-abscess:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/peri-assoc-w-peri-dial:Therapy": [
+      "OR",
+      "AND"
+    ],
+    "506-AnnArbor/second-peritonitis:Therapy": [
+      "AND",
+      "ADD"
+    ],
+    "506-AnnArbor/step-down-treatment:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/toxic-megacolon:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/typhlitis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/cmv-retinitis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/deep-orophar-infect:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/epiglottitis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/keratitis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/mastoiditis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/otitis-externa:Therapy": [
+      "ADD"
+    ],
+    "506-AnnArbor/parotitis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/postseptal-cellulitis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/preseptal-cellulitis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/supp-odontogenic-infect:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/hiv-aids:Text": [
+      "ORDER"
+    ],
+    "506-AnnArbor/ari-symptomatic-therapy:Text": [
+      "Link"
+    ],
+    "506-AnnArbor/aspiration-pneumonia:Therapy": [
+      "OR"
+    ],
+    "506-AnnArbor/cap-oral-treatment:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/empyema:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "506-AnnArbor/mediastinitis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/more-about-nosocomial-pneumonia:Text": [
+      "AND"
+    ],
+    "506-AnnArbor/nosocomial-pneumonia-with-pseudomonas-aeruginosa:Therapy": [
+      "ADD"
+    ],
+    "506-AnnArbor/pneumonia-hap-new:Text": [
+      "OR",
+      "ADD"
+    ],
+    "506-AnnArbor/pneumonia-hap-new:Therapy": [
+      "OR",
+      "ADD"
+    ],
+    "506-AnnArbor/ventilator-associated-pneumonia:Therapy": [
+      "AND",
+      "OR",
+      "ADD"
+    ],
+    "506-AnnArbor/brucella-infections-general:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/cmv-encephalitis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/cmv-pneumonia:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/disseminated-m-avium:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/herpes-keratitis:Therapy": [
+      "OR"
+    ],
+    "506-AnnArbor/m-avium-pneumonia:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/toxoplasma-infections-general:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/recommended-immunizations:Text": [
+      "COVID-19"
+    ],
+    "506-AnnArbor/acne:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/cellulitis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/decolonization-of-staphylococcus-aureus:Text": [
+      "AND"
+    ],
+    "506-AnnArbor/foot-ulcer-w-infect:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/hidradenitis-suppurativa:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/osteomyelitis-evaluation:Text": [
+      "Click"
+    ],
+    "506-AnnArbor/perianal-anorectal-abscess:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/biliary-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/bowel-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/cardiac-surgery-post-op-prophylaxis:Text": [
+      "AND"
+    ],
+    "506-AnnArbor/gynecological-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/surg-cefazolin-ir-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "506-AnnArbor/surg-cefazolin-wt-based-postop-doses-x2:Text": [
+      "Click"
+    ],
+    "506-AnnArbor/surg-vancomycin-post-op-specific-dosing:Text": [
+      "Click"
+    ],
+    "506-AnnArbor/thoracic-surgery-post-op-prophylaxis:Text": [
+      "AND"
+    ],
+    "506-AnnArbor/urological-post-operative-prophylaxis:Text": [
+      "Click"
+    ],
+    "506-AnnArbor/enterococcal-intravascular-catheter-associa-7d0538:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/fungi-candida-krusei:Therapy": [
+      "OR"
+    ],
+    "506-AnnArbor/fungi-cryptococcus-neoformans:Therapy": [
+      "OR",
+      "AND"
+    ],
+    "506-AnnArbor/intravas-cath-coag-neg-staph:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/intravas-cath-gnb:Therapy": [
+      "ADD"
+    ],
+    "506-AnnArbor/neut-fever-pt-become-afebrile:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/pneumocystis-jirovecii:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/sepsis-empiric-therapy-site-unk:Text": [
+      "ADD"
+    ],
+    "506-AnnArbor/sepsis-empiric-therapy-site-unk:Therapy": [
+      "ADD"
+    ],
+    "506-AnnArbor/sepsis-pneumonia:Text": [
+      "AND",
+      "ADD"
+    ],
+    "506-AnnArbor/sepsis-pneumonia:Therapy": [
+      "AND",
+      "SUBSTITUTE",
+      "ADD"
+    ],
+    "506-AnnArbor/sepsis-susp-c-difficile:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/sepsis-susp-endocarditis:Text": [
+      "ADD"
+    ],
+    "506-AnnArbor/sepsis-susp-endocarditis:Therapy": [
+      "ADD"
+    ],
+    "506-AnnArbor/sepsis-suspected-skin-soft-tissue:Text": [
+      "AND"
+    ],
+    "506-AnnArbor/sepsis-suspected-skin-soft-tissue:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/toxic-shock-syndrome:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "539-Cincinnati/osteomyelitis:Therapy": [
+      "ADD"
+    ],
+    "539-Cincinnati/pros-joint-bone-infect:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/septic-arthritis-nat-joint:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/vertebral-diskitis-osteom:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/cardiovascular-device-infections-excluding-valves:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/catheter-associated-infection-intravascular:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/empirical-therapy:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/pericarditis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/streptococcal-native-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/suppurative-thrombophlebitis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/abscess-spinal-epidural:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/bells-palsy:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/brain-abscess-from-contiguous-or-hematogenous-spread:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/brain-abscess-post-surgical-or-post-traumatic:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/brain-abscess-with-nocardia:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/brain-abscess-with-toxoplasma-gondii:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/cranial-epidural-abscess:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/gram-negative-bacilli-meningitis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/gram-positive-diplococci-meningitis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/meningitis-associated-with-trauma-or-nosocomial-infection:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/meningitis-with-streptococcus-pneumoniae:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/meningitis-without-gram-stain-results:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/subdural-empyema:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/suppurative-intracranial-thrombophlebitis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/surg-cefazolin-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "539-Cincinnati/surg-vancomycin-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "539-Cincinnati/prosthetic-valve-endocarditis-empirical-therapy:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/staphylococcal-prosthetic-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/streptococcal-prosthetic-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/bacteremia:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/bite-wnds-eikenella-corrodens:Text": [
+      "OR"
+    ],
+    "539-Cincinnati/bite-wnds-p-multocida:Text": [
+      "OR"
+    ],
+    "539-Cincinnati/bite-wnds-streptococci:Text": [
+      "OR"
+    ],
+    "539-Cincinnati/cap-inpatient-treated-setting-non-severe-cap:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/cap-inpatient-treated-setting-severe-cap:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/cap-outpatient-treated-setting:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/cap-treated-in-outpt-setting:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/covid-19-mpls-antimicrobial-guideline:Therapy": [
+      "OR"
+    ],
+    "539-Cincinnati/dermatologic-surgical-site-infection:Text": [
+      "AND"
+    ],
+    "539-Cincinnati/emp-intrav-w-o-vanco:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/emp-intrav-w-vanco:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/gonococcal:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/gram-pos-actinomyces-spp:Therapy": [
+      "OR"
+    ],
+    "539-Cincinnati/necrot-infect-direct-therapy:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/necrot-infect-emp-therapy:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/neut-fever-cand-oral-thera:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/osteom-with-p-aeruginosa:Text": [
+      "OR"
+    ],
+    "539-Cincinnati/pid:Therapy": [
+      "AND",
+      "OPTIONAL"
+    ],
+    "539-Cincinnati/sa-decolonization:Text": [
+      "AND"
+    ],
+    "539-Cincinnati/sepsis-severe-beta-lactam-reaction:Therapy": [
+      "ADD"
+    ],
+    "539-Cincinnati/acute-bact-prostatitis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/bacterial-vaginosis-male-sexual-partner:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/epididymitis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/post-exposure-prophylaxis-non-occupational:Text": [
+      "ORDER"
+    ],
+    "539-Cincinnati/surg-48hrs-after-proc:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/surg-gentamicin-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "539-Cincinnati/uncomp-uti:Therapy": [
+      "OR"
+    ],
+    "539-Cincinnati/urological-surgery-prophylaxis:Text": [
+      "Click"
+    ],
+    "539-Cincinnati/urological-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/appendicitis-w-o-perforation:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/appendicitis-with-perforation:Therapy": [
+      "AND",
+      "ADD"
+    ],
+    "539-Cincinnati/babesia-infections-general:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/cholangitis:Therapy": [
+      "ADD",
+      "AND"
+    ],
+    "539-Cincinnati/cholecystitis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/diverticulitis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/fungi-candida-albicans:Therapy": [
+      "OR"
+    ],
+    "539-Cincinnati/h-pylori-infect:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/hepatitis-a:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/liver-pyogenic-abscess:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/peri-assoc-w-peri-dial:Therapy": [
+      "OR",
+      "AND"
+    ],
+    "539-Cincinnati/second-peritonitis:Therapy": [
+      "AND",
+      "ADD"
+    ],
+    "539-Cincinnati/step-down-treatment:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/toxic-megacolon:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/typhlitis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/cmv-retinitis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/deep-orophar-infect:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/epiglottitis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/keratitis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/mastoiditis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/otitis-externa:Therapy": [
+      "ADD"
+    ],
+    "539-Cincinnati/parotitis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/postseptal-cellulitis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/preseptal-cellulitis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/supp-odontogenic-infect:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/hiv-aids:Text": [
+      "ORDER"
+    ],
+    "539-Cincinnati/ari-symptomatic-therapy:Text": [
+      "Link"
+    ],
+    "539-Cincinnati/aspiration-pneumonia:Therapy": [
+      "OR"
+    ],
+    "539-Cincinnati/cap-oral-treatment:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/empyema:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "539-Cincinnati/mediastinitis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/more-about-nosocomial-pneumonia:Text": [
+      "AND"
+    ],
+    "539-Cincinnati/nosocomial-pneumonia-with-pseudomonas-aeruginosa:Therapy": [
+      "ADD"
+    ],
+    "539-Cincinnati/pneumonia-hap-new:Text": [
+      "OR",
+      "ADD"
+    ],
+    "539-Cincinnati/pneumonia-hap-new:Therapy": [
+      "OR",
+      "ADD"
+    ],
+    "539-Cincinnati/ventilator-associated-pneumonia:Therapy": [
+      "AND",
+      "OR",
+      "ADD"
+    ],
+    "539-Cincinnati/brucella-infections-general:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/cmv-encephalitis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/cmv-pneumonia:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/disseminated-m-avium:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/herpes-keratitis:Therapy": [
+      "OR"
+    ],
+    "539-Cincinnati/m-avium-pneumonia:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/toxoplasma-infections-general:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/recommended-immunizations:Text": [
+      "COVID-19"
+    ],
+    "539-Cincinnati/acne:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/cellulitis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/decolonization-of-staphylococcus-aureus:Text": [
+      "AND"
+    ],
+    "539-Cincinnati/foot-ulcer-w-infect:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/hidradenitis-suppurativa:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/osteomyelitis-evaluation:Text": [
+      "Click"
+    ],
+    "539-Cincinnati/perianal-anorectal-abscess:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/biliary-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/bowel-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/cardiac-surgery-post-op-prophylaxis:Text": [
+      "AND"
+    ],
+    "539-Cincinnati/gynecological-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/surg-cefazolin-ir-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "539-Cincinnati/surg-cefazolin-wt-based-postop-doses-x2:Text": [
+      "Click"
+    ],
+    "539-Cincinnati/surg-vancomycin-post-op-specific-dosing:Text": [
+      "Click"
+    ],
+    "539-Cincinnati/thoracic-surgery-post-op-prophylaxis:Text": [
+      "AND"
+    ],
+    "539-Cincinnati/urological-post-operative-prophylaxis:Text": [
+      "Click"
+    ],
+    "539-Cincinnati/enterococcal-intravascular-catheter-associa-7d0538:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/fungi-candida-krusei:Therapy": [
+      "OR"
+    ],
+    "539-Cincinnati/fungi-cryptococcus-neoformans:Therapy": [
+      "OR",
+      "AND"
+    ],
+    "539-Cincinnati/intravas-cath-coag-neg-staph:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/intravas-cath-gnb:Therapy": [
+      "ADD"
+    ],
+    "539-Cincinnati/neut-fever-pt-become-afebrile:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/pneumocystis-jirovecii:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/sepsis-empiric-therapy-site-unk:Text": [
+      "ADD"
+    ],
+    "539-Cincinnati/sepsis-empiric-therapy-site-unk:Therapy": [
+      "ADD"
+    ],
+    "539-Cincinnati/sepsis-pneumonia:Text": [
+      "AND",
+      "ADD"
+    ],
+    "539-Cincinnati/sepsis-pneumonia:Therapy": [
+      "AND",
+      "SUBSTITUTE",
+      "ADD"
+    ],
+    "539-Cincinnati/sepsis-susp-c-difficile:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/sepsis-susp-endocarditis:Text": [
+      "ADD"
+    ],
+    "539-Cincinnati/sepsis-susp-endocarditis:Therapy": [
+      "ADD"
+    ],
+    "539-Cincinnati/sepsis-suspected-skin-soft-tissue:Text": [
+      "AND"
+    ],
+    "539-Cincinnati/sepsis-suspected-skin-soft-tissue:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/toxic-shock-syndrome:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "541-Cleveland/pros-joint-bone-infect:Therapy": [
+      "OR",
+      "AND"
+    ],
+    "541-Cleveland/septic-arthritis-nat-joint:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/vertebral-diskitis-osteom:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/cardiovascular-device-infections-excluding-valves:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/catheter-associated-infection-intravascular:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/empirical-therapy:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/pericarditis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/streptococcal-native-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/suppurative-thrombophlebitis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/abscess-spinal-epidural:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/bells-palsy:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/brain-abscess-from-contiguous-or-hematogenous-spread:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/brain-abscess-post-surgical-or-post-traumatic:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/brain-abscess-with-nocardia:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/brain-abscess-with-toxoplasma-gondii:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/cranial-epidural-abscess:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/gram-negative-bacilli-meningitis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/gram-positive-diplococci-meningitis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/meningitis-associated-with-trauma-or-nosocomial-infection:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/meningitis-with-streptococcus-pneumoniae:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/meningitis-without-gram-stain-results:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/subdural-empyema:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/suppurative-intracranial-thrombophlebitis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/surg-cefazolin-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "541-Cleveland/surg-vancomycin-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "541-Cleveland/prosthetic-valve-endocarditis-empirical-therapy:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/staphylococcal-prosthetic-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/streptococcal-prosthetic-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/bacteremia:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/bite-wnds-eikenella-corrodens:Text": [
+      "OR"
+    ],
+    "541-Cleveland/bite-wnds-p-multocida:Text": [
+      "OR"
+    ],
+    "541-Cleveland/bite-wnds-streptococci:Text": [
+      "OR"
+    ],
+    "541-Cleveland/cap-inpatient-treated-setting-non-severe-cap:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/cap-inpatient-treated-setting-severe-cap:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/cap-outpatient-treated-setting:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/cap-treated-in-outpt-setting:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/covid-19-mpls-antimicrobial-guideline:Therapy": [
+      "OR"
+    ],
+    "541-Cleveland/dermatologic-surgical-site-infection:Text": [
+      "AND"
+    ],
+    "541-Cleveland/emp-intrav-w-o-vanco:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/emp-intrav-w-vanco:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/gonococcal:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/gram-pos-actinomyces-spp:Therapy": [
+      "OR"
+    ],
+    "541-Cleveland/necrot-infect-direct-therapy:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/necrot-infect-emp-therapy:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/neut-fever-cand-oral-thera:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/osteom-with-p-aeruginosa:Text": [
+      "OR"
+    ],
+    "541-Cleveland/pid:Therapy": [
+      "AND",
+      "OPTIONAL"
+    ],
+    "541-Cleveland/sa-decolonization:Text": [
+      "AND"
+    ],
+    "541-Cleveland/sepsis-severe-beta-lactam-reaction:Therapy": [
+      "ADD"
+    ],
+    "541-Cleveland/acute-bact-prostatitis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/bacterial-vaginosis-male-sexual-partner:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/epididymitis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/post-exposure-prophylaxis-non-occupational:Text": [
+      "ORDER"
+    ],
+    "541-Cleveland/surg-48hrs-after-proc:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/surg-gentamicin-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "541-Cleveland/uncomp-uti:Therapy": [
+      "OR"
+    ],
+    "541-Cleveland/urological-surgery-prophylaxis:Text": [
+      "Click"
+    ],
+    "541-Cleveland/urological-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/appendicitis-w-o-perforation:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/appendicitis-with-perforation:Therapy": [
+      "AND",
+      "ADD"
+    ],
+    "541-Cleveland/babesia-infections-general:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/cholangitis:Therapy": [
+      "ADD",
+      "AND"
+    ],
+    "541-Cleveland/cholecystitis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/diverticulitis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/fungi-candida-albicans:Therapy": [
+      "OR"
+    ],
+    "541-Cleveland/h-pylori-infect:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/hepatitis-a:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/liver-pyogenic-abscess:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/peri-assoc-w-peri-dial:Therapy": [
+      "OR",
+      "AND"
+    ],
+    "541-Cleveland/second-peritonitis:Therapy": [
+      "AND",
+      "ADD"
+    ],
+    "541-Cleveland/step-down-treatment:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/toxic-megacolon:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/typhlitis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/cmv-retinitis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/deep-orophar-infect:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/epiglottitis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/keratitis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/mastoiditis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/otitis-externa:Therapy": [
+      "ADD"
+    ],
+    "541-Cleveland/parotitis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/postseptal-cellulitis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/preseptal-cellulitis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/supp-odontogenic-infect:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/hiv-aids:Text": [
+      "ORDER"
+    ],
+    "541-Cleveland/ari-symptomatic-therapy:Text": [
+      "Link"
+    ],
+    "541-Cleveland/aspiration-pneumonia:Therapy": [
+      "OR"
+    ],
+    "541-Cleveland/cap-oral-treatment:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/empyema:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "541-Cleveland/mediastinitis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/more-about-nosocomial-pneumonia:Text": [
+      "AND"
+    ],
+    "541-Cleveland/nosocomial-pneumonia-with-pseudomonas-aeruginosa:Therapy": [
+      "ADD"
+    ],
+    "541-Cleveland/pneumonia-hap-new:Text": [
+      "OR",
+      "ADD"
+    ],
+    "541-Cleveland/pneumonia-hap-new:Therapy": [
+      "OR",
+      "ADD"
+    ],
+    "541-Cleveland/ventilator-associated-pneumonia:Therapy": [
+      "AND",
+      "OR",
+      "ADD"
+    ],
+    "541-Cleveland/brucella-infections-general:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/cmv-encephalitis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/cmv-pneumonia:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/disseminated-m-avium:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/herpes-keratitis:Therapy": [
+      "OR"
+    ],
+    "541-Cleveland/m-avium-pneumonia:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/toxoplasma-infections-general:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/recommended-immunizations:Text": [
+      "COVID-19"
+    ],
+    "541-Cleveland/acne:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/cellulitis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/decolonization-of-staphylococcus-aureus:Text": [
+      "AND"
+    ],
+    "541-Cleveland/foot-ulcer-w-infect:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/hidradenitis-suppurativa:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/osteomyelitis-evaluation:Text": [
+      "Click"
+    ],
+    "541-Cleveland/perianal-anorectal-abscess:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/biliary-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/bowel-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/cardiac-surgery-post-op-prophylaxis:Text": [
+      "AND"
+    ],
+    "541-Cleveland/gynecological-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/surg-cefazolin-ir-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "541-Cleveland/surg-cefazolin-wt-based-postop-doses-x2:Text": [
+      "Click"
+    ],
+    "541-Cleveland/surg-vancomycin-post-op-specific-dosing:Text": [
+      "Click"
+    ],
+    "541-Cleveland/thoracic-surgery-post-op-prophylaxis:Text": [
+      "AND"
+    ],
+    "541-Cleveland/urological-post-operative-prophylaxis:Text": [
+      "Click"
+    ],
+    "541-Cleveland/enterococcal-intravascular-catheter-associa-7d0538:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/fungi-candida-krusei:Therapy": [
+      "OR"
+    ],
+    "541-Cleveland/fungi-cryptococcus-neoformans:Therapy": [
+      "OR",
+      "AND"
+    ],
+    "541-Cleveland/intravas-cath-coag-neg-staph:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/intravas-cath-gnb:Therapy": [
+      "ADD"
+    ],
+    "541-Cleveland/neut-fever-pt-become-afebrile:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/pneumocystis-jirovecii:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/sepsis-empiric-therapy-site-unk:Text": [
+      "ADD"
+    ],
+    "541-Cleveland/sepsis-empiric-therapy-site-unk:Therapy": [
+      "ADD"
+    ],
+    "541-Cleveland/sepsis-pneumonia:Text": [
+      "AND",
+      "ADD"
+    ],
+    "541-Cleveland/sepsis-pneumonia:Therapy": [
+      "AND",
+      "SUBSTITUTE",
+      "ADD"
+    ],
+    "541-Cleveland/sepsis-susp-c-difficile:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/sepsis-susp-endocarditis:Text": [
+      "ADD"
+    ],
+    "541-Cleveland/sepsis-susp-endocarditis:Therapy": [
+      "ADD"
+    ],
+    "541-Cleveland/sepsis-suspected-skin-soft-tissue:Text": [
+      "AND"
+    ],
+    "541-Cleveland/sepsis-suspected-skin-soft-tissue:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/toxic-shock-syndrome:Therapy": [
       "AND",
       "OR"
     ]

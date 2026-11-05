@@ -53,8 +53,33 @@
   }
 
   function toSafeHtml(markedInstance, purify, text) {
-    const html = markedInstance.parse(String(text || ''), { async: false });
-    return purify.sanitize(html, { ALLOWED_TAGS, ALLOWED_ATTR, ALLOW_DATA_ATTR: false });
+    const html = markedInstance.parse(addHeaderlessTableHeaders(String(text || '')), { async: false });
+    const safe = purify.sanitize(html, { ALLOWED_TAGS, ALLOWED_ATTR, ALLOW_DATA_ATTR: false });
+    return safe.replace(/<thead>\s*<tr>(?:\s*<th[^>]*><\/th>)+\s*<\/tr>\s*<\/thead>/g, ''); // drop the synthetic header
+  }
+
+  const TABLE_ROW = /^\s*\|.*\|\s*$/;
+  const TABLE_DIVIDER = /^\s*\|(?:\s*:?-{3,}:?\s*\|)+\s*$/;
+
+  // Sveltia saves a table without a header row as bare pipe rows, which standard markdown
+  // does not treat as a table. Give such a table an empty header (removed again after parsing).
+  function addHeaderlessTableHeaders(text) {
+    const lines = text.split('\n');
+    const out = [];
+    let inFence = false;
+    for (let i = 0; i < lines.length; i += 1) {
+      const line = lines[i];
+      if (/^\s*```/.test(line)) {
+        inFence = !inFence;
+      }
+      const startsRun = !inFence && TABLE_ROW.test(line) && (i === 0 || !TABLE_ROW.test(lines[i - 1]));
+      if (startsRun && !(i + 1 < lines.length && TABLE_DIVIDER.test(lines[i + 1])) && !TABLE_DIVIDER.test(line)) {
+        const cells = line.trim().replace(/^\||\|$/g, '').split(/(?<!\\)\|/).length;
+        out.push('', `|${' |'.repeat(cells)}`, `|${' --- |'.repeat(cells)}`);
+      }
+      out.push(line);
+    }
+    return out.join('\n');
   }
 
   function safeDecode(value) {

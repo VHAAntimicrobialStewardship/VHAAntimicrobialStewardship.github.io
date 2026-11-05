@@ -15,7 +15,7 @@ const { renderHtml } = require('./lib/markdown-config');
 const ROOT = path.resolve(__dirname, '..');
 const STATIONS = ['001-TestStation', '506-AnnArbor', '539-Cincinnati', '541-Cleveland'];
 const FIELDS = ['Text', 'Therapy'];
-const HARD = ['text-mismatch', 'table-extra-divider', 'indented-code', 'runaway-emphasis', 'blockquote-marker', 'separator-line'];
+const HARD = ['text-mismatch', 'table-extra-divider', 'indented-code', 'runaway-emphasis', 'blockquote-marker', 'separator-line', 'table-not-rendered'];
 
 const doc = new JSDOM('').window.document;
 
@@ -96,6 +96,9 @@ function checkField(source) {
   const expected = expectedText(source);
   if (expected !== text) {
     findings.push({ type: 'text-mismatch', ...firstDiff(expected, text) });
+  }
+  if (/^\|.*\|\s*$/m.test(source) && !holder.querySelector('table')) {
+    findings.push({ type: 'table-not-rendered' });
   }
   holder.querySelectorAll('table').forEach((table) => {
     info.tables++;
