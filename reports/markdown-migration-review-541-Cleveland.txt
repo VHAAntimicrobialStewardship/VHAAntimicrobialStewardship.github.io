@@ -1,0 +1,373 @@
+Markdown migration review list (541-Cleveland, APPLIED)
+
+== Text line left unjoined from the link line below it (check: wrap or separate items?): 44 fields
+  septic-arthritis-nat-joint:Text  lines 3, 5, 7
+  brain-abscess-with-toxoplasma-gondii:Therapy  lines 3, 8, 14, 20
+  lyme-disease:Text  lines 20
+  bite-wnds-eikenella-corrodens:Text  lines 8
+  cap-outpatient-treated-setting:Text  lines 22
+  cap-treated-in-outpt-setting:Text  lines 9
+  dermatologic-surgical-site-infection:Text  lines 19, 22, 26, 33, 38, 43, 46, 53
+  general-information-inpatient:Text  lines 3, 15, 24, 36
+  general-information-outpatient:Text  lines 25
+  osteom-with-gnb:Text  lines 5
+  osteom-with-streptococci:Text  lines 5
+  sa-decolonization:Text  lines 24
+  surg-48hrs-after-proc:Therapy  lines 26, 29
+  clostridiodes-difficile-infection:Text  lines 7
+  fever-in-asplenic-patient:Text  lines 26, 29
+  h-pylori-infect:Therapy  lines 20, 29, 31
+  hepatitis-b-evaluation-anti-cd20-antibody:Text  lines 40, 43
+  hepatitis-b-evaluation-anti-cd20-antibody:Therapy  lines 38
+  general-information-legend:Text  lines 6, 23
+  help-page:Therapy  lines 2
+  important-drug-properties:Text  lines 25
+  infection-control:Text  lines 25, 33
+  pregnancy-risk-factors-for-antimicrobials:Text  lines 9
+  enterobacteriaceae-esbl-nosocomial-pneumonia:Text  lines 8
+  staphylococcus-aureus-nosocomial-pneumonia:Therapy  lines 18
+  ventilator-associated-pneumonia:Therapy  lines 14, 42
+  malaria-treatment:Text  lines 5, 9
+  orzid3-gmenu-cdifficile-colitis:Text  lines 8
+  prev-of-bact-endocarditis:Text  lines 41
+  recommended-immunizations:Text  lines 12, 29, 44, 49
+  recommended-immunizations:Therapy  lines 11, 19
+  decolonization-of-staphylococcus-aureus:Text  lines 28
+  antibiotic-loaded-bone-cement-for-pji-phi:Text  lines 8, 14
+  bowel-surgery-prophylaxis:Therapy  lines 14
+  cardiac-surgery-prophylaxis:Text  lines 1
+  decolonization-of-staph-in-cardiac-surgery:Text  lines 10
+  head-and-neck-surgery-prophylaxis:Text  lines 1
+  surg-vascular-surg-postop:Text  lines 19
+  enterococcal-intravascular-catheter-associa-7d0538:Therapy  lines 16
+  intravas-cath-s-aureus:Therapy  lines 10
+  neut-fever-pt-become-afebrile:Text  lines 6
+  neut-fever-pt-become-afebrile:Therapy  lines 11, 16
+  staph-toxic-shock-syndrome:Text  lines 64
+  tpoxx-monkeypox-treatment:Therapy  lines 3, 8, 27, 33
+
+== "-Item" lines converted to "- Item" bullets (source line numbers): 8 fields
+  gonococcal:Text  lines 7, 8, 9
+  sepsis-severe-beta-lactam-reaction:Therapy  lines 10
+  doxypep:Therapy  lines 3, 6, 7
+  exacerbation-of-copd:Text  lines 7, 8, 9
+  flu-seasonal-influenza:Therapy  lines 10
+  foot-ulcer-w-infect:Therapy  lines 16, 77
+  osteomyelitis-evaluation:Text  lines 3, 6, 9, 11, 13, 16
+  head-and-neck-surgery-prophylaxis:Text  lines 4, 7
+
+== Headings whose text starts with "-" (flattened bullets; convert by hand): 1 fields
+  noso-pneumonia-new:Text  lines 7
+
+== ">" markers removed (indentation lost; update by hand later): 11 fields
+  penicillin-desensitization-protocol:Text  lines 14, 16, 18, 20, 24
+  beta-lactam-allergy-facts:Text  lines 19, 23, 33, 37, 41, 43
+  infection-control:Text  lines 14, 18, 24, 28, 32
+  more-about-nosocomial-pneumonia:Text  lines 17, 19, 21
+  ventilator-associated-pneumonia:Therapy  lines 35, 37, 39, 40, 42
+  antiviral-type-of-malignancy:Text  lines 16
+  bone-marrow-post-transplant-vaccinations:Text  lines 16, 26
+  recommended-immunizations:Text  lines 40
+  gastroduodenal-surgery-prophylaxis:Text  lines 8, 9, 11
+  peritoneal-dialysis-colonoscopy-prophylaxis:Text  lines 3, 4, 7, 9
+  neut-fever-cand-not-oral-thera:Text  lines 4, 5, 6, 7
+
+== Reference lines that may be one entry wrapped over two lines (converted to separate bullets; source line numbers): 114 fields
+  diagnosis-of-endocarditis:Text  lines 51
+  duke-diagnostic-criteria:Text  lines 41
+  ec-cx-neg:Text  lines 16
+  ec-enterococci:Text  lines 31
+  ec-fungi:Text  lines 13
+  ec-gnb:Text  lines 22
+  ec-hacek:Text  lines 26
+  endocarditis-approach-to:Text  lines 52
+  lyme-cardiac-disease:Text  lines 11
+  staphylococcal-native-valve-endocarditis:Text  lines 22
+  streptococcal-native-valve-endocarditis:Text  lines 22
+  bells-palsy:Text  lines 22
+  cranial-epidural-abscess:Text  lines 17
+  gram-positive-diplococci-meningitis:Text  lines 19, 20
+  listeria-monocytogenes-meningitis:Text  lines 20, 21
+  lyme-arthritis:Text  lines 9
+  lyme-disease:Text  lines 31, 32
+  meningitis-associated-with-trauma-or-nosocomial-infection:Text  lines 20, 21
+  meningitis-with-e-coli-pseudomonas-or-other-organism:Text  lines 13, 14
+  meningitis-with-neisseria-meningitidis:Text  lines 22, 23
+  meningitis-without-gram-stain-results:Text  lines 23, 24
+  neurosurgery-prophylaxis:Text  lines 21
+  subdural-empyema:Text  lines 16
+  prosthetic-valve-endocarditis-empirical-therapy:Text  lines 18
+  staphylococcal-prosthetic-valve-endocarditis:Text  lines 14
+  streptococcal-prosthetic-valve-endocarditis:Text  lines 20
+  dermatologic-surgical-site-infection:Text  lines 60
+  gram-pos-bacilli-spp:Text  lines 21
+  high-risk-surgical-site-prophylaxis:Text  lines 26
+  lyme-acute-neuro-disease:Text  lines 19
+  lyme-erythema-migrans:Text  lines 16
+  mild-to-moderate-sinusitis:Text  lines 32
+  podiatric-surgery-prophylaxis:Text  lines 15
+  asymp-bacteriuria:Text  lines 42, 44
+  candida-uti:Text  lines 17
+  complicated-uti-catheter-associated:Text  lines 23, 24
+  complicated-uti-no-catheter:Text  lines 36
+  vaginitis:Text  lines 24
+  campylobacter:Text  lines 16
+  cholera:Text  lines 9
+  clostridiodes-difficile-infection:Text  lines 37, 38
+  cryptosporidia:Text  lines 13, 15
+  enteric-fever:Text  lines 10
+  giardia:Text  lines 11
+  h-pylori-infect:Text  lines 15
+  salmonella-species:Text  lines 13
+  second-peritonitis:Text  lines 30
+  shigella-species:Text  lines 11
+  viral-diarrhea-gastroenteritis:Text  lines 19
+  yersinia-enterocolitica:Text  lines 10
+  acute-sinusitis:Text  lines 42
+  chronic-sinusitis:Text  lines 33, 36
+  cmv-retinitis:Text  lines 22
+  nosocomial-sinusitis:Text  lines 10
+  otitis-externa:Text  lines 25
+  periodental-disease:Text  lines 13
+  severe-sinusitis:Text  lines 23
+  beta-lactam-allergy-assessment:Text  lines 120, 124, 128, 132, 134, 136, 148, 152, 158, 160, 169
+  beta-lactam-allergy-facts:Text  lines 50, 52, 54, 56, 57, 58, 66, 68, 71, 72, 77
+  esbl-kpc-etc:Text  lines 62, 64, 65
+  vanco-mrsa-nares-information:Text  lines 16, 17, 21
+  warfarin-interactions-with-antimicrobials:Text  lines 29
+  antiviral-treatment:Text  lines 24
+  azithromycin-prevention-of-exacerbations-copd:Text  lines 39, 40
+  empyema:Text  lines 18
+  exacerbation-of-copd:Text  lines 21
+  orzid3-gmenu-influenza-chemoprophylaxis:Text  lines 33
+  staphylococcus-aureus-nosocomial-pneumonia:Text  lines 25
+  anaplasma-phatocytophilum:Text  lines 5
+  bacillus-infections-general:Text  lines 12
+  cmv-colitis-or-esophagitis:Text  lines 16
+  cmv-encephalitis:Text  lines 15
+  cmv-main-page:Text  lines 33
+  cmv-pneumonia:Text  lines 12
+  cmv-polyradiculopathy:Text  lines 17
+  disseminated-m-avium:Text  lines 13
+  ehrlichia-chaffeensis:Text  lines 9
+  herpes-keratitis:Text  lines 23, 27
+  orzid3-gmenu-cdifficile-colitis:Text  lines 37, 38
+  prophylaxis-m-avium:Text  lines 9
+  toxoplasma-infections-general:Text  lines 25
+  influenza-chemoprophylaxis:Text  lines 25, 46
+  pneumocystis-jirovecii-prophylaxis:Text  lines 24
+  acne:Text  lines 14
+  hidradenitis-suppurativa:Text  lines 28
+  rosacea:Text  lines 20
+  antibiotic-loaded-bone-cement-for-pji-phi:Text  lines 20
+  cardiac-surgery-post-op-prophylaxis:Text  lines 23
+  cardiac-surgery-prophylaxis:Text  lines 31
+  surg-plastic-surgery:Text  lines 17
+  thoracic-surgery-post-op-prophylaxis:Text  lines 32
+  thoracic-surgery-prophylaxis:Text  lines 34
+  candidemia:Text  lines 31, 32
+  citrobacter-freundii-bacteremia:Text  lines 15
+  coagulase-negative-staphylococci-bacteremia:Text  lines 19, 21
+  enterococcal-intravascular-catheter-associa-7d0538:Text  lines 16
+  enterococci:Text  lines 20
+  intravas-cath-coag-neg-staph:Text  lines 17, 18
+  intravas-cath-gnb:Text  lines 10
+  intravas-cath-s-aureus:Text  lines 13
+  listeria-monocytogenes-bacteremia:Text  lines 13, 17
+  other-gram-negative-rods-bacteremia:Text  lines 24
+  pneumocystis-jirovecii:Text  lines 16, 17
+  pseudomonas-bacteremia:Text  lines 14
+  sepsis-and-shock:Text  lines 13
+  sepsis-empiric-therapy-site-unk:Text  lines 20
+  sepsis-pneumonia:Text  lines 19
+  sepsis-protocol-antimicrobials:Text  lines 13, 81
+  sepsis-susp-c-difficile:Text  lines 15
+  sepsis-susp-endocarditis:Text  lines 17
+  sepsis-suspected-skin-soft-tissue:Text  lines 12
+  staphylococcus-aureus-bacteremia:Text  lines 34, 35
+  staphylococcus-lugdunensis-bacteremia:Text  lines 22, 24
+  streptococci:Text  lines 17, 19, 20
+
+== Failed word-for-word verification (not written): 0
+
+== Skipped (nav-page): 132 fields
+  bone-joint-muscle-infections:Text
+  cardiovascular-device-infections-excluding-valves:Therapy
+  cardiovascular:Text
+  ec-gnb:Therapy
+  ec-hacek:Therapy
+  pericarditis:Therapy
+  selected-pathogens:Text
+  staphylococcal-native-valve-endocarditis:Therapy
+  suppurative-thrombophlebitis:Therapy
+  abscess-spinal-epidural:Therapy
+  brain-abscess-from-contiguous-or-hematogenous-spread:Therapy
+  brain-abscess-post-surgical-or-post-traumatic:Therapy
+  brain-abscess-with-pseudomonas:Therapy
+  cranial-epidural-abscess:Therapy
+  gram-negative-bacilli-meningitis:Therapy
+  gram-negative-diplococci-meningitis:Therapy
+  gram-positive-diplococci-meningitis:Therapy
+  listeria-monocytogenes-meningitis:Therapy
+  meningitis-associated-with-trauma-or-nosocomial-infection:Therapy
+  meningitis-with-gram-positive-bacilli-coccobacilli:Therapy
+  meningitis-with-neisseria-meningitidis:Therapy
+  meningitis-with-streptococcus-pneumoniae:Therapy
+  meningitis-without-gram-stain-results:Therapy
+  neurosurgery-prophylaxis:Therapy
+  subdural-empyema:Therapy
+  suppurative-intracranial-thrombophlebitis:Therapy
+  surg-cefazolin-weight-based-dosing:Text
+  surg-vancomycin-weight-based-dosing:Text
+  device-related-infections:Text
+  ec-pv-sel-path:Text
+  baricitinib-eua-covid-19:Text
+  bone-joint-muscle-infections-2:Text
+  cap-treated-in-outpt-setting:Therapy
+  emp-intrav-w-o-vanco:Therapy
+  emp-intrav-w-vanco:Therapy
+  gram-neg-brucella-spp:Therapy
+  gram-pos-actinomyces-spp:Therapy
+  high-risk-surgical-site-prophylaxis:Therapy
+  not-required:Text
+  orzid3-gmenu-need-an-alt-abx-main:Text
+  osteom-staphylococcus-aureus:Therapy
+  pneumonia:Text
+  podiatric-surgery-prophylaxis:Therapy
+  pros-b-j-enterococci:Therapy
+  pros-b-j-gnb:Therapy
+  pros-b-j-p-aeruginosa:Therapy
+  pros-b-j-streptococci:Therapy
+  septic-arth-enterococci:Therapy
+  septic-arth-gnb:Therapy
+  septic-arth-n-gonorrhoeae:Therapy
+  septic-arth-p-aeruginosa:Therapy
+  septic-arth-s-aureus:Therapy
+  septic-arth-streptococci:Therapy
+  bacterial-vaginosis-male-sexual-partner:Therapy
+  complicated-uti-catheter-associated:Therapy
+  complicated-uti-no-catheter:Therapy
+  doxypep:Text
+  necrotizing-infections:Therapy
+  post-exposure-prophylaxis:Text
+  post-exposure-prophylaxis:Therapy
+  sexually-transmitted-infection:Text
+  syphilis:Therapy
+  uncomp-uti:Therapy
+  urological-surgery-prophylaxis:Therapy
+  abscess-submenu:Text
+  hepatitis-submenu:Text
+  infect-diarrhea-gastro:Text
+  infect-diarrhea-gastro:Therapy
+  peritonitis-submenu:Text
+  splenectomy-daily-antibiotic:Therapy
+  splenectomy-empiric:Therapy
+  contact-cdss-project-team:Text
+  references:Text
+  genrl-alternative-drug:Text
+  exacerbation-of-copd:Therapy
+  influenza-recommendations-outpatient:Text
+  mediastinitis:Therapy
+  nosocomial-pneumonia-with-acinetobacter-baumannii:Therapy
+  nosocomial-pneumonia-with-legionella-pneumophila:Therapy
+  nosocomial-pneumonia-with-pseudomonas-aeruginosa:Therapy
+  bacteria:Text
+  brucella-infections-general:Therapy
+  corynebacterium-infections-general:Therapy
+  fungi:Text
+  infect-diarrhea-gastroent:Text
+  other-pathogens:Text
+  parasites:Text
+  propionibacterium-infections-general:Therapy
+  influenza-recommendations:Text
+  prevention-of-infection:Text
+  immunizations-in-chronic-liver-disease:Text
+  immunizations-in-kidney-failure-hd:Text
+  vaccines-for-health-care-professionals:Text
+  vaccines-in-heart-lung-disease-or-alcoholism:Text
+  vaccines-in-immunocompromised-patients:Text
+  vaccines-in-men-who-have-sex-with-men:Text
+  rosacea:Therapy
+  ssti-bed-bugs-lice-scabies:Text
+  ssti-fungal:Text
+  ssti-viral:Text
+  biliary-surgery-prophylaxis:Therapy
+  cardiac-surgery-prophylaxis:Therapy
+  cied-surgery-pre-op-prophylaxis:Text
+  delayed-pcn-allergic-cv-surg:Text
+  delayed-standard-abx-cv-surg:Text
+  gastroduodenal-surgery-prophylaxis:Therapy
+  gi-endoscopic-procedures:Text
+  gynecological-surgery-prophylaxis:Therapy
+  hernia-repair-surgery-with-abdominal-mesh-p-cd4055:Therapy
+  meds-delayed-pre-op-antibiotics-cv-surgery2:Text
+  percutaneous-endoscopic-gastromy-tube-place-a7cac2:Therapy
+  peritoneal-dialysis-colonoscopy-prophylaxis:Therapy
+  spinal-cord-stimulator-trial-procedure-prophylaxis:Therapy
+  surg-cefazolin-ir-weight-based-dosing:Text
+  surg-cefazolin-wt-based-postop-doses-x2:Text
+  surg-interventional-radiology:Therapy
+  surg-vancomycin-post-op-specific-dosing:Text
+  surg-vascular-surg-postop:Therapy
+  surgical-post-op-antimicrobial-prophylaxis:Text
+  thoracic-surgery-post-op-prophylaxis:Therapy
+  urological-post-operative-prophylaxis:Therapy
+  vascular-surgery-prophylaxis:Therapy
+  surg-surgical-site-infect:Text
+  aspergillus-infections-general:Therapy
+  citrobacter-freundii-bacteremia:Therapy
+  enterococci:Therapy
+  listeria-monocytogenes-bacteremia:Therapy
+  other-gram-negative-rods-bacteremia:Therapy
+  pseudomonas-bacteremia:Therapy
+  staphylococcus-aureus-bacteremia:Therapy
+  staphylococcus-lugdunensis-bacteremia:Therapy
+  streptococci:Therapy
+
+== Skipped (column-page): 26 fields
+  cns:Text
+  drug-info:Text
+  index:Text
+  genitourinary:Text
+  gi-intraabdominal:Text
+  hepatitis-a-vaccine-information:Text
+  head-and-neck:Text
+  additional-assistance:Text
+  help-page:Text
+  immunocompromised-patient:Text
+  lung-and-mediastinum:Text
+  viruses:Text
+  chickenpox-vaccine-information:Text
+  haemophilus-influenza-type-b-vaccine-information:Text
+  hepatitis-a-and-b-vaccine-information:Text
+  human-papillomavirus-vaccine-information:Text
+  measles-mumps-rubella-vaccine-information:Text
+  meningococcal-conjugate-vaccine-information:Text
+  meningococcal-serogroup-b-vaccine-information:Text
+  pneumococcal-vaccine-information:Text
+  zoster-vaccine-information:Text
+  ssti-main-menu:Text
+  tetanus-diphtheria-and-acellular-pertussis-vac-4c4170:Text
+  surg-antibiotic-renal-redosing:Text
+  surgical-pre-op-antibiotics:Text
+  system-infectious-diseases:Text
+
+== Skipped (flattened-table): 14 fields
+  cap-inpatient-treated-setting-severe-cap:Therapy
+  covid-19-mpls-antimicrobial-guideline:Text
+  drug-pt-undergo-dental-proc:Text
+  gonococcal:Therapy
+  hepb-vaccine-information-old-page:Text
+  pd-cefepime-1gm-q24h-vanco-15-30mg-kg-q5-7d:Text
+  pd-gentamicin-06mg-kg-q24h:Text
+  pd-init-cefepime-1gm-q24h-vanco-15-30mg-kg-q5-7d:Therapy
+  proced-for-infected-skin-skin-structures:Text
+  surg-gentamicin-weight-based-dosing:Text
+  hepb-vaccine-information-page:Text
+  toxic-megacolon:Text
+  foot-ulcer-w-infect:Text
+  intravas-cath-candida-spp:Text
+
+== Skipped (main-menu): 1 fields
+  main-menu:Text
+

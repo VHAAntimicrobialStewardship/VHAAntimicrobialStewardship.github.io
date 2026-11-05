@@ -3844,7 +3844,7 @@
   ]
  },
  "506-AnnArbor": {
-  "nodeCount": 661,
+  "nodeCount": 664,
   "headerMenus": [
    {
     "label": "General and Misc",
@@ -7142,7 +7142,26 @@
           "type": "link",
           "label": "Mycobacterium avium intracellulare complex (a.k.a. MAI or MAC)",
           "target": "m.-avium-intracellulare",
-          "children": []
+          "children": [
+           {
+            "type": "link",
+            "label": "Treatment for pneumonia",
+            "target": "m-avium-pneumonia",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Treatment for disseminated disease",
+            "target": "disseminated-m-avium",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Prophylaxis",
+            "target": "prophylaxis-m-avium",
+            "children": []
+           }
+          ]
          }
         ]
        },
@@ -7669,7 +7688,7 @@
   ]
  },
  "539-Cincinnati": {
-  "nodeCount": 661,
+  "nodeCount": 664,
   "headerMenus": [
    {
     "label": "General and Misc",
@@ -10967,7 +10986,26 @@
           "type": "link",
           "label": "Mycobacterium avium intracellulare complex (a.k.a. MAI or MAC)",
           "target": "m.-avium-intracellulare",
-          "children": []
+          "children": [
+           {
+            "type": "link",
+            "label": "Treatment for pneumonia",
+            "target": "m-avium-pneumonia",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Treatment for disseminated disease",
+            "target": "disseminated-m-avium",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Prophylaxis",
+            "target": "prophylaxis-m-avium",
+            "children": []
+           }
+          ]
          }
         ]
        },
@@ -11494,7 +11532,7 @@
   ]
  },
  "541-Cleveland": {
-  "nodeCount": 656,
+  "nodeCount": 659,
   "headerMenus": [
    {
     "label": "General and Misc",
@@ -14740,7 +14778,26 @@
           "type": "link",
           "label": "Mycobacterium avium intracellulare complex (a.k.a. MAI or MAC)",
           "target": "m.-avium-intracellulare",
-          "children": []
+          "children": [
+           {
+            "type": "link",
+            "label": "Treatment for pneumonia",
+            "target": "m-avium-pneumonia",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Treatment for disseminated disease",
+            "target": "disseminated-m-avium",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Prophylaxis",
+            "target": "prophylaxis-m-avium",
+            "children": []
+           }
+          ]
          }
         ]
        },

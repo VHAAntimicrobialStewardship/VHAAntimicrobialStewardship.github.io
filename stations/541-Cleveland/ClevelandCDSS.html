@@ -26,6 +26,10 @@
   var Layout = 'sidebar';
   var WelcomePage = 'welcome'; /*Landing page ID and target of the station home button*/
 
+  // Markdown page renderer (marked + DOMPurify), see /shared/cdss-markdown.js. Remove this line
+  // (or add ?renderer=classic to the URL) for the original line-per-row renderer.
+  var Renderer = 'markdown';
+
   // Page names each (legacy) tab starts on. 'combined' is the default tab and
   // the long-term only one; the others are transitional.
   const MainMenu = 'ORZID2 GMENU ABX INPT MAIN'; /*Inpatient tab start menu (legacy)*/
@@ -67,6 +71,7 @@
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="icon" href="/CDSSLogoApp.png" type="image/x-icon">
   <link rel="stylesheet" href="/shared/cdss-sidebar.css">
+  <link rel="stylesheet" href="/shared/cdss-markdown.css">
   <style>
   /* Common styles */
   @font-face {
@@ -478,6 +483,9 @@
     </div>
     -->
     <span id="versionTag"></span>
+<script src="/shared/vendor/marked.umd.js"></script>
+<script src="/shared/vendor/purify.min.js"></script>
+<script src="/shared/cdss-markdown.js"></script>
 <script src="/shared/cdss-sidebar.js"></script>
 <script src="/shared/cdss-app.js"></script>
 </body>
