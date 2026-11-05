@@ -5,7 +5,7 @@
   "SortKey": "bispecific-antibody~1~ice-assessment-for-icans",
   "Term1": "Calculate ICE score",
   "Term2": "",
-  "Text": "# ASSESSMENT:\n\n# Immune Effector Cell-Associated Encephalopathy (ICE)\n\nIf the patient's ICE score is 9 or below,\nnotify physician immediately.\n\n|Orientation|Orientation to year, month, city, hospital|4 points|\n|---|---|---|\n|Naming|Ability to name 3 objects (e.g. point to clock, pen, button)|3 points|\n|---|---|---|\n|Following Commands|Ability to follow simple comands (e.g. \"Show me 2 fingers\" or \"Close your eyes and stick out your tongue\")|1 point|\n|---|---|---|\n|Writing|Ability to write a simple sentence (e.g. \"Our national bird is the bald eagle.\")|1 point|\n|---|---|---|\n|Attention|Ability to count backwards from 100 to 10|1 point|",
+  "Text": "# ASSESSMENT:\n\n# Immune Effector Cell-Associated Encephalopathy (ICE)\n\nIf the patient's ICE score is 9 or below,\nnotify physician immediately.\n\n| Orientation | Orientation to year, month, city, hospital | 4 points |\n| Naming | Ability to name 3 objects (e.g. point to clock, pen, button) | 3 points |\n| Following Commands | Ability to follow simple commands (e.g. \"Show me 2 fingers\" or \"Close your eyes and stick out your tongue\") | 1 point |\n| Writing | Ability to write a simple sentence (e.g. \"Our national bird is the bald eagle.\") | 1 point |\n| Attention | Ability to count backwards from 100 to 10 | 1 point |",
   "Therapy": "",
   "Inpt": "ORZID2 GMENU ICE ASSESSMENT FOR ICANS"
 }
