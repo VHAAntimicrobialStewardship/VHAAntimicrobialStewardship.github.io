@@ -1,0 +1,10 @@
+{
+  "PageID": "pd-ceftazidime-1gm-q24h",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~pd ceftazidime 1gm q24h",
+  "Term1": "PD CEFTAZIDIME 1GM Q24H",
+  "Term2": "Peritoneal dialysis peritonitis, ceftazidime",
+  "Text": "# CEFTAZIDIME\n\n# FOR PERITONITIS ASSOCIATED WITH PERITONEAL DIALYSIS\n\nCeftazidime 1 gm PD q24h in 2000 mL 2.5% dextrose diaslyate solution.\n\n[Click Here to order WITH heparin](psjizid-pd-ceftazidime-1gm-q24h-hep)\n\nIf Heparin is contraindicated then:\n\n[Click Here to order WITHOUT heparin](psjizid-pd-ceftazidime-1gm-q24h)",
+  "Inpt": "ORZID2 GMENU PD CEFTAZIDIME 1GM Q24H"
+}

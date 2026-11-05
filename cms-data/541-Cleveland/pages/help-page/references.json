@@ -5,6 +5,6 @@
   "SortKey": "help-page~1~references (navigation)",
   "Term1": "References (Navigation)",
   "Term2": "",
-  "Text": "# References\n\n[Book references](orzid2-gmenu-abx-references-book)\n\n[Website references](orzid2-gmenu-abx-references-website)\n\n[Journal references](orzid2-gmenu-abx-references-journal)",
+  "Text": "# References\n\n[Book references](book-references)\n\n[Website references](website-references)\n\n[Journal references](journal-references)",
   "Inpt": "ORZID2 GMENU ABX REFERENCES"
 }

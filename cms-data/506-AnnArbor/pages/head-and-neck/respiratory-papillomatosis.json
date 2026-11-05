@@ -1,0 +1,10 @@
+{
+  "PageID": "respiratory-papillomatosis",
+  "Group": "head-and-neck",
+  "GroupLabel": "Head and Neck",
+  "SortKey": "head-and-neck~1~respiratory papillomatosis",
+  "Term1": "Respiratory papillomatosis",
+  "Term2": "",
+  "Text": "# RESPIRATORY PAPILLOMATOSIS\n\nRespiratory papillomas are usually associated with human papillomavirus infection. The papillomas are found in the pharynx, usually in the larynx.  They can be surgically removed, but they often recur.\n\nCidofovir is injected into the respiratory mucosa after papillomas are removed to prevent recurrences.\n\n[Cidofovir 5 mg/ml for mucosal injection \\($525/75mg Vial\\) M](psjizid-cidofovir-5mg-ml-injection)\n\nReferences:\n\n- Elina Kiverniti o Nick Sevdalis oAnastasia Rachmanidou-Doran:  A systematic review on recurrent respiratory papillomatosis:  clinical effect and duration of benefit of different treatment modalities, Oncol Rev (2010) 4:35-42",
+  "Inpt": "ORZID3 GMENU ABX RESPIRATORY PAPILLOMATOSIS"
+}

@@ -4,8 +4,8 @@ restore-from-legacy.py
 
 Repairs 001-TestStation CMS pages whose combined Text is blank, truncated or
 wrong (stray spreadsheet fragments such as "< OR >") by rebuilding it from the
-converted legacy record (the markdown version of the Minneapolis menu that is
-still stored in TestStationOMJSON.json under the page's Inpt name).
+converted legacy record (the markdown version of the Minneapolis menu, archived in
+docs/legacy-archive/001-TestStation-legacy-records.json under the page's Inpt name).
 
 A page is flagged when its Text+Therapy has under 60% of the legacy word count
 or shares under 50% of the legacy vocabulary. Restored text gets the standard
@@ -34,7 +34,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PAGES_DIR = ROOT / "cms-data" / "001-TestStation" / "pages"
-OMJSON = ROOT / "stations" / "001-TestStation" / "TestStationOMJSON.json"
+# Legacy records were removed from the station OMJSON on 2026-11-05; this archive keeps them.
+OMJSON = ROOT / "docs" / "legacy-archive" / "001-TestStation-legacy-records.json"
 REPORT = ROOT / "reports" / "restore-from-legacy-report.json"
 
 # Groups under "Syndromes and Diseases, by Body Systems" on the main menu.

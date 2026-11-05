@@ -1,0 +1,10 @@
+{
+  "PageID": "book-references",
+  "Group": "help-page",
+  "GroupLabel": "Help & Resources",
+  "SortKey": "help-page~1~cdss book references",
+  "Term1": "CDSS Book References",
+  "Term2": "",
+  "Text": "# CDSS Book References (common to most CDSS guidelines)\n\nGilbert DN, Moellering RC, Eliopoulos GM, Sande MA. The Sanford Guide to Antimicrobial Therapy. 35th ed. Hyde Park, VT: Antimicrobial Therapy Inc, 2005.\nJohns Hopkins Point of Care Information Technology (POC-IT): ABX Guide.\nwww.hopkins-abxguide.org\nKasper DL, Braunwald E, Fauci AS, et al., eds. Harrison's Principles of Internal Medicine. 16th ed. Mcgraw-Hill, 2005.\nMandell GL, Bennett JE, Dolin R, eds. Principles and Practice of Infectious Diseases. 6th ed. Philadelphia, PA: Churchill-Livingston, 2005.",
+  "Inpt": "ORZID2 GMENU ABX REFERENCES BOOK"
+}

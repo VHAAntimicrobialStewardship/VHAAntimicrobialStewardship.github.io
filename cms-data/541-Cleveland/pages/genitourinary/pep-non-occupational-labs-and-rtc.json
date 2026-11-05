@@ -1,0 +1,10 @@
+{
+  "PageID": "pep-non-occupational-labs-and-rtc",
+  "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
+  "SortKey": "genitourinary~1~pep non-occupational: 4-week follow-up labs and rtc orders",
+  "Term1": "PEP non-occupational: 4-week follow-up labs and RTC orders",
+  "Term2": "",
+  "Text": "# Non-occupational Labs + RTC orders\n\nOrder 4 week follow-up labs + ID Pharmacy RTC order\nAdditionally, order IF appropriate the following swab(s) 4 week follow-up:\nRectal Chlamydia with Gonorrhea PATIENT OR PROVIDER-COLLECTED Throat Chlamydia with Gonorrhea ONLY PROVIDER COLLECTED Vaginal Chlamydia with Gonorrhea ONLY PROVIDER COLLECTED\n\n## IF above swab ordered place RTC order:\n\nReturn to MSP 79 LPN Clinic (Non-occup PEP swabs)",
+  "Inpt": "ORZID3 GMENU ABX PEP NON-OCCUPATIONAL LABS + RTC"
+}

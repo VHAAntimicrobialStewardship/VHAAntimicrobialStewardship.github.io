@@ -17,6 +17,7 @@ Project status and current increment
 - New feature ideas should be evaluated against this increment's goals first; purely cosmetic or one-off station requests remain lower priority unless explicitly requested by the user.
 - Completed (2026-10-30): the opt-in sidebar redesign (left menu tree + right therapy panel) is rolled out to the test station and the three production stations (506/539/541). Clean pages were overwritten from the test station; SME-edited pages were held back and split by hand in Sveltia. See invariant 11. Post-rollout cleanup (2026-10-30): the redundant osteom-empirical-therapy page and its index link were removed from all four stations, and the Therapy-rule breaks (References inside Therapy, level-1 first heading, empty Text on empirical-therapy) were fixed; audit-teststation.py reports 0 issues. Remaining follow-up: the production welcome page is still the test-station placeholder until each station's SME supplies text.
 - Completed (2026-11-05): the markdown page renderer (marked + DOMPurify) and the converted Sveltia-style markdown data are live on the test station and the three production stations. See invariant 13. Remaining follow-up: convert the column pages, nav-like pages and flattened-table pages that the conversion skipped (lists in reports/markdown-migration-review-<station>.txt), and hand-fix the review-list items (removed `>` blockquote indentation, wraps left unjoined next to link lines, possible wrapped reference entries).
+- Completed (2026-11-05): legacy record cleanup. The 1,121 legacy VistA records (Name starting ORZ: ORZID2 = inpatient, ORZID3 = outpatient, ORZID = ER/UC) were removed from the four CMS stations' OMJSON (records per station 1711/1711/1711/1712 -> 628 each) and archived in docs/legacy-archive/001-TestStation-legacy-records.json (identical copies in 506/539/541, see the note in the file). Before deletion, 38 pages were promoted to cms-data (interim blood culture set, approach to bacteremia, suspected bacteremia, immunizations by age/diabetes/HIV/pregnancy, nPEP sub-pages, rabies PEP, PD dosing pages, bone marrow Seattle/Nashville, C. diff 2-step testing, urine culture, Vibrio non-cholerae, prostate biopsy, respiratory papillomatosis, photodynamic HSV-1 prophylaxis; Cleveland has no photodynamic page because its parent was deleted by SMEs), 9 combined pages whose Text had been lost were restored from their legacy source, the six journal reference pages were merged into journal-references, bacteremia became a nav page, and the 8 pages that only existed in OMJSON got cms-data files. Every link that depended on a legacy record was repointed to a PageID. The rest (215 records) were approved as obsolete (reports/legacy-obsolete-accepted.json). Scripts: scripts/cleanup-legacy-records.py (analysis/deletion), scripts/promote-legacy-pages.py (one-off, applied). Remaining follow-up: the nav-snapshot baseline still needs refreshing once the added menu-tree nodes are accepted; Cleveland still has 7 SME-deleted pages in its OMJSON because compile-cms.py never deletes records (to be handled when compile-cms.py is revisited).
 - This status note should be revisited/updated as the increment progresses or a new increment begins — ask the user before assuming it is still current if there is a large time gap since the note was last updated (last updated 2026-11-05).
 
 Station roles (do not conflate these)
@@ -44,6 +45,7 @@ Critical files and ownership
 - Markdown page renderer (opt-in per station page): shared/cdss-markdown.js and shared/cdss-markdown.css, with vendored libraries in shared/vendor/ (marked.umd.js, purify.min.js)
 - Station configuration and entry page: stations/001-TestStation/TestStationCDSS.html (and the equivalent HTML in each production station)
 - Design reference: docs/CDSS_wire_10092026.pdf (sidebar wireframe). docs/ is deliberately outside station folders, cms-data/ and assets/uploads/ so Sveltia does not see it; keep non-site documents there.
+- Legacy record archive: docs/legacy-archive/001-TestStation-legacy-records.json (the removed ORZ records; read by scripts/restore-from-legacy.py). Wave 2 station tooling reads the original Minneapolis data in stations/618-Minneapolis, not this archive.
 - Master menu/order data: stations/001-TestStation/TestStationOMJSON.json and stations/001-TestStation/TestStationODJSON.json
 - CMS config and schema: admin/config.yml
 - CMS page content source: cms-data/001-TestStation/pages/<group>/<pageid>.json
@@ -65,12 +67,13 @@ Non-negotiable invariants (do not break)
 - All new page development is in the combined model with stable PageID slugs and Inpt source pointers.
 - When editing runtime or CMS, assume the long-term target is combined-only; any cross-tab or legacy tab code is transitional.
 
-3) Combined crosswalk navigation (transitional)
-- Combined pages are identified by the presence of Inpt (inpatient source pointer).
-- Combined pages may include Outpt and ERUC crossrefs for backward-compatible tab navigation during transition.
-- handleRowClick must resolve requested Item through resolveTargetForCurrentVersion before OM/OD lookup.
-- In combined mode, link and click targets should prefer combined equivalents when crosswalk exists.
-- Strategic direction: combined pages are the long-term primary navigation surface; avoid introducing new dependencies on legacy inpt/outpt/eruc menus.
+3) Combined pages and the removed legacy records
+- The four CMS stations are combined-only in data: their OMJSON holds no legacy ORZ records (removed 2026-11-05). Never re-add ORZ records; audit-teststation.py reports any that reappear, and any link to a removed legacy page (orzid/orzid2/orzid3-gmenu-... target), as an issue.
+- Combined pages are identified by the presence of Inpt. Inpt (and the optional Outpt/ERUC) are kept as plain strings naming the archived legacy record; they no longer point at an OMJSON record and are not checked as references. Keep Inpt on every combined page and on new pages (for pages created from scratch, name the legacy record they replace, or the page's own source).
+- No record has a Combined field any more; getVisibleOmData() therefore hides nothing, which is correct.
+- handleRowClick must still resolve requested Item through resolveTargetForCurrentVersion before OM/OD lookup. Its reverse Inpt/Outpt/ERUC lookup maps a legacy name to its combined page if one is ever passed in; it is harmless to keep.
+- Old URL hashes naming a legacy record (#ORZID2 GMENU ...) fall back to the welcome page.
+- The legacy tab constants in station HTML (MainMenu, outptMenu, erucMenu, outptIndex) name records that no longer exist; no CMS station shows the Inpatient/Outpatient/ER-UC/Combined tab buttons (test station buttons removed 2026-11-05), so those code paths are unreachable there. Do not add features that depend on them.
 
 4) Embedded link resolution: markdown-only
 - resolveEmbeddedLinkTarget uses a three-tier fallback for active workflows:
@@ -90,6 +93,8 @@ Non-negotiable invariants (do not break)
 - Column delimiter compatibility must preserve both modern and legacy markers:
 	- <!-- COLUMN 2 -->, <!-- COLUMN 3 -->, ...
 	- <!-- RIGHT COLUMN --> (backward compatibility)
+- Sidebar menu tree: a page is a navigation page when it has at least 2 pure link lines and link lines are at least half of its non-heading lines (isNavPage in shared/cdss-sidebar.js). Only nav pages reachable from main-menu expand in the tree, so a new page appears in the tree only when a nav page on that path links to it (example: bacteremia was rebuilt as a nav page and linked from system-infectious-diseases). Pages linked only from guidance pages (e.g. recommended-immunizations, which is not nav-like) are reachable by link and search but not in the tree.
+- With the legacy records gone, the line-per-row (classic) renderer and legacy tab displays have no legacy pages left to show on the CMS stations.
 
 6) Abx links behavior
 - Drug links are injected in two paths:
@@ -107,8 +112,8 @@ Non-negotiable invariants (do not break)
 - Keep station/group-scoped collection structure aligned to cms-data/001-TestStation/pages/<group>/.
 
 8) Combined main menu identity
-- Combined main menu ID is main-menu.
-- Some scripts support legacy fallback inpt-main for compatibility; do not remove fallback unless all dependent data is migrated and validated.
+- Combined main menu ID is main-menu. It is the only menu audit-teststation.py requires; the legacy tab main menus (ORZID2 GMENU ABX INPT MAIN, ORZID3 GMENU ABX OUTPT MAIN, ORZID GMENU ER/UC EMERGENCY DEPARTMENT MAIN MENU) were removed with the other legacy records.
+- Some scripts support legacy fallback inpt-main for compatibility; leave that fallback in place (it is harmless and some older data used it).
 
 9) LinkTargets deprecated: markdown-only link management
 - LinkTargets field is removed from active CMS workflows (export-cms.py does not write LinkTargets to exported page JSON).
@@ -120,7 +125,7 @@ Non-negotiable invariants (do not break)
 10) Service worker and cache behavior
 - Service worker strategy is network-first for HTML.
 - Any caching rule changes must include explicit version bump and regression check for content freshness.
-- .js and .css are network-first along with HTML so a page and its shared scripts/styles stay in sync. New shared assets (e.g. cdss-sidebar.js/.css) must be added to the precache list in service-worker.js together with a VERSION bump (currently 1.275).
+- .js and .css are network-first along with HTML so a page and its shared scripts/styles stay in sync. New shared assets (e.g. cdss-sidebar.js/.css) must be added to the precache list in service-worker.js together with a VERSION bump (currently 1.276).
 
 11) Sidebar layout (opt-in per station page; live on the test station and the three production stations)
 - Opt-in mechanism: a station page enables the layout by setting `var Layout = 'sidebar'` (and optionally `var WelcomePage = '<pageid>'`) in its configuration block and loading /shared/cdss-sidebar.css and /shared/cdss-sidebar.js before /shared/cdss-app.js. The test station and the 506/539/541 production station pages do this; the Minneapolis reference page and obsolete stations stay classic. `?layout=classic` on the URL restores the original layout for that visit.
@@ -147,9 +152,8 @@ Non-negotiable invariants (do not break)
 - Commit data conversions with a plain subject, not `Update|Create <station> “…”`, so Last-updated attribution is untouched.
 Script workflows to protect
 
-Combined guidance rebuild flow (spreadsheet-driven)
-1. python scripts/rebuild-combined-menus.py
-2. python scripts/audit-teststation.py
+Combined guidance rebuild flow (spreadsheet-driven) — retired 2026-11-05
+- scripts/rebuild-combined-menus.py rebuilt combined pages from the legacy inpatient menus in the OMJSON. Those records are gone (and a rebuild would overwrite CMS edits), so do not run it.
 
 CMS export/compile flow
 1. python scripts/export-cms.py
@@ -181,6 +185,9 @@ The following scripts were one-off migration/cleanup utilities and should not be
 - scripts/fix-broken-outpt-refs.py, scripts/fix-missing-nav-pages.py, scripts/fix-combined-link-headings.py — legacy one-off fixes; do not rely on these.
 - scripts/migrate-pageids.py, scripts/review-skipped-variants.py — temporary migration helpers; not for routine use.
 - scripts/fix-hardwrap-blank-lines.py, scripts/fix-extra-linebreaks.py — earlier line-break cleanups, superseded by scripts/convert-markdown.py; scripts/split-therapy.py — applied once to the test station.
+- scripts/rebuild-combined-menus.py, scripts/report-legacy-without-combined.py — need the legacy records, which were removed on 2026-11-05.
+- scripts/promote-legacy-pages.py — the 2026-11 legacy cleanup promotion; applied once to the four CMS stations. Kept as the record of what was promoted, restored and repointed (it reads legacy records from OMJSON, so it cannot be re-run).
+- scripts/restore-from-legacy.py — one-off repair of combined pages from their legacy text; now reads docs/legacy-archive/001-TestStation-legacy-records.json. Dry run before any use.
 
 If a new cleanup pass is needed, implement a fresh script based on current markdown-only link rules and validate with audit-teststation.py.
 
@@ -191,7 +198,9 @@ Expected script behavior assumptions
 - export-cms.py classifies and emits combined CMS pages based on combined page markdown ancestry, not LinkTargets metadata.
 - compile-cms.py compiles CMS page files back into OMJSON and preserves main-menu handling, including the optional Therapy field.
 - compile-cms.py runs for all four CMS stations; stations whose cms-data did not change must come out byte-identical (check `git status` for unintended station changes).
-- audit-teststation.py is the integrity gate and should be run after structural/data rewrites.
+- compile-cms.py only updates or adds records and fields; it never deletes a record and never removes Outpt/ERUC from a record (only Inpt and Therapy are dropped when the CMS page lacks them). Removing a record or a stale pointer is a direct OMJSON edit, and it stays removed because compile-cms.py has nothing to recreate it from.
+- audit-teststation.py is the integrity gate and should be run after structural/data rewrites. It requires only main-menu, treats records with Inpt as combined pages, reports any remaining ORZ legacy record or Combined back-reference and any link to a removed legacy page as issues, and no longer checks Inpt/Outpt/ERUC as page references.
+- scripts/cleanup-legacy-records.py (dry run by default) re-checks that no legacy record is left and that no link resolves through one (writes reports/legacy-cleanup-<station>.json); after the cleanup it should report legacy 0.
 - Order dialogs (VistA orders) are transitional and may be de-emphasized or removed entirely in non-VistA EHR contexts; do not build new features that depend on them.
 - Tab-specific navigation (inpt/outpt/eruc) is transitional; all long-term development should assume combined-only model.
 
@@ -217,15 +226,15 @@ After edits (required checks)
 	 - structured navigation pages still render multi-column
 	 - guidance pages remain single-column
 	 - embedded links resolve and navigate correctly
-	 - tab switches preserve expected crosswalk behavior
-	 - Abx links still render in combined and legacy row paths
+	 - search shows no ORZ duplicates
+	 - Abx links still render
 3. If shared/cdss-app.js, shared/cdss-markdown.js or the css changed, also smoke-test one production station (e.g. stations/541-Cleveland/ClevelandCDSS.html): loads on the welcome page, navigates to a guidance page (banner, References list, Therapy panel), Abx links render, no console errors. Locally (python -m http.server from the repo root) unregister the service worker and clear caches first, or stale files are served. For the Minneapolis reference page (classic only), confirm nothing changed.
 4. If service-worker behavior changed, verify HTML freshness after reload.
 
 Regression checklist (must pass for merge)
 
 - Combined is still default tab and starts on main-menu.
-- No regression in cross-tab target remapping (combined/inpt/outpt/eruc).
+- No regression in cross-tab target remapping on the Minneapolis reference page (the CMS stations have no tabs).
 - No regression in markdown link parsing with bracketed labels.
 - No regression in multi-column navigation rendering.
 - No regression in Sveltia collection visibility/editability.

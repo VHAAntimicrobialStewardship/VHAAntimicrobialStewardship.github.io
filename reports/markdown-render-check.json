@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-05T20:05:34.512Z",
+  "generated": "2026-11-05T22:21:25.249Z",
   "counts": {
     "column-page": 111,
-    "has-list": 1389,
-    "has-table": 1,
-    "tag-like-text": 543,
+    "has-list": 1544,
+    "has-table": 9,
+    "tag-like-text": 579,
     "text-mismatch": 4,
     "long-emphasis": 4,
     "blockquote-marker": 12
@@ -264,9 +264,6 @@
     "001-TestStation/streptococcal-prosthetic-valve-endocarditis:Therapy": [
       "AND"
     ],
-    "001-TestStation/bacteremia:Therapy": [
-      "AND"
-    ],
     "001-TestStation/bite-wnds-eikenella-corrodens:Text": [
       "OR"
     ],
@@ -290,6 +287,9 @@
     ],
     "001-TestStation/covid-19-mpls-antimicrobial-guideline:Therapy": [
       "OR"
+    ],
+    "001-TestStation/derm-post-op-infections:Text": [
+      "AND"
     ],
     "001-TestStation/dermatologic-surgical-site-infection:Text": [
       "AND"
@@ -384,6 +384,10 @@
     "001-TestStation/hepatitis-a:Therapy": [
       "AND"
     ],
+    "001-TestStation/initial-peri-assoc-w-peri-dial:Text": [
+      "AND",
+      "OR"
+    ],
     "001-TestStation/liver-pyogenic-abscess:Therapy": [
       "AND"
     ],
@@ -402,6 +406,9 @@
       "AND"
     ],
     "001-TestStation/typhlitis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/vibrio-non-cholerae:Therapy": [
       "AND"
     ],
     "001-TestStation/cmv-retinitis:Therapy": [
@@ -535,6 +542,9 @@
     "001-TestStation/surg-cefazolin-wt-based-postop-doses-x2:Text": [
       "Click"
     ],
+    "001-TestStation/surg-ercp:Therapy": [
+      "OR"
+    ],
     "001-TestStation/surg-vancomycin-post-op-specific-dosing:Text": [
       "Click"
     ],
@@ -554,6 +564,15 @@
       "OR",
       "AND"
     ],
+    "001-TestStation/interim-gram-negative-bacilli:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/interim-large-bacilli-aerobic-bottle:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/interim-large-bacilli-anaerobic-bottle:Therapy": [
+      "AND"
+    ],
     "001-TestStation/intravas-cath-coag-neg-staph:Therapy": [
       "AND"
     ],
@@ -571,6 +590,9 @@
     ],
     "001-TestStation/sepsis-empiric-therapy-site-unk:Therapy": [
       "ADD"
+    ],
+    "001-TestStation/sepsis-meningitis-cns-infection:Text": [
+      "AND"
     ],
     "001-TestStation/sepsis-pneumonia:Text": [
       "AND",
@@ -594,6 +616,12 @@
       "AND"
     ],
     "001-TestStation/sepsis-suspected-skin-soft-tissue:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/sepsis-urosepsis:Text": [
+      "ADD"
+    ],
+    "001-TestStation/suspected-bacteremia-cultures-not-yet-positive:Therapy": [
       "AND"
     ],
     "001-TestStation/toxic-shock-syndrome:Therapy": [
@@ -687,9 +715,6 @@
     "506-AnnArbor/streptococcal-prosthetic-valve-endocarditis:Therapy": [
       "AND"
     ],
-    "506-AnnArbor/bacteremia:Therapy": [
-      "AND"
-    ],
     "506-AnnArbor/bite-wnds-eikenella-corrodens:Text": [
       "OR"
     ],
@@ -713,6 +738,9 @@
     ],
     "506-AnnArbor/covid-19-mpls-antimicrobial-guideline:Therapy": [
       "OR"
+    ],
+    "506-AnnArbor/derm-post-op-infections:Text": [
+      "AND"
     ],
     "506-AnnArbor/dermatologic-surgical-site-infection:Text": [
       "AND"
@@ -807,6 +835,10 @@
     "506-AnnArbor/hepatitis-a:Therapy": [
       "AND"
     ],
+    "506-AnnArbor/initial-peri-assoc-w-peri-dial:Text": [
+      "AND",
+      "OR"
+    ],
     "506-AnnArbor/liver-pyogenic-abscess:Therapy": [
       "AND"
     ],
@@ -825,6 +857,9 @@
       "AND"
     ],
     "506-AnnArbor/typhlitis:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/vibrio-non-cholerae:Therapy": [
       "AND"
     ],
     "506-AnnArbor/cmv-retinitis:Therapy": [
@@ -958,6 +993,9 @@
     "506-AnnArbor/surg-cefazolin-wt-based-postop-doses-x2:Text": [
       "Click"
     ],
+    "506-AnnArbor/surg-ercp:Therapy": [
+      "OR"
+    ],
     "506-AnnArbor/surg-vancomycin-post-op-specific-dosing:Text": [
       "Click"
     ],
@@ -977,6 +1015,15 @@
       "OR",
       "AND"
     ],
+    "506-AnnArbor/interim-gram-negative-bacilli:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/interim-large-bacilli-aerobic-bottle:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/interim-large-bacilli-anaerobic-bottle:Therapy": [
+      "AND"
+    ],
     "506-AnnArbor/intravas-cath-coag-neg-staph:Therapy": [
       "AND"
     ],
@@ -994,6 +1041,9 @@
     ],
     "506-AnnArbor/sepsis-empiric-therapy-site-unk:Therapy": [
       "ADD"
+    ],
+    "506-AnnArbor/sepsis-meningitis-cns-infection:Text": [
+      "AND"
     ],
     "506-AnnArbor/sepsis-pneumonia:Text": [
       "AND",
@@ -1017,6 +1067,12 @@
       "AND"
     ],
     "506-AnnArbor/sepsis-suspected-skin-soft-tissue:Therapy": [
+      "AND"
+    ],
+    "506-AnnArbor/sepsis-urosepsis:Text": [
+      "ADD"
+    ],
+    "506-AnnArbor/suspected-bacteremia-cultures-not-yet-positive:Therapy": [
       "AND"
     ],
     "506-AnnArbor/toxic-shock-syndrome:Therapy": [
@@ -1110,9 +1166,6 @@
     "539-Cincinnati/streptococcal-prosthetic-valve-endocarditis:Therapy": [
       "AND"
     ],
-    "539-Cincinnati/bacteremia:Therapy": [
-      "AND"
-    ],
     "539-Cincinnati/bite-wnds-eikenella-corrodens:Text": [
       "OR"
     ],
@@ -1136,6 +1189,9 @@
     ],
     "539-Cincinnati/covid-19-mpls-antimicrobial-guideline:Therapy": [
       "OR"
+    ],
+    "539-Cincinnati/derm-post-op-infections:Text": [
+      "AND"
     ],
     "539-Cincinnati/dermatologic-surgical-site-infection:Text": [
       "AND"
@@ -1230,6 +1286,10 @@
     "539-Cincinnati/hepatitis-a:Therapy": [
       "AND"
     ],
+    "539-Cincinnati/initial-peri-assoc-w-peri-dial:Text": [
+      "AND",
+      "OR"
+    ],
     "539-Cincinnati/liver-pyogenic-abscess:Therapy": [
       "AND"
     ],
@@ -1248,6 +1308,9 @@
       "AND"
     ],
     "539-Cincinnati/typhlitis:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/vibrio-non-cholerae:Therapy": [
       "AND"
     ],
     "539-Cincinnati/cmv-retinitis:Therapy": [
@@ -1381,6 +1444,9 @@
     "539-Cincinnati/surg-cefazolin-wt-based-postop-doses-x2:Text": [
       "Click"
     ],
+    "539-Cincinnati/surg-ercp:Therapy": [
+      "OR"
+    ],
     "539-Cincinnati/surg-vancomycin-post-op-specific-dosing:Text": [
       "Click"
     ],
@@ -1400,6 +1466,15 @@
       "OR",
       "AND"
     ],
+    "539-Cincinnati/interim-gram-negative-bacilli:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/interim-large-bacilli-aerobic-bottle:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/interim-large-bacilli-anaerobic-bottle:Therapy": [
+      "AND"
+    ],
     "539-Cincinnati/intravas-cath-coag-neg-staph:Therapy": [
       "AND"
     ],
@@ -1417,6 +1492,9 @@
     ],
     "539-Cincinnati/sepsis-empiric-therapy-site-unk:Therapy": [
       "ADD"
+    ],
+    "539-Cincinnati/sepsis-meningitis-cns-infection:Text": [
+      "AND"
     ],
     "539-Cincinnati/sepsis-pneumonia:Text": [
       "AND",
@@ -1440,6 +1518,12 @@
       "AND"
     ],
     "539-Cincinnati/sepsis-suspected-skin-soft-tissue:Therapy": [
+      "AND"
+    ],
+    "539-Cincinnati/sepsis-urosepsis:Text": [
+      "ADD"
+    ],
+    "539-Cincinnati/suspected-bacteremia-cultures-not-yet-positive:Therapy": [
       "AND"
     ],
     "539-Cincinnati/toxic-shock-syndrome:Therapy": [
@@ -1531,9 +1615,6 @@
     "541-Cleveland/streptococcal-prosthetic-valve-endocarditis:Therapy": [
       "AND"
     ],
-    "541-Cleveland/bacteremia:Therapy": [
-      "AND"
-    ],
     "541-Cleveland/bite-wnds-eikenella-corrodens:Text": [
       "OR"
     ],
@@ -1557,6 +1638,9 @@
     ],
     "541-Cleveland/covid-19-mpls-antimicrobial-guideline:Therapy": [
       "OR"
+    ],
+    "541-Cleveland/derm-post-op-infections:Text": [
+      "AND"
     ],
     "541-Cleveland/dermatologic-surgical-site-infection:Text": [
       "AND"
@@ -1651,6 +1735,10 @@
     "541-Cleveland/hepatitis-a:Therapy": [
       "AND"
     ],
+    "541-Cleveland/initial-peri-assoc-w-peri-dial:Text": [
+      "AND",
+      "OR"
+    ],
     "541-Cleveland/liver-pyogenic-abscess:Therapy": [
       "AND"
     ],
@@ -1669,6 +1757,9 @@
       "AND"
     ],
     "541-Cleveland/typhlitis:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/vibrio-non-cholerae:Therapy": [
       "AND"
     ],
     "541-Cleveland/cmv-retinitis:Therapy": [
@@ -1802,6 +1893,9 @@
     "541-Cleveland/surg-cefazolin-wt-based-postop-doses-x2:Text": [
       "Click"
     ],
+    "541-Cleveland/surg-ercp:Therapy": [
+      "OR"
+    ],
     "541-Cleveland/surg-vancomycin-post-op-specific-dosing:Text": [
       "Click"
     ],
@@ -1821,6 +1915,15 @@
       "OR",
       "AND"
     ],
+    "541-Cleveland/interim-gram-negative-bacilli:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/interim-large-bacilli-aerobic-bottle:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/interim-large-bacilli-anaerobic-bottle:Therapy": [
+      "AND"
+    ],
     "541-Cleveland/intravas-cath-coag-neg-staph:Therapy": [
       "AND"
     ],
@@ -1838,6 +1941,9 @@
     ],
     "541-Cleveland/sepsis-empiric-therapy-site-unk:Therapy": [
       "ADD"
+    ],
+    "541-Cleveland/sepsis-meningitis-cns-infection:Text": [
+      "AND"
     ],
     "541-Cleveland/sepsis-pneumonia:Text": [
       "AND",
@@ -1861,6 +1967,12 @@
       "AND"
     ],
     "541-Cleveland/sepsis-suspected-skin-soft-tissue:Therapy": [
+      "AND"
+    ],
+    "541-Cleveland/sepsis-urosepsis:Text": [
+      "ADD"
+    ],
+    "541-Cleveland/suspected-bacteremia-cultures-not-yet-positive:Therapy": [
       "AND"
     ],
     "541-Cleveland/toxic-shock-syndrome:Therapy": [

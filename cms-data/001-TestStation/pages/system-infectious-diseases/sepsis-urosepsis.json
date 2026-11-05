@@ -1,0 +1,11 @@
+{
+  "PageID": "sepsis-urosepsis",
+  "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
+  "SortKey": "system-infectious-diseases~1~sepsis, urinary tract infection",
+  "Term1": "Sepsis, urinary tract infection",
+  "Term2": "Urosepsis",
+  "Text": "# NEED SME REVIEW\n## Inpatient\n### ORZID2 GMENU SEPSIS SUSPECTED URO SEPSIS\n#### SEPSIS OR SHOCK WITH SUSPECTED URINARY TRACT INFECTION\nConsider empirical broad-spectrum antimicrobials and consulting Infectious\nDiseases if urinary tract infection is not strongly suspected as the main source\nof infection. Refer to Unclear Infectious Source for recommendations.\n[Unclear Infectious Source](sepsis-empiric-therapy-site-unk)\n#### Patients on general medical wards\nCeftriaxone 2 gm IV q24h [M] for 7 days\n#### Patients in the ICU or with a history of Pseudomonas\nPiperacillin-tazobactam 4.5 gm IV q6h [R] for 7 days\n< OR >\nCefepime 2 gm IV q8h [R] for 7 days\n< OR >\nCiprofloxacin 400 mg IV q8h [R,DI] for 5 days\n#### History of ESBL isolate\nMeropenem 1 gm IV q8h [R,O] for 7 days\n#### History of MRSA, add to intravenous therapy above\n<ADD> Vancomycin 15 mg/kg IV q12h [R] for 7 days\n## ER/UC\n### ORZID GMENU ER/UC SEPSIS SUSPECTED URO SEPSIS\n#### SEVERE SEPSIS OR SHOCK WITH SUSPECTED URINARY TRACT INFECTION\nConsider empirical broad-spectrum antimicrobials and consulting Infectious\nDiseases if urinary tract infection is not strongly suspected as the main source\nof infection. Refer to Unclear Infectious Source for recommendations.\n[Unclear Infectious Source](sepsis-empiric-therapy-site-unk)\n#### Patients transferring to general medical wards\nCeftriaxone 2 gm IV ONCE STAT [M]\n#### Patients transferring to the ICU or with a history of Pseudomonas\nPiperacillin-tazobactam 4.5 gm IV ONCE STAT [R]\n< OR >\nCefepime 2 gm IV ONCE STAT [R]\n< OR >\nCiprofloxacin 400 mg IV ONCE STAT [R,DI]\n#### History of ESBL isolate\nMeropenem 1 gm IV ONCE STAT [R,O]\n#### History of MRSA, add to intravenous therapy above\n<ADD> Vancomycin 15 mg/kg IV ONCE STAT [R]",
+  "Inpt": "ORZID2 GMENU SEPSIS SUSPECTED URO SEPSIS",
+  "ERUC": "ORZID GMENU ER/UC SEPSIS SUSPECTED URO SEPSIS"
+}

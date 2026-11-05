@@ -1,0 +1,11 @@
+{
+  "PageID": "prostate-biopsy-prophylaxis",
+  "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
+  "SortKey": "genitourinary~1~prostate biopsy prophylaxis",
+  "Term1": "Prostate biopsy prophylaxis",
+  "Term2": "Biopsy of prostate prophylaxis",
+  "Text": "# Antibiotic Prophylaxis Transrectal Ultrasound Prostate Biopsy Procedures (TRUSP)\n\nThe recommendations for prophylaxis for TRUSP procedures have been updated based based on emergence of resistant E-coli bacteria strains.\n\n---\n\nReferences:\n\n- Becopoulos T et al  J Chemother 1990 2:244-246\n- Charalabopoolos et al Chemotherapy 2003 49:269-279\n- Nam R et al J Urol 2010 183:963-969",
+  "Therapy": "## Preferred:\n\n## Outpatient Prescriptions for Mailing:\n\n[Ciprofloxacin 500 mg po once \\($\\) R,DI < AND >](orz-set-abx-cipro-cefuroxime-mail-po)\n\nCefuroxime 1000 mg po once ($) [M], BOTH 2 to 3 hours before scheduled prostate biopsy.\n\n## Outpatient Prescriptions for Window Pick-up:\n\n[Ciprofloxacin 500 mg po once \\($\\) R,DI < AND >](orz-set-abx-cipro-cefuroxime-po-window)\n\nCefuroxime 1000 mg po once ($) [M], BOTH 2 to 3 hours before scheduled prostate biopsy.\n\n## Alternative for patients who have not taken the oral medications:\n\n## Administer in clinic on the day of procedure.\n\n## Patients weighing less than 300lbs:\n\n[Ciprofloxacin 500 mg po once \\($\\) R,DI < AND > Ceftriaxone 500 mg](orz-set-abx-op-ceftriaxone-500-im-and-cipro-500-po-x1)\n\nIntramuscularly once ($) [M] BOTH given 1 hour before the procedure.\n\n## Patients weighing 300lbs or greater:\n\n[Ciprofloxacin 500 mg po once \\($\\) R,DI < AND > Ceftriaxone 1 gram](orz-set-abx-op-ceftriaxone-1gm-im-and-cipro-500po-trusp)\n\nIntramuscularly once ($) [M] BOTH given 1 hour before the procedure.\n\n## Alternative for patients with anaphylactic or other serious beta-lactam allergy\n\n## Administer in clinic on the day of procedure.\n\n[Ciprofloxacin 500 mg po once \\($\\) R,DI < AND > Aztreonam 1 gm intramuscularly](orz-set-abx-op-aztreonam-1gm-cipro-500-once-prophylaxis-trusp)\nonce ($$$$) [R] BOTH given 1 hour before the procedure.",
+  "Inpt": "ORZID3 GMENU PROSTATE BIOPSY PROPHYLAXIS"
+}

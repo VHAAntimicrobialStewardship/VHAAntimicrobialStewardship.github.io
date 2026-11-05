@@ -6,7 +6,7 @@
 // Bump VERSION whenever a caching rule or the precache list changes; the activate
 // handler deletes every cache whose name does not match the current version.
 const APP_PREFIX = 'CDSS_';
-const VERSION = '1.275'; // Update the version when you make changes
+const VERSION = '1.276'; // Update the version when you make changes
 const CACHE_NAME = APP_PREFIX + VERSION;
 
 // Files precached on install. Pages not listed here (e.g. the production station

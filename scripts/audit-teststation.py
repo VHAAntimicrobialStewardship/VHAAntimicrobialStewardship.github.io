@@ -5,11 +5,16 @@ Integrity gate for the station data. Run it after any structural/data rewrite
 (rebuild-combined-menus.py, compile-cms.py, link edits, ...).
 
 For each station in STATIONS it checks:
-  - the required menus exist (legacy tab main menus + the combined main-menu)
-  - every Outpt / ERUC / Combined / Inpt cross-reference points at a real page
-  - combined pages have real text (no placeholders) and "## Heading" spacing
+  - the combined main-menu exists
+  - no legacy VistA record (Name starting "ORZ", no Inpt) is left in the OMJSON; they were
+    removed on 2026-11-05 and archived in docs/legacy-archive/
+  - no internal link points at a removed legacy page (orzid/orzid2/orzid3-gmenu-... target)
+  - combined pages (records with Inpt) have real text (no placeholders) and "## Heading" spacing
   - every internal markdown link in page Text resolves to a page or order dialog
   - the station HTML still has the markers the runtime/pipeline depend on
+
+Inpt/Outpt/ERUC on combined pages are kept as plain strings naming the removed legacy
+records, so they are no longer checked as page references.
 
 ISSUES are real problems (a regression if the count grows); WARNINGS are known,
 non-blocking noise (e.g. links to legacy targets that are not in the data).
@@ -21,25 +26,21 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 
-# (station folder, OMJSON filename, ODJSON filename, HTML filename, is combined_only)
-# combined_only stations have no Inpatient/Outpatient/ER-UC tab buttons in their HTML,
-# so the legacy tab-button HTML checks are skipped for them.
-STATIONS: list[tuple[str, str, str, str, bool]] = [
-    ("001-TestStation", "TestStationOMJSON.json", "TestStationODJSON.json", "TestStationCDSS.html", False),
-    ("541-Cleveland", "ClevelandOMJSON.json", "ClevelandODJSON.json", "ClevelandCDSS.html", True),
-    ("539-Cincinnati", "CincinnatiOMJSON.json", "CincinnatiODJSON.json", "CincinnatiCDSS.html", True),
-    ("506-AnnArbor", "AnnArborOMJSON.json", "AnnArborODJSON.json", "AnnArborCDSS.html", True),
+# (station folder, OMJSON filename, ODJSON filename, HTML filename)
+# All four stations are combined-only: no Inpatient/Outpatient/ER-UC tab buttons.
+STATIONS: list[tuple[str, str, str, str]] = [
+    ("001-TestStation", "TestStationOMJSON.json", "TestStationODJSON.json", "TestStationCDSS.html"),
+    ("541-Cleveland", "ClevelandOMJSON.json", "ClevelandODJSON.json", "ClevelandCDSS.html"),
+    ("539-Cincinnati", "CincinnatiOMJSON.json", "CincinnatiODJSON.json", "CincinnatiCDSS.html"),
+    ("506-AnnArbor", "AnnArborOMJSON.json", "AnnArborODJSON.json", "AnnArborCDSS.html"),
 ]
 
-REQUIRED_MENUS = [
-    "ORZID2 GMENU ABX INPT MAIN",
-    "ORZID3 GMENU ABX OUTPT MAIN",
-    "ORZID GMENU ER/UC EMERGENCY DEPARTMENT MAIN MENU",
-    "main-menu",
-]
+REQUIRED_MENUS = ["main-menu"]
 
-# Page fields whose value must name another page.
-CROSSREF_FIELDS = ["Outpt", "ERUC", "Combined", "Inpt"]
+# Legacy VistA page records (ORZID = ER/UC, ORZID2 = inpatient, ORZID3 = outpatient).
+LEGACY_NAME_RE = re.compile(r"^ORZ")
+# A link target naming one of the removed legacy pages.
+LEGACY_LINK_RE = re.compile(r"^orzid\d?-gmenu-")
 
 # Page text that means "nobody wrote this page yet".
 PLACEHOLDER_TEXTS = ("mimi", "mehul", "mahul", "")
@@ -87,25 +88,20 @@ NON_MENU_GMENU_RE = re.compile(r"^orz(id\d*)?-gmenu-(?!abx-)")
 # uploaded assets, not menus.
 LINK_RE = re.compile(r"(?<!!)\[([^\]]+)\]\(([^)]+)\)")
 
-# Markers the station HTML must (or, for combined-only stations, must not) contain.
+# Markers the station HTML must (or must not) contain.
 # The app behaviour lives in shared/cdss-app.js; the page keeps markup + config.
 SHARED_JS_PATH = ROOT / "shared" / "cdss-app.js"
 SHARED_JS_TAG = '<script src="/shared/cdss-app.js"></script>'
-HTML_REQUIRED_COMBINED_ONLY = [
+HTML_REQUIRED = [
     "const combinedMenu =",
     SHARED_JS_TAG,
 ]
-HTML_FORBIDDEN_COMBINED_ONLY = [
+HTML_FORBIDDEN = [
     "<button id=\"inptButton\">Inpatient</button>",
     "<button id=\"outptButton\">Outpatient</button>",
     "<button id=\"erucButton\">ER/UC</button>",
 ]
-HTML_REQUIRED_WITH_TABS = [
-    "<button id=\"combinedButton\">Combined</button>",
-    "const combinedMenu =",
-    SHARED_JS_TAG,
-]
-# Markers the shared script must contain (checked once, with the test station).
+# Markers the shared script must contain (checked once).
 SHARED_JS_REQUIRED = [
     "onClickIfPresent('combinedButton', handleCombined);",
     "function handleCombined()",
@@ -128,28 +124,18 @@ def check_required_menus(by_name: dict) -> list[str]:
     return [f"Missing required menu: {required}" for required in REQUIRED_MENUS if required not in by_name]
 
 
-def check_crossrefs(menus: list[dict], by_name: dict) -> list[str]:
-    """Every Outpt/ERUC/Combined/Inpt value must name an existing page."""
-    issues = []
-    for m in menus:
-        for field in CROSSREF_FIELDS:
-            target = m.get(field)
-            if target and target not in by_name:
-                issues.append(f"{m['Name']} has broken {field} reference -> {target}")
-    return issues
+def check_legacy_records(menus: list[dict]) -> list[str]:
+    """Legacy records must stay deleted (compile-cms.py never recreates them, but a merge could)."""
+    return [
+        f"Legacy record still present: {m['Name']}"
+        for m in menus
+        if LEGACY_NAME_RE.match(m["Name"]) and not (m.get("Inpt") or "").strip()
+    ] + [f"{m['Name']} still has a legacy Combined back-reference -> {m['Combined']}" for m in menus if m.get("Combined")]
 
 
 def get_combined_menus(menus: list[dict]) -> list[dict]:
-    """Combined pages: pages that some page names in `Combined` and that have an Inpt pointer."""
-    combined_names = {
-        m.get("Combined")
-        for m in menus
-        if isinstance(m.get("Combined"), str) and m.get("Combined").strip()
-    }
-    return [
-        m for m in menus
-        if m["Name"] in combined_names and isinstance(m.get("Inpt"), str) and m.get("Inpt").strip()
-    ]
+    """Combined pages are identified by their Inpt pointer."""
+    return [m for m in menus if isinstance(m.get("Inpt"), str) and m.get("Inpt").strip()]
 
 
 def check_combined_pages(combined_menus: list[dict]) -> tuple[list[str], list[str]]:
@@ -166,8 +152,12 @@ def check_combined_pages(combined_menus: list[dict]) -> tuple[list[str], list[st
     return issues, warns
 
 
-def find_unresolved_links(menus: list[dict], om_names: set[str], od_names: set[str]) -> list[str]:
-    """Warnings for internal markdown links whose target is not a known page/order dialog."""
+def find_unresolved_links(menus: list[dict], om_names: set[str], od_names: set[str]) -> tuple[list[str], list[str]]:
+    """(issues, warnings) for internal markdown links whose target is not a known page/order dialog.
+
+    An unresolved link to a removed legacy page is an issue; other unresolved links are warnings.
+    """
+    issues = []
     warns = []
     for m in menus:
         # Text and the optional right-hand Therapy panel both carry markdown links.
@@ -183,26 +173,23 @@ def find_unresolved_links(menus: list[dict], om_names: set[str], od_names: set[s
             normalized_t = normalize_comparable_id(t)
             if normalized_t in om_names or normalized_t in od_names:
                 continue
+            if LEGACY_LINK_RE.match(tl):
+                issues.append(f"{m['Name']} links to removed legacy page ({t}) label={label}")
+                continue
             if is_non_menu_link(tl):
                 continue
             warns.append(f"{m['Name']} unresolved link target ({t}) label={label}")
-    return warns
+    return issues, warns
 
 
-def check_html(html_path: Path, combined_only: bool) -> list[str]:
+def check_html(html_path: Path) -> list[str]:
     """Checks the station HTML still has the markers the runtime depends on."""
     html = html_path.read_text(encoding="utf-8")
-    issues = []
-    if combined_only:
-        required = HTML_REQUIRED_COMBINED_ONLY
-        for forbidden in HTML_FORBIDDEN_COMBINED_ONLY:
-            if forbidden in html:
-                issues.append(f"HTML should not contain legacy tab button (combined-only station): {forbidden}")
-    else:
-        required = HTML_REQUIRED_WITH_TABS
-    for check in required:
-        if check not in html:
-            issues.append(f"HTML missing: {check}")
+    issues = [
+        f"HTML should not contain legacy tab button (combined-only station): {forbidden}"
+        for forbidden in HTML_FORBIDDEN if forbidden in html
+    ]
+    issues += [f"HTML missing: {check}" for check in HTML_REQUIRED if check not in html]
     return issues
 
 
@@ -214,7 +201,7 @@ def check_shared_js() -> list[str]:
     return [f"Shared JS missing: {check}" for check in SHARED_JS_REQUIRED if check not in js]
 
 
-def audit_station(station_dir: str, omjson_filename: str, odjson_filename: str, html_filename: str, combined_only: bool) -> tuple[list[str], list[str]]:
+def audit_station(station_dir: str, omjson_filename: str, odjson_filename: str, html_filename: str) -> tuple[list[str], list[str]]:
     """Runs every check for one station. Returns (issues, warns)."""
     station_path = ROOT / "stations" / station_dir
 
@@ -232,12 +219,14 @@ def audit_station(station_dir: str, omjson_filename: str, odjson_filename: str, 
     warns = []
 
     issues += check_required_menus(by_name)
-    issues += check_crossrefs(menus, by_name)
+    issues += check_legacy_records(menus)
     combined_issues, combined_warns = check_combined_pages(combined_menus)
     issues += combined_issues
     warns += combined_warns
 
-    warns += find_unresolved_links(menus, om_names, od_names)
+    link_issues, link_warns = find_unresolved_links(menus, om_names, od_names)
+    issues += link_issues
+    warns += link_warns
 
     escaped_count = sum(1 for m in menus if r"\[" in m.get("Text", "") or r"\]" in m.get("Text", ""))
     if escaped_count:
@@ -247,9 +236,7 @@ def audit_station(station_dir: str, omjson_filename: str, odjson_filename: str, 
         if re.search(r"^##[^\s#]", m.get("Text", ""), flags=re.MULTILINE):
             warns.append(f"{m['Name']} has heading missing space after ##")
 
-    issues += check_html(station_path / html_filename, combined_only)
-    if not combined_only:
-        issues += check_shared_js()
+    issues += check_html(station_path / html_filename)
 
     return issues, warns
 
@@ -257,9 +244,15 @@ def audit_station(station_dir: str, omjson_filename: str, odjson_filename: str, 
 if __name__ == "__main__":
     total_issues = 0
     total_warns = 0
-    for station_dir, omjson_filename, odjson_filename, html_filename, combined_only in STATIONS:
+    shared_issues = check_shared_js()
+    if shared_issues:
+        print("\n=== shared/cdss-app.js ===")
+        for item in shared_issues:
+            print(" -", item)
+    total_issues += len(shared_issues)
+    for station_dir, omjson_filename, odjson_filename, html_filename in STATIONS:
         print(f"\n=== {station_dir} ===")
-        issues, warns = audit_station(station_dir, omjson_filename, odjson_filename, html_filename, combined_only)
+        issues, warns = audit_station(station_dir, omjson_filename, odjson_filename, html_filename)
         total_issues += len(issues)
         total_warns += len(warns)
 

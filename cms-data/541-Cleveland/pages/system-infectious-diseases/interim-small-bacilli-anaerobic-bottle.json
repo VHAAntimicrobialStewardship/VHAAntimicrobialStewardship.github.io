@@ -1,0 +1,11 @@
+{
+  "PageID": "interim-small-bacilli-anaerobic-bottle",
+  "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
+  "SortKey": "system-infectious-diseases~1~anaerobic bottle, small pleomorphic bacilli",
+  "Term1": "Anaerobic bottle, small pleomorphic bacilli",
+  "Term2": "Bacilli, small pleomorphic, anaerobic bottle",
+  "Text": "# SMALL PLEOMORPHIC BACILLI IN AN ANAEROBIC BOTTLE\n\nSmall pleomorphic bacilli in anaerobic bottle usually suggest propionibacteria.\n\nThese are often contaminants.\n\nReferences\n\n- Mandell chapter: Other Coryneform Bacteria and Rhodococci\n- Medical Letter Choice of Antimicrobials 2010, 8.94\n- Sanford keyword: Propionibacterium acnes\n- Sanford keyword: Corynebacterium",
+  "Therapy": "## Treatment if therapy is indicated\n\n[Penicillin G 4 million units IV q4h \\(Cost $$\\)R](psjizid-penicillin-g-4-million-units-iv-q4h)\n\nFor penicillin allergy\n[Cefazolin 2 gm IV q8h \\($\\) R](psjizid-cefazolin-2gm-ivpb-q8h)\n\nFor severe penicillin allergy\n[Vancomycin 15 mg/kg IV q12h \\(Cost $\\) R](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)",
+  "Inpt": "ORZID2 GMENU INT SM RODS ANAEROBIC BOT"
+}

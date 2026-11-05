@@ -5,7 +5,7 @@
   "SortKey": "immunocompromised-patient~1~immunocom diabetes mellitus",
   "Term1": "Diabetes mellitus",
   "Term2": "",
-  "Text": "## Duration of therapy: 5 - 7 days, but adjust to clinical response",
+  "Text": "# DIABETES MELLITUS\nHyperglycemia increases the risk of infectious diseases in diabetic patients, and increased blood glucose slows infection resolution.  Diabetic patients are prone to a variety of infections including urinary tract infections, cholecystitis, and bacteremia.  Peripheral neuropathy and arterial insufficiency predispose to infections of skin, soft tissue, and bone infection in the lower legs and feet.\n\n[References](references)\n\nRich RR, et al, eds.  Clinical Immunology\nRoitt I, et al, eds.  Immunology\nJoshi N  New Eng J Med 1999, 341: 1906",
   "Inpt": "ORZID2 GMENU IMMUNOCOM DIABETES MELLITUS",
   "Outpt": "immunocom-diabetes-mellitus"
 }

@@ -1,0 +1,11 @@
+{
+  "PageID": "interim-gram-negative-cocci",
+  "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
+  "SortKey": "system-infectious-diseases~1~gram-negative cocci bacteremia",
+  "Term1": "Gram-negative cocci bacteremia",
+  "Term2": "Interim blood culture: Gram-negative cocci",
+  "Text": "# INTERIM REPORT OF GRAM-NEGATIVE COCCI\n\nGram-negative cocci may represent meningococci, gonococci, or moraxella. Based on the clinical situation, select from following possibilities:\n\n# Refer to specific organism page when final culture results are available\n\n[NEISSERIA MENINGITIDIS](gram-neg-n-meningitidis)\n\n[NEISSERIA GONORRHOEAE](gram-neg-n-gonorrhoeae)\n\n[MORAXELLA CATARRHALIS](gram-neg-m-catarrhalis)\n\nReferences\n\n- Warkowski et al, MMWR Recomm Rep 2015, 64.3\n- Medical Letter Choice of Antimicrobials 2010, 8.94\n- Mandell chapter: Neisseria Meningitidis\n- Sanford keyword: Neisseria Meningitidis\n- Sanford keyword: Neisseria Gonorrhoeae",
+  "Therapy": "## Empirical treatment if meningococci are suspected\n\n[Penicillin G 4 million units IV q4h \\(Cost $$\\) R](psjizid-penicillin-g-4-million-units-iv-q4h)\n\n## Empirical treatment if gonococci, moraxella are suspected or if unknown suspected organism\n\n[Ceftriaxone 2 gm IV q24h \\(Cost $\\) M](psjizid-ceftriaxone-2gm-iv-q24h)\n\nFor suspected meningococci or gonococci and severe penicillin allergy Consult Infectious Diseases\nFor suspected moraxella and severe penicillin allergy\n[Azithromycin 500mg IV q24h \\(Cost $\\) O](psjizid-azith-500mg-iv-q24h)",
+  "Inpt": "ORZID2 GMENU INT RPT GNC"
+}
