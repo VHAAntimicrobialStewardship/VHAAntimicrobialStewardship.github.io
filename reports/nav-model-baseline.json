@@ -1,6 +1,6 @@
 {
  "001-TestStation": {
-  "nodeCount": 664,
+  "nodeCount": 742,
   "headerMenus": [
    {
     "label": "General and Misc",
@@ -762,6 +762,12 @@
            },
            {
             "type": "link",
+            "label": "Vibrio, non-cholerae",
+            "target": "vibrio-non-cholerae",
+            "children": []
+           },
+           {
+            "type": "link",
             "label": "Yersinia enterocolitica",
             "target": "yersinia-enterocolitica",
             "children": []
@@ -866,6 +872,12 @@
           "label": "Peritonitis associated with peritoneal dialysis",
           "level": 1,
           "children": [
+           {
+            "type": "link",
+            "label": "Initial empiric treatment",
+            "target": "initial-peri-assoc-w-peri-dial",
+            "children": []
+           },
            {
             "type": "link",
             "label": "Ongoing treatment (empiric and pathogen specific)",
@@ -1088,6 +1100,12 @@
           "type": "link",
           "label": "Pharyngitis",
           "target": "pharyngitis",
+          "children": []
+         },
+         {
+          "type": "link",
+          "label": "Respiratory Papillomatosis",
+          "target": "respiratory-papillomatosis",
           "children": []
          },
          {
@@ -1414,7 +1432,77 @@
         "type": "link",
         "label": "Dermatology Post-Op Infection",
         "target": "dermatologic-surgery-guidelines",
-        "children": []
+        "children": [
+         {
+          "type": "section",
+          "label": "Background information on antibiotic prophylaxis in dermatologic surgery:",
+          "level": 1,
+          "children": [
+           {
+            "type": "link",
+            "label": "Antimicrobial Prophylaxis and Dermatologic Surgery",
+            "target": "derm-prophylaxis",
+            "children": []
+           }
+          ]
+         },
+         {
+          "type": "section",
+          "label": "Specific antibiotic prophylaxis recommendations in dermatologic surgery:",
+          "level": 1,
+          "children": [
+           {
+            "type": "link",
+            "label": "Oral mucosa or infected skin surgical site with high risk of infective endocarditis",
+            "target": "prev-of-bact-endocarditis",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Oral mucosa or surgical site with high risk of hematogenous prosthetic joint infection",
+            "target": "prevention-of-prosthetic-joint-infection-in-dental-surgery",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Infected skin surgical site with high risk of hematogenous prosthetic joint infection",
+            "target": "prevention-of-prosthetic-joint-infection-with-dirty-operation-site",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Other high risk surgical sites and conditions",
+            "target": "high-risk-surgical-site-prophylaxis",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Photodynamic therapy and laser skin resurfacing HSV-1 prophylaxis",
+            "target": "photodynamic-therapy-hsv-1-prophylaxis",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Post-operative prophylaxis recommendations",
+            "target": "derm-post-op-infections",
+            "children": []
+           }
+          ]
+         },
+         {
+          "type": "section",
+          "label": "Dermatologic surgical site infection recommendations:",
+          "level": 1,
+          "children": [
+           {
+            "type": "link",
+            "label": "Management of Post-Operative infections",
+            "target": "dermatologic-surgical-site-infection",
+            "children": []
+           }
+          ]
+         }
+        ]
        },
        {
         "type": "section",
@@ -1447,7 +1535,77 @@
               "type": "link",
               "label": "Dermatologic Infections",
               "target": "dermatologic-surgery-guidelines",
-              "children": []
+              "children": [
+               {
+                "type": "section",
+                "label": "Background information on antibiotic prophylaxis in dermatologic surgery:",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Antimicrobial Prophylaxis and Dermatologic Surgery",
+                  "target": "derm-prophylaxis",
+                  "children": []
+                 }
+                ]
+               },
+               {
+                "type": "section",
+                "label": "Specific antibiotic prophylaxis recommendations in dermatologic surgery:",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Oral mucosa or infected skin surgical site with high risk of infective endocarditis",
+                  "target": "prev-of-bact-endocarditis",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Oral mucosa or surgical site with high risk of hematogenous prosthetic joint infection",
+                  "target": "prevention-of-prosthetic-joint-infection-in-dental-surgery",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Infected skin surgical site with high risk of hematogenous prosthetic joint infection",
+                  "target": "prevention-of-prosthetic-joint-infection-with-dirty-operation-site",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Other high risk surgical sites and conditions",
+                  "target": "high-risk-surgical-site-prophylaxis",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Photodynamic therapy and laser skin resurfacing HSV-1 prophylaxis",
+                  "target": "photodynamic-therapy-hsv-1-prophylaxis",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Post-operative prophylaxis recommendations",
+                  "target": "derm-post-op-infections",
+                  "children": []
+                 }
+                ]
+               },
+               {
+                "type": "section",
+                "label": "Dermatologic surgical site infection recommendations:",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Management of Post-Operative infections",
+                  "target": "dermatologic-surgical-site-infection",
+                  "children": []
+                 }
+                ]
+               }
+              ]
              }
             ]
            }
@@ -1528,6 +1686,249 @@
         "label": "Blood stream infection",
         "level": 1,
         "children": [
+         {
+          "type": "link",
+          "label": "Bacteremia: approach, empirical therapy and interim culture results",
+          "target": "bacteremia",
+          "children": [
+           {
+            "type": "section",
+            "label": "Approach and empirical therapy",
+            "level": 1,
+            "children": [
+             {
+              "type": "link",
+              "label": "Approach to bacteremia",
+              "target": "approach-to-bacteremia",
+              "children": [
+               {
+                "type": "section",
+                "label": "For infections with signs and/or symptoms of severe sepsis, like hypotension or end organ dysfunction",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Sepsis, severe sepsis, and septic shock",
+                  "target": "sepsis-and-shock",
+                  "children": []
+                 }
+                ]
+               },
+               {
+                "type": "section",
+                "label": "Empirical treatment of suspected bacteremia if local infection is not apparent and blood cultures are not yet positive",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Suspected bacteremia, blood cultures not yet positive",
+                  "target": "suspected-bacteremia-cultures-not-yet-positive",
+                  "children": []
+                 }
+                ]
+               },
+               {
+                "type": "section",
+                "label": "Preliminary results of a positive culture are available",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-positive cocci in pairs",
+                  "target": "interim-gram-positive-cocci-pairs",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-positive cocci in pairs and clusters",
+                  "target": "interim-gram-positive-cocci-clusters",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-positive cocci in pairs and chains",
+                  "target": "interim-gram-positive-cocci-chains",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-negative bacilli",
+                  "target": "interim-gram-negative-bacilli",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-negative cocci",
+                  "target": "interim-gram-negative-cocci",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-positive bacilli",
+                  "target": "interim-gram-positive-bacilli",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of yeast",
+                  "target": "interim-yeast",
+                  "children": []
+                 }
+                ]
+               }
+              ]
+             },
+             {
+              "type": "link",
+              "label": "Suspected bacteremia, blood cultures not yet positive",
+              "target": "suspected-bacteremia-cultures-not-yet-positive",
+              "children": []
+             }
+            ]
+           },
+           {
+            "type": "section",
+            "label": "Interim blood culture results (Gram stain)",
+            "level": 1,
+            "children": [
+             {
+              "type": "link",
+              "label": "Gram-positive cocci in pairs",
+              "target": "interim-gram-positive-cocci-pairs",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Gram-positive cocci in pairs and clusters",
+              "target": "interim-gram-positive-cocci-clusters",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Gram-positive cocci in pairs and chains",
+              "target": "interim-gram-positive-cocci-chains",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Gram-positive bacilli",
+              "target": "interim-gram-positive-bacilli",
+              "children": [
+               {
+                "type": "link",
+                "label": "LARGE UNIFORM BACILLI in an AEROBIC bottle",
+                "target": "interim-large-bacilli-aerobic-bottle",
+                "children": []
+               },
+               {
+                "type": "link",
+                "label": "LARGE UNIFORM BACILLI in an ANAEROBIC bottle",
+                "target": "interim-large-bacilli-anaerobic-bottle",
+                "children": []
+               },
+               {
+                "type": "link",
+                "label": "SMALL PLEOMORPHIC BACILLI in AEROBIC bottle",
+                "target": "interim-small-bacilli-aerobic-bottle",
+                "children": []
+               },
+               {
+                "type": "link",
+                "label": "SMALL PLEOMORPHIC BACILLI in ANAEROBIC bottle",
+                "target": "interim-small-bacilli-anaerobic-bottle",
+                "children": []
+               }
+              ]
+             },
+             {
+              "type": "link",
+              "label": "Gram-negative bacilli",
+              "target": "interim-gram-negative-bacilli",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Gram-negative cocci",
+              "target": "interim-gram-negative-cocci",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Yeast",
+              "target": "interim-yeast",
+              "children": []
+             }
+            ]
+           },
+           {
+            "type": "section",
+            "label": "Rapid PCR blood culture results",
+            "level": 1,
+            "children": [
+             {
+              "type": "link",
+              "label": "Staphylococcus aureus",
+              "target": "staphylococcus-aureus-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Staphylococcus lugdunensis",
+              "target": "staphylococcus-lugdunensis-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Other staphylococcus sp. (Coagulase-negative Staphylococci)",
+              "target": "coagulase-negative-staphylococci-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Enterococci",
+              "target": "enterococci",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Streptococci",
+              "target": "streptococci",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Listeria monocytogenes",
+              "target": "listeria-monocytogenes-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Citrobacter, Enterobacter cloacae, or Klebsiella aerogenes",
+              "target": "citrobacter-freundii-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Pseudomonas sp.",
+              "target": "pseudomonas-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Other Gram-negatives",
+              "target": "other-gram-negative-rods-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Candida spp.",
+              "target": "candidemia",
+              "children": []
+             }
+            ]
+           }
+          ]
+         },
          {
           "type": "link",
           "label": "Staphylococcus aureus",
@@ -1729,6 +2130,12 @@
           "type": "link",
           "label": "Uncomplicated UTI (infection confined to the bladder)",
           "target": "uncomp-uti",
+          "children": []
+         },
+         {
+          "type": "link",
+          "label": "Urine culture",
+          "target": "urine-culture",
           "children": []
          }
         ]
@@ -3133,7 +3540,77 @@
               "type": "link",
               "label": "Dermatologic Infections",
               "target": "dermatologic-surgery-guidelines",
-              "children": []
+              "children": [
+               {
+                "type": "section",
+                "label": "Background information on antibiotic prophylaxis in dermatologic surgery:",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Antimicrobial Prophylaxis and Dermatologic Surgery",
+                  "target": "derm-prophylaxis",
+                  "children": []
+                 }
+                ]
+               },
+               {
+                "type": "section",
+                "label": "Specific antibiotic prophylaxis recommendations in dermatologic surgery:",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Oral mucosa or infected skin surgical site with high risk of infective endocarditis",
+                  "target": "prev-of-bact-endocarditis",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Oral mucosa or surgical site with high risk of hematogenous prosthetic joint infection",
+                  "target": "prevention-of-prosthetic-joint-infection-in-dental-surgery",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Infected skin surgical site with high risk of hematogenous prosthetic joint infection",
+                  "target": "prevention-of-prosthetic-joint-infection-with-dirty-operation-site",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Other high risk surgical sites and conditions",
+                  "target": "high-risk-surgical-site-prophylaxis",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Photodynamic therapy and laser skin resurfacing HSV-1 prophylaxis",
+                  "target": "photodynamic-therapy-hsv-1-prophylaxis",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Post-operative prophylaxis recommendations",
+                  "target": "derm-post-op-infections",
+                  "children": []
+                 }
+                ]
+               },
+               {
+                "type": "section",
+                "label": "Dermatologic surgical site infection recommendations:",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Management of Post-Operative infections",
+                  "target": "dermatologic-surgical-site-infection",
+                  "children": []
+                 }
+                ]
+               }
+              ]
              }
             ]
            }
@@ -3434,6 +3911,12 @@
             "type": "link",
             "label": "Vibrio cholerae",
             "target": "cholera",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Vibrio, non-cholerae",
+            "target": "vibrio-non-cholerae",
             "children": []
            },
            {
@@ -3844,7 +4327,7 @@
   ]
  },
  "506-AnnArbor": {
-  "nodeCount": 664,
+  "nodeCount": 742,
   "headerMenus": [
    {
     "label": "General and Misc",
@@ -4606,6 +5089,12 @@
            },
            {
             "type": "link",
+            "label": "Vibrio, non-cholerae",
+            "target": "vibrio-non-cholerae",
+            "children": []
+           },
+           {
+            "type": "link",
             "label": "Yersinia enterocolitica",
             "target": "yersinia-enterocolitica",
             "children": []
@@ -4710,6 +5199,12 @@
           "label": "Peritonitis associated with peritoneal dialysis",
           "level": 1,
           "children": [
+           {
+            "type": "link",
+            "label": "Initial empiric treatment",
+            "target": "initial-peri-assoc-w-peri-dial",
+            "children": []
+           },
            {
             "type": "link",
             "label": "Ongoing treatment (empiric and pathogen specific)",
@@ -4932,6 +5427,12 @@
           "type": "link",
           "label": "Pharyngitis",
           "target": "pharyngitis",
+          "children": []
+         },
+         {
+          "type": "link",
+          "label": "Respiratory Papillomatosis",
+          "target": "respiratory-papillomatosis",
           "children": []
          },
          {
@@ -5258,7 +5759,77 @@
         "type": "link",
         "label": "Dermatology Post-Op Infection",
         "target": "dermatologic-surgery-guidelines",
-        "children": []
+        "children": [
+         {
+          "type": "section",
+          "label": "Background information on antibiotic prophylaxis in dermatologic surgery:",
+          "level": 1,
+          "children": [
+           {
+            "type": "link",
+            "label": "Antimicrobial Prophylaxis and Dermatologic Surgery",
+            "target": "derm-prophylaxis",
+            "children": []
+           }
+          ]
+         },
+         {
+          "type": "section",
+          "label": "Specific antibiotic prophylaxis recommendations in dermatologic surgery:",
+          "level": 1,
+          "children": [
+           {
+            "type": "link",
+            "label": "Oral mucosa or infected skin surgical site with high risk of infective endocarditis",
+            "target": "prev-of-bact-endocarditis",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Oral mucosa or surgical site with high risk of hematogenous prosthetic joint infection",
+            "target": "prevention-of-prosthetic-joint-infection-in-dental-surgery",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Infected skin surgical site with high risk of hematogenous prosthetic joint infection",
+            "target": "prevention-of-prosthetic-joint-infection-with-dirty-operation-site",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Other high risk surgical sites and conditions",
+            "target": "high-risk-surgical-site-prophylaxis",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Photodynamic therapy and laser skin resurfacing HSV-1 prophylaxis",
+            "target": "photodynamic-therapy-hsv-1-prophylaxis",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Post-operative prophylaxis recommendations",
+            "target": "derm-post-op-infections",
+            "children": []
+           }
+          ]
+         },
+         {
+          "type": "section",
+          "label": "Dermatologic surgical site infection recommendations:",
+          "level": 1,
+          "children": [
+           {
+            "type": "link",
+            "label": "Management of Post-Operative infections",
+            "target": "dermatologic-surgical-site-infection",
+            "children": []
+           }
+          ]
+         }
+        ]
        },
        {
         "type": "section",
@@ -5291,7 +5862,77 @@
               "type": "link",
               "label": "Dermatologic Infections",
               "target": "dermatologic-surgery-guidelines",
-              "children": []
+              "children": [
+               {
+                "type": "section",
+                "label": "Background information on antibiotic prophylaxis in dermatologic surgery:",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Antimicrobial Prophylaxis and Dermatologic Surgery",
+                  "target": "derm-prophylaxis",
+                  "children": []
+                 }
+                ]
+               },
+               {
+                "type": "section",
+                "label": "Specific antibiotic prophylaxis recommendations in dermatologic surgery:",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Oral mucosa or infected skin surgical site with high risk of infective endocarditis",
+                  "target": "prev-of-bact-endocarditis",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Oral mucosa or surgical site with high risk of hematogenous prosthetic joint infection",
+                  "target": "prevention-of-prosthetic-joint-infection-in-dental-surgery",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Infected skin surgical site with high risk of hematogenous prosthetic joint infection",
+                  "target": "prevention-of-prosthetic-joint-infection-with-dirty-operation-site",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Other high risk surgical sites and conditions",
+                  "target": "high-risk-surgical-site-prophylaxis",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Photodynamic therapy and laser skin resurfacing HSV-1 prophylaxis",
+                  "target": "photodynamic-therapy-hsv-1-prophylaxis",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Post-operative prophylaxis recommendations",
+                  "target": "derm-post-op-infections",
+                  "children": []
+                 }
+                ]
+               },
+               {
+                "type": "section",
+                "label": "Dermatologic surgical site infection recommendations:",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Management of Post-Operative infections",
+                  "target": "dermatologic-surgical-site-infection",
+                  "children": []
+                 }
+                ]
+               }
+              ]
              }
             ]
            }
@@ -5372,6 +6013,249 @@
         "label": "Blood stream infection",
         "level": 1,
         "children": [
+         {
+          "type": "link",
+          "label": "Bacteremia: approach, empirical therapy and interim culture results",
+          "target": "bacteremia",
+          "children": [
+           {
+            "type": "section",
+            "label": "Approach and empirical therapy",
+            "level": 1,
+            "children": [
+             {
+              "type": "link",
+              "label": "Approach to bacteremia",
+              "target": "approach-to-bacteremia",
+              "children": [
+               {
+                "type": "section",
+                "label": "For infections with signs and/or symptoms of severe sepsis, like hypotension or end organ dysfunction",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Sepsis, severe sepsis, and septic shock",
+                  "target": "sepsis-and-shock",
+                  "children": []
+                 }
+                ]
+               },
+               {
+                "type": "section",
+                "label": "Empirical treatment of suspected bacteremia if local infection is not apparent and blood cultures are not yet positive",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Suspected bacteremia, blood cultures not yet positive",
+                  "target": "suspected-bacteremia-cultures-not-yet-positive",
+                  "children": []
+                 }
+                ]
+               },
+               {
+                "type": "section",
+                "label": "Preliminary results of a positive culture are available",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-positive cocci in pairs",
+                  "target": "interim-gram-positive-cocci-pairs",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-positive cocci in pairs and clusters",
+                  "target": "interim-gram-positive-cocci-clusters",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-positive cocci in pairs and chains",
+                  "target": "interim-gram-positive-cocci-chains",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-negative bacilli",
+                  "target": "interim-gram-negative-bacilli",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-negative cocci",
+                  "target": "interim-gram-negative-cocci",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-positive bacilli",
+                  "target": "interim-gram-positive-bacilli",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of yeast",
+                  "target": "interim-yeast",
+                  "children": []
+                 }
+                ]
+               }
+              ]
+             },
+             {
+              "type": "link",
+              "label": "Suspected bacteremia, blood cultures not yet positive",
+              "target": "suspected-bacteremia-cultures-not-yet-positive",
+              "children": []
+             }
+            ]
+           },
+           {
+            "type": "section",
+            "label": "Interim blood culture results (Gram stain)",
+            "level": 1,
+            "children": [
+             {
+              "type": "link",
+              "label": "Gram-positive cocci in pairs",
+              "target": "interim-gram-positive-cocci-pairs",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Gram-positive cocci in pairs and clusters",
+              "target": "interim-gram-positive-cocci-clusters",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Gram-positive cocci in pairs and chains",
+              "target": "interim-gram-positive-cocci-chains",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Gram-positive bacilli",
+              "target": "interim-gram-positive-bacilli",
+              "children": [
+               {
+                "type": "link",
+                "label": "LARGE UNIFORM BACILLI in an AEROBIC bottle",
+                "target": "interim-large-bacilli-aerobic-bottle",
+                "children": []
+               },
+               {
+                "type": "link",
+                "label": "LARGE UNIFORM BACILLI in an ANAEROBIC bottle",
+                "target": "interim-large-bacilli-anaerobic-bottle",
+                "children": []
+               },
+               {
+                "type": "link",
+                "label": "SMALL PLEOMORPHIC BACILLI in AEROBIC bottle",
+                "target": "interim-small-bacilli-aerobic-bottle",
+                "children": []
+               },
+               {
+                "type": "link",
+                "label": "SMALL PLEOMORPHIC BACILLI in ANAEROBIC bottle",
+                "target": "interim-small-bacilli-anaerobic-bottle",
+                "children": []
+               }
+              ]
+             },
+             {
+              "type": "link",
+              "label": "Gram-negative bacilli",
+              "target": "interim-gram-negative-bacilli",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Gram-negative cocci",
+              "target": "interim-gram-negative-cocci",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Yeast",
+              "target": "interim-yeast",
+              "children": []
+             }
+            ]
+           },
+           {
+            "type": "section",
+            "label": "Rapid PCR blood culture results",
+            "level": 1,
+            "children": [
+             {
+              "type": "link",
+              "label": "Staphylococcus aureus",
+              "target": "staphylococcus-aureus-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Staphylococcus lugdunensis",
+              "target": "staphylococcus-lugdunensis-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Other staphylococcus sp. (Coagulase-negative Staphylococci)",
+              "target": "coagulase-negative-staphylococci-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Enterococci",
+              "target": "enterococci",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Streptococci",
+              "target": "streptococci",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Listeria monocytogenes",
+              "target": "listeria-monocytogenes-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Citrobacter, Enterobacter cloacae, or Klebsiella aerogenes",
+              "target": "citrobacter-freundii-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Pseudomonas sp.",
+              "target": "pseudomonas-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Other Gram-negatives",
+              "target": "other-gram-negative-rods-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Candida spp.",
+              "target": "candidemia",
+              "children": []
+             }
+            ]
+           }
+          ]
+         },
          {
           "type": "link",
           "label": "Staphylococcus aureus",
@@ -5573,6 +6457,12 @@
           "type": "link",
           "label": "Uncomplicated UTI (infection confined to the bladder)",
           "target": "uncomp-uti",
+          "children": []
+         },
+         {
+          "type": "link",
+          "label": "Urine culture",
+          "target": "urine-culture",
           "children": []
          }
         ]
@@ -6977,7 +7867,77 @@
               "type": "link",
               "label": "Dermatologic Infections",
               "target": "dermatologic-surgery-guidelines",
-              "children": []
+              "children": [
+               {
+                "type": "section",
+                "label": "Background information on antibiotic prophylaxis in dermatologic surgery:",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Antimicrobial Prophylaxis and Dermatologic Surgery",
+                  "target": "derm-prophylaxis",
+                  "children": []
+                 }
+                ]
+               },
+               {
+                "type": "section",
+                "label": "Specific antibiotic prophylaxis recommendations in dermatologic surgery:",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Oral mucosa or infected skin surgical site with high risk of infective endocarditis",
+                  "target": "prev-of-bact-endocarditis",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Oral mucosa or surgical site with high risk of hematogenous prosthetic joint infection",
+                  "target": "prevention-of-prosthetic-joint-infection-in-dental-surgery",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Infected skin surgical site with high risk of hematogenous prosthetic joint infection",
+                  "target": "prevention-of-prosthetic-joint-infection-with-dirty-operation-site",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Other high risk surgical sites and conditions",
+                  "target": "high-risk-surgical-site-prophylaxis",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Photodynamic therapy and laser skin resurfacing HSV-1 prophylaxis",
+                  "target": "photodynamic-therapy-hsv-1-prophylaxis",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Post-operative prophylaxis recommendations",
+                  "target": "derm-post-op-infections",
+                  "children": []
+                 }
+                ]
+               },
+               {
+                "type": "section",
+                "label": "Dermatologic surgical site infection recommendations:",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Management of Post-Operative infections",
+                  "target": "dermatologic-surgical-site-infection",
+                  "children": []
+                 }
+                ]
+               }
+              ]
              }
             ]
            }
@@ -7278,6 +8238,12 @@
             "type": "link",
             "label": "Vibrio cholerae",
             "target": "cholera",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Vibrio, non-cholerae",
+            "target": "vibrio-non-cholerae",
             "children": []
            },
            {
@@ -7688,7 +8654,7 @@
   ]
  },
  "539-Cincinnati": {
-  "nodeCount": 664,
+  "nodeCount": 742,
   "headerMenus": [
    {
     "label": "General and Misc",
@@ -8450,6 +9416,12 @@
            },
            {
             "type": "link",
+            "label": "Vibrio, non-cholerae",
+            "target": "vibrio-non-cholerae",
+            "children": []
+           },
+           {
+            "type": "link",
             "label": "Yersinia enterocolitica",
             "target": "yersinia-enterocolitica",
             "children": []
@@ -8554,6 +9526,12 @@
           "label": "Peritonitis associated with peritoneal dialysis",
           "level": 1,
           "children": [
+           {
+            "type": "link",
+            "label": "Initial empiric treatment",
+            "target": "initial-peri-assoc-w-peri-dial",
+            "children": []
+           },
            {
             "type": "link",
             "label": "Ongoing treatment (empiric and pathogen specific)",
@@ -8776,6 +9754,12 @@
           "type": "link",
           "label": "Pharyngitis",
           "target": "pharyngitis",
+          "children": []
+         },
+         {
+          "type": "link",
+          "label": "Respiratory Papillomatosis",
+          "target": "respiratory-papillomatosis",
           "children": []
          },
          {
@@ -9102,7 +10086,77 @@
         "type": "link",
         "label": "Dermatology Post-Op Infection",
         "target": "dermatologic-surgery-guidelines",
-        "children": []
+        "children": [
+         {
+          "type": "section",
+          "label": "Background information on antibiotic prophylaxis in dermatologic surgery:",
+          "level": 1,
+          "children": [
+           {
+            "type": "link",
+            "label": "Antimicrobial Prophylaxis and Dermatologic Surgery",
+            "target": "derm-prophylaxis",
+            "children": []
+           }
+          ]
+         },
+         {
+          "type": "section",
+          "label": "Specific antibiotic prophylaxis recommendations in dermatologic surgery:",
+          "level": 1,
+          "children": [
+           {
+            "type": "link",
+            "label": "Oral mucosa or infected skin surgical site with high risk of infective endocarditis",
+            "target": "prev-of-bact-endocarditis",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Oral mucosa or surgical site with high risk of hematogenous prosthetic joint infection",
+            "target": "prevention-of-prosthetic-joint-infection-in-dental-surgery",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Infected skin surgical site with high risk of hematogenous prosthetic joint infection",
+            "target": "prevention-of-prosthetic-joint-infection-with-dirty-operation-site",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Other high risk surgical sites and conditions",
+            "target": "high-risk-surgical-site-prophylaxis",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Photodynamic therapy and laser skin resurfacing HSV-1 prophylaxis",
+            "target": "photodynamic-therapy-hsv-1-prophylaxis",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Post-operative prophylaxis recommendations",
+            "target": "derm-post-op-infections",
+            "children": []
+           }
+          ]
+         },
+         {
+          "type": "section",
+          "label": "Dermatologic surgical site infection recommendations:",
+          "level": 1,
+          "children": [
+           {
+            "type": "link",
+            "label": "Management of Post-Operative infections",
+            "target": "dermatologic-surgical-site-infection",
+            "children": []
+           }
+          ]
+         }
+        ]
        },
        {
         "type": "section",
@@ -9135,7 +10189,77 @@
               "type": "link",
               "label": "Dermatologic Infections",
               "target": "dermatologic-surgery-guidelines",
-              "children": []
+              "children": [
+               {
+                "type": "section",
+                "label": "Background information on antibiotic prophylaxis in dermatologic surgery:",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Antimicrobial Prophylaxis and Dermatologic Surgery",
+                  "target": "derm-prophylaxis",
+                  "children": []
+                 }
+                ]
+               },
+               {
+                "type": "section",
+                "label": "Specific antibiotic prophylaxis recommendations in dermatologic surgery:",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Oral mucosa or infected skin surgical site with high risk of infective endocarditis",
+                  "target": "prev-of-bact-endocarditis",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Oral mucosa or surgical site with high risk of hematogenous prosthetic joint infection",
+                  "target": "prevention-of-prosthetic-joint-infection-in-dental-surgery",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Infected skin surgical site with high risk of hematogenous prosthetic joint infection",
+                  "target": "prevention-of-prosthetic-joint-infection-with-dirty-operation-site",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Other high risk surgical sites and conditions",
+                  "target": "high-risk-surgical-site-prophylaxis",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Photodynamic therapy and laser skin resurfacing HSV-1 prophylaxis",
+                  "target": "photodynamic-therapy-hsv-1-prophylaxis",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Post-operative prophylaxis recommendations",
+                  "target": "derm-post-op-infections",
+                  "children": []
+                 }
+                ]
+               },
+               {
+                "type": "section",
+                "label": "Dermatologic surgical site infection recommendations:",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Management of Post-Operative infections",
+                  "target": "dermatologic-surgical-site-infection",
+                  "children": []
+                 }
+                ]
+               }
+              ]
              }
             ]
            }
@@ -9216,6 +10340,249 @@
         "label": "Blood stream infection",
         "level": 1,
         "children": [
+         {
+          "type": "link",
+          "label": "Bacteremia: approach, empirical therapy and interim culture results",
+          "target": "bacteremia",
+          "children": [
+           {
+            "type": "section",
+            "label": "Approach and empirical therapy",
+            "level": 1,
+            "children": [
+             {
+              "type": "link",
+              "label": "Approach to bacteremia",
+              "target": "approach-to-bacteremia",
+              "children": [
+               {
+                "type": "section",
+                "label": "For infections with signs and/or symptoms of severe sepsis, like hypotension or end organ dysfunction",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Sepsis, severe sepsis, and septic shock",
+                  "target": "sepsis-and-shock",
+                  "children": []
+                 }
+                ]
+               },
+               {
+                "type": "section",
+                "label": "Empirical treatment of suspected bacteremia if local infection is not apparent and blood cultures are not yet positive",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Suspected bacteremia, blood cultures not yet positive",
+                  "target": "suspected-bacteremia-cultures-not-yet-positive",
+                  "children": []
+                 }
+                ]
+               },
+               {
+                "type": "section",
+                "label": "Preliminary results of a positive culture are available",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-positive cocci in pairs",
+                  "target": "interim-gram-positive-cocci-pairs",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-positive cocci in pairs and clusters",
+                  "target": "interim-gram-positive-cocci-clusters",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-positive cocci in pairs and chains",
+                  "target": "interim-gram-positive-cocci-chains",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-negative bacilli",
+                  "target": "interim-gram-negative-bacilli",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-negative cocci",
+                  "target": "interim-gram-negative-cocci",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-positive bacilli",
+                  "target": "interim-gram-positive-bacilli",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of yeast",
+                  "target": "interim-yeast",
+                  "children": []
+                 }
+                ]
+               }
+              ]
+             },
+             {
+              "type": "link",
+              "label": "Suspected bacteremia, blood cultures not yet positive",
+              "target": "suspected-bacteremia-cultures-not-yet-positive",
+              "children": []
+             }
+            ]
+           },
+           {
+            "type": "section",
+            "label": "Interim blood culture results (Gram stain)",
+            "level": 1,
+            "children": [
+             {
+              "type": "link",
+              "label": "Gram-positive cocci in pairs",
+              "target": "interim-gram-positive-cocci-pairs",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Gram-positive cocci in pairs and clusters",
+              "target": "interim-gram-positive-cocci-clusters",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Gram-positive cocci in pairs and chains",
+              "target": "interim-gram-positive-cocci-chains",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Gram-positive bacilli",
+              "target": "interim-gram-positive-bacilli",
+              "children": [
+               {
+                "type": "link",
+                "label": "LARGE UNIFORM BACILLI in an AEROBIC bottle",
+                "target": "interim-large-bacilli-aerobic-bottle",
+                "children": []
+               },
+               {
+                "type": "link",
+                "label": "LARGE UNIFORM BACILLI in an ANAEROBIC bottle",
+                "target": "interim-large-bacilli-anaerobic-bottle",
+                "children": []
+               },
+               {
+                "type": "link",
+                "label": "SMALL PLEOMORPHIC BACILLI in AEROBIC bottle",
+                "target": "interim-small-bacilli-aerobic-bottle",
+                "children": []
+               },
+               {
+                "type": "link",
+                "label": "SMALL PLEOMORPHIC BACILLI in ANAEROBIC bottle",
+                "target": "interim-small-bacilli-anaerobic-bottle",
+                "children": []
+               }
+              ]
+             },
+             {
+              "type": "link",
+              "label": "Gram-negative bacilli",
+              "target": "interim-gram-negative-bacilli",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Gram-negative cocci",
+              "target": "interim-gram-negative-cocci",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Yeast",
+              "target": "interim-yeast",
+              "children": []
+             }
+            ]
+           },
+           {
+            "type": "section",
+            "label": "Rapid PCR blood culture results",
+            "level": 1,
+            "children": [
+             {
+              "type": "link",
+              "label": "Staphylococcus aureus",
+              "target": "staphylococcus-aureus-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Staphylococcus lugdunensis",
+              "target": "staphylococcus-lugdunensis-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Other staphylococcus sp. (Coagulase-negative Staphylococci)",
+              "target": "coagulase-negative-staphylococci-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Enterococci",
+              "target": "enterococci",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Streptococci",
+              "target": "streptococci",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Listeria monocytogenes",
+              "target": "listeria-monocytogenes-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Citrobacter, Enterobacter cloacae, or Klebsiella aerogenes",
+              "target": "citrobacter-freundii-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Pseudomonas sp.",
+              "target": "pseudomonas-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Other Gram-negatives",
+              "target": "other-gram-negative-rods-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Candida spp.",
+              "target": "candidemia",
+              "children": []
+             }
+            ]
+           }
+          ]
+         },
          {
           "type": "link",
           "label": "Staphylococcus aureus",
@@ -9417,6 +10784,12 @@
           "type": "link",
           "label": "Uncomplicated UTI (infection confined to the bladder)",
           "target": "uncomp-uti",
+          "children": []
+         },
+         {
+          "type": "link",
+          "label": "Urine culture",
+          "target": "urine-culture",
           "children": []
          }
         ]
@@ -10821,7 +12194,77 @@
               "type": "link",
               "label": "Dermatologic Infections",
               "target": "dermatologic-surgery-guidelines",
-              "children": []
+              "children": [
+               {
+                "type": "section",
+                "label": "Background information on antibiotic prophylaxis in dermatologic surgery:",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Antimicrobial Prophylaxis and Dermatologic Surgery",
+                  "target": "derm-prophylaxis",
+                  "children": []
+                 }
+                ]
+               },
+               {
+                "type": "section",
+                "label": "Specific antibiotic prophylaxis recommendations in dermatologic surgery:",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Oral mucosa or infected skin surgical site with high risk of infective endocarditis",
+                  "target": "prev-of-bact-endocarditis",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Oral mucosa or surgical site with high risk of hematogenous prosthetic joint infection",
+                  "target": "prevention-of-prosthetic-joint-infection-in-dental-surgery",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Infected skin surgical site with high risk of hematogenous prosthetic joint infection",
+                  "target": "prevention-of-prosthetic-joint-infection-with-dirty-operation-site",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Other high risk surgical sites and conditions",
+                  "target": "high-risk-surgical-site-prophylaxis",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Photodynamic therapy and laser skin resurfacing HSV-1 prophylaxis",
+                  "target": "photodynamic-therapy-hsv-1-prophylaxis",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Post-operative prophylaxis recommendations",
+                  "target": "derm-post-op-infections",
+                  "children": []
+                 }
+                ]
+               },
+               {
+                "type": "section",
+                "label": "Dermatologic surgical site infection recommendations:",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Management of Post-Operative infections",
+                  "target": "dermatologic-surgical-site-infection",
+                  "children": []
+                 }
+                ]
+               }
+              ]
              }
             ]
            }
@@ -11122,6 +12565,12 @@
             "type": "link",
             "label": "Vibrio cholerae",
             "target": "cholera",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Vibrio, non-cholerae",
+            "target": "vibrio-non-cholerae",
             "children": []
            },
            {
@@ -11532,7 +12981,7 @@
   ]
  },
  "541-Cleveland": {
-  "nodeCount": 659,
+  "nodeCount": 704,
   "headerMenus": [
    {
     "label": "General and Misc",
@@ -12274,6 +13723,12 @@
            },
            {
             "type": "link",
+            "label": "Vibrio, non-cholerae",
+            "target": "vibrio-non-cholerae",
+            "children": []
+           },
+           {
+            "type": "link",
             "label": "Yersinia enterocolitica",
             "target": "yersinia-enterocolitica",
             "children": []
@@ -12378,6 +13833,12 @@
           "label": "Peritonitis associated with peritoneal dialysis",
           "level": 1,
           "children": [
+           {
+            "type": "link",
+            "label": "Initial empiric treatment",
+            "target": "initial-peri-assoc-w-peri-dial",
+            "children": []
+           },
            {
             "type": "link",
             "label": "Ongoing treatment (empiric and pathogen specific)",
@@ -12600,6 +14061,12 @@
           "type": "link",
           "label": "Pharyngitis",
           "target": "pharyngitis",
+          "children": []
+         },
+         {
+          "type": "link",
+          "label": "Respiratory Papillomatosis",
+          "target": "respiratory-papillomatosis",
           "children": []
          },
          {
@@ -13023,6 +14490,249 @@
         "children": [
          {
           "type": "link",
+          "label": "Bacteremia: approach, empirical therapy and interim culture results",
+          "target": "bacteremia",
+          "children": [
+           {
+            "type": "section",
+            "label": "Approach and empirical therapy",
+            "level": 1,
+            "children": [
+             {
+              "type": "link",
+              "label": "Approach to bacteremia",
+              "target": "approach-to-bacteremia",
+              "children": [
+               {
+                "type": "section",
+                "label": "For infections with signs and/or symptoms of severe sepsis, like hypotension or end organ dysfunction",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Sepsis, severe sepsis, and septic shock",
+                  "target": "sepsis-and-shock",
+                  "children": []
+                 }
+                ]
+               },
+               {
+                "type": "section",
+                "label": "Empirical treatment of suspected bacteremia if local infection is not apparent and blood cultures are not yet positive",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Suspected bacteremia, blood cultures not yet positive",
+                  "target": "suspected-bacteremia-cultures-not-yet-positive",
+                  "children": []
+                 }
+                ]
+               },
+               {
+                "type": "section",
+                "label": "Preliminary results of a positive culture are available",
+                "level": 1,
+                "children": [
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-positive cocci in pairs",
+                  "target": "interim-gram-positive-cocci-pairs",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-positive cocci in pairs and clusters",
+                  "target": "interim-gram-positive-cocci-clusters",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-positive cocci in pairs and chains",
+                  "target": "interim-gram-positive-cocci-chains",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-negative bacilli",
+                  "target": "interim-gram-negative-bacilli",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-negative cocci",
+                  "target": "interim-gram-negative-cocci",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of Gram-positive bacilli",
+                  "target": "interim-gram-positive-bacilli",
+                  "children": []
+                 },
+                 {
+                  "type": "link",
+                  "label": "Interim report of yeast",
+                  "target": "interim-yeast",
+                  "children": []
+                 }
+                ]
+               }
+              ]
+             },
+             {
+              "type": "link",
+              "label": "Suspected bacteremia, blood cultures not yet positive",
+              "target": "suspected-bacteremia-cultures-not-yet-positive",
+              "children": []
+             }
+            ]
+           },
+           {
+            "type": "section",
+            "label": "Interim blood culture results (Gram stain)",
+            "level": 1,
+            "children": [
+             {
+              "type": "link",
+              "label": "Gram-positive cocci in pairs",
+              "target": "interim-gram-positive-cocci-pairs",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Gram-positive cocci in pairs and clusters",
+              "target": "interim-gram-positive-cocci-clusters",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Gram-positive cocci in pairs and chains",
+              "target": "interim-gram-positive-cocci-chains",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Gram-positive bacilli",
+              "target": "interim-gram-positive-bacilli",
+              "children": [
+               {
+                "type": "link",
+                "label": "LARGE UNIFORM BACILLI in an AEROBIC bottle",
+                "target": "interim-large-bacilli-aerobic-bottle",
+                "children": []
+               },
+               {
+                "type": "link",
+                "label": "LARGE UNIFORM BACILLI in an ANAEROBIC bottle",
+                "target": "interim-large-bacilli-anaerobic-bottle",
+                "children": []
+               },
+               {
+                "type": "link",
+                "label": "SMALL PLEOMORPHIC BACILLI in AEROBIC bottle",
+                "target": "interim-small-bacilli-aerobic-bottle",
+                "children": []
+               },
+               {
+                "type": "link",
+                "label": "SMALL PLEOMORPHIC BACILLI in ANAEROBIC bottle",
+                "target": "interim-small-bacilli-anaerobic-bottle",
+                "children": []
+               }
+              ]
+             },
+             {
+              "type": "link",
+              "label": "Gram-negative bacilli",
+              "target": "interim-gram-negative-bacilli",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Gram-negative cocci",
+              "target": "interim-gram-negative-cocci",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Yeast",
+              "target": "interim-yeast",
+              "children": []
+             }
+            ]
+           },
+           {
+            "type": "section",
+            "label": "Rapid PCR blood culture results",
+            "level": 1,
+            "children": [
+             {
+              "type": "link",
+              "label": "Staphylococcus aureus",
+              "target": "staphylococcus-aureus-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Staphylococcus lugdunensis",
+              "target": "staphylococcus-lugdunensis-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Other staphylococcus sp. (Coagulase-negative Staphylococci)",
+              "target": "coagulase-negative-staphylococci-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Enterococci",
+              "target": "enterococci",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Streptococci",
+              "target": "streptococci",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Listeria monocytogenes",
+              "target": "listeria-monocytogenes-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Citrobacter, Enterobacter cloacae, or Klebsiella aerogenes",
+              "target": "citrobacter-freundii-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Pseudomonas sp.",
+              "target": "pseudomonas-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Other Gram-negatives",
+              "target": "other-gram-negative-rods-bacteremia",
+              "children": []
+             },
+             {
+              "type": "link",
+              "label": "Candida spp.",
+              "target": "candidemia",
+              "children": []
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "type": "link",
           "label": "Staphylococcus aureus",
           "target": "staphylococcus-aureus-bacteremia",
           "children": []
@@ -13222,6 +14932,12 @@
           "type": "link",
           "label": "Uncomplicated UTI (infection confined to the bladder)",
           "target": "uncomp-uti",
+          "children": []
+         },
+         {
+          "type": "link",
+          "label": "Urine culture",
+          "target": "urine-culture",
           "children": []
          }
         ]
@@ -14914,6 +16630,12 @@
             "type": "link",
             "label": "Vibrio cholerae",
             "target": "cholera",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Vibrio, non-cholerae",
+            "target": "vibrio-non-cholerae",
             "children": []
            },
            {
