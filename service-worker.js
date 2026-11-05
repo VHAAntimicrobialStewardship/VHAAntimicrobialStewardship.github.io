@@ -6,7 +6,7 @@
 // Bump VERSION whenever a caching rule or the precache list changes; the activate
 // handler deletes every cache whose name does not match the current version.
 const APP_PREFIX = 'CDSS_';
-const VERSION = '1.274'; // Update the version when you make changes
+const VERSION = '1.275'; // Update the version when you make changes
 const CACHE_NAME = APP_PREFIX + VERSION;
 
 // Files precached on install. Pages not listed here (e.g. the production station
@@ -28,8 +28,12 @@ const URLS = [
   '/manifest.webmanifest',
   '/service-worker.js',
   '/shared/cdss-app.js',
+  '/shared/cdss-markdown.css',
+  '/shared/cdss-markdown.js',
   '/shared/cdss-sidebar.css',
   '/shared/cdss-sidebar.js',
+  '/shared/vendor/marked.umd.js',
+  '/shared/vendor/purify.min.js',
   
   '/stations/001-TestStation/TestStationCDSS.html',
 

@@ -23,6 +23,7 @@
 // original layout behaves exactly as before.
 // ===========================================================================
 const SIDEBAR_LAYOUT = Boolean(window.CDSSSidebar && window.CDSSSidebar.enabled);
+const MARKDOWN_RENDERER = Boolean(window.CDSSMarkdown && window.CDSSMarkdown.enabled);
 
 // Width (px) used to choose single vs multi-column page layouts: the viewport
 // normally, the centre column in the sidebar layout.
@@ -1368,11 +1369,52 @@ function createStructuredRichTextNavigationTable(selectedData) {
   showTable(table);
 }
 
+// Guidance page rendered by shared/cdss-markdown.js (marked + DOMPurify) when the station
+// page opts in with var Renderer = 'markdown'. Same table shell as the classic renderer:
+// optional banner row, one content cell, optional Page ID row.
+function buildMarkdownTable(selectedData, includePageIdRow = true) {
+  const table = document.createElement('table');
+  table.classList.add('table');
+  const tbody = document.createElement('tbody');
+  const isCombined = currentVersion === 'combined';
+
+  const content = window.CDSSMarkdown.render(typeof selectedData.Text === 'string' ? selectedData.Text : '', {
+    resolveLink: (target, label) => {
+      const resolvedItem = resolveEmbeddedLinkTarget(selectedData, target, label);
+      return resolvedItem && !shouldSuppressCombinedInternalLink(target, resolvedItem) ? resolvedItem : null;
+    },
+    openItem: (item, label) => handleRowClick({ Item: item, Text: label }, false),
+    imageUrl: (src) => normalizeContentAssetUrl(safeDecodeURIComponent((parseMarkdownTargetParts(src).url || '').trim())),
+    appendAbxText: isCombined ? appendPlainTextWithAbxLinks : null
+  });
+
+  const bannerText = window.CDSSMarkdown.takeBanner(content);
+  if (bannerText) {
+    appendBannerRow(tbody, bannerText, 1);
+  }
+
+  const bodyRow = document.createElement('tr');
+  const displayCell = document.createElement('td');
+  displayCell.appendChild(content);
+  bodyRow.appendChild(displayCell);
+  tbody.appendChild(bodyRow);
+
+  if (includePageIdRow) {
+    appendPageIdRow(tbody, selectedData.Name);
+  }
+
+  table.appendChild(tbody);
+  return table;
+}
+
 // Ordinary guidance page: one table row per source line (blank lines become
 // spacer rows), plus an optional full-width banner row for a leading "# Title".
 // Builds and returns the table without showing it; the sidebar layout also uses
 // it for the Therapy panel (without the Page ID row).
 function buildRichTextTable(selectedData, includePageIdRow = true) {
+  if (MARKDOWN_RENDERER) {
+    return buildMarkdownTable(selectedData, includePageIdRow);
+  }
   const table = document.createElement('table');
   table.classList.add('table');
   const tbody = document.createElement('tbody');
@@ -1521,7 +1563,7 @@ function findContentEnd(lines) {
   if (end < 0) {
     end = lines.length;
   }
-  while (end > 0 && (lines[end - 1].trim() === '' || /^\s*(?:#{1,6}\s*)?[_\-=*]{8,}\s*$/.test(lines[end - 1]))) {
+  while (end > 0 && (lines[end - 1].trim() === '' || /^\s*(?:#{1,6}\s*)?[_\-=*]{3,}\s*$/.test(lines[end - 1]))) {
     end--;
   }
   return end;

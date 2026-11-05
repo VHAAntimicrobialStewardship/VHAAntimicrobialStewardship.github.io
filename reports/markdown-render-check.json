@@ -1,0 +1,481 @@
+{
+  "generated": "2026-11-05T19:13:08.439Z",
+  "counts": {
+    "column-page": 28,
+    "has-list": 347,
+    "tag-like-text": 136,
+    "text-mismatch": 1,
+    "long-emphasis": 1,
+    "blockquote-marker": 3
+  },
+  "hardErrors": [
+    {
+      "station": "001-TestStation",
+      "page": "hepb-vaccine-information-old-page",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "text-mismatch",
+          "at": 860,
+          "expected": "name:autoimmunehepatitis,0,1,4monthsEngerix-Balanineaminotransfer",
+          "rendered": "name:autoimmunehepatitis,2)0,1,4monthsEngerix-Balanineaminotransf"
+        }
+      ]
+    }
+  ],
+  "columnPages": [
+    "001-TestStation/bispecific-crs-monitoring:Text",
+    "001-TestStation/cns:Text",
+    "001-TestStation/drug-info:Text",
+    "001-TestStation/index:Text",
+    "001-TestStation/main-menu:Text",
+    "001-TestStation/genitourinary:Text",
+    "001-TestStation/gi-intraabdominal:Text",
+    "001-TestStation/hepatitis-a-vaccine-information:Text",
+    "001-TestStation/head-and-neck:Text",
+    "001-TestStation/additional-assistance:Text",
+    "001-TestStation/help-page:Text",
+    "001-TestStation/immunocompromised-patient:Text",
+    "001-TestStation/lung-and-mediastinum:Text",
+    "001-TestStation/viruses:Text",
+    "001-TestStation/chickenpox-vaccine-information:Text",
+    "001-TestStation/haemophilus-influenza-type-b-vaccine-information:Text",
+    "001-TestStation/hepatitis-a-and-b-vaccine-information:Text",
+    "001-TestStation/human-papillomavirus-vaccine-information:Text",
+    "001-TestStation/measles-mumps-rubella-vaccine-information:Text",
+    "001-TestStation/meningococcal-conjugate-vaccine-information:Text",
+    "001-TestStation/meningococcal-serogroup-b-vaccine-information:Text",
+    "001-TestStation/pneumococcal-vaccine-information:Text",
+    "001-TestStation/zoster-vaccine-information:Text",
+    "001-TestStation/ssti-main-menu:Text",
+    "001-TestStation/tetanus-diphtheria-and-acellular-pertussis-vac-4c4170:Text",
+    "001-TestStation/surg-antibiotic-renal-redosing:Text",
+    "001-TestStation/surgical-pre-op-antibiotics:Text",
+    "001-TestStation/system-infectious-diseases:Text"
+  ],
+  "tagLikeText": {
+    "001-TestStation/osteomyelitis:Therapy": [
+      "ADD"
+    ],
+    "001-TestStation/pros-joint-bone-infect:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/septic-arthritis-nat-joint:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/vertebral-diskitis-osteom:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/cardiovascular-device-infections-excluding-valves:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/catheter-associated-infection-intravascular:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/empirical-therapy:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/pericarditis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/streptococcal-native-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/suppurative-thrombophlebitis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/abscess-spinal-epidural:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/bells-palsy:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/brain-abscess-from-contiguous-or-hematogenous-spread:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/brain-abscess-post-surgical-or-post-traumatic:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/brain-abscess-with-nocardia:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/brain-abscess-with-toxoplasma-gondii:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/cranial-epidural-abscess:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/gram-negative-bacilli-meningitis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/gram-positive-diplococci-meningitis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/meningitis-associated-with-trauma-or-nosocomial-infection:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/meningitis-with-streptococcus-pneumoniae:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/meningitis-without-gram-stain-results:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/subdural-empyema:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/suppurative-intracranial-thrombophlebitis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/surg-cefazolin-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "001-TestStation/surg-vancomycin-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "001-TestStation/prosthetic-valve-endocarditis-empirical-therapy:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/staphylococcal-prosthetic-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/streptococcal-prosthetic-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/bacteremia:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/bite-wnds-eikenella-corrodens:Text": [
+      "OR"
+    ],
+    "001-TestStation/bite-wnds-p-multocida:Text": [
+      "OR"
+    ],
+    "001-TestStation/bite-wnds-streptococci:Text": [
+      "OR"
+    ],
+    "001-TestStation/cap-inpatient-treated-setting-non-severe-cap:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/cap-inpatient-treated-setting-severe-cap:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/cap-outpatient-treated-setting:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/cap-treated-in-outpt-setting:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/covid-19-mpls-antimicrobial-guideline:Therapy": [
+      "OR"
+    ],
+    "001-TestStation/dermatologic-surgical-site-infection:Text": [
+      "AND"
+    ],
+    "001-TestStation/emp-intrav-w-o-vanco:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/emp-intrav-w-vanco:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/gonococcal:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/gram-pos-actinomyces-spp:Therapy": [
+      "OR"
+    ],
+    "001-TestStation/necrot-infect-direct-therapy:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/necrot-infect-emp-therapy:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/neut-fever-cand-oral-thera:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/osteom-with-p-aeruginosa:Text": [
+      "OR"
+    ],
+    "001-TestStation/pid:Therapy": [
+      "AND",
+      "OPTIONAL"
+    ],
+    "001-TestStation/sa-decolonization:Text": [
+      "AND"
+    ],
+    "001-TestStation/sepsis-severe-beta-lactam-reaction:Therapy": [
+      "ADD"
+    ],
+    "001-TestStation/acute-bact-prostatitis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/bacterial-vaginosis-male-sexual-partner:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/epididymitis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/post-exposure-prophylaxis-non-occupational:Text": [
+      "ORDER"
+    ],
+    "001-TestStation/surg-48hrs-after-proc:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/surg-gentamicin-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "001-TestStation/uncomp-uti:Therapy": [
+      "OR"
+    ],
+    "001-TestStation/urological-surgery-prophylaxis:Text": [
+      "Click"
+    ],
+    "001-TestStation/urological-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/appendicitis-w-o-perforation:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/appendicitis-with-perforation:Therapy": [
+      "AND",
+      "ADD"
+    ],
+    "001-TestStation/babesia-infections-general:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/cholangitis:Therapy": [
+      "ADD",
+      "AND"
+    ],
+    "001-TestStation/cholecystitis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/diverticulitis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/fungi-candida-albicans:Therapy": [
+      "OR"
+    ],
+    "001-TestStation/h-pylori-infect:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/hepatitis-a:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/liver-pyogenic-abscess:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/peri-assoc-w-peri-dial:Therapy": [
+      "OR",
+      "AND"
+    ],
+    "001-TestStation/second-peritonitis:Therapy": [
+      "AND",
+      "ADD"
+    ],
+    "001-TestStation/step-down-treatment:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/toxic-megacolon:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/typhlitis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/cmv-retinitis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/deep-orophar-infect:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/epiglottitis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/keratitis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/mastoiditis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/otitis-externa:Therapy": [
+      "ADD"
+    ],
+    "001-TestStation/parotitis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/postseptal-cellulitis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/preseptal-cellulitis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/supp-odontogenic-infect:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/hiv-aids:Text": [
+      "ORDER"
+    ],
+    "001-TestStation/ari-symptomatic-therapy:Text": [
+      "Link"
+    ],
+    "001-TestStation/aspiration-pneumonia:Therapy": [
+      "OR"
+    ],
+    "001-TestStation/cap-oral-treatment:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/empyema:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "001-TestStation/mediastinitis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/more-about-nosocomial-pneumonia:Text": [
+      "AND"
+    ],
+    "001-TestStation/nosocomial-pneumonia-with-pseudomonas-aeruginosa:Therapy": [
+      "ADD"
+    ],
+    "001-TestStation/pneumonia-hap-new:Text": [
+      "OR",
+      "ADD"
+    ],
+    "001-TestStation/pneumonia-hap-new:Therapy": [
+      "OR",
+      "ADD"
+    ],
+    "001-TestStation/ventilator-associated-pneumonia:Therapy": [
+      "AND",
+      "OR",
+      "ADD"
+    ],
+    "001-TestStation/brucella-infections-general:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/cmv-encephalitis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/cmv-pneumonia:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/disseminated-m-avium:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/herpes-keratitis:Therapy": [
+      "OR"
+    ],
+    "001-TestStation/m-avium-pneumonia:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/toxoplasma-infections-general:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/recommended-immunizations:Text": [
+      "COVID-19"
+    ],
+    "001-TestStation/acne:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/cellulitis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/decolonization-of-staphylococcus-aureus:Text": [
+      "AND"
+    ],
+    "001-TestStation/foot-ulcer-w-infect:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/hidradenitis-suppurativa:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/osteomyelitis-evaluation:Text": [
+      "Click"
+    ],
+    "001-TestStation/perianal-anorectal-abscess:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/biliary-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/bowel-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/cardiac-surgery-post-op-prophylaxis:Text": [
+      "AND"
+    ],
+    "001-TestStation/gynecological-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/surg-cefazolin-ir-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "001-TestStation/surg-cefazolin-wt-based-postop-doses-x2:Text": [
+      "Click"
+    ],
+    "001-TestStation/surg-vancomycin-post-op-specific-dosing:Text": [
+      "Click"
+    ],
+    "001-TestStation/thoracic-surgery-post-op-prophylaxis:Text": [
+      "AND"
+    ],
+    "001-TestStation/urological-post-operative-prophylaxis:Text": [
+      "Click"
+    ],
+    "001-TestStation/enterococcal-intravascular-catheter-associa-7d0538:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/fungi-candida-krusei:Therapy": [
+      "OR"
+    ],
+    "001-TestStation/fungi-cryptococcus-neoformans:Therapy": [
+      "OR",
+      "AND"
+    ],
+    "001-TestStation/intravas-cath-coag-neg-staph:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/intravas-cath-gnb:Therapy": [
+      "ADD"
+    ],
+    "001-TestStation/neut-fever-pt-become-afebrile:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/pneumocystis-jirovecii:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/sepsis-empiric-therapy-site-unk:Text": [
+      "ADD"
+    ],
+    "001-TestStation/sepsis-empiric-therapy-site-unk:Therapy": [
+      "ADD"
+    ],
+    "001-TestStation/sepsis-pneumonia:Text": [
+      "AND",
+      "ADD"
+    ],
+    "001-TestStation/sepsis-pneumonia:Therapy": [
+      "AND",
+      "SUBSTITUTE",
+      "ADD"
+    ],
+    "001-TestStation/sepsis-susp-c-difficile:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/sepsis-susp-endocarditis:Text": [
+      "ADD"
+    ],
+    "001-TestStation/sepsis-susp-endocarditis:Therapy": [
+      "ADD"
+    ],
+    "001-TestStation/sepsis-suspected-skin-soft-tissue:Text": [
+      "AND"
+    ],
+    "001-TestStation/sepsis-suspected-skin-soft-tissue:Therapy": [
+      "AND"
+    ],
+    "001-TestStation/toxic-shock-syndrome:Therapy": [
+      "AND",
+      "OR"
+    ]
+  }
+}

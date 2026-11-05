@@ -1,0 +1,10 @@
+{
+  "name": "cdss-scripts",
+  "private": true,
+  "description": "Node tooling for the markdown renderer migration (render checks, nav-model snapshots).",
+  "devDependencies": {
+    "dompurify": "^3.4.17",
+    "jsdom": "^26.0.0",
+    "marked": "^18.0.5"
+  }
+}

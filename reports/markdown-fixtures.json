@@ -1,0 +1,42 @@
+{
+  "table (GFM already)": [],
+  "numbered list": [
+    "001-TestStation/acute-sinusitis (Text)",
+    "001-TestStation/esbl-kpc-etc (Text)",
+    "001-TestStation/chronic-sinusitis (Text)"
+  ],
+  "bullet list": [
+    "001-TestStation/beta-lactam-allergy-assessment (Text)",
+    "001-TestStation/beta-lactam-allergy-facts (Text)",
+    "001-TestStation/ophthalmic-surgery-prophylaxis (Text)"
+  ],
+  "link heavy": [
+    "001-TestStation/index (Text)",
+    "001-TestStation/drug-info (Text)",
+    "001-TestStation/main-menu (Text)"
+  ],
+  "order blocks (< OR >)": [
+    "001-TestStation/foot-ulcer-w-infect (Therapy)",
+    "001-TestStation/necrot-infect-direct-therapy (Therapy)",
+    "001-TestStation/necrot-infect-emp-therapy (Therapy)"
+  ],
+  "raw tag-like text": [
+    "001-TestStation/ventilator-associated-pneumonia (Therapy)",
+    "001-TestStation/sepsis-pneumonia (Therapy)",
+    "001-TestStation/pid (Therapy)"
+  ],
+  "long references": [
+    "001-TestStation/hepatitis-a-and-b-vaccine-information (Text)",
+    "001-TestStation/measles-mumps-rubella-vaccine-information (Text)",
+    "001-TestStation/chickenpox-vaccine-information (Text)"
+  ],
+  "column delimiters": [
+    "001-TestStation/index (Text)",
+    "001-TestStation/hepatitis-a-vaccine-information (Text)",
+    "001-TestStation/chickenpox-vaccine-information (Text)"
+  ],
+  "indented lines": [],
+  "emphasis suspects": [
+    "001-TestStation/surg-vascular-surg-postop (Text)"
+  ]
+}
