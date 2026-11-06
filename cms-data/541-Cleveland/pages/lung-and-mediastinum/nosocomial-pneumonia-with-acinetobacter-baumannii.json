@@ -6,6 +6,6 @@
   "Term1": "Nosocomial pneumonia with acinetobacter baumannii",
   "Term2": "Acinetobacter baumannii, nosocomial pneumonia",
   "Text": "# NOSOCOMIAL PNEUMONIA WITH ACINETOBACTER BAUMANNII\n\nInfectious Diseases consultation is essential for cases with Acinetobacter which are often resistant to most therapies.\n\n# Consult ID if Carbapenemase gene detected (IMP, KPC, NDM, OXA-48, VIM)\n\n---\n\nReferences:\n\n- Kalil AC et al. Clin Infect Dis 2016. 63:1\n- Up-to-date website",
-  "Therapy": "## Empiric treatment\n\n[Meropenem 2 gm IV q8h R,O](psjizid-meropenem-2gm-iv-q8h)\n\n< OR >\n[Ampicillin-sulbactam 3 gm IV q4h R,O](psjizid-ampicillin-sulbactam-3gm-iv-q4h)",
+  "Therapy": "## Empiric treatment\n\nMeropenem 2 gm IV q8h R,O\n\n< OR >\nAmpicillin-sulbactam 3 gm IV q4h R,O",
   "Inpt": "ORZID2 GMENU ABX NOSOCOMIAL A. BAUMANNII"
 }

@@ -6,6 +6,6 @@
   "Term1": "Bacillus species",
   "Term2": "",
   "Text": "# BACILLUS SPECIES\n\nFor non-cereus or anthracis isolates, seriously consider as contaminant.\n\n# For B. anthracis isolates, consult Infectious Diseases immediately.\n\n---\n\nReferences:\n\n- MMWR Recomm Rep. 2023 Nov 17:72(6):1-47. doi: 10.15585/mmwr.rr7206a1\n- Up-to-Date article: Bacillus cereus and other non-anthracis Bacillus species\n- Up-to-Date article: Treatment of anthrax\n- Sanford Guide article: Bacillus sp.\n- Sanford Guide article: Anthrax, Systemic",
-  "Therapy": "## B. cereus treatment\n\nOptimal therapy depends on both the disease or syndrome and the pathogen. See disease/syndrome sections for more information. No specific treatment is needed for food poisoning.\n\nPreferred treatment:\n[Vancomycin 15 mg/kg IV q12h R](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)",
+  "Therapy": "## B. cereus treatment\n\nOptimal therapy depends on both the disease or syndrome and the pathogen. See disease/syndrome sections for more information. No specific treatment is needed for food poisoning.\n\nPreferred treatment:\nVancomycin 15 mg/kg IV q12h R",
   "Inpt": "ORZID2 GMENU GRAM-POS FI BACILLUS SPP."
 }

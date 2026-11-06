@@ -28,6 +28,8 @@ _spec.loader.exec_module(audit)
 FIELDS = ("Text", "Therapy")
 # Targets the runtime or CMS handles itself.
 KEEP_PREFIXES = ("http://", "https://", "mailto:", "cdss:", "/", "#")
+# Non-VA medication order dialogs (pshzid, pshzid2, ...) are missing from audit's prefix list.
+EXTRA_ORDER_PREFIXES = ("pshzid",)
 
 
 def station_entry(station):
@@ -68,7 +70,8 @@ def rewrite(text, names, od_names, page_ids, kept):
             return match.group(0)
         # Links resolving only to an order dialog are suppressed in combined mode
         # (shouldSuppressCombinedInternalLink in cdss-app.js), so the site shows plain text.
-        if normalized not in od_names and (audit.LEGACY_LINK_RE.match(tl) or not audit.is_non_menu_link(tl)):
+        is_order = audit.is_non_menu_link(tl) or tl.startswith(EXTRA_ORDER_PREFIXES)
+        if normalized not in od_names and (audit.LEGACY_LINK_RE.match(tl) or not is_order):
             kept.append((label, target))
             return match.group(0)
         count += 1

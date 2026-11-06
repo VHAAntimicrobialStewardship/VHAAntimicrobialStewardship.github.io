@@ -5,6 +5,6 @@
   "SortKey": "general~1~pd cefazolin 15mg/kg q24h",
   "Term1": "PD CEFAZOLIN 15MG/KG Q24H",
   "Term2": "Peritoneal dialysis peritonitis, cefazolin",
-  "Text": "# CEFAZOLIN\n\n# FOR PERITONITIS ASSOCIATED WITH PERITONEAL DIALYSIS\n\nCefazolin 15 mg/kg PD q24h in 2000 mL 2.5% dextrose diaslyate solution\n[Click Here to order WITH heparin](psjizid-pd-cefazolin-15mg-kg-q24h-hep)\n\nIf Heparin is contraindicated then:\n\n[Click Here to order WITHOUT heparin](psjizid-pd-cefazolin-15mg-kg-q24h)",
+  "Text": "# CEFAZOLIN\n\n# FOR PERITONITIS ASSOCIATED WITH PERITONEAL DIALYSIS\n\nCefazolin 15 mg/kg PD q24h in 2000 mL 2.5% dextrose diaslyate solution\nClick Here to order WITH heparin\n\nIf Heparin is contraindicated then:\n\nClick Here to order WITHOUT heparin",
   "Inpt": "ORZID2 GMENU PD CEFAZOLIN 15MG/KG Q24H"
 }

@@ -5,6 +5,6 @@
   "SortKey": "general~1~pd vancomycin 15-30mg/kg q5-7d",
   "Term1": "PD VANCOMYCIN 15-30MG/KG Q5-7D",
   "Term2": "Peritoneal dialysis peritonitis, vancomycin",
-  "Text": "# VANCOMYCIN\n\n# FOR PERITONITIS ASSOCIATED WITH PERITONEAL DIALYSIS\n\nVancomycin 30 mg/kg PD loading dose followed by 15 mg/kg PD every 3 to 7 days in 2000 mL 2.5% dextrose diaslyate solution.\n\n[Click Here to order WITH heparin](orz-set-abx-pd-vanco-30mg-kg-15mg-kg-q5-7d-hep-low-mag-2-5)\n\nIf Heparin is contraindicated then:\n\n[Click Here to order WITHOUT heparin](orz-set-abx-pd-vanco-30mg-kg-15mg-kg-q5-7d-low-mag-2-5)",
+  "Text": "# VANCOMYCIN\n\n# FOR PERITONITIS ASSOCIATED WITH PERITONEAL DIALYSIS\n\nVancomycin 30 mg/kg PD loading dose followed by 15 mg/kg PD every 3 to 7 days in 2000 mL 2.5% dextrose diaslyate solution.\n\nClick Here to order WITH heparin\n\nIf Heparin is contraindicated then:\n\nClick Here to order WITHOUT heparin",
   "Inpt": "ORZID2 GMENU PD VANCO 15-30MG/KG Q5-7D"
 }

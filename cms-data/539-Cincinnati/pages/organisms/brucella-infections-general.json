@@ -6,6 +6,6 @@
   "Term1": "Brucella infections, general",
   "Term2": "",
   "Text": "# BRUCELLA SPECIES\n\n# Consult Infectious Diseases in all cases\n\n---\n\nReferences:\n\n- Sanford keyword: Brucella sp., Brucellosis, Febrile Illness\n- Up-To-Date article: Clinical manifestations, diagnosis, and treatment of brucellosis",
-  "Therapy": "## Preferred treatment\n\n[Doxycycline 100 mg PO q12h DI](orz-set-abx-doxycy-100mg-po-q12h-rifamp-600mg-po-q24h)\n[<AND>](orz-set-abx-doxycy-100mg-po-q12h-rifamp-600mg-po-q24h)\n[rifampin 600 mg PO q24h DI,O](orz-set-abx-doxycy-100mg-po-q12h-rifamp-600mg-po-q24h)",
+  "Therapy": "## Preferred treatment\n\nDoxycycline 100 mg PO q12h DI\n<AND>\nrifampin 600 mg PO q24h DI,O",
   "Inpt": "ORZID2 GMENU GRAM-NEG FINAL BRUCELLA SPP."
 }

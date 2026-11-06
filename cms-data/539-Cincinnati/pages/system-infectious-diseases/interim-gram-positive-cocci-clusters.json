@@ -6,6 +6,6 @@
   "Term1": "Gram-positive cocci in pairs and clusters bacteremia",
   "Term2": "Interim blood culture: Gram-positive cocci in clusters",
   "Text": "# INTERIM REPORT OF GRAM-POSITIVE COCCI IN PAIRS AND CLUSTERS\n\nThis suggests staphylococci. Empirical therapy should cover methicillin-resistant Staphylococcus aureus. If a susceptible isolate is identified, beta-lactam antimicrobials should be used as they are most effective at killing staphylococci. When a final pathogen is identified, treatment depends on which specific bacterium is identified.\n\nReferences\n\n- Medical Letter Choice of Antimicrobials 2010, 8.94\n- Sanford keyword: Staphylococci",
-  "Therapy": "## Empirical treatment of suspected staphylococcus infection\n\n[Vancomycin 15 mg/kg IV q12h \\(Cost $\\) R](orz-set-abx-vanco-new-start-15mg-kg-q12h-mrsa-nares-screening)",
+  "Therapy": "## Empirical treatment of suspected staphylococcus infection\n\nVancomycin 15 mg/kg IV q12h (Cost $) R",
   "Inpt": "ORZID2 GMENU INT RPT GPC PAIRS/CLUSTERS"
 }

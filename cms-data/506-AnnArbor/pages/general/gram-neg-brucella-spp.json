@@ -6,6 +6,6 @@
   "Term1": "gram-neg-brucella-spp",
   "Term2": "",
   "Text": "# BRUCELLA SPECIES\n\n# Consult Infectious Diseases in all cases\n\n---\n\nReferences:\n\n- Sanford keyword: Brucella sp., Brucellosis, Febrile Illness\n- Up-To-Date article: Clinical manifestations, diagnosis, and treatment of brucellosis",
-  "Therapy": "## Preferred treatment\n\n[Doxycycline 100 mg PO q12h DI < AND > rifampin 600 mg PO q24h DI,O](orz-set-abx-op-doxy-100mg-po-bid-rifamp-600mg-po-qd)\n\n[Non-VA order for above](orz-set-abx-nv-doxy-100mg-po-bid-rifamp-600mg-po-qd)",
+  "Therapy": "## Preferred treatment\n\nDoxycycline 100 mg PO q12h DI < AND > rifampin 600 mg PO q24h DI,O\n\nNon-VA order for above",
   "Inpt": "ORZID3 GMENU GRAM-NEG BRUCELLA SPP."
 }

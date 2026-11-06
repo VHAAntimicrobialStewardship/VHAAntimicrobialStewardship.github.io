@@ -5,7 +5,7 @@
   "SortKey": "organisms~1~malaria treatment",
   "Term1": "Malaria treatment",
   "Term2": "",
-  "Text": "# MALARIA TREATMENT\n\nConsider malaria in any febrile person who has traveled to a malaria-endemic area in preceding months Search \"CDC malaria countries\" for malaria endemic areas\n[Link to open internet browser and Google search \"CDC Malaria Countries\"](orz-gtx-abx-url-google-cdc-malaria-countries)\n\nObtain malaria smear and call ID on-call in ALL cases when a malaria test is sent\n[Malaria Smear lab order](lrtz-mb-malaria-smear)\n[ID on call schedule](clinical-on-call-schedule)\n\n---\n\nReferences:",
-  "Therapy": "## Treatment\n\n[Coartem + prior auth bundle: artemether 80 mg/lumefantrine 480 mg twice daily](orz-set-abx-malaria-treatment-and-prior-auth) for 3 days, the first 2 doses should be administered 8 hours apart Artesunate is appropriate in certain situations e.g. severe malaria - contact Infectious Diseases on call",
+  "Text": "# MALARIA TREATMENT\n\nConsider malaria in any febrile person who has traveled to a malaria-endemic area in preceding months Search \"CDC malaria countries\" for malaria endemic areas\nLink to open internet browser and Google search \"CDC Malaria Countries\"\n\nObtain malaria smear and call ID on-call in ALL cases when a malaria test is sent\nMalaria Smear lab order\n[ID on call schedule](clinical-on-call-schedule)\n\n---\n\nReferences:",
+  "Therapy": "## Treatment\n\nCoartem + prior auth bundle: artemether 80 mg/lumefantrine 480 mg twice daily for 3 days, the first 2 doses should be administered 8 hours apart Artesunate is appropriate in certain situations e.g. severe malaria - contact Infectious Diseases on call",
   "Inpt": "ORZID2 GMENU ABX MALARIA TREATMENT"
 }

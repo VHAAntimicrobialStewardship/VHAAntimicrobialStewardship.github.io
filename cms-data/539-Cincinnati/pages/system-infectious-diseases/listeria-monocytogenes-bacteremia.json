@@ -6,6 +6,6 @@
   "Term1": "Bacteremia associated with listeria monocytogenes",
   "Term2": "Bacteremia, Listeria monocytogenes",
   "Text": "# BACTEREMIA ASSOCIATED WITH LISTERIA MONOCYTOGENES\n\nConsult Infectious Diseases in all cases. Identification and treatment of the source of infection, in addition to antimicrobial therapy, is crucial for resolution of infection.\n\n# Duration of treatment\n\nTreat for a total duration of at least 2 weeks.\n\n---\n\nReferences:\n\n- Charlier et al., Lancet Infect Dis 2017, May:17(5):510-519. doi: 10.1016/S1473-3099(16)30521-7\n- Mandell chapter: Listeria Monocytogenes\n- Medical Letter Choice of Antimicrobials 2010, 8.94\n- Sanford keyword: Listeria monocytogenes\n- Up-to-Date article: Detection of bacteremia: Blood cultures and other diagnostic tests\n- Up-to-Date article: Treatment and prevention of Listeria monocytogenes infection",
-  "Therapy": "## Treatment of listeria infection\n\n[Ampicillin 2 gm IV q4h ($$) R](psjizid-ampicillin-2-gm-iv-q4h)\n\n## Alternative\n\n[Assessment of beta-lactam reaction](orz-gtx-abx-beta-lactam-reaction-pdf)\n[Trimethoprim 5 mg/kg - sulfamethoxazole 25 mg/kg IV q12h ($$$) R,DI](psjizid-trimethoprim-sulfameth-5-25-mg-kg-iv-q12h)",
+  "Therapy": "## Treatment of listeria infection\n\nAmpicillin 2 gm IV q4h ($$) R\n\n## Alternative\n\nAssessment of beta-lactam reaction\nTrimethoprim 5 mg/kg - sulfamethoxazole 25 mg/kg IV q12h ($$$) R,DI",
   "Inpt": "ORZID2 GMENU BACTEREMIA LISTERIA"
 }
