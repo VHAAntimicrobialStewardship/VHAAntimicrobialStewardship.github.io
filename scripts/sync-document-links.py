@@ -7,16 +7,13 @@ import json
 from pathlib import Path
 from urllib.parse import quote
 
+import station_registry
+
 BASE_URL = "https://vhaantimicrobialstewardship.github.io"
 ROOT = Path(__file__).parent.parent
 
 # Every station's cms-data/{station}/documents/ folder is synced.
-STATIONS: list[str] = [
-    "001-TestStation",
-    "541-Cleveland",
-    "539-Cincinnati",
-    "506-AnnArbor",
-]
+STATIONS: list[str] = [s["folder"] for s in station_registry.load()]
 
 
 def to_absolute_url(file_path: str) -> str:

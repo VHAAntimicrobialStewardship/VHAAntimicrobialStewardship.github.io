@@ -24,15 +24,14 @@ import json
 import re
 from pathlib import Path
 
+import station_registry
+
 ROOT = Path(__file__).parent.parent
 
 # (station folder, OMJSON filename, ODJSON filename, HTML filename)
 # All four stations are combined-only: no Inpatient/Outpatient/ER-UC tab buttons.
 STATIONS: list[tuple[str, str, str, str]] = [
-    ("001-TestStation", "TestStationOMJSON.json", "TestStationODJSON.json", "TestStationCDSS.html"),
-    ("541-Cleveland", "ClevelandOMJSON.json", "ClevelandODJSON.json", "ClevelandCDSS.html"),
-    ("539-Cincinnati", "CincinnatiOMJSON.json", "CincinnatiODJSON.json", "CincinnatiCDSS.html"),
-    ("506-AnnArbor", "AnnArborOMJSON.json", "AnnArborODJSON.json", "AnnArborCDSS.html"),
+    (s["folder"], s["omjson"], s["odjson"], s["html"]) for s in station_registry.load()
 ]
 
 REQUIRED_MENUS = ["main-menu"]

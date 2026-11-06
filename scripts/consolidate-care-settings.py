@@ -38,6 +38,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
+import station_registry  # noqa: E402
 
 
 def load_script(name):
@@ -50,7 +51,7 @@ def load_script(name):
 promote = load_script("promote-legacy-pages")
 cleanup = load_script("cleanup-legacy-records")
 
-STATIONS = [(s, om, od) for s, om, od in promote.STATIONS]
+STATIONS = [(s["folder"], s["omjson"], s["odjson"]) for s in station_registry.load()]
 DEFAULT_ARCHIVE = ROOT / "docs" / "legacy-archive" / "001-TestStation-legacy-records.json"
 ARCHIVE = {}  # legacy record name -> record; loaded in main()
 

@@ -13,7 +13,7 @@ const { JSDOM } = require('jsdom');
 const { renderHtml } = require('./lib/markdown-config');
 
 const ROOT = path.resolve(__dirname, '..');
-const STATIONS = ['001-TestStation', '506-AnnArbor', '539-Cincinnati', '541-Cleveland'];
+const STATIONS = require('./stations.json').stations.map((s) => s.folder);
 const FIELDS = ['Text', 'Therapy'];
 const HARD = ['text-mismatch', 'table-extra-divider', 'indented-code', 'runaway-emphasis', 'blockquote-marker', 'separator-line', 'table-not-rendered'];
 

@@ -30,15 +30,12 @@ import sys
 from datetime import date
 from pathlib import Path
 
+import station_registry
+
 ROOT = Path(__file__).parent.parent
 
 # (station folder, OMJSON filename, ODJSON filename)
-STATIONS: list[tuple[str, str, str]] = [
-    ("001-TestStation", "TestStationOMJSON.json", "TestStationODJSON.json"),
-    ("506-AnnArbor", "AnnArborOMJSON.json", "AnnArborODJSON.json"),
-    ("539-Cincinnati", "CincinnatiOMJSON.json", "CincinnatiODJSON.json"),
-    ("541-Cleveland", "ClevelandOMJSON.json", "ClevelandODJSON.json"),
-]
+STATIONS: list[tuple[str, str, str]] = [(s["folder"], s["omjson"], s["odjson"]) for s in station_registry.load()]
 MAIN_MENUS = {"main-menu", "inpt-main"}
 LEGACY_NAME_RE = re.compile(r"^ORZ")
 TERM_KEY_RE = re.compile(r"^Term\d+$")

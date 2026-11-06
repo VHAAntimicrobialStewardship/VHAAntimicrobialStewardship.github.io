@@ -1,0 +1,9 @@
+{
+  "_comment": "The CMS stations, read by the pipeline scripts (station_registry.py, render-check.js, nav-snapshot.js) and the compile-cms CI workflow. The test station must stay first. Files: stations/<folder>/<prefix>OMJSON.json, <prefix>ODJSON.json, <prefix>CDSS.html; content in cms-data/<folder>/. Add stations with scripts/new-station.py.",
+  "stations": [
+    { "folder": "001-TestStation", "prefix": "TestStation", "label": "001-TestStation", "role": "test" },
+    { "folder": "506-AnnArbor", "prefix": "AnnArbor", "label": "Ann Arbor", "role": "production" },
+    { "folder": "539-Cincinnati", "prefix": "Cincinnati", "label": "Cincinnati", "role": "production" },
+    { "folder": "541-Cleveland", "prefix": "Cleveland", "label": "Cleveland", "role": "production" }
+  ]
+}

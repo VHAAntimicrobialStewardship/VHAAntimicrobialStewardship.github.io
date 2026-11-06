@@ -18,19 +18,16 @@ import re
 import subprocess
 from pathlib import Path
 
+import station_registry
+
 ROOT = Path(__file__).parent.parent
 
 # One entry per station: (station folder under stations/, OMJSON filename).
 # cms-data/{station_dir}/pages/ is assumed for every station.
-STATIONS: list[tuple[str, str]] = [
-    ("001-TestStation", "TestStationOMJSON.json"),
-    ("541-Cleveland", "ClevelandOMJSON.json"),
-    ("539-Cincinnati", "CincinnatiOMJSON.json"),
-    ("506-AnnArbor", "AnnArborOMJSON.json"),
-]
+STATIONS: list[tuple[str, str]] = [(s["folder"], s["omjson"]) for s in station_registry.load()]
 
 # Stations whose OMJSON records get LastUpdated metadata from git history.
-GIT_META_STATIONS = {"001-TestStation", "541-Cleveland", "539-Cincinnati", "506-AnnArbor"}
+GIT_META_STATIONS = {folder for folder, _ in STATIONS}
 # Pages that never show a "Last updated" line.
 GIT_META_SKIP_PAGES = {"main-menu", "inpt-main"}
 # Sveltia's default commit subject, e.g. Update 001-TestStation “group/page”.

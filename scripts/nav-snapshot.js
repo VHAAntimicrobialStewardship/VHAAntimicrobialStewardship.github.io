@@ -11,12 +11,7 @@ const vm = require('vm');
 
 const ROOT = path.resolve(__dirname, '..');
 const BASELINE = path.join(ROOT, 'reports', 'nav-model-baseline.json');
-const STATIONS = [
-  ['001-TestStation', 'TestStationOMJSON.json'],
-  ['506-AnnArbor', 'AnnArborOMJSON.json'],
-  ['539-Cincinnati', 'CincinnatiOMJSON.json'],
-  ['541-Cleveland', 'ClevelandOMJSON.json']
-];
+const STATIONS = require('./stations.json').stations.map((s) => [s.folder, `${s.prefix}OMJSON.json`]);
 
 function loadNav() {
   const sandbox = { window: { location: { search: '' } }, URLSearchParams, console };

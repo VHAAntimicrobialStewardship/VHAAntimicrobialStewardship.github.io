@@ -416,10 +416,11 @@
   const openMenus = [];
   const editAnchors = [];
 
-  // Sveltia collection id for this station, e.g. /stations/506-AnnArbor/ -> 506ann_all_pages.
+  // Sveltia collection id for this station, e.g. /stations/506-AnnArbor/ -> 506ann_all_pages,
+  // /stations/636A6-DesMoines/ -> 636a6des_all_pages (same rule as scripts/station_registry.py).
   function cmsCollectionName() {
-    const m = window.location.pathname.match(/\/stations\/(\d+)-([A-Za-z]+)\//);
-    return m ? m[1] + m[2].slice(0, 3).toLowerCase() + '_all_pages' : '';
+    const m = window.location.pathname.match(/\/stations\/(\d+[A-Za-z0-9]*)-([A-Za-z]+)\//);
+    return m ? m[1].toLowerCase() + m[2].slice(0, 3).toLowerCase() + '_all_pages' : '';
   }
 
   // Sveltia editor URL for a page record; the admin home when its CMS group is unknown.
