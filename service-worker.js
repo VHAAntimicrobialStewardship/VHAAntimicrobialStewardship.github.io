@@ -6,7 +6,7 @@
 // Bump VERSION whenever a caching rule or the precache list changes; the activate
 // handler deletes every cache whose name does not match the current version.
 const APP_PREFIX = 'CDSS_';
-const VERSION = '1.276'; // Update the version when you make changes
+const VERSION = '1.277'; // Update the version when you make changes
 const CACHE_NAME = APP_PREFIX + VERSION;
 
 // Files precached on install. Pages not listed here (e.g. the production station
@@ -46,13 +46,13 @@ const URLS = [
 
   '/stations/568-BlackHills/BlackHillsCDSS.html',
 
-  '/stations/618-Minneapolis/MinneapolisCDSS.html',
+  '/stations/000-OriginalCDSS/OriginalCDSS.html',
 
-  '/stations/636-Omaha/OmahaCDSS.html',
+  '/stations/636-Omaha/legacy/OmahaCDSS.html',
 
-  '/stations/636A6-DesMoines/DesMoinesCDSS.html',
+  '/stations/636A6-DesMoines/legacy/DesMoinesCDSS.html',
 
-  '/stations/656-StCloud/StCloudCDSS.html',
+  '/stations/656-StCloud/legacy/StCloudCDSS.html',
 
   '/Fonts/PTSerif-Bold.eot',
   '/Fonts/PTSerif-Bold.svg',

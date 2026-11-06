@@ -2348,7 +2348,7 @@ function openDropdown() {
 // has two listeners, so one click opens both the Black Hills and the
 // Minneapolis pages, and blackHillsButton has no listener.
 document.getElementById('desMoinesButton').addEventListener('click', function () {
-  openPageInNewWindow("stations/636A6-DesMoines/DesMoinesCDSS.html", { " CI ": " ", " NE ": " ", "GMENU": "CI GMENU" });
+  openPageInNewWindow("stations/636A6-DesMoines/legacy/DesMoinesCDSS.html", { " CI ": " ", " NE ": " ", "GMENU": "CI GMENU" });
 });
 document.getElementById('minneapolisButton').addEventListener('click', function () {
   openPageInNewWindow("stations/568-BlackHills/BlackHillsCDSS.html",{ " CI ": " ", " NE ": " " });
@@ -2357,13 +2357,13 @@ document.getElementById('fargoButton').addEventListener('click', function () {
   openPageInNewWindow("stations/437-Fargo/FargoCDSS.html",{ " CI ": " ", " NE ": " " });
 });
 document.getElementById('minneapolisButton').addEventListener('click', function () {
-  openPageInNewWindow("stations/618-Minneapolis/MinneapolisCDSS.html",{ " CI ": " ", " NE ": " " });
+  openPageInNewWindow("stations/000-OriginalCDSS/OriginalCDSS.html",{ " CI ": " ", " NE ": " " });
 });
 document.getElementById('omahaButton').addEventListener('click', function () {
-  openPageInNewWindow('stations/636-Omaha/OmahaCDSS.html', { " CI ": " ", " NE ": " ", "GMENU": "NE GMENU" });
+  openPageInNewWindow('stations/636-Omaha/legacy/OmahaCDSS.html', { " CI ": " ", " NE ": " ", "GMENU": "NE GMENU" });
 });
 document.getElementById('stCloudButton').addEventListener('click', function () {
-  openPageInNewWindow('stations/656-StCloud/StCloudCDSS.html', { " CI ": " ", " NE ": " " });
+  openPageInNewWindow('stations/656-StCloud/legacy/StCloudCDSS.html', { " CI ": " ", " NE ": " " });
 });
 document.getElementById('siouxFallsButton').addEventListener('click', function () {
   openPageInNewWindow('stations/438-SiouxFalls/SiouxFallsCDSS.html', { " CI ": " ", " NE ": " " });

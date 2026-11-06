@@ -25,7 +25,7 @@ DELETE_PAGES are removed from cms-data and OMJSON (compile never deletes); links
 Therapy panel (it has no drug recommendations).
 --archive names the JSON ({"menus": [{"Name", "Text"}, ...]}, OMJSON record shape with markdown links)
 holding the station's legacy ORZ records. The default, docs/legacy-archive, is the Minneapolis content in
-that shape; the raw stations/618-Minneapolis OMJSON (Contents/DisplayText) does not work here. Pages
+that shape; the raw stations/000-OriginalCDSS OMJSON (Contents/DisplayText) does not work here. Pages
 already in the new shape are skipped, so a
 re-run is safe. Then run compile-cms.py.
 """

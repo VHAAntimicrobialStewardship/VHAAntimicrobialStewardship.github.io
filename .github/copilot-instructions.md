@@ -26,10 +26,11 @@ Station roles (do not conflate these)
 
 - Production stations — stations/506-AnnArbor/, stations/539-Cincinnati/, stations/541-Cleveland/: live stations where real SME-driven content changes are expected and should be made freely per station request.
 - Test station — stations/001-TestStation/: for testing runtime/CMS/pipeline changes before they reach production stations. Safe to modify experimentally.
-- Minneapolis (reference only) — stations/618-Minneapolis/: the original source-of-truth reference kept only to check new work against. Do not make changes here (including incidental/cosmetic ones like footer buttons) unless the user explicitly asks for a Minneapolis-specific change.
-- All other station folders (437-Fargo, 438-SiouxFalls, 442-Cheyenne, 568-BlackHills, 636-Omaha, 636A6-DesMoines, 656-StCloud) are obsolete: do not touch, build features for, or treat as in-scope for changes unless the user explicitly says otherwise.
+- Original CDSS (reference only) — stations/000-OriginalCDSS/ (OriginalCDSS.html, OriginalOMJSON.json, OriginalODJSON.json, Original.txml): the original Minneapolis source-of-truth classic site, moved from stations/618-Minneapolis/ on 2026-11-06 and labeled "Original CDSS". Kept only to check new work against. Do not make changes here (including incidental/cosmetic ones like footer buttons) unless the user explicitly asks. Its records keep `Version: "Minneapolis"` as provenance. Wherever this file says "the Minneapolis reference page", it means this page.
+- Wave 2 stations (being onboarded) — 618-Minneapolis (folder now free for the new CMS station), 636-Omaha, 636A6-DesMoines, 656-StCloud. Their old classic pages and data were moved to stations/<id>/legacy/ (e.g. stations/636-Omaha/legacy/OmahaCDSS.html, titled "(legacy)") so the new station files cannot overwrite them; the legacy pages still open and are the source of local wording. Do not edit the legacy files. Minneapolis' legacy source is 000-OriginalCDSS.
+- All other station folders (437-Fargo, 438-SiouxFalls, 442-Cheyenne, 568-BlackHills) are obsolete: do not touch, build features for, or treat as in-scope for changes unless the user explicitly says otherwise. Their hidden station-switcher buttons still name the old wave 2 paths and were deliberately left alone.
 
-When a request says "all stations" or is otherwise ambiguous about scope, ask which of the above groups it applies to rather than assuming Minneapolis or the obsolete stations are included.
+When a request says "all stations" or is otherwise ambiguous about scope, ask which of the above groups it applies to rather than assuming the Original CDSS, wave 2 legacy pages or the obsolete stations are included.
 
 Stability-first operating rule
 
@@ -47,7 +48,7 @@ Critical files and ownership
 - Markdown page renderer (opt-in per station page): shared/cdss-markdown.js and shared/cdss-markdown.css, with vendored libraries in shared/vendor/ (marked.umd.js, purify.min.js)
 - Station configuration and entry page: stations/001-TestStation/TestStationCDSS.html (and the equivalent HTML in each production station)
 - Design reference: docs/CDSS_wire_10092026.pdf (sidebar wireframe). docs/ is deliberately outside station folders, cms-data/ and assets/uploads/ so Sveltia does not see it; keep non-site documents there.
-- Legacy record archive: docs/legacy-archive/001-TestStation-legacy-records.json (the removed ORZ records in converted Name/Text form; read by scripts/restore-from-legacy.py and, as the default `--archive`, by scripts/consolidate-care-settings.py). The raw stations/618-Minneapolis OMJSON uses a different record shape (Contents/DisplayText) and cannot replace it.
+- Legacy record archive: docs/legacy-archive/001-TestStation-legacy-records.json (the removed ORZ records in converted Name/Text form; read by scripts/restore-from-legacy.py and, as the default `--archive`, by scripts/consolidate-care-settings.py). The raw stations/000-OriginalCDSS/OriginalOMJSON.json uses a different record shape (Contents/DisplayText) and cannot replace it.
 - Master menu/order data: stations/001-TestStation/TestStationOMJSON.json and stations/001-TestStation/TestStationODJSON.json
 - CMS config and schema: admin/config.yml
 - CMS page content source: cms-data/001-TestStation/pages/<group>/<pageid>.json

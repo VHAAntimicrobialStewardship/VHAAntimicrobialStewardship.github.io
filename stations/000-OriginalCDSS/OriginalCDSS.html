@@ -10,19 +10,19 @@
   gtag('config', 'G-RZT6D0E0DS');
   </script>
   <script>
-  var CDSSlocation = 'Omaha'; /*Only important to CDSS program functions, can be left as it for other systems*/
-  var Title = 'Omaha Antimicrobial CDSS'; /*Name of the tab on the website*/
-  var MainMenuButton = 'Omaha Home'; /*Main menu button name*/
-  const MainMenu = 'ORZID2 NE GMENU ABX INPT MAIN'; /*the menu the website starts at*/
-  const outptMenu = 'ORZID3 NE GMENU ABX OUTPT MAIN'; /*the menu the website starts at*/
-  const erucMenu = 'ORZID NE GMENU ER/UC EMERGENCY DEPARTMENT MAIN MENU'; /*the menu the website starts at*/	  
+  var CDSSlocation = 'Original CDSS'; /*Only important to CDSS program functions, can be left as it for other systems*/
+  var Title = 'Original Antimicrobial CDSS (Minneapolis source)'; /*Name of the tab on the website*/
+  var MainMenuButton = 'Original CDSS Home'; /*Main menu button name*/
+  const MainMenu = 'ORZID2 GMENU ABX INPT MAIN'; /*the menu the website starts at*/
+  const outptMenu = 'ORZID3 GMENU ABX OUTPT MAIN'; /*the menu the website starts at*/
+  const erucMenu = 'ORZID GMENU ER/UC EMERGENCY DEPARTMENT MAIN MENU'; /*the menu the website starts at*/	  
   var IndexButton = 'Index'; /*Only important to CDSS program functions, can be left as it for other systems*/
   var homeButtonUrl = 'https://vhaantimicrobialstewardship.github.io/'; /*Only important to CDSS program functions, home URL*/
-  const Index = 'ORZID2 NE GMENU ABX INDEX INPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
-  const outptIndex = 'ORZID3 NE GMENU ABX INDEX OUTPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
-  const OMjson = '/stations/636-Omaha/OmahaOMJSON.json'; /*Name of OMJSON file*/
-  const ODjson = '/stations/636-Omaha/OmahaODJSON.json'; /*Name of ODJSOM file*/
-  const txmlFile = '/stations/636-Omaha/Omaha.txml'; /*Name of txml file*/
+  const Index = 'ORZID2 GMENU ABX INDEX INPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
+  const outptIndex = 'ORZID3 GMENU ABX INDEX OUTPATIENT';/*Only important to CDSS program functions, can be left as it for other systems*/
+  const OMjson = '/stations/000-OriginalCDSS/OriginalOMJSON.json'; /*Name of OMJSON file*/
+  const ODjson = '/stations/000-OriginalCDSS/OriginalODJSON.json'; /*Name of ODJSOM file*/
+  const txmlFile = '/stations/000-OriginalCDSS/Original.txml'; /*Name of txml file*/
   const AbxLinkjson = '/AbxLinks.json'; /*Name of AbxLinks file*/
   const SearchMenuPrefix = 'ORZID2'; /*Order menu prefix to be used in search bar*/
   const MenuPrefix = 'ORZID'; /*Order menu prefix*/
@@ -328,7 +328,7 @@
 	<div id="header">
 		<div class="buttons-container">
   		<button id="goBackButton">&#9664;</button>
-      	<button id="mainMenuButton">Minneapolis Home</button>
+      	<button id="mainMenuButton">Original CDSS Home</button>
       	<button id="indexButton">Index</button>
       	<button id="goForwardButton">&#9654;</button>
       	<button id="install-button" style="display: none";>Install App</button>
@@ -355,7 +355,7 @@
       <button id="desMoinesButton" class="button">Des Moines</button>
       <button id="blackHillsButton" class="button">TestBlackHills</button>
       <button id="fargoButton" class="button">Fargo</button>
-      <button id="minneapolisButton" class="button">Minneapolis</button>
+      <button id="minneapolisButton" class="button">Original CDSS</button>
       <button id="omahaButton" class="button">Omaha</button>
       <button id="stCloudButton" class="button">St. Cloud</button>
       <button id="siouxFallsButton" class="button">Sioux Falls</button>
@@ -473,7 +473,7 @@ if (CDSSlocation === 'Black Hills') {
 if (CDSSlocation === 'Fargo') {
   {document.getElementById("fargoButton").style.display="none";};
 }
-if (CDSSlocation === 'Minneapolis') {
+if (CDSSlocation === 'Original CDSS') {
   {document.getElementById("minneapolisButton").style.display="none";};
 }  
 if (CDSSlocation === 'Omaha') {
@@ -817,14 +817,12 @@ function createOMTable(selectedData) {
             if (abxLinkData.length > 0) {
               const linkContainer = document.createElement('a');
               const matchingURLs = abxLinkData
-                .filter(item => 
-                  item && 
+                .filter(item =>
+                  item &&
                   typeof item.Name === 'string' && item.Name.trim() !== '' &&
                   typeof item.URL === 'string' && item.URL.trim() !== ''
                 )
-                .filter(item =>
-                  contentText.toLowerCase().includes(item.Name.toLowerCase())
-                );
+                .filter(item => contentText.toLowerCase().includes(item.Name.toLowerCase()));
               const sortedMatchingURLs = matchingURLs.sort((a, b) => {
                 const aIndex = contentText.toLowerCase().indexOf(a.Name.toLowerCase());
                 const bIndex = contentText.toLowerCase().indexOf(b.Name.toLowerCase());
@@ -1432,17 +1430,21 @@ function handleMainMenu() {
   document.getElementById('searchInput').value = null;
   document.getElementById('searchInput').placeholder = "\u{1F50D}";
   populateDropdown(omData);
-  if (currentVersion === 'inpt') {	
-  	dropdown.value = MainMenu;
-  	} else if (currentVersion === 'outpt') {
-	  	dropdown.value = outptMenu;
-	} else if (currentVersion === 'eruc') {
-	  	dropdown.value = erucMenu;
-  	};
-  filterData({ target: dropdown });
-  scrollToTop()    
-  adjustFontSize();
+if (currentVersion === 'inpt') {
+    dropdown.value = MainMenu;
+  } else if (currentVersion === 'outpt') {
+    dropdown.value = outptMenu;
+  } else if (currentVersion === 'eruc') {
+    dropdown.value = erucMenu;
   }
+  if (!dropdown.querySelector(`option[value="${dropdown.value}"]`)) {
+    const firstVisibleOption = Array.from(dropdown.options).find(opt => opt.style.display !== 'none' && !opt.disabled);
+    if (firstVisibleOption) dropdown.value = firstVisibleOption.value;
+  }
+  filterData({ target: dropdown });
+  scrollToTop();
+  adjustFontSize();
+}
 
 // Function to handle the Index button click event
 function handleIndex() {
@@ -1602,7 +1604,7 @@ function openDropdown() {
 
 // JavaScript code to handle button clicks
 document.getElementById('desMoinesButton').addEventListener('click', function () {
-openPageInNewWindow("stations/636A6-DesMoines/DesMoinesCDSS.html", { " CI ": " ", " NE ": " ", "GMENU": "CI GMENU" });
+openPageInNewWindow("stations/636A6-DesMoines/legacy/DesMoinesCDSS.html", { " CI ": " ", " NE ": " ", "GMENU": "CI GMENU" });
 });
 document.getElementById('minneapolisButton').addEventListener('click', function () {
   openPageInNewWindow("stations/568-BlackHills/BlackHillsCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
@@ -1611,13 +1613,13 @@ document.getElementById('fargoButton').addEventListener('click', function () {
   openPageInNewWindow("stations/437-Fargo/FargoCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
 });
 document.getElementById('minneapolisButton').addEventListener('click', function () {
-  openPageInNewWindow("stations/618-Minneapolis/MinneapolisCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
+  openPageInNewWindow("stations/000-OriginalCDSS/OriginalCDSS.html",{ " CI ": " ", " NE ": " " }); // Pass the replacement value
 });
 document.getElementById('omahaButton').addEventListener('click', function () {
-  openPageInNewWindow('stations/636-Omaha/OmahaCDSS.html', { " CI ": " ", " NE ": " ", "GMENU": "NE GMENU" }); // Pass the replacement value
+  openPageInNewWindow('stations/636-Omaha/legacy/OmahaCDSS.html', { " CI ": " ", " NE ": " ", "GMENU": "NE GMENU" }); // Pass the replacement value
 });
 document.getElementById('stCloudButton').addEventListener('click', function () {
-  openPageInNewWindow('stations/656-StCloud/StCloudCDSS.html', { " CI ": " ", " NE ": " " }); // Pass the replacement value
+  openPageInNewWindow('stations/656-StCloud/legacy/StCloudCDSS.html', { " CI ": " ", " NE ": " " }); // Pass the replacement value
 });
 document.getElementById('siouxFallsButton').addEventListener('click', function () {
   openPageInNewWindow('stations/438-SiouxFalls/SiouxFallsCDSS.html', { " CI ": " ", " NE ": " " }); // Pass the replacement value
@@ -1705,7 +1707,11 @@ Promise.all([fetchOMData(), fetchODData(), fetchAbxLink()]) // Add fetchIndex()
   })
   .catch(error => {
     console.error('Error:', error);
-  });   
+    const resultContainer = document.getElementById('resultContainer');
+    if (resultContainer) {
+      resultContainer.innerHTML = '<div style="color:red">Data load failed. See browser console.</div>';
+    }
+  });
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/service-worker.js', {
     scope: '/'
@@ -1838,6 +1844,7 @@ window.onload = function() {
 </script>
 </body>
 </html>
+
 
 
 

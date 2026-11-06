@@ -15,7 +15,7 @@ import os
 import re
 
 
-with open('stations/618-Minneapolis/MinneapolisOMJSON.json', encoding='utf-8') as f:
+with open('stations/000-OriginalCDSS/OriginalOMJSON.json', encoding='utf-8') as f:
     mpls_data = json.load(f)
 
 with open('stations/001-TestStation/TestStationOMJSON.json', encoding='utf-8') as f:

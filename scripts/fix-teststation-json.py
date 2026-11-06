@@ -2,14 +2,14 @@
 fix-teststation-json.py
 
 Fixes two issues in TestStationOMJSON.json:
-1. Copies Outpt and ERUC cross-reference fields from MinneapolisOMJSON.json
+1. Copies Outpt and ERUC cross-reference fields from stations/000-OriginalCDSS/OriginalOMJSON.json
 2. Removes escaped bracket sequences (\[ \]) from Text fields that break link rendering
 """
 import json, re
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
-MPLS_PATH = ROOT / 'stations' / '618-Minneapolis' / 'MinneapolisOMJSON.json'
+MPLS_PATH = ROOT / 'stations' / '000-OriginalCDSS' / 'OriginalOMJSON.json'
 TEST_PATH = ROOT / 'stations' / '001-TestStation' / 'TestStationOMJSON.json'
 
 # ── Load Minneapolis (list format) ───────────────────────────────────────────
