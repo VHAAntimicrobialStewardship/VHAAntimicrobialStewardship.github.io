@@ -1,0 +1,13 @@
+{
+  "PageID": "cutaneous-abscess",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~cutaneous abscess",
+  "Term1": "Cutaneous abscess",
+  "Term2": "",
+  "Text": "# CUTANEOUS ABSCESS\n\nIncise and drain then cover the site with a dry dressing. For small abscesses, systemic antimicrobial therapy is rarely necessary. If the patient is neutropenic, has multiple lesions, or has fever or leukocytosis, antimicrobial treatment may be necessary.\n\nContact Infectious Diseases for assistance.\n\n## For the few CUTANEOUS ABSCESSES away from the rectal area that need a systemic antimicrobial\nDuration: Treat for 5 to 7 days\n\n## Mild to Moderate Cases:\n\n## Moderate or high suspicion of MRSA\n\nTrimethoprim/sulfamethoxazole 1 DS tablet q12h ($) [R,DI]\n< OR >\n\n## Low suspicion of MRSA\n\n< OR >\n\nReferences:\n\n- Sanford keyword: Skin infections\n- Stevens DL Clin Infect Dis 2014, 59:147",
+  "Therapy": "## Inpatient\n\n### For SEVERE cases empiric coverage with MRSA agent\n\nVancomycin 15 mg/kg IV q12h ($) [R]\n\n### For Perirectal/Anorectal Abscess Select Below\n\n[Perianal/Anorectal Abscess](perianal-anorectal-abscess)\n\n*Local guidance (St. Cloud CDSS, Inpatient):*\nDoxycycline 100MG PO Q12H\nClindamycin 300 mg PO q6h ($) [H,O]\nCephalexin 500 mg PO q6h ($) [R]\nDicloxacillin 500 mg PO q6h ($) [DI]\n\n## Outpatient\n\nDuration: Treat for 5 to 7 days\n\n### Mild to Moderate Cases:\n\n### Moderate or high suspicion of MRSA\n\nTrimethoprim sulfamethoxazole 1 DS tablet PO bid ($) [R,DI]\nDoxycycline 100 mg PO bid for 7 days ($) [DI]\n\nClindamycin 300 mg po qid for 7 days ($) [H]\n### Low suspicion of MRSA\n\n### For SEVERE cases empiric coverage with MRSA agent\n\nSee Inpatient CDSS for intravenous therapy\n\n### For Perirectal/Anorectal Abscess Select Below\n\nPerianal/Anorectal Abscess\n\n*Local guidance (St. Cloud CDSS, Outpatient):*\nCephalexin 500 mg PO qid for 7 days ($) [R]\nDicloxacillin 500 mg PO qid for 7 days ($) [DI]\n\n## ER/UC\n\nDuration: Treat for 5 to 7 days\n\n### Mild to Moderate Cases:\n\n### Moderate or high suspicion of MRSA\n\nTrimethoprim sulfamethoxazole 1 DS tablet PO bid ($) [R,DI] for 7 days\nDoxycycline 100 mg PO bid for 7 days ($) [DI]\n\n### Low suspicion of MRSA\n\n### For SEVERE cases empiric coverage with MRSA agent\n\nVancomycin 15 mg/kg IV STAT ($) [R]",
+  "Inpt": "ORZID2 GMENU CUTANEOUS ABSCESS",
+  "ERUC": "ORZID GMENU ER/UC CUTANEOUS ABSCESS",
+  "Outpt": "ORZID3 GMENU CUTANEOUS ABSCESS"
+}

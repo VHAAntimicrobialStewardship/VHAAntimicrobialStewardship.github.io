@@ -1,0 +1,11 @@
+{
+  "PageID": "interim-large-bacilli-anaerobic-bottle",
+  "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
+  "SortKey": "system-infectious-diseases~1~anaerobic bottle, large uniform bacilli",
+  "Term1": "Anaerobic bottle, large uniform bacilli",
+  "Term2": "Bacilli, large uniform, anaerobic bottle",
+  "Text": "# LARGE UNIFORM BACILLI IN AN ANAEROBIC BOTTLE\n\nLarge uniform bacilli in an anaerobic bottle usually suggest clostridium, a potentially severe pathogen. Combination therapy is recommended for necrotizing infections as clindamycin has the theoretical benefit of inhibiting toxin production.\n\nReferences\n\n- Medical Letter Choice of Antimicrobials 2010, 8.94\n- Sanford keyword: Clostridium perfingens\n- Stevens et al., Clinical Infectious Diseases 2014 59.2",
+  "Therapy": "## Empirical treatment of mild to moderate infection\n\nPenicillin G 4 million units IV q4h (Cost $$)R\n\nFor patients with non-severe penicillin allergy\nCeftriaxone 2 gm IV q24h (Cost $) M\n\nFor patients with severe penicillin allergy\nVancomycin 15 mg/kg IV q12h (Cost $) R\n\n## Empirical treatment of severe or necrotizing infection\n\nPenicillin G 4 million units IV q4h (Cost $$) R <AND> clindamycin 900 mg\nIV q8h (Cost $$) [H,O]",
+  "Inpt": "ORZID2 GMENU INT LRG RODS ANAEROBIC BOT"
+}

@@ -1,0 +1,11 @@
+{
+  "PageID": "interim-gram-positive-cocci-pairs",
+  "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
+  "SortKey": "system-infectious-diseases~1~gram-positive cocci in pairs bacteremia",
+  "Term1": "Gram-positive cocci in pairs bacteremia",
+  "Term2": "Gram-positive cocci in pairs interim culture results",
+  "Text": "# INTERIM REPORT OF GRAM-POSITIVE COCCI IN PAIRS\n\nA preliminary report of gram-positive cocci in pairs suggests staphylococci, streptococci, or enterococci. If the patient is severely ill, is likely colonized with resistant organisms, or if staphylococci or enterococci are likely, treat with vancomycin until susceptibility results are known.\n\nCephalosporins are not active against enterococci or methicillin-resistant Staphylococcus aureus.\n\nReferences\n\n- Medical Letter Choice of Antimicrobials 2010, 8.94\n- Sanford keyword: Enterococci\n- Sanford keyword: Staphylococci\n- Sanford keyword: Streptococci",
+  "Therapy": "## Empirical treatment of suspected streptococci\n\nPenicillin G 2 million units IV q4h (Cost $) R\n\nFor patients with non-severe penicillin allergy\nCefazolin 2 gm IV q8h ($) R\n\n## For severe disease, resistance to beta lactams likely or patient with severe penicillin allergy\n\nVancomycin 15 mg/kg IV q12h (Cost $) R\n\n## Empirical treatment of suspected enterococci\n\nAmpicillin 2 gm IV q4h (Cost $$) R\n\n## For severe disease, resistance to beta-lactams likely or patient with penicillin allergy\n\nVancomycin 15 mg/kg IV q12h (Cost $) R\n\n## Empirical treatment of suspected staphylococci\n\nVancomycin 15 mg/kg IV q12h (Cost $) R",
+  "Inpt": "ORZID2 GMENU INT RPT GPC IN PAIRS"
+}

@@ -1,0 +1,11 @@
+{
+  "PageID": "surg-prophylaxis-doses-and-redosing",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
+  "SortKey": "surgical-antimicrobial-prophylaxis~1~surg prophylaxis doses and redosing",
+  "Term1": "SURG PROPHYLAXIS DOSES AND REDOSING",
+  "Term2": "",
+  "Text": "# RECOMMENDED DOSES AND REDOSING INTERVAL\n\n## Antimicrobial surgical prophylaxis\n\nExisting renal or hepatic dysfunction: for single dose, no modification usually necessary.\n\n| Antimicrobial | Recommended dose | Redosing interval** (from initiation of preop dose) |\n| --- | --- | --- |\n| Ampicillin | 2 grams | 2 hours |\n| Ampicillin sulbactam | 3 grams | 2 hours |\n| Aztreonam | 2 grams | 4 hours |\n| Cefazolin | 2 grams (recommend 3 gm dose in patients >=120 kg) | 4 hours |\n| Cefuroxime | 1.5 grams | 4 hours |\n| Cefoxitin | 2 grams | 2 hours |\n| Cefotetan | 2 grams | 6 hours |\n| Ceftriaxone | 2 grams | No redosing recommended |\n| Ciprofloxacin | 400 mg | No redosing recommended |\n| Clindamycin | 900 mg | 6 hours |\n| Gentamicin | 5 mg/kg based on dosing weight* | No redosing recommended\n(single dose) |\n| Levofloxacin | 500 mg | Do not redose |\n| Metronidazole | 500 mg | No redosing recommended |\n| Piperacillin tazobactam | 3.375 grams | 2 hours |\n| Vancomycin | 15 mg/kg based on dosing weight* | 12 hours |\n\n[Select for Gentamicin doses](surg-gentamicin-weight-based-dosing)\n[Select for Vancomycin doses](surg-vancomycin-weight-based-dosing)\n\n*Doses based on Dosing Weight (DW). Calculate Dosing Weight: DW = IBW + 0.4 (ABW - IBW)\nIBW = Ideal Body Wt, ABW = Actual Body Wt\nMale IBW (kg) = 50 + 2.3 * (Ht - 60 inches)\nFemale IBW (kg) = 45.5 + 2.3 * (Ht - 60 inches)\n\n*Local guidance (Des Moines CDSS, Inpatient):*\nConsider 3gm dose patients >=120kg\nNo redosing recommended**\n\n---\n\nReferences:\n\n- Am J Health-Syst Pharm. 2013, 70: 195-283\n- [References:](references)",
+  "Inpt": "ORZID2 GMENU SURG PROPHYLAXIS DOSES AND REDOSING",
+  "Outpt": "surg-prophylaxis-doses-and-redosing"
+}

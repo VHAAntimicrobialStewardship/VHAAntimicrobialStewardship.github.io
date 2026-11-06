@@ -1,0 +1,10 @@
+{
+  "PageID": "baricitinib-eua-covid-19",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~baricitinib-eua-covid-19",
+  "Term1": "baricitinib-eua-covid-19",
+  "Term2": "",
+  "Text": "# Barcitinib Oral\n\n[Help page (instructions, microbiology, drug properties, etc.)](help-page)\n# Patients with eGFR >/= 60 ml/min/1.73 m2:\n\nBaricitinib 4 mg PO qday for 14 days or until discharge (COVID-19) ($$$) R\n\nBaricitinib 4 mg NG qday for 14 days or until discharge (COVID-19) ($$$) R\n\nBaricitinib 4 mg G Tube qday for 14 days or until discharge (COVID-19)\n\n($$$) [R]\n\n# Patients with eGFR 30-59 ml/min/1.73 m2:\n\nBaricitinib 2 mg PO qday for 14 days or until discharge (COVID-19) ($$) R\n\nBaricitinib 2 mg NG qday for 14 days or until discharge (COVID-19) ($$) R\n\nBaricitinib 2 mg G Tube qday for 14 days or until discharge (COVID-19)\n\n($$) [R]\n\n# Patients with eGFR 15-29 ml/min/1.73 m2:\n\nBaricitinib 1 mg PO qday for 14 days or until discharge (COVID-19) ($$) R\n\nBaricitinib 1 mg NG qday for 14 days or until discharge (COVID-19) ($$) R\n\nBaricitinib 1 mg G Tube qday for 14 days or until discharge (COVID-19)\n\n($$) [R]\n\n# Patients with an eGFR < 15ml/min/1.73 m2 or those on dialysis:\n\nBaricitinib is NOT recommended\n\n*Local guidance (Des Moines CDSS, Inpatient):*\n[References:](references)\nLexicomp Online [Baricitinib] Accessed 8/12/21\nFDA Fact Sheet for Healthcare Providers for baricitinib, July 2021.\nhttps://www.fda.gov/media/143823/download\nBaricitinib prescribing information, Eli Lilly and Company, 07/20.\nhttps://www.accessdata.fda.gov/drugsatfda_docs/label/2020/207924s002lbl.pdf Jorgensen S, et al. Baricitinib: a review of pharmacology, safety, and and emerging clinical experience in COVID-19. Pharmacother (2020) 40:843-856 https://pubmed.ncbi.nlm.nih.gov/32542785/",
+  "Inpt": "ORZID2 GMENU ABX BARICITINIB EUA COVID-19"
+}

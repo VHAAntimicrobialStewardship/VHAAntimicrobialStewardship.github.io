@@ -1,0 +1,12 @@
+{
+  "PageID": "erysipeloid",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~erysipeloid",
+  "Term1": "Erysipeloid (erysipelothrix rhusopathiae infection)",
+  "Term2": "",
+  "Text": "# ERYSIPELOID (ERYSIPELOTHRIX RHUSOPATHIAE INFECTION)\n\nErysipeloid is a localized cutaneous infection with Erysipelothrix rhusopathiae.\nIt is a zoonotic infection of fisherman, fish handlers, and butchers acquired by direct animal contact, most commonly with fish, but also with other animals (e.g., swine). It usually affects the hand or fingers and is characterized by throbbing pain and a red rash with a purple center and an elevated border.\nLocalized infections can be treated with oral antimicrobials.\nSevere, diffuse cutaneous infections or systemic infections with E.\nrhusopathiae occur rarely after ingestion of undercooked pork or contaminated seafood in immunosuppressed individuals. These infections are treated initially with intravenous antimicrobials.\n\n---\n\n---\n\n## Treatment of systemic or severe diffuse cutaneous infection with E. rhusopathiae.\n\n---\n\n## Treatment duration is at least 4 weeks. Infectious Disease Consult recommended.\n\nPenicillin G 4 million units IV q4h ($) [R]\n\n---\n\n## Treatment of systemic or severe diffuse cutaneous infection with E. rhusopathiae\n\n---\n\n[References](references)\nSanford keyword: Erysipelothrix\nUp-to-date website\nStevens DL Clin Infect Dis 2014, 59: 147\nMontravers P Curr Opin Infect Dis 2016, 29:131",
+  "Therapy": "## Treatment of localized infection (erysipeloid)\n\n## Inpatient\n\nTreat for 7 days\nPenicillin V 500 mg PO QID ($) [R]\n\n### Alternative\n\nErythromycin 500 mg PO QID ($) [DI]\n\n### Alternative\n\nCeftriaxone 2 GM IV q24h ($$) [M]\nLevofloxacin 750 mg IV q24h ($) [R,DI]\n\n## Outpatient\n\nPenicillin V 500 mg PO QID ($) [R]\n\n### Alternative\n\nErythromycin 500 mg PO QID ($) [DI]",
+  "Inpt": "ORZID2 GMENU ERYSIPELOID",
+  "Outpt": "ORZID3 GMENU ERYSIPELOID"
+}

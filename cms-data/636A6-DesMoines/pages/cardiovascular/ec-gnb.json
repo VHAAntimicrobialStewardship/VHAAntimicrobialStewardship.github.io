@@ -1,0 +1,11 @@
+{
+  "PageID": "ec-gnb",
+  "Group": "cardiovascular",
+  "GroupLabel": "Cardiovascular",
+  "SortKey": "cardiovascular~1~ec gnb",
+  "Term1": "EC GNB",
+  "Term2": "",
+  "Text": "# ENDOCARDITIS WITH GRAM NEGATIVE BACILLI OTHER THAN HACEK ORGANISMS\n\nConsult Infectious Diseases and Cardiothoracic surgery in all cases.\n\n---\n\nReferences:\n\n- Baddour et al., Circulation 2015, 132:1-52\n- Mandell chapter: Endocarditis and intravascular infections\n- Sanford keyword: Endocarditis\n- Up-To-Date article: Overview of management of infective endocarditis in adults\n- Wang et al., JAMA 2018, 320.1:72-83",
+  "Therapy": "## ",
+  "Inpt": "ORZID2 GMENU EC GNB"
+}

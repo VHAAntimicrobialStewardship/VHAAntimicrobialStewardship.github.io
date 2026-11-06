@@ -1,0 +1,11 @@
+{
+  "PageID": "prosthetic-valve-endocarditis-empirical-therapy",
+  "Group": "device-related-infections",
+  "GroupLabel": "Device-Related Infections",
+  "SortKey": "device-related-infections~1~prosthetic valve endocarditis empirical therapy",
+  "Term1": "Prosthetic valve endocarditis--empirical therapy",
+  "Term2": "Endocarditis, prosthetic valve empirical therapy",
+  "Text": "# PROSTHETIC VALVE ENDOCARDITIS--EMPIRICAL THERAPY\n\nEarly surgical consultation is essential.\n\nIf a patient is hemodynamically stable and the diagnosis is uncertain, antimicrobial therapy can safely be withheld until the diagnosis is clear and blood culture results are available to guide therapy. In all cases, be sure adequate numbers of blood cultures are obtained before antimicrobials are given.\n\n---\n\nReferences:\n\n- Baddour et al., Circulation 2015, 132:1-52\n- Mandell chapter: Endocarditis and intravascular infections\n- Sanford keyword: Endocarditis\n- Up-To-Date article: Overview of management of infective endocarditis in adults\n- Wang et al., JAMA 2018, 320.1:72-83",
+  "Therapy": "## Empirical Treatment\n\nVancomycin 15 mg/kg IV q12h ($) R <AND> gentamicin 1 mg/kg IV q8h ($)\n\n[R,O] <AND> rifampin 300 mg PO/NG q8h ($) [DI,O]\n\n*Local guidance (Des Moines CDSS, Inpatient):*\nConsult Infectious Diseases in all cases.",
+  "Inpt": "ORZID2 GMENU EC PV EMP THERAPY"
+}

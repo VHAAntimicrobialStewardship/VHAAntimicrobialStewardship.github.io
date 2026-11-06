@@ -1,0 +1,12 @@
+{
+  "PageID": "ig-his-deficiency",
+  "Group": "immunocompromised-patient",
+  "GroupLabel": "Immunocompromised Patients",
+  "SortKey": "immunocompromised-patient~1~ig his deficiency",
+  "Term1": "Immunoglobulin deficiency (humoral immune system)",
+  "Term2": "",
+  "Text": "# IMMUNOGLOBULIN DEFICIENCY (HUMORAL IMMUNE SYSTEM)\n\nAntibody deficiency typically leads to recurrent, severe respiratory tract infections associated with encapsulated bacteria, especially Streptococcus pneumoniae and Haemophilus influenzae, and to a lesser extent, Staphylococcus aureus. Recurrent otitis media, sinusitis, and pneumonia are common syndromes.\nGastrointestinal disease associated with Salmonella, Shigella, Campylobacter, or rotavirus is also common in some patients.\n\n[References](references)\nRich RR, et al, eds. Clinical Immunology\nRoitt I, et al, eds. Immunology",
+  "Therapy": "## Inpatient\n\n### Preferred empirical treatment\n\nCeftriaxone 1 gm IV q24h ($5.71/day) [M]\n\n### Alternative for severe penicillin allergy\n\nChloramphenicol is not currently available. Contact Infectious Diseases for advice.\n\n## Outpatient\n\n### Preferred empirical treatment\n\nCeftriaxone 2 gm IV q24h ($5.71/day) [M]\n\n### Alternative for severe penicillin allergy\n\nChloramphenicol is not currently available. Contact Infectious Diseases for advice.",
+  "Inpt": "ORZID2 GMENU IG HIS DEFICIENCY",
+  "Outpt": "ORZID3 GMENU IG DEFICIENCY HIS"
+}

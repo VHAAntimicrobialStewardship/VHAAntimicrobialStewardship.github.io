@@ -1,0 +1,12 @@
+{
+  "PageID": "ophthalmic-surgery-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
+  "SortKey": "surgical-antimicrobial-prophylaxis~1~ophthalmic surgery prophylaxis",
+  "Term1": "Ophthalmic surgery prophylaxis",
+  "Term2": "",
+  "Text": "OPHTHALMIC SURGERY\nWhen indicated, ophthalmology will order antimicrobial prophylaxis before procedures.\n\n# Cataract Surgery\n\nIntracameral moxifloxacin is recommended for use to reduce the risk of post-operative endophthalmitis after cataract surgery only in those patients at highest risk of infection, including the following:\n\n* Patients with prior intravitreal injections\n* Immunosuppressed patients\n* Patients with significant ocular surface eyelid disease\n* Complication occurs during surgery (i.e. capusle rupture, vitreous loss)\n* Other possible high risk situations as they arise but not listed above\n\nReferences:\n\n- Arshinoff S., J Cataract Refract Surg, (2016) 42:1730-1741",
+  "Therapy": "## Preferred:\n\nMoxifloxacin 500mcg/0.5ml Eye Inj Intracameral Cataract (Conc.=100mcg/0.1ml)",
+  "Inpt": "ORZID2 GMENU SURG OPHTHALMIC SURG",
+  "Outpt": "ORZID2 GMENU SURG OPHTHALMIC SURG"
+}

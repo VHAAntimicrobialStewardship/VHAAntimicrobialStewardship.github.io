@@ -1,0 +1,11 @@
+{
+  "PageID": "vibrio-non-cholerae",
+  "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
+  "SortKey": "gi-intraabdominal~1~vibrio non-cholerae, diarrhea/gastroenteritis",
+  "Term1": "Vibrio non-cholerae, diarrhea/gastroenteritis",
+  "Term2": "Non-cholera vibrio",
+  "Text": "# NON-CHOLERA VIBRIO\n\nNon-cholera vibrio is associated with gastroenteritis, septicemia, and wound infections. Vibrio vulnificans infections are acquired from contact with seawater or seafood, especially raw oysters. V. vulnificans cases are more severe than cases with other species. V. parahaemolyticus causes gastroenteritis and milder wound infections.\n\nAntimicrobials do not shorten the course of disease in immunocompetent patients with mild gastroenteritis.\n\nReferences:\n\n- Sanford keyword: Vibrio parahaemolyticus\n- Sanford keyword: Vibrio vulnificus: Cellulitis, Sepsis\n- Shane et al, Clinical Infectious Diseases 2017, 65(12):45-80\n- Up-to-Date article: Vibrio parahaemolyticus infections\n- Up-to-Date article: Vibrio vulnificus infections",
+  "Therapy": "## Primary treatment for gastroenteritis\n\nHydration and electrolyte replacement\n\n## Antimicrobial treatment of minor wound infection, severe gastroenteritis or immunocompromised patient with gastroenteritis\n\nCiprofloxacin 500 mg PO q12h for 3 to 5 days ($) [R,DI]\n< OR >\nLevofloxacin 500 mg PO daily for 3 to 5 days ($) [R,DI]\n\nAlternative for patient intolerant of fluoroquinolones\nDoxycycline 100 mg PO q12h for 3 to 5 days ($) [DI]\n\nFor patients who are hospitalized or unable to take oral medications\nCeftriaxone 1 gm IV q24h for 3 to 5 days ($) [M]\n\n## Antimicrobial treatment of severe wound infection or septicemia\n\nConsult Infectious Diseases for advice on duration of treatment.\nCeftriaxone 2 gm IV q24h ($) [M] <AND> doxycycline 100 mg PO q12h ($) [DI]\nfor 7 to 14 days\n< OR >\n\nCeftriaxone 2 gm IV q24h ($) M <AND> doxycycline 100 mg IV q12h ($$) DI\nfor 7 to 14 days\n< OR >\nCeftriaxone 2 gm IV q24h ($) [M] <AND> ciprofloxacin 750 mg PO q12h ($) [DI]\nfor 7 to 14 days\nAlternative\nLevofloxacin 750 mg IV q24h for 7 to 14 days ($) R,DI",
+  "Inpt": "ORZID2 GMENU ABX NON-CHOLERA"
+}

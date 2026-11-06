@@ -1,0 +1,12 @@
+{
+  "PageID": "osteom-with-streptococci",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~osteom with streptococci",
+  "Term1": "Osteomyelitis with streptococci",
+  "Term2": "",
+  "Text": "# OSTEOMYELITIS WITH STREPTOCOCCI\n\n---\n\nReferences:\n\n- Sanford keyword: Osteomyelitis\n- Mandell chapter: Osteomyelitis\n- Lew DP Lancet 2004, 364: 369\n- Cunha BA Clin Infect Dis 2002, 35: 287",
+  "Inpt": "ORZID2 GMENU OSTEOM WITH STREPTOCOCCI",
+  "Outpt": "ORZID3 GMENU OSTEOM STREPTOCOCCI",
+  "Therapy": "## Inpatient\n\n### Treatment\n\nPenicillin G 4 million units IV q4h ($) [R] < OR >\nCefazolin 2 gm IV q8h ($) [R]\nOral treatment:\nTrimethoprim-sulfamethoxazole 1 DS tablet PO q12h ($) [R,DI] < OR >\nCefadroxil 1000 mg PO q12h ($) [R]\n\n## Outpatient\n\nTreat for 4 weeks.\n\n### Treatment\n\nTrimethoprim-sulfamethoxazole 1 DS tablet PO BID ($) [R,DI] < OR >\nCefadroxil 1000 mg PO BID ($) [R]"
+}

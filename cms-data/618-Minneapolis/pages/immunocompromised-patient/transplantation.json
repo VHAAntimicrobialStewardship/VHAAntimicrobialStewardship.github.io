@@ -1,0 +1,11 @@
+{
+  "PageID": "transplantation",
+  "Group": "immunocompromised-patient",
+  "GroupLabel": "Immunocompromised Patients",
+  "SortKey": "immunocompromised-patient~1~transplantation",
+  "Term1": "Transplantation",
+  "Term2": "",
+  "Text": "TRANSPLANTATION\nOrgan transplantation is associated with many host defense defects.  Early on, surgical wounds may become infected.  Preparation for transplantation and anti-rejection drugs can induce neutropenia.  Later, CMI defects predominate.\n\nPatients become infected with exogenous pathogens and also endogenous pathogens like cytomegalovirus that might have been present in latent or subclinical form.\n\nCell-mediated immune defects caused by anti-rejection drugs cause patients to be especially susceptible to infections with organisms that infrequently cause disease in healthy people.  They include: Pneumocystis jirovecii (formerly Pneumocystis carinii), mycobacteria, salmonella, candida, aspergillus, Toxoplasma gondii, varicella-zoster virus, cytomegalovirus, Epstein-Barr virus, and cryptosporidia.\n\nThe approach to fever or other signs or symptoms suggesting the possibility of an infectious disease depends on the specific defects present in the patient, the nature of the presenting signs and symptoms and a bedside assessment of the severity of illness.  Empirical antimicrobials are usually not indicated for fever alone unless the patient has a host defense defect that predisposes to rapid progression of illness like severe neutropenia or splenectomy.  Contact Infectious Diseases for more information.\n\n[References](references)\n\nRich RR, et al, eds.  Clinical Immunology\nRoitt I, et al, eds.  Immunology",
+  "Inpt": "ORZID2 GMENU TRANSPLANTATION",
+  "Outpt": "ORZID2 GMENU TRANSPLANTATION"
+}

@@ -1,0 +1,11 @@
+{
+  "PageID": "cied-surgery-post-op-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
+  "SortKey": "surgical-antimicrobial-prophylaxis~1~cied surgery post-op prophylaxis",
+  "Term1": "Cardiac Implantable Electronic Device (CIED) Surgery:",
+  "Term2": "Cardiac implantable electronic device surgery post-op prophylaxis",
+  "Text": "# Cardiac Implantable Electronic Device (CIED) Post-Op Prophylaxis Antibiotics\nPost-procedure CIED IV antibiotic prophylaxis:\nPlace post-op IV antimicrobial prophylaxis after admission.\nIf new CIED implant, then give same antibiotic(s) as preop for 2 doses post-op If generator replacement only, then no additional doses recommended.\nPreferred POST-PROCEDURE prophylaxis:\nFor patients weight less than 120 kg:\nCefazolin 2 GM q8h for 2 doses post-op ($) [R]\nFor patients weight equal to or greater than 120kg:\nCefazolin 3 GM q8h for 2 doses post-op ($) [R]\nAlternative in patients with beta lactam allergy:\nVancomycin 15mg/kg for 2 doses post-op ($) [R]\nMRSA Positive Patients Post-Procedure antibiotics:\nFor patients weight less than 120 kg:\nCefazolin 2 GM q8h x 2 doses post-op ($) [R] < AND >\nVancomycin 15mg/kg IV q12h x 2 doses post-op ($) [R]\nFor patients weight equal to or greater than 120 kg:\nCefazolin 3 GM q8h x 2 doses post-op ($) [R] < AND >\nVancomycin 15mg/kg IV q12h x 2 doses post-op ($) [R]\n\n---\n\nPost-procedure CIED ORAL TAKE HOME MEDICATIONS:\nPreferred POST-PROCEDURE prophylaxis:\nCephalexin 500MG PO bid for 3 days AFTER CIED PROCEDURE\nAlternative for patients with beta lactam allergy:\nClindamycin 300MG po qid for 3 days AFTER CIED PROCEDURE\nMRSA Positive Patients Post-Procedure antibiotics:\nDoxycycline 100MG PO bid for 3 days AFTER CIED PROCEDURE ***\n\n# References:\n\n- Bratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis in surgery, Am J Health-Syst Pharm. 2013 vol 70 pages 195-283\n- [References:](references)",
+  "Inpt": "ORZID2 GMENU SURG CIED POSTOP",
+  "Outpt": "ORZID2 GMENU SURG CIED POSTOP"
+}

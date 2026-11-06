@@ -1,0 +1,12 @@
+{
+  "PageID": "podiatric-surgery-prophylaxis",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~podiatric surgery prophylaxis",
+  "Term1": "Podiatry Surgery",
+  "Term2": "",
+  "Text": "# Podiatry Surgery\n\n**St. Cloud Guidance:**\n\nRECOMMENDATIONS NOT AVAILABLE\nRecommendations for this condition are not available within CDSS. Please refer to facility guidelines or other clinical resources for recommendations.\n\n**Minneapolis Guidance:**\n\n[Select here Surgical wound classification and prophlaxis recommendations](surgical-wound-classification)\n\n# If no antimicrobial prophylaxis recommended, select appropriate order below:\n\nSelect here No antimicrobial prophylaxis recommended for procedure/surgery\n\nSelect here No antimicrobial prophylaxis, already on concurrent antimicrobials\n\nReferences\n\n- Bratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis in surgery, Am J Health-Syst Pharm. 2013 Vol 70 page 195-283\n- Antimicrobial Prophylaxis for Surgery, Treatment Guidelines from The Medical\n- Letter 2012 Vol 10 pages 73-77",
+  "Therapy": "**Minneapolis Guidance:**\n\n## Preferred:\n\n[Cefazolin Weight Based Dosing Preop R](surg-cefazolin-weight-based-dosing)\n\n## Alternative for patients with beta lactam allergy:\n\nClindamycin 900 mg IV over 30 minutes beginning 60 minutes before incision\n\n($$) [H,O]\n\n## Known MRSA colonization:\n\n[Vancomycin 15 MG/KG IV beginning 120 minutes before incision \\($\\) R](surg-vancomycin-weight-based-dosing)",
+  "Inpt": "ORZID2 GMENU SURG PODIATRY",
+  "Outpt": "ORZID2 GMENU SURG PODIATRY"
+}

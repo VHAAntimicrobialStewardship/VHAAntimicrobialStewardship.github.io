@@ -1,0 +1,11 @@
+{
+  "PageID": "diseases-and-syndromes-not-covered",
+  "Group": "help-page",
+  "GroupLabel": "Help & Resources",
+  "SortKey": "help-page~1~diseases and syndromes not covered (navigation)",
+  "Term1": "Diseases and syndromes not covered (Navigation)",
+  "Term2": "Exclusions from CDSS",
+  "Text": "# DISEASES AND SYNDROMES NOT COVERED\n\nOur system provides advice for the treatment of most infectious diseases likely to be encountered in our patient population. Diseases that do not require antimicrobial therapy are not included. For more information on a syndrome not described in our system, please contact infectious diseases. If you feel that a syndrome should be included in our system please contact us.\n\nEmail the VISN23 Antimicrobial CDSS Program Staff\nErik Stensgard, PharmD: 612-467-1781\nBobbie Masoud, PharmD: 612-467-4916",
+  "Inpt": "ORZID2 GMENU ABX EXCLUSIONS",
+  "Outpt": "ORZID2 GMENU ABX EXCLUSIONS"
+}

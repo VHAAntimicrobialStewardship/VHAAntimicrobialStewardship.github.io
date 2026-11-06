@@ -1,0 +1,13 @@
+{
+  "PageID": "bite-wnds-streptococci",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~bite wnds streptococci",
+  "Term1": "Bite wounds with streptococci",
+  "Term2": "",
+  "Text": "# BITE WOUNDS WITH STREPTOCOCCI\n\nInfection but no arthritis - 10 days joint involved - 14-21 days\n\n---\n\nReferences:\n\n- Sanford keyword: Bites\n- Mandell chapter: Cellulitis and subcutaneous tissue infections",
+  "Inpt": "ORZID2 GMENU BITE WNDS STREPTOCOCCI",
+  "Outpt": "ORZID3 GMENU BITE WNDS STREPTOCOCCI",
+  "ERUC": "ORZID GMENU ER/UC BITE WNDS STREPTOCOCCI",
+  "Therapy": "## Inpatient\n\n### Treatment\n\nPenicillin G 4 MU IV q4h ($) [R] < Cefazolin 2 gm IV q8h ($) [R] < OR >\nCephalexin 500 mg PO q6h ($) [R] < OR >\nDicloxacillin 500 mg PO q6h ($) [DI]\nAlternative for penicillin allergic patients:\nClindamycin 300 mg PO q6h ($) [H,O]\n\n## Outpatient\n\n### Treatment for infection without joint involvement\n\nTreat for 10 days.\nCephalexin 500 mg PO QID ($) [R] < OR >\nDicloxacillin 500 mg PO QID ($0.48/day) [DI]\n\n### Alternative for beta-lactam allergy:\n\n[Assess Beta-lactam allergy prior to ordering alternative](beta-lactam-allergy-assessment)\nLinezolid 600 mg PO BID for 10 days ($) [DI,O]\n\n### Treatment for infection with joint involvement\n\nTreat for 14 to 21 days.\nCephalexin 500 mg PO QID ($) [R] < OR >\nDicloxacillin 500 mg PO QID ($) [DI]\n\n### Alternative for beta-lactam allergy:\n\n[Assess Beta-lactam allergy prior to ordering alternative](beta-lactam-allergy-assessment)\nLinezolid 600 mg PO q12h ($) [DI,O] for 14 days\n\n*Local guidance (Omaha CDSS, Outpatient):*\nClindamycin 300 mg PO QID for 10 days ($) [H,O]\nClindamycin 300 mg PO QID for 14 days ($) [H,O]\n\n## ER/UC\n\n### Treatment for infection without joint involvement\n\nTreat for 10 days.\nCefadroxil 1000 mg PO BID x10days ($) [R]\n<OR>\nCefazolin 2 gm IV once STAT ($) [R]\nAlternative for beta-lactam allergy:\nClindamycin 300 mg PO QID for 10 days ($) [H,O]\n\n### Treatment for infection with joint involvement\n\nTreat for 14 to 21 days.\nCefadroxil 1000 mg PO q12h ($) [R] for 14 days\n<OR>\nCefazolin 2 gm IV once STAT ($) [R]\nAlternative for beta-lactam allergy:\nClindamycin 300 mg PO QID for 14 days ($) [H,O]"
+}

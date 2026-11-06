@@ -1,0 +1,12 @@
+{
+  "PageID": "spinal-cord-stimulator-trial-procedure-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
+  "SortKey": "surgical-antimicrobial-prophylaxis~1~spinal cord stimulator trial procedure prophylaxis",
+  "Term1": "Pain Clinic Antimicrobial Prophylaxis Pre-procedure Orders",
+  "Term2": "",
+  "Text": "# Pain Clinic Antimicrobial Prophylaxis Pre-procedure Orders\n\n**Des Moines Guidance:**\n\nREFER TO SYNDROME OR INFECTIOUS DISEASE FOR RECOMMENDATIONS Recommendations based on isolation of this specific pathogen are not available.\nPlease refer to the syndrome or infectious disease caused by this pathogen for antimicrobial therapy recommendations.\n\n**Minneapolis Guidance:**\n\nSpinal Cord Stimulator Trial\n\nReferences:\n\n- Bratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis in surgery, Am J Health-Syst Pharm. 2013 vol 70 pages 195-283\n- Antimicrobial Prophylaxis for Surgery, Treatment Guidelines from The\n- Medical Letter 2012 vol 10 pages 73-77",
+  "Therapy": "**Minneapolis Guidance:**\n\n## Preferred Prophylaxis:\n\n## For patients weight < 120 kg:\n\nCefazolin 2 GM IVPB Once administer 60 minutes prior to procedure ($) R\n\n## For patients weight >/= 120 kg:\n\nCefazolin 3 GM IVPB Once administer 60 minutes prior to procedure  ($) R\n\n## Alternative for patient with beta lactam allergy:\n\n[Click here Assess Beta-lactam allergy prior to ordering alternative](beta-lactam-allergy-assessment)\n\n[Vancomycin Weight Based Dosing IVPB x1 Dose](surg-vancomycin-weight-based-dosing)\n\n## MRSA positive nares + risk factors:\n\n## ADD Vancomycin with Cefazolin (above) for MRSA positive nares + risk factors\n\n[Vancomycin Weight Based Dosing IVPB x1 Dose](surg-vancomycin-weight-based-dosing)",
+  "Inpt": "ORZID2 GMENU SURG SPINAL CORD STIMULATOR TRIAL",
+  "Outpt": "ORZID2 GMENU SURG SPINAL CORD STIMULATOR TRIAL"
+}

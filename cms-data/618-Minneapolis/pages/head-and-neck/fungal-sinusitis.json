@@ -1,0 +1,12 @@
+{
+  "PageID": "fungal-sinusitis",
+  "Group": "head-and-neck",
+  "GroupLabel": "Head and Neck",
+  "SortKey": "head-and-neck~1~fungal sinusitis",
+  "Term1": "Fungal sinusitis",
+  "Term2": "",
+  "Text": "# FUNGAL SINUSITIS\n\nFungal sinusitis mainly affects immunocompromised patients, but occasionally it occurs in immunocompetent hosts. Drainage is essential. Consult ENT and Infectious Disease.\n\n---\n\nReferences:\n\n- Sanford Keyword: Aspergillosis, Allergic Fungal Sinusitis\n- Up-to-Date article: Fungal rhinosinusitis\n- Mandell chapter: Sinusitis",
+  "Therapy": "",
+  "Inpt": "ORZID2 GMENU FUNGAL SINUSITIS",
+  "Outpt": "ORZID3 GMENU FUNGAL SINUSITIS"
+}

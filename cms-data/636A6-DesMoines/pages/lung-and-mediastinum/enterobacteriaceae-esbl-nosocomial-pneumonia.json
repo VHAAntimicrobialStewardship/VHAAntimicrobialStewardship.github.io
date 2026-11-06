@@ -1,0 +1,10 @@
+{
+  "PageID": "enterobacteriaceae-esbl-nosocomial-pneumonia",
+  "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
+  "SortKey": "lung-and-mediastinum~1~enterobacteriaceae (esbl+) nosocomial pneumonia",
+  "Term1": "Nosocomial pneumonia with enterobacterales",
+  "Term2": "Nosocomial pneumonia, enterobacteriaceae (ESBL+)",
+  "Text": "# NOSOCOMIAL PNEUMONIA WITH ENTEROBACTERALES\n\n# Citrobacter freundii, Klebsiella aerogenes, or Enterobacter cloacae treatment\n\nThese organisms can develop resistance to certain beta-lactams (e.g., ceftriaxone) despite reported susceptibility or lack of resistance genes on rapid diagnostic panels\n\nCefepime 2 gm IV q8h R for 7 days\n\n< OR >\n\nErtapenem 1 gm IV q24h R,O for 7 days\n\n---\n\n# Other Enterobacterales (E. coli, K. pneumoniae, P. mirabilis, etc.) treatment\n\n# Ceftriaxone - susceptible or ESBL gene (CTX-M) not-detected\n\nCeftriaxone 2 gm IV q24h M for 7 days\n\n# Ceftriaxone - resistance or ESBL gene (CTX-M) detected\n\nErtapenem 1 gm IV q24h R,O for 7 days\n\nIf critically ill:\n\nMeropenem 2 gm IV q8h R,O for 7 days\n\n---\n\nReferences:\n\n- Kalil AC et al. Clin Infect Dis 2016. 63:1\n- Tamma PD. Clin Infect Dis. 2024 Aug 7:ciae403. doi: 10.1093/cid/ciae403\n- Up-to-date website",
+  "Inpt": "ORZID2 GMENU ABX NOSOCOMIAL ESBL ENTEROBACT"
+}

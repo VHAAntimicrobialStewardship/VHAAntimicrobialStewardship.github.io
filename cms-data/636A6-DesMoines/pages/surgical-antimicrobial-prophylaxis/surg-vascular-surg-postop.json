@@ -1,0 +1,11 @@
+{
+  "PageID": "surg-vascular-surg-postop",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
+  "SortKey": "surgical-antimicrobial-prophylaxis~1~surg-vascular-surg-postop",
+  "Term1": "Vascular surgery postop antimicrobial prophylaxis:",
+  "Term2": "",
+  "Text": "# Vascular surgery postop antimicrobial prophylaxis:\n\nProphylactic antibiotics should be discontinued within 24 hours.\n\nAntimicrobial prophylaxis is not recommended for some procedures, including brachiocephalic procedures (e.g., carotid endarterectomy, brachial artery repair) without implantation of prosthetic material.\n\nAntimicrobial prophylaxis is recommended in vascular procedures that involve implantation of prosthetic material and procedures for which there is greater risk of infection, such as aneurysm repair, thromboendarterectomy and vein bypass. Longer duration of antimicrobial prophylaxis therapy is warranted for graft placement.\n\n# Prophylaxis for vascular procedures OTHER THAN graft placement*\n\n**No postop antimicrobial doses recommended for procedures that do not involve graft placement.**\n\n[References](references)\n\nBratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis in surgery, Am J Health-Syst Pharm. 2013 vol 70 pages 195-283 Antimicrobial Prophylaxis for Surgery, Treatment Guidelines from The Medical Letter 2012 vol 10 pages 73-77",
+  "Therapy": "## *Prophylaxis for graft placement procedures:\n\n## Preferred:\n\n[Cefazolin Weight Based Dosing q8h x2 doses postop](surg-cefazolin-wt-based-postop-doses-x2)\n\n## Alternative for beta lactam allergy or MRSA colonization:\n\nClick here Beta-lactam reaction assessment\n\n[Vancomycin 15mg/kg Dosing q12h x1 dose postop](surg-vancomycin-post-op-specific-dosing)",
+  "Inpt": "ORZID2 GMENU SURG VASCULAR SURG POSTOP"
+}

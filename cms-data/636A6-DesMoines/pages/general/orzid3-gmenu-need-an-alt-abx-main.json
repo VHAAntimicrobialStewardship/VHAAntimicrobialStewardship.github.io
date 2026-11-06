@@ -1,0 +1,10 @@
+{
+  "PageID": "orzid3-gmenu-need-an-alt-abx-main",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~orzid3-gmenu-need-an-alt-abx-main",
+  "Term1": "Need an alernative antimicrobial?",
+  "Term2": "",
+  "Text": "# NEED AN ALERNATIVE ANTIMICROBIAL?\n\nIf you cannot use the recommended antimicrobials or you believe another one\nwould be better for your patient, you can order another drug. Please indicate\nthe reason you need an alternative drug below.\n\nAllergic to recommended drug(s)\n\nDecreased renal clearance\n\nLiver secretory or metabolic impairment\n\nDrug interaction\n\nPatient has multiple infections requiring antimicrobials\n\nAdjust therapy based on antimicrobial susceptibility\n\nOther adverse drug effect\n\nOther reason\n\nNote: Alternative antimicrobial selections will be reviewed and we may contact\nprescribers to learn more about situations that need alternatives, improve the\nCDSS, and in some cases offer suggestions.\n\n# Clarification/Comments:\n\n[Please Click Here to contact the CDSS team](additional-assistance)\n\n[Information about drug allergies](drug-allergies)\n\n*Local guidance (Des Moines CDSS, Inpatient):*\nNeed additional help? Consult Infectious Diseases (7-340)",
+  "Inpt": "ORZID3 GMENU NEED AN ALT ABX MAIN"
+}

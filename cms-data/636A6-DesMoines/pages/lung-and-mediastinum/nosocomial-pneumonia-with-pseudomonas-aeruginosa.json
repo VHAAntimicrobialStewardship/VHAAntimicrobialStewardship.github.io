@@ -1,0 +1,11 @@
+{
+  "PageID": "nosocomial-pneumonia-with-pseudomonas-aeruginosa",
+  "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
+  "SortKey": "lung-and-mediastinum~1~nosocomial pneumonia with pseudomonas aeruginosa",
+  "Term1": "Nosocomial pneumonia with pseudomonas aeruginosa",
+  "Term2": "Pseudomonas aeruginosa nosocomial pneumonia",
+  "Text": "# NOSOCOMIAL PNEUMONIA WITH PSEUDOMONAS AERUGINOSA\n\nSingle drug therapy is as effective as combination therapy once susceptibility results are known.\n\n# Duration of therapy\n\nTreat for 14 days. Patients who respond promptly and are no longer intubated may be treated for as few as 7 days.\n\n---\n\nReferences:\n\n- Kalil AC Clin Infect Dis 2016 63:1\n- Tamma PD. Clin Infect Dis. 2024 Aug 7:ciae403. doi: 10.1093/cid/ciae403\n- Daghmouri MA. EClinicalMedicine. 2023 1:58:101880\n- Chastre J JAMA 2003, 290: 2588\n- Bougle A. Intensive Care Med. 2022:48(7):841\n- Up-to-date website",
+  "Therapy": "## Empiric Treatment:\n\nSee below for oral therapy or history of multi-drug resistant Pseudomonas\nPreferred\nCefepime 2 gm IV q8h R\n\nAlternative\n[Assessment of Beta-lactam Reaction](beta-lactam-allergy-assessment)\n\nCiprofloxacin 400 mg IV q8h R,DI\n\n## \n\n## Oral therapy (usually given after several days of intravenous therapy)\n\n## if isolate known sensitive to fluoroquinolone\n\nCiprofloxacin 750 mg PO q12h R,DI",
+  "Inpt": "ORZID2 GMENU ABX NOSOCOMIAL P. AERUGINOSA"
+}

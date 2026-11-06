@@ -1,0 +1,10 @@
+{
+  "PageID": "pep-non-occupational-hiv-risk-table",
+  "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
+  "SortKey": "genitourinary~1~post-exposure risk of hiv",
+  "Term1": "Post-exposure risk of HIV",
+  "Term2": "HIV risk post-exposure risk",
+  "Text": "# Estimated per-act risk for qcquiring HIV FROM AN INFECTED SOURCE, BY EXPOSURE ACT\n\n| Exposure type |  | |\n| Blood Transfusion |  |\n| Needle sharing during injection drug use |  |\n| Percutaneous (needlestick) |  | |\n| Receptive anal intercourse |  |\n| Receptive penile-vaginal intercourse |  |\n| Insertive anal intercourse |  |\n| Insertive penile-vaginal intercourse |  |\n| Receptive oral intercourse |  |\n| Insertive oral intercourse |  | |\n| Biting |  |\n| Spitting | Negligible |\n| Throwing body fluids (including semen or saliva) | Negligible |\n| Sharing sex toys | Negligible |",
+  "Inpt": "ORZID3 GMENU ABX PEP NONOCCUP RISK TABLE BY EXPOSURE ACT"
+}

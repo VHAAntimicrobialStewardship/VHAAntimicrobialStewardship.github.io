@@ -1,0 +1,11 @@
+{
+  "PageID": "nosocomial-pneumonia-with-legionella-pneumophila",
+  "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
+  "SortKey": "lung-and-mediastinum~1~nosocomial pneumonia with legionella pneumophila",
+  "Term1": "Nosocomial pneumonia with legionella pneumophila",
+  "Term2": "Legionella pneumophila nosocomial pneumonia",
+  "Text": "# NOSOCOMIAL PNEUMONIA WITH LEGIONELLA PNEUMOPHILA\n\nIntravenous therapy preferred initially until signs and symptoms improve.\n\n# Duration of therapy\n\nTreat for 7 to 10 days based on response. Consider longer courses of therapy in immunocompromised patients with severe illness. ID consultation is recommended if immunocompromise.\n\n---\n\nReferences:\n\n- Jasper AS. Clin Infect Dis. 2021:72(11):1979\n- Phin N. Lancet Infectious Diseases 2014, 14:1011\n- Sanford: Pneumonia Legionella\n- Up-to-date website",
+  "Therapy": "## Recommend starting with parenteral therapy\n\nAzithromycin 500 mg IV q24h M\n\n< OR >\nLevofloxacin 750 mg IV q24h R,DI\n\n## Switch to oral to complete therapy\n\nAzithromycin 500 mg PO q24h M\n\n< OR >\nLevofloxacin 750 mg PO q24h R,DI",
+  "Inpt": "ORZID2 GMENU ABX NOSOCOMIAL L. PNEUMOPHILA"
+}

@@ -4,6 +4,10 @@
     { "folder": "001-TestStation", "prefix": "TestStation", "label": "001-TestStation", "role": "test" },
     { "folder": "506-AnnArbor", "prefix": "AnnArbor", "label": "Ann Arbor", "role": "production" },
     { "folder": "539-Cincinnati", "prefix": "Cincinnati", "label": "Cincinnati", "role": "production" },
-    { "folder": "541-Cleveland", "prefix": "Cleveland", "label": "Cleveland", "role": "production" }
+    { "folder": "541-Cleveland", "prefix": "Cleveland", "label": "Cleveland", "role": "production" },
+    { "folder": "618-Minneapolis", "prefix": "Minneapolis", "label": "Minneapolis", "role": "production" },
+    { "folder": "636-Omaha", "prefix": "Omaha", "label": "Omaha", "role": "production" },
+    { "folder": "636A6-DesMoines", "prefix": "DesMoines", "label": "Des Moines", "role": "production" },
+    { "folder": "656-StCloud", "prefix": "StCloud", "label": "St. Cloud", "role": "production" }
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "PageID": "trich-vaginitis",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~trich vaginitis",
+  "Term1": "Trichomonas vaginitis and urethritis",
+  "Term2": "",
+  "Text": "# TRICHOMONAS VAGINITIS\n\nMale sexual partners of women with trichomonas vaginitis will not have symptoms but should be treated to prevent recurrent vaginitis in the female sexual partner.\n\n## Diagnosis\n\nThe discharge is purulent, malodorous, and thin. The vaginal pH is greater than 4.5. Nucleic Acid amplification test (NAAT) for trichomonas has improved sensitivities and specificities compared to wet mount.\n\n*Local guidance (Des Moines CDSS, Inpatient):*\nthan 4.5. Diagnosis is most accurate when trichomonads are observed on a wet mount or identified in culture.\nTreatment of symptomatic woman\n\n*Local guidance (Des Moines CDSS, Outpatient):*\nthan 4.5. Diagnosis is most accurate when trichomonads are observed on a wet mount or identified in culture.\nTreatment of symptomatic woman\n\n---\n\nReferences:\n\n- Sanford keyword: Trichomoniasis\n- Mandell chapter: Vulvovaginitis and cervicitis\n- CDC STD Treatment Guidelines: MMWR (2021) 70.4\n- Up-To-Date article: Trichomoniasis",
+  "Therapy": "## Inpatient\n\n### Treatment of Initial Episode WOMEN ONLY (See below for MEN)\n\nPregnant women with trichomonas infection may be treated with metronidazole during any trimester.\nMetronidazole 2 gm PO once ($) [DI]\n< OR >\nMetronidazole 500 mg PO q12h for 7 days ($) [DI]\n\n### Treatment of male sex partners\n\n### Persistent or recurrent infection in symptomatic women or male sex partners\nMetronidazole 500 mg PO q12h for 7 days ($) [DI]\n\n## Outpatient\n\n### Treatment of Initial Episode WOMEN ONLY (See below for MEN)\n\nPregnant women with trichomonas infection may be treated with metronidazole during any trimester.\nMetronidazole 2 gm PO x 1 dose ($) [DI]\n\n### Treatment of Initial Episode MEN ONLY (See above for WOMEN)\n\n### Treatment of male sex partners\nMetronidazole 2 gm PO x 1 dose ($) [DI]\n\n2nd failure:\nMetronidazole 2 gm PO q24h for 7 days ($) [DI]\n\n*Local guidance (Des Moines CDSS, Inpatient/Outpatient):*\nCDC STD Treatment Guidelines: MMWR (2015) 64.3\n\n*Local guidance (Des Moines CDSS, Outpatient):*\n< OR >\nMetronidazole 500 mg PO BID for 7 days ($) [DI]\nPersistent or recurrent infection in symptomatic women or male sex partners Metronidazole 500 mg PO BID for 7 days ($) [DI]",
+  "Inpt": "ORZID2 GMENU ABX TRICH VAGINITIS",
+  "Outpt": "ORZID3 GMENU TRICHOMONAS VAGINITIS"
+}

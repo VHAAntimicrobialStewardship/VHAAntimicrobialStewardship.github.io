@@ -1,0 +1,11 @@
+{
+  "PageID": "enterococci",
+  "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
+  "SortKey": "system-infectious-diseases~1~enterococci",
+  "Term1": "Bacteremia associated with enterococci",
+  "Term2": "",
+  "Text": "# BACTEREMIA ASSOCIATED WITH ENTEROCOCCI\n\nConsult Infectious Diseases in all cases.\nTreatment of susceptible enterococcus (Van A/B negative on BCID Biofire)\nVancomycin 15 mg/kg IV q12h ($) [R]\nTreatment of resistant enterococcus (Van A/B positive on BCID Biofire)\nLinezolid 600 mg IV q12h ($$$$) [DI]\n\n# Duration of treatment\n\nFor uncomplicated infections where blood cultures are sterile after 24 hours of treatment, treat for 7-14 days. A longer duration is needed if infection is complicated or repeat blood cultures are positive.\n\n---\n\nReferences:\n\n- Sanford keyword: Enterococcus faecium\n- Sanford keyword: Enterococcus faecalis\n- Up-to-Date article: Detection of bacteremia: Blood cultures and other diagnostic tests\n- Up-to-Date article: Treatment of enterococcal infections",
+  "Therapy": "## Enterococcus faecalis is almost always susceptible to penicillins locally, ampicillin is preferred over vancomycin in susceptible isolates.\nEnterococcus faecium is typically resistant to some beta-lactams, aminoglycosides, and vancomycin.\nRefer to cardiovascular section for suspected infectious endocarditis.\n[Approach to Endocarditis](endocarditis-approach-to)",
+  "Inpt": "ORZID2 GMENU BACTEREMIA ENTEROCOCCI"
+}

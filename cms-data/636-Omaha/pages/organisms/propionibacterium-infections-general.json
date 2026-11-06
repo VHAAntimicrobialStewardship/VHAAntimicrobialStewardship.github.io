@@ -1,0 +1,11 @@
+{
+  "PageID": "propionibacterium-infections-general",
+  "Group": "organisms",
+  "GroupLabel": "Organisms",
+  "SortKey": "organisms~1~propionibacterium infections, general",
+  "Term1": "Propionibacterium infections, general",
+  "Term2": "",
+  "Text": "# CUTIBACTERIUM (FORMERLY PROPIONIBACTERIUM) SPECIES\n\nIsolation of Cutibacterium species from a culture often represents contamination or colonization and not disease. For questions about whether a patient should be treated, contact Infectious Diseases.\n\nOptimal therapy depends on both the disease or syndrome and the pathogen. See disease/syndrome sections for more information.\n\n[Acne and Rosacea](acne)\n\n---\n\nReferences:\n\n- Sanford Guide article: Cutibacterium acnes\n- Up-To-Date article: Invasive Cutibacterium (formerly Propionibacterium) infections",
+  "Therapy": "Preferred:\nPenicillin G 2 million units IV q4h R\n\nAlternative:\nCeftriaxone 2 gm IV q24h M\n\nFor severe beta-lactam allergy:\nAssessment of Beta-lactam Reaction\nVancomycin 15 mg/kg IV q12h R",
+  "Inpt": "ORZID2 GMENU GRAM-POS FI PROPIONIBACT SPP."
+}

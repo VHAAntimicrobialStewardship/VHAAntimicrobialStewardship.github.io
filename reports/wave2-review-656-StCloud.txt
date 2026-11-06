@@ -1,0 +1,59 @@
+Wave 2 local wording: St. Cloud (656-StCloud)
+
+Pages changed from the test station: 254
+Changes logged: 769 on 255 pages (in place: 389, Local guidance blocks: 288, not applied: 41, opt-out pages: 52)
+Clinical changes: 432; changes also made by another wave 2 station: 447
+
+Pages the station marked RECOMMENDATIONS NOT AVAILABLE (shown as 'St. Cloud Guidance' above 'Minneapolis Guidance'):
+  Cardiac disease associated with lyme disease [lyme-cardiac-disease] (ER/UC) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#lyme-cardiac-disease
+  Amoxicillin Oral Challenge for Low Risk Patients [amoxicillin-challenge-allergy] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#amoxicillin-challenge-allergy
+  Select individual antimicrobial listed below for current status on shortages. [antimicrobial-shortages-updates] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#antimicrobial-shortages-updates
+  baricitinib-eua-covid-19 [baricitinib-eua-covid-19] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#baricitinib-eua-covid-19
+  Non-severe community-acquired pneumonia treated in an inpatient setting (Navigation) [cap-inpatient-treated-setting-non-severe-cap] (ER/UC) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#cap-inpatient-treated-setting-non-severe-cap
+  SEVERE Community-Acquired Pneumonia (CAP) Treated in Intensive Care Unit (ICU) (Navigation) [cap-inpatient-treated-setting-severe-cap] (ER/UC) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#cap-inpatient-treated-setting-severe-cap
+  Chlamydial or non-gonococcal urethritis, cervicitis or proctitis [chlamydia-urethritis-cervicitis-or-proctitis] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#chlamydia-urethritis-cervicitis-or-proctitis
+  Community-acquired pneumonia (cap) [com-acq-pneumonia] (ER/UC) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#com-acq-pneumonia
+  DERM POST-OP INFECTIONS (Navigation) [derm-post-op-infections] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#derm-post-op-infections
+  DERM PROPHYLAXIS [derm-prophylaxis] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#derm-prophylaxis
+  Dermatologic surgical site infections [dermatologic-surgical-site-infection] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#dermatologic-surgical-site-infection
+  High risk for surgical site infections antibiotic prophylaxis [high-risk-surgical-site-prophylaxis] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#high-risk-surgical-site-prophylaxis
+  Acute neurological disease associated with lyme disease [lyme-acute-neuro-disease] (ER/UC) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#lyme-acute-neuro-disease
+  Main Menu [main-menu] (ER/UC) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#main-menu
+  PD CEFAZOLIN 15MG/KG AND GENTAMICIN 0.6MG/KG Q24H [pd-cefazolin-15mg-kg-gentamicin-06mg-kg-q24h] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#pd-cefazolin-15mg-kg-gentamicin-06mg-kg-q24h
+  PD CEFAZOLIN 15MG/KG Q24H [pd-cefazolin-15mg-kg-q24h] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#pd-cefazolin-15mg-kg-q24h
+  PD CEFEPIME 1GM Q24H VANCO 15-30MG/KG Q5-7D [pd-cefepime-1gm-q24h-vanco-15-30mg-kg-q5-7d] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#pd-cefepime-1gm-q24h-vanco-15-30mg-kg-q5-7d
+  PD CEFEPIME 1GM Q24H [pd-cefepime-1gm-q24h] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#pd-cefepime-1gm-q24h
+  PD CEFTAZIDIME 1GM Q24H [pd-ceftazidime-1gm-q24h] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#pd-ceftazidime-1gm-q24h
+  PD CEFTRIAXONE 1GM Q24H [pd-ceftriaxone-1gm-q24h] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#pd-ceftriaxone-1gm-q24h
+  PD GENTAMICIN 0.6MG/KG Q24H [pd-gentamicin-06mg-kg-q24h] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#pd-gentamicin-06mg-kg-q24h
+  PD VANCOMYCIN 15-30MG/KG Q5-7D [pd-vancomycin-15-30mg-kg-q5-7d] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#pd-vancomycin-15-30mg-kg-q5-7d
+  Podiatry Surgery [podiatric-surgery-prophylaxis] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#podiatric-surgery-prophylaxis
+  Treatment of sepsis with severe beta-lactam reaction [sepsis-severe-beta-lactam-reaction] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#sepsis-severe-beta-lactam-reaction
+  Urethritis associated with sexually transmitted diseases [urethritis-assoc-std] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#urethritis-assoc-std
+  Clostridioides difficile infection 2-step testing [c-difficile-2-step-testing] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#c-difficile-2-step-testing
+  Hepatitis B evaluation for patients receiving Anti-CD20 Antibody Treatment [hepatitis-b-evaluation-anti-cd20-antibody] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#hepatitis-b-evaluation-anti-cd20-antibody
+  Peritonitis associated with peritoneal dialysis (Navigation) [peri-assoc-w-peri-dial] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#peri-assoc-w-peri-dial
+  Acute Respiratory Infection (ARI) Symptomatic Therapy [ari-symptomatic-therapy] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#ari-symptomatic-therapy
+  Aspiration pneumonia (Navigation) [aspiration-pneumonia] (ER/UC) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#aspiration-pneumonia
+  Bronchitis [bronchitis] (ER/UC) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#bronchitis
+  Nosocomial pneumonia (Navigation) [noso-pneumonia-new] (ER/UC) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#noso-pneumonia-new
+  Hospital-acquired pneumonia [pneumonia-hap-new] (ER/UC) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#pneumonia-hap-new
+  Prevention of prosthetic joint infection before infected skin, skin structures or muskuloskeletal tissue procedures [prevention-of-prosthetic-joint-infection-with-dirty-operation-site] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#prevention-of-prosthetic-joint-infection-with-dirty-operation-site
+  Allogeneic post-transplant vaccination (Seattle or Nashville) [bone-marrow-allogeneic-post-transplant-vaccination] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#bone-marrow-allogeneic-post-transplant-vaccination
+  Autologous post-transplant vaccination (Seattle or Nashville) [bone-marrow-autologous-post-transplant-vaccination] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#bone-marrow-autologous-post-transplant-vaccination
+  Bone marrow post-transplant vaccination [bone-marrow-post-transplant-vaccinations] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#bone-marrow-post-transplant-vaccinations
+  Acne (Navigation) [acne] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#acne
+  Dermatology service order menu for recalcitrant acne and rosacea [recalcitrant-acne-and-rosacea] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#recalcitrant-acne-and-rosacea
+  Rosacea [rosacea] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#rosacea
+  Antibiotic Loaded Bone Cement for PJI/PHI [antibiotic-loaded-bone-cement-for-pji-phi] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#antibiotic-loaded-bone-cement-for-pji-phi
+  Ophthalmic surgery prophylaxis [ophthalmic-surgery-prophylaxis] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#ophthalmic-surgery-prophylaxis
+  Pain Clinic Antimicrobial Prophylaxis Pre-procedure Orders [spinal-cord-stimulator-trial-procedure-prophylaxis] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#spinal-cord-stimulator-trial-procedure-prophylaxis
+  Plastic surgery [surg-plastic-surgery] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#surg-plastic-surgery
+  Urological procedures postop antimicrobial prophylaxis: [urological-post-operative-prophylaxis] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#urological-post-operative-prophylaxis
+  Sepsis with intraabdominal infection or unclear infectious source [sepsis-empiric-therapy-site-unk] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#sepsis-empiric-therapy-site-unk
+  Sepsis, meningitis [sepsis-meningitis-cns-infection] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#sepsis-meningitis-cns-infection
+  Sepsis with suspected pneumonia [sepsis-pneumonia] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#sepsis-pneumonia
+  Sepsis with suspected severe clostridium difficile infection [sepsis-susp-c-difficile] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#sepsis-susp-c-difficile
+  Sepsis with suspected endocarditis [sepsis-susp-endocarditis] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#sepsis-susp-endocarditis
+  Sepsis with suspected skin and soft tissue infection [sepsis-suspected-skin-soft-tissue] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#sepsis-suspected-skin-soft-tissue
+  Sepsis, urinary tract infection [sepsis-urosepsis] (Inpatient/ER/UC) https://vhaantimicrobialstewardship.github.io/stations/656-StCloud/StCloudCDSS.html#sepsis-urosepsis

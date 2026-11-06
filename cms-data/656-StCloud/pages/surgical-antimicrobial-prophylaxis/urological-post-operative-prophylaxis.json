@@ -1,0 +1,12 @@
+{
+  "PageID": "urological-post-operative-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
+  "SortKey": "surgical-antimicrobial-prophylaxis~1~urological post-operative prophylaxis",
+  "Term1": "Urological procedures postop antimicrobial prophylaxis:",
+  "Term2": "",
+  "Text": "# Urological procedures postop antimicrobial prophylaxis:\n\n**St. Cloud Guidance:**\n\nRECOMMENDATIONS NOT AVAILABLE\nRecommendations for this condition are not available within CDSS. Please refer to facility guidelines or other clinical resources for recommendations.\n\n**Minneapolis Guidance:**\n\n*Postoperative antimicrobial administration for preventing SSI is not necessary for most procedures.\n\n*Prophylactic antibiotics should be discontinued within 24 hours.\n\n<Click here> AUA Surgery Abx Prophylaxis Guidelines\n\nReferences\n\n- MVAHCS Urology Section (July 2023)\n- Lightner DJ, et al. Best Practice Statement on Urologic Procedures and Antimicrobial Prophylaxis, J Urol (2020) 203:351\n- Bratzler DW, et al.  Clinical practice guidelines for antimicrobial prophy in surgery, Am J Health-Syst Pharm. 2013 Vol 70 page 195-283",
+  "Therapy": "**Minneapolis Guidance:**\n\n## INPATIENT Postop IV medications:\n\nPreferred:\n\n[Cefazolin Weight Based Dosing q8h x2 doses postop](surg-cefazolin-wt-based-postop-doses-x2)\n\nAlternative for beta lactam allergy:\n\nClick here Beta-lactam allergy assessment\n\n[Vancomycin 15mg/kg Dosing q12h x1 dose postop](surg-vancomycin-post-op-specific-dosing)\n\n## INPATIENT Postop Oral Medications:\n\nCephalexin 500mg PO q6h X1 day postop urology ($) R\n\n< OR >\nSulfa/Trimeth DS 1 tablet po q12h X1 day postop urology procedure ($) R,DI\n\n< OR >\nNitrofurantoin SA 1 capsule q12h X1 day postop urology procedure ($) R,O\n\n## OUTPATIENT POSTOP PRESCRIPTION ORDERS:\n\nProphylaxis may be recommended in limited cases due to the severity of\ncomplications of postoperative infection (e.g., an infected device that is\nnot easily removable).\n\nCephalexin 500mg PO qid X5 days postop urology procedure ($) R\n\n< OR >\nSulfa/Trimeth 1 DS tablet PO q12h X5 days postop urology procedure ($) R,DI\n\n< OR >\nNitrofurantoin SA 1 capsule q12h X5 days postop urology procedure ($) R,O",
+  "Inpt": "ORZID2 GMENU SURG UROLOGY POSTOP",
+  "Outpt": "ORZID2 GMENU SURG UROLOGY POSTOP"
+}

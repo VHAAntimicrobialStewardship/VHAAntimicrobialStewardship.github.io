@@ -1,0 +1,11 @@
+{
+  "PageID": "peritoneal-dialysis-colonoscopy-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
+  "SortKey": "surgical-antimicrobial-prophylaxis~1~peritoneal dialysis colonoscopy prophylaxis",
+  "Term1": "Peritoneal dialysis colonoscopy prophylaxis",
+  "Term2": "Colonoscopy Peritoneal Dialysis Prophylaxis",
+  "Text": "# PERITONEAL DIALYSIS COLONOSCOPY PROPHYLAXIS\n\nColonoscopy generally doesn't not require antimicrobial prophylaxis Patients who use peritoneal dialysis are at higher risk of bacterial translocation during colonoscopy.\n\nEnsure that the abdomen is empty of fluid before procedures.\n\nAntimicrobials during procedure may be used, generally covering gram negatives and anaerobes.\n\n---\n\nReferences:\n\n- Li et al, ISPD Peritonitis Guideline recommendations 2022 update on prevention and treatment, Int J Soc Perit Dial 2022",
+  "Therapy": "## Antimicrobial Prophylaxis\n\nCefazolin 1 gm IV (M) once\n\n< OPTIONAL ADD ON TO ABOVE FOR ANAEROBIC COVERAGE>\nMetronidazole 500 mg IV DI once\n\n< OR >\nAmpicillin-sulbactam 3 gm IV R once\n\n< OR >\nAmpicillin 1 gm IV R once < AND > gentamicin 80 mg IV R,O once",
+  "Inpt": "ORZID2 GMENU SURG PD COLONOSCOPY PROPHYLAXIS"
+}

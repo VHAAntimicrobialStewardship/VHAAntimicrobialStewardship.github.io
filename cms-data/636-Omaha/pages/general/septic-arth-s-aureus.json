@@ -1,0 +1,11 @@
+{
+  "PageID": "septic-arth-s-aureus",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~septic-arth-s-aureus",
+  "Term1": "septic-arth-s-aureus",
+  "Term2": "",
+  "Text": "SEPTIC ARTHRITIS (NATIVE JOINT) WITH STAPHYLOCOCCUS AUREUS Administer parenteral therapy initially for approximately two weeks then can be converted to appropriate oral therapy.\n\nTotal duration of treatment 4-6 weeks depending on clinical response\n\n---\n\nReferences:\n\n- Mandell chapter: Infectious arthritis of native joints\n- Sanford keyword: Septic arthritis\n- Up-to-date online\n- Mathews CJ Lancet 2010, 375:846\n- Coakley G Rheumatology (Oxford) 2006, 45:1039",
+  "Therapy": "## Methicillin-SUSCEPTIBLE Staphylococcus aureus\n\n## Treatment\n\nTrimethoprim-sulfamethoxazole 1 DS tablet PO BID ($) R,DI\n\nCephalexin 500 mg PO QID ($) [R]\nDicloxacillin 500 mg PO QID ($) [DI]\n\n## Methicillin-RESISTANT Staphylococcus aureus\n\n## Treatment\n\nTrimethoprim-sulfamethoxazole 1 DS tablet PO BID ($) R,DI\n\n< OR >\nDoxycycline 100 mg PO bid for 28 days ($) [DI]",
+  "Inpt": "ORZID3 GMENU SEPTIC ARTH S. AUREUS"
+}

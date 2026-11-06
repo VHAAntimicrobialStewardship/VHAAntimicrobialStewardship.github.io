@@ -1,0 +1,41 @@
+Wave 2 local wording: Omaha (636-Omaha)
+
+Pages changed from the test station: 253
+Changes logged: 764 on 253 pages (in place: 520, Local guidance blocks: 197, not applied: 14, opt-out pages: 34)
+Clinical changes: 491; changes also made by another wave 2 station: 296
+
+Pages the station marked RECOMMENDATIONS NOT AVAILABLE (shown as 'Omaha Guidance' above 'Minneapolis Guidance'):
+  Post-surgical or post-traumatic brain abscess [brain-abscess-post-surgical-or-post-traumatic] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#brain-abscess-post-surgical-or-post-traumatic
+  PD CEFAZOLIN 15MG/KG AND GENTAMICIN 0.6MG/KG Q24H [pd-cefazolin-15mg-kg-gentamicin-06mg-kg-q24h] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#pd-cefazolin-15mg-kg-gentamicin-06mg-kg-q24h
+  PD CEFAZOLIN 15MG/KG Q24H [pd-cefazolin-15mg-kg-q24h] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#pd-cefazolin-15mg-kg-q24h
+  PD CEFEPIME 1GM Q24H VANCO 15-30MG/KG Q5-7D [pd-cefepime-1gm-q24h-vanco-15-30mg-kg-q5-7d] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#pd-cefepime-1gm-q24h-vanco-15-30mg-kg-q5-7d
+  PD CEFEPIME 1GM Q24H [pd-cefepime-1gm-q24h] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#pd-cefepime-1gm-q24h
+  PD CEFTAZIDIME 1GM Q24H [pd-ceftazidime-1gm-q24h] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#pd-ceftazidime-1gm-q24h
+  PD CEFTRIAXONE 1GM Q24H [pd-ceftriaxone-1gm-q24h] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#pd-ceftriaxone-1gm-q24h
+  PD GENTAMICIN 0.6MG/KG Q24H [pd-gentamicin-06mg-kg-q24h] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#pd-gentamicin-06mg-kg-q24h
+  PD VANCOMYCIN 15-30MG/KG Q5-7D [pd-vancomycin-15-30mg-kg-q5-7d] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#pd-vancomycin-15-30mg-kg-q5-7d
+  Non-occupational: [post-exposure-prophylaxis-non-occupational] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#post-exposure-prophylaxis-non-occupational
+  Post-Exposure Prophylaxis (PEP) for Exposure to Blood or Body Fluids [post-exposure-prophylaxis] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#post-exposure-prophylaxis
+  Hepatitis A vaccine information [hepatitis-a-vaccine-information] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#hepatitis-a-vaccine-information
+  Hepatitis B evaluation for patients receiving Anti-CD20 Antibody Treatment [hepatitis-b-evaluation-anti-cd20-antibody] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#hepatitis-b-evaluation-anti-cd20-antibody
+  hepb-vaccine-information-page [hepb-vaccine-information-page] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#hepb-vaccine-information-page
+  Peritonitis associated with peritoneal dialysis (Navigation) [peri-assoc-w-peri-dial] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#peri-assoc-w-peri-dial
+  Self-medicate Empiric Antibiotics for Fever or Other Signs of Systemic Infectio [splenectomy-empiric] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#splenectomy-empiric
+  Hiv (Navigation) [hiv-aids] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#hiv-aids
+  Rabies pre-exposure prophylaxis [rabies-pre-exposure-prophylaxis] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#rabies-pre-exposure-prophylaxis
+  Chickenpox vaccine information [chickenpox-vaccine-information] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#chickenpox-vaccine-information
+  Haemophilus influenza Type B vaccine information [haemophilus-influenza-type-b-vaccine-information] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#haemophilus-influenza-type-b-vaccine-information
+  Hepatitis A and B vaccine information [hepatitis-a-and-b-vaccine-information] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#hepatitis-a-and-b-vaccine-information
+  Human papillomavirus vaccine information [human-papillomavirus-vaccine-information] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#human-papillomavirus-vaccine-information
+  Vaccines in HIV [immunizations-in-hiv] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#immunizations-in-hiv
+  Vaccines in pregnancy [immunizations-in-pregnancy] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#immunizations-in-pregnancy
+  Measles, mumps, rubella vaccine information [measles-mumps-rubella-vaccine-information] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#measles-mumps-rubella-vaccine-information
+  Meningococcal conjugate vaccine information [meningococcal-conjugate-vaccine-information] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#meningococcal-conjugate-vaccine-information
+  Meningococcal serogroup B vaccine information [meningococcal-serogroup-b-vaccine-information] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#meningococcal-serogroup-b-vaccine-information
+  Pneumococcal vaccine information [pneumococcal-vaccine-information] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#pneumococcal-vaccine-information
+  Recommended immunization schedules and inpatient vaccine orders (Navigation) [recommended-immunizations] (Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#recommended-immunizations
+  SPLENECTOMY CHART [splenectomy-chart] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#splenectomy-chart
+  Functional or Anatomical Asplenia Vaccine & Antibiotic Prophylaxis Guideline [splenectomy-vaccines-prophy-2] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#splenectomy-vaccines-prophy-2
+  IMMUNIZATION OF IMMUNOCOMPROMISED PATIENTS (EXCLUDING HIV and HSCT) [vaccines-in-immunocompromised-patients] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#vaccines-in-immunocompromised-patients
+  Zoster vaccine information [zoster-vaccine-information] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#zoster-vaccine-information
+  Tetanus, diphtheria and acellular pertussis vaccine Information [tetanus-diphtheria-and-acellular-pertussis-vaccine-information] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636-Omaha/OmahaCDSS.html#tetanus-diphtheria-and-acellular-pertussis-vaccine-information

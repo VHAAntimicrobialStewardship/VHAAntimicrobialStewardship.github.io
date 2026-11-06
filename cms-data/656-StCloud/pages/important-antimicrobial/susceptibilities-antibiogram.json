@@ -1,0 +1,12 @@
+{
+  "PageID": "susceptibilities-antibiogram",
+  "Group": "important-antimicrobial",
+  "GroupLabel": "Important Antimicrobial Information",
+  "SortKey": "important-antimicrobial~0",
+  "Term1": "Antibiogram (Navigation)",
+  "Term2": "Antimicrobial susceptibilities",
+  "Text": "# ANTIMICROBIAL SUSCEPTIBILITIES\n\nAntimicrobial selection should be based on likely susceptibilities of anticipated or proven pathogens. Clinicians should be aware of local, regional, and national susceptibility patterns. Several sources for susceptibility patterns are listed below.\n\nLocal PDF File:\n[Minneapolis-Antibiogram](https://vhaantimicrobialstewardship.github.io/assets/uploads/001-TestStation/AntibiogramMinneapolis.pdf)\n\nTesting spreadsheet:\n[Experimental spreadsheet](https://vhaantimicrobialstewardship.github.io/assets/uploads/001-TestStation/AntimicrobialStewardshipGuidanceCombined.xlsx)\n\n*Local guidance (St. Cloud CDSS, Inpatient):*\nSt Cloud Local Antibiogram\nSt Cloud VAMC Microbiology Laboratory:\nCall (ext. 2408) or visit (B1 rm 113) the Microbiology Laboratory.\nMandell GL et al: Principles and Practice of Infectious Diseases, 6th Edition.\nChurchill Livingstone, 2005, Section E. The text is available at several locations in the hospital and in the Minneapolis VAMC Medical Library (room 4U-\n\n100) ext. 4200.\n\n*Local guidance (St. Cloud CDSS, Inpatient):*\nMinneapolis VA HCS Antibiogram\n\n---\n\n# Minnesota Department of Health\n\n[Please Click Here For the MDH website](https://www.health.state.mn.us/diseases/antibioticresistance/abx/index.html)\n\n---\n\n# NATIONAL\n\n# Sanford Guide\n\n[References:](references)\nGilbert DN et al: The Sanford Guide to Antimicrobial Therapy, published [References:](references)\nannually by Antimicrobial Therapy, Inc., Hyde Park, VT. www.sanfordguide.com.\nThe Guide is available at several locations in the hospital and an electronic version is available for purchase for personal digital assistants (Palm Pilot and others).\n\n# Mandell, Douglas, and Bennett Textbook\n\n[Click Here for link to Principles and Practice of Infectious Diseases online](https://www.clinicalkey.com/#!/browse/book/3-s2.0-C2016100010X) access Mandell et al: Principles and Practice of Infectious Diseases, Churchill Livingstone",
+  "Therapy": "",
+  "Inpt": "ORZID2 GMENU ABX SUSCEPTIBILITIES (ANTIBIOGRAM)",
+  "Outpt": "susceptibilities-antibiogram"
+}

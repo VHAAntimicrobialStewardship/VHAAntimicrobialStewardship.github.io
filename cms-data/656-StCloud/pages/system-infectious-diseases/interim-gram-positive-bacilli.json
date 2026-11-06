@@ -1,0 +1,10 @@
+{
+  "PageID": "interim-gram-positive-bacilli",
+  "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
+  "SortKey": "system-infectious-diseases~1~gram-positive bacilli bacteremia",
+  "Term1": "Gram-positive bacilli bacteremia",
+  "Term2": "Gram-positive bacilli, interim culture results",
+  "Text": "# INTERIM REPORT OF GRAM-POSITIVE BACILLI\nThere are three typical morphologies (1)large and regular, (2)medium sized and variable, and (3)small and pleomorphic.  The large, uniformly rod-shaped Gram-positive bacilli are usually Bacillus spp. (aerobic) or Clostridium species (anaerobic).  Bacillus spp. include Bacillus subtilis (usually a contaminant), Bacillus cereus, and Bacillus anthracis.  Medium-sized Gram-positive bacilli are usually Lactobacilli (anaerobic).  Small and pleomorphic bacilli are usually Listeria (aerobic), diphtheroids (aerobic), Propionibacteria (anaerobic), and Corynebacteria (aerobic).\n\n[LARGE UNIFORM BACILLI in an AEROBIC bottle](interim-large-bacilli-aerobic-bottle)\n\n[LARGE UNIFORM BACILLI in an ANAEROBIC bottle](interim-large-bacilli-anaerobic-bottle)\n\n[SMALL PLEOMORPHIC BACILLI in AEROBIC bottle](interim-small-bacilli-aerobic-bottle)\n\n[SMALL PLEOMORPHIC BACILLI in ANAEROBIC bottle](interim-small-bacilli-anaerobic-bottle)",
+  "Inpt": "ORZID2 GMENU INT RPT GPR"
+}

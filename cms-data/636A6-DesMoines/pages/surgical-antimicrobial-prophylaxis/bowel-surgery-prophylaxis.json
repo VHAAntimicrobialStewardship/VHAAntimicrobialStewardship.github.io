@@ -1,0 +1,12 @@
+{
+  "PageID": "bowel-surgery-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
+  "SortKey": "surgical-antimicrobial-prophylaxis~1~bowel surgery prophylaxis",
+  "Term1": "Bowel surgery prophylaxis",
+  "Term2": "Colo-rectal surgery",
+  "Text": "Bowel/Colo-rectal Surgery\nBowel preparation should be done for cases in which the colon should be cleansed for surgical reasons.\n\nSystemic antimicrobials should provide coverage for aerobes and anaerobes.\n\n# ---\n\nMechanical bowel preparation (when needed for technical reasons)\nMetoclopramide 10 mg PO once then Golytely 4 L PO starting in the afternoon the day before the procedure--INPATIENT STATUS\nMetoclopramide 10 mg PO once then Golytely 4 L PO starting in the afternoon the day before the procedure--OUTPATIENT STATUS\n\n---\n\nReferences:\n\n- Bratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis in surgery, Am J Health-Syst Pharm. 2013, 70: 195-283\n- Antimicrobial Prophylaxis for Surgery, Treatment Guidelines from The\n- Medical Letter 2012, 10: 73-77\n- Sanford keyword: Prophylaxis",
+  "Therapy": "## Systemic antimicrobials\n\n## Preferred prophylaxis\n\nCefazolin 2gm IV over 30 minutes beginning 60 minutes before incision\n\n($) [R] <AND> metronidazole 500 mg IV over 30 minutes beginning 60 minutes before incision ($) [DI]\n\n## Alternative in patient with beta lactam allergy\n\nCefazolin 2gm IV over 30 minutes beginning 60 minutes before incision ($) [R] <AND> metronidazole 500 mg IV over 30 minutes beginning 60\nClindamycin 900mg IV over 30 minutes ($)H,O beginning 60 minutes\nbefore incision <AND> levofloxacin 500mg IV over 60 minutes ($)[R,DI]\n\nbeginning 60 minutes before incision.",
+  "Inpt": "ORZID2 GMENU SURG COLON AND RECTAL SURG",
+  "Outpt": "ORZID2 GMENU SURG COLON AND RECTAL SURG"
+}

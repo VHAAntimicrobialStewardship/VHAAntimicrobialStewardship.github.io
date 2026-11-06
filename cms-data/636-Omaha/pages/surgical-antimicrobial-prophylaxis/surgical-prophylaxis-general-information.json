@@ -1,0 +1,11 @@
+{
+  "PageID": "surgical-prophylaxis-general-information",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
+  "SortKey": "surgical-antimicrobial-prophylaxis~1~surgical prophylaxis general information",
+  "Term1": "Surgical prophylaxis general information",
+  "Term2": "Pre-operative antimicrobials general information",
+  "Text": "SURGICAL PROPHYLAXIS COMMON PRINCIPLES\nPotential pathogens are introduced into normally sterile areas of the body during most surgical procedures.  The purpose of antimicrobial prophylaxis is to reduce the intraoperative microbial burden so that local host defenses can eliminate microorganisms and prevent disease.  Prophylaxis cannot be expected to sterilize tissues.\n\nAntimicrobial agent for surgical prophylaxis should be:\n\n1. active against the pathogens most likely to contaminate the surgical site\n2. given in an appropriate dosage and at a time that ensures adequate serum and tissue concentrations during the period of potential contamination\n3. safe, and\n4) administered for the shortest effective period to minimize adverse effects, the development of resistance, and costs.\n\nMost experts do not recommend routine use of broad-spectrum antibiotics such as ertapenem or extended spectrum cephalosporins such as cefotaxime, ceftriaxone, ceftazidime, cefepime or ceftaroline for surgical prophylaxis because they are expensive, some less active against staphylococci than first or second generation cephalosporins, and their spectrum of activity often includes organisms rarely encountered in elective surgery.\n\n*Local guidance (Omaha CDSS, Inpatient/Outpatient):*\nAntimicrobial Prophylaxis for Surgery, Medical Letter: May 23, 2016 Sanford Guidelines online\n\n# References:\n\n- Bratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis in surgery, Am J Health-Syst Pharm. 2013 Vol 70 page 195-283\n- Antimicrobial Prophylaxis for Surgery, Treatment Guidelines from The\n- Medical Letter 2012 Vol 10 pages 73-77",
+  "Inpt": "ORZID2 GMENU SURG PROPHYL GENRL INFO",
+  "Outpt": "ORZID2 GMENU SURG PROPHYL GENRL INFO"
+}

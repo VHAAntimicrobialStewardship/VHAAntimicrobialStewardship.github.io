@@ -1,0 +1,12 @@
+{
+  "PageID": "urological-surgery-prophylaxis",
+  "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
+  "SortKey": "genitourinary~1~urological surgery prophylaxis",
+  "Term1": "Antimicrobial Prophylaxis for Urological Procedures",
+  "Term2": "",
+  "Text": "# Antimicrobial Prophylaxis for Urological Procedures\n\nSingle-dose antimicrobial prophylaxis is appropriate in the majority of uncomplicated urologic cases.\n\n<Click here> AUA Surgery Abx Prophylaxis Guidelines\n\n# If no prophylaxis recommended, enter order:\n\n*No antimicrobial prophylaxis recommended order\n\n# Endoscopic procedures:\n\n[Cefazolin Weight Based Dosing Preop R](surg-cefazolin-weight-based-dosing)\n\n< OR >\nAmpicillin 2gram IV ONCE AND Gentamicin 5mg/kg IV ONCE Preop\n\n# TRUSP Biopsy:\n\n[Link to outpatient menu](prostate-biopsy-prophylaxis)\n\nReferences:\n\n- MVAHCS Urology Section (July 2023)\n- Lightner DJ, et al. Best Practice Statement on Urologic Procedures and Antimicrobial Prophylaxis, The Journal of Urology (2019)\n- Bratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis in surgery, Am J Health-Syst Pharm. 2013 vol 70 pages 195-283",
+  "Therapy": "**Alternative for allergy to penicillin/cephalosporin:\n\nClick here Beta-lactam reaction assessment\n\nLevofloxacin 500mg IVPB ONCE Preop\n\n**Alternative for allergy to both cephalosporins and fluoroquinolones:\n\nClindamycin 900mg IV ONCE AND Gentamicin 5mg/kg IV ONCE Preop\n\n**Additional single agents:\n\n[Gentamicin 5mg/kg Weight Based Dosing Preop](surg-gentamicin-weight-based-dosing)\n\n< OR >\nCiprofloxacin 400mg IV ONCE Preop\n\n< OR >\nCiprofloxacin 500 mg po x1 give in clinic\n\n< OR >\nFluconazole 400mg IV ONCE Preop\n\n## Open/Robotic procedures:\n\n[Cefazolin Weight Based Dosing Preop](surg-cefazolin-weight-based-dosing)\n\n**Alternative for cephalosporin allergy:\n\nClick here Beta-lactam reaction assessment\n\nSelect alternative from Endoscopic procedures above\n\n## Cystectomy/large bowel/vaginal procedures:\n\nCefazolin Weight Based IV ONCE AND Metronidazole 500mg IV ONCE Preop\n\n**Alternative for cephalosporin allergy:\n\nClick here Beta-lactam reaction assessment\n\nLevofloxacin 500mg IVPB ONCE Preop\n\n## Implants:\n\nCefazolin Weight Based IV ONCE AND Gentamicin 5mg/kg IV ONCE Preop\n\n**Alternative for cephalosporin allergy:\n\nClick here Beta-lactam reaction assessment\n\nVancomycin 15mg/kg IV ONCE AND Gentamicin 5mg/kg IV ONCE Preop\n\n## ",
+  "Inpt": "ORZID2 GMENU SURG UROLOGY PREOP",
+  "Outpt": "ORZID2 GMENU SURG UROLOGY PREOP"
+}

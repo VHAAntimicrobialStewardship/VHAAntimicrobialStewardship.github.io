@@ -1,0 +1,12 @@
+{
+  "PageID": "bells-palsy",
+  "Group": "cns",
+  "GroupLabel": "Central Nervous System",
+  "SortKey": "cns~1~bell's palsy",
+  "Term1": "Bell's palsy",
+  "Term2": "",
+  "Text": "# BELL'S PALSY\n\nHerpes simplex and varicella-zoster are possible causes of Bell's palsy. Others include Borrelia burgdorferi or trauma. Some cases are idiopathic. Risk factors for Bell's Palsy include pregnancy, diabetes, obesity, hypertension, and upper respiratory infections. Neurology consult is encouraged.\n\nIf Lyme disease is suspected, refer to the Lyme disease treatment page:\n[Lyme Disease](lyme-disease)\n\nTreatment with prednisone and an antiviral within 72 hours of symptoms onset improves the chances of a complete recovery.\n\n![Bell's Palsy face](/assets/uploads/001-TestStation/palsyExample.jpg \"Bell's Palsy\")\n\n---\n\nReferences:\n\n- Baugh et al., Otolaryngology-Head and Neck Surgery, 2013, 149(3S)S1-S27\n- Eviston et al., J Neurol Neurosurg Psychiatry, 2015, 56.1356-1361\n- Jalali et al., Laryngoscope, 2021, 131.1615-1625\n- Mandell chapter: Antivirals against Herpes Viruses\n- Sanford keyword: Herpes Simplex, Bell's Palsy\n- Schwartz et al., Otolaryngology-Head and Neck Surgery, 2014, 150(5)709-711\n- Up-To-Date article: Bell's palsy: Treatment and prognosis in adults",
+  "Therapy": "Preferred mild - moderate:\nPrednisone 60 mg q24h PO for 7 days\nPreferred Severe:\nPrednisone 60 mg q24h PO for 7 days <AND> valacyclovir 1000 mg PO q8h ($) [R] for 7 days\n\nAlternative:\nPrednisone 60 mg q24h PO for 7 days <AND> acyclovir 400 mg PO 5X/day ($) [R] for 10 days",
+  "Inpt": "ORZID2 GMENU ABX BELL'S PALSY",
+  "Outpt": "ORZID3 GMENU BELL PALSY"
+}

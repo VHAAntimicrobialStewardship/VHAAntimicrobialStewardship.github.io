@@ -1,0 +1,11 @@
+{
+  "PageID": "pros-b-j-p-aeruginosa",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~pros-b-j-p-aeruginosa",
+  "Term1": "Pseudomonas aeruginosa infections in bone or joint prostheses",
+  "Term2": "",
+  "Text": "# PSEUDOMONAS AERUGINOSA INFECTIONS IN BONE OR JOINT PROSTHESES\n\nFor acute, moderate or severe infections, treat with intravenous antibiotics followed by oral antibiotics. Mild infections can be treated with oral antibiotics only.\n\nConsult Infectious Diseases for specific management advice.\n\n# Duration of Treatment\n\nTreat for a total duration of 4-6 weeks. Chronic oral antimicrobial suppression may follow treatment based on individual patient circumstances.\n\nReferences:\n\n- Mandell chapter: Orthopedic Implant-Associated Infections\n- Up-to-Date Article: Prosthetic Joint Infections: Treatment\n- Osmon et al, Clinical Infectious Diseases (2013) 56.1, e1-25\n- Sanford keyword: Prosthetic Joint Infection",
+  "Therapy": "## Oral Treatment For Mild Infections, For Continuation of Therapy\n\nCiprofloxacin 750 mg PO BID ($) R,DI\n\n## Oral Treatment for Chronic Suppression\n\nCiprofloxacin 500 mg PO BID ($) R,DI",
+  "Inpt": "ORZID3 GMENU PROS B/J P. AERUGINOSA"
+}

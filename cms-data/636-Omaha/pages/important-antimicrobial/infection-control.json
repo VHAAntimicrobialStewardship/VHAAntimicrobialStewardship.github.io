@@ -1,0 +1,11 @@
+{
+  "PageID": "infection-control",
+  "Group": "important-antimicrobial",
+  "GroupLabel": "Important Antimicrobial Information",
+  "SortKey": "important-antimicrobial~1~infection control department information (navigation)",
+  "Term1": "Infection control department information (Navigation)",
+  "Term2": "Infection prevention department information",
+  "Text": "# Infection Prevention SharePoint Site\nWebsite address below: (copy and paste in browser) https://vaww.visn23.portal.va.gov/nwi/SiteDirectory/inf/default.aspx",
+  "Inpt": "ORZID2 GMENU ABX INFECTION CTRL",
+  "Outpt": "infection-control"
+}

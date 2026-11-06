@@ -1,0 +1,12 @@
+{
+  "PageID": "bacteremia",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~bacteremia (navigation)",
+  "Term1": "Bacteremia (Navigation)",
+  "Term2": "",
+  "Text": "# BACTEREMIA\n\n## Approach and empirical therapy\n\n[Approach to bacteremia](approach-to-bacteremia)\n[Suspected bacteremia, blood cultures not yet positive](suspected-bacteremia-cultures-not-yet-positive)\n\n## Interim blood culture results (Gram stain)\n\n[Gram-positive cocci in pairs](interim-gram-positive-cocci-pairs)\n[Gram-positive cocci in pairs and clusters](interim-gram-positive-cocci-clusters)\n[Gram-positive cocci in pairs and chains](interim-gram-positive-cocci-chains)\n[Gram-positive bacilli](interim-gram-positive-bacilli)\n[Gram-negative bacilli](interim-gram-negative-bacilli)\n[Gram-negative cocci](interim-gram-negative-cocci)\n[Yeast](interim-yeast)\n\n## Rapid PCR blood culture results\n\n[Staphylococcus aureus](staphylococcus-aureus-bacteremia)\n[Staphylococcus lugdunensis](staphylococcus-lugdunensis-bacteremia)\n[Other staphylococcus sp. (Coagulase-negative Staphylococci)](coagulase-negative-staphylococci-bacteremia)\n[Enterococci](enterococci)\n[Streptococci](streptococci)\n[Listeria monocytogenes](listeria-monocytogenes-bacteremia)\n[Citrobacter, Enterobacter cloacae, or Klebsiella aerogenes](citrobacter-freundii-bacteremia)\n[Pseudomonas sp.](pseudomonas-bacteremia)\n[Other Gram-negatives](other-gram-negative-rods-bacteremia)\n[Candida spp.](candidemia)",
+  "Inpt": "ORZID2 GMENU ABX BACTEREMIA",
+  "Outpt": "ORZID3 GMENU BACTEREMIA",
+  "ERUC": "ORZID GMENU ER/UC SUSP BACT, BLD CX NOT YET POS"
+}

@@ -1,0 +1,11 @@
+{
+  "PageID": "septic-arth-streptococci",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~septic-arth-streptococci",
+  "Term1": "septic-arth-streptococci",
+  "Term2": "",
+  "Text": "SEPTIC ARTHRITIS (NATIVE JOINT) WITH STREPTOCOCCI\nAdminister parenteral therapy initially and then can be converted to appropriate oral therapy.\n\nDuration of therapy 2-4 weeks total\n\nReferences:\n\n- Mandell chapter: Infectious arthritis of native joints\n- Sanford keyword: Septic arthritis\n- Up-to-date online\n- Mathews CJ Lancet 2010, 375:846",
+  "Therapy": "## Treatment\n\nAmoxicillin 1000 mg PO tid for 14 days ($) R\n\nClindamycin 300mg PO qid for 14 days ($) H",
+  "Inpt": "ORZID3 GMENU SEPTIC ARTH STREPTOCOCCI"
+}

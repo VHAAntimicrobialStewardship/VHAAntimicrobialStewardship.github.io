@@ -1,0 +1,11 @@
+{
+  "PageID": "brain-abscess-with-nocardia",
+  "Group": "cns",
+  "GroupLabel": "Central Nervous System",
+  "SortKey": "cns~1~brain abscess with nocardia (navigation)",
+  "Term1": "Brain abscess with nocardia spp. (Navigation)",
+  "Term2": "Nocardia brain abscess",
+  "Text": "# BRAIN ABSCESS WITH NOCARDIA SPP.\n\nMagnetic resonance imaging (MRI) should be obtained in all patients with suspected brain abscess for diagnosis and determining number of lesions. Prior to beginning antimicrobial therapy, when possible, computed topographic (CT) - guided aspiration or surgery should be performed to obtain abscess material for determination of infectious pathogen.\n\nNocardia brain abscess typically occur in immunocompromised patients and is often concomitant with disseminated or pulmonary infection.\n\n# Consult Neurosurgery, Neurology, and Infectious Disease\n\n# Duration of Therapy\n\nTreat with IV therapy for total duration of 3-6 weeks in immunocompetent and 6 weeks in immunocompromised patients. Switch to oral antimicrobials after completing IV therapy and treat for an additional 3 months or more.\n\n---\n\nReferences:\n\n- Brouwer et al. N Engl J Med, 2014, 371(5)447-56\n- Mandell chapter: Brain Abscess\n- Sanford keyword: Brain Abscess\n- Up-to-Date article: Treatment of Nocardiosis",
+  "Therapy": "## Initial IV Therapy\n\nTrimethoprim 5 mg/kg - sulfamethoxazole 25 mg/kg IV q8h ($$$) [R,DI] <AND> imipenem 500 mg q6h ($$) [R]\n\nIf Nocardia isolate is susceptible to third generation cephalosporins:\nTrimethoprim 5 mg/kg - sulfamethoxazole 25 mg/kg IV q8h ($$$) [R,DI] <AND>\nceftriaxone 2 gm IV q12h ($) [M]\n\nIf multiorgan or rapidly progressive disease, in addition to above therapy:\n< < ADD > Amikacin 7.5 mg/kg q12h ($$)\n\n## Oral Therapy, After Completing IV Therapy Above\n\nImmunocompetent patients\nTrimethoprim 5 mg/kg - sulfamethoxazole 25 mg/kg PO q12h ($) [R,DI]\nImmunocompromised patients\nTrimethoprim 5 mg/kg - sulfamethoxazole 25 mg/kg PO q12h ($) [R,DI] <AND> minocycline 100 mg q12h ($) [DI]",
+  "Inpt": "ORZID2 GMENU BRN ABSC NOCARDIA SPP"
+}

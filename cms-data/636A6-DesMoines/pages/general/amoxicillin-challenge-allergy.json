@@ -1,0 +1,10 @@
+{
+  "PageID": "amoxicillin-challenge-allergy",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~amoxicillin challenge allergy",
+  "Term1": "Amoxicillin Oral Challenge for Low Risk Patients",
+  "Term2": "",
+  "Text": "# Amoxicillin Oral Challenge for Low Risk Patients\n\n## Amoxicillin challenge protocol:\n\nTo be given ONLY after patient has been evaluated with thorough beta lactam history and found to be low risk, AND has given consent for amoxicillin challenge.\n\n## Place order for medications:\n\nInpatient orders:\nClinic orders:\nReferences:\n\n- Khan DA, et al. J Allergy Clin Immunol.,2022,150(6):1333-1393\n- Drug allergy: A 2022 practice parameter update",
+  "Inpt": "ORZID2 GMENU ABX AMOXICILLIN CHALLENGE ALLERGY"
+}

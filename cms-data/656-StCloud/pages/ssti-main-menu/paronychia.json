@@ -1,0 +1,12 @@
+{
+  "PageID": "paronychia",
+  "Group": "ssti-main-menu",
+  "GroupLabel": "Skin & Soft Tissue Infections",
+  "SortKey": "ssti-main-menu~1~paronychia",
+  "Term1": "Paronychia",
+  "Term2": "",
+  "Text": "# PARONYCHIA\n\nCutaneous infection of the hand, cuticle or fingers usually occurring near OR around the nail. Treatment depends on etiology. Candida spp. are commonly involved when the patient has extensive exposure to water (e.g. dishwashers). Staphylococcus aureus is more commonly after manicures or nail biting. Herpes simplex (whitlow) usually follows exposure to oral mucosa (e.g. wrestlers, dentists, or anesthetists).\n\n---\n\n---\n\n## Treatment for paronychia associated with Herpes whitlow\n\n---\n\n[Link to Herpes whitlow](herpes-whitlow)\n\n[References](references):\nUp-to-date website\nSanford keyword: paronychia",
+  "Therapy": "## Treatment for paronychia associated with Candida\n\nPreferred:\nTreat for 14 days\nClotrimazole 1% apply to affected area once daily ($) [M]\n\nAlternative:\nNystatin Cream to affected area BID ($) [M]\n\n## Treatment for paronychia associated with Staphylococcus\n\nPreferred:\nTreat for 10 days\nTrimethoprim/sulfamethoxazole 1 DS tablet PO BID ($) [R,DI]\n\nAlternative:\nDoxycycline 100 mg PO BID ($) [DI]",
+  "Inpt": "ORZID2 GMENU PARONYCHIA",
+  "Outpt": "ORZID3 GMENU PARONYCHIA"
+}

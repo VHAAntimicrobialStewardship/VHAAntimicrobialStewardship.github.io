@@ -1,0 +1,11 @@
+{
+  "PageID": "gram-pos-actinomyces-spp",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~gram-pos-actinomyces-spp",
+  "Term1": "gram-pos-actinomyces-spp",
+  "Term2": "",
+  "Text": "# ACTINOMYCES SPP.\n\nOptimal therapy depends on both the disease or syndrome and the pathogen. See diagnosis/syndrome section for more information.\n\n---\n\nReferences:\n\n- Sanford Guide article: Actinomycosis\n- Up-To-Date article: Treatment of actinomycosis",
+  "Therapy": "## Preferred treatment\n\nPenicillin VK 500 mg PO QID ($) R\n\n<OR>\nAmoxicillin 500 mg PO TID ($) R\n\n## Alternative for patients with beta-lactam allergy\n\nDoxycycline 100 mg PO BID ($) DI",
+  "Inpt": "ORZID3 GMENU GRAM-POS ACTINOMYCES SPP."
+}

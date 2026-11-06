@@ -1,0 +1,11 @@
+{
+  "PageID": "cell-mediated-immunity-defects",
+  "Group": "immunocompromised-patient",
+  "GroupLabel": "Immunocompromised Patients",
+  "SortKey": "immunocompromised-patient~1~cell-mediated immunity defects",
+  "Term1": "Cell-mediated immunity defects",
+  "Term2": "CMI defects",
+  "Text": "CELL-MEDIATED IMMUNITY (CMI) DEFECTS\nPatients with reduced CMI include those with HIV/AIDS, hematologic malignancies, cytotoxic chemotherapy, and congenital abnormalities.  Patients with cell-mediated immune defects are more susceptible to infections from ubiquitous microorganisms that do not usually cause infection in healthy patients.  The specific organisms that are more likely to be associated with disease vary depending on the specific type of immune defect present, but include:\n\nPneumocystis jirovecii (formerly Pneumocystis carinii), Mycobacterium avium, Mycobacterium tuberculosis, Salmonella spp., Candida spp., Aspergillus spp., Toxoplasma gondii, varicella-zoster virus, cytomegalovirus, Epstein-Barr virus, and Cryptosporidium parvum.\n\nThese infectious diseases usually have a subacute or chronic presentation.  The best approach in most circumstances is for the clinician to conduct a methodical diagnostic workup to identify the specific pathogen and guide therapy.\n\nEmpirical antimicrobials are not indicated for patients with CMI defects who present only with fever.  Contact Infectious Disease for more information.\n\n[References](references)\n\nRich RR, et al, eds.  Clinical Immunology\nRoitt I, et al, eds.  Immunology",
+  "Inpt": "ORZID2 GMENU CMI DEFECTS",
+  "Outpt": "ORZID2 GMENU CMI DEFECTS"
+}

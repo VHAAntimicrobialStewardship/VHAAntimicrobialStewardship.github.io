@@ -1,0 +1,12 @@
+{
+  "PageID": "bowel-surgery-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
+  "SortKey": "surgical-antimicrobial-prophylaxis~1~bowel surgery prophylaxis",
+  "Term1": "Bowel surgery prophylaxis",
+  "Term2": "Colo-rectal surgery",
+  "Text": "COLON AND RECTAL SURGERY\nBowel preparation should be done for cases in which the colon should be cleansed for surgical technical reasons. Routine mechanical bowel does not prevent infection and may increase anastomotic leakage and wound complications.\nSystemic antimicrobials are administered for all cases.\n\n---\n\nMechanical bowel preparation (when needed for technical reasons)\n\n---\n\nPolyethylene Glycol 3350 Oral Pwdr (238 grams): Mix 238 grams with 64 ounces of Gatorade/Powerade the morning prior to your surgery and chill. Take per Instructions.\nBisacodyl 5mg EC tab, Take 3 tablets by mouth at 1pm and 10 pm Neomycin 1000mg PO at 1pm, 2pm and 10pm day before surgery Erythromycin 1000mg PO at 1pm, 2pm and 10pm day before surgery\n\n---\n\nReferences:\n\n- Bratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis in surgery, Am J Health-Syst Pharm. 2013, 70: 195-283\n- Antimicrobial Prophylaxis for Surgery, Treatment Guidelines from The\n- Medical Letter 2012, 10: 73-77\n- Sanford keyword: Prophylaxis",
+  "Therapy": "## Systemic antimicrobials\n\n## Preferred prophylaxis\n\nCefazolin 2gm IV over 30 minutes beginning 60 minutes before incision\n\n($) [R] <AND> metronidazole 500 mg IV over 30 minutes beginning 60 minutes before incision ($) [DI]\n\n## Alternative for severe penicillin allergy:\nVancomycin 15mg/kg <AND> metronidazole 500 mg IV over 30 minutes beginning 60 minutes before incision <AND> Gentamicin 5mg/kg\n< OR >\nVancomycin 15mg/kg <AND> metronidazole 500 mg IV over 30 minutes beginning 60 minutes before incision <AND> Levofloxacin 500mg x 1\n\n*Local guidance (Omaha CDSS, Inpatient/Outpatient):*\nAntimicrobial Prophylaxis for Surgery, Treatment Guidelines from The Medical Letter 2016\nSanford Guide",
+  "Inpt": "ORZID2 GMENU SURG COLON AND RECTAL SURG",
+  "Outpt": "ORZID2 GMENU SURG COLON AND RECTAL SURG"
+}

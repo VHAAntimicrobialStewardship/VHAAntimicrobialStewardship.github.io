@@ -1,0 +1,10 @@
+{
+  "PageID": "pep-non-occupational-hiv-risk-table",
+  "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
+  "SortKey": "genitourinary~1~post-exposure risk of hiv",
+  "Term1": "Post-exposure risk of HIV",
+  "Term2": "HIV risk post-exposure risk",
+  "Text": "# Estimated per-act risk for qcquiring HIV FROM AN INFECTED SOURCE, BY EXPOSURE ACT\n\n| Exposure type | Rate for HIV acquisition per 10,000 exposures |\n| --- | --- |\n| **Parenteral** | |\n| Blood Transfusion | 9,250 |\n| Needle sharing during injection drug use | 63 |\n| Percutaneous (needlestick) | 23 |\n| **Sexual** | |\n| Receptive anal intercourse | 138 |\n| Receptive penile-vaginal intercourse | 8 |\n| Insertive anal intercourse | 11 |\n| Insertive penile-vaginal intercourse | 4 |\n| Receptive oral intercourse | Low |\n| Insertive oral intercourse | Low |\n| **OTHER** | |\n| Biting | Negligible |\n| Spitting | Negligible |\n| Throwing body fluids (including semen or saliva) | Negligible |\n| Sharing sex toys | Negligible |",
+  "Inpt": "ORZID3 GMENU ABX PEP NONOCCUP RISK TABLE BY EXPOSURE ACT"
+}

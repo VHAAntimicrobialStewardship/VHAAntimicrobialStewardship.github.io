@@ -1,0 +1,12 @@
+{
+  "PageID": "gynecological-surgery-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
+  "SortKey": "surgical-antimicrobial-prophylaxis~1~gynecological surgery prophylaxis",
+  "Term1": "Gynecological surgery prophylaxis",
+  "Term2": "",
+  "Text": "GYNECOLOGICAL SURGERY\nProphylaxis is indicated for abdominal or vaginal hysterectomy with either open or laparoscopic approach.  Antimicrobials are not indicated after incisions are closed.\n\nReferences:\n\n- Bratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis in surgery, Am J Health-Syst Pharm. 2013 vol 70 pages 195-283",
+  "Therapy": "## Preferred prophylaxis\n\n[Cefazolin Weight Based Dosing Preop](surg-cefazolin-weight-based-dosing)\n\n## Alternative in patients with beta lactam allergy\n\nVancomycin 15 mg/kg IV beginning 120 minutes before incision < AND > Aztreonam 2 grams IV over 20 minutes beginning 60 mins before incision",
+  "Inpt": "ORZID2 GMENU SURG GYNECOL SURG",
+  "Outpt": "ORZID2 GMENU SURG GYNECOL SURG"
+}

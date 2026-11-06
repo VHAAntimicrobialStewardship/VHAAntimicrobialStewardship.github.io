@@ -140,6 +140,7 @@ def test_pages() -> list[dict]:
     for f in sorted(TEST_PAGES.rglob("*.json")):
         page = json.loads(f.read_text(encoding="utf-8"))
         page["_group"] = f.parent.name
+        page["_file"] = f.relative_to(TEST_PAGES).as_posix()
         pages.append(page)
     return pages
 

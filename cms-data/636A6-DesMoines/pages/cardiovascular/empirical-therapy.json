@@ -1,0 +1,11 @@
+{
+  "PageID": "empirical-therapy",
+  "Group": "cardiovascular",
+  "GroupLabel": "Cardiovascular",
+  "SortKey": "cardiovascular~1~empirical therapy",
+  "Term1": "Native valve endocarditis--empirical therapy",
+  "Term2": "",
+  "Text": "# NATIVE VALVE ENDOCARDITIS--EMPIRICAL THERAPY",
+  "Therapy": "## Consult Infectious Diseases in all cases.\n\n---",
+  "Inpt": "ORZID2 GMENU EC NV EMP THERA"
+}

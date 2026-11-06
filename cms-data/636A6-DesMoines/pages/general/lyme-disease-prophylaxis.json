@@ -1,0 +1,13 @@
+{
+  "PageID": "lyme-disease-prophylaxis",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~lyme disease prophylaxis",
+  "Term1": "Lyme disease prophylaxis",
+  "Term2": "",
+  "Text": "# LYME DISEASE PROPHYLAXIS\n\nPatients who have been bitten while in endemic areas of New England, Mid-Atlantic States, Minnesota, and Wisconsin where local rate of Ixodes spp. tick infection rate with Borrelia burgdorferi in an endemic area may be treated with prophylactic antibiotics for prevention of Lyme disease. Using a wait and see method by monitoring for signs and symptoms of Lyme disease is also an acceptable approach in patients who have been bitten by an Ixodes spp. tick.\n\n---\n\nReferences:\n\n- Lantos et al., Clinical Infectious Diseases, 2021, 72(1):e1-e48\n- Minnesota Department of Health - Lyme Disease (Borrelia burgdorferi) https://www.health.state.mn.us/diseases/lyme/index.html\n- Up-to-date article: Prevention of Lyme disease\n- Up-to-date article: Evaluation of a tick bite for possible Lyme disease\n- Sanford keyword: Lyme Disease, Post-Exposure Prophylaxis\n- Wisconsin Department of Health Services - Lyme Disease: Wisconsin Data https://www.dhs.wisconsin.gov/tick/lyme.htm",
+  "Therapy": "## All following criteria must be met to be considered for prophylactic treatment\n\n1. Doxycycline is not contraindicated (i.e. allergy, pregnant, lactating)\n2. Attached tick is reliably identified as an adult or nymphal Ixodes spp.\nFollow link below for identification guide:\n\nIxodes spp. identification\n\n3. Tick is attached for greater than or equal to 36 hours based on degree of tick engorgement with blood or likely time of exposure to tick infested area.\n4. Prophylaxis must be started within 72 hours after time tick was removed.\n5\\. Patient was exposed to tick bite in endemic areas where rate of Ixodes scapularis infection with Borrelia burgdorferi is greater than 20%. Minnesota counties where there is high risk of tickborne disease are shown in the following link:\n\nTickborne Disease Risk in Minnesota\nProviders can call the Minnesota Department of Health (651-201-5414) or the Wisconsin Department of Health Services (608-266-1865) for specific rates of B.\nburdorferi infection of Ixodes spp. ticks in area where a patient was exposed.\nContact Infectious Disease if patient was exposed to an Ixodes spp. tick bite in New England or Mid-Atlantic States.\n\n## Prophylactic treatment if all of the above criteria are met\n\nDoxycycline PO 200mg once ($) [DI]",
+  "Inpt": "ORZID2 GMENU LYME DISEASE PROPHYLAXIS",
+  "Outpt": "ORZID3 GMENU LYME DISEASE PROPHYLAXIS",
+  "ERUC": "ORZID GMENU ER/UC LYME DISEASE PROPHYLAXIS"
+}

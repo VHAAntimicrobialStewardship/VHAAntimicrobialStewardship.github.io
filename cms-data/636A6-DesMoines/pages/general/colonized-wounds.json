@@ -1,0 +1,10 @@
+{
+  "PageID": "colonized-wounds",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~colonized wound",
+  "Term1": "Colonized wound",
+  "Term2": "Wound, colonized",
+  "Text": "# COLONIZED WOUNDS\n\n[Help page (instructions, microbiology, drug properties, etc.)](help-page)\nOpen wounds are usually colonized with bacteria and often fungi. This is true of ulcers, post-operative wounds, traumatic wounds, and others. The bacteria can be of relatively low virulence (eg, coagulase negative staphylococci, diphtheroids) or of potentially greater virulence (Staphylococcus aureus, enterobacteriaceae, pseudomonas). Candida is commonly present on wounds that are moist or covered. There is no need to treat patients with systemic antimicrobials simply because a wound culture is positive for a potential pathogen. Topical antimicrobials are not effective in nearly all circumstances and can select for resistant organisms or lead to other adverse effects. Systemic antimicrobial therapy may be indicated if there are signs of infection.",
+  "Inpt": "ORZID2 GMENU ABX COLONIZED WOUNDS"
+}

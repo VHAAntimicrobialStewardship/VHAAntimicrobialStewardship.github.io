@@ -1,0 +1,12 @@
+{
+  "PageID": "mediastinitis",
+  "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
+  "SortKey": "lung-and-mediastinum~1~mediastinitis",
+  "Term1": "Mediastinitis",
+  "Term2": "",
+  "Text": "# MEDIASTINITIS\n\nMediastinitis occurs after cardiothoracic procedures or less commonly after esophageal perforation.\n\n---\n\nReferences:\n\n- Mandell chapter: Principles and Practice of Infectious Diseases.",
+  "Therapy": "## Treatment AFTER CARDIOTHORACIC SURGERY\n\nPreferred:\nCefepime 2 gm IV q8h R <AND> vancomycin 15 mg/kg IV q12h R\n< OR >\nPiperacillin/tazobactam 4.5 gm IV q6h R <AND> vancomycin 15 mg/kg IV q12h R\n\nAlternative:\n[Assessment of Beta-lactam Reaction](beta-lactam-allergy-assessment)\nLevofloxacin 750 mg IV q24h R\n<AND>\nvancomycin 15 mg/kg IV q12h R\n\n## Treatment AFTER ESOPHAGEAL PERFORATION OR RUPTURE\n\nMixed aerobic/anaerobic infection is often present.\n\nPreferred:\nAmpicillin-sulbactam 3 gm IV q6h R\n\nAlternative:\n[Assessment of Beta-lactam Reaction](beta-lactam-allergy-assessment)\nLevofloxacin 750 mg IV q24h R,DI\n<AND>\nmetronidazole 500 mg IV q12h DI",
+  "Inpt": "ORZID2 GMENU ABX MEDIASTINITIS",
+  "Outpt": "ORZID3 GMENU MEDIASTINITIS"
+}

@@ -1,0 +1,12 @@
+{
+  "PageID": "pros-joint-bone-infect",
+  "Group": "bone-joint-muscle-infections",
+  "GroupLabel": "Bone, Muscle & Joint Infections",
+  "SortKey": "bone-joint-muscle-infections~1~pros joint bone infect",
+  "Term1": "Infections in bone or joint prostheses",
+  "Term2": "",
+  "Text": "# INFECTIONS IN BONE OR JOINT PROSTHESES\n\n## Empirical therapy before a pathogen is identified is not recommended unless patient is clinically unstable.\n\nSome infections may require one or two stage reimplantation. Long-term suppressive antimicrobial therapy or joint removal without replacement may be options depending on patient's condition. Consult Infectious Diseases (inpatient) for more information.\n\n## Infectious Disease and Orthopedics consultations are essential.\n\nIf patient has sepsis or is otherwise unstable, empiric treatment before culture results are obtained may be justified.\n\nReferences:\n\n- Mandell chapter: Orthopedic Implant-Associated Infections\n- Up-to-Date Article: Prosthetic Joint Infections: Treatment\n- Osmon et al, Clinical Infectious Diseases (2013) 56.1, e1-25\n- Sanford keyword: Prosthetic Joint Infection",
+  "Therapy": "Cefepime 2g IV q12h [R] <AND> vancomycin 15 mg/kg q12h [R]",
+  "Inpt": "ORZID2 GMENU PROS JOINT BONE INFECT",
+  "Outpt": "ORZID3 GMENU PROSTHESIS BONE JOINT INFECT"
+}

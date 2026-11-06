@@ -1,0 +1,12 @@
+{
+  "PageID": "periocular-infections",
+  "Group": "head-and-neck",
+  "GroupLabel": "Head and Neck",
+  "SortKey": "head-and-neck~1~periocular infections",
+  "Term1": "Periocular Infections",
+  "Term2": "",
+  "Text": "# PERIOCULAR INFECTIONS\n\n## Eyelid infections\n\nPatients with moderate or severe eyelid infections should be referred to ophthalmology.\n\n## Blepharitis\n\nWash margins with baby shampoo daily and use warm compresses daily. Antimicrobials have no benefit.\n\n## Hordeolum (stye)\n\nFor external disease (involving the gland of Zeis), daily hot pack massage encourages drainage and relieves symptoms. For internal disease (involving Meibomian glands) ophthalmology consult is encouraged, as the infection seldom drains without intervention.\n\n## Lacrimal infections\n\nRefer cases of lacrimal infection to ophthalmology, including infections of the lacrimal gland (dacryoadenitis), lacrimal sac (dacrocystitis), or tear ducts (canaliculitis).\n\nReferences:\n\n- Carlisle et al., American Family Physician. 2015, 92(2)106-112\n- Mandell chapter: Periocular infections\n- Up-To-Date article: Blepharitis\n- Up-To-Date article: Eyelid lesions\n- Sanford keyword: Blepharitis\n- Sanford keyword: Hordeolum, Stye",
+  "Therapy": "",
+  "Inpt": "ORZID2 GMENU PERIOCULAR INFECTIONS",
+  "Outpt": "ORZID3 GMENU PERIOCULAR INFECTIONS"
+}

@@ -1,0 +1,12 @@
+{
+  "PageID": "prev-infect-bact-prophyl",
+  "Group": "prevention-of-infection",
+  "GroupLabel": "Prevention of Infection",
+  "SortKey": "prevention-of-infection~1~prev infect bact prophyl",
+  "Term1": "Prevention of bacterial infections in a patient with malignancy",
+  "Term2": "",
+  "Text": "# PREVENTION OF BACTERIAL INFECTIONS IN A PATIENT WITH MALIGNANCY\n\nAntimicrobial prophylaxis is often given to patients likely to have profound, prolonged neutropenia. Profound neutropenia is less than 100 neutrophils and bands per microliter, and such neutropenia is considered prolonged when it is expected to last more than 7 days. Most patients who should receive prophylaxis have received stem cell transplants or are undergoing induction chemotherapy for acute leukemia.\n\n---\n\nReferences:\n\n- Taplitz RA Journal of Clinical Oncology, 2018, 36:3043\n- Mandell chapter: Prophylaxis and Empirical Therapy for Infection in Cancer Patients\n- NCCN Clinical Practice Guidelines, Prevention and Treatment of Cancer- Related Infections. Version 1.2019. nccn.org",
+  "Inpt": "ORZID2 GMENU PREV INFECT BACT PROPHYL",
+  "Outpt": "ORZID3 GMENU PREV INFECT ANTIBACT PROPHYL",
+  "Therapy": "## Inpatient\n\n### If antibacterial prophylaxis is indicated\n\nDuration of therapy: During period of expected neutropenia\nCiprofloxacin 500 mg PO q12h ($) [R,DI] < OR >\nLevofloxacin 500 mg PO q24h ($) [R]\n< OR >\nTrimethoprim-sulfamethoxazole 1 DS tablet PO q12h ($) [R,DI] < OR >\nCefpodoxime 100 mg PO q12h ($$) [R]\n\n## Outpatient\n\n### If antibacterial prophylaxis is indicated\n\nDuration of therapy: During period of expected neutropenia\nCiprofloxacin 500 mg PO BID for 7 days ($) [R,DI]\n< OR >\nLevofloxacin 500 mg PO QDAY for 7days ($) [R,DI]\n< OR >\nTrimethoprim/sulfamethoxazole 1 DS tablet PO BID for 7 days ($) [R,DI]\n< OR >\nCefpodoxime 100 mg PO BID x7days ($$) [R]"
+}

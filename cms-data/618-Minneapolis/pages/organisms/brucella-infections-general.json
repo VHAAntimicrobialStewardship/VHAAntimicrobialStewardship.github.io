@@ -1,0 +1,11 @@
+{
+  "PageID": "brucella-infections-general",
+  "Group": "organisms",
+  "GroupLabel": "Organisms",
+  "SortKey": "organisms~1~brucella infections, general",
+  "Term1": "Brucella infections, general",
+  "Term2": "",
+  "Text": "# BRUCELLA SPECIES\n\n# Consult Infectious Diseases in all cases\n\n---\n\nReferences:\n\n- Sanford keyword: Brucella sp., Brucellosis, Febrile Illness\n- Up-To-Date article: Clinical manifestations, diagnosis, and treatment of brucellosis",
+  "Therapy": "## Preferred treatment\n\nDoxycycline 100 mg PO q12h DI\n<AND>\nrifampin 600 mg PO q24h DI,O",
+  "Inpt": "ORZID2 GMENU GRAM-NEG FINAL BRUCELLA SPP."
+}

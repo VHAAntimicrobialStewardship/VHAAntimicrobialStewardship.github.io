@@ -1,0 +1,11 @@
+{
+  "PageID": "brain-abscess-with-toxoplasma-gondii",
+  "Group": "cns",
+  "GroupLabel": "Central Nervous System",
+  "SortKey": "cns~1~brain abscess with toxoplasma gondii",
+  "Term1": "Brain abscess with toxoplasma gondii",
+  "Term2": "Toxoplasma gondii brain abscess",
+  "Text": "# BRAIN ABSCESS WITH TOXOPLASMA GONDII\n\nPrior to beginning antimicrobial therapy, when possible, computed topographic (CT) - guided aspiration or surgery should be performed to obtain abscess material for determination of infectious pathogen. Adjust antimicrobial regimen to optimize therapy based on pathogen once isolated.\n\nCentral nervous system toxoplasmosis occurs mostly in HIV-infected patients.\n\n# Consult Neurosurgery, Neurology, and Infectious Disease\n\n# Duration of Therapy\n\nContinue treatment for 4 to 6 weeks after resolution of symptoms, then continue suppressive therapy in HIV patients until sustained immune reconstitution occurs.\n\n---\n\nReferences:\n\n- Brouwer et al. N Engl J Med, 2014, 371(5)447-56\n- Mandell chapter: Brain Abscess\n- Sanford keyword: Brain Abscess, Toxoplasmosis\n- Up-to-Date article: Toxoplasmosis",
+  "Therapy": "Pyrimethamine 200 mg PO x 1 ($$$$$) [DI,O] then 75 to 100 mg PO QD ($$$$$)\n[DI,O] <AND> sulfadiazine 1 to 1.5 gm PO q6h ($$) [DI,O] <AND> leucovorin 10 to 15 mg PO QD ($) ($)\n\n< OR >\nTrimethoprim 5 mg/kg - sulfamethoxazole 25 mg/kg IV q12h ($$$) R,DI\n\n< OR >\nTrimethoprim 5 mg/kg - sulfamethoxazole 25 mg/kg PO q12h ($) R,DI",
+  "Inpt": "ORZID2 GMENU BRN ABSC TOXOPLASMA GONDII"
+}

@@ -1,0 +1,10 @@
+{
+  "PageID": "urine-culture",
+  "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
+  "SortKey": "genitourinary~1~urine culture",
+  "Term1": "Urine culture",
+  "Term2": "Culture, urine",
+  "Text": "# URINE CULTURE MAIN ORDER MENU\n\n# Urine Culture is NOT indicated for the following conditions alone:\n\n- Cloudy urine\n- Malodorous urine\n- Discolored urine\n- When a urinary catheter is in place\n- Automatic on admission\n- End of therapy re-testing\n\n# Urine cultures should be ordered in patients with symptoms of a urinary tract infection, during pregnancy at appropriate screening intervals, and prior to an invasive urologic procedure.\n\n# Patient meets the following criteria for screening (select):\nPregnant and due for screening\nPre-operative screening for urologic procedure\nIf patient does not meet criteria for screening, must select indication for urine culture the patient has to place lab order:\n\nFever or sepsis with no other identifiable cause\n\nDysuria, frequency, or urgency\n\nFlank, suprapubic, or pelvic pain\n\nCVA tenderness\n\nAcute hematuria\n\nIncreased bladder spasticity or autonomic dysreflexia in patients with\nspinal cord injury or neurologic deficit\nAltered mental status with no other identifiable cause\n(note that UC not usually indicated, call ID with questions)",
+  "Inpt": "ORZID2 GMENU ABX URINE CULTURE MENU"
+}

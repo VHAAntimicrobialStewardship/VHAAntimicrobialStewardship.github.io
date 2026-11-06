@@ -1,0 +1,11 @@
+{
+  "PageID": "ercp-with-incomplete-drainage-prophylaxis",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~ercp with incomplete drainage prophylaxis",
+  "Term1": "ERCP with incomplete drainage prophylaxis",
+  "Term2": "Drainage incomplete, ERCP",
+  "Text": "ANTIMICROBIAL PROPHYLAXIS AFTER ERCP WITH INCOMPLETE DRAINAGE The risk of symptomatic infection is increased when drainage of the common bile duct is incomplete or if dye is trapped in the biliary tract.  In such cases, give antimicrobials for 5 days.\n\n# \n\nCiprofloxacin 500 mg PO q12h ($) R,DI < OR >\n\nAmoxicillin-clavulante 875/125 mg PO q12h ($) R\n\n# \n\n[References](references)\n\nUp to date website\nGuideline: Antibiotic prophylaxis for GI endoscopy, Gastrointestinal Endoscopy 2008, vol 67 pages 791-795",
+  "Inpt": "ORZID2 GMENU SURG ERCP INCOMP DRAINAGE",
+  "Outpt": "ORZID2 GMENU SURG ERCP INCOMP DRAINAGE"
+}

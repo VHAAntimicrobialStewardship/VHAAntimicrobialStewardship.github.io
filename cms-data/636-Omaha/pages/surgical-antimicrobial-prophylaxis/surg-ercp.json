@@ -1,0 +1,12 @@
+{
+  "PageID": "surg-ercp",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
+  "SortKey": "surgical-antimicrobial-prophylaxis~1~surg ercp",
+  "Term1": "SURG ERCP",
+  "Term2": "",
+  "Text": "# ENDOSCOPIC RETROGRADE CHOLANGIOPANCREATOGRAPHY (ERCP)\n\nAntimicrobials are not indicated in the absence of obstruction or intervention.\n\nIf obstruction is present or intervention is likely antimicrobial prophylaxis is recommended.  Use of gentamicin is optional.  Contact Gastroenterology for more information.  If drainage is incomplete, prophylactic antimicrobials after ERCP may be indicated.\n\n[Antimicrobial prophylaxis after ERCP with incomplete drainage](ercp-with-incomplete-drainage-prophylaxis)\n\nReferences:\n\n- Up-to-Date website\n- Sanford website: Surgical Prophylaxis Gastroduodenal, Biliary\n- Bratzler DW, et al.  Clinical practice guidelines for antimicrobial Prophylaxis in surgery, Am J Health-Syst Pharm. 2013 vol 70 pages 195-283 Guideline: Antibiotic prophylaxis for GI endoscopy, Gastrointestinal Endoscopy 2008 vol 67 pages 791-795",
+  "Inpt": "ORZID2 GMENU SURG ERCP",
+  "Outpt": "surg-ercp",
+  "Therapy": "## Preferred prophylaxis\n\nAmpicillin 2 gm IV over 20 minutes ($) R < AND > gentamicin 5mg/kg\nover 20 minutes ($) [R,O] both beginning 60 minutes before incision\n<OR>\nCiprofloxacin 400 mg IV over 60 minutes beginning 60 minutes before incision\n($) [R,DI]\n\n## Alternative for penicillin allergy\n\nVancomycin 15mg/kg IV beginning 120 minutes before incision ($) R\n< AND > gentamicin 5mg/kg ($) [R,O] over 20 minutes beginning 60 minutes before incision\n\n*Local guidance (Omaha CDSS, Inpatient):*\nAntimicrobial Prophylaxis for Surgery, Treatment Guidelines from The Medical Letter 2012 vol 10 pages 73-77"
+}

@@ -1,0 +1,11 @@
+{
+  "PageID": "splenectomy-chart",
+  "Group": "recommended-immunizations",
+  "GroupLabel": "Recommended Adult Immunizations",
+  "SortKey": "recommended-immunizations~1~splenectomy chart",
+  "Term1": "SPLENECTOMY CHART",
+  "Term2": "",
+  "Text": "## Functional or Anatomical Asplenia\n\n## Note: Please select EACH of the recommended 4 vaccines to place orders\n\n(Note:3 dose series-order 2nd and 3rd dose starting in 4-8 weeks in Outpt CDSS.)\n(Note: 2 dose series- order 2nd dose in 8 weeks in Outpatient CDSS)\n\n## Revaccination (booster): (Order in Outpatient CDSS)\n\n## Repeat 1 year after completing the primary series and every 2 to 3 years thereafter:\n\nMeningococcal B vaccine one dose\n\n## Repeat every 5 years:\n\nMeningococcal Oligosaccharide conj (MenACWY) one dose",
+  "Inpt": "ORZID2 GMENU ABX SPLENECTOMY CHART",
+  "Outpt": "ORZID3 GMENU SPLENECTOMY OPT CHART"
+}

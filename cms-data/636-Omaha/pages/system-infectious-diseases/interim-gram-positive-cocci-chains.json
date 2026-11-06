@@ -1,0 +1,11 @@
+{
+  "PageID": "interim-gram-positive-cocci-chains",
+  "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
+  "SortKey": "system-infectious-diseases~1~gram-positive cocci in pairs and chains bacteremia",
+  "Term1": "Gram-positive cocci in pairs and chains bacteremia",
+  "Term2": "Interim blood culture: Gram-positive cocci in chains",
+  "Text": "# INTERIM REPORT OF GRAM-POSITIVE COCCI IN PAIRS AND CHAINS\n\nIf chains are reported, streptococci are likely. If short chains are reported, enterococci are likely. Beta-lactam antimicrobials are more effective than vancomycin in killing susceptible streptococci and enterococci, so penicillin or ampicillin should be used if resistance is unlikely.\n\nIf the patient is severely ill or is likely to be colonized with resistant organisms, treat with vancomycin until susceptibility results are known.\n\nReferences\n\n- Medical Letter Choice of Antimicrobials 2010, 8.94\n- Sanford keyword: Enterococci\n- Sanford keyword: Streptococci",
+  "Therapy": "## Empirical treatment of suspected streptococcus infection\n\nPenicillin G 2 million units IV q4h (Cost $) R\n\nFor patients with non-severe penicillin allergy\nCeftriaxone 2 gm IV q24h (Cost $) M\n\nFor patients with severe-penicillin allergy\nVancomycin 15 mg/kg IV q12h (Cost $) R\n\n## Empirical treatment of suspected enterococcal infection\n\nAmpicillin 2 gm IV q4h (Cost $$) R\n\n## For patients with severe disease, resistance to beta-lactams is likely or patient with penicillin allergy\n\nVancomycin 15 mg/kg IV q12h (Cost $) R",
+  "Inpt": "ORZID2 GMENU INT RPT GPC PRS/CHAINS"
+}

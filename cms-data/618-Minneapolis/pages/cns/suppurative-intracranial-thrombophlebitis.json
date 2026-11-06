@@ -1,0 +1,11 @@
+{
+  "PageID": "suppurative-intracranial-thrombophlebitis",
+  "Group": "cns",
+  "GroupLabel": "Central Nervous System",
+  "SortKey": "cns~1~suppurative intracranial thrombophlebitis",
+  "Term1": "Suppurative intracranial thrombophlebitis",
+  "Term2": "Thrombophlebitis, suppurative intracranial",
+  "Text": "# SUPPURATIVE INTRACRANIAL THROMBOPHLEBITIS\n\nAdjust therapy from empirical regimens listed below after consultation with Infectious Disease or Neurosurgery services. Beta-lactam antibiotics are more effective than vancomycin against susceptible Staphylococci. If Staphylococcus is isolated, once methicillin-resistance is ruled out, switch to an anti-staphylococcal beta-lactam antibiotic. Pseudomonas is a potential pathogen in post-surgical patients or patients with known pseudomonas colonization.\n\n# Consult Infectious Disease and Neurosurgery.\n\n# Duration of Therapy\n\nTreat for 3 to 6 weeks.\n\n---\n\nReferences:\n\n- Kombogiorgas et al, British Journal of Neurosurgery, 2007, 21(6)603 - 609\n- Mandell chapter: Subdural Empyema, Epidural Abscess, and Suppurative Intracranial Thrombophlebitis",
+  "Therapy": "Preferred if Pseudomonas is not suspected:\n\nCeftriaxone 2 gm IV q12h ($) M <AND> metronidazole 500 mg IV q8h\n\n($) [DI] <AND> vancomycin 15 mg/kg IV q12h ($) [R]\n\nPreferred if Pseudomonas is suspected:\n\nCefepime 2gm IV Q8h ($$) R <AND> metronidazole 500 mg IV q8h ($) DI\n\n<AND> vancomycin 15 mg/kg IV q12h ($) [R]\n\nAlternative:\n\nAssessment of beta-lactam reaction\n\nMeropenem 2 gm IV q8h ($$) R,O  <AND> vancomycin 15mg/kg IV q12h ($) R\n\n## Treatment if Methicillin-Sensitive S. Aureus is Isolated\n\nNafcillin 2 gm IV q4h ($$) R,DI\n\n< OR >\nCefazolin 2 gm IV q8h ($) R",
+  "Inpt": "ORZID2 GMENU SUPP INTRACRANIAL THROMBOPH"
+}

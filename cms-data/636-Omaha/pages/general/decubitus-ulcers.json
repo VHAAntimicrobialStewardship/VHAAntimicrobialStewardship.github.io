@@ -1,0 +1,12 @@
+{
+  "PageID": "decubitus-ulcers",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~decubitus ulcers",
+  "Term1": "Decubitus ulcers",
+  "Term2": "",
+  "Text": "# DECUBITUS ULCERS\n\nDecubitus ulcers are colonized with bacteria. Antimicrobial therapy is unnecessary unless the patient has infection of surrounding tissues signified by erythema, warmth, local tenderness, or purulent discharge. Rectal or groin decubitus ulcers with surrounding infection need broad spectrum antimicrobials.\nUlcers located in other sites are usually treated with antimicrobials for staphylococci and streptococci.\n\n## Duration of therapy: 5 - 7 days, but adjust to clinical response\n\nUse treatment durations for soft tissue infection even in the presence of osteomyelitis if managed without plastic surgery. Treatment with prolonged antibiotics for osteomyelitis is typically reserved for when patients are managed with surgical debridement, bone biopsy, and/or wound closure. ID consult recommended.\nFor deep abscesses away from the rectal area, obtain material for Gram stain and culture and treat with:\n\n## For PERIRECTAL ABSCESSES that need systemic antimicrobials:\n\nPerianal/Anorectal Abscess\n\n---\n\nReferences:\n\n- Mandell chapter: Cellulitis and subcutaneous tissue infections\n- Up-to-Date website\n- Stevens DL Clin Infect Dis 2014, 59:147\n- Wong D, et al. Clin Infect Dis 2019:68(2):338\n- Spellberg B, et al. JAMA Netw Open 2022:5:(5):e2211321",
+  "Therapy": "## Treatment for Mild to Moderate Infections:\n\n## Inpatient\n\nCefadroxil 1000 mg PO q12h x 7days [R]\n\n### Alternative for beta-lactam allergy:\n\nBeta-lactam Reaction Assessment\nTrimethoprim-sulfamethoxazole 1 DS tablet BID for 7 days [R,DI]\n< OR >\nLinezolid 600 mg PO BID for 7 days [DI,O]\n\n### Treatment for severe infection:\n\nVancomycin 15 mg/kg IV q12h ($) [R]\n\n### For PERIRECTAL ABSCESSES that need systemic antimicrobials:\n\n[Perianal/Anorectal Abscess](perianal-anorectal-abscess)\n\n## Outpatient\n\nCefadroxil 1000 mg PO q12h x 7days [R]\n### Alternative for beta-lactam allergy:\n\nBeta-lactam Reaction Assessment\nTrimethoprim-sulfamethoxazole 1 DS tablet BID for 7 days [R,DI]\n< OR >\nLinezolid 600 mg PO BID for 7 days [DI,O]",
+  "Inpt": "ORZID2 GMENU DECUBITUS ULCERS",
+  "Outpt": "ORZID3 GMENU DECUBITIS ULCERS"
+}

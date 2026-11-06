@@ -1,0 +1,11 @@
+{
+  "PageID": "interim-large-bacilli-aerobic-bottle",
+  "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
+  "SortKey": "system-infectious-diseases~1~aerobic bottle, large uniform bacilli",
+  "Term1": "Aerobic bottle, large uniform bacilli",
+  "Term2": "Bacilli, large uniform, aerobic bottle",
+  "Text": "# LARGE UNIFORM BACILLI IN AN AEROBIC BOTTLE\n\nLarge uniform bacilli in an aerobic bottle usually suggest Bacillus species.\n\nBacillus subtilis is usually a contaminant, Bacillus cereus is uncommon but usually pathogenic. If Bacillus anthracis is suspected or isolated contact Infectious Diseases immediately.\n\nReferences\n\n- Hendricks et al., Emerg Infect Dis 2014, 20.2\n- Medical Letter Choice of Antimicrobials 2010, 8.94\n- Up-to-Date article: Bacillus cereus and other non-anthracis Bacillus species",
+  "Therapy": "## Empirical treatment of suspected non-anthracis Bacillus spp. associated with disease\n\nVancomycin 15 mg/kg IV q12h (Cost $) R\n\n## Empirical treatment of suspected Bacillus anthracis\n\n## Start combination therapy and contact Infectious Diseases immediately.\n\n## If meningitis has not been ruled out\n\nTreat for 6 weeks\nCiprofloxacin 400 mg IV q8h (Cost $) R,DI <AND> Meropenem 2 gm IV q8h\n(Cost $$) [R,O] < AND > linezolid 600 mg IV q12h (Cost $$$$) [DI]\n\n## If meningitis has been ruled out\n\nIsolate is penicillin-susceptible\nPenicillin 4 million units IV q4H (Cost $$) R,DI <AND> clindamycin 900mg\nIV q8h (Cost $$) [H,O]\n\nIsolate is not penicillin susceptible or susceptibility unknown\nCiprofloxacin 400 mg IV q8h (Cost $) R,DI <AND> clindamycin 900mg IV q8h\n(Cost $$) [H,O]",
+  "Inpt": "ORZID2 GMENU INT LRG UNIF RDS AEROBIC BOT"
+}

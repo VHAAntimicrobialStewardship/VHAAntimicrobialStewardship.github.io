@@ -1,0 +1,10 @@
+{
+  "PageID": "pep-non-occupational-antiretrovirals",
+  "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
+  "SortKey": "genitourinary~1~post-exposure prophylaxis, non-occupational, antivirals",
+  "Term1": "Post-exposure prophylaxis, non-occupational, antivirals",
+  "Term2": "PEP, non-occupational, antivirals",
+  "Text": "# Non-Occupational:\n\n# Post-Exposure Prophylaxis (nPEP) for Exposure to Blood or Body Fluids\n\n# Treatment recommendations:\n\nAll persons offered nPEP should be prescribed a 28-day course of a 3-drug antiretroviral regimen.\n\n* IMPORTANT- First dose should be given as soon as possible after exposure\n* These medications may be taken with or without food\n* Side effects of these medications are infrequent but may include:\n\nnausea, vomiting, diarrha, rash, fever, headaches, insomnia, arthralgias, fatigue, abdominal pain, hepatitis, renal dysfunction, rare lactic acidosis\n\n# Select appropriate treatment below based on renal function:\nCreatinine clearance >/= 30 ml/min:\nEmtricitabine 200MG/Tenofov AF 25MG Tab 1 PO qday ($$) [R,DI] < AND > Dolutegravir 50MG Tab 1 po qday ($$) [DI] for 28 days\nCBOC or after-hours Urgent Care med setups for above\nCreatinine clearance < 30 ml/min not on dialysis*:\n\nEmtricitabine 200MG/Tenofovir 300MG Tab 1 po q3days R,DI < AND >\n\nDolutegravir 50MG Tab 1 po qday [DI] for 28 days\n\n*Optimal dosing is uncertain. Follow-up with ID in 1-2 weeks is recommended to individualize dosing if needed.\n\n# ESRD dialysis:\n\nEmtricitabine 200MG/Tenofov AF 25MG Tab 1 PO qday ($$) [R,DI] < AND > Dolutegravir 50MG Tab 1 po qday ($$) [DI] for 28 days\nCBOC or after-hours Urgent Care med setups for the above Note: Dolutegravir is now a recommended agent to be used for HIV treatment and prevention in pregnancy (updated 2023).\n\n*Local guidance (St. Cloud CDSS, Inpatient):*\nUp-to-Date Online\nCDC Guidelines 2016\n\nReferences:\n\n- CDC Guidelines 2025",
+  "Inpt": "ORZID3 GMENU ABX PEP NON-OCCUPATIONAL DRUG TX"
+}

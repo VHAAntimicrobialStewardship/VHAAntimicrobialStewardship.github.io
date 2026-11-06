@@ -1,0 +1,10 @@
+{
+  "PageID": "surg-cefazolin-weight-based-dosing",
+  "Group": "cns",
+  "GroupLabel": "Central Nervous System",
+  "SortKey": "cns~1~surg-cefazolin-weight-based-dosing",
+  "Term1": "surg-cefazolin-weight-based-dosing",
+  "Term2": "",
+  "Text": "# CEFAZOLIN:\n\n# Recommended Cefazolin Preop Dose based on patient weight:\n\nPreop dose administer over 30 minutes, beginning 60 minutes before incision.\n\n<Click here> Display last recorded patient weight (limited to 2 years)\n\n# Weight <120 kg:\n\nCefazolin 2GM IVPB ONCE\n\n# Weight >/= 120 kg:",
+  "Inpt": "ORZID2 GMENU SURG CEFAZOLIN WEIGHT BASED DOSING"
+}

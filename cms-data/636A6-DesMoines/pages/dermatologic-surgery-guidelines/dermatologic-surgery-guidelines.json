@@ -1,0 +1,11 @@
+{
+  "PageID": "dermatologic-surgery-guidelines",
+  "Group": "dermatologic-surgery-guidelines",
+  "GroupLabel": "Dermatological Guidelines",
+  "SortKey": "dermatologic-surgery-guidelines~0",
+  "Term1": "DERMATOLOGIC SURGERY GUIDELINES (Navigation)",
+  "Term2": "",
+  "Text": "# DERMATOLOGICAL GUIDELINES\n\n# Background information on antibiotic prophylaxis in dermatologic surgery:\n\n[Antimicrobial Prophylaxis and Dermatologic Surgery](derm-prophylaxis)\n\n# Specific antibiotic prophylaxis recommendations in dermatologic surgery:\n\n[Oral mucosa or infected skin surgical site with high risk of infective endocarditis](prev-of-bact-endocarditis)\n\n[Oral mucosa or surgical site with high risk of hematogenous prosthetic joint infection](prevention-of-prosthetic-joint-infection-in-dental-surgery)\n[Infected skin surgical site with high risk of hematogenous prosthetic joint infection](prevention-of-prosthetic-joint-infection-with-dirty-operation-site)\n[Other high risk surgical sites and conditions](high-risk-surgical-site-prophylaxis)\n\n*Menu contains outpatient PO orders\n[Photodynamic therapy and laser skin resurfacing HSV-1 prophylaxis](photodynamic-therapy-hsv-1-prophylaxis)\n\n[Post-operative prophylaxis recommendations](derm-post-op-infections)\n\n*Menu contains outpatient PO orders\n\n# Dermatologic surgical site infection recommendations:\n\n[Management of Post-Operative infections](dermatologic-surgical-site-infection)\n\n*Menu contains outpatient PO orders",
+  "Inpt": "ORZID2 GMENU ABX DERMATOLOGIC SURGERY GUIDELINES",
+  "Outpt": "dermatologic-surgery-guidelines"
+}

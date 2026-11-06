@@ -1,0 +1,11 @@
+{
+  "PageID": "important-drug-properties",
+  "Group": "important-antimicrobial",
+  "GroupLabel": "Important Antimicrobial Information",
+  "SortKey": "important-antimicrobial~1~important drug properties (navigation)",
+  "Term1": "Important drug properties coding (Navigation)",
+  "Term2": "",
+  "Text": "# IMPORTANT DRUG PROPERTIES CODING\n\nNext to each drug quick order in CDSS, there are letters alerting the user to important properties associated with that drug:\n\n[DI]= clinically important drug interactions\n[H] = may require dose adjustment in patients with hepatic dysfunction [R] = may require dose adjustment in patients with renal dysfunction [O] = other important information\n[M] = minimal\n\n[Up-to-Date online \\(Lexicomp\\)](up-to-date-online)\n\nSanford online\n\nInfectious Diseases and Pharmacy Services can help with dose adjustments.\n\n# ",
+  "Inpt": "ORZID2 GMENU ABX IMPORTANT DRUG PROPERTIES",
+  "Outpt": "important-drug-properties"
+}

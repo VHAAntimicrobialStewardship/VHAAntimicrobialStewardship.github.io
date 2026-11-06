@@ -1,0 +1,12 @@
+{
+  "PageID": "thoracic-surgery-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
+  "SortKey": "surgical-antimicrobial-prophylaxis~1~thoracic surgery prophylaxis",
+  "Term1": "Thoracic surgery (includes section on esophageal procedures)",
+  "Term2": "",
+  "Text": "# THORACIC SURGERY (INCLUDES SECTION ON ESOPHAGEAL PROCEDURES)\n\n# Esophageal Surgical Procedures:\n\n# Prophylaxis:\n\nCefazolin 2gm IV over 30 minutes beginning 60 minutes before incision ($) [R] <AND> metronidazole 500 mg IV over 30 minutes beginning 60 minutes before incision ($) [DI]\n\nProphylaxis recommendations includes BOTH MEDICATIONS q8h for 2 doses post-op.\n\nPlease place post-op antimicrobial prophylaxis orders after admission.\n\n---\n\n# Thoracic surgery (except for esophageal procedures):\n\nIncludes video-assisted thoracoscopic surgery (VATS) and non-cardiac procedures, including lobectomy, pneumonectomy, lung resection and thoracotomy.\n\n# No post-operative doses are recommended.\n\n# Prophylaxis\n\n[Cefazolin Weight Based Dosing Preop R](surg-cefazolin-weight-based-dosing)\n\n# References\n\n- Bratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis in surgery, Am J Health-Syst Pharm. 2013 Vol 70 page 195-283\n- Antimicrobial Prophylaxis for Surgery, Treatment Guidelines from The Medical\n- Letter 2012 Vol 10 pages 73-77",
+  "Therapy": "## Alternative for patients with beta-lactam allergy:\n\nClindamycin 900 mg IV over 30 minutes, beginning 60 minutes before incision\n\n($) [H,O]\n\nProphylaxis recommendation includes q8h for 2 doses post-op.\n\nPlease place post-op antimicrobial prophylaxis order after admission.\n\n## Alternative for patients with beta-lactam allergy:\n\nClindamycin 900 mg IV over 30 minutes, beginning 60 minutes before incision\n\n($) [H,O]\n\n## Alternative for patient colonized or recently infected with MRSA\n\n[Vancomycin 15 MG/KG IV beginning 120 minutes before incision \\($\\) R](surg-vancomycin-weight-based-dosing)\n\n*Local guidance (St. Cloud CDSS, Inpatient/Outpatient):*\nCefazolin 2 gm IV over 20 minutes, beginning 60 minutes before incision ($) [R]",
+  "Inpt": "ORZID2 GMENU SURG THORACIC SURGERY",
+  "Outpt": "ORZID2 GMENU SURG THORACIC SURGERY"
+}

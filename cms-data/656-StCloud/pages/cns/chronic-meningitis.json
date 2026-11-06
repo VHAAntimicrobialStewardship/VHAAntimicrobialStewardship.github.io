@@ -1,0 +1,10 @@
+{
+  "PageID": "chronic-meningitis",
+  "Group": "cns",
+  "GroupLabel": "Central Nervous System",
+  "SortKey": "cns~1~chronic meningitis",
+  "Term1": "CHRONIC MENINGITIS",
+  "Term2": "",
+  "Text": "# CHRONIC MENINGITIS\n\nSubacute meningeal symptoms, including headache, fever, and nausea for 4 weeks or more. Chronic meningitis is caused by a long list of infectious and non-infectious etiologies. Treatment is based on etiology and empirical treatment is not urgent unless tuberculosis is suspected. Consult Infectious Diseases for more information.\n\n---\n\nReferences:\n\n- Mandell chapter: Chronic meningitis\n- Sanford keyword: Chronic meningitis\n- Tunkel et al., Clin Infect Dis, 2004, 39.1267-84\n- Up-to-Date Article: Approach to the patient with chronic meningitis\n- Van de Beek et al., Clin Microbiol Infect, 2016, 22.S37-S62",
+  "Inpt": "ORZID2 GMENU ABX CHRONIC MENINGITIS"
+}

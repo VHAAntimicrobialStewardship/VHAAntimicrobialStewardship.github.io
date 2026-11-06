@@ -1,0 +1,12 @@
+{
+  "PageID": "head-and-neck-surgery-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
+  "SortKey": "surgical-antimicrobial-prophylaxis~1~head and neck surgery prophylaxis",
+  "Term1": "Head and neck surgery prophylaxis",
+  "Term2": "Neck surgery",
+  "Text": "HEAD AND NECK SURGERY\nClean procedures include thyroidectomy and lymph node excisions.\n- Clean-contaminated procedures include all procedures involving an incision through the oral or pharyngeal mucosa. Clean-contaminated procedures include esophagectomy.\nClean procedures, no prosthesis: No antimicrobial prophylaxis recommended.\n\n# If no antimicrobial prophylaxis recommended, select below:\n\n*No antimicrobial prophylaxis recommended\n\n# References\n\n- Bratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis in surgery, Am J Health-Syst Pharm. 2013 Vol 70 page 195-283",
+  "Therapy": "## Clean, prosthesis inserted:\n\n## Preferred:\n\nCefazolin 2 gm IV over 30 minutes, beginning 60 minutes before incision ($) [R]\n\nPost-op doses are not indicated.\n\n## Alternative for patients with beta lactam allergy:\n\nClindamycin 900 mg IV over 30 minutes, beginning 60 minutes before incision ($$) [H,O]\n\nPost-op doses are not indicated.\n\n## Clean-contaminated procedures including cancer surgery:\n\n## Preferred:\n\nAmpicillin-sulbactam 3 gm IV over 30 minutes beginning 60 minutes before incision. ($) [R]\nProphylaxis recommendations includes q6h for 3 doses post-op.\n\nPlease place post-op antimicrobial prophylaxis order after admission.\n\n< OR >\nCefazolin 2gm IV over 30 minutes beginning 60 minutes before incision ($) [R] <AND> metronidazole 500 mg IV over 30 minutes beginning 60 minutes before incision ($) [DI]\nProphylaxis recommendations includes BOTH MEDICATIONS q8h for 2 doses post-op.\n\nPlease place post-op antimicrobial prophylaxis orders after admission.\n\n## Alternative for patients with beta lactam allergy:\n\nClindamycin 900 mg IV over 30 minutes beginning 60 minutes before incision ($$) [H,O]\nProphylaxis recommendation includes q8h for 2 doses post-op. Please place post-op antimicrobial prophylaxis order after admission.\n**Prophylaxis not indicated for tonsillectomy or functional endoscopic sinus procedures.",
+  "Inpt": "ORZID2 GMENU SURG HEAD AND NECK SURG",
+  "Outpt": "ORZID2 GMENU SURG HEAD AND NECK SURG"
+}

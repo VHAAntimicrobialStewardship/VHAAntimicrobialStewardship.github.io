@@ -1,0 +1,11 @@
+{
+  "PageID": "ari-symptomatic-therapy",
+  "Group": "lung-and-mediastinum",
+  "GroupLabel": "Lungs & Mediastinum",
+  "SortKey": "lung-and-mediastinum~1~ari-symptomatic-therapy",
+  "Term1": "Acute Respiratory Infection (ARI) Symptomatic Therapy",
+  "Term2": "",
+  "Text": "# Acute Respiratory Infection (ARI) Symptomatic Therapy\n\nContact Antimicrobial Stewardship/CDSS Team\n\n## Per CDC: Antibiotics Aren't Always the Answer. Be Antibiotics Aware.\n\nAntibiotics do not work on viruses, such as colds and flu, or runny noses, even if the mucus is thick, yellow or green. Antibiotics also won't help some common bacterial infections including most cases of bronchitis, many sinus infections, and some ear infections. When antibiotics aren't needed, they won't help you, and the side effects could still hurt you. Reactions from antibiotics cause 1 out of 5 medication-related visits to ED.\n\n## Select links below to print educational material for patient:\n\n<Link> CDC Print Pamphlet-Symptomatic RX for Acute Respiratory Infections <Link> CDC Print Pamphlet-Antibiotics aren't always the answer\n\n---",
+  "Therapy": "## ARI: Symptom-based therapy represents the mainstay of treatment.\n\nPlease select only one item from each symptom category patient experencing.\n\n## Antitussive Therapy:\n\n< OR >\nNon-VA for above (_Controlled Substance: Requires written prescription_)\n< OR >\n\n## Wheezing:\n\n## Pain and/or Fever:\n\n< OR >\n\n## Throat Pain:\n\n## Nasal Congestion:\n\n< OR >\n< OR >\n\n## Rhinorrhea and Sneezing:\n\n## Rhinorrhea:\n\n*Local guidance (Des Moines CDSS, Inpatient):*\nThroat lozenge q1h PRN",
+  "Inpt": "ORZID3 GMENU ARI SYMPTOMATIC THERAPY"
+}

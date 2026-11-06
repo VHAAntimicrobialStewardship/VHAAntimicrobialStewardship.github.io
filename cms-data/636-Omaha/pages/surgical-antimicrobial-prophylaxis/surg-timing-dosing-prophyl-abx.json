@@ -1,0 +1,11 @@
+{
+  "PageID": "surg-timing-dosing-prophyl-abx",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
+  "SortKey": "surgical-antimicrobial-prophylaxis~1~surg-timing-dosing-prophyl-abx",
+  "Term1": "surg-timing-dosing-prophyl-abx",
+  "Term2": "",
+  "Text": "TIMING AND DOSING (INCLUDING RE-DOSING) OF PROPHYLACTIC ANTIMICROBIALS Parenteral prophylactic antimicrobials can be given as a single IV dose begun within 60 minutes before the initial incision. For procedures lasting > 2 half-lives of the prophylactic agent (generally surgeries over 4 hours or those with major blood loss, intraoperative supplementary doses may be required. The timing to redosing common antibiotics in patients with normal renal function are:\nAmpicillin/sulbactam- 2 hrs:\nCefoxitin - 2 hrs:\nCefazolin - 4 hrs:\nClindamycin- 6 hrs:\nMetronidazole - 8 hrs,\nIf vancomycin or a fluoroquinolone is used, the infusion should start 60-120 minutes prior to the initial incision to have adequate tissue levels and to minimize the possibility of an infusion reaction close to the time of induction of anesthesia.\nIn patients that are colonized with methicillin-resistant Staphylococcus aureus MRSA) or in institutions where surgical site infections are frequently due to MRSA, vancomycin could be considered as prophylaxis. It should be given in addition to the routine prophylactic regimen recommended for the procedure.\nVancomycin is less effective than cefazolin for prevention of infections due to methicillin-susceptible Staphylococcus aureus (MSSA).\nPreoperative Screening and Decolonization-Preoperative identification of patients who are nasal carrier of MRSA or MSSA and decolonization using intranasal mupirocin and chlorhexidine have been shown to decrease surgical site infections following some procedures (primarily cardiac and orthopedic), but resistance to mupirocin could emerge if it is used routinely.\n\n[References](references)\n\nBratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis in surgery, Am J Health-Syst Pharm. 2013: 70: 195-283\nAntimicrobial Prophylaxis for Surgery, Treatment Guidelines from The Medical Letter 2016",
+  "Inpt": "ORZID2 GMENU SURG TIMING DOSING PROPHYL ABX",
+  "Outpt": "ORZID2 GMENU SURG TIMING DOSING PROPHYL ABX"
+}

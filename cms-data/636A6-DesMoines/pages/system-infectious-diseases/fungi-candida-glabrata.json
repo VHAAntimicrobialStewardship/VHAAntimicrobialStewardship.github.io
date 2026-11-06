@@ -1,0 +1,12 @@
+{
+  "PageID": "fungi-candida-glabrata",
+  "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
+  "SortKey": "system-infectious-diseases~1~fungi candida glabrata",
+  "Term1": "Candida glabrata",
+  "Term2": "",
+  "Text": "# CANDIDA GLABRATA\n\nC. glabrata is often resistant to fluconazole and occasionally has some degree of resistance to amphotericin. Higher doses of amphotericin are recommended due to delayed killing effects against Candida glabrata.\n\n## Duration of antimicrobial therapy\n\nDuration of therapy is dependent upon location and severity of infection, and response to therapy. Consult Infectious Diseases for more information.\n\nReferences:\n\n- Mandell chapter: Candida Species\n- Pappas et al. Clinical Infectious Diseases. 2016, 62(4)e1-50\n- Sanford keyword: Candidiasis, Candidemia or Disseminated\n- Up-to-Date article: Treatment of candidemia and invasive candidiasis in adults",
+  "Therapy": "## Preferred treatment\n\n## Inpatient\n\nAmphotericin B 1 mg/kg IV q24h ($$) [R,O]\n< OR >\nMicafungin 100-150 mg IV q24h ($$$) [H,DI]\n\\*150mg q24h for esophageal candidiasis, 100mg q24h for other indications\n\n### Alternative for susceptible isolates\n\nVoriconazole 6mg/kg IV q12h for 2 doses, then 4mg/kg IV q12h ($$$$) [R,H,DI]\n< OR >\nVoriconazole 400 mg PO q12h for 2 doses, then 200 mg PO q12h ($$) [R,H,DI]\n\n*Local guidance (Des Moines CDSS, Inpatient):*\nAlternative\nLiposomal amphotericin (Ambisome) 5 mg/kg IV q24h ($$$$) [R,O]\n\n## Outpatient\n\n### Alternative for susceptible isolates\n\nVoriconazole 400 mg PO BID for 2 doses, then 200 mg PO BID ($$) [R,H,DI]",
+  "Inpt": "ORZID2 GMENU FUNGI CANDIDA GLABRATA",
+  "Outpt": "ORZID3 GMENU FUNGI C. GLABRATA"
+}

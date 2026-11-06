@@ -1,0 +1,11 @@
+{
+  "PageID": "doxypep",
+  "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
+  "SortKey": "genitourinary~1~doxypep",
+  "Term1": "Doxycycline for Post-Exposure Prophylaxis (doxy PEP)",
+  "Term2": "",
+  "Text": "# Doxycycline for Post-Exposure Prophylaxis (doxy PEP)\n\n# Indications:\n\nMen who have sex with men (MSM) and transgender women (TGW) with 1 or more bacterial STI in the past 12 months OR MSM and TGW with multiple or anonymous sex partners.\n\n# Lab orders (see recommendations below):\n\nLab: Syphilis antibody Serum\n\nLab: Chlamydia with Gonorrhea Urine\n\nLab: Throat  swab for Chlamydia with Gonorrhea (submit only ONE swab in media)\n\nLab: Rectal  swab for Chlamydia with Gonorrhea (submit only ONE swab in media)\n\nLab: Vaginal swab for Chlamydia with Gonorrhea (submit only ONE swab in media)\n\nLab: HIV Ag/Ab\n\n# **Please consider referral for HIV PrEP in all patients started on DoxyPEP**\n\nInfectious Disease Outpt Consult\n\nReferences:\nBachmann LH, et al. MMWR Recommendations and Reports (2024) vol 73(2):1-8",
+  "Therapy": "## Screening recommendations for DoxyPEP (obtain at baseline and q3 months):\n\n- Gonorrhea and chlamydia at all anatomic sites of exposure condomless sex. Can be taken daily depending on sexual activity, but no more than 200mg q 24hours.\n\n(urogenital, pharyngeal, and/or rectal)\n\n- Syphilis antibody\n- HIV Ag/Ab\n\n# Order DoxyPEP #30 doses for 30 days with 2 refills:\n\nDoxycycline 200mg PO PRN within 24hours but not later than 72hours after\n\n*Local guidance (Omaha CDSS, Inpatient):*\nBachmann LH, et al. MMWR Recommendations and Reports (2024) vol73(2):1-8",
+  "Inpt": "ORZID3 GMENU DOXYPEP"
+}

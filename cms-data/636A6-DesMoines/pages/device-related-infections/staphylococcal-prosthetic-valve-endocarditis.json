@@ -1,0 +1,11 @@
+{
+  "PageID": "staphylococcal-prosthetic-valve-endocarditis",
+  "Group": "device-related-infections",
+  "GroupLabel": "Device-Related Infections",
+  "SortKey": "device-related-infections~1~staphylococcal prosthetic valve endocarditis",
+  "Term1": "Prosthetic valve endocarditis with staphylococci",
+  "Term2": "Prosthetic valve endocarditis, staphylococcal",
+  "Text": "# PROSTHETIC VALVE ENDOCARDITIS WITH STAPHYLOCOCCI\n\nEndocarditis with Staphylococcus aureus and coagulase-negative staphylococci are treated similarly. Surgery is required frequently in these patients.\n\n---\n\nReferences:\n\n- Baddour et al., Circulation 2015, 132:1-52\n- Mandell chapter: Endocarditis and intravascular infections\n- Sanford keyword: Endocarditis\n- Up-To-Date article: Overview of management of infective endocarditis in adults\n- Wang et al., JAMA 2018, 320.1:72-83",
+  "Therapy": "## Treatment for methicillin-susceptible strains\n\nNafcillin 2 gm IV q4h ($$) DI x 6 weeks <AND> rifampin 300 mg PO/NG q8h\n\n($) [DI,O] for 6 weeks <AND> gentamicin 1 mg/kg IV q8h ($) [R,O] for initial 2 weeks\n\n## Treatment for methicillin-resistant strains\n\nVancomycin 15 mg/kg IV q12h ($) R x 6 weeks <AND> rifampin 300 mg PO/NG\n\n($) [DI,O] q8h for 6 weeks <AND> gentamicin 1 mg/kg IV q8h ($) [R,O] for initial 2 weeks\n\n*Local guidance (Des Moines CDSS, Inpatient):*\nConsult Infectious Diseases in all cases.",
+  "Inpt": "ORZID2 GMENU EC PV STAPHYLOCOCCI"
+}

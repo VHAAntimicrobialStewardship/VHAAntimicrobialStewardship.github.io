@@ -1,0 +1,12 @@
+{
+  "PageID": "perianal-anorectal-abscess",
+  "Group": "ssti-main-menu",
+  "GroupLabel": "Skin & Soft Tissue Infections",
+  "SortKey": "ssti-main-menu~1~perianal/anorectal abscess (navigation)",
+  "Term1": "PERIANAL/ANORECTAL ABSCESS (Navigation)",
+  "Term2": "",
+  "Text": "# PERIANAL/ANORECTAL ABSCESS\n\nAntibiotics should typically be reserved for patients with an anorectal abscess complicated by cellulitis, systemic signs of infection, underlying immunosuppression, or failure to improve with drainage alone. Cultures of abscess fluid are not routinely recommended. Consider in patients who will be treated with adjunctive antibiotic treatment for systemic signs of infection, recurrent infection or nonhealing wounds, or underlying immunosuppression.\n\n## Primary therapy: abscess drainage\n\n---\n\n## Adjunctive antimicrobial treatment for patients with above complications.\n\n## Duration of treatment\n\n5 days of antibiotics after incision and drainage is recommended. In the absence of source control, recommended duration is 7-14 days, based on severity of infection, underlying immunosuppression, and clinical response.\n\n---\n\nReferences:\n\n- Gaertner et al, Dis Colon Rectum 2022, 65:964\n- Stevens DL Clin Infect Dis 2014, 59:147\n- Mazuski et al, Surg Infect, 2017, 18: 1\n- Wilson et al, Circulation 116:1736, 2007\n- Up-to-date article: Perianal and perirectal abscess\n- Up-to-date article: Cellulitis and skin abscess in adults: Treatment",
+  "Therapy": "## Mild disease, outpatients, oral transition\n\nPreferred:\nAmoxicillin-clavulanate 875/125 mg PO q12h [R]\n\nAlternative:\nAssessment of Beta-lactam Reaction\nTrimethoprim-sulfamethoxazole 1 DS tablet PO q12h [R,DI] <AND> metronidazole 500 mg PO q12h [DI]\n< OR >\nCiprofloxacin 500 mg PO q12h [R,DI] <AND> metronidazole 500 mg PO q12h [DI]\n\nPreferred:\nCeftriaxone 2 gm IV q24h [M] <AND> metronidazole 500 mg IV q8h [DI]\n\nAlternative:\nAssessment of Beta-lactam Reaction\nCiprofloxacin 400 mg IV q12h [R,DI] <AND> metronidazole 500 mg IV q8h [DI]\n\n## Severe - critical illness\n\nPreferred:\nPiperacillin-tazobactam 4.5 gm IV q6h [R]\n\nAlternative:\nCefepime 2 gm IV q8h [R] <AND> metronidazole 500 mg IV q8h [DI]\n\nAlternative for severe beta-lactam reaction:\nAssessment of Beta-lactam Reaction\nCiprofloxacin 400 mg IV q12h [R,DI] <AND> metronidazole 500 mg IV q8h [DI]",
+  "Inpt": "ORZID2 GMENU ABX PERIANAL/ANORECTAL ABSCESS",
+  "Outpt": "ORZID3 GMENU ABX PERIANAL/ANORECTAL ABSCESS"
+}

@@ -1,0 +1,10 @@
+{
+  "PageID": "surg-vancomycin-post-op-specific-dosing",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
+  "SortKey": "surgical-antimicrobial-prophylaxis~1~surg-vancomycin-post-op-specific-dosing",
+  "Term1": "surg-vancomycin-post-op-specific-dosing",
+  "Term2": "",
+  "Text": "# Vancomycin:\n\nPostoperative antimicrobial administration for preventing SSI is not\nnecessary for most procedures. The duration of antimicrobial prophylaxis\nshould be less than 24 hours.\n\n# Vancomycin Postop dose:\n\n# Alternative for allergy to penicillin/cephalosporins and/or MRSA positive:\n\n# Recommended Vancomycin Dose based on patient weight:\n\n<Click here> Display last recorderd patient weight (limited 2 years)\n\n# Weight <70 kg:\n\nVancomycin 1000 mg IV q12h x1 dose Postop\n\n# Weight 70-100 kg:\n\nVancomycin 1500 mg IV q12h x1 dose Postop\n\n# Weight >100 kg:\n\nVancomycin 2000 mg IV q12h x1 dose Postop",
+  "Inpt": "ORZID2 GMENU SURG VANCOMYCIN POST-OP SPECIFIC DOSING"
+}

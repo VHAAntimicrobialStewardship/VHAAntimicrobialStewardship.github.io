@@ -1,0 +1,12 @@
+{
+  "PageID": "hernia-repair-surgery-with-abdominal-mesh-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
+  "SortKey": "surgical-antimicrobial-prophylaxis~1~hernia repair surgery with abdominal mesh prophylaxis",
+  "Term1": "Hernia repair surgery with abdominal mesh prophylaxis",
+  "Term2": "Abdominal mesh hernia repair surgery",
+  "Text": "HERNIA REPAIR SURGERY\nSurgical prophylaxis is recommended for hernioplasty and herniorrhaphy.  For patients known to be colonized with MRSA, add a single dose of vancomycin to the preferred agent (cefazolin).\n\nAntimicrobials are not indicated after incisions are closed.\n\nReferences:\n\n- Bratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis in surgery, Am J Health-Syst Pharm. 2013 vol 70 pages 195-283",
+  "Therapy": "## Preferred prophylaxis\n\nCefazolin 2 gm IV over 30 minutes beginning 60 minutes before incision ($) [R]\n\n## For patients colonized with MRSA *ADD* Vancomycin in addition to cefazolin:\n\n[Vancomycin 15 mg/kg IV beginning 120 minutes before incision \\($\\) R](surg-vancomycin-weight-based-dosing)\n\n## Alternative for patient with beta lactam allergy\n\n[Click here] Beta-lactam reaction assessment\n\n[Vancomycin 15 mg/kg IV beginning 120 minutes before incision \\($\\) R](surg-vancomycin-weight-based-dosing)",
+  "Inpt": "ORZID2 GMENU SURG HERNIA REPAIR",
+  "Outpt": "ORZID2 GMENU SURG HERNIA REPAIR"
+}

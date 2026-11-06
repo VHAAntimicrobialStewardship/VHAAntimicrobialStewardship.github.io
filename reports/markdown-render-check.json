@@ -1,13 +1,13 @@
 {
-  "generated": "2026-11-06T19:58:38.682Z",
+  "generated": "2026-11-06T21:32:56.714Z",
   "counts": {
-    "column-page": 111,
-    "has-list": 1576,
-    "has-table": 9,
-    "tag-like-text": 550,
-    "text-mismatch": 4,
-    "long-emphasis": 4,
-    "blockquote-marker": 12
+    "column-page": 223,
+    "has-list": 3153,
+    "has-table": 22,
+    "tag-like-text": 1105,
+    "text-mismatch": 8,
+    "long-emphasis": 8,
+    "blockquote-marker": 24
   },
   "hardErrors": [
     {
@@ -51,6 +51,58 @@
     },
     {
       "station": "541-Cleveland",
+      "page": "hepb-vaccine-information-old-page",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "text-mismatch",
+          "at": 860,
+          "expected": "name:autoimmunehepatitis,0,1,4monthsEngerix-Balanineaminotransfer",
+          "rendered": "name:autoimmunehepatitis,2)0,1,4monthsEngerix-Balanineaminotransf"
+        }
+      ]
+    },
+    {
+      "station": "618-Minneapolis",
+      "page": "hepb-vaccine-information-old-page",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "text-mismatch",
+          "at": 860,
+          "expected": "name:autoimmunehepatitis,0,1,4monthsEngerix-Balanineaminotransfer",
+          "rendered": "name:autoimmunehepatitis,2)0,1,4monthsEngerix-Balanineaminotransf"
+        }
+      ]
+    },
+    {
+      "station": "636-Omaha",
+      "page": "hepb-vaccine-information-old-page",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "text-mismatch",
+          "at": 860,
+          "expected": "name:autoimmunehepatitis,0,1,4monthsEngerix-Balanineaminotransfer",
+          "rendered": "name:autoimmunehepatitis,2)0,1,4monthsEngerix-Balanineaminotransf"
+        }
+      ]
+    },
+    {
+      "station": "636A6-DesMoines",
+      "page": "hepb-vaccine-information-old-page",
+      "field": "Text",
+      "findings": [
+        {
+          "type": "text-mismatch",
+          "at": 860,
+          "expected": "name:autoimmunehepatitis,0,1,4monthsEngerix-Balanineaminotransfer",
+          "rendered": "name:autoimmunehepatitis,2)0,1,4monthsEngerix-Balanineaminotransf"
+        }
+      ]
+    },
+    {
+      "station": "656-StCloud",
       "page": "hepb-vaccine-information-old-page",
       "field": "Text",
       "findings": [
@@ -174,7 +226,119 @@
     "541-Cleveland/tetanus-diphtheria-and-acellular-pertussis-vac-4c4170:Text",
     "541-Cleveland/surg-antibiotic-renal-redosing:Text",
     "541-Cleveland/surgical-pre-op-antibiotics:Text",
-    "541-Cleveland/system-infectious-diseases:Text"
+    "541-Cleveland/system-infectious-diseases:Text",
+    "618-Minneapolis/bispecific-crs-monitoring:Text",
+    "618-Minneapolis/cns:Text",
+    "618-Minneapolis/drug-info:Text",
+    "618-Minneapolis/index:Text",
+    "618-Minneapolis/main-menu:Text",
+    "618-Minneapolis/genitourinary:Text",
+    "618-Minneapolis/gi-intraabdominal:Text",
+    "618-Minneapolis/hepatitis-a-vaccine-information:Text",
+    "618-Minneapolis/head-and-neck:Text",
+    "618-Minneapolis/additional-assistance:Text",
+    "618-Minneapolis/help-page:Text",
+    "618-Minneapolis/immunocompromised-patient:Text",
+    "618-Minneapolis/lung-and-mediastinum:Text",
+    "618-Minneapolis/viruses:Text",
+    "618-Minneapolis/chickenpox-vaccine-information:Text",
+    "618-Minneapolis/haemophilus-influenza-type-b-vaccine-information:Text",
+    "618-Minneapolis/hepatitis-a-and-b-vaccine-information:Text",
+    "618-Minneapolis/human-papillomavirus-vaccine-information:Text",
+    "618-Minneapolis/measles-mumps-rubella-vaccine-information:Text",
+    "618-Minneapolis/meningococcal-conjugate-vaccine-information:Text",
+    "618-Minneapolis/meningococcal-serogroup-b-vaccine-information:Text",
+    "618-Minneapolis/pneumococcal-vaccine-information:Text",
+    "618-Minneapolis/zoster-vaccine-information:Text",
+    "618-Minneapolis/ssti-main-menu:Text",
+    "618-Minneapolis/tetanus-diphtheria-and-acellular-pertussis-vac-4c4170:Text",
+    "618-Minneapolis/surg-antibiotic-renal-redosing:Text",
+    "618-Minneapolis/surgical-pre-op-antibiotics:Text",
+    "618-Minneapolis/system-infectious-diseases:Text",
+    "636-Omaha/bispecific-crs-monitoring:Text",
+    "636-Omaha/cns:Text",
+    "636-Omaha/drug-info:Text",
+    "636-Omaha/index:Text",
+    "636-Omaha/main-menu:Text",
+    "636-Omaha/genitourinary:Text",
+    "636-Omaha/gi-intraabdominal:Text",
+    "636-Omaha/hepatitis-a-vaccine-information:Text",
+    "636-Omaha/head-and-neck:Text",
+    "636-Omaha/additional-assistance:Text",
+    "636-Omaha/help-page:Text",
+    "636-Omaha/immunocompromised-patient:Text",
+    "636-Omaha/lung-and-mediastinum:Text",
+    "636-Omaha/viruses:Text",
+    "636-Omaha/chickenpox-vaccine-information:Text",
+    "636-Omaha/haemophilus-influenza-type-b-vaccine-information:Text",
+    "636-Omaha/hepatitis-a-and-b-vaccine-information:Text",
+    "636-Omaha/human-papillomavirus-vaccine-information:Text",
+    "636-Omaha/measles-mumps-rubella-vaccine-information:Text",
+    "636-Omaha/meningococcal-conjugate-vaccine-information:Text",
+    "636-Omaha/meningococcal-serogroup-b-vaccine-information:Text",
+    "636-Omaha/pneumococcal-vaccine-information:Text",
+    "636-Omaha/zoster-vaccine-information:Text",
+    "636-Omaha/ssti-main-menu:Text",
+    "636-Omaha/tetanus-diphtheria-and-acellular-pertussis-vac-4c4170:Text",
+    "636-Omaha/surg-antibiotic-renal-redosing:Text",
+    "636-Omaha/surgical-pre-op-antibiotics:Text",
+    "636-Omaha/system-infectious-diseases:Text",
+    "636A6-DesMoines/bispecific-crs-monitoring:Text",
+    "636A6-DesMoines/cns:Text",
+    "636A6-DesMoines/drug-info:Text",
+    "636A6-DesMoines/index:Text",
+    "636A6-DesMoines/main-menu:Text",
+    "636A6-DesMoines/genitourinary:Text",
+    "636A6-DesMoines/gi-intraabdominal:Text",
+    "636A6-DesMoines/hepatitis-a-vaccine-information:Text",
+    "636A6-DesMoines/head-and-neck:Text",
+    "636A6-DesMoines/additional-assistance:Text",
+    "636A6-DesMoines/help-page:Text",
+    "636A6-DesMoines/immunocompromised-patient:Text",
+    "636A6-DesMoines/lung-and-mediastinum:Text",
+    "636A6-DesMoines/viruses:Text",
+    "636A6-DesMoines/chickenpox-vaccine-information:Text",
+    "636A6-DesMoines/haemophilus-influenza-type-b-vaccine-information:Text",
+    "636A6-DesMoines/hepatitis-a-and-b-vaccine-information:Text",
+    "636A6-DesMoines/human-papillomavirus-vaccine-information:Text",
+    "636A6-DesMoines/measles-mumps-rubella-vaccine-information:Text",
+    "636A6-DesMoines/meningococcal-conjugate-vaccine-information:Text",
+    "636A6-DesMoines/meningococcal-serogroup-b-vaccine-information:Text",
+    "636A6-DesMoines/pneumococcal-vaccine-information:Text",
+    "636A6-DesMoines/zoster-vaccine-information:Text",
+    "636A6-DesMoines/ssti-main-menu:Text",
+    "636A6-DesMoines/tetanus-diphtheria-and-acellular-pertussis-vac-4c4170:Text",
+    "636A6-DesMoines/surg-antibiotic-renal-redosing:Text",
+    "636A6-DesMoines/surgical-pre-op-antibiotics:Text",
+    "636A6-DesMoines/system-infectious-diseases:Text",
+    "656-StCloud/bispecific-crs-monitoring:Text",
+    "656-StCloud/cns:Text",
+    "656-StCloud/drug-info:Text",
+    "656-StCloud/index:Text",
+    "656-StCloud/main-menu:Text",
+    "656-StCloud/genitourinary:Text",
+    "656-StCloud/gi-intraabdominal:Text",
+    "656-StCloud/hepatitis-a-vaccine-information:Text",
+    "656-StCloud/head-and-neck:Text",
+    "656-StCloud/additional-assistance:Text",
+    "656-StCloud/help-page:Text",
+    "656-StCloud/immunocompromised-patient:Text",
+    "656-StCloud/lung-and-mediastinum:Text",
+    "656-StCloud/viruses:Text",
+    "656-StCloud/chickenpox-vaccine-information:Text",
+    "656-StCloud/haemophilus-influenza-type-b-vaccine-information:Text",
+    "656-StCloud/hepatitis-a-and-b-vaccine-information:Text",
+    "656-StCloud/human-papillomavirus-vaccine-information:Text",
+    "656-StCloud/measles-mumps-rubella-vaccine-information:Text",
+    "656-StCloud/meningococcal-conjugate-vaccine-information:Text",
+    "656-StCloud/meningococcal-serogroup-b-vaccine-information:Text",
+    "656-StCloud/pneumococcal-vaccine-information:Text",
+    "656-StCloud/zoster-vaccine-information:Text",
+    "656-StCloud/ssti-main-menu:Text",
+    "656-StCloud/tetanus-diphtheria-and-acellular-pertussis-vac-4c4170:Text",
+    "656-StCloud/surg-antibiotic-renal-redosing:Text",
+    "656-StCloud/surgical-pre-op-antibiotics:Text",
+    "656-StCloud/system-infectious-diseases:Text"
   ],
   "tagLikeText": {
     "001-TestStation/osteomyelitis:Therapy": [
@@ -1881,6 +2045,1736 @@
       "AND"
     ],
     "541-Cleveland/toxic-shock-syndrome:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "618-Minneapolis/osteomyelitis:Therapy": [
+      "ADD"
+    ],
+    "618-Minneapolis/pros-joint-bone-infect:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/septic-arthritis-nat-joint:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/vertebral-diskitis-osteom:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/cardiovascular-device-infections-excluding-valves:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/catheter-associated-infection-intravascular:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/empirical-therapy:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/pericarditis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/streptococcal-native-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/suppurative-thrombophlebitis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/abscess-spinal-epidural:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/bells-palsy:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/brain-abscess-from-contiguous-or-hematogenous-spread:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/brain-abscess-post-surgical-or-post-traumatic:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/brain-abscess-with-nocardia:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/brain-abscess-with-toxoplasma-gondii:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/cranial-epidural-abscess:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/gram-negative-bacilli-meningitis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/gram-positive-diplococci-meningitis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/meningitis-associated-with-trauma-or-nosocomial-infection:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/meningitis-with-streptococcus-pneumoniae:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/meningitis-without-gram-stain-results:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/subdural-empyema:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/suppurative-intracranial-thrombophlebitis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/surg-cefazolin-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "618-Minneapolis/surg-vancomycin-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "618-Minneapolis/prosthetic-valve-endocarditis-empirical-therapy:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/staphylococcal-prosthetic-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/streptococcal-prosthetic-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/bite-wnds-eikenella-corrodens:Therapy": [
+      "OR"
+    ],
+    "618-Minneapolis/bite-wnds-p-multocida:Therapy": [
+      "OR"
+    ],
+    "618-Minneapolis/bite-wnds-streptococci:Therapy": [
+      "OR"
+    ],
+    "618-Minneapolis/cap-inpatient-treated-setting-non-severe-cap:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/cap-inpatient-treated-setting-severe-cap:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/cap-outpatient-treated-setting:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/cap-treated-in-outpt-setting:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/covid-19-mpls-antimicrobial-guideline:Therapy": [
+      "OR"
+    ],
+    "618-Minneapolis/derm-post-op-infections:Text": [
+      "AND"
+    ],
+    "618-Minneapolis/dermatologic-surgical-site-infection:Text": [
+      "AND"
+    ],
+    "618-Minneapolis/emp-intrav-w-o-vanco:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/emp-intrav-w-vanco:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/gonococcal:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/gram-pos-actinomyces-spp:Therapy": [
+      "OR"
+    ],
+    "618-Minneapolis/necrot-infect-direct-therapy:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/necrot-infect-emp-therapy:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/neut-fever-cand-oral-thera:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/osteom-with-p-aeruginosa:Therapy": [
+      "OR"
+    ],
+    "618-Minneapolis/pid:Therapy": [
+      "AND",
+      "OPTIONAL"
+    ],
+    "618-Minneapolis/sa-decolonization:Text": [
+      "AND"
+    ],
+    "618-Minneapolis/sepsis-severe-beta-lactam-reaction:Therapy": [
+      "ADD"
+    ],
+    "618-Minneapolis/acute-bact-prostatitis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/bacterial-vaginosis-male-sexual-partner:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/epididymitis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/post-exposure-prophylaxis-non-occupational:Text": [
+      "ORDER"
+    ],
+    "618-Minneapolis/surg-48hrs-after-proc:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/uncomp-uti:Therapy": [
+      "OR"
+    ],
+    "618-Minneapolis/urological-surgery-prophylaxis:Text": [
+      "Click"
+    ],
+    "618-Minneapolis/urological-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/appendicitis-w-o-perforation:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/appendicitis-with-perforation:Therapy": [
+      "AND",
+      "ADD"
+    ],
+    "618-Minneapolis/babesia-infections-general:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/cholangitis:Therapy": [
+      "ADD",
+      "AND"
+    ],
+    "618-Minneapolis/cholecystitis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/diverticulitis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/fungi-candida-albicans:Therapy": [
+      "OR"
+    ],
+    "618-Minneapolis/h-pylori-infect:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/hepatitis-a:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/initial-peri-assoc-w-peri-dial:Text": [
+      "AND",
+      "OR"
+    ],
+    "618-Minneapolis/liver-pyogenic-abscess:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/peri-assoc-w-peri-dial:Therapy": [
+      "OR",
+      "AND"
+    ],
+    "618-Minneapolis/second-peritonitis:Therapy": [
+      "AND",
+      "ADD"
+    ],
+    "618-Minneapolis/step-down-treatment:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/toxic-megacolon:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/typhlitis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/vibrio-non-cholerae:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/cmv-retinitis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/deep-orophar-infect:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/epiglottitis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/keratitis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/mastoiditis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/otitis-externa:Therapy": [
+      "ADD"
+    ],
+    "618-Minneapolis/parotitis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/postseptal-cellulitis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/preseptal-cellulitis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/supp-odontogenic-infect:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/hiv-aids:Text": [
+      "ORDER"
+    ],
+    "618-Minneapolis/ari-symptomatic-therapy:Text": [
+      "Link"
+    ],
+    "618-Minneapolis/aspiration-pneumonia:Therapy": [
+      "OR"
+    ],
+    "618-Minneapolis/cap-oral-treatment:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/empyema:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "618-Minneapolis/mediastinitis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/more-about-nosocomial-pneumonia:Text": [
+      "AND"
+    ],
+    "618-Minneapolis/nosocomial-pneumonia-with-pseudomonas-aeruginosa:Therapy": [
+      "ADD"
+    ],
+    "618-Minneapolis/pneumonia-hap-new:Therapy": [
+      "OR",
+      "ADD"
+    ],
+    "618-Minneapolis/ventilator-associated-pneumonia:Therapy": [
+      "AND",
+      "OR",
+      "ADD"
+    ],
+    "618-Minneapolis/brucella-infections-general:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/cmv-encephalitis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/cmv-pneumonia:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/disseminated-m-avium:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/herpes-keratitis:Therapy": [
+      "OR"
+    ],
+    "618-Minneapolis/m-avium-pneumonia:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/toxoplasma-infections-general:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/recommended-immunizations:Text": [
+      "COVID-19"
+    ],
+    "618-Minneapolis/acne:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/cellulitis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/decolonization-of-staphylococcus-aureus:Text": [
+      "AND"
+    ],
+    "618-Minneapolis/foot-ulcer-w-infect:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/hidradenitis-suppurativa:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/osteomyelitis-evaluation:Text": [
+      "Click"
+    ],
+    "618-Minneapolis/perianal-anorectal-abscess:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/biliary-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/bowel-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/cardiac-surgery-post-op-prophylaxis:Text": [
+      "AND"
+    ],
+    "618-Minneapolis/gynecological-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/surg-cefazolin-ir-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "618-Minneapolis/surg-cefazolin-wt-based-postop-doses-x2:Text": [
+      "Click"
+    ],
+    "618-Minneapolis/surg-ercp:Therapy": [
+      "OR"
+    ],
+    "618-Minneapolis/surg-vancomycin-post-op-specific-dosing:Text": [
+      "Click"
+    ],
+    "618-Minneapolis/thoracic-surgery-post-op-prophylaxis:Text": [
+      "AND"
+    ],
+    "618-Minneapolis/urological-post-operative-prophylaxis:Text": [
+      "Click"
+    ],
+    "618-Minneapolis/enterococcal-intravascular-catheter-associa-7d0538:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/fungi-candida-krusei:Therapy": [
+      "OR"
+    ],
+    "618-Minneapolis/fungi-cryptococcus-neoformans:Therapy": [
+      "OR",
+      "AND"
+    ],
+    "618-Minneapolis/interim-gram-negative-bacilli:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/interim-large-bacilli-aerobic-bottle:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/interim-large-bacilli-anaerobic-bottle:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/intravas-cath-coag-neg-staph:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/intravas-cath-gnb:Therapy": [
+      "ADD"
+    ],
+    "618-Minneapolis/neut-fever-pt-become-afebrile:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/pneumocystis-jirovecii:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/sepsis-empiric-therapy-site-unk:Therapy": [
+      "ADD"
+    ],
+    "618-Minneapolis/sepsis-meningitis-cns-infection:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/sepsis-pneumonia:Therapy": [
+      "AND",
+      "SUBSTITUTE",
+      "ADD"
+    ],
+    "618-Minneapolis/sepsis-susp-c-difficile:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/sepsis-susp-endocarditis:Therapy": [
+      "ADD"
+    ],
+    "618-Minneapolis/sepsis-suspected-skin-soft-tissue:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/suspected-bacteremia-cultures-not-yet-positive:Therapy": [
+      "AND"
+    ],
+    "618-Minneapolis/toxic-shock-syndrome:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "636-Omaha/osteomyelitis:Therapy": [
+      "ADD"
+    ],
+    "636-Omaha/pros-joint-bone-infect:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/septic-arthritis-nat-joint:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/vertebral-diskitis-osteom:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/cardiovascular-device-infections-excluding-valves:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/catheter-associated-infection-intravascular:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/ec-gnb:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/empirical-therapy:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/pericarditis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/streptococcal-native-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/suppurative-thrombophlebitis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/abscess-spinal-epidural:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/bells-palsy:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/brain-abscess-from-contiguous-or-hematogenous-spread:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/brain-abscess-post-surgical-or-post-traumatic:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/brain-abscess-with-nocardia:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/brain-abscess-with-toxoplasma-gondii:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/cranial-epidural-abscess:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/gram-negative-bacilli-meningitis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/gram-positive-diplococci-meningitis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/meningitis-associated-with-trauma-or-nosocomial-infection:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/meningitis-with-streptococcus-pneumoniae:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/meningitis-without-gram-stain-results:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/subdural-empyema:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/suppurative-intracranial-thrombophlebitis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/prosthetic-valve-endocarditis-empirical-therapy:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/staphylococcal-prosthetic-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/streptococcal-prosthetic-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/bite-wnds-eikenella-corrodens:Therapy": [
+      "OR"
+    ],
+    "636-Omaha/bite-wnds-p-multocida:Therapy": [
+      "OR"
+    ],
+    "636-Omaha/bite-wnds-streptococci:Therapy": [
+      "OR"
+    ],
+    "636-Omaha/cap-inpatient-treated-setting-non-severe-cap:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/cap-inpatient-treated-setting-severe-cap:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/cap-outpatient-treated-setting:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/cap-treated-in-outpt-setting:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/covid-19-mpls-antimicrobial-guideline:Therapy": [
+      "OR"
+    ],
+    "636-Omaha/derm-post-op-infections:Text": [
+      "AND"
+    ],
+    "636-Omaha/dermatologic-surgical-site-infection:Text": [
+      "AND"
+    ],
+    "636-Omaha/emp-intrav-w-o-vanco:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/emp-intrav-w-vanco:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/entamoeba-histolytica:Text": [
+      "FOLLOWED"
+    ],
+    "636-Omaha/gonococcal:Text": [
+      "AND"
+    ],
+    "636-Omaha/gonococcal:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/gram-pos-actinomyces-spp:Therapy": [
+      "OR"
+    ],
+    "636-Omaha/necrot-infect-direct-therapy:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/necrot-infect-emp-therapy:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/neut-fever-cand-oral-thera:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/pid:Therapy": [
+      "AND",
+      "OPTIONAL"
+    ],
+    "636-Omaha/sa-decolonization:Text": [
+      "AND"
+    ],
+    "636-Omaha/sepsis-severe-beta-lactam-reaction:Therapy": [
+      "ADD"
+    ],
+    "636-Omaha/acute-bact-prostatitis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/bacterial-vaginosis-male-sexual-partner:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/epididymitis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/post-exposure-prophylaxis-non-occupational:Text": [
+      "ORDER"
+    ],
+    "636-Omaha/surg-48hrs-after-proc:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/uncomp-uti:Therapy": [
+      "OR"
+    ],
+    "636-Omaha/urological-surgery-prophylaxis:Text": [
+      "Click"
+    ],
+    "636-Omaha/appendicitis-w-o-perforation:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/appendicitis-with-perforation:Therapy": [
+      "AND",
+      "ADD"
+    ],
+    "636-Omaha/babesia-infections-general:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/cholangitis:Therapy": [
+      "AND",
+      "ADD"
+    ],
+    "636-Omaha/cholecystitis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/diverticulitis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/fever-in-asplenic-patient:Text": [
+      "AND"
+    ],
+    "636-Omaha/h-pylori-infect:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/hepatitis-a:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/initial-peri-assoc-w-peri-dial:Text": [
+      "AND",
+      "OR"
+    ],
+    "636-Omaha/liver-pyogenic-abscess:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/pancreatitis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/peri-assoc-w-peri-dial:Therapy": [
+      "OR",
+      "AND"
+    ],
+    "636-Omaha/second-peritonitis:Therapy": [
+      "AND",
+      "ADD"
+    ],
+    "636-Omaha/step-down-treatment:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/toxic-megacolon:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/typhlitis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/vibrio-non-cholerae:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/cmv-retinitis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/deep-orophar-infect:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/epiglottitis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/keratitis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/mastoiditis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/otitis-externa:Therapy": [
+      "ADD"
+    ],
+    "636-Omaha/parotitis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/postseptal-cellulitis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/preseptal-cellulitis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/supp-odontogenic-infect:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/hiv-aids:Text": [
+      "ORDER"
+    ],
+    "636-Omaha/ari-symptomatic-therapy:Text": [
+      "Link"
+    ],
+    "636-Omaha/aspiration-pneumonia:Therapy": [
+      "OR"
+    ],
+    "636-Omaha/cap-oral-treatment:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/empyema:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "636-Omaha/mediastinitis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/more-about-nosocomial-pneumonia:Text": [
+      "AND"
+    ],
+    "636-Omaha/nosocomial-pneumonia-with-pseudomonas-aeruginosa:Therapy": [
+      "ADD"
+    ],
+    "636-Omaha/pneumonia-hap-new:Therapy": [
+      "OR",
+      "ADD"
+    ],
+    "636-Omaha/ventilator-associated-pneumonia:Therapy": [
+      "AND",
+      "OR",
+      "ADD"
+    ],
+    "636-Omaha/brucella-infections-general:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/cmv-encephalitis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/cmv-pneumonia:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/disseminated-m-avium:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/herpes-keratitis:Therapy": [
+      "OR"
+    ],
+    "636-Omaha/m-avium-pneumonia:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/toxoplasma-infections-general:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/pneumocystis-jirovecii-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/prev-of-bact-endocarditis:Text": [
+      "Link",
+      "LINK"
+    ],
+    "636-Omaha/recommended-immunizations:Text": [
+      "COVID-19"
+    ],
+    "636-Omaha/acne:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/cellulitis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/decolonization-of-staphylococcus-aureus:Text": [
+      "AND"
+    ],
+    "636-Omaha/foot-ulcer-w-infect:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/hidradenitis-suppurativa:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/osteomyelitis-evaluation:Text": [
+      "Click"
+    ],
+    "636-Omaha/perianal-anorectal-abscess:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/biliary-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/bowel-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/cardiac-surgery-post-op-prophylaxis:Text": [
+      "AND"
+    ],
+    "636-Omaha/gastroduodenal-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/surg-cefazolin-ir-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "636-Omaha/surg-cefazolin-wt-based-postop-doses-x2:Text": [
+      "Click"
+    ],
+    "636-Omaha/surg-ercp:Therapy": [
+      "OR"
+    ],
+    "636-Omaha/thoracic-surgery-post-op-prophylaxis:Text": [
+      "AND"
+    ],
+    "636-Omaha/urological-post-operative-prophylaxis:Text": [
+      "Click"
+    ],
+    "636-Omaha/enterococcal-intravascular-catheter-associa-7d0538:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/fungi-candida-krusei:Therapy": [
+      "OR"
+    ],
+    "636-Omaha/fungi-cryptococcus-neoformans:Therapy": [
+      "OR",
+      "AND"
+    ],
+    "636-Omaha/interim-gram-negative-bacilli:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/interim-large-bacilli-aerobic-bottle:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/interim-large-bacilli-anaerobic-bottle:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/intravas-cath-coag-neg-staph:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/intravas-cath-gnb:Therapy": [
+      "ADD"
+    ],
+    "636-Omaha/neut-fever-pt-become-afebrile:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/pneumocystis-jirovecii:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/sepsis-empiric-therapy-site-unk:Therapy": [
+      "ADD",
+      "AND"
+    ],
+    "636-Omaha/sepsis-meningitis-cns-infection:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/sepsis-pneumonia:Therapy": [
+      "AND",
+      "Substitute",
+      "ADD"
+    ],
+    "636-Omaha/sepsis-susp-c-difficile:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/sepsis-susp-endocarditis:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/sepsis-suspected-skin-soft-tissue:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/suspected-bacteremia-cultures-not-yet-positive:Therapy": [
+      "AND"
+    ],
+    "636-Omaha/toxic-shock-syndrome:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "636A6-DesMoines/osteomyelitis:Therapy": [
+      "ADD"
+    ],
+    "636A6-DesMoines/pros-joint-bone-infect:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/septic-arthritis-nat-joint:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/vertebral-diskitis-osteom:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/catheter-associated-infection-intravascular:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "636A6-DesMoines/pericarditis:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "636A6-DesMoines/streptococcal-native-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/suppurative-thrombophlebitis:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "636A6-DesMoines/abscess-spinal-epidural:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/bells-palsy:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/brain-abscess-from-contiguous-or-hematogenous-spread:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/brain-abscess-post-surgical-or-post-traumatic:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/brain-abscess-with-nocardia:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/brain-abscess-with-toxoplasma-gondii:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/cranial-epidural-abscess:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/gram-negative-bacilli-meningitis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/gram-positive-diplococci-meningitis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/meningitis-associated-with-trauma-or-nosocomial-infection:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/meningitis-with-streptococcus-pneumoniae:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/meningitis-without-gram-stain-results:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/subdural-empyema:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/suppurative-intracranial-thrombophlebitis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/prosthetic-valve-endocarditis-empirical-therapy:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/staphylococcal-prosthetic-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/streptococcal-prosthetic-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/bite-wnds-eikenella-corrodens:Therapy": [
+      "OR"
+    ],
+    "636A6-DesMoines/bite-wnds-p-multocida:Therapy": [
+      "OR"
+    ],
+    "636A6-DesMoines/bite-wnds-streptococci:Therapy": [
+      "OR"
+    ],
+    "636A6-DesMoines/cap-inpatient-treated-setting-non-severe-cap:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/cap-inpatient-treated-setting-severe-cap:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/cap-outpatient-treated-setting:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/cap-treated-in-outpt-setting:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/covid-19-mpls-antimicrobial-guideline:Therapy": [
+      "OR"
+    ],
+    "636A6-DesMoines/derm-post-op-infections:Text": [
+      "AND"
+    ],
+    "636A6-DesMoines/dermatologic-surgical-site-infection:Text": [
+      "AND"
+    ],
+    "636A6-DesMoines/emp-intrav-w-o-vanco:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "636A6-DesMoines/emp-intrav-w-vanco:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "636A6-DesMoines/entamoeba-histolytica:Text": [
+      "FOLLOWED"
+    ],
+    "636A6-DesMoines/gonococcal:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/gram-pos-actinomyces-spp:Therapy": [
+      "OR"
+    ],
+    "636A6-DesMoines/liver-amebic-abscess:Text": [
+      "FOLLOWED"
+    ],
+    "636A6-DesMoines/necrot-infect-direct-therapy:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/necrot-infect-emp-therapy:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/neut-fever-cand-oral-thera:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/osteom-with-p-aeruginosa:Therapy": [
+      "OR"
+    ],
+    "636A6-DesMoines/pid:Therapy": [
+      "AND",
+      "OPTIONAL"
+    ],
+    "636A6-DesMoines/sa-decolonization:Text": [
+      "AND"
+    ],
+    "636A6-DesMoines/sepsis-severe-beta-lactam-reaction:Therapy": [
+      "ADD"
+    ],
+    "636A6-DesMoines/acute-bact-prostatitis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/bacterial-vaginosis-male-sexual-partner:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/epididymitis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/surg-48hrs-after-proc:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/uncomp-uti:Therapy": [
+      "OR"
+    ],
+    "636A6-DesMoines/urological-surgery-prophylaxis:Text": [
+      "Click"
+    ],
+    "636A6-DesMoines/appendicitis-w-o-perforation:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/appendicitis-with-perforation:Therapy": [
+      "AND",
+      "ADD"
+    ],
+    "636A6-DesMoines/babesia-infections-general:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/cholangitis:Therapy": [
+      "ADD",
+      "AND"
+    ],
+    "636A6-DesMoines/cholecystitis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/diverticulitis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/fever-in-asplenic-patient:Text": [
+      "AND"
+    ],
+    "636A6-DesMoines/h-pylori-infect:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/hepatitis-a:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/initial-peri-assoc-w-peri-dial:Text": [
+      "AND",
+      "OR"
+    ],
+    "636A6-DesMoines/liver-pyogenic-abscess:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/pancreatitis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/peri-assoc-w-peri-dial:Therapy": [
+      "OR",
+      "AND"
+    ],
+    "636A6-DesMoines/second-peritonitis:Therapy": [
+      "AND",
+      "ADD"
+    ],
+    "636A6-DesMoines/step-down-treatment:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/toxic-megacolon:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/typhlitis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/vibrio-non-cholerae:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/cmv-retinitis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/deep-orophar-infect:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "636A6-DesMoines/epiglottitis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/keratitis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/mastoiditis:Text": [
+      "AND",
+      "OR"
+    ],
+    "636A6-DesMoines/mastoiditis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/otitis-externa:Therapy": [
+      "ADD"
+    ],
+    "636A6-DesMoines/parotitis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/postseptal-cellulitis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/preseptal-cellulitis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/supp-odontogenic-infect:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "636A6-DesMoines/ari-symptomatic-therapy:Text": [
+      "Link"
+    ],
+    "636A6-DesMoines/aspiration-pneumonia:Therapy": [
+      "OR"
+    ],
+    "636A6-DesMoines/cap-oral-treatment:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/empyema:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "636A6-DesMoines/mediastinitis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/more-about-nosocomial-pneumonia:Text": [
+      "AND"
+    ],
+    "636A6-DesMoines/ventilator-associated-pneumonia:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/brucella-infections-general:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/cmv-encephalitis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/cmv-pneumonia:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/disseminated-m-avium:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/herpes-keratitis:Therapy": [
+      "OR"
+    ],
+    "636A6-DesMoines/m-avium-pneumonia:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/toxoplasma-infections-general:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/pneumocystis-jirovecii-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/prev-of-bact-endocarditis:Text": [
+      "Link"
+    ],
+    "636A6-DesMoines/recommended-immunizations:Text": [
+      "COVID-19"
+    ],
+    "636A6-DesMoines/acne:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/cellulitis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/decolonization-of-staphylococcus-aureus:Text": [
+      "AND"
+    ],
+    "636A6-DesMoines/foot-ulcer-w-infect:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/hidradenitis-suppurativa:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/osteomyelitis-evaluation:Text": [
+      "Click"
+    ],
+    "636A6-DesMoines/perianal-anorectal-abscess:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/bowel-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/cardiac-surgery-post-op-prophylaxis:Text": [
+      "AND"
+    ],
+    "636A6-DesMoines/surg-cefazolin-ir-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "636A6-DesMoines/surg-cefazolin-wt-based-postop-doses-x2:Text": [
+      "Click"
+    ],
+    "636A6-DesMoines/surg-ercp:Therapy": [
+      "OR"
+    ],
+    "636A6-DesMoines/surg-vancomycin-post-op-specific-dosing:Text": [
+      "Click"
+    ],
+    "636A6-DesMoines/thoracic-surgery-post-op-prophylaxis:Text": [
+      "AND"
+    ],
+    "636A6-DesMoines/urological-post-operative-prophylaxis:Text": [
+      "Click"
+    ],
+    "636A6-DesMoines/enterococcal-intravascular-catheter-associa-7d0538:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/fungi-candida-krusei:Therapy": [
+      "OR"
+    ],
+    "636A6-DesMoines/fungi-cryptococcus-neoformans:Therapy": [
+      "OR",
+      "AND"
+    ],
+    "636A6-DesMoines/interim-large-bacilli-aerobic-bottle:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/interim-large-bacilli-anaerobic-bottle:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/intravas-cath-coag-neg-staph:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/intravas-cath-gnb:Therapy": [
+      "ADD"
+    ],
+    "636A6-DesMoines/neut-fever-pt-become-afebrile:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/pneumocystis-jirovecii:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/sepsis-empiric-therapy-site-unk:Therapy": [
+      "ADD"
+    ],
+    "636A6-DesMoines/sepsis-meningitis-cns-infection:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/sepsis-pneumonia:Therapy": [
+      "AND",
+      "ADD",
+      "SUBSTITUTE"
+    ],
+    "636A6-DesMoines/sepsis-susp-c-difficile:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/sepsis-susp-endocarditis:Therapy": [
+      "ADD"
+    ],
+    "636A6-DesMoines/sepsis-suspected-skin-soft-tissue:Therapy": [
+      "AND"
+    ],
+    "636A6-DesMoines/suspected-bacteremia-cultures-not-yet-positive:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "636A6-DesMoines/toxic-shock-syndrome:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "656-StCloud/osteomyelitis:Therapy": [
+      "ADD"
+    ],
+    "656-StCloud/pros-joint-bone-infect:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/septic-arthritis-nat-joint:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/vertebral-diskitis-osteom:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/cardiovascular-device-infections-excluding-valves:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/catheter-associated-infection-intravascular:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/ec-gnb:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/empirical-therapy:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/pericarditis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/streptococcal-native-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/suppurative-thrombophlebitis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/abscess-spinal-epidural:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/bells-palsy:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/brain-abscess-from-contiguous-or-hematogenous-spread:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/brain-abscess-post-surgical-or-post-traumatic:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/brain-abscess-with-nocardia:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/brain-abscess-with-toxoplasma-gondii:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/cranial-epidural-abscess:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/gram-negative-bacilli-meningitis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/gram-positive-diplococci-meningitis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/meningitis-associated-with-trauma-or-nosocomial-infection:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/meningitis-with-streptococcus-pneumoniae:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/meningitis-without-gram-stain-results:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/subdural-empyema:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/suppurative-intracranial-thrombophlebitis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/prosthetic-valve-endocarditis-empirical-therapy:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/staphylococcal-prosthetic-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/streptococcal-prosthetic-valve-endocarditis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/bite-wnds-eikenella-corrodens:Therapy": [
+      "OR"
+    ],
+    "656-StCloud/bite-wnds-p-multocida:Therapy": [
+      "OR"
+    ],
+    "656-StCloud/bite-wnds-streptococci:Therapy": [
+      "OR"
+    ],
+    "656-StCloud/cap-inpatient-treated-setting-non-severe-cap:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/cap-inpatient-treated-setting-severe-cap:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/cap-outpatient-treated-setting:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/cap-treated-in-outpt-setting:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/covid-19-mpls-antimicrobial-guideline:Therapy": [
+      "OR"
+    ],
+    "656-StCloud/derm-post-op-infections:Text": [
+      "AND"
+    ],
+    "656-StCloud/dermatologic-surgical-site-infection:Text": [
+      "AND"
+    ],
+    "656-StCloud/drug-pt-undergo-dental-proc:Text": [
+      "OR"
+    ],
+    "656-StCloud/emp-intrav-w-o-vanco:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/emp-intrav-w-vanco:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/entamoeba-histolytica:Text": [
+      "FOLLOWED"
+    ],
+    "656-StCloud/gonococcal:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/gram-pos-actinomyces-spp:Therapy": [
+      "OR"
+    ],
+    "656-StCloud/isospora:Text": [
+      "AND"
+    ],
+    "656-StCloud/liver-amebic-abscess:Text": [
+      "FOLLOWED"
+    ],
+    "656-StCloud/necrot-infect-direct-therapy:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/necrot-infect-emp-therapy:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/neut-fever-cand-oral-thera:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/pid:Therapy": [
+      "AND",
+      "OPTIONAL"
+    ],
+    "656-StCloud/sa-decolonization:Text": [
+      "AND"
+    ],
+    "656-StCloud/sepsis-severe-beta-lactam-reaction:Therapy": [
+      "ADD"
+    ],
+    "656-StCloud/acute-bact-prostatitis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/bacterial-vaginosis-male-sexual-partner:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/epididymitis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/surg-48hrs-after-proc:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/uncomp-uti:Therapy": [
+      "OR"
+    ],
+    "656-StCloud/urological-surgery-prophylaxis:Text": [
+      "Click"
+    ],
+    "656-StCloud/urological-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/appendicitis-w-o-perforation:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/appendicitis-with-perforation:Therapy": [
+      "AND",
+      "ADD"
+    ],
+    "656-StCloud/babesia-infections-general:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/cholangitis:Therapy": [
+      "ADD",
+      "AND"
+    ],
+    "656-StCloud/cholecystitis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/diverticulitis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/fever-in-asplenic-patient:Text": [
+      "AND"
+    ],
+    "656-StCloud/h-pylori-infect:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/hepatitis-a:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/initial-peri-assoc-w-peri-dial:Text": [
+      "AND",
+      "OR"
+    ],
+    "656-StCloud/liver-pyogenic-abscess:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/peri-assoc-w-peri-dial:Therapy": [
+      "OR",
+      "AND"
+    ],
+    "656-StCloud/second-peritonitis:Therapy": [
+      "AND",
+      "ADD"
+    ],
+    "656-StCloud/step-down-treatment:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/toxic-megacolon:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/typhlitis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/vibrio-non-cholerae:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/deep-orophar-infect:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/epiglottitis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/keratitis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/mastoiditis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/otitis-externa:Therapy": [
+      "ADD"
+    ],
+    "656-StCloud/parotitis:Text": [
+      "AND"
+    ],
+    "656-StCloud/parotitis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/postseptal-cellulitis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/preseptal-cellulitis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/supp-odontogenic-infect:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/antiviral-treatment:Therapy": [
+      "Select",
+      "OR"
+    ],
+    "656-StCloud/ari-symptomatic-therapy:Text": [
+      "Link"
+    ],
+    "656-StCloud/aspiration-pneumonia:Therapy": [
+      "OR"
+    ],
+    "656-StCloud/cap-oral-treatment:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/empyema:Therapy": [
+      "AND",
+      "OR"
+    ],
+    "656-StCloud/mediastinitis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/more-about-nosocomial-pneumonia:Text": [
+      "AND"
+    ],
+    "656-StCloud/nosocomial-pneumonia-with-pseudomonas-aeruginosa:Therapy": [
+      "ADD"
+    ],
+    "656-StCloud/orzid3-gmenu-influenza-chemoprophylaxis:Therapy": [
+      "Select"
+    ],
+    "656-StCloud/pneumonia-hap-new:Therapy": [
+      "OR",
+      "ADD"
+    ],
+    "656-StCloud/ventilator-associated-pneumonia:Therapy": [
+      "AND",
+      "OR",
+      "ADD"
+    ],
+    "656-StCloud/brucella-infections-general:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/cmv-encephalitis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/cmv-pneumonia:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/disseminated-m-avium:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/herpes-keratitis:Therapy": [
+      "OR"
+    ],
+    "656-StCloud/m-avium-pneumonia:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/toxoplasma-infections-general:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/influenza-chemoprophylaxis:Therapy": [
+      "Select"
+    ],
+    "656-StCloud/pneumocystis-jirovecii-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/prev-of-bact-endocarditis:Text": [
+      "Link"
+    ],
+    "656-StCloud/recommended-immunizations:Text": [
+      "COVID-19"
+    ],
+    "656-StCloud/acne:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/cellulitis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/decolonization-of-staphylococcus-aureus:Text": [
+      "AND"
+    ],
+    "656-StCloud/foot-ulcer-w-infect:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/hidradenitis-suppurativa:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/osteomyelitis-evaluation:Text": [
+      "Click"
+    ],
+    "656-StCloud/perianal-anorectal-abscess:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/biliary-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/bowel-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/cardiac-surgery-post-op-prophylaxis:Text": [
+      "AND"
+    ],
+    "656-StCloud/gynecological-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/head-and-neck-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/surg-cefazolin-ir-weight-based-dosing:Text": [
+      "Click"
+    ],
+    "656-StCloud/surg-cefazolin-wt-based-postop-doses-x2:Text": [
+      "Click"
+    ],
+    "656-StCloud/surg-ercp:Therapy": [
+      "OR"
+    ],
+    "656-StCloud/surg-vancomycin-post-op-specific-dosing:Text": [
+      "Click"
+    ],
+    "656-StCloud/thoracic-surgery-post-op-prophylaxis:Text": [
+      "AND"
+    ],
+    "656-StCloud/thoracic-surgery-prophylaxis:Text": [
+      "AND"
+    ],
+    "656-StCloud/urological-post-operative-prophylaxis:Text": [
+      "Click"
+    ],
+    "656-StCloud/vascular-surgery-prophylaxis:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/enterococcal-intravascular-catheter-associa-7d0538:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/fungi-candida-krusei:Therapy": [
+      "OR"
+    ],
+    "656-StCloud/fungi-cryptococcus-neoformans:Therapy": [
+      "OR",
+      "AND"
+    ],
+    "656-StCloud/interim-gram-negative-bacilli:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/interim-large-bacilli-aerobic-bottle:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/interim-large-bacilli-anaerobic-bottle:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/intravas-cath-coag-neg-staph:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/intravas-cath-gnb:Therapy": [
+      "ADD"
+    ],
+    "656-StCloud/neut-fever-pt-become-afebrile:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/pneumocystis-jirovecii:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/sepsis-empiric-therapy-site-unk:Therapy": [
+      "ADD"
+    ],
+    "656-StCloud/sepsis-meningitis-cns-infection:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/sepsis-pneumonia:Therapy": [
+      "AND",
+      "SUBSTITUTE",
+      "ADD"
+    ],
+    "656-StCloud/sepsis-susp-c-difficile:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/sepsis-susp-endocarditis:Therapy": [
+      "ADD"
+    ],
+    "656-StCloud/sepsis-suspected-skin-soft-tissue:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/suspected-bacteremia-cultures-not-yet-positive:Therapy": [
+      "AND"
+    ],
+    "656-StCloud/toxic-shock-syndrome:Therapy": [
       "AND",
       "OR"
     ]

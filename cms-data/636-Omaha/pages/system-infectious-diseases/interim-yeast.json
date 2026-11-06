@@ -1,0 +1,11 @@
+{
+  "PageID": "interim-yeast",
+  "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
+  "SortKey": "system-infectious-diseases~1~yeast bacteremia",
+  "Term1": "Yeast bacteremia",
+  "Term2": "Interim blood culture: yeast",
+  "Text": "# INTERIM REPORT OF YEAST\n\nConsult Infectious Diseases in all cases. If the yeast appear to be or are known to be Candida species treat as follows. If other yeasts (e.g.\n\nCryptococcus, Histoplasma) are suspected, contact Infectious Diseases for treatment advice.\n\nRefer to specific organism for yeasts other than candida\n[Fungi](fungi)\n\nMost Candida can be treated with fluconazole. If the patient is critically ill or neutropenic or has recently taken an azole antifungal, or if Candida krusei or C. glabrata are suspected, micafungin should be used initially. Removal of central venous catheter is associated with decreased mortality. Call Infectious Diseases for advice.\n\nReferences\n\n- Andes et al, Clinical Infectious Diseases 2012, 54.8\n- Mandell chapter: Candida Species\n- Pappas et al, Clinical Infectious Diseases 2016, 62.4e1-50\n- Sanford keyword: Candidiasis",
+  "Therapy": "## Empirical treatment for patients with mild to moderate illness who have no prior azole antifungal therapy\n\nFluconazole 800 mg PO once then 400 mg PO q24h ($) R,DI\n\nFor patients who cannot take oral medication\nFluconazole 800 mg IV once then 400 mg IV q24h ($) R,DI\n\n## Empirical treatment for critically ill patients, neutropenic patients, patients who have recently taken azole antifungals, or if C. glabrata or C. krusei are suspected\n\nMicafungin 100 mg IV q24h ($$$) DI",
+  "Inpt": "ORZID2 GMENU INT RPT YEAST"
+}

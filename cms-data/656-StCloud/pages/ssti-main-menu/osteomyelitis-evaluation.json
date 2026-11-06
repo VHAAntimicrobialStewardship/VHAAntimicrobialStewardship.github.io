@@ -1,0 +1,10 @@
+{
+  "PageID": "osteomyelitis-evaluation",
+  "Group": "ssti-main-menu",
+  "GroupLabel": "Skin & Soft Tissue Infections",
+  "SortKey": "ssti-main-menu~1~osteomyelitis-evaluation",
+  "Term1": "Osteomyelitis Evaluation:",
+  "Term2": "",
+  "Text": "# Osteomyelitis Evaluation:\n\n- Consider osteomyelitis in any infected, deep, or large foot ulcer, particularly those that are chronic and over bony prominences.\n- Plain films along with the probe-to-bone test are reasonable first steps in evaluating for osteomyelitis.\n- Patients where the diagnosis remains unclear should undergo MRI.\n- Patients with findings suggesitve of osteomyelitis should undergo debridement with bone culture BEFORE antibiotics are started, if possible\n- Consult surgery (orthopedics or vascular) for potential surgical intervention. (Vascular preferred for known PVD)\n- Consult Infectious Diseases for evaluation and management of long-term antibiotics.\n\n[<Click here> Osteomyelitis](osteomyelitis)",
+  "Inpt": "ORZID3 GMENU OSTEOMYELITIS EVALUATION"
+}

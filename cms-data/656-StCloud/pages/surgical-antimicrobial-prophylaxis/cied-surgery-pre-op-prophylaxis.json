@@ -1,0 +1,11 @@
+{
+  "PageID": "cied-surgery-pre-op-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
+  "SortKey": "surgical-antimicrobial-prophylaxis~1~cied surgery pre-op prophylaxis",
+  "Term1": "Cardiac Implantable Electronic Device (CIED) Pre-Op Prophylaxis Antibiotics",
+  "Term2": "Cardiac implantable electronic device surgery pre-op prophylaxis",
+  "Text": "# Cardiac Implantable Electronic Device (CIED) Pre-Op Prophylaxis Antibiotics\n\n# Pre-procedure IV prophylaxis antibiotic recommendations:\n\n# Preferred prophylaxis:\n\nFor patients weight less than 120 kg:\nCefazolin 2 gm IV over 30 minutes beginning 60 minutes before incision($) [R]\nFor patients weight equal to or greater than 120kg:\nCefazolin 3 GM IV over 30 minutes beginning 60 minutes before incision ($) [R]\n\n# Alternative in patients with beta lactam allergy:\n\nVancomycin 15mg/kg IV beginning 120 minutes before incision ($) [R]\n\n# Recommended for MRSA Positive Patients: Decolonization AND Pre-op Antibiotics\n\n# Decolonization for MRSA positive:\n\nMupirocin Ointment apply topical to each nares bid for 5 days PRIOR TO PROCEDURE (ideally) ($) [M]\n\n# Preferred prophylaxis for MRSA positive:\n\nFor patients weight less than 120 kg:\nCefazolin 2 gm IV over 30 minutes beginning 60 minutes before incision ($) [R] < AND > Vancomycin 15 MG/KG IV beginning 120 minutes before incision ($) [R]\nFor patients weight equal to or greater than 120 kg:\nCefazolin 3 gm IV over 30 minutes beginning 60 minutes before incision ($) [R] < AND > Vancomycin 15 MG/KG IV beginning 120 minutes before incision ($) [R]\n\n# References:\n\nBratzler DW, et al.  Clinical practice guidelines for antimicrobial prophylaxis\nin surgery, Am J Health-Syst Pharm. 2013 vol 70 pages 195-283",
+  "Inpt": "ORZID2 GMENU SURG CIED PREOP",
+  "Outpt": "ORZID2 GMENU SURG CIED PREOP"
+}

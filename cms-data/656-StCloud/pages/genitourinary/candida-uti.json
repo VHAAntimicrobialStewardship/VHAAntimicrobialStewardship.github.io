@@ -1,0 +1,12 @@
+{
+  "PageID": "candida-uti",
+  "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
+  "SortKey": "genitourinary~1~candida uti",
+  "Term1": "Candida urinary tract infections",
+  "Term2": "",
+  "Text": "# CANDIDA URINARY TRACT INFECTIONS\n\nA positive urine culture for candida usually reflects colonization. Treat cystitis only if the patient has symptoms of urinary tract infection (e.g. dysuria, frequency, urgency, and/or suprapubic tenderness) or if the patient will undergo invasive urological manipulation.\n\nAsymptomatic candiduria in a patient with a urinary catheter should not be treated without an additional indication. Removal of catheter is strongly recommended. Contact Infectious Diseases for more information.\n\nNeutropenic patients with asymptomatic candiduria should be assessed for candidemia because they are at risk of dissemination. Obtain blood cultures and assess potential sources of candidemia such as central venous catheters. Refer to fungemia page for treatment recommendations.\n[Fungemia Associated with Candida spp.](candidemia)\n\n---\n\nReferences:\n\n- Pappas et al., Clinical Infectious Diseases, 2016, 62(4)e1-e50\n- Mandell chapter: Urinary Tract Infections\n- Up-To-Date article: Candida Infections of the Bladder and Kidneys\n- Up-To Date article: Candidemia in adults: Epidemiology, microbiology, and pathogenesis\n- Sanford keyword: Candidiasis, Urinary Tract Infections",
+  "Therapy": "## Inpatient\n\nPatient undergoing invasive urological manipulation:\nFluconazole 400 mg (6 mg/kg) PO q24h ($) [R,DI] for 3 days before and 3 days after procedure\n< OR >\nFluconazole 400 mg (6 mg/kg) IV q24h ($) [R,DI] for 3 days before and 3 days after procedure\n\nSymptomatic candida cystitis:\nFluconazole 200 mg (3 mg/kg) PO q24h ($) [R,DI] for 14 days\n< OR >\nFluconazole 200 mg (3 mg/kg) IV q24h ($) [R,DI] for 14 days\n\nPyelonephritis:\nFluconazole 400 mg (6 mg/kg) PO q24h ($) [R,DI] for 14 days\n< OR >\nFluconazole 400 mg (6 mg/kg) IV q24h ($) [R,DI] for 14 days\n\nResistant candida:\nConsult Infectious Diseases for treatment recommendations\n\n## Outpatient\n\nFluconazole 400 mg (6 mg/kg) PO q24h ($) [R,DI] for 3 days before and 3 days after procedure\n\nSymptomatic candida cystitis:\nFluconazole 200 mg (3 mg/kg) PO q24h ($) [R,DI] for 14 days\n\nPyelonephritis:\nFluconazole 400 mg (6 mg/kg) PO q24h ($) [R,DI] for 14 days\n\nResistant candida:\nConsult Infectious Diseases for treatment options",
+  "Inpt": "ORZID2 GMENU ABX CANDIDA UTI",
+  "Outpt": "ORZID3 GMENU ABX CANDIDA UTI"
+}

@@ -1,0 +1,11 @@
+{
+  "PageID": "gram-positive-diplococci-meningitis",
+  "Group": "cns",
+  "GroupLabel": "Central Nervous System",
+  "SortKey": "cns~1~gram-positive diplococci meningitis",
+  "Term1": "Bacterial meningitis with gram-positive diplococci suggesting streptococcus pneumoniae",
+  "Term2": "Meningitis with gram-positive diplococci",
+  "Text": "# BACTERIAL MENINGITIS WITH GRAM-POSITIVE DIPLOCOCCI SUGGESTING STREPTOCOCCUS PNEUMONIAE\n\nOnce a diagnosis of acute bacterial meningitis is considered likely, antimicrobials should be initiated as soon as possible after obtaining blood cultures and performing a lumbar puncture to obtain cerebrospinal fluid. Adjust antimicrobial regimen to optimize therapy and treatment duration based on pathogen once isolated.\nIntravenous dexamethasone therapy improves outcomes for meningitis with some bacteria and by extrapolation is recommended for all community acquired cases.\nDexamethasone must be given before (1 to 20 minutes) or concurrent with antimicrobials.\n\n# Consult Infectious Diseases\n\n---\n\nReferences:\n\n- Mandell chapter: Acute meningitis\n- Sanford keyword: Meningitis, bacterial, positive gram stain\n- Tunkel et al., Clin Infect Dis, 2004, 39.1267-84\n- Up-to-Date Article: Clinical features and diagnosis of acute bacterial meningitis in adults\n- Up-to-Date Article: Treatment of bacterial meningitis caused by specific pathogens in adults\n- Van de Beek et al., Clin Microbiol Infect, 2016, 22.S37-S62",
+  "Therapy": "## Step 1 of Treatment\n\nDexamethasone 10 mg IV q6h ($) for 4 days\n\n## Step 2 of Treatment\n\nPreferred:\n\nCeftriaxone 2 gm IV q12h ($) M <AND> vancomycin 15 mg/kg IV q12h ($) R\n\nAlternative:\n\nAssessment of beta-lactam reaction\n\nMeropenem 2 gm IV q8h ($$) R,O",
+  "Inpt": "ORZID2 GMENU BACT MENING GRM POS DIPLO S. PNEUMO"
+}

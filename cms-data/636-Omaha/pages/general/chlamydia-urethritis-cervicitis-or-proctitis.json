@@ -1,0 +1,12 @@
+{
+  "PageID": "chlamydia-urethritis-cervicitis-or-proctitis",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~chlamydia urethritis cervicitis or proctitis",
+  "Term1": "Chlamydial or non-gonococcal urethritis, cervicitis or proctitis",
+  "Term2": "",
+  "Text": "# CHLAMYDIAL OR NON-GONOCOCCAL URETHRITIS, CERVICITIS OR PROCTITIS\n\n*Local guidance (Omaha CDSS, Inpatient):*\nCHLAMYDIAL OR NON-GONOCOCCAL URETHRITIS OR CERVICITIS\nTreatment for chlamydial or non-gonococcal urethritis or cervicitis\n\nReferences:\n\n- St. Cyr S, et al. MMWR Morb Mortal Wkly Rep 2020, 69:1911-1916.\n- Sanford keyword: Chlamydia trachomatis\n- Lau, A., et al. N Engl J Med 2021, 384: 2418-2427\n- Up-To-Date article: Chlamydia trachomatis",
+  "Therapy": "## Inpatient\n\n### Preferred option (especially for rectal chlamydia or in non-pregnant individuals):\n\nDoxycycline 100 mg PO BID for 7 days ($) [DI]\n\n### < OR >\nAzithromycin 1 gm PO ONCE ($) [M]\nTreatment for chlamydial or non-gonococcal cervicitis in pregnant women\n\nAzithromycin 1 gm PO ONCE ($) [M]\n\n*Local guidance (Omaha CDSS, Inpatient):*\nMandell chapter: Urethritis\nMandell chapter: Vulvovaginitis and Cervicitis\nSanford keyword: Urethritis, cervicitis: chlamydial\nUp-To-Date article: Acute cervicitis\nUp-To-Date article: Urethritis in men\n\n## Outpatient\n\nPreferred option (especially for rectal chlamydia or in non-pregnant individuals):\n\nDoxycycline 100 mg PO BID for 7 days ($) [DI]\n\n### Preferred for pregnant individuals:\n\nAzithromycin 1 gm PO x 1 dose ($) [M]",
+  "Inpt": "ORZID2 GMENU ABX CHLAMYDIA URETHRITIS CERVICITIS OR PROCTITIS",
+  "Outpt": "ORZID3 GMENU CHLAMYDIA URETHRITIS CERVICITIS PROCTITIS"
+}

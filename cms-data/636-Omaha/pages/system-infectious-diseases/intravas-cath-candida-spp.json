@@ -1,0 +1,12 @@
+{
+  "PageID": "intravas-cath-candida-spp",
+  "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
+  "SortKey": "system-infectious-diseases~1~intravas cath candida spp",
+  "Term1": "Intravascular catheter-associated candida spp. infection",
+  "Term2": "",
+  "Text": "# INTRAVASCULAR CATHETER-ASSOCIATED CANDIDA SPP. INFECTION\n\n## Consult Infectious Diseases and remove catheter in all cases.\n\n## Treatment\n\nRefer to candidemia recommendations for antifungal choice and treatment duration\n[Candidemia](candidemia)\n\n---\n\nReferences:\nMandell chapter: Infections Caused by Percutaneous Intravascular Devices\nMermel et al., Clinical Infectious Diseases 49 (2009)\nUp-to-date article: Intravascular catheter-related infection: Epidemiology, pathogenesis, and microbiology\nUp-to-date article: Intravascular non-hemodialysis catheter-related infection: Treatment",
+  "Therapy": "",
+  "Inpt": "ORZID2 GMENU INTRAVAS CATH CANDIDA SPP",
+  "Outpt": "ORZID3 GMENU INTRAVASC CATH-ASSOC INFECT"
+}

@@ -1,0 +1,10 @@
+{
+  "PageID": "orzid3-gmenu-comm-viral-gastroenteritis",
+  "Group": "organisms",
+  "GroupLabel": "Organisms",
+  "SortKey": "organisms~1~orzid3-gmenu-comm-viral-gastroenteritis",
+  "Term1": "Viral gastroenteritis",
+  "Term2": "",
+  "Text": "# VIRAL GASTROENTERITIS\n\nInfectious diarrhea caused by viral pathogens such as Adenovirus, Astrovirus, Norovirus, Rotavirus, and Sapovirus is usually self-limited. Treatment includes supportive measures such as oral rehydration and unrestricted nutrition.\n\nAntiviral therapy is not recommended and for most viruses is unavailable.\n\nAntimotility agents may be used for one or two days in patients with mild to moderate volume depletion. Antiemetic agents may be used for one or two days in patients with vomiting.\n\n---\n\nReferences:\n\n- Mandell chapter: Nausea, Vomiting, and Noninflammatory Diarrhea\n- Sanford Guide article: Gastroenteritis, Diarrhea: Overview\n- DOI: 10.1093/cid/cix669-Shane et al, Clinical Infectious Diseases 2017,\n- 65(12):45-80\n- Up-To-Date article: Acute viral gastroenteritis in adults",
+  "Inpt": "ORZID3 GMENU COMM VIRAL GASTROENTERITIS"
+}

@@ -1,0 +1,12 @@
+{
+  "PageID": "laryngitis",
+  "Group": "head-and-neck",
+  "GroupLabel": "Head and Neck",
+  "SortKey": "head-and-neck~1~laryngitis",
+  "Term1": "Laryngitis",
+  "Term2": "",
+  "Text": "# LARYNGITIS\n\nCases are almost always viral (e.g. rhinovirus, influenza, adenovirus, coronavirus). Treatment is based on symptomatic therapy alone.\n\n---\n\nReferences:\n\n- Mandell chapter: Acute laryngitis\n- Up-To-Date article: Hoarseness in adults",
+  "Therapy": "",
+  "Inpt": "ORZID2 GMENU ABX LARYNGITIS AND CROUP",
+  "Outpt": "ORZID3 GMENU ABX LARYNGITIS AND CROUP"
+}

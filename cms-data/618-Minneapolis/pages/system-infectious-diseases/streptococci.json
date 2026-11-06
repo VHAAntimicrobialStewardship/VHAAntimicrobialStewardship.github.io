@@ -1,0 +1,11 @@
+{
+  "PageID": "streptococci",
+  "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
+  "SortKey": "system-infectious-diseases~1~streptococci",
+  "Term1": "Bacteremia associated with streptococci",
+  "Term2": "",
+  "Text": "# BACTEREMIA ASSOCIATED WITH STREPTOCOCCI\n\nBacteremia is typically caused by S. pyogenes (Group A), S. agalactiae (Group B) and S. pneumoniae. If other streptococcal species are isolated, contamination is likely. Treat only if greater than one blood culture is positive. Identification and treatment of the source of infection, in addition to antimicrobial therapy, is crucial for resolution of infection.\n\nFor patients with toxic shock syndrome refer to those recommendations.\n[Toxic Shock Syndrome](toxic-shock-syndrome)\n\n# Duration of treatment\n\nTreatment duration is not well established. Treat for 7 -14 days depending on source control and response to treatment. Consult ID for more information.\n\n---\n\nReferences:\n\n- Sanford keyword: Streptococcus agalactiae, Group B Strep\n- Sanford keyword: Streptococcus pyogenes, Beta hemolytic, Group A, B, C, F, G Strep\n- Sanford keyword: Streptococci, viridans group\n- Up-to-Date article: Detection of bacteremia: Blood cultures and other diagnostic tests\n- Up-to-Date article: Invasive pneumococcal (Streptococcus pneumoniae) infections and bacteremia in adults\n- Up-to-Date article: Invasive group A streptococcal infection and toxic shock syndrome: Treatment and prevention",
+  "Therapy": "## Treatment of S. pyogenes (Group A), S. agalactiae (Group B) and S. pneumoniae\n\nPenicillin G 4 million units IV q4h ($$) R\n\n## Treatment of other streptococcal isolates with 2 of 2 blood cultures positive or alternative to above\n\nAssessment of beta-lactam reaction\nCeftriaxone 2 gm IV q24h ($) M",
+  "Inpt": "ORZID2 GMENU BACTEREMIA STREPTOCOCCI"
+}

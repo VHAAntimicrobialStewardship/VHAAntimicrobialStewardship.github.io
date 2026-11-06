@@ -1,0 +1,12 @@
+{
+  "PageID": "endoopthalmitis",
+  "Group": "head-and-neck",
+  "GroupLabel": "Head and Neck",
+  "SortKey": "head-and-neck~1~endoopthalmitis",
+  "Term1": "ENDOOPTHALMITIS",
+  "Term2": "",
+  "Text": "# ENDOPHTHALMITIS\n\nEndophthalmitis is a medical emergency and presents with eye pain and visual loss. It may be associated with gram positive or gram-negative bacteria, including Staphylococcus aureus and Pseudomonas aeruginosa, or with fungi.\n\nConsult ophthalmology immediately. The ophthalmologist will obtain an aqueous or vitreous fluid sample for gram stain and culture and begin intravitreal antimicrobials.\n\n## Fungal endophthalmitis\n\nFungal endophthalmitis is rarely diagnosed in temperate climates and treatment is complicated. Ophthalmology and Infectious Diseases involvement is essential.\n\nReferences:\n\n- References: Mandell chapter: Endophthalmitis\n- Sanford keyword: Endophthalmitis, Hematogenous or Endogenous\n- Tranos et al., Advances in therapy. 2016, 33(5)727-746\n- Up-to-Date article: Bacterial endophthalmitis",
+  "Therapy": "## Inpatient\n\n### Treatment with intravitreal antimicrobials\n\nConsult Infectious Diseases and Ophthalmology\n\n## Outpatient\n\n### Treatment with intravitreal antimicrobials\n\nVancomycin 1 mg/0.1 mL intravitreal injection STAT ($) [R] < AND > ceftazidime 2.25 mg/0.1 mL intravitreal injection STAT ($$) [M]\n< OR >\nVancomycin 1 mg/0.1 mL intravitreal injection STAT ($) [R] < AND > amikacin 0.4 mg/0.1 mL intravitreal injection STAT ($$) [M]\n\n### Fungal endophthalmitis\n\nFungal endophthalmitis is rarely diagnosed in temperate climates and treatment is complicated. Ophthalmology and Infectious Diseases involvement is essential.\n\nAmphotericin B 5mcg/0.1mL intravitreal injection STAT ($$$) [R,O]\n< OR >\nVoriconazole 100 mcg/0.1mL intravitreal injection STAT ($$$$) [R,H,DI]",
+  "Inpt": "ORZID2 GMENU ENDOOPTHALMITIS",
+  "Outpt": "ORZID3 GMENU ENDOPHTHALMITIS"
+}

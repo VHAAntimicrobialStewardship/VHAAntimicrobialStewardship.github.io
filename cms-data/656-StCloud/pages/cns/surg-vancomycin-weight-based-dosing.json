@@ -1,0 +1,11 @@
+{
+  "PageID": "surg-vancomycin-weight-based-dosing",
+  "Group": "cns",
+  "GroupLabel": "Central Nervous System",
+  "SortKey": "cns~1~surg-vancomycin-weight-based-dosing",
+  "Term1": "surg-vancomycin-weight-based-dosing",
+  "Term2": "",
+  "Text": "# Recommended Vancomycin Doses based on patient weight:\nWeight less than 70 kg:\nVancomycin 1000 mg IV beginning 120 minutes before incision\nWeight equal/greater 70 kg and equal/less than 100 kg:\nVancomycin 1500 mg IV beginning 120 minutes before incision\nWeight greater than 100 kg:\nVancomycin 2000 mg IV beginning 120 minutes before incision",
+  "Inpt": "ORZID2 GMENU SURG VANCOMYCIN WEIGHT BASED DOSING",
+  "Outpt": "ORZID2 GMENU SURG VANCOMYCIN WEIGHT BASED DOSING"
+}

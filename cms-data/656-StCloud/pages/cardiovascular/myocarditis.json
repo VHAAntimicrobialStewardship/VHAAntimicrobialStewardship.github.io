@@ -1,0 +1,10 @@
+{
+  "PageID": "myocarditis",
+  "Group": "cardiovascular",
+  "GroupLabel": "Cardiovascular",
+  "SortKey": "cardiovascular~1~myocarditis",
+  "Term1": "Myocarditis",
+  "Term2": "",
+  "Text": "# MYOCARDITIS\n\nMyocarditis is most commonly associated with enterovirus or coxsackie virus infection. Less common pathogens include pyogenic bacteria, rickettsia, toxoplasmosis, and fungi.\n\nEmpirical antimicrobial treatment is not indicated. Supportive care and treatment of CHF are essential. Consult Cardiology and/or Infectious Diseases for more assistance.\n\nAvoid non-steroidal anti-inflammatory drugs (NSAIDS) and corticosteroids in these patients, as the use of NSAIDs in myocarditis has been associated with worse outcomes.\n\n---\n\nReferences:\n\n- Mandell chapter: Myocarditis and Pericarditis\n- Up-To-Date article: Treatment and prognosis of myocarditis in adults",
+  "Inpt": "ORZID2 GMENU ABX MYOCARDITIS"
+}

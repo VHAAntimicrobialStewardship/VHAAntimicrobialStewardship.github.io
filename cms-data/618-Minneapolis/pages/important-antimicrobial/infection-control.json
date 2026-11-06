@@ -1,0 +1,11 @@
+{
+  "PageID": "infection-control",
+  "Group": "important-antimicrobial",
+  "GroupLabel": "Important Antimicrobial Information",
+  "SortKey": "important-antimicrobial~1~infection control department information (navigation)",
+  "Term1": "Infection control department information (Navigation)",
+  "Term2": "Infection prevention department information",
+  "Text": "# INFECTION CONTROL\n\nMinneapolis VAMC infection control policies and practices are designed to prevent infection and infectious diseases among patients, employees, visitors, families and friends. This section briefly summarizes key infection control practices.\n\n---\n\n# For more information\n\n---\n\nInfection Prevention is available via phone (612-467-6888) during duty hours Monday to Friday. (Internal extension 31-6888)\n\nDuring nights, weekends, and holidays, contact the on-call person for Infectious Diseases.\n\n[Click here Minneapolis Clinical On-Call Schedule](clinical-on-call-schedule)\n\nMinneapolis VAMC Infection Prevention and Control SharePoint site\n\nClick here Minneapolis VAMC Infection Prevention & Control SharePoint site\n\nCDC web site (www.cdc.gov)\n\nClick here CDC website\n\nPlace consults for ID\n\nClick here Consult Infectious Diseases (inpatient)\n\nClick here Consult Infectious Diseases (outpatient)\n\n---\n\n# Standard and special precautions\n\n---\n\nClick here Minneapolis VAMC Isolation Precautions",
+  "Inpt": "ORZID2 GMENU ABX INFECTION CTRL",
+  "Outpt": "infection-control"
+}

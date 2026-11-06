@@ -1,0 +1,12 @@
+{
+  "PageID": "osteom-with-p-aeruginosa",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~osteom with p. aeruginosa",
+  "Term1": "Osteomyelitis with pseudomonas aeruginosa",
+  "Term2": "",
+  "Text": "# OSTEOMYELITIS WITH PSEUDOMONAS AERUGINOSA\n\n---\n\nReferences:\n\n- Sanford keyword: Osteomyelitis\n- Mandell chapter: Osteomyelitis\n- Lew DP Lancet 2004, 364: 369\n- Cunha BA Clin Infect Dis 2002, 35: 287",
+  "Inpt": "ORZID2 GMENU OSTEOM WITH P. AERUGINOSA",
+  "Outpt": "ORZID3 GMENU OSTEOM PSEUDOMONAS AERUGINOSA",
+  "Therapy": "## Inpatient\n\n### Treatment\n\nPiperacillin-tazobactam 3.375 gm IV q6h ($$) [R] < OR > Ciprofloxacin 400 mg IV q12h ($) [R,DI] < OR >\nCiprofloxacin 750 mg PO q12h ($) [R,DI]\n\n## Outpatient\n\n### Treatment\n\nCiprofloxacin 750 mg PO BID ($) [R,DI]"
+}

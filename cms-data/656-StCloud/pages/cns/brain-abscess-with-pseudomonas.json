@@ -1,0 +1,11 @@
+{
+  "PageID": "brain-abscess-with-pseudomonas",
+  "Group": "cns",
+  "GroupLabel": "Central Nervous System",
+  "SortKey": "cns~1~brain abscess with pseudomonas",
+  "Term1": "Brain abscess with pseudomonas spp.",
+  "Term2": "Pseudomonas brain abscess",
+  "Text": "# BRAIN ABSCESS WITH PSEUDOMONAS SPP.\n\nPrior to beginning antimicrobial therapy, when possible, computed topographic (CT) - guided aspiration or surgery should be performed to obtain abscess material for determination of infectious pathogen. Adjust antimicrobial regimen to optimize therapy based on pathogen once isolated.\n\n# Consult Neurosurgery, Neurology, and Infectious Disease\n\n# Duration of Therapy\n\nTreat for a total duration of 6-8 weeks\n\n---\n\nReferences:\n\n- Brouwer et al. N Engl J Med, 2014, 371(5)447-56\n- Mandell chapter: Brain abscess\n- Up-to-Date Article: Pseudomonas aeruginosa infections of the eye, ear, urinary tract, gastrointestinal tract and central nervous system",
+  "Therapy": "Preferred:\n\nCefepime 2gm IV Q8h ($$) R\n\nAlternative:\n\nAssessment of beta-lactam reaction\n\nMeropenem 2 gm IV q8h ($$) R,O",
+  "Inpt": "ORZID2 GMENU BRN ABSC PSEUDOMONAS SPP."
+}

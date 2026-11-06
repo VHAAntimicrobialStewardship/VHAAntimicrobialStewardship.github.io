@@ -1,0 +1,11 @@
+{
+  "PageID": "fever-of-unk-origin",
+  "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
+  "SortKey": "system-infectious-diseases~1~fever of unknown origin",
+  "Term1": "Fever of unknown origin",
+  "Term2": "",
+  "Text": "# FEVER OF UNKNOWN ORIGIN\n\nFever of unknown origin (FUO) is the occurrence of several episodes of fever greater than 101 degrees Fahrenheit over a period of at least 3 weeks despite 1 week of hospital evaluation. Empirical antimicrobial therapy is rarely indicated except in patients who are neutropenic, immunocompromised, or critically ill.\nFor prolonged fever in neutropenic patients refer to the neutropenic fever recommendations.\n\n[Neutropenic fever](immunocom-neut-fever)\n\n---\n\nReferences:\n\n- Mandell Chapter: Fever of Unknown Origin\n- Up-to-date article: Approach to the adult with fever of unknown origin",
+  "Therapy": "",
+  "Inpt": "ORZID2 GMENU FEVER OF UNK ORIGIN"
+}

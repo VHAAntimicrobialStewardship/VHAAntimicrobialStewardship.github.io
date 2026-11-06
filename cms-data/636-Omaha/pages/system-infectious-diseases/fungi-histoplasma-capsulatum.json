@@ -1,0 +1,12 @@
+{
+  "PageID": "fungi-histoplasma-capsulatum",
+  "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
+  "SortKey": "system-infectious-diseases~1~fungi histoplasma capsulatum",
+  "Term1": "Histoplasma capsulatum",
+  "Term2": "",
+  "Text": "# HISTOPLASMA CAPSULATUM\n\nIntravenous antifungals are indicated initially for severe or progressive disease. After disease has stabilized, oral antifungals may be used to complete the course. Contact Infectious Diseases and Pulmonary services for advice.\n\nContact HIV expert for advice on cases involving patients with HIV.\n\n## Duration of antimicrobial therapy\n\nDuration of therapy is dependent upon location and severity of infection, and response to therapy. Consult Infectious Diseases for more information.\n\nReferences:\n\n- Mandell chapter: Histoplasma capsulatum (Histoplasmosis)\n- Sanford keyword: Histoplasmosis\n- Up-to-Date article: Diagnosis and treatment of pulmonary histoplasmosis\n- Wheat et al. Clinical Infectious Diseases. 2007 (45) 807-25",
+  "Therapy": "## Preferred initial therapy for meningitis, severe pulmonary or disseminated disease\n\n## Treatment after disease has stabilized\n\nItraconazole is more effective than fluconazole, but fluconazole may be used in patients who cannot tolerate itraconazole.\n\nPreferred:\nItraconazole 200 mg PO q12h ($) [DI]\n\nAlternative:\nFluconazole 400-800 mg PO q24h ($) [R,DI]\n\n*Local guidance (Omaha CDSS, Inpatient):*\nAmphotericin B 0.7-1 mg/kg IV q24h ($$) [R,O]\nAlternative\nLiposomal amphotericin (Ambisome) 3-5 mg/kg IV q24h ($$$$) [R,O]",
+  "Inpt": "ORZID2 GMENU FUNGI HISTOPLASMA CAPSULATUM",
+  "Outpt": "ORZID3 GMENU FUNGI H. CAPSULATUM"
+}

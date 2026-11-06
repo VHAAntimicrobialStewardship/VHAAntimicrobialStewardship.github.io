@@ -1,0 +1,11 @@
+{
+  "PageID": "adj-exist-therapy",
+  "Group": "important-antimicrobial",
+  "GroupLabel": "Important Antimicrobial Information",
+  "SortKey": "important-antimicrobial~1~adj-exist-therapy (navigation)",
+  "Term1": "Adjusting existing antimicrobial therapy (Navigation)",
+  "Term2": "",
+  "Text": "# ADJUSTING EXISTING ANTIMICROBIAL THERAPY\n\n## To change the DOSE of a CURRENTLY ACTIVE antimicrobial\n\nRight click on the active order and change the dose as needed.\n\n## To change from the CURRENT ANTIMICROBIAL MEDICATION\n\nWe encourage clinicians to consult the CDSS when considering alternative antimicrobial therapy due to an adverse drug reaction, a culture result, or a need to switch from intravenous to oral therapy. Many of the CDSS advice menus contain more than one antimicrobial recommendation. If a suitable alternative is not listed on the advice menu, clinicians have the additional resource of an expanded menu of alternative medications that can be accessed by selecting the Need an alternative antimicrobial? link at the top of each advice menu. To order an alternative medication using this link prescribers will need to indicate the rationale behind the choice.\nNote: Restricted antimicrobials ordered outside of the CDSS system will still require Infectious Diseases approval.",
+  "Inpt": "ORZID2 GMENU ABX ADJ EXIST ABX THERAPY",
+  "Outpt": "ORZID2 GMENU ABX ADJ EXIST ABX THERAPY"
+}

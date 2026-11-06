@@ -1,0 +1,12 @@
+{
+  "PageID": "rabies-pre-exposure-prophylaxis",
+  "Group": "organisms",
+  "GroupLabel": "Organisms",
+  "SortKey": "organisms~1~rabies pre-exposure prophylaxis",
+  "Term1": "Rabies pre-exposure prophylaxis",
+  "Term2": "Pre-exposure prophylaxis for rabies",
+  "Text": "# RABIES PRE-EXPOSURE PROPHYLAXIS\n\nFor patients exposed to a rabid animal, refer to the Rabies-Post Exposure Prophylaxis recommendations in the emergency department CDSS.\n[Rabies Post-Exposure Prophylaxis](rabies-post-exposure-prophylaxis)\n\n# Rabies Vaccination\n\nPeople who are in high-risk groups should be vaccinated against rabies.\nRabies high risk groups\nRabies vaccine, 2 dose series\n\n# Rabies Booster\n\nPeople with continuous risk of rabies exposure should be tested for rabies virus neutralizing antibody every six months. Those with frequent risk of rabies exposure should be tested every two years.\nRabies risk categories\nA booster vaccination should be administered if the serum titer falls to maintain a value of at least complete virus neutralization at a 1:5 serum dilution by the rapid fluorescent focus inhibition test.\n\nRabies virus rapid fluorescent focus inhibition test\nRabies booster vaccine\n\n# \n\n*Local guidance (Des Moines CDSS, Inpatient/Outpatient):*\nBriggs et. al., MMWR Morb Mortal Wkly Rep, 2022, 71:619-627 Manning SE, Rupprecht CE, Fishbein D, et al. Human rabies prevention-United States, 2008: recommendations of the Advisory Committee on Immunization Practices. MMWR Recomm Rep 2008, 57:1.\nRupprecht, Charles E., et al. Use of a reduced (4-dose) vaccine schedule for postexposure prophylaxis to prevent human rabies: recommendations of the advisory committee on immunization practices. MMWR Recomm Rep 59.RR-2 (2010): 1- 9\n\n---\n\nReferences:\n\n- Rao et. Al., MMWR. Morbidity and mortality weekly report 71 (2022) https://www.cdc.gov/rabies/hcp/clinical-care/pre-exposure-prophylaxis.html",
+  "Therapy": "",
+  "Inpt": "ORZID3 GMENU ABX RABIES PRE-EXPOSURE PROPHYLAXIS",
+  "Outpt": "ORZID3 GMENU ABX RABIES PRE-EXPOSURE PROPHYLAXIS"
+}

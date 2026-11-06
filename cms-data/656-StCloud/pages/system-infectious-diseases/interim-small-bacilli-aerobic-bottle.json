@@ -1,0 +1,11 @@
+{
+  "PageID": "interim-small-bacilli-aerobic-bottle",
+  "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
+  "SortKey": "system-infectious-diseases~1~aerobic bottle, small pleomorphic bacilli",
+  "Term1": "Aerobic bottle, small pleomorphic bacilli",
+  "Term2": "Bacilli, small pleomorphic, aerobic bottle",
+  "Text": "# SMALL PLEOMORPHIC BACILLI IN AEROBIC BOTTLE\n\nSmall pleomorphic bacilli in aerobic bottle are usually diphtheroids. These are usually contaminants. Uncommonly such organisms prove to be Listeria monocytogenes, which when present in a blood culture is likely a pathogen.\n\nListeria is more likely in patients with impaired cell-mediated immunity, pregnant women, elderly and patients on immunosuppressive therapy for transplantation.\n\nReferences\n\n- Mandell chapter: Listeria Monocytogenes\n- Mandell chapter: Other Coryneform Bacteria and Rhodococci\n- Medical Letter Choice of Antimicrobials 2010, 8.94\n- Sanford keyword: Listeria monocytogenes\n- Sanford keyword: Propionibacterium acnes\n- Sanford keyword: Corynebacterium",
+  "Therapy": "## Empirical treatment if there is a strong suspicion of listeria\n\nAmpicillin 2 gm IV q4h (Cost $$) R\n\nFor immunocompromised, meningitis or endocarditis\nAmpicillin 2 gm IV q4h (Cost $$) R and gentamicin 1.7 mg/kg IV q8h (Cost\n$) [R,O]\n\nFor patients with penicillin allergy\nTrimethoprim 5 mg/kg - sulfamethoxazole 25 mg/kg IV q12h (Cost $$$) R,DI\n\n## Empirical treatment if therapy is indicated and listeria is not suspected\n\nVancomycin 15 mg/kg IV q12h (Cost $) R",
+  "Inpt": "ORZID2 GMENU INT SM RODS AEROBIC BOT"
+}

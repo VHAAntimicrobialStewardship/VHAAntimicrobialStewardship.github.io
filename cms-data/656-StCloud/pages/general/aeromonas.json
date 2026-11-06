@@ -1,0 +1,10 @@
+{
+  "PageID": "aeromonas",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~aeromonas",
+  "Term1": "AEROMONAS",
+  "Term2": "",
+  "Text": "antibiotics for osteomyelitis is typically reserved for when patients are\n\n*Local guidance (St. Cloud CDSS, Inpatient):*\nDIARRHEA WITH AEROMONAS\nPrimary treatment\nHydration and electrolyte replacement\nAntimicrobial treatment\nCiprofloxacin 750 mg PO q24h for 3 days ($) [R,DI]\nAlternative\nTrimethoprim-sulfamethoxazole 1 DS tablet q12h for 3 days($) [R,DI]\n[References:](references)\nMedical Letter Choice of Antimicrobials 2010, 8(94)\nSanford keyword: Aeromonas sp.\nUp-to-Date article: Aeromonas infections",
+  "Inpt": "ORZID2 GMENU ABX AEROMONAS"
+}

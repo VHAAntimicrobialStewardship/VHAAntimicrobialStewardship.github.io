@@ -1,0 +1,11 @@
+{
+  "PageID": "cardiovascular-device-infections-excluding-valves",
+  "Group": "cardiovascular",
+  "GroupLabel": "Cardiovascular",
+  "SortKey": "cardiovascular~1~cardiovascular device infections (excluding valves)",
+  "Term1": "Infections involving cardiovascular devices (excluding valves)",
+  "Term2": "Device infections, cardiovascular (excluding valves)",
+  "Text": "# INFECTIONS INVOLVING CARDIOVASCULAR DEVICES (EXCLUDING VALVES)\n\nMost infections are associated with Staphylococcus aureus and coagulase-negative staphylococci.\n\nMany of these staphylococci are resistant to methicillin, so initial empiric therapy with vancomycin is required.\n\nConsultation with Infectious Diseases is encouraged for patients with severe allergies to vancomycin or for those who have vancomycin-resistant infections.\n\nAt least 3 blood cultures should be drawn prior to the initiation of empirical antimicrobial. Modify antimicrobial regimen and narrow coverage based on results of culture and susceptibility tests Infectious Disease and Cardiothoracic surgery consultations are encouraged.\n\nDevice removal is necessary for cure in most cases. However, it may be difficult depending on the nature of the device and specific clinical circumstances. Device removal should be discussed with Cardiology, Infectious Disease, or Cardiothoracic surgery consultants.\n\nIf the device removal is not possible consult Infectious Disease.\n\n# Duration of therapy\n\nDuration of therapy should be determined in concert with Cardiology, Infectious Disease, or Cardiothoracic surgery consultants.\n\n---\n\nReferences:\n\n- Baddour et al., Circulation 2010, 121.458-477\n- Baddour et al., Circulation 2015, 132:1-52\n- Kusumoto et al., Heart Rhythm 2017, 14.15\n- Sanford keyword: Pacemaker/Defibrillator Infections\n- Mandell chapter: Infections of Nonvalvular Cardiovascular Devices\n- Up-To-Date article: Infections involving cardiac implantable electronic devices:\n- Treatment and prevention\n- Wang et al., JAMA 2018, 320.1:72-83",
+  "Therapy": "## Empiric treatment in cases where device removal is planned\n\nVancomycin 15 mg/kg IV q12h ($) R\n\n## Cases where device removal is not possible\nConsult Infectious Diseases",
+  "Inpt": "ORZID2 GMENU ABX INFECT INVOLVES CARD DEVICES"
+}

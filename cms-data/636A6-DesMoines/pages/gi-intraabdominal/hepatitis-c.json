@@ -1,0 +1,12 @@
+{
+  "PageID": "hepatitis-c",
+  "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
+  "SortKey": "gi-intraabdominal~1~hepatitis c",
+  "Term1": "Hepatitis c",
+  "Term2": "",
+  "Text": "# HEPATITIS C\n\nMost acute disease is asymptomatic or mild. Patients with acute hepatitis C should be referred to the Hepatitis C clinic. Treatment may be indicated for disease that persists beyond 2 months.\n\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\nReferences:\n\n- Mandell chapter: Acute viral hepatitis\n- Mandell chapter: Chronic viral hepatitis\n- Up-to-date article: Overview of the management of chronic hepatitis C virus infection\n\n---",
+  "Therapy": "## Inpatient\n\nConsult Gastroenterology, Liver (outpatient)\n### Chronic disease treatment\n\nAntiviral therapy for chronic hepatitis C is a complicated, highly specialized task.\n\n## Outpatient\n\nGastroenterology (OP)\n### Chronic disease treatment\n\nAntiviral therapy for chronic hepatitis C is a complicated, highly specialized task.\n\nConsult Gastroenterology and Infectious Diseases.",
+  "Inpt": "ORZID2 GMENU ABX HEPATITIS C",
+  "Outpt": "ORZID3 GMENU ABX HEPATITIS C"
+}

@@ -1,0 +1,11 @@
+{
+  "PageID": "warfarin-interactions-with-antimicrobials",
+  "Group": "important-antimicrobial",
+  "GroupLabel": "Important Antimicrobial Information",
+  "SortKey": "important-antimicrobial~1~warfarin interactions with antimicrobials (navigation)",
+  "Term1": "Drug-drug interactions between antimicrobials and warfarin (Navigation)",
+  "Term2": "Antimicrobial interactions with warfarin",
+  "Text": "# DRUG-DRUG INTERACTIONS BETWEEN ANTIMICROBIALS AND WARFARIN\n\nSeveral antimicrobials will affect metabolism or the effect of warfarin on a patient's clotting function. If possible, avoid using an antimicrobial with a significant interaction with warfarin. If you decide that an antimicrobial that interacts with warfarin is needed or you stop an antimicrobial that could interact with warfarin, you should determine the INR more frequently than usual and adjust dosage accordingly. Instruct patients to inform their primary warfarin provider whenever an antimicrobial is prescribed for them.\n\nAntimicrobials can alter warfarin's anticoagulant effect by decreasing intestinal synthesis or absorption of vitamin K or by affecting distribution or metabolism of the vitamin. Some antimicrobials increase synthesis of coagulation factors.\n\nAntimicrobials can decrease the rate of warfarin absorption, compete with warfarin at sites of warfarin metabolism, induce warfarin metabolic enzymes, or inhibit the function or synthesis warfarin metabolic enzymes. Some antimicrobials displace warfarin from protein binding sites.\n\nCheck for warfarin-antimicrobial interactions on Lexicomp:\n\nLexicomp Drug Interactions\n\nReferences\n\n- Holbrook, Anne M., et al. Archives of internal medicine 165.10 (2005): 1095-\n- 1106\n- Lexicomp website",
+  "Inpt": "ORZID3 GMENU WARFARIN DRUG INTERACTIONS",
+  "Outpt": "ORZID3 GMENU WARFARIN DRUG INTERACTIONS"
+}

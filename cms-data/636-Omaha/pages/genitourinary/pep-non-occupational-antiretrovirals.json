@@ -1,0 +1,10 @@
+{
+  "PageID": "pep-non-occupational-antiretrovirals",
+  "Group": "genitourinary",
+  "GroupLabel": "Urogenital",
+  "SortKey": "genitourinary~1~post-exposure prophylaxis, non-occupational, antivirals",
+  "Term1": "Post-exposure prophylaxis, non-occupational, antivirals",
+  "Term2": "PEP, non-occupational, antivirals",
+  "Text": "# Non-Occupational:\n\n# Post-Exposure Prophylaxis (nPEP) for Exposure to Blood or Body Fluids\n\n# Treatment recommendations:\n\nAll persons offered nPEP should be prescribed a 28-30 day course of a 3-drug antiretroviral regimen.\n\n* IMPORTANT- First dose should be given as soon as possible after exposure\n* These medications may be taken with or without food\n* Side effects of these medications are infrequent but may include:\n\nnausea, vomiting, diarrha, rash, fever, headaches, insomnia, arthralgias, fatigue, abdominal pain, hepatitis, renal dysfunction, rare lactic acidosis\n\n# Select appropriate treatment below based on patient renal function:\n\n# Creatinine clearance >/= 15 ml/min:\n\nBiktarvy 50/200/25 TAB 1 PO qday for 30 days R,DI\n\n[Biktarvy combination tab-bictegravir/emtricitabine/tenofovir alafenamide]\n\n# Creatinine clearance < 15 ml/min not on dialysis*:\n\nEmtricitabine 200MG/Tenofovir 300MG Tab 1 po q3days R,DI < AND >\n\nDolutegravir 50MG Tab 1 po qday [DI] for 28 days\n\n*Recommend close ID follow up within 1-2 weeks.\n\n# ESRD dialysis:\n\nBiktarvy 50/200/25 TAB 1 PO qday for 30 days R,DI\n\n[Biktarvy combination tab-bictegravir/emtricitabine/tenofovir alafenamide]\n\nNote: All of the above listed medications are recommended for treatment and prevention of HIV during pregnancy.\n\nReferences:\n\n- CDC Guidelines 2025",
+  "Inpt": "ORZID3 GMENU ABX PEP NON-OCCUPATIONAL DRUG TX"
+}

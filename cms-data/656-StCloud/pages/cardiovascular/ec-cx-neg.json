@@ -1,0 +1,10 @@
+{
+  "PageID": "ec-cx-neg",
+  "Group": "cardiovascular",
+  "GroupLabel": "Cardiovascular",
+  "SortKey": "cardiovascular~1~ec cx neg",
+  "Term1": "EC CX NEG",
+  "Term2": "",
+  "Text": "# ENDOCARDITIS WITH CULTURE-NEGATIVE RESULTS\n\nCultures are often negative in cases of infection with fastidious organisms like Abiotrophia (formerly nutritionally variant Streptococci), Bartonella, Coxiella, Chlamydia, Legionella spp., or Trophyrema or when antimicrobials are given before blood cultures are obtained. Consult Infectious Diseases and Cardiology.\n\n---\n\nReferences:\n\n- Baddour et al., Circulation 2015, 132:1-52\n- Mandell chapter: Endocarditis and intravascular infections\n- Sanford keyword: Endocarditis\n- Up-To-Date article: Overview of management of infective endocarditis in adults\n- Wang et al., JAMA 2018, 320.1:72-83",
+  "Inpt": "ORZID2 GMENU EC CX NEG"
+}

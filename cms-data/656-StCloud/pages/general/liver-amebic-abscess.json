@@ -1,0 +1,10 @@
+{
+  "PageID": "liver-amebic-abscess",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~liver amebic abscess",
+  "Term1": "LIVER AMEBIC ABSCESS",
+  "Term2": "",
+  "Text": "## AMEBIC LIVER ABSCESS\nSerological testing for amoebiasis should be obtained in all patients with suspected amebic liver abscess. Multiple sets of anaerobic and aerobic blood cultures should also be obtained prior to starting antibiotics to exclude pyogenic liver abscess, which is a much more common cause of liver abscess.\nSerologic testing can be negative in a small number of patients with acute presentation (symptoms <2 weeks). Repeat serology is usually positive. If repeat serological testing is negative for amoebiasis or patient does not respond to treatment of amebic liver abscess, patient should have further diagnostic testing completed to exclude pyogenic liver abscess.\nDrainage of amebic liver abscess should be considered in patients with large lesions at risk of rupture.\nDue to complicated treatment and follow up, Infectious Diseases consultation is recommended in all patients with liver abscess.\nTreatment of patients with confirmed or suspected amebic liver abscess (obtain blood cultures prior to starting in suspected cases)\nParomomycin is nonformulary and must be ordered by Infectious Diseases.\nMetronidazole 750 mg PO q8h for 10 days ($) [DI] <FOLLOWED BY> paromomycin 25-35 mg/kg/day PO q8h for 7 days ($) [M]\n[References:](references)\nMandell chapter: Infections of the Liver and Biliary System Sanford keyword: Amoebiasis, Entamoeba histolytica\nSolomkin et al, Clin Infect Dis, 2010, 50:133-64\nUp-to-Date article: Extraintestinal Entamoeba histolytica amoebiasis",
+  "Inpt": "ORZID2 GMENU ABX LIVER AMEBIC ABSCESS"
+}

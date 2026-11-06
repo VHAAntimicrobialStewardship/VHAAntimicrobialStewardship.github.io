@@ -1,0 +1,12 @@
+{
+  "PageID": "m-pneumoniae",
+  "Group": "organisms",
+  "GroupLabel": "Organisms",
+  "SortKey": "organisms~1~m. pneumoniae",
+  "Term1": "Mycoplasma pneumoniae",
+  "Term2": "",
+  "Text": "# MYCOPLASMA PNEUMONIAE\n\nOptimal therapy depends on both the disease or syndrome and the pathogen. See diagnosis/syndrome section for more information.\n\nReferences:\n\n- Mandell Chapter: Mycoplasma pneumoniae and Atypical Pneumonia\n- Sanford keyword: Mycoplasma pneumoniae\n- Up-to-Date article: Mycoplasma pneumoniae infection in adults",
+  "Therapy": "## Inpatient\n\nPreferred:\nDoxycycline 100 mg PO BID for 7 to 14 days ($) [DI]\n\nAlternative (Intolerance to doxycycline and azithromycin):\nLevofloxacin 500 mg PO q24h for 5 days ($) [R,DI]\n\n*Local guidance (St. Cloud CDSS, Inpatient):*\nAzithromycin 500 mg PO x 1 ($) on day 1, then 250 mg PO QD ($) for 4 days\n\n## Outpatient\n\nPreferred:\nDoxycycline 100 mg PO BID for 7 to 14 days ($) [DI]\n\nAlternative:\nAzithromycin 500 mg PO x 1 ($) on day 1, then 250 mg PO QD ($) for 4 days\n\nIntolerance to doxycycline and azithromycin:\nLevofloxacin 500 mg PO QDay for 5 days ($) [R,DI]",
+  "Inpt": "ORZID2 GMENU M. PNEUMONIAE",
+  "Outpt": "ORZID3 GMENU PATH MYCOPLASMA PNEUMO"
+}

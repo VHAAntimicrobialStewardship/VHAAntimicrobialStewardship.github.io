@@ -1,0 +1,11 @@
+{
+  "PageID": "splenectomy-empiric",
+  "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
+  "SortKey": "gi-intraabdominal~1~splenectomy-empiric",
+  "Term1": "Self-medicate Empiric Antibiotics for Fever or Other Signs of Systemic Infectio",
+  "Term2": "",
+  "Text": "# Self-medicate Empiric Antibiotics for Fever or Other Signs of Systemic Infectio\n\nPatients should keep an emergency supply of antibiotics on hand to be used for the development of fever or other signs of systemic infection, and seek medical care immediately if these symptoms develop.\n\n# Recommendations to self- medicate:\n\nAmoxicillin-clavulanate 875MG PO BID for asplenia empiric antibiotic ($) R\n\n<  >\nCefuroxime 500MG PO BID for asplenia empiric antibiotic ($) R\n\n# References\n\n- Up-to-Date online\n- Keenan RD, Br J Haematol 1999. 105:509",
+  "Therapy": "## Alternative recommendation for penicillin/beta-lactam allergy:\n\nLevofloxacin 750MG PO QDAY for asplenia empiric antibiotic ($) R,DI",
+  "Inpt": "ORZID3 GMENU SPLENECTOMY EMPIRIC ABX"
+}

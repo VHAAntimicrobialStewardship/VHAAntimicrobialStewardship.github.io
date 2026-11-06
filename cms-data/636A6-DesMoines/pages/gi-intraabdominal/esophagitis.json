@@ -1,0 +1,12 @@
+{
+  "PageID": "esophagitis",
+  "Group": "gi-intraabdominal",
+  "GroupLabel": "GI & Intraabdominal",
+  "SortKey": "gi-intraabdominal~1~esophagitis",
+  "Term1": "Esophagitis",
+  "Term2": "",
+  "Text": "# ESOPHAGITIS\n\nEsophagitis is usually associated with non-infectious diseases like gastroesophageal reflux disease, mucositis, and pill-induced esophagitis. Esophageal infection occurs primarily in immunosuppressed individuals (e.g. chemotherapy, transplantation, HIV) and rarely in healthy individuals. The majority of infectious esophagitis is caused by Candida albicans, cytomegalovirus (CMV) and herpes simplex virus. Aphthous ulceration of the esophagus is common in HIV infection.\n\n[Candidiasis](fungi-candida-albicans)\n[CMV Esophagitis](cmv-colitis-or-esophagitis)\n[Herpes Simplex Esophagitis](herpes-simplex-esophagitis)\n\n*Local guidance (Des Moines CDSS, Outpatient):*\nesophagus is common in HIV infection.\nUp-To-Date article: AIDS-related cytomegalovirus gastrointestinal disease Up-To-Date article: Clinical pathological cases in gastroenterology: Esophagus\n\n---\n\nReferences:\n\n- Mandell chapter: Esophagitis\n- [References:](references)\nUp-To-Date article: AIDS-related cytomegalovirus gastrointestinal disease Up-To-Date article: Clinical pathological cases in gastroenterology: Esophagus\n- Up-To-Date article: Herpes simplex virus infection of the esophagus",
+  "Therapy": "",
+  "Inpt": "ORZID2 GMENU ABX ESOPHAGITIS",
+  "Outpt": "ORZID3 GMENU ABX ESOPHAGITIS"
+}

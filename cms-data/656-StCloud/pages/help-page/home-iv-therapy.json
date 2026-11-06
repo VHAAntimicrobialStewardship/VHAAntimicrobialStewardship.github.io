@@ -1,0 +1,11 @@
+{
+  "PageID": "home-iv-therapy",
+  "Group": "help-page",
+  "GroupLabel": "Help & Resources",
+  "SortKey": "help-page~1~home iv therapy (navigation)",
+  "Term1": "Home iv at the minneapolis va (Navigation)",
+  "Term2": "Intravenous therapy at home",
+  "Text": "# HOME IV AT THE MINNEAPOLIS VA\n\nMinneapolis VA provides home IV therapy contracts with commercial providers. To order home IV antimicrobials:\n\n*Local guidance (St. Cloud CDSS, Inpatient/Outpatient):*\nin each case. Call x4185, or call the operator on off-tours to contact the the ID staff member on-call. If the ID service has been consulted, you must request\n\n*Local guidance (St. Cloud CDSS, Inpatient/Outpatient):*\nOrder a Home IV consult (menu option #41 under \"ECC and Rehab\" consults, or page 7253). Note: Allow 24 hours for home IV service assessment, teaching, etc to occur.\n\n---\n\n# Step 1\n\n---\n\nAn Infectious Disease staff physician must approve outpatient IV antimicrobials in each case. Call x4185, or call the operator on off-tours to contact the ID staff member on-call. If the ID service has been consulted, you must request Home IV approval and recommendations from the ID staff on-call.\n\n---\n\n# Step 2\n\n---\n\nOrder a Home IV consult (click on quick order below). Note: Allow 24 hours for home IV service assessment, teaching, etc to occur.\n\nHome IV consult (or page 7253)",
+  "Inpt": "ORZID2 GMENU ABX HOME IV AT MPLS",
+  "Outpt": "ORZID2 GMENU ABX HOME IV AT MPLS"
+}

@@ -1,0 +1,11 @@
+{
+  "PageID": "corynebacterium-infections-general",
+  "Group": "organisms",
+  "GroupLabel": "Organisms",
+  "SortKey": "organisms~1~corynebacterium infections, general",
+  "Term1": "Corynebacterium infections, general",
+  "Term2": "",
+  "Text": "# CORYNEBACTERIUM SPP.\n\nOptimal therapy depends on both the disease or syndrome and the pathogen. See disease/syndrome sections for more information.\n\n---\n\nReferences:\n\n- Sanford Guide article: Corynebacterium diptheriae\n- Sanford Guide article: Corynebacterium jeikeium\n- Up-To-Date article: Clinical manifestations, diagnosis, and treatment of diptheria",
+  "Therapy": "## For Corynebacterium diphtheriae isolates, contact Infectious Diseases\n\n## Corynebacterium jeikeium\n\nPreferred:\nVancomycin 15 mg/kg IV q12h R\n\nAlternative (for vancomycin intolerance):\nDaptomycin 4-6 mg/kg IV q24h R",
+  "Inpt": "ORZID2 GMENU GRAM-POS FI CORYNEBACTERIUM SPP."
+}

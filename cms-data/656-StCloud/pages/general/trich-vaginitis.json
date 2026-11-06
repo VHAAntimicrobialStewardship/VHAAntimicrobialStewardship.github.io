@@ -1,0 +1,12 @@
+{
+  "PageID": "trich-vaginitis",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~trich vaginitis",
+  "Term1": "Trichomonas vaginitis and urethritis",
+  "Term2": "",
+  "Text": "# TRICHOMONAS VAGINITIS AND URETHRITIS\n\nMale sexual partners of women with trichomonas vaginitis will not have symptoms but should be treated to prevent recurrent vaginitis in the female sexual partner.\n\n## Diagnosis\n\nThe discharge is purulent, malodorous, and thin. The vaginal pH is greater than 4.5. Nucleic Acid amplification test (NAAT) for trichomonas has improved sensitivities and specificities compared to wet mount.\n\n*Local guidance (St. Cloud CDSS, Inpatient):*\nsensitivities and specifities compared to wet mount.\nTreatment of Initial Episode in Men and Woman\n\n---\n\nReferences:\n\n- Sanford keyword: Trichomoniasis\n- Mandell chapter: Vulvovaginitis and cervicitis\n- CDC STD Treatment Guidelines: MMWR (2021) 70.4\n- Up-To-Date article: Trichomoniasis",
+  "Therapy": "## Treatment of Initial Episode WOMEN ONLY (See below for MEN)\n\nPregnant women with trichomonas infection may be treated with metronidazole during any trimester.\nMetronidazole 500 mg PO q12h for 7 days ($) [DI]\n\n## Treatment of Initial Episode MEN ONLY (See above for WOMEN)\n\n## Treatment failure\n\n1st failure:\nMetronidazole 500 mg PO q12h for 7 days ($) [DI]\n\n2nd failure:\nMetronidazole 2 gm PO q24h for 7 days ($) [DI]\n\n3rd failure:\nConsult Infectious Disease\n\n*Local guidance (St. Cloud CDSS, Inpatient):*\nTreatment of Veteran Male Sex Partners (Non-Veteran Sex Partners Should Be Referred to Non-VA Care)",
+  "Inpt": "ORZID2 GMENU ABX TRICH VAGINITIS",
+  "Outpt": "ORZID3 GMENU TRICHOMONAS VAGINITIS"
+}

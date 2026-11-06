@@ -1,0 +1,12 @@
+{
+  "PageID": "fungi-cryptococcus-neoformans",
+  "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
+  "SortKey": "system-infectious-diseases~1~fungi cryptococcus neoformans",
+  "Term1": "Cryptococcus neoformans",
+  "Term2": "",
+  "Text": "# CRYPTOCOCCUS NEOFORMANS\n\nConsult Infectious Diseases.\n\n## Duration of antimicrobial therapy\n\nDuration of therapy is dependent upon location and severity of infection, and response to therapy. Consult Infectious Diseases for more information.\n\nReferences:\n\n- Mandell chapter: Cryptococcosis (Cryptococcus neoformans and Cryptococcus gattii)\n- Perfect et al. Clinical Infectious Diseases 2010, (50) 291-322\n- Sanford keyword: Cryptococcus",
+  "Therapy": "## Inpatient\n\n### Treatment of mild to moderate infection outside of the central nervous system or step-down treatment once disease has stabilized\n\nFluconazole 400 mg PO q24h ($) [R,DI]\n<OR>\nItraconazole 200 mg PO q12h ($) [DI]\n\n### Treatment of central nervous system infection or severe infection outside central nervous system\n\nConsult Infectious Diseases in all cases, recommended combination therapy with flucytosine requires ID approval Amphotericin B 0.7-1 mg/kg IV q24h ($$) [R,O] <AND> flucytosine 25 mg/kg PO q6h ($$$$$) [R,O]\n\n### Outpatient or step-down treatment once disease has stabilized\n\nFluconazole 400 mg PO QDay ($) [R,DI]\n<OR>\nItraconazole 200 mg PO BID ($) [DI]\n\n*Local guidance (Des Moines CDSS, Inpatient):*\nAmphotericin B 0.5-1 mg/kg IV q24h ($$) [R,O]\n\n## Outpatient\n\n### Treatment of mild to moderate infection outside of the central nervous system or step-down treatment once disease has stabilized\n\nFluconazole 400 mg PO q24h ($) [R,DI]\n<OR>\nItraconazole 200 mg PO q12h ($) [DI]\n\n### Treatment of central nervous system infection or severe infection outside central nervous system\n\nConsult Infectious Diseases in all cases, recommended combination therapy with flucytosine requires ID approval Amphotericin B Liposomal (Ambisome) 3-5 mg/kg IV q24h ($$$$) [R,O]\n<AND>\nflucytosine 25 mg/kg PO q6h ($$$$$) [R,O]\n(Reminder: for Ampho B add NS 500 ml hydration BEFORE & AFTER.)\n\n### Outpatient or step-down treatment once disease has stabilized\n\nFluconazole 400 mg PO QDay ($) [R,DI]\n<OR>\nItraconazole 200 mg PO BID ($) [DI]",
+  "Inpt": "ORZID2 GMENU FUNGI CRYPTOCOCCUS NEOFORMANS",
+  "Outpt": "ORZID3 GMENU FUNGI CRYPTOCOCCUS NEOFORMANS"
+}

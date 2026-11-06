@@ -1,0 +1,11 @@
+{
+  "PageID": "meningitis-with-neisseria-meningitidis",
+  "Group": "cns",
+  "GroupLabel": "Central Nervous System",
+  "SortKey": "cns~1~meningitis with neisseria meningitidis",
+  "Term1": "Bacterial meningitis with n. meningitidis",
+  "Term2": "Neisseria meningitidis meningitis",
+  "Text": "# BACTERIAL MENINGITIS WITH N. MENINGITIDIS\n\nOnce a diagnosis of acute bacterial meningitis is considered likely, antimicrobials should be initiated as soon as possible. Two blood cultures should be drawn. Lumbar puncture (LP) should be performed in nearly all patients to obtain cerebrospinal fluid (CSF) for establishing diagnosis and determining infectious organism/susceptibility. Adjust antimicrobial regimen to optimize therapy and treatment duration based on pathogen once isolated.\n\nMeningococcal disease prophylaxis should be given to close contacts. Contact Infectious Diseases/Epidemiology for advice and assistance.\n\n# Consult Infectious Diseases\n\n# Duration of Therapy\n\nTreat for a total duration of 7 days.\n\n---\n\nReferences:\n\n- Mandell chapter: Acute meningitis\n- Sanford keyword: Meningitis, bacterial, positive gram stain\n- Sanford keyword: Meningitis, Neisseria meningitidis\n- Tunkel et al., Clin Infect Dis, 2004, 39.1267-84\n- Up-to-Date Article: Clinical features and diagnosis of acute bacterial meningitis in adults\n- Up-to-Date Article: Treatment of bacterial meningitis caused by specific pathogens in adults\n- Van de Beek et al., Clin Microbiol Infect, 2016, 22.S37-S62",
+  "Therapy": "Preferred:\n\nCeftriaxone 2 gm IV q12h ($) M\n\nAlternative:\n\nAssessment of beta-lactam reaction\n\nConsult Infectious Diseases",
+  "Inpt": "ORZID2 GMENU BACT MENING N. MENINGITIDIS"
+}

@@ -1,0 +1,12 @@
+{
+  "PageID": "cmv-encephalitis",
+  "Group": "organisms",
+  "GroupLabel": "Organisms",
+  "SortKey": "organisms~1~cmv encephalitis",
+  "Term1": "Cmv encephalitis",
+  "Term2": "",
+  "Text": "# CMV ENCEPHALITIS\n\nInfection in immunocompetent patients is rare and usually associated with minimal or no symptoms. Patients in whom the risk for CMV disease is increased include solid organ and bone marrow transplant recipients, persons receiving prolonged immunosuppressive chemotherapy, and persons with advanced HIV disease indicated by a CD4 count of less than 50 cells/microliter. Treatment is complex and requires Infectious Diseases consultation.\n\n## Duration of antimicrobial therapy\n\nDuration is likely to be prolonged and is individualized based on response.\nPatients may be converted to oral therapy after initial intravenous therapy and after clinical improvement of severe disease.\n\n---\n\nReferences:\n\n- Guidelines for Prevention and Treatment of Opportunistic Infections in HIV\n- Infected Adults and Adolescents. AIDSinfo (2015) 1-282\n- Mandell chapter: Cytomegalovirus\n- Sanford keyword: Cytomegalovirus\n- Up-to-Date article: Epidemiology, clinical manifestations, and treatment of cytomegalovirus infection in immunocompetent adults",
+  "Therapy": "Ganciclovir 5 mg/kg IV q12h ($$$$) [R,O] <AND> foscarnet 90 mg/kg IV q12h ($$$$) [R,O]\n\n## Oral treatment following clinical improvement\n\nValganciclovir 900 mg PO q12h ($$$) [R,O]",
+  "Inpt": "ORZID2 GMENU ABX CMV ENCEPHALITIS",
+  "Outpt": "ORZID3 GMENU CMV ENCEPHALITIS"
+}

@@ -1,0 +1,12 @@
+{
+  "PageID": "cervicitis-assoc-std",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~cervicitis assoc std",
+  "Term1": "Cervicitis associated with sexually transmitted diseases",
+  "Term2": "",
+  "Text": "# CERVICITIS ASSOCIATED WITH SEXUALLY TRANSMITTED DISEASES\n\nThe main diagnostic signs that characterize cervicitis are 1)women who present with purulent or mucopurulent exudate in the endocervical canal or on an endocervical swab specimen and 2)sustained endocervical bleeding induced by gentle passage of cotton swab through the cervical os. One or both signs may be present.\n\nNeisseria gonorrhoeae and Chlamydia trachomatis are the two most common sexually transmitted cervicitis pathogens. Nucleic acid amplification tests for these pathogens are more sensitive than culture and should be used for patients at risk for sexually transmitted cervicitis.\n\n## For patients who have recently been treated for cervicitis\n\n[Treatment of recurrent or persistent cervicitis](recurrent-persist-urethritis)\n\nWhen diagnosed with sexually transmitted cervicitis, the patient's sexual partner(s) during the previous 60 days should be evaluated for sexually transmitted infection. If diagnostic tests for the cause of cervicitis are not feasible, therapy for both N. gonorrhoeae and C. trachomatis should be given to partners.\n\n## Initial treatment of patients and sex partners\n\nPatients and partners are often infected with both N. gonorrhoeae and C. trachomatis. Treat for both pathogens unless one is ruled out by lab test.\n[Treatment for gonococcal cervicitis](gonococcal)\n[Treatment for chlamydial or non-gonococcal cervicitis](chlamydia-urethritis-cervicitis-or-proctitis)\nAlternative\nConsult Infectious Diseases (inpatient).\n\n*Local guidance (St. Cloud CDSS, Inpatient):*\nCDC STD Treatment Guidelines: MMWR (2015) 64.3\n\n*Local guidance (St. Cloud CDSS, Outpatient):*\n[[Link] Gonococcal and chlamydial co-infections](gonococcal)",
+  "Therapy": "",
+  "Inpt": "ORZID2 GMENU ABX CERVICITIS ASSOC STD",
+  "Outpt": "ORZID3 GMENU CERVICITIS ASSOC STD"
+}

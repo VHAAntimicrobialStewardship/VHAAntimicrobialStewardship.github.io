@@ -1,0 +1,11 @@
+{
+  "PageID": "listeria-monocytogenes-bacteremia",
+  "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
+  "SortKey": "system-infectious-diseases~1~listeria monocytogenes bacteremia",
+  "Term1": "Bacteremia associated with listeria monocytogenes",
+  "Term2": "Bacteremia, Listeria monocytogenes",
+  "Text": "# BACTEREMIA ASSOCIATED WITH LISTERIA MONOCYTOGENES\n\nConsult Infectious Diseases in all cases. Identification and treatment of the source of infection, in addition to antimicrobial therapy, is crucial for resolution of infection.\nTreatment of listeria infection\nAmpicillin 2 gm IV q4h ($$) [R]\n\n# Duration of treatment\n\nTreat for a total duration of at least 2 weeks.\n\n---\n\nReferences:\n\n- Charlier et al., Lancet Infect Dis 2017, May:17(5):510-519. doi: 10.1016/S1473-3099(16)30521-7\n- Mandell chapter: Listeria Monocytogenes\n- Medical Letter Choice of Antimicrobials 2010, 8.94\n- Sanford keyword: Listeria monocytogenes\n- Up-to-Date article: Detection of bacteremia: Blood cultures and other diagnostic tests\n- Up-to-Date article: Treatment and prevention of Listeria monocytogenes infection",
+  "Therapy": "## \n\n## Alternative\n\nAssessment of beta-lactam reaction\nMeropenem 2 gm IV q8h ($$) [R,O]",
+  "Inpt": "ORZID2 GMENU BACTEREMIA LISTERIA"
+}

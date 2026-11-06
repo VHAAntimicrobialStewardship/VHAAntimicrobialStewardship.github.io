@@ -1,0 +1,26 @@
+Wave 2 local wording: Des Moines (636A6-DesMoines)
+
+Pages changed from the test station: 256
+Changes logged: 783 on 258 pages (in place: 480, Local guidance blocks: 243, not applied: 41, opt-out pages: 19)
+Clinical changes: 489; changes also made by another wave 2 station: 489
+
+Pages the station marked RECOMMENDATIONS NOT AVAILABLE (shown as 'Des Moines Guidance' above 'Minneapolis Guidance'):
+  Brain abscess with toxoplasma gondii [brain-abscess-with-toxoplasma-gondii] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636A6-DesMoines/DesMoinesCDSS.html#brain-abscess-with-toxoplasma-gondii
+  DERM POST-OP INFECTIONS (Navigation) [derm-post-op-infections] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636A6-DesMoines/DesMoinesCDSS.html#derm-post-op-infections
+  Dermatologic surgical site infections [dermatologic-surgical-site-infection] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636A6-DesMoines/DesMoinesCDSS.html#dermatologic-surgical-site-infection
+  High risk for surgical site infections antibiotic prophylaxis [high-risk-surgical-site-prophylaxis] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636A6-DesMoines/DesMoinesCDSS.html#high-risk-surgical-site-prophylaxis
+  PD CEFAZOLIN 15MG/KG AND GENTAMICIN 0.6MG/KG Q24H [pd-cefazolin-15mg-kg-gentamicin-06mg-kg-q24h] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636A6-DesMoines/DesMoinesCDSS.html#pd-cefazolin-15mg-kg-gentamicin-06mg-kg-q24h
+  PD CEFAZOLIN 15MG/KG Q24H [pd-cefazolin-15mg-kg-q24h] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636A6-DesMoines/DesMoinesCDSS.html#pd-cefazolin-15mg-kg-q24h
+  PD CEFEPIME 1GM Q24H VANCO 15-30MG/KG Q5-7D [pd-cefepime-1gm-q24h-vanco-15-30mg-kg-q5-7d] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636A6-DesMoines/DesMoinesCDSS.html#pd-cefepime-1gm-q24h-vanco-15-30mg-kg-q5-7d
+  PD CEFEPIME 1GM Q24H [pd-cefepime-1gm-q24h] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636A6-DesMoines/DesMoinesCDSS.html#pd-cefepime-1gm-q24h
+  PD CEFTAZIDIME 1GM Q24H [pd-ceftazidime-1gm-q24h] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636A6-DesMoines/DesMoinesCDSS.html#pd-ceftazidime-1gm-q24h
+  PD CEFTRIAXONE 1GM Q24H [pd-ceftriaxone-1gm-q24h] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636A6-DesMoines/DesMoinesCDSS.html#pd-ceftriaxone-1gm-q24h
+  PD GENTAMICIN 0.6MG/KG Q24H [pd-gentamicin-06mg-kg-q24h] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636A6-DesMoines/DesMoinesCDSS.html#pd-gentamicin-06mg-kg-q24h
+  PD VANCOMYCIN 15-30MG/KG Q5-7D [pd-vancomycin-15-30mg-kg-q5-7d] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636A6-DesMoines/DesMoinesCDSS.html#pd-vancomycin-15-30mg-kg-q5-7d
+  Hepatitis B evaluation for patients receiving Anti-CD20 Antibody Treatment [hepatitis-b-evaluation-anti-cd20-antibody] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636A6-DesMoines/DesMoinesCDSS.html#hepatitis-b-evaluation-anti-cd20-antibody
+  Peritonitis associated with peritoneal dialysis (Navigation) [peri-assoc-w-peri-dial] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636A6-DesMoines/DesMoinesCDSS.html#peri-assoc-w-peri-dial
+  Toxoplasma spp. [toxoplasma-infections-general] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636A6-DesMoines/DesMoinesCDSS.html#toxoplasma-infections-general
+  PNEUMOCYSTIS JIROVECII PROPHYLAXIS (PCP Prophylaxis) [pneumocystis-jirovecii-prophylaxis] (Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636A6-DesMoines/DesMoinesCDSS.html#pneumocystis-jirovecii-prophylaxis
+  Rosacea [rosacea] (Inpatient) https://vhaantimicrobialstewardship.github.io/stations/636A6-DesMoines/DesMoinesCDSS.html#rosacea
+  Pain Clinic Antimicrobial Prophylaxis Pre-procedure Orders [spinal-cord-stimulator-trial-procedure-prophylaxis] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636A6-DesMoines/DesMoinesCDSS.html#spinal-cord-stimulator-trial-procedure-prophylaxis
+  Urological procedures postop antimicrobial prophylaxis: [urological-post-operative-prophylaxis] (Inpatient/Outpatient) https://vhaantimicrobialstewardship.github.io/stations/636A6-DesMoines/DesMoinesCDSS.html#urological-post-operative-prophylaxis

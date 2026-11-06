@@ -1,0 +1,12 @@
+{
+  "PageID": "aspergillus-infections-general",
+  "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
+  "SortKey": "system-infectious-diseases~1~aspergillus infections, general",
+  "Term1": "Aspergillus species",
+  "Term2": "",
+  "Text": "# ASPERGILLUS SPECIES\n\nFor localized disease (fungus ball), antifungal therapy is ineffective.\n\nConsult Surgery and Pulmonary for cases of localized disease without systemic infection. Consult Infectious Diseases in all cases.\n\n# Duration of antimicrobial therapy\n\nTreat invasive disease with intravenous antifungals initially, then switch to oral antifungals for a total duration of therapy of 6-12 weeks dependent on the degree and duration of immunosuppression, site of disease and evidence of disease improvement.\n\nReferences:\n\n- Mandell Chapter: Aspergillus Species\n- Patterson et al. Clinical Infectious Diseases. 2016, 63(4): e1-60\n- Sanford keyword: Aspergillosis, Invasive\n- Up-to-Date article: Treatment and prevention of invasive aspergillosis",
+  "Therapy": "## Inpatient\n\n### Preferred intravenous therapy\n\nVoriconazole 6 mg/kg IV q12h for 2 doses, then 4 mg/kg IV q12h ($$$$) R,H,\n\n### Alternative intravenous therapy for patients intolerant to voriconazole\n\nLiposomal amphotericin (Ambisome) 3-5 mg/kg IV q24h ($$$$) [R,O]\n\n### Oral therapy after disease has stabilized\n\nVoriconazole 200 mg PO q12h ($$) R,H,DI\n\n## Outpatient\n\n### Preferred intravenous therapy\n\nVoriconazole 6 mg/kg IV q12h for 2 doses, then 4 mg/kg IV q12h ($$$$) R,H,\n\n### Alternative intravenous therapy for patients intolerant to voriconazole\n\nAmphotericin B Liposomal 3-5MG/KG IV q24h ($$$$)R,O+ NS Hydratio\n\n### Oral therapy after disease has stabilized\n\nVoriconazole 200 mg PO q12h ($$) R,H,DI\n\n*Local guidance (Des Moines CDSS, Outpatient):*",
+  "Inpt": "ORZID2 GMENU FUNGI ASPERGILLUS SPP.",
+  "Outpt": "ORZID3 GMENU FUNGI ASPERGILLUS SPP."
+}

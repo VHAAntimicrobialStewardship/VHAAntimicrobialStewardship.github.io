@@ -1,0 +1,12 @@
+{
+  "PageID": "fungi-coccidioidomyces",
+  "Group": "system-infectious-diseases",
+  "GroupLabel": "Systemic Infections",
+  "SortKey": "system-infectious-diseases~1~fungi coccidioidomyces",
+  "Term1": "Coccidioidomyces",
+  "Term2": "",
+  "Text": "# COCCIDIOIDOMYCES\n\nPulmonary and Infectious Diseases consultations are essential for diagnosis and treatment.\n\n## Duration of antimicrobial therapy\n\nDuration of therapy is dependent upon location and severity of infection, and response to therapy. Consult Infectious Diseases for more information.\n\n## Mild to moderate disease\n\nObservation alone is indicated for some cases. Consult Infectious Diseases for more information. If antifungal treatment is indicated:\n\nReferences:\n\n- Galgiani et al. Clinical Infectious Diseases. 2016, 63(6) e112-46\n- Mandell Chapter: Coccidioidomycosis\n- Sanford guide keyword: Coccidioidomycosis",
+  "Therapy": "## Inpatient\n\nPreferred:\nItraconazole 200 mg PO q12h ($) [DI]\n\nAlternative:\nFluconazole 400 mg PO q24h ($) [R,DI]\n\n### Severe disease (diffuse pneumonia, rapid progression or central nervous system infection)\n\nPreferred:\n\nAlternative:\nFluconazole 400-800 mg IV q24h ($) [R,DI]\n\n*Local guidance (Des Moines CDSS, Inpatient):*\nAmphotericin B 0.5-1 mg/kg IV q24h ($$) [R,O]\n\n## Outpatient\n\nPreferred:\nItraconazole 200 mg PO BID ($) [DI]\n\nAlternative:\nFluconazole 400 mg PO QDay ($) [R,DI]",
+  "Inpt": "ORZID2 GMENU FUNGI COCCIDIOIDOMYCES",
+  "Outpt": "ORZID3 GMENU FUNGI COCCIDIOIDOMYCES"
+}

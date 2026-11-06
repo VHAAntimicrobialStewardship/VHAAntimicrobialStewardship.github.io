@@ -1,0 +1,11 @@
+{
+  "PageID": "other-procedures-prophylaxis",
+  "Group": "surgical-antimicrobial-prophylaxis",
+  "GroupLabel": "Surgical Antimicrobial Prophylaxis",
+  "SortKey": "surgical-antimicrobial-prophylaxis~1~other procedures prophylaxis",
+  "Term1": "Other procedures prophylaxis",
+  "Term2": "Procedures, other",
+  "Text": "OTHER PROCEDURES\nIn view of the small number of wound infections that would be prevented by systemic antimicrobial prophylaxis the risks outweigh benefits for patients who will have cardiac catheterization, varicose vein surgery, most dermatologic and plastic surgery, arterial puncture, thoracentesis, paracentesis, repair of simple lacerations, outpatient treatment of burns, dental extractions, or root canal therapy.\n\n# Link to: Antimicrobial Prophylaxis and Dermatologic Surgery",
+  "Inpt": "ORZID2 GMENU SURG OTHER PROCEDURES",
+  "Outpt": "ORZID2 GMENU SURG OTHER PROCEDURES"
+}

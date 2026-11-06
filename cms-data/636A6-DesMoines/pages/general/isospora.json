@@ -1,0 +1,10 @@
+{
+  "PageID": "isospora",
+  "Group": "general",
+  "GroupLabel": "General / Miscellaneous",
+  "SortKey": "general~1~isospora",
+  "Term1": "ISOSPORA",
+  "Term2": "",
+  "Text": "Cefadroxil 1000 mg PO q12h x 7days [R]\n\n*Local guidance (Des Moines CDSS, Inpatient):*\nDIARRHEA WITH CYSTOISOSPORA BELLI (FORMALLY ISOSPORA BELLI)\nC. belli is associated with diarrhea in persons with HIV/AIDS and only rarely in immunocompetent persons.\nPrimary treatment\nHydration and electrolyte replacement\n\n---\n\nAntimicrobial treatment of persons without HIV/AIDS\nTrimethoprim-sulfamethoxazole 1 tablet DS PO Q12H for 7 to 10 days ($)\n[R,DI]\n\n---\n\nAntimicrobial treatment of persons with HIV/AIDS\nInfectious Diseases involvement is essential. Initial treatment of acute infection is followed by secondary prophylaxis until CD4 count is >200 for >6 months in response to ART without evidence of active C. belli.\nInitial treatment\nTrimethoprim-sulfamethoxazole 1 tablet DS q6H for 10 days ($) [R,DI]\nSecondary prophylaxis\nTrimethoprim-sulfamethoxazole 1 tablet DS PO q72h ($) [R,DI]\n[References:](references)\nGuidelines for Prevention and Treatment of Opportunistic Infections in HIV Infected Adults and Adolescents. AIDSinfo (2015) 1-282\nSanford keyword: Cystoisospora belli\nShane et al, Clinical Infectious Diseases 2017, 65(12):45-80 Up-to-Date article: Management of Cystoisospora (Isospora) infections",
+  "Inpt": "ORZID2 GMENU ABX ISOSPORA"
+}
