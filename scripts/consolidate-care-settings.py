@@ -98,8 +98,8 @@ POINTERS = {
 SEPSIS_LINKS_HEADING = "## Initial empiric antibiotic guidelines for sepsis"
 
 ER_HEAD_RE = re.compile(r"^#{1,6}\s*(?:ER|ER/UC|ER Guidance)\s*$")
-# The target shape: '## Inpatient', '## Outpatient and ER/UC', ... in Therapy.
-SECTION_HEAD_RE = re.compile(r"^## (?:Inpatient|Outpatient|ER/UC)(?: and (?:Inpatient|Outpatient|ER/UC))*$")
+# The target shape: '## Inpatient', '## Outpatient/ER/UC', ... in Therapy (' and ' is the older join).
+SECTION_HEAD_RE = re.compile(r"^## (?:Inpatient|Outpatient|ER/UC)(?:(?:/| and )(?:Inpatient|Outpatient|ER/UC))*$")
 HEAD_RE = re.compile(r"^(#{1,6})\s+(.*\S)\s*$")
 PENDING_RE = re.compile(r"^#{1,6}\s*PENDING CARE SETTING CONSOLIDATION", re.M)
 ORDER_TARGET_RE = re.compile(r"^(?:ps[a-z]*zid|orz-)")
@@ -142,7 +142,7 @@ def demote(block):
 
 
 def therapy_sections(sections):
-    """[(label, body)] -> Therapy markdown; identical bodies share one heading ('Outpatient and ER/UC')."""
+    """[(label, body)] -> Therapy markdown; identical bodies share one heading ('Inpatient/Outpatient')."""
     merged = []
     for label, body in sections:
         body = join_split_headings((body or "").strip("\n"))
@@ -153,7 +153,7 @@ def therapy_sections(sections):
             same[0].append(label)
         else:
             merged.append([[label], body])
-    return "\n\n".join(f"## {' and '.join(labels)}\n\n{demote(body)}" for labels, body in merged)
+    return "\n\n".join(f"## {'/'.join(labels)}\n\n{demote(body)}" for labels, body in merged)
 
 
 def split_er_block(text):

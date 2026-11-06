@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-05T22:21:25.249Z",
+  "generated": "2026-11-06T18:27:57.455Z",
   "counts": {
     "column-page": 111,
-    "has-list": 1544,
+    "has-list": 1548,
     "has-table": 9,
-    "tag-like-text": 579,
+    "tag-like-text": 554,
     "text-mismatch": 4,
     "long-emphasis": 4,
     "blockquote-marker": 12
@@ -466,10 +466,6 @@
     "001-TestStation/nosocomial-pneumonia-with-pseudomonas-aeruginosa:Therapy": [
       "ADD"
     ],
-    "001-TestStation/pneumonia-hap-new:Text": [
-      "OR",
-      "ADD"
-    ],
     "001-TestStation/pneumonia-hap-new:Therapy": [
       "OR",
       "ADD"
@@ -585,18 +581,11 @@
     "001-TestStation/pneumocystis-jirovecii:Therapy": [
       "AND"
     ],
-    "001-TestStation/sepsis-empiric-therapy-site-unk:Text": [
-      "ADD"
-    ],
     "001-TestStation/sepsis-empiric-therapy-site-unk:Therapy": [
       "ADD"
     ],
-    "001-TestStation/sepsis-meningitis-cns-infection:Text": [
+    "001-TestStation/sepsis-meningitis-cns-infection:Therapy": [
       "AND"
-    ],
-    "001-TestStation/sepsis-pneumonia:Text": [
-      "AND",
-      "ADD"
     ],
     "001-TestStation/sepsis-pneumonia:Therapy": [
       "AND",
@@ -606,20 +595,11 @@
     "001-TestStation/sepsis-susp-c-difficile:Therapy": [
       "AND"
     ],
-    "001-TestStation/sepsis-susp-endocarditis:Text": [
-      "ADD"
-    ],
     "001-TestStation/sepsis-susp-endocarditis:Therapy": [
       "ADD"
     ],
-    "001-TestStation/sepsis-suspected-skin-soft-tissue:Text": [
-      "AND"
-    ],
     "001-TestStation/sepsis-suspected-skin-soft-tissue:Therapy": [
       "AND"
-    ],
-    "001-TestStation/sepsis-urosepsis:Text": [
-      "ADD"
     ],
     "001-TestStation/suspected-bacteremia-cultures-not-yet-positive:Therapy": [
       "AND"
@@ -917,10 +897,6 @@
     "506-AnnArbor/nosocomial-pneumonia-with-pseudomonas-aeruginosa:Therapy": [
       "ADD"
     ],
-    "506-AnnArbor/pneumonia-hap-new:Text": [
-      "OR",
-      "ADD"
-    ],
     "506-AnnArbor/pneumonia-hap-new:Therapy": [
       "OR",
       "ADD"
@@ -1036,18 +1012,11 @@
     "506-AnnArbor/pneumocystis-jirovecii:Therapy": [
       "AND"
     ],
-    "506-AnnArbor/sepsis-empiric-therapy-site-unk:Text": [
-      "ADD"
-    ],
     "506-AnnArbor/sepsis-empiric-therapy-site-unk:Therapy": [
       "ADD"
     ],
-    "506-AnnArbor/sepsis-meningitis-cns-infection:Text": [
+    "506-AnnArbor/sepsis-meningitis-cns-infection:Therapy": [
       "AND"
-    ],
-    "506-AnnArbor/sepsis-pneumonia:Text": [
-      "AND",
-      "ADD"
     ],
     "506-AnnArbor/sepsis-pneumonia:Therapy": [
       "AND",
@@ -1057,20 +1026,11 @@
     "506-AnnArbor/sepsis-susp-c-difficile:Therapy": [
       "AND"
     ],
-    "506-AnnArbor/sepsis-susp-endocarditis:Text": [
-      "ADD"
-    ],
     "506-AnnArbor/sepsis-susp-endocarditis:Therapy": [
       "ADD"
     ],
-    "506-AnnArbor/sepsis-suspected-skin-soft-tissue:Text": [
-      "AND"
-    ],
     "506-AnnArbor/sepsis-suspected-skin-soft-tissue:Therapy": [
       "AND"
-    ],
-    "506-AnnArbor/sepsis-urosepsis:Text": [
-      "ADD"
     ],
     "506-AnnArbor/suspected-bacteremia-cultures-not-yet-positive:Therapy": [
       "AND"
@@ -1078,9 +1038,6 @@
     "506-AnnArbor/toxic-shock-syndrome:Therapy": [
       "AND",
       "OR"
-    ],
-    "539-Cincinnati/osteomyelitis:Therapy": [
-      "ADD"
     ],
     "539-Cincinnati/pros-joint-bone-infect:Therapy": [
       "AND"
@@ -1368,10 +1325,6 @@
     "539-Cincinnati/nosocomial-pneumonia-with-pseudomonas-aeruginosa:Therapy": [
       "ADD"
     ],
-    "539-Cincinnati/pneumonia-hap-new:Text": [
-      "OR",
-      "ADD"
-    ],
     "539-Cincinnati/pneumonia-hap-new:Therapy": [
       "OR",
       "ADD"
@@ -1487,18 +1440,11 @@
     "539-Cincinnati/pneumocystis-jirovecii:Therapy": [
       "AND"
     ],
-    "539-Cincinnati/sepsis-empiric-therapy-site-unk:Text": [
-      "ADD"
-    ],
     "539-Cincinnati/sepsis-empiric-therapy-site-unk:Therapy": [
       "ADD"
     ],
-    "539-Cincinnati/sepsis-meningitis-cns-infection:Text": [
+    "539-Cincinnati/sepsis-meningitis-cns-infection:Therapy": [
       "AND"
-    ],
-    "539-Cincinnati/sepsis-pneumonia:Text": [
-      "AND",
-      "ADD"
     ],
     "539-Cincinnati/sepsis-pneumonia:Therapy": [
       "AND",
@@ -1508,20 +1454,11 @@
     "539-Cincinnati/sepsis-susp-c-difficile:Therapy": [
       "AND"
     ],
-    "539-Cincinnati/sepsis-susp-endocarditis:Text": [
-      "ADD"
-    ],
     "539-Cincinnati/sepsis-susp-endocarditis:Therapy": [
       "ADD"
     ],
-    "539-Cincinnati/sepsis-suspected-skin-soft-tissue:Text": [
-      "AND"
-    ],
     "539-Cincinnati/sepsis-suspected-skin-soft-tissue:Therapy": [
       "AND"
-    ],
-    "539-Cincinnati/sepsis-urosepsis:Text": [
-      "ADD"
     ],
     "539-Cincinnati/suspected-bacteremia-cultures-not-yet-positive:Therapy": [
       "AND"
@@ -1817,10 +1754,6 @@
     "541-Cleveland/nosocomial-pneumonia-with-pseudomonas-aeruginosa:Therapy": [
       "ADD"
     ],
-    "541-Cleveland/pneumonia-hap-new:Text": [
-      "OR",
-      "ADD"
-    ],
     "541-Cleveland/pneumonia-hap-new:Therapy": [
       "OR",
       "ADD"
@@ -1936,18 +1869,11 @@
     "541-Cleveland/pneumocystis-jirovecii:Therapy": [
       "AND"
     ],
-    "541-Cleveland/sepsis-empiric-therapy-site-unk:Text": [
-      "ADD"
-    ],
     "541-Cleveland/sepsis-empiric-therapy-site-unk:Therapy": [
       "ADD"
     ],
-    "541-Cleveland/sepsis-meningitis-cns-infection:Text": [
+    "541-Cleveland/sepsis-meningitis-cns-infection:Therapy": [
       "AND"
-    ],
-    "541-Cleveland/sepsis-pneumonia:Text": [
-      "AND",
-      "ADD"
     ],
     "541-Cleveland/sepsis-pneumonia:Therapy": [
       "AND",
@@ -1957,20 +1883,11 @@
     "541-Cleveland/sepsis-susp-c-difficile:Therapy": [
       "AND"
     ],
-    "541-Cleveland/sepsis-susp-endocarditis:Text": [
-      "ADD"
-    ],
     "541-Cleveland/sepsis-susp-endocarditis:Therapy": [
       "ADD"
     ],
-    "541-Cleveland/sepsis-suspected-skin-soft-tissue:Text": [
-      "AND"
-    ],
     "541-Cleveland/sepsis-suspected-skin-soft-tissue:Therapy": [
       "AND"
-    ],
-    "541-Cleveland/sepsis-urosepsis:Text": [
-      "ADD"
     ],
     "541-Cleveland/suspected-bacteremia-cultures-not-yet-positive:Therapy": [
       "AND"
