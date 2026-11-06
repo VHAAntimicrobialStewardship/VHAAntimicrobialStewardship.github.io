@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-06T19:19:43.751Z",
+  "generated": "2026-11-06T19:58:38.682Z",
   "counts": {
     "column-page": 111,
-    "has-list": 1548,
+    "has-list": 1576,
     "has-table": 9,
-    "tag-like-text": 554,
+    "tag-like-text": 550,
     "text-mismatch": 4,
     "long-emphasis": 4,
     "blockquote-marker": 12
@@ -264,13 +264,13 @@
     "001-TestStation/streptococcal-prosthetic-valve-endocarditis:Therapy": [
       "AND"
     ],
-    "001-TestStation/bite-wnds-eikenella-corrodens:Text": [
+    "001-TestStation/bite-wnds-eikenella-corrodens:Therapy": [
       "OR"
     ],
-    "001-TestStation/bite-wnds-p-multocida:Text": [
+    "001-TestStation/bite-wnds-p-multocida:Therapy": [
       "OR"
     ],
-    "001-TestStation/bite-wnds-streptococci:Text": [
+    "001-TestStation/bite-wnds-streptococci:Therapy": [
       "OR"
     ],
     "001-TestStation/cap-inpatient-treated-setting-non-severe-cap:Therapy": [
@@ -315,7 +315,7 @@
     "001-TestStation/neut-fever-cand-oral-thera:Therapy": [
       "AND"
     ],
-    "001-TestStation/osteom-with-p-aeruginosa:Text": [
+    "001-TestStation/osteom-with-p-aeruginosa:Therapy": [
       "OR"
     ],
     "001-TestStation/pid:Therapy": [
@@ -342,9 +342,6 @@
     ],
     "001-TestStation/surg-48hrs-after-proc:Therapy": [
       "AND"
-    ],
-    "001-TestStation/surg-gentamicin-weight-based-dosing:Text": [
-      "Click"
     ],
     "001-TestStation/uncomp-uti:Therapy": [
       "OR"
@@ -695,13 +692,13 @@
     "506-AnnArbor/streptococcal-prosthetic-valve-endocarditis:Therapy": [
       "AND"
     ],
-    "506-AnnArbor/bite-wnds-eikenella-corrodens:Text": [
+    "506-AnnArbor/bite-wnds-eikenella-corrodens:Therapy": [
       "OR"
     ],
-    "506-AnnArbor/bite-wnds-p-multocida:Text": [
+    "506-AnnArbor/bite-wnds-p-multocida:Therapy": [
       "OR"
     ],
-    "506-AnnArbor/bite-wnds-streptococci:Text": [
+    "506-AnnArbor/bite-wnds-streptococci:Therapy": [
       "OR"
     ],
     "506-AnnArbor/cap-inpatient-treated-setting-non-severe-cap:Therapy": [
@@ -746,7 +743,7 @@
     "506-AnnArbor/neut-fever-cand-oral-thera:Therapy": [
       "AND"
     ],
-    "506-AnnArbor/osteom-with-p-aeruginosa:Text": [
+    "506-AnnArbor/osteom-with-p-aeruginosa:Therapy": [
       "OR"
     ],
     "506-AnnArbor/pid:Therapy": [
@@ -773,9 +770,6 @@
     ],
     "506-AnnArbor/surg-48hrs-after-proc:Therapy": [
       "AND"
-    ],
-    "506-AnnArbor/surg-gentamicin-weight-based-dosing:Text": [
-      "Click"
     ],
     "506-AnnArbor/uncomp-uti:Therapy": [
       "OR"
@@ -1123,13 +1117,13 @@
     "539-Cincinnati/streptococcal-prosthetic-valve-endocarditis:Therapy": [
       "AND"
     ],
-    "539-Cincinnati/bite-wnds-eikenella-corrodens:Text": [
+    "539-Cincinnati/bite-wnds-eikenella-corrodens:Therapy": [
       "OR"
     ],
-    "539-Cincinnati/bite-wnds-p-multocida:Text": [
+    "539-Cincinnati/bite-wnds-p-multocida:Therapy": [
       "OR"
     ],
-    "539-Cincinnati/bite-wnds-streptococci:Text": [
+    "539-Cincinnati/bite-wnds-streptococci:Therapy": [
       "OR"
     ],
     "539-Cincinnati/cap-inpatient-treated-setting-non-severe-cap:Therapy": [
@@ -1174,7 +1168,7 @@
     "539-Cincinnati/neut-fever-cand-oral-thera:Therapy": [
       "AND"
     ],
-    "539-Cincinnati/osteom-with-p-aeruginosa:Text": [
+    "539-Cincinnati/osteom-with-p-aeruginosa:Therapy": [
       "OR"
     ],
     "539-Cincinnati/pid:Therapy": [
@@ -1201,9 +1195,6 @@
     ],
     "539-Cincinnati/surg-48hrs-after-proc:Therapy": [
       "AND"
-    ],
-    "539-Cincinnati/surg-gentamicin-weight-based-dosing:Text": [
-      "Click"
     ],
     "539-Cincinnati/uncomp-uti:Therapy": [
       "OR"
@@ -1552,13 +1543,13 @@
     "541-Cleveland/streptococcal-prosthetic-valve-endocarditis:Therapy": [
       "AND"
     ],
-    "541-Cleveland/bite-wnds-eikenella-corrodens:Text": [
+    "541-Cleveland/bite-wnds-eikenella-corrodens:Therapy": [
       "OR"
     ],
-    "541-Cleveland/bite-wnds-p-multocida:Text": [
+    "541-Cleveland/bite-wnds-p-multocida:Therapy": [
       "OR"
     ],
-    "541-Cleveland/bite-wnds-streptococci:Text": [
+    "541-Cleveland/bite-wnds-streptococci:Therapy": [
       "OR"
     ],
     "541-Cleveland/cap-inpatient-treated-setting-non-severe-cap:Therapy": [
@@ -1603,7 +1594,7 @@
     "541-Cleveland/neut-fever-cand-oral-thera:Therapy": [
       "AND"
     ],
-    "541-Cleveland/osteom-with-p-aeruginosa:Text": [
+    "541-Cleveland/osteom-with-p-aeruginosa:Therapy": [
       "OR"
     ],
     "541-Cleveland/pid:Therapy": [
@@ -1630,9 +1621,6 @@
     ],
     "541-Cleveland/surg-48hrs-after-proc:Therapy": [
       "AND"
-    ],
-    "541-Cleveland/surg-gentamicin-weight-based-dosing:Text": [
-      "Click"
     ],
     "541-Cleveland/uncomp-uti:Therapy": [
       "OR"

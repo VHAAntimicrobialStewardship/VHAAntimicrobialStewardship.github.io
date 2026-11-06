@@ -49,8 +49,8 @@ TOKEN = r"(?:Inpatient|Outpatient|ER/UC|ER|ED)"
 LABEL_RE = re.compile(rf"^#{{1,6}}\s*#?\s*(?:\*\*)?\s*({TOKEN}(?:\s*/\s*{TOKEN})*)\s*(?:\*\*)?:?\s*$", re.I)
 # A setting marker glued into a line by the old merge: '... above ##ER ## Prophylaxis:', '... [M]Outpatient'.
 GLUED_RE = re.compile(r"(?:\s*(?<=\s)#{1,2}\s*|(?<=\]))\b(ER|Outpatient|Inpatient)\b(?!/)")
-# '## # ER Ceftriaxone ...': a setting label with the next line glued on.
-DOUBLE_HASH_RE = re.compile(r"^#{1,2}\s+#\s*(ER|Outpatient|Inpatient)\b\s*(.*)$")
+# '## # ER Ceftriaxone ...' or '##ER ## Prophylaxis:': a setting label with the next line glued on.
+DOUBLE_HASH_RE = re.compile(r"^(?:#{1,2}\s+#\s*|#{1,2})(ER|Outpatient|Inpatient)\b\s*(.*)$")
 # Headings that run a setting label into a sub-heading (the outpatient one lost part of its text).
 QUALIFIED = {
     "## Inpatient Treatment for persistent or recurrent urethritis and failure of initial doxycycline treatment":
@@ -60,6 +60,17 @@ QUALIFIED = {
     "## Outpatient Preferred treatment": ("Outpatient", "Preferred treatment"),
 }
 NON_VA_RE = re.compile(r"^\s*\[?Non[- ]VA order for above\]?(?:\([^)]*\))?\s*$", re.I)
+NON_VA_ANY_RE = re.compile(r"[ \t]*\[?Non[- ]VA order for above\]?(?:\([^)]*\))?[ \t]*", re.I)
+# The inpatient guidance is on the same page now, so pointers to a separate inpatient CDSS go.
+REFER_LINE_RE = re.compile(r"^\s*(?:#+\s*)?(?:for intravenous treatment options, please )?refer to (?:the )?inpatient\b.*\bcdss\b.*$"
+                           r"|^\s*refer to the inpatient or outpatient .*\bcdss\b.*$", re.I)
+REFER_REPLACE = [
+    ("suspected urinary tract infection: Refer to Inpatient Antimicrobial CDSS",
+     "suspected urinary tract infection: see [Sepsis, urinary tract infection](sepsis-urosepsis)"),
+    ("\n# Fulminant CDI: Refer to Inpatient Antimicrobial CDSS\n", "\n"),
+]
+CONNECTOR_RE = re.compile(r"^\s*<\s*(?:OR|AND)\s*>\s*$", re.I)
+DOSE_RE = re.compile(r"\b(?:mg|gm|g|mcg|units?|tablets?|drops?|cream|ointment|IV|PO|IM)\b", re.I)
 HEAD_RE = re.compile(r"^(#{1,6})\s+\S")
 DEFER_RE = re.compile(r"refer to (?:the )?inpatient", re.I)
 COVERED = 0.95
@@ -76,18 +87,74 @@ def tokens(label_text):
     return tuple(sorted(set(out), key=ORDER.get))
 
 
-# Outpatient copies spell the same frequency differently (TID for q8h).
-SYNONYMS = {"tid": "q8h", "bid": "q12h", "qid": "q6h", "qday": "q24h", "daily": "q24h", "qd": "q24h"}
-
-
 def bag(text):
-    return Counter(SYNONYMS.get(w, w) for w in cc.norm_words(text))
+    return Counter(cc.norm_words(text))
 
 
 def contain(part, whole):
     p, w = bag(part), bag(whole)
     total = sum(p.values())
     return sum(min(v, w[k]) for k, v in p.items()) / total if total else 1.0
+
+
+def strip_obsolete(text):
+    """Drops 'Non-VA order for above' and 'refer to the inpatient CDSS' lines, with the connector, the
+    'Label:' line or the heading that is left without content."""
+    if not text:
+        return text
+    for old, new in REFER_REPLACE:
+        text = text.replace(old, new)
+    # The Non-VA order dialogs are gone; the phrase can sit alone, end a line or precede a glued marker.
+    lines = []
+    for line in text.split("\n"):
+        if NON_VA_RE.match(line):
+            continue
+        lines.append(NON_VA_ANY_RE.sub(" ", line).rstrip() if NON_VA_ANY_RE.search(line) else line)
+    lines = [l.lstrip() if l.startswith(" ##") else l for l in lines]
+    out, removed_at = [], []
+    for line in lines:
+        if REFER_LINE_RE.match(line):
+            removed_at.append(len(out))
+            continue
+        out.append(line)
+    if not removed_at:
+        return re.sub(r"\n{3,}", "\n\n", "\n".join(lines)).strip("\n") if lines != text.split("\n") else text
+
+    drop = set()
+
+    def near(i, step):
+        """Index of the nearest non-blank, not yet dropped line from i in direction step."""
+        while 0 <= i < len(out):
+            if out[i].strip() and i not in drop:
+                return i
+            i += step
+        return None
+
+    def is_end(j, level):
+        if j is None or out[j].strip() in ("---", "***") or promote.REF_HEAD_RE.match(out[j]):
+            return True
+        m = HEAD_RE.match(out[j])
+        return bool(m) and len(m.group(1)) <= level
+
+    for at in removed_at:
+        # A connector left without a regimen on one side.
+        for j in (near(at - 1, -1), near(at, 1)):
+            if j is not None and CONNECTOR_RE.match(out[j]):
+                before, after = near(j - 1, -1), near(j + 1, 1)
+                if (before is None or after is None or not DOSE_RE.search(out[before])
+                        or not DOSE_RE.search(out[after]) or CONNECTOR_RE.match(out[after])):
+                    drop.add(j)
+        # A heading or 'Label:' line left without content (setting labels are left to normalize()).
+        before = near(at - 1, -1)
+        if before is None or LABEL_RE.match(out[before].strip()):
+            continue
+        head = HEAD_RE.match(out[before])
+        if head and not DOSE_RE.search(out[before]) and is_end(near(at, 1), len(head.group(1))):
+            drop.add(before)
+        elif not head and out[before].rstrip().endswith(":") and is_end(near(at, 1), 6):
+            drop.add(before)
+    out = [l for i, l in enumerate(out) if i not in drop]
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(out)).strip("\n")
 
 
 def split_glued(text):
@@ -164,6 +231,7 @@ def archive_therapy(legacy, pid, name):
     therapy = re.sub(r"(?<![<\s])\s+OR\s*>\s*$", "\n< OR >", therapy, flags=re.M)
     therapy = re.sub(r"^(\s*<\s*OR\s*>\s*\n)(?:\s*<\s*OR\s*>\s*\n)+", r"\1", therapy + "\n", flags=re.M)
     therapy = re.sub(r"<\s*OR\s*>[ \t]*\n\s*<\s*OR\s*>[ \t]*(?=\n)", "< OR >", therapy)
+    therapy = strip_obsolete(therapy)
     return re.sub(r"\n{3,}", "\n\n", therapy).strip("\n")
 
 
@@ -182,7 +250,7 @@ def strip_non_va(body):
 
 
 def same(a, b):
-    """Same guidance: identical words apart from Non-VA order lines, cost markers and frequency spelling."""
+    """Same guidance: identical words apart from Non-VA order lines (q8h and TID differ on purpose)."""
     return bag(strip_non_va(a)) == bag(strip_non_va(b))
 
 
@@ -296,12 +364,15 @@ def edited_pages(station_dir, om_file):
     return {m["Name"] for m in data["menus"] if m.get("LastUpdatedBy")}
 
 
-def patch_file(path, old, new):
+def patch_file(path, changes):
+    """Replaces whole field values in the raw file so untouched lines stay byte-identical."""
     raw = path.read_bytes().decode("utf-8")
-    old_enc, new_enc = json.dumps(old, ensure_ascii=False), json.dumps(new, ensure_ascii=False)
-    if raw.count(old_enc) != 1:
-        return False
-    path.write_bytes(raw.replace(old_enc, new_enc).encode("utf-8"))
+    for old, new in changes:
+        old_enc, new_enc = json.dumps(old, ensure_ascii=False), json.dumps(new, ensure_ascii=False)
+        if raw.count(old_enc) != 1:
+            return False
+        raw = raw.replace(old_enc, new_enc)
+    path.write_bytes(raw.encode("utf-8"))
     return True
 
 
@@ -325,23 +396,31 @@ def main():
         od = json.loads((ROOT / "stations" / station_dir / od_file).read_text(encoding="utf-8"))
         legacy = cc.Legacy(pages, {cleanup.normalize_comparable_id(m["Name"]) for m in od})
         edited = edited_pages(station_dir, om_file) | test_edited
-        notes, changed = [], 0
+        notes, changed, cleaned = [], 0, 0
         for pid, page in sorted(pages.items()):
             if args.page and pid not in args.page:
                 continue
+            original = {f: page.data[f] for f in ("Text", "Therapy") if page.data.get(f)}
+            for field, value in original.items():
+                page.data[field] = strip_obsolete(value)
             result = normalize(pid, page.data, legacy, pid in edited, notes)
-            if not result or result[0] == (page.data.get("Therapy") or "").strip("\n"):
+            if result and result[0] != (page.data.get("Therapy") or "").strip("\n"):
+                new, sources = result
+                changed += 1
+                old_labels = [l.strip() for l in split_glued(original["Therapy"]).split("\n") if LABEL_RE.match(l.strip())]
+                new_labels = [l for l in new.split("\n") if LABEL_RE.match(l)]
+                print(f"  {pid}{' [edited]' if pid in edited else ''}: {old_labels} -> {new_labels} ({sources})")
+                if n == 0:
+                    dump.append(f"################ {pid}  ({sources})\n{new}")
+                page.data["Therapy"] = new
+            edits = [(old, page.data[f]) for f, old in original.items() if page.data[f] != old]
+            if not edits:
                 continue
-            new, sources = result
-            changed += 1
-            old_labels = [l.strip() for l in split_glued(page.data["Therapy"]).split("\n") if LABEL_RE.match(l.strip())]
-            new_labels = [l for l in new.split("\n") if LABEL_RE.match(l)]
-            print(f"  {pid}{' [edited]' if pid in edited else ''}: {old_labels} -> {new_labels} ({sources})")
-            if n == 0:
-                dump.append(f"################ {pid}  ({sources})\n{new}")
-            if args.apply and not patch_file(page.path, page.data["Therapy"], new):
+            cleaned += 1
+            if args.apply and not patch_file(page.path, edits):
                 notes.append(f"{pid}: could not patch the file (encoding differs); skipped")
-        print(f"=== {station_dir}: {changed} page(s) {'changed' if args.apply else 'to change'}")
+        print(f"=== {station_dir}: {cleaned} page(s) {'changed' if args.apply else 'to change'} "
+              f"({changed} with care-setting changes)")
         for note in notes:
             print(f"    NOTE {note}")
     if args.dump:

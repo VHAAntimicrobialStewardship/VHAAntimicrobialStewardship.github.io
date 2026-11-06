@@ -6,6 +6,6 @@
   "Term1": "septic-arth-n-gonorrhoeae",
   "Term2": "",
   "Text": "SEPTIC ARTHRITIS (NATIVE JOINT) WITH NEISSERIA GONORRHOEAE Treat presumptively also for Chlamydia trachomatis infection (asymptomatic urethritis) and test for HIV.  Infection control will report cases with N. gonorrhea isolated to the state department of health.\n\nSexual partners within 60 days should be referred for evaluation and treatment.\n\nParenteral therapy recommended until clinical improvement, then switch to oral therapy to complete 1-2 weeks of therapy.\n\nSusceptibility results are required to guide potential switch to an oral medicat References\nMandell chapter: Infectious arthritis of native joints\nSanford keyword: Septic arthritis\nCoakley G Lancet 2010, 375:846\nMMWR Recommendations and Reports CDC 2015, 64:1-137",
-  "Therapy": "## Treatment for N. gonorrheae (Plus see below for Chlamydia treatment)\n\nRefer to Inpatient Antimicrobial CDSS for initial parenteral treatment\n\n## Concomitant treatment for C. trachomatis\n\nPreferred treatment:\n\nAzithromycin 1000 mg PO once ($) M\n\nNon-VA order for above\n\nAlternative treatment:\n\nDoxycycline 100 mg PO BID for 7 days ($) DI\n\nNon-VA order for above",
+  "Therapy": "## Concomitant treatment for C. trachomatis\n\nPreferred treatment:\n\nAzithromycin 1000 mg PO once ($) M\n\nAlternative treatment:\n\nDoxycycline 100 mg PO BID for 7 days ($) DI",
   "Inpt": "ORZID3 GMENU SEPTIC ARTH N. GONORRHOEAE"
 }
