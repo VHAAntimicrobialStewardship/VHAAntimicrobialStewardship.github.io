@@ -1,120 +1,14 @@
 {
-  "generated": "2026-11-06T21:32:56.714Z",
+  "generated": "2026-11-09T19:10:27.209Z",
   "counts": {
     "column-page": 223,
-    "has-list": 3153,
+    "has-list": 3017,
     "has-table": 22,
-    "tag-like-text": 1105,
-    "text-mismatch": 8,
+    "tag-like-text": 1072,
     "long-emphasis": 8,
     "blockquote-marker": 24
   },
-  "hardErrors": [
-    {
-      "station": "001-TestStation",
-      "page": "hepb-vaccine-information-old-page",
-      "field": "Text",
-      "findings": [
-        {
-          "type": "text-mismatch",
-          "at": 860,
-          "expected": "name:autoimmunehepatitis,0,1,4monthsEngerix-Balanineaminotransfer",
-          "rendered": "name:autoimmunehepatitis,2)0,1,4monthsEngerix-Balanineaminotransf"
-        }
-      ]
-    },
-    {
-      "station": "506-AnnArbor",
-      "page": "hepb-vaccine-information-old-page",
-      "field": "Text",
-      "findings": [
-        {
-          "type": "text-mismatch",
-          "at": 860,
-          "expected": "name:autoimmunehepatitis,0,1,4monthsEngerix-Balanineaminotransfer",
-          "rendered": "name:autoimmunehepatitis,2)0,1,4monthsEngerix-Balanineaminotransf"
-        }
-      ]
-    },
-    {
-      "station": "539-Cincinnati",
-      "page": "hepb-vaccine-information-old-page",
-      "field": "Text",
-      "findings": [
-        {
-          "type": "text-mismatch",
-          "at": 860,
-          "expected": "name:autoimmunehepatitis,0,1,4monthsEngerix-Balanineaminotransfer",
-          "rendered": "name:autoimmunehepatitis,2)0,1,4monthsEngerix-Balanineaminotransf"
-        }
-      ]
-    },
-    {
-      "station": "541-Cleveland",
-      "page": "hepb-vaccine-information-old-page",
-      "field": "Text",
-      "findings": [
-        {
-          "type": "text-mismatch",
-          "at": 860,
-          "expected": "name:autoimmunehepatitis,0,1,4monthsEngerix-Balanineaminotransfer",
-          "rendered": "name:autoimmunehepatitis,2)0,1,4monthsEngerix-Balanineaminotransf"
-        }
-      ]
-    },
-    {
-      "station": "618-Minneapolis",
-      "page": "hepb-vaccine-information-old-page",
-      "field": "Text",
-      "findings": [
-        {
-          "type": "text-mismatch",
-          "at": 860,
-          "expected": "name:autoimmunehepatitis,0,1,4monthsEngerix-Balanineaminotransfer",
-          "rendered": "name:autoimmunehepatitis,2)0,1,4monthsEngerix-Balanineaminotransf"
-        }
-      ]
-    },
-    {
-      "station": "636-Omaha",
-      "page": "hepb-vaccine-information-old-page",
-      "field": "Text",
-      "findings": [
-        {
-          "type": "text-mismatch",
-          "at": 860,
-          "expected": "name:autoimmunehepatitis,0,1,4monthsEngerix-Balanineaminotransfer",
-          "rendered": "name:autoimmunehepatitis,2)0,1,4monthsEngerix-Balanineaminotransf"
-        }
-      ]
-    },
-    {
-      "station": "636A6-DesMoines",
-      "page": "hepb-vaccine-information-old-page",
-      "field": "Text",
-      "findings": [
-        {
-          "type": "text-mismatch",
-          "at": 860,
-          "expected": "name:autoimmunehepatitis,0,1,4monthsEngerix-Balanineaminotransfer",
-          "rendered": "name:autoimmunehepatitis,2)0,1,4monthsEngerix-Balanineaminotransf"
-        }
-      ]
-    },
-    {
-      "station": "656-StCloud",
-      "page": "hepb-vaccine-information-old-page",
-      "field": "Text",
-      "findings": [
-        {
-          "type": "text-mismatch",
-          "at": 860,
-          "expected": "name:autoimmunehepatitis,0,1,4monthsEngerix-Balanineaminotransfer",
-          "rendered": "name:autoimmunehepatitis,2)0,1,4monthsEngerix-Balanineaminotransf"
-        }
-      ]
-    }
-  ],
+  "hardErrors": [],
   "columnPages": [
     "001-TestStation/bispecific-crs-monitoring:Text",
     "001-TestStation/cns:Text",
@@ -443,12 +337,6 @@
     "001-TestStation/cap-inpatient-treated-setting-severe-cap:Therapy": [
       "AND"
     ],
-    "001-TestStation/cap-outpatient-treated-setting:Therapy": [
-      "AND"
-    ],
-    "001-TestStation/cap-treated-in-outpt-setting:Therapy": [
-      "AND"
-    ],
     "001-TestStation/covid-19-mpls-antimicrobial-guideline:Therapy": [
       "OR"
     ],
@@ -467,9 +355,6 @@
     "001-TestStation/gonococcal:Therapy": [
       "AND"
     ],
-    "001-TestStation/gram-pos-actinomyces-spp:Therapy": [
-      "OR"
-    ],
     "001-TestStation/necrot-infect-direct-therapy:Therapy": [
       "AND"
     ],
@@ -485,9 +370,6 @@
     "001-TestStation/pid:Therapy": [
       "AND",
       "OPTIONAL"
-    ],
-    "001-TestStation/sa-decolonization:Text": [
-      "AND"
     ],
     "001-TestStation/sepsis-severe-beta-lactam-reaction:Therapy": [
       "ADD"
@@ -871,12 +753,6 @@
     "506-AnnArbor/cap-inpatient-treated-setting-severe-cap:Therapy": [
       "AND"
     ],
-    "506-AnnArbor/cap-outpatient-treated-setting:Therapy": [
-      "AND"
-    ],
-    "506-AnnArbor/cap-treated-in-outpt-setting:Therapy": [
-      "AND"
-    ],
     "506-AnnArbor/covid-19-mpls-antimicrobial-guideline:Therapy": [
       "OR"
     ],
@@ -895,9 +771,6 @@
     "506-AnnArbor/gonococcal:Therapy": [
       "AND"
     ],
-    "506-AnnArbor/gram-pos-actinomyces-spp:Therapy": [
-      "OR"
-    ],
     "506-AnnArbor/necrot-infect-direct-therapy:Therapy": [
       "AND"
     ],
@@ -913,9 +786,6 @@
     "506-AnnArbor/pid:Therapy": [
       "AND",
       "OPTIONAL"
-    ],
-    "506-AnnArbor/sa-decolonization:Text": [
-      "AND"
     ],
     "506-AnnArbor/sepsis-severe-beta-lactam-reaction:Therapy": [
       "ADD"
@@ -1296,12 +1166,6 @@
     "539-Cincinnati/cap-inpatient-treated-setting-severe-cap:Therapy": [
       "AND"
     ],
-    "539-Cincinnati/cap-outpatient-treated-setting:Therapy": [
-      "AND"
-    ],
-    "539-Cincinnati/cap-treated-in-outpt-setting:Therapy": [
-      "AND"
-    ],
     "539-Cincinnati/covid-19-mpls-antimicrobial-guideline:Therapy": [
       "OR"
     ],
@@ -1320,9 +1184,6 @@
     "539-Cincinnati/gonococcal:Therapy": [
       "AND"
     ],
-    "539-Cincinnati/gram-pos-actinomyces-spp:Therapy": [
-      "OR"
-    ],
     "539-Cincinnati/necrot-infect-direct-therapy:Therapy": [
       "AND"
     ],
@@ -1338,9 +1199,6 @@
     "539-Cincinnati/pid:Therapy": [
       "AND",
       "OPTIONAL"
-    ],
-    "539-Cincinnati/sa-decolonization:Text": [
-      "AND"
     ],
     "539-Cincinnati/sepsis-severe-beta-lactam-reaction:Therapy": [
       "ADD"
@@ -1722,12 +1580,6 @@
     "541-Cleveland/cap-inpatient-treated-setting-severe-cap:Therapy": [
       "AND"
     ],
-    "541-Cleveland/cap-outpatient-treated-setting:Therapy": [
-      "AND"
-    ],
-    "541-Cleveland/cap-treated-in-outpt-setting:Therapy": [
-      "AND"
-    ],
     "541-Cleveland/covid-19-mpls-antimicrobial-guideline:Therapy": [
       "OR"
     ],
@@ -1746,9 +1598,6 @@
     "541-Cleveland/gonococcal:Therapy": [
       "AND"
     ],
-    "541-Cleveland/gram-pos-actinomyces-spp:Therapy": [
-      "OR"
-    ],
     "541-Cleveland/necrot-infect-direct-therapy:Therapy": [
       "AND"
     ],
@@ -1764,9 +1613,6 @@
     "541-Cleveland/pid:Therapy": [
       "AND",
       "OPTIONAL"
-    ],
-    "541-Cleveland/sa-decolonization:Text": [
-      "AND"
     ],
     "541-Cleveland/sepsis-severe-beta-lactam-reaction:Therapy": [
       "ADD"
@@ -2150,12 +1996,6 @@
     "618-Minneapolis/cap-inpatient-treated-setting-severe-cap:Therapy": [
       "AND"
     ],
-    "618-Minneapolis/cap-outpatient-treated-setting:Therapy": [
-      "AND"
-    ],
-    "618-Minneapolis/cap-treated-in-outpt-setting:Therapy": [
-      "AND"
-    ],
     "618-Minneapolis/covid-19-mpls-antimicrobial-guideline:Therapy": [
       "OR"
     ],
@@ -2174,9 +2014,6 @@
     "618-Minneapolis/gonococcal:Therapy": [
       "AND"
     ],
-    "618-Minneapolis/gram-pos-actinomyces-spp:Therapy": [
-      "OR"
-    ],
     "618-Minneapolis/necrot-infect-direct-therapy:Therapy": [
       "AND"
     ],
@@ -2192,9 +2029,6 @@
     "618-Minneapolis/pid:Therapy": [
       "AND",
       "OPTIONAL"
-    ],
-    "618-Minneapolis/sa-decolonization:Text": [
-      "AND"
     ],
     "618-Minneapolis/sepsis-severe-beta-lactam-reaction:Therapy": [
       "ADD"
@@ -2575,12 +2409,6 @@
     "636-Omaha/cap-inpatient-treated-setting-severe-cap:Therapy": [
       "AND"
     ],
-    "636-Omaha/cap-outpatient-treated-setting:Therapy": [
-      "AND"
-    ],
-    "636-Omaha/cap-treated-in-outpt-setting:Therapy": [
-      "AND"
-    ],
     "636-Omaha/covid-19-mpls-antimicrobial-guideline:Therapy": [
       "OR"
     ],
@@ -2605,9 +2433,6 @@
     "636-Omaha/gonococcal:Therapy": [
       "AND"
     ],
-    "636-Omaha/gram-pos-actinomyces-spp:Therapy": [
-      "OR"
-    ],
     "636-Omaha/necrot-infect-direct-therapy:Therapy": [
       "AND"
     ],
@@ -2620,9 +2445,6 @@
     "636-Omaha/pid:Therapy": [
       "AND",
       "OPTIONAL"
-    ],
-    "636-Omaha/sa-decolonization:Text": [
-      "AND"
     ],
     "636-Omaha/sepsis-severe-beta-lactam-reaction:Therapy": [
       "ADD"
@@ -3002,12 +2824,6 @@
     "636A6-DesMoines/cap-inpatient-treated-setting-severe-cap:Therapy": [
       "AND"
     ],
-    "636A6-DesMoines/cap-outpatient-treated-setting:Therapy": [
-      "AND"
-    ],
-    "636A6-DesMoines/cap-treated-in-outpt-setting:Therapy": [
-      "AND"
-    ],
     "636A6-DesMoines/covid-19-mpls-antimicrobial-guideline:Therapy": [
       "OR"
     ],
@@ -3031,9 +2847,6 @@
     "636A6-DesMoines/gonococcal:Therapy": [
       "AND"
     ],
-    "636A6-DesMoines/gram-pos-actinomyces-spp:Therapy": [
-      "OR"
-    ],
     "636A6-DesMoines/liver-amebic-abscess:Text": [
       "FOLLOWED"
     ],
@@ -3052,9 +2865,6 @@
     "636A6-DesMoines/pid:Therapy": [
       "AND",
       "OPTIONAL"
-    ],
-    "636A6-DesMoines/sa-decolonization:Text": [
-      "AND"
     ],
     "636A6-DesMoines/sepsis-severe-beta-lactam-reaction:Therapy": [
       "ADD"
@@ -3424,12 +3234,6 @@
     "656-StCloud/cap-inpatient-treated-setting-severe-cap:Therapy": [
       "AND"
     ],
-    "656-StCloud/cap-outpatient-treated-setting:Therapy": [
-      "AND"
-    ],
-    "656-StCloud/cap-treated-in-outpt-setting:Therapy": [
-      "AND"
-    ],
     "656-StCloud/covid-19-mpls-antimicrobial-guideline:Therapy": [
       "OR"
     ],
@@ -3454,9 +3258,6 @@
     "656-StCloud/gonococcal:Therapy": [
       "AND"
     ],
-    "656-StCloud/gram-pos-actinomyces-spp:Therapy": [
-      "OR"
-    ],
     "656-StCloud/isospora:Text": [
       "AND"
     ],
@@ -3475,9 +3276,6 @@
     "656-StCloud/pid:Therapy": [
       "AND",
       "OPTIONAL"
-    ],
-    "656-StCloud/sa-decolonization:Text": [
-      "AND"
     ],
     "656-StCloud/sepsis-severe-beta-lactam-reaction:Therapy": [
       "ADD"
@@ -3614,9 +3412,6 @@
     ],
     "656-StCloud/nosocomial-pneumonia-with-pseudomonas-aeruginosa:Therapy": [
       "ADD"
-    ],
-    "656-StCloud/orzid3-gmenu-influenza-chemoprophylaxis:Therapy": [
-      "Select"
     ],
     "656-StCloud/pneumonia-hap-new:Therapy": [
       "OR",

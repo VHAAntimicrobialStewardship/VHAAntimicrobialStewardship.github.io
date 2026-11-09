@@ -1,6 +1,6 @@
 {
  "001-TestStation": {
-  "nodeCount": 671,
+  "nodeCount": 669,
   "headerMenus": [
    {
     "label": "General and Misc",
@@ -1156,7 +1156,7 @@
        {
         "type": "link",
         "label": "Influenza Seasonal",
-        "target": "influenza-recommendations-outpatient",
+        "target": "influenza-recommendations",
         "children": [
          {
           "type": "link",
@@ -1173,7 +1173,7 @@
          {
           "type": "link",
           "label": "Chemoprophylaxis Recommendations",
-          "target": "orzid3-gmenu-influenza-chemoprophylaxis",
+          "target": "influenza-chemoprophylaxis",
           "children": []
          }
         ]
@@ -1199,7 +1199,7 @@
        {
         "type": "link",
         "label": "Tuberculosis",
-        "target": "tuberculosis",
+        "target": "tuberculosis-2",
         "children": []
        },
        {
@@ -1222,7 +1222,7 @@
          {
           "type": "link",
           "label": "Community-acquired pneumonia (CAP)",
-          "target": "cap-oral-treatment",
+          "target": "com-acq-pneumonia",
           "children": []
          },
          {
@@ -1256,7 +1256,7 @@
        {
         "type": "link",
         "label": "Diabetic Foot Infections",
-        "target": "foot-ulcer-in-pt-w-dm",
+        "target": "foot-ulcer-with-dm",
         "children": []
        },
        {
@@ -3963,27 +3963,8 @@
        {
         "type": "link",
         "label": "Diarrhea, viral",
-        "target": "infect-diarrhea-gastroent",
+        "target": "infect-diarrhea-gastro",
         "children": [
-         {
-          "type": "section",
-          "label": "Empirical antimicrobial treatment of diarrhea",
-          "level": 1,
-          "children": [
-           {
-            "type": "link",
-            "label": "Community acquired diarrhea (no recent travel)",
-            "target": "comm-acq-diarrhea",
-            "children": []
-           },
-           {
-            "type": "link",
-            "label": "Traveler's diarrhea",
-            "target": "travelers-diarrhea",
-            "children": []
-           }
-          ]
-         },
          {
           "type": "section",
           "label": "Treatment of diarrhea caused by specific bacteria, parasites, and viruses",
@@ -3998,7 +3979,7 @@
            {
             "type": "link",
             "label": "Mild to moderate disease",
-            "target": "orzid3-gmenu-cdifficile-colitis",
+            "target": "clostridiodes-difficile-infection",
             "children": []
            },
            {
@@ -4028,13 +4009,13 @@
            {
             "type": "link",
             "label": "Norovirus",
-            "target": "orzid3-gmenu-comm-viral-gastroenteritis",
+            "target": "viral-diarrhea-gastroenteritis",
             "children": []
            },
            {
             "type": "link",
             "label": "Rotavirus",
-            "target": "orzid3-gmenu-comm-viral-gastroenteritis",
+            "target": "viral-diarrhea-gastroenteritis",
             "children": []
            },
            {
@@ -4053,6 +4034,12 @@
             "type": "link",
             "label": "Vibrio cholerae",
             "target": "cholera",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Vibrio, non-cholerae",
+            "target": "vibrio-non-cholerae",
             "children": []
            },
            {
@@ -4235,7 +4222,7 @@
        {
         "type": "link",
         "label": "Influenza, Seasonal",
-        "target": "influenza-recommendations-outpatient",
+        "target": "influenza-recommendations",
         "children": [
          {
           "type": "link",
@@ -4252,7 +4239,7 @@
          {
           "type": "link",
           "label": "Chemoprophylaxis Recommendations",
-          "target": "orzid3-gmenu-influenza-chemoprophylaxis",
+          "target": "influenza-chemoprophylaxis",
           "children": []
          }
         ]
@@ -4260,7 +4247,7 @@
        {
         "type": "link",
         "label": "Parainfluenza",
-        "target": "parainfluenza",
+        "target": "parainfluenza-2",
         "children": []
        },
        {
@@ -4279,7 +4266,7 @@
        {
         "type": "link",
         "label": "Respiratory Syncytial Virus (RSV)",
-        "target": "rsv",
+        "target": "respiratory-syncytial-virus",
         "children": []
        },
        {
@@ -4327,7 +4314,7 @@
   ]
  },
  "506-AnnArbor": {
-  "nodeCount": 671,
+  "nodeCount": 669,
   "headerMenus": [
    {
     "label": "General and Misc",
@@ -5483,7 +5470,7 @@
        {
         "type": "link",
         "label": "Influenza Seasonal",
-        "target": "influenza-recommendations-outpatient",
+        "target": "influenza-recommendations",
         "children": [
          {
           "type": "link",
@@ -5500,7 +5487,7 @@
          {
           "type": "link",
           "label": "Chemoprophylaxis Recommendations",
-          "target": "orzid3-gmenu-influenza-chemoprophylaxis",
+          "target": "influenza-chemoprophylaxis",
           "children": []
          }
         ]
@@ -5526,7 +5513,7 @@
        {
         "type": "link",
         "label": "Tuberculosis",
-        "target": "tuberculosis",
+        "target": "tuberculosis-2",
         "children": []
        },
        {
@@ -5549,7 +5536,7 @@
          {
           "type": "link",
           "label": "Community-acquired pneumonia (CAP)",
-          "target": "cap-oral-treatment",
+          "target": "com-acq-pneumonia",
           "children": []
          },
          {
@@ -5583,7 +5570,7 @@
        {
         "type": "link",
         "label": "Diabetic Foot Infections",
-        "target": "foot-ulcer-in-pt-w-dm",
+        "target": "foot-ulcer-with-dm",
         "children": []
        },
        {
@@ -8290,27 +8277,8 @@
        {
         "type": "link",
         "label": "Diarrhea, viral",
-        "target": "infect-diarrhea-gastroent",
+        "target": "infect-diarrhea-gastro",
         "children": [
-         {
-          "type": "section",
-          "label": "Empirical antimicrobial treatment of diarrhea",
-          "level": 1,
-          "children": [
-           {
-            "type": "link",
-            "label": "Community acquired diarrhea (no recent travel)",
-            "target": "comm-acq-diarrhea",
-            "children": []
-           },
-           {
-            "type": "link",
-            "label": "Traveler's diarrhea",
-            "target": "travelers-diarrhea",
-            "children": []
-           }
-          ]
-         },
          {
           "type": "section",
           "label": "Treatment of diarrhea caused by specific bacteria, parasites, and viruses",
@@ -8325,7 +8293,7 @@
            {
             "type": "link",
             "label": "Mild to moderate disease",
-            "target": "orzid3-gmenu-cdifficile-colitis",
+            "target": "clostridiodes-difficile-infection",
             "children": []
            },
            {
@@ -8355,13 +8323,13 @@
            {
             "type": "link",
             "label": "Norovirus",
-            "target": "orzid3-gmenu-comm-viral-gastroenteritis",
+            "target": "viral-diarrhea-gastroenteritis",
             "children": []
            },
            {
             "type": "link",
             "label": "Rotavirus",
-            "target": "orzid3-gmenu-comm-viral-gastroenteritis",
+            "target": "viral-diarrhea-gastroenteritis",
             "children": []
            },
            {
@@ -8380,6 +8348,12 @@
             "type": "link",
             "label": "Vibrio cholerae",
             "target": "cholera",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Vibrio, non-cholerae",
+            "target": "vibrio-non-cholerae",
             "children": []
            },
            {
@@ -8562,7 +8536,7 @@
        {
         "type": "link",
         "label": "Influenza, Seasonal",
-        "target": "influenza-recommendations-outpatient",
+        "target": "influenza-recommendations",
         "children": [
          {
           "type": "link",
@@ -8579,7 +8553,7 @@
          {
           "type": "link",
           "label": "Chemoprophylaxis Recommendations",
-          "target": "orzid3-gmenu-influenza-chemoprophylaxis",
+          "target": "influenza-chemoprophylaxis",
           "children": []
          }
         ]
@@ -8587,7 +8561,7 @@
        {
         "type": "link",
         "label": "Parainfluenza",
-        "target": "parainfluenza",
+        "target": "parainfluenza-2",
         "children": []
        },
        {
@@ -8606,7 +8580,7 @@
        {
         "type": "link",
         "label": "Respiratory Syncytial Virus (RSV)",
-        "target": "rsv",
+        "target": "respiratory-syncytial-virus",
         "children": []
        },
        {
@@ -8654,7 +8628,7 @@
   ]
  },
  "539-Cincinnati": {
-  "nodeCount": 671,
+  "nodeCount": 669,
   "headerMenus": [
    {
     "label": "General and Misc",
@@ -9810,7 +9784,7 @@
        {
         "type": "link",
         "label": "Influenza Seasonal",
-        "target": "influenza-recommendations-outpatient",
+        "target": "influenza-recommendations",
         "children": [
          {
           "type": "link",
@@ -9827,7 +9801,7 @@
          {
           "type": "link",
           "label": "Chemoprophylaxis Recommendations",
-          "target": "orzid3-gmenu-influenza-chemoprophylaxis",
+          "target": "influenza-chemoprophylaxis",
           "children": []
          }
         ]
@@ -9853,7 +9827,7 @@
        {
         "type": "link",
         "label": "Tuberculosis",
-        "target": "tuberculosis",
+        "target": "tuberculosis-2",
         "children": []
        },
        {
@@ -9876,7 +9850,7 @@
          {
           "type": "link",
           "label": "Community-acquired pneumonia (CAP)",
-          "target": "cap-oral-treatment",
+          "target": "com-acq-pneumonia",
           "children": []
          },
          {
@@ -9910,7 +9884,7 @@
        {
         "type": "link",
         "label": "Diabetic Foot Infections",
-        "target": "foot-ulcer-in-pt-w-dm",
+        "target": "foot-ulcer-with-dm",
         "children": []
        },
        {
@@ -12617,27 +12591,8 @@
        {
         "type": "link",
         "label": "Diarrhea, viral",
-        "target": "infect-diarrhea-gastroent",
+        "target": "infect-diarrhea-gastro",
         "children": [
-         {
-          "type": "section",
-          "label": "Empirical antimicrobial treatment of diarrhea",
-          "level": 1,
-          "children": [
-           {
-            "type": "link",
-            "label": "Community acquired diarrhea (no recent travel)",
-            "target": "comm-acq-diarrhea",
-            "children": []
-           },
-           {
-            "type": "link",
-            "label": "Traveler's diarrhea",
-            "target": "travelers-diarrhea",
-            "children": []
-           }
-          ]
-         },
          {
           "type": "section",
           "label": "Treatment of diarrhea caused by specific bacteria, parasites, and viruses",
@@ -12652,7 +12607,7 @@
            {
             "type": "link",
             "label": "Mild to moderate disease",
-            "target": "orzid3-gmenu-cdifficile-colitis",
+            "target": "clostridiodes-difficile-infection",
             "children": []
            },
            {
@@ -12682,13 +12637,13 @@
            {
             "type": "link",
             "label": "Norovirus",
-            "target": "orzid3-gmenu-comm-viral-gastroenteritis",
+            "target": "viral-diarrhea-gastroenteritis",
             "children": []
            },
            {
             "type": "link",
             "label": "Rotavirus",
-            "target": "orzid3-gmenu-comm-viral-gastroenteritis",
+            "target": "viral-diarrhea-gastroenteritis",
             "children": []
            },
            {
@@ -12707,6 +12662,12 @@
             "type": "link",
             "label": "Vibrio cholerae",
             "target": "cholera",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Vibrio, non-cholerae",
+            "target": "vibrio-non-cholerae",
             "children": []
            },
            {
@@ -12889,7 +12850,7 @@
        {
         "type": "link",
         "label": "Influenza, Seasonal",
-        "target": "influenza-recommendations-outpatient",
+        "target": "influenza-recommendations",
         "children": [
          {
           "type": "link",
@@ -12906,7 +12867,7 @@
          {
           "type": "link",
           "label": "Chemoprophylaxis Recommendations",
-          "target": "orzid3-gmenu-influenza-chemoprophylaxis",
+          "target": "influenza-chemoprophylaxis",
           "children": []
          }
         ]
@@ -12914,7 +12875,7 @@
        {
         "type": "link",
         "label": "Parainfluenza",
-        "target": "parainfluenza",
+        "target": "parainfluenza-2",
         "children": []
        },
        {
@@ -12933,7 +12894,7 @@
        {
         "type": "link",
         "label": "Respiratory Syncytial Virus (RSV)",
-        "target": "rsv",
+        "target": "respiratory-syncytial-virus",
         "children": []
        },
        {
@@ -12981,7 +12942,7 @@
   ]
  },
  "541-Cleveland": {
-  "nodeCount": 633,
+  "nodeCount": 631,
   "headerMenus": [
    {
     "label": "General and Misc",
@@ -14117,7 +14078,7 @@
        {
         "type": "link",
         "label": "Influenza Seasonal",
-        "target": "influenza-recommendations-outpatient",
+        "target": "influenza-recommendations",
         "children": [
          {
           "type": "link",
@@ -14134,7 +14095,7 @@
          {
           "type": "link",
           "label": "Chemoprophylaxis Recommendations",
-          "target": "orzid3-gmenu-influenza-chemoprophylaxis",
+          "target": "influenza-chemoprophylaxis",
           "children": []
          }
         ]
@@ -14160,7 +14121,7 @@
        {
         "type": "link",
         "label": "Tuberculosis",
-        "target": "tuberculosis",
+        "target": "tuberculosis-2",
         "children": []
        },
        {
@@ -14183,7 +14144,7 @@
          {
           "type": "link",
           "label": "Community-acquired pneumonia (CAP)",
-          "target": "cap-oral-treatment",
+          "target": "com-acq-pneumonia",
           "children": []
          },
          {
@@ -14217,7 +14178,7 @@
        {
         "type": "link",
         "label": "Diabetic Foot Infections",
-        "target": "foot-ulcer-in-pt-w-dm",
+        "target": "foot-ulcer-with-dm",
         "children": []
        },
        {
@@ -16682,27 +16643,8 @@
        {
         "type": "link",
         "label": "Diarrhea, viral",
-        "target": "infect-diarrhea-gastroent",
+        "target": "infect-diarrhea-gastro",
         "children": [
-         {
-          "type": "section",
-          "label": "Empirical antimicrobial treatment of diarrhea",
-          "level": 1,
-          "children": [
-           {
-            "type": "link",
-            "label": "Community acquired diarrhea (no recent travel)",
-            "target": "comm-acq-diarrhea",
-            "children": []
-           },
-           {
-            "type": "link",
-            "label": "Traveler's diarrhea",
-            "target": "travelers-diarrhea",
-            "children": []
-           }
-          ]
-         },
          {
           "type": "section",
           "label": "Treatment of diarrhea caused by specific bacteria, parasites, and viruses",
@@ -16717,7 +16659,7 @@
            {
             "type": "link",
             "label": "Mild to moderate disease",
-            "target": "orzid3-gmenu-cdifficile-colitis",
+            "target": "clostridiodes-difficile-infection",
             "children": []
            },
            {
@@ -16747,13 +16689,13 @@
            {
             "type": "link",
             "label": "Norovirus",
-            "target": "orzid3-gmenu-comm-viral-gastroenteritis",
+            "target": "viral-diarrhea-gastroenteritis",
             "children": []
            },
            {
             "type": "link",
             "label": "Rotavirus",
-            "target": "orzid3-gmenu-comm-viral-gastroenteritis",
+            "target": "viral-diarrhea-gastroenteritis",
             "children": []
            },
            {
@@ -16772,6 +16714,12 @@
             "type": "link",
             "label": "Vibrio cholerae",
             "target": "cholera",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Vibrio, non-cholerae",
+            "target": "vibrio-non-cholerae",
             "children": []
            },
            {
@@ -16954,7 +16902,7 @@
        {
         "type": "link",
         "label": "Influenza, Seasonal",
-        "target": "influenza-recommendations-outpatient",
+        "target": "influenza-recommendations",
         "children": [
          {
           "type": "link",
@@ -16971,7 +16919,7 @@
          {
           "type": "link",
           "label": "Chemoprophylaxis Recommendations",
-          "target": "orzid3-gmenu-influenza-chemoprophylaxis",
+          "target": "influenza-chemoprophylaxis",
           "children": []
          }
         ]
@@ -16979,7 +16927,7 @@
        {
         "type": "link",
         "label": "Parainfluenza",
-        "target": "parainfluenza",
+        "target": "parainfluenza-2",
         "children": []
        },
        {
@@ -16998,7 +16946,7 @@
        {
         "type": "link",
         "label": "Respiratory Syncytial Virus (RSV)",
-        "target": "rsv",
+        "target": "respiratory-syncytial-virus",
         "children": []
        },
        {
@@ -17046,7 +16994,7 @@
   ]
  },
  "618-Minneapolis": {
-  "nodeCount": 671,
+  "nodeCount": 669,
   "headerMenus": [
    {
     "label": "General and Misc",
@@ -18202,7 +18150,7 @@
        {
         "type": "link",
         "label": "Influenza Seasonal",
-        "target": "influenza-recommendations-outpatient",
+        "target": "influenza-recommendations",
         "children": [
          {
           "type": "link",
@@ -18219,7 +18167,7 @@
          {
           "type": "link",
           "label": "Chemoprophylaxis Recommendations",
-          "target": "orzid3-gmenu-influenza-chemoprophylaxis",
+          "target": "influenza-chemoprophylaxis",
           "children": []
          }
         ]
@@ -18245,7 +18193,7 @@
        {
         "type": "link",
         "label": "Tuberculosis",
-        "target": "tuberculosis",
+        "target": "tuberculosis-2",
         "children": []
        },
        {
@@ -18268,7 +18216,7 @@
          {
           "type": "link",
           "label": "Community-acquired pneumonia (CAP)",
-          "target": "cap-oral-treatment",
+          "target": "com-acq-pneumonia",
           "children": []
          },
          {
@@ -18302,7 +18250,7 @@
        {
         "type": "link",
         "label": "Diabetic Foot Infections",
-        "target": "foot-ulcer-in-pt-w-dm",
+        "target": "foot-ulcer-with-dm",
         "children": []
        },
        {
@@ -21009,27 +20957,8 @@
        {
         "type": "link",
         "label": "Diarrhea, viral",
-        "target": "infect-diarrhea-gastroent",
+        "target": "infect-diarrhea-gastro",
         "children": [
-         {
-          "type": "section",
-          "label": "Empirical antimicrobial treatment of diarrhea",
-          "level": 1,
-          "children": [
-           {
-            "type": "link",
-            "label": "Community acquired diarrhea (no recent travel)",
-            "target": "comm-acq-diarrhea",
-            "children": []
-           },
-           {
-            "type": "link",
-            "label": "Traveler's diarrhea",
-            "target": "travelers-diarrhea",
-            "children": []
-           }
-          ]
-         },
          {
           "type": "section",
           "label": "Treatment of diarrhea caused by specific bacteria, parasites, and viruses",
@@ -21044,7 +20973,7 @@
            {
             "type": "link",
             "label": "Mild to moderate disease",
-            "target": "orzid3-gmenu-cdifficile-colitis",
+            "target": "clostridiodes-difficile-infection",
             "children": []
            },
            {
@@ -21074,13 +21003,13 @@
            {
             "type": "link",
             "label": "Norovirus",
-            "target": "orzid3-gmenu-comm-viral-gastroenteritis",
+            "target": "viral-diarrhea-gastroenteritis",
             "children": []
            },
            {
             "type": "link",
             "label": "Rotavirus",
-            "target": "orzid3-gmenu-comm-viral-gastroenteritis",
+            "target": "viral-diarrhea-gastroenteritis",
             "children": []
            },
            {
@@ -21099,6 +21028,12 @@
             "type": "link",
             "label": "Vibrio cholerae",
             "target": "cholera",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Vibrio, non-cholerae",
+            "target": "vibrio-non-cholerae",
             "children": []
            },
            {
@@ -21281,7 +21216,7 @@
        {
         "type": "link",
         "label": "Influenza, Seasonal",
-        "target": "influenza-recommendations-outpatient",
+        "target": "influenza-recommendations",
         "children": [
          {
           "type": "link",
@@ -21298,7 +21233,7 @@
          {
           "type": "link",
           "label": "Chemoprophylaxis Recommendations",
-          "target": "orzid3-gmenu-influenza-chemoprophylaxis",
+          "target": "influenza-chemoprophylaxis",
           "children": []
          }
         ]
@@ -21306,7 +21241,7 @@
        {
         "type": "link",
         "label": "Parainfluenza",
-        "target": "parainfluenza",
+        "target": "parainfluenza-2",
         "children": []
        },
        {
@@ -21325,7 +21260,7 @@
        {
         "type": "link",
         "label": "Respiratory Syncytial Virus (RSV)",
-        "target": "rsv",
+        "target": "respiratory-syncytial-virus",
         "children": []
        },
        {
@@ -21373,7 +21308,7 @@
   ]
  },
  "636-Omaha": {
-  "nodeCount": 671,
+  "nodeCount": 669,
   "headerMenus": [
    {
     "label": "General and Misc",
@@ -22529,7 +22464,7 @@
        {
         "type": "link",
         "label": "Influenza Seasonal",
-        "target": "influenza-recommendations-outpatient",
+        "target": "influenza-recommendations",
         "children": [
          {
           "type": "link",
@@ -22546,7 +22481,7 @@
          {
           "type": "link",
           "label": "Chemoprophylaxis Recommendations",
-          "target": "orzid3-gmenu-influenza-chemoprophylaxis",
+          "target": "influenza-chemoprophylaxis",
           "children": []
          }
         ]
@@ -22572,7 +22507,7 @@
        {
         "type": "link",
         "label": "Tuberculosis",
-        "target": "tuberculosis",
+        "target": "tuberculosis-2",
         "children": []
        },
        {
@@ -22595,7 +22530,7 @@
          {
           "type": "link",
           "label": "Community-acquired pneumonia (CAP)",
-          "target": "cap-oral-treatment",
+          "target": "com-acq-pneumonia",
           "children": []
          },
          {
@@ -22629,7 +22564,7 @@
        {
         "type": "link",
         "label": "Diabetic Foot Infections",
-        "target": "foot-ulcer-in-pt-w-dm",
+        "target": "foot-ulcer-with-dm",
         "children": []
        },
        {
@@ -25336,27 +25271,8 @@
        {
         "type": "link",
         "label": "Diarrhea, viral",
-        "target": "infect-diarrhea-gastroent",
+        "target": "infect-diarrhea-gastro",
         "children": [
-         {
-          "type": "section",
-          "label": "Empirical antimicrobial treatment of diarrhea",
-          "level": 1,
-          "children": [
-           {
-            "type": "link",
-            "label": "Community acquired diarrhea (no recent travel)",
-            "target": "comm-acq-diarrhea",
-            "children": []
-           },
-           {
-            "type": "link",
-            "label": "Traveler's diarrhea",
-            "target": "travelers-diarrhea",
-            "children": []
-           }
-          ]
-         },
          {
           "type": "section",
           "label": "Treatment of diarrhea caused by specific bacteria, parasites, and viruses",
@@ -25371,7 +25287,7 @@
            {
             "type": "link",
             "label": "Mild to moderate disease",
-            "target": "orzid3-gmenu-cdifficile-colitis",
+            "target": "clostridiodes-difficile-infection",
             "children": []
            },
            {
@@ -25401,13 +25317,13 @@
            {
             "type": "link",
             "label": "Norovirus",
-            "target": "orzid3-gmenu-comm-viral-gastroenteritis",
+            "target": "viral-diarrhea-gastroenteritis",
             "children": []
            },
            {
             "type": "link",
             "label": "Rotavirus",
-            "target": "orzid3-gmenu-comm-viral-gastroenteritis",
+            "target": "viral-diarrhea-gastroenteritis",
             "children": []
            },
            {
@@ -25426,6 +25342,12 @@
             "type": "link",
             "label": "Vibrio cholerae",
             "target": "cholera",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Vibrio, non-cholerae",
+            "target": "vibrio-non-cholerae",
             "children": []
            },
            {
@@ -25608,7 +25530,7 @@
        {
         "type": "link",
         "label": "Influenza, Seasonal",
-        "target": "influenza-recommendations-outpatient",
+        "target": "influenza-recommendations",
         "children": [
          {
           "type": "link",
@@ -25625,7 +25547,7 @@
          {
           "type": "link",
           "label": "Chemoprophylaxis Recommendations",
-          "target": "orzid3-gmenu-influenza-chemoprophylaxis",
+          "target": "influenza-chemoprophylaxis",
           "children": []
          }
         ]
@@ -25633,7 +25555,7 @@
        {
         "type": "link",
         "label": "Parainfluenza",
-        "target": "parainfluenza",
+        "target": "parainfluenza-2",
         "children": []
        },
        {
@@ -25652,7 +25574,7 @@
        {
         "type": "link",
         "label": "Respiratory Syncytial Virus (RSV)",
-        "target": "rsv",
+        "target": "respiratory-syncytial-virus",
         "children": []
        },
        {
@@ -25700,7 +25622,7 @@
   ]
  },
  "636A6-DesMoines": {
-  "nodeCount": 671,
+  "nodeCount": 669,
   "headerMenus": [
    {
     "label": "General and Misc",
@@ -26856,7 +26778,7 @@
        {
         "type": "link",
         "label": "Influenza Seasonal",
-        "target": "influenza-recommendations-outpatient",
+        "target": "influenza-recommendations",
         "children": [
          {
           "type": "link",
@@ -26873,7 +26795,7 @@
          {
           "type": "link",
           "label": "Chemoprophylaxis Recommendations",
-          "target": "orzid3-gmenu-influenza-chemoprophylaxis",
+          "target": "influenza-chemoprophylaxis",
           "children": []
          }
         ]
@@ -26899,7 +26821,7 @@
        {
         "type": "link",
         "label": "Tuberculosis",
-        "target": "tuberculosis",
+        "target": "tuberculosis-2",
         "children": []
        },
        {
@@ -26922,7 +26844,7 @@
          {
           "type": "link",
           "label": "Community-acquired pneumonia (CAP)",
-          "target": "cap-oral-treatment",
+          "target": "com-acq-pneumonia",
           "children": []
          },
          {
@@ -26956,7 +26878,7 @@
        {
         "type": "link",
         "label": "Diabetic Foot Infections",
-        "target": "foot-ulcer-in-pt-w-dm",
+        "target": "foot-ulcer-with-dm",
         "children": []
        },
        {
@@ -29663,27 +29585,8 @@
        {
         "type": "link",
         "label": "Diarrhea, viral",
-        "target": "infect-diarrhea-gastroent",
+        "target": "infect-diarrhea-gastro",
         "children": [
-         {
-          "type": "section",
-          "label": "Empirical antimicrobial treatment of diarrhea",
-          "level": 1,
-          "children": [
-           {
-            "type": "link",
-            "label": "Community acquired diarrhea (no recent travel)",
-            "target": "comm-acq-diarrhea",
-            "children": []
-           },
-           {
-            "type": "link",
-            "label": "Traveler's diarrhea",
-            "target": "travelers-diarrhea",
-            "children": []
-           }
-          ]
-         },
          {
           "type": "section",
           "label": "Treatment of diarrhea caused by specific bacteria, parasites, and viruses",
@@ -29698,7 +29601,7 @@
            {
             "type": "link",
             "label": "Mild to moderate disease",
-            "target": "orzid3-gmenu-cdifficile-colitis",
+            "target": "clostridiodes-difficile-infection",
             "children": []
            },
            {
@@ -29728,13 +29631,13 @@
            {
             "type": "link",
             "label": "Norovirus",
-            "target": "orzid3-gmenu-comm-viral-gastroenteritis",
+            "target": "viral-diarrhea-gastroenteritis",
             "children": []
            },
            {
             "type": "link",
             "label": "Rotavirus",
-            "target": "orzid3-gmenu-comm-viral-gastroenteritis",
+            "target": "viral-diarrhea-gastroenteritis",
             "children": []
            },
            {
@@ -29753,6 +29656,12 @@
             "type": "link",
             "label": "Vibrio cholerae",
             "target": "cholera",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Vibrio, non-cholerae",
+            "target": "vibrio-non-cholerae",
             "children": []
            },
            {
@@ -29935,7 +29844,7 @@
        {
         "type": "link",
         "label": "Influenza, Seasonal",
-        "target": "influenza-recommendations-outpatient",
+        "target": "influenza-recommendations",
         "children": [
          {
           "type": "link",
@@ -29952,7 +29861,7 @@
          {
           "type": "link",
           "label": "Chemoprophylaxis Recommendations",
-          "target": "orzid3-gmenu-influenza-chemoprophylaxis",
+          "target": "influenza-chemoprophylaxis",
           "children": []
          }
         ]
@@ -29960,7 +29869,7 @@
        {
         "type": "link",
         "label": "Parainfluenza",
-        "target": "parainfluenza",
+        "target": "parainfluenza-2",
         "children": []
        },
        {
@@ -29979,7 +29888,7 @@
        {
         "type": "link",
         "label": "Respiratory Syncytial Virus (RSV)",
-        "target": "rsv",
+        "target": "respiratory-syncytial-virus",
         "children": []
        },
        {
@@ -30027,7 +29936,7 @@
   ]
  },
  "656-StCloud": {
-  "nodeCount": 671,
+  "nodeCount": 669,
   "headerMenus": [
    {
     "label": "General and Misc",
@@ -31183,7 +31092,7 @@
        {
         "type": "link",
         "label": "Influenza Seasonal",
-        "target": "influenza-recommendations-outpatient",
+        "target": "influenza-recommendations",
         "children": [
          {
           "type": "link",
@@ -31200,7 +31109,7 @@
          {
           "type": "link",
           "label": "Chemoprophylaxis Recommendations",
-          "target": "orzid3-gmenu-influenza-chemoprophylaxis",
+          "target": "influenza-chemoprophylaxis",
           "children": []
          }
         ]
@@ -31226,7 +31135,7 @@
        {
         "type": "link",
         "label": "Tuberculosis",
-        "target": "tuberculosis",
+        "target": "tuberculosis-2",
         "children": []
        },
        {
@@ -31249,7 +31158,7 @@
          {
           "type": "link",
           "label": "Community-acquired pneumonia (CAP)",
-          "target": "cap-oral-treatment",
+          "target": "com-acq-pneumonia",
           "children": []
          },
          {
@@ -31283,7 +31192,7 @@
        {
         "type": "link",
         "label": "Diabetic Foot Infections",
-        "target": "foot-ulcer-in-pt-w-dm",
+        "target": "foot-ulcer-with-dm",
         "children": []
        },
        {
@@ -33990,27 +33899,8 @@
        {
         "type": "link",
         "label": "Diarrhea, viral",
-        "target": "infect-diarrhea-gastroent",
+        "target": "infect-diarrhea-gastro",
         "children": [
-         {
-          "type": "section",
-          "label": "Empirical antimicrobial treatment of diarrhea",
-          "level": 1,
-          "children": [
-           {
-            "type": "link",
-            "label": "Community acquired diarrhea (no recent travel)",
-            "target": "comm-acq-diarrhea",
-            "children": []
-           },
-           {
-            "type": "link",
-            "label": "Traveler's diarrhea",
-            "target": "travelers-diarrhea",
-            "children": []
-           }
-          ]
-         },
          {
           "type": "section",
           "label": "Treatment of diarrhea caused by specific bacteria, parasites, and viruses",
@@ -34025,7 +33915,7 @@
            {
             "type": "link",
             "label": "Mild to moderate disease",
-            "target": "orzid3-gmenu-cdifficile-colitis",
+            "target": "clostridiodes-difficile-infection",
             "children": []
            },
            {
@@ -34055,13 +33945,13 @@
            {
             "type": "link",
             "label": "Norovirus",
-            "target": "orzid3-gmenu-comm-viral-gastroenteritis",
+            "target": "viral-diarrhea-gastroenteritis",
             "children": []
            },
            {
             "type": "link",
             "label": "Rotavirus",
-            "target": "orzid3-gmenu-comm-viral-gastroenteritis",
+            "target": "viral-diarrhea-gastroenteritis",
             "children": []
            },
            {
@@ -34080,6 +33970,12 @@
             "type": "link",
             "label": "Vibrio cholerae",
             "target": "cholera",
+            "children": []
+           },
+           {
+            "type": "link",
+            "label": "Vibrio, non-cholerae",
+            "target": "vibrio-non-cholerae",
             "children": []
            },
            {
@@ -34262,7 +34158,7 @@
        {
         "type": "link",
         "label": "Influenza, Seasonal",
-        "target": "influenza-recommendations-outpatient",
+        "target": "influenza-recommendations",
         "children": [
          {
           "type": "link",
@@ -34279,7 +34175,7 @@
          {
           "type": "link",
           "label": "Chemoprophylaxis Recommendations",
-          "target": "orzid3-gmenu-influenza-chemoprophylaxis",
+          "target": "influenza-chemoprophylaxis",
           "children": []
          }
         ]
@@ -34287,7 +34183,7 @@
        {
         "type": "link",
         "label": "Parainfluenza",
-        "target": "parainfluenza",
+        "target": "parainfluenza-2",
         "children": []
        },
        {
@@ -34306,7 +34202,7 @@
        {
         "type": "link",
         "label": "Respiratory Syncytial Virus (RSV)",
-        "target": "rsv",
+        "target": "respiratory-syncytial-virus",
         "children": []
        },
        {
