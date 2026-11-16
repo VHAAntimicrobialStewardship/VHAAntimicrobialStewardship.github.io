@@ -1,10 +1,10 @@
 Wave 2 crosswalk: 636A6-DesMoines (stations/636A6-DesMoines/legacy/DesMoinesOMJSON.json)
 
 records: 1482
-pages: {'inherit-missing': 50, 'inherit-identical': 306, 'local-clinical': 210, 'local-text': 53, 'no-legacy-source': 6}
-local_placement: {'auto': 148, 'partial': 82, 'fallback': 33}
-station_only: {'order-prompt': 42, 'navigation': 84, 'new-page-candidate': 276, 'title-matches-page': 20, 'obsolete-accepted': 25, 'similar-to-page': 73, 'changed-unused-original': 4, 'same-as-original': 92, 'dated': 3, 'placeholder': 5, 'duplicate-of-original': 3}
-match_by_title: 8
+pages: {'inherit-missing': 49, 'inherit-identical': 289, 'local-clinical': 209, 'local-text': 52, 'no-legacy-source': 6}
+local_placement: {'auto': 147, 'partial': 81, 'fallback': 33}
+station_only: {'order-prompt': 42, 'navigation': 84, 'new-page-candidate': 276, 'title-matches-page': 20, 'obsolete-accepted': 25, 'similar-to-page': 73, 'changed-unused-original': 5, 'same-as-original': 102, 'dated': 4, 'placeholder': 5, 'duplicate-of-original': 3}
+match_by_title: 7
 match_by_content: 8
 
 === cardiovascular-device-infections-excluding-valves [local-clinical, auto] Infections involving cardiovascular devices (excluding valves)
@@ -3338,13 +3338,6 @@ match_by_content: 8
      [one insert]
        + Alternative therapy: Please discuss with ID prior to initiating.
 
-=== splenectomy-daily-antibiotic [local-text, auto] splenectomy-daily-antibiotic
-  -- Inpatient: ORZID3 CI GMENU SPLENECTOMY DAILY ANTIBIOTIC (matched by name)
-     [both delete shared:636-Omaha,656-StCloud]
-       - < OR >
-     [both delete]
-       - [Click here] Beta-lactam reaction assessment
-
 === splenectomy-empiric [local-text, auto] Self-medicate Empiric Antibiotics for Fever or Other Signs of Systemic Infectio
   -- Inpatient: ORZID3 CI GMENU SPLENECTOMY EMPIRIC ABX (matched by name)
      [both delete shared:636-Omaha,656-StCloud]
@@ -4487,12 +4480,6 @@ match_by_content: 8
        + lot# and expiration date.
        + >For age 65 or older administer Fluzone HIGH DOSE Trivalent 0.5ml syringe.
        + >For age 64 or under administer Flurix Trivalent 0.5ml syringe.
-
-=== influenza-recommendations-outpatient [local-clinical, partial] influenza-recommendations-outpatient
-  -- Inpatient: ORZID3 CI GMENU INFLUENZA 2023-2024 OUTPATIENT (matched by title)
-     [one replace clinical dated]
-       - Lab Influenza Testing Menu
-       + Last reviewed September 2023
 
 === mediastinitis [local-clinical, auto] Mediastinitis
   -- Inpatient: ORZID2 CI GMENU ABX MEDIASTINITIS (matched by name)
@@ -7287,9 +7274,11 @@ match_by_content: 8
   changed-unused-original  ORZID CI GMENU ER/UC CHOLECYSTITIS | ED Cholecystitis (47 lines) -> ORZID GMENU ER/UC CHOLECYSTITIS
   changed-unused-original  ORZID2 CI GMENU ABX NOT BENEFITED PHARYNGITIS | Pharyngitis, Antimicrobials of no Benefit  (33 lines) -> ORZID2 GMENU ABX NOT BENEFITED PHARYNGITIS
   changed-unused-original  ORZID2 CI GMENU OSTEOM EMPIRICAL THERAPY | Empirical therapy for Osteomyelitis  (29 lines) -> ORZID2 GMENU OSTEOM EMPIRICAL THERAPY
+  changed-unused-original  ORZID3 CI GMENU SPLENECTOMY DAILY ANTIBIOTIC | Asplenic Empiric Antibiotics (20 lines) -> ORZID3 GMENU SPLENECTOMY DAILY ANTIBIOTIC
   dated                    ORZID2 CI GMENU ABX ANTIVIRAL TREATMENT 2018-2019 | ANTIVIRAL TREATMENT (63 lines)
   dated                    ORZID2 CI GMENU SURGICAL PROPHYLAXIS (OCT, 2014) | SURGERY ANTIBIOTIC PROPHYLAXIS (INPT) (33 lines)
   dated                    ORZID2 CI GMENU SURGICAL PROPHYLAXIS (OCT, 2014) - 2 | SURGERY ANTIBIOTIC PROPHYLAXIS (INPT) (33 lines)
+  dated                    ORZID3 CI GMENU INFLUENZA 2023-2024 OUTPATIENT | Influenza Seasonal (5 lines)
   duplicate-of-original    ORZID2 CI GMENU PD VANCO 15-30MG/KG Q5-7D AND GENT 0.6MG/KG Q24 | Vancomycin and gentamicin PD order menu (3 lines) -> ORZID3 GMENU DIARRHEA MICROSPORIDIA
   duplicate-of-original    ORZID3 CI GMENU PD CEFAZOLIN 15MG/KG ONCE DAILY | Cefazolin 15 mg/kg PD once daily for outpatient  (3 lines) -> ORZID3 GMENU DIARRHEA MICROSPORIDIA
   duplicate-of-original    ORZID3 CI GMENU PD VANCO 30MG/KG LOADING DOSE | Vancomycin 30 mg/kg PD loading dose for outpatient  (3 lines) -> ORZID3 GMENU DIARRHEA MICROSPORIDIA
@@ -7800,14 +7789,24 @@ match_by_content: 8
   same-as-original         ORZID3 CI GMENU ABX RECOMMENDED IMMUNIZATIONS BY AGE | CDC Recommended Adult Immunizations by Age (5 lines) -> ORZID3 GMENU ABX RECOMMENDED IMMUNIZATIONS BY AGE
   same-as-original         ORZID3 CI GMENU ABX RECOMMENDED IMMUNIZATIONS BY INDICATION | CDC Recommended Adult Immunizations by Indication (13 lines) -> ORZID3 GMENU ABX RECOMMENDED IMMUNIZATIONS BY INDICATION
   same-as-original         ORZID3 CI GMENU ABX REFER TO INPATIENT CDSS | Refer to Inpatient CDSS for recommendations (3 lines) -> ORZID3 GMENU ABX REFER TO INPATIENT CDSS
+  same-as-original         ORZID3 CI GMENU ABX SA DECOLONIZATION |  (31 lines) -> ORZID3 GMENU ABX SA DECOLONIZATION
   same-as-original         ORZID3 CI GMENU ABX STASIS DERMATITIS OP | Stasis Dermatitis (outpatient) (61 lines) -> ORZID3 GMENU ABX STASIS DERMATITIS OP
   same-as-original         ORZID3 CI GMENU ABX UPPER RESPIRATORY INFECTIONS OP (URI) | Upper Respiratory Infections (outpatient)  (15 lines) -> ORZID3 GMENU ABX UPPER RESPIRATORY INFECTIONS OP (URI)
   same-as-original         ORZID3 CI GMENU BITE WNDS METH RES S. AUREUS | Bite wounds with Methicillin-resistant S. aureus (Outpatient) (20 lines) -> ORZID3 GMENU BITE WNDS METH RES S. AUREUS
+  same-as-original         ORZID3 CI GMENU BONE JOINT MUSCLE INFECTIONS | Bone, Joint, and Muscle Infections (8 lines) -> ORZID3 GMENU BONE JOINT MUSCLE INFECTIONS
+  same-as-original         ORZID3 CI GMENU CAP TREATED IN OUTPT SETTING | CAP treated in an outpatient setting (Outpatient) (46 lines) -> ORZID3 GMENU CAP TREATED IN OUTPT SETTING
   same-as-original         ORZID3 CI GMENU DIARRHEA E. HISTOLYTICA | Diarrhea with Entamoeba histolytica (Outpatient) (12 lines) -> ORZID3 GMENU DIARRHEA E. HISTOLYTICA
   same-as-original         ORZID3 CI GMENU DIARRHEA VIBRIO NON CHOLERA | Diarrhea with non-cholera vibrio (Outpatient) (27 lines) -> ORZID3 GMENU DIARRHEA VIBRIO NON CHOLERA
   same-as-original         ORZID3 CI GMENU FEVER OF UNKNOWN ORIGIN | Fever of Unknown Origin (Outpatient) (19 lines) -> ORZID3 GMENU FEVER OF UNKNOWN ORIGIN
+  same-as-original         ORZID3 CI GMENU FOOT ULCER IN PT W/ DM | Foot ulcer in patient with diabetes mellitus (Outpatient) (8 lines) -> ORZID3 GMENU FOOT ULCER IN PT W/ DM
   same-as-original         ORZID3 CI GMENU FOOT ULCERS W/O INFECT SURR TISS | Foot ulcers WITHOUT infection of surrounding tissues (Outpatient)  (11 lines) -> ORZID3 GMENU FOOT ULCERS W/O INFECT SURR TISS
+  same-as-original         ORZID3 CI GMENU GRAM-NEG BRUCELLA SPP. | Brucella spp. (10 lines) -> ORZID3 GMENU GRAM-NEG BRUCELLA SPP.
+  same-as-original         ORZID3 CI GMENU GRAM-POS ACTINOMYCES SPP. | Actinomyces spp. (Outpatient)  (17 lines) -> ORZID3 GMENU GRAM-POS ACTINOMYCES SPP.
+  same-as-original         ORZID3 CI GMENU GRAM-POS BACILLI SPP. | Bacilli species (Outpatient) (15 lines) -> ORZID3 GMENU GRAM-POS BACILLI SPP.
+  same-as-original         ORZID3 CI GMENU GRAM-POS CORYNEBACTERIUM SPP. | Corynebacterium spp. (Outpatient) (12 lines) -> ORZID3 GMENU GRAM-POS CORYNEBACTERIUM SPP.
+  same-as-original         ORZID3 CI GMENU GRAM-POS PROPIONIBACT SPP. | Propionibacterium species (Outpatient)  (14 lines) -> ORZID3 GMENU GRAM-POS PROPIONIBACT SPP.
   same-as-original         ORZID3 CI GMENU GRAM-POS TREAT ENTEROCOCCI | BLANK PAGE (4 lines) -> ORZID3 GMENU GRAM-POS TREAT ENTEROCOCCI
+  same-as-original         ORZID3 CI GMENU INFECT DIARRHEA/GASTROENT | Infectious diarrhea/Gastroenteritis (Outpatient) (38 lines) -> ORZID3 GMENU INFECT DIARRHEA/GASTROENT
   same-as-original         ORZID3 CI GMENU INT RS GRAM-POS BACILLI | BLANK PAGE (4 lines) -> ORZID3 GMENU INT RS GRAM-POS BACILLI
   same-as-original         ORZID3 CI GMENU INT RS GRAM-POS COCCI PAIRS | BLANK PAGE (4 lines) -> ORZID3 GMENU INT RS GRAM-POS COCCI PAIRS
   same-as-original         ORZID3 CI GMENU LRG UNIF BAC AEROBIC BOT | BLANK PAGE (4 lines) -> ORZID3 GMENU LRG UNIF BAC AEROBIC BOT
@@ -7843,7 +7842,7 @@ match_by_content: 8
   similar-to-page          ORZID2 CI GMENU ABX PNEUMONIA HAP | PNEUMONIA HAP (29 lines) -> more-about-nosocomial-pneumonia (0.44)
   similar-to-page          ORZID2 CI GMENU ABX PREGNANCY RISK | Pregnancy Risk Factors for Antimicrobials  (46 lines) -> pregnancy-risk-factors-for-antimicrobials (0.42)
   similar-to-page          ORZID2 CI GMENU ABX PYELONEPHRITIS | Pyelonephritis  (87 lines) -> complicated-uti-no-catheter (0.46)
-  similar-to-page          ORZID2 CI GMENU ABX STAPH AUREUS DECOLONIZATION | Staphylococcus Aureus Decolonization (28 lines) -> sa-decolonization (0.78)
+  similar-to-page          ORZID2 CI GMENU ABX STAPH AUREUS DECOLONIZATION | Staphylococcus Aureus Decolonization (28 lines) -> decolonization-of-staphylococcus-aureus (0.74)
   similar-to-page          ORZID2 CI GMENU ABX THRUSH | Thrush (Oropharyngeal and Esophageal Candidiasis) (29 lines) -> fungi-candida-albicans (0.46)
   similar-to-page          ORZID2 CI GMENU ABX UNCOMP CYSTITIS | Uncomplicated Cystitis (76 lines) -> uncomp-uti (0.47)
   similar-to-page          ORZID2 CI GMENU ABX URINE CULTURE REFLEX MENU | Urinalysis with Reflex to Culture (25 lines) -> urine-culture (0.82)
@@ -7881,7 +7880,7 @@ match_by_content: 8
   similar-to-page          ORZID3 CI GMENU ABX DERM PROPHYLAXIS  |  (41 lines) -> derm-prophylaxis (0.99)
   similar-to-page          ORZID3 CI GMENU ABX DERM SURGICAL INFECTION |  (43 lines) -> dermatologic-surgical-site-infection (0.92)
   similar-to-page          ORZID3 CI GMENU ABX PREGNANCY RISK | Pregnancy Risk Factors for Antimicrobials  (46 lines) -> pregnancy-risk-factors-for-antimicrobials (0.41)
-  similar-to-page          ORZID3 CI GMENU COMM ACQ PNEUMONIA | Community acquired pneumonia (Outpatient)  (26 lines) -> com-acq-pneumonia (0.53)
+  similar-to-page          ORZID3 CI GMENU COMM ACQ PNEUMONIA | Community acquired pneumonia (Outpatient)  (26 lines) -> com-acq-pneumonia (0.55)
   similar-to-page          ORZID3 CI GMENU COMPLICATED CYSTITIS | Complicated Cystitis (Outpatient) (104 lines) -> complicated-uti-catheter-associated (0.60)
   similar-to-page          ORZID3 CI GMENU CONTACT CDSS PROJECT STAFF | Contact the CDSS Project Staff (2 lines) -> contact-cdss-project-team (0.50)
   similar-to-page          ORZID3 CI GMENU PELVIC INFLAM DISORDER | Pelvic inflammatory disorder (PID) - Outpatient  (45 lines) -> pid (0.62)

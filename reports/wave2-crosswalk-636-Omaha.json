@@ -4,19 +4,19 @@
   "summary": {
     "records": 1456,
     "pages": {
-      "inherit-missing": 80,
-      "inherit-identical": 299,
+      "inherit-missing": 78,
+      "inherit-identical": 284,
       "local-clinical": 189,
-      "local-text": 51,
+      "local-text": 48,
       "no-legacy-source": 6
     },
     "local_placement": {
-      "auto": 122,
-      "partial": 84,
-      "fallback": 34
+      "auto": 121,
+      "partial": 83,
+      "fallback": 33
     },
     "station_only": {
-      "navigation": 95,
+      "navigation": 96,
       "order-prompt": 51,
       "new-page-candidate": 271,
       "title-matches-page": 14,
@@ -24,7 +24,7 @@
       "similar-to-page": 49,
       "placeholder": 5,
       "changed-unused-original": 2,
-      "same-as-original": 87,
+      "same-as-original": 97,
       "dated": 6,
       "duplicate-of-original": 4
     },
@@ -3021,22 +3021,6 @@
       ]
     },
     {
-      "page": "bone-joint-muscle-infections-2",
-      "group": "general",
-      "title": "bone-joint-muscle-infections-2",
-      "class": "inherit-identical",
-      "placement": "",
-      "sources": [
-        {
-          "setting": "Inpatient",
-          "legacy": "ORZID3 GMENU BONE JOINT MUSCLE INFECTIONS",
-          "station_record": "ORZID3 NE GMENU BONE JOINT MUSCLE INFECTIONS",
-          "match": "name",
-          "status": "identical"
-        }
-      ]
-    },
-    {
       "page": "cap-inpatient-treated-setting-non-severe-cap",
       "group": "general",
       "title": "Non-severe community-acquired pneumonia treated in an inpatient setting (Navigation)",
@@ -3148,45 +3132,6 @@
           "legacy": "ORZID GMENU ER/UC CAP INPATIENT TREATED SETTING NON-SEVERE CAP",
           "station_record": "ORZID NE GMENU ER/UC CAP INPATIENT TREATED SETTING NON-SEVERE C",
           "match": "title",
-          "status": "identical"
-        }
-      ]
-    },
-    {
-      "page": "cap-outpatient-treated-setting",
-      "group": "general",
-      "title": "cap-outpatient-treated-setting",
-      "class": "inherit-identical",
-      "placement": "",
-      "sources": [
-        {
-          "setting": "Inpatient",
-          "legacy": "ORZID2 GMENU CAP OUTPATIENT TREATED SETTING",
-          "station_record": "ORZID2 NE GMENU CAP OUTPATIENT TREATED SETTING",
-          "match": "name",
-          "status": "identical"
-        },
-        {
-          "setting": "Outpatient",
-          "legacy": "ORZID3 GMENU CAP TREATED IN OUTPT SETTING",
-          "station_record": "ORZID3 NE GMENU CAP TREATED IN OUTPT SETTING",
-          "match": "name",
-          "status": "identical"
-        }
-      ]
-    },
-    {
-      "page": "cap-treated-in-outpt-setting",
-      "group": "general",
-      "title": "cap-treated-in-outpt-setting",
-      "class": "inherit-identical",
-      "placement": "",
-      "sources": [
-        {
-          "setting": "Inpatient",
-          "legacy": "ORZID3 GMENU CAP TREATED IN OUTPT SETTING",
-          "station_record": "ORZID3 NE GMENU CAP TREATED IN OUTPT SETTING",
-          "match": "name",
           "status": "identical"
         }
       ]
@@ -5423,22 +5368,6 @@
       ]
     },
     {
-      "page": "gram-neg-brucella-spp",
-      "group": "general",
-      "title": "gram-neg-brucella-spp",
-      "class": "inherit-identical",
-      "placement": "",
-      "sources": [
-        {
-          "setting": "Inpatient",
-          "legacy": "ORZID3 GMENU GRAM-NEG BRUCELLA SPP.",
-          "station_record": "ORZID3 NE GMENU GRAM-NEG BRUCELLA SPP.",
-          "match": "name",
-          "status": "identical"
-        }
-      ]
-    },
-    {
       "page": "gram-neg-campylobacter-spp",
       "group": "general",
       "title": "Campylobacter species",
@@ -5711,22 +5640,6 @@
       ]
     },
     {
-      "page": "gram-pos-actinomyces-spp",
-      "group": "general",
-      "title": "gram-pos-actinomyces-spp",
-      "class": "inherit-identical",
-      "placement": "",
-      "sources": [
-        {
-          "setting": "Inpatient",
-          "legacy": "ORZID3 GMENU GRAM-POS ACTINOMYCES SPP.",
-          "station_record": "ORZID3 NE GMENU GRAM-POS ACTINOMYCES SPP.",
-          "match": "name",
-          "status": "identical"
-        }
-      ]
-    },
-    {
       "page": "gram-pos-anaerobic-gpc",
       "group": "general",
       "title": "Anaerobic gram-positive cocci",
@@ -5737,22 +5650,6 @@
           "setting": "Inpatient",
           "legacy": "ORZID3 GMENU GRAM-POS ANAEROBIC GPC",
           "station_record": "ORZID3 NE GMENU GRAM-POS ANAEROBIC GPC",
-          "match": "name",
-          "status": "identical"
-        }
-      ]
-    },
-    {
-      "page": "gram-pos-bacilli-spp",
-      "group": "general",
-      "title": "gram-pos-bacilli-spp",
-      "class": "inherit-identical",
-      "placement": "",
-      "sources": [
-        {
-          "setting": "Inpatient",
-          "legacy": "ORZID3 GMENU GRAM-POS BACILLI SPP.",
-          "station_record": "ORZID3 NE GMENU GRAM-POS BACILLI SPP.",
           "match": "name",
           "status": "identical"
         }
@@ -5785,22 +5682,6 @@
           "setting": "Inpatient",
           "legacy": "ORZID3 GMENU GRAM-POS COAG NEG STAPH",
           "station_record": "ORZID3 NE GMENU GRAM-POS COAG NEG STAPH",
-          "match": "name",
-          "status": "identical"
-        }
-      ]
-    },
-    {
-      "page": "gram-pos-corynebacterium-spp",
-      "group": "general",
-      "title": "gram-pos-corynebacterium-spp",
-      "class": "inherit-identical",
-      "placement": "",
-      "sources": [
-        {
-          "setting": "Inpatient",
-          "legacy": "ORZID3 GMENU GRAM-POS CORYNEBACTERIUM SPP.",
-          "station_record": "ORZID3 NE GMENU GRAM-POS CORYNEBACTERIUM SPP.",
           "match": "name",
           "status": "identical"
         }
@@ -5849,22 +5730,6 @@
           "setting": "Inpatient",
           "legacy": "ORZID3 GMENU GRAM-POS LISTERIA SPP.",
           "station_record": "ORZID3 NE GMENU GRAM-POS LISTERIA SPP.",
-          "match": "name",
-          "status": "identical"
-        }
-      ]
-    },
-    {
-      "page": "gram-pos-propionibact-spp",
-      "group": "general",
-      "title": "gram-pos-propionibact-spp",
-      "class": "inherit-identical",
-      "placement": "",
-      "sources": [
-        {
-          "setting": "Inpatient",
-          "legacy": "ORZID3 GMENU GRAM-POS PROPIONIBACT SPP.",
-          "station_record": "ORZID3 NE GMENU GRAM-POS PROPIONIBACT SPP.",
           "match": "name",
           "status": "identical"
         }
@@ -6027,22 +5892,6 @@
           "station_record": "ORZID3 NE GMENU GRAM POSITIVE BACTERIA",
           "match": "name",
           "status": "identical"
-        }
-      ]
-    },
-    {
-      "page": "hepb-vaccine-information-old-page",
-      "group": "general",
-      "title": "hepb-vaccine-information-old-page",
-      "class": "inherit-missing",
-      "placement": "",
-      "sources": [
-        {
-          "setting": "Inpatient",
-          "legacy": "ORZID3 GMENU ABX HEPB VACCINE INFORMATION OLD PAGE",
-          "station_record": null,
-          "match": "none",
-          "status": "missing"
         }
       ]
     },
@@ -6321,7 +6170,7 @@
     {
       "page": "index",
       "group": "general",
-      "title": "Outpatient index",
+      "title": "Index",
       "class": "local-clinical",
       "placement": "fallback",
       "sources": [
@@ -12530,22 +12379,6 @@
       ]
     },
     {
-      "page": "sa-decolonization",
-      "group": "general",
-      "title": "sa-decolonization",
-      "class": "inherit-identical",
-      "placement": "",
-      "sources": [
-        {
-          "setting": "Inpatient",
-          "legacy": "ORZID3 GMENU ABX SA DECOLONIZATION",
-          "station_record": "ORZID3 NE GMENU ABX SA DECOLONIZATION",
-          "match": "name",
-          "status": "identical"
-        }
-      ]
-    },
-    {
       "page": "sepsis-severe-beta-lactam-reaction",
       "group": "general",
       "title": "Treatment of sepsis with severe beta-lactam reaction",
@@ -18736,22 +18569,6 @@
       ]
     },
     {
-      "page": "splenectomy-daily-antibiotic",
-      "group": "gi-intraabdominal",
-      "title": "splenectomy-daily-antibiotic",
-      "class": "inherit-missing",
-      "placement": "",
-      "sources": [
-        {
-          "setting": "Inpatient",
-          "legacy": "ORZID3 GMENU SPLENECTOMY DAILY ANTIBIOTIC",
-          "station_record": null,
-          "match": "none",
-          "status": "missing"
-        }
-      ]
-    },
-    {
       "page": "splenectomy-empiric",
       "group": "gi-intraabdominal",
       "title": "Self-medicate Empiric Antibiotics for Fever or Other Signs of Systemic Infectio",
@@ -24014,40 +23831,6 @@
       ]
     },
     {
-      "page": "influenza-recommendations-outpatient",
-      "group": "lung-and-mediastinum",
-      "title": "influenza-recommendations-outpatient",
-      "class": "local-text",
-      "placement": "partial",
-      "sources": [
-        {
-          "setting": "Inpatient",
-          "legacy": "ORZID3 GMENU INFLUENZA RECOMMENDATIONS OUTPATIENT",
-          "station_record": "ORZID3 NE GMENU INFLUENZA RECOMMENDATIONS OUTPATIENT",
-          "match": "name",
-          "status": "changed",
-          "hunks": [
-            {
-              "kind": "delete",
-              "removed": [
-                "Lab Influenza Testing Menu"
-              ],
-              "added": [],
-              "clinical": false,
-              "dated": false,
-              "anchor_before": "Antiviral Treatment Recommendations",
-              "anchor_after": "",
-              "placement": "one",
-              "removed_on_page": true,
-              "shared_with": [
-                "656-StCloud"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "page": "lung-and-mediastinum",
       "group": "lung-and-mediastinum",
       "title": "Lungs and mediastinum (Navigation)",
@@ -24357,40 +24140,6 @@
       ]
     },
     {
-      "page": "orzid3-gmenu-influenza-chemoprophylaxis",
-      "group": "lung-and-mediastinum",
-      "title": "Early treatment of influenza as an alternative to chemoprophylaxis",
-      "class": "local-text",
-      "placement": "auto",
-      "sources": [
-        {
-          "setting": "Inpatient",
-          "legacy": "ORZID3 GMENU INFLUENZA CHEMOPROPHYLAXIS",
-          "station_record": "ORZID3 NE GMENU INFLUENZA CHEMOPROPHYLAXIS",
-          "match": "name",
-          "status": "changed",
-          "hunks": [
-            {
-              "kind": "delete",
-              "removed": [
-                "Chemoprophylaxis considered:",
-                "*Atypical situations (such as case clusters). Contact the state health",
-                "department for consultation."
-              ],
-              "added": [],
-              "clinical": false,
-              "dated": false,
-              "anchor_before": "those who have received influenza vaccination.",
-              "anchor_after": "Antiviral Prophylaxis Recommendations",
-              "placement": "both",
-              "removed_on_page": true,
-              "shared_with": []
-            }
-          ]
-        }
-      ]
-    },
-    {
       "page": "pneumonia-hap-new",
       "group": "lung-and-mediastinum",
       "title": "Hospital-acquired pneumonia",
@@ -24637,22 +24386,6 @@
               "shared_with": []
             }
           ]
-        }
-      ]
-    },
-    {
-      "page": "tuberculosis",
-      "group": "lung-and-mediastinum",
-      "title": "Tuberculosis",
-      "class": "inherit-identical",
-      "placement": "",
-      "sources": [
-        {
-          "setting": "Inpatient",
-          "legacy": "ORZID3 GMENU TUBERCULOSIS",
-          "station_record": "ORZID3 NE GMENU TUBERCULOSIS",
-          "match": "name",
-          "status": "identical"
         }
       ]
     },
@@ -25080,22 +24813,6 @@
       ]
     },
     {
-      "page": "infect-diarrhea-gastroent",
-      "group": "organisms",
-      "title": "Infectious diarrhea / gastroenteritis",
-      "class": "inherit-identical",
-      "placement": "",
-      "sources": [
-        {
-          "setting": "Inpatient",
-          "legacy": "ORZID3 GMENU INFECT DIARRHEA/GASTROENT",
-          "station_record": "ORZID3 NE GMENU INFECT DIARRHEA/GASTROENT",
-          "match": "name",
-          "status": "identical"
-        }
-      ]
-    },
-    {
       "page": "m-avium-pneumonia",
       "group": "organisms",
       "title": "Mycobacterium avium pneumonia",
@@ -25218,57 +24935,6 @@
       ]
     },
     {
-      "page": "orzid3-gmenu-cdifficile-colitis",
-      "group": "organisms",
-      "title": "orzid3-gmenu-cdifficile-colitis",
-      "class": "local-text",
-      "placement": "fallback",
-      "sources": [
-        {
-          "setting": "Inpatient",
-          "legacy": "ORZID3 GMENU CDIFFICILE COLITIS",
-          "station_record": "ORZID3 NE GMENU CDIFFICILE COLITIS",
-          "match": "name",
-          "status": "changed",
-          "hunks": [
-            {
-              "kind": "insert",
-              "removed": [],
-              "added": [
-                "Fecal Microbiota (Vowst) - Restricted to ID",
-                "Link: Criteria for Use",
-                "Link: Patient Information Sheet",
-                "Fecal microbiota (Vowst) order set"
-              ],
-              "clinical": false,
-              "dated": false,
-              "anchor_before": "",
-              "anchor_after": "Fulminant CDI: Refer to Inpatient Antimicrobial CDSS",
-              "placement": "none",
-              "removed_on_page": false,
-              "shared_with": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "page": "orzid3-gmenu-comm-viral-gastroenteritis",
-      "group": "organisms",
-      "title": "Viral gastroenteritis",
-      "class": "inherit-identical",
-      "placement": "",
-      "sources": [
-        {
-          "setting": "Inpatient",
-          "legacy": "ORZID3 GMENU COMM VIRAL GASTROENTERITIS",
-          "station_record": "ORZID3 NE GMENU COMM VIRAL GASTROENTERITIS",
-          "match": "name",
-          "status": "identical"
-        }
-      ]
-    },
-    {
       "page": "other-pathogens",
       "group": "organisms",
       "title": "Other Pathogens section (Navigation)",
@@ -25286,22 +24952,6 @@
           "setting": "Outpatient",
           "legacy": "ORZID3 GMENU OTHER PATHOGENS",
           "station_record": "ORZID3 NE GMENU OTHER PATHOGENS",
-          "match": "name",
-          "status": "identical"
-        }
-      ]
-    },
-    {
-      "page": "parainfluenza",
-      "group": "organisms",
-      "title": "Parainfluenza",
-      "class": "inherit-identical",
-      "placement": "",
-      "sources": [
-        {
-          "setting": "Inpatient",
-          "legacy": "ORZID3 GMENU ABX PARAINFLUENZA",
-          "station_record": "ORZID3 NE GMENU ABX PARAINFLUENZA",
           "match": "name",
           "status": "identical"
         }
@@ -25545,22 +25195,6 @@
           "station_record": "ORZID3 NE GMENU ABX RABIES PRE-EXPOSURE PROPHYLAXIS",
           "match": "name",
           "status": "station-placeholder"
-        }
-      ]
-    },
-    {
-      "page": "rsv",
-      "group": "organisms",
-      "title": "rsv",
-      "class": "inherit-identical",
-      "placement": "",
-      "sources": [
-        {
-          "setting": "Inpatient",
-          "legacy": "ORZID3 GMENU ABX RSV",
-          "station_record": "ORZID3 NE GMENU ABX RSV",
-          "match": "name",
-          "status": "identical"
         }
       ]
     },
@@ -28059,22 +27693,6 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "page": "foot-ulcer-in-pt-w-dm",
-      "group": "ssti-main-menu",
-      "title": "Foot ulcer in patient with diabetes mellitus",
-      "class": "inherit-identical",
-      "placement": "",
-      "sources": [
-        {
-          "setting": "Inpatient",
-          "legacy": "ORZID3 GMENU FOOT ULCER IN PT W/ DM",
-          "station_record": "ORZID3 NE GMENU FOOT ULCER IN PT W/ DM",
-          "match": "name",
-          "status": "identical"
         }
       ]
     },
@@ -37860,7 +37478,7 @@
       "title": "CAP treated in an outpatient setting (Outpatient)",
       "lines": 46,
       "category": "similar-to-page",
-      "detail": "cap-oral-treatment (0.51)"
+      "detail": "cap-oral-treatment (0.50)"
     },
     {
       "name": "ORZID NE GMENU ER/UC CHOLECYSTITIS",
@@ -40457,6 +40075,13 @@
       "detail": "ORZID3 GMENU ABX REFER TO INPATIENT CDSS"
     },
     {
+      "name": "ORZID3 NE GMENU ABX SA DECOLONIZATION",
+      "title": "",
+      "lines": 31,
+      "category": "same-as-original",
+      "detail": "ORZID3 GMENU ABX SA DECOLONIZATION"
+    },
+    {
       "name": "ORZID3 NE GMENU ABX SOTROVIMAB EUA",
       "title": "Sotrovimab (EUA) Information",
       "lines": 41,
@@ -40509,6 +40134,13 @@
       "lines": 24,
       "category": "obsolete-accepted",
       "detail": "ORZID3 GMENU BITE WNDS METH SUSC S. AUREUS"
+    },
+    {
+      "name": "ORZID3 NE GMENU BONE JOINT MUSCLE INFECTIONS",
+      "title": "Bone, Joint, and Muscle Infections",
+      "lines": 8,
+      "category": "same-as-original",
+      "detail": "ORZID3 GMENU BONE JOINT MUSCLE INFECTIONS"
     },
     {
       "name": "ORZID3 NE GMENU BRONCHITIS",
@@ -40566,6 +40198,13 @@
       "category": "new-page-candidate"
     },
     {
+      "name": "ORZID3 NE GMENU CAP TREATED IN OUTPT SETTING",
+      "title": "CAP treated in an outpatient setting (Outpatient)",
+      "lines": 46,
+      "category": "same-as-original",
+      "detail": "ORZID3 GMENU CAP TREATED IN OUTPT SETTING"
+    },
+    {
       "name": "ORZID3 NE GMENU CARDIOVASCULAR",
       "title": "Cardiovascular (Outpatient)",
       "lines": 5,
@@ -40588,7 +40227,7 @@
       "title": "Community acquired pneumonia (Outpatient) ",
       "lines": 26,
       "category": "similar-to-page",
-      "detail": "com-acq-pneumonia (0.53)"
+      "detail": "com-acq-pneumonia (0.55)"
     },
     {
       "name": "ORZID3 NE GMENU COMPLICATED CYSTITIS",
@@ -40673,6 +40312,13 @@
       "detail": "ORZID3 GMENU FEVER OF UNKNOWN ORIGIN"
     },
     {
+      "name": "ORZID3 NE GMENU FOOT ULCER IN PT W/ DM",
+      "title": "Foot ulcer in patient with diabetes mellitus (Outpatient)",
+      "lines": 8,
+      "category": "same-as-original",
+      "detail": "ORZID3 GMENU FOOT ULCER IN PT W/ DM"
+    },
+    {
       "name": "ORZID3 NE GMENU FOOT ULCERS DRUG SELECTION",
       "title": "Drug selection (Outpatient)",
       "lines": 21,
@@ -40710,6 +40356,41 @@
       "category": "new-page-candidate"
     },
     {
+      "name": "ORZID3 NE GMENU GRAM-NEG BRUCELLA SPP.",
+      "title": "Brucella spp.",
+      "lines": 10,
+      "category": "same-as-original",
+      "detail": "ORZID3 GMENU GRAM-NEG BRUCELLA SPP."
+    },
+    {
+      "name": "ORZID3 NE GMENU GRAM-POS ACTINOMYCES SPP.",
+      "title": "Actinomyces spp. (Outpatient) ",
+      "lines": 17,
+      "category": "same-as-original",
+      "detail": "ORZID3 GMENU GRAM-POS ACTINOMYCES SPP."
+    },
+    {
+      "name": "ORZID3 NE GMENU GRAM-POS BACILLI SPP.",
+      "title": "Bacilli species (Outpatient)",
+      "lines": 15,
+      "category": "same-as-original",
+      "detail": "ORZID3 GMENU GRAM-POS BACILLI SPP."
+    },
+    {
+      "name": "ORZID3 NE GMENU GRAM-POS CORYNEBACTERIUM SPP.",
+      "title": "Corynebacterium spp. (Outpatient)",
+      "lines": 12,
+      "category": "same-as-original",
+      "detail": "ORZID3 GMENU GRAM-POS CORYNEBACTERIUM SPP."
+    },
+    {
+      "name": "ORZID3 NE GMENU GRAM-POS PROPIONIBACT SPP.",
+      "title": "Propionibacterium species (Outpatient) ",
+      "lines": 14,
+      "category": "same-as-original",
+      "detail": "ORZID3 GMENU GRAM-POS PROPIONIBACT SPP."
+    },
+    {
       "name": "ORZID3 NE GMENU GRAM-POS TREAT ENTEROCOCCI",
       "title": "BLANK PAGE",
       "lines": 4,
@@ -40730,10 +40411,23 @@
       "category": "new-page-candidate"
     },
     {
+      "name": "ORZID3 NE GMENU INFECT DIARRHEA/GASTROENT",
+      "title": "Infectious diarrhea/Gastroenteritis (Outpatient)",
+      "lines": 38,
+      "category": "same-as-original",
+      "detail": "ORZID3 GMENU INFECT DIARRHEA/GASTROENT"
+    },
+    {
       "name": "ORZID3 NE GMENU INFLUENZA 2023-2024 OUTPATIENT",
       "title": "Influenza Seasonal 2023-2024",
       "lines": 5,
       "category": "dated"
+    },
+    {
+      "name": "ORZID3 NE GMENU INFLUENZA RECOMMENDATIONS OUTPATIENT",
+      "title": "Influenza Seasonal",
+      "lines": 4,
+      "category": "navigation"
     },
     {
       "name": "ORZID3 NE GMENU INT RS GRAM-POS BACILLI",

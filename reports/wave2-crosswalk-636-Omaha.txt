@@ -1,9 +1,9 @@
 Wave 2 crosswalk: 636-Omaha (stations/636-Omaha/legacy/OmahaOMJSON.json)
 
 records: 1456
-pages: {'inherit-missing': 80, 'inherit-identical': 299, 'local-clinical': 189, 'local-text': 51, 'no-legacy-source': 6}
-local_placement: {'auto': 122, 'partial': 84, 'fallback': 34}
-station_only: {'navigation': 95, 'order-prompt': 51, 'new-page-candidate': 271, 'title-matches-page': 14, 'obsolete-accepted': 32, 'similar-to-page': 49, 'placeholder': 5, 'changed-unused-original': 2, 'same-as-original': 87, 'dated': 6, 'duplicate-of-original': 4}
+pages: {'inherit-missing': 78, 'inherit-identical': 284, 'local-clinical': 189, 'local-text': 48, 'no-legacy-source': 6}
+local_placement: {'auto': 121, 'partial': 83, 'fallback': 33}
+station_only: {'navigation': 96, 'order-prompt': 51, 'new-page-candidate': 271, 'title-matches-page': 14, 'obsolete-accepted': 32, 'similar-to-page': 49, 'placeholder': 5, 'changed-unused-original': 2, 'same-as-original': 97, 'dated': 6, 'duplicate-of-original': 4}
 match_by_title: 3
 match_by_content: 6
 
@@ -1005,7 +1005,7 @@ match_by_content: 6
        - Vancomycin 15mg/kg Weight Based Dosing Preop [R]
        + Vancomycin 15mg/kg Weight Based Dosing Preop
 
-=== index [local-clinical, fallback] Outpatient index
+=== index [local-clinical, fallback] Index
   -- Inpatient: ORZID2 NE GMENU ABX INDEX INPATIENT (matched by name)
      [both delete]
        - K________________________________________________
@@ -4659,11 +4659,6 @@ match_by_content: 6
        + NWI-HCS VA Protocol: Management of Adverse Reactions following Administration
        + of Vaccines and Monoclonal Antibodies, dated 10/4/22.
 
-=== influenza-recommendations-outpatient [local-text, partial] influenza-recommendations-outpatient
-  -- Inpatient: ORZID3 NE GMENU INFLUENZA RECOMMENDATIONS OUTPATIENT (matched by name)
-     [one delete shared:656-StCloud]
-       - Lab Influenza Testing Menu
-
 === mediastinitis [local-clinical, auto] Mediastinitis
   -- Inpatient: ORZID2 NE GMENU ABX MEDIASTINITIS (matched by name)
      [both delete clinical]
@@ -4706,13 +4701,6 @@ match_by_content: 6
      [both replace clinical]
        - Oral therapy (usually given after several days of intravenous therapy)
        + Oral Step Down Therapy
-
-=== orzid3-gmenu-influenza-chemoprophylaxis [local-text, auto] Early treatment of influenza as an alternative to chemoprophylaxis
-  -- Inpatient: ORZID3 NE GMENU INFLUENZA CHEMOPROPHYLAXIS (matched by name)
-     [both delete]
-       - Chemoprophylaxis considered:
-       - *Atypical situations (such as case clusters). Contact the state health
-       - department for consultation.
 
 === pneumonia-hap-new [local-clinical, auto] Hospital-acquired pneumonia
   -- Inpatient: ORZID2 NE GMENU ABX PNEUMONIA HAP NEW (matched by name)
@@ -4805,14 +4793,6 @@ match_by_content: 6
      [both replace clinical shared:636A6-DesMoines,656-StCloud]
        - Azithromycin 500mg po day 1, then 250mg q24h for days 2-5 ($)[O]
        + Azithromycin 500 mg PO x 1 ($) on day 1, then 250 mg PO QD ($) for 4 days
-
-=== orzid3-gmenu-cdifficile-colitis [local-text, fallback] orzid3-gmenu-cdifficile-colitis
-  -- Inpatient: ORZID3 NE GMENU CDIFFICILE COLITIS (matched by name)
-     [none insert]
-       + Fecal Microbiota (Vowst) - Restricted to ID
-       + Link: Criteria for Use
-       + Link: Patient Information Sheet
-       + Fecal microbiota (Vowst) order set
 
 === parasites [local-text, partial] Parasites (Navigation)
   -- Inpatient: ORZID2 NE GMENU PARASITES (matched by name)
@@ -7746,6 +7726,7 @@ match_by_content: 6
   navigation               ORZID3 NE GMENU CAP CHLAMYDIA PNEUMONIAE | CAP with Chlamydophila (Chlamydia) pneumoniae - Outpatient (18 lines)
   navigation               ORZID3 NE GMENU CAP MYCOPLASMA PNEUMONIAE | CAP with Mycoplasma pneumoniae (Outpatient) (17 lines)
   navigation               ORZID3 NE GMENU FUNGI | Fungi (Outpatient) (14 lines)
+  navigation               ORZID3 NE GMENU INFLUENZA RECOMMENDATIONS OUTPATIENT | Influenza Seasonal (4 lines)
   navigation               ORZID3 NE GMENU SKIN, SOFT TISSUE, MUSCLE, BONE... | Skin, Soft Tissue, Muscle, Bone and Joint Infections (Outpatient)  (23 lines)
   navigation               ORZID3 NE GMENU SOFT TISSUE, MUSCLE, BONE... | Bone, Joint, Muscle and Soft Tissue Outpatient (16 lines)
   navigation               ORZID3 NE GMENU SURG MORE INFO UROLO PROC | Approach to antimicrobial prophylaxis for urological procedures (4 lines)
@@ -8183,11 +8164,21 @@ match_by_content: 6
   same-as-original         ORZID3 NE GMENU ABX COLONIZED WOUNDS OP | Colonized Wounds (outpatient)  (16 lines) -> ORZID3 GMENU ABX COLONIZED WOUNDS OP
   same-as-original         ORZID3 NE GMENU ABX NOT BENEFITTED BACTERIURIA OP | Bacteriuria, Candiduria and Pyuria (outpatient)  (26 lines) -> ORZID3 GMENU ABX NOT BENEFITTED BACTERIURIA OP
   same-as-original         ORZID3 NE GMENU ABX REFER TO INPATIENT CDSS | Refer to Inpatient CDSS for recommendations (3 lines) -> ORZID3 GMENU ABX REFER TO INPATIENT CDSS
+  same-as-original         ORZID3 NE GMENU ABX SA DECOLONIZATION |  (31 lines) -> ORZID3 GMENU ABX SA DECOLONIZATION
   same-as-original         ORZID3 NE GMENU ABX STASIS DERMATITIS OP | Stasis Dermatitis (outpatient) (61 lines) -> ORZID3 GMENU ABX STASIS DERMATITIS OP
   same-as-original         ORZID3 NE GMENU ABX UPPER RESPIRATORY INFECTIONS OP (URI) | Upper Respiratory Infections (outpatient)  (15 lines) -> ORZID3 GMENU ABX UPPER RESPIRATORY INFECTIONS OP (URI)
+  same-as-original         ORZID3 NE GMENU BONE JOINT MUSCLE INFECTIONS | Bone, Joint, and Muscle Infections (8 lines) -> ORZID3 GMENU BONE JOINT MUSCLE INFECTIONS
+  same-as-original         ORZID3 NE GMENU CAP TREATED IN OUTPT SETTING | CAP treated in an outpatient setting (Outpatient) (46 lines) -> ORZID3 GMENU CAP TREATED IN OUTPT SETTING
   same-as-original         ORZID3 NE GMENU FEVER OF UNKNOWN ORIGIN | Fever of Unknown Origin (Outpatient) (19 lines) -> ORZID3 GMENU FEVER OF UNKNOWN ORIGIN
+  same-as-original         ORZID3 NE GMENU FOOT ULCER IN PT W/ DM | Foot ulcer in patient with diabetes mellitus (Outpatient) (8 lines) -> ORZID3 GMENU FOOT ULCER IN PT W/ DM
   same-as-original         ORZID3 NE GMENU FOOT ULCERS W/O INFECT SURR TISS | Foot ulcers WITHOUT infection of surrounding tissues (Outpatient)  (11 lines) -> ORZID3 GMENU FOOT ULCERS W/O INFECT SURR TISS
+  same-as-original         ORZID3 NE GMENU GRAM-NEG BRUCELLA SPP. | Brucella spp. (10 lines) -> ORZID3 GMENU GRAM-NEG BRUCELLA SPP.
+  same-as-original         ORZID3 NE GMENU GRAM-POS ACTINOMYCES SPP. | Actinomyces spp. (Outpatient)  (17 lines) -> ORZID3 GMENU GRAM-POS ACTINOMYCES SPP.
+  same-as-original         ORZID3 NE GMENU GRAM-POS BACILLI SPP. | Bacilli species (Outpatient) (15 lines) -> ORZID3 GMENU GRAM-POS BACILLI SPP.
+  same-as-original         ORZID3 NE GMENU GRAM-POS CORYNEBACTERIUM SPP. | Corynebacterium spp. (Outpatient) (12 lines) -> ORZID3 GMENU GRAM-POS CORYNEBACTERIUM SPP.
+  same-as-original         ORZID3 NE GMENU GRAM-POS PROPIONIBACT SPP. | Propionibacterium species (Outpatient)  (14 lines) -> ORZID3 GMENU GRAM-POS PROPIONIBACT SPP.
   same-as-original         ORZID3 NE GMENU GRAM-POS TREAT ENTEROCOCCI | BLANK PAGE (4 lines) -> ORZID3 GMENU GRAM-POS TREAT ENTEROCOCCI
+  same-as-original         ORZID3 NE GMENU INFECT DIARRHEA/GASTROENT | Infectious diarrhea/Gastroenteritis (Outpatient) (38 lines) -> ORZID3 GMENU INFECT DIARRHEA/GASTROENT
   same-as-original         ORZID3 NE GMENU INT RS GRAM-POS BACILLI | BLANK PAGE (4 lines) -> ORZID3 GMENU INT RS GRAM-POS BACILLI
   same-as-original         ORZID3 NE GMENU INT RS GRAM-POS COCCI PAIRS | BLANK PAGE (4 lines) -> ORZID3 GMENU INT RS GRAM-POS COCCI PAIRS
   same-as-original         ORZID3 NE GMENU LRG UNIF BAC AEROBIC BOT | BLANK PAGE (4 lines) -> ORZID3 GMENU LRG UNIF BAC AEROBIC BOT
@@ -8201,7 +8192,7 @@ match_by_content: 6
   similar-to-page          ORZID NE GMENU ABX GENRL DURATION | Information about duration of therapy (8 lines) -> duration-of-antimicrobial-therapy (0.41)
   similar-to-page          ORZID NE GMENU ED/UC SEPSIS AND SHOCK | ED Sepis and Septic Shock (26 lines) -> sepsis-and-shock (0.41)
   similar-to-page          ORZID NE GMENU ER/UC APPROACH TO CELLULITIS | ED Approach to Cellulitis (27 lines) -> more-about-cellulitis (0.68)
-  similar-to-page          ORZID NE GMENU ER/UC CAP OUTPATIENT TREATED SETTING | CAP treated in an outpatient setting (Outpatient) (46 lines) -> cap-oral-treatment (0.51)
+  similar-to-page          ORZID NE GMENU ER/UC CAP OUTPATIENT TREATED SETTING | CAP treated in an outpatient setting (Outpatient) (46 lines) -> cap-oral-treatment (0.50)
   similar-to-page          ORZID NE GMENU ER/UC COMP CYSTITIS | ED Complicated Cystitis  (52 lines) -> epididymitis (0.83)
   similar-to-page          ORZID NE GMENU ER/UC HOSPITAL ACQUIRED PNEUMONIA | ED Hospital Acquired Pneumonia (55 lines) -> pneumonia-hap-new (0.40)
   similar-to-page          ORZID NE GMENU ER/UC PYELONEPHRITIS | ED Pyelonephritis  (93 lines) -> complicated-uti-no-catheter (0.41)
@@ -8238,7 +8229,7 @@ match_by_content: 6
   similar-to-page          ORZID3 NE GMENU ABX DERM POST-OP INFECTIONS |  (66 lines) -> derm-post-op-infections (0.95)
   similar-to-page          ORZID3 NE GMENU ABX DERM PROPHYLAXIS  |  (41 lines) -> derm-prophylaxis (0.99)
   similar-to-page          ORZID3 NE GMENU ABX DERM SURGICAL INFECTION |  (41 lines) -> dermatologic-surgical-site-infection (0.94)
-  similar-to-page          ORZID3 NE GMENU COMM ACQ PNEUMONIA | Community acquired pneumonia (Outpatient)  (26 lines) -> com-acq-pneumonia (0.53)
+  similar-to-page          ORZID3 NE GMENU COMM ACQ PNEUMONIA | Community acquired pneumonia (Outpatient)  (26 lines) -> com-acq-pneumonia (0.55)
   similar-to-page          ORZID3 NE GMENU COMPLICATED CYSTITIS | Complicated Cystitis (Outpatient) (98 lines) -> complicated-uti-catheter-associated (0.56)
   similar-to-page          ORZID3 NE GMENU CONTACT CDSS PROJECT STAFF  |  (2 lines) -> contact-cdss-project-team (0.50)
   similar-to-page          ORZID3 NE GMENU PELVIC INFLAM DISORDER | Pelvic inflammatory disorder (PID) - Outpatient  (41 lines) -> pid (0.58)

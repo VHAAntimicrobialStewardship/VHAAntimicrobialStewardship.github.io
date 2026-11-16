@@ -1,9 +1,9 @@
 Wave 2 crosswalk: 656-StCloud (stations/656-StCloud/legacy/StCloudOMJSON.json)
 
 records: 1224
-pages: {'inherit-missing': 80, 'inherit-identical': 314, 'local-text': 54, 'local-clinical': 171, 'no-legacy-source': 6}
-local_placement: {'auto': 123, 'partial': 74, 'fallback': 28}
-station_only: {'order-prompt': 9, 'obsolete-accepted': 32, 'placeholder': 6, 'same-as-original': 95, 'navigation': 25, 'dated': 3, 'similar-to-page': 52, 'new-page-candidate': 188, 'title-matches-page': 28, 'duplicate-of-original': 3, 'changed-unused-original': 1}
+pages: {'inherit-missing': 77, 'inherit-identical': 299, 'local-text': 53, 'local-clinical': 170, 'no-legacy-source': 6}
+local_placement: {'auto': 123, 'partial': 73, 'fallback': 27}
+station_only: {'order-prompt': 9, 'obsolete-accepted': 32, 'placeholder': 6, 'same-as-original': 105, 'navigation': 26, 'dated': 3, 'similar-to-page': 52, 'new-page-candidate': 188, 'title-matches-page': 28, 'duplicate-of-original': 3, 'changed-unused-original': 1}
 match_by_title: 4
 match_by_content: 0
 
@@ -3505,27 +3505,10 @@ match_by_content: 0
      [both insert]
        + [Click Here] Influenza Afluria Vaccine Inpatient
 
-=== influenza-recommendations-outpatient [local-text, partial] influenza-recommendations-outpatient
-  -- Inpatient: ORZID3 GMENU INFLUENZA RECOMMENDATIONS OUTPATIENT (matched by name)
-     [one delete shared:636-Omaha]
-       - Lab Influenza Testing Menu
-
 === mediastinitis [local-text, auto] Mediastinitis
   -- Inpatient: ORZID2 GMENU ABX MEDIASTINITIS (matched by name)
      [both delete shared:636-Omaha,636A6-DesMoines]
        - < OR >
-
-=== orzid3-gmenu-influenza-chemoprophylaxis [local-clinical, fallback] Early treatment of influenza as an alternative to chemoprophylaxis
-  -- Inpatient: ORZID3 GMENU INFLUENZA CHEMOPROPHYLAXIS (matched by name)
-     [both insert clinical]
-       + Normal renal function CrCl > 60 ml/min
-     [one replace clinical]
-       - (See information above for length of prophylaxis)
-       + Adjustments for renal impairment
-       + <Select here> Oseltamivir dose adjustments for renal function
-     [none replace clinical]
-       - Centers for Disease Control (CDC) (Accessed 9/8/23)
-       + Centers for Disease Control
 
 === bacteria [local-clinical, partial] Bacteria section (Navigation)
   -- Outpatient: ORZID3 GMENU BACTERIA MAIN MENU (matched by name)
@@ -6633,6 +6616,7 @@ match_by_content: 0
   navigation               ORZID3 GMENU CAP CHLAMYDIA PNEUMONIAE | CAP with Chlamydophila (Chlamydia) pneumoniae - Outpatient (18 lines)
   navigation               ORZID3 GMENU CAP MYCOPLASMA PNEUMONIAE | CAP with Mycoplasma pneumoniae (Outpatient) (17 lines)
   navigation               ORZID3 GMENU CAP S. AUREUS | CAP with Staphylococcus aureus (Outpatient) (25 lines)
+  navigation               ORZID3 GMENU INFLUENZA RECOMMENDATIONS OUTPATIENT | Influenza Seasonal 2023-2024 (4 lines)
   new-page-candidate       ORZID2 GMENU ABX C.DIFF 1ST RECURRENCE | First Recurrence of Antibiotic Associated Colitis... (22 lines)
   new-page-candidate       ORZID2 GMENU ABX C.DIFF 2ND RECURRENCE | Second Recurrence of Antibiotic Associated Colitis...  (25 lines)
   new-page-candidate       ORZID2 GMENU ABX C.DIFF INITIAL | Initial Antibiotic Associated Colitis (22 lines)
@@ -6948,14 +6932,24 @@ match_by_content: 0
   same-as-original         ORZID3 GMENU ABX RABIES RISK CATEGORIES | Rabies Risk Categories (23 lines) -> ORZID3 GMENU ABX RABIES RISK CATEGORIES
   same-as-original         ORZID3 GMENU ABX RECOMMENDED IMMUNIZATIONS BY AGE | CDC Recommended Adult Immunizations by Age (5 lines) -> ORZID3 GMENU ABX RECOMMENDED IMMUNIZATIONS BY AGE
   same-as-original         ORZID3 GMENU ABX REFER TO INPATIENT CDSS | Refer to Inpatient CDSS for recommendations (3 lines) -> ORZID3 GMENU ABX REFER TO INPATIENT CDSS
+  same-as-original         ORZID3 GMENU ABX SA DECOLONIZATION | NULL (31 lines) -> ORZID3 GMENU ABX SA DECOLONIZATION
   same-as-original         ORZID3 GMENU ABX STASIS DERMATITIS OP | Stasis Dermatitis (outpatient) (61 lines) -> ORZID3 GMENU ABX STASIS DERMATITIS OP
   same-as-original         ORZID3 GMENU ABX UPPER RESPIRATORY INFECTIONS OP (URI) | Upper Respiratory Infections (outpatient)  (15 lines) -> ORZID3 GMENU ABX UPPER RESPIRATORY INFECTIONS OP (URI)
   same-as-original         ORZID3 GMENU BITE WNDS METH RES S. AUREUS | Bite wounds with Methicillin-resistant S. aureus (Outpatient) (20 lines) -> ORZID3 GMENU BITE WNDS METH RES S. AUREUS
+  same-as-original         ORZID3 GMENU BONE JOINT MUSCLE INFECTIONS | Bone, Joint, and Muscle Infections (8 lines) -> ORZID3 GMENU BONE JOINT MUSCLE INFECTIONS
+  same-as-original         ORZID3 GMENU CAP TREATED IN OUTPT SETTING | CAP treated in an outpatient setting (Outpatient) (46 lines) -> ORZID3 GMENU CAP TREATED IN OUTPT SETTING
   same-as-original         ORZID3 GMENU DIARRHEA E. HISTOLYTICA | Diarrhea with Entamoeba histolytica (Outpatient) (12 lines) -> ORZID3 GMENU DIARRHEA E. HISTOLYTICA
   same-as-original         ORZID3 GMENU DIARRHEA VIBRIO NON CHOLERA | Diarrhea with non-cholera vibrio (Outpatient) (27 lines) -> ORZID3 GMENU DIARRHEA VIBRIO NON CHOLERA
   same-as-original         ORZID3 GMENU FEVER OF UNKNOWN ORIGIN | Fever of Unknown Origin (Outpatient) (19 lines) -> ORZID3 GMENU FEVER OF UNKNOWN ORIGIN
+  same-as-original         ORZID3 GMENU FOOT ULCER IN PT W/ DM | Foot ulcer in patient with diabetes mellitus (Outpatient) (8 lines) -> ORZID3 GMENU FOOT ULCER IN PT W/ DM
   same-as-original         ORZID3 GMENU FOOT ULCERS W/O INFECT SURR TISS | Foot ulcers WITHOUT infection of surrounding tissues (Outpatient)  (11 lines) -> ORZID3 GMENU FOOT ULCERS W/O INFECT SURR TISS
+  same-as-original         ORZID3 GMENU GRAM-NEG BRUCELLA SPP. | Brucella spp. (10 lines) -> ORZID3 GMENU GRAM-NEG BRUCELLA SPP.
+  same-as-original         ORZID3 GMENU GRAM-POS ACTINOMYCES SPP. | Actinomyces spp. (Outpatient)  (17 lines) -> ORZID3 GMENU GRAM-POS ACTINOMYCES SPP.
+  same-as-original         ORZID3 GMENU GRAM-POS BACILLI SPP. | Bacilli species (Outpatient) (15 lines) -> ORZID3 GMENU GRAM-POS BACILLI SPP.
+  same-as-original         ORZID3 GMENU GRAM-POS CORYNEBACTERIUM SPP. | Corynebacterium spp. (Outpatient) (12 lines) -> ORZID3 GMENU GRAM-POS CORYNEBACTERIUM SPP.
+  same-as-original         ORZID3 GMENU GRAM-POS PROPIONIBACT SPP. | Propionibacterium species (Outpatient)  (14 lines) -> ORZID3 GMENU GRAM-POS PROPIONIBACT SPP.
   same-as-original         ORZID3 GMENU GRAM-POS TREAT ENTEROCOCCI | BLANK PAGE (4 lines) -> ORZID3 GMENU GRAM-POS TREAT ENTEROCOCCI
+  same-as-original         ORZID3 GMENU INFECT DIARRHEA/GASTROENT | Infectious diarrhea/Gastroenteritis (Outpatient) (38 lines) -> ORZID3 GMENU INFECT DIARRHEA/GASTROENT
   same-as-original         ORZID3 GMENU INT RS GRAM-POS BACILLI | BLANK PAGE (4 lines) -> ORZID3 GMENU INT RS GRAM-POS BACILLI
   same-as-original         ORZID3 GMENU INT RS GRAM-POS COCCI PAIRS | BLANK PAGE (4 lines) -> ORZID3 GMENU INT RS GRAM-POS COCCI PAIRS
   same-as-original         ORZID3 GMENU LRG UNIF BAC AEROBIC BOT | BLANK PAGE (4 lines) -> ORZID3 GMENU LRG UNIF BAC AEROBIC BOT
@@ -7011,7 +7005,7 @@ match_by_content: 0
   similar-to-page          ORZID3 GMENU ABX DERM SURGICAL INFECTION |  (41 lines) -> dermatologic-surgical-site-infection (0.94)
   similar-to-page          ORZID3 GMENU ABX DERM SURGICAL OUTPATIENT DERM SURGICAL INF | Dermatologic Surgical Site Infection (37 lines) -> dermatologic-surgical-site-infection (0.63)
   similar-to-page          ORZID3 GMENU ABX DERMATOLOGIC SURGERY GUIDELINES | Prevention of Post-OP Skin Infections and Endocarditis Prophylaxis (18 lines) -> photodynamic-therapy-hsv-1-prophylaxis (0.62)
-  similar-to-page          ORZID3 GMENU COMM ACQ PNEUMONIA | Community acquired pneumonia (Outpatient)  (26 lines) -> com-acq-pneumonia (0.53)
+  similar-to-page          ORZID3 GMENU COMM ACQ PNEUMONIA | Community acquired pneumonia (Outpatient)  (26 lines) -> com-acq-pneumonia (0.55)
   similar-to-page          ORZID3 GMENU COMPLICATED CYSTITIS | Complicated Cystitis (Outpatient) (104 lines) -> complicated-uti-catheter-associated (0.60)
   similar-to-page          ORZID3 GMENU CONTACT CDSS PROJECT STAFF | Contact the CDSS Project Staff (6 lines) -> contact-cdss-project-team (0.41)
   similar-to-page          ORZID3 GMENU FUNGI P. JIROVECII | Pneumocystis Jirovecii Disease (38 lines) -> pneumocystis-jirovecii (0.62)
